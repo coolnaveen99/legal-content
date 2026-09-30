@@ -85,4 +85,39 @@ const manifest = loadJson(join(REPO_ROOT, 'manifests/content-manifest.json'))
 if (!validators.manifest(manifest)) {
   errors.push(`manifests/content-manifest.json invalid — ${ajv.errorsText(validators.manifest.errors)}`)
 }
-If (false) {}
+if (manifest.repository !== 'coolnaveen99/legal-content') {
+  errors.push('manifest repository must be coolnaveen99/legal-content')
+}
+
+const manifestIds = new Set((manifest.entities || []).map((e) => e.id))
+for (const entry of manifest.entities || []) {
+  const live = byId.get(entry.id)
+  if (!live) {
+    errors.push(`manifest lists unknown id ${entry.id}`)
+    continue
+  }
+  if (live.data.status !== entry.status) {
+    errors.push(`manifest status mismatch for ${entry.id}`)
+  }
+  if (live.relPath !== entry.path) {
+    errors.push(`manifest path mismatch for ${entry.id}: ${entry.path} vs ${live.relPath}`)
+  }
+}
+
+for (const entity of entities) {
+  if (entity.data.status === 'published' && !manifestIds.has(entity.data.id)) {
+    errors.push(`${entity.relPath}: published entity missing from manifest`)
+  }
+}
+
+console.log(`Validated ${entities.length} entities.`)
+if (warnings.length) {
+  console.log(`Warnings (${warnings.length}):`)
+  for (const w of warnings) console.log(`  warn  ${w}`)
+}
+if (errors.length) {
+  console.error(`Errors (${errors.length}):`)
+  for (const e of errors) console.error(`  error ${e}`)
+  process.exit(1)
+}
+console.log('legal-content validation passed')
