@@ -6,7 +6,7 @@
   "required": ["schemaVersion", "entityType", "id", "version", "status", "title", "jurisdiction", "content", "sources", "updatedAt"],
   "properties": {
     "schemaVersion": { "type": "string", "pattern": "^v[0-9]+$" },
-    "entityType": { "type": "string", "enum": ["topic", "provision", "judgment", "doctrine", "comparison", "illustration", "source", "collection"] },
+    "entityType": { "type": "string", "enum": ["topic", "provision", "judgment", "doctrine", "comparison", "illustration", "source", "collection","sanhitaMapping","seoRecord"] },
     "id": { "type": "string", "pattern": "^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$" },
     "version": { "type": "integer", "minimum": 1 },
     "status": { "type": "string", "enum": ["draft", "research", "review", "verified", "approved", "published", "review-due", "update", "archived"] },
