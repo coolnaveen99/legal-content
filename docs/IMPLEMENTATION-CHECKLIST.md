@@ -66,16 +66,16 @@
 
 ## 4. Source and legal verification
 
-- [ ] Source record contract
-- [ ] Primary/secondary source classification
-- [ ] Citation/provenance model
-- [ ] Source verification status
-- [ ] Court/judgment source metadata
-- [ ] Legislation source metadata
-- [ ] Historical-law verification rules
-- [ ] Current-law verification rules
-- [ ] Copyright/data-governance rules
-- [ ] No-invented-citation rule
+- [x] Source record contract — `docs/SOURCE-AND-VERIFICATION.md` §1 + `schemas/source.schema.json`
+- [x] Primary/secondary source classification — `docs/SOURCE-AND-VERIFICATION.md` §2
+- [x] Citation/provenance model — `docs/SOURCE-AND-VERIFICATION.md` §3
+- [x] Source verification status — `docs/SOURCE-AND-VERIFICATION.md` §4
+- [x] Court/judgment source metadata — `docs/SOURCE-AND-VERIFICATION.md` §5
+- [x] Legislation source metadata — `docs/SOURCE-AND-VERIFICATION.md` §6
+- [x] Historical-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §7 + historical-law doc
+- [x] Current-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §8
+- [x] Copyright/data-governance rules — `docs/SOURCE-AND-VERIFICATION.md` §9
+- [x] No-invented-citation rule — `docs/SOURCE-AND-VERIFICATION.md` §10
 
 ## 5. Judgment Decoder
 
