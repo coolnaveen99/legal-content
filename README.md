@@ -6,61 +6,21 @@ Canonical, structured legal content repository for the CodePackr Law digital leg
 
 This repository is the canonical content/data layer for the legal library. It is designed to hold structured, versioned, source-aware legal knowledge independently from the application code in `codepackr-law`.
 
-## Content domains
+## Validation
 
-- Topics
-- Provisions and legislation metadata
-- Judgments and judgment decoding
-- Doctrines
-- Comparisons
-- Illustrations and visual learning assets
-- Sources and citations
-- BNS / BNSS / BSA and other legal mappings
-- Collections and research metadata
-- SEO metadata
-
-## Content lifecycle
-
-`draft → research → review → verified → approved → published → review-due → update → archived`
-
-## Repository principles
-
-- Stable canonical IDs for legal entities
-- Source-aware and citation-preserving content
-- Historical-law and current-law states kept distinct
-- No artificial word-count limits
-- No wholesale copying of copyrighted third-party material
-- Machine-readable schemas and manifests
-- Validation before publication
-- Versioned content suitable for application consumption
-
-## Application integration
-
-The `codepackr-law` application consumes this repository through the planned Content Repository / Content Gateway architecture.
-
-## Initial structure
-
-```text
-legal-content/
-├── schemas/
-├── manifests/
-├── topics/
-├── provisions/
-├── judgments/
-├── doctrines/
-├── comparisons/
-├── illustrations/
-├── sources/
-├── sanhita-mappings/
-├── collections/
-└── seo/
+```bash
+npm install
+npm run manifest
+npm run ci
 ```
 
+`npm run validate` checks JSON Schema, canonical IDs, duplicate IDs, sources, cross-entity references, and manifest parity.
+Pull requests are gated by `.github/workflows/validate.yml`.
 
-## Implementation tracking
+## Application consumption
 
-The repository is developed through the tracked implementation plan in [docs/IMPLEMENTATION-CHECKLIST.md](docs/IMPLEMENTATION-CHECKLIST.md). A task is considered complete only after implementation and verification.
+`coolnaveen99/codepackr-law` reads published entities through ContentGateway. Set `VITE_LEGAL_CONTENT_BASE_URL` to a read-only base URL that serves this repository's files. A Git clone URL is not a runtime API.
 
-Repository governance and naming rules are documented in [docs/REPOSITORY-GOVERNANCE.md](docs/REPOSITORY-GOVERNANCE.md).
+The current corpus is a pilot slice. Full migration is tracked in `docs/IMPLEMENTATION-CHECKLIST.md` §11 and `docs/MIGRATION-PILOT.md`.
 
-The canonical repository identity is **coolnaveen99/legal-content**. The application consuming this content is **coolnaveen99/codepackr-law**.
+The canonical repository identity is **coolnaveen99/legal-content**.
