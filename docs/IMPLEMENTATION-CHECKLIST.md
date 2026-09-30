@@ -79,35 +79,35 @@
 
 ## 5. Judgment Decoder
 
-- [ ] Complete judgment decoder schema
-- [ ] Case identity
-- [ ] Court and bench
-- [ ] Date
-- [ ] Parties
-- [ ] Dispute origin
-- [ ] Original forum
-- [ ] Procedural history
-- [ ] Facts
-- [ ] Party arguments
-- [ ] Questions/issues
-- [ ] Laws involved
-- [ ] Precedents relied upon
-- [ ] Precedents distinguished/challenged
-- [ ] Court questions
-- [ ] Court reasoning
-- [ ] Step-by-step reasoning
-- [ ] Issue-wise findings
-- [ ] Majority reasoning
-- [ ] Separate opinions
-- [ ] Holding
-- [ ] Ratio decidendi
-- [ ] Obiter
-- [ ] Final order
-- [ ] Legal change
-- [ ] Later judgments
-- [ ] Present legal position
-- [ ] Practical significance
-- [ ] Source/page/paragraph mapping only where supported by the source
+- [x] Complete judgment decoder schema — `schemas/judgment.schema.json` + `docs/JUDGMENT-DECODER.md`
+- [x] Case identity — `content.caseIdentity`
+- [x] Court and bench — `content.court`, `content.bench`
+- [x] Date — `content.date`
+- [x] Parties — `content.parties`
+- [x] Dispute origin — `content.disputeOrigin`
+- [x] Original forum — `content.originalForum`
+- [x] Procedural history — `content.proceduralHistory`
+- [x] Facts — `content.facts`
+- [x] Party arguments — `content.argumentsPartyA`, `content.argumentsPartyB`
+- [x] Questions/issues — `content.questionsBeforeCourt`
+- [x] Laws involved — `content.lawsInvolved`
+- [x] Precedents relied upon — `content.precedentsReliedUpon`
+- [x] Precedents distinguished/challenged — `content.precedentsDistinguishedOrChallenged`
+- [x] Court questions — `content.courtQuestions`
+- [x] Court reasoning — `content.reasoning`
+- [x] Step-by-step reasoning — `content.stepByStepReasoning`
+- [x] Issue-wise findings — `content.findings`
+- [x] Majority reasoning — `content.majorityReasoning`
+- [x] Separate opinions — `content.separateOpinions`
+- [x] Holding — `content.holding`
+- [x] Ratio decidendi — `content.ratioDecidendi`
+- [x] Obiter — `content.obiter`
+- [x] Final order — `content.finalOrder`
+- [x] Legal change — `content.legalChange`
+- [x] Later judgments — `content.laterJudgments`
+- [x] Present legal position — `content.presentLegalPosition`
+- [x] Practical significance — `content.practicalSignificance`
+- [x] Source/page/paragraph mapping only where supported by the source — `docs/JUDGMENT-DECODER.md` (policy; optional schema field later)
 
 ## 6. Research and relationships
 
