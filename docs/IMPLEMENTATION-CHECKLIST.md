@@ -55,59 +55,59 @@
 
 ## 3. Manifest and versioning
 
-- [ ] Manifest generation specification
-- [ ] Entity versioning specification
-- [ ] Content hash specification
-- [ ] Manifest integrity validation
-- [ ] Stable ID collision validation
-- [ ] Orphan-reference validation
-- [ ] Missing-source validation
-- [ ] Publication snapshot/version strategy
+- [x] Manifest generation specification — `docs/MANIFEST-AND-VERSIONING.md` §1
+- [x] Entity versioning specification — `docs/MANIFEST-AND-VERSIONING.md` §2
+- [x] Content hash specification — `docs/MANIFEST-AND-VERSIONING.md` §3
+- [x] Manifest integrity validation — `docs/MANIFEST-AND-VERSIONING.md` §4 (spec; CI in Section 10)
+- [x] Stable ID collision validation — `docs/MANIFEST-AND-VERSIONING.md` §5 (spec; CI in Section 10)
+- [x] Orphan-reference validation — `docs/MANIFEST-AND-VERSIONING.md` §6 (spec; CI in Section 10)
+- [x] Missing-source validation — `docs/MANIFEST-AND-VERSIONING.md` §7 (spec; CI in Section 10)
+- [x] Publication snapshot/version strategy — `docs/MANIFEST-AND-VERSIONING.md` §8
 
 ## 4. Source and legal verification
 
-- [ ] Source record contract
-- [ ] Primary/secondary source classification
-- [ ] Citation/provenance model
-- [ ] Source verification status
-- [ ] Court/judgment source metadata
-- [ ] Legislation source metadata
-- [ ] Historical-law verification rules
-- [ ] Current-law verification rules
-- [ ] Copyright/data-governance rules
-- [ ] No-invented-citation rule
+- [x] Source record contract — `docs/SOURCE-AND-VERIFICATION.md` §1 + `schemas/source.schema.json`
+- [x] Primary/secondary source classification — `docs/SOURCE-AND-VERIFICATION.md` §2
+- [x] Citation/provenance model — `docs/SOURCE-AND-VERIFICATION.md` §3
+- [x] Source verification status — `docs/SOURCE-AND-VERIFICATION.md` §4
+- [x] Court/judgment source metadata — `docs/SOURCE-AND-VERIFICATION.md` §5
+- [x] Legislation source metadata — `docs/SOURCE-AND-VERIFICATION.md` §6
+- [x] Historical-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §7 + historical-law doc
+- [x] Current-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §8
+- [x] Copyright/data-governance rules — `docs/SOURCE-AND-VERIFICATION.md` §9
+- [x] No-invented-citation rule — `docs/SOURCE-AND-VERIFICATION.md` §10
 
 ## 5. Judgment Decoder
 
-- [ ] Complete judgment decoder schema
-- [ ] Case identity
-- [ ] Court and bench
-- [ ] Date
-- [ ] Parties
-- [ ] Dispute origin
-- [ ] Original forum
-- [ ] Procedural history
-- [ ] Facts
-- [ ] Party arguments
-- [ ] Questions/issues
-- [ ] Laws involved
-- [ ] Precedents relied upon
-- [ ] Precedents distinguished/challenged
-- [ ] Court questions
-- [ ] Court reasoning
-- [ ] Step-by-step reasoning
-- [ ] Issue-wise findings
-- [ ] Majority reasoning
-- [ ] Separate opinions
-- [ ] Holding
-- [ ] Ratio decidendi
-- [ ] Obiter
-- [ ] Final order
-- [ ] Legal change
-- [ ] Later judgments
-- [ ] Present legal position
-- [ ] Practical significance
-- [ ] Source/page/paragraph mapping only where supported by the source
+- [x] Complete judgment decoder schema — `schemas/judgment.schema.json` + `docs/JUDGMENT-DECODER.md`
+- [x] Case identity — `content.caseIdentity`
+- [x] Court and bench — `content.court`, `content.bench`
+- [x] Date — `content.date`
+- [x] Parties — `content.parties`
+- [x] Dispute origin — `content.disputeOrigin`
+- [x] Original forum — `content.originalForum`
+- [x] Procedural history — `content.proceduralHistory`
+- [x] Facts — `content.facts`
+- [x] Party arguments — `content.argumentsPartyA`, `content.argumentsPartyB`
+- [x] Questions/issues — `content.questionsBeforeCourt`
+- [x] Laws involved — `content.lawsInvolved`
+- [x] Precedents relied upon — `content.precedentsReliedUpon`
+- [x] Precedents distinguished/challenged — `content.precedentsDistinguishedOrChallenged`
+- [x] Court questions — `content.courtQuestions`
+- [x] Court reasoning — `content.reasoning`
+- [x] Step-by-step reasoning — `content.stepByStepReasoning`
+- [x] Issue-wise findings — `content.findings`
+- [x] Majority reasoning — `content.majorityReasoning`
+- [x] Separate opinions — `content.separateOpinions`
+- [x] Holding — `content.holding`
+- [x] Ratio decidendi — `content.ratioDecidendi`
+- [x] Obiter — `content.obiter`
+- [x] Final order — `content.finalOrder`
+- [x] Legal change — `content.legalChange`
+- [x] Later judgments — `content.laterJudgments`
+- [x] Present legal position — `content.presentLegalPosition`
+- [x] Practical significance — `content.practicalSignificance`
+- [x] Source/page/paragraph mapping only where supported by the source — `docs/JUDGMENT-DECODER.md` (policy; optional schema field later)
 
 ## 6. Research and relationships
 
