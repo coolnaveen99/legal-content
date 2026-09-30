@@ -26,14 +26,14 @@
 - [x] Judgment schema created
 - [x] Manifest schema created
 - [x] Initial content manifest created
-- [ ] Provision schema
-- [ ] Doctrine schema
-- [ ] Comparison schema
-- [ ] Illustration schema
-- [ ] Source schema
-- [ ] Sanhita-mapping schema
-- [ ] Collection schema
-- [ ] SEO metadata schema
+- [x] Provision schema
+- [x] Doctrine schema
+- [x] Comparison schema
+- [x] Illustration schema
+- [x] Source schema
+- [x] Sanhita-mapping schema
+- [x] Collection schema
+- [x] SEO metadata schema
 - [ ] Cross-entity reference rules
 - [ ] Historical/current-law representation rules
 - [ ] Schema versioning policy
@@ -136,7 +136,7 @@
 
 ## 8. Content Gateway integration
 
-- [ ] Content Gateway contract finalized
+- [x] Content Gateway contract finalized
 - [ ] Repository API/read contract finalized
 - [ ] Manifest loading contract finalized
 - [ ] Content shard loading contract finalized
