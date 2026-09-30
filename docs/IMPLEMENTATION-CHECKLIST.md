@@ -10,12 +10,12 @@
 
 - [x] Repository name finalized as `legal-content`
 - [x] Repository purpose documented in README
-- [ ] Repository governance document created
-- [ ] Repository naming references audited; no `codepackr-law-content` references remain
-- [ ] Application integration references use `coolnaveen99/legal-content`
-- [ ] Ownership and contribution rules documented
-- [ ] Branch protection / review policy defined
-- [ ] Legal-content change approval policy defined
+- [x] Repository governance document created — `docs/REPOSITORY-GOVERNANCE.md` (expanded 2026-09-30: ownership, branch policy, naming audit)
+- [x] Repository naming references audited; no `codepackr-law-content` references remain (search 2026-09-30: only prohibition text in application copilot instructions)
+- [x] Application integration references use `coolnaveen99/legal-content` (README, governance, manifest)
+- [x] Ownership and contribution rules documented — governance + `CONTRIBUTING.md`
+- [x] Branch protection / review policy defined — documented in governance (GitHub settings UI still to be applied by owner)
+- [x] Legal-content change approval policy defined — `docs/CHANGE-APPROVAL-POLICY.md`
 
 ## 1. Canonical content architecture
 
@@ -34,24 +34,24 @@
 - [x] Sanhita-mapping schema
 - [x] Collection schema
 - [x] SEO metadata schema
-- [ ] Cross-entity reference rules
-- [ ] Historical/current-law representation rules
-- [ ] Schema versioning policy
+- [x] Cross-entity reference rules — `docs/CROSS-ENTITY-REFERENCE-RULES.md`
+- [x] Historical/current-law representation rules — `docs/HISTORICAL-CURRENT-LAW-RULES.md`
+- [x] Schema versioning policy — `docs/SCHEMA-VERSIONING-POLICY.md`
 
 ## 2. Content lifecycle
 
-- [ ] Draft state rules
-- [ ] Research state rules
-- [ ] Review state rules
-- [ ] Verification state rules
-- [ ] Approval state rules
-- [ ] Published state rules
-- [ ] Review-due state rules
-- [ ] Update state rules
-- [ ] Archive state rules
-- [ ] Required evidence for each transition
-- [ ] Audit trail model
-- [ ] Content reviewer/approver roles
+- [x] Draft state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Research state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Review state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Verification state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Approval state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Published state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Review-due state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Update state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Archive state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Required evidence for each transition — `docs/CHANGE-APPROVAL-POLICY.md` + lifecycle
+- [x] Audit trail model — `docs/CONTENT-LIFECYCLE.md`
+- [x] Content reviewer/approver roles — `docs/CONTENT-LIFECYCLE.md` + governance
 
 ## 3. Manifest and versioning
 
