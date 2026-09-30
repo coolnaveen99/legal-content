@@ -34,24 +34,24 @@
 - [x] Sanhita-mapping schema
 - [x] Collection schema
 - [x] SEO metadata schema
-- [ ] Cross-entity reference rules
-- [ ] Historical/current-law representation rules
-- [ ] Schema versioning policy
+- [x] Cross-entity reference rules — `docs/CROSS-ENTITY-REFERENCE-RULES.md`
+- [x] Historical/current-law representation rules — `docs/HISTORICAL-CURRENT-LAW-RULES.md`
+- [x] Schema versioning policy — `docs/SCHEMA-VERSIONING-POLICY.md`
 
 ## 2. Content lifecycle
 
-- [ ] Draft state rules
-- [ ] Research state rules
-- [ ] Review state rules
-- [ ] Verification state rules
-- [ ] Approval state rules
-- [ ] Published state rules
-- [ ] Review-due state rules
-- [ ] Update state rules
-- [ ] Archive state rules
-- [ ] Required evidence for each transition
-- [ ] Audit trail model
-- [ ] Content reviewer/approver roles
+- [x] Draft state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Research state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Review state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Verification state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Approval state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Published state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Review-due state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Update state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Archive state rules — `docs/CONTENT-LIFECYCLE.md`
+- [x] Required evidence for each transition — `docs/CHANGE-APPROVAL-POLICY.md` + lifecycle
+- [x] Audit trail model — `docs/CONTENT-LIFECYCLE.md`
+- [x] Content reviewer/approver roles — `docs/CONTENT-LIFECYCLE.md` + governance
 
 ## 3. Manifest and versioning
 
