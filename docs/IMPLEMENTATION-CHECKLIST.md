@@ -1,0 +1,243 @@
+# Legal Content Repository — Implementation Checklist
+
+> **Purpose:** Single tracking checklist for the canonical `legal-content` repository.
+>
+> **Rule:** This checklist is the source of truth for repository completion tracking. Do not mark an item complete unless the implementation and verification evidence exist.
+>
+> **Completion rule:** When every required item is verified as complete, move the completed checklist and superseded implementation notes into `archive/` and create a new immutable completion record under `archive/completions/`. Do not archive active schemas, manifests, governance rules, or content.
+
+## 0. Repository identity and governance
+
+- [x] Repository name finalized as `legal-content`
+- [x] Repository purpose documented in README
+- [ ] Repository governance document created
+- [ ] Repository naming references audited; no `codepackr-law-content` references remain
+- [ ] Application integration references use `coolnaveen99/legal-content`
+- [ ] Ownership and contribution rules documented
+- [ ] Branch protection / review policy defined
+- [ ] Legal-content change approval policy defined
+
+## 1. Canonical content architecture
+
+- [x] Base content directories created
+- [x] Canonical entity ID standard created
+- [x] Common content envelope schema created
+- [x] Topic schema created
+- [x] Judgment schema created
+- [x] Manifest schema created
+- [x] Initial content manifest created
+- [ ] Provision schema
+- [ ] Doctrine schema
+- [ ] Comparison schema
+- [ ] Illustration schema
+- [ ] Source schema
+- [ ] Sanhita-mapping schema
+- [ ] Collection schema
+- [ ] SEO metadata schema
+- [ ] Cross-entity reference rules
+- [ ] Historical/current-law representation rules
+- [ ] Schema versioning policy
+
+## 2. Content lifecycle
+
+- [ ] Draft state rules
+- [ ] Research state rules
+- [ ] Review state rules
+- [ ] Verification state rules
+- [ ] Approval state rules
+- [ ] Published state rules
+- [ ] Review-due state rules
+- [ ] Update state rules
+- [ ] Archive state rules
+- [ ] Required evidence for each transition
+- [ ] Audit trail model
+- [ ] Content reviewer/approver roles
+
+## 3. Manifest and versioning
+
+- [ ] Manifest generation specification
+- [ ] Entity versioning specification
+- [ ] Content hash specification
+- [ ] Manifest integrity validation
+- [ ] Stable ID collision validation
+- [ ] Orphan-reference validation
+- [ ] Missing-source validation
+- [ ] Publication snapshot/version strategy
+
+## 4. Source and legal verification
+
+- [ ] Source record contract
+- [ ] Primary/secondary source classification
+- [ ] Citation/provenance model
+- [ ] Source verification status
+- [ ] Court/judgment source metadata
+- [ ] Legislation source metadata
+- [ ] Historical-law verification rules
+- [ ] Current-law verification rules
+- [ ] Copyright/data-governance rules
+- [ ] No-invented-citation rule
+
+## 5. Judgment Decoder
+
+- [ ] Complete judgment decoder schema
+- [ ] Case identity
+- [ ] Court and bench
+- [ ] Date
+- [ ] Parties
+- [ ] Dispute origin
+- [ ] Original forum
+- [ ] Procedural history
+- [ ] Facts
+- [ ] Party arguments
+- [ ] Questions/issues
+- [ ] Laws involved
+- [ ] Precedents relied upon
+- [ ] Precedents distinguished/challenged
+- [ ] Court questions
+- [ ] Court reasoning
+- [ ] Step-by-step reasoning
+- [ ] Issue-wise findings
+- [ ] Majority reasoning
+- [ ] Separate opinions
+- [ ] Holding
+- [ ] Ratio decidendi
+- [ ] Obiter
+- [ ] Final order
+- [ ] Legal change
+- [ ] Later judgments
+- [ ] Present legal position
+- [ ] Practical significance
+- [ ] Source/page/paragraph mapping only where supported by the source
+
+## 6. Research and relationships
+
+- [ ] Research-map model
+- [ ] Related-topic references
+- [ ] Related-judgment references
+- [ ] Doctrine relationships
+- [ ] Provision relationships
+- [ ] Comparison relationships
+- [ ] Collection relationships
+- [ ] Bidirectional-reference validation where required
+
+## 7. Content quality and depth
+
+- [ ] No artificial word-count limits encoded
+- [ ] Knowledge-completeness standard documented
+- [ ] Book-reading structure supported
+- [ ] Research mode structure supported
+- [ ] Examples and illustrations supported
+- [ ] Hypotheticals supported
+- [ ] Timelines supported
+- [ ] Flowcharts/decision trees supported
+- [ ] Concept maps supported
+- [ ] Visual study assets supported
+- [ ] Content quality review checklist
+
+## 8. Content Gateway integration
+
+- [ ] Content Gateway contract finalized
+- [ ] Repository API/read contract finalized
+- [ ] Manifest loading contract finalized
+- [ ] Content shard loading contract finalized
+- [ ] Schema validation before publication
+- [ ] Reference validation before publication
+- [ ] Source validation before publication
+- [ ] Version/hash validation
+- [ ] Error handling contract
+- [ ] Cache/invalidation strategy
+- [ ] Backward compatibility strategy
+
+## 9. Admin publishing workflow
+
+- [ ] Admin topic creation
+- [ ] Admin provision creation
+- [ ] Admin judgment creation
+- [ ] Admin comparison creation
+- [ ] Admin doctrine creation
+- [ ] Admin illustration management
+- [ ] Admin source management
+- [ ] Sanhita mapper
+- [ ] Review queue
+- [ ] Approval workflow
+- [ ] Publishing workflow
+- [ ] Audit log
+- [ ] Role-based authorization
+- [ ] Secure Git branch/PR publishing
+
+## 10. CI/CD and validation
+
+- [ ] JSON Schema validation
+- [ ] Content reference validation
+- [ ] Manifest validation
+- [ ] Duplicate-ID validation
+- [ ] Source validation
+- [ ] Legal metadata validation
+- [ ] Content linting
+- [ ] Automated tests
+- [ ] Pull-request quality gates
+- [ ] Publication gate
+- [ ] Deployment integration
+- [ ] Failure/recovery procedure
+
+## 11. Migration from codepackr-law
+
+- [ ] Inventory existing legal content
+- [ ] Map legacy content to canonical entities
+- [ ] Map legacy IDs
+- [ ] Identify duplicate content
+- [ ] Identify missing sources
+- [ ] Convert topics
+- [ ] Convert provisions
+- [ ] Convert judgments
+- [ ] Convert related-case references
+- [ ] Convert examples/illustrations
+- [ ] Validate migrated content
+- [ ] Parity test against the application
+- [ ] Switch application reads to the new repository
+- [ ] Confirm legacy fallback strategy
+- [ ] Remove legacy content only after verified parity
+
+## 12. Production readiness
+
+- [ ] Performance baseline
+- [ ] Repository size/shard strategy
+- [ ] Security review
+- [ ] Access-control review
+- [ ] Backup/recovery strategy
+- [ ] Auditability review
+- [ ] Copyright/data-governance review
+- [ ] Monitoring/alerting
+- [ ] Documentation complete
+- [ ] End-to-end publishing test
+- [ ] End-to-end application consumption test
+- [ ] Production acceptance review
+
+## 13. Final acceptance gate
+
+- [ ] All required checklist items are complete
+- [ ] All automated validation passes
+- [ ] All required manual reviews are complete
+- [ ] No unresolved critical issues
+- [ ] Application consumes canonical content successfully
+- [ ] Publishing workflow is verified end-to-end
+- [ ] Migration parity is verified
+- [ ] Final architecture review completed
+- [ ] Completion record created
+- [ ] Checklist moved to `archive/completions/`
+
+### Archive policy
+
+The `archive/` directory is for **completed/superseded work only**.
+
+Never move active schemas, manifests, live content, governance rules, or currently referenced contracts into the archive.
+
+When this checklist reaches 100%:
+
+1. Verify every checkbox against implementation evidence.
+2. Record completion date, commit SHA, and verification summary.
+3. Move this checklist to `archive/completions/`.
+4. Keep a short `archive/README.md` explaining the archived milestone.
+5. Create the next active checklist if further evolution is required.
+
+**100% means verified, not merely written.**
