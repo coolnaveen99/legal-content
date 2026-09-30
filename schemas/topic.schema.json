@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legal-content.codepackr.com/schemas/topic.schema.json",
+  "title": "Legal Topic",
+  "type": "object",
+  "required": ["schemaVersion","entityType","id","version","status","title","jurisdiction","content","sources","updatedAt"],
+  "properties": {
+    "schemaVersion":{"type":"string","pattern":"^v[0-9]+$"},
+    "entityType":{"const":"topic"},
+    "id":{"type":"string"},
+    "version":{"type":"integer","minimum":1},
+    "status":{"type":"string","enum":["draft","research","review","verified","approved","published","review-due","update","archived"]},
+    "title":{"type":"string"},
+    "jurisdiction":{"type":"string"},
+    "content":{
+      "type":"object",
+      "required":["overview"],
+      "properties":{
+        "overview":{"type":"string"},
+        "sections":{"type":"array","items":{"type":"object","required":["heading","body"],"properties":{"heading":{"type":"string"},"body":{"type":"string"},"order":{"type":"integer","minimum":0}},"additionalProperties":false}},
+        "examples":{"type":"array","items":{"type":"object","required":["title","body"],"properties":{"title":{"type":"string"},"body":{"type":"string"}},"additionalProperties":false}},
+        "hypotheticals":{"type":"array","items":{"type":"object","required":["question","analysis"],"properties":{"question":{"type":"string"},"analysis":{"type":"string"}},"additionalProperties":false}},
+        "relatedJudgments":{"type":"array","items":{"type":"string"}},
+        "relatedTopics":{"type":"array","items":{"type":"string"}},
+        "illustrations":{"type":"array","items":{"type":"string"}}
+      },
+      "additionalProperties":true
+    },
+    "sources":{"type":"array","items":{"type":"string"}},
+    "updatedAt":{"type":"string","format":"date-time"},
+    "effectiveFrom":{"type":["string","null"],"format":"date"},
+    "effectiveTo":{"type":["string","null"],"format":"date"},
+    "tags":{"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties":false
+}
