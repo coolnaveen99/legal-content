@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "sanhitaMapping",
+  "id": "sanhita-mapping:india:crpc-190-bnss-210",
+  "version": 1,
+  "status": "published",
+  "title": "CrPC 190 to BNSS 210 (cognizance by Magistrates)",
+  "jurisdiction": "India",
+  "content": {
+    "from": {"id": "provision:india:crpc-s-190", "act": "Code of Criminal Procedure, 1973", "section": "190"},
+    "to": {"id": "provision:india:bnss-s-210", "act": "Bharatiya Nagarik Suraksha Sanhita, 2023", "section": "210"},
+    "mappingType": "modified",
+    "notes": "Concordance only. Read the enacted BNSS text. Section 531 BNSS savings may keep CrPC in force for pending inquiries and trials.",
+    "effectiveDate": "2024-07-01"
+  },
+  "sources": ["source:india:india-code-bnss-2023", "source:india:india-code-crpc-1973"],
+  "updatedAt": "2026-09-30T20:45:00Z"
+}
