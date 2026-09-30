@@ -55,14 +55,14 @@
 
 ## 3. Manifest and versioning
 
-- [ ] Manifest generation specification
-- [ ] Entity versioning specification
-- [ ] Content hash specification
-- [ ] Manifest integrity validation
-- [ ] Stable ID collision validation
-- [ ] Orphan-reference validation
-- [ ] Missing-source validation
-- [ ] Publication snapshot/version strategy
+- [x] Manifest generation specification — `docs/MANIFEST-AND-VERSIONING.md` §1
+- [x] Entity versioning specification — `docs/MANIFEST-AND-VERSIONING.md` §2
+- [x] Content hash specification — `docs/MANIFEST-AND-VERSIONING.md` §3
+- [x] Manifest integrity validation — `docs/MANIFEST-AND-VERSIONING.md` §4 (spec; CI in Section 10)
+- [x] Stable ID collision validation — `docs/MANIFEST-AND-VERSIONING.md` §5 (spec; CI in Section 10)
+- [x] Orphan-reference validation — `docs/MANIFEST-AND-VERSIONING.md` §6 (spec; CI in Section 10)
+- [x] Missing-source validation — `docs/MANIFEST-AND-VERSIONING.md` §7 (spec; CI in Section 10)
+- [x] Publication snapshot/version strategy — `docs/MANIFEST-AND-VERSIONING.md` §8
 
 ## 4. Source and legal verification
 
