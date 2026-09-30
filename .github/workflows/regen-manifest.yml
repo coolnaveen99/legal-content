@@ -1,0 +1,55 @@
+name: Regenerate content manifest
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/regen-manifest.yml'
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run manifest
+      - name: Assert registration working set in manifest
+        run: |
+          python3 - <<'PY'
+          import json
+          m = json.load(open('manifests/content-manifest.json'))
+          ids = {e['id'] for e in m['entities']}
+          need = [
+            'source:india:india-code-registration-1908',
+            'collection:india:registration-complete',
+            'topic:india:registration-s-17',
+            'topic:india:registration-s-18',
+            'topic:india:registration-s-49',
+            'provision:india:registration-s-17',
+            'provision:india:registration-s-18',
+            'provision:india:registration-s-49',
+          ]
+          missing = [i for i in need if i not in ids]
+          assert not missing, missing
+          assert len(m['entities']) >= 603, len(m['entities'])
+          print('ok', len(m['entities']), 'entities; registration set present')
+          PY
+      - name: Cleanup temp artifacts and commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f manifests/registration-manifest.patch
+          rm -f manifests/content-manifest.json.z64
+          rm -f .github/workflows/fix-manifest-patch.yml
+          rm -f .github/workflows/inflate-manifest.yml
+          rm -f .github/workflows/regen-manifest.yml
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "Regenerate content-manifest for Registration Act 1908 working set"
+          git push
