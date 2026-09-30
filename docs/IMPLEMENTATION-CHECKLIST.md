@@ -10,12 +10,12 @@
 
 - [x] Repository name finalized as `legal-content`
 - [x] Repository purpose documented in README
-- [ ] Repository governance document created
-- [ ] Repository naming references audited; no `codepackr-law-content` references remain
-- [ ] Application integration references use `coolnaveen99/legal-content`
-- [ ] Ownership and contribution rules documented
-- [ ] Branch protection / review policy defined
-- [ ] Legal-content change approval policy defined
+- [x] Repository governance document created — `docs/REPOSITORY-GOVERNANCE.md` (expanded 2026-09-30: ownership, branch policy, naming audit)
+- [x] Repository naming references audited; no `codepackr-law-content` references remain (search 2026-09-30: only prohibition text in application copilot instructions)
+- [x] Application integration references use `coolnaveen99/legal-content` (README, governance, manifest)
+- [x] Ownership and contribution rules documented — governance + `CONTRIBUTING.md`
+- [x] Branch protection / review policy defined — documented in governance (GitHub settings UI still to be applied by owner)
+- [x] Legal-content change approval policy defined — `docs/CHANGE-APPROVAL-POLICY.md`
 
 ## 1. Canonical content architecture
 
