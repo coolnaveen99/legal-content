@@ -55,3 +55,12 @@ legal-content/
 ├── collections/
 └── seo/
 ```
+
+
+## Implementation tracking
+
+The repository is developed through the tracked implementation plan in [docs/IMPLEMENTATION-CHECKLIST.md](docs/IMPLEMENTATION-CHECKLIST.md). A task is considered complete only after implementation and verification.
+
+Repository governance and naming rules are documented in [docs/REPOSITORY-GOVERNANCE.md](docs/REPOSITORY-GOVERNANCE.md).
+
+The canonical repository identity is **coolnaveen99/legal-content**. The application consuming this content is **coolnaveen99/codepackr-law**.
