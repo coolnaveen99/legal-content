@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "v1",
+  "generatedAt": "2026-10-01T03:45:57Z",
+  "repository": "coolnaveen99/legal-content",
+  "edgeCount": 42,
+  "outbound": {
+    "topic:india:pil-locus-standi": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"to": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"to": "topic:india:pil-limits-and-costs", "field": "relatedTopics"}
+    ],
+    "topic:india:pil-art-32": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "source:india:india-code-constitution", "field": "sources"},
+      {"to": "topic:india:constitution-art-32", "field": "relatedTopics"},
+      {"to": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"to": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"to": "topic:india:pil-limits-and-costs", "field": "relatedTopics"}
+    ],
+    "topic:india:pil-art-226": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "source:india:india-code-constitution", "field": "sources"},
+      {"to": "topic:india:constitution-art-226", "field": "relatedTopics"},
+      {"to": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"to": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"to": "topic:india:pil-limits-and-costs", "field": "relatedTopics"}
+    ],
+    "topic:india:pil-epistolary-jurisdiction": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"to": "topic:india:pil-limits-and-costs", "field": "relatedTopics"}
+    ],
+    "topic:india:pil-limits-and-costs": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"to": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"to": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"}
+    ],
+    "collection:india:pil-complete": [
+      {"to": "source:india:india-pil-practice", "field": "sources"},
+      {"to": "topic:india:pil-locus-standi", "field": "members"},
+      {"to": "topic:india:pil-art-32", "field": "members"},
+      {"to": "topic:india:pil-art-226", "field": "members"},
+      {"to": "topic:india:pil-epistolary-jurisdiction", "field": "members"},
+      {"to": "topic:india:pil-limits-and-costs", "field": "members"}
+    ],
+    "topic:india:constitution-art-32": [
+      {"to": "source:india:india-code-constitution", "field": "sources"}
+    ],
+    "topic:india:constitution-art-226": [
+      {"to": "source:india:india-code-constitution", "field": "sources"}
+    ]
+  },
+  "inbound": {
+    "source:india:india-pil-practice": [
+      {"from": "topic:india:pil-locus-standi", "field": "sources"},
+      {"from": "topic:india:pil-art-32", "field": "sources"},
+      {"from": "topic:india:pil-art-226", "field": "sources"},
+      {"from": "topic:india:pil-epistolary-jurisdiction", "field": "sources"},
+      {"from": "topic:india:pil-limits-and-costs", "field": "sources"},
+      {"from": "collection:india:pil-complete", "field": "sources"}
+    ],
+    "source:india:india-code-constitution": [
+      {"from": "topic:india:pil-art-32", "field": "sources"},
+      {"from": "topic:india:pil-art-226", "field": "sources"},
+      {"from": "topic:india:constitution-art-32", "field": "sources"},
+      {"from": "topic:india:constitution-art-226", "field": "sources"}
+    ],
+    "topic:india:pil-art-32": [
+      {"from": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"from": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"from": "topic:india:pil-limits-and-costs", "field": "relatedTopics"},
+      {"from": "collection:india:pil-complete", "field": "members"}
+    ],
+    "topic:india:pil-art-226": [
+      {"from": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"from": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"from": "topic:india:pil-limits-and-costs", "field": "relatedTopics"},
+      {"from": "collection:india:pil-complete", "field": "members"}
+    ],
+    "topic:india:pil-epistolary-jurisdiction": [
+      {"from": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"from": "topic:india:pil-limits-and-costs", "field": "relatedTopics"},
+      {"from": "collection:india:pil-complete", "field": "members"}
+    ],
+    "topic:india:pil-limits-and-costs": [
+      {"from": "topic:india:pil-locus-standi", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"from": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"from": "collection:india:pil-complete", "field": "members"}
+    ],
+    "topic:india:pil-locus-standi": [
+      {"from": "topic:india:pil-art-32", "field": "relatedTopics"},
+      {"from": "topic:india:pil-art-226", "field": "relatedTopics"},
+      {"from": "topic:india:pil-epistolary-jurisdiction", "field": "relatedTopics"},
+      {"from": "topic:india:pil-limits-and-costs", "field": "relatedTopics"},
+      {"from": "collection:india:pil-complete", "field": "members"}
+    ],
+    "topic:india:constitution-art-32": [
+      {"from": "topic:india:pil-art-32", "field": "relatedTopics"}
+    ],
+    "topic:india:constitution-art-226": [
+      {"from": "topic:india:pil-art-226", "field": "relatedTopics"}
+    ]
+  },
+  "note": "Pilot index (PIL + linked constitution topics). Full corpus index: npm run graph:index on a complete checkout."
+}
