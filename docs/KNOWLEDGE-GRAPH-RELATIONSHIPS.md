@@ -39,47 +39,61 @@ Titles are never foreign keys. Full entities are never nested inside other entit
 `scripts/validate.mjs` enforces:
 
 1. **Existence** — published entities may not reference unknown canonical IDs (error). Non-published: warning.
-2. **Type match** — named fields must point at the expected `entityType` (e.g. `relatedJudgments` → judgment).
+2. **Type match** — named fields must point at the expected `entityType`.
 3. **ID prefix** — `topic:…` IDs must belong to `entityType: topic`, etc.
 4. **Duplicate IDs** — fatal.
-5. **Soft reciprocal `relatedTopics`** — if topic A lists B, B should list A (**warning** by default; `--strict-reciprocal` promotes to error).
+5. **Same-family reciprocal `relatedTopics`** — if topic A lists B and they are in the **same family**, B should list A (**warning** by default; `--strict-reciprocal` → error).
 6. **Manifest consistency** — published/review-due/archived entities must appear in the full manifest.
+
+### Same-family rule
+
+Two topics are same-family when either:
+
+- they share a content directory (`topics/pil/`, `topics/constitution/`, …), or
+- their local IDs share a family prefix (`pil-`, `constitution-art-`, `fundamental-rights-`, `dpsp-`, or the first hyphen segment).
+
+**Cross-family** links (e.g. `pil-art-32` → `constitution-art-32`) are **intentionally one-way** and do **not** emit reciprocal warnings.
 
 Flags:
 
 ```bash
 npm run validate
-node scripts/validate.mjs --graph-report
+npm run validate:graph
 node scripts/validate.mjs --strict-reciprocal
+npm run graph:index   # writes manifests/relationship-index.json (adjacency, not a second manifest)
 ```
+
+## Relationship index
+
+`scripts/build-relationship-index.mjs` builds `manifests/relationship-index.json`:
+
+- `outbound[id]` → `[{ to, field }, …]`
+- `inbound[id]` → `[{ from, field }, …]`
+
+This is an **optional lookup aid** for Gateway/Workbench. It does **not** replace `manifests/content-manifest.json`.
 
 ## Reciprocity rules
 
 | Relationship | Reciprocity |
 |--------------|-------------|
-| `relatedTopics` ↔ `relatedTopics` | **Recommended**; soft-checked |
+| `relatedTopics` ↔ `relatedTopics` (same-family) | **Recommended**; soft-checked |
+| `relatedTopics` across families | **One-way OK** |
 | `relatedJudgments` → judgment | **One-way** unless judgment lists topics |
-| collection `members` → entity | **One-way** (collection owns membership) |
-| entity → `sources` | **One-way** (sources are leaves) |
-| doctrine → provisions/judgments | **One-way** preferred |
-
-Do not auto-invent inverse edges.
+| collection `members` → entity | **One-way** |
+| entity → `sources` | **One-way** |
 
 ## Status / published targets
 
 - App consumers of **published** content should resolve targets with `status ∈ {published, review-due, archived}`.
-- References to `draft` / `research` targets should not be required for publish of the source entity until those targets are published (authors may use `review` status while wiring the graph).
 - Archived targets remain valid IDs for historical navigation; UI must label archived.
 
 ## Performance
 
 - Store **IDs only**.
-- Resolve via manifest index + single-entity fetch.
+- Resolve via manifest index + single-entity fetch; optional `relationship-index` for adjacency.
 - Do not load the full graph into memory for ordinary page views.
 
 ## Pilot graph (PIL)
-
-Representative connected set (all IDs real):
 
 ```text
 collection:india:pil-complete
@@ -89,16 +103,16 @@ collection:india:pil-complete
   → topic:india:pil-epistolary-jurisdiction
   → topic:india:pil-limits-and-costs
 
-pil-art-32 → constitution-art-32, pil-locus-standi, pil-art-226, pil-limits-and-costs
-pil-art-226 → constitution-art-226, pil-locus-standi, pil-art-32, pil-limits-and-costs
-pil-locus-standi ↔ pil-art-32, pil-art-226, pil-limits-and-costs, pil-epistolary-jurisdiction
+Among the five PIL topics: relatedTopics are reciprocal (same-family).
+PIL → constitution-art-32 / art-226: intentional one-way (cross-family).
 ```
 
-Sources: `source:india:india-pil-practice`, `source:india:india-code-constitution` where applicable.
+## Application note (codepackr-law)
 
-## Non-goals (this package)
+ContentGateway should consume **canonical IDs** from entity fields and resolve via Manifest → ContentRepository. No raw GitHub fetches in UI. Relationship index is optional acceleration, not a required app dependency yet.
+
+## Non-goals
 
 - Full bidirectional enforcement for all edge types
-- Embedding judgment decoder bodies inside topics
-- Redesigning ContentGateway in codepackr-law
-- Replacing the full repository manifest with a pilot-only manifest
+- Redesigning ContentGateway in this package
+- Replacing the full repository manifest with a pilot-only or graph-only manifest
