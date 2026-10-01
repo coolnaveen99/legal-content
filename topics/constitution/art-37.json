@@ -2,20 +2,30 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:constitution-art-37",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Article 37 — Application of Directive Principles",
+  "title": "Article 37 — Application of the Directive Principles",
   "jurisdiction": "India",
   "content": {
-    "overview": "Article 37 is the key to Part IV. Directive Principles are not court-enforceable as rights. They are fundamental in governance.",
-    "study": "Do not plead a Directive Principle as if it were Article 32. Use them to read statutes and, where doctrine allows, to test reasonableness under Articles 14 and 19. Cite the implementing statute for the claim.",
-    "relatedTopics": ["topic:india:constitution-art-32", "topic:india:constitution-art-31c"],
+    "overview": "Article 37 is the key to Part IV. The provisions of Part IV are not enforceable by any court, but the principles are nevertheless fundamental in the governance of the country and it is the duty of the State to apply these principles in making laws. Verify exact text against the official Constitution.",
+    "sections": [
+      {"heading": "Non-enforceability", "body": "Courts do not enforce Directive Principles as freestanding rights. A petition that seeks relief solely because a Directive Principle exists, without an enforceable legal right or implementing framework, is misconceived under Article 37.", "order": 1},
+      {"heading": "Duty in governance and law-making", "body": "Article 37 also states that the principles are fundamental in governance and that the State must apply them in making laws. That duty is political and constitutional in character; its justiciable edge, if any, runs through statutes, schemes, and Part III standards — not through rewriting Article 37.", "order": 2},
+      {"heading": "Track B", "body": "Frame claims under the implementing Act or under Articles 14, 19 or 21 as applicable. Use the Directive Principle to explain policy purpose. Do not plead Part IV as a substitute for Part III.", "order": 3},
+      {"heading": "Historical vs current", "body": "HISTORICAL: early case law sometimes stressed subordination of Part IV to Part III in conflict settings. CURRENT PRACTICE: harmonisation is the preferred interpretive posture where possible, always subject to Article 37's non-enforceability rule and to controlling authority on Article 31C and basic structure.", "order": 4}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:dpsp-fr-relationship", "topic:india:constitution-art-31c", "topic:india:constitution-art-32", "topic:india:dpsp-meaning-purpose"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "constitution",
-    "legacyTopicId": "art-37"
+    "legacyTopicId": "art-37",
+    "bareActPointers": ["Constitution of India, Part IV"]
   },
   "sources": ["source:india:india-code-constitution"],
-  "updatedAt": "2026-09-30T21:30:00Z",
+  "updatedAt": "2026-10-01T03:00:00Z",
   "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "dpsp", "constitution", "subject-complete"]
 }

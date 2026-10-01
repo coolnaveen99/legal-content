@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "illustration",
+  "id": "illustration:india:dpsp-classification-map",
+  "version": 1,
+  "status": "published",
+  "title": "DPSP scholarly classification map (educational)",
+  "jurisdiction": "India",
+  "content": {
+    "kind": "concept-map",
+    "caption": "Scholarly grouping of Directive Principles for study. Classifications are not constitutional text.",
+    "nodes": [
+      {"id": "socialistic", "label": "Socialistic (teaching group): e.g. Arts 38, 39, 39A, 41–43, 47"},
+      {"id": "gandhian", "label": "Gandhian (teaching group): e.g. Arts 40, 46, 48"},
+      {"id": "liberal", "label": "Liberal-intellectual (teaching group): e.g. Arts 44, 45, 50, 51"},
+      {"id": "art-37", "label": "All subject to Article 37"}
+    ],
+    "edges": [
+      {"from": "socialistic", "to": "art-37", "label": "non-enforceable as rights"},
+      {"from": "gandhian", "to": "art-37", "label": "non-enforceable as rights"},
+      {"from": "liberal", "to": "art-37", "label": "non-enforceable as rights"}
+    ],
+    "relatedTopics": ["topic:india:dpsp-classification"]
+  },
+  "sources": ["source:india:india-code-constitution"],
+  "updatedAt": "2026-10-01T03:00:00Z"
+}
