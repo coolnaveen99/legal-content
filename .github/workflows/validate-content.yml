@@ -21,5 +21,11 @@ jobs:
       - name: Refresh manifest from entity files
         run: node scripts/refresh-manifest.mjs
 
-      - name: Validate schemas, entities, manifest
-        run: node scripts/validate.mjs
+      - name: Validate schemas, entities, relationships, manifest
+        run: node scripts/validate.mjs --graph-report
+
+      - name: Relationship unit tests (PIL pilot)
+        run: node scripts/test-relationships.mjs
+
+      - name: Build relationship index (adjacency aid)
+        run: node scripts/build-relationship-index.mjs
