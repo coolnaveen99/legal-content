@@ -2,24 +2,40 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:tort-vicarious-liability",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Vicarious liability — master and servant",
+  "title": "Vicarious liability",
   "jurisdiction": "India",
   "content": {
-    "overview": "Vicarious liability makes one person answerable for the tort of another because of their relationship—classically an employer for a servant's tort committed in the course of employment—without the employer necessarily being personally at fault.",
-    "study": "First establish the primary tort (often negligence). Then ask: is the wrongdoer a servant or an independent contractor, and was the act in the course of employment (including wrongful modes of authorised acts and, in some lines, close connection with assigned duties)? Distinguish from direct negligence of the employer (hiring, systems, supervision). Pair with negligence as the usual underlying wrong.",
-    "relatedTopics": [
-      "topic:india:tort-negligence",
-      "topic:india:tort-strict-liability",
-      "topic:india:tort-defamation"
+    "overview": "Vicarious liability makes one person answerable for the tort of another because of a relationship (typically employer-employee) and a connection between the tort and the relationship (course of employment). It is not a substitute for proving the underlying tort of the wrongdoer.",
+    "sections": [
+      {
+        "heading": "Employer and employee",
+        "body": "Identify a contract of service (control and integration tests as guides). The tort must occur in the course of employment — authorised acts and wrongful modes of doing authorised acts may attract liability; a frolic of one's own may not.",
+        "order": 1
+      },
+      {
+        "heading": "Independent contractors",
+        "body": "Ordinarily the employer is not vicariously liable for an independent contractor, subject to non-delegable duties and hazardous operations exceptions.",
+        "order": 2
+      },
+      {
+        "heading": "Track B",
+        "body": "Plead the employee's tort and the employment nexus. Join employer and employee where appropriate. Evidence: appointment, duties, time and place of the act, and benefit to the employer's enterprise.",
+        "order": 3
+      }
     ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:tort-negligence", "topic:india:tort-state-liability"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "tort",
     "legacyTopicId": "vicarious-liability"
   },
   "sources": ["source:india:india-common-law-torts"],
-  "updatedAt": "2026-10-01T01:15:00Z",
+  "updatedAt": "2026-10-01T02:00:00Z",
   "effectiveFrom": null,
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "torts", "subject-complete"]
 }

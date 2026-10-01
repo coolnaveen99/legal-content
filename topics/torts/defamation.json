@@ -2,24 +2,40 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:tort-defamation",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Defamation — civil liability for injury to reputation",
+  "title": "Defamation (civil)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Civil defamation protects reputation against false statements that tend to lower a person in the estimation of right-thinking members of society; liability turns on publication of defamatory matter referring to the claimant, subject to defences such as truth, fair comment, and privilege.",
-    "study": "Separate civil tort from criminal defamation under the IPC/BNS. Prove defamatory meaning, reference to the claimant, and publication to a third party. Consider libel versus slander where the distinction still matters, and map defences: justification (truth), fair comment on matters of public interest, absolute and qualified privilege. Pair with negligence only where careless falsehood is framed outside classic defamation; keep the reputation analysis distinct.",
-    "relatedTopics": [
-      "topic:india:tort-negligence",
-      "topic:india:tort-strict-liability",
-      "topic:india:tort-vicarious-liability"
+    "overview": "Civil defamation protects reputation against false and defamatory publication to a third party. Distinguish the tort from criminal defamation under BNS s. 356. Defences include truth (justification), fair comment on matters of public interest, and privilege (absolute or qualified).",
+    "sections": [
+      {
+        "heading": "Ingredients",
+        "body": "1. Defamatory statement tending to lower the claimant in the estimation of right-thinking persons. 2. Reference to the claimant. 3. Publication to at least one third person. Libel (permanent form) and slander (spoken) are traditionally distinguished; plead the precise words and publication facts.",
+        "order": 1
+      },
+      {
+        "heading": "Defences",
+        "body": "Justification (truth of the imputations of fact). Fair comment (honest opinion on true facts on a matter of public interest). Absolute privilege (e.g. certain parliamentary and judicial occasions). Qualified privilege (duty/interest occasions, defeated by malice).",
+        "order": 2
+      },
+      {
+        "heading": "Track B",
+        "body": "Civil court suit for damages and/or injunction. Particularise the words, dates, medium, and audience. Criminal process under BNS is separate — do not conflate burden or remedy. Electronic publication still requires proof of publication and identity.",
+        "order": 3
+      }
     ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:tort-nature-definition", "topic:india:tort-remedies"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "tort",
     "legacyTopicId": "defamation"
   },
   "sources": ["source:india:india-common-law-torts"],
-  "updatedAt": "2026-10-01T01:15:00Z",
+  "updatedAt": "2026-10-01T02:00:00Z",
   "effectiveFrom": null,
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "torts", "subject-complete"]
 }
