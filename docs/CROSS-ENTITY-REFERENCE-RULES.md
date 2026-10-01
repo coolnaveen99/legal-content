@@ -4,6 +4,8 @@
 
 Define how entities in `legal-content` may refer to one another so the Content Gateway and application can resolve, validate, and navigate relationships without broken links or ambiguous IDs.
 
+See also: [KNOWLEDGE-GRAPH-RELATIONSHIPS.md](./KNOWLEDGE-GRAPH-RELATIONSHIPS.md) (Phase 2).
+
 ## Canonical ID form
 
 All cross-entity references use the stable ID format:
@@ -16,7 +18,7 @@ Examples:
 
 - `topic:india:bns-s23`
 - `provision:india:bns-s23`
-- `judgment:india:sc-kesavananda-1973`
+- `judgment:india:kesavananda-bharati-1973`
 - `doctrine:india:res-judicata`
 - `source:india:india-code-bns-2023`
 
@@ -41,11 +43,12 @@ Envelope-level `sources` is always an array of **source entity IDs** (or, until 
 
 ## Resolution rules
 
-1. **Published consumers** resolve only entities with `status` ∈ {`published`} unless the consumer explicitly requests draft/review modes (Admin only).
-2. **Missing target:** validation fails for publish if a required reference points to an unknown ID. Optional related-* arrays may warn but must not invent targets.
-3. **Archived targets:** references to `archived` IDs remain valid for historical navigation; UI must label archived state.
-4. **Version:** references point to the entity ID, not a specific version number. Consumers load the latest published version unless a snapshot pin is specified in a future manifest field.
-5. **Bidirectional:** collections and explicit relation maps may require inverse consistency (e.g. if A lists B as related, publication gate may require B to list A or an explicit one-way flag). Until bidirectional validation is implemented in CI, authors should keep relations consistent manually.
+1. **Published consumers** resolve only entities with `status` ∈ {`published`} unless the consumer explicitly requests draft/review modes (Admin only). Archived may be shown for historical navigation with a clear label.
+2. **Missing target:** validation **fails** for publish if a reference points to an unknown ID. Optional related-* arrays must not invent targets.
+3. **Type match:** `relatedJudgments` must reference `judgment` entities; `relatedTopics` must reference `topic` entities; `sources` must reference `source` entities. CI enforces this.
+4. **Archived targets:** references to `archived` IDs remain valid for historical navigation; UI must label archived state.
+5. **Version:** references point to the entity ID, not a specific version number. Consumers load the latest published version unless a snapshot pin is specified in a future manifest field.
+6. **Bidirectional (`relatedTopics`):** if topic A lists B under `relatedTopics`, topic B **should** list A. CI emits a **warning** by default; `--strict-reciprocal` treats gaps as errors. Other fields remain intentionally one-way unless documented otherwise.
 
 ## Prohibitions
 
@@ -53,8 +56,11 @@ Envelope-level `sources` is always an array of **source entity IDs** (or, until 
 - Do not use application-local paths (`src/data/topics/...`) as canonical references.
 - Do not invent IDs for cases or sections that are not registered.
 
-## Validation (target state for CI)
+## Validation (CI — implemented)
 
-- Every referenced ID exists in the manifest or is an allowed external URI under source rules.
+- Every referenced canonical ID exists (error for published sources).
 - Entity type prefix matches the referenced entity's `entityType`.
-- No cycles required to be forbidden for related-* soft links; hard dependency cycles for publish order should be detected when publication snapshots are introduced.
+- Named relationship fields enforce expected target types.
+- Soft reciprocal check for `relatedTopics`.
+- Manifest includes all published / review-due / archived entities.
+- No duplicate IDs.
