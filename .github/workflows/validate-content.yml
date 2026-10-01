@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Refresh manifest from entity files
+      - name: Regenerate full manifest from entity files
         run: node scripts/refresh-manifest.mjs
 
       - name: Validate schemas, entities, relationships, manifest
@@ -29,3 +29,10 @@ jobs:
 
       - name: Build relationship index (adjacency aid)
         run: node scripts/build-relationship-index.mjs
+
+      - name: Upload relationship index artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: relationship-index
+          path: manifests/relationship-index.json
+          if-no-files-found: warn

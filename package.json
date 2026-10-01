@@ -9,6 +9,7 @@
     "validate:manifest": "node scripts/validate.mjs --manifest-only",
     "validate:graph": "node scripts/validate.mjs --graph-report",
     "manifest:refresh": "node scripts/refresh-manifest.mjs",
+    "manifest:generate": "node scripts/generate-manifest.mjs",
     "graph:index": "node scripts/build-relationship-index.mjs",
     "test:relationships": "node scripts/test-relationships.mjs"
   },
