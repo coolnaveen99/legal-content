@@ -2,20 +2,29 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-37",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 37 Contract Act — Performance",
+  "title": "Section 37 ICA — Obligation of parties to contracts (performance)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Parties must perform or offer to perform, unless the Act or another law excuses them.",
-    "study": "Breach is failure of 37. Frustration is 56. Damages are 73 and 74. Specific performance is the Specific Relief Act, not this section.",
-    "relatedTopics": ["topic:india:contract-s-56", "topic:india:contract-s-73"],
+    "overview": "The parties to a contract must either perform or offer to perform their respective promises, unless performance is dispensed with or excused under the Act or another law.",
+    "sections": [
+      {"heading": "Obligation to perform", "body": "Section 37 states the primary duty. Proper tender under s. 38 can discharge the promisor where the promisee refuses.", "order": 1},
+      {"heading": "Time and reciprocal promises", "body": "Whether time is of the essence depends on intention and commercial setting. Reciprocal promises follow ordered performance rules (ss. 51–54).", "order": 2},
+      {"heading": "Track B", "body": "Plead readiness and willingness for specific performance (SRA s. 16). Document tender and refusal. Mitigation remains relevant to damages.", "order": 3}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-s-56", "topic:india:contract-s-73", "topic:india:contract-specific-relief"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-37"
+    "legacyTopicId": "s-37",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete"]
 }
