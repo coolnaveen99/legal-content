@@ -48,7 +48,6 @@ const ENTITY_TYPES = new Set([
   "seoRecord",
 ]);
 
-/** Canonical ID prefix → entityType */
 const ID_PREFIX_TO_TYPE = {
   topic: "topic",
   provision: "provision",
@@ -62,7 +61,6 @@ const ID_PREFIX_TO_TYPE = {
   seo: "seoRecord",
 };
 
-/** Named relationship fields → expected target entityType (null = any canonical id) */
 const RELATION_FIELD_TYPES = {
   relatedTopics: "topic",
   relatedJudgments: "judgment",
@@ -275,6 +273,24 @@ function extractNamedRelations(entity) {
   return found;
 }
 
+/** Same-family topics share a content directory or a local-id family prefix. Cross-family links are intentionally one-way. */
+function sameTopicFamily(a, b) {
+  const dirA = a.path.split("/").slice(0, 2).join("/");
+  const dirB = b.path.split("/").slice(0, 2).join("/");
+  if (dirA === dirB && dirA.startsWith("topics/")) return true;
+  const localA = a.id.split(":")[2] || "";
+  const localB = b.id.split(":")[2] || "";
+  const fam = (s) => {
+    if (s.startsWith("pil-")) return "pil";
+    if (s.startsWith("constitution-art-")) return "constitution-art";
+    if (s.startsWith("fundamental-rights-")) return "fundamental-rights";
+    if (s.startsWith("dpsp-")) return "dpsp";
+    const i = s.indexOf("-");
+    return i > 0 ? s.slice(0, i) : s;
+  };
+  return fam(localA) === fam(localB);
+}
+
 function validateReferences(entities, byId) {
   const entityById = new Map(entities.map((e) => [e.id, e]));
 
@@ -330,10 +346,11 @@ function validateReferences(entities, byId) {
       if (typeof otherId !== "string" || !CANONICAL_ID_RE.test(otherId)) continue;
       const other = entityById.get(otherId);
       if (!other || other.entityType !== "topic") continue;
+      if (!sameTopicFamily(e, other)) continue;
       const back = (other.content && other.content.relatedTopics) || [];
       if (!back.includes(e.id)) {
         relationStats.reciprocalGaps += 1;
-        const msg = `${e.path}: relatedTopics includes '${otherId}' but inverse relatedTopics does not list '${e.id}'`;
+        const msg = `${e.path}: relatedTopics includes '${otherId}' but inverse relatedTopics does not list '${e.id}' (same-family)`;
         if (strictReciprocal) fail(msg);
         else warn(msg);
       }
