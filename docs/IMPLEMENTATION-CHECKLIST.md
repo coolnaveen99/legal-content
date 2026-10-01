@@ -17,31 +17,31 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] Map legacy IDs — ID mapping rules in migration doc (row registry grows per wave)
 - [x] Identify duplicate content — policy in migration doc
 - [x] Identify missing sources — policy in migration doc
-- [x] Convert topics — bulk scaffold present; depth upgrade ongoing (CPC s.32 and other treatises at v2 where upgraded)
+- [x] Convert topics — bulk scaffold present; depth upgrade ongoing
 - [x] Convert provisions — bulk scaffold present; pilot upgrades at v2
 - [x] Convert judgments — initial entities present (progressive depth still ongoing)
 - [x] Convert related-case references — structure in schemas; populated where available
 - [x] Convert examples/illustrations — present for pilot entities including CPC s.32
-- [x] Validate migrated content — full-scan manifest + `npm run validate` (CI regenerates and commits manifests on main)
-- [x] Parity test against the application — `codepackr-law` `npm test` live gateway suite + `npm run parity:legal-content`
-- [x] Switch application reads to the new repository — TopicDetail → ContentGateway → CanonicalContentRepository (legacy fallback retained)
-- [x] Confirm legacy fallback strategy — ContentGateway falls back to LegacyTopicRepository when canonical missing/unpublished
-- [ ] Remove legacy content only after verified parity — **do not remove yet**; dual-read remains until production acceptance
+- [x] Validate migrated content — full-scan manifest + CI validate
+- [x] Parity test against the application — `codepackr-law` live gateway tests + `parity:legal-content`
+- [x] Switch application reads to the new repository — ContentGateway primary path
+- [x] Confirm legacy fallback strategy — dual-read retained
+- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off
 
 ## 12. Production readiness
 
-- [x] Performance baseline — guidance in `docs/PRODUCTION-READINESS.md`
-- [x] Repository size/shard strategy — production readiness doc
-- [x] Security review — production readiness doc
-- [x] Access-control review — production readiness doc
-- [x] Backup/recovery strategy — production readiness doc
-- [x] Auditability review — production readiness doc
-- [x] Copyright/data-governance review — sources doc + production readiness
-- [x] Monitoring/alerting — production readiness doc
-- [x] Documentation complete — core doc set listed in production readiness
-- [x] End-to-end publishing test — entity publish + manifest refresh + validate green; CI auto-commits manifests
-- [x] End-to-end application consumption test — ContentGateway live parity probes (PIL, CPC s.32, tort, contract, constitution)
-- [ ] Production acceptance review — pending human sign-off on deployed app
+- [x] Performance baseline — `docs/PRODUCTION-READINESS.md`
+- [x] Repository size/shard strategy
+- [x] Security review
+- [x] Access-control review
+- [x] Backup/recovery strategy
+- [x] Auditability review
+- [x] Copyright/data-governance review
+- [x] Monitoring/alerting
+- [x] Documentation complete
+- [x] End-to-end publishing test — CI auto-commits manifests
+- [x] End-to-end application consumption test — automated parity **PASS** 2026-10-01; see `docs/PRODUCTION-ACCEPTANCE.md`
+- [ ] Production acceptance review — **CONDITIONAL PASS** (automated); human UX + deploy confirmation pending — `docs/PRODUCTION-ACCEPTANCE.md`
 
 ## 13. Final acceptance gate
 
@@ -49,9 +49,9 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] All automated validation passes
 - [ ] All required manual reviews are complete
 - [ ] No unresolved critical issues
-- [x] Application consumes canonical content successfully (automated parity; production UX review pending)
+- [x] Application consumes canonical content successfully (automated; UX pending)
 - [x] Publishing workflow is verified end-to-end
-- [ ] Migration parity is verified (automated smoke done; full catalog UX review pending)
+- [ ] Migration parity is verified (full UX)
 - [ ] Final architecture review completed
 - [ ] Completion record created
 - [ ] Checklist moved to `archive/completions/`
@@ -69,8 +69,8 @@ Never move active schemas, manifests, live content, governance rules, or current
 | Area | State |
 |------|--------|
 | Specs, schemas, CI validator | Done on `main` |
-| Live canonical corpus | **719** entities in manifest; **1755** relationship edges |
-| Bulk topic migration | Scaffold complete; depth upgrade ongoing |
-| App ContentRepository consumption | **Wired** — Gateway + live parity tests |
-| Legacy dual-read | Retained until production acceptance |
-| Final acceptance / archive checklist | Not ready |
+| Live canonical corpus | **719** entities; **1755** relationship edges |
+| Automated app parity | **PASS** |
+| Production acceptance | **CONDITIONAL PASS** — human UX + deploy SHA pending |
+| Legacy dual-read | Retained |
+| Final acceptance / archive | Not ready |
