@@ -7,7 +7,9 @@
     "validate": "node scripts/validate.mjs",
     "validate:schemas": "node scripts/validate.mjs --schemas-only",
     "validate:manifest": "node scripts/validate.mjs --manifest-only",
-    "manifest:refresh": "node scripts/refresh-manifest.mjs"
+    "validate:graph": "node scripts/validate.mjs --graph-report",
+    "manifest:refresh": "node scripts/refresh-manifest.mjs",
+    "test:relationships": "node scripts/test-relationships.mjs"
   },
   "engines": {
     "node": ">=18"
