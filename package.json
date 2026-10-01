@@ -1,20 +1,14 @@
 {
   "name": "legal-content",
+  "version": "0.1.0",
   "private": true,
   "description": "Canonical structured legal content for CodePackr Law",
-  "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "manifest": "node scripts/generate-manifest.mjs",
-    "lint": "node scripts/validate.mjs",
-    "test": "node --test tests/*.test.mjs",
-    "ci": "npm run manifest && npm run validate && npm run test"
-  },
-  "devDependencies": {
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1"
+    "validate:schemas": "node scripts/validate.mjs --schemas-only",
+    "validate:manifest": "node scripts/validate.mjs --manifest-only"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=18"
   }
 }

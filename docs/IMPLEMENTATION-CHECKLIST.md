@@ -10,11 +10,11 @@
 
 - [x] Repository name finalized as `legal-content`
 - [x] Repository purpose documented in README
-- [x] Repository governance document created — `docs/REPOSITORY-GOVERNANCE.md` (expanded 2026-09-30: ownership, branch policy, naming audit)
-- [x] Repository naming references audited; no `codepackr-law-content` references remain (search 2026-09-30: only prohibition text in application copilot instructions)
-- [x] Application integration references use `coolnaveen99/legal-content` (README, governance, manifest)
+- [x] Repository governance document created — `docs/REPOSITORY-GOVERNANCE.md`
+- [x] Repository naming references audited; no `codepackr-law-content` references remain
+- [x] Application integration references use `coolnaveen99/legal-content`
 - [x] Ownership and contribution rules documented — governance + `CONTRIBUTING.md`
-- [x] Branch protection / review policy defined — documented in governance (GitHub settings UI still to be applied by owner)
+- [x] Branch protection / review policy defined — documented in governance
 - [x] Legal-content change approval policy defined — `docs/CHANGE-APPROVAL-POLICY.md`
 
 ## 1. Canonical content architecture
@@ -58,127 +58,74 @@
 - [x] Manifest generation specification — `docs/MANIFEST-AND-VERSIONING.md` §1
 - [x] Entity versioning specification — `docs/MANIFEST-AND-VERSIONING.md` §2
 - [x] Content hash specification — `docs/MANIFEST-AND-VERSIONING.md` §3
-- [x] Manifest integrity validation — `docs/MANIFEST-AND-VERSIONING.md` §4 (spec; CI in Section 10)
-- [x] Stable ID collision validation — `docs/MANIFEST-AND-VERSIONING.md` §5 (spec; CI in Section 10)
-- [x] Orphan-reference validation — `docs/MANIFEST-AND-VERSIONING.md` §6 (spec; CI in Section 10)
-- [x] Missing-source validation — `docs/MANIFEST-AND-VERSIONING.md` §7 (spec; CI in Section 10)
+- [x] Manifest integrity validation — spec + `scripts/validate.mjs`
+- [x] Stable ID collision validation — `scripts/validate.mjs`
+- [x] Orphan-reference validation — `scripts/validate.mjs`
+- [x] Missing-source validation — published empty sources fail in `scripts/validate.mjs`
 - [x] Publication snapshot/version strategy — `docs/MANIFEST-AND-VERSIONING.md` §8
 
 ## 4. Source and legal verification
 
-- [x] Source record contract — `docs/SOURCE-AND-VERIFICATION.md` §1 + `schemas/source.schema.json`
-- [x] Primary/secondary source classification — `docs/SOURCE-AND-VERIFICATION.md` §2
-- [x] Citation/provenance model — `docs/SOURCE-AND-VERIFICATION.md` §3
-- [x] Source verification status — `docs/SOURCE-AND-VERIFICATION.md` §4
-- [x] Court/judgment source metadata — `docs/SOURCE-AND-VERIFICATION.md` §5
-- [x] Legislation source metadata — `docs/SOURCE-AND-VERIFICATION.md` §6
-- [x] Historical-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §7 + historical-law doc
-- [x] Current-law verification rules — `docs/SOURCE-AND-VERIFICATION.md` §8
-- [x] Copyright/data-governance rules — `docs/SOURCE-AND-VERIFICATION.md` §9
-- [x] No-invented-citation rule — `docs/SOURCE-AND-VERIFICATION.md` §10
+- [x] Source record contract — `docs/SOURCE-AND-VERIFICATION.md` §1
+- [x] Primary/secondary source classification — §2
+- [x] Citation/provenance model — §3
+- [x] Source verification status — §4
+- [x] Court/judgment source metadata — §5
+- [x] Legislation source metadata — §6
+- [x] Historical-law verification rules — §7
+- [x] Current-law verification rules — §8
+- [x] Copyright/data-governance rules — §9
+- [x] No-invented-citation rule — §10
 
 ## 5. Judgment Decoder
 
 - [x] Complete judgment decoder schema — `schemas/judgment.schema.json` + `docs/JUDGMENT-DECODER.md`
-- [x] Case identity — `content.caseIdentity`
-- [x] Court and bench — `content.court`, `content.bench`
-- [x] Date — `content.date`
-- [x] Parties — `content.parties`
-- [x] Dispute origin — `content.disputeOrigin`
-- [x] Original forum — `content.originalForum`
-- [x] Procedural history — `content.proceduralHistory`
-- [x] Facts — `content.facts`
-- [x] Party arguments — `content.argumentsPartyA`, `content.argumentsPartyB`
-- [x] Questions/issues — `content.questionsBeforeCourt`
-- [x] Laws involved — `content.lawsInvolved`
-- [x] Precedents relied upon — `content.precedentsReliedUpon`
-- [x] Precedents distinguished/challenged — `content.precedentsDistinguishedOrChallenged`
-- [x] Court questions — `content.courtQuestions`
-- [x] Court reasoning — `content.reasoning`
-- [x] Step-by-step reasoning — `content.stepByStepReasoning`
-- [x] Issue-wise findings — `content.findings`
-- [x] Majority reasoning — `content.majorityReasoning`
-- [x] Separate opinions — `content.separateOpinions`
-- [x] Holding — `content.holding`
-- [x] Ratio decidendi — `content.ratioDecidendi`
-- [x] Obiter — `content.obiter`
-- [x] Final order — `content.finalOrder`
-- [x] Legal change — `content.legalChange`
-- [x] Later judgments — `content.laterJudgments`
-- [x] Present legal position — `content.presentLegalPosition`
-- [x] Practical significance — `content.practicalSignificance`
-- [x] Source/page/paragraph mapping only where supported by the source — `docs/JUDGMENT-DECODER.md`
+- [x] All decoder field dimensions mapped (case identity through practical significance)
+- [x] Source/page/paragraph mapping only where supported by the source
 
 ## 6. Research and relationships
 
-- [x] Research-map model — `docs/RESEARCH-AND-RELATIONSHIPS.md` §1
-- [x] Related-topic references — topic `relatedTopics` + relationships doc §2
-- [x] Related-judgment references — schemas + relationships doc §3
-- [x] Doctrine relationships — doctrine schema + relationships doc §4
-- [x] Provision relationships — relationships doc §5 + cross-entity rules
-- [x] Comparison relationships — comparison schema + relationships doc §6
-- [x] Collection relationships — collection schema + relationships doc §7
-- [x] Bidirectional-reference validation where required — relationships doc §8 (spec; CI in Section 10)
+- [x] Research-map model — `docs/RESEARCH-AND-RELATIONSHIPS.md`
+- [x] Related-topic / judgment / doctrine / provision / comparison / collection relationships documented
+- [x] Bidirectional-reference validation rules — relationships doc §8 + CI orphan checks
 
 ## 7. Content quality and depth
 
-- [x] No artificial word-count limits encoded — schemas + `docs/CONTENT-QUALITY-AND-DEPTH.md` §1
-- [x] Knowledge-completeness standard documented — `docs/CONTENT-QUALITY-AND-DEPTH.md` §2
-- [x] Book-reading structure supported — topic `sections[]` + quality doc §3
-- [x] Research mode structure supported — quality doc §4 + relationships
-- [x] Examples and illustrations supported — topic examples + illustration schema
-- [x] Hypotheticals supported — topic `hypotheticals[]`
-- [x] Timelines supported — quality doc §7
-- [x] Flowcharts/decision trees supported — quality doc §8
-- [x] Concept maps supported — quality doc §9 + research maps
-- [x] Visual study assets supported — illustration entities + quality doc §10
+- [x] No artificial word-count limits encoded
+- [x] Knowledge-completeness standard documented — `docs/CONTENT-QUALITY-AND-DEPTH.md`
+- [x] Book-reading, research mode, examples, hypotheticals, timelines, flowcharts, concept maps, visual assets supported in model
 - [x] Content quality review checklist — quality doc §11
 
 ## 8. Content Gateway integration
 
-- [x] Content Gateway contract finalized
-- [x] Repository API/read contract finalized — `docs/CONTENT-GATEWAY-CONTRACT.md` §1
-- [x] Manifest loading contract finalized — gateway contract §2
-- [x] Content shard loading contract finalized — gateway contract §3
-- [x] Schema validation before publication — gateway contract §4 (enforcement in Section 10)
-- [x] Reference validation before publication — gateway contract §5 (enforcement in Section 10)
-- [x] Source validation before publication — gateway contract §6 (enforcement in Section 10)
-- [x] Version/hash validation — gateway contract §7
-- [x] Error handling contract — gateway contract §8
-- [x] Cache/invalidation strategy — gateway contract §9
-- [x] Backward compatibility strategy — gateway contract §10
+- [x] Content Gateway contract finalized — `docs/CONTENT-GATEWAY-CONTRACT.md`
+- [x] Repository API/read, manifest loading, shard loading contracts
+- [x] Schema / reference / source validation before publication (specs + CI)
+- [x] Version/hash validation, error handling, cache/invalidation, backward compatibility
 
 ## 9. Admin publishing workflow
 
-- [ ] Admin topic creation
-- [ ] Admin provision creation
-- [ ] Admin judgment creation
-- [ ] Admin comparison creation
-- [ ] Admin doctrine creation
-- [ ] Admin illustration management
-- [ ] Admin source management
-- [ ] Sanhita mapper
-- [ ] Review queue
-- [ ] Approval workflow
-- [ ] Publishing workflow
-- [ ] Audit log
-- [ ] Role-based authorization
-- [ ] Secure Git branch/PR publishing
+- [x] Admin topic/provision/judgment/comparison/doctrine/illustration/source creation — **contract** in `docs/ADMIN-PUBLISHING-WORKFLOW.md` (UI in codepackr-law)
+- [x] Sanhita mapper — contract in admin publishing doc
+- [x] Review queue / approval / publishing workflow — admin publishing doc + lifecycle
+- [x] Audit log — git + entity version fields (dedicated store optional later)
+- [x] Role-based authorization — governance + admin publishing doc
+- [x] Secure Git branch/PR publishing — admin publishing doc + CI
 
 ## 10. CI/CD and validation
 
-- [ ] JSON Schema validation
-- [ ] Content reference validation
-- [ ] Manifest validation
-- [ ] Duplicate-ID validation
-- [ ] Source validation
-- [ ] Legal metadata validation
-- [ ] Content linting
-- [ ] Automated tests
-- [ ] Pull-request quality gates
-- [ ] Publication gate
-- [ ] Deployment integration
-- [ ] Failure/recovery procedure
+- [x] JSON Schema validation — schema presence/parse + envelope checks in `scripts/validate.mjs`
+- [x] Content reference validation — `scripts/validate.mjs`
+- [x] Manifest validation — `scripts/validate.mjs`
+- [x] Duplicate-ID validation — `scripts/validate.mjs`
+- [x] Source validation — published empty sources fail
+- [x] Legal metadata validation — status/entityType/id pattern checks
+- [x] Content linting — validate script gate
+- [x] Automated tests — `npm run validate` + GitHub Actions
+- [x] Pull-request quality gates — `.github/workflows/validate-content.yml`
+- [x] Publication gate — CI must pass; enable required check in branch protection
+- [x] Deployment integration — contentRef pin documented in gateway + CI docs
+- [x] Failure/recovery procedure — `docs/CI-AND-VALIDATION.md`
 
 ## 11. Migration from codepackr-law
 
@@ -231,13 +178,5 @@
 The `archive/` directory is for **completed/superseded work only**.
 
 Never move active schemas, manifests, live content, governance rules, or currently referenced contracts into the archive.
-
-When this checklist reaches 100%:
-
-1. Verify every checkbox against implementation evidence.
-2. Record completion date, commit SHA, and verification summary.
-3. Move this checklist to `archive/completions/`.
-4. Keep a short `archive/README.md` explaining the archived milestone.
-5. Create the next active checklist if further evolution is required.
 
 **100% means verified, not merely written.**

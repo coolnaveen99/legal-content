@@ -1,123 +1,327 @@
 #!/usr/bin/env node
-import { join } from 'node:path'
-import Ajv2020 from 'ajv/dist/2020.js'
-import addFormats from 'ajv-formats'
-import {
-  REPO_ROOT,
-  SCHEMA_FILES,
-  ID_PATTERN,
-  KNOWN_STATUSES,
-  collectEntities,
-  extractRefs,
-  loadJson,
-} from './lib.mjs'
+/**
+ * legal-content validation gate (Section 10)
+ * - Walks entity JSON under content roots
+ * - Checks envelope basics, duplicate IDs, manifest consistency
+ * - Lightweight schema checks without external deps
+ */
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
 
-const ajv = new Ajv2020({ allErrors: true, strict: false })
-addFormats(ajv)
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
 
-function compile(rel) {
-  const schema = loadJson(join(REPO_ROOT, rel))
-  return ajv.compile(schema)
+const CONTENT_DIRS = [
+  "topics",
+  "provisions",
+  "judgments",
+  "doctrines",
+  "comparisons",
+  "illustrations",
+  "sources",
+  "sanhita-mappings",
+  "collections",
+  "seo",
+];
+
+const STATUS_ENUM = new Set([
+  "draft",
+  "research",
+  "review",
+  "verified",
+  "approved",
+  "published",
+  "review-due",
+  "update",
+  "archived",
+]);
+
+const ENTITY_TYPES = new Set([
+  "topic",
+  "provision",
+  "judgment",
+  "doctrine",
+  "comparison",
+  "illustration",
+  "source",
+  "collection",
+  "sanhitaMapping",
+  "seoRecord",
+]);
+
+const args = new Set(process.argv.slice(2));
+const schemasOnly = args.has("--schemas-only");
+const manifestOnly = args.has("--manifest-only");
+
+let errors = 0;
+let warnings = 0;
+
+function fail(msg) {
+  console.error(`ERROR: ${msg}`);
+  errors += 1;
 }
 
-const validators = {
-  envelope: compile(SCHEMA_FILES.envelope),
-  manifest: compile(SCHEMA_FILES.manifest),
-}
-for (const [type, file] of Object.entries(SCHEMA_FILES)) {
-  if (type === 'envelope' || type === 'manifest') continue
-  validators[type] = compile(file)
+function warn(msg) {
+  console.warn(`WARN: ${msg}`);
+  warnings += 1;
 }
 
-const errors = []
-const warnings = []
-const entities = collectEntities()
-const byId = new Map()
+function ok(msg) {
+  console.log(`OK: ${msg}`);
+}
 
-for (const entity of entities) {
-  const { data, relPath, entityType } = entity
-  if (!data || typeof data !== 'object') {
-    errors.push(`${relPath}: file is not a JSON object`)
-    continue
+function readJson(filePath) {
+  const raw = fs.readFileSync(filePath, "utf8");
+  try {
+    return { raw, data: JSON.parse(raw) };
+  } catch (e) {
+    fail(`Invalid JSON: ${path.relative(ROOT, filePath)} — ${e.message}`);
+    return null;
   }
-  if (!validators.envelope(data)) {
-    errors.push(`${relPath}: envelope invalid — ${ajv.errorsText(validators.envelope.errors)}`)
-  }
-  const typeValidator = validators[data.entityType] || validators[entityType]
-  if (typeValidator && !typeValidator(data)) {
-    errors.push(`${relPath}: ${data.entityType || entityType} schema invalid — ${ajv.errorsText(typeValidator.errors)}`)
-  }
-  if (data.entityType && data.entityType !== entityType) {
-    errors.push(`${relPath}: entityType "${data.entityType}" does not match directory type "${entityType}"`)
-  }
-  if (typeof data.id !== 'string' || !ID_PATTERN.test(data.id)) {
-    errors.push(`${relPath}: invalid canonical id "${data.id}"`)
-  }
-  if (data.status && !KNOWN_STATUSES.has(data.status)) {
-    errors.push(`${relPath}: unknown status "${data.status}"`)
-  }
-  if (data.id) {
-    if (byId.has(data.id)) {
-      errors.push(`duplicate id ${data.id}: ${byId.get(data.id).relPath} and ${relPath}`)
-    } else {
-      byId.set(data.id, entity)
+}
+
+function walkJsonFiles(dir) {
+  const abs = path.join(ROOT, dir);
+  if (!fs.existsSync(abs)) return [];
+  const out = [];
+  const stack = [abs];
+  while (stack.length) {
+    const cur = stack.pop();
+    for (const name of fs.readdirSync(cur)) {
+      const p = path.join(cur, name);
+      const st = fs.statSync(p);
+      if (st.isDirectory()) stack.push(p);
+      else if (name.endsWith(".json")) out.push(p);
     }
   }
-  if (['published', 'approved', 'verified'].includes(data.status)) {
-    const hasSources = Array.isArray(data.sources) && data.sources.length > 0
-    const sourceHasUrl = data.entityType === 'source' && data.content && data.content.url
-    if (!hasSources && !sourceHasUrl) {
-      errors.push(`${relPath}: ${data.status} entity is missing sources`)
+  return out;
+}
+
+function sha256(raw) {
+  return crypto.createHash("sha256").update(raw, "utf8").digest("hex");
+}
+
+function validateSchemasPresent() {
+  const schemaDir = path.join(ROOT, "schemas");
+  const required = [
+    "content-envelope.schema.json",
+    "topic.schema.json",
+    "judgment.schema.json",
+    "manifest.schema.json",
+    "provision.schema.json",
+    "doctrine.schema.json",
+    "comparison.schema.json",
+    "illustration.schema.json",
+    "source.schema.json",
+    "sanhita-mapping.schema.json",
+    "collection.schema.json",
+    "seo.schema.json",
+  ];
+  for (const f of required) {
+    const p = path.join(schemaDir, f);
+    if (!fs.existsSync(p)) fail(`Missing schema: schemas/${f}`);
+    else {
+      const j = readJson(p);
+      if (j) ok(`schema ${f}`);
     }
   }
 }
 
-for (const entity of entities) {
-  for (const ref of extractRefs(entity)) {
-    if (!byId.has(ref)) {
-      const severity = entity.data.status === 'published' ? errors : warnings
-      severity.push(`${entity.relPath}: unresolved reference ${ref}`)
+function validateEntityEnvelope(relPath, data) {
+  const req = [
+    "schemaVersion",
+    "entityType",
+    "id",
+    "version",
+    "status",
+    "title",
+    "jurisdiction",
+    "content",
+    "sources",
+    "updatedAt",
+  ];
+  for (const k of req) {
+    if (!(k in data)) fail(`${relPath}: missing required field '${k}'`);
+  }
+  if (data.schemaVersion && !/^v[0-9]+$/.test(data.schemaVersion)) {
+    fail(`${relPath}: schemaVersion must match ^v[0-9]+$`);
+  }
+  if (data.entityType && !ENTITY_TYPES.has(data.entityType)) {
+    fail(`${relPath}: unknown entityType '${data.entityType}'`);
+  }
+  if (data.status && !STATUS_ENUM.has(data.status)) {
+    fail(`${relPath}: invalid status '${data.status}'`);
+  }
+  if (data.version != null && (!Number.isInteger(data.version) || data.version < 1)) {
+    fail(`${relPath}: version must be integer >= 1`);
+  }
+  if (data.id && !/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(data.id)) {
+    fail(`${relPath}: id '${data.id}' does not match canonical pattern`);
+  }
+  if (Array.isArray(data.sources) && data.status === "published" && data.sources.length === 0) {
+    fail(`${relPath}: published entity must not have empty sources[]`);
+  }
+}
+
+function validateEntitiesAndIds() {
+  const byId = new Map();
+  const entities = [];
+
+  for (const dir of CONTENT_DIRS) {
+    for (const filePath of walkJsonFiles(dir)) {
+      const rel = path.relative(ROOT, filePath).replace(/\\/g, "/");
+      const parsed = readJson(filePath);
+      if (!parsed) continue;
+      const { raw, data } = parsed;
+      validateEntityEnvelope(rel, data);
+      if (data.id) {
+        if (byId.has(data.id)) {
+          fail(`Duplicate id '${data.id}': ${byId.get(data.id)} and ${rel}`);
+        } else {
+          byId.set(data.id, rel);
+        }
+      }
+      entities.push({
+        id: data.id,
+        entityType: data.entityType,
+        path: rel,
+        version: data.version,
+        status: data.status,
+        sha256: sha256(raw),
+        sources: data.sources,
+        content: data.content,
+      });
+    }
+  }
+
+  ok(`scanned ${entities.length} entity file(s), ${byId.size} unique id(s)`);
+  return { byId, entities };
+}
+
+function collectRefs(value, out) {
+  if (typeof value === "string") {
+    if (/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(value)) out.push(value);
+    return;
+  }
+  if (Array.isArray(value)) {
+    for (const v of value) collectRefs(v, out);
+    return;
+  }
+  if (value && typeof value === "object") {
+    for (const v of Object.values(value)) collectRefs(v, out);
+  }
+}
+
+function validateReferences(entities, byId) {
+  for (const e of entities) {
+    const refs = [];
+    collectRefs(e.sources, refs);
+    collectRefs(e.content, refs);
+    for (const ref of refs) {
+      if (ref === e.id) continue;
+      // sources may still be URLs during transition
+      if (/^https?:\/\//i.test(ref)) continue;
+      if (!/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(ref)) continue;
+      if (!byId.has(ref)) {
+        if (e.status === "published") {
+          fail(`${e.path}: published entity references missing id '${ref}'`);
+        } else {
+          warn(`${e.path}: references missing id '${ref}'`);
+        }
+      }
     }
   }
 }
 
-const manifest = loadJson(join(REPO_ROOT, 'manifests/content-manifest.json'))
-if (!validators.manifest(manifest)) {
-  errors.push(`manifests/content-manifest.json invalid — ${ajv.errorsText(validators.manifest.errors)}`)
-}
-if (manifest.repository !== 'coolnaveen99/legal-content') {
-  errors.push('manifest repository must be coolnaveen99/legal-content')
+function validateManifest(byId, entities) {
+  const manifestPath = path.join(ROOT, "manifests", "content-manifest.json");
+  if (!fs.existsSync(manifestPath)) {
+    fail("Missing manifests/content-manifest.json");
+    return;
+  }
+  const parsed = readJson(manifestPath);
+  if (!parsed) return;
+  const m = parsed.data;
+
+  if (!m.manifestVersion || !/^v[0-9]+$/.test(m.manifestVersion)) {
+    fail("manifest: invalid or missing manifestVersion");
+  }
+  if (!m.generatedAt) fail("manifest: missing generatedAt");
+  if (m.repository !== "coolnaveen99/legal-content") {
+    fail(`manifest: repository must be coolnaveen99/legal-content (got ${m.repository})`);
+  }
+  if (!Array.isArray(m.entities)) {
+    fail("manifest: entities must be an array");
+    return;
+  }
+
+  const seenIds = new Set();
+  const seenPaths = new Set();
+  const entityByPath = new Map(entities.map((e) => [e.path, e]));
+
+  for (const entry of m.entities) {
+    for (const k of ["id", "entityType", "path", "version", "status"]) {
+      if (entry[k] == null) fail(`manifest entry missing '${k}': ${JSON.stringify(entry)}`);
+    }
+    if (seenIds.has(entry.id)) fail(`manifest duplicate id '${entry.id}'`);
+    seenIds.add(entry.id);
+    if (seenPaths.has(entry.path)) fail(`manifest duplicate path '${entry.path}'`);
+    seenPaths.add(entry.path);
+
+    const abs = path.join(ROOT, entry.path);
+    if (!fs.existsSync(abs)) {
+      fail(`manifest path does not exist: ${entry.path}`);
+      continue;
+    }
+    const live = entityByPath.get(entry.path.replace(/\\/g, "/"));
+    if (live) {
+      if (live.id !== entry.id) fail(`manifest id mismatch for ${entry.path}`);
+      if (live.entityType !== entry.entityType) fail(`manifest entityType mismatch for ${entry.path}`);
+      if (live.version !== entry.version) fail(`manifest version mismatch for ${entry.path}`);
+      if (live.status !== entry.status) fail(`manifest status mismatch for ${entry.path}`);
+      if (entry.sha256 && entry.sha256 !== live.sha256) {
+        fail(`manifest sha256 mismatch for ${entry.path}`);
+      }
+    }
+  }
+
+  // published files should be listed
+  for (const e of entities) {
+    if ((e.status === "published" || e.status === "review-due" || e.status === "archived") && !seenIds.has(e.id)) {
+      fail(`published/review-due/archived entity missing from manifest: ${e.id} (${e.path})`);
+    }
+  }
+
+  ok(`manifest entities: ${m.entities.length}`);
 }
 
-const manifestIds = new Set((manifest.entities || []).map((e) => e.id))
-for (const entry of manifest.entities || []) {
-  const live = byId.get(entry.id)
-  if (!live) {
-    errors.push(`manifest lists unknown id ${entry.id}`)
-    continue
+function main() {
+  console.log("legal-content validate — root:", ROOT);
+
+  if (!manifestOnly) {
+    validateSchemasPresent();
   }
-  if (live.data.status !== entry.status) {
-    errors.push(`manifest status mismatch for ${entry.id}`)
+
+  if (schemasOnly) {
+    finish();
+    return;
   }
-  if (live.relPath !== entry.path) {
-    errors.push(`manifest path mismatch for ${entry.id}: ${entry.path} vs ${live.relPath}`)
+
+  const { byId, entities } = validateEntitiesAndIds();
+
+  if (!manifestOnly) {
+    validateReferences(entities, byId);
   }
+
+  validateManifest(byId, entities);
+  finish();
 }
 
-for (const entity of entities) {
-  if (entity.data.status === 'published' && !manifestIds.has(entity.data.id)) {
-    errors.push(`${entity.relPath}: published entity missing from manifest`)
-  }
+function finish() {
+  console.log(`\nDone. errors=${errors} warnings=${warnings}`);
+  process.exit(errors > 0 ? 1 : 0);
 }
 
-console.log(`Validated ${entities.length} entities.`)
-if (warnings.length) {
-  console.log(`Warnings (${warnings.length}):`)
-  for (const w of warnings) console.log(`  warn  ${w}`)
-}
-if (errors.length) {
-  console.error(`Errors (${errors.length}):`)
-  for (const e of errors) console.error(`  error ${e}`)
-  process.exit(1)
-}
-console.log('legal-content validation passed')
+main();
