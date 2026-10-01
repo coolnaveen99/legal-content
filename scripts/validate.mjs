@@ -443,6 +443,48 @@ function printGraphReport(entities) {
   }
 }
 
+function validateSeoRecords(entities, byId) {
+  const seenPaths = new Map();
+  for (const entity of entities.filter((e) => e.entityType === 'seoRecord')) {
+    const content = entity.content || {};
+    const canonicalEntityId = content.canonicalEntityId;
+    const canonicalPath = content.canonicalPath;
+    const label = entity.path;
+
+    if (typeof canonicalEntityId !== 'string' || !CANONICAL_ID_RE.test(canonicalEntityId)) {
+      fail(`${label}: SEO record must declare a canonicalEntityId using canonical ID format`);
+    } else if (!byId.has(canonicalEntityId)) {
+      fail(`${label}: SEO canonicalEntityId does not resolve: ${canonicalEntityId}`);
+    } else if (byId.get(canonicalEntityId)?.entityType === 'seoRecord') {
+      fail(`${label}: SEO canonicalEntityId must point to a legal content entity, not another seoRecord`);
+    }
+
+    if (typeof canonicalPath !== 'string' || !canonicalPath.startsWith('/') || canonicalPath.startsWith('//')) {
+      fail(`${label}: canonicalPath must be an absolute site path beginning with '/'`);
+    } else if (canonicalPath.includes('?') || canonicalPath.includes('#')) {
+      fail(`${label}: canonicalPath must not contain query strings or URL fragments`);
+    } else {
+      const previous = seenPaths.get(canonicalPath);
+      if (previous) {
+        fail(`Duplicate SEO canonicalPath '${canonicalPath}': ${previous} and ${label}`);
+      } else {
+        seenPaths.set(canonicalPath, label);
+      }
+    }
+
+    if (typeof content.title !== 'string' || content.title.trim().length === 0) {
+      fail(`${label}: SEO content.title is required`);
+    }
+    if (typeof content.description === 'string' && content.description.length > 320) {
+      fail(`${label}: SEO content.description exceeds 320 characters`);
+    }
+    if (content.noindex != null && typeof content.noindex !== 'boolean') {
+      fail(`${label}: SEO content.noindex must be boolean when present`);
+    }
+  }
+  ok(`SEO metadata checks: ${entities.filter((e) => e.entityType === 'seoRecord').length} record(s), ${seenPaths.size} canonical path(s)`);
+}
+
 function main() {
   console.log("legal-content validate — root:", ROOT);
 
@@ -462,6 +504,7 @@ function main() {
   }
 
   validateManifest(byId, entities);
+  validateSeoRecords(entities, byId);
 
   if (graphReport) printGraphReport(entities);
 
