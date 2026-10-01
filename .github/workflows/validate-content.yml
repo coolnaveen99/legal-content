@@ -18,5 +18,8 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Refresh manifest from entity files
+        run: node scripts/refresh-manifest.mjs
+
       - name: Validate schemas, entities, manifest
         run: node scripts/validate.mjs

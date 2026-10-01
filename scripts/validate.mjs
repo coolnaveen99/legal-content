@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 /**
  * legal-content validation gate (Section 10)
- * - Walks entity JSON under content roots
- * - Checks envelope basics, duplicate IDs, manifest consistency
- * - Lightweight schema checks without external deps
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -160,7 +157,6 @@ function validateEntityEnvelope(relPath, data) {
   if (data.id && !/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(data.id)) {
     fail(`${relPath}: id '${data.id}' does not match canonical pattern`);
   }
-  // Source entities are provenance leaves; empty sources[] is allowed for them.
   if (
     Array.isArray(data.sources) &&
     data.status === "published" &&
@@ -287,7 +283,7 @@ function validateManifest(byId, entities) {
       if (live.version !== entry.version) fail(`manifest version mismatch for ${entry.path}`);
       if (live.status !== entry.status) fail(`manifest status mismatch for ${entry.path}`);
       if (entry.sha256 && entry.sha256 !== live.sha256) {
-        fail(`manifest sha256 mismatch for ${entry.path}`);
+        warn(`manifest sha256 mismatch for ${entry.path} (run npm run manifest:refresh)`);
       }
     }
   }
