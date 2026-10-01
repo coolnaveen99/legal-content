@@ -107,46 +107,46 @@
 - [x] Later judgments — `content.laterJudgments`
 - [x] Present legal position — `content.presentLegalPosition`
 - [x] Practical significance — `content.practicalSignificance`
-- [x] Source/page/paragraph mapping only where supported by the source — `docs/JUDGMENT-DECODER.md` (policy; optional schema field later)
+- [x] Source/page/paragraph mapping only where supported by the source — `docs/JUDGMENT-DECODER.md`
 
 ## 6. Research and relationships
 
-- [ ] Research-map model
-- [ ] Related-topic references
-- [ ] Related-judgment references
-- [ ] Doctrine relationships
-- [ ] Provision relationships
-- [ ] Comparison relationships
-- [ ] Collection relationships
-- [ ] Bidirectional-reference validation where required
+- [x] Research-map model — `docs/RESEARCH-AND-RELATIONSHIPS.md` §1
+- [x] Related-topic references — topic `relatedTopics` + relationships doc §2
+- [x] Related-judgment references — schemas + relationships doc §3
+- [x] Doctrine relationships — doctrine schema + relationships doc §4
+- [x] Provision relationships — relationships doc §5 + cross-entity rules
+- [x] Comparison relationships — comparison schema + relationships doc §6
+- [x] Collection relationships — collection schema + relationships doc §7
+- [x] Bidirectional-reference validation where required — relationships doc §8 (spec; CI in Section 10)
 
 ## 7. Content quality and depth
 
-- [ ] No artificial word-count limits encoded
-- [ ] Knowledge-completeness standard documented
-- [ ] Book-reading structure supported
-- [ ] Research mode structure supported
-- [ ] Examples and illustrations supported
-- [ ] Hypotheticals supported
-- [ ] Timelines supported
-- [ ] Flowcharts/decision trees supported
-- [ ] Concept maps supported
-- [ ] Visual study assets supported
-- [ ] Content quality review checklist
+- [x] No artificial word-count limits encoded — schemas + `docs/CONTENT-QUALITY-AND-DEPTH.md` §1
+- [x] Knowledge-completeness standard documented — `docs/CONTENT-QUALITY-AND-DEPTH.md` §2
+- [x] Book-reading structure supported — topic `sections[]` + quality doc §3
+- [x] Research mode structure supported — quality doc §4 + relationships
+- [x] Examples and illustrations supported — topic examples + illustration schema
+- [x] Hypotheticals supported — topic `hypotheticals[]`
+- [x] Timelines supported — quality doc §7
+- [x] Flowcharts/decision trees supported — quality doc §8
+- [x] Concept maps supported — quality doc §9 + research maps
+- [x] Visual study assets supported — illustration entities + quality doc §10
+- [x] Content quality review checklist — quality doc §11
 
 ## 8. Content Gateway integration
 
 - [x] Content Gateway contract finalized
-- [ ] Repository API/read contract finalized
-- [ ] Manifest loading contract finalized
-- [ ] Content shard loading contract finalized
-- [ ] Schema validation before publication
-- [ ] Reference validation before publication
-- [ ] Source validation before publication
-- [ ] Version/hash validation
-- [ ] Error handling contract
-- [ ] Cache/invalidation strategy
-- [ ] Backward compatibility strategy
+- [x] Repository API/read contract finalized — `docs/CONTENT-GATEWAY-CONTRACT.md` §1
+- [x] Manifest loading contract finalized — gateway contract §2
+- [x] Content shard loading contract finalized — gateway contract §3
+- [x] Schema validation before publication — gateway contract §4 (enforcement in Section 10)
+- [x] Reference validation before publication — gateway contract §5 (enforcement in Section 10)
+- [x] Source validation before publication — gateway contract §6 (enforcement in Section 10)
+- [x] Version/hash validation — gateway contract §7
+- [x] Error handling contract — gateway contract §8
+- [x] Cache/invalidation strategy — gateway contract §9
+- [x] Backward compatibility strategy — gateway contract §10
 
 ## 9. Admin publishing workflow
 
