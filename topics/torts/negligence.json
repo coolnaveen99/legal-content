@@ -2,24 +2,69 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:tort-negligence",
-  "version": 1,
+  "version": 2,
   "status": "published",
   "title": "Negligence — duty, breach, causation, and damage",
   "jurisdiction": "India",
   "content": {
-    "overview": "Negligence in Indian tort law requires a duty of care owed to the claimant, breach of that duty by falling below the standard of the reasonable person, and damage to the claimant caused by that breach, subject to remoteness and defences.",
-    "study": "Structure every problem as duty → breach → causation (factual and legal) → damage. Duty is framed by foresight and proximity (Donoghue/neighbour principle as received in India). Breach compares conduct to the reasonable person in the circumstances. Causation uses but-for and intervening-cause analysis; remoteness limits recoverable loss. Pair with strict liability (no need to prove fault) and vicarious liability (when an employer answers for a servant).",
+    "overview": "Negligence requires (1) a duty of care owed to the claimant, (2) breach of that duty by falling below the standard of the reasonable person, (3) factual and legal causation, and (4) damage that is not too remote. Indian courts receive the neighbour principle with local adaptation.",
+    "sections": [
+      {
+        "heading": "Duty of care",
+        "body": "Duty is a legal relation, not a moral wish. Foresight of harm to persons closely and directly affected, plus proximity and policy limits, structure the inquiry (Donoghue v. Stevenson as received). Professional, road-user, occupier, and manufacturer settings have developed patterns of duty.",
+        "order": 1
+      },
+      {
+        "heading": "Breach",
+        "body": "Compare the defendant's conduct with the reasonable person in the circumstances — skill expected of a professional is the standard of that profession exercised with ordinary care. Likelihood and gravity of harm, cost of precautions, and emergency all inform breach.",
+        "order": 2
+      },
+      {
+        "heading": "Causation and remoteness",
+        "body": "Factual causation: but-for the breach, would the damage have occurred? Legal causation: intervening acts and remoteness (Wagon Mound type foreseeability of the kind of damage). The claimant must prove damage as part of the cause of action.",
+        "order": 3
+      },
+      {
+        "heading": "Track B — proving negligence",
+        "body": "Plead duty facts, particularise breach, plead causation and heads of damage. Burden: claimant proves the tort (BSA s. 104). Res ipsa loquitur may assist where the thing speaks of negligence and is under the defendant's control — it is an aid to inference, not a separate tort. Forum and limitation as for ordinary civil claims unless a special statute applies.",
+        "order": 4
+      },
+      {
+        "heading": "Distinctions",
+        "body": "Negligence is fault-based. Strict liability (Rylands) and absolute liability (M.C. Mehta) do not require proof of lack of reasonable care in the same way. Vicarious liability attributes an employee's tort to the employer.",
+        "order": 5
+      }
+    ],
+    "examples": [
+      {
+        "title": "Applies",
+        "body": "A driver speeds in a crowded bazaar and injures a pedestrian within the foreseeable class of road users. Duty, breach, causation, and damage align."
+      },
+      {
+        "title": "Fails",
+        "body": "Damage is an unforeseeable kind wholly outside the risk created by the breach; remoteness bars recovery for that head even if factual causation is shown."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A hospital leaves a surgical instrument inside a patient. Outline liability.",
+        "analysis": "Duty of care by the treating institution/staff is clear. Breach may be inferred with the aid of res ipsa where the event ordinarily does not occur without negligence and the instrument was under the defendants' control. Prove causation and damage (further surgery, pain, cost). Consider vicarious liability of the hospital for employed staff."
+      }
+    ],
     "relatedTopics": [
       "topic:india:tort-strict-liability",
       "topic:india:tort-vicarious-liability",
-      "topic:india:tort-defamation"
+      "topic:india:tort-general-defences",
+      "topic:india:tort-remedies"
     ],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "tort",
     "legacyTopicId": "negligence"
   },
   "sources": ["source:india:india-common-law-torts"],
-  "updatedAt": "2026-10-01T01:15:00Z",
+  "updatedAt": "2026-10-01T02:00:00Z",
   "effectiveFrom": null,
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "torts", "subject-complete"]
 }
