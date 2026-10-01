@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "illustration",
+  "id": "illustration:india:fundamental-rights-art-32-vs-226",
+  "version": 1,
+  "status": "published",
+  "title": "Article 32 vs Article 226 — forum map (educational)",
+  "jurisdiction": "India",
+  "content": {
+    "kind": "concept-map",
+    "caption": "Educational comparison of Supreme Court (Art. 32) and High Court (Art. 226) writ jurisdiction. Not a substitute for constitutional text.",
+    "nodes": [
+      {"id": "art-32", "label": "Art. 32 — SC; FR enforcement; itself a Fundamental Right"},
+      {"id": "art-226", "label": "Art. 226 — HC; FR and any other purpose; not itself a FR"},
+      {"id": "territorial", "label": "Art. 226 territorial limits (cause of action)"},
+      {"id": "alt", "label": "Alternative remedy — discretion (with exceptions)"}
+    ],
+    "edges": [
+      {"from": "art-32", "to": "art-226", "label": "compare forum"},
+      {"from": "art-226", "to": "territorial", "label": "subject to"},
+      {"from": "art-226", "to": "alt", "label": "often considered"}
+    ],
+    "relatedTopics": ["topic:india:constitution-art-32", "topic:india:constitution-art-226", "topic:india:fundamental-rights-constitutional-remedies"]
+  },
+  "sources": ["source:india:india-code-constitution"],
+  "updatedAt": "2026-10-01T04:00:00Z"
+}

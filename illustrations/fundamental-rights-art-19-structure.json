@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "illustration",
+  "id": "illustration:india:fundamental-rights-art-19-structure",
+  "version": 1,
+  "status": "published",
+  "title": "Article 19 freedoms and restrictions (educational structure)",
+  "jurisdiction": "India",
+  "content": {
+    "kind": "flowchart",
+    "caption": "Educational structure: identify freedom → identify restriction clause → test reasonableness. Verify grounds in official text.",
+    "nodes": [
+      {"id": "citizen", "label": "Is the claimant a citizen?"},
+      {"id": "freedom", "label": "Which Art. 19(1) freedom is engaged?"},
+      {"id": "clause", "label": "Which restriction clause (2)–(6) is invoked?"},
+      {"id": "grounds", "label": "Is the ground enumerated in the Constitution?"},
+      {"id": "reason", "label": "Is the restriction reasonable?"}
+    ],
+    "edges": [
+      {"from": "citizen", "to": "freedom", "label": "if yes"},
+      {"from": "freedom", "to": "clause", "label": "next"},
+      {"from": "clause", "to": "grounds", "label": "next"},
+      {"from": "grounds", "to": "reason", "label": "if yes"}
+    ],
+    "relatedTopics": ["topic:india:constitution-art-19", "topic:india:fundamental-rights-freedoms"]
+  },
+  "sources": ["source:india:india-code-constitution"],
+  "updatedAt": "2026-10-01T04:00:00Z"
+}
