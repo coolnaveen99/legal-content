@@ -1,31 +1,32 @@
 #!/usr/bin/env node
-import fs from "node:fs";
-import path from "node:path";
-import crypto from "node:crypto";
-import { fileURLToPath } from "node:url";
+/**
+ * Full regenerates manifests/content-manifest.json by scanning all entity directories.
+ * (Previously only refreshed sha256 for entries already listed — which left the
+ * manifest stuck at a pilot subset while hundreds of published entities existed on disk.)
+ */
+import { writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { REPO_ROOT, collectEntities, sha256Canonical } from "./lib.mjs";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const manifestPath = path.join(ROOT, "manifests", "content-manifest.json");
-const m = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+const entities = collectEntities()
+  .filter((entity) => entity.data && entity.data.id)
+  .sort((a, b) => a.data.id.localeCompare(b.data.id))
+  .map((entity) => ({
+    id: entity.data.id,
+    entityType: entity.data.entityType,
+    path: entity.relPath,
+    version: entity.data.version,
+    status: entity.data.status,
+    sha256: sha256Canonical(entity.data),
+  }));
 
-function sha256File(rel) {
-  const raw = fs.readFileSync(path.join(ROOT, rel));
-  return crypto.createHash("sha256").update(raw).digest("hex");
-}
+const manifest = {
+  manifestVersion: "v1",
+  generatedAt: new Date().toISOString(),
+  repository: "coolnaveen99/legal-content",
+  entities,
+};
 
-let n = 0;
-for (const e of m.entities) {
-  const abs = path.join(ROOT, e.path);
-  if (!fs.existsSync(abs)) continue;
-  const parsed = JSON.parse(fs.readFileSync(abs, "utf8"));
-  e.version = parsed.version;
-  e.status = parsed.status;
-  e.entityType = parsed.entityType;
-  e.id = parsed.id;
-  e.sha256 = sha256File(e.path);
-  n++;
-}
-m.generatedAt = new Date().toISOString();
-m.entities.sort((a, b) => a.id.localeCompare(b.id));
-fs.writeFileSync(manifestPath, JSON.stringify(m, null, 2) + "\n");
-console.log(`Refreshed ${n} manifest entries`);
+const out = join(REPO_ROOT, "manifests/content-manifest.json");
+writeFileSync(out, JSON.stringify(manifest, null, 2) + "\n");
+console.log(`Wrote ${entities.length} entities to manifests/content-manifest.json`);

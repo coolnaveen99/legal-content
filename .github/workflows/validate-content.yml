@@ -6,20 +6,28 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Refresh manifest from entity files
+      - name: Regenerate full manifest from entity files
         run: node scripts/refresh-manifest.mjs
+
+      - name: Build relationship index
+        run: node scripts/build-relationship-index.mjs
 
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
@@ -27,5 +35,15 @@ jobs:
       - name: Relationship unit tests (PIL pilot)
         run: node scripts/test-relationships.mjs
 
-      - name: Build relationship index (adjacency aid)
-        run: node scripts/build-relationship-index.mjs
+      - name: Commit regenerated manifests on main
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifests/content-manifest.json manifests/relationship-index.json
+          if git diff --staged --quiet; then
+            echo "No manifest changes to commit"
+          else
+            git commit -m "chore: regenerate content-manifest and relationship-index [skip ci]"
+            git push
+          fi
