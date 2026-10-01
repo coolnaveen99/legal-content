@@ -2,20 +2,29 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-23",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 23 Contract Act — Unlawful object",
+  "title": "Section 23 ICA — Lawful consideration and object",
   "jurisdiction": "India",
   "content": {
-    "overview": "An agreement is void if its object or consideration is forbidden, defeats a law, is fraudulent, injurious, immoral or against public policy.",
-    "study": "Public policy is narrow. Do not use 23 to rewrite a bad bargain. Name the statute or the public-policy head.",
-    "relatedTopics": ["topic:india:contract-s-10"],
+    "overview": "The consideration or object of an agreement is lawful unless forbidden by law, defeats any law, is fraudulent, involves injury to person or property, or is immoral or opposed to public policy. Unlawful consideration or object makes the agreement void.",
+    "sections": [
+      {"heading": "Forbidden and defeating law", "body": "Agreements to do what statute forbids, or that defeat mandatory provisions, fail under s. 23.", "order": 1},
+      {"heading": "Public policy", "body": "A narrow head — restraint of trade (s. 27) and established categories. Do not invent new public-policy heads without authority.", "order": 2},
+      {"heading": "Track B", "body": "Identify the exact prohibition. Analyse severance and restitution carefully where illegality is partial.", "order": 3}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-s-10", "topic:india:contract-void-agreements"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-23"
+    "legacyTopicId": "s-23",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete"]
 }

@@ -2,20 +2,28 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-74",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 74 Contract Act — Liquidated damages and penalty",
+  "title": "Section 74 ICA — Stipulated sum and reasonable compensation",
   "jurisdiction": "India",
   "content": {
-    "overview": "If the contract names a sum or a penalty for breach, the Court awards reasonable compensation up to that figure.",
-    "study": "Indian law does not enforce a penalty as such. The named sum is a ceiling. Genuine pre-estimate is usually awarded without a full loss trial; a punishment clause is cut down.",
-    "relatedTopics": ["topic:india:contract-s-73"],
+    "overview": "Where a sum is named as payable on breach, or a penalty is stipulated, the claimant is entitled to reasonable compensation not exceeding the amount so named. Indian law does not enforce a pure penalty as such.",
+    "sections": [
+      {"heading": "Reasonable compensation", "body": "Section 74 requires reasonable compensation capped by the named sum. Proof of actual loss is the ordinary expectation; difficulty of proof may be relevant in light of Supreme Court guidance (verify reports before citation).", "order": 1},
+      {"heading": "Track B", "body": "Plead the stipulation, the breach, and facts supporting reasonableness. Expect moderation of extravagant figures. Treat earnest-money forfeiture with separate care under the same provision and case law.", "order": 2}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-s-73", "topic:india:contract-performance"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-74"
+    "legacyTopicId": "s-74",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete"]
 }

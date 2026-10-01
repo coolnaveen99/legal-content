@@ -2,20 +2,29 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-10",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 10 Contract Act — What is a contract",
+  "title": "Section 10 ICA — What agreements are contracts",
   "jurisdiction": "India",
   "content": {
-    "overview": "An agreement is a contract only if there is free consent, capacity, lawful consideration and lawful object, and the Act does not declare it void.",
-    "study": "Section 2 supplies the definitions. A void agreement never becomes a contract. Plead 10, then name the defect under 14–19, 23 or 25.",
-    "relatedTopics": ["topic:india:contract-s-23"],
+    "overview": "All agreements are contracts if made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void. Section 10 is the enforceability gate.",
+    "sections": [
+      {"heading": "Elements", "body": "1. Agreement (offer + acceptance). 2. Free consent (ss. 13–22). 3. Competency (ss. 11–12). 4. Lawful consideration and object (ss. 23–25). 5. Not expressly declared void.", "order": 1},
+      {"heading": "Method", "body": "Map facts onto section 10. If consent is vitiated, go to ss. 15–19A (voidable). If object is unlawful, s. 23 (void). If consideration is absent without statutory exception, s. 25.", "order": 2},
+      {"heading": "Track B", "body": "Civil suit for specific performance (SRA 1963, post-2018 regime subject to ss. 11, 14, 16) or damages (ss. 73–74 ICA). Plead formation facts and any alleged defect. Limitation typically three years under the Limitation Act, 1963 (check the precise article).", "order": 3}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-free-consent", "topic:india:contract-s-23", "topic:india:contract-consideration", "topic:india:contract-s-73"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-10"
+    "legacyTopicId": "s-10",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete"]
 }

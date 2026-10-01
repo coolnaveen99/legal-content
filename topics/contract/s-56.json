@@ -2,20 +2,29 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-56",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 56 Contract Act — Frustration",
+  "title": "Section 56 ICA — Frustration and impossibility",
   "jurisdiction": "India",
   "content": {
-    "overview": "A contract that becomes impossible or unlawful after it is made is void from that point.",
-    "study": "Frustration is not a worse market or a harder performance. The event must strike the root and be outside the promisor's control. Force majeure clauses may occupy the field before 56 is reached.",
-    "relatedTopics": ["topic:india:contract-s-37"],
+    "overview": "An agreement to do an act impossible in itself is void. A contract becomes void when the act becomes impossible or unlawful after formation by reason of an event the promisor could not prevent. Commercial hardship alone is not frustration.",
+    "sections": [
+      {"heading": "Doctrine", "body": "Section 56 codifies frustration. Satyabrata Ghose v. Mugneeram Bangur orients the doctrine toward practical impossibility of the contemplated performance. Energy Watchdog v. CERC cautions that commercial unprofitability is not frustration.", "order": 1},
+      {"heading": "Restitution", "body": "Section 65 requires restoration of advantage received under a void agreement or when a contract becomes void.", "order": 2},
+      {"heading": "Track B", "body": "Plead the supervening event, lack of fault, and destruction of the contractual foundation. Force-majeure clauses may allocate risk differently from bare s. 56.", "order": 3}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-performance", "topic:india:contract-quasi-contracts", "topic:india:contract-s-73"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-56"
+    "legacyTopicId": "s-56",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete", "landmark-doctrine"]
 }

@@ -2,20 +2,28 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-73",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Section 73 Contract Act — Damages",
+  "title": "Section 73 ICA — Compensation for loss caused by breach",
   "jurisdiction": "India",
   "content": {
-    "overview": "Breach damages cover loss that arose naturally or that the parties knew was likely. Remote loss is out.",
-    "study": "Prove the contract, the breach, and the loss. Mitigation is expected. A liquidated figure is 74, not 73.",
-    "relatedTopics": ["topic:india:contract-s-74", "topic:india:contract-s-37"],
+    "overview": "The party suffering from breach is entitled to compensation for loss which naturally arose in the usual course of things, or which the parties knew when they made the contract to be likely to result from the breach. Remote loss is excluded; mitigation is required.",
+    "sections": [
+      {"heading": "Two limbs", "body": "Limb 1: ordinary natural consequences. Limb 2: special loss within contemplation of both parties at formation. Explanation: means existing to remedy the inconvenience must be considered (mitigation).", "order": 1},
+      {"heading": "Track B", "body": "Plead general and special damages separately with quantum evidence. Special damages need proof of knowledge at formation. Check arbitration clauses for forum.", "order": 2}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:contract-s-74", "topic:india:contract-performance", "topic:india:contract-s-56"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-73"
+    "legacyTopicId": "s-73",
+    "bareActPointers": ["Indian Contract Act, 1872"]
   },
   "sources": ["source:india:india-code-contract-1872"],
-  "updatedAt": "2026-09-30T23:00:00Z",
+  "updatedAt": "2026-10-01T02:30:00Z",
   "effectiveFrom": "1872-09-01",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "contract", "subject-complete"]
 }
