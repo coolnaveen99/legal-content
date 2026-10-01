@@ -17,16 +17,16 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] Map legacy IDs — ID mapping rules in migration doc (row registry grows per wave)
 - [x] Identify duplicate content — policy in migration doc
 - [x] Identify missing sources — policy in migration doc
-- [x] Convert topics — bulk scaffold present (635 entities); Wave C benchmark `topic:india:cpc-s-32` upgraded to full treatise (v2)
-- [x] Convert provisions — bulk scaffold present; `provision:india:cpc-s-32` upgraded (v2)
+- [x] Convert topics — bulk scaffold present; depth upgrade ongoing (CPC s.32 and other treatises at v2 where upgraded)
+- [x] Convert provisions — bulk scaffold present; pilot upgrades at v2
 - [x] Convert judgments — initial entities present (progressive depth still ongoing)
 - [x] Convert related-case references — structure in schemas; populated where available
 - [x] Convert examples/illustrations — present for pilot entities including CPC s.32
-- [x] Validate migrated content — `npm run validate` green after manifest rebuild (635 entities)
-- [ ] Parity test against the application — requires ContentRepository in codepackr-law
-- [ ] Switch application reads to the new repository
-- [ ] Confirm legacy fallback strategy — documented; implement in app
-- [ ] Remove legacy content only after verified parity
+- [x] Validate migrated content — full-scan manifest + `npm run validate` (CI regenerates and commits manifests on main)
+- [x] Parity test against the application — `codepackr-law` `npm test` live gateway suite + `npm run parity:legal-content`
+- [x] Switch application reads to the new repository — TopicDetail → ContentGateway → CanonicalContentRepository (legacy fallback retained)
+- [x] Confirm legacy fallback strategy — ContentGateway falls back to LegacyTopicRepository when canonical missing/unpublished
+- [ ] Remove legacy content only after verified parity — **do not remove yet**; dual-read remains until production acceptance
 
 ## 12. Production readiness
 
@@ -39,19 +39,19 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] Copyright/data-governance review — sources doc + production readiness
 - [x] Monitoring/alerting — production readiness doc
 - [x] Documentation complete — core doc set listed in production readiness
-- [x] End-to-end publishing test — entity publish + manifest refresh + validate green (Wave C)
-- [ ] End-to-end application consumption test — pending app Gateway
-- [ ] Production acceptance review — pending migration + app integration
+- [x] End-to-end publishing test — entity publish + manifest refresh + validate green; CI auto-commits manifests
+- [x] End-to-end application consumption test — ContentGateway live parity probes (PIL, CPC s.32, tort, contract, constitution)
+- [ ] Production acceptance review — pending human sign-off on deployed app
 
 ## 13. Final acceptance gate
 
 - [ ] All required checklist items are complete
-- [ ] All automated validation passes
+- [x] All automated validation passes
 - [ ] All required manual reviews are complete
 - [ ] No unresolved critical issues
-- [ ] Application consumes canonical content successfully
-- [ ] Publishing workflow is verified end-to-end
-- [ ] Migration parity is verified
+- [x] Application consumes canonical content successfully (automated parity; production UX review pending)
+- [x] Publishing workflow is verified end-to-end
+- [ ] Migration parity is verified (automated smoke done; full catalog UX review pending)
 - [ ] Final architecture review completed
 - [ ] Completion record created
 - [ ] Checklist moved to `archive/completions/`
@@ -69,7 +69,8 @@ Never move active schemas, manifests, live content, governance rules, or current
 | Area | State |
 |------|--------|
 | Specs, schemas, CI validator | Done on `main` |
-| Live canonical corpus | 635 entities in manifest |
-| Bulk topic migration | Scaffold complete; depth upgrade ongoing (CPC s.32 benchmark v2) |
-| App ContentRepository consumption | Pending wiring / parity tests |
+| Live canonical corpus | **719** entities in manifest; **1755** relationship edges |
+| Bulk topic migration | Scaffold complete; depth upgrade ongoing |
+| App ContentRepository consumption | **Wired** — Gateway + live parity tests |
+| Legacy dual-read | Retained until production acceptance |
 | Final acceptance / archive checklist | Not ready |
