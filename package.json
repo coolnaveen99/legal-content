@@ -6,7 +6,8 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "validate:schemas": "node scripts/validate.mjs --schemas-only",
-    "validate:manifest": "node scripts/validate.mjs --manifest-only"
+    "validate:manifest": "node scripts/validate.mjs --manifest-only",
+    "manifest:refresh": "node scripts/refresh-manifest.mjs"
   },
   "engines": {
     "node": ">=18"
