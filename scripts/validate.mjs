@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * legal-content validation gate (Section 10)
+ * legal-content validation gate (Section 10) + Phase 2 relationship graph checks
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -48,12 +48,45 @@ const ENTITY_TYPES = new Set([
   "seoRecord",
 ]);
 
+/** Canonical ID prefix → entityType */
+const ID_PREFIX_TO_TYPE = {
+  topic: "topic",
+  provision: "provision",
+  judgment: "judgment",
+  doctrine: "doctrine",
+  comparison: "comparison",
+  illustration: "illustration",
+  source: "source",
+  collection: "collection",
+  "sanhita-mapping": "sanhitaMapping",
+  seo: "seoRecord",
+};
+
+/** Named relationship fields → expected target entityType (null = any canonical id) */
+const RELATION_FIELD_TYPES = {
+  relatedTopics: "topic",
+  relatedJudgments: "judgment",
+  relatedProvisions: "provision",
+  relatedDoctrines: "doctrine",
+  illustrations: "illustration",
+  members: null,
+  sources: "source",
+  lawsInvolved: "provision",
+  precedentsReliedUpon: "judgment",
+  laterJudgments: "judgment",
+};
+
+const CANONICAL_ID_RE = /^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/;
+
 const args = new Set(process.argv.slice(2));
 const schemasOnly = args.has("--schemas-only");
 const manifestOnly = args.has("--manifest-only");
+const graphReport = args.has("--graph-report");
+const strictReciprocal = args.has("--strict-reciprocal");
 
 let errors = 0;
 let warnings = 0;
+let relationStats = { checked: 0, missing: 0, typeMismatch: 0, reciprocalGaps: 0 };
 
 function fail(msg) {
   console.error(`ERROR: ${msg}`);
@@ -154,8 +187,15 @@ function validateEntityEnvelope(relPath, data) {
   if (data.version != null && (!Number.isInteger(data.version) || data.version < 1)) {
     fail(`${relPath}: version must be integer >= 1`);
   }
-  if (data.id && !/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(data.id)) {
+  if (data.id && !CANONICAL_ID_RE.test(data.id)) {
     fail(`${relPath}: id '${data.id}' does not match canonical pattern`);
+  }
+  if (data.id && data.entityType) {
+    const prefix = data.id.split(":")[0];
+    const expected = ID_PREFIX_TO_TYPE[prefix];
+    if (expected && expected !== data.entityType) {
+      fail(`${relPath}: id prefix '${prefix}' does not match entityType '${data.entityType}'`);
+    }
   }
   if (
     Array.isArray(data.sources) &&
@@ -194,6 +234,7 @@ function validateEntitiesAndIds() {
         sha256: sha256(raw),
         sources: data.sources,
         content: data.content,
+        rawData: data,
       });
     }
   }
@@ -204,7 +245,7 @@ function validateEntitiesAndIds() {
 
 function collectRefs(value, out) {
   if (typeof value === "string") {
-    if (/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(value)) out.push(value);
+    if (CANONICAL_ID_RE.test(value)) out.push(value);
     return;
   }
   if (Array.isArray(value)) {
@@ -216,15 +257,62 @@ function collectRefs(value, out) {
   }
 }
 
+function extractNamedRelations(entity) {
+  const found = [];
+  const content = entity.content || {};
+  for (const [field, expectedType] of Object.entries(RELATION_FIELD_TYPES)) {
+    let arr = null;
+    if (field === "sources" && Array.isArray(entity.sources)) arr = entity.sources;
+    else if (Array.isArray(content[field])) arr = content[field];
+    else if (entity.rawData && Array.isArray(entity.rawData[field])) arr = entity.rawData[field];
+    if (!arr) continue;
+    for (const id of arr) {
+      if (typeof id === "string" && CANONICAL_ID_RE.test(id)) {
+        found.push({ field, id, expectedType });
+      }
+    }
+  }
+  return found;
+}
+
 function validateReferences(entities, byId) {
+  const entityById = new Map(entities.map((e) => [e.id, e]));
+
   for (const e of entities) {
+    for (const rel of extractNamedRelations(e)) {
+      relationStats.checked += 1;
+      if (rel.id === e.id) continue;
+      if (!byId.has(rel.id)) {
+        relationStats.missing += 1;
+        if (e.status === "published") {
+          fail(`${e.path}: published entity ${rel.field} references missing id '${rel.id}'`);
+        } else {
+          warn(`${e.path}: ${rel.field} references missing id '${rel.id}'`);
+        }
+        continue;
+      }
+      const target = entityById.get(rel.id);
+      if (rel.expectedType && target && target.entityType !== rel.expectedType) {
+        relationStats.typeMismatch += 1;
+        fail(
+          `${e.path}: ${rel.field} '${rel.id}' has entityType '${target.entityType}', expected '${rel.expectedType}'`
+        );
+      }
+      const prefix = rel.id.split(":")[0];
+      const mapped = ID_PREFIX_TO_TYPE[prefix];
+      if (mapped && target && mapped !== target.entityType) {
+        relationStats.typeMismatch += 1;
+        fail(`${e.path}: ref '${rel.id}' prefix maps to ${mapped} but target is ${target.entityType}`);
+      }
+    }
+
     const refs = [];
     collectRefs(e.sources, refs);
     collectRefs(e.content, refs);
     for (const ref of refs) {
       if (ref === e.id) continue;
       if (/^https?:\/\//i.test(ref)) continue;
-      if (!/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(ref)) continue;
+      if (!CANONICAL_ID_RE.test(ref)) continue;
       if (!byId.has(ref)) {
         if (e.status === "published") {
           fail(`${e.path}: published entity references missing id '${ref}'`);
@@ -234,6 +322,27 @@ function validateReferences(entities, byId) {
       }
     }
   }
+
+  for (const e of entities) {
+    if (e.entityType !== "topic") continue;
+    const related = (e.content && e.content.relatedTopics) || [];
+    for (const otherId of related) {
+      if (typeof otherId !== "string" || !CANONICAL_ID_RE.test(otherId)) continue;
+      const other = entityById.get(otherId);
+      if (!other || other.entityType !== "topic") continue;
+      const back = (other.content && other.content.relatedTopics) || [];
+      if (!back.includes(e.id)) {
+        relationStats.reciprocalGaps += 1;
+        const msg = `${e.path}: relatedTopics includes '${otherId}' but inverse relatedTopics does not list '${e.id}'`;
+        if (strictReciprocal) fail(msg);
+        else warn(msg);
+      }
+    }
+  }
+
+  ok(
+    `relationship checks: ${relationStats.checked} named refs, missing=${relationStats.missing}, typeMismatch=${relationStats.typeMismatch}, reciprocalGaps=${relationStats.reciprocalGaps}`
+  );
 }
 
 function validateManifest(byId, entities) {
@@ -289,12 +398,32 @@ function validateManifest(byId, entities) {
   }
 
   for (const e of entities) {
-    if ((e.status === "published" || e.status === "review-due" || e.status === "archived") && !seenIds.has(e.id)) {
+    if (
+      (e.status === "published" || e.status === "review-due" || e.status === "archived") &&
+      !seenIds.has(e.id)
+    ) {
       fail(`published/review-due/archived entity missing from manifest: ${e.id} (${e.path})`);
     }
   }
 
   ok(`manifest entities: ${m.entities.length}`);
+}
+
+function printGraphReport(entities) {
+  const edges = [];
+  for (const e of entities) {
+    for (const rel of extractNamedRelations(e)) {
+      edges.push({ from: e.id, field: rel.field, to: rel.id });
+    }
+  }
+  console.log(`\n--- graph report: ${edges.length} directed edges ---`);
+  const byField = {};
+  for (const ed of edges) {
+    byField[ed.field] = (byField[ed.field] || 0) + 1;
+  }
+  for (const [f, n] of Object.entries(byField).sort((a, b) => b[1] - a[1])) {
+    console.log(`  ${f}: ${n}`);
+  }
 }
 
 function main() {
@@ -316,6 +445,9 @@ function main() {
   }
 
   validateManifest(byId, entities);
+
+  if (graphReport) printGraphReport(entities);
+
   finish();
 }
 
