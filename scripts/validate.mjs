@@ -160,7 +160,13 @@ function validateEntityEnvelope(relPath, data) {
   if (data.id && !/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(data.id)) {
     fail(`${relPath}: id '${data.id}' does not match canonical pattern`);
   }
-  if (Array.isArray(data.sources) && data.status === "published" && data.sources.length === 0) {
+  // Source entities are provenance leaves; empty sources[] is allowed for them.
+  if (
+    Array.isArray(data.sources) &&
+    data.status === "published" &&
+    data.sources.length === 0 &&
+    data.entityType !== "source"
+  ) {
     fail(`${relPath}: published entity must not have empty sources[]`);
   }
 }
@@ -221,7 +227,6 @@ function validateReferences(entities, byId) {
     collectRefs(e.content, refs);
     for (const ref of refs) {
       if (ref === e.id) continue;
-      // sources may still be URLs during transition
       if (/^https?:\/\//i.test(ref)) continue;
       if (!/^[a-z0-9-]+:[a-z0-9-]+:[a-z0-9._-]+$/.test(ref)) continue;
       if (!byId.has(ref)) {
@@ -287,7 +292,6 @@ function validateManifest(byId, entities) {
     }
   }
 
-  // published files should be listed
   for (const e of entities) {
     if ((e.status === "published" || e.status === "review-due" || e.status === "archived") && !seenIds.has(e.id)) {
       fail(`published/review-due/archived entity missing from manifest: ${e.id} (${e.path})`);
