@@ -2,20 +2,30 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:constitution-art-32",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Article 32 — Supreme Court remedy for fundamental rights",
+  "title": "Article 32 — Remedies for enforcement of rights conferred by Part III",
   "jurisdiction": "India",
   "content": {
-    "overview": "Article 32 is itself a fundamental right: the right to move the Supreme Court for enforcement of Part III.",
-    "study": "Article 226 is the High Court writ power and is wider in cause but is not itself a fundamental right. Emergency suspension is Articles 358 and 359.",
-    "relatedTopics": ["topic:india:constitution-art-13", "topic:india:constitution-art-226"],
+    "overview": "Article 32 guarantees the right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by Part III. It is itself a Fundamental Right. The Supreme Court may issue directions, orders or writs including habeas corpus, mandamus, prohibition, quo warranto and certiorari.",
+    "sections": [
+      {"heading": "Fundamental right to constitutional remedy", "body": "Article 32 is not merely procedural; the right to move the Supreme Court for Part III enforcement is itself guaranteed.", "order": 1},
+      {"heading": "Writs", "body": "The five classic writs are available as appropriate. Choice of writ follows the nature of the wrong (detention, public duty, excess of jurisdiction, usurpation of office, etc.).", "order": 2},
+      {"heading": "Article 32 vs Article 226", "body": "Article 226 is the High Court’s power to issue writs for Fundamental Rights and for any other purpose. It is wider in remedial subject-matter but is not itself a Fundamental Right. Territorial limits under Article 226(2) apply. Alternative remedy is a rule of discretion, not want of jurisdiction, with recognised exceptions.", "order": 3},
+      {"heading": "Track B", "body": "Frame the Part III right, the State action, and the appropriate writ. Consider whether the High Court under Article 226 is the more suitable forum. See also the PIL subject set for standing practice.", "order": 4}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:constitution-art-226", "topic:india:constitution-art-13", "topic:india:fundamental-rights-constitutional-remedies", "topic:india:pil-art-32"],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "constitution",
-    "legacyTopicId": "art-32"
+    "legacyTopicId": "art-32",
+    "bareActPointers": ["Constitution of India, Part III"]
   },
   "sources": ["source:india:india-code-constitution"],
-  "updatedAt": "2026-09-30T21:00:00Z",
+  "updatedAt": "2026-10-01T04:00:00Z",
   "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "fundamental-rights", "constitution", "subject-complete"]
 }

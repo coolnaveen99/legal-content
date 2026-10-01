@@ -2,21 +2,29 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:constitution-art-19",
-  "version": 1,
+  "version": 2,
   "status": "published",
-  "title": "Article 19 — Freedoms of speech, assembly, movement and profession",
+  "title": "Article 19 — Protection of certain rights regarding freedom of speech, etc.",
   "jurisdiction": "India",
   "content": {
-    "overview": "Article 19(1) of the Constitution of India guarantees specified freedoms to citizens. Clauses (2) to (6) permit only reasonable restrictions on the grounds enacted in those clauses.",
-    "study": "Identify the freedom first: speech, assembly, association, movement, residence, or profession. Then identify the restriction and the clause that is said to authorise it. Reasonableness is not a free-floating slogan. After Maneka, Articles 14, 19 and 21 are read together when a restriction also deprives life or liberty. Article 19 rights are citizen rights.",
+    "overview": "Article 19 guarantees to citizens the freedoms of speech and expression, assembly, association, movement, residence, and profession, subject to the reasonable restrictions authorised by clauses (2) to (6). Non-citizens do not hold Article 19 rights. Restrictions must be grounded in the specific grounds listed in the Constitution and must be reasonable.",
+    "sections": [
+      {"heading": "Freedoms", "body": "Article 19(1) lists the freedoms. Each freedom has corresponding restriction clauses. Verify the official text for the exact catalogue and grounds.", "order": 1},
+      {"heading": "Reasonable restrictions", "body": "Restrictions must fall within the enumerated grounds and must be reasonable. Reasonableness is examined in light of the purpose and the means. Verify current clause text in the official Constitution.", "order": 2},
+      {"heading": "Track B", "body": "Identify which freedom is engaged, which restriction clause is invoked, and why the restriction is or is not reasonable. Citizens only. Pair with Articles 14 and 21 where the golden-triangle analysis applies.", "order": 3}
+    ],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedTopics": ["topic:india:constitution-art-14", "topic:india:constitution-art-21", "topic:india:fundamental-rights-freedoms"],
     "relatedJudgments": ["judgment:india:maneka-gandhi-1978"],
-    "relatedTopics": ["topic:india:constitution-art-14", "topic:india:constitution-art-21"],
     "illustrations": [],
     "legacySubjectSlug": "constitution",
-    "legacyTopicId": "art-19"
+    "legacyTopicId": "art-19",
+    "bareActPointers": ["Constitution of India, Part III"]
   },
   "sources": ["source:india:india-code-constitution"],
-  "updatedAt": "2026-09-30T20:45:00Z",
+  "updatedAt": "2026-10-01T04:00:00Z",
   "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "effectiveTo": null,
+  "tags": ["current-law", "fundamental-rights", "constitution", "subject-complete"]
 }
