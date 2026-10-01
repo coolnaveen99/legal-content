@@ -455,7 +455,7 @@ function validateSeoRecords(entities, byId) {
       fail(`${label}: SEO record must declare a canonicalEntityId using canonical ID format`);
     } else if (!byId.has(canonicalEntityId)) {
       fail(`${label}: SEO canonicalEntityId does not resolve: ${canonicalEntityId}`);
-    } else if (byId.get(canonicalEntityId)?.entityType === 'seoRecord') {
+    } else if (canonicalEntityId.startsWith('seo:')) {
       fail(`${label}: SEO canonicalEntityId must point to a legal content entity, not another seoRecord`);
     }
 
