@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T10:20:02.249Z",
+  "generatedAt": "2026-10-02T11:00:00Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -9,15 +9,15 @@
   ],
   "summary": {
     "gatesAudited": 6,
-    "passed": 2,
-    "blockingGates": 4,
+    "passed": 3,
+    "blockingGates": 3,
     "readyForFinalAcceptance": false
   },
   "records": [
     {
       "gate": "Automated CI",
-      "status": "pass",
-      "evidence": "validate-content and validate workflows are green on the current main commit."
+      "status": "not-verified",
+      "evidence": "No post-change workflow run/status was returned for the direct-main commits; CI remains an evidence gap."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -30,42 +30,44 @@
     },
     {
       "gate": "Phase 10 authoritative judgment verification",
-      "status": "manual-review-required",
+      "status": "skipped-by-decision",
       "evidence": {
         "judgmentsAudited": 124,
-        "pending": 124
+        "verified": 23,
+        "pending": 101,
+        "note": "Remaining authoritative verification intentionally skipped per project decision; records remain pending and are not treated as verified."
       }
     },
     {
       "gate": "Phase 11 proposition review",
-      "status": "manual-review-required",
+      "status": "pass",
       "evidence": {
         "judgmentsAudited": 10,
-        "pendingManualReview": 10
+        "pendingManualReview": 0
       }
     },
     {
       "gate": "Production acceptance",
-      "status": "pending",
+      "status": "pass",
       "evidence": {
-        "pendingMarkers": 3
+        "contentRepo": "Cross-repo acceptance recorded from codepackr-law PA-001/PA-002/PA-003 evidence.",
+        "liveApp": "https://law.codepackr.com",
+        "legacyRemoval": "Not approved; PA-004 retains dual-read."
       }
     },
     {
       "gate": "Checklist completion",
       "status": "pending",
       "evidence": {
-        "uncheckedItems": 9
+        "uncheckedItems": 9,
+        "note": "No checklist artifact was found in the legal-content repository during this phase; final archival checklist remains outstanding."
       }
     }
   ],
   "manualReviewQueue": [
-    "- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off",
-    "- [ ] Production acceptance review — **CONDITIONAL PASS** (automated); human UX + deploy confirmation pending — `docs/PRODUCTION-ACCEPTANCE.md`",
-    "- [ ] All required checklist items are complete",
-    "- [ ] All required manual reviews are complete",
-    "- [ ] No unresolved critical issues",
-    "- [ ] Migration parity is verified (full UX)",
+    "- [ ] Resolve or explicitly waive post-change CI evidence",
+    "- [ ] Record the decision to skip remaining Phase 10 authoritative verification",
+    "- [ ] Complete remaining acceptance checklist items",
     "- [ ] Final architecture review completed",
     "- [ ] Completion record created",
     "- [ ] Checklist moved to `archive/completions/`"
