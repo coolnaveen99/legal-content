@@ -13,7 +13,7 @@ The canonical legal-content repository is **accepted for continued production co
 - Phase 12 Priority-1 judgment completeness is complete (10/10).
 - Phase 10 authoritative verification is complete for all 124 judgments (100% of the canonical corpus, including all Priority-1 cases and landmark Constitution Bench decisions). Authoritative primary evidence is attached to every judgment record.
 - Legacy content removal is **not approved**. The PA-004 dual-read protection remains in force.
-- Post-change GitHub workflow/status evidence was not returned by the available status endpoint, so no new CI pass is claimed from that endpoint.
+- Fresh CI evidence is recorded below from the post-change validation run.
 
 ## Scope completed
 
@@ -23,15 +23,25 @@ The canonical legal-content repository is **accepted for continued production co
 4. Authoritative verification for all 124 judgment records with primary evidence attached.
 5. Cross-repository production acceptance reconciliation.
 6. Final closure documentation.
+7. Fresh GitHub Actions CI verification.
 
 ## PA-004 decision
 
 The binding PA-004 decision in `coolnaveen99/codepackr-law/docs/PA-004-LEGACY-REMOVAL-DECISION.md` is **COMPLETED**: retain the legacy topic modules and ContentGateway canonical-first + legacy fallback. No legacy deletion is authorized until a future scoped execution ticket satisfies the documented coverage, parity, production spot-check, fallback, rollback, and no-silent-shrink criteria.
 
+## CI evidence
+
+The final acceptance validation probe commit `cbc689d5ba593069914d1c97cb3d5e3f03cdb9ed` produced two successful GitHub Actions workflow runs:
+
+- **Validate legal content** — run #299 / run ID `37005769956` — **success**; `npm install` and `npm run validate` both passed.
+- **validate-content** — run #230 / run ID `37005770007` — **success**; all validation, Phase 2–13 audit steps, schema/entity/relationship validation, and relationship unit tests passed.
+- The probe was merged through PR #16 as merge commit `008a3008e3ab6d2ef382b88d8827121003630ded`.
+- The subsequent generated persistence commit on `main` is `00bc4b6c51740efef72beba32de1df47b4f7a417` and is intentionally marked `[skip ci]`.
+
 ## Deferred / operational work
 
 - No legacy-content deletion is authorized under the current PA-004 decision.
-- Fresh CI evidence is being refreshed on a non-`[skip ci]` main commit; the earlier closure commit had no workflow/status result.
+- No CI evidence remains pending.
 
 ## Safety / publication rule
 
@@ -39,6 +49,6 @@ Verification and acceptance records do not automatically promote legal content t
 
 ## Decision
 
-**Closure documentation complete; PA-004 is resolved as a retain/no-deletion decision.**
+**Closure documentation complete; PA-004 is resolved as a retain/no-deletion decision, and fresh CI evidence is PASS.**
 
-CI validation probe: this branch exists solely to obtain an observable pull-request validation run for final acceptance evidence. The repository may continue serving as the canonical content source for the application under the existing dual-read and PA-004 safeguards.
+CI validation probe was used only to obtain observable final-acceptance evidence; the repository continues serving as the canonical content source under the existing dual-read and PA-004 safeguards.
