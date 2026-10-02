@@ -30,5 +30,31 @@
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_24-Aug-2017.pdf",
+        "note": "Official Supreme Court judgments cite the 1984 decision and reproduce/describe its Article 32, dignity, bonded-labour and procedural propositions; direct 1984 original PDF was not located in this search pass."
+      },
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/12668.pdf",
+        "note": "Official Supreme Court judgments cite the 1984 decision and reproduce/describe its Article 32, dignity, bonded-labour and procedural propositions; direct 1984 original PDF was not located in this search pass."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 2,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

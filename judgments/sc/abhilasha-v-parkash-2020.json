@@ -30,5 +30,26 @@
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "direct-original",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "direct-original",
+        "url": "https://api.sci.gov.in/supremecourt/2018/34880/34880_2018_35_1501_23965_Judgement_15-Sep-2020.pdf",
+        "note": "Official Supreme Court judgment PDF."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 2,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }
