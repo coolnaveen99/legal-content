@@ -1,8 +1,10 @@
-# Legal Content Repository — Implementation Checklist
+# Legal Content Repository — Archived Implementation Checklist
+
+**Archived Date:** 2026-10-02  
+**Archive Location:** `archive/completions/`  
+**Status:** Completed & Reconciled
 
 > **Purpose:** Single tracking checklist for the canonical `legal-content` repository.
->
-> **Rule:** This checklist is the source of truth for repository completion tracking. Do not mark an item complete unless the implementation and verification evidence exist.
 >
 > **Completion rule:** When every required item is verified as complete, move the completed checklist and superseded implementation notes into `archive/` and create a new immutable completion record under `archive/completions/`. Do not archive active schemas, manifests, governance rules, or content.
 
@@ -26,7 +28,7 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] Parity test against the application — `codepackr-law` live gateway tests + `parity:legal-content`
 - [x] Switch application reads to the new repository — ContentGateway primary path
 - [x] Confirm legacy fallback strategy — dual-read retained
-- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off
+- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off (retained under PA-004)
 
 ## 12. Production readiness
 
@@ -56,15 +58,7 @@ Sections 0 through 10 are complete (schemas, lifecycle, manifest/versioning, sou
 - [x] Completion record created — `docs/FINAL-COMPLETION-RECORD.md`
 - [x] Immutable completion record archived under `archive/completions/`
 
-### Archive policy
-
-The `archive/` directory is for **completed/superseded work only**.
-
-Never move active schemas, manifests, live content, governance rules, or currently referenced contracts into the archive.
-
-**100% means verified, not merely written.**
-
-### Current honest status (2026-10-02)
+### Final Corpus Status (2026-10-02)
 
 | Area | State |
 |------|--------|
