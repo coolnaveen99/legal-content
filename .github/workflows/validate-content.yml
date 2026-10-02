@@ -58,7 +58,10 @@ jobs:
       - name: Phase 8 judgment and case-law verification
         run: node scripts/audit-judgment-case-law.mjs
 
-      - name: Phase 9 canonical judgment registry\n        run: node scripts/build-judgment-registry.mjs\n\n      - name: Validate schemas, entities, relationships, manifest
+      - name: Phase 9 canonical judgment registry
+        run: node scripts/build-judgment-registry.mjs
+
+      - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
       - name: Relationship unit tests (PIL pilot)
