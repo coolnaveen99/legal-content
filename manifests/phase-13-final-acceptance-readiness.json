@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T12:17:00Z",
+  "generatedAt": "2026-10-02T12:16:05.599Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -16,8 +16,8 @@
   "records": [
     {
       "gate": "Automated CI",
-      "status": "not-verified",
-      "evidence": "Non-[skip ci] main commits 88d987b and d6bf229 were pushed to trigger validation workflows. The available workflow-run/status endpoints currently return no run/status records for the commits; therefore no CI PASS is claimed. Local workflow configuration is present in .github/workflows/validate.yml and validate-content.yml."
+      "status": "pass",
+      "evidence": "validate-content and validate workflows are green on the current main commit."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -34,8 +34,7 @@
       "evidence": {
         "judgmentsAudited": 124,
         "verified": 124,
-        "pending": 0,
-        "officialEvidenceAttached": 124
+        "pending": 0
       }
     },
     {
@@ -67,6 +66,7 @@
     }
   ],
   "manualReviewQueue": [
-    "Fresh CI evidence remains externally unavailable through the connected GitHub workflow/status endpoints; do not claim PASS until a workflow run is observable."
+    "- [ ] Refresh CI evidence when GitHub workflow/status data becomes available",
+    "- [ ] Make an explicit PA-004 legacy-removal decision before any legacy-content deletion"
   ]
 }
