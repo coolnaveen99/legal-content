@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T11:10:00Z",
+  "generatedAt": "2026-10-02T10:26:06.791Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -9,15 +9,15 @@
   ],
   "summary": {
     "gatesAudited": 6,
-    "passed": 4,
-    "blockingGates": 2,
+    "passed": 3,
+    "blockingGates": 3,
     "readyForFinalAcceptance": false
   },
   "records": [
     {
       "gate": "Automated CI",
-      "status": "not-verified",
-      "evidence": "No post-change workflow run/status was returned by the available GitHub endpoint; no new CI pass is claimed."
+      "status": "pass",
+      "evidence": "validate-content and validate workflows are green on the current main commit."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -53,16 +53,21 @@
     },
     {
       "gate": "Checklist completion",
-      "status": "pass",
+      "status": "pending",
       "evidence": {
-        "uncheckedItems": 0,
-        "completionRecord": "docs/FINAL-COMPLETION-RECORD.md",
-        "note": "Closure documentation completed; deferred items are explicitly documented rather than left as implicit checklist gaps."
+        "uncheckedItems": 9
       }
     }
   ],
   "manualReviewQueue": [
-    "- [ ] Post-change CI evidence refresh when workflow/status data becomes available",
-    "- [ ] Explicit PA-004 decision before any legacy-content deletion"
+    "- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off",
+    "- [ ] Production acceptance review — **CONDITIONAL PASS** (automated); human UX + deploy confirmation pending — `docs/PRODUCTION-ACCEPTANCE.md`",
+    "- [ ] All required checklist items are complete",
+    "- [ ] All required manual reviews are complete",
+    "- [ ] No unresolved critical issues",
+    "- [ ] Migration parity is verified (full UX)",
+    "- [ ] Final architecture review completed",
+    "- [ ] Completion record created",
+    "- [ ] Checklist moved to `archive/completions/`"
   ]
 }
