@@ -23,7 +23,10 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Migrate legacy topic gaps from codepackr-law\n        run: node scripts/migrate-legacy-topics.mjs\n\n      - name: Regenerate full manifest from entity files
+      - name: Migrate legacy topic gaps from codepackr-law
+        run: node scripts/migrate-legacy-topics.mjs
+
+      - name: Regenerate full manifest from entity files
         run: node scripts/refresh-manifest.mjs
 
       - name: Build relationship index
@@ -35,15 +38,15 @@ jobs:
       - name: Relationship unit tests (PIL pilot)
         run: node scripts/test-relationships.mjs
 
-      - name: Commit regenerated manifests on main
+      - name: Commit regenerated content on main
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json
           if git diff --staged --quiet; then
-            echo "No manifest changes to commit"
+            echo "No generated content changes to commit"
           else
-            git commit -m "chore: regenerate content-manifest and relationship-index [skip ci]"
+            git commit -m "chore: finalize legacy topic parity migration [skip ci]"
             git push
           fi
