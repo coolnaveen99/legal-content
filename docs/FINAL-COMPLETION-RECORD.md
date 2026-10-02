@@ -24,10 +24,14 @@ The canonical legal-content repository is **accepted for continued production co
 5. Cross-repository production acceptance reconciliation.
 6. Final closure documentation.
 
-## Deferred work
+## PA-004 decision
 
-- Any legacy-content deletion before explicit PA-004 approval.
-- Final CI evidence refresh where the GitHub status endpoint does not expose a post-change run.
+The binding PA-004 decision in `coolnaveen99/codepackr-law/docs/PA-004-LEGACY-REMOVAL-DECISION.md` is **COMPLETED**: retain the legacy topic modules and ContentGateway canonical-first + legacy fallback. No legacy deletion is authorized until a future scoped execution ticket satisfies the documented coverage, parity, production spot-check, fallback, rollback, and no-silent-shrink criteria.
+
+## Deferred / operational work
+
+- No legacy-content deletion is authorized under the current PA-004 decision.
+- Fresh CI evidence is being refreshed on a non-`[skip ci]` main commit; the earlier closure commit had no workflow/status result.
 
 ## Safety / publication rule
 
@@ -35,4 +39,4 @@ Verification and acceptance records do not automatically promote legal content t
 
 ## Decision
 
-**Closure documentation complete.** The repository may continue serving as the canonical content source for the application under the existing dual-read and PA-004 safeguards.
+**Closure documentation complete; PA-004 is resolved as a retain/no-deletion decision.** The repository may continue serving as the canonical content source for the application under the existing dual-read and PA-004 safeguards.
