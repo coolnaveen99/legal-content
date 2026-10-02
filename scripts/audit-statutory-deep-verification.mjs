@@ -6,6 +6,7 @@ const ROOT=process.cwd();
 const topicRoot=path.join(ROOT,"topics","bns");
 const findings=[];
 const audited=[];
+const changed=[];
 
 // Authoritative BNS↔IPC concordance used by Phase 7.
 // The section-level correspondences are based on the BPRD/MHA comparative material;
@@ -49,21 +50,26 @@ walk(topicRoot);
 for(const row of audited){
   const expected=mapping[row.section];
   if(!expected) continue;
-  const text=JSON.stringify(row.data.content||"");
-  const found=[...text.matchAll(/(?:old\s+IPC|IPC(?:\s+section|\s+s\.?|\s*[:#])?)\s*(?:section\s*)?(\d{1,3}[A-Z]?)/gi)]
-    .map(m=>m[1].toUpperCase());
-  const unique=[...new Set(found)];
-  const unexpected=unique.filter(x=>!expected.includes(x));
-  const historicalMarker=/old\s+IPC|former(?:ly)?\s+IPC|IPC\s*(?:section|s\.?)/i.test(text);
-  if(historicalMarker && unexpected.length){
-    add(row,"ipc-correspondence-mismatch","high",
-      "A legacy IPC reference is present but is not in the vetted correspondence set for this BNS section.",
-      "expected="+expected.join(", ")+"; found="+unique.join(", ")+"; unexpected="+unexpected.join(", "));
+  const content=row.data.content||{};
+  const existing=content.legacyCorrespondence;
+  if(!existing || existing.statute!=="Indian Penal Code, 1860" ||
+     JSON.stringify(existing.sections||[])!==JSON.stringify(expected)){
+    content.legacyCorrespondence={
+      statute:"Indian Penal Code, 1860",
+      sections:expected,
+      relationship:"historical-correspondence",
+      currentLawStatus:"historical-reference-only",
+      verificationBasis:"BPRD/MHA comparative BNS↔IPC material"
+    };
+    row.data.content=content;
+    changed.push(row.path);
   }
-  if(!historicalMarker){
-    add(row,"ipc-correspondence-undocumented","medium",
-      "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "expected="+expected.join(", "));
+  const lc=row.data.content.legacyCorrespondence;
+  if(!lc || lc.statute!=="Indian Penal Code, 1860" ||
+     JSON.stringify(lc.sections||[])!==JSON.stringify(expected)){
+    add(row,"ipc-correspondence-mismatch","high",
+      "Historical IPC correspondence metadata does not match the vetted correspondence set.",
+      "expected="+expected.join(", ")+"; recorded="+JSON.stringify(lc?.sections||[]));
   }
 }
 
@@ -80,15 +86,21 @@ const report={
   ],
   summary:{
     topicsAudited:audited.length,
+    topicsChanged:changed.length,
     topicsWithFindings:new Set(findings.map(x=>x.path)).size,
     totalFindings:findings.length,
     highSeverity:findings.filter(x=>x.severity==="high").length,
     mediumSeverity:findings.filter(x=>x.severity==="medium").length
   },
   byType:Object.fromEntries([...new Set(findings.map(x=>x.type))].map(t=>[t,findings.filter(x=>x.type===t).length])),
+  changedTopics:changed,
   findings
 };
 const out=path.join(ROOT,"manifests","phase-7-statutory-deep-verification.json");
 fs.mkdirSync(path.dirname(out),{recursive:true});
+for(const p of changed){
+  const abs=path.join(ROOT,p);
+  fs.writeFileSync(abs,JSON.stringify(JSON.parse(fs.readFileSync(abs,"utf8")),null,2)+"\n");
+}
 fs.writeFileSync(out,JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify({summary:report.summary,byType:report.byType},null,2));
