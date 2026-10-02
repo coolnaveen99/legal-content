@@ -37,6 +37,9 @@ jobs:
       - name: Phase 2 canonical content quality audit
         run: node scripts/audit-migrated-topics.mjs
 
+      - name: Phase 3 source and legal provenance audit
+        run: node scripts/audit-provenance.mjs
+
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
@@ -48,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json manifests/phase-2-quality-audit.json
+          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json manifests/phase-2-quality-audit.json manifests/phase-3-provenance-audit.json
           if git diff --staged --quiet; then
             echo "No generated content changes to commit"
           else
