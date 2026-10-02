@@ -98,9 +98,10 @@ const report={
 };
 const out=path.join(ROOT,"manifests","phase-7-statutory-deep-verification.json");
 fs.mkdirSync(path.dirname(out),{recursive:true});
-for(const p of changed){
-  const abs=path.join(ROOT,p);
-  fs.writeFileSync(abs,JSON.stringify(JSON.parse(fs.readFileSync(abs,"utf8")),null,2)+"\n");
+for(const row of audited){
+  if(changed.includes(row.path)){
+    fs.writeFileSync(path.join(ROOT,row.path),JSON.stringify(row.data,null,2)+"\n");
+  }
 }
 fs.writeFileSync(out,JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify({summary:report.summary,byType:report.byType},null,2));
