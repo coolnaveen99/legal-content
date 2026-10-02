@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T10:04:02.306Z",
+  "generatedAt": "2026-10-02T10:04:41.147Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -9,8 +9,8 @@
   ],
   "summary": {
     "gatesAudited": 6,
-    "passed": 1,
-    "blockingGates": 5,
+    "passed": 2,
+    "blockingGates": 4,
     "readyForFinalAcceptance": false
   },
   "records": [
@@ -21,11 +21,11 @@
     },
     {
       "gate": "Phase 12 judgment completeness",
-      "status": "manual-review-required",
+      "status": "pass",
       "evidence": {
         "priority1Audited": 10,
-        "complete": 7,
-        "stillIncomplete": 3
+        "complete": 10,
+        "stillIncomplete": 0
       }
     },
     {
