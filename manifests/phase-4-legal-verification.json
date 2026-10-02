@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-02T09:33:04.215Z",
+  "generatedAt": "2026-10-02T09:35:29.709Z",
   "scope": {
     "migratedTopics": 112
   },
@@ -14,17 +14,26 @@
   "summary": {
     "topicsAudited": 112,
     "topicsWithFindings": 54,
-    "totalFindings": 98,
-    "highSeverity": 44,
+    "totalFindings": 102,
+    "highSeverity": 48,
     "mediumSeverity": 54
   },
   "byType": {
+    "transition-law": 47,
     "temporal-status": 52,
-    "transition-law": 43,
     "placeholder-quality": 2,
     "case-year": 1
   },
   "findings": [
+    {
+      "path": "topics/bns/s-108.json",
+      "id": "topic:india:bns-s-108",
+      "subject": "bns",
+      "type": "transition-law",
+      "severity": "high",
+      "message": "Legacy criminal-law terminology appears in a BNS topic; verify whether it is historical, comparative, or incorrectly presented as current law.",
+      "evidence": "Indian Penal Code, 1860"
+    },
     {
       "path": "topics/bns/s-108.json",
       "id": "topic:india:bns-s-108",
@@ -299,6 +308,15 @@
       "path": "topics/bns/s-189.json",
       "id": "topic:india:bns-s-189",
       "subject": "bns",
+      "type": "transition-law",
+      "severity": "high",
+      "message": "Legacy criminal-law terminology appears in a BNS topic; verify whether it is historical, comparative, or incorrectly presented as current law.",
+      "evidence": "Indian Penal Code, 1860"
+    },
+    {
+      "path": "topics/bns/s-189.json",
+      "id": "topic:india:bns-s-189",
+      "subject": "bns",
       "type": "temporal-status",
       "severity": "medium",
       "message": "Criminal-law topic has no explicit effective date; verify current/historical applicability when publishing.",
@@ -542,10 +560,28 @@
       "path": "topics/bns/s-310.json",
       "id": "topic:india:bns-s-310",
       "subject": "bns",
+      "type": "transition-law",
+      "severity": "high",
+      "message": "Legacy criminal-law terminology appears in a BNS topic; verify whether it is historical, comparative, or incorrectly presented as current law.",
+      "evidence": "Indian Penal Code, 1860"
+    },
+    {
+      "path": "topics/bns/s-310.json",
+      "id": "topic:india:bns-s-310",
+      "subject": "bns",
       "type": "temporal-status",
       "severity": "medium",
       "message": "Criminal-law topic has no explicit effective date; verify current/historical applicability when publishing.",
       "evidence": ""
+    },
+    {
+      "path": "topics/bns/s-316.json",
+      "id": "topic:india:bns-s-316",
+      "subject": "bns",
+      "type": "transition-law",
+      "severity": "high",
+      "message": "Legacy criminal-law terminology appears in a BNS topic; verify whether it is historical, comparative, or incorrectly presented as current law.",
+      "evidence": "Indian Penal Code, 1860"
     },
     {
       "path": "topics/bns/s-316.json",
