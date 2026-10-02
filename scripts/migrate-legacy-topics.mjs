@@ -198,24 +198,9 @@ for (const legacyPath of legacyFiles) {
   const targetPath = `topics/${targetSubject}/${localId}.json`;
   const targetAbs = path.join(ROOT, targetPath);
 
-  // Renamed-family parity is recognized by the target basename.
-  const renamedCandidates = [`topics/${targetSubject}`];
-  if (targetSubject !== subject) {
-    const targetDir = path.join(ROOT, `topics/${targetSubject}`);
-    const basename = path.basename(targetPath);
-    const candidate = fs.existsSync(targetDir)
-      ? fs.readdirSync(targetDir).find(f => f === basename)
-      : null;
-    if (candidate) {
-      renamed++;
-      audit.push({
-        legacyPath,
-        canonicalPath: `topics/${targetSubject}/${candidate}`,
-        disposition: "RENAMED",
-      });
-      continue;
-    }
-  }
+  // Renamed families keep their canonical destination, but their legacy content
+  // is still authoritative for this preservation pass and must be copied.
+  if (targetSubject !== subject) renamed++;
 
   if (EXCLUDED.has(legacyPath)) {
     excluded++;
