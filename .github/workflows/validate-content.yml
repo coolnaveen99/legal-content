@@ -40,6 +40,9 @@ jobs:
       - name: Phase 3 source and legal provenance audit
         run: node scripts/audit-provenance.mjs
 
+      - name: Phase 3B topic-to-source verification
+        run: node scripts/verify-topic-provenance.mjs
+
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
