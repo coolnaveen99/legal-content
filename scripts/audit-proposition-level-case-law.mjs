@@ -75,6 +75,7 @@ for(const file of fs.readdirSync(JROOT).filter(f=>f.endsWith(".json")).sort()){
   const missing=["court","facts","questionsBeforeCourt","ratioDecidendi","holding","relevance"]
     .filter(k=>Array.isArray(c[k])?c[k].length===0:!text(c[k]));
   const topicCount=Array.isArray(c.sourceTopics)?c.sourceTopics.length:0;
+  if(!c.court && ["Deep Chand v. State of U.P.","L. Chandra Kumar v. Union of India","Abhilasha v. Parkash","Bandhua Mukti Morcha v. Union of India","State of Uttaranchal v. Balwant Singh Chaufal","Shreya Singhal v. Union of India","Maneka Gandhi v. Union of India","Kesavananda Bharati Sripadagalvaru v. State of Kerala","Minerva Mills v. Union of India","A.K. Gopalan v. State of Madras"].includes(name)) c.court="Supreme Court of India";
   d.propositionVerification={
     phase:"11",
     evidenceLevel:ev.level,
@@ -91,7 +92,7 @@ for(const file of fs.readdirSync(JROOT).filter(f=>f.endsWith(".json")).sort()){
     id:d.id,name:d.title,citation:c.citation||"",
     evidenceLevel:ev.level,evidenceCount:ev.urls.length,
     propositionCount:props.length,missingContextFields:missing,
-    linkedTopicCount:topicCount,verification:"manual-proposition-review-required"
+    linkedTopicCount:topicCount,verification:"manual-proposition-review-required",missingContextFields:missing
   });
 }
 const summary={
@@ -102,6 +103,10 @@ const summary={
   judgmentsWithMissingContext:rows.filter(r=>r.missingContextFields.length>0).length,
   pendingManualReview:rows.length
 };
+const completenessRows=rows.map(r=>({id:r.id,name:r.name,missingContextFields:r.missingContextFields,provenanceEvidence:r.evidenceCount,status:"manual-review-required"}));
+const completeness={schemaVersion:"v1",phase:"Phase 12 — Judgment Completeness & Reconciliation",generatedAt:new Date().toISOString(),policy:["Normalize only established metadata.","Do not invent missing facts, issues, ratio, holding or relevance.","No automatic promotion to published or verified."],summary:{priority1Audited:completenessRows.length,complete:completenessRows.filter(r=>r.missingContextFields.length===0).length,stillIncomplete:completenessRows.filter(r=>r.missingContextFields.length>0).length},records:completenessRows};
+const CMAN=path.join(ROOT,"manifests","phase-12-judgment-completeness.json");
+fs.writeFileSync(CMAN,JSON.stringify(completeness,null,2)+"\\n");
 const report={
  schemaVersion:"v1",
  phase:"Phase 11 — Proposition-Level Case-Law Enrichment",
