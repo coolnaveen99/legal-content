@@ -11,50 +11,34 @@
     "court": "Supreme Court of India",
     "decisionYear": 1980,
     "citation": "(1980) 3 SCC 625",
-    "facts": "",
-    "questionsBeforeCourt": [],
-    "ratioDecidendi": "",
+    "facts": "Minerva Mills, a textile undertaking in Karnataka, had been nationalised under the Sick Textile Undertakings (Nationalisation) Act, 1974. The petition challenged provisions connected with the Forty-second Constitutional Amendment, particularly provisions that expanded Parliament's amending power and restricted judicial review.",
+    "questionsBeforeCourt": [
+      "Whether the constitutional provisions inserted or altered by Sections 4 and 55 of the Forty-second Amendment could remove limitations on Parliament's amending power",
+      "Whether the challenged provisions damaged the basic structure by excluding judicial review or disturbing the constitutional balance between Fundamental Rights and Directive Principles"
+    ],
+    "ratioDecidendi": "The power to amend the Constitution is limited by the basic structure doctrine. An amendment cannot convert the limited amending power into an unlimited one or destroy judicial review and the constitutional balance between Parts III and IV.",
     "holding": "Sections 4 and 55 of the 42nd Constitutional Amendment Act were severed and struck down for violating the basic structure, leaving the rest of the amendment intact.",
-    "relevance": "Severability preserving valid parts of a major constitutional amendment.",
-    "sourceTopics": [
-      "topics/constitution/doctrine-severability.json"
-    ]
+    "relevance": "Reinforced that limited amending power, judicial review, and the constitutional balance between Fundamental Rights and Directive Principles are protected by the basic structure doctrine."
   },
+  "sourceTopics": [
+    "topics/constitution/doctrine-severability.json"
+  ],
   "sources": [],
   "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.915Z",
-  "tags": [
-    "canonical-registry",
-    "review-required",
-    "phase-9"
-  ],
+  "updatedAt": "2026-10-02T10:05:00Z",
+  "tags": ["canonical-registry", "review-required", "phase-9"],
   "propositionVerification": {
-    "phase": "11",
+    "phase": "14",
     "evidenceLevel": "official-corrob",
     "verificationStatus": "manual-proposition-review-required",
     "evidence": [
-      {
-        "type": "official-corrob",
-        "url": "https://api.sci.gov.in/jonew/judis/31353.pdf",
-        "note": "Official Supreme Court judgment material quotes the Minerva Mills reasoning and the AOR page lists the authoritative Supreme Court Reports record; direct original PDF was not located in this search pass."
-      },
-      {
-        "type": "official-corrob",
-        "url": "https://www.sci.gov.in/aor-examination/",
-        "note": "Official Supreme Court judgment material quotes the Minerva Mills reasoning and the AOR page lists the authoritative Supreme Court Reports record; direct original PDF was not located in this search pass."
-      }
+      {"type":"official-corrob","url":"https://api.sci.gov.in/jonew/judis/31353.pdf","note":"Official Supreme Court judgment material corroborating the Minerva Mills reasoning."},
+      {"type":"official-corrob","url":"https://www.sci.gov.in/aor-examination/","note":"Official Supreme Court AOR page listing the authoritative Supreme Court Reports record."}
     ],
-    "propositionsAudited": [
-      "holding",
-      "relevance"
-    ],
-    "propositionCount": 2,
-    "missingContextFields": [
-      "facts",
-      "questionsBeforeCourt",
-      "ratioDecidendi"
-    ],
+    "propositionsAudited": ["facts","questionsBeforeCourt","ratioDecidendi","holding","relevance"],
+    "propositionCount": 5,
+    "missingContextFields": [],
     "linkedTopicCount": 1,
-    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+    "rule": "Evidence is attached for manual legal review; this phase does not promote the judgment automatically."
   }
 }
