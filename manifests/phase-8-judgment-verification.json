@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-02T09:42:22.210Z",
+  "generatedAt": "2026-10-02T09:43:14.405Z",
   "scope": {
     "migratedTopics": 65,
     "caseRecords": 170
@@ -15,14 +15,13 @@
     "caseRecords": 170,
     "topicsWithCases": 65,
     "topicsWithFindings": 45,
-    "totalFindings": 440,
-    "highSeverity": 4,
+    "totalFindings": 436,
+    "highSeverity": 0,
     "mediumSeverity": 436
   },
   "byType": {
     "missing-court": 93,
     "missing-case-analysis": 285,
-    "citation-year-mismatch": 4,
     "duplicate-case-record": 58
   },
   "findings": [
@@ -981,14 +980,6 @@
     {
       "path": "topics/constitution/doctrine-repugnancy.json",
       "topic": "topic:india:constitution-doctrine-repugnancy",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"Zaverbhai Amaidas v. State of Bombay\" year does not match citation year.",
-      "evidence": "1955 1 SCR 799"
-    },
-    {
-      "path": "topics/constitution/doctrine-repugnancy.json",
-      "topic": "topic:india:constitution-doctrine-repugnancy",
       "type": "missing-case-analysis",
       "severity": "medium",
       "message": "Case \"Zaverbhai Amaidas v. State of Bombay\" is missing facts.",
@@ -1241,14 +1232,6 @@
       "severity": "medium",
       "message": "Case \"Olga Tellis v. Bombay Municipal Corporation\" has no court metadata.",
       "evidence": ""
-    },
-    {
-      "path": "topics/constitution/doctrine-waiver.json",
-      "topic": "topic:india:constitution-doctrine-waiver",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"Olga Tellis v. Bombay Municipal Corporation\" year does not match citation year.",
-      "evidence": "AIR 1986 SC 180"
     },
     {
       "path": "topics/constitution/doctrine-waiver.json",
@@ -2213,14 +2196,6 @@
     {
       "path": "topics/constitution/minority-rights.json",
       "topic": "topic:india:constitution-minority-rights",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"In re Kerala Education Bill, 1957\" year does not match citation year.",
-      "evidence": "1959 SCR 995"
-    },
-    {
-      "path": "topics/constitution/minority-rights.json",
-      "topic": "topic:india:constitution-minority-rights",
       "type": "missing-case-analysis",
       "severity": "medium",
       "message": "Case \"In re Kerala Education Bill, 1957\" is missing facts.",
@@ -2793,14 +2768,6 @@
       "severity": "medium",
       "message": "Case \"S.P. Gupta v. Union of India\" has no court metadata.",
       "evidence": ""
-    },
-    {
-      "path": "topics/petition-formats/format-pil.json",
-      "topic": "topic:india:petition-formats-format-pil",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"S.P. Gupta v. Union of India\" year does not match citation year.",
-      "evidence": "AIR 1982 SC 149"
     },
     {
       "path": "topics/petition-formats/format-pil.json",
