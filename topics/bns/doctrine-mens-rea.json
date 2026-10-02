@@ -3,22 +3,182 @@
   "entityType": "topic",
   "id": "topic:india:bns-doctrine-mens-rea",
   "version": 1,
-  "status": "published",
-  "title": "Mens rea is the guilty mind",
+  "status": "review",
+  "title": "Definitions (including dishonestly, fraudulently, voluntarily)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Mens rea is the guilty mind. Most BNS offences specify intention, knowledge, dishonesty, fraud, rashness or negligence. The statute\u2019s verb is the answer \u2014 not the Latin label.",
-    "study": "Mens rea is the guilty mind. Most BNS offences specify intention, knowledge, dishonesty, fraud, rashness or negligence. The statute\u2019s verb is the answer \u2014 not the Latin label.",
-    "relatedTopics": [],
+    "overview": "Mens rea is the guilty mind. Most BNS offences specify intention, knowledge, dishonesty, fraud, rashness or negligence. The statute’s verb is the answer — not the Latin label.",
+    "glance": "Mens rea is the guilty mind. Most BNS offences specify intention, knowledge, dishonesty, fraud, rashness or negligence. The statute’s verb is the answer — not the Latin label.",
+    "study": "Topic at a glance\n[[REF:DOCTRINE:CRIMINAL-LAW:MENS-REA]] is a family name. Indian criminal law is statutory: read the section.\n\nWhy it exists\nA civil wrong can be committed by accident. A crime, as a rule, should not. The BNS therefore writes a fault element into almost every offence, and then lists the cases (Chapter III) where the mind is missing or excused.\n\nHow to read a section\n1. Find the verb: “intentionally”, “knowingly”, “voluntarily”, “dishonestly”, “fraudulently”, “rashly”, “negligently”.\n2. That verb is the mens rea you must prove.\n3. [[REF:DOCTRINE:CRIMINAL-LAW:COMMON-INTENTION]] shares that mind among several persons; it does not replace it.\n4. Strict liability exists only where the text is clear — typically public-welfare / regulatory offences, not homicide.\n\nCapacity\n[[REF:CONCEPT:CRIMINAL-LAW:DOLI-INCAPAX]]: under 7, s. 20 is conclusive. 7–12, s. 21 needs maturity of understanding. Unsoundness of mind is s. 22 (McNaghten core). Intoxication is s. 23–24: involuntary intoxication can excuse; voluntary drunkenness does not, except on the specific intent enquiry.\n\nCurrent-law position\nThe BNS did not abolish mens rea. It restated it in Indian English. Do not write that “the new Code is strict liability”.\n\nEducational note\nName the section’s word in the exam. “Mens rea” alone scores half.",
+    "provisions": [
+      {
+        "actId": "bns",
+        "actName": "Bharatiya Nyaya Sanhita, 2023",
+        "provisionId": "bns-2",
+        "section": "s. 2",
+        "title": "Definitions (including dishonestly, fraudulently, voluntarily)"
+      },
+      {
+        "actId": "bns",
+        "actName": "Bharatiya Nyaya Sanhita, 2023",
+        "provisionId": "bns-3",
+        "section": "s. 3",
+        "title": "General explanations"
+      },
+      {
+        "actId": "bns",
+        "actName": "Bharatiya Nyaya Sanhita, 2023",
+        "provisionId": "bns-20",
+        "section": "s. 20",
+        "title": "Act of a child under seven years of age"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Example 1 — simple",
+        "body": "A takes B’s umbrella in a restaurant, honestly believing it is his. There is no “dishonestly” for theft (s. 303). The taking without that mind is not theft."
+      },
+      {
+        "title": "Example 2 — legal",
+        "body": "A drives at high speed through a market and kills a pedestrian. If the prosecution proves only rashness, s. 106. If it proves knowledge that death was likely, the case climbs toward s. 100/105."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does A commit an offence?",
+        "analysis": "s. 20 does not apply (A is not under 7). s. 21 requires that the child has not attained sufficient maturity of understanding to judge the nature and consequences of conduct. Literacy is not the test. If the Court finds A did not understand that throwing at a train could injure, there is no offence. If it finds he did, the mental element of the charged section must still be proved."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "mr-int-neg",
+        "title": "Intention, knowledge, rashness",
+        "left": "Intention / knowledge",
+        "right": "Rashness / negligence",
+        "rows": [
+          {
+            "point": "Homicide home",
+            "left": "ss. 100–105",
+            "right": "s. 106"
+          },
+          {
+            "point": "Question",
+            "left": "Did the accused want the consequence, or know it was likely?",
+            "right": "Did the accused take a risk a prudent person would not?"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "mr-trap-1",
+        "trap": "Every BNS offence is strict liability.",
+        "correction": "Most offences have a stated mental element. Strict liability is the exception."
+      },
+      {
+        "id": "mr-trap-2",
+        "trap": "Writing “mens rea” is enough.",
+        "correction": "Quote the section: dishonestly, intentionally, knowingly, rashly."
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "mr-qa-1",
+        "question": "What is the first step in proving mens rea under the BNS?",
+        "answer": "Read the verb in the section and prove that mental element. The Latin label is not a substitute.",
+        "relatedProvisionIds": [
+          "bns-2"
+        ]
+      }
+    ],
+    "relatedTopics": [
+      "general-explanations",
+      "doctrine-common-intention",
+      "general-exceptions",
+      "s-3"
+    ],
+    "cases": [
+      {
+        "name": "State of Maharashtra v. Mayer Hans George",
+        "year": 1965,
+        "citation": "AIR 1965 SC 722",
+        "holding": "Statutory offences may exclude mens rea where the statute is clear — typically public-welfare / foreign-exchange type offences. Do not generalise this to the BNS homicide scheme.",
+        "relevance": "The exception that proves the rule. Use only when the section is silent and regulatory.",
+        "judgmentId": "judgment:india:state-of-maharashtra-v-mayer-hans-george-1965"
+      },
+      {
+        "name": "Mahbub Shah v. Emperor",
+        "year": 1945,
+        "citation": "AIR 1945 PC 118",
+        "holding": "Common intention is a sharing of mens rea, not a substitute for it.",
+        "relevance": "Pairs 3(5) with this topic.",
+        "judgmentId": "judgment:india:mahbub-shah-v-emperor-1945"
+      }
+    ],
+    "bareActPointers": [
+      "BNS s. 2",
+      "s. 3(5)",
+      "ss. 20–24"
+    ],
+    "examFrameworks": [
+      {
+        "draftingCategory": "brief",
+        "question": "Explain mens rea in the BNS.",
+        "steps": [
+          "Define: guilty mind; then “read the verb”.",
+          "Intention, knowledge, dishonesty, rashness.",
+          "Capacity: ss. 20–22.",
+          "One illustration.",
+          "Strict liability is exceptional."
+        ]
+      },
+      {
+        "draftingCategory": "submissions",
+        "question": "“The BNS, like the IPC, is built on mens rea.” Discuss with exceptions and joint liability.",
+        "steps": [
+          "Why fault exists.",
+          "How to parse a section.",
+          "Homicide ladder as illustration.",
+          "Doli incapax and unsoundness.",
+          "Common intention as shared mens rea.",
+          "Strict-liability caution (Mayer Hans George).",
+          "Hypothetical.",
+          "Conclusion."
+        ]
+      }
+    ],
+    "answerSkeleton": [
+      "Introduction — statutory fault, not a common-law slogan.",
+      "The verbs.",
+      "Capacity.",
+      "Joint liability.",
+      "Illustration.",
+      "Conclusion."
+    ],
+    "revisionPoints": [
+      "Quote the section’s mental element.",
+      "s. 20 under 7 absolute; s. 21 is 7–12 qualified.",
+      "Common intention shares mens rea (3(5))."
+    ],
+    "examTips": [
+      "Never end a mens rea answer without naming the verb in the section you are asked about."
+    ],
+    "sections": [],
+    "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "doctrine-mens-rea",
-    "provenance": "Migrated from the existing codepackr-law topic file. Text was not rewritten."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-02T08:45:00Z",
-  "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "updatedAt": "2026-10-02T16:31:27.353Z",
+  "effectiveFrom": "2024-07-01",
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "bns"
+  ]
 }

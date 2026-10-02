@@ -3,22 +3,97 @@
   "entityType": "topic",
   "id": "topic:india:family-sources-schools",
   "version": 1,
-  "status": "published",
-  "title": "FL-I Unit I \u2014 Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA",
+  "status": "review",
+  "title": "FL-I Unit I — Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA.",
   "jurisdiction": "India",
   "content": {
-    "overview": "FL-I Unit I \u2014 Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA.",
-    "study": "FL-I Unit I \u2014 Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA.",
+    "overview": "FL-I Unit I — Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA.",
+    "glance": "FL-I Unit I — Which personal law applies; Hindu sources & Mitakshara/Dayabhaga; Muslim sources & schools; HMA, HSA, Shariat Act, SMA.",
+    "study": "Topic at a glance\nFamily Law – I, Unit I: Sources and schools of personal laws. Indian family law is not a single code. Hindus, Muslims, Christians, Parsis and parties under the Special Marriage Act, 1954 are governed by different statutes and uncodified rules. Always name the personal law and the source you are applying.\n\nIntroduction\nBefore answering any family-law problem, identify: (1) which personal law applies; (2) whether a statute has codified the area; (3) whether custom or classical text still matters.\n\nApplication of personal laws\nHindu law (including Buddhists, Jains and Sikhs under the Hindu Marriage Act, 1955 and related Acts) applies as defined in those statutes. Muslim personal law applies under the Muslim Personal Law (Shariat) Application Act, 1937 in listed matters. Christians: Indian Christian Marriage Act, 1872 and Divorce Act, 1869. Parsis: Parsi Marriage and Divorce Act, 1936. Any two persons may marry under the Special Marriage Act, 1954.\n\nTraditional and modern sources of Hindu law\nShruti, Smriti, commentaries (Mitakshara, Dayabhaga), custom, legislation and judicial precedent. After codification, the Hindu Code Acts occupy much of the field; custom survives where the statute saves it.\n\nClassical schools of Hindu law\nMitakshara — joint family and coparcenary with birthright (modified by HSA 2005). Dayabhaga — Bengal school; no Mitakshara-type birthright coparcenary.\n\nSources of Muslim law\nQuran, Sunnah, Ijma, Qiyas; classical schools. Shariat Act 1937; DMMA 1939; Muslim Women (Protection of Rights on Marriage) Act, 2019.\n\nCurrent-law close\nOpen every long answer by naming the applicable personal law and governing statute.",
+    "examples": [
+      {
+        "title": "Example — choosing the statute",
+        "body": "Two Hindus marry with saptapadi — HMA 1955. Hindu and Christian before Marriage Officer — SMA 1954. Muslim wife seeks judicial divorce — DMMA 1939."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Which law applies?",
+        "analysis": "HMA applies only where both parties are Hindus as defined. Inter-religious civil marriage should be under SMA."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "src-dist",
+        "title": "Mitakshara vs Dayabhaga",
+        "left": "Mitakshara",
+        "right": "Dayabhaga",
+        "rows": [
+          {
+            "point": "Region",
+            "left": "Most of India",
+            "right": "Bengal school"
+          },
+          {
+            "point": "Coparcenary",
+            "left": "Birthright (as modified by HSA 2005)",
+            "right": "No Mitakshara-type birthright"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "src-m1",
+        "trap": "Treating Family Law as one uniform code for all Indians.",
+        "correction": "Personal laws differ by community; SMA is the main secular civil option."
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "src-q10",
+        "draftingCategory": "brief",
+        "question": "Explain the sources of Hindu law and the main classical schools.",
+        "answer": "Introduction. Traditional sources: Shruti, Smriti, commentaries, custom. Modern: legislation and precedent. Schools: Mitakshara and Dayabhaga — difference on coparcenary. Codification by Hindu Code Acts. Conclusion.",
+        "explanation": "Name both schools and one difference."
+      },
+      {
+        "id": "src-q16",
+        "draftingCategory": "submissions",
+        "question": "Discuss the application of personal laws in India for Hindus and Muslims and the role of modern statutes.",
+        "answer": "Introduction. Map of personal laws. Hindu: sources → schools → Code Acts. Muslim: classical sources → Shariat Act and special statutes. SMA as secular alternative. Method: identify community → statute → residual classical rule. Conclusion.",
+        "explanation": "Hindu + Muslim maps plus SMA."
+      }
+    ],
+    "bareActPointers": [
+      "Muslim Personal Law (Shariat) Application Act, 1937",
+      "Hindu Marriage Act, 1955 — s. 2",
+      "Special Marriage Act, 1954"
+    ],
+    "examTips": [
+      "First sentence: which personal law applies.",
+      "For joint family, name Mitakshara or Dayabhaga."
+    ],
+    "revisionPoints": [
+      "Identify personal law before any section.",
+      "Hindu: sources + Mitakshara/Dayabhaga + Code Acts.",
+      "Muslim: classical sources + Shariat Act + special statutes."
+    ],
+    "sections": [],
+    "relatedJudgments": [],
     "relatedTopics": [],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "sources-schools",
-    "provenance": "Migrated from the existing codepackr-law topic file. Text was not rewritten."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
   },
-  "sources": [
-    "source:india:india-code-hma-1955"
-  ],
-  "updatedAt": "2026-10-02T08:45:00Z",
-  "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "sources": [],
+  "updatedAt": "2026-10-02T16:31:24.062Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "family"
+  ]
 }

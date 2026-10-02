@@ -3,22 +3,96 @@
   "entityType": "topic",
   "id": "topic:india:family-wakf-endowments",
   "version": 1,
-  "status": "published",
-  "title": "FL-II Unit V \u2014 Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control",
+  "status": "review",
+  "title": "FL-II Unit V — Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control.",
   "jurisdiction": "India",
   "content": {
-    "overview": "FL-II Unit V \u2014 Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control.",
-    "study": "FL-II Unit V \u2014 Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control.",
+    "overview": "FL-II Unit V — Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control.",
+    "glance": "FL-II Unit V — Wakf: permanent dedication for religious/pious/charitable objects; mutawalli as manager; Waqf Board control.",
+    "study": "Topic at a glance\nFamily Law – II, Unit V: Religious endowments and wakf. A wakf is the permanent dedication by a Muslim of property for purposes recognised by Muslim law as religious, pious or charitable. Mutawalli is the manager, not the owner.\n\nIntroduction\nExam topics: definition and essentials of wakf, mutawalli, and statutory control through Waqf Boards. Hindu religious endowments (shebait, debutter) are a separate doctrine.\n\nEssentials of wakf\nPermanent dedication; competent wakif; religious, pious or charitable purpose under Muslim law; property capable of dedication. Ownership is devoted to the object of the wakf.\n\nMutawalli\nManager, not owner. Duties: protect property, apply income to objects, act in good faith. Appointment by wakif, deed, or statute. Removal for misconduct possible.\n\nStatutory framework\nWaqf legislation provides for survey, registration, Waqf Boards, and remedies against encroachment and mismanagement. Use the applicable Waqf Act for your jurisdiction.\n\nHindu religious endowments (brief)\nProperty dedicated to a deity or religious purpose; shebait manages. Do not call a Hindu debutter a wakf.\n\nCurrent-law close\nDefine wakf, state essentials, explain mutawalli, mention Waqf Board control.",
+    "examples": [
+      {
+        "title": "Example — valid wakf",
+        "body": "A Muslim permanently dedicates a plot for a mosque and its upkeep. Mutawalli manages; he is not owner."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is the sale valid?",
+        "analysis": "Mutawalli is manager, not owner. Sale for personal debt is unauthorised."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "wakf-dist",
+        "title": "Wakf vs Private ownership",
+        "left": "Wakf property",
+        "right": "Private property",
+        "rows": [
+          {
+            "point": "Ownership",
+            "left": "Dedicated to objects of wakf",
+            "right": "Vests in owner"
+          },
+          {
+            "point": "Manager",
+            "left": "Mutawalli (manager only)",
+            "right": "Owner may sell subject to general law"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "wakf-m1",
+        "trap": "Mutawalli is the owner of waqf property.",
+        "correction": "Mutawalli is only the manager."
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "wakf-q10",
+        "draftingCategory": "brief",
+        "question": "Define wakf and explain its essentials under Muslim law.",
+        "answer": "Introduction. Definition — permanent dedication for religious, pious or charitable objects. Essentials. Mutawalli as manager. Conclusion.",
+        "explanation": "Definition + essentials + mutawalli."
+      },
+      {
+        "id": "wakf-q16",
+        "draftingCategory": "submissions",
+        "question": "Discuss creation and administration of wakf and the role of the mutawalli and Waqf Boards.",
+        "answer": "Introduction. Creation and essentials. Mutawalli — appointment, duties, limits. Statutory Board control. Brief Hindu endowment contrast. Conclusion.",
+        "explanation": "Statutory administration and supervisory control."
+      }
+    ],
+    "bareActPointers": [
+      "Waqf Act (applicable framework)",
+      "Muslim personal law — wakf and mutawalli"
+    ],
+    "examTips": [
+      "Mutawalli ≠ owner.",
+      "Stress permanent dedication and lawful object."
+    ],
+    "revisionPoints": [
+      "Wakf = permanent dedication for recognised objects.",
+      "Mutawalli manages only.",
+      "Waqf Board regulates administration."
+    ],
+    "sections": [],
+    "relatedJudgments": [],
     "relatedTopics": [],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "wakf-endowments",
-    "provenance": "Migrated from the existing codepackr-law topic file. Text was not rewritten."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
   },
-  "sources": [
-    "source:india:india-code-hma-1955"
-  ],
-  "updatedAt": "2026-10-02T08:45:00Z",
-  "effectiveFrom": "1950-01-26",
-  "effectiveTo": null
+  "sources": [],
+  "updatedAt": "2026-10-02T16:31:24.063Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "family"
+  ]
 }
