@@ -23,7 +23,7 @@ jobs:
         with:
           repository: coolnaveen99/codepackr-law
           ref: main
-          path: ../codepackr-law
+          path: codepackr-law
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
@@ -34,7 +34,7 @@ jobs:
       - name: Restore all legacy topic content from codepackr-law
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LEGACY_CONTENT_ROOT: ${{ github.workspace }}/../codepackr-law
+          LEGACY_CONTENT_ROOT: ${{ github.workspace }}/codepackr-law
         run: node scripts/migrate-legacy-topics.mjs
 
       - name: Regenerate full manifest from entity files
