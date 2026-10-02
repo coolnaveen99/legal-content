@@ -24,6 +24,8 @@ jobs:
           node-version: "20"
 
       - name: Migrate legacy topic gaps from codepackr-law
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/migrate-legacy-topics.mjs
 
       - name: Regenerate full manifest from entity files
