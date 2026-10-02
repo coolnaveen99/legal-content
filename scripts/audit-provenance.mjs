@@ -39,16 +39,27 @@ function candidates(subject, legacyPath){
   const s=subject.toLowerCase();
   if(s==="bns") return ["source:india:india-code-bns-2023"];
   if(s==="constitution") return ["source:india:india-code-constitution","source:india:india-fundamental-rights-practice"];
-  if(s==="cyber") return [];
+  if(s==="cyber") return ["source:india:india-code-it-2000"];
   if(s==="family"){
     const id=legacyPath.toLowerCase();
     if(id.startsWith("family/hma-")) return ["source:india:india-code-hma-1955"];
     return [];
   }
-  if(s==="labour") return [];
-  if(s==="petition-formats") return [];
+  if(s==="labour") return ["source:india:india-code-industrial-disputes-1947","source:india:india-code-industrial-relations-code-2020"];
+  if(s==="petition-formats"){
+    const id=legacyPath.toLowerCase();
+    if(id.endsWith("format-bail-application")) return ["source:india:india-code-bnss-2023"];
+    if(id.endsWith("format-execution-petition")) return ["source:india:india-code-cpc-1908"];
+    if(id.endsWith("format-fir")) return ["source:india:india-code-bnss-2023"];
+    if(id.endsWith("format-legal-notice-138")) return ["source:india:india-code-ni-1881"];
+    if(id.endsWith("format-pil")) return ["source:india:india-code-constitution","source:india:india-pil-practice"];
+    if(id.endsWith("format-plaint")) return ["source:india:india-code-cpc-1908"];
+    if(id.endsWith("format-writ-petition")) return ["source:india:india-code-constitution"];
+    if(id.endsWith("format-written-statement")) return ["source:india:india-code-cpc-1908"];
+    return [];
+  }
   if(s==="pil") return ["source:india:india-pil-practice"];
-  if(s==="taxation") return [];
+  if(s==="taxation") return ["source:india:india-code-income-tax-1961"];
   if(s==="torts") return ["source:india:india-common-law-torts"];
   return [];
 }
