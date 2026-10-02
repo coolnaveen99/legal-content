@@ -43,6 +43,13 @@ function candidates(subject, legacyPath){
   if(s==="family"){
     const id=legacyPath.toLowerCase();
     if(id.startsWith("family/hma-")) return ["source:india:india-code-hma-1955"];
+    if(id.startsWith("family/hsa-")) return ["source:india:india-code-hsa-1956"];
+    if(id.startsWith("family/hmga-")) return ["source:india:india-code-hmga-1956"];
+    if(id.startsWith("family/hama-")) return ["source:india:india-code-hama-1956"];
+    if(id.startsWith("family/sma-")) return ["source:india:india-code-sma-1954"];
+    if(id.startsWith("family/dmma-")) return ["source:india:india-code-dmma-1939"];
+    if(id.startsWith("family/mpl-shariat-")) return ["source:india:india-code-mpl-shariat-1937"];
+    if(id.startsWith("family/mwa-")) return ["source:india:india-code-mwa-1874"];
     return [];
   }
   if(s==="labour") return ["source:india:india-code-industrial-disputes-1947","source:india:india-code-industrial-relations-code-2020"];
