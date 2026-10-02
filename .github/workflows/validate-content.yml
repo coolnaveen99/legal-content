@@ -18,14 +18,23 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Checkout legacy codepackr-law content
+        uses: actions/checkout@v4
+        with:
+          repository: coolnaveen99/codepackr-law
+          ref: main
+          path: ../codepackr-law
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Migrate legacy topic gaps from codepackr-law
+      - name: Restore all legacy topic content from codepackr-law
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LEGACY_CONTENT_ROOT: ${{ github.workspace }}/../codepackr-law
         run: node scripts/migrate-legacy-topics.mjs
 
       - name: Regenerate full manifest from entity files
