@@ -49,7 +49,7 @@ function stripTypeScript(source) {
   s = s.replace(/export\s+default\s+/, "return ");
   s = s.replace(/const\s+content\s*:\s*TopicContent\s*=\s*/, "return ");
   s = s.replace(/const\s+content\s*=\s*/, "return ");
-  s = s.replace(/\s+satisfies\s+TopicContent\s*;?\s*$/s, "");
+  s = s.replace(/\s+satisfies\s+TopicContent\b/g, "");
   s = s.replace(/\s+as\s+const\s*([,}\\]])/g, "$1");
   s = s.replace(/\s+as\s+TopicContent\s*([,}\\]])/g, "$1");
   return s.trim();
@@ -250,5 +250,4 @@ const summary = {
 fs.writeFileSync(auditPath, JSON.stringify(summary, null, 2) + "\n");
 
 console.log(JSON.stringify(summary.summary, null, 2));
-console.error(JSON.stringify(audit.filter(x => x.disposition === "MIGRATION_ERROR"), null, 2));
 if (errors) process.exit(1);
