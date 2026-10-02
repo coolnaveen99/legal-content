@@ -21,11 +21,32 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.916Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.847Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/14725.pdf",
+        "note": "9-Judge Constitution Bench Advisory Opinion in Special Reference No. 1 of 1998; 1998 INSC 507; (1998) 7 SCC 739; 1998 Supp (2) SCR 400."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

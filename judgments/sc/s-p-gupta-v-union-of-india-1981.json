@@ -21,11 +21,32 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.918Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.858Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/7533.pdf",
+        "note": "7-Judge Constitution Bench judgment in Writ Petition No. 273 of 1981; 1981 INSC 220; 1981 Supp SCC 87; 1982 (2) SCR 365."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

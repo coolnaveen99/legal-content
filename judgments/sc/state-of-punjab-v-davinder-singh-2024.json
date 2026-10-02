@@ -21,11 +21,32 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.915Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.878Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2011/2317/2317_2011_1_1501_54585_Judgement_01-Aug-2024.pdf",
+        "note": "7-Judge Constitution Bench judgment in Civil Appeal No. 2317 of 2011; 2024 INSC 562; (2024) 8 SCC 1."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

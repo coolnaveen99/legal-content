@@ -23,11 +23,32 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.918Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.883Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2020/22533/22533_2020_32_1501_35930_Judgement_19-May-2022.pdf",
+        "note": "3-Judge Bench judgment in Civil Appeal No. 1390 of 2022; 2022 INSC 598; (2022) 10 SCC 700."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

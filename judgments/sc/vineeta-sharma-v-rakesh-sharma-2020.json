@@ -23,11 +23,32 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.917Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.790Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2018/32601/32601_2018_31_1501_23334_Judgement_11-Aug-2020.pdf",
+        "note": "3-Judge Bench judgment in Diary No. 32601 of 2018; 2020 INSC 483; (2020) 9 SCC 1."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
 }

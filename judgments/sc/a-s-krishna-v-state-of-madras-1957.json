@@ -21,8 +21,8 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.914Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.942Z",
   "tags": [
     "canonical-registry",
     "review-required",
@@ -30,9 +30,30 @@
   ],
   "phase10Processing": {
     "phase": "10",
-    "processedAt": "2026-10-02T12:00:00Z",
+    "processedAt": "2026-10-02T11:46:31.942Z",
     "batch": "101",
-    "outcome": "authoritative-verification-pending",
-    "note": "Record was included in the full Phase-10 batch processing pass. No authoritative Supreme Court/SCR evidence was attached during this pass; the record remains unverified and is not promoted."
+    "outcome": "authoritative-verification-attached",
+    "note": "Authoritative Supreme Court of India SCR/INSC record attached (https://api.sci.gov.in/jonew/judis/1749.pdf)."
+  },
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/1749.pdf",
+        "note": "5-Judge Constitution Bench judgment in Criminal Appeal No. 93 of 1956; 1956 INSC 88; 1957 SCR 399; AIR 1957 SC 297."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }

@@ -23,8 +23,8 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.917Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.795Z",
   "tags": [
     "canonical-registry",
     "review-required",
@@ -32,9 +32,30 @@
   ],
   "phase10Processing": {
     "phase": "10",
-    "processedAt": "2026-10-02T12:00:00Z",
+    "processedAt": "2026-10-02T11:46:31.795Z",
     "batch": "101",
-    "outcome": "authoritative-verification-pending",
-    "note": "Record was included in the full Phase-10 batch processing pass. No authoritative Supreme Court/SCR evidence was attached during this pass; the record remains unverified and is not promoted."
+    "outcome": "authoritative-verification-attached",
+    "note": "Authoritative Supreme Court of India SCR/INSC record attached (https://api.sci.gov.in/supremecourt/2011/24056/24056_2011_33_1501_32766_Judgement_20-Jan-2022.pdf)."
+  },
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2011/24056/24056_2011_33_1501_32766_Judgement_20-Jan-2022.pdf",
+        "note": "2-Judge Bench judgment in Civil Appeal No. 6659 of 2011; 2022 INSC 74; (2022) 11 SCC 297."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }

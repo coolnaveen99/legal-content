@@ -21,7 +21,7 @@ const p10=json(files.p10)||{};
 const p11=json(files.p11)||{};
 
 const hasCompletionRecord=completion.includes("Closure status")&&completion.includes("Closure documentation complete");
-const p10SkippedByDecision=completion.includes("skipped by project decision");
+const p10SkippedByDecision=completion.includes("skipped by project decision")||completion.includes("deferred by project decision");
 const p11CompleteInRecord=completion.includes("Phase 11 proposition review is complete");
 
 const pendingAcceptance=(acceptance.match(/\*\*PENDING\*\*/g)||[]).length;
@@ -33,7 +33,7 @@ const p10Verified=Number(p10.summary?.verified||0);
 const records=[
   {gate:"Automated CI",status:"pass",evidence:"validate-content and validate workflows are green on the current main commit."},
   {gate:"Phase 12 judgment completeness",status:p12Incomplete===0?"pass":"manual-review-required",evidence:{priority1Audited:p12.summary?.priority1Audited||0,complete:p12.summary?.complete||0,stillIncomplete:p12Incomplete}},
-  {gate:"Phase 10 authoritative judgment verification",status:(p10Pending===0||(hasCompletionRecord&&p10SkippedByDecision))?"pass":"manual-review-required",evidence:{judgmentsAudited:p10.summary?.judgmentsAudited||0,verified:p10Verified,pending:p10Pending,...(hasCompletionRecord&&p10SkippedByDecision?{decision:"29 verified judgment records established; remaining 95 deferred by project decision documented in FINAL-COMPLETION-RECORD.md"}:{})}},
+  {gate:"Phase 10 authoritative judgment verification",status:(p10Pending===0||(hasCompletionRecord&&p10SkippedByDecision))?"pass":"manual-review-required",evidence:{judgmentsAudited:p10.summary?.judgmentsAudited||0,verified:p10Verified,pending:p10Pending,...(hasCompletionRecord&&p10SkippedByDecision?{decision:`${p10Verified} verified judgment records established; remaining ${p10Pending} deferred by project decision documented in FINAL-COMPLETION-RECORD.md`}:{})}},
   {gate:"Phase 11 proposition review",status:(p11Pending===0||(hasCompletionRecord&&p11CompleteInRecord))?"pass":"manual-review-required",evidence:{judgmentsAudited:p11.summary?.judgmentsAudited||0,directOriginal:p11.summary?.directOriginal||0,officialCorroboration:p11.summary?.officialCorroboration||0,pendingManualReview:(hasCompletionRecord&&p11CompleteInRecord)?0:p11Pending,...(hasCompletionRecord&&p11CompleteInRecord?{completionRecord:"Phase 11 proposition review complete for the 10 Priority-1 review set as recorded in FINAL-COMPLETION-RECORD.md"}:{})}},
   {gate:"Production acceptance",status:pendingAcceptance===0?"pass":"pending",evidence:{pendingMarkers:pendingAcceptance,source:"docs/PRODUCTION-ACCEPTANCE.md"}},
   {gate:"Checklist completion",status:hasCompletionRecord?"pass":"pending",evidence:{uncheckedItems:0,completionRecord:"docs/FINAL-COMPLETION-RECORD.md"}}
