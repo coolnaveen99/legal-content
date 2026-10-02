@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-02T09:24:11.792Z",
+  "generatedAt": "2026-10-02T09:25:39.747Z",
   "scope": {
     "migratedTopics": 112
   },
@@ -14,16 +14,15 @@
   "summary": {
     "topicsAudited": 112,
     "topicsWithFindings": 54,
-    "totalFindings": 103,
-    "highSeverity": 47,
-    "mediumSeverity": 56
+    "totalFindings": 98,
+    "highSeverity": 44,
+    "mediumSeverity": 54
   },
   "byType": {
     "temporal-status": 52,
     "transition-law": 43,
-    "placeholder-quality": 4,
-    "case-proposition-quality": 2,
-    "known-case-metadata-risk": 2
+    "placeholder-quality": 2,
+    "case-year": 1
   },
   "findings": [
     {
@@ -903,55 +902,10 @@
       "path": "topics/torts/tort-injuria-damnum.json",
       "id": "topic:india:torts-tort-injuria-damnum",
       "subject": "torts",
-      "type": "case-proposition-quality",
+      "type": "case-year",
       "severity": "high",
-      "message": "Case \"Ashby v White\" contains generic doctrinal boilerplate in its case-specific facts/ratio fields; verify against the authority.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "case-proposition-quality",
-      "severity": "high",
-      "message": "Case \"Gloucester Grammar School Case\" contains generic doctrinal boilerplate in its case-specific facts/ratio fields; verify against the authority.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "known-case-metadata-risk",
-      "severity": "high",
-      "message": "Ashby v White is recorded with year 1932 despite a citation containing 1703; authoritative verification required.",
-      "evidence": "(1703) 2 Ld Raym 938"
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "known-case-metadata-risk",
-      "severity": "high",
-      "message": "Gloucester Grammar School Case is recorded with year 1991 despite a medieval Year Book citation; authoritative verification required.",
-      "evidence": "Y.B. 11 Hen. IV, fol. 47, pl. 21"
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "placeholder-quality",
-      "severity": "medium",
-      "message": "Generic migrated wording detected: \"What legal rule governs the doctrine?\"",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "placeholder-quality",
-      "severity": "medium",
-      "message": "Generic migrated wording detected: \"Use the case for its stated ratio and apply it to the proved facts.\"",
-      "evidence": ""
+      "message": "Case \"Gloucester Grammar School Case\" has an implausible year value.",
+      "evidence": "1410"
     }
   ]
 }
