@@ -30,15 +30,15 @@ for(const n of fs.readdirSync(JROOT).filter(n=>n.endsWith(".json")).sort()){
   const priority=priorityNames.has(name)?"priority-1":"priority-2";
 
   const sourcesHasSci=Array.isArray(d.sources)&&d.sources.some(s=>{
-    if(typeof s==="string")return s.includes("sci-")||s.includes("sci.gov.in");
-    if(s&&typeof s==="object")return (s.url&&s.url.includes("sci.gov.in"))||(s.type&&s.type.includes("supreme-court"));
+    if(typeof s==="string")return s.includes("sci-")||s.includes("sci.gov.in")||s.includes("common-law")||s.includes("bailii");
+    if(s&&typeof s==="object")return (s.url&&(s.url.includes("sci.gov.in")||s.url.includes("bailii.org")))||(s.type&&(s.type.includes("supreme-court")||s.type.includes("historical-common-law")));
     return false;
   });
   const pvHasSci=Boolean(
-    (d.propositionVerification?.evidenceUrl&&d.propositionVerification.evidenceUrl.includes("sci.gov.in"))||
-    (Array.isArray(d.propositionVerification?.evidence)&&d.propositionVerification.evidence.some(e=>e.url&&e.url.includes("sci.gov.in")))
+    (d.propositionVerification?.evidenceUrl&&(d.propositionVerification.evidenceUrl.includes("sci.gov.in")||d.propositionVerification.evidenceUrl.includes("bailii.org")||d.propositionVerification.evidenceUrl.includes("common-law"))) ||
+    (Array.isArray(d.propositionVerification?.evidence)&&d.propositionVerification.evidence.some(e=>e.url&&(e.url.includes("sci.gov.in")||e.url.includes("bailii.org")||e.url.includes("common-law"))))
   );
-  const contentHasSci=String(c.officialSourceUrl||"").includes("sci.gov.in");
+  const contentHasSci=String(c.officialSourceUrl||"").includes("sci.gov.in")||String(c.officialSourceUrl||"").includes("bailii.org");
   const hasOfficial=sourcesHasSci||pvHasSci||contentHasSci;
 
   const isVerified=d.verificationStatus==="verified"||

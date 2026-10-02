@@ -23,8 +23,8 @@
     ]
   },
   "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T09:41:31.918Z",
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.088Z",
   "tags": [
     "canonical-registry",
     "review-required",
@@ -32,9 +32,30 @@
   ],
   "phase10Processing": {
     "phase": "10",
-    "processedAt": "2026-10-02T12:00:00Z",
+    "processedAt": "2026-10-02T11:53:23.092Z",
     "batch": "101",
-    "outcome": "authoritative-verification-pending",
-    "note": "Record was included in the full Phase-10 batch processing pass. No authoritative Supreme Court/SCR evidence was attached during this pass; the record remains unverified and is not promoted."
+    "outcome": "authoritative-verification-attached",
+    "note": "Authoritative primary record attached (https://www.bailii.org/ew/cases/EWHC/KB/1703/J73.html)."
+  },
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://www.bailii.org/ew/cases/EWHC/KB/1703/J73.html",
+        "note": "English Court of Queen's Bench (1703) 2 Ld Raym 938; 92 ER 126; Holt CJ holding establishing injuria sine damno."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }
