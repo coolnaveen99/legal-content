@@ -250,4 +250,5 @@ const summary = {
 fs.writeFileSync(auditPath, JSON.stringify(summary, null, 2) + "\n");
 
 console.log(JSON.stringify(summary.summary, null, 2));
+console.error(JSON.stringify(audit.filter(x => x.disposition === "MIGRATION_ERROR"), null, 2));
 if (errors) process.exit(1);
