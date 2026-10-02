@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-02T09:35:30.129Z",
+  "generatedAt": "2026-10-02T09:36:51.032Z",
   "scope": {
     "migratedTopics": 65,
     "caseRecords": 170
@@ -14,16 +14,15 @@
   "summary": {
     "caseRecords": 170,
     "topicsWithCases": 65,
-    "topicsWithFindings": 47,
-    "totalFindings": 444,
-    "highSeverity": 8,
+    "topicsWithFindings": 45,
+    "totalFindings": 440,
+    "highSeverity": 4,
     "mediumSeverity": 436
   },
   "byType": {
     "missing-court": 93,
     "missing-case-analysis": 285,
-    "citation-year-mismatch": 7,
-    "implausible-year": 1,
+    "citation-year-mismatch": 4,
     "duplicate-case-record": 58
   },
   "findings": [
@@ -370,14 +369,6 @@
       "severity": "medium",
       "message": "Case \"Divisional Personnel Officer, Southern Railway v. T.R. Challappan\" has no court metadata.",
       "evidence": ""
-    },
-    {
-      "path": "topics/constitution/civil-services-art-311.json",
-      "topic": "topic:india:constitution-civil-services-art-311",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"Divisional Personnel Officer, Southern Railway v. T.R. Challappan\" year does not match citation year.",
-      "evidence": "(1976) 3 SCC 190"
     },
     {
       "path": "topics/constitution/civil-services-art-311.json",
@@ -3090,30 +3081,6 @@
       "severity": "medium",
       "message": "Case \"Badat & Co. v. East India Trading Co.\" is missing ratioDecidendi.",
       "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-general-defences.json",
-      "topic": "topic:india:torts-tort-general-defences",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"Smith v Baker & Sons\" year does not match citation year.",
-      "evidence": "[1891] AC 325"
-    },
-    {
-      "path": "topics/torts/tort-general-defences.json",
-      "topic": "topic:india:torts-tort-general-defences",
-      "type": "citation-year-mismatch",
-      "severity": "high",
-      "message": "Case \"Stanley v Powell\" year does not match citation year.",
-      "evidence": "[1891] 1 QB 86"
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "topic": "topic:india:torts-tort-injuria-damnum",
-      "type": "implausible-year",
-      "severity": "high",
-      "message": "Case \"Gloucester Grammar School Case\" has an implausible year.",
-      "evidence": "1410"
     },
     {
       "path": "topics/constitution/doctrine-eclipse.json",
