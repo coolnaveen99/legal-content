@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 7 — Statutory Provision Deep Verification",
-  "generatedAt": "2026-10-02T09:31:52.516Z",
+  "generatedAt": "2026-10-02T09:32:32.844Z",
   "scope": {
     "migratedBnsTopics": 52,
     "registrySections": 48
@@ -14,320 +14,48 @@
   ],
   "summary": {
     "topicsAudited": 52,
-    "topicsWithFindings": 34,
-    "totalFindings": 34,
+    "topicsChanged": 34,
+    "topicsWithFindings": 0,
+    "totalFindings": 0,
     "highSeverity": 0,
-    "mediumSeverity": 34
+    "mediumSeverity": 0
   },
-  "byType": {
-    "ipc-correspondence-undocumented": 34
-  },
-  "findings": [
-    {
-      "path": "topics/bns/s-108.json",
-      "id": "topic:india:bns-s-108",
-      "section": 108,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=306"
-    },
-    {
-      "path": "topics/bns/s-11.json",
-      "id": "topic:india:bns-s-11",
-      "section": 11,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=73"
-    },
-    {
-      "path": "topics/bns/s-114.json",
-      "id": "topic:india:bns-s-114",
-      "section": 114,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=319"
-    },
-    {
-      "path": "topics/bns/s-115.json",
-      "id": "topic:india:bns-s-115",
-      "section": 115,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=321, 323"
-    },
-    {
-      "path": "topics/bns/s-126.json",
-      "id": "topic:india:bns-s-126",
-      "section": 126,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=339, 341"
-    },
-    {
-      "path": "topics/bns/s-127.json",
-      "id": "topic:india:bns-s-127",
-      "section": 127,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=340, 342, 343, 344, 345, 346, 347, 348"
-    },
-    {
-      "path": "topics/bns/s-128.json",
-      "id": "topic:india:bns-s-128",
-      "section": 128,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=349"
-    },
-    {
-      "path": "topics/bns/s-129.json",
-      "id": "topic:india:bns-s-129",
-      "section": 129,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=350"
-    },
-    {
-      "path": "topics/bns/s-130.json",
-      "id": "topic:india:bns-s-130",
-      "section": 130,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=351"
-    },
-    {
-      "path": "topics/bns/s-138.json",
-      "id": "topic:india:bns-s-138",
-      "section": 138,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=362"
-    },
-    {
-      "path": "topics/bns/s-143.json",
-      "id": "topic:india:bns-s-143",
-      "section": 143,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=370"
-    },
-    {
-      "path": "topics/bns/s-164.json",
-      "id": "topic:india:bns-s-164",
-      "section": 164,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=136"
-    },
-    {
-      "path": "topics/bns/s-170.json",
-      "id": "topic:india:bns-s-170",
-      "section": 170,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=171B"
-    },
-    {
-      "path": "topics/bns/s-172.json",
-      "id": "topic:india:bns-s-172",
-      "section": 172,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=171D"
-    },
-    {
-      "path": "topics/bns/s-173.json",
-      "id": "topic:india:bns-s-173",
-      "section": 173,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=171E"
-    },
-    {
-      "path": "topics/bns/s-189.json",
-      "id": "topic:india:bns-s-189",
-      "section": 189,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=141, 143, 144, 145, 150, 151, 157, 158"
-    },
-    {
-      "path": "topics/bns/s-191.json",
-      "id": "topic:india:bns-s-191",
-      "section": 191,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=146, 147, 148"
-    },
-    {
-      "path": "topics/bns/s-194.json",
-      "id": "topic:india:bns-s-194",
-      "section": 194,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=159, 160"
-    },
-    {
-      "path": "topics/bns/s-227.json",
-      "id": "topic:india:bns-s-227",
-      "section": 227,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=191"
-    },
-    {
-      "path": "topics/bns/s-249.json",
-      "id": "topic:india:bns-s-249",
-      "section": 249,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=212"
-    },
-    {
-      "path": "topics/bns/s-268.json",
-      "id": "topic:india:bns-s-268",
-      "section": 268,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=229"
-    },
-    {
-      "path": "topics/bns/s-270.json",
-      "id": "topic:india:bns-s-270",
-      "section": 270,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=268"
-    },
-    {
-      "path": "topics/bns/s-276.json",
-      "id": "topic:india:bns-s-276",
-      "section": 276,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=274"
-    },
-    {
-      "path": "topics/bns/s-277.json",
-      "id": "topic:india:bns-s-277",
-      "section": 277,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=275"
-    },
-    {
-      "path": "topics/bns/s-296.json",
-      "id": "topic:india:bns-s-296",
-      "section": 296,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=294"
-    },
-    {
-      "path": "topics/bns/s-297.json",
-      "id": "topic:india:bns-s-297",
-      "section": 297,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=294A"
-    },
-    {
-      "path": "topics/bns/s-308.json",
-      "id": "topic:india:bns-s-308",
-      "section": 308,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=383, 384, 385, 386, 387, 388, 389"
-    },
-    {
-      "path": "topics/bns/s-310.json",
-      "id": "topic:india:bns-s-310",
-      "section": 310,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=391, 395, 396, 399, 402, 400"
-    },
-    {
-      "path": "topics/bns/s-316.json",
-      "id": "topic:india:bns-s-316",
-      "section": 316,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=405, 406, 407, 408, 409"
-    },
-    {
-      "path": "topics/bns/s-317.json",
-      "id": "topic:india:bns-s-317",
-      "section": 317,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=410, 411, 412, 413, 414"
-    },
-    {
-      "path": "topics/bns/s-319.json",
-      "id": "topic:india:bns-s-319",
-      "section": 319,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=416, 419"
-    },
-    {
-      "path": "topics/bns/s-324.json",
-      "id": "topic:india:bns-s-324",
-      "section": 324,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=425, 426, 427, 440"
-    },
-    {
-      "path": "topics/bns/s-33.json",
-      "id": "topic:india:bns-s-33",
-      "section": 33,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=95"
-    },
-    {
-      "path": "topics/bns/s-46.json",
-      "id": "topic:india:bns-s-46",
-      "section": 46,
-      "type": "ipc-correspondence-undocumented",
-      "severity": "medium",
-      "message": "Phase 6 flagged a legacy criminal-law reference, but the content does not explicitly label the historical IPC reference in a machine-auditable form.",
-      "evidence": "expected=108"
-    }
-  ]
+  "byType": {},
+  "changedTopics": [
+    "topics/bns/s-108.json",
+    "topics/bns/s-11.json",
+    "topics/bns/s-114.json",
+    "topics/bns/s-115.json",
+    "topics/bns/s-126.json",
+    "topics/bns/s-127.json",
+    "topics/bns/s-128.json",
+    "topics/bns/s-129.json",
+    "topics/bns/s-130.json",
+    "topics/bns/s-138.json",
+    "topics/bns/s-143.json",
+    "topics/bns/s-164.json",
+    "topics/bns/s-170.json",
+    "topics/bns/s-172.json",
+    "topics/bns/s-173.json",
+    "topics/bns/s-189.json",
+    "topics/bns/s-191.json",
+    "topics/bns/s-194.json",
+    "topics/bns/s-227.json",
+    "topics/bns/s-249.json",
+    "topics/bns/s-268.json",
+    "topics/bns/s-270.json",
+    "topics/bns/s-276.json",
+    "topics/bns/s-277.json",
+    "topics/bns/s-296.json",
+    "topics/bns/s-297.json",
+    "topics/bns/s-308.json",
+    "topics/bns/s-310.json",
+    "topics/bns/s-316.json",
+    "topics/bns/s-317.json",
+    "topics/bns/s-319.json",
+    "topics/bns/s-324.json",
+    "topics/bns/s-33.json",
+    "topics/bns/s-46.json"
+  ],
+  "findings": []
 }
