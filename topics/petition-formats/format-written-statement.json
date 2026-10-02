@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:petition-formats-format-written-statement",
+  "version": 1,
+  "status": "review",
+  "title": "A Written Statement (WS) is the defendant's formal statement of defense answering the plaint under Order VIII CPC",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "A Written Statement (WS) is the defendant's formal statement of defense answering the plaint under Order VIII CPC. It requires specific denials of material facts, setting up of affirmative defenses, and incorporation of any set-off or counter-claim within strict statutory limitation windows.",
+    "short": "A Written Statement (WS) is the defendant's formal statement of defense answering the plaint under Order VIII CPC. It requires specific denials of material facts, setting up of affirmative defenses, and incorporation of any set-off or counter-claim within strict statutory limitation windows.",
+    "detailed": "Core Drafting Skeleton & Rules for Written Statement (Order VIII CPC)\n\n1. Cause Title & Heading\n   • In the Court of the Civil Judge / District Judge at [Station]\n   • Original Suit No. … of 20…\n   • [Plaintiff Name] … Plaintiff vs. [Defendant Name] … Defendant\n   • \"WRITTEN STATEMENT ON BEHALF OF DEFENDANT NO. 1 UNDER ORDER VIII RULE 1 CPC\"\n\n2. Mandatory Timelines for Filing\n   • General Civil Suits (CPC Order VIII Rule 1): 30 days from service of summons; extendable up to 90 days for reasons recorded in writing (held directory in exceptional cases: Salem Bar / Kailash v. Nanhku).\n   • Commercial Suits (Commercial Courts Act, 2015): 30 days extendable up to 120 days with costs. Failure to file within 120 days leads to forfeiture of the right to file WS; court cannot condone delay beyond 120 days (SCG Contracts).\n\n3. Preliminary Objections (Pleading Threshold Bars)\n   • Lack of jurisdiction: Territorial, pecuniary, or subject-matter bar.\n   • Bar of limitation: Suit barred under the Limitation Act, 1963.\n   • Non-compliance with statutory notice: E.g., lack of mandatory 2-month notice under Section 80 CPC against Government authorities.\n   • Non-joinder or misjoinder of necessary parties (Order I Rule 9).\n   • Bar of Res Judicata (Section 11) or Order II Rule 2.\n\n4. Para-wise Reply & The Doctrine of Non-Traverse\n   • Specific Denial (Order VIII Rules 3 & 4): The defendant must deal specifically with each allegation of fact. General or evasive denial is impermissible.\n   • Deemed Admission (Order VIII Rule 5): Any allegation of fact not denied specifically or by necessary implication is taken to be admitted by the defendant, except against persons under disability.\n\n5. New Facts & Affirmative Defences (Order VIII Rule 2)\n   • Payment, release, accord and satisfaction, fraud, illegality, or limitation must be raised expressly.\n\n6. Set-Off (Rule 6) & Counter-Claim (Rule 6A to 6G)\n   • Legal Set-Off (Rule 6): Ascertained sum of money legally recoverable, where both parties fill the same character.\n   • Counter-Claim (Rule 6A): Cause of action accruing before or after filing the suit, but before defendant delivers defense or time has expired. Treated as a cross-suit; subject to separate court-fee.\n\n7. Relief / Prayer\n   • Dismissal of the plaintiff's suit with costs and exemplary costs under Section 35A CPC.\n   • Decree on counter-claim / set-off if claimed.\n\n8. Verification Clause & Supporting Affidavit (Order VI Rule 15 CPC)",
+    "cases": [
+      {
+        "name": "Salem Advocate Bar Association v. Union of India",
+        "year": 2005,
+        "citation": "(2005) 6 SCC 344",
+        "holding": "The 90-day outer limit for filing a written statement in ordinary civil suits under Order VIII Rule 1 is directory, not mandatory, but extension must be for recorded exceptional circumstances.",
+        "relevance": "Judicial discretion and timeline flexibility in general CPC civil procedure."
+      },
+      {
+        "name": "SCG Contracts India Pvt. Ltd. v. K.S. Chamankar Infrastructure",
+        "year": 2019,
+        "citation": "(2019) 12 SCC 210",
+        "holding": "The 120-day outer limit for filing a WS in Commercial Suits under the Commercial Courts Act proviso to Order VIII Rule 1 is strictly mandatory and non-extendable by inherent powers.",
+        "relevance": "Forfeiture of defense rights after 120 days in commercial disputes."
+      },
+      {
+        "name": "Badat & Co. v. East India Trading Co.",
+        "year": 1964,
+        "citation": "AIR 1964 SC 538",
+        "holding": "Under Order VIII Rules 3, 4, and 5 CPC, vague or evasive denials constitute constructive admissions; denial must be specific and direct.",
+        "relevance": "Doctrine of non-traverse and pleading specificity standards."
+      }
+    ],
+    "bareActPointers": [
+      "Order VIII Rules 1–10 CPC",
+      "Order VIII Rule 6 (Set-off)",
+      "Order VIII Rule 6A–6G (Counter-claim)",
+      "Order VI Rule 15 & 15A CPC (Verification)",
+      "Section 35A CPC (Compensatory costs)"
+    ],
+    "examTips": [
+      "AIBE frequently tests the 30-day and 90-day time limits under Order VIII Rule 1.",
+      "Remember the difference between Legal Set-Off (ascertained sum) and Counter-Claim (can be unliquidated damages or independent cause of action).",
+      "Doctrine of Non-Traverse (Order VIII Rule 5) means silence equals admission in civil pleadings.",
+      "Commercial suits forfeit WS rights strictly on Day 121 with zero inherent power relaxation."
+    ],
+    "sections": [],
+    "examples": [],
+    "hypotheticals": [],
+    "relatedJudgments": [],
+    "relatedTopics": [],
+    "illustrations": [],
+    "legacySubjectSlug": "petition-formats",
+    "legacyTopicId": "format-written-statement",
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+  },
+  "sources": [
+    "Legacy migration source: codepackr-law/src/data/topics/petition-formats/format-written-statement.ts"
+  ],
+  "updatedAt": "2026-10-02T08:55:43.120Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "petition-formats"
+  ]
+}
