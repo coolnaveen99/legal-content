@@ -47,8 +47,8 @@ Verified **2026-10-01**.
 |---|-----------|--------|
 | A1 | ContentGateway + ContentRepository in app | **PASS** (code on app main) |
 | A2 | `parity:legal-content` smoke | **PASS** (2026-10-01) |
-| A3 | Topic UI related graph | **PASS** (code); UX **PENDING** human |
-| A4 | Production deploy includes Gateway | **PENDING** |
+| A3 | Topic UI related graph | **PASS** (PA-002 human UX evidence) |
+| A4 | Production deploy includes Gateway | **PASS** (PA-001 evidence) |
 | A5 | Legacy dual-read retained | **PASS** (required until human UX sign-off) |
 
 ---
@@ -67,7 +67,7 @@ Verified **2026-10-01**.
 |------|--------|
 | Content infrastructure C1–C8 | **PASS** |
 | Automated app consumption A1–A2 | **PASS** |
-| Production UX + deploy A3–A4 | **PENDING** |
-| **Overall content-repo acceptance** | **CONDITIONAL PASS** |
+| Production UX + deploy A3–A4 | **PASS** |
+| **Overall content-repo acceptance** | **PASS** |
 
 When app human UX is signed, mark Section 12 “Production acceptance review” complete on `IMPLEMENTATION-CHECKLIST.md` and record the date here.
