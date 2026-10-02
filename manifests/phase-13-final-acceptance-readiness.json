@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T10:17:00Z",
+  "generatedAt": "2026-10-02T10:11:28.336Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -16,8 +16,8 @@
   "records": [
     {
       "gate": "Automated CI",
-      "status": "pending-post-change-validation",
-      "evidence": "Pre-change CI was green; post-change workflow status is not yet exposed by the available GitHub run endpoint, so this gate is not claimed as newly verified."
+      "status": "pass",
+      "evidence": "validate-content and validate workflows are green on the current main commit."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -33,17 +33,15 @@
       "status": "manual-review-required",
       "evidence": {
         "judgmentsAudited": 124,
-        "pending": 114,
-        "priority1Verified": 10
+        "pending": 124
       }
     },
     {
       "gate": "Phase 11 proposition review",
-      "status": "pass",
+      "status": "manual-review-required",
       "evidence": {
         "judgmentsAudited": 10,
-        "pendingManualReview": 0,
-        "propositionsAudited": 30
+        "pendingManualReview": 10
       }
     },
     {
@@ -62,10 +60,10 @@
     }
   ],
   "manualReviewQueue": [
-    "- [ ] Complete remaining Phase 10 authoritative verification — 114 records pending",
     "- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off",
     "- [ ] Production acceptance review — **CONDITIONAL PASS** (automated); human UX + deploy confirmation pending — `docs/PRODUCTION-ACCEPTANCE.md`",
     "- [ ] All required checklist items are complete",
+    "- [ ] All required manual reviews are complete",
     "- [ ] No unresolved critical issues",
     "- [ ] Migration parity is verified (full UX)",
     "- [ ] Final architecture review completed",
