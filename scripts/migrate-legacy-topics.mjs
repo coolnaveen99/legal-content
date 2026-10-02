@@ -45,7 +45,7 @@ function humanize(slug) {
 }
 
 function stripTypeScript(source) {
-  let s = source.replace(/^\s*import[\s\S]*?(?=\s*(?:const|export default))/m, "");
+  let s = source.replace(/^\s*import[^\n]*\n/gm, "");
   s = s.replace(/export\s+default\s+/, "return ");
   s = s.replace(/const\s+content\s*:\s*TopicContent\s*=\s*/, "return ");
   s = s.replace(/const\s+content\s*=\s*/, "return ");
