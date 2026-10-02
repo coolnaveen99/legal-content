@@ -9,8 +9,24 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT=process.cwd();
-const migration=JSON.parse(fs.readFileSync(path.join(ROOT,"manifests/legacy-topic-migration.json"),"utf8"));
-const migrated=migration.records.filter(r=>r.disposition==="MIGRATED_REVIEW");
+const migrated=[];
+const topicRoot=path.join(ROOT,"topics");
+function walkTopics(d){
+  if(!fs.existsSync(d))return;
+  for(const n of fs.readdirSync(d)){
+    const p=path.join(d,n); const st=fs.statSync(p);
+    if(st.isDirectory()) walkTopics(p);
+    else if(n.endsWith(".json")){
+      try{
+        const data=JSON.parse(fs.readFileSync(p,"utf8"));
+        if(Array.isArray(data.tags) && data.tags.includes("legacy-migration")){
+          migrated.push({legacyPath:data.content?.legacySubjectSlug ? data.content.legacySubjectSlug+"/"+(data.content.legacyTopicId||path.basename(p,".json")) : path.relative(topicRoot,p).replaceAll(path.sep,"/"), canonicalPath:path.relative(ROOT,p).replaceAll(path.sep,"/")});
+        }
+      }catch{}
+    }
+  }
+}
+walkTopics(topicRoot);
 
 const sourceFiles=[];
 function walk(d){if(!fs.existsSync(d))return;for(const n of fs.readdirSync(d)){const p=path.join(d,n);const s=fs.statSync(p);if(s.isDirectory())walk(p);else if(n.endsWith(".json"))sourceFiles.push(p);}}
