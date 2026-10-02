@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T12:45:00Z",
+  "generatedAt": "2026-10-02T12:17:00Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -16,8 +16,8 @@
   "records": [
     {
       "gate": "Automated CI",
-      "status": "pending-refresh",
-      "evidence": "A fresh CI-triggering main commit will be used to obtain current workflow evidence; the previous endpoint returned no runs for the [skip ci] closure commit."
+      "status": "not-verified",
+      "evidence": "Non-[skip ci] main commits 88d987b and d6bf229 were pushed to trigger validation workflows. The available workflow-run/status endpoints currently return no run/status records for the commits; therefore no CI PASS is claimed. Local workflow configuration is present in .github/workflows/validate.yml and validate-content.yml."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -67,7 +67,6 @@
     }
   ],
   "manualReviewQueue": [
-    "PA-004 resolved: retain legacy topic modules and ContentGateway canonical-first + legacy fallback; no deletion authorized.",
-    "Fresh CI evidence refresh in progress on a non-[skip ci] main commit."
+    "Fresh CI evidence remains externally unavailable through the connected GitHub workflow/status endpoints; do not claim PASS until a workflow run is observable."
   ]
 }
