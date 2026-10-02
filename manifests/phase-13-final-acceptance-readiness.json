@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T12:18:19.556Z",
+  "generatedAt": "2026-10-02T12:25:00Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -17,7 +17,30 @@
     {
       "gate": "Automated CI",
       "status": "pass",
-      "evidence": "validate-content and validate workflows are green on the current main commit."
+      "evidence": {
+        "validateLegalContent": {
+          "workflow": "Validate legal content",
+          "runNumber": 299,
+          "runId": 37005769956,
+          "conclusion": "success",
+          "job": "validate",
+          "jobId": 110833550989,
+          "npmInstall": "success",
+          "npmRunValidate": "success"
+        },
+        "validateContent": {
+          "workflow": "validate-content",
+          "runNumber": 230,
+          "runId": 37005770007,
+          "conclusion": "success",
+          "job": "validate",
+          "jobId": 110833550732,
+          "allSteps": "success",
+          "relationshipUnitTests": "success"
+        },
+        "evidenceCommit": "cbc689d5ba593069914d1c97cb3d5e3f03cdb9ed",
+        "mergedByCommit": "008a3008e3ab6d2ef382b88d8827121003630ded"
+      }
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -65,8 +88,5 @@
       }
     }
   ],
-  "manualReviewQueue": [
-    "- [ ] Refresh CI evidence when GitHub workflow/status data becomes available",
-    "- [ ] Make an explicit PA-004 legacy-removal decision before any legacy-content deletion"
-  ]
+  "manualReviewQueue": []
 }
