@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T12:12:06.359Z",
+  "generatedAt": "2026-10-02T12:45:00Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -16,8 +16,8 @@
   "records": [
     {
       "gate": "Automated CI",
-      "status": "pass",
-      "evidence": "validate-content and validate workflows are green on the current main commit."
+      "status": "pending-refresh",
+      "evidence": "A fresh CI-triggering main commit will be used to obtain current workflow evidence; the previous endpoint returned no runs for the [skip ci] closure commit."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -34,7 +34,8 @@
       "evidence": {
         "judgmentsAudited": 124,
         "verified": 124,
-        "pending": 0
+        "pending": 0,
+        "officialEvidenceAttached": 124
       }
     },
     {
@@ -66,7 +67,7 @@
     }
   ],
   "manualReviewQueue": [
-    "- [ ] Refresh CI evidence when GitHub workflow/status data becomes available",
-    "- [ ] Make an explicit PA-004 legacy-removal decision before any legacy-content deletion"
+    "PA-004 resolved: retain legacy topic modules and ContentGateway canonical-first + legacy fallback; no deletion authorized.",
+    "Fresh CI evidence refresh in progress on a non-[skip ci] main commit."
   ]
 }
