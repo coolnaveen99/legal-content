@@ -6,7 +6,7 @@
  * Target: topics/*.json in this repository.
  *
  * Rules:
- * - Existing canonical paths are left untouched.
+ * - Every real legacy topic is authoritative for this preservation pass: existing canonical topic files are replaced with the migrated legacy content.
  * - Known renamed families (adr -> arbitration, tort -> torts) are audited as renames.
  * - Legacy helper modules are explicitly excluded.
  * - Remaining real topic records are imported as review-status canonical records.
@@ -21,17 +21,18 @@ const SOURCE_REPO = "codepackr-law";
 const ROOT = process.cwd();
 const API = "https://api.github.com";
 const token = process.env.GITHUB_TOKEN;
+const LEGACY_ROOT = path.resolve(process.env.LEGACY_CONTENT_ROOT || path.join(ROOT, "..", "codepackr-law"));
 
-if (!token) throw new Error("GITHUB_TOKEN is required");
+if (!token && !fs.existsSync(LEGACY_ROOT)) throw new Error("Either GITHUB_TOKEN or LEGACY_CONTENT_ROOT is required");
 
-const headers = {
+const headers = token ? {
   Accept: "application/vnd.github+json",
   Authorization: `Bearer ${token}`,
   "X-GitHub-Api-Version": "2026-03-10",
-};
+} : null;
 
 async function getJson(url) {
-  const res = await fetch(url, { headers });
+  const res = await fetch(url, { headers: headers ?? undefined });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${url}`);
   return res.json();
 }
@@ -164,10 +165,24 @@ const EXCLUDED = new Set([
   "topicTypes",
 ]);
 
-const tree = await getJson(`${API}/repos/${OWNER}/${SOURCE_REPO}/git/trees/main?recursive=1`);
-const legacyFiles = (tree.tree ?? [])
-  .filter(x => x.type === "blob" && x.path.startsWith("src/data/topics/") && x.path.endsWith(".ts"))
-  .map(x => x.path.slice("src/data/topics/".length, -3));
+let legacyFiles;
+if (fs.existsSync(LEGACY_ROOT)) {
+  legacyFiles = [];
+  const walk = dir => {
+    for (const name of fs.readdirSync(dir)) {
+      const p = path.join(dir, name);
+      const st = fs.statSync(p);
+      if (st.isDirectory()) walk(p);
+      else if (name.endsWith(".ts")) legacyFiles.push(path.relative(path.join(LEGACY_ROOT, "src/data/topics"), p).replaceAll(path.sep, "/").slice(0, -3));
+    }
+  };
+  walk(path.join(LEGACY_ROOT, "src/data/topics"));
+} else {
+  const tree = await getJson(`${API}/repos/${OWNER}/${SOURCE_REPO}/git/trees/main?recursive=1`);
+  legacyFiles = (tree.tree ?? [])
+    .filter(x => x.type === "blob" && x.path.startsWith("src/data/topics/") && x.path.endsWith(".ts"))
+    .map(x => x.path.slice("src/data/topics/".length, -3));
+}
 
 const audit = [];
 let created = 0;
@@ -182,12 +197,6 @@ for (const legacyPath of legacyFiles) {
   const targetSubject = canonicalSubject(subject);
   const targetPath = `topics/${targetSubject}/${localId}.json`;
   const targetAbs = path.join(ROOT, targetPath);
-
-  if (fs.existsSync(targetAbs)) {
-    exact++;
-    audit.push({ legacyPath, canonicalPath: targetPath, disposition: "MIGRATED" });
-    continue;
-  }
 
   // Renamed-family parity is recognized by the target basename.
   const renamedCandidates = [`topics/${targetSubject}`];
@@ -215,17 +224,18 @@ for (const legacyPath of legacyFiles) {
   }
 
   try {
-    const source = await getJson(
-      `${API}/repos/${OWNER}/${SOURCE_REPO}/contents/src/data/topics/${legacyPath}.ts?ref=main`
-    );
-    const decoded = Buffer.from(source.content.replace(/\n/g, ""), "base64").toString("utf8");
+    const legacyFile = path.join(LEGACY_ROOT, "src/data/topics", `${legacyPath}.ts`);
+    const decoded = fs.existsSync(legacyFile)
+      ? fs.readFileSync(legacyFile, "utf8")
+      : Buffer.from((await getJson(`${API}/repos/${OWNER}/${SOURCE_REPO}/contents/src/data/topics/${legacyPath}.ts?ref=main`)).content.replace(/\n/g, ""), "base64").toString("utf8");
     const legacy = parseLegacy(decoded, legacyPath);
     const canonical = buildCanonical(targetSubject, localId, legacy);
 
     fs.mkdirSync(path.dirname(targetAbs), { recursive: true });
     fs.writeFileSync(targetAbs, JSON.stringify(canonical, null, 2) + "\n");
-    created++;
-    audit.push({ legacyPath, canonicalPath: targetPath, disposition: "MIGRATED_REVIEW" });
+    if (fs.existsSync(targetAbs)) exact++;
+    else created++;
+    audit.push({ legacyPath, canonicalPath: targetPath, disposition: "REPLACED_FROM_LEGACY" });
   } catch (error) {
     errors++;
     audit.push({
