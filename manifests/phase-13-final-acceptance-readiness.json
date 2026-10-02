@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T12:24:00Z",
+  "generatedAt": "2026-10-02T10:37:07.711Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -9,15 +9,15 @@
   ],
   "summary": {
     "gatesAudited": 6,
-    "passed": 4,
-    "blockingGates": 2,
+    "passed": 3,
+    "blockingGates": 3,
     "readyForFinalAcceptance": false
   },
   "records": [
     {
       "gate": "Automated CI",
-      "status": "not-verified",
-      "evidence": "GitHub workflow runs/statuses were checked for the latest closure commit and no run/status data was available; no CI pass is claimed."
+      "status": "pass",
+      "evidence": "validate-content and validate workflows are green on the current main commit."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -33,39 +33,41 @@
       "status": "manual-review-required",
       "evidence": {
         "judgmentsAudited": 124,
-        "batchProcessed": 101,
-        "verified": 25,
-        "pending": 99,
-        "decision": "The remaining queue was batch-audited; only records with authoritative evidence attached are promoted to verified."
+        "pending": 124
       }
     },
     {
       "gate": "Phase 11 proposition review",
-      "status": "pass",
+      "status": "manual-review-required",
       "evidence": {
         "judgmentsAudited": 10,
-        "pendingManualReview": 0
+        "pendingManualReview": 10
       }
     },
     {
       "gate": "Production acceptance",
       "status": "pass",
       "evidence": {
-        "pendingMarkers": 0,
-        "source": "docs/PRODUCTION-ACCEPTANCE.md"
+        "pendingMarkers": 0
       }
     },
     {
       "gate": "Checklist completion",
-      "status": "pass",
+      "status": "pending",
       "evidence": {
-        "uncheckedItems": 0,
-        "completionRecord": "docs/FINAL-COMPLETION-RECORD.md"
+        "uncheckedItems": 9
       }
     }
   ],
   "manualReviewQueue": [
-    "- [ ] Refresh CI evidence when GitHub workflow/status data becomes available",
-    "- [ ] Make an explicit PA-004 legacy-removal decision before any legacy-content deletion"
+    "- [ ] Remove legacy content only after verified parity — blocked until production UX sign-off",
+    "- [ ] Production acceptance review — **CONDITIONAL PASS** (automated); human UX + deploy confirmation pending — `docs/PRODUCTION-ACCEPTANCE.md`",
+    "- [ ] All required checklist items are complete",
+    "- [ ] All required manual reviews are complete",
+    "- [ ] No unresolved critical issues",
+    "- [ ] Migration parity is verified (full UX)",
+    "- [ ] Final architecture review completed",
+    "- [ ] Completion record created",
+    "- [ ] Checklist moved to `archive/completions/`"
   ]
 }
