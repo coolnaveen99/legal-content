@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 3 — Source & legal provenance verification",
-  "generatedAt": "2026-10-02T09:03:40.981Z",
+  "generatedAt": "2026-10-02T09:12:39.611Z",
   "scope": {
     "migratedTopics": 112,
-    "canonicalSourceEntities": 22
+    "canonicalSourceEntities": 33
   },
   "policy": [
     "A source is attached only when the statute/subject mapping is deterministic.",
@@ -14,8 +14,8 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "mappedTopics": 68,
-    "sourceGapTopics": 44
+    "mappedTopics": 93,
+    "sourceGapTopics": 19
   },
   "bySubject": {
     "bns": {
@@ -30,8 +30,8 @@
     },
     "cyber": {
       "topics": 12,
-      "mapped": 0,
-      "unmapped": 12
+      "mapped": 12,
+      "unmapped": 0
     },
     "family": {
       "topics": 19,
@@ -40,13 +40,13 @@
     },
     "labour": {
       "topics": 4,
-      "mapped": 0,
-      "unmapped": 4
+      "mapped": 4,
+      "unmapped": 0
     },
     "petition-formats": {
       "topics": 8,
-      "mapped": 0,
-      "unmapped": 8
+      "mapped": 8,
+      "unmapped": 0
     },
     "pil": {
       "topics": 1,
@@ -55,8 +55,8 @@
     },
     "taxation": {
       "topics": 1,
-      "mapped": 0,
-      "unmapped": 1
+      "mapped": 1,
+      "unmapped": 0
     },
     "torts": {
       "topics": 2,
@@ -1083,109 +1083,181 @@
       "legacyPath": "cyber/cyber-it-s-10a",
       "canonicalPath": "topics/cyber/cyber-it-s-10a.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-2",
       "canonicalPath": "topics/cyber/cyber-it-s-2.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-4",
       "canonicalPath": "topics/cyber/cyber-it-s-4.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-43",
       "canonicalPath": "topics/cyber/cyber-it-s-43.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-43a",
       "canonicalPath": "topics/cyber/cyber-it-s-43a.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-65",
       "canonicalPath": "topics/cyber/cyber-it-s-65.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-66",
       "canonicalPath": "topics/cyber/cyber-it-s-66.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-66a",
       "canonicalPath": "topics/cyber/cyber-it-s-66a.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-66e",
       "canonicalPath": "topics/cyber/cyber-it-s-66e.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-67",
       "canonicalPath": "topics/cyber/cyber-it-s-67.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-69",
       "canonicalPath": "topics/cyber/cyber-it-s-69.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "cyber/cyber-it-s-79",
       "canonicalPath": "topics/cyber/cyber-it-s-79.json",
       "subject": "cyber",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-it-2000"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-it-2000.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "family/dmma-s-2",
@@ -1362,109 +1434,196 @@
       "legacyPath": "labour/ida-s-2j",
       "canonicalPath": "topics/labour/ida-s-2j.json",
       "subject": "labour",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-industrial-disputes-1947",
+        "source:india:india-code-industrial-relations-code-2020"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-industrial-disputes-1947.json",
+        "sources/india-code-industrial-relations-code-2020.json"
+      ],
+      "candidateStatuses": [
+        null,
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "labour/ida-s-2k",
       "canonicalPath": "topics/labour/ida-s-2k.json",
       "subject": "labour",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-industrial-disputes-1947",
+        "source:india:india-code-industrial-relations-code-2020"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-industrial-disputes-1947.json",
+        "sources/india-code-industrial-relations-code-2020.json"
+      ],
+      "candidateStatuses": [
+        null,
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "labour/ida-s-2oo",
       "canonicalPath": "topics/labour/ida-s-2oo.json",
       "subject": "labour",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-industrial-disputes-1947",
+        "source:india:india-code-industrial-relations-code-2020"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-industrial-disputes-1947.json",
+        "sources/india-code-industrial-relations-code-2020.json"
+      ],
+      "candidateStatuses": [
+        null,
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "labour/ida-s-2s",
       "canonicalPath": "topics/labour/ida-s-2s.json",
       "subject": "labour",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-industrial-disputes-1947",
+        "source:india:india-code-industrial-relations-code-2020"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-industrial-disputes-1947.json",
+        "sources/india-code-industrial-relations-code-2020.json"
+      ],
+      "candidateStatuses": [
+        null,
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-bail-application",
       "canonicalPath": "topics/petition-formats/format-bail-application.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-bnss-2023"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-bnss-2023.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-execution-petition",
       "canonicalPath": "topics/petition-formats/format-execution-petition.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-cpc-1908"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-cpc-1908.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-fir",
       "canonicalPath": "topics/petition-formats/format-fir.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-bnss-2023"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-bnss-2023.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-legal-notice-138",
       "canonicalPath": "topics/petition-formats/format-legal-notice-138.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-ni-1881"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-ni-1881.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-pil",
       "canonicalPath": "topics/petition-formats/format-pil.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-constitution",
+        "source:india:india-pil-practice"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-constitution.json",
+        "sources/india-pil-practice.json"
+      ],
+      "candidateStatuses": [
+        null,
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-plaint",
       "canonicalPath": "topics/petition-formats/format-plaint.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-cpc-1908"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-cpc-1908.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-writ-petition",
       "canonicalPath": "topics/petition-formats/format-writ-petition.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-constitution"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-constitution.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "petition-formats/format-written-statement",
       "canonicalPath": "topics/petition-formats/format-written-statement.json",
       "subject": "petition-formats",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-cpc-1908"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-cpc-1908.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "pil/pil-locus-standi",
@@ -1485,10 +1644,16 @@
       "legacyPath": "taxation/it-s-2-24",
       "canonicalPath": "topics/taxation/it-s-2-24.json",
       "subject": "taxation",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
+      "candidateSourceIds": [
+        "source:india:india-code-income-tax-1961"
+      ],
+      "candidateSourcePaths": [
+        "sources/india-code-income-tax-1961.json"
+      ],
+      "candidateStatuses": [
+        null
+      ],
+      "needsSourceRecord": false
     },
     {
       "legacyPath": "torts/tort-general-defences",
