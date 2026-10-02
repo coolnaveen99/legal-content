@@ -37,6 +37,19 @@ jobs:
           LEGACY_CONTENT_ROOT: ${{ github.workspace }}/codepackr-law
         run: node scripts/migrate-legacy-topics.mjs
 
+      - name: Persist restored legacy topic content
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add topics manifests/legacy-topic-migration.json
+          if git diff --staged --quiet; then
+            echo "No restored legacy content changes to persist"
+          else
+            git commit -m "chore: restore complete legacy topic content [skip ci]"
+            git push
+          fi
+
       - name: Regenerate full manifest from entity files
         run: node scripts/refresh-manifest.mjs
 
