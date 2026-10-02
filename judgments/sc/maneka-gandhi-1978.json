@@ -35,7 +35,7 @@
       {
         "type": "direct-original",
         "url": "https://api.sci.gov.in/jonew/judis/5154.pdf",
-        "note": "Official Supreme Court judgment PDF dated 25 January 1978."
+        "note": "Official Supreme Court judgment PDF, dated 25 January 1978, 1978 SCC (1) 248 / 1978 SCR (2) 621."
       }
     ],
     "propositionsAudited": [
@@ -43,7 +43,10 @@
       "holding"
     ],
     "propositionCount": 2,
-    "missingContextFields": [],
-    "rule": "Evidence provenance is attached; automation does not rewrite or certify legal propositions."
+    "missingContextFields": [
+      "relevance"
+    ],
+    "linkedTopicCount": 0,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }

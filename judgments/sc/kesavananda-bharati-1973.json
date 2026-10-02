@@ -37,12 +37,12 @@
       {
         "type": "direct-original",
         "url": "https://api.sci.gov.in/jonew/judis/29981.pdf",
-        "note": "Official Supreme Court judgment PDF and official judgment record."
+        "note": "Official Supreme Court judgment PDF and official judgment record/access page."
       },
       {
         "type": "direct-original",
         "url": "https://www.sci.gov.in/document/his-holiness-kesavananda-bharati-v-state-of-kerala-1973-supp-scr-1/",
-        "note": "Official Supreme Court judgment PDF and official judgment record."
+        "note": "Official Supreme Court judgment PDF and official judgment record/access page."
       }
     ],
     "propositionsAudited": [
@@ -50,7 +50,10 @@
       "holding"
     ],
     "propositionCount": 2,
-    "missingContextFields": [],
-    "rule": "Evidence provenance is attached; automation does not rewrite or certify legal propositions."
+    "missingContextFields": [
+      "relevance"
+    ],
+    "linkedTopicCount": 0,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }

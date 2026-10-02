@@ -51,7 +51,7 @@
       {
         "type": "official-corrob",
         "url": "https://www.sci.gov.in/aor-examination/",
-        "note": "Official Supreme Court AOR page lists the Supreme Court Reports authority; direct-original proposition review remains required."
+        "note": "Official Supreme Court AOR examination page lists the authoritative Supreme Court Reports record; direct original PDF was not located in this search pass."
       }
     ],
     "propositionsAudited": [
@@ -59,7 +59,10 @@
       "holding"
     ],
     "propositionCount": 2,
-    "missingContextFields": [],
-    "rule": "Evidence provenance is attached; automation does not rewrite or certify legal propositions."
+    "missingContextFields": [
+      "relevance"
+    ],
+    "linkedTopicCount": 0,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }
