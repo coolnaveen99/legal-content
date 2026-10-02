@@ -45,13 +45,13 @@ function humanize(slug) {
 }
 
 function stripTypeScript(source) {
-  let s = source.replace(/^\s*import[\\s\\S]*?(?=\s*(?:const|export default))/m, "");
-  s = s.replace(/export\\s+default\\s+/, "return ");
-  s = s.replace(/const\\s+content\\s*:\\s*TopicContent\\s*=\\s*/, "return ");
-  s = s.replace(/const\\s+content\\s*=\\s*/, "return ");
-  s = s.replace(/\\s+satisfies\\s+TopicContent\\s*;?\\s*$/s, "");
-  s = s.replace(/\\s+as\\s+const\\s*([,}\\]])/g, "$1");
-  s = s.replace(/\\s+as\\s+TopicContent\\s*([,}\\]])/g, "$1");
+  let s = source.replace(/^\s*import[\s\S]*?(?=\s*(?:const|export default))/m, "");
+  s = s.replace(/export\s+default\s+/, "return ");
+  s = s.replace(/const\s+content\s*:\s*TopicContent\s*=\s*/, "return ");
+  s = s.replace(/const\s+content\s*=\s*/, "return ");
+  s = s.replace(/\s+satisfies\s+TopicContent\s*;?\s*$/s, "");
+  s = s.replace(/\s+as\s+const\s*([,}\\]])/g, "$1");
+  s = s.replace(/\s+as\s+TopicContent\s*([,}\\]])/g, "$1");
   return s.trim();
 }
 
@@ -68,7 +68,7 @@ function normalizeSections(sections) {
   return sections.map((s, i) => ({
     heading: s.title ?? s.heading ?? `Section ${i + 1}`,
     body: Array.isArray(s.content)
-      ? s.content.join("\\n")
+      ? s.content.join("\n")
       : String(s.body ?? s.content ?? ""),
     order: Number.isInteger(s.order) ? s.order : i + 1,
   }));
@@ -95,7 +95,7 @@ function deriveTitle(obj, localId) {
   if (provisionTitle) return provisionTitle;
   const source = obj?.glance ?? obj?.short ?? obj?.study ?? obj?.detailed;
   if (typeof source === "string" && source.trim()) {
-    const first = source.replace(/^#+\\s*/, "").split(/[.!?]\\s/)[0].trim();
+    const first = source.replace(/^#+\s*/, "").split(/[.!?]\s/)[0].trim();
     if (first.length >= 12 && first.length <= 180) return first;
   }
   return humanize(localId);
@@ -218,12 +218,12 @@ for (const legacyPath of legacyFiles) {
     const source = await getJson(
       `${API}/repos/${OWNER}/${SOURCE_REPO}/contents/src/data/topics/${legacyPath}.ts?ref=main`
     );
-    const decoded = Buffer.from(source.content.replace(/\\n/g, ""), "base64").toString("utf8");
+    const decoded = Buffer.from(source.content.replace(/\n/g, ""), "base64").toString("utf8");
     const legacy = parseLegacy(decoded, legacyPath);
     const canonical = buildCanonical(targetSubject, localId, legacy);
 
     fs.mkdirSync(path.dirname(targetAbs), { recursive: true });
-    fs.writeFileSync(targetAbs, JSON.stringify(canonical, null, 2) + "\\n");
+    fs.writeFileSync(targetAbs, JSON.stringify(canonical, null, 2) + "\n");
     created++;
     audit.push({ legacyPath, canonicalPath: targetPath, disposition: "MIGRATED_REVIEW" });
   } catch (error) {
@@ -247,7 +247,7 @@ const summary = {
   summary: { legacyFiles: legacyFiles.length, exact, renamed, created, excluded, errors },
   records: audit.sort((a, b) => a.legacyPath.localeCompare(b.legacyPath)),
 };
-fs.writeFileSync(auditPath, JSON.stringify(summary, null, 2) + "\\n");
+fs.writeFileSync(auditPath, JSON.stringify(summary, null, 2) + "\n");
 
 console.log(JSON.stringify(summary.summary, null, 2));
 if (errors) process.exit(1);
