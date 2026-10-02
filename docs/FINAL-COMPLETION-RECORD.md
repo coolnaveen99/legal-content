@@ -39,4 +39,6 @@ Verification and acceptance records do not automatically promote legal content t
 
 ## Decision
 
-**Closure documentation complete; PA-004 is resolved as a retain/no-deletion decision.** The repository may continue serving as the canonical content source for the application under the existing dual-read and PA-004 safeguards.
+**Closure documentation complete; PA-004 is resolved as a retain/no-deletion decision.**
+
+CI validation probe: this branch exists solely to obtain an observable pull-request validation run for final acceptance evidence. The repository may continue serving as the canonical content source for the application under the existing dual-read and PA-004 safeguards.
