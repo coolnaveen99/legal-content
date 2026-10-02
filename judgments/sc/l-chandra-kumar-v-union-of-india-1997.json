@@ -27,18 +27,30 @@
   "sources": [],
   "verificationStatus": "pending",
   "updatedAt": "2026-10-02T10:05:00Z",
-  "tags": ["canonical-registry", "review-required", "phase-9"],
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
   "propositionVerification": {
-    "phase": "14",
+    "phase": "11",
     "evidenceLevel": "direct-original",
     "verificationStatus": "manual-proposition-review-required",
     "evidence": [
-      {"type":"direct-original","url":"https://www.sci.gov.in/document/l-chandra-kumar-v-union-of-india-and-ors-1994-supp-6-scr-261/","note":"Official Supreme Court judgment record/access page."}
+      {
+        "type": "direct-original",
+        "url": "https://www.sci.gov.in/document/l-chandra-kumar-v-union-of-india-and-ors-1994-supp-6-scr-261/",
+        "note": "Official Supreme Court judgment record/access page."
+      }
     ],
-    "propositionsAudited": ["facts","questionsBeforeCourt","ratioDecidendi","holding","relevance"],
-    "propositionCount": 5,
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
     "missingContextFields": [],
-    "linkedTopicCount": 2,
-    "rule": "Evidence is attached for manual legal review; this phase does not promote the judgment automatically."
+    "linkedTopicCount": 0,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }

@@ -26,19 +26,35 @@
   "sources": [],
   "verificationStatus": "pending",
   "updatedAt": "2026-10-02T10:05:00Z",
-  "tags": ["canonical-registry", "review-required", "phase-9"],
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
   "propositionVerification": {
-    "phase": "14",
+    "phase": "11",
     "evidenceLevel": "official-corrob",
     "verificationStatus": "manual-proposition-review-required",
     "evidence": [
-      {"type":"official-corrob","url":"https://api.sci.gov.in/jonew/judis/31353.pdf","note":"Official Supreme Court judgment material corroborating the Minerva Mills reasoning."},
-      {"type":"official-corrob","url":"https://www.sci.gov.in/aor-examination/","note":"Official Supreme Court AOR page listing the authoritative Supreme Court Reports record."}
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/31353.pdf",
+        "note": "Official Supreme Court judgment material quotes the Minerva Mills reasoning and the AOR page lists the authoritative Supreme Court Reports record; direct original PDF was not located in this search pass."
+      },
+      {
+        "type": "official-corrob",
+        "url": "https://www.sci.gov.in/aor-examination/",
+        "note": "Official Supreme Court judgment material quotes the Minerva Mills reasoning and the AOR page lists the authoritative Supreme Court Reports record; direct original PDF was not located in this search pass."
+      }
     ],
-    "propositionsAudited": ["facts","questionsBeforeCourt","ratioDecidendi","holding","relevance"],
-    "propositionCount": 5,
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
     "missingContextFields": [],
-    "linkedTopicCount": 1,
-    "rule": "Evidence is attached for manual legal review; this phase does not promote the judgment automatically."
+    "linkedTopicCount": 0,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   }
 }
