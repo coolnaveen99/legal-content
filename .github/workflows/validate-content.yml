@@ -43,6 +43,9 @@ jobs:
       - name: Phase 3B topic-to-source verification
         run: node scripts/verify-topic-provenance.mjs
 
+      - name: Phase 5 current-law metadata normalization
+        run: node scripts/apply-current-law-metadata.mjs
+
       - name: Phase 4 legal proposition and case-law verification audit
         run: node scripts/audit-legal-propositions.mjs
 
