@@ -11,8 +11,8 @@ for(const c of cases){
  if(!citation)add(c,"missing-citation","medium",`Case "${name||"(unnamed)"}" has no citation.`);
  if(!court)add(c,"missing-court","medium",`Case "${name||"(unnamed)"}" has no court metadata.`);
  if(!Number.isInteger(year)||year<1200||year>new Date().getFullYear())add(c,"implausible-year","high",`Case "${name||"(unnamed)"}" has an implausible year.`,String(k.year));
- const years=[...citation.matchAll(/\b(1[5-9]\d{2}|20\d{2})\b/g)].map(m=>Number(m[1]));
- if(years.length&&Number.isInteger(year)&&!years.includes(year)&&!/Y\.B\.|Year Book/i.test(citation))add(c,"citation-year-mismatch","high",`Case "${name}" year does not match citation year.`,citation);
+ const reportYears=Array.isArray(k.reportYears)?k.reportYears.map(Number).filter(Number.isInteger):[];
+ if(Array.isArray(k.reportYears)&&reportYears.length&&Number.isInteger(year)&&!reportYears.includes(year))add(c,"citation-year-mismatch","high",`Case "${name}" year does not match declared report-year metadata.`,JSON.stringify({decisionYear:year,reportYears}));
  const key=name.toLowerCase()+"|"+citation.toLowerCase(); if(key&&!seen.has(key))seen.set(key,[]); seen.get(key)?.push(c.path);
  for(const field of ["facts","issue","ratioDecidendi","holding","relevance"]){if(!String(k[field]||"").trim())add(c,"missing-case-analysis","medium",`Case "${name}" is missing ${field}.`);}
  if(c.subject==="torts"&&name==="Ashby v White"&&year===1932)add(c,"known-case-metadata-risk","high","Ashby v White historical year requires correction/verification.","expected 1703");
