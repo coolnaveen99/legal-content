@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 13 — Final Acceptance Readiness Audit",
-  "generatedAt": "2026-10-02T10:13:11.061Z",
+  "generatedAt": "2026-10-02T10:31:00Z",
   "policy": [
     "This is a readiness audit, not a legal-content certification.",
     "Manual legal review remains required where prior phases explicitly identify it.",
@@ -16,8 +16,8 @@
   "records": [
     {
       "gate": "Automated CI",
-      "status": "pass",
-      "evidence": "validate-content and validate workflows are green on the current main commit."
+      "status": "not-verified",
+      "evidence": "No post-change workflow run was returned for the direct-main commits; CI must be rechecked before final acceptance."
     },
     {
       "gate": "Phase 12 judgment completeness",
@@ -33,15 +33,16 @@
       "status": "manual-review-required",
       "evidence": {
         "judgmentsAudited": 124,
-        "pending": 124
+        "pending": 104,
+        "verified": 20
       }
     },
     {
       "gate": "Phase 11 proposition review",
-      "status": "manual-review-required",
+      "status": "pass",
       "evidence": {
         "judgmentsAudited": 10,
-        "pendingManualReview": 10
+        "pendingManualReview": 0
       }
     },
     {
