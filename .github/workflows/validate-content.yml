@@ -34,6 +34,9 @@ jobs:
       - name: Build relationship index
         run: node scripts/build-relationship-index.mjs
 
+      - name: Phase 2 canonical content quality audit
+        run: node scripts/audit-migrated-topics.mjs
+
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
@@ -45,10 +48,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json
+          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json manifests/phase-2-quality-audit.json
           if git diff --staged --quiet; then
             echo "No generated content changes to commit"
           else
-            git commit -m "chore: finalize legacy topic parity migration [skip ci]"
+            git commit -m "chore: add phase 2 migrated-topic quality audit [skip ci]"
             git push
           fi
