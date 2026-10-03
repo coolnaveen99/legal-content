@@ -82,7 +82,7 @@
 - [x] **BNS-007** Complete BNS §§147–358 (Chapters VII through XIX complete — BNS catalogue 100% enhanced from Section 1 to Section 358). Additive in-progress enhancements on topics/bns/s-147.json through s-358.json. Not verified or published.
 - [x] **BNSS-001** Complete BNSS §§1–531 (Chapters I through XXXIX complete — BNSS catalogue 100% enhanced from Section 1 to Section 531). Additive in-progress enhancements on topics/bnss/s-1.json through s-531.json. Not verified or published.
 - [x] **BSA-001** Complete BSA §§1–170 (Chapters I through XII complete — BSA catalogue 100% enhanced from Section 1 to Section 170). Additive in-progress enhancements on topics/bsa/s-1.json through s-170.json. Not verified or published.
-- [ ] **CONST-001** Enhance Constitutional Law topics.
+- [x] **CONST-001** Complete Constitutional Law topics (Arts. 1–395 + sub-articles + 21 foundational doctrines complete — 522 topics 100% enhanced with all 14 required fields, section-specific principles, zero generic template contamination, and landmark hardening). Additive in-progress enhancements across topics/constitution/*.json. Not verified or published.
 - [ ] **CONTRACT-001** Enhance Contract/commercial-law topics.
 - [ ] **TORT-001** Enhance Torts topics.
 - [ ] **ADMIN-001** Enhance Administrative Law topics.
