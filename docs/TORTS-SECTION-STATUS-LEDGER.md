@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW — 1991 Gazette opened; later amendments not opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW — 1991 Gazette and Jan Vishwas 2023 opened; prescribed amounts not opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -174,4 +174,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Section 4: insurance against section 3 relief before handling a hazardous substance.
 - Section 8: statutory relief is additional to other compensation, and other compensation is reduced by relief paid under the Act.
 - 1991 Schedule figures recorded only as Gazette figures. Commencement notification and later amendment amounts were not opened.
+- Not COMPLETE_LOCKED.
+
+
+### Absolute liability — Jan Vishwas amendment checkpoint (2026-10-03)
+- Opened Jan Vishwas (Amendment of Provisions) Act, 2023, Act 18 of 2023, Gazette Extraordinary No. 21, 11 August 2023, serial 28.
+- Opened G.S.R. 756(E), 18 October 2023: those entries come into force on 1 April 2024.
+- Section 3(1) now requires reimbursement or other relief as may be prescribed, for death, medical expenses, wage loss, other injury or sickness, private-property damage, or other prescribed loss. The 1991 Schedule figures are not the current statutory measure.
+- Rules prescribing the post-1 April 2024 amounts were not opened. No current rupee figure is certified.
 - Not COMPLETE_LOCKED.
