@@ -7,7 +7,7 @@ import { execFileSync } from "node:child_process";
 const ROOT=process.cwd();
 const OUT=path.join(ROOT,"judgments");
 const STATE=path.join(ROOT,".judgment-bot-state.json");
-const MAX=Number(process.env.JUDGMENT_BOT_MAX||20);
+const REQUESTED_MAX=Number(process.env.JUDGMENT_BOT_MAX||100);\nconst MAX=Math.min(Math.max(Number.isFinite(REQUESTED_MAX)?REQUESTED_MAX:100,1),100);
 const DRY=process.env.JUDGMENT_BOT_DRY_RUN==="1";
 const SOURCES={sc:"https://www.sci.gov.in/",hc:"https://judgments.ecourts.gov.in/pdfsearch/"};
 function sha(v){return crypto.createHash("sha256").update(v).digest("hex");}
