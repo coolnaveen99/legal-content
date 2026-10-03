@@ -39,19 +39,20 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Trespass to person and to land.",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "Trespass to person includes assault, battery, and false imprisonment — actionable per se without proof of actual loss. Trespass to land is unjustified direct interference with possession of land. Consent, lawful authority, and private defence are principal responses.",
-      "legalPrinciple": "Trespass to person. Battery: intentional application of force. Assault: reasonable apprehension of immediate battery. False imprisonment: total restraint of liberty without lawful justification. Each protects bodily integrity and liberty.",
-      "statutoryFramework": "Trespass to person and to land",
+      "definition": "Trespass protects bodily integrity, possession of land and certain possessory interests against direct and unjustified interference.",
+      "legalPrinciple": "Certain forms of trespass are actionable on proof of direct interference without requiring proof of consequential damage.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields.",
       "essentialIngredients": [
-        "Trespass to person: Battery: intentional application of force. Assault: reasonable apprehension of immediate battery. False imprisonment: total restraint of liberty without lawful justification. Each protects bodily integrity and liberty.",
-        "Trespass to land: Direct entry or placing of objects on land in another's possession without justification. Possession, not ownership alone, grounds the action. Continuing trespass may support ongoing relief.",
-        "Track B: Plead facts of force, apprehension, restraint, or entry. For false imprisonment, scrutinise statutory arrest powers. Distinguish BNS offences that may arise on the same facts."
+        "Protected interest in person or possession",
+        "Direct interference",
+        "Intentional or legally sufficient act",
+        "No lawful justification or defence"
       ],
       "detailedExplanation": "Trespass to person includes assault, battery, and false imprisonment — actionable per se without proof of actual loss. Trespass to land is unjustified direct interference with possession of land. Consent, lawful authority, and private defence are principal responses.\n\nTrespass to person\nBattery: intentional application of force. Assault: reasonable apprehension of immediate battery. False imprisonment: total restraint of liberty without lawful justification. Each protects bodily integrity and liberty.\n\nTrespass to land\nDirect entry or placing of objects on land in another's possession without justification. Possession, not ownership alone, grounds the action. Continuing trespass may support ongoing relief.\n\nTrack B\nPlead facts of force, apprehension, restraint, or entry. For false imprisonment, scrutinise statutory arrest powers. Distinguish BNS offences that may arise on the same facts.",
       "examples": [
@@ -62,21 +63,43 @@
         "Trespass to person includes assault, battery, and false imprisonment — actionable per se without proof of actual loss. Trespass to land is unjustified direct interference with possession of land. Consent, lawful authority, and private defence are principal responses."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
+          "No case added to active case-law fields because the specific judgment page was not opened.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "trespass-dist-1",
+          "title": "Trespass is generally direct interference; negligence may involve indirect harm caused by breach of duty.",
+          "left": "Trespass is generally direct interference; negligence may involve indirect harm caused by breach of duty.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        },
+        {
+          "id": "trespass-dist-2",
+          "title": "Trespass to land protects possession; trespass to person includes assault, battery and false imprisonment.",
+          "left": "Trespass to land protects possession; trespass to person includes assault, battery and false imprisonment.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Define → classify person/land → ingredients → actionable per se where applicable → defences → remedies → problem → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.012Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
