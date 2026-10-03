@@ -11,10 +11,14 @@ Future enhancements must use a site listed here, or add the new site to this fil
 | BNSS Act 46 of 2023 | https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf | Arrangement of sections only |
 | BSA handle | https://www.indiacode.nic.in/handle/123456789/20063 | Handle recorded, text not re-read |
 | Constitution handle | https://www.indiacode.nic.in/handle/123456789/15240 | Handle recorded, articles not re-read |
-| Indian Contract Act, 1872 | https://www.indiacode.nic.in/handle/123456789/2187 | Handle recorded, sections not re-read |
+| Indian Contract Act, 1872 | https://www.indiacode.nic.in/handle/123456789/2187 | Contract topic sections reviewed; statutory rules used for the Contract subject |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf | Section 17 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/5753/1/indian_registration_act_1908_searchable.pdf | Section 18 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf | Section 49 |
+| Indian Contract Act, 1872 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf | Contract subject section rules and statutory illustrations |
+| Indian Partnership Act, 1932 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/19863/1/indian_partnership_act_1932.pdf | Contract subject Partnership topics, sections 1–74 |
+| Sale of Goods Act, 1930 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2390/1/193003.pdf | Contract subject Sale of Goods topics, sections 1–66 |
+| Specific Relief Act, 1963 — India Code handle | https://www.indiacode.nic.in/indiacode/handle/123456789/1583?view_type=browse | Contract subject specific-performance topic, sections 10, 11, 14, 16 and 20A |
 | Gazette notifications | https://egazette.gov.in/ | Not yet opened for a topic |
 
 ## Judgments
