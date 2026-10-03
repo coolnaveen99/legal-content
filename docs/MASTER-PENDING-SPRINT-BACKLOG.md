@@ -207,10 +207,10 @@ An item can be marked **COMPLETED** only when:
 **Verified enhancements:** 0.
 **Current control item:** Catalogue enhancement gate. Missing distinctions, caseLaw and examAnswerStructure keys were added as empty or not-opened placeholders. No case was invented. Validator errors after the additive pass: see commit. Not COMPLETE_LOCKED.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
+**HMA working set:** `docs/HMA-SECTION-STATUS-LEDGER.md`. Sections 9, 13, 13B, 24 and 25 only. Named judgment PDFs were opened and mismatched URLs removed. India Code PDF was not opened (HTTP 504). Enhancement remains `in-progress`. Not COMPLETE_LOCKED. Integration and production remain open.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
 **Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.
 **Torts inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`.
 **Rule:** Do not re-enhance existing completed topics; execute only missing gates/sections.
 **Standard checklist:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
 **Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
-
