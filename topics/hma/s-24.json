@@ -19,36 +19,64 @@
     "legacySubjectSlug": "family",
     "legacyTopicId": "s-24",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 24 HMA — Maintenance pendente lite and expenses of proceedings.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain Hindu Marriage Act, 1955 Section 24 and its statutory purpose.",
+        "Identify and apply the provision's ingredients to a factual problem.",
+        "Distinguish the provision from related HMA remedies."
       ],
-      "definition": "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding.",
-      "legalPrinciple": "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding.",
-      "statutoryFramework": "Section 24 HMA — Maintenance pendente lite and expenses of proceedings",
+      "definition": "Section 24 empowers the court in proceedings under the Hindu Marriage Act to order maintenance pendente lite and reasonable litigation expenses where the statutory financial condition is satisfied.",
+      "legalPrinciple": "Section 24 is interim financial relief during matrimonial proceedings. The court considers the applicant's independent income, support needs, litigation expenses and the financial circumstances of both parties.",
+      "statutoryFramework": "Hindu Marriage Act, 1955, Section 24; read with the particular matrimonial proceeding and the court's discretionary assessment.",
       "essentialIngredients": [
-        "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding."
+        "There must be a proceeding under the Act.",
+        "The applicant must lack independent income sufficient for support and necessary proceeding expenses.",
+        "The court must assess reasonable maintenance and litigation expenses.",
+        "The relief is discretionary and fact-sensitive.",
+        "Relevant financial disclosure and conduct may affect the determination."
       ],
-      "detailedExplanation": "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding.",
+      "detailedExplanation": "Section 24 is designed to prevent financial inequality from undermining participation in matrimonial litigation. It is distinct from permanent alimony under Section 25. The Supreme Court's recent Sukhdev Singh decision confirms that Section 24 relief is discretionary and that conduct can be considered while applying the statutory conditions.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "A spouse without sufficient independent income applies for interim maintenance during a pending HMA proceeding. The court assesses income, needs, liabilities and litigation expenses before fixing an appropriate amount."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 24 concerns pendente lite maintenance and litigation expenses; Section 25 concerns permanent alimony/maintenance at or after a decree.",
+      "caseLaw": [
+        {
+          "name": "Sukhdev Singh v. Sukhbir Kaur",
+          "year": 2026,
+          "citation": "Civil Appeal Nos. 2536 and 5726 of 2019; order dated 4 June 2026",
+          "holding": "The Supreme Court reiterated that relief under Section 24 is discretionary and that maintenance pendente lite may be granted where the statutory conditions are satisfied, including in proceedings involving a void marriage under Section 11.",
+          "relevance": "Direct and current authority for Section 24.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf"
+        }
+      ],
+      "problemApplication": "Identify the host HMA proceeding, compare each spouse's income and resources, assess reasonable needs and expenses, and apply the court's discretion under Section 24.",
+      "examAnswerStructure": [
+        "Introduction and statutory provision",
+        "Identify the applicable HMA remedy/ground",
+        "State each statutory ingredient",
+        "Apply the facts and evidence to each ingredient",
+        "Address related safeguards or exceptions",
+        "Conclude with the available statutory relief"
+      ],
       "keyTakeaways": [
-        "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding."
+        "Section 24 is interim financial relief during matrimonial proceedings. The court considers the applicant's independent income, support needs, litigation expenses and the financial circumstances of both parties.",
+        "Section 24 concerns pendente lite maintenance and litigation expenses; Section 25 concerns permanent alimony/maintenance at or after a decree."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Hindu Marriage Act, 1955",
+        "Official Supreme Court of India judgment sources listed in caseLaw"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory text reviewed for Section 24.",
+          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
+          "No unverified case authority was added.",
+          "The central Act text and Supreme Court authorities should be supplemented with applicable State amendments/procedural rules where relevant."
         ]
       }
     }
@@ -56,7 +84,7 @@
   "sources": [
     "source:india:india-code-hma-1955"
   ],
-  "updatedAt": "2026-10-03T11:18:49.694Z",
+  "updatedAt": "2026-10-03T13:30:00Z",
   "effectiveFrom": "1955-05-18",
   "effectiveTo": null
 }
