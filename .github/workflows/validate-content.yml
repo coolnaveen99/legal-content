@@ -1,6 +1,13 @@
 name: validate-content
 
 on:
+  workflow_dispatch:
+    inputs:
+      restore_legacy:
+        description: "Restore the immutable legacy baseline before validation"
+        required: false
+        default: false
+        type: boolean
   push:
     branches: [main]
   pull_request:
@@ -19,6 +26,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout legacy codepackr-law content
+        if: github.event_name == 'workflow_dispatch' && inputs.restore_legacy == true
         uses: actions/checkout@v4
         with:
           repository: coolnaveen99/codepackr-law
@@ -32,13 +40,14 @@ jobs:
           node-version: "20"
 
       - name: Restore all legacy topic content from codepackr-law
+        if: github.event_name == 'workflow_dispatch' && inputs.restore_legacy == true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LEGACY_CONTENT_ROOT: ${{ github.workspace }}/codepackr-law
         run: node scripts/migrate-legacy-topics.mjs
 
       - name: Persist restored legacy topic content
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch' && inputs.restore_legacy == true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
