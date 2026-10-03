@@ -44,22 +44,22 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Absolute liability — M.C. Mehta (Oleum Gas Leak).",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "Absolute liability, formulated in M.C. Mehta v. Union of India (Oleum Gas Leak), holds that an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty to the community. Escape of a hazardous substance attracting this rule does not admit the Rylands exceptions. Compensation is correlated to the magnitude and capacity of the enterprise.",
-      "legalPrinciple": "The rule. Justice P.N. Bhagwati's formulation responds to industrial risk in Indian conditions. Where the activity is hazardous or inherently dangerous, the enterprise must absorb the cost of harm from that activity. The duty is non-delegable.",
-      "statutoryFramework": "Absolute liability — M.C. Mehta (Oleum Gas Leak)",
+      "definition": "Absolute liability is the Indian rule that an enterprise engaged in a hazardous or inherently dangerous activity has an absolute and non-delegable duty to ensure that no harm results from that activity.",
+      "legalPrinciple": "For hazardous industries, the Supreme Court developed a stricter rule than Rylands v Fletcher, without the traditional exceptions.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields; no statute should be treated as a general codification of this topic.",
       "essentialIngredients": [
-        "The rule: Justice P.N. Bhagwati's formulation responds to industrial risk in Indian conditions. Where the activity is hazardous or inherently dangerous, the enterprise must absorb the cost of harm from that activity. The duty is non-delegable.",
-        "No Rylands exceptions: Act of God, stranger, and related Rylands exceptions do not dilute absolute liability once the rule applies. That is the doctrinal break from strict liability.",
-        "Measure of compensation: Compensation should reflect the enterprise's magnitude and capacity — a deterrent and restorative measure suited to large hazardous industries, not a purely nominal figure.",
-        "Track B: Frame pleadings around hazardous activity, control by the enterprise, escape/harm, and community injury. Cite M.C. Mehta for the rule; do not invent paragraph numbers. Parallel public-law remedies under Articles 32/226 may coexist in appropriate facts (constitutional tort / public law compensation)."
+        "Enterprise carries on hazardous or inherently dangerous activity",
+        "Activity creates a special risk to persons outside the enterprise",
+        "Harm results from that activity",
+        "Enterprise bears the absolute and non-delegable duty to compensate"
       ],
-      "detailedExplanation": "Absolute liability, formulated in M.C. Mehta v. Union of India (Oleum Gas Leak), holds that an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty to the community. Escape of a hazardous substance attracting this rule does not admit the Rylands exceptions. Compensation is correlated to the magnitude and capacity of the enterprise.\n\nThe rule\nJustice P.N. Bhagwati's formulation responds to industrial risk in Indian conditions. Where the activity is hazardous or inherently dangerous, the enterprise must absorb the cost of harm from that activity. The duty is non-delegable.\n\nNo Rylands exceptions\nAct of God, stranger, and related Rylands exceptions do not dilute absolute liability once the rule applies. That is the doctrinal break from strict liability.\n\nMeasure of compensation\nCompensation should reflect the enterprise's magnitude and capacity — a deterrent and restorative measure suited to large hazardous industries, not a purely nominal figure.\n\nTrack B\nFrame pleadings around hazardous activity, control by the enterprise, escape/harm, and community injury. Cite M.C. Mehta for the rule; do not invent paragraph numbers. Parallel public-law remedies under Articles 32/226 may coexist in appropriate facts (constitutional tort / public law compensation).",
+      "detailedExplanation": "Absolute liability, formulated in M.C. Mehta v. Union of India (Oleum Gas Leak), holds that an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty to the community. Escape of a hazardous substance attracting this rule does not admit the Rylands exceptions. Compensation is correlated to the magnitude and capacity of the enterprise.",
       "examples": [
         "No illustration was present on the migrated topic. None was invented."
       ],
@@ -68,21 +68,43 @@
         "Absolute liability, formulated in M.C. Mehta v. Union of India (Oleum Gas Leak), holds that an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty to the community. Escape of a hazardous substance attracting this rule does not admit the Rylands exceptions. Compensation is correlated to the magnitude and capacity of the enterprise."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure. The governing tort principles are not codified in a single general statute.",
+          "Official Supreme Court judgment-search source opened for this subject; no case has been added to the active case-law fields unless the specific judgment page is opened and supports the proposition.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "absolute-liability-dist-1",
+          "title": "Rylands strict liability is subject to recognised exceptions; absolute liability for hazardous industries does not depend on those exceptions.",
+          "left": "Rylands strict liability is subject to recognised exceptions; absolute liability for hazardous industries does not depend on those exceptions.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        },
+        {
+          "id": "absolute-liability-dist-2",
+          "title": "Absolute liability is an Indian judicial development linked to hazardous industrial activity, not a general rule for every tort.",
+          "left": "Absolute liability is an Indian judicial development linked to hazardous industrial activity, not a general rule for every tort.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Background → Rylands rule → Oleum gas leak development → ingredients → no-exception character → scope/limitations → remedy/compensation → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.000Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
