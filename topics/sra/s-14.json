@@ -17,36 +17,69 @@
     "legacySubjectSlug": "sra",
     "legacyTopicId": "s-14",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 14 SRA — Not specifically enforceable.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain the four current categories of contracts excluded from specific performance by Section 14.",
+        "Apply the determinable-contract, personal-qualification, continuous-supervision and substituted-performance exclusions.",
+        "Distinguish Section 14 from the personal bars in Section 16."
       ],
-      "definition": "Section 14 lists contracts the court will not specifically enforce: substituted performance already taken, personal-service character, determinable contracts, and unsupervised continuous duty.",
-      "legalPrinciple": "Section 14 lists contracts the court will not specifically enforce: substituted performance already taken, personal-service character, determinable contracts, and unsupervised continuous duty.",
-      "statutoryFramework": "Section 14 SRA — Not specifically enforceable",
+      "definition": "Section 14 identifies contracts that cannot be specifically enforced, including contracts affected by substituted performance, continuous duties the court cannot supervise, personal qualifications that prevent enforcement of material terms, and contracts that are determinable in nature.",
+      "legalPrinciple": "Specific performance is unavailable where the contract falls within one of the statutory exclusions in Section 14; the exclusions must be matched to the actual contractual obligation rather than applied by label alone.",
+      "statutoryFramework": "Specific Relief Act, 1963, Section 14(a)–(d), read with Sections 10, 16 and 20.",
       "essentialIngredients": [
-        "Section 14 lists contracts the court will not specifically enforce: substituted performance already taken, personal-service character, determinable contracts, and unsupervised continuous duty."
+        "Determine whether substituted performance has already been obtained.",
+        "Ask whether performance involves a continuous duty the court cannot supervise.",
+        "Assess whether personal qualifications are so central that material terms cannot be specifically enforced.",
+        "Determine whether the contract is determinable in nature.",
+        "Read the result with Section 10 and Section 16."
       ],
-      "detailedExplanation": "Section 14 lists contracts the court will not specifically enforce: substituted performance already taken, personal-service character, determinable contracts, and unsupervised continuous duty.",
+      "detailedExplanation": "Section 14 is a statutory exclusion list. The post-2018 text expressly covers substituted performance under Section 20, unsupervisable continuous duties, contracts dependent on personal qualifications, and contracts that are determinable. The court should examine the substance and structure of the contract. A construction or development agreement should not be classified mechanically: the legal interest created and the precision of the obligations matter.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "A contract for services depending on unique personal qualifications may fall within Section 14(c). A contract containing a genuine termination mechanism may raise Section 14(d), but the clause and its operation must be examined rather than merely calling the contract 'terminable'."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 14 is a contract-level exclusion; Section 16 concerns personal conduct or capacity of the claimant; Section 20 concerns substituted performance and its statutory notice procedure.",
+      "caseLaw": [
+        {
+          "name": "Sushil Kumar Agarwal v. Meenakshi Sadhu",
+          "year": 2018,
+          "citation": "Civil Appeal No. 1129 of 2012; Supreme Court, 9 Oct 2018",
+          "holding": "The Supreme Court considered Section 14(3)(c) in the context of construction/development arrangements and distinguished agreements creating an interest in land from vague construction-only contracts without such an interest.",
+          "relevance": "Illustrates why the court must analyse the actual legal character and obligations of the contract under Section 14.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2012/1129/1129_2012_Judgement_09-Oct-2018.pdf"
+        }
+      ],
+      "problemApplication": "A claimant seeks specific performance of a construction or service agreement. Identify whether the agreement creates an interest in land, whether its terms can be supervised, whether personal qualifications are central, and whether the contract is determinable.",
+      "examAnswerStructure": [
+        "State Section 14 and identify the relevant clause.",
+        "Characterise the contract from its actual terms.",
+        "Test the facts against the applicable exclusion.",
+        "Distinguish Section 14 from Section 16 personal bars.",
+        "Apply Section 20 where substituted performance is involved.",
+        "Conclude on specific enforceability."
+      ],
       "keyTakeaways": [
-        "Section 14 lists contracts the court will not specifically enforce: substituted performance already taken, personal-service character, determinable contracts, and unsupervised continuous duty."
+        "Section 14 is a closed statutory set of exclusions that must be applied to the actual contract.",
+        "Substituted performance, unsupervisable continuous duties, personal qualifications and determinable contracts are the four current categories.",
+        "Do not confuse Section 14 exclusions with Section 16 personal bars."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Specific Relief Act, 1963",
+        "Supreme Court of India — Sushil Kumar Agarwal v. Meenakshi Sadhu"
+      ],
+      "notes": [
+        "India Code statutory source reviewed for Section 14.",
+        "Official Supreme Court judgment source reviewed for the Section 14 authority.",
+        "Enhancement remains in-progress pending repository-level verification/publishing."
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory source reviewed for Section 14.",
+          "Official Supreme Court judgment source reviewed for the Section 14 authority.",
+          "Enhancement remains in-progress pending repository-level verification/publishing."
         ]
       }
     }
@@ -54,7 +87,7 @@
   "sources": [
     "source:india:india-code-sra-1963"
   ],
-  "updatedAt": "2026-10-03T11:18:49.979Z",
+  "updatedAt": "2026-10-03T18:25:00+05:30",
   "effectiveFrom": "1964-03-01",
   "effectiveTo": null
 }
