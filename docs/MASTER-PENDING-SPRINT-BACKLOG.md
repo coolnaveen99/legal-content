@@ -194,8 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** VER-001 BNS s.2 body partly checked. Clauses (1)-(3) and (5)-(10) matched India Code. Clause (4) and later clauses not re-read.
+**Current batch:** VER-001 BNS s.2 continued. Clause (4) and clauses (11)-(15) and (17)-(24) matched India Code. Clause (16) and clauses after (24) not re-read.
 **Verified enhancements:** 0.
-**Next open item:** BNS s.2 remaining clauses, starting with clause (4).
+**Next open item:** BNS s.2 clause (16) and the clauses after (24).
 **AI phase:** NOT STARTED.
 
