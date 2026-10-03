@@ -56,6 +56,9 @@ jobs:
       - name: Build relationship index
         run: node scripts/build-relationship-index.mjs
 
+      - name: Verify legacy content preservation baseline
+        run: node scripts/verify-legacy-preservation.mjs
+
       - name: Phase 2 canonical content quality audit
         run: node scripts/audit-migrated-topics.mjs
 
