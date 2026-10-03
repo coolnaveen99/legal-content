@@ -17,36 +17,63 @@
     "legacySubjectSlug": "limitation",
     "legacyTopicId": "s-12",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 12 Limitation Act — Time for copies.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain Limitation Act, 1963 Section 12.",
+        "Apply the provision to a limitation calculation or factual problem.",
+        "Distinguish the provision from related limitation rules."
       ],
-      "definition": "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy.",
-      "legalPrinciple": "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy.",
-      "statutoryFramework": "Section 12 Limitation Act — Time for copies",
+      "definition": "Section 12 excludes specified periods when computing limitation, including the day from which the prescribed period is reckoned and, in specified appeals, revisions and reviews, requisite time for obtaining the copy of the relevant decree or order.",
+      "legalPrinciple": "Limitation is computed after applying the statutory exclusions in Section 12; the provision is a computation rule, not a general condonation provision.",
+      "statutoryFramework": "Limitation Act, 1963, Section 12 and its subsections concerning suits, appeals, revisions, reviews and copies.",
       "essentialIngredients": [
-        "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy."
+        "Identify the proceeding and subsection of Section 12 that applies.",
+        "Exclude the statutory starting day.",
+        "For specified appellate/revisional/review proceedings, identify the requisite copying period.",
+        "Calculate the resulting limitation period."
       ],
-      "detailedExplanation": "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy.",
+      "detailedExplanation": "Section 12 adjusts the arithmetic of limitation. The Supreme Court has applied Section 12(1) to exclude the day from which limitation is reckoned and has recognized its role in calculating limitation periods in special statutory proceedings unless excluded by the governing law.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "If a limitation period begins from the date of a judgment or order, the day of that judgment/order is excluded under Section 12(1). Where the provision applicable to an appeal permits exclusion of requisite time for obtaining a copy, that copying period is also removed from the computation."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 12 excludes specified time from computation; Section 14 excludes time spent bona fide prosecuting the same matter in a court unable to entertain it; Section 5 concerns condonation of eligible delay.",
+      "caseLaw": [
+        {
+          "name": "My Preferred Transformation & Hospitality Pvt. Ltd. v. M/s Faridabad Implements Pvt. Ltd.",
+          "year": 2025,
+          "citation": "2025 INSC 56",
+          "holding": "The Supreme Court discussed Section 12 and reiterated that the day from which a limitation period is to be reckoned is excluded in computation.",
+          "relevance": "Direct Supreme Court authority discussing Section 12 computation.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/15925/15925_2024_12_1502_58501_Judgement_10-Jan-2025.pdf"
+        }
+      ],
+      "problemApplication": "Identify the triggering date, exclude the first day, determine whether copy time is statutorily excludable for the particular proceeding, and calculate the final filing date.",
+      "examAnswerStructure": [
+        "Introduction and statutory provision",
+        "Identify the prescribed period and triggering event",
+        "State statutory ingredients",
+        "Apply computation/exclusion/extension rules",
+        "Address exceptions and related provisions",
+        "Conclude whether the proceeding is within time or what relief is available"
+      ],
       "keyTakeaways": [
-        "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy."
+        "Limitation is computed after applying the statutory exclusions in Section 12; the provision is a computation rule, not a general condonation provision.",
+        "Section 12 excludes specified time from computation; Section 14 excludes time spent bona fide prosecuting the same matter in a court unable to entertain it; Section 5 concerns condonation of eligible delay."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Limitation Act, 1963",
+        "Official Supreme Court of India judgment source where case law is activated"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory text reviewed for Section 12.",
+          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
+          "No authority was activated for Section 3 because no opened judgment was needed to establish an exact Section 3 proposition in this batch.",
+          "State amendments and special/local laws must be checked where applicable."
         ]
       }
     }
@@ -54,7 +81,7 @@
   "sources": [
     "source:india:india-code-limitation-1963"
   ],
-  "updatedAt": "2026-10-03T11:18:49.967Z",
+  "updatedAt": "2026-10-03T13:00:00Z",
   "effectiveFrom": "1964-01-01",
   "effectiveTo": null
 }
