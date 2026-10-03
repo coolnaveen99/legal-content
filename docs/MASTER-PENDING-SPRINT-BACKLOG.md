@@ -47,7 +47,7 @@
 - [x] **ENH-004** Add recursive full-catalog progress reporting.
 - [x] **ENH-005** Add full-catalog rollout rules.
 - [x] **ENH-006** Add enhancement quality checks for minimum substantive coverage. `scripts/audit-enhancement-quality.mjs` writes `docs/ENH-006-QUALITY-REPORT.md`. Scaffold text is not counted as substantive.
-- [ ] **ENH-007** Add protection against accidental shortening/removal of baseline substantive fields.
+- [x] **ENH-007** Add protection against accidental shortening/removal of baseline substantive fields. `scripts/protect-baseline-substantive.mjs` compares overview, glance, study, and section text with `8c635aa8b7d350c801e49dc632ad31d3684a55b2`. Report: `docs/ENH-007-BASELINE-PROTECTION-REPORT.md`. First run: 3,648 topics compared, 0 shortened.
 - [ ] **ENH-008** Add per-batch validation/report artifact.
 - [ ] **ENH-009** Add subject-level progress reporting suitable for sprint tracking.
 - [ ] **ENH-010** Define final verification/publishing acceptance checklist.
