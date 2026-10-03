@@ -1,7 +1,7 @@
 # Torts Section-Level Status Ledger
 
 **Date:** 2026-10-03  
-**Status:** LIVE — INVENTORY RECONCILIATION IN PROGRESS  
+**Status:** LIVE — SCOPE FROZEN / ROW-LEVEL RECONCILIATION IN PROGRESS  
 **Standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`  
 **Subject inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`
 
@@ -62,11 +62,11 @@
 
 ## Immediate execution queue
 
-1. [ ] Confirm the canonical Torts curriculum scope for CodePackr Law.
-2. [ ] Reconcile all repository files under `topics/torts/`.
-3. [ ] Reconcile renamed/duplicate topics.
-4. [ ] Decide which rows are Torts-core versus linked statutory subjects.
-5. [ ] Create missing canonical topic files only after scope is frozen.
+1. [x] Confirm the canonical Torts curriculum scope for CodePackr Law.
+2. [x] Reconcile all repository files under `topics/torts/` — 38 JSON files.
+3. [x] Reconcile renamed/duplicate topics — 8 overlap groups.
+4. [x] Decide which rows are Torts-core versus linked statutory subjects.
+5. [ ] Complete row-level mapping and create missing canonical topic files only where a genuine gap remains.
 6. [ ] Inspect existing enhancement fields before changing any existing topic.
 7. [ ] Complete only missing enhancement gates.
 8. [ ] Complete statutory/current-law verification where applicable.
@@ -78,10 +78,11 @@
 
 ## Current measured position
 
-- Confirmed repository topic files checked: **15**
-- Original working-set topics: **12**
-- Additional existing repository topics discovered: **3**
+- Confirmed repository topic files checked: **38**
+- Historical README canonical entry topics: **12**
+- Supplemental/migrated topic files: **26**
 - Ledger coverage rows created for current/research-derived scope: **41**
+- Additional curriculum-control rows identified: **32**
 - Topics currently safe to call fully complete: **0**
 - Reason: subject-wide inventory and all completion gates have not yet been closed.
 
