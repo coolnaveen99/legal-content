@@ -38,21 +38,22 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Vicarious liability.",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "Vicarious liability makes one person answerable for the tort of another because of a relationship (typically employer-employee) and a connection between the tort and the relationship (course of employment). It is not a substitute for proving the underlying tort of the wrongdoer.",
-      "legalPrinciple": "Employer and employee. Identify a contract of service (control and integration tests as guides). The tort must occur in the course of employment — authorised acts and wrongful modes of doing authorised acts may attract liability; a frolic of one's own may not.",
-      "statutoryFramework": "Vicarious liability",
+      "definition": "Vicarious liability is liability imposed on one person for a tort committed by another because of a legally recognised relationship, most commonly employer and employee acting in the course of employment.",
+      "legalPrinciple": "The relationship alone is insufficient; the tort must be sufficiently connected with the authorised work or course of employment.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields; no statute should be treated as a general codification of this topic.",
       "essentialIngredients": [
-        "Employer and employee: Identify a contract of service (control and integration tests as guides). The tort must occur in the course of employment — authorised acts and wrongful modes of doing authorised acts may attract liability; a frolic of one's own may not.",
-        "Independent contractors: Ordinarily the employer is not vicariously liable for an independent contractor, subject to non-delegable duties and hazardous operations exceptions.",
-        "Track B: Plead the employee's tort and the employment nexus. Join employer and employee where appropriate. Evidence: appointment, duties, time and place of the act, and benefit to the employer's enterprise."
+        "Existence of a recognised relationship",
+        "A tort committed by the primary tortfeasor",
+        "Required connection between the tort and the relationship",
+        "Act within the course or scope of employment where employer liability is alleged"
       ],
-      "detailedExplanation": "Vicarious liability makes one person answerable for the tort of another because of a relationship (typically employer-employee) and a connection between the tort and the relationship (course of employment). It is not a substitute for proving the underlying tort of the wrongdoer.\n\nEmployer and employee\nIdentify a contract of service (control and integration tests as guides). The tort must occur in the course of employment — authorised acts and wrongful modes of doing authorised acts may attract liability; a frolic of one's own may not.\n\nIndependent contractors\nOrdinarily the employer is not vicariously liable for an independent contractor, subject to non-delegable duties and hazardous operations exceptions.\n\nTrack B\nPlead the employee's tort and the employment nexus. Join employer and employee where appropriate. Evidence: appointment, duties, time and place of the act, and benefit to the employer's enterprise.",
+      "detailedExplanation": "Vicarious liability makes one person answerable for the tort of another because of a relationship (typically employer-employee) and a connection between the tort and the relationship (course of employment). It is not a substitute for proving the underlying tort of the wrongdoer.",
       "examples": [
         "No illustration was present on the migrated topic. None was invented."
       ],
@@ -61,21 +62,43 @@
         "Vicarious liability makes one person answerable for the tort of another because of a relationship (typically employer-employee) and a connection between the tort and the relationship (course of employment). It is not a substitute for proving the underlying tort of the wrongdoer."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure. The governing tort principles are not codified in a single general statute.",
+          "Official Supreme Court judgment-search source opened for this subject; no case has been added to the active case-law fields unless the specific judgment page is opened and supports the proposition.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "vicarious-liability-dist-1",
+          "title": "Vicarious liability differs from personal negligence",
+          "left": "Vicarious liability differs from personal negligence: the employer's liability is derivative, while direct negligence depends on the employer's own breach.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        },
+        {
+          "id": "vicarious-liability-dist-2",
+          "title": "An employee's merely private frolic is generally distinguished from an act sufficiently connected with employment.",
+          "left": "An employee's merely private frolic is generally distinguished from an act sufficiently connected with employment.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Define → identify relationship → establish primary tort → course of employment → authorised act/unauthorised mode distinction → exceptions/limits → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.013Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
