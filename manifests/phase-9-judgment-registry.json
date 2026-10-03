@@ -1,18 +1,18 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 9 — Canonical Judgment Registry",
-  "generatedAt": "2026-10-02T16:31:29.097Z",
+  "generatedAt": "2026-10-03T07:40:29.051Z",
   "policy": [
     "Creates deterministic canonical judgment records from existing migrated case records.",
     "Preserves only information already present in canonical topic data; it does not invent facts, holdings, ratios, dates or paragraph references.",
     "New registry records remain review/pending verification until authoritative case-law verification is completed."
   ],
   "summary": {
-    "uniqueCases": 371,
-    "created": 237,
-    "existing": 134,
-    "topicsLinked": 2993,
-    "conflicts": 86
+    "uniqueCases": 434,
+    "created": 60,
+    "existing": 374,
+    "topicsLinked": 3145,
+    "conflicts": 88
   },
   "conflicts": [
     {
@@ -616,6 +616,20 @@
       "citation": "(2010) 3 SCC 402",
       "records": 19,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
+      "id": "judgment:india:melepurath-sankunni-ezhuthassan-v-thekittil-geopalankutty-nair-2009",
+      "name": "Melepurath Sankunni Ezhuthassan v Thekittil Geopalankutty Nair",
+      "citation": "(1986) 1 SCC 118",
+      "records": 2,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
+      "id": "judgment:india:ashby-v-white-1703",
+      "name": "Ashby v White",
+      "citation": "(1703) 2 Ld Raym 938",
+      "records": 3,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     }
   ],
   "records": [
@@ -641,6 +655,30 @@
       "citation": "(1994) 6 SCC 651",
       "topicCount": 44,
       "recordCount": 44,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:vidya-drolia-v-durga-trading-corporation-2021",
+      "name": "Vidya Drolia v. Durga Trading Corporation",
+      "citation": "(2021) 2 SCC 1",
+      "topicCount": 125,
+      "recordCount": 125,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:perkins-eastman-architects-dpc-v-hscc-india-ltd-2020",
+      "name": "Perkins Eastman Architects DPC v. HSCC (India) Ltd.",
+      "citation": "(2020) 20 SCC 760",
+      "topicCount": 125,
+      "recordCount": 125,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:afcons-infrastructure-ltd-v-cherian-varkey-construction-co-p-ltd-2010",
+      "name": "Afcons Infrastructure Ltd. v. Cherian Varkey Construction Co. (P) Ltd.",
+      "citation": "(2010) 8 SCC 24",
+      "topicCount": 125,
+      "recordCount": 125,
       "verificationStatus": "pending"
     },
     {
@@ -3164,7 +3202,7 @@
       "verificationStatus": "pending"
     },
     {
-      "id": "judgment:india:m-c-mehta-v-union-of-india-1987",
+      "id": "judgment:india:m-c-mehta-v-union-of-india-1988",
       "name": "M.C. Mehta v. Union of India",
       "citation": "(1987) 1 SCC 395",
       "topicCount": 31,
@@ -3556,6 +3594,310 @@
       "verificationStatus": "pending"
     },
     {
+      "id": "judgment:india:laxmi-engineering-works-v-p-s-g-industrial-institute-1995",
+      "name": "Laxmi Engineering Works v. P.S.G. Industrial Institute",
+      "citation": "(1995) 3 SCC 583 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:indian-medical-association-v-v-p-shantha-1995",
+      "name": "Indian Medical Association v. V.P. Shantha",
+      "citation": "(1995) 6 SCC 651 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:lucknow-development-authority-v-m-k-gupta-1994",
+      "name": "Lucknow Development Authority v. M.K. Gupta",
+      "citation": "(1994) 1 SCC 243 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:sim-v-stretch-1936",
+      "name": "Sim v. Stretch",
+      "citation": "[1936] 2 All ER 1237 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:cassidy-v-daily-mirror-newspapers-ltd-1929",
+      "name": "Cassidy v. Daily Mirror Newspapers Ltd.",
+      "citation": "[1929] 2 KB 331 (Court of Appeal)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:subramanian-swamy-v-union-of-india-2016",
+      "name": "Subramanian Swamy v. Union of India",
+      "citation": "(2016) 7 SCC 221 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:bloomberg-television-v-zee-entertainment-enterprises-ltd-2024",
+      "name": "Bloomberg Television v. Zee Entertainment Enterprises Ltd.",
+      "citation": "2024 SCC OnLine SC 426 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:sarla-verma-v-delhi-transport-corporation-1966",
+      "name": "Sarla Verma v Delhi Transport Corporation",
+      "citation": "(2009) 6 SCC 121",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:national-insurance-co-ltd-v-pranay-sethi-2009",
+      "name": "National Insurance Co Ltd v Pranay Sethi",
+      "citation": "(2017) 16 SCC 680",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:west-bengal-state-electricity-board-v-dilip-kumar-ray-1932",
+      "name": "West Bengal State Electricity Board v Dilip Kumar Ray",
+      "citation": "(2007) 14 SCC 568",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:mohammed-amin-v-jogendra-kumar-bannerjee-1991",
+      "name": "Mohammed Amin v Jogendra Kumar Bannerjee",
+      "citation": "AIR 1947 PC 108",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:donoghue-v-stevenson-1932",
+      "name": "Donoghue v. Stevenson",
+      "citation": "[1932] AC 562 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:caparo-industries-plc-v-dickman-1990",
+      "name": "Caparo Industries plc v. Dickman",
+      "citation": "[1990] 2 AC 605 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:jacob-mathew-v-state-of-punjab-2005",
+      "name": "Jacob Mathew v. State of Punjab",
+      "citation": "(2005) 6 SCC 1 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:municipal-corporation-of-delhi-v-subhagwanti-1966",
+      "name": "Municipal Corporation of Delhi v. Subhagwanti",
+      "citation": "AIR 1966 SC 1750 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:sturges-v-bridgman-1966",
+      "name": "Sturges v Bridgman",
+      "citation": "(1879) 11 Ch D 852",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:municipal-council-ratlam-v-vardhichand-2009",
+      "name": "Municipal Council, Ratlam v Vardhichand",
+      "citation": "(1980) 4 SCC 162",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:rylands-v-fletcher-1868",
+      "name": "Rylands v. Fletcher",
+      "citation": "L.R. 3 H.L. 330 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:m-c-mehta-v-union-of-india-oleum-gas-leak-case-1987",
+      "name": "M.C. Mehta v. Union of India (Oleum Gas Leak Case)",
+      "citation": "(1987) 1 SCC 395 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:union-carbide-corporation-v-union-of-india-1991",
+      "name": "Union Carbide Corporation v. Union of India",
+      "citation": "(1991) 4 SCC 584 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:read-v-j-lyons-and-co-ltd-1947",
+      "name": "Read v. J. Lyons & Co. Ltd.",
+      "citation": "[1947] AC 156 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:kasturi-lal-ralia-ram-jain-v-state-of-uttar-pradesh-1932",
+      "name": "Kasturi Lal Ralia Ram Jain v State of Uttar Pradesh",
+      "citation": "AIR 1965 SC 1039",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1991",
+      "name": "Nilabati Behera v State of Orissa",
+      "citation": "(1993) 2 SCC 746",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:quinn-v-leathem-1966",
+      "name": "Quinn v Leathem",
+      "citation": "[1901] AC 495",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:crofter-hand-woven-harris-tweed-co-ltd-v-veitch-2009",
+      "name": "Crofter Hand Woven Harris Tweed Co Ltd v Veitch",
+      "citation": "[1942] AC 435",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:t-o-anthony-v-karvarnan-1932",
+      "name": "T.O. Anthony v Karvarnan",
+      "citation": "(2008) 3 SCC 748",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:municipal-corporation-of-greater-bombay-v-laxman-iyer-1991",
+      "name": "Municipal Corporation of Greater Bombay v Laxman Iyer",
+      "citation": "(2003) 8 SCC 731",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:hollins-v-fowler-1966",
+      "name": "Hollins v Fowler",
+      "citation": "(1875) LR 7 HL 757",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:armory-v-delamirie-2009",
+      "name": "Armory v Delamirie",
+      "citation": "(1722) 1 Stra 505",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:gobald-motor-service-ltd-v-r-m-k-veluswami-1966",
+      "name": "Gobald Motor Service Ltd v R.M.K. Veluswami",
+      "citation": "AIR 1962 SC 1",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:melepurath-sankunni-ezhuthassan-v-thekittil-geopalankutty-nair-2009",
+      "name": "Melepurath Sankunni Ezhuthassan v Thekittil Geopalankutty Nair",
+      "citation": "(1986) 1 SCC 118",
+      "topicCount": 2,
+      "recordCount": 2,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:derry-v-peek-1966",
+      "name": "Derry v Peek",
+      "citation": "(1889) 14 App Cas 337",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:hedley-byrne-and-co-ltd-v-heller-and-partners-ltd-2009",
+      "name": "Hedley Byrne & Co Ltd v Heller & Partners Ltd",
+      "citation": "[1964] AC 465",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:donoghue-v-stevenson-1932",
+      "name": "Donoghue v Stevenson",
+      "citation": "[1932] AC 562",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:ashby-v-white-1703",
+      "name": "Ashby v White",
+      "citation": "(1703) 2 Ld Raym 938",
+      "topicCount": 3,
+      "recordCount": 3,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:gopalakrishna-pillai-v-melepurath-sankunni-ezhuthassan-2009",
+      "name": "Gopalakrishna Pillai v Melepurath Sankunni Ezhuthassan",
+      "citation": "(1988) 1 SCC 382",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:bird-v-jones-1932",
+      "name": "Bird v Jones",
+      "citation": "(1845) 7 QB 742",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:rudul-sah-v-state-of-bihar-1991",
+      "name": "Rudul Sah v State of Bihar",
+      "citation": "(1983) 4 SCC 141",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
       "id": "judgment:india:smith-v-baker-and-sons-1891",
       "name": "Smith v Baker & Sons",
       "citation": "[1891] AC 325",
@@ -3572,17 +3914,193 @@
       "verificationStatus": "pending"
     },
     {
-      "id": "judgment:india:ashby-v-white-1703",
-      "name": "Ashby v White",
-      "citation": "(1703) 2 Ld Raym 938; (1703) 92 ER 126",
+      "id": "judgment:india:gloucester-grammar-school-case-1410",
+      "name": "Gloucester Grammar School Case",
+      "citation": "Y.B. 11 Hen. IV, fol. 47, pl. 21",
       "topicCount": 1,
       "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
-      "id": "judgment:india:gloucester-grammar-school-case-1410",
-      "name": "Gloucester Grammar School Case",
-      "citation": "Y.B. 11 Hen. IV, fol. 47, pl. 21",
+      "id": "judgment:india:lumley-v-gye-1966",
+      "name": "Lumley v Gye",
+      "citation": "(1853) 2 E & B 216",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:mogul-steamship-co-ltd-v-mcgregor-gow-and-co-2009",
+      "name": "Mogul Steamship Co Ltd v McGregor, Gow & Co",
+      "citation": "[1892] AC 25",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:ram-coomar-coondoo-v-chunder-canto-mookerjee-1932",
+      "name": "Ram Coomar Coondoo v Chunder Canto Mookerjee",
+      "citation": "(1876) 4 IA 23",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:rattan-chand-hira-chand-v-askar-nawaz-jung-1991",
+      "name": "Rattan Chand Hira Chand v Askar Nawaz Jung",
+      "citation": "(1991) 3 SCC 67",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:bradford-corporation-v-pickles-1932",
+      "name": "Bradford Corporation v Pickles",
+      "citation": "[1895] AC 587",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:allen-v-flood-1991",
+      "name": "Allen v Flood",
+      "citation": "[1898] AC 1",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:mcloughlin-v-o-brian-1932",
+      "name": "McLoughlin v O'Brian",
+      "citation": "[1983] 1 AC 410",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:alcock-v-chief-constable-of-south-yorkshire-police-1991",
+      "name": "Alcock v Chief Constable of South Yorkshire Police",
+      "citation": "[1992] 1 AC 310",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:wheat-v-lacon-and-co-ltd-1966",
+      "name": "Wheat v Lacon & Co Ltd",
+      "citation": "[1966] AC 552",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:australian-safeway-stores-pty-ltd-v-zaluzna-2009",
+      "name": "Australian Safeway Stores Pty Ltd v Zaluzna",
+      "citation": "(1987) 162 CLR 479",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:rookes-v-barnard-2009",
+      "name": "Rookes v Barnard",
+      "citation": "[1964] AC 1129",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:overseas-tankship-uk-ltd-v-morts-dock-the-wagon-mound-no-1-1966",
+      "name": "Overseas Tankship (UK) Ltd v Morts Dock (The Wagon Mound No 1)",
+      "citation": "[1961] AC 388",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:hughes-v-lord-advocate-2009",
+      "name": "Hughes v Lord Advocate",
+      "citation": "[1963] AC 837",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:filburn-v-people-s-palace-and-aquarium-co-ltd-1932",
+      "name": "Filburn v People's Palace and Aquarium Co Ltd",
+      "citation": "(1890) 25 QBD 258",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:may-v-burdett-1991",
+      "name": "May v Burdett",
+      "citation": "(1846) 9 QB 101",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:stephens-v-myers-1932",
+      "name": "Stephens v Myers",
+      "citation": "(1830) 4 C & P 349",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:collins-v-wilcock-1991",
+      "name": "Collins v Wilcock",
+      "citation": "[1984] 1 WLR 1172",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:entick-v-carrington-1966",
+      "name": "Entick v Carrington",
+      "citation": "(1765) 19 St Tr 1029",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:six-carpenters-case-2009",
+      "name": "Six Carpenters' Case",
+      "citation": "(1610) 8 Co Rep 146a",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:lloyd-v-grace-smith-and-co-1912",
+      "name": "Lloyd v. Grace, Smith & Co.",
+      "citation": "[1912] AC 716 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:century-insurance-co-ltd-v-northern-ireland-road-transport-board-1942",
+      "name": "Century Insurance Co. Ltd. v. Northern Ireland Road Transport Board",
+      "citation": "[1942] AC 509 (House of Lords)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:kasturi-lal-ralia-ram-jain-v-state-of-u-p-1965",
+      "name": "Kasturi Lal Ralia Ram Jain v. State of U.P.",
+      "citation": "AIR 1965 SC 1039 (Supreme Court of India)",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1993",
+      "name": "Nilabati Behera v. State of Orissa",
+      "citation": "(1993) 2 SCC 746 (Supreme Court of India)",
       "topicCount": 1,
       "recordCount": 1,
       "verificationStatus": "pending"

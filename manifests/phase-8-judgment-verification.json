@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-02T16:31:28.810Z",
+  "generatedAt": "2026-10-03T07:40:28.564Z",
   "scope": {
-    "migratedTopics": 2993,
-    "caseRecords": 8702
+    "migratedTopics": 3145,
+    "caseRecords": 9140
   },
   "policy": [
     "Validates judgment metadata and case-analysis completeness against authoritative sources before publication.",
@@ -12,19 +12,20 @@
     "No topic is promoted to verified or published by this audit."
   ],
   "summary": {
-    "caseRecords": 8702,
-    "topicsWithCases": 2993,
-    "topicsWithFindings": 2946,
-    "totalFindings": 16030,
-    "highSeverity": 13,
-    "mediumSeverity": 16017
+    "caseRecords": 9140,
+    "topicsWithCases": 3145,
+    "topicsWithFindings": 3081,
+    "totalFindings": 16488,
+    "highSeverity": 15,
+    "mediumSeverity": 16473
   },
   "byType": {
-    "missing-court": 1525,
-    "missing-case-analysis": 6023,
+    "missing-court": 1544,
+    "missing-case-analysis": 6080,
     "missing-citation": 18,
     "implausible-year": 13,
-    "duplicate-case-record": 8451
+    "known-case-metadata-risk": 2,
+    "duplicate-case-record": 8831
   },
   "findings": [
     {
@@ -60660,6 +60661,630 @@
       "evidence": ""
     },
     {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Laxmi Engineering Works v. P.S.G. Industrial Institute\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Laxmi Engineering Works v. P.S.G. Industrial Institute\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Laxmi Engineering Works v. P.S.G. Industrial Institute\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Laxmi Engineering Works v. P.S.G. Industrial Institute\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Indian Medical Association v. V.P. Shantha\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Indian Medical Association v. V.P. Shantha\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Indian Medical Association v. V.P. Shantha\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Indian Medical Association v. V.P. Shantha\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Lucknow Development Authority v. M.K. Gupta\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lucknow Development Authority v. M.K. Gupta\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lucknow Development Authority v. M.K. Gupta\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/consumer.json",
+      "topic": "topic:india:torts-consumer",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lucknow Development Authority v. M.K. Gupta\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Sim v. Stretch\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Sim v. Stretch\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Sim v. Stretch\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Sim v. Stretch\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Cassidy v. Daily Mirror Newspapers Ltd.\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Cassidy v. Daily Mirror Newspapers Ltd.\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Cassidy v. Daily Mirror Newspapers Ltd.\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Cassidy v. Daily Mirror Newspapers Ltd.\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Subramanian Swamy v. Union of India\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Subramanian Swamy v. Union of India\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Subramanian Swamy v. Union of India\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Subramanian Swamy v. Union of India\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/defamation-tort.json",
+      "topic": "topic:india:torts-defamation-tort",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Donoghue v. Stevenson\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Donoghue v. Stevenson\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Donoghue v. Stevenson\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Donoghue v. Stevenson\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Caparo Industries plc v. Dickman\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Caparo Industries plc v. Dickman\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Caparo Industries plc v. Dickman\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Caparo Industries plc v. Dickman\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Jacob Mathew v. State of Punjab\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/negligence.json",
+      "topic": "topic:india:torts-negligence",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Rylands v. Fletcher\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Rylands v. Fletcher\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Rylands v. Fletcher\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Rylands v. Fletcher\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Union Carbide Corporation v. Union of India\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/strict-liability.json",
+      "topic": "topic:india:torts-strict-liability",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/tort-injuria-damnum.json",
+      "topic": "topic:india:torts-tort-injuria-damnum",
+      "type": "known-case-metadata-risk",
+      "severity": "high",
+      "message": "Ashby v White historical year requires correction/verification.",
+      "evidence": "expected 1703"
+    },
+    {
+      "path": "topics/torts/tort-injuria-damnum.json",
+      "topic": "topic:india:torts-tort-injuria-damnum",
+      "type": "known-case-metadata-risk",
+      "severity": "high",
+      "message": "Gloucester Grammar School Case historical year requires correction/verification.",
+      "evidence": "expected 1410"
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Lloyd v. Grace, Smith & Co.\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lloyd v. Grace, Smith & Co.\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lloyd v. Grace, Smith & Co.\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Lloyd v. Grace, Smith & Co.\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Century Insurance Co. Ltd. v. Northern Ireland Road Transport Board\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Century Insurance Co. Ltd. v. Northern Ireland Road Transport Board\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Century Insurance Co. Ltd. v. Northern Ireland Road Transport Board\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Century Insurance Co. Ltd. v. Northern Ireland Road Transport Board\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Kasturi Lal Ralia Ram Jain v. State of U.P.\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Kasturi Lal Ralia Ram Jain v. State of U.P.\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Kasturi Lal Ralia Ram Jain v. State of U.P.\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Kasturi Lal Ralia Ram Jain v. State of U.P.\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-court",
+      "severity": "medium",
+      "message": "Case \"Nilabati Behera v. State of Orissa\" has no court metadata.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Nilabati Behera v. State of Orissa\" is missing facts.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Nilabati Behera v. State of Orissa\" is missing issue.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/torts/vicarious.json",
+      "topic": "topic:india:torts-vicarious",
+      "type": "missing-case-analysis",
+      "severity": "medium",
+      "message": "Case \"Nilabati Behera v. State of Orissa\" is missing ratioDecidendi.",
+      "evidence": ""
+    },
+    {
       "path": "topics/admin/admin-adjudication.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -61730,6 +62355,3006 @@
       "severity": "medium",
       "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
       "evidence": "tata cellular v. union of india|(1994) 6 scc 651"
+    },
+    {
+      "path": "topics/arbitration/aca-s-1.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-10.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-11.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-12.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-13.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-14.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-15.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-16.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-17.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-18.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-2.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-22.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-23.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-24.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-25.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-26.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-27.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-3.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-30.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-31.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-32.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-33.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-34.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-35.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-36.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-37.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-38.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-39.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-4.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-40.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-41.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-43.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-44.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-45.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-46.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-47.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-48.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-49.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-5.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-50.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-51.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-52.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-53.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-54.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-55.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-56.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-57.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-58.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-59.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-60.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-61.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-62.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-63.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-64.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-65.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-66.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-67.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-68.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-69.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-7.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-70.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-71.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-72.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-73.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-74.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-75.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-76.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-77.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-78.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-79.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-8.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-80.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-81.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-9.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-ai.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-amendments-2019.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-council.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-evolution.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-governing-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-international-relevance.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-introduction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-litigation-comparison.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-professionals.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-sports.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/adr-types.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-centres-india.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-jurisdiction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-public-policy.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-technology.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration-transparency.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitration.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/arbitrator-selection.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/conciliation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/cpc-s-89.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/international-arbitration-centres.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-20-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-22b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/med-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/med-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/med-s-4-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-act-2023.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-cross-cultural.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-ethics.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-international.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-marital.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-roleplay.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/mediation-workplace.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/negotiation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/negotiation-strategies.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/third-party-funding.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/uncitral-model-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
+    },
+    {
+      "path": "topics/arbitration/aca-s-1.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-10.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-11.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-12.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-13.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-14.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-15.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-16.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-17.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-18.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-2.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-22.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-23.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-24.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-25.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-26.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-27.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-3.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-30.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-31.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-32.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-33.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-34.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-35.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-36.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-37.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-38.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-39.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-4.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-40.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-41.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-43.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-44.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-45.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-46.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-47.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-48.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-49.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-5.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-50.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-51.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-52.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-53.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-54.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-55.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-56.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-57.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-58.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-59.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-60.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-61.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-62.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-63.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-64.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-65.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-66.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-67.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-68.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-69.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-7.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-70.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-71.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-72.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-73.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-74.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-75.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-76.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-77.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-78.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-79.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-8.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-80.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-81.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-9.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-ai.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-amendments-2019.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-council.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-evolution.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-governing-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-international-relevance.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-introduction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-litigation-comparison.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-professionals.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-sports.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/adr-types.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-centres-india.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-jurisdiction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-public-policy.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-technology.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration-transparency.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitration.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/arbitrator-selection.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/conciliation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/cpc-s-89.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/international-arbitration-centres.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-20-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-22b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/med-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/med-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/med-s-4-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-act-2023.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-cross-cultural.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-ethics.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-international.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-marital.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-roleplay.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/mediation-workplace.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/negotiation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/negotiation-strategies.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/third-party-funding.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/uncitral-model-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
+    },
+    {
+      "path": "topics/arbitration/aca-s-1.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-10.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-11.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-12.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-13.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-14.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-15.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-16.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-17.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-18.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-2.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-22.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-23.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-24.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-25.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-26.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-27.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-29b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-3.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-30.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-31.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-32.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-33.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-34.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-35.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-36.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-37.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-38.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-39.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-4.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-40.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-41.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-42a.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-43.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-44.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-45.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-46.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-47.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-48.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-49.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-5.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-50.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-51.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-52.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-53.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-54.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-55.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-56.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-57.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-58.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-59.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-60.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-61.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-62.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-63.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-64.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-65.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-66.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-67.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-68.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-69.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-7.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-70.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-71.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-72.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-73.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-74.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-75.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-76.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-77.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-78.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-79.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-8.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-80.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-81.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/aca-s-9.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-ai.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-amendments-2019.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-council.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-evolution.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-governing-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-international-relevance.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-introduction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-litigation-comparison.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-professionals.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-sports.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/adr-types.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-centres-india.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-jurisdiction.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-public-policy.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-technology.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration-transparency.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitration.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/arbitrator-selection.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/conciliation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/cpc-s-89.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/international-arbitration-centres.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-19.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-20-21.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/lsaa-s-22b.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/med-s-20.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/med-s-28.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/med-s-4-6.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-act-2023.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-advantages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-cross-cultural.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-ethics.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-international.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-marital.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-roleplay.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/mediation-workplace.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/negotiation-meaning.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/negotiation-strategies.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/third-party-funding.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
+    },
+    {
+      "path": "topics/arbitration/uncitral-model-law.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
     },
     {
       "path": "topics/bns/culpable-homicide-murder.json",
@@ -128266,6 +131891,46 @@
       "severity": "medium",
       "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
       "evidence": "union of india v. azadi bachao andolan|(2004) 10 scc 1"
+    },
+    {
+      "path": "topics/torts/tort-death-in-relation.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "melepurath sankunni ezhuthassan v thekittil geopalankutty nair|(1986) 1 scc 118"
+    },
+    {
+      "path": "topics/torts/tort-discharge.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "melepurath sankunni ezhuthassan v thekittil geopalankutty nair|(1986) 1 scc 118"
+    },
+    {
+      "path": "topics/torts/tort-definition.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "ashby v white|(1703) 2 ld raym 938"
+    },
+    {
+      "path": "topics/torts/tort-injuria-damnum.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "ashby v white|(1703) 2 ld raym 938"
+    },
+    {
+      "path": "topics/torts/tort-remedies-damages.json",
+      "topic": "",
+      "type": "duplicate-case-record",
+      "severity": "medium",
+      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
+      "evidence": "ashby v white|(1703) 2 ld raym 938"
     }
   ]
 }

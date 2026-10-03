@@ -123,13 +123,22 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-11",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "legacyCorrespondence": {
+      "statute": "Indian Penal Code, 1860",
+      "sections": [
+        "73"
+      ],
+      "relationship": "historical-correspondence",
+      "currentLawStatus": "historical-reference-only",
+      "verificationBasis": "BPRD/MHA comparative BNS↔IPC material"
+    }
   },
   "sources": [
-    "Legacy migration source: codepackr-law/src/data/topics/bns/s-11.ts"
+    "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-02T16:33:29.406Z",
-  "effectiveFrom": null,
+  "updatedAt": "2026-10-03T07:40:26.605Z",
+  "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [
     "legacy-migration",
