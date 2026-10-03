@@ -109,8 +109,42 @@ jobs:
           git commit -m "chore(content): enhance topic and illustrations"
           git push origin "${{ steps.branch.outputs.branch }}"
 
-      - name: Trigger next topic
+      - name: Check subject completion
+        id: completion
         if: github.event.inputs.dry_run != 'true'
+        env:
+          SUBJECT: ${{ steps.subject.outputs.subject }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const path=require('path');
+          const subject=process.env.SUBJECT;
+          const slug=subject.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+          const statePath=path.join('.content-enhancement-state',slug+'.json');
+          let state={completedTopics:[]};
+          try{state=JSON.parse(fs.readFileSync(statePath));}catch{}
+          let total=0;
+          function walk(d){if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.json')){try{const j=JSON.parse(fs.readFileSync(p));if(j.entityType==='topic'&&j.content?.legacySubjectSlug===subject)total++;}catch{}}}}
+          walk('topics');
+          const done=total>0 && state.completedTopics.length>=total;
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,'complete='+done+'\\n');
+          console.log(JSON.stringify({subject,total,completed:state.completedTopics.length,complete:done}));
+          NODE
+
+      - name: Open subject PR when complete
+        if: github.event.inputs.dry_run != 'true' && steps.completion.outputs.complete == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$EXISTING" ]; then
+            gh pr create --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --title "Content enhancement — ${{ steps.subject.outputs.subject }}" --body "Automated subject-wide legal content and illustration enhancement. All topics passed repository validation."
+          else
+            echo "Open PR #$EXISTING already exists."
+          fi
+
+      - name: Trigger next topic
+        if: github.event.inputs.dry_run != 'true' && steps.completion.outputs.complete != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -122,4 +156,4 @@ jobs:
             -f topics_per_run="1"
 
       - name: Note
-        run: echo "One-topic-at-a-time enhancement cycle completed. The next trigger continues the same subject branch."
+        run: echo "Enhancement cycle completed. Either the next topic was triggered or the subject PR was opened."
