@@ -95,7 +95,7 @@
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
 - [ ] **REMAIN-003** Run full-catalog enhancement progress report after every batch.
-- [ ] **CONTROL-001** Create and maintain section-level completion ledger using `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
+- [x] **CONTROL-001** Create and maintain section-level completion ledger using `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`. Live Torts ledger: `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 - [ ] **CONTROL-002** For every subject, reconcile authoritative full inventory against repository topic inventory before declaring enhancement complete.
 - [ ] **CONTROL-003** Prevent rework by skipping `COMPLETE_LOCKED` items unless a documented reopening trigger exists.
 - [ ] **CONTROL-004** Record per-section evidence/commit and independent statuses for inventory, enhancement, verification, validation, integration and production.
@@ -205,8 +205,10 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Next control item:** CONTROL-001 — establish/maintain the section-level completion ledger before starting any new subject enhancement.
-**Next subject reconciliation:** Torts — perform FULL INVENTORY → REPOSITORY MAP → GAP ANALYSIS first. Do not re-enhance topics already completed; execute only missing gates/sections.
+**Current control item:** CONTROL-002 — reconcile Torts authoritative subject inventory against the complete repository topic inventory and freeze the subject scope.
+**Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
+**Torts inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`.
+**Rule:** Do not re-enhance existing completed topics; execute only missing gates/sections.
 **Standard checklist:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
 **Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
 
