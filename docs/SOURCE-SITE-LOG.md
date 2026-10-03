@@ -50,3 +50,5 @@ Indian Kanoon, blogs, commentaries, and model-answer sites are not an authority 
 | Hindu Marriage Act, 1955 | https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf | HMA working set: Sections 9, 13, 13B, 24 and 25 | Official Supreme Court judgments verified for activated case authorities |
 | Jan Vishwas Act, 2023 Gazette | https://egazette.gov.in/WriteReadData/2023/248047.pdf | PLIA serial 28, section 3(1) substitution |
 | G.S.R. 756(E), 18 October 2023 | https://egazette.gov.in/WriteReadData/2023/249538.pdf | PLIA Jan Vishwas entries in force 1 April 2024 |
+
+| G.S.R. 772(E), 17 December 2024 | https://moef.gov.in/storage/tender/1735217194.pdf | PLIA prescribed relief amounts and insurance cap |

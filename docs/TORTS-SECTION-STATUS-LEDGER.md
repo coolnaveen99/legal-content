@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW — 1991 Gazette and Jan Vishwas 2023 opened; prescribed amounts not opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -183,3 +183,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Section 3(1) now requires reimbursement or other relief as may be prescribed, for death, medical expenses, wage loss, other injury or sickness, private-property damage, or other prescribed loss. The 1991 Schedule figures are not the current statutory measure.
 - Rules prescribing the post-1 April 2024 amounts were not opened. No current rupee figure is certified.
 - Not COMPLETE_LOCKED.
+
+
+### Absolute liability — prescribed-amount checkpoint (2026-10-03)
+- Opened G.S.R. 772(E), 17 December 2024, Public Liability Insurance (Amendment) Rules, 2024.
+- Second Schedule: fatal relief Rs 5,00,000 plus medical expenses up to Rs 1,50,000; total permanent disability Rs 5,00,000 plus medical expenses up to Rs 25,000; wage relief not exceeding Rs 25,000 per month for up to 3 months; private-property damage not exceeding Rs 50,00,000; other injury or sickness not exceeding Rs 25,000.
+- Rule 10(1): insurance aggregate cap Rs 250 crore, and Rs 500 crore for more than one accident during the policy or one year, whichever is less.
+- These figures are immediate statutory relief. They do not replace the Oleum measure of compensation.
+- Not COMPLETE_LOCKED. Content validation, integration and production gates remain open.
+- Lock refusal: the whole catalogue cannot be marked COMPLETE_LOCKED. No other Torts row has closed those gates.
