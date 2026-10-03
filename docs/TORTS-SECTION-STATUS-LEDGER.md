@@ -140,3 +140,11 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Case-law check: Municipal Council, Ratlam v. Vardhichand verified
 - Status: **VERIFIED**
 - COMPLETE_LOCKED: not yet; integration and production gates remain.
+
+
+### Strict Liability — substantive verification checkpoint (2026-10-03)
+- Enhancement depth: complete
+- Indian case-law verification: complete for active authorities
+- Rylands doctrine/current treatment: checked
+- Status: **VERIFIED**
+- COMPLETE_LOCKED: not yet; integration, build and production gates remain.
