@@ -134,7 +134,75 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-1",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "learningObjectives": [
+        "Explain the purpose of BNS s.1 and distinguish title, commencement and territorial application.",
+        "Apply the India, extra-territorial, Indian-registered vessel/aircraft and India-targeting computer-resource rules to a problem.",
+        "Structure a 10-mark or 16-mark answer using the statutory sub-sections."
+      ],
+      "definition": "BNS s.1 is the preliminary provision dealing with the name of the Bharatiya Nyaya Sanhita, commencement, territorial application, specified extra-territorial application, and preservation of special/local laws and specified service-related laws.",
+      "legalPrinciple": "Criminal jurisdiction must be anchored to the statutory basis for applying the Sanhita to the place, person, vessel or aircraft, or computer resource involved. The section should therefore be analysed by its separate sub-sections rather than treated as a single territorial rule.",
+      "statutoryFramework": "Chapter I (Preliminary), BNS s.1(1)–(6). For commencement, the relevant notification must also be considered. For the computer-resource limb, identify the statutory India connection before concluding that s.1(5)(c) is engaged.",
+      "essentialIngredients": [
+        "Identify the relevant sub-section of s.1.",
+        "For an offence within India, establish the territorial connection contemplated by s.1(3).",
+        "For extra-territorial application, identify the statutory basis under s.1(4) or s.1(5).",
+        "For s.1(5), test Indian citizenship, Indian-registered ship/aircraft, or an offence targeting a computer resource located in India.",
+        "Check s.1(6) and any applicable special or local law before concluding."
+      ],
+      "detailedExplanation": "For an exam answer, separate the provision into commencement, ordinary territorial operation, extra-territorial operation, specified categories of extra-territorial conduct, and saving clauses. A person’s location alone does not answer every jurisdiction question; the exact statutory limb and facts must be matched. For commencement questions, distinguish the enactment of the statute from the date on which the relevant provision came into force.",
+      "examples": [
+        "A person physically commits an offence in India: begin with s.1(3).",
+        "An Indian citizen commits an offence outside India: examine s.1(5)(a), subject to the provision's requirements and other applicable law.",
+        "A person outside India commits an offence targeting a computer resource located in India: examine s.1(5)(c).",
+        "An offence occurs on an Indian-registered aircraft outside India: examine s.1(5)(b)."
+      ],
+      "distinctions": [
+        {
+          "id": "bns-1-dist",
+          "title": "Territorial application and extra-territorial application",
+          "left": "s.1(3): conduct within India",
+          "right": "s.1(4)/(5): specified conduct beyond India",
+          "rows": [
+            {
+              "point": "Starting question",
+              "left": "Where did the act or omission occur?",
+              "right": "What statutory connection brings the foreign conduct within the Sanhita?"
+            },
+            {
+              "point": "Exam method",
+              "left": "Apply the ordinary territorial rule.",
+              "right": "Identify the precise extra-territorial category and its facts."
+            }
+          ]
+        }
+      ],
+      "caseLaw": [],
+      "problemApplication": "Use IRAC: Issue — whether BNS applies; Rule — identify the exact s.1 sub-section; Application — map location, nationality, registration or computer-resource target to that sub-section; Conclusion — state whether the statutory connection is established and identify any remaining jurisdictional issue.",
+      "examAnswerStructure": {
+        "shortAnswer": "Define s.1 and identify its five principal operational themes: title, commencement, territorial application, extra-territorial application and savings.",
+        "tenMark": "Introduction → s.1 structure → commencement → territorial rule → extra-territorial categories → one or two illustrations → saving clause → conclusion.",
+        "sixteenMark": "Introduction → statutory scheme with sub-section references → detailed territorial/extraterritorial analysis → computer-resource limb → commencement issue → savings/special laws → hypothetical application → concise conclusion."
+      },
+      "keyTakeaways": [
+        "Always cite the exact sub-section.",
+        "Do not treat all foreign conduct as automatically covered.",
+        "Separate commencement from territorial application.",
+        "For cyber facts, identify the computer resource located in India and the statutory targeting requirement."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/",
+        "https://www.mha.gov.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": "",
+        "verifiedBy": "",
+        "notes": "In-progress enhancement. Verify commencement notification and current statutory text before publication."
+      }
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
