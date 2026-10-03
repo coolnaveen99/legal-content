@@ -165,7 +165,8 @@
         "notes": [
           "Topic reviewed for enhancement structure; tort law is not codified in one general statute.",
           "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/"
+          "Verification page: https://www.sci.gov.in/judgements-case-no/",
+          "Two case authorities were directly checked on the official Supreme Court website and activated: MCD v. Subhagwanti and Jacob Mathew."
         ]
       },
       "distinctions": [
@@ -185,7 +186,24 @@
         }
       ],
       "examAnswerStructure": "Definition → duty → breach → causation/remoteness → res ipsa loquitur → professional negligence where relevant → defences → remedy → conclusion.",
-      "caseLaw": []
+      "caseLaw": [
+        {
+          "name": "Municipal Corporation of Delhi v. Subhagwanti",
+          "year": 1966,
+          "citation": "1966 AIR 1750; 1966 SCR (3) 649",
+          "holding": "The Supreme Court held that the doctrine of res ipsa loquitur applied to the collapse of the clock tower and considered the municipal authority's duty to maintain the structure.",
+          "relevance": "Directly supports the topic's treatment of res ipsa loquitur in negligence.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/2711.pdf"
+        },
+        {
+          "name": "Jacob Mathew v. State of Punjab",
+          "year": 2005,
+          "citation": "(2005) 6 SCC 1",
+          "holding": "The Supreme Court addressed the standard for medical negligence and distinguished civil negligence from the higher threshold applicable to criminal negligence.",
+          "relevance": "Directly supports the topic's medical-negligence discussion.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/27088.pdf"
+        }
+      ]
     },
     "legacyUnverifiedCases": [
       {
