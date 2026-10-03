@@ -107,6 +107,9 @@ jobs:
       - name: Validate student content enhancements
         run: node scripts/validate-enhancements.mjs
 
+      - name: Report full-catalog enhancement progress
+        run: node scripts/report-enhancement-progress.mjs
+
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
