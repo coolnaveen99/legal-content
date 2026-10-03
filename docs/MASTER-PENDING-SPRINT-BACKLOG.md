@@ -194,8 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** VER-001 BNS s.2 public-servant descriptions (e) and (f) checked. (j) seen in part. (i) and the rest of (k) not re-read.
+**Current batch:** BNS s.2 public-servant descriptions (i) and (k) checked. Registration Act subject (3 topics) checked against India Code. Gaps recorded. None marked verified.
 **Verified enhancements:** 0.
-**Next open item:** BNS s.2 public-servant descriptions (i) and the remainder of (k).
+**Next open item:** reconcile the Registration Act omissions, then the next small subject.
 **AI phase:** NOT STARTED.
 
