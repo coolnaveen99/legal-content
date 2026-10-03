@@ -147,3 +147,21 @@ Each now contains explicit short-answer, 10-mark and 16-mark answer structures a
 The existing migrated/supplemental files still require a controlled enhancement-depth audit. In particular, several files use the older enhancement shape containing `learningObjectives`, `definition`, `legalPrinciple`, `statutoryFramework`, `essentialIngredients`, `detailedExplanation`, `examples`, `problemApplication`, `keyTakeaways`, `authoritativeSources`, and `verification`, but do not yet expose the newer explicit exam-answer and case-law quality fields. This is a **content-depth gap**, not a reason to replace the files.
 
 **Next gate:** audit and upgrade migrated/supplemental topics in batches, then begin substantive source and case verification.
+
+
+## 7. Migrated enhancement-depth batch — 2026-10-03
+
+The pre-existing migrated/supplemental Torts files were audited for the newer exam-depth scaffold.
+
+**Upgraded this phase:** 26/26 migrated files.
+
+The additive upgrade supplied missing explicit:
+- short-answer structure;
+- 10-mark answer structure;
+- 16-mark answer structure;
+- doctrine-vs-neighbouring-doctrine distinction;
+- verification note documenting that substantive legal/case verification remains a separate gate.
+
+No migrated substantive body was replaced and no migrated file was deleted.
+
+**Important:** this closes the *scaffold/depth-field* gate for the 26 migrated files. It does **not** close legal verification, case verification, source verification, or production validation.
