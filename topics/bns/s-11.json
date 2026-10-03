@@ -132,12 +132,98 @@
       "relationship": "historical-correspondence",
       "currentLawStatus": "historical-reference-only",
       "verificationBasis": "BPRD/MHA comparative BNS↔IPC material"
+    },
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, s. as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text and any amendment before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "State when a court may add solitary confinement under BNS s.11.",
+        "Apply the three-part scale that caps solitary confinement at one, two or three months.",
+        "Distinguish the s.11 sentencing power from the s.12 execution limits."
+      ],
+      "definition": "BNS s.11 is the sentencing power to order solitary confinement, only where the court can impose rigorous imprisonment, and only within a scale whose overall cap is three months.",
+      "legalPrinciple": "Solitary confinement is an additional part of a rigorous-imprisonment sentence, not a freestanding punishment and not available where the court has power only to impose simple imprisonment.",
+      "statutoryFramework": [
+        "Chapter II — Of Punishments, BNS s.11.",
+        "Power exists only for an offence for which the court may sentence the person to rigorous imprisonment.",
+        "The order must be part of the sentence, for any portion or portions of that imprisonment.",
+        "Whole period must not exceed three months.",
+        "Scale: not exceeding one month if imprisonment does not exceed six months; not exceeding two months if imprisonment exceeds six months and does not exceed one year; not exceeding three months if imprisonment exceeds one year.",
+        "Execution limits in BNS s.12 are separate and must also be applied."
+      ],
+      "essentialIngredients": [
+        "Conviction of an offence under the Sanhita.",
+        "The court has power to sentence the offender to rigorous imprisonment for that offence.",
+        "The solitary-confinement direction is made by the sentence itself.",
+        "The direction relates only to a portion or portions of the imprisonment awarded.",
+        "The aggregate does not exceed the scale in clauses (a), (b) or (c), and in any case does not exceed three months in the whole."
+      ],
+      "detailedExplanation": "Section 11 answers whether the court may add solitary confinement, and for how long in total. It does not regulate how that period is broken up in prison; that is s.12. The opening condition is rigorous imprisonment. If the offence or the sentence available is only simple imprisonment, s.11 does not authorise solitary confinement. The scale is tied to the term of imprisonment awarded, not to the maximum in the offence section. A four-month rigorous sentence falls in clause (a), so solitary confinement cannot exceed one month in the whole. A nine-month rigorous sentence falls in clause (b), so the cap is two months. A sentence exceeding one year falls in clause (c), so the cap is three months, which is also the statutory maximum in the whole. The court may split the permitted period into portions, but those portions still count toward the same cap. Students should not treat the historical IPC number 73 as the current citation for conduct on or after 1 July 2024.",
+      "examples": [
+        "Teaching example: a person is sentenced to four months' rigorous imprisonment. Clause (a) applies because the term does not exceed six months. Solitary confinement, if ordered at all, cannot exceed one month in the whole.",
+        "Teaching example: the same facts, but the court has power only to impose simple imprisonment. Section 11 is not attracted, even if the court would otherwise want isolation.",
+        "Teaching example: a two-year rigorous sentence. Clause (c) allows solitary confinement not exceeding three months in the whole. Section 12 then limits how that period may be executed."
+      ],
+      "distinctions": [
+        "BNS s.11 is the power and the overall scale. BNS s.12 is the execution limit: fourteen days at a time, equal intervals, and seven days in any one month if imprisonment exceeds three months.",
+        "Solitary confinement is not the same as the substantive imprisonment. It is an order about a portion of rigorous imprisonment already within the court's sentencing power.",
+        "Do not confuse the s.11 cap with enhanced punishment under s.13, which depends on a qualifying previous conviction."
+      ],
+      "problemApplication": [
+        "Issue: whether solitary confinement can be added, and for what maximum aggregate.",
+        "Rule: quote the rigorous-imprisonment condition and the applicable clause of the scale.",
+        "Application: identify the term actually awarded, select clause (a), (b) or (c), and state the cap. Then note that s.12 may further restrict execution.",
+        "Conclusion: solitary confinement is lawful only if both the s.11 condition and the scale are met. Do not invent a reported case."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "Define solitary confinement as an additional direction within a rigorous-imprisonment sentence.",
+          "State the three-month whole cap and the clause that matches the term awarded.",
+          "Mention that s.12 limits execution."
+        ],
+        "tenMark": [
+          "Introduction: BNS s.11, Chapter II, current citation from 1 July 2024.",
+          "Condition: power to impose rigorous imprisonment.",
+          "Scale in clauses (a), (b) and (c), with one labelled example.",
+          "Portions still count toward the whole.",
+          "Distinction from s.12.",
+          "Conclusion on the facts."
+        ],
+        "sixteenMark": [
+          "Introduction and place in the punishment chapter.",
+          "Why the power is conditional on rigorous imprisonment.",
+          "Full scale, with two examples in different clauses.",
+          "Portioning and the three-month whole.",
+          "Relationship with s.12 execution limits.",
+          "What the section does not do: it does not create a separate offence or authorise isolation beyond the scale.",
+          "IRAC on a problem, then current-law close."
+        ]
+      },
+      "keyTakeaways": [
+        "Solitary confinement under s.11 requires a power to impose rigorous imprisonment.",
+        "The whole period cannot exceed three months, and the clause depends on the imprisonment awarded.",
+        "Always read s.11 with s.12 before stating how the sentence can be carried out."
+      ]
     }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.605Z",
+  "updatedAt": "2026-10-03T08:32:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

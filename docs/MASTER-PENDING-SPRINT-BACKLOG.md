@@ -73,7 +73,7 @@
 - [ ] **CONT-016** Current-law verification metadata.
 
 ### Batch order
-- [ ] **BNS-001** Complete BNS §§11–15.
+- [x] **BNS-001** Complete BNS §§11–15. Additive in-progress enhancements on topics/bns/s-11.json through s-15.json. Not verified or published.
 - [ ] **BNS-002** Complete BNS §§16–20.
 - [ ] **BNS-003** Continue BNS sequential batches through the complete real-topic catalog.
 - [ ] **BNSS-001** Enhance BNSS topics in controlled batches.
@@ -190,9 +190,9 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** BNS §§11–15.  
-**Completed enhancement topics:** 13.  
-**Remaining real topics:** approximately 3,538.  
+**Current batch:** BNS §§16–20.  
+**Completed enhancement topics:** 18.  
+**Remaining real topics:** approximately 3,533.  
 **Verified enhancements:** 0.  
 **Published enhancements:** 0.  
 **AI phase:** NOT STARTED — intentionally blocked until final phase.

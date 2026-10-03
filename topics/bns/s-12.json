@@ -123,12 +123,95 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-12",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, s. as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text and any amendment before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "State the execution limits on a sentence of solitary confinement.",
+        "Apply the fourteen-day rule and the equal-interval rule.",
+        "Apply the seven-day monthly cap where imprisonment exceeds three months."
+      ],
+      "definition": "BNS s.12 limits how a sentence of solitary confinement is executed: not more than fourteen days at a time, with intervals at least as long as the solitary periods, and, if imprisonment exceeds three months, not more than seven days in any one month.",
+      "legalPrinciple": "Section 12 does not create the power to order solitary confinement. It restrains execution so that a lawful s.11 order is not carried out as one continuous block beyond the stated limits.",
+      "statutoryFramework": [
+        "Chapter II — Of Punishments, BNS s.12.",
+        "Applies in executing a sentence of solitary confinement.",
+        "No period of solitary confinement may exceed fourteen days at a time.",
+        "Intervals between solitary periods must be of not less duration than those periods.",
+        "If the imprisonment awarded exceeds three months, solitary confinement shall not exceed seven days in any one month of the whole imprisonment, again with equal or longer intervals."
+      ],
+      "essentialIngredients": [
+        "There is a sentence of solitary confinement to be executed.",
+        "Each continuous period does not exceed fourteen days.",
+        "Each interval is at least as long as the solitary period it separates.",
+        "If imprisonment exceeds three months, solitary confinement does not exceed seven days in any one month.",
+        "The s.11 aggregate cap still applies."
+      ],
+      "detailedExplanation": "Section 12 is an execution rule. A court may have ordered a lawful aggregate under s.11, but the prison sentence cannot be run as uninterrupted solitary confinement beyond fourteen days. The break must be at least as long as the solitary period just undergone. Where the imprisonment awarded exceeds three months, a second and tighter limit applies: not more than seven days of solitary confinement in any one month of the whole imprisonment awarded, still with intervals not shorter than the solitary periods. A two-month sentence does not trigger the seven-day monthly cap, but it still cannot be executed as more than fourteen days at a time, and the interval must match. A six-month sentence triggers both the fourteen-day rule and the seven-day monthly cap. Students should calculate both limits and apply the stricter one on the facts.",
+      "examples": [
+        "Teaching example: two months' rigorous imprisonment with one month's solitary confinement authorised by s.11(a). Execution cannot be fourteen days plus more without a break. A fourteen-day solitary period needs an interval of at least fourteen days. The seven-day monthly cap does not apply because imprisonment does not exceed three months.",
+        "Teaching example: six months' imprisonment. Section 11(a) still caps the whole solitary period at one month, and s.12 adds that solitary confinement shall not exceed seven days in any one month, with intervals at least as long as each solitary period.",
+        "Teaching example: a proposed twenty-day continuous solitary block fails s.12 even if the s.11 aggregate has not been reached."
+      ],
+      "distinctions": [
+        "Section 11 fixes whether and how much solitary confinement may be ordered. Section 12 fixes how that order is broken up in execution.",
+        "The fourteen-day rule applies in every case. The seven-day monthly rule applies only when imprisonment awarded exceeds three months.",
+        "An interval shorter than the preceding solitary period does not satisfy s.12."
+      ],
+      "problemApplication": [
+        "Issue: whether the proposed execution of solitary confinement is within s.12.",
+        "Rule: fourteen days at a time; interval not less than the solitary period; seven days in any one month if imprisonment exceeds three months.",
+        "Application: compute the imprisonment awarded, then test the continuous block and the monthly total.",
+        "Conclusion: an otherwise valid s.11 order is still unlawfully executed if a s.12 limit is crossed."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State that s.12 regulates execution, not the power to sentence.",
+          "Give the fourteen-day and equal-interval rules.",
+          "Add the seven-day monthly cap where imprisonment exceeds three months."
+        ],
+        "tenMark": [
+          "Introduction and relationship with s.11.",
+          "Fourteen-day rule with a labelled example.",
+          "Equal-interval rule.",
+          "Seven-day monthly rule and when it applies.",
+          "Conclusion on a short problem."
+        ],
+        "sixteenMark": [
+          "Introduction: execution limit in Chapter II.",
+          "Why s.12 is not an independent sentencing power.",
+          "Worked example under and over the three-month threshold.",
+          "Interaction with the s.11 aggregate.",
+          "Failure case: continuous block or short interval.",
+          "IRAC and current-law close."
+        ]
+      },
+      "keyTakeaways": [
+        "No solitary period may exceed fourteen days at a time.",
+        "The interval must be at least as long as the solitary period.",
+        "Above three months' imprisonment, add the seven-day monthly cap."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.610Z",
+  "updatedAt": "2026-10-03T08:32:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

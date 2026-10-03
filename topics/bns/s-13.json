@@ -123,12 +123,96 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-13",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, s. as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text and any amendment before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Identify the previous-conviction condition in BNS s.13.",
+        "Limit the section to later offences under Chapter X or Chapter XVII with the stated imprisonment threshold.",
+        "State the enhanced punishment without treating it as a new offence."
+      ],
+      "definition": "BNS s.13 subjects a person to imprisonment for life, or imprisonment of either description up to ten years, for a later qualifying offence after a qualifying conviction in India under Chapter X or Chapter XVII.",
+      "legalPrinciple": "Section 13 is an enhanced-punishment rule for a subsequent offence. It does not convict the person of the earlier offence again, and it applies only where both the previous conviction and the later offence meet the Chapter and imprisonment conditions.",
+      "statutoryFramework": [
+        "BNS s.13, placed with punishments; general exceptions begin at s.14.",
+        "Previous conviction by a court in India.",
+        "That conviction must be for an offence punishable under Chapter X or Chapter XVII with imprisonment of either description for three years or upwards.",
+        "The later offence must also be punishable under either of those Chapters with like imprisonment for the like term.",
+        "For every such subsequent offence the person is subject to imprisonment for life, or imprisonment of either description which may extend to ten years."
+      ],
+      "essentialIngredients": [
+        "A previous conviction by a court in India.",
+        "The previous offence is punishable under Chapter X or Chapter XVII with imprisonment of either description for a term of three years or upwards.",
+        "A later offence punishable under either of those Chapters with imprisonment of either description for three years or upwards.",
+        "The enhanced liability is for that subsequent offence.",
+        "The stated punishment is imprisonment for life, or imprisonment of either description extending to ten years."
+      ],
+      "detailedExplanation": "Section 13 is the successor heading to the old enhanced-punishment rule for repeat offending in the coin/currency and property chapters. Both ends of the sequence matter. The earlier conviction must be by a court in India and must be for an offence punishable under Chapter X or Chapter XVII with imprisonment of either description for three years or upwards. The new offence must be punishable under either of those Chapters with the same imprisonment threshold. A previous conviction outside those Chapters, or for an offence whose punishment is below three years, does not trigger s.13. The section then makes the person liable, for every such subsequent offence, to imprisonment for life or to imprisonment of either description which may extend to ten years. It is a punishment consequence, not a definition of theft, cheating or a coin offence. The migrated study note in this file also prints a Chapter III heading; that heading belongs to the general exceptions, which start at s.14. Do not treat s.13 itself as a general exception.",
+      "examples": [
+        "Teaching example: a person was earlier convicted in India of a Chapter XVII offence punishable with three years or more, and is later convicted of another Chapter XVII offence punishable with three years or more. Section 13 can be considered for the later offence.",
+        "Teaching example: the earlier conviction was for an offence punishable with a maximum of one year. The three-year threshold fails, so s.13 does not apply.",
+        "Teaching example: both offences are outside Chapter X and Chapter XVII. Section 13 is not the enhancement route."
+      ],
+      "distinctions": [
+        "Section 13 enhances punishment for a subsequent qualifying offence. It is not a general exception and does not excuse the later act.",
+        "The previous conviction must be by a court in India. A foreign conviction is not what the section states.",
+        "Ordinary punishment in the offence section still has to be identified; s.13 is an additional liability rule where its conditions are proved."
+      ],
+      "problemApplication": [
+        "Issue: whether the later conviction attracts enhanced punishment under s.13.",
+        "Rule: previous Indian conviction and later offence, each punishable under Chapter X or XVII with imprisonment of either description for three years or upwards.",
+        "Application: name the chapter and the imprisonment threshold for each offence. If either fails, stop.",
+        "Conclusion: if both qualify, the person is subject to imprisonment for life or imprisonment of either description up to ten years for the subsequent offence."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the previous-conviction and same-chapter conditions.",
+          "State the three-year threshold.",
+          "State life imprisonment or imprisonment up to ten years for the subsequent offence."
+        ],
+        "tenMark": [
+          "Introduction: enhanced punishment, not a new offence.",
+          "Previous conviction by a court in India.",
+          "Chapter X or XVII and the three-year threshold, applied twice.",
+          "Punishment consequence.",
+          "One failure example and a conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction and sentencing function.",
+          "Why both the earlier and later offences must qualify.",
+          "Chapter and term analysis.",
+          "Distinction from general exceptions in ss.14-15.",
+          "Distinction from ordinary sentence and from solitary confinement.",
+          "IRAC on a problem without inventing a case name.",
+          "Current-law close."
+        ]
+      },
+      "keyTakeaways": [
+        "Both the previous conviction and the later offence must fall in Chapter X or Chapter XVII.",
+        "Each must be punishable with imprisonment of either description for three years or upwards.",
+        "The enhancement is for the subsequent offence: life, or imprisonment up to ten years."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.614Z",
+  "updatedAt": "2026-10-03T08:32:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

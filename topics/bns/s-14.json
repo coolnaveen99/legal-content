@@ -128,12 +128,97 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-14",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, s. as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text and any amendment before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "State the justification in BNS s.14 for a person bound by law, or believing in good faith by a mistake of fact that he is bound by law.",
+        "Separate mistake of fact from mistake of law.",
+        "Use the statutory illustrations without treating them as reported cases."
+      ],
+      "definition": "BNS s.14 provides that nothing is an offence which is done by a person who is, or who by reason of a mistake of fact and not by reason of a mistake of law in good faith believes himself to be, bound by law to do it.",
+      "legalPrinciple": "A legal duty, or a good-faith belief in a legal duty created by a mistake of fact, can take the act outside the definition of an offence. A mistake of law does not.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s.14.",
+        "The actor is bound by law to do the act, or in good faith believes himself to be bound by law.",
+        "Any such belief must arise by reason of a mistake of fact, not a mistake of law.",
+        "Illustration (a): a soldier fires on a mob by order of a superior officer, in conformity with the commands of the law. No offence.",
+        "Illustration (b): a court officer ordered to arrest Y, after due enquiry believing Z to be Y, arrests Z. No offence.",
+        "Related but distinct: s.15 protects a Judge acting judicially; s.17 is the corresponding 'justified by law' exception and should not be substituted unless the question uses it."
+      ],
+      "essentialIngredients": [
+        "An act that would otherwise be examined as an offence.",
+        "Either the person is in fact bound by law to do it, or he in good faith believes himself to be bound by law.",
+        "If the case is one of belief, the belief rests on a mistake of fact.",
+        "The belief is not a mistake of law.",
+        "Good faith is required for the belief branch."
+      ],
+      "detailedExplanation": "Section 14 is the first general exception in Chapter III. It has two branches. The first is actual legal compulsion: the person is bound by law to do the act, as in the soldier illustration where the order conforms to the commands of the law. The second is a good-faith belief that he is bound by law, caused by a mistake of fact and not by a mistake of law. The court-officer illustration is the model: the officer is ordered to arrest Y, enquires, and mistakes Z for Y. The mistake is about identity, which is fact, not about whether the law allows the arrest. A person who knows the facts and is wrong about the legal duty is outside the second branch. The section says nothing is an offence, so it is a justification, not a mitigation of sentence. It should not be confused with s.11-13, which are punishment rules, or with s.15, which is confined to a Judge acting judicially.",
+      "examples": [
+        "Statutory illustration (a), labelled as illustration: a soldier fires on a mob by the order of his superior officer, in conformity with the commands of the law. The act is not an offence because he is bound by law.",
+        "Statutory illustration (b), labelled as illustration: an officer ordered to arrest Y, after due enquiry believing Z to be Y, arrests Z. The mistake is of fact and the belief is in good faith.",
+        "Teaching contrast: the officer knows Z is not Y but believes the law allows arrest of any relative. That is a mistake of law, so the belief branch of s.14 is not made out."
+      ],
+      "distinctions": [
+        "Mistake of fact can support s.14. Mistake of law cannot.",
+        "Section 14 requires that the person is, or believes himself to be, bound by law. Mere permission or justification by law is the neighbouring exception and must be analysed under its own section.",
+        "Section 15 is limited to a Judge acting judicially. A court officer executing a warrant is the s.14 illustration, not the s.15 case."
+      ],
+      "problemApplication": [
+        "Issue: whether the act is no offence because the person was bound by law, or believed in good faith by a mistake of fact that he was bound.",
+        "Rule: quote both branches and the exclusion of mistake of law.",
+        "Application: identify the source of the supposed duty, then classify the error as fact or law, and test good faith.",
+        "Conclusion: if the duty is real, or the fact-mistake branch is proved, nothing is an offence. If the error is of law, s.14 does not excuse."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the bound-by-law rule.",
+          "State the good-faith mistake-of-fact branch.",
+          "Exclude mistake of law and cite one illustration."
+        ],
+        "tenMark": [
+          "Introduction: general exception, Chapter III.",
+          "Two branches.",
+          "Illustration (a) mapped to actual duty.",
+          "Illustration (b) mapped to mistake of fact and good faith.",
+          "Mistake-of-law contrast and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction and burden of placing the act outside the offence.",
+          "Actual legal duty.",
+          "Belief branch: good faith, mistake of fact, not law.",
+          "Both illustrations, each mapped to an ingredient.",
+          "Distinction from s.15 and from punishment sections.",
+          "Problem IRAC.",
+          "Current-law close: BNS s.14 for facts on or after 1 July 2024."
+        ]
+      },
+      "keyTakeaways": [
+        "The person must be bound by law, or believe in good faith that he is.",
+        "The belief branch accepts only a mistake of fact.",
+        "Use the soldier and arrest illustrations as illustrations, not as case law."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.618Z",
+  "updatedAt": "2026-10-03T08:32:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [
