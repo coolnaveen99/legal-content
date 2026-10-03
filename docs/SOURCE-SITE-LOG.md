@@ -30,6 +30,8 @@ Use these before any other case site. Record the URL in the topic verification n
 | Supreme Court judgments | https://main.sci.gov.in/ |
 | e-SCR reporter | https://judgments.ecourts.gov.in/ |
 | High Court and district judgments | https://judgments.ecourts.gov.in/ |
+| Supreme Court of India — judgments search | https://www.sci.gov.in/judgements-case-no/ | Torts topic verification |
+| Supreme Court Reports / eCommittee judgment search | https://scr.sci.gov.in/scrsearch/ | Torts topic verification |
 
 Indian Kanoon, blogs, commentaries, and model-answer sites are not an authority for a citation. They may suggest a case name. The citation is added only after one of the judgment sites above is opened.
 
