@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 6 — Statutory Section & Reference Consistency Verification",
-  "generatedAt": "2026-10-03T10:06:58.979Z",
+  "generatedAt": "2026-10-03T10:26:45.867Z",
   "scope": {
     "migratedTopics": 3551
   },
@@ -13,13 +13,13 @@
   ],
   "summary": {
     "topicsAudited": 3551,
-    "topicsWithFindings": 1334,
-    "totalFindings": 1867,
+    "topicsWithFindings": 1335,
+    "totalFindings": 2033,
     "highSeverity": 993,
-    "mediumSeverity": 874
+    "mediumSeverity": 1040
   },
   "byType": {
-    "legacy-cross-reference": 874,
+    "legacy-cross-reference": 1040,
     "source-attachment": 993
   },
   "findings": [
@@ -2519,6 +2519,15 @@
     {
       "path": "topics/bns/s-39.json",
       "id": "topic:india:bns-s-39",
+      "subject": "bns",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bns/s-4.json",
+      "id": "topic:india:bns-s-4",
       "subject": "bns",
       "type": "legacy-cross-reference",
       "severity": "medium",
@@ -12786,12 +12795,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-1.json",
+      "id": "topic:india:bsa-s-1",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-10.json",
       "id": "topic:india:bsa-s-10",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-10.json",
+      "id": "topic:india:bsa-s-10",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12804,12 +12831,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-100.json",
+      "id": "topic:india:bsa-s-100",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-101.json",
       "id": "topic:india:bsa-s-101",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-101.json",
+      "id": "topic:india:bsa-s-101",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12822,12 +12867,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-102.json",
+      "id": "topic:india:bsa-s-102",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-103.json",
       "id": "topic:india:bsa-s-103",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-103.json",
+      "id": "topic:india:bsa-s-103",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12849,12 +12912,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-105.json",
+      "id": "topic:india:bsa-s-105",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-106.json",
       "id": "topic:india:bsa-s-106",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-106.json",
+      "id": "topic:india:bsa-s-106",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12867,12 +12948,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-107.json",
+      "id": "topic:india:bsa-s-107",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-108.json",
       "id": "topic:india:bsa-s-108",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-108.json",
+      "id": "topic:india:bsa-s-108",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12903,12 +13002,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-11.json",
+      "id": "topic:india:bsa-s-11",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-110.json",
       "id": "topic:india:bsa-s-110",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-110.json",
+      "id": "topic:india:bsa-s-110",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12921,12 +13038,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-111.json",
+      "id": "topic:india:bsa-s-111",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-112.json",
       "id": "topic:india:bsa-s-112",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-112.json",
+      "id": "topic:india:bsa-s-112",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12939,12 +13074,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-113.json",
+      "id": "topic:india:bsa-s-113",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-114.json",
       "id": "topic:india:bsa-s-114",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-114.json",
+      "id": "topic:india:bsa-s-114",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12957,12 +13110,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-115.json",
+      "id": "topic:india:bsa-s-115",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-116.json",
       "id": "topic:india:bsa-s-116",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-116.json",
+      "id": "topic:india:bsa-s-116",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12975,12 +13146,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-117.json",
+      "id": "topic:india:bsa-s-117",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-118.json",
       "id": "topic:india:bsa-s-118",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-118.json",
+      "id": "topic:india:bsa-s-118",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -12993,12 +13182,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-119.json",
+      "id": "topic:india:bsa-s-119",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-12.json",
       "id": "topic:india:bsa-s-12",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-12.json",
+      "id": "topic:india:bsa-s-12",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13011,12 +13218,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-120.json",
+      "id": "topic:india:bsa-s-120",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-121.json",
       "id": "topic:india:bsa-s-121",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-121.json",
+      "id": "topic:india:bsa-s-121",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13029,12 +13254,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-122.json",
+      "id": "topic:india:bsa-s-122",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-123.json",
       "id": "topic:india:bsa-s-123",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-123.json",
+      "id": "topic:india:bsa-s-123",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13047,12 +13290,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-124.json",
+      "id": "topic:india:bsa-s-124",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-125.json",
       "id": "topic:india:bsa-s-125",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-125.json",
+      "id": "topic:india:bsa-s-125",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13065,12 +13326,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-126.json",
+      "id": "topic:india:bsa-s-126",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-127.json",
       "id": "topic:india:bsa-s-127",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-127.json",
+      "id": "topic:india:bsa-s-127",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13083,12 +13362,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-128.json",
+      "id": "topic:india:bsa-s-128",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-129.json",
       "id": "topic:india:bsa-s-129",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-129.json",
+      "id": "topic:india:bsa-s-129",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13101,12 +13398,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-13.json",
+      "id": "topic:india:bsa-s-13",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-130.json",
       "id": "topic:india:bsa-s-130",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-130.json",
+      "id": "topic:india:bsa-s-130",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13119,12 +13434,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-131.json",
+      "id": "topic:india:bsa-s-131",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-132.json",
       "id": "topic:india:bsa-s-132",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-132.json",
+      "id": "topic:india:bsa-s-132",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13137,12 +13470,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-133.json",
+      "id": "topic:india:bsa-s-133",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-134.json",
       "id": "topic:india:bsa-s-134",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-134.json",
+      "id": "topic:india:bsa-s-134",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13155,12 +13506,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-135.json",
+      "id": "topic:india:bsa-s-135",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-136.json",
       "id": "topic:india:bsa-s-136",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-136.json",
+      "id": "topic:india:bsa-s-136",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13173,12 +13542,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-137.json",
+      "id": "topic:india:bsa-s-137",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-138.json",
       "id": "topic:india:bsa-s-138",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-138.json",
+      "id": "topic:india:bsa-s-138",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13191,12 +13578,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-139.json",
+      "id": "topic:india:bsa-s-139",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-14.json",
       "id": "topic:india:bsa-s-14",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-14.json",
+      "id": "topic:india:bsa-s-14",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13209,12 +13614,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-140.json",
+      "id": "topic:india:bsa-s-140",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-141.json",
       "id": "topic:india:bsa-s-141",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-141.json",
+      "id": "topic:india:bsa-s-141",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13227,12 +13650,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-142.json",
+      "id": "topic:india:bsa-s-142",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-143.json",
       "id": "topic:india:bsa-s-143",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-143.json",
+      "id": "topic:india:bsa-s-143",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13245,12 +13686,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-144.json",
+      "id": "topic:india:bsa-s-144",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-145.json",
       "id": "topic:india:bsa-s-145",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-145.json",
+      "id": "topic:india:bsa-s-145",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13263,12 +13722,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-146.json",
+      "id": "topic:india:bsa-s-146",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-147.json",
       "id": "topic:india:bsa-s-147",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-147.json",
+      "id": "topic:india:bsa-s-147",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13281,12 +13758,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-148.json",
+      "id": "topic:india:bsa-s-148",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-149.json",
       "id": "topic:india:bsa-s-149",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-149.json",
+      "id": "topic:india:bsa-s-149",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13299,12 +13794,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-15.json",
+      "id": "topic:india:bsa-s-15",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-150.json",
       "id": "topic:india:bsa-s-150",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-150.json",
+      "id": "topic:india:bsa-s-150",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13317,12 +13830,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-151.json",
+      "id": "topic:india:bsa-s-151",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-152.json",
       "id": "topic:india:bsa-s-152",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-152.json",
+      "id": "topic:india:bsa-s-152",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13335,12 +13866,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-153.json",
+      "id": "topic:india:bsa-s-153",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-154.json",
       "id": "topic:india:bsa-s-154",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-154.json",
+      "id": "topic:india:bsa-s-154",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13353,12 +13902,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-155.json",
+      "id": "topic:india:bsa-s-155",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-156.json",
       "id": "topic:india:bsa-s-156",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-156.json",
+      "id": "topic:india:bsa-s-156",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13371,12 +13938,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-157.json",
+      "id": "topic:india:bsa-s-157",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-158.json",
       "id": "topic:india:bsa-s-158",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-158.json",
+      "id": "topic:india:bsa-s-158",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13389,12 +13974,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-159.json",
+      "id": "topic:india:bsa-s-159",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-16.json",
       "id": "topic:india:bsa-s-16",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-16.json",
+      "id": "topic:india:bsa-s-16",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13407,12 +14010,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-160.json",
+      "id": "topic:india:bsa-s-160",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-161.json",
       "id": "topic:india:bsa-s-161",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-161.json",
+      "id": "topic:india:bsa-s-161",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13425,12 +14046,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-162.json",
+      "id": "topic:india:bsa-s-162",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-163.json",
       "id": "topic:india:bsa-s-163",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-163.json",
+      "id": "topic:india:bsa-s-163",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13443,12 +14082,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-164.json",
+      "id": "topic:india:bsa-s-164",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-165.json",
       "id": "topic:india:bsa-s-165",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-165.json",
+      "id": "topic:india:bsa-s-165",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13461,12 +14118,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-166.json",
+      "id": "topic:india:bsa-s-166",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-167.json",
       "id": "topic:india:bsa-s-167",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-167.json",
+      "id": "topic:india:bsa-s-167",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13479,12 +14154,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-168.json",
+      "id": "topic:india:bsa-s-168",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-169.json",
       "id": "topic:india:bsa-s-169",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-169.json",
+      "id": "topic:india:bsa-s-169",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13497,12 +14190,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-17.json",
+      "id": "topic:india:bsa-s-17",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-170.json",
       "id": "topic:india:bsa-s-170",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-170.json",
+      "id": "topic:india:bsa-s-170",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13515,12 +14226,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-18.json",
+      "id": "topic:india:bsa-s-18",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-19.json",
       "id": "topic:india:bsa-s-19",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-19.json",
+      "id": "topic:india:bsa-s-19",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13533,12 +14262,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-2.json",
+      "id": "topic:india:bsa-s-2",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-20.json",
       "id": "topic:india:bsa-s-20",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-20.json",
+      "id": "topic:india:bsa-s-20",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13551,12 +14298,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-21.json",
+      "id": "topic:india:bsa-s-21",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-22.json",
       "id": "topic:india:bsa-s-22",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-22.json",
+      "id": "topic:india:bsa-s-22",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13578,12 +14343,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-24.json",
+      "id": "topic:india:bsa-s-24",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-25.json",
       "id": "topic:india:bsa-s-25",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-25.json",
+      "id": "topic:india:bsa-s-25",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13596,12 +14379,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-26.json",
+      "id": "topic:india:bsa-s-26",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-27.json",
       "id": "topic:india:bsa-s-27",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-27.json",
+      "id": "topic:india:bsa-s-27",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13614,12 +14415,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-28.json",
+      "id": "topic:india:bsa-s-28",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-29.json",
       "id": "topic:india:bsa-s-29",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-29.json",
+      "id": "topic:india:bsa-s-29",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13632,12 +14451,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-3.json",
+      "id": "topic:india:bsa-s-3",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-30.json",
       "id": "topic:india:bsa-s-30",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-30.json",
+      "id": "topic:india:bsa-s-30",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13650,12 +14487,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-31.json",
+      "id": "topic:india:bsa-s-31",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-32.json",
       "id": "topic:india:bsa-s-32",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-32.json",
+      "id": "topic:india:bsa-s-32",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13668,12 +14523,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-33.json",
+      "id": "topic:india:bsa-s-33",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-34.json",
       "id": "topic:india:bsa-s-34",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-34.json",
+      "id": "topic:india:bsa-s-34",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13686,12 +14559,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-35.json",
+      "id": "topic:india:bsa-s-35",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-36.json",
       "id": "topic:india:bsa-s-36",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-36.json",
+      "id": "topic:india:bsa-s-36",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13704,8 +14595,35 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-37.json",
+      "id": "topic:india:bsa-s-37",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-38.json",
       "id": "topic:india:bsa-s-38",
+      "subject": "bsa",
+      "type": "source-attachment",
+      "severity": "high",
+      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-38.json",
+      "id": "topic:india:bsa-s-38",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-39.json",
+      "id": "topic:india:bsa-s-39",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
@@ -13716,9 +14634,9 @@
       "path": "topics/bsa/s-39.json",
       "id": "topic:india:bsa-s-39",
       "subject": "bsa",
-      "type": "source-attachment",
-      "severity": "high",
-      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13740,12 +14658,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-40.json",
+      "id": "topic:india:bsa-s-40",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-41.json",
       "id": "topic:india:bsa-s-41",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-41.json",
+      "id": "topic:india:bsa-s-41",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13758,12 +14694,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-42.json",
+      "id": "topic:india:bsa-s-42",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-43.json",
       "id": "topic:india:bsa-s-43",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-43.json",
+      "id": "topic:india:bsa-s-43",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13776,12 +14730,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-44.json",
+      "id": "topic:india:bsa-s-44",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-45.json",
       "id": "topic:india:bsa-s-45",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-45.json",
+      "id": "topic:india:bsa-s-45",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13794,12 +14766,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-46.json",
+      "id": "topic:india:bsa-s-46",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-47.json",
       "id": "topic:india:bsa-s-47",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-47.json",
+      "id": "topic:india:bsa-s-47",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13812,12 +14802,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-48.json",
+      "id": "topic:india:bsa-s-48",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-49.json",
       "id": "topic:india:bsa-s-49",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-49.json",
+      "id": "topic:india:bsa-s-49",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13830,12 +14838,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-5.json",
+      "id": "topic:india:bsa-s-5",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-50.json",
       "id": "topic:india:bsa-s-50",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-50.json",
+      "id": "topic:india:bsa-s-50",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13848,12 +14874,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-51.json",
+      "id": "topic:india:bsa-s-51",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-52.json",
       "id": "topic:india:bsa-s-52",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-52.json",
+      "id": "topic:india:bsa-s-52",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13866,12 +14910,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-53.json",
+      "id": "topic:india:bsa-s-53",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-54.json",
       "id": "topic:india:bsa-s-54",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-54.json",
+      "id": "topic:india:bsa-s-54",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13884,12 +14946,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-55.json",
+      "id": "topic:india:bsa-s-55",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-56.json",
       "id": "topic:india:bsa-s-56",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-56.json",
+      "id": "topic:india:bsa-s-56",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13902,12 +14982,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-57.json",
+      "id": "topic:india:bsa-s-57",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-58.json",
       "id": "topic:india:bsa-s-58",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-58.json",
+      "id": "topic:india:bsa-s-58",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13920,12 +15018,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-59.json",
+      "id": "topic:india:bsa-s-59",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-6.json",
       "id": "topic:india:bsa-s-6",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-6.json",
+      "id": "topic:india:bsa-s-6",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13938,8 +15054,35 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-60.json",
+      "id": "topic:india:bsa-s-60",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-61.json",
       "id": "topic:india:bsa-s-61",
+      "subject": "bsa",
+      "type": "source-attachment",
+      "severity": "high",
+      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-61.json",
+      "id": "topic:india:bsa-s-61",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-62.json",
+      "id": "topic:india:bsa-s-62",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
@@ -13950,9 +15093,9 @@
       "path": "topics/bsa/s-62.json",
       "id": "topic:india:bsa-s-62",
       "subject": "bsa",
-      "type": "source-attachment",
-      "severity": "high",
-      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -13983,12 +15126,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-64.json",
+      "id": "topic:india:bsa-s-64",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-65.json",
       "id": "topic:india:bsa-s-65",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-65.json",
+      "id": "topic:india:bsa-s-65",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14001,12 +15162,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-66.json",
+      "id": "topic:india:bsa-s-66",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-67.json",
       "id": "topic:india:bsa-s-67",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-67.json",
+      "id": "topic:india:bsa-s-67",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14019,12 +15198,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-68.json",
+      "id": "topic:india:bsa-s-68",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-69.json",
       "id": "topic:india:bsa-s-69",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-69.json",
+      "id": "topic:india:bsa-s-69",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14037,12 +15234,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-7.json",
+      "id": "topic:india:bsa-s-7",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-70.json",
       "id": "topic:india:bsa-s-70",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-70.json",
+      "id": "topic:india:bsa-s-70",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14055,12 +15270,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-71.json",
+      "id": "topic:india:bsa-s-71",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-72.json",
       "id": "topic:india:bsa-s-72",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-72.json",
+      "id": "topic:india:bsa-s-72",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14073,12 +15306,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-73.json",
+      "id": "topic:india:bsa-s-73",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-74.json",
       "id": "topic:india:bsa-s-74",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-74.json",
+      "id": "topic:india:bsa-s-74",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14091,12 +15342,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-75.json",
+      "id": "topic:india:bsa-s-75",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-76.json",
       "id": "topic:india:bsa-s-76",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-76.json",
+      "id": "topic:india:bsa-s-76",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14109,12 +15378,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-77.json",
+      "id": "topic:india:bsa-s-77",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-78.json",
       "id": "topic:india:bsa-s-78",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-78.json",
+      "id": "topic:india:bsa-s-78",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14127,12 +15414,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-79.json",
+      "id": "topic:india:bsa-s-79",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-8.json",
       "id": "topic:india:bsa-s-8",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-8.json",
+      "id": "topic:india:bsa-s-8",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14145,12 +15450,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-80.json",
+      "id": "topic:india:bsa-s-80",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-81.json",
       "id": "topic:india:bsa-s-81",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-81.json",
+      "id": "topic:india:bsa-s-81",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14163,12 +15486,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-82.json",
+      "id": "topic:india:bsa-s-82",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-83.json",
       "id": "topic:india:bsa-s-83",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-83.json",
+      "id": "topic:india:bsa-s-83",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14181,12 +15522,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-84.json",
+      "id": "topic:india:bsa-s-84",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-85.json",
       "id": "topic:india:bsa-s-85",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-85.json",
+      "id": "topic:india:bsa-s-85",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14199,12 +15558,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-86.json",
+      "id": "topic:india:bsa-s-86",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-87.json",
       "id": "topic:india:bsa-s-87",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-87.json",
+      "id": "topic:india:bsa-s-87",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14217,12 +15594,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-88.json",
+      "id": "topic:india:bsa-s-88",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-89.json",
       "id": "topic:india:bsa-s-89",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-89.json",
+      "id": "topic:india:bsa-s-89",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14235,12 +15630,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-9.json",
+      "id": "topic:india:bsa-s-9",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-90.json",
       "id": "topic:india:bsa-s-90",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-90.json",
+      "id": "topic:india:bsa-s-90",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14253,12 +15666,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-91.json",
+      "id": "topic:india:bsa-s-91",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-92.json",
       "id": "topic:india:bsa-s-92",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-92.json",
+      "id": "topic:india:bsa-s-92",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14271,12 +15702,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-93.json",
+      "id": "topic:india:bsa-s-93",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-94.json",
       "id": "topic:india:bsa-s-94",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-94.json",
+      "id": "topic:india:bsa-s-94",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14289,12 +15738,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-95.json",
+      "id": "topic:india:bsa-s-95",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-96.json",
       "id": "topic:india:bsa-s-96",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
       "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-96.json",
+      "id": "topic:india:bsa-s-96",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
@@ -14307,8 +15774,35 @@
       "evidence": ""
     },
     {
+      "path": "topics/bsa/s-97.json",
+      "id": "topic:india:bsa-s-97",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bsa/s-98.json",
       "id": "topic:india:bsa-s-98",
+      "subject": "bsa",
+      "type": "source-attachment",
+      "severity": "high",
+      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-98.json",
+      "id": "topic:india:bsa-s-98",
+      "subject": "bsa",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bsa/s-99.json",
+      "id": "topic:india:bsa-s-99",
       "subject": "bsa",
       "type": "source-attachment",
       "severity": "high",
@@ -14319,9 +15813,9 @@
       "path": "topics/bsa/s-99.json",
       "id": "topic:india:bsa-s-99",
       "subject": "bsa",
-      "type": "source-attachment",
-      "severity": "high",
-      "message": "Expected canonical source source:india:india-code-bsa-2023 is not attached.",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
       "evidence": ""
     },
     {
