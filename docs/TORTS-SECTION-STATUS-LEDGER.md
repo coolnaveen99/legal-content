@@ -132,3 +132,11 @@ No row may be reworked merely because a later batch is running. Reopen only for:
 - COMPLETE_LOCKED: **not yet** — content/product validation and production gates still remain.
 
 The verification pass confirmed the Supreme Court authorities used for professional negligence and res ipsa loquitur, the comparative Donoghue/Caparo authorities, and Bharatiya Sakshya Adhiniyam, 2023 section 104. This topic must still pass integration/production gates before lock.
+
+
+### Nuisance — substantive verification checkpoint (2026-10-03)
+- Enhancement depth: complete
+- Current statutory check: BNSS 2023 §152 checked for public-nuisance procedure
+- Case-law check: Municipal Council, Ratlam v. Vardhichand verified
+- Status: **VERIFIED**
+- COMPLETE_LOCKED: not yet; integration and production gates remain.
