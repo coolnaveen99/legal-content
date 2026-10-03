@@ -178,9 +178,34 @@
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
+          "2026-10-03 enhancement-depth audit: explicit exam-answer and distinction scaffolds added; substantive legal/case verification remains pending."
         ]
-      }
+      },
+      "examAnswerStructure": {
+        "shortAnswer": "Define the topic, state the governing rule, list essential ingredients, cite the leading authority and conclude.",
+        "tenMark": "Introduction; definition; governing principle; essential ingredients; authorities; illustration/application; distinction; conclusion.",
+        "sixteenMark": "Introduction and context; detailed doctrine; ingredients and limitations; leading authorities and ratios; hypothetical application; defences/procedural issues; remedies; conclusion."
+      },
+      "distinctions": [
+        {
+          "title": "Topic versus neighbouring doctrine",
+          "left": "Deceit requires a false representation made knowingly, without belief in its truth or recklessly, intended to induce reliance and causing damage",
+          "right": "Nearest related tort or statutory doctrine",
+          "rows": [
+            {
+              "point": "Legal basis",
+              "left": "Apply the specific elements of this topic.",
+              "right": "Requires its own independent ingredients."
+            },
+            {
+              "point": "Application",
+              "left": "Do not infer liability from the label alone.",
+              "right": "Identify and prove the separate cause of action."
+            }
+          ]
+        }
+      ]
     }
   },
   "sources": [
