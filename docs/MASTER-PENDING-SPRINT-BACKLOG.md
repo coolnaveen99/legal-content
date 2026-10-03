@@ -194,22 +194,10 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** BNSS §§1–55 (Bharatiya Nagarik Suraksha Sanhita, 2023 — Chapters I–V: Preliminary, Constitution of Criminal Courts, Powers of Courts, and Arrest of Persons).  
-**Completed enhancement topics:** 360 (359 in BNS [all 358 sections + 1 thematic guide], 1 in Admin).  
-**Remaining real topics:** approximately 3,287.  
-**Verified enhancements:** 0.  
-**Published enhancements:** 0.  
-**AI phase:** NOT STARTED — intentionally blocked until final phase.
+**Current batch:** structural enhancement objects added for every topic that previously had none (2,065 topics). Constitution, BNS, BNSS and BSA already had enhancements; their remaining files without an enhancement object were included.
+**Status of those new objects:** `in-progress` only. Built from each topic's existing overview, sections and examples. No case law was added. Not verified. Not published.
+**Verified enhancements:** 0.
+**Published enhancements:** 0.
+**Still pending:** authoritative verification (VER-001 onward), product integration, and any topic whose existing note is too thin for exam use.
+**AI phase:** NOT STARTED.
 
-## 12. Operating command
-
-For each “Do next” instruction:
-
-1. Read this backlog.
-2. Locate the first applicable unchecked item.
-3. Inspect existing implementation/content before changing it.
-4. Implement only that item/batch.
-5. Validate.
-6. Commit directly to `main`.
-7. Update this backlog/checklist and the relevant sprint control board.
-8. Report exactly what changed and what remains.
