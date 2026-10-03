@@ -79,8 +79,8 @@
 - [x] **BNS-004** Complete BNS §§45–62 (Chapter IV Abetment, Criminal Conspiracy and Attempt complete). Additive in-progress enhancements on topics/bns/s-45.json through s-62.json. Not verified or published.
 - [x] **BNS-005** Complete BNS §§63–99 (Chapter V Offences against Women and Children complete). Additive in-progress enhancements on topics/bns/s-63.json through s-99.json. Not verified or published.
 - [x] **BNS-006** Complete BNS §§100–146 (Chapter VI Offences Affecting the Human Body complete). Additive in-progress enhancements on topics/bns/s-100.json through s-146.json. Not verified or published.
-- [ ] **BNS-007** Continue BNS sequential batches (Chapter VII Offences against the State ss. 147–158 and Chapter VIII Armed Forces ss. 159–168) through the complete real-topic catalog.
-- [ ] **BNSS-001** Enhance BNSS topics in controlled batches.
+- [x] **BNS-007** Complete BNS §§147–358 (Chapters VII through XIX complete — BNS catalogue 100% enhanced from Section 1 to Section 358). Additive in-progress enhancements on topics/bns/s-147.json through s-358.json. Not verified or published.
+- [ ] **BNSS-001** Enhance BNSS topics in controlled batches (starting with Chapter I–V ss. 1–55 Preliminary, Constitution of Criminal Courts, Powers of Courts, and Arrest).
 - [ ] **BSA-001** Enhance BSA/evidence topics in controlled batches.
 - [ ] **CONST-001** Enhance Constitutional Law topics.
 - [ ] **CONTRACT-001** Enhance Contract/commercial-law topics.
@@ -194,9 +194,9 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** BNS §§147–168 (Chapter VII — Offences against the State: Waging War, Sedition/Sovereignty Offences s. 152; and Chapter VIII — Offences relating to the Army, Navy and Air Force).  
-**Completed enhancement topics:** 148 (147 in BNS, 1 in Admin).  
-**Remaining real topics:** approximately 3,499.  
+**Current batch:** BNSS §§1–55 (Bharatiya Nagarik Suraksha Sanhita, 2023 — Chapters I–V: Preliminary, Constitution of Criminal Courts, Powers of Courts, and Arrest of Persons).  
+**Completed enhancement topics:** 360 (359 in BNS [all 358 sections + 1 thematic guide], 1 in Admin).  
+**Remaining real topics:** approximately 3,287.  
 **Verified enhancements:** 0.  
 **Published enhancements:** 0.  
 **AI phase:** NOT STARTED — intentionally blocked until final phase.
