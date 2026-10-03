@@ -41,9 +41,9 @@
       "Indian Contract Act, 1872"
     ],
     "enhancement": {
-      "version": "1",
+      "version": 2,
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Bailment and pledge — ICA ss. 148–179.",
         "Separate the points already present in the topic sections.",
@@ -80,7 +80,9 @@
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
-          "Case-law rule applied: no new case added because no section-specific judgment page was opened on the permitted eCourts/Supreme Court sites."
+          "Case-law rule applied: no new case added because no section-specific judgment page was opened on the permitted eCourts/Supreme Court sites.",
+          "Subject-inventory audit completed for the Contract repository; this topic is included in the full 60-topic subject scope.",
+          "Enhancement metadata upgraded to the subject-enhancement standard; no unverified case authority has been added."
         ]
       },
       "examAnswerStructure": {
@@ -106,7 +108,11 @@
           "Counterargument and response",
           "Conclusion"
         ]
-      }
+      },
+      "distinctions": [
+        "Bailment vs pledge: pledge is a species of bailment in which possession is delivered as security for a debt or performance.",
+        "Bailment vs sale: bailment ordinarily transfers possession for a purpose without transferring ownership, whereas a sale transfers ownership."
+      ]
     },
     "caseLaw": []
   },
@@ -114,7 +120,7 @@
     "source:india:india-code-contract-1872",
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-03T11:06:00.000Z",
+  "updatedAt": "2026-10-03T12:21:16.525Z",
   "effectiveFrom": "1872-09-01",
   "effectiveTo": null,
   "tags": [
