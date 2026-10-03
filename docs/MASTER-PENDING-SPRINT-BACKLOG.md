@@ -197,5 +197,5 @@ An item can be marked **COMPLETED** only when:
 **Current batch:** BNS s.2 public-servant descriptions (i) and (k) checked. Registration Act subject (3 topics) checked against India Code. Gaps recorded. None marked verified.
 **Verified enhancements:** 0.
 **Next open item:** reconcile the Registration Act omissions, then the next small subject.
-**AI phase:** NOT STARTED.
+**Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
 
