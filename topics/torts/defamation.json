@@ -38,19 +38,21 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Defamation (civil).",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "Civil defamation protects reputation against false and defamatory publication to a third party. Distinguish the tort from criminal defamation under BNS s. 356. Defences include truth (justification), fair comment on matters of public interest, and privilege (absolute or qualified).",
-      "legalPrinciple": "Ingredients. 1. Defamatory statement tending to lower the claimant in the estimation of right-thinking persons. 2. Reference to the claimant. 3. Publication to at least one third person. Libel (permanent form) and slander (spoken) are traditionally distinguished; plead the precise words and publication facts.",
-      "statutoryFramework": "Defamation (civil)",
+      "definition": "Civil defamation protects reputation against publication of a false and defamatory imputation concerning the claimant to a third person, subject to recognised defences.",
+      "legalPrinciple": "The tort balances protection of reputation against lawful communication, including truth and recognised forms of privilege and fair comment/opinion.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields.",
       "essentialIngredients": [
-        "Ingredients: 1. Defamatory statement tending to lower the claimant in the estimation of right-thinking persons. 2. Reference to the claimant. 3. Publication to at least one third person. Libel (permanent form) and slander (spoken) are traditionally distinguished; plead the precise words and publication facts.",
-        "Defences: Justification (truth of the imputations of fact). Fair comment (honest opinion on true facts on a matter of public interest). Absolute privilege (e.g. certain parliamentary and judicial occasions). Qualified privilege (duty/interest occasions, defeated by malice).",
-        "Track B: Civil court suit for damages and/or injunction. Particularise the words, dates, medium, and audience. Criminal process under BNS is separate — do not conflate burden or remedy. Electronic publication still requires proof of publication and identity."
+        "Defamatory imputation",
+        "Reference to claimant",
+        "Publication to a third person",
+        "Actionable legal injury",
+        "Absence of valid defence"
       ],
       "detailedExplanation": "Civil defamation protects reputation against false and defamatory publication to a third party. Distinguish the tort from criminal defamation under BNS s. 356. Defences include truth (justification), fair comment on matters of public interest, and privilege (absolute or qualified).\n\nIngredients\n1. Defamatory statement tending to lower the claimant in the estimation of right-thinking persons. 2. Reference to the claimant. 3. Publication to at least one third person. Libel (permanent form) and slander (spoken) are traditionally distinguished; plead the precise words and publication facts.\n\nDefences\nJustification (truth of the imputations of fact). Fair comment (honest opinion on true facts on a matter of public interest). Absolute privilege (e.g. certain parliamentary and judicial occasions). Qualified privilege (duty/interest occasions, defeated by malice).\n\nTrack B\nCivil court suit for damages and/or injunction. Particularise the words, dates, medium, and audience. Criminal process under BNS is separate — do not conflate burden or remedy. Electronic publication still requires proof of publication and identity.",
       "examples": [
@@ -61,21 +63,43 @@
         "Civil defamation protects reputation against false and defamatory publication to a third party. Distinguish the tort from criminal defamation under BNS s. 356. Defences include truth (justification), fair comment on matters of public interest, and privilege (absolute or qualified)."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
+          "No case added to active case-law fields because the specific judgment page was not opened.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "defamation-dist-1",
+          "title": "Civil defamation seeks civil relief such as damages or injunction; criminal defamation is a distinct statutory offence.",
+          "left": "Civil defamation seeks civil relief such as damages or injunction; criminal defamation is a distinct statutory offence.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        },
+        {
+          "id": "defamation-dist-2",
+          "title": "Libel and slander are historical common-law classifications; Indian civil practice focuses on actionable defamatory publication.",
+          "left": "Libel and slander are historical common-law classifications; Indian civil practice focuses on actionable defamatory publication.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Definition → reputation → ingredients → forms → defences → remedies → application → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.001Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
