@@ -102,6 +102,21 @@ function deriveTitle(obj, localId) {
   return humanize(localId);
 }
 
+const RENAMED_TOPIC_IDS = new Map([
+  ["topic:india:tort-negligence", "topic:india:torts-negligence"],
+  ["topic:india:tort-strict-liability", "topic:india:torts-strict-liability"],
+  ["topic:india:tort-nuisance", "topic:india:torts-nuisance"],
+]);
+
+function normalizeRenamedReferences(value) {
+  if (typeof value === "string") return RENAMED_TOPIC_IDS.get(value) ?? value;
+  if (Array.isArray(value)) return value.map(normalizeRenamedReferences);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, normalizeRenamedReferences(child)]));
+  }
+  return value;
+}
+
 function buildCanonical(subject, localId, legacy) {
   const overview = String(
     legacy.overview ??
@@ -114,7 +129,7 @@ function buildCanonical(subject, localId, legacy) {
 
   const content = {
     overview,
-    ...legacy,
+    ...normalizeRenamedReferences(legacy),
     sections: normalizeSections(legacy.sections),
     examples: normalizeExamples(legacy.examples),
     hypotheticals: normalizeHypotheticals(legacy.hypotheticals),
