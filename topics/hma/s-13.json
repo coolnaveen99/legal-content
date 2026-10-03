@@ -19,36 +19,64 @@
     "legacySubjectSlug": "family",
     "legacyTopicId": "s-13",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 13 HMA — Divorce.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain Hindu Marriage Act, 1955 Section 13 and its statutory purpose.",
+        "Identify and apply the provision's ingredients to a factual problem.",
+        "Distinguish the provision from related HMA remedies."
       ],
-      "definition": "Section 13 sets out the grounds on which either spouse may obtain a decree of divorce, including adultery, cruelty, desertion for not less than two years, conversion, unsoundness of mind, virulent and incurable leprosy (historically), venereal disease in a communicable form, renunciation, and presumption of death, with additional grounds and waiting periods in specified cases.",
-      "legalPrinciple": "Section 13 sets out the grounds on which either spouse may obtain a decree of divorce, including adultery, cruelty, desertion for not less than two years, conversion, unsoundness of mind, virulent and incurable leprosy (historically), venereal disease in a communicable form, renunciation, and presumption of death, with additional grounds and waiting periods in specified cases.",
-      "statutoryFramework": "Section 13 HMA — Divorce",
+      "definition": "Section 13 sets out statutory grounds on which a spouse may seek a decree of divorce, subject to the conditions, provisos and procedural safeguards contained in the Act.",
+      "legalPrinciple": "A divorce petition must be tied to a specific statutory ground and its ingredients; allegations of marital discord alone are not a substitute for proving a Section 13 ground.",
+      "statutoryFramework": "Hindu Marriage Act, 1955, Section 13, read with Section 23 and the applicable provisions governing procedure and relief.",
       "essentialIngredients": [
-        "Section 13 sets out the grounds on which either spouse may obtain a decree of divorce, including adultery, cruelty, desertion for not less than two years, conversion, unsoundness of mind, virulent and incurable leprosy (historically), venereal disease in a communicable form, renunciation, and presumption of death, with additional grounds and waiting periods in specified cases."
+        "Identify the specific Section 13 ground pleaded.",
+        "Establish each ingredient of that ground by evidence.",
+        "Check statutory periods or conditions where applicable.",
+        "Consider Section 23 bars and defences such as condonation, collusion and taking advantage of one's own wrong.",
+        "Apply the facts to the selected statutory ground."
       ],
-      "detailedExplanation": "Section 13 sets out the grounds on which either spouse may obtain a decree of divorce, including adultery, cruelty, desertion for not less than two years, conversion, unsoundness of mind, virulent and incurable leprosy (historically), venereal disease in a communicable form, renunciation, and presumption of death, with additional grounds and waiting periods in specified cases.",
+      "detailedExplanation": "Section 13 contains multiple distinct grounds, so a proper answer must not treat divorce as one generic concept. Cruelty, desertion, conversion, specified mental-health conditions, renunciation, presumed death and other grounds have different elements. The Supreme Court's recent decision in Amutha v. A.R. Subramanian illustrates the need to analyse cruelty and desertion separately under Section 13(1)(ia) and (ib).",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "A spouse alleging cruelty should identify the conduct relied upon, explain why it constitutes mental or physical cruelty on the applicable standard, and then address evidence and any Section 23 bar."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 13 is contested/fault-based statutory divorce; Section 13B is mutual-consent divorce. Section 23 supplies safeguards that can affect relief under Section 13.",
+      "caseLaw": [
+        {
+          "name": "Amutha v. A.R. Subramanian",
+          "year": 2024,
+          "citation": "2024 INSC 1033; Civil Appeal No. 2643 of 2023",
+          "holding": "The Supreme Court addressed divorce under Section 13(1)(ia) and (ib), discussing mental cruelty and desertion and applying those statutory grounds to the facts.",
+          "relevance": "Direct authority for Section 13 cruelty and desertion analysis.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/41090/41090_2018_6_1501_58085_Judgement_19-Dec-2024.pdf"
+        }
+      ],
+      "problemApplication": "Select the pleaded ground, list its statutory ingredients, test the evidence against each ingredient, then examine Section 23 before reaching the result.",
+      "examAnswerStructure": [
+        "Introduction and statutory provision",
+        "Identify the applicable HMA remedy/ground",
+        "State each statutory ingredient",
+        "Apply the facts and evidence to each ingredient",
+        "Address related safeguards or exceptions",
+        "Conclude with the available statutory relief"
+      ],
       "keyTakeaways": [
-        "Section 13 sets out the grounds on which either spouse may obtain a decree of divorce, including adultery, cruelty, desertion for not less than two years, conversion, unsoundness of mind, virulent and incurable leprosy (historically), venereal disease in a communicable form, renunciation, and presumption of death, with additional grounds and waiting periods in specified cases."
+        "A divorce petition must be tied to a specific statutory ground and its ingredients; allegations of marital discord alone are not a substitute for proving a Section 13 ground.",
+        "Section 13 is contested/fault-based statutory divorce; Section 13B is mutual-consent divorce. Section 23 supplies safeguards that can affect relief under Section 13."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Hindu Marriage Act, 1955",
+        "Official Supreme Court of India judgment sources listed in caseLaw"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory text reviewed for Section 13.",
+          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
+          "No unverified case authority was added.",
+          "The central Act text and Supreme Court authorities should be supplemented with applicable State amendments/procedural rules where relevant."
         ]
       }
     }
@@ -56,7 +84,7 @@
   "sources": [
     "source:india:india-code-hma-1955"
   ],
-  "updatedAt": "2026-10-03T11:18:49.694Z",
+  "updatedAt": "2026-10-03T13:30:00Z",
   "effectiveFrom": "1955-05-18",
   "effectiveTo": null
 }
