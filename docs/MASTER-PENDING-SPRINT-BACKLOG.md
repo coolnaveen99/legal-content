@@ -205,7 +205,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Current control item:** CONTROL-003 / Torts verification — absolute-liability.json was not named in validator errors. Catalogue enhancement validation still reports 5935 errors. Not COMPLETE_LOCKED. Integration and production remain open.
+**Current control item:** Catalogue enhancement gate. Missing distinctions, caseLaw and examAnswerStructure keys were added as empty or not-opened placeholders. No case was invented. Validator errors after the additive pass: see commit. Not COMPLETE_LOCKED.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
 **Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.
