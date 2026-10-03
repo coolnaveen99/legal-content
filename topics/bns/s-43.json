@@ -132,12 +132,93 @@
       "relationship": "historical-correspondence",
       "currentLawStatus": "historical-reference-only",
       "verificationBasis": "BPRD/MHA comparative BNS↔IPC material"
+    },
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the duration of the right of private defence of property under BNS s. 43.",
+        "Analyze the distinct commencement and termination rules across theft, robbery, mischief, and criminal trespass.",
+        "Identify the exact moments when property defence ceases."
+      ],
+      "definition": "BNS s. 43 provides the rules for commencement and continuance of the right of private defence of property: (1) The right commences when a reasonable apprehension of danger to the property commences; (2) In cases of theft, the right continues until the offender has effected his retreat with the property, or either the assistance of the public authorities is obtained, or the property has been recovered; (3) In cases of robbery, the right continues as long as the offender causes or attempts to cause to any person death or hurt or wrongful restraint or as long as the fear of instant death or of instant hurt or of instant personal restraint continues; (4) In cases of criminal trespass or mischief, the right continues as long as the offender continues in the commission of criminal trespass or mischief; (5) In cases of house-breaking after sunset and before sunrise, the right continues as long as the house-trespass which has been begun by such house-breaking continues.",
+      "legalPrinciple": "Private defence of property begins with reasonable apprehension of danger to the property, but its continuance varies strictly by the specific nature of the crime, terminating when the theft is complete, when property is recovered, or when the trespasser vacates the premises.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 43 (corresponding to IPC s. 105).",
+        "General Commencement: Begins when reasonable apprehension of danger to property commences.",
+        "Theft Duration: Continues until: (a) offender has effected retreat with property, OR (b) public authority assistance obtained, OR (c) property recovered.",
+        "Robbery Duration: Continues as long as offender causes/attempts death/hurt/restraint, or fear of instant death/hurt/restraint continues.",
+        "Mischief / Trespass Duration: Continues as long as offender continues in the commission.",
+        "Night House-breaking Duration: Continues as long as house-trespass begun by night house-breaking continues."
+      ],
+      "essentialIngredients": [
+        "Reasonable apprehension of danger to property commenced.",
+        "The defensive act took place within the specific statutory time-window applicable to that offence.",
+        "The defence ceased the moment the statutory terminating condition occurred."
+      ],
+      "detailedExplanation": "Section 43 sets out precise temporal boundaries for property defence. For theft, the owner can pursue and tackle the thief so long as the thief is still making his retreat with the goods. But once the thief has safely reached his hideout and the pursuit has ended, the owner cannot attack the thief three days later to grab the goods back. For criminal trespass and mischief, the right lasts exactly as long as the trespasser remains on the land. Once the trespasser walks off the land, the right to strike him ends immediately.",
+      "examples": [
+        "Teaching example (Theft in hot pursuit): A thief steals a bicycle and pedals away. The owner immediately chases him on a motorcycle, cuts him off two hundred meters down the road, and strikes him to recover the bicycle. Section 43(2) protects the owner because the offender had not yet 'effected his retreat'.",
+        "Teaching example (Delayed retribution): A shopkeeper discovers cash missing in the evening and reviews CCTV showing an employee stole it at noon. When the employee arrives the next morning, the shopkeeper assaults him with an iron bar. Section 43 does not apply; the right of private defence had long terminated."
+      ],
+      "distinctions": [
+        "Theft duration vs Robbery duration: Theft ends upon completed retreat or recovery; Robbery continues as long as physical fear or threat of death/hurt persists.",
+        "Hot pursuit vs Stale vengeance: Hot pursuit while retreat is incomplete is lawful defence; delayed recovery by force after retreat is completed is unlawful."
+      ],
+      "problemApplication": [
+        "Issue: Whether an owner who struck a housebreaker who had already climbed out of the window and reached the public highway sixty meters away can plead private defence.",
+        "Rule: Under BNS s. 43(5), defence against night house-breaking continues only as long as the house-trespass continues.",
+        "Application: Once the offender exited the house and compound and reached the highway, the house-trespass ended. Striking him on the highway falls outside s. 43(5).",
+        "Conclusion: Private defence is not available for acts done after the house-trespass ended."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 43 rules on duration of property defence.",
+          "State theft termination rules: retreat complete, police aid obtained, or property recovered.",
+          "State trespass duration: as long as trespass continues."
+        ],
+        "tenMark": [
+          "Introduction: Temporal regulation of property defence.",
+          "Detailed analysis of the 4 statutory categories under s. 43.",
+          "The doctrine of hot pursuit in theft.",
+          "Teaching examples illustrating valid pursuit vs stale revenge.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The legal necessity for rigid time limits on property defence.",
+          "Exhaustive dissection of all five sub-clauses of BNS s. 43.",
+          "Analysis of 'effected his retreat' in judicial precedent.",
+          "Interplay between s. 43 and the duty to seek public authority recourse under s. 37.",
+          "The boundary between lawful self-help in hot pursuit and illegal vigilante justice.",
+          "Comprehensive IRAC problem question analysis.",
+          "Master exam summary."
+        ]
+      },
+      "keyTakeaways": [
+        "Commences upon reasonable apprehension of danger to property.",
+        "Theft defence ends when retreat is complete, police aid obtained, or property recovered.",
+        "Trespass defence lasts only as long as the trespass continues."
+      ]
     }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.697Z",
+  "updatedAt": "2026-10-03T08:56:50.672Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

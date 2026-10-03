@@ -133,12 +133,96 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-32",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the defence of duress / compulsion under BNS s. 32.",
+        "Analyze the high threshold: reasonable apprehension of instant death.",
+        "Identify the two absolute statutory exclusions: murder and offences against the State punishable with death."
+      ],
+      "definition": "BNS s. 32 provides that except murder, and offences against the State punishable with death, nothing is an offence which is done by a person who is compelled to do it by threats, which, at the time of doing it, reasonably cause the apprehension that instant death to that person will otherwise be the consequence: Provided the person doing the act did not of his own accord, or from a reasonable apprehension of harm to himself short of instant death, place himself in the situation by which he became subject to such compulsion.",
+      "legalPrinciple": "A person forced by imminent threats of instant death to commit a crime is excused on grounds of duress, because the instinct of self-preservation overpowers free will. However, the law strictly denies this defence to the killing of an innocent person (murder) or treasonable attacks against the State.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 32 (corresponding to IPC s. 94).",
+        "Threshold threat: Must be a threat of 'instant death' (not future death, hurt, property loss, or harm to third parties).",
+        "Temporal immediacy: Threat must cause apprehension 'at the time of doing it'.",
+        "Absolute Exclusion 1: Murder (one cannot save one's own life by taking another innocent life).",
+        "Absolute Exclusion 2: Offences against the State punishable with death (treason/waging war).",
+        "Exclusionary Proviso 1: Voluntary membership in a criminal gang / placing oneself in position of duress.",
+        "Exclusionary Proviso 2: Submission to duress under threat of harm short of instant death."
+      ],
+      "essentialIngredients": [
+        "The person was compelled to do the act by threats.",
+        "The threats reasonably caused apprehension of instant death at the time of doing the act.",
+        "The offence committed was NOT murder, and NOT an offence against the State punishable with death.",
+        "The person did not voluntarily place himself in that situation of compulsion."
+      ],
+      "detailedExplanation": "Section 32 codifies the defence of duress per minas. The standard is extremely stringent. Threats of future injury, threats of imprisonment, financial ruin, or even threats of death tomorrow do not suffice: there must be apprehension of 'instant death'. Furthermore, the defence is completely barred if the crime committed is murder. If a gunman threatens 'kill that child or I will shoot you immediately', the law commands that you must die rather than murder the child. Similarly, joining a gang of dacoits voluntarily disqualifies the person from claiming duress if the gang later compels him at gunpoint to break open a safe.",
+      "examples": [
+        "Teaching example (Blacksmith forced by dacoits): A gang of armed dacoits seizes a village blacksmith, holds guns to his head, and threatens to shoot him instantly unless he takes his tools and breaks open the door of a house. The blacksmith complies. Section 32 protects him because the crime was housebreaking (not murder), threat was of instant death, and he was seized by force.",
+        "Teaching example (Compelled to commit murder): An armed militant threatens to shoot a hostage instantly unless the hostage shoots an innocent passerby. The hostage shoots and kills the passerby. Section 32 expressly excludes murder; the hostage is guilty of murder."
+      ],
+      "distinctions": [
+        "Duress (s. 32) vs Necessity (s. 19): Section 32 involves compulsion by human threats of instant death; Section 19 involves choosing the lesser evil in emergencies arising from natural forces or unavoidable circumstances.",
+        "Threat of instant death vs Threat of hurt: Threats of grievous hurt, torture, or harm to family members do not satisfy s. 32.",
+        "Involuntary capture vs Voluntary membership in gang: Joining a dacoit gang voluntarily forfeits s. 32; being abducted by dacoits allows s. 32."
+      ],
+      "problemApplication": [
+        "Issue: Whether an accountant who assisted robbers in cracking a vault under the immediate threat of being shot dead can plead s. 32.",
+        "Rule: BNS s. 32 excuses acts compelled by reasonable apprehension of instant death, provided the offence is not murder or capital state treason, and the actor did not voluntarily expose himself to the gang.",
+        "Application: Check if the accountant was abducted or cornered, if loaded weapons were aimed at him (instant death), and verify that no murder was committed by him.",
+        "Conclusion: Section 32 applies; the accountant is exempt from criminal liability."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 32 rule on compulsion by threats.",
+          "Highlight the threat requirement: apprehension of instant death.",
+          "List the two non-negotiable exclusions: murder and capital state offences."
+        ],
+        "tenMark": [
+          "Introduction: The defence of duress in penal law.",
+          "Essential ingredients of s. 32.",
+          "The rationale behind excluding murder.",
+          "The two provisos regarding voluntary exposure to gangs.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Philosophical conflict between self-preservation and moral duty.",
+          "Detailed textual dissection of BNS s. 32.",
+          "The standard of 'instant death' compared with English common law of duress.",
+          "In-depth analysis of the exclusion of murder: nemo debet mori pro alio versus state expectations.",
+          "The provisos: gang affiliation and self-induced duress.",
+          "Full problem question resolution applying IRAC.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Threat must be of instant death at the time of the act.",
+        "Never applies to murder or capital offences against the State.",
+        "Forfeited if the actor voluntarily joined a criminal group."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.681Z",
+  "updatedAt": "2026-10-03T08:56:50.335Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

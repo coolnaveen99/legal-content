@@ -123,12 +123,94 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-22",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Define legal insanity under BNS s. 22 and differentiate it from medical insanity.",
+        "Examine the cognitive impairment test: incapable of knowing the nature of the act or that it is wrong or contrary to law.",
+        "Understand the crucial timing requirement: unsoundness must exist at the time of doing the act."
+      ],
+      "definition": "BNS s. 22 provides that nothing is an offence which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law.",
+      "legalPrinciple": "Derived from the M'Naghten principles, s. 22 excuses an act only when mental disease or unsoundness deprives the actor of cognitive capacity to such an extent that he does not know the physical nature of what he is doing, or cannot distinguish that the act is morally wrong or legally prohibited.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 22 (corresponding to IPC s. 84).",
+        "Crucial temporal element: 'at the time of doing it' — prior or subsequent mental illness is relevant only as circumstantial evidence of state of mind during the act.",
+        "Etiology: 'by reason of unsoundness of mind' (encompasses psychosis, severe dementia, acute delirium, but excludes mere eccentricity, anger, or moral depravity).",
+        "Disjunctive cognitive limbs: (1) incapable of knowing the nature of the act, OR (2) incapable of knowing that what he is doing is either wrong, OR (3) contrary to law.",
+        "Burden of proof: Presumption of sanity exists; initial burden of establishing legal insanity rests on the defence under Section 105 BSA on a preponderance of probabilities."
+      ],
+      "essentialIngredients": [
+        "The person committed an act which would otherwise be an offence.",
+        "At the time of doing the act, the person suffered from unsoundness of mind.",
+        "By reason of such unsoundness of mind, the person suffered total cognitive incapacity.",
+        "The incapacity rendered him unable to know the physical nature of the act, or that the act was wrong, or that it was contrary to law."
+      ],
+      "detailedExplanation": "Section 22 embodies the fundamental principle 'actus non facit reum nisi mens sit rea' — where mental capacity is totally extinguished by mental disease, no mens rea can form. The law distinguishes sharply between medical insanity and legal insanity. A person may medically suffer from schizophrenia, bipolar disorder, or delusions, but if at the moment of the crime he knew he was holding a weapon, striking a human being, and that killing is forbidden by law, s. 22 does not protect him. The defence must prove that mental derangement completely disabled cognitive judgment. Lucid intervals require specific scrutiny: an act committed during a lucid interval does not qualify for protection.",
+      "examples": [
+        "Teaching example (Nature of act unknown): A person suffering from severe acute psychosis believes he is slicing a pumpkin when he is in fact striking his sleeping brother. He is incapable of knowing the physical nature of his act; s. 22 applies.",
+        "Teaching example (Medical vs Legal insanity): An individual with paranoid delusions feels his neighbor is plotting against his job. In planned retaliation, he buys poison, disguises his identity, administers it, and attempts to dispose of the body. While medically disturbed, his planning and concealment demonstrate he knew the act was wrong and contrary to law; s. 22 is unavailable."
+      ],
+      "distinctions": [
+        "Medical insanity vs Legal insanity: Medical insanity is a clinical condition; legal insanity is a cognitive incapacity test at the exact moment of the offence.",
+        "Unsoundness of mind vs Voluntary intoxication: Involuntary intoxication is treated under s. 23; voluntary intoxication under s. 24 does not confer the absolute cognitive defense of s. 22.",
+        "Permanent insanity vs Lucid intervals: Acts done during a proven lucid interval attract full criminal responsibility."
+      ],
+      "problemApplication": [
+        "Issue: Whether the accused can claim the benefit of BNS s. 22 for an unprovoked fatal assault accompanied by incoherent speech.",
+        "Rule: The accused must establish unsoundness of mind existing at the time of the act which destroyed his capacity to know the nature of the act or that it was wrong or contrary to law.",
+        "Application: Scrutinize evidence of medical history, behavior immediately preceding the act, conduct during commission, absence of motive, absence of secrecy, and conduct after the act (e.g. remaining at the scene vs attempting flight). Motive absence alone does not establish legal insanity.",
+        "Conclusion: If cognitive incapacity at the time of the act is established on balance of probabilities, the exception applies."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "Cite BNS s. 22 and outline the M'Naghten foundation.",
+          "Emphasize the exact temporal requirement: 'at the time of doing it'.",
+          "State the disjunctive test: incapable of knowing nature of act, or that it is wrong, or contrary to law."
+        ],
+        "tenMark": [
+          "Introduction: Insanity as a complete general exception.",
+          "Text and essential ingredients of s. 22.",
+          "Distinction between medical insanity and legal insanity.",
+          "Burden of proof under BSA and the standard of preponderance of probabilities.",
+          "Two contrasting teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction and philosophical foundation: actus non facit reum nisi mens sit rea.",
+          "Detailed analysis of the statutory wording of s. 22.",
+          "The cognitive test: decomposition of 'nature of act', 'wrong', and 'contrary to law'.",
+          "Crucial role of contemporaneous conduct: pre-crime planning, execution, and post-crime concealment.",
+          "Lucid intervals, irresistible impulse, and psychopathic personality compared.",
+          "Evidentiary burdens under BSA and procedural safeguards in trial of accused of unsound mind.",
+          "Comprehensive IRAC problem analysis and current-law summary."
+        ]
+      },
+      "keyTakeaways": [
+        "Legal insanity is strictly cognitive, not emotional or volitional.",
+        "Unsoundness must exist at the exact time of the act.",
+        "Standard of proof for the defence is preponderance of probabilities under Section 105 BSA."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.646Z",
+  "updatedAt": "2026-10-03T08:54:32.818Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

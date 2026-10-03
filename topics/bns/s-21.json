@@ -123,12 +123,94 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-21",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Explain the qualified immunity (doli incapax) applicable to children between seven and twelve years under BNS s. 21.",
+        "Analyze the requirement of immature understanding to judge the nature and consequences of conduct on that occasion.",
+        "Distinguish absolute immunity under s. 20 (under seven) from qualified immunity under s. 21."
+      ],
+      "definition": "BNS s. 21 provides that nothing is an offence which is done by a child above seven years of age and under twelve years of age, who has not attained sufficient maturity of understanding to judge of the nature and consequences of his conduct on that occasion.",
+      "legalPrinciple": "Between seven and twelve years, criminal responsibility is conditional. A child is presumed doli incapax, but the presumption is rebuttable if the prosecution demonstrates that the child had attained sufficient maturity of understanding to know the nature and physical/moral consequences of the act.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 21 (corresponding to IPC s. 83).",
+        "Age threshold: child must be above seven years and under twelve years of age on the date of commission.",
+        "Mental element: absence of sufficient maturity of understanding to judge of the nature and consequences of conduct.",
+        "Contextual assessment: maturity is assessed 'on that occasion', considering the child's behavior prior to, during, and subsequent to the act.",
+        "Burden of proof: Section 105 BSA (formerly Section 105 IEA) places initial burden on the accused, though court examines surrounding circumstances."
+      ],
+      "essentialIngredients": [
+        "The actor is a child above seven years of age and under twelve years of age.",
+        "The child has not attained sufficient maturity of understanding.",
+        "The lack of maturity relates specifically to judging the nature and consequences of conduct on that occasion.",
+        "If maturity is proved, liability attaches (subject to Juvenile Justice Act procedural protections)."
+      ],
+      "detailedExplanation": "Section 21 deals with children in the transitional developmental stage between seven and twelve years. Unlike s. 20 where incapacity is absolute (irrebuttable), s. 21 provides a qualified defence. The inquiry does not depend merely on chronological age or school performance; it focuses on cognitive capacity to appreciate that the act was wrong or illegal on that specific occasion. Evidence of subsequent concealment, hiding the weapon, fabricating excuses, or flight can demonstrate that the child understood the nature and consequences of the act. In modern practice, criminal proceedings against any child under eighteen are governed by the Juvenile Justice (Care and Protection of Children) Act, but s. 21 remains the substantive penal rule determining whether an act constitutes an offence at all.",
+      "examples": [
+        "Teaching example (Immature): A child aged 8 picks up a shiny gold necklace from an open table and drops it into a pond because he likes the splash, not understanding property rights or value. Section 21 applies as maturity is absent.",
+        "Teaching example (Mature understanding): A child aged 11 steals a purse, hides the cash inside his shoe, throws the purse in a drain, and tells bystanders an imaginary story of an intruder. The deliberate concealment shows maturity of understanding; s. 21 does not shield the act from being an offence."
+      ],
+      "distinctions": [
+        "Section 20 vs Section 21: Section 20 provides absolute immunity (under seven years, irrebuttable). Section 21 provides qualified immunity (seven to twelve years, rebuttable).",
+        "Cognitive capacity vs chronological age: Under s. 21, chronological age establishes the bracket, but cognitive understanding determines liability.",
+        "Substantive defence vs JJ Act procedure: Section 21 decides whether the act is an offence; JJ Act regulates how a child in conflict with law is treated."
+      ],
+      "problemApplication": [
+        "Issue: Whether a child aged nine who inflicted harm with a sharp object is entitled to the defence of infancy under BNS s. 21.",
+        "Rule: BNS s. 21 requires age between 7 and 12, plus absence of sufficient maturity of understanding on that occasion.",
+        "Application: Ascertain the child's exact age from birth records. Examine actions immediately before and after the incident (e.g. threats made, hiding the tool, confession of wrongdoing). If conduct indicates realization of consequences, the defence fails.",
+        "Conclusion: If immature understanding is found, no offence is committed under s. 21."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "Cite BNS s. 21 and state the 7 to 12 age bracket.",
+          "Highlight the core requirement: lack of sufficient maturity of understanding to judge nature and consequences on that occasion.",
+          "Contrast with absolute immunity under s. 20."
+        ],
+        "tenMark": [
+          "Introduction: Concept of qualified immunity (doli incapax) in Chapter III.",
+          "Statutory text and essential ingredients.",
+          "Test of maturity: nature and consequences of conduct 'on that occasion'.",
+          "Role of subsequent conduct (concealment, flight) as evidence of maturity.",
+          "Two contrasting teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Evolution of infancy defense from common law to BNS ss. 20 and 21.",
+          "Detailed ingredient-by-ingredient breakdown of s. 21.",
+          "Presumption and burden of proof under BSA.",
+          "Judicial criteria for evaluating 'sufficient maturity' on that occasion.",
+          "Interplay between BNS s. 21 substantive exception and the Juvenile Justice statutory framework.",
+          "Structured problem scenario with IRAC analysis.",
+          "Current-law synthesis and exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Age bracket is strictly above seven and under twelve years.",
+        "Immunity is rebuttable upon proof of sufficient maturity of understanding.",
+        "Maturity is assessed based on conduct and circumstances on that specific occasion."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.643Z",
+  "updatedAt": "2026-10-03T08:54:32.802Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

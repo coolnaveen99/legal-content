@@ -133,12 +133,95 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-30",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Explain the emergency / non-consensual medical doctrine under BNS s. 30.",
+        "Analyze the circumstances where consent is impossible or unavailable in time.",
+        "Examine the four statutory provisos safeguarding life."
+      ],
+      "definition": "BNS s. 30 provides that nothing is an offence by reason of any harm which it may cause to a person for whose benefit it is done in good faith, even without that person's consent, if the circumstances are such that it is impossible for that person to signify consent, or if that person is incapable of giving consent, and has no guardian or other person in lawful charge from whom it is possible to obtain consent in time for the thing to be done with benefit.",
+      "legalPrinciple": "In life-threatening emergencies where a person cannot give consent and no guardian is reachable in time, a person acting in good faith for their benefit is protected from criminal liability for necessary interventions.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 30 (corresponding to IPC s. 92).",
+        "Prerequisite 1: Done in good faith for the benefit of the person.",
+        "Prerequisite 2: Circumstances make it impossible to signify consent (unconsciousness, delirium), OR person incapable and no guardian reachable in time.",
+        "Proviso 1: Does NOT extend to intentional causing of death or attempt.",
+        "Proviso 2: Does NOT extend to doing what doer knows likely to cause death, unless to prevent death/grievous hurt or cure grievous disease.",
+        "Proviso 3: Does NOT extend to intentional grievous hurt or attempt, unless to prevent death/grievous hurt or cure grievous disease.",
+        "Proviso 4: Does NOT extend to abetment of any offence to which it would not extend."
+      ],
+      "essentialIngredients": [
+        "Harm was caused to a person by an act done for that person's benefit.",
+        "The act was done in good faith.",
+        "The act was done without consent because the person was incapable or impossible to obtain consent from, and no guardian was available in time.",
+        "The act conformed to the four statutory provisos."
+      ],
+      "detailedExplanation": "Section 30 is the emergency Samaritan and trauma surgeon provision. When an accident victim is brought unconscious to an emergency ward with internal hemorrhaging, waiting for consent would mean certain death. Section 30 authorizes the surgeon to operate immediately without consent. Similarly, if a house is on fire and a neighbor drops a child from the window into a rescue net, causing minor fractures, the neighbor is protected because the act was done in good faith for the child's life when parental consent was impossible in time.",
+      "examples": [
+        "Teaching example (Emergency surgery): A driver is involved in a severe highway crash and arrives at hospital in a deep coma. Immediate trepanning of the skull is necessary to relieve brain pressure. The neurosurgeon operates without consent. The patient survives with partial paralysis. Section 30 protects the surgeon.",
+        "Teaching example (Rescuing child from tiger): A tiger carries off a child. A hunter fires at the tiger, knowing the bullet might strike the child, but intending in good faith to save the child's life. The bullet wounds the child slightly. The hunter is protected under s. 30 (Proviso 2 exception applies)."
+      ],
+      "distinctions": [
+        "Section 26 vs Section 30: Section 26 requires patient consent; Section 30 operates where consent is impossible or unavailable in time.",
+        "Section 27 vs Section 30: Section 27 requires guardian consent; Section 30 applies when the guardian cannot be contacted in time to save the person."
+      ],
+      "problemApplication": [
+        "Issue: Whether an emergency physician who amputated a crushed limb of an unconscious patient without family consent is criminally liable for grievous hurt.",
+        "Rule: BNS s. 30 excuses non-consensual acts done in good faith for person's benefit in emergency where consent cannot be obtained in time.",
+        "Application: Establish that the patient was comatose, immediate amputation was necessary to prevent fatal gangrene, and relatives could not be reached. The act falls under Proviso 3 (preventing death/grievous hurt).",
+        "Conclusion: Section 30 applies; no offence was committed."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 30 emergency exception text.",
+          "Emphasize impossibility of obtaining timely consent.",
+          "List the four statutory provisos."
+        ],
+        "tenMark": [
+          "Introduction: Emergency medical intervention and Samaritan protection.",
+          "Essential ingredients of s. 30.",
+          "The four statutory provisos.",
+          "Teaching examples (unconscious patient, fire rescue).",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Legal justification for non-consensual emergency interference.",
+          "Detailed examination of BNS s. 30 prerequisites.",
+          "The statutory provisos and life-preservation exceptions.",
+          "Comparative analysis: s. 26 (consensual), s. 27 (guardian consent), and s. 30 (emergency).",
+          "Application to Good Samaritans and emergency hospital admissions.",
+          "IRAC problem question resolution.",
+          "Current law synthesis and review checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Covers emergency acts done in good faith without consent.",
+        "Patient must be incapable or impossible to contact guardian in time.",
+        "Governed by four provisos prohibiting intentional killing."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.673Z",
+  "updatedAt": "2026-10-03T08:56:50.310Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

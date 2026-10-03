@@ -137,12 +137,95 @@
       "relationship": "historical-correspondence",
       "currentLawStatus": "historical-reference-only",
       "verificationBasis": "BPRD/MHA comparative BNS↔IPC material"
+    },
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the four statutory restrictions governing the exercise of private defence under BNS s. 37.",
+        "Analyze the public servant exception and its limitations (apprehension of death/grievous hurt).",
+        "Understand the duty to have recourse to public authorities when time permits.",
+        "Apply the principle of proportionality: no more harm than necessary."
+      ],
+      "definition": "BNS s. 37 provides the negative boundaries of private defence: (1) There is no right of private defence against an act which does not reasonably cause the apprehension of death or of grievous hurt, if done, or attempted to be done, by a public servant acting in good faith under colour of his office, though that act may not be strictly justifiable by law; (2) There is no right of private defence against an act which does not reasonably cause the apprehension of death or of grievous hurt, if done, or attempted to be done, by the direction of a public servant acting in good faith under colour of his office, though that direction may not be strictly justifiable by law; (3) There is no right of private defence in cases in which there is time to have recourse to the protection of the public authorities; (4) The right of private defence in no case extends to the inflicting of more harm than it is necessary to inflict for the purpose of defence.",
+      "legalPrinciple": "Private defence is strictly subordinated to state authority and proportional necessity. A citizen cannot resist public servants acting in good faith without mortal threat, cannot take law into his own hands if police assistance is reachable, and must never inflict more harm than strictly required to neutralize the threat.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 37 (corresponding to IPC s. 99).",
+        "Four Core Restraints:",
+        "1. Public servant acting in good faith under colour of office (unless causing apprehension of death or grievous hurt).",
+        "2. Act done under direction of public servant (unless causing apprehension of death or grievous hurt).",
+        "3. Time to have recourse to public authorities.",
+        "4. The Proportionality Rule: No more harm than necessary to inflict for defence.",
+        "Explanations: Person is not deprived of defence unless he knows or has reason to believe actor is a public servant or acting under official direction."
+      ],
+      "essentialIngredients": [
+        "Restriction 1/2: Act done by public servant or under his direction, in good faith under colour of office, without causing apprehension of death/grievous hurt, where victim knows official status.",
+        "Restriction 3: Opportunity existed with reasonable time and proximity to seek police or public authority protection.",
+        "Restriction 4: Force used exceeded what was necessary to repel the aggression (excessive force loses protection)."
+      ],
+      "detailedExplanation": "Section 37 is the controlling conscience of private defence in Indian law. Even if an act falls within ss. 35, 38, or 41, it MUST satisfy the four gates of s. 37. The public servant protection shields police officers executing irregular warrants in good faith; a citizen cannot shoot a constable merely because the arrest warrant had a clerical defect. However, if the public servant's act threatens unlawful death or grievous hurt, the right of private defence revives fully. The 'recourse' clause demands that if an attack is only threatened tomorrow and a police station is nearby, the citizen must inform police rather than mobilize an armed squad. Finally, proportionality is cardinal: one cannot shoot an unarmed fruit thief with a shotgun.",
+      "examples": [
+        "Teaching example (Excessive force): An unarmed pickpocket snatches a wallet and runs. The victim pulls out a revolver and shoots the fleeing thief in the back, killing him. Section 37(4) is breached because lethal force was wholly unnecessary to defend property.",
+        "Teaching example (Irregular warrant): A police sub-inspector with an unsealed arrest warrant seeks to arrest an accused. The accused attacks the officer with a sword. Section 37(1) bars private defence because the officer acted in good faith under colour of office without threatening death or grievous hurt."
+      ],
+      "distinctions": [
+        "Act not strictly justifiable vs Ultra vires without jurisdiction: Irregular acts in good faith under colour of office are protected; wholly unauthorized acts without colour of jurisdiction are not protected by s. 37.",
+        "Time to seek protection vs Imminent danger: If an armed mob is battering the door, there is no time to seek police aid; s. 37(3) does not apply."
+      ],
+      "problemApplication": [
+        "Issue: Whether a shopkeeper who killed an unarmed burglar attempting to jump a fence with a stolen radio is protected by private defence.",
+        "Rule: BNS s. 37(4) strictly limits defence to inflicting no more harm than necessary for defence.",
+        "Application: The burglar was unarmed, in flight, and posing no threat to human life. Shooting him dead inflicts far more harm than necessary to protect a radio.",
+        "Conclusion: The shopkeeper exceeded the right of private defence under s. 37(4); liability for culpable homicide attaches."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 37 as the controlling boundary of private defence.",
+          "List the four restrictions: public servant, direction of public servant, recourse to authorities, proportionality.",
+          "State the cardinal rule: no more harm than necessary."
+        ],
+        "tenMark": [
+          "Introduction: The checks and balances on private defence.",
+          "Detailed examination of the four restrictions.",
+          "The public servant exception and the 'apprehension of death/grievous hurt' safety valve.",
+          "The proportionality doctrine in Indian jurisprudence.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Balance between individual self-preservation and state public order.",
+          "Comprehensive dissection of all four clauses of BNS s. 37.",
+          "In-depth analysis of 'good faith under colour of office': irregular procedure vs total absence of jurisdiction.",
+          "The doctrine of recourse to public authorities: practical availability versus theoretical existence.",
+          "The rule of proportionality: golden scales test versus reality of sudden attack.",
+          "Complete IRAC problem question analysis.",
+          "Key takeaways and examination checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Governing limitation on all private defence sections.",
+        "Bars defence against public servants acting in good faith unless mortal harm threatened.",
+        "Prohibits inflicting more harm than strictly necessary (proportionality rule)."
+      ]
     }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.695Z",
+  "updatedAt": "2026-10-03T08:56:50.620Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

@@ -129,12 +129,95 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-27",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Explain parental and guardian consent for medical/beneficial acts under BNS s. 27.",
+        "Examine the four mandatory statutory provisos restricting guardian consent.",
+        "Understand the limitation regarding intentional causing of death or grievous hurt."
+      ],
+      "definition": "BNS s. 27 provides that nothing which is done in good faith for the benefit of a person under twelve years of age, or of unsound mind, by or by consent, either express or implied, of the guardian or other person having lawful charge of that person, is an offence by reason of any harm which it may cause, or be intended by the doer to cause, or be known by the doer to be likely to cause to that person.",
+      "legalPrinciple": "A guardian or person having lawful charge of a child under twelve or a person of unsound mind may lawfully consent to beneficial harm on their behalf, subject to four strict provisos safeguarding life and limb.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 27 (corresponding to IPC s. 89).",
+        "Beneficiary: Person under twelve years of age, or person of unsound mind.",
+        "Consent giver: Guardian or person having lawful charge.",
+        "Proviso 1: Does NOT extend to intentional causing of death or attempt to cause death.",
+        "Proviso 2: Does NOT extend to doing what doer knows likely to cause death, unless for preventing death/grievous hurt or curing grievous disease/infirmity.",
+        "Proviso 3: Does NOT extend to intentional grievous hurt or attempt, unless for preventing death/grievous hurt or curing disease.",
+        "Proviso 4: Does NOT extend to abetment of any offence to the committing of which it would not extend."
+      ],
+      "essentialIngredients": [
+        "The act is done for the benefit of a child under 12 or an unsound mind person.",
+        "The act is done in good faith by or with the consent of the lawful guardian.",
+        "The act complies with all four statutory provisos.",
+        "The benefit intended is not mere pecuniary benefit."
+      ],
+      "detailedExplanation": "Children under twelve and persons of unsound mind cannot give legally valid consent under s. 28. Section 27 bridges this incapacity by empowering lawful guardians to consent to necessary medical procedures or painful interventions on their behalf. However, to prevent abuse, the section attaches four non-negotiable provisos: a guardian cannot consent to the intentional killing of a child, nor to acts known to be likely to cause death or grievous hurt unless strictly necessary to cure a grievous disease or prevent death.",
+      "examples": [
+        "Teaching example (Guardian consenting to surgery): A father consents to an emergency operation on his eight-year-old child to amputate a gangrenous leg. The surgeon acts in good faith. Even though grievous hurt is caused, Proviso 3 permits it to cure a grievous disease. Section 27 protects both father and doctor.",
+        "Teaching example (Cruel punishment): A school guardian severely burns a child's hand with a heated iron as 'discipline' to cure habitual stealing. This violates Proviso 3 (intentional grievous hurt without medical justification); s. 27 is unavailable."
+      ],
+      "distinctions": [
+        "Section 26 vs Section 27: Section 26 requires consent from the victim himself (adult of sound mind); Section 27 provides for substituted consent by a lawful guardian for a child under twelve or person of unsound mind.",
+        "Lawful chastisement vs Grievous harm: Mild parental correction may fall under de minimis (s. 33), but severe physical harm is barred by s. 27 provisos."
+      ],
+      "problemApplication": [
+        "Issue: Whether a guardian who authorized an experimental chemotherapy treatment resulting in the death of a nine-year-old child is liable for homicide.",
+        "Rule: BNS s. 27 protects acts done with guardian consent for child's benefit, provided Proviso 2 is met (preventing death/grievous disease).",
+        "Application: Verify that the treatment was intended to arrest terminal leukemia, that the guardian acted in good faith, and that there was no intentional killing.",
+        "Conclusion: The act falls within s. 27 and is protected."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 27 substituted guardian consent rule.",
+          "Identify beneficiaries: child under 12 or person of unsound mind.",
+          "List the four statutory provisos."
+        ],
+        "tenMark": [
+          "Introduction: Substituted consent in penal jurisprudence.",
+          "Essential ingredients of s. 27.",
+          "Detailed examination of the four provisos.",
+          "Teaching examples illustrating lawful surgery vs unlawful cruelty.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Doctrine of substituted consent and parental authority.",
+          "Analysis of statutory threshold: under 12 years or unsound mind.",
+          "Rigorous dissection of Provisos 1, 2, 3, and 4.",
+          "Interplay between s. 27, s. 28 (vitiation of consent), and child protection laws.",
+          "Comparative analysis with s. 26 and s. 30.",
+          "IRAC problem question resolution.",
+          "Examination key points and conclusion."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies only to children under 12 or persons of unsound mind.",
+        "Consent must be from lawful guardian.",
+        "Strictly bounded by four provisos prohibiting intentional death or unjustified grievous hurt."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.663Z",
+  "updatedAt": "2026-10-03T08:56:50.277Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

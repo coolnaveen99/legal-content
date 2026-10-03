@@ -124,12 +124,92 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-31",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the scope of BNS s. 31 protecting communications made in good faith.",
+        "Analyze the requirement that the communication must be made for the benefit of the person.",
+        "Examine the doctor-patient relationship and professional disclosures causing shock."
+      ],
+      "definition": "BNS s. 31 provides that no communication made in good faith is an offence by reason of any harm to the person to whom it is made, if it is made for the benefit of that person.",
+      "legalPrinciple": "A truthful communication delivered in good faith for the recipient's benefit does not constitute an offence, even if the psychological or physical shock of receiving the news results in injury or death.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s. 31 (corresponding to IPC s. 93).",
+        "Condition 1: Communication must be made in 'good faith' (due care and attention under s. 2(11)).",
+        "Condition 2: Must be made 'for the benefit of that person'.",
+        "Harm covered: Any harm (including emotional shock, nervous breakdown, heart attack) resulting from the communication."
+      ],
+      "essentialIngredients": [
+        "A communication was made by the doer to a person.",
+        "The communication was made in good faith.",
+        "The communication was made for the benefit of the recipient.",
+        "Harm resulted to the recipient from that communication."
+      ],
+      "detailedExplanation": "Section 31 protects individuals who have a duty or reasonable justification to convey grave, distressing news to another for that person's benefit. The most common illustration is a medical doctor who informs a patient that their illness is terminal, in order to allow the patient to settle affairs or seek specialized care. If the patient suffers a fatal heart attack from the shock, the doctor is not criminally liable for manslaughter or negligence because the disclosure was made in good faith for the patient's benefit. If the communication is made with malicious intent or recklessly without medical necessity, s. 31 does not apply.",
+      "examples": [
+        "Teaching example (Doctor informing patient): A doctor in good faith informs a patient that he has an inoperable aortic aneurysm and cannot live long, so that he may write his will and manage his treatment. The patient dies of heart failure due to shock. The doctor is protected under s. 31.",
+        "Teaching example (Malicious shock): A rival falsely and maliciously tells an elderly person that his only son was killed in an accident, intending to cause severe distress. The father suffers a stroke. Section 31 does not apply because the statement was neither true, nor in good faith, nor for the person's benefit."
+      ],
+      "distinctions": [
+        "Communication for benefit vs Malicious infliction of nervous shock: Section 31 requires genuine good faith for the recipient's benefit; malicious or cruel revelations are unprotected.",
+        "Section 31 vs Defamation exceptions: Section 31 protects against harm to the recipient; Defamation exceptions protect communication to third parties."
+      ],
+      "problemApplication": [
+        "Issue: Whether a physician who disclosed a diagnosis of terminal cancer to a patient who subsequently suffered fatal shock is criminally liable.",
+        "Rule: BNS s. 31 provides that communications made in good faith for the recipient's benefit do not constitute an offence.",
+        "Application: Establish that the diagnosis was medically verified, communicated professionally with due care, and intended to enable the patient to arrange urgent medical and personal affairs.",
+        "Conclusion: Section 31 applies; the physician is exempt from liability."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 31 rule on communications in good faith.",
+          "State the twin requirements: good faith and benefit of the recipient.",
+          "Give the doctor-patient terminal diagnosis illustration."
+        ],
+        "tenMark": [
+          "Introduction: Legal duty and protection of truth-telling.",
+          "Essential ingredients of s. 31.",
+          "Meaning of 'good faith' in communicating grave information.",
+          "Teaching examples and boundaries.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Criminal liability for psychological trauma and nervous shock.",
+          "Detailed dissection of BNS s. 31 statutory wording.",
+          "The standard of 'good faith' under BNS s. 2(11) in professional communication.",
+          "Analysis of the statutory illustration and medical jurisprudence.",
+          "Comparison with civil tort liability for intentional infliction of emotional distress.",
+          "Problem scenario analyzed using IRAC method.",
+          "Key examination summary."
+        ]
+      },
+      "keyTakeaways": [
+        "Protects communication made in good faith for the recipient's benefit.",
+        "Harm caused by shock does not create criminal liability.",
+        "Commonly protects physicians and counselors disclosing difficult truths."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.677Z",
+  "updatedAt": "2026-10-03T08:56:50.322Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [
