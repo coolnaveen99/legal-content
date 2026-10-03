@@ -280,7 +280,113 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-3",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "learningObjectives": [
+        "Explain common intention under BNS s.3(5).",
+        "Distinguish common intention from similar intention and common object.",
+        "Apply plurality, shared intention and participation to a factual problem.",
+        "Use leading authorities accurately and distinguish their principles."
+      ],
+      "definition": "BNS s.3(5) provides joint attribution where a criminal act is done by several persons in furtherance of the common intention of all; each may be liable for that act as if done by that person alone.",
+      "legalPrinciple": "Section 3(5) is an attribution rule operating with a substantive offence. The prosecution must establish the required common intention and participation from the facts; mere presence or similar intention is not automatically enough.",
+      "statutoryFramework": "BNS s.3(5), Chapter I. It succeeds the former IPC s.34 framework. The substantive offence must be identified separately.",
+      "essentialIngredients": [
+        "A criminal act is done by several persons.",
+        "There is a common intention shared by the participants relevant to the criminal act.",
+        "The act is done in furtherance of that common intention.",
+        "The accused sought to be made jointly liable participated in the criminal transaction in the legally relevant sense."
+      ],
+      "detailedExplanation": "Common intention is ordinarily inferred from circumstances because a shared mental state is rarely proved by direct evidence. Courts examine conduct, surrounding circumstances, weapons, roles, prior or contemporaneous concert and the nature of the criminal transaction. The key distinction is between a shared design and merely similar intentions. The common intention need not necessarily arise long before the incident; the authorities recognise that it may form on the spot where the evidence supports a meeting of minds before or during the criminal act.",
+      "examples": [
+        "A group jointly attacks a victim after agreeing on the manner of attack and each performs a role in carrying out the plan: analyse s.3(5) together with the substantive offence.",
+        "Two people independently decide to confront the same person, without evidence of a shared plan, and one unexpectedly commits the offence: distinguish similar intention from common intention.",
+        "A person acts as a lookout while others carry out the agreed offence: consider participation in furtherance of the shared design rather than treating physical assault as the only possible form of participation."
+      ],
+      "distinctions": [
+        {
+          "id": "bns-3-common-similar",
+          "title": "Common intention versus similar intention",
+          "left": "Common intention",
+          "right": "Similar intention",
+          "rows": [
+            {
+              "point": "Mental element",
+              "left": "Shared design or meeting of minds concerning the criminal act.",
+              "right": "Independent or concurrent intentions without the required shared design."
+            },
+            {
+              "point": "Liability",
+              "left": "May support attribution under s.3(5) when statutory requirements are proved.",
+              "right": "Does not by itself establish s.3(5) liability."
+            }
+          ]
+        },
+        {
+          "id": "bns-3-object",
+          "title": "Common intention versus common object",
+          "left": "s.3(5) common intention",
+          "right": "BNS common-object provisions",
+          "rows": [
+            {
+              "point": "Concept",
+              "left": "Shared intention and participation in the criminal act.",
+              "right": "Separate statutory doctrine with its own requirements."
+            },
+            {
+              "point": "Exam warning",
+              "left": "Do not substitute common-object reasoning for s.3(5).",
+              "right": "Identify the provision actually raised by the facts."
+            }
+          ]
+        }
+      ],
+      "caseLaw": [
+        {
+          "name": "Mahbub Shah v. King Emperor",
+          "citation": "AIR 1945 PC 118",
+          "principle": "Distinguishes common intention from merely similar intention and emphasises the need for the requisite meeting of minds."
+        },
+        {
+          "name": "Pandurang, Tukia and Bhillia v. State of Hyderabad",
+          "citation": "AIR 1955 SC 216",
+          "principle": "Recognises that common intention can form on the spot when the evidence establishes the necessary concert."
+        },
+        {
+          "name": "Suresh v. State of U.P.",
+          "citation": "(2001) 3 SCC 673",
+          "principle": "Explains the role of participation and the operation of the common-intention doctrine."
+        },
+        {
+          "name": "Jasdeep Singh @ Jassu v. State of Punjab",
+          "citation": "(2022) 2 SCC 545",
+          "principle": "Addresses the distinction between mere presence and participation in the context of common intention."
+        }
+      ],
+      "problemApplication": "IRAC method: identify the substantive offence first; identify the persons involved; isolate evidence of shared intention; identify each person's participation; distinguish mere presence/similar intention; then determine whether the criminal act was in furtherance of the common intention.",
+      "examAnswerStructure": {
+        "shortAnswer": "Define s.3(5), state that it is an attribution rule, list the core requirements, and distinguish common from similar intention.",
+        "tenMark": "Introduction → statutory rule → ingredients → common vs similar intention → one leading case → factual application → conclusion.",
+        "sixteenMark": "Introduction → nature and statutory structure → ingredients → evidentiary inference of common intention → leading authorities → common/similar intention and common object distinctions → detailed problem application → conclusion."
+      },
+      "keyTakeaways": [
+        "Section 3(5) should be read with the substantive offence.",
+        "Common intention is different from similar intention.",
+        "Participation must be assessed from the whole criminal transaction.",
+        "Common intention may form on the spot where the evidence supports it."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/",
+        "https://main.sci.gov.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": "",
+        "verifiedBy": "",
+        "notes": "In-progress enhancement. Authorities and current BNS cross-reference require verification before publication."
+      }
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
