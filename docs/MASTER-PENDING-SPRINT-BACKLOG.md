@@ -194,8 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** VER-001 started. Official India Code texts recorded. BNS s.1(1)–(4) matched the India Code PDF as on 6 October 2025. Subsections (5)–(6) not re-read.
-**Verified enhancements:** 0. Promotion gate added (VER-008).
-**Next open item:** continue VER-001 section by section. Do not bulk-mark verified.
+**Current batch:** VER-001 continued. BNS sections 1–9 official headings recorded from the India Code arrangement. Section bodies not re-read, except s.1(1)–(4) earlier.
+**Verified enhancements:** 0.
+**Next open item:** re-read BNS section bodies before any topic is marked verified.
 **AI phase:** NOT STARTED.
 
