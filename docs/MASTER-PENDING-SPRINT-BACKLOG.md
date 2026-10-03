@@ -49,7 +49,7 @@
 - [x] **ENH-006** Add enhancement quality checks for minimum substantive coverage. `scripts/audit-enhancement-quality.mjs` writes `docs/ENH-006-QUALITY-REPORT.md`. Scaffold text is not counted as substantive.
 - [x] **ENH-007** Add protection against accidental shortening/removal of baseline substantive fields. `scripts/protect-baseline-substantive.mjs` compares overview, glance, study, and section text with `8c635aa8b7d350c801e49dc632ad31d3684a55b2`. Report: `docs/ENH-007-BASELINE-PROTECTION-REPORT.md`. First run: 3,648 topics compared, 0 shortened.
 - [x] **ENH-008** Add per-batch validation/report artifact. `scripts/report-enhancement-batches.mjs` writes `docs/batches/ENH-008-BATCH-VALIDATION.md`. A passing batch means every topic has an enhancement object, not that the law is verified.
-- [ ] **ENH-009** Add subject-level progress reporting suitable for sprint tracking.
+- [x] **ENH-009** Add subject-level progress reporting suitable for sprint tracking. `scripts/report-subject-progress.mjs` writes `docs/ENH-009-SUBJECT-PROGRESS.md`. Tracks substantive and verified counts, not merely enhancement-object presence.
 - [ ] **ENH-010** Define final verification/publishing acceptance checklist.
 
 ## 4. Sprint 2 — Student-focused legal content enhancement
