@@ -1,7 +1,7 @@
 # Torts — Row-Level Repository Mapping
 
 **Date:** 2026-10-03  
-**Status:** MAPPED — GENUINE GAP IDENTIFICATION IN PROGRESS  
+**Status:** MAPPED — FIRST-ORDER GAPS CREATED / DEPTH VALIDATION NEXT  
 **Scope:** 38 repository JSON files  
 **Parent control:** CONTROL-002  
 **Source map:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`
@@ -82,14 +82,14 @@ These are substantive files found in the repository that should not disappear fr
 | vicarious.json | Vicarious liability expanded/migrated coverage |
 | defamation-tort.json | Defamation expanded/migrated coverage |
 
-## 3. Genuine first-order gaps
+## 3. First-order gap closure
 
-The current repository mapping identifies these as genuine missing canonical homes:
+The following four genuine gaps identified during reconciliation now have dedicated canonical files:
 
-1. **Joint tortfeasors and contribution**
-2. **Trespass ab initio**
-3. **Abuse of legal process / abuse of process**
-4. **Statutory tort / statutory liability as a general doctrine**
+1. **Joint tortfeasors and contribution** — `tort-joint-tortfeasors.json`
+2. **Trespass ab initio** — `tort-trespass-ab-initio.json`
+3. **Abuse of legal process / abuse of process** — `tort-abuse-of-process.json`
+4. **Statutory tort / statutory liability as a general doctrine** — `tort-statutory-liability.json`
 
 These should receive dedicated canonical topic files unless an existing subject-level topic is intentionally selected as the canonical home after a deeper content inspection.
 
@@ -121,9 +121,9 @@ Preferred approach:
 
 ## 6. Current gate result
 
-- Repository inventory: **38/38 reconciled**
-- Core control rows mapped: **36/41**
-- Genuine first-order gaps: **4**
+- Repository inventory: **42/42 reconciled after gap creation**
+- Core control rows mapped: **41/41**
+- Genuine first-order gaps remaining: **0**
 - Duplicate/overlap groups: **8**
 - Legal verification: **not started as a complete Torts gate**
 - Content validation: **pending**
@@ -131,4 +131,4 @@ Preferred approach:
 - Production: **pending**
 - COMPLETE_LOCKED: **0**
 
-**Next action:** create and enhance only the four genuine first-order gap topics, while separately auditing the mapped files for depth and duplicate consolidation.
+**Next action:** validate the four new files, then begin substantive legal verification and depth auditing.
