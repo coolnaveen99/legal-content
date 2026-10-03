@@ -207,6 +207,8 @@ An item can be marked **COMPLETED** only when:
 **Verified enhancements:** 0.
 **Current control item:** CONTROL-002 — reconcile Torts authoritative subject inventory against the complete repository topic inventory and freeze the subject scope.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
+**Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
+**Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.
 **Torts inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`.
 **Rule:** Do not re-enhance existing completed topics; execute only missing gates/sections.
 **Standard checklist:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
