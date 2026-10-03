@@ -20,6 +20,7 @@ Future enhancements must use a site listed here, or add the new site to this fil
 | Sale of Goods Act, 1930 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2390/1/193003.pdf | Contract subject Sale of Goods topics, sections 1–66 |
 | Specific Relief Act, 1963 — India Code handle | https://www.indiacode.nic.in/indiacode/handle/123456789/1583?view_type=browse | Contract subject specific-performance topic, sections 10, 11, 14, 16 and 20A |
 | Gazette notifications | https://egazette.gov.in/ | Not yet opened for a topic |
+| Public Liability Insurance Act, 1991 Gazette | https://moef.gov.in/uploads/pdf-uploads/pdf_693024ea7c3633.90180378.pdf | Absolute liability statutory interface; 1991 text only |
 
 ## Judgments
 

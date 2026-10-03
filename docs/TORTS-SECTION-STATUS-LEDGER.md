@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW — 1991 Gazette opened; later amendments not opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -166,3 +166,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Limit: Article 12 left open; the order directed Delhi Legal Aid and Advice Board to file compensation actions and did not itself award compensation.
 - Status: case-law propositions used in this topic checked. Not COMPLETE_LOCKED. Enhancement remains `in-progress`. Not a publication gate.
 - Next action: statutory/current-law interface (Public Liability Insurance Act, 1991) remains unopened.
+
+
+### Absolute liability — Public Liability Insurance Act checkpoint (2026-10-03)
+- Opened Gazette text: Ministry PDF of Act 6 of 1991, Gazette Extraordinary, 23 January 1991.
+- Section 3: owner must give Schedule relief for death, injury to a non-workman, or property damage from an accident; claimant need not prove wrongful act, neglect or default.
+- Section 4: insurance against section 3 relief before handling a hazardous substance.
+- Section 8: statutory relief is additional to other compensation, and other compensation is reduced by relief paid under the Act.
+- 1991 Schedule figures recorded only as Gazette figures. Commencement notification and later amendment amounts were not opened.
+- Not COMPLETE_LOCKED.

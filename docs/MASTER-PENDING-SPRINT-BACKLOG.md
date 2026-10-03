@@ -205,7 +205,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Current control item:** CONTROL-003 / Torts verification — Oleum official PDF opened (`api.sci.gov.in/jonew/judis/8858.pdf`). Absolute liability case-law propositions checked; topic not locked. Next missing gate: Public Liability Insurance Act, 1991 interface, still unopened.
+**Current control item:** CONTROL-003 / Torts verification — Oleum PDF and 1991 Public Liability Insurance Act Gazette opened. Later PLIA amendment amounts not opened. Absolute liability not locked. Next open Torts row remains case-law/statute review outside this checkpoint.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
 **Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.
