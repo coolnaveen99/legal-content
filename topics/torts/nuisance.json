@@ -120,7 +120,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Nuisance protects interests in the use and enjoyment of land and certain public rights.",
@@ -151,13 +151,12 @@
         "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "OpenAI verification pass",
         "notes": [
-          "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
-          "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/",
-          "Official Supreme Court judgment opened and exact proposition checked: Rafat Ali v. Sugni Bai."
+          "Verified Municipal Council, Ratlam v. Vardhichand, 1980 AIR 1622 / (1980) 4 SCC 162 from the Supreme Court judgment.",
+          "Verified BNSS 2023 section 152 as the current statutory public-nuisance conditional-order provision; it replaced the corresponding CrPC section 133 framework from 1 July 2024.",
+          "Private-nuisance propositions remain grounded in the tort doctrine and are not treated as codified by BNSS section 152."
         ]
       },
       "distinctions": [
@@ -179,12 +178,13 @@
       "examAnswerStructure": "Define → private/public nuisance → ingredients → reasonableness/locality → defences → remedies → statutory/public-authority context → conclusion.",
       "caseLaw": [
         {
-          "name": "Rafat Ali v. Sugni Bai",
-          "year": 1998,
-          "citation": "(1999) 1 SCC 133",
-          "holding": "The Supreme Court explained actionable nuisance, distinguishing public and private nuisance and noting that actionable private nuisance requires substantial or material interference rather than trivial inconvenience.",
-          "relevance": "Direct authority for the topic's definition and threshold of actionable nuisance.",
-          "sourceUrl": "https://api.sci.gov.in/jonew/judis/12907.pdf"
+          "name": "Municipal Council, Ratlam v. Vardhichand",
+          "year": 1980,
+          "citation": "1980 AIR 1622; (1980) 4 SCC 162",
+          "court": "Supreme Court of India",
+          "holding": "The Supreme Court upheld action requiring a municipality to address a public nuisance and emphasised statutory public duties relating to sanitation and community health.",
+          "relevance": "Leading Indian public-nuisance authority.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/4495.pdf"
         }
       ]
     },
