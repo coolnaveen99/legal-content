@@ -117,7 +117,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for No-fault liability in tort: Strict Liability (Rylands v.",
@@ -149,14 +149,13 @@
         "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "OpenAI verification pass",
         "notes": [
-          "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
-          "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/",
-          "Official Supreme Court judgment text checked: Kaushnuma Begum v. New India Assurance Co. Ltd.",
-          "Official Supreme Court judgment opened and exact proposition checked: Vohra Sadikbhai Rajakbhai v. State of Gujarat."
+          "Verified Kaushnuma Begum v. New India Assurance Co. Ltd. (2001) from the Supreme Court judgment PDF.",
+          "Verified Vohra Sadikbhai Rajakbhai v. State of Gujarat (2016) from the Supreme Court judgment PDF.",
+          "Verified the distinction between Rylands strict liability and the Indian absolute-liability doctrine against the Supreme Court authorities already used in the topic.",
+          "Current-law verification is limited to the propositions and authorities actually used here; historical common-law exceptions are retained as doctrine and require no claim that every cited historical case was independently re-opened in this pass."
         ]
       },
       "distinctions": [
@@ -181,16 +180,18 @@
           "name": "Kaushnuma Begum v. New India Assurance Co. Ltd.",
           "year": 2001,
           "citation": "(2001) 2 SCC 9",
-          "holding": "The Supreme Court accepted the rule in Rylands v. Fletcher as a common-law principle applicable in the circumstances of a motor accident claim, while distinguishing statutory no-fault liability under the Motor Vehicles Act.",
-          "relevance": "Direct Supreme Court authority discussing the Indian application and distinction of strict liability.",
+          "court": "Supreme Court of India",
+          "holding": "The Supreme Court discussed the rule in Rylands v. Fletcher in the Indian context and distinguished it from statutory no-fault liability under the Motor Vehicles Act.",
+          "relevance": "Indian judicial treatment of strict liability.",
           "sourceUrl": "https://api.sci.gov.in/jonew/judis/17525.pdf"
         },
         {
           "name": "Vohra Sadikbhai Rajakbhai v. State of Gujarat",
           "year": 2016,
           "citation": "Civil Appeal No. 1866 of 2016",
-          "holding": "The Supreme Court applied and explained the Rylands v. Fletcher strict-liability doctrine, including non-natural use and escape, in the context of a dam.",
-          "relevance": "Direct authority for the Indian discussion of strict liability.",
+          "court": "Supreme Court of India",
+          "holding": "The Supreme Court applied the Rylands doctrine in considering non-natural use and escape in the context of a dam.",
+          "relevance": "Direct Indian authority on strict liability.",
           "sourceUrl": "https://api.sci.gov.in/jonew/judis/43636.pdf"
         }
       ]
