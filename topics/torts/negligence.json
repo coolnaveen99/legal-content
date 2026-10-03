@@ -129,7 +129,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Negligence is the breach of a legal duty to take care resulting in damage.",
@@ -160,13 +160,14 @@
         "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "OpenAI verification pass",
         "notes": [
-          "Topic reviewed for enhancement structure; tort law is not codified in one general statute.",
-          "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/",
-          "Two case authorities were directly checked on the official Supreme Court website and activated: MCD v. Subhagwanti and Jacob Mathew."
+          "Verified Jacob Mathew v. State of Punjab (2005) from the Supreme Court judgment PDF.",
+          "Verified Municipal Corporation of Delhi v. Subhagwanti (1966) from the Supreme Court judgment PDF.",
+          "Verified Donoghue v Stevenson [1932] AC 562 and Caparo Industries plc v Dickman [1990] 2 AC 605 against BAILII full-text judgments.",
+          "Verified Bharatiya Sakshya Adhiniyam, 2023 section 104 using India Code.",
+          "Verification applies to the propositions used in this topic; it is not a claim that every historical authority has been independently rechecked."
         ]
       },
       "distinctions": [
@@ -188,20 +189,40 @@
       "examAnswerStructure": "Definition → duty → breach → causation/remoteness → res ipsa loquitur → professional negligence where relevant → defences → remedy → conclusion.",
       "caseLaw": [
         {
-          "name": "Municipal Corporation of Delhi v. Subhagwanti",
-          "year": 1966,
-          "citation": "1966 AIR 1750; 1966 SCR (3) 649",
-          "holding": "The Supreme Court held that the doctrine of res ipsa loquitur applied to the collapse of the clock tower and considered the municipal authority's duty to maintain the structure.",
-          "relevance": "Directly supports the topic's treatment of res ipsa loquitur in negligence.",
-          "sourceUrl": "https://api.sci.gov.in/jonew/judis/2711.pdf"
-        },
-        {
           "name": "Jacob Mathew v. State of Punjab",
           "year": 2005,
           "citation": "(2005) 6 SCC 1",
-          "holding": "The Supreme Court addressed the standard for medical negligence and distinguished civil negligence from the higher threshold applicable to criminal negligence.",
-          "relevance": "Directly supports the topic's medical-negligence discussion.",
+          "court": "Supreme Court of India",
+          "holding": "The Court distinguished civil from criminal negligence and explained the professional-negligence standard.",
+          "relevance": "Medical and professional negligence.",
           "sourceUrl": "https://api.sci.gov.in/jonew/judis/27088.pdf"
+        },
+        {
+          "name": "Municipal Corporation of Delhi v. Subhagwanti",
+          "year": 1966,
+          "citation": "AIR 1966 SC 1750",
+          "court": "Supreme Court of India",
+          "holding": "The Court applied res ipsa loquitur to the collapse of the clock tower.",
+          "relevance": "Indian application of res ipsa loquitur.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/2711.pdf"
+        },
+        {
+          "name": "Donoghue v Stevenson",
+          "year": 1932,
+          "citation": "[1932] AC 562",
+          "court": "House of Lords",
+          "holding": "Recognised the neighbour principle in negligence.",
+          "relevance": "Foundational duty-of-care authority used comparatively.",
+          "sourceUrl": "https://www.bailii.org/uk/cases/UKHL/1932/100.html"
+        },
+        {
+          "name": "Caparo Industries plc v Dickman",
+          "year": 1990,
+          "citation": "[1990] 2 AC 605",
+          "court": "House of Lords",
+          "holding": "Set out the foreseeability, proximity and fair-just-reasonable framework in the context of a novel duty of care.",
+          "relevance": "Comparative duty-of-care framework.",
+          "sourceUrl": "https://www.bailii.org/uk/cases/UKHL/1990/2.html"
         }
       ]
     },
