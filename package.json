@@ -12,7 +12,8 @@
     "manifest:generate": "node scripts/generate-manifest.mjs",
     "graph:index": "node scripts/build-relationship-index.mjs",
     "test:relationships": "node scripts/test-relationships.mjs",
-    "verify:legacy-preservation": "node scripts/verify-legacy-preservation.mjs"
+    "verify:legacy-preservation": "node scripts/verify-legacy-preservation.mjs",
+    "validate:enhancements": "node scripts/validate-enhancements.mjs"
   },
   "engines": {
     "node": ">=18"
