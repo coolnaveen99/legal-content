@@ -123,12 +123,97 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-16",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Explain when an act done under a court judgment or order is not an offence.",
+        "Apply the conditions that the judgment or order is still in force and that the actor in good faith believes the court had jurisdiction.",
+        "Distinguish s.16 from the Judge's own protection in s.15 and from the bound-by-law rule in s.14."
+      ],
+      "definition": "BNS s.16 provides that nothing done in pursuance of, or warranted by, the judgment or order of a court, while that judgment or order remains in force, is an offence, even if the court had no jurisdiction, provided the person doing the act in good faith believes that the court had that jurisdiction.",
+      "legalPrinciple": "Section 16 protects the person who executes a court judgment or order. It does not decide that the court order was valid. The protection depends on the order still being in force and on a good-faith belief in jurisdiction.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s.16.",
+        "The act is done in pursuance of, or is warranted by, a judgment or order of a court.",
+        "The judgment or order remains in force when the act is done.",
+        "Lack of jurisdiction in the court does not by itself make the act an offence.",
+        "The person doing the act must in good faith believe that the court had the jurisdiction.",
+        "Section 15 covers the Judge acting judicially. Section 14 covers a person bound by law, including the arrest illustration."
+      ],
+      "essentialIngredients": [
+        "A judgment or order of a court.",
+        "The act is in pursuance of that judgment or order, or is warranted by it.",
+        "The judgment or order is still in force.",
+        "The actor in good faith believes the court had jurisdiction to pass it.",
+        "If the order is spent, or the belief about jurisdiction is not in good faith, s.16 does not apply."
+      ],
+      "detailedExplanation": "Section 16 is aimed at the person who carries out a court judgment or order, not at the Judge who passed it. The act must be in pursuance of the judgment or order, or warranted by it. Timing matters: the protection exists only whilst the judgment or order remains in force. The section expressly covers the case where the court may have had no jurisdiction, but only if the person doing the act in good faith believes that the court had that jurisdiction. A person who knows the court lacked jurisdiction is outside the proviso. Students should not treat this as a licence to obey an order after it has been set aside or has otherwise ceased to be in force. It is also not the same as s.14, which is about being bound by law or believing oneself bound by a mistake of fact, and not the same as s.15, which is confined to a Judge acting judicially.",
+      "examples": [
+        "Teaching example: a court officer executes a warrant that is still in force, believing in good faith that the court had jurisdiction. The execution is the kind of act s.16 describes, even if a later challenge says jurisdiction was absent.",
+        "Teaching example: the same officer executes the warrant after it has been recalled and he knows it is no longer in force. The 'remains in force' condition fails.",
+        "Teaching example: the officer knows the court had no jurisdiction and proceeds anyway. The good-faith belief required by the proviso is missing."
+      ],
+      "distinctions": [
+        "Section 15 protects the Judge acting judicially. Section 16 protects the person acting under the judgment or order.",
+        "Section 14 can cover a person bound by law. Section 16 is specifically tied to a court judgment or order that remains in force.",
+        "Absence of jurisdiction is not fatal only where the actor in good faith believes the court had jurisdiction."
+      ],
+      "problemApplication": [
+        "Issue: whether the act is no offence under s.16.",
+        "Rule: pursuance of or warrant by a court judgment or order; order still in force; good-faith belief in jurisdiction.",
+        "Application: identify the order, its status on the date of the act, and what the actor believed about jurisdiction.",
+        "Conclusion: if any condition fails, do not use s.16 to say nothing is an offence."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State that the act must pursue or be warranted by a court judgment or order.",
+          "Add that the order must remain in force.",
+          "Add the good-faith belief in jurisdiction, even if jurisdiction was absent."
+        ],
+        "tenMark": [
+          "Introduction: general exception for execution of a court order.",
+          "Pursuance or warranted-by limb.",
+          "Order still in force.",
+          "Jurisdiction proviso and good faith.",
+          "One failure example and a conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction and place in Chapter III.",
+          "Who s.16 protects, as against s.15.",
+          "Each condition, with a teaching example.",
+          "Spent order and absence of good faith as failure cases.",
+          "Boundary with s.14.",
+          "IRAC on a problem without a fabricated case name.",
+          "Current-law close."
+        ]
+      },
+      "keyTakeaways": [
+        "The act must be under a court judgment or order that is still in force.",
+        "Lack of jurisdiction is excused only with a good-faith belief that jurisdiction existed.",
+        "Do not apply s.16 to the Judge's own judicial act; that is s.15."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.626Z",
+  "updatedAt": "2026-10-03T08:40:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

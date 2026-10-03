@@ -124,12 +124,96 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-17",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "State the justification in BNS s.17 for a person justified by law, or believing in good faith by a mistake of fact that he is justified by law.",
+        "Separate justification by law from the duty to act in s.14.",
+        "Map the statutory apprehension illustration to the ingredients."
+      ],
+      "definition": "BNS s.17 provides that nothing is an offence which is done by a person who is justified by law, or who by reason of a mistake of fact and not by reason of a mistake of law in good faith believes himself to be justified by law, in doing it.",
+      "legalPrinciple": "Section 17 is the permission or justification exception. The person need not be bound to act. It is enough that the law justifies the act, or that a good-faith mistake of fact leads him to believe the law justifies it. A mistake of law does not.",
+      "statutoryFramework": [
+        "Chapter III — General Exceptions, BNS s.17.",
+        "The person is justified by law in doing the act, or in good faith believes himself to be justified by law.",
+        "A belief must arise by reason of a mistake of fact, not a mistake of law.",
+        "Illustration: A sees Z commit what appears to A to be a murder. A, in the exercise to the best of his judgment exerted in good faith of the power which the law gives to all persons of apprehending murderers in the fact, seizes Z to bring Z before the proper authorities. A has committed no offence, though it may turn out that Z was acting in self-defence.",
+        "Section 14 is the neighbouring 'bound by law' exception and should not be substituted where the facts are only about justification."
+      ],
+      "essentialIngredients": [
+        "An act otherwise examined as an offence.",
+        "Either the person is justified by law, or he in good faith believes himself to be justified by law.",
+        "If the case is one of belief, the belief rests on a mistake of fact.",
+        "The belief is not a mistake of law.",
+        "Good faith is required on the belief branch."
+      ],
+      "detailedExplanation": "Section 17 is the counterpart of s.14. Section 14 requires that the person is, or believes himself to be, bound by law. Section 17 requires that the person is, or believes himself to be, justified by law. The statutory illustration is the private person who sees what appears to be a murder and, exercising in good faith the power the law gives to apprehend a murderer in the fact, seizes the apparent offender. The section says there is no offence even if it later turns out that the person seized was acting in self-defence. The mistake is about the appearance of the facts, not about whether the law of private arrest exists. A person who knows the facts and is wrong about the legal power is outside the belief branch. Students should quote the illustration as an illustration and map it to justification and good faith, not as a reported case.",
+      "examples": [
+        "Statutory illustration, labelled as illustration: A sees what appears to be a murder and, in good faith, seizes Z to take Z before the authorities under the power to apprehend a murderer in the fact. No offence, even if Z was acting in self-defence.",
+        "Teaching contrast: A knows Z was acting in self-defence but believes the law still allows a private arrest. That is a mistake of law, so the belief branch of s.17 is not made out.",
+        "Teaching contrast: a soldier ordered to fire in conformity with the commands of the law is the s.14 illustration, because the case is one of being bound, not merely justified."
+      ],
+      "distinctions": [
+        "Section 14: bound by law. Section 17: justified by law. Do not swap them.",
+        "Mistake of fact can support the belief branch. Mistake of law cannot.",
+        "The illustration is a statutory illustration, not a case citation."
+      ],
+      "problemApplication": [
+        "Issue: whether the act is no offence because the person was justified by law or believed, by a mistake of fact and in good faith, that he was.",
+        "Rule: quote both branches and the exclusion of mistake of law.",
+        "Application: identify the legal justification claimed, then classify any error as fact or law.",
+        "Conclusion: if the justification is real, or the fact-mistake branch is proved, nothing is an offence."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the justified-by-law rule.",
+          "State the good-faith mistake-of-fact branch.",
+          "Exclude mistake of law and point to the apprehension illustration."
+        ],
+        "tenMark": [
+          "Introduction: general exception, Chapter III.",
+          "Two branches.",
+          "Illustration mapped to good-faith exercise of a legal power.",
+          "Contrast with s.14.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction and difference between duty and justification.",
+          "Actual justification.",
+          "Belief branch: good faith, mistake of fact, not law.",
+          "Statutory illustration mapped to ingredients.",
+          "Failure case on mistake of law.",
+          "Problem IRAC.",
+          "Current-law close."
+        ]
+      },
+      "keyTakeaways": [
+        "Section 17 is justification, not compulsion.",
+        "The belief branch accepts only a mistake of fact in good faith.",
+        "Use the apprehension illustration as an illustration, not as case law."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.629Z",
+  "updatedAt": "2026-10-03T08:40:00.000Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [
