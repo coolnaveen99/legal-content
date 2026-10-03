@@ -38,21 +38,22 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for General defences in tort.",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "General defences defeat or reduce liability when the claimant otherwise establishes a prima facie tort. Core defences include volenti non fit injuria, plaintiff's default, act of God, private defence, necessity, statutory authority, and (in limited settings) inevitable accident.",
-      "legalPrinciple": "Volenti non fit injuria. A person who freely and knowingly consents to a risk cannot complain of harm within that risk (Smith v. Baker line of authority as received). Consent must be free, informed as to nature and extent of risk, and not vitiated by coercion or statute. Rescue cases and unequal bargaining often defeat a crude volenti plea.",
-      "statutoryFramework": "General defences in tort",
+      "definition": "General defences in tort are recognised circumstances in which a defendant avoids or limits liability even though the claimant alleges the ingredients of a tort.",
+      "legalPrinciple": "Liability is qualified by consent, necessity, lawful authority, unavoidable events and the claimant's own conduct, depending on the tort.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields; no statute should be treated as a general codification of this topic.",
       "essentialIngredients": [
-        "Volenti non fit injuria: A person who freely and knowingly consents to a risk cannot complain of harm within that risk (Smith v. Baker line of authority as received). Consent must be free, informed as to nature and extent of risk, and not vitiated by coercion or statute. Rescue cases and unequal bargaining often defeat a crude volenti plea.",
-        "Other defences: Plaintiff's own fault may reduce or bar recovery depending on the tort and statute. Act of God requires an extraordinary natural event not reasonably foreseeable. Statutory authority protects acts compelled or authorised by statute if carried out without negligence beyond the authority. Private defence and necessity are narrowly applied.",
-        "Track B: Plead defences specifically. Lead evidence of knowledge, consent, or statutory mandate. Do not confuse volenti with mere awareness of danger at work without free agreement."
+        "Identify the alleged tort",
+        "Identify the defence relied upon",
+        "Prove every condition of that defence",
+        "Check whether the defence is excluded or limited by the facts"
       ],
-      "detailedExplanation": "General defences defeat or reduce liability when the claimant otherwise establishes a prima facie tort. Core defences include volenti non fit injuria, plaintiff's default, act of God, private defence, necessity, statutory authority, and (in limited settings) inevitable accident.\n\nVolenti non fit injuria\nA person who freely and knowingly consents to a risk cannot complain of harm within that risk (Smith v. Baker line of authority as received). Consent must be free, informed as to nature and extent of risk, and not vitiated by coercion or statute. Rescue cases and unequal bargaining often defeat a crude volenti plea.\n\nOther defences\nPlaintiff's own fault may reduce or bar recovery depending on the tort and statute. Act of God requires an extraordinary natural event not reasonably foreseeable. Statutory authority protects acts compelled or authorised by statute if carried out without negligence beyond the authority. Private defence and necessity are narrowly applied.\n\nTrack B\nPlead defences specifically. Lead evidence of knowledge, consent, or statutory mandate. Do not confuse volenti with mere awareness of danger at work without free agreement.",
+      "detailedExplanation": "General defences defeat or reduce liability when the claimant otherwise establishes a prima facie tort. Core defences include volenti non fit injuria, plaintiff's default, act of God, private defence, necessity, statutory authority, and (in limited settings) inevitable accident.",
       "examples": [
         "No illustration was present on the migrated topic. None was invented."
       ],
@@ -61,21 +62,43 @@
         "General defences defeat or reduce liability when the claimant otherwise establishes a prima facie tort. Core defences include volenti non fit injuria, plaintiff's default, act of God, private defence, necessity, statutory authority, and (in limited settings) inevitable accident."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure. The governing tort principles are not codified in a single general statute.",
+          "Official Supreme Court judgment-search source opened for this subject; no case has been added to the active case-law fields unless the specific judgment page is opened and supports the proposition.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "general-defences-dist-1",
+          "title": "Volenti is based on informed consent to risk; contributory negligence concerns the claimant's failure to take reasonable care and generally affects damages.",
+          "left": "Volenti is based on informed consent to risk; contributory negligence concerns the claimant's failure to take reasonable care and generally affects damages.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        },
+        {
+          "id": "general-defences-dist-2",
+          "title": "Inevitable accident concerns an event not preventable by reasonable care; Act of God is confined to extraordinary natural forces.",
+          "left": "Inevitable accident concerns an event not preventable by reasonable care; Act of God is confined to extraordinary natural forces.",
+          "right": "See the distinction described in the rule.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Introduction → classify defences → explain each with ingredients → apply to facts → distinguish complete from partial defences → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.002Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
