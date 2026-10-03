@@ -18,36 +18,68 @@
     "legacySubjectSlug": "sra",
     "legacyTopicId": "s-10",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 10 SRA — Specific performance.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain the post-2018 statutory rule governing specific performance under Section 10.",
+        "Identify the controlling limits in Section 11(2), Section 14 and Section 16.",
+        "Distinguish the post-2018 rule from the pre-2018 discretionary regime and apply the correct temporal rule."
       ],
-      "definition": "After the 2018 amendment, specific performance shall be enforced, subject to sections 11(2), 14 and 16.",
-      "legalPrinciple": "After the 2018 amendment, specific performance shall be enforced, subject to sections 11(2), 14 and 16.",
-      "statutoryFramework": "Section 10 SRA — Specific performance",
+      "definition": "Section 10 provides that specific performance of a contract shall be enforced by the court, subject to Section 11(2), Section 14 and Section 16.",
+      "legalPrinciple": "After the 2018 amendment, specific performance is the statutory rule subject to the express exceptions and personal bars identified in the Act; the amendment's temporal application must be determined before applying the post-2018 regime.",
+      "statutoryFramework": "Specific Relief Act, 1963, Section 10 as substituted by the Specific Relief (Amendment) Act, 2018 with effect from 1 October 2018; read with Sections 11(2), 14 and 16.",
       "essentialIngredients": [
-        "After the 2018 amendment, specific performance shall be enforced, subject to sections 11(2), 14 and 16."
+        "Identify whether the contract is one for which specific performance is sought.",
+        "Determine which version of Section 10 governs the transaction/proceeding under the applicable temporal rule.",
+        "Check Section 11(2), Section 14 and Section 16.",
+        "Apply the pleaded facts, contractual obligations and statutory bars before concluding on relief."
       ],
-      "detailedExplanation": "After the 2018 amendment, specific performance shall be enforced, subject to sections 11(2), 14 and 16.",
+      "detailedExplanation": "Section 10 is the central gateway for specific-performance relief. The present text makes enforcement the statutory rule, but it expressly subjects that rule to Section 11(2), Section 14 and Section 16. The 2018 amendment materially changed the earlier discretionary framework, so an answer must first address whether the amended regime applies to the case. Katta Sujatha Reddy is important on the prospective operation of the 2018 amendment.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "A post-1 October 2018 contract is analysed under the amended Section 10, but the claimant must still overcome Section 14 and Section 16 and any applicable Section 11(2) limitation."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 10 states the enforceability rule; Section 14 identifies contracts that cannot be specifically enforced; Section 16 creates personal bars; Section 11(2) creates a trust-related limitation.",
+      "caseLaw": [
+        {
+          "name": "Katta Sujatha Reddy v. Siddamsetty Infra Projects (P) Ltd.",
+          "year": 2022,
+          "citation": "(2023) 1 SCC 355; Supreme Court, 25 Aug 2022",
+          "holding": "The Supreme Court treated the 2018 amendment to Section 10 as prospective and distinguished the amended regime from the earlier discretionary framework.",
+          "relevance": "Important for determining which Section 10 regime applies to a dispute arising from the pre-amendment period.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2022/30567/30567_2022_1_1504_56986_Judgement_08-Nov-2024.pdf"
+        }
+      ],
+      "problemApplication": "An agreement for sale is sued upon after the 2018 amendment. Identify the relevant dates, determine which Section 10 regime applies, then test enforceability under Sections 11(2), 14 and 16 before analysing the remedy.",
+      "examAnswerStructure": [
+        "Introduce Section 10 and identify the amendment position.",
+        "Determine the temporal regime.",
+        "State the current statutory rule and its express limits.",
+        "Apply Sections 11(2), 14 and 16 to the facts.",
+        "Address readiness/willingness and other personal bars where relevant.",
+        "Conclude on enforceability."
+      ],
       "keyTakeaways": [
-        "After the 2018 amendment, specific performance shall be enforced, subject to sections 11(2), 14 and 16."
+        "Post-2018 Section 10 makes specific performance the statutory rule subject to stated limits.",
+        "Always determine the applicable temporal regime before importing pre-2018 discretion or post-2018 enforcement.",
+        "Sections 14 and 16 must be read with Section 10."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Specific Relief Act, 1963",
+        "Supreme Court of India — Katta Sujatha Reddy"
+      ],
+      "notes": [
+        "India Code statutory source reviewed for Section 10 and the 2018 amendment position.",
+        "Official Supreme Court judgment source reviewed for Katta Sujatha Reddy.",
+        "Enhancement is substantive but remains in-progress until the repository verification/publishing gate is completed."
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory source reviewed for Section 10 and the 2018 amendment position.",
+          "Official Supreme Court judgment source reviewed for Katta Sujatha Reddy.",
+          "Enhancement is substantive but remains in-progress until the repository verification/publishing gate is completed."
         ]
       }
     }
@@ -55,7 +87,7 @@
   "sources": [
     "source:india:india-code-sra-1963"
   ],
-  "updatedAt": "2026-10-03T11:18:49.979Z",
+  "updatedAt": "2026-10-03T18:25:00+05:30",
   "effectiveFrom": "1964-03-01",
   "effectiveTo": null
 }
