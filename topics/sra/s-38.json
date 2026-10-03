@@ -17,36 +17,69 @@
     "legacySubjectSlug": "sra",
     "legacyTopicId": "s-38",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 38 SRA — Perpetual injunction.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain when a perpetual injunction may be granted under Section 38.",
+        "Distinguish perpetual injunctions from temporary and mandatory injunctions.",
+        "Apply the statutory property-invasion grounds and the contract cross-reference."
       ],
-      "definition": "A perpetual injunction prevents breach of an obligation in the plaintiff's favour, including property rights as enacted.",
-      "legalPrinciple": "A perpetual injunction prevents breach of an obligation in the plaintiff's favour, including property rights as enacted.",
-      "statutoryFramework": "Section 38 SRA — Perpetual injunction",
+      "definition": "Section 38 permits a perpetual injunction to prevent breach of an obligation and, where property rights are invaded or threatened, identifies specified circumstances in which perpetual injunctive relief may be granted.",
+      "legalPrinciple": "Perpetual injunction is final preventive relief granted by decree. For property-right invasions, Section 38(3) identifies statutory circumstances including absence of a reliable damages standard, inadequacy of monetary compensation, trustee relationships and prevention of multiplicity of proceedings.",
+      "statutoryFramework": "Specific Relief Act, 1963, Sections 36–38, particularly Section 38(1)–(3); temporary injunctions are regulated by CPC, while mandatory injunctions are addressed separately in Section 39.",
       "essentialIngredients": [
-        "A perpetual injunction prevents breach of an obligation in the plaintiff's favour, including property rights as enacted."
+        "Identify an obligation existing in the plaintiff's favour.",
+        "For contractual obligations, apply the Chapter II rules where relevant.",
+        "If property rights are invaded or threatened, test the Section 38(3) grounds.",
+        "Distinguish the final perpetual relief from temporary relief under CPC Order XXXIX.",
+        "Ensure the relief sought is legally compatible with the restrictions in the injunction chapter."
       ],
-      "detailedExplanation": "A perpetual injunction prevents breach of an obligation in the plaintiff's favour, including property rights as enacted.",
+      "detailedExplanation": "Section 38 governs final preventive relief. A perpetual injunction is granted by decree after adjudication on the merits. The section operates both for obligations generally and for specified property-right invasions. In property cases, the court examines the statutory grounds and the adequacy of damages. The remedy should be matched to the right being protected; where a plaintiff also needs possession or another consequential remedy, the pleading should address that relief rather than relying on an injunction alone.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "If a defendant threatens repeated interference with a plaintiff's established property right and monetary compensation would not adequately protect the right, the plaintiff may frame a claim for perpetual injunction under the statutory grounds, subject to the other requirements of the Act."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 38 concerns perpetual injunctions; Section 37 distinguishes temporary and perpetual injunctions; Section 39 concerns mandatory injunctions; Section 41 specifies situations where injunctions are refused.",
+      "caseLaw": [
+        {
+          "name": "Samar Kumar Roy v. Jharna Bera",
+          "year": 2017,
+          "citation": "Civil Appeal No. 11200 of 2017; Supreme Court, 5 Sep 2017",
+          "holding": "The Supreme Court considered declaratory and perpetual-injunction relief under Sections 34 and 38 in the context of the pleaded rights and reliefs.",
+          "relevance": "Illustrates the combined operation of declaratory and perpetual-injunction claims.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2016/2816/2816_2016_Order_05-Sep-2017.pdf"
+        }
+      ],
+      "problemApplication": "A plaintiff alleges repeated interference with a property right. Identify the underlying right, the obligation breached or threatened, the applicable Section 38(3) ground, and whether another consequential remedy must also be sought.",
+      "examAnswerStructure": [
+        "Identify the protected right or obligation.",
+        "State Section 38 and the relevant ground.",
+        "Distinguish temporary from perpetual relief.",
+        "Apply the facts to the statutory conditions.",
+        "Consider related consequential relief and Section 41 restrictions.",
+        "Conclude on the availability of a perpetual injunction."
+      ],
       "keyTakeaways": [
-        "A perpetual injunction prevents breach of an obligation in the plaintiff's favour, including property rights as enacted."
+        "Perpetual injunction is final relief granted by decree after adjudication on the merits.",
+        "Section 38(3) contains specific property-invasion grounds; adequacy of damages is central in several of them.",
+        "Always distinguish Section 38 from temporary injunctions under CPC and mandatory injunctions under Section 39."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Specific Relief Act, 1963",
+        "Supreme Court of India — Samar Kumar Roy v. Jharna Bera"
+      ],
+      "notes": [
+        "India Code statutory source reviewed for Section 38.",
+        "Official Supreme Court judgment source reviewed for the combined declaratory/injunction context.",
+        "Enhancement remains in-progress pending repository-level verification/publishing."
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory source reviewed for Section 38.",
+          "Official Supreme Court judgment source reviewed for the combined declaratory/injunction context.",
+          "Enhancement remains in-progress pending repository-level verification/publishing."
         ]
       }
     }
@@ -54,7 +87,7 @@
   "sources": [
     "source:india:india-code-sra-1963"
   ],
-  "updatedAt": "2026-10-03T11:18:49.979Z",
+  "updatedAt": "2026-10-03T18:25:00+05:30",
   "effectiveFrom": "1964-03-01",
   "effectiveTo": null
 }
