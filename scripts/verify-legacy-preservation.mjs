@@ -47,7 +47,7 @@ for (const record of real) {
 
   const content = entity.content && typeof entity.content === "object" ? entity.content : {};
   const expectedLegacyPath = `codepackr-law/src/data/topics/${record.legacyPath}.ts`;
-  const canonicalSourcePath = `codepackr-law/src/data/topics/${record.canonicalPath.replace(/^topics\\//, "").replace(/\\.json$/, "")}.ts`;
+  const canonicalSourcePath = `codepackr-law/src/data/topics/${record.canonicalPath.replace(/^topics\//, "").replace(/\.json$/, "")}.ts`;
   const sources = Array.isArray(entity.sources) ? entity.sources : [];
 
   if (content.legacySubjectSlug == null || content.legacyTopicId == null) {
