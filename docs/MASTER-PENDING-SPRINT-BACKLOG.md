@@ -4,6 +4,8 @@
 **Applies to:** `coolnaveen99/codepackr-law` + `coolnaveen99/legal-content`  
 **Execution rule:** one backlog item at a time; direct commit to `main`; validate before marking complete.
 
+**Section-level control standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md` is the mandatory checklist for every section/article/rule/topic. A subject cannot be considered complete from a partial working set.
+
 ## 1. Non-negotiable project rules
 
 - [ ] **RULE-001 — Preserve migrated baseline.** Never delete migrated substantive content.
@@ -55,6 +57,8 @@
 ## 4. Sprint 2 — Student-focused legal content enhancement
 
 ### Required content model for each substantive topic
+
+**Mandatory control:** Before any subject enhancement, complete the full authoritative inventory and repository mapping. Never infer that unlisted sections are complete.
 - [ ] **CONT-001** Learning objectives.
 - [ ] **CONT-002** Definition/core concept.
 - [ ] **CONT-003** Legal principle/doctrine.
@@ -91,6 +95,10 @@
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
 - [ ] **REMAIN-003** Run full-catalog enhancement progress report after every batch.
+- [ ] **CONTROL-001** Create and maintain section-level completion ledger using `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
+- [ ] **CONTROL-002** For every subject, reconcile authoritative full inventory against repository topic inventory before declaring enhancement complete.
+- [ ] **CONTROL-003** Prevent rework by skipping `COMPLETE_LOCKED` items unless a documented reopening trigger exists.
+- [ ] **CONTROL-004** Record per-section evidence/commit and independent statuses for inventory, enhancement, verification, validation, integration and production.
 
 **Batch rule:** no next subject/batch starts until the previous batch passes repository validation and preservation validation.
 
@@ -197,6 +205,8 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Next open item:** TORT-001 — complete the full Torts subject enhancement inventory before moving to Administrative Law.
+**Next control item:** CONTROL-001 — establish/maintain the section-level completion ledger before starting any new subject enhancement.
+**Next subject reconciliation:** Torts — perform FULL INVENTORY → REPOSITORY MAP → GAP ANALYSIS first. Do not re-enhance topics already completed; execute only missing gates/sections.
+**Standard checklist:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
 **Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
 
