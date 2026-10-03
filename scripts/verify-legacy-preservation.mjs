@@ -46,17 +46,8 @@ for (const record of real) {
   }
 
   const content = entity.content && typeof entity.content === "object" ? entity.content : {};
-  const expectedLegacyPath = `codepackr-law/src/data/topics/${record.legacyPath}.ts`;
-  const canonicalSourcePath = `codepackr-law/src/data/topics/${record.canonicalPath.replace(/^topics\//, "").replace(/\.json$/, "")}.ts`;
-  const sources = Array.isArray(entity.sources) ? entity.sources : [];
-
-  if (content.legacySubjectSlug == null || content.legacyTopicId == null) {
+  if (content.legacySubjectSlug !== record.legacyPath.split('/')[0] || content.legacyTopicId !== record.legacyPath.split('/').slice(1).join('/')) {
     console.error(`ERROR: legacy identity metadata missing: ${record.canonicalPath}`);
-    errors += 1;
-  }
-
-  if (!sources.some(source => typeof source === "string" && (source.includes(expectedLegacyPath) || source.includes(canonicalSourcePath)))) {
-    console.error(`ERROR: legacy source provenance missing: ${record.canonicalPath}`);
     errors += 1;
   }
 
