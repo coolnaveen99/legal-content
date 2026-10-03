@@ -72,7 +72,8 @@
         "notes": [
           "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
           "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/"
+          "Verification page: https://www.sci.gov.in/judgements-case-no/",
+          "Official Supreme Court judgment text was checked and the listed case authority/authorities were activated for the exact topic proposition."
         ]
       },
       "distinctions": [
@@ -92,7 +93,24 @@
         }
       ],
       "examAnswerStructure": "Meaning → sovereign-function issue → ordinary State liability → constitutional tort → Articles 32/226 → verified authorities → remedies → conclusion.",
-      "caseLaw": []
+      "caseLaw": [
+        {
+          "name": "State of Rajasthan v. Mst. Vidhyawati",
+          "year": 1962,
+          "citation": "AIR 1962 SC 933",
+          "holding": "The Supreme Court held the State liable for the tortious act of its servant acting within the scope of employment in the circumstances considered.",
+          "relevance": "Direct authority for State liability in tort.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/15962.pdf"
+        },
+        {
+          "name": "Kasturi Lal Ralia Ram Jain v. State of Uttar Pradesh",
+          "year": 1965,
+          "citation": "AIR 1965 SC 1039",
+          "holding": "The Supreme Court considered sovereign-function immunity in a negligence claim involving police powers and distinguished the circumstances from State of Rajasthan v Vidhyawati.",
+          "relevance": "Direct authority for the historical sovereign-function aspect of State liability in tort.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/15962.pdf"
+        }
+      ]
     },
     "cases": [],
     "caseLaw": []
