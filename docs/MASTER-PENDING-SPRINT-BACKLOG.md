@@ -96,7 +96,7 @@
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
 - [ ] **REMAIN-003** Run full-catalog enhancement progress report after every batch.
 - [x] **CONTROL-001** Create and maintain section-level completion ledger using `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`. Live Torts ledger: `docs/TORTS-SECTION-STATUS-LEDGER.md`.
-- [ ] **CONTROL-002** For every subject, reconcile authoritative full inventory against repository topic inventory before declaring enhancement complete.
+- [x] **CONTROL-002** Reconcile Torts authoritative subject scope against the complete repository topic inventory; 38 Torts JSON files reconciled and scope frozen in `docs/TORTS-REPOSITORY-RECONCILIATION.md`. Continue this control for each subsequent subject before declaring enhancement complete.
 - [ ] **CONTROL-003** Prevent rework by skipping `COMPLETE_LOCKED` items unless a documented reopening trigger exists.
 - [ ] **CONTROL-004** Record per-section evidence/commit and independent statuses for inventory, enhancement, verification, validation, integration and production.
 
