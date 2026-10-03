@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-03T11:00:08.784Z",
+  "generatedAt": "2026-10-03T14:28:34.531Z",
   "scope": {
-    "migratedTopics": 3145,
-    "caseRecords": 9140
+    "migratedTopics": 3100,
+    "caseRecords": 9088
   },
   "policy": [
     "Validates judgment metadata and case-analysis completeness against authoritative sources before publication.",
@@ -12,20 +12,20 @@
     "No topic is promoted to verified or published by this audit."
   ],
   "summary": {
-    "caseRecords": 9140,
-    "topicsWithCases": 3145,
-    "topicsWithFindings": 3081,
-    "totalFindings": 16488,
+    "caseRecords": 9088,
+    "topicsWithCases": 3100,
+    "topicsWithFindings": 3064,
+    "totalFindings": 16439,
     "highSeverity": 15,
-    "mediumSeverity": 16473
+    "mediumSeverity": 16424
   },
   "byType": {
-    "missing-court": 1544,
-    "missing-case-analysis": 6080,
+    "missing-court": 1536,
+    "missing-case-analysis": 6053,
     "missing-citation": 18,
     "implausible-year": 13,
     "known-case-metadata-risk": 2,
-    "duplicate-case-record": 8831
+    "duplicate-case-record": 8817
   },
   "findings": [
     {
@@ -44229,30 +44229,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/contract/partnership-s-56-69.json",
-      "topic": "topic:india:contract-partnership-s-56-69",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Authority requiring full-report verification\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/contract/partnership-s-56-69.json",
-      "topic": "topic:india:contract-partnership-s-56-69",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Authority requiring full-report verification\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/contract/partnership-s-56-69.json",
-      "topic": "topic:india:contract-partnership-s-56-69",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Authority requiring full-report verification\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
       "path": "topics/cpc/appeals.json",
       "topic": "topic:india:cpc-appeals",
       "type": "missing-court",
@@ -60882,262 +60858,6 @@
       "type": "missing-case-analysis",
       "severity": "medium",
       "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Donoghue v. Stevenson\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Donoghue v. Stevenson\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Donoghue v. Stevenson\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Donoghue v. Stevenson\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Caparo Industries plc v. Dickman\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Caparo Industries plc v. Dickman\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Caparo Industries plc v. Dickman\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Caparo Industries plc v. Dickman\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Jacob Mathew v. State of Punjab\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Jacob Mathew v. State of Punjab\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/negligence.json",
-      "topic": "topic:india:torts-negligence",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Municipal Corporation of Delhi v. Subhagwanti\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Rylands v. Fletcher\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Rylands v. Fletcher\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Rylands v. Fletcher\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Rylands v. Fletcher\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"M.C. Mehta v. Union of India (Oleum Gas Leak Case)\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Union Carbide Corporation v. Union of India\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Union Carbide Corporation v. Union of India\" is missing ratioDecidendi.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-court",
-      "severity": "medium",
-      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" has no court metadata.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing facts.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing issue.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/torts/strict-liability.json",
-      "topic": "topic:india:torts-strict-liability",
-      "type": "missing-case-analysis",
-      "severity": "medium",
-      "message": "Case \"Read v. J. Lyons & Co. Ltd.\" is missing ratioDecidendi.",
       "evidence": ""
     },
     {
@@ -110779,118 +110499,6 @@
       "severity": "medium",
       "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
       "evidence": "supreme court bar association v. union of india|(1998) 4 scc 409"
-    },
-    {
-      "path": "topics/contract/ica-s-148-151.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "state of gujarat v. memon mahomed haji hasam|air 1967 sc 1885"
-    },
-    {
-      "path": "topics/contract/ica-s-152-157.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "state of gujarat v. memon mahomed haji hasam|air 1967 sc 1885"
-    },
-    {
-      "path": "topics/contract/ica-s-182-189.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "syed abdul khader v. rami reddy|(1979) 2 scc 601"
-    },
-    {
-      "path": "topics/contract/ica-s-226-238.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "syed abdul khader v. rami reddy|(1979) 2 scc 601"
-    },
-    {
-      "path": "topics/contract/ica-s-20-22.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "satyabrata ghose v. mugneeram bangur & co.|air 1954 sc 44"
-    },
-    {
-      "path": "topics/contract/ica-s-51-58.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "satyabrata ghose v. mugneeram bangur & co.|air 1954 sc 44"
-    },
-    {
-      "path": "topics/contract/ica-s-211-221.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "pannalal jankidas v. mohanlal|air 1951 sc 144"
-    },
-    {
-      "path": "topics/contract/ica-s-222-225.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "pannalal jankidas v. mohanlal|air 1951 sc 144"
-    },
-    {
-      "path": "topics/contract/ica-s-37-45.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "hind construction co. v. state of maharashtra|(1979) 2 scc 70"
-    },
-    {
-      "path": "topics/contract/ica-s-46-50.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "hind construction co. v. state of maharashtra|(1979) 2 scc 70"
-    },
-    {
-      "path": "topics/contract/ica-s-59-61.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "union of india v. kishorilal gupta & bros.|air 1959 sc 1362"
-    },
-    {
-      "path": "topics/contract/ica-s-62-67.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "union of india v. kishorilal gupta & bros.|air 1959 sc 1362"
-    },
-    {
-      "path": "topics/contract/partnership-s-31-38.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "addanki narayanappa v. bhaskara krishnappa|air 1966 sc 1300"
-    },
-    {
-      "path": "topics/contract/partnership-s-39-55.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "addanki narayanappa v. bhaskara krishnappa|air 1966 sc 1300"
     },
     {
       "path": "topics/cpc/appeals.json",
