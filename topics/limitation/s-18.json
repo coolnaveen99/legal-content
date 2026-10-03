@@ -16,36 +16,64 @@
     "legacySubjectSlug": "limitation",
     "legacyTopicId": "s-18",
     "enhancement": {
-      "version": "1",
+      "version": "2",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Section 18 Limitation Act — Acknowledgment.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain Limitation Act, 1963 Section 18.",
+        "Apply the provision to a limitation calculation or factual problem.",
+        "Distinguish the provision from related limitation rules."
       ],
-      "definition": "A signed written acknowledgment made before time expires starts a fresh limitation period.",
-      "legalPrinciple": "A signed written acknowledgment made before time expires starts a fresh limitation period.",
-      "statutoryFramework": "Section 18 Limitation Act — Acknowledgment",
+      "definition": "Section 18 provides that a written and signed acknowledgment of liability made before the prescribed period expires results in a fresh limitation period being computed from the date of the acknowledgment, subject to the statutory requirements.",
+      "legalPrinciple": "The acknowledgment must be made before expiry, be in writing and signed by the person against whom the right is claimed or an authorized person through whom liability is derived; its content need not always use formal language of admission.",
+      "statutoryFramework": "Limitation Act, 1963, Section 18 and its explanations concerning the nature, signature and timing of acknowledgment.",
       "essentialIngredients": [
-        "A signed written acknowledgment made before time expires starts a fresh limitation period."
+        "There must be an existing property or right covered by Section 18.",
+        "The acknowledgment must be made before expiry of the prescribed period.",
+        "It must be in writing.",
+        "It must be signed by the appropriate person or authorized agent.",
+        "Compute the fresh limitation period from the date of signing."
       ],
-      "detailedExplanation": "A signed written acknowledgment made before time expires starts a fresh limitation period.",
+      "detailedExplanation": "Section 18 is a statutory fresh-start rule. The timing is critical: an acknowledgment made after the limitation period has expired does not revive a barred claim under Section 18. The statutory explanation also makes clear that an acknowledgment may be sufficient even though it does not state the exact nature of the right or is accompanied by a refusal or set-off.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "A debtor signs a written balance acknowledgment before the existing limitation period expires. Section 18 can require a fresh limitation period to be computed from the date of that signed acknowledgment, provided the other statutory conditions are satisfied."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "distinctions": "Section 18 concerns acknowledgment before expiry; a post-expiry statement cannot be treated as a Section 18 acknowledgment that revives a barred claim. It is also distinct from part-payment rules under Section 19.",
+      "caseLaw": [
+        {
+          "name": "Kandimalla Raghavaiah & Co. v. National Insurance Co. Ltd.",
+          "year": 2025,
+          "citation": "Supreme Court judgment, 3 April 2025",
+          "holding": "The Supreme Court reproduced and applied Section 18, including the requirement that acknowledgment be made before expiry and the statutory explanations concerning its form and effect.",
+          "relevance": "Direct Supreme Court authority on Section 18.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2021/7354/7354_2021_5_1501_60616_Judgement_03-Apr-2025.pdf"
+        }
+      ],
+      "problemApplication": "Identify the original limitation expiry, date and wording of the acknowledgment, signatory authority, and whether the acknowledgment concerns the relevant property/right. Then calculate the fresh period.",
+      "examAnswerStructure": [
+        "Introduction and statutory provision",
+        "Identify the prescribed period and triggering event",
+        "State statutory ingredients",
+        "Apply computation/exclusion/extension rules",
+        "Address exceptions and related provisions",
+        "Conclude whether the proceeding is within time or what relief is available"
+      ],
       "keyTakeaways": [
-        "A signed written acknowledgment made before time expires starts a fresh limitation period."
+        "The acknowledgment must be made before expiry, be in writing and signed by the person against whom the right is claimed or an authorized person through whom liability is derived; its content need not always use formal language of admission.",
+        "Section 18 concerns acknowledgment before expiry; a post-expiry statement cannot be treated as a Section 18 acknowledgment that revives a barred claim. It is also distinct from part-payment rules under Section 19."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Limitation Act, 1963",
+        "Official Supreme Court of India judgment source where case law is activated"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-03",
+        "verifiedBy": "India Code / Supreme Court of India official sources",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "India Code statutory text reviewed for Section 18.",
+          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
+          "No authority was activated for Section 3 because no opened judgment was needed to establish an exact Section 3 proposition in this batch.",
+          "State amendments and special/local laws must be checked where applicable."
         ]
       }
     }
@@ -53,7 +81,7 @@
   "sources": [
     "source:india:india-code-limitation-1963"
   ],
-  "updatedAt": "2026-10-03T11:18:49.968Z",
+  "updatedAt": "2026-10-03T13:00:00Z",
   "effectiveFrom": "1964-01-01",
   "effectiveTo": null
 }
