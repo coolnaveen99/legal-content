@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-03T10:06:58.233Z",
+  "generatedAt": "2026-10-03T10:26:45.053Z",
   "scope": {
     "migratedTopics": 3551
   },
@@ -13,14 +13,14 @@
   ],
   "summary": {
     "topicsAudited": 3551,
-    "topicsWithFindings": 2337,
-    "totalFindings": 3809,
-    "highSeverity": 3039,
+    "topicsWithFindings": 2338,
+    "totalFindings": 3810,
+    "highSeverity": 3040,
     "mediumSeverity": 770
   },
   "byType": {
     "provenance": 1952,
-    "transition-law": 1070,
+    "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
     "case-year": 13,
@@ -4208,6 +4208,15 @@
     {
       "path": "topics/bns/s-39.json",
       "id": "topic:india:bns-s-39",
+      "subject": "bns",
+      "type": "transition-law",
+      "severity": "high",
+      "message": "Legacy criminal-law terminology appears in a BNS topic; verify whether it is historical, comparative, or incorrectly presented as current law.",
+      "evidence": "Indian Penal Code, 1860"
+    },
+    {
+      "path": "topics/bns/s-4.json",
+      "id": "topic:india:bns-s-4",
       "subject": "bns",
       "type": "transition-law",
       "severity": "high",
