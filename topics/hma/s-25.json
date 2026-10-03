@@ -4,7 +4,7 @@
   "id": "topic:india:hma-s-25",
   "version": 1,
   "status": "published",
-  "title": "Section 25 HMA — Permanent alimony and maintenance",
+  "title": "Section 25 HMA \u2014 Permanent alimony and maintenance",
   "jurisdiction": "India",
   "content": {
     "overview": "Section 25 allows the court, at the time of passing any decree or at any time subsequent thereto, to order either party to pay the other a gross sum or monthly or periodical sum for maintenance and support, having regard to income, property, conduct, and other circumstances, with power to vary, modify, or rescind the order.",
@@ -21,6 +21,7 @@
     "enhancement": {
       "version": "2",
       "status": "in-progress",
+      "caseLawGate": "opened",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "Explain Hindu Marriage Act, 1955 Section 25 and its statutory purpose.",
@@ -47,17 +48,19 @@
           "name": "Sukhdev Singh v. Sukhbir Kaur",
           "year": 2026,
           "citation": "Civil Appeal Nos. 2536 and 5726 of 2019; order dated 4 June 2026",
-          "holding": "The Supreme Court held that a spouse whose marriage has been declared void under Section 11 can seek permanent alimony under Section 25 and emphasized that the relief is discretionary and depends on facts and conduct.",
-          "relevance": "Direct and current authority for Section 25.",
-          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf"
+          "holding": "Order dated 4 June 2026. The Court recorded that a spouse whose marriage has been declared void under Section 11 is entitled to seek permanent alimony or maintenance under Section 25, but whether that relief is granted depends on the facts of the case and the conduct of the parties, and the grant is always discretionary. It set aside the impugned orders insofar as they dealt with interim alimony under Section 24 and permanent alimony under Section 25, and remitted those issues for evidence, leaving the Section 11 decree undisturbed.",
+          "relevance": "Opened order on the availability of Section 25 permanent alimony after a decree declaring the marriage void under Section 11.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf",
+          "verificationStatus": "opened-official-pdf"
         },
         {
           "name": "Amutha v. A.R. Subramanian",
           "year": 2024,
           "citation": "2024 INSC 1033; Civil Appeal No. 2643 of 2023",
-          "holding": "The Supreme Court addressed permanent alimony while granting divorce and discussed the financial factors relevant to the award.",
-          "relevance": "Direct authority illustrating Section 25 relief in a divorce proceeding.",
-          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/41090/41090_2018_6_1501_58085_Judgement_19-Dec-2024.pdf"
+          "holding": "Judgment dated 19 December 2024. While upholding the divorce decree, the Court directed the husband to pay Rs 50,00,000 as permanent alimony to the wife and a further Rs 50,00,000 to the daughter, within four months. It treated financial independence as not precluding such relief where needed to secure dignity and stability, and it recorded factors drawn from Rajnesh v. Neha, including duration of the marriage, earning capacities, age and health, standard of living, and contributions to the marriage.",
+          "relevance": "Opened judgment that awarded permanent alimony while upholding a divorce decree.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/41090/41090_2018_6_1501_58085_Judgement_19-Dec-2024.pdf",
+          "verificationStatus": "opened-official-pdf"
         }
       ],
       "problemApplication": "Identify the decree, assess statutory eligibility, collect financial and conduct evidence, determine the appropriate form of award, and check grounds for later variation or rescission.",
@@ -74,17 +77,19 @@
         "Section 25 is permanent alimony/maintenance linked to the statutory matrimonial decree framework; Section 24 is interim maintenance during proceedings."
       ],
       "authoritativeSources": [
-        "India Code — Hindu Marriage Act, 1955",
-        "Official Supreme Court of India judgment sources listed in caseLaw"
+        "India Code \u2014 Hindu Marriage Act, 1955 PDF, not opened this pass: https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf",
+        "Supreme Court PDF \u2014 Sukhdev Singh v. Sukhbir Kaur, order 4 June 2026: https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf",
+        "Supreme Court PDF \u2014 Amutha v. A.R. Subramanian, judgment 19 December 2024: https://api.sci.gov.in/supremecourt/2018/41090/41090_2018_6_1501_58085_Judgement_19-Dec-2024.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "India Code / Supreme Court of India official sources",
+        "verifiedBy": "HMA official-PDF pass",
         "notes": [
-          "India Code statutory text reviewed for Section 25.",
-          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
-          "No unverified case authority was added.",
-          "The central Act text and Supreme Court authorities should be supplemented with applicable State amendments/procedural rules where relevant."
+          "India Code PDF https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf was not opened this pass (HTTP 504 and timeouts). Existing statutory wording was left in place and was not re-certified from that PDF.",
+          "Opened official Supreme Court PDF https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf: Sukhdev Singh v. Sukhbir Kaur, Civil Appeal Nos. 2536 and 5726 of 2019, order New Delhi, 4 June 2026. Cause title matched. The order addresses permanent alimony under Section 25 after a Section 11 decree and remits quantum.",
+          "Opened official Supreme Court PDF https://api.sci.gov.in/supremecourt/2018/41090/41090_2018_6_1501_58085_Judgement_19-Dec-2024.pdf: Amutha v. A.R. Subramanian, Civil Appeal No. 2643 of 2023, judgment 19 December 2024. Cause title matched. Paragraphs 36 to 41 award permanent alimony of Rs 50,00,000 to the wife and Rs 50,00,000 to the daughter. Amutha is kept on this topic because the opened PDF addresses permanent alimony.",
+          "The separate larger-bench judgment dated 12 February 2025 quoted in the Sukhdev order was not opened.",
+          "Topic enhancement remains in-progress. Not verified. Not COMPLETE_LOCKED."
         ]
       }
     }
@@ -92,7 +97,7 @@
   "sources": [
     "source:india:india-code-hma-1955"
   ],
-  "updatedAt": "2026-10-03T13:30:00Z",
+  "updatedAt": "2026-10-03T15:00:00Z",
   "effectiveFrom": "1955-05-18",
   "effectiveTo": null
 }
