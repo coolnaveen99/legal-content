@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-03  
 **Repository:** `coolnaveen99/legal-content`  
-**Status:** SCOPE FROZEN — REPOSITORY INVENTORY RECONCILED  
+**Status:** SCOPE FROZEN — REPOSITORY INVENTORY RECONCILED / GAP TOPICS ADDED  
 **Control standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`
 
 ## Purpose
@@ -78,7 +78,7 @@ Current law-school curricula show that the subject is broader than the original 
 - [x] Establish the authoritative/product curriculum scope.
 - [x] Reconcile all 38 repository topic files.
 - [x] Reconcile renamed/duplicate topics.
-- [ ] Identify genuinely missing topics after row-level mapping.
+- [x] Identify genuinely missing topics after row-level mapping — 4 first-order gaps identified and created.
 - [ ] Identify topics that should be covered by another subject.
 - [x] Freeze the Torts inventory version.
 
@@ -92,7 +92,7 @@ For every inventory item:
 - [ ] Verification state — substantive verification pending
 - [ ] Last relevant commit — record during row-level mapping
 - [x] Cross-topic relationship — duplicate groups identified
-- [ ] Gap classification — next control step
+- [x] Gap classification — four first-order gaps created; secondary curriculum candidates remain
 
 ### TORT-ENH-001 — Enhancement gate
 Only for topics whose enhancement is actually incomplete:
@@ -151,7 +151,7 @@ Torts can only become `COMPLETE_LOCKED` when every applicable inventory item has
 
 The repository contains **38 Torts JSON topic files**, not 15. The complete file-by-file reconciliation is recorded in `docs/TORTS-REPOSITORY-RECONCILIATION.md`. The historical 12-topic README is therefore treated as the canonical entry-point subset, while migrated/supplemental files remain substantive content and must be mapped rather than ignored.
 
-The 38 files include duplicate/overlap groups for definitions, general defences, injuria/damnum, defamation, remedies/damages, trespass, vicarious liability and capacity/state liability. These are mapping/consolidation concerns, not reasons to delete or blindly re-enhance content.
+The 42 files include duplicate/overlap groups for definitions, general defences, injuria/damnum, defamation, remedies/damages, trespass, vicarious liability and capacity/state liability. These are mapping/consolidation concerns, not reasons to delete or blindly re-enhance content.
 
 ## E. Important finding
 
@@ -159,7 +159,7 @@ The original 12-topic Torts working set was **not a complete subject inventory**
 
 The repository currently contains 38 Torts JSON topic files. Current law-school curricula also identify additional coverage areas that require row-level mapping and depth validation. Therefore no Torts completion percentage should be calculated from the old 12-topic set.
 
-**Current Torts state: SCOPE FROZEN — ROW-LEVEL RECONCILIATION / GAP ANALYSIS NEXT.**
+**Current Torts state: SCOPE FROZEN — GAP TOPICS CREATED / LEGAL VERIFICATION NEXT.**
 
 ## F. Anti-duplication rule
 
