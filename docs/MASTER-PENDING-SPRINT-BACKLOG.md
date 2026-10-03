@@ -84,6 +84,7 @@
 - [x] **BSA-001** Complete BSA §§1–170 (Chapters I through XII complete — BSA catalogue 100% enhanced from Section 1 to Section 170). Additive in-progress enhancements on topics/bsa/s-1.json through s-170.json. Not verified or published.
 - [x] **CONST-001** Complete Constitutional Law topics (Arts. 1–395 + sub-articles + 21 foundational doctrines complete — 522 topics 100% enhanced with all 14 required fields, section-specific principles, zero generic template contamination, and landmark hardening). Additive in-progress enhancements across topics/constitution/*.json. Not verified or published.
 - [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Not verified.
+- [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement (ss.10, 14, 16, 20, 34, 38) with all required enhancement fields; statutory/case sources opened; content remains `in-progress` pending publishing gate.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
 - [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Not verified.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
@@ -194,8 +195,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** BNS s.2 public-servant descriptions (i) and (k) checked. Registration Act subject (3 topics) checked against India Code. Gaps recorded. None marked verified.
+**Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Next open item:** reconcile the Registration Act omissions, then the next small subject.
+**Next open item:** TORT-001 — complete the full Torts subject enhancement inventory before moving to Administrative Law.
 **Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
 
