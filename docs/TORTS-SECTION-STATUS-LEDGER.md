@@ -67,7 +67,8 @@
 3. [x] Reconcile renamed/duplicate topics — 8 overlap groups.
 4. [x] Decide which rows are Torts-core versus linked statutory subjects.
 5. [x] Complete row-level mapping and create the four genuine first-order gap topic files.
-6. [ ] Run schema/content validation on all 42 files before legal verification.
+6. [x] Run structural content-quality validation on the four newly created gap files.
+7. [ ] Run the same enhancement-depth audit across the 38 pre-existing files before legal verification.
 6. [ ] Inspect existing enhancement fields before changing any existing topic.
 7. [ ] Complete only missing enhancement gates.
 8. [ ] Complete statutory/current-law verification where applicable.
@@ -99,3 +100,12 @@ No row may be reworked merely because a later batch is running. Reopen only for:
 - product regression;
 - explicit correction request.
 
+
+
+## Content-quality checkpoint — 2026-10-03
+
+**Validated:** 4/4 newly created gap topics have valid JSON, enhancement scaffolding, exam-answer structures and distinction structures.
+
+**Not yet complete:** 38 pre-existing Torts files require depth-gate inspection before they can be considered enhancement-complete. Existing content is preserved; only missing fields/gates should be added.
+
+**Legal verification:** 0/42 promoted to COMPLETE_LOCKED. Verification remains a separate gate and has not been inferred from migrated status fields.
