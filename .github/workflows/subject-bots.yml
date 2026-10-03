@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       subject:
-        description: Subject slug; blank runs every subject as its own job
+        description: Subject slug; blank continues the next incomplete subject
         required: false
         default: ""
       topics_per_run:
-        description: Topics per subject job
+        description: Topics this run
         required: false
         default: "3"
       dry_run:
@@ -21,20 +21,16 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
+
+concurrency:
+  group: subject-content-bots
+  cancel-in-progress: false
 
 jobs:
   enhance:
-    name: bot-${{ matrix.subject }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    strategy:
-      fail-fast: false
-      max-parallel: 4
-      matrix:
-        subject: [admin, arbitration, bns, bnss, bsa, company, constitution, contract, cpc, cyber, dpsp, environment, ethics, family, fundamental-rights, ipr, labour, land, limitation, ni-act, petition-formats, pil, registration, sra, taxation, tort, torts, tpa]
-    concurrency:
-      group: subject-bot-${{ matrix.subject }}
-      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
@@ -43,20 +39,55 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Skip if a specific subject was requested
-        id: gate
+
+      - name: Resolve subject
+        id: subject
+        env:
+          REQUESTED: ${{ github.event.inputs.subject }}
         run: |
-          WANTED="${{ github.event.inputs.subject }}"
-          if [ -n "$WANTED" ] && [ "$WANTED" != "${{ matrix.subject }}" ]; then
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          fi
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const subjects = ['admin','arbitration','bns','bnss','bsa','company','constitution','contract','cpc','cyber','dpsp','environment','ethics','family','fundamental-rights','ipr','labour','land','limitation','ni-act','petition-formats','pil','registration','sra','taxation','tort','torts','tpa'];
+          const requested = (process.env.REQUESTED || '').trim();
+          function doneCount(subject) {
+            const slug = subject.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+            try { return JSON.parse(fs.readFileSync(path.join('.subject-content-bot-state', slug + '.json'), 'utf8')).completedTopics.length; }
+            catch { return 0; }
+          }
+          function total(subject) {
+            let n = 0;
+            function walk(d) {
+              if (!fs.existsSync(d)) return;
+              for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+                const p = path.join(d, e.name);
+                if (e.isDirectory()) walk(p);
+                else if (e.name.endsWith('.json')) {
+                  try {
+                    const j = JSON.parse(fs.readFileSync(p, 'utf8'));
+                    if (j.entityType === 'topic' && j.content?.legacySubjectSlug === subject) n++;
+                  } catch {}
+                }
+              }
+            }
+            walk('topics');
+            return n;
+          }
+          const pool = requested ? subjects.filter(s => s === requested) : subjects;
+          const subject = pool.find(s => doneCount(s) < total(s)) || '';
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'subject=' + subject + '\n');
+          console.log(JSON.stringify({ subject, requested }));
+          NODE
+
+      - name: Stop when every subject is complete
+        if: steps.subject.outputs.subject == ''
+        run: echo "All subject bots are complete."
+
       - name: Use subject branch
-        if: steps.gate.outputs.run == 'true'
         id: branch
+        if: steps.subject.outputs.subject != ''
         run: |
-          BRANCH="subject-bot-${{ matrix.subject }}"
+          BRANCH="subject-bot-${{ steps.subject.outputs.subject }}"
           git fetch origin "$BRANCH" || true
           if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH"; then
             git checkout -B "$BRANCH" "origin/$BRANCH"
@@ -64,21 +95,33 @@ jobs:
             git checkout -B "$BRANCH"
           fi
           echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
       - name: Enhance subject
-        if: steps.gate.outputs.run == 'true'
+        id: enhance
+        if: steps.subject.outputs.subject != ''
         env:
-          SUBJECT_BOT_SUBJECT: ${{ matrix.subject }}
+          SUBJECT_BOT_SUBJECT: ${{ steps.subject.outputs.subject }}
           SUBJECT_BOT_TOPICS_PER_RUN: ${{ github.event.inputs.topics_per_run || '3' }}
           SUBJECT_BOT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
-        run: node scripts/subject-content-bot.mjs
+        run: |
+          node scripts/subject-content-bot.mjs | tee /tmp/subject-bot.json
+          python3 - <<'PY'
+          import json, os
+          raw = open('/tmp/subject-bot.json').read().strip().splitlines()[0]
+          data = json.loads(raw)
+          open(os.environ['GITHUB_OUTPUT'], 'a').write('pending=' + str(len(data.get('pendingSelected') or [])) + '\n')
+          open(os.environ['GITHUB_OUTPUT'], 'a').write('remaining=' + str(data.get('remaining') or 0) + '\n')
+          PY
+
       - name: Validate
-        if: steps.gate.outputs.run == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
         run: |
           npm run manifest:refresh
           npm run validate:enhancements
           npm run validate
+
       - name: Commit subject branch
-        if: steps.gate.outputs.run == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
         run: |
           git config user.name "codepackr-subject-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -87,20 +130,34 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "chore(${{ matrix.subject }}): add educational examples and illustrations"
+          git commit -m "chore(${{ steps.subject.outputs.subject }}): add educational examples and illustrations"
           git push -u origin "${{ steps.branch.outputs.branch }}"
-      - name: Open review PR
-        if: steps.gate.outputs.run == 'true' && github.event.inputs.dry_run != 'true'
+
+      - name: Open or update PR
+        id: pr
+        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet origin/main...HEAD; then
-            echo "Branch matches main."
-            exit 0
-          fi
-          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "subject-bot-${{ matrix.subject }}" --base main --state open --json number --jq '.[0].number // empty')
+          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --state open --json number --jq '.[0].number // empty')
           if [ -z "$EXISTING" ]; then
-            gh pr create --repo "$GITHUB_REPOSITORY" --head "subject-bot-${{ matrix.subject }}" --base main --title "Subject bot — ${{ matrix.subject }}" --body "Non-AI subject bot. Adds educational examples and illustration entities from text already stored on each topic. Does not invent cases or citations."
-          else
-            echo "Open PR #$EXISTING"
+            EXISTING=$(gh pr create --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --title "Subject bot — ${{ steps.subject.outputs.subject }}" --body "Non-AI subject bot following legal-content and codepackr-law rules. Educational examples and illustrations only. No invented cases or citations. Next run is dispatched automatically." --json number --jq '.number')
           fi
+          echo "number=$EXISTING" >> "$GITHUB_OUTPUT"
+          echo "PR #$EXISTING"
+
+      - name: Merge completed subject and continue
+        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REMAINING: ${{ steps.enhance.outputs.remaining }}
+          SUBJECT: ${{ steps.subject.outputs.subject }}
+        run: |
+          if [ "$REMAINING" = "0" ]; then
+            PR=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "subject-bot-$SUBJECT" --base main --state open --json number --jq '.[0].number // empty')
+            if [ -n "$PR" ]; then
+              gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --merge --delete-branch || echo "Merge skipped; branch remains for review."
+            fi
+          fi
+          gh workflow run subject-bots.yml --repo "$GITHUB_REPOSITORY" --ref main -f subject="" -f topics_per_run="${{ github.event.inputs.topics_per_run || '3' }}"
+          echo "Next scheduler dispatched."

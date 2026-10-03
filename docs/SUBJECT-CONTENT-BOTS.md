@@ -1,16 +1,16 @@
 # Subject content bots
 
-One non-AI bot per subject. Each bot adds educational examples and an illustration entity using only text already stored on the topic.
+One non-AI bot per subject. No model call. No manual step after the first schedule.
 
-The bots do not call a model. They do not invent statutes, cases, holdings, citations, dates, or URLs. Output stays review / in-progress until a person verifies it.
+Rules followed:
 
-Subjects: admin, arbitration, bns, bnss, bsa, company, constitution, contract, cpc, cyber, dpsp, environment, ethics, family, fundamental-rights, ipr, labour, land, limitation, ni-act, petition-formats, pil, registration, sra, taxation, tort, torts, tpa.
+- legal-content: never delete the topic, preserve legacyTopicId and legacySubjectSlug, additive enhancement, illustrations are hypothetical, status stays in-progress or review, validate before commit.
+- codepackr-law: do not invent a section, citation, holding, statutory illustration, or procedural step. BNS, BNSS, and BSA are current law from 1 July 2024. IPC, CrPC, and IEA stay historical. Exam structure is a study skeleton, not a court holding.
 
-Run Actions workflow "Subject content bots". Each subject is its own job, named bot-<subject>. A run updates branch subject-bot-<subject> and opens a pull request to main. It does not push to main.
+## Chain
 
-Dry run: set dry_run=true. Optional subject input limits the run to one subject.
+SUBJECT inventory -> topics -> validate -> commit subject-bot-<subject> -> open or update PR -> dispatch the next run for the same subject.
 
-Output:
-- content.examples: two educational hypotheticals marked as not a decided case.
-- illustrations/<subject>/<topic>-example.json linked from content.illustrations.
-- .subject-content-bot-state/<subject>.json records topics already processed.
+When that subject has no pending topics, the PR is merged and the next subject job is dispatched.
+
+Schedule: 18:15 UTC daily, one incomplete subject at a time. workflow_dispatch can target one subject.
