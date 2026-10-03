@@ -4,7 +4,7 @@
   "id": "topic:india:hma-s-24",
   "version": 1,
   "status": "published",
-  "title": "Section 24 HMA — Maintenance pendente lite and expenses of proceedings",
+  "title": "Section 24 HMA \u2014 Maintenance pendente lite and expenses of proceedings",
   "jurisdiction": "India",
   "content": {
     "overview": "Section 24 empowers the court, in any proceeding under the Act, to order the respondent to pay the petitioner maintenance pendente lite and such expenses of the proceeding as appear reasonable if it appears that the petitioner has no independent income sufficient for support and the necessary expenses of the proceeding.",
@@ -21,6 +21,7 @@
     "enhancement": {
       "version": "2",
       "status": "in-progress",
+      "caseLawGate": "opened",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "Explain Hindu Marriage Act, 1955 Section 24 and its statutory purpose.",
@@ -47,9 +48,10 @@
           "name": "Sukhdev Singh v. Sukhbir Kaur",
           "year": 2026,
           "citation": "Civil Appeal Nos. 2536 and 5726 of 2019; order dated 4 June 2026",
-          "holding": "The Supreme Court reiterated that relief under Section 24 is discretionary and that maintenance pendente lite may be granted where the statutory conditions are satisfied, including in proceedings involving a void marriage under Section 11.",
-          "relevance": "Direct and current authority for Section 24.",
-          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf"
+          "holding": "Order dated 4 June 2026. The Court recorded the answers of the larger bench dated 12 February 2025, including that even if a court reaches a prima facie conclusion that the marriage is void or voidable, it is not precluded from granting maintenance pendente lite under Section 24 if the conditions in that section are satisfied, and that relief under Section 24 is discretionary and the conduct of the party seeking relief is considered. This order set aside the impugned orders to the extent they dealt with interim alimony under Section 24 and permanent alimony under Section 25, and remitted those questions to the Additional District Judge, Amritsar / Family Court, without interfering with the decree under Section 11.",
+          "relevance": "Opened order applying Section 24 to proceedings arising from a marriage declared void under Section 11, and remitting the interim-maintenance question.",
+          "sourceUrl": "https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf",
+          "verificationStatus": "opened-official-pdf"
         }
       ],
       "problemApplication": "Identify the host HMA proceeding, compare each spouse's income and resources, assess reasonable needs and expenses, and apply the court's discretion under Section 24.",
@@ -66,17 +68,18 @@
         "Section 24 concerns pendente lite maintenance and litigation expenses; Section 25 concerns permanent alimony/maintenance at or after a decree."
       ],
       "authoritativeSources": [
-        "India Code — Hindu Marriage Act, 1955",
-        "Official Supreme Court of India judgment sources listed in caseLaw"
+        "India Code \u2014 Hindu Marriage Act, 1955 PDF, not opened this pass: https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf",
+        "Supreme Court PDF \u2014 Sukhdev Singh v. Sukhbir Kaur, order 4 June 2026: https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "India Code / Supreme Court of India official sources",
+        "verifiedBy": "HMA official-PDF pass",
         "notes": [
-          "India Code statutory text reviewed for Section 24.",
-          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
-          "No unverified case authority was added.",
-          "The central Act text and Supreme Court authorities should be supplemented with applicable State amendments/procedural rules where relevant."
+          "India Code PDF https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf was not opened this pass (HTTP 504 and timeouts). Existing statutory wording was left in place and was not re-certified from that PDF.",
+          "Opened official Supreme Court PDF https://api.sci.gov.in/supremecourt/2018/15003/15003_2018_2_104_71816_FinalOrder_04-Jun-2026.pdf: Sukhdev Singh v. Sukhbir Kaur, Civil Appeal Nos. 2536 and 5726 of 2019, order New Delhi, 4 June 2026, Vikram Nath and V. Mohana JJ. Cause title matched. The order addresses Section 24 as well as Section 25 and remits both.",
+          "The separate larger-bench judgment dated 12 February 2025 was not opened. Only the answers quoted in this 4 June 2026 order were used.",
+          "No separately named Section 24 case was supplied. This item is kept only because the opened Sukhdev order decides the Section 24 question by recording the larger-bench answer and setting aside the interim-alimony orders.",
+          "Topic enhancement remains in-progress. Not verified. Not COMPLETE_LOCKED."
         ]
       }
     }
@@ -84,7 +87,7 @@
   "sources": [
     "source:india:india-code-hma-1955"
   ],
-  "updatedAt": "2026-10-03T13:30:00Z",
+  "updatedAt": "2026-10-03T15:00:00Z",
   "effectiveFrom": "1955-05-18",
   "effectiveTo": null
 }
