@@ -4,7 +4,7 @@
   "id": "topic:india:bns-s-100",
   "version": 1,
   "status": "review",
-  "title": "Culpable homicide",
+  "title": "Section 100 — Culpable homicide",
   "jurisdiction": "India",
   "content": {
     "overview": "Section 100 BNS defines the genus of culpable homicide: causing death by an act done with the intention of causing death, with the intention of causing bodily injury likely to cause death, or with the knowledge that the act is likely to cause death. It serves as the foundational predicate for all homicide jurisprudence under the Sanhita, structured by its three mental limbs and three statutory Explanations governing accelerated mortality, non-fatal treatability, and the infanticide threshold.",
@@ -276,7 +276,94 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-100",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1.0.0",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023 (Act No. 45 of 2023), Chapter VI: Of Offences Affecting the Human Body, ss. 100-110",
+        "Law Commission of India, Reports on Homicide and Capital Sentencing Jurisprudence",
+        "Code of Criminal Procedure, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023 (Sentencing & Procedure Provisions)"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the definition of culpable homicide as the genus of all unlawful homicides under BNS s. 100.",
+        "Analyze the three alternative mental prongs: intention to cause death, intention to cause bodily injury likely to cause death, and knowledge of likelihood of death.",
+        "Understand the three statutory Explanations: acceleration of death (Explanation 1), non-preventable death despite medical aid (Explanation 2), and child in the womb vs birth (Explanation 3).",
+        "Differentiate culpable homicide from murder and simple hurt."
+      ],
+      "definition": "BNS s. 100 defines culpable homicide as causing death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that the act is likely to cause death.",
+      "legalPrinciple": "Culpable homicide is the foundational genus of unlawful homicide requiring a culpable mental state (intention or subjective knowledge) directly causing the termination of human life.",
+      "statutoryFramework": [
+        "Chapter VI — Of Offences Affecting the Human Body, BNS s. 100 (corresponding to IPC s. 299).",
+        "Prong (a): Act done with the intention of causing death.",
+        "Prong (b): Act done with the intention of causing such bodily injury as is likely to cause death.",
+        "Prong (c): Act done with the knowledge that the doer is likely by such act to cause death.",
+        "Explanation 1: Acceleration of death — causing bodily injury to a person laboring under a disease, disorder, or bodily infirmity that accelerates death is deemed causing death.",
+        "Explanation 2: Supervening medical care — where death results from bodily injury, the person causing it is deemed to have caused death even if death might have been prevented by proper medical remedies.",
+        "Explanation 3: Living child threshold — causing death of a child in the mother's womb is not homicide; causing death after any part of the child has been brought forth (even if not breathed or completely born) constitutes culpable homicide."
+      ],
+      "essentialIngredients": [
+        "A human being is dead.",
+        "The death was caused by the act of the accused.",
+        "The act was done with the intention of causing death; OR",
+        "The act was done with the intention of causing such bodily injury as is likely to cause death; OR",
+        "The act was done with the knowledge that the accused is likely by such act to cause death."
+      ],
+      "detailedExplanation": "Section 100 establishes the base definition for all criminal homicides in Indian law. Every murder is culpable homicide, but not all culpable homicides amount to murder (the genus-species doctrine). The mental element requires one of three states of mind: highest intent (intention to kill), intermediate intent (intention to inflict bodily injury that is likely to result in death), or knowledge of likelihood of death without specific homicidal intent. Explanation 1 embodies the eggshell skull rule: an assailant takes the victim as found; accelerating death in an infirm person is homicide. Explanation 2 establishes that medical mismanagement or failure to obtain prompt treatment does not break the chain of causation, provided the injury itself was the operating cause of death. Explanation 3 establishes the boundary of legal personhood: destroying an unborn fetus is governed by prenatal offences (ss. 88-92), but once any part of the child emerges alive from the birth canal, destroying the infant is culpable homicide.",
+      "examples": [
+        "Teaching example (Prong b - Bodily injury likely to cause death): An accused strikes a victim over the head with a heavy wooden lathi during a heated land dispute. While the accused did not explicitly state an intent to kill, he intended to inflict a fracture to the skull which was medically likely to cause death. This satisfies s. 100.",
+        "Teaching example (Explanation 1 - Accelerated death): An accused delivers a moderate punch to the abdomen of a person known to have an enlarged diseased spleen. The punch ruptures the spleen, causing fatal internal bleeding. Under Explanation 1, accelerating death constitutes culpable homicide."
+      ],
+      "distinctions": [
+        "Culpable homicide (s. 100) vs Murder (s. 101): Culpable homicide is the genus; murder is the aggravated species requiring a higher degree of probability of death or falling outside the five statutory exceptions.",
+        "Culpable homicide (s. 100) vs Rash/negligent death (s. 106): Culpable homicide requires intention or subjective knowledge of likelihood of death; Section 106 applies to gross negligence without intention or knowledge of likelihood of death."
+      ],
+      "problemApplication": [
+        "Issue: Whether an accused who pushed a victim into a fast-flowing river at night knowing the victim could not swim is guilty of culpable homicide.",
+        "Rule: Doing an act with knowledge that it is likely to cause death which results in drowning satisfies BNS s. 100 (Prong c).",
+        "Application: Pushing a non-swimmer into deep, turbulent waters at night carries obvious subjective knowledge of the likelihood of death.",
+        "Conclusion: The accused is guilty of culpable homicide under BNS s. 100."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 100 definition and IPC s. 299 correspondence.",
+          "List the three mental prongs: intention to kill, intention to cause likely fatal injury, knowledge of likelihood.",
+          "Summarize the three statutory Explanations."
+        ],
+        "tenMark": [
+          "Introduction: The genus-species relationship between culpable homicide and murder.",
+          "Detailed dissection of the three alternative mental prongs.",
+          "Analysis of Explanation 1 (acceleration), Explanation 2 (medical treatment), and Explanation 3 (fetal threshold).",
+          "Comparison with Section 106 (rash/negligent death).",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Comprehensive doctrinal analysis of culpable homicide in criminal jurisprudence.",
+          "In-depth analysis of actus reus, causation (causa causans), and the tripartite mens rea.",
+          "The eggshell skull rule and medical causation under Explanations 1 and 2.",
+          "The legal boundary of human life under Explanation 3 and medical jurisprudence on viable birth.",
+          "The classic distinction between s. 100 and s. 101 across degrees of probability.",
+          "Problem scenario resolution and conclusion."
+        ]
+      },
+      "keyTakeaways": [
+        "Foundational genus of all unlawful homicides in BNS.",
+        "Requires one of three mental states: intention to kill, intention to cause likely fatal injury, or knowledge.",
+        "Explanation 1: accelerating death of an infirm person is homicide.",
+        "Explanation 2: unskillful treatment does not exonerate the assailant.",
+        "Explanation 3: killing a child after any part emerges is homicide."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
