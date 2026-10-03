@@ -11,7 +11,7 @@ Future enhancements must use a site listed here, or add the new site to this fil
 | BNSS Act 46 of 2023 | https://www.indiacode.nic.in/bitstream/123456789/21544/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf | Arrangement of sections only |
 | BSA handle | https://www.indiacode.nic.in/handle/123456789/20063 | Handle recorded, text not re-read |
 | Constitution handle | https://www.indiacode.nic.in/handle/123456789/15240 | Handle recorded, articles not re-read |
-| Indian Contract Act, 1872 | https://www.indiacode.nic.in/handle/123456789/2187 | Contract topic sections reviewed; statutory rules used for the Contract subject |
+| Limitation Act, 1963 | https://www.indiacode.nic.in/bitstream/123456789/1565/5/A1963-36.pdf | Limitation topics, Sections 3, 5, 12, 14 and 18 |\n| Indian Contract Act, 1872 | https://www.indiacode.nic.in/handle/123456789/2187 | Contract topic sections reviewed; statutory rules used for the Contract subject |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf | Section 17 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/5753/1/indian_registration_act_1908_searchable.pdf | Section 18 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf | Section 49 |
