@@ -3,7 +3,7 @@
 **Date:** 2026-10-03  
 **Repository:** `coolnaveen99/legal-content`  
 **Control:** CONTROL-002  
-**Status:** SCOPE FROZEN — REPOSITORY INVENTORY RECONCILED  
+**Status:** SCOPE FROZEN — REPOSITORY INVENTORY RECONCILED / GAP FILES ADDED  
 **Standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`
 
 ## 1. Purpose
@@ -125,10 +125,12 @@ Some of these are covered by existing files; the list is a **coverage-control li
 
 ## 6. Frozen control state
 
-- Repository Torts JSON inventory: **38**
-- Historical README canonical topics: **12**
+- Repository Torts JSON inventory: **42**
+- Historical README canonical entry topics: **12**
+- Supplemental/migrated topic files before gap closure: **26**
+- New canonical gap topics added: **4**
 - Confirmed overlap/duplicate groups: **8**
-- Existing substantive files preserved: **38/38**
+- Existing substantive files preserved: **42/42**
 - Scope status: **FROZEN FOR RECONCILIATION**
 - Legal verification status: **NOT COMPLETE**
 - Content validation status: **NOT COMPLETE**
