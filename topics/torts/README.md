@@ -21,11 +21,11 @@ Canonical subject set for Indian common-law torts and related doctrines.
 
 ## Supplemental / migrated repository files
 
-The directory also contains 26 supplemental or migrated JSON topic files covering specific torts, expanded doctrines and statutory interfaces. They are substantive repository content and are tracked by `docs/TORTS-REPOSITORY-RECONCILIATION.md`. Duplicate/overlapping files are mapped to canonical coverage; they must not be silently deleted or ignored.
+The directory also contains 30 supplemental or migrated JSON topic files covering specific torts, expanded doctrines and statutory interfaces. They are substantive repository content and are tracked by `docs/TORTS-REPOSITORY-RECONCILIATION.md`. Duplicate/overlapping files are mapped to canonical coverage; they must not be silently deleted or ignored.
 
 ## Collection
 
-`collection:india:torts-complete` (v3 — scope reconciled; legal verification and production completion pending)
+`collection:india:torts-complete` (v4 — 42-file scope reconciled; legal verification and production completion pending)
 
 ## Doctrines
 
