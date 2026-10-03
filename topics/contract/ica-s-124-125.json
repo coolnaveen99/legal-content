@@ -125,9 +125,9 @@
     "legacyTopicId": "ica-s-124-125",
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
-      "version": "1",
+      "version": 2,
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Ica Section 124 125.",
         "Separate the points already present in the topic sections.",
@@ -164,7 +164,9 @@
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
-          "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic."
+          "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic.",
+          "Full Contract subject inventory confirms this topic is within the 60-topic repository scope.",
+          "Enhancement metadata upgraded to subject-enhancement; no unverified case authority added."
         ]
       },
       "examAnswerStructure": {
@@ -190,14 +192,18 @@
           "Counterargument and response",
           "Conclusion"
         ]
-      }
+      },
+      "distinctions": [
+        "This topic must be distinguished from adjacent Contract Act provisions by the exact statutory trigger, legal consequence and factual conditions stated in the applicable sections.",
+        "Do not substitute a related contractual doctrine for the specific rule covered by this topic."
+      ]
     },
     "caseLaw": []
   },
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-03T11:06:00.000Z",
+  "updatedAt": "2026-10-03T12:21:41.003Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
