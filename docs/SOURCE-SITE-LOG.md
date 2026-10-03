@@ -43,3 +43,5 @@ Indian Kanoon, blogs, commentaries, and model-answer sites are not an authority 
 4. Append the page URL to `content.enhancement.verification.notes`.
 5. If the page does not support the point, do not add it.
 6. Add any new official site to this log in the same commit.
+
+| Hindu Marriage Act, 1955 | https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf | HMA working set: Sections 9, 13, 13B, 24 and 25 | Official Supreme Court judgments verified for activated case authorities |
