@@ -194,8 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** VER-001 BNS s.3 body checked against India Code. Official heading is General explanations. Local file matches s.3(5) only. Cited cases not re-checked.
+**Current batch:** VER-001 BNS s.2 body partly checked. Clauses (1)-(3) and (5)-(10) matched India Code. Clause (4) and later clauses not re-read.
 **Verified enhancements:** 0.
-**Next open item:** BNS s.2 definitions body, or a judgment check for the cases already named in s.3.
+**Next open item:** BNS s.2 remaining clauses, starting with clause (4).
 **AI phase:** NOT STARTED.
 
