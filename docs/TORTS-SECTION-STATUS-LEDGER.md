@@ -120,3 +120,15 @@ No row may be reworked merely because a later batch is running. Reopen only for:
 - 4 newly created canonical gaps: exam-depth scaffold already completed.
 
 **Next gate:** substantive legal/statutory verification and case-law verification. No topic is COMPLETE_LOCKED merely because the enhancement scaffold exists.
+
+
+## Substantive verification checkpoint — 2026-10-03
+
+### Negligence
+- Enhancement depth: complete
+- Statutory/current-law evidence checked: complete for the propositions used
+- Case-law evidence checked: complete for active authorities
+- Status: **VERIFIED**
+- COMPLETE_LOCKED: **not yet** — content/product validation and production gates still remain.
+
+The verification pass confirmed the Supreme Court authorities used for professional negligence and res ipsa loquitur, the comparative Donoghue/Caparo authorities, and Bharatiya Sakshya Adhiniyam, 2023 section 104. This topic must still pass integration/production gates before lock.
