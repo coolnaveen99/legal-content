@@ -40,19 +40,20 @@
     "enhancement": {
       "version": "1",
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Remedies in tort — damages and injunction.",
         "Separate the points already present in the topic sections.",
         "Do not add a case or section number that is not already in this note."
       ],
-      "definition": "The primary tort remedy is unliquidated damages (compensatory; aggravated or exemplary in limited cases). Injunctions restrain continuing or threatened wrongs. Self-help is narrowly confined. Special statutes may fix structured compensation (e.g. motor accidents).",
-      "legalPrinciple": "Damages. Compensatory damages restore, so far as money can, the position as if the tort had not occurred — special (pecuniary) and general (non-pecuniary) heads. Remoteness limits recovery. Exemplary damages punish and deter in constrained categories; do not plead them as of course.",
-      "statutoryFramework": "Remedies in tort — damages and injunction",
+      "definition": "Remedies in tort are judicial responses to a civil wrong, principally damages and, where appropriate, injunctions or other relief.",
+      "legalPrinciple": "The remedy responds to the legally recognised injury and is shaped by causation, remoteness, mitigation, proof and equitable considerations.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields.",
       "essentialIngredients": [
-        "Damages: Compensatory damages restore, so far as money can, the position as if the tort had not occurred — special (pecuniary) and general (non-pecuniary) heads. Remoteness limits recovery. Exemplary damages punish and deter in constrained categories; do not plead them as of course.",
-        "Injunction: Prohibitory or mandatory injunctions where damages are inadequate — typical in nuisance and trespass. Interim injunctions require a serious question to be tried, balance of convenience, and irreparable injury analysis.",
-        "Track B: Prayer must match the wrong: money, restraint, declaration, or statutory compensation route. Quantify special damages with documents. For MACT/consumer claims, use the statutory forum and schedule where applicable."
+        "Establish actionable tort",
+        "Identify legally recognised loss/infringement",
+        "Select appropriate remedy",
+        "Apply causation, remoteness, mitigation and limits on relief"
       ],
       "detailedExplanation": "The primary tort remedy is unliquidated damages (compensatory; aggravated or exemplary in limited cases). Injunctions restrain continuing or threatened wrongs. Self-help is narrowly confined. Special statutes may fix structured compensation (e.g. motor accidents).\n\nDamages\nCompensatory damages restore, so far as money can, the position as if the tort had not occurred — special (pecuniary) and general (non-pecuniary) heads. Remoteness limits recovery. Exemplary damages punish and deter in constrained categories; do not plead them as of course.\n\nInjunction\nProhibitory or mandatory injunctions where damages are inadequate — typical in nuisance and trespass. Interim injunctions require a serious question to be tried, balance of convenience, and irreparable injury analysis.\n\nTrack B\nPrayer must match the wrong: money, restraint, declaration, or statutory compensation route. Quantify special damages with documents. For MACT/consumer claims, use the statutory forum and schedule where applicable.",
       "examples": [
@@ -63,21 +64,43 @@
         "The primary tort remedy is unliquidated damages (compensatory; aggravated or exemplary in limited cases). Injunctions restrain continuing or threatened wrongs. Self-help is narrowly confined. Special statutes may fix structured compensation (e.g. motor accidents)."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Topic reviewed for enhancement structure; governing tort principles are not codified in one general statute.",
+          "No case added to active case-law fields because the specific judgment page was not opened.",
+          "Verification page: https://www.sci.gov.in/judgements-case-no/"
         ]
-      }
-    }
+      },
+      "distinctions": [
+        {
+          "id": "remedies-dist-1",
+          "title": "Compensatory damages aim to repair loss; aggravated and exemplary damages have distinct functions.",
+          "left": "Compensatory damages aim to repair loss; aggravated and exemplary damages have distinct functions.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        },
+        {
+          "id": "remedies-dist-2",
+          "title": "An injunction is discretionary equitable relief; damages are the ordinary remedy for many torts.",
+          "left": "An injunction is discretionary equitable relief; damages are the ordinary remedy for many torts.",
+          "right": "Apply the stated distinction to the facts.",
+          "rows": []
+        }
+      ],
+      "examAnswerStructure": "Introduction → tort remedies → damages and heads → injunctions → mitigation/remoteness → exemplary/aggravated damages where available → application → conclusion."
+    },
+    "cases": [],
+    "caseLaw": []
   },
   "sources": [
     "source:india:india-common-law-torts"
   ],
-  "updatedAt": "2026-10-03T11:18:50.003Z",
+  "updatedAt": "2026-10-03T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
