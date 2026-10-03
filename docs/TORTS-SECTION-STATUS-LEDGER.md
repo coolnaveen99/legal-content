@@ -1,7 +1,7 @@
 # Torts Section-Level Status Ledger
 
 **Date:** 2026-10-03  
-**Status:** LIVE — SCOPE FROZEN / ROW-LEVEL RECONCILIATION IN PROGRESS  
+**Status:** LIVE — SCOPE FROZEN / GAP TOPICS CREATED / VERIFICATION PENDING  
 **Standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`  
 **Subject inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`
 
@@ -66,7 +66,8 @@
 2. [x] Reconcile all repository files under `topics/torts/` — 38 JSON files.
 3. [x] Reconcile renamed/duplicate topics — 8 overlap groups.
 4. [x] Decide which rows are Torts-core versus linked statutory subjects.
-5. [ ] Complete row-level mapping and create missing canonical topic files only where a genuine gap remains.
+5. [x] Complete row-level mapping and create the four genuine first-order gap topic files.
+6. [ ] Run schema/content validation on all 42 files before legal verification.
 6. [ ] Inspect existing enhancement fields before changing any existing topic.
 7. [ ] Complete only missing enhancement gates.
 8. [ ] Complete statutory/current-law verification where applicable.
@@ -78,9 +79,10 @@
 
 ## Current measured position
 
-- Confirmed repository topic files checked: **38**
+- Confirmed repository topic files checked: **42**
 - Historical README canonical entry topics: **12**
 - Supplemental/migrated topic files: **26**
+- New canonical gap topics: **4**
 - Ledger coverage rows created for current/research-derived scope: **41**
 - Additional curriculum-control rows identified: **32**
 - Topics currently safe to call fully complete: **0**
