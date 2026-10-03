@@ -124,12 +124,91 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-58",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the offence of concealing capital/life crime designs under BNS s. 58.",
+        "Analyze the active facilitation through concealment, false representation, or omission.",
+        "Examine the two sentencing tiers: offence committed (up to 7 years) vs offence not committed (up to 3 years)."
+      ],
+      "definition": "BNS s. 58 provides that whoever, intending to facilitate or knowing it to be likely that he will thereby facilitate the commission of an offence punishable with death or imprisonment for life, voluntarily conceals, by any act or illegal omission, or by the use of encryption or any other information hiding tool, the existence of a design to commit such offence, or makes any representation which he knows to be false respecting such design, shall, if that offence be committed, be punished with imprisonment of either description for a term which may extend to seven years, or, if the offence be not committed, with imprisonment of either description for a term which may extend to three years; and in either case shall also be liable to fine.",
+      "legalPrinciple": "Active concealment or false representation designed to shield a capital conspiracy from detection creates independent criminal liability, as it directly aids the perpetration of grave atrocities.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 58 (corresponding to IPC s. 118, updated with modern digital concealment).",
+        "Mental element: Intending to facilitate or knowing likely to facilitate.",
+        "Concealment methods: Act, illegal omission, encryption/information hiding tools, or false representation.",
+        "Penalty Tier 1 (Offence committed): Imprisonment up to seven years and fine.",
+        "Penalty Tier 2 (Offence not committed): Imprisonment up to three years and fine."
+      ],
+      "essentialIngredients": [
+        "There was a design to commit an offence punishable with death or life imprisonment.",
+        "The accused voluntarily concealed the design (by act, illegal omission, encryption/hiding tools, or false statements).",
+        "The accused acted intending or knowing he would thereby facilitate the commission.",
+        "Offence committed = up to 7 years; Offence not committed = up to 3 years."
+      ],
+      "detailedExplanation": "Section 58 criminalizes the deliberate sheltering of capital plots. Crucially, the BNS modernizes the text by explicitly including 'the use of encryption or any other information hiding tool' to conceal a design to commit murder or treason. If an accomplice knows that a terrorist plot or assassination is underway, and deliberately misleads investigating agencies or uses encrypted dead-drops to hide weapons blueprints, he is punished under s. 58. The penalty is seven years if the plot succeeds, and three years if law enforcement foils it.",
+      "examples": [
+        "Teaching example (False representation): A knows that dacoits are about to attack a village warehouse and kill the guards. When the police inspector asks A where the armed gang went, A deliberately points in the opposite direction. A is liable under s. 58.",
+        "Teaching example (Encrypted hiding): An operative uses specialized steganography tools to conceal assassination blueprints inside innocent image files to facilitate a murder conspiracy. Section 58 directly applies."
+      ],
+      "distinctions": [
+        "Concealing capital design (s. 58) vs Ordinary imprisonment design (s. 60): Section 58 applies to capital/life crimes (7/3 years); Section 60 applies to lesser offences (1/4th or 1/8th fraction).",
+        "Mere silence vs Voluntary concealment: Mere failure of an ordinary citizen to report is not an offence unless an illegal omission or active false representation exists."
+      ],
+      "problemApplication": [
+        "Issue: Whether an individual who used steganographic tools to hide maps of a planned terrorist assault on a military base is liable under BNS s. 58.",
+        "Rule: Section 58 explicitly penalizes voluntary concealment by encryption or information hiding tools intending to facilitate an offence punishable with death or life imprisonment.",
+        "Application: The planned offence (waging war) is capital, and encryption tools were deliberately deployed to hide the plot.",
+        "Conclusion: The individual is guilty under s. 58."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 58 rule on concealing capital crime designs.",
+          "Highlight the new statutory addition: encryption and information hiding tools.",
+          "State the two penalties: 7 years if committed, 3 years if not."
+        ],
+        "tenMark": [
+          "Introduction: The legal duty not to facilitate capital crimes through deception.",
+          "Essential ingredients of s. 58.",
+          "The modern inclusion of digital encryption / steganography.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: National security and the prevention of catastrophic crimes in penal law.",
+          "Detailed statutory analysis of BNS s. 58.",
+          "The technological evolution: from physical hiding to digital encryption tools.",
+          "Comparison between private citizen obligations and public servant duties under s. 59.",
+          "Comprehensive IRAC problem question analysis.",
+          "Key takeaways and review checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Penalizes active concealment or false representation regarding capital plots.",
+        "Explicitly covers encryption and digital information hiding tools.",
+        "Punishment is 7 years if committed, 3 years if not committed."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.702Z",
+  "updatedAt": "2026-10-03T09:06:55.390Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

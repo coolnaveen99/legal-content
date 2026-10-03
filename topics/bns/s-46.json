@@ -166,12 +166,92 @@
       "relationship": "historical-correspondence",
       "currentLawStatus": "historical-reference-only",
       "verificationBasis": "BPRD/MHA comparative BNS↔IPC material"
+    },
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Define who is an 'abettor' under BNS s. 46.",
+        "Master the five explanatory rules governing the abettor's liability.",
+        "Understand why the liability of the abettor is independent of the criminal capacity or conviction of the principal."
+      ],
+      "definition": "BNS s. 46 provides that a person abets an offence, who abets either the commission of an offence, or the commission of an act which would be an offence, if committed by a person capable by law of committing an offence with the same intention or knowledge as that of the abettor.",
+      "legalPrinciple": "The liability of an abettor is distinct and independent from that of the actual perpetrator. An abettor is guilty even if the person abetted is an infant, an insane person, an innocent tool, or possesses a different state of mind, or even if the offence abetted is never committed.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 46 (corresponding to IPC s. 108).",
+        "Explanation 1: Abetment of illegal omission of an act may amount to an offence although abettor may not be bound to do it.",
+        "Explanation 2: Offence abetted need not be committed, nor effect caused.",
+        "Explanation 3: Person abetted need not be capable by law of committing an offence, or have any guilty intention.",
+        "Explanation 4: Abetment of an abetment is an offence.",
+        "Explanation 5: In conspiracy abetment, abettor need not act in concert with the ultimate perpetrator; concert through intermediaries is sufficient."
+      ],
+      "essentialIngredients": [
+        "The person abetted an act which constitutes an offence, OR",
+        "The person abetted an act which would be an offence if committed by a person legally capable with the abettor's intention/knowledge.",
+        "The abetment falls under one of the five explanatory principles."
+      ],
+      "detailedExplanation": "Section 46 defines the legal personality of the abettor. Its revolutionary character lies in Explanations 2 and 3: the abettor's guilt is complete upon instigation, conspiracy, or aid. If A instigates B to murder C, and B refuses point-blank, A is still guilty of abetment of murder under Explanation 2. If A instigates an eight-year-old child or a severely insane person to administer poison to Z, the child/insane person commits no offence under s. 20/22, but A is guilty of abetment of murder under Explanation 3 because the act would be murder if done by a capable adult. Under Explanation 4, if A instigates B to instigate C to commit theft, A is liable as an abettor.",
+      "examples": [
+        "Teaching example (Offence not committed): A instigates B to murder C. B refuses to do so. A is nevertheless guilty of abetting the murder under Explanation 2.",
+        "Teaching example (Innocent agent/child): A, with a guilty intent, instigates a child under seven years of age to set fire to a dwelling house. The child does so. The child is exempt under s. 20, but A is guilty of abetting mischief by fire under Explanation 3."
+      ],
+      "distinctions": [
+        "Abettor's liability vs Principal's liability: The abettor's criminal liability is substantive and not vicarious; it does not depend on the principal's guilt, trial, or conviction.",
+        "Direct conspiracy vs Intermediary chain (Explanation 5): Co-conspirators need not know each other's identity or communicate directly so long as they participate in the general design."
+      ],
+      "problemApplication": [
+        "Issue: Whether an accused who incited a mentally unsound person to push a victim into a river is liable for abetment of murder.",
+        "Rule: Under BNS s. 46 (Explanation 3), it is not necessary that the person abetted should be capable by law of committing an offence.",
+        "Application: The victim died. The insane person has personal immunity under s. 22, but the accused used the insane person as an instrument with murderous intent.",
+        "Conclusion: The accused is guilty of abetment of murder under s. 46 read with s. 49."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 46 definition of an abettor.",
+          "List key Explanations: offence need not be committed (Expl 2), principal need not be capable (Expl 3).",
+          "Note that abetment of an abetment is an offence (Expl 4)."
+        ],
+        "tenMark": [
+          "Introduction: The independent nature of accessory liability under s. 46.",
+          "Detailed examination of Explanations 1 to 5.",
+          "Doctrine of the innocent agent (Explanation 3).",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Historical evolution from derivative accessory liability to substantive inchoate liability.",
+          "In-depth analysis of BNS s. 46 statutory text.",
+          "Explanations 1 through 5 broken down with case analogies and legal rationale.",
+          "The doctrine of innocent agency: using infants, insane persons, or unaware actors as physical instruments.",
+          "Chain abetment under Explanation 4 and diffused conspiracy under Explanation 5.",
+          "Comprehensive IRAC problem question resolution.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Abettor is guilty even if the offence is never committed.",
+        "Abettor is guilty even if the actual doer is legally exempt (infant, lunatic).",
+        "Abetment of an abetment is an independent offence."
+      ]
     }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.698Z",
+  "updatedAt": "2026-10-03T09:06:55.114Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

@@ -124,12 +124,93 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-55",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand inchoate abetment liability for capital/life offences under BNS s. 55.",
+        "Analyze the two penalty tiers: offence not committed (up to 7 years), and hurt caused in consequence (up to 14 years).",
+        "Examine why the failure of the substantive crime does not extinguish abetment liability."
+      ],
+      "definition": "BNS s. 55 provides that whoever abets the commission of an offence punishable with death or imprisonment for life, shall, if that offence be not committed in consequence of the abetment, and no express provision is made by this Sanhita for the punishment of such abetment, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; and if any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person, is done, the abettor shall be liable to imprisonment of either description for a term which may extend to fourteen years, and shall also be liable to fine.",
+      "legalPrinciple": "Instigating or conspiring to commit grave capital or life offences constitutes a serious public danger in itself. Even if the target crime fails or is abandoned, the abettor is subjected to severe independent penal liability.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 55 (corresponding to IPC s. 115).",
+        "Offence category: Offences punishable with death or imprisonment for life (e.g. murder, treason).",
+        "Condition: The offence abetted is NOT committed in consequence.",
+        "Tier 1 Penalty (no harm): Imprisonment up to seven years and fine.",
+        "Tier 2 Penalty (hurt caused): If an act causing hurt is done in consequence, imprisonment up to fourteen years and fine."
+      ],
+      "essentialIngredients": [
+        "The accused abetted an offence punishable with death or imprisonment for life.",
+        "The substantive offence was not committed.",
+        "Tier 1: No hurt was caused — punishment up to 7 years + fine.",
+        "Tier 2: An act causing hurt was done in consequence — punishment up to 14 years + fine."
+      ],
+      "detailedExplanation": "Section 55 demonstrates that abetment is an independent, inchoate crime. If A hires an assassin to kill Z, and the assassin either changes his mind, gets arrested before shooting, or misses entirely without causing injury, A does not walk free. Because the abetted crime (murder) is capital, A is punished with up to seven years imprisonment under Tier 1. If the assassin fires and wounds Z in the shoulder without killing him, A is punished under Tier 2 with up to fourteen years imprisonment.",
+      "examples": [
+        "Teaching example (Unsuccessful murder contract): A instigates B to murder Z. B takes the money but refuses to carry out the murder. Z is unharmed. A is guilty under s. 55 Tier 1 and liable to seven years imprisonment.",
+        "Teaching example (Hurt caused in failed murder): A instigates B to murder Z. B stabs Z in the chest, but emergency surgery saves Z's life. A is liable under s. 55 Tier 2 to fourteen years imprisonment and fine."
+      ],
+      "distinctions": [
+        "Section 49 vs Section 55: Section 49 applies when the capital offence succeeds (death/life penalty); Section 55 applies when the capital offence fails (7 or 14 years).",
+        "Section 55 (capital/life) vs Section 56 (imprisonment offences): Section 55 sets fixed 7/14 year ceilings; Section 56 applies a fractional one-fourth rule."
+      ],
+      "problemApplication": [
+        "Issue: What is the liability of an instigator who paid a hitman to murder a judge, where police intercepted the hitman before any attack occurred?",
+        "Rule: Under BNS s. 55, abetment of an offence punishable with death or life imprisonment, where the offence is not committed, is punishable with imprisonment up to seven years and fine.",
+        "Application: The target crime was murder (capital), and the offence was not committed. No hurt was caused.",
+        "Conclusion: The instigator is guilty under s. 55 Tier 1 and faces up to seven years imprisonment."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 55 rule: failed abetment of capital/life offences.",
+          "List the two tiers: up to 7 years (no hurt) and up to 14 years (hurt caused).",
+          "Emphasize the inchoate nature of the crime."
+        ],
+        "tenMark": [
+          "Introduction: Criminalization of dangerous inchoate conduct.",
+          "Essential ingredients of s. 55.",
+          "The two sentencing tiers with statutory examples.",
+          "Contrast with successful abetment under s. 49.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The justification for punishing unconsummated criminal designs.",
+          "Detailed textual dissection of BNS s. 55.",
+          "The distinction between capital/life offences and ordinary offences in accessory punishment.",
+          "Analysis of Tier 2: causal link between abetment and collateral hurt.",
+          "Comparative evaluation with s. 56 and s. 62 (general attempt).",
+          "Full IRAC problem question resolution.",
+          "Key takeaways and review checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies when capital or life imprisonment offence is NOT committed.",
+        "Punishment is up to 7 years if no hurt is caused.",
+        "Punishment increases to 14 years if hurt is caused in consequence."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.701Z",
+  "updatedAt": "2026-10-03T09:06:55.365Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

@@ -124,12 +124,89 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-48",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the extraterritorial reach of BNS s. 48 covering foreign abettors targeting India.",
+        "Analyze the territorial nexus created when the target offence or consequence occurs in India.",
+        "Identify procedural requirements for trying foreign abettors."
+      ],
+      "definition": "BNS s. 48 provides that a person who, outside India, abets the commission of any offence in India is liable to be dealt with, tried and punished as if the abetment had been committed within India.",
+      "legalPrinciple": "Sovereign penal jurisdiction extends to foreign actors who initiate or support criminal acts aimed at the territory, security, or citizens of India, ensuring that international boundaries cannot be exploited to escape liability.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 48.",
+        "Geographic nexus: The abettor acts 'outside India'.",
+        "Target location: The offence is intended to be committed or is committed 'in India'.",
+        "Legal fiction: Dealt with, tried, and punished 'as if the abetment had been committed within India'."
+      ],
+      "essentialIngredients": [
+        "The abetting acts (planning, financing, cyber-direction, arms supply) occurred outside India.",
+        "The object of the abetment was an offence committed or attempted in India.",
+        "The person is subject to Indian jurisdiction upon extradition or presence in India."
+      ],
+      "detailedExplanation": "Section 48 is the mirror provision to Section 47. It addresses modern cross-border challenges such as foreign terrorist handlers, transnational cybercrime syndicates, and overseas drug cartels. An operative sitting in another country who transmits instructions, funds, or cyber-malware to perpetrators within India to carry out riots, assassinations, or financial fraud is deemed to have committed abetment within India. Once apprehended or extradited, he faces trial under Indian law.",
+      "examples": [
+        "Teaching example (Foreign cyber-handler): An overseas hacker sitting in country X provides stolen credentials and malicious scripts to an accomplice in Bengaluru to breach an Indian banking server. Section 48 confers jurisdiction on Indian courts to try the overseas hacker.",
+        "Teaching example (Overseas arms supplier): An arms dealer in country Y ships hidden firearms into Mumbai to support a planned gang war. The dealer is liable under s. 48 as an abettor of the offences committed in Mumbai."
+      ],
+      "distinctions": [
+        "Section 47 vs Section 48: Section 47 covers acts in India targeting foreign territory; Section 48 covers acts abroad targeting Indian territory.",
+        "Extradition requirements: Section 48 provides the substantive penal basis, while extradition treaties and BNSS regulate the procedural arrest."
+      ],
+      "problemApplication": [
+        "Issue: Whether a foreign national operating a digital fraud server outside India who instructed agents in Delhi to withdraw defrauded cash can be prosecuted under BNS.",
+        "Rule: BNS s. 48 makes any person outside India who abets an offence in India liable as if the abetment occurred in India.",
+        "Application: The target offence of cheating and theft was executed in Delhi. The foreign handler's abetment falls directly under s. 48.",
+        "Conclusion: Indian courts have jurisdiction to try the handler."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 48 rule: abetment outside India targeting offences in India.",
+          "State the legal fiction: punished as if abetted within India.",
+          "Cite cross-border terrorism or cyber-fraud as practical examples."
+        ],
+        "tenMark": [
+          "Introduction: Modern challenges of cross-border criminality.",
+          "Statutory terms of s. 48.",
+          "The objective territorial principle in international criminal law.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Extraterritorial sovereignty in penal jurisprudence.",
+          "Comprehensive analysis of BNS s. 48 in relation to modern digital and organized crime.",
+          "Comparison of s. 47 and s. 48: inward and outward extraterritorial vectors.",
+          "Procedural intersection: extradition treaties, Letters Rogatory, and BNSS sanction requirements.",
+          "Full IRAC problem question resolution.",
+          "Summary checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies to persons outside India abetting offences inside India.",
+        "Creates statutory fiction of domestic commission.",
+        "Vital tool against transnational terrorism, cybercrime, and smuggling."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.699Z",
+  "updatedAt": "2026-10-03T09:06:55.130Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

@@ -132,12 +132,91 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-56",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand inchoate abetment of ordinary imprisonment offences under BNS s. 56.",
+        "Analyze the fractional sentencing rule: up to one-fourth of the longest term.",
+        "Identify the aggravated penalty for public servants: up to one-half."
+      ],
+      "definition": "BNS s. 56 provides that whoever abets an offence punishable with imprisonment shall, if that offence be not committed in consequence of the abetment, and no express provision is made by this Sanhita for the punishment of such abetment, be punished with imprisonment of any description provided for that offence for a term which may extend to one-fourth part of the longest term provided for that offence, or with such fine as is provided for that offence, or with both; and if the abettor or the person abetted is a public servant, whose duty it is to prevent the commission of such offence, the abettor shall be punished with imprisonment of any description provided for that offence, for a term which may extend to one-half of the longest term provided for that offence, or with such fine as is provided for that offence, or with both.",
+      "legalPrinciple": "Unsuccessful abetment of non-capital offences is punished fractionally at one-fourth of the maximum statutory term, doubled to one-half if a public servant tasked with crime prevention is involved.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 56 (corresponding to IPC s. 116).",
+        "Offence category: Offences punishable with imprisonment (other than capital/life under s. 55).",
+        "Condition: The offence abetted is NOT committed in consequence.",
+        "General Rule: Imprisonment up to one-fourth of the longest term, or fine, or both.",
+        "Aggravated Public Servant Rule: If abettor or person abetted is a public servant duty-bound to prevent the crime, imprisonment up to one-half of longest term, or fine, or both."
+      ],
+      "essentialIngredients": [
+        "The accused abetted an offence punishable with imprisonment.",
+        "The offence was not committed in consequence of the abetment.",
+        "General penalty: Up to 1/4th of the maximum term or fine or both.",
+        "Aggravated penalty: Up to 1/2 of the maximum term if a public servant with a duty to prevent is the abettor or person abetted."
+      ],
+      "detailedExplanation": "Section 56 governs all unconsummated abetment of ordinary offences such as theft, extortion, assault, or cheating. The law uses a mathematical proportion: the abettor receives up to one-fourth of the maximum sentence prescribed for the crime he attempted to cause. However, if the abettor attempts to corrupt a police officer (a public servant duty-bound to prevent crime) by offering a bribe to permit smuggling, or if the police officer himself instigates a crime, the penalty is doubled to one-half because official duty has been subverted.",
+      "examples": [
+        "Teaching example (Failed theft instigation): A instigates B to steal goods from a store (theft max penalty 3 years). B refuses. The theft is not committed. Under s. 56, A is liable to imprisonment up to one-fourth of 3 years (9 months) or fine.",
+        "Teaching example (Bribing police officer): A offers a police sub-inspector a bribe to allow illicit contraband through a checkpoint. The officer refuses and arrests A. As the officer is a public servant duty-bound to prevent the crime, A is liable under s. 56 to imprisonment up to one-half of the maximum term."
+      ],
+      "distinctions": [
+        "Section 55 vs Section 56: Section 55 applies to capital/life offences (fixed 7/14 years); Section 56 applies to all other imprisonment offences (one-fourth / one-half fraction).",
+        "General abettor vs Public servant involved: Public servant involvement doubles the exposure from one-fourth to one-half."
+      ],
+      "problemApplication": [
+        "Issue: What is the liability of an individual who urged an accomplice to commit house-trespass (max penalty 1 year), where the accomplice declined to proceed?",
+        "Rule: Under BNS s. 56, unsuccessful abetment of an imprisonment offence is punished with up to one-fourth of the maximum term.",
+        "Application: The offence is punishable with 1 year; one-fourth is 3 months. The abettor is a private citizen.",
+        "Conclusion: The individual is liable to imprisonment up to 3 months, or fine, or both."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 56 rule on failed abetment of imprisonment offences.",
+          "State the general fraction: up to 1/4th of the longest term.",
+          "State the public servant aggravated fraction: up to 1/2 of the longest term."
+        ],
+        "tenMark": [
+          "Introduction: Fractional punishment for inchoate secondary liability.",
+          "Essential terms of s. 56.",
+          "The public servant corruption escalation.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The architecture of inchoate penalties in the Sanhita.",
+          "Detailed dissection of BNS s. 56.",
+          "The rationale of fractional sentencing in comparison with English and continental models.",
+          "The elevated standard of public integrity: why public servant involvement doubles the penalty.",
+          "Comprehensive IRAC problem question analysis.",
+          "Summary checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "General penalty is up to one-fourth of the maximum term of the offence.",
+        "Doubles to one-half if a public servant with a duty to prevent is involved.",
+        "Applies when the abetted offence is not committed."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.701Z",
+  "updatedAt": "2026-10-03T09:06:55.374Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

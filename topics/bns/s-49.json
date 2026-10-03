@@ -133,12 +133,92 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-49",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the default punishment rule for abetment under BNS s. 49.",
+        "Analyze the requirement that the act abetted is committed 'in consequence of the abetment'.",
+        "Understand the parity of punishment: abettor receives the same punishment as the principal offender."
+      ],
+      "definition": "BNS s. 49 provides that whoever abets any offence shall, if the act abetted is committed in consequence of the abetment, and no express provision is made by this Sanhita for the punishment of such abetment, be punished with the punishment provided for the offence. Explanation: An act or offence is said to be committed in consequence of abetment, when it is committed in consequence of the instigation, or in pursuance of the conspiracy, or with the aid, which constitutes the abetment.",
+      "legalPrinciple": "In the absence of a distinct specific statutory penalty, the accessory who successfully causes an offence to be committed is treated with the same moral and legal culpability as the principal offender and receives identical punishment.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 49 (corresponding to IPC s. 109).",
+        "Condition 1: The act abetted must be committed in consequence of the abetment.",
+        "Condition 2: No express provision exists elsewhere in the Sanhita for punishing such abetment.",
+        "Penalty: Punished with the punishment provided for the substantive offence.",
+        "Explanation: Clarifies the causal chain — committed in consequence of the instigation, conspiracy, or aid."
+      ],
+      "essentialIngredients": [
+        "The accused abetted an offence through instigation, conspiracy, or aiding.",
+        "The act abetted was committed in consequence of that abetment.",
+        "There is no separate specific section providing punishment for that particular abetment.",
+        "The abettor is liable for the full penalty prescribed for the principal offence."
+      ],
+      "detailedExplanation": "Section 49 is the workhorse of accessory punishment in criminal law. It establishes full parity between the mastermind and the physical perpetrator when the crime succeeds. If A instigates B to commit theft, and B commits theft in consequence, A is punished under s. 49 read with s. 303 (theft) with the identical sentence provided for theft. The Explanation emphasizes causal continuity: the act must be committed under the influence of the instigation or in pursuance of the conspiracy. If the instigation was completely abandoned, and the perpetrator committed the crime independently on an unrelated impulse, the causal link fails.",
+      "examples": [
+        "Teaching example (Parity of punishment): A offers B a bribe to give false evidence in court. B gives false evidence in consequence of the bribe. As no express provision exists for such abetment, A is punishable under s. 49 with the full penalty for perjury.",
+        "Teaching example (Causal link): A instigates B to set fire to a barn. B decides against it. Two months later, B independently decides to burglarize the barn to steal tools. A's instigation is spent; B's burglary is not in consequence of A's abetment."
+      ],
+      "distinctions": [
+        "Act committed in consequence (s. 49) vs Act not committed (ss. 55/56): Section 49 applies when the offence succeeds; Sections 55 and 56 apply when the offence is not committed.",
+        "No express provision vs Specific abetment sections: Section 49 is a residual default rule; specific provisions (e.g. abetment of suicide under s. 108) override s. 49."
+      ],
+      "problemApplication": [
+        "Issue: What is the criminal liability and sentence of an accused who hired an assassin to murder a business partner, where the assassin shot and killed the partner?",
+        "Rule: Under BNS s. 49, an abettor of an offence that is committed in consequence is punished with the punishment provided for the offence.",
+        "Application: The murder was executed in direct pursuance of the contract (conspiracy/instigation). No express separate section exists for general murder abetment.",
+        "Conclusion: The hirer is liable under s. 49 read with s. 103 (murder) and faces death or life imprisonment."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 49 default punishment rule.",
+          "Emphasize parity: same punishment as the substantive offence.",
+          "State the requirement: act must be committed in consequence."
+        ],
+        "tenMark": [
+          "Introduction: The principle of penal parity between abettor and principal.",
+          "Essential ingredients of s. 49.",
+          "The Explanation on causal connection.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Moral equivalency between instigator/funder and physical perpetrator.",
+          "Detailed textual dissection of BNS s. 49.",
+          "Causation in abetment: sine qua non vs active operating influence.",
+          "Interaction with specific abetment sections throughout the Sanhita.",
+          "Sentencing discretion: parity of legal maximum versus judicial apportionment of blame.",
+          "Comprehensive IRAC problem question analysis.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Default rule: abettor gets the same punishment as the principal.",
+        "Requires the offence to be committed in consequence of abetment.",
+        "Applies only where no separate express penalty is prescribed."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.699Z",
+  "updatedAt": "2026-10-03T09:06:55.138Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

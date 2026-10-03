@@ -260,12 +260,96 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-61",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the substantive definition and punishment of Criminal Conspiracy under BNS s. 61.",
+        "Analyze the core agreement requirement: meeting of minds between two or more persons.",
+        "Examine the distinction between agreements to commit an offence (no overt act needed) and agreements for other illegal acts (overt act required).",
+        "Understand the two-tier sentencing structure."
+      ],
+      "definition": "BNS s. 61 consolidates the law of criminal conspiracy: (1) When two or more persons agree to do, or cause to be done: (a) an illegal act; or (b) an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy: Provided that no agreement except an agreement to commit an offence shall amount to a criminal conspiracy unless some act besides the agreement be done by one or more parties to such agreement in pursuance thereof. Explanation: It is immaterial whether the illegal act is the ultimate object of such agreement, or is merely incidental to that object. (2) Whoever is a party to a criminal conspiracy: (a) to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, shall, where no express provision is made in this Sanhita for the punishment of such conspiracy, be punished in the same manner as if he had abetted such offence; (b) other than a criminal conspiracy to commit an offence punishable as aforesaid, shall be punished with imprisonment of either description for a term not exceeding six months, or with fine or with both.",
+      "legalPrinciple": "The bare agreement between two or more minds to commit a crime constitutes a complete substantive offence. The danger of concerted collective action justifies penal intervention at the nascent stage of agreement, before any physical harm has materialized.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 61 (combining IPC ss. 120A and 120B).",
+        "Plurality requirement: 'two or more persons'.",
+        "Object 1: An illegal act (offence, prohibited by law, or furnishing ground for civil action under s. 2(15)).",
+        "Object 2: An act not illegal, by illegal means.",
+        "The Proviso Rule: If agreement is to commit an OFFENCE, the agreement alone is complete crime (no overt act required). If agreement is for other illegal acts / civil wrongs, an OVERT ACT in pursuance is mandatory.",
+        "Punishment Tier 1: Serious offences (death, life, RI 2+ years) -> punished as abettor (s. 49).",
+        "Punishment Tier 2: All other conspiracies -> up to six months imprisonment, or fine, or both."
+      ],
+      "essentialIngredients": [
+        "An agreement between two or more persons.",
+        "The agreement is to do an illegal act or a legal act by illegal means.",
+        "If the agreement is to commit an offence, no overt act is required; the agreement itself is the actus reus.",
+        "If the agreement is to commit an illegal act other than an offence, an overt act in pursuance is required."
+      ],
+      "detailedExplanation": "Section 61 combines the definition and punishment of criminal conspiracy into one unified section in the BNS. Conspiracy is an independent inchoate offence. The essence of conspiracy is the agreement (consensus ad idem) between two or more persons. In conspiracies to commit a criminal offence (e.g. murder, robbery, forgery), the crime is complete the moment the agreement is struck; the police need not wait for a weapon to be bought or a shot to be fired. Conspiracy is rarely proven by direct open agreements; it is customarily established through circumstantial evidence showing a common design, concerted phone logs, parallel actions, and mutual coordination.",
+      "examples": [
+        "Teaching example (Agreement to commit offence): A and B agree in a private room to murder Z next month. They take no further steps and disperse. Both are guilty of criminal conspiracy to commit murder under s. 61(1) and s. 61(2)(a) the moment they shake hands on the agreement.",
+        "Teaching example (Agreement for civil wrong): A and B agree to commit a civil tort (breach of contract). This does not amount to criminal conspiracy unless one of them performs an overt act in pursuance of that agreement under the Proviso."
+      ],
+      "distinctions": [
+        "Conspiracy under s. 61 vs Conspiracy abetment under s. 45: Section 45(Secondly) requires an overt act or illegal omission in pursuance; Section 61 requires NO overt act if the agreement is to commit an offence.",
+        "Conspiracy (s. 61) vs Common Intention (s. 3(5)): Conspiracy is an independent substantive offence that can be charged alone; Common intention is a rule of evidence requiring physical participation in a crime."
+      ],
+      "problemApplication": [
+        "Issue: Whether four individuals who met in a hotel and agreed to orchestrate a massive financial cyber-heist can be convicted of criminal conspiracy when police arrested them immediately after the meeting before any computer was touched.",
+        "Rule: Under BNS s. 61, an agreement to commit an offence is a complete criminal conspiracy without any overt act being done.",
+        "Application: The target of the agreement was cyber-theft and fraud (serious offences). The agreement was proved through encrypted communications.",
+        "Conclusion: All four individuals are guilty of criminal conspiracy under s. 61."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 61 unified definition and punishment of criminal conspiracy.",
+          "Highlight that agreement alone is sufficient for criminal offences (no overt act needed).",
+          "State the punishment tiers: serious offences punished as abetment; others up to 6 months."
+        ],
+        "tenMark": [
+          "Introduction: The danger of collective criminal agreements.",
+          "Essential ingredients of s. 61.",
+          "The critical Proviso: offences vs non-offence illegal acts.",
+          "Sentencing structure under s. 61(2).",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The jurisprudential foundation of conspiracy as an inchoate offence.",
+          "Comprehensive dissection of BNS s. 61(1) and (2).",
+          "Evidentiary challenges: proving conspiracy through circumstantial evidence, agency rule (Section 10 BSA / former Section 10 IEA).",
+          "Doctrinal distinction between Criminal Conspiracy (s. 61), Abetment by Conspiracy (s. 45), and Common Intention (s. 3(5)).",
+          "Sentencing analysis: parity with abetment under Tier 1 versus residual 6-month cap under Tier 2.",
+          "Full IRAC problem question analysis.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Consolidates definition and punishment into one section in BNS.",
+        "Agreement alone is sufficient to commit conspiracy to commit an offence.",
+        "Serious conspiracies are punished in the same manner as abetment."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.703Z",
+  "updatedAt": "2026-10-03T09:06:55.413Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

@@ -123,12 +123,91 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-60",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the offence of concealing ordinary imprisonment offences under BNS s. 60.",
+        "Analyze the fractional sentencing rule: one-fourth if committed, one-eighth if not committed.",
+        "Differentiate s. 60 from capital concealment under s. 58."
+      ],
+      "definition": "BNS s. 60 provides that whoever, intending to facilitate or knowing it to be likely that he will thereby facilitate the commission of an offence punishable with imprisonment, voluntarily conceals, by any act or illegal omission, or by the use of encryption or any other information hiding tool, the existence of a design to commit such offence, or makes any representation which he knows to be false respecting such design, shall, if the offence be committed, be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth, and, if the offence be not committed, to one-eighth, of the longest term of such imprisonment, or with such fine as is provided for the offence, or with both.",
+      "legalPrinciple": "Active concealment of ordinary criminal designs is punished proportionally to the underlying offence: one-fourth of the maximum sentence if the crime succeeds, and one-eighth if it fails.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 60 (corresponding to IPC s. 120).",
+        "Offence category: Offences punishable with imprisonment (not capital/life).",
+        "Methods: Act, illegal omission, encryption/information hiding tools, or false representation.",
+        "Penalty 1 (Offence committed): Imprisonment up to one-fourth of longest term, or fine, or both.",
+        "Penalty 2 (Offence not committed): Imprisonment up to one-eighth of longest term, or fine, or both."
+      ],
+      "essentialIngredients": [
+        "There was a design to commit an offence punishable with imprisonment.",
+        "The accused voluntarily concealed the design or made false representations.",
+        "He acted intending or knowing he would facilitate the crime.",
+        "Penalty: 1/4th if committed; 1/8th if not committed."
+      ],
+      "detailedExplanation": "Section 60 is the residual concealment provision for non-capital crimes. If a warehouse clerk knows his colleagues are planning to steal electronic goods at night, and when the manager asks if the security cameras are functioning, the clerk falsely states they are working when he has deliberately turned them off, the clerk voluntarily conceals the design by act and false representation. If the theft is committed, the clerk faces up to one-fourth of the theft penalty. If the manager discovers the plot beforehand, the clerk faces up to one-eighth.",
+      "examples": [
+        "Teaching example (Concealing theft): A clerk conceals a design to commit theft (max 3 years) by turning off CCTV. The theft is committed. The clerk is liable under s. 60 to up to 9 months imprisonment (one-fourth of 3 years).",
+        "Teaching example (Plot foiled): In the same scenario, police foil the theft before any goods are taken. The clerk is liable under s. 60 to up to 4.5 months imprisonment (one-eighth of 3 years)."
+      ],
+      "distinctions": [
+        "Section 58 vs Section 60: Section 58 applies to capital/life crimes (7 or 3 years); Section 60 applies to ordinary imprisonment crimes (one-fourth or one-eighth).",
+        "Concealment vs Aiding: Concealment under s. 60 is a specific mode of facilitating through information suppression or deception."
+      ],
+      "problemApplication": [
+        "Issue: What is the liability of an employee who gave false information to an auditor to hide a planned embezzlement of company funds (max penalty 7 years), where the embezzlement was successfully carried out?",
+        "Rule: Under BNS s. 60, concealing a design to commit an imprisonment offence which is committed carries up to one-fourth of the longest term.",
+        "Application: The offence is 7 years; one-fourth is 1.75 years (21 months). The employee acted to facilitate the crime.",
+        "Conclusion: The employee is liable to imprisonment up to 21 months under s. 60."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 60 rule on concealing imprisonment offences.",
+          "List the fractions: 1/4th if committed, 1/8th if not committed.",
+          "Note the inclusion of encryption and information hiding tools."
+        ],
+        "tenMark": [
+          "Introduction: Penalizing information suppression in ordinary crimes.",
+          "Essential terms of s. 60.",
+          "The mathematical sentencing fractions.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The spectrum of criminal concealment in Chapter IV.",
+          "Textual comparison of s. 58 (capital), s. 59 (public servants), and s. 60 (ordinary citizens).",
+          "The evidentiary burden: proving positive acts of concealment versus innocent non-disclosure.",
+          "Digital aspects: encrypted drives and deceptive logging.",
+          "Comprehensive IRAC problem question analysis.",
+          "Summary checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies to concealment of ordinary imprisonment offences.",
+        "Carries one-fourth of longest term if committed, one-eighth if not committed.",
+        "Explicitly includes digital encryption and hiding tools."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.703Z",
+  "updatedAt": "2026-10-03T09:06:55.406Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

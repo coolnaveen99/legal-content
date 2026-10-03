@@ -137,12 +137,93 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-51",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the 'probable consequence' doctrine under BNS s. 51.",
+        "Analyze the twin requirements: different act was a probable consequence, and committed under influence of abetment.",
+        "Differentiate foreseeable escalation from totally unexpected, independent crimes."
+      ],
+      "definition": "BNS s. 51 provides that when an act is abetted and a different act is done, the abettor is liable for the act done, in the same manner and to the same extent as if he had directly abetted it: Provided the act done was a probable consequence of the abetment, and was committed under the influence of the instigation, or with the aid or in pursuance of the conspiracy which constituted the abetment.",
+      "legalPrinciple": "An abettor who unleashes an unlawful force is constructively liable for an unintended, different crime committed by the perpetrator, provided that different crime was a natural and probable consequence of the abetment and occurred under its continuous influence.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 51 (corresponding to IPC s. 111).",
+        "Scenario: Act A is abetted, but the perpetrator commits Act B.",
+        "Liability rule: Abettor is liable for Act B as if directly abetted.",
+        "Mandatory Proviso Limb 1: Act B must be a 'probable consequence' of the abetment.",
+        "Mandatory Proviso Limb 2: Act B must be committed 'under the influence of the instigation' or in pursuance of the conspiracy/aid."
+      ],
+      "essentialIngredients": [
+        "The accused abetted a particular act.",
+        "A different act was committed by the person abetted.",
+        "The act done was a probable consequence of the original abetment (objectively foreseeable).",
+        "The act done was committed under the influence of the instigation or in pursuance of the conspiracy."
+      ],
+      "detailedExplanation": "Section 51 codifies the common law doctrine of collateral or probable consequences. An abettor cannot set a dangerous criminal enterprise into motion and then wash his hands of foreseeable escalations. 'Probable consequence' means an outcome which a reasonable person in the abettor's position would contemplate as likely to occur in the ordinary course of executing the abetted crime. If A instigates B to commit armed robbery at a bank, and B shoots a security guard who raises an alarm, shooting the guard is a probable consequence; A is liable for the murder. But if B, after robbing the bank, stops by a jewelry shop five miles away and commits rape, that is an independent frolic, not a probable consequence.",
+      "examples": [
+        "Teaching example (Probable consequence of housebreaking): A instigates B to break into a family dwelling at midnight and steal silver. B breaks in; the owner wakes up and struggles; B stabs the owner with a dagger carried for the burglary. Stabbing the waking owner is a probable consequence of midnight housebreaking; A is liable under s. 51 for the stabbing.",
+        "Teaching example (Independent crime / Not a probable consequence): A instigates B to burn down an empty barn in a field. B goes to the barn, but instead goes to the owner's house and steals a car. Stealing a car is not a probable consequence of barn arson; A is not liable for car theft."
+      ],
+      "distinctions": [
+        "Probable consequence (s. 51) vs Same intention: Section 51 creates constructive liability even without shared intention, grounded purely on objective foreseeability.",
+        "Section 51 vs Section 52: Section 51 establishes liability for the different act; Section 52 governs whether punishment is cumulative for both the abetted act and the different act."
+      ],
+      "problemApplication": [
+        "Issue: Whether an abettor who incited an accomplice to snatch a handbag in a deserted alley is liable when the accomplice stabbed the resisting victim with a hidden switchblade.",
+        "Rule: Under BNS s. 51, an abettor is liable for a different act done if it was a probable consequence committed under the influence of the abetment.",
+        "Application: Robbery on the street with physical confrontation carries the foreseeable risk of armed resistance and violent injury. The stabbing occurred in direct execution of the robbery.",
+        "Conclusion: The stabbing was a probable consequence; the abettor is liable under s. 51."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 51 and the probable consequence rule.",
+          "State the two conditions: probable consequence + committed under influence of abetment.",
+          "Give the housebreaking escalating into violence illustration."
+        ],
+        "tenMark": [
+          "Introduction: Constructive liability for unintended criminal escalation.",
+          "Essential ingredients of s. 51.",
+          "The objective test of 'probable consequence'.",
+          "Teaching examples illustrating foreseeable escalation vs independent crime.",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: The limits of proximate causation and foreseeability in accessory liability.",
+          "Textual dissection of BNS s. 51 and its proviso.",
+          "Judicial interpretation of 'probable consequence': ordinary course of human conduct vs mere remote possibility.",
+          "Analysis of the second proviso limb: 'under the influence of the instigation'.",
+          "Comparison with common intention doctrine (s. 3(5)) and criminal conspiracy (s. 61).",
+          "Comprehensive IRAC problem question resolution.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Abettor is liable for a different act if it was a probable consequence.",
+        "Must be committed under the continuing influence of the abetment.",
+        "Does not extend to wholly independent, unforeseeable crimes."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.700Z",
+  "updatedAt": "2026-10-03T09:06:55.153Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

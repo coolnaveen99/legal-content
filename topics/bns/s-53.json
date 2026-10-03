@@ -124,12 +124,91 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-53",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the doctrine of unintended different effects under BNS s. 53.",
+        "Analyze the knowledge requirement: abettor must know the act was likely to cause that effect.",
+        "Distinguish between a different ACT (s. 51) and a different EFFECT of the same act (s. 53)."
+      ],
+      "definition": "BNS s. 53 provides that when an act is abetted with the intention on the part of the abettor of causing a particular effect, and an act for which the abettor is liable in consequence of the abetment, causes a different effect from that intended by the abettor, the abettor is liable for the effect caused, in the same manner and to the same extent as if he had abetted the act with the intention of causing that effect, provided he knew that the act abetted was likely to cause that effect.",
+      "legalPrinciple": "Where the physical act abetted causes a more severe or different physical consequence than the abettor specifically intended, the abettor is held liable for that graver consequence, provided he knew that the act was likely to produce that effect.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 53 (corresponding to IPC s. 113).",
+        "Scenario: The ACT abetted is done, but the EFFECT produced differs from that intended.",
+        "Threshold condition: Abettor must have known that the act abetted was 'likely to cause that effect'.",
+        "Liability: Punished as if he had abetted the act with the intention of causing that specific effect."
+      ],
+      "essentialIngredients": [
+        "The abettor abetted an act intending a particular effect (e.g. grievous hurt).",
+        "The act caused a different or graver effect (e.g. death).",
+        "The abettor knew that the act abetted was likely to cause that different effect.",
+        "The abettor is liable for the effect caused as if intended."
+      ],
+      "detailedExplanation": "Section 53 deals with escalating RESULTS of the very act abetted. The distinction between s. 51 and s. 53 is vital: under s. 51, a DIFFERENT ACT is committed (e.g. abetted theft, perpetrator commits murder). Under s. 53, the VERY ACT abetted is committed (e.g. violent assault with iron rods), but it produces a DIFFERENT EFFECT (the victim dies instead of merely being injured). If A instigates B to cause grievous hurt to Z by smashing his chest with heavy stones, knowing that such trauma is likely to cause death, and Z dies, A is liable for murder/culpable homicide under s. 53.",
+      "examples": [
+        "Teaching example (Grievous hurt causing death): A instigates B to cause grievous hurt to Z with an iron rod. A knows that the blows are likely to cause death. B strikes Z, and Z dies from the injuries. Under s. 53, A is liable for the murder of Z.",
+        "Teaching example (Unforeseeable death): A instigates B to give Z a simple slap on the cheek. Z suffers from a rare, unknown cerebral aneurysm and dies instantly from the minor slap. A had no knowledge that a slap was likely to cause death; s. 53 does not make A liable for murder."
+      ],
+      "distinctions": [
+        "Different Act (s. 51) vs Different Effect (s. 53): Section 51 is about a distinct second act; Section 53 is about an unexpected graver consequence of the exact act abetted.",
+        "Knowledge of likelihood vs Actual intent: Under s. 53, constructive intent is imputed from the abettor's knowledge of likelihood."
+      ],
+      "problemApplication": [
+        "Issue: Whether an abettor who supplied kerosene to an accomplice instructing him to burn a rival's car is liable for culpable homicide when the car exploded and killed a nearby night watchman.",
+        "Rule: BNS s. 53 holds the abettor liable for a different effect if he knew that the act abetted was likely to cause that effect.",
+        "Application: Igniting a fuel tank in an occupied alley carries obvious known likelihood of explosion and mortal danger to nearby persons.",
+        "Conclusion: The abettor is liable for the death under s. 53."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 53 rule on different effects of abetted acts.",
+          "Emphasize the knowledge condition: abettor knew the act was likely to cause that effect.",
+          "Distinguish between different act (s. 51) and different effect (s. 53)."
+        ],
+        "tenMark": [
+          "Introduction: Liability for unexpected consequences of criminal acts.",
+          "Essential ingredients of s. 53.",
+          "The statutory requirement of 'knowledge of likelihood'.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Causation and constructive intent in accessory liability.",
+          "Detailed textual dissection of BNS s. 53.",
+          "The doctrinal triad: s. 50 (different intent), s. 51 (different act), and s. 53 (different effect).",
+          "Analysis of 'knowledge that the act was likely to cause that effect': subjective vs objective assessment.",
+          "Application in modern cases involving arson, firearms, and mob attacks.",
+          "Comprehensive IRAC problem question analysis.",
+          "Key takeaways and review checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies when the act abetted produces a different or graver effect.",
+        "Requires proof that abettor knew the effect was likely.",
+        "Imputes liability as if the abettor intended that graver effect."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.700Z",
+  "updatedAt": "2026-10-03T09:06:55.169Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

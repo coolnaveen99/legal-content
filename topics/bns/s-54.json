@@ -123,12 +123,92 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-54",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand the deemed principal rule under BNS s. 54.",
+        "Analyze the requirement of prior abetment coupled with physical presence at the scene.",
+        "Distinguish s. 54 (prior abetment + presence) from s. 3(5) (joint liability / common intention)."
+      ],
+      "definition": "BNS s. 54 provides that whenever any person, who if absent would be liable to be punished as an abettor, is present when the act or offence for which he would be punishable in consequence of the abetment is committed, he shall be deemed to have committed such act or offence.",
+      "legalPrinciple": "An abettor who takes the active step of attending the scene of the crime during its commission is elevated from a secondary accessory to a deemed principal offender by statutory fiction.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 54 (corresponding to IPC s. 114).",
+        "Prerequisite: Person must have committed acts of abetment prior to the crime which would make him liable as an abettor if absent.",
+        "Crucial condition: Physical presence at the scene when the act or offence is committed.",
+        "Statutory fiction: 'shall be deemed to have committed such act or offence' (deemed principal)."
+      ],
+      "essentialIngredients": [
+        "The accused engaged in prior abetment of the offence.",
+        "The accused would have been punishable as an abettor if absent.",
+        "The accused was physically present when the offence was committed.",
+        "By operation of law, the accused is deemed to be a principal perpetrator."
+      ],
+      "detailedExplanation": "Section 54 applies to cases where abetment has preceded the commission of the crime, and the abettor is also present at the scene when the crime is executed. The section does not apply to a person who merely joins in at the scene without prior abetment (that falls under joint liability s. 3(5)). Rather, s. 54 prevents an accessory who masterminded the crime and then attended the scene to oversee or encourage its execution from hiding behind the plea that he did not personally strike the blow. The law treats him as if he struck the blow himself.",
+      "examples": [
+        "Teaching example (Mastermind overseeing execution): A instigates B to assassinate Z. A travels with B to the location and stands fifty feet away observing the execution. When B shoots Z, A is present. Under s. 54, A is deemed to have committed the murder as a principal.",
+        "Teaching example (Presence without prior abetment): A happens to walk past an alley where B is robbing C. A watches the robbery in silence without prior concert. A is not liable under s. 54 because there was no prior abetment."
+      ],
+      "distinctions": [
+        "Section 54 vs Section 3(5) (Common Intention): Section 54 requires proof of prior abetment distinct from presence; Section 3(5) requires common intention with participation in the criminal act.",
+        "Abettor absent (s. 49) vs Abettor present (s. 54): Under s. 49, the absent abettor is punished as an accessory; under s. 54, the present abettor is deemed the principal doer."
+      ],
+      "problemApplication": [
+        "Issue: Whether an accused who provided the blueprint for a bank heist and stood outside the branch in a getaway vehicle during the heist is liable as a principal under BNS s. 54.",
+        "Rule: Section 54 deems an abettor present during the commission of the offence to be a principal offender.",
+        "Application: The accused engaged in prior abetment (planning) and was present at the scene during execution.",
+        "Conclusion: The accused is deemed to have committed the robbery as a principal under s. 54."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 54 deemed principal rule.",
+          "Twin requirements: prior abetment + physical presence at commission.",
+          "Distinguish from joint liability under s. 3(5)."
+        ],
+        "tenMark": [
+          "Introduction: The elevation of an accessory to a deemed principal.",
+          "Essential ingredients of s. 54.",
+          "The statutory fiction of 'deemed to have committed'.",
+          "Comparison with common intention (s. 3(5)).",
+          "Conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Theoretical foundations of principal and accessory in penal law.",
+          "Detailed textual analysis of BNS s. 54.",
+          "The necessity of proving prior abetment: why mere presence is insufficient.",
+          "Doctrinal distinction between s. 54 (prior abetment + presence) and s. 3(5) (common intention + participation).",
+          "Evidentiary burdens under BSA and judicial interpretation.",
+          "Comprehensive IRAC problem question analysis.",
+          "Summary and key exam takeaways."
+        ]
+      },
+      "keyTakeaways": [
+        "Requires prior abetment plus physical presence at the scene.",
+        "Deems the abettor to be a principal offender.",
+        "Distinct from Section 3(5) joint liability."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.701Z",
+  "updatedAt": "2026-10-03T09:06:55.347Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

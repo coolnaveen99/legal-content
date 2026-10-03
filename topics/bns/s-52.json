@@ -124,12 +124,91 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-52",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Understand when an abettor faces cumulative (separate) punishment under BNS s. 52.",
+        "Analyze the requirement that both the abetted act and the different act were committed and constitute distinct offences.",
+        "Examine the application of s. 52 in conjunction with s. 51."
+      ],
+      "definition": "BNS s. 52 provides that if the act for which the abettor is liable under the last preceding section is committed in addition to the act abetted, and constitutes a distinct offence, the abettor is liable to punishment for each of the offences.",
+      "legalPrinciple": "Where the perpetrator successfully commits the original abetted crime AND additionally commits a distinct, probable consequence offence, the abettor is cumulatively punishable for both distinct offences.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 52 (corresponding to IPC s. 112).",
+        "Prerequisite 1: Liability established under s. 51 for the different act.",
+        "Prerequisite 2: The different act is committed 'in addition to' the act abetted.",
+        "Prerequisite 3: The two acts constitute 'distinct offences'.",
+        "Penalty: Abettor is liable to punishment 'for each of the offences' (cumulative sentencing)."
+      ],
+      "essentialIngredients": [
+        "The abettor is liable under s. 51 for a different act done.",
+        "The original act abetted was also actually committed.",
+        "The two acts constitute separate, distinct offences under the law.",
+        "The abettor is sentenced cumulatively for both offences."
+      ],
+      "detailedExplanation": "Section 52 is the sentencing companion to Section 51. In many cases of escalation, the perpetrator does not merely substitute one act for another; he commits BOTH. For example, A instigates B to resist a court bailiff seizing cattle. B resists the bailiff (act abetted), and in the struggle, B also severely fractures the bailiff's arm (grievous hurt — probable consequence). Here, two distinct offences occurred: resisting a public servant AND grievous hurt. Under s. 52, A is not merely punished for one; he is liable to cumulative punishment for both distinct crimes.",
+      "examples": [
+        "Teaching example (Resisting arrest and grievous hurt): A instigates B to resist a lawful arrest by a police officer. B resists the arrest, and in doing so, inflicts grievous hurt on the officer with a baton. Both offences are distinct and committed. Under s. 52, A is liable to cumulative punishment for abetting resistance to arrest AND for abetting grievous hurt.",
+        "Teaching example (Robbery and murder): A instigates B to commit robbery. B commits robbery and, in the course of it, murders the cashier (probable consequence). A is liable to cumulative punishment for robbery and murder under s. 52."
+      ],
+      "distinctions": [
+        "Section 51 vs Section 52: Section 51 determines substantive liability for the different act; Section 52 authorizes cumulative sentencing when both the abetted act and different act are committed.",
+        "Single composite act vs Distinct offences: If the different act completely replaces the abetted act, s. 52 does not apply; s. 52 requires both acts to have taken place."
+      ],
+      "problemApplication": [
+        "Issue: Whether an abettor who planned a house burglary is cumulatively liable when the burglar both stole the jewelry and assaulted the night watchman.",
+        "Rule: Under BNS s. 52, if the act abetted and the distinct probable consequence act are both committed, cumulative punishment is imposed for each.",
+        "Application: The burglary was committed, and the assault was committed in addition as a probable consequence. They are distinct offences.",
+        "Conclusion: The abettor is subject to cumulative punishment for both offences under s. 52."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 52 rule on cumulative punishment.",
+          "Emphasize the twin requirements: committed in addition + constitutes distinct offences.",
+          "Cite the bailiff resistance and grievous hurt illustration."
+        ],
+        "tenMark": [
+          "Introduction: Cumulative sentencing for multiple accessory crimes.",
+          "Relationship between s. 51 and s. 52.",
+          "The requirement of 'distinct offences'.",
+          "Teaching examples and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Sentencing principles in complex accessory liability.",
+          "Textual analysis of BNS s. 52 in conjunction with s. 51.",
+          "The double jeopardy / double punishment distinction: separate distinct offences versus multiple aspects of the same transaction.",
+          "Application in organized gang robberies and mob violence.",
+          "Comprehensive IRAC problem question analysis.",
+          "Summary checklist."
+        ]
+      },
+      "keyTakeaways": [
+        "Applies when both the abetted act and the different act are committed.",
+        "The acts must constitute distinct offences.",
+        "Authorizes cumulative (consecutive/concurrent) punishment for each offence."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.700Z",
+  "updatedAt": "2026-10-03T09:06:55.161Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [

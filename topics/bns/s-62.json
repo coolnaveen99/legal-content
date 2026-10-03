@@ -172,12 +172,92 @@
     "illustrations": [],
     "legacySubjectSlug": "bns",
     "legacyTopicId": "s-62",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed."
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "caseLaw": [],
+      "authoritativeSources": [
+        "Bharatiya Nyaya Sanhita, 2023, as enacted; India Code / Gazette of India text is the authoritative source.",
+        "https://www.indiacode.nic.in/"
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "In-progress student enhancement. Statutory paraphrase follows the migrated topic text.",
+          "Not marked verified or published. Confirm current official text before reliance.",
+          "No case name, citation or ratio is added in this batch."
+        ]
+      },
+      "learningObjectives": [
+        "Master the general attempt provision under BNS s. 62 (formerly IPC s. 511, now placed in Chapter IV).",
+        "Analyze the boundary between mere preparation and criminal attempt.",
+        "Examine the statutory penalty: imprisonment up to one-half of the longest term provided for the offence."
+      ],
+      "definition": "BNS s. 62 provides that whoever attempts to commit an offence punishable by this Sanhita with imprisonment for life or imprisonment, or to cause such an offence to be committed, and in such attempt does any act towards the commission of the offence, shall, where no express provision is made by this Sanhita for the punishment of such attempt, be punished with imprisonment of any description provided for the offence, for a term which may extend to one-half of the longest term of imprisonment provided for that offence, or with such fine as is provided for the offence, or with both.",
+      "legalPrinciple": "A criminal attempt occurs when an offender, armed with guilty intent, moves beyond mere preparation and performs an overt act directly tending toward the execution of the offence, failing only through intervening circumstances, interruption, or impossibility.",
+      "statutoryFramework": [
+        "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt, BNS s. 62 (corresponding to IPC s. 511, repositioned into Chapter IV).",
+        "Scope: Residual general attempt clause for offences punishable with life imprisonment or imprisonment.",
+        "Exclusion: Does not apply where express provision exists elsewhere (e.g. attempt to murder s. 109, attempt to commit culpable homicide s. 110, attempt to commit robbery s. 311).",
+        "Key Actus Reus requirement: 'does any act towards the commission of the offence'.",
+        "Penalty: Imprisonment up to one-half of the longest term, or fine, or both."
+      ],
+      "essentialIngredients": [
+        "The accused had the intention or knowledge to commit an offence punishable with life imprisonment or imprisonment.",
+        "The accused performed an overt act towards the commission of the offence.",
+        "The act went beyond mere preparation and entered the execution stage.",
+        "The substantive offence was not completed due to interruption or unexpected circumstances.",
+        "No express separate section punishes the attempt."
+      ],
+      "detailedExplanation": "Section 62 represents the structural repositioning in BNS: while the IPC placed attempt at the very end as Section 511, the BNS logically integrates Attempt into Chapter IV alongside Abetment and Conspiracy. The critical judicial inquiry is distinguishing PREPARATION from ATTEMPT. Preparation consists in devising or arranging the means or measures necessary for commission (buying matches, procuring poison, packing a bag). Attempt is the direct movement towards commission after preparations are made (pouring the poison into a cup, lighting the match next to the hay). Tests such as the Proximity Test, the Equivocality Test, and the On-the-Job Test are applied to determine whether the act went far enough to constitute an attempt.",
+      "examples": [
+        "Teaching example (Pocket-picking impossibility): A puts his hand into Z's pocket with intent to steal Z's wallet. The pocket is empty. A is guilty of an attempt to commit theft under s. 62, because he did an act towards commission, and impossibility does not excuse an attempt.",
+        "Teaching example (Breaking open a trunk): A breaks open a locked jewel box intending to steal diamonds. The box contains only papers. A is guilty of attempt to commit theft under s. 62."
+      ],
+      "distinctions": [
+        "Preparation vs Attempt: Preparation is arranging the means (not punishable except for specific offences like waging war or dacoity); Attempt is the direct act towards execution (punishable under s. 62).",
+        "Section 62 vs Specific Attempt Sections: Section 62 is a residual section; specific provisions (e.g. attempt to murder under s. 109) override s. 62."
+      ],
+      "problemApplication": [
+        "Issue: Whether an individual who poured arsenic into a water pitcher from which his rival was about to drink, but was tackled before the rival drank, is guilty of attempt.",
+        "Rule: Doing an act towards the commission of an offence beyond mere preparation constitutes an attempt under penal law.",
+        "Application: Procuring the arsenic was preparation; pouring it into the intended drinking pitcher was a direct act towards commission. The act was interrupted only by an external tackle.",
+        "Conclusion: The individual is guilty of attempt under the relevant penal provisions (attempt to murder/s. 62)."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State BNS s. 62 general attempt rule (relocated from IPC 511 to Chapter IV).",
+          "State the core requirement: 'does any act towards the commission of the offence'.",
+          "State the penalty: up to one-half of the longest term of imprisonment."
+        ],
+        "tenMark": [
+          "Introduction: The four stages of crime (Intention, Preparation, Attempt, Commission).",
+          "Essential ingredients of s. 62.",
+          "The line between preparation and attempt (Proximity and Equivocality tests).",
+          "Teaching examples (empty pocket, jewel box) and conclusion."
+        ],
+        "sixteenMark": [
+          "Introduction: Jurisprudential theories of attempt: subjective intent versus objective manifest harm.",
+          "Textual analysis of BNS s. 62 and its structural placement in Chapter IV.",
+          "The Four Tests of Attempt: (1) Proximity Test, (2) Doctrine of Locus Poenitentiae, (3) Equivocality Test, (4) Involuntary Interruption Test.",
+          "The doctrine of Impossible Attempts: physical impossibility (empty pocket) versus legal impossibility.",
+          "Comprehensive IRAC problem question analysis.",
+          "Master synthesis of Chapter IV: Abetment, Conspiracy, and Attempt."
+        ]
+      },
+      "keyTakeaways": [
+        "General attempt provision moved to Chapter IV in BNS.",
+        "Requires an overt act towards commission beyond mere preparation.",
+        "Punished with up to one-half of the maximum term of imprisonment."
+      ]
+    }
   },
   "sources": [
     "source:india:india-code-bns-2023"
   ],
-  "updatedAt": "2026-10-03T07:40:26.704Z",
+  "updatedAt": "2026-10-03T09:06:55.421Z",
   "effectiveFrom": "2024-07-01",
   "effectiveTo": null,
   "tags": [
