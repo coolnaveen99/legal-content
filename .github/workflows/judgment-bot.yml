@@ -8,7 +8,7 @@ on:
       max:
         description: "Maximum judgments to inspect"
         required: false
-        default: "20"
+        default: "100"
       dry_run:
         description: "Discover and validate without writing"
         required: false
@@ -39,7 +39,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Discover and ingest
         env:
-          JUDGMENT_BOT_MAX: ${{ github.event.inputs.max || '20' }}
+          JUDGMENT_BOT_MAX: ${{ github.event.inputs.max || '100' }}
           JUDGMENT_BOT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
         run: node scripts/judgment-bot.mjs
       - name: Verify judgment records
@@ -50,7 +50,14 @@ jobs:
         run: npm run validate
       - name: Enhancement validation
         run: npm run validate:enhancements
-      - name: Commit to main
+      - name: Create dated judgment branch
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          BRANCH="judgment-$(date -u +%Y-%m-%d)"
+          echo "JUDGMENT_BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git checkout -B "$BRANCH"
+
+      - name: Commit and push judgment branch
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "codepackr-judgment-bot"
@@ -61,4 +68,16 @@ jobs:
             exit 0
           fi
           git commit -m "chore(judgments): ingest court judgments"
-          git push origin main
+          git push --force-with-lease origin "$JUDGMENT_BRANCH"
+
+      - name: Open pull request to main
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$JUDGMENT_BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$EXISTING" ]; then
+            gh pr create --repo "$GITHUB_REPOSITORY" --head "$JUDGMENT_BRANCH" --base main --title "Judgment ingestion — $(date -u +%Y-%m-%d)" --body "Automated Supreme Court / High Court judgment ingestion. Review and merge into main after verification."
+          else
+            echo "Open PR #$EXISTING already exists for $JUDGMENT_BRANCH"
+          fi
