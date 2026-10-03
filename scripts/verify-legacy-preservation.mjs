@@ -46,7 +46,10 @@ for (const record of real) {
   }
 
   const content = entity.content && typeof entity.content === "object" ? entity.content : {};
-  if (content.legacySubjectSlug !== record.legacyPath.split('/')[0] || content.legacyTopicId !== record.legacyPath.split('/').slice(1).join('/')) {
+  const legacyParts = record.legacyPath.split("/");
+  const expectedSubject = legacyParts[0] === "adr" ? "arbitration" : legacyParts[0] === "tort" ? "torts" : legacyParts[0];
+  const expectedTopicId = legacyParts.slice(1).join("/");
+  if (content.legacySubjectSlug !== expectedSubject || content.legacyTopicId !== expectedTopicId) {
     console.error(`ERROR: legacy identity metadata missing: ${record.canonicalPath}`);
     errors += 1;
   }
