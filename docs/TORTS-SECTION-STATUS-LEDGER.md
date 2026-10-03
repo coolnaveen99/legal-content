@@ -68,7 +68,7 @@
 4. [x] Decide which rows are Torts-core versus linked statutory subjects.
 5. [x] Complete row-level mapping and create the four genuine first-order gap topic files.
 6. [x] Run structural content-quality validation on the four newly created gap files.
-7. [ ] Run the same enhancement-depth audit across the 38 pre-existing files before legal verification.
+7. [x] Run the enhancement-depth audit across all 38 pre-existing files; 26 migrated files required and received additive exam-depth scaffolds, while 12 historical canonical files already had the newer scaffold.
 6. [ ] Inspect existing enhancement fields before changing any existing topic.
 7. [ ] Complete only missing enhancement gates.
 8. [ ] Complete statutory/current-law verification where applicable.
@@ -109,3 +109,14 @@ No row may be reworked merely because a later batch is running. Reopen only for:
 **Not yet complete:** 38 pre-existing Torts files require depth-gate inspection before they can be considered enhancement-complete. Existing content is preserved; only missing fields/gates should be added.
 
 **Legal verification:** 0/42 promoted to COMPLETE_LOCKED. Verification remains a separate gate and has not been inferred from migrated status fields.
+
+
+## Enhancement-depth checkpoint — 2026-10-03
+
+**42/42 repository topics:** enhancement-depth scaffold accounted for.
+
+- 12 historical canonical files: newer exam scaffold already present.
+- 26 migrated/supplemental files: explicit exam-depth scaffold added.
+- 4 newly created canonical gaps: exam-depth scaffold already completed.
+
+**Next gate:** substantive legal/statutory verification and case-law verification. No topic is COMPLETE_LOCKED merely because the enhancement scaffold exists.
