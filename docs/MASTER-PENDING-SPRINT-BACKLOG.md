@@ -95,14 +95,14 @@
 
 ## 5. Sprint 3 — Legal verification and publishing readiness
 
-- [ ] **VER-001** Verify statutory text against authoritative current sources.
+- [ ] **VER-001** Verify statutory text against authoritative current sources. Started: `docs/VER-001-STATUTORY-SOURCE-MAP.md` and `docs/VER-001-SPOT-CHECK.md`. BNS s.1 subsections (1)–(4) matched India Code. No topic marked verified.
 - [ ] **VER-002** Verify amendment/current-law status where applicable.
 - [ ] **VER-003** Verify case names, citations and courts.
 - [ ] **VER-004** Verify case principles/ratio against authoritative judgments.
 - [ ] **VER-005** Verify source URLs and source authority.
 - [ ] **VER-006** Identify outdated/repealed/superseded propositions.
 - [ ] **VER-007** Record verification date and verifier.
-- [ ] **VER-008** Keep uncertain material `in-progress` rather than publishing.
+- [x] **VER-008** Keep uncertain material `in-progress` rather than publishing. `scripts/gate-unverified-promotion.mjs` fails a verified or published enhancement that has no `lastVerifiedAt`.
 - [ ] **VER-009** Mark only substantively checked topics `verified`.
 - [ ] **VER-010** Apply publication status only after all publication criteria pass.
 - [ ] **VER-011** Produce subject-level verification reports.
@@ -194,10 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** remaining subject families assembled from their own migrated notes in one pass (Contract, Torts, Admin, Arbitration, and the other scaffold families).
-**Status:** `in-progress`, coverage `assembled-from-migrated`. Not verified. Not published. No case law added.
-**Substantive enhancements:** Constitution, BNS, BNSS, BSA, and the one pre-existing Admin topic. The assembled topics are not counted as substantive.
-**Verified enhancements:** 0.
-**Next open item:** VER-001, statutory verification against authoritative sources. Do not mark assembled topics verified without that check.
+**Current batch:** VER-001 started. Official India Code texts recorded. BNS s.1(1)–(4) matched the India Code PDF as on 6 October 2025. Subsections (5)–(6) not re-read.
+**Verified enhancements:** 0. Promotion gate added (VER-008).
+**Next open item:** continue VER-001 section by section. Do not bulk-mark verified.
 **AI phase:** NOT STARTED.
 
