@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW | REVIEW — source URL corrected; Oleum PDF not yet opened | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -157,3 +157,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - The opened judgment quotes the Mehta absolute and non-delegable liability formulation and the departure from the *Rylands v. Fletcher* exceptions.
 - Original Oleum judgment text: **not opened**. Topic remains `in-progress`. Not verified. Not published. Not COMPLETE_LOCKED.
 - Next action: open the original Oleum judgment before any verified status.
+
+
+### Absolute liability — Oleum official-PDF checkpoint (2026-10-03)
+- Official PDF opened: `https://api.sci.gov.in/jonew/judis/8858.pdf`.
+- Identity: M.C. Mehta and Anr. v. Union of India & Ors., judgment 20/12/1986; 1987 AIR 1086; 1987 SCC (1) 395; 1987 SCR (1) 819; Bhagwati C.J.
+- Holding checked: hazardous or inherently dangerous activity; absolute and non-delegable duty; strict and absolute liability for harm from an accident such as escape of toxic gas; not subject to the exceptions operating under Rylands v. Fletcher; compensation correlated to magnitude and capacity.
+- Limit: Article 12 left open; the order directed Delhi Legal Aid and Advice Board to file compensation actions and did not itself award compensation.
+- Status: case-law propositions used in this topic checked. Not COMPLETE_LOCKED. Enhancement remains `in-progress`. Not a publication gate.
+- Next action: statutory/current-law interface (Public Liability Insurance Act, 1991) remains unopened.

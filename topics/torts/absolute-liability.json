@@ -73,12 +73,13 @@
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "source-correction pass",
+        "verifiedBy": "Oleum official-PDF pass",
         "notes": [
-          "Opened https://api.sci.gov.in/jonew/judis/7699.pdf. It is Charan Lal Sahu v. Union of India, judgment dated 22/12/1989 (1990 AIR 1480; 1990 SCC (1) 613), not the Oleum Gas Leak judgment.",
-          "That official text quotes the M.C. Mehta absolute and non-delegable liability formulation and states that the quoted law made a landmark departure from the exceptions to Rylands v. Fletcher.",
-          "The original M.C. Mehta Oleum judgment was not opened in this pass. The topic therefore remains in-progress and is not marked verified or published.",
-          "No new statutory provision was invented. Absolute liability remains a judicial doctrine, later interfacing with statutes such as the Public Liability Insurance Act, 1991, which was not re-verified in this pass."
+          "Opened official Supreme Court PDF https://api.sci.gov.in/jonew/judis/8858.pdf: M.C. Mehta and Anr. v. Union of India & Ors., judgment 20/12/1986, 1987 AIR 1086, 1987 SCC (1) 395, 1987 SCR (1) 819, Bhagwati CJ.",
+          "Confirmed oleum escape from a Shriram unit on 4 and 6 December 1985, and the holding that hazardous or inherently dangerous activity attracts strict and absolute liability not subject to the Rylands v. Fletcher exceptions, with compensation correlated to magnitude and capacity.",
+          "Limit recorded: Article 12 question left open; compensation claims directed to be filed by Delhi Legal Aid and Advice Board, not awarded in this order.",
+          "Charan Lal Sahu PDF https://api.sci.gov.in/jonew/judis/7699.pdf remains a later quotation, not the Oleum judgment.",
+          "Topic is not COMPLETE_LOCKED. Public Liability Insurance Act, 1991 was not re-opened in this pass."
         ]
       },
       "distinctions": [
@@ -101,18 +102,19 @@
       "caseLaw": [
         {
           "name": "M.C. Mehta v. Union of India (Oleum Gas Leak case)",
-          "year": 1987,
-          "citation": "(1987) 1 SCC 395; AIR 1987 SC 1086",
-          "holding": "Commonly cited as the decision that evolved absolute and non-delegable liability for an enterprise engaged in a hazardous or inherently dangerous activity, without the exceptions of Rylands v. Fletcher. The original Oleum judgment PDF was not opened in this pass, so this entry remains pending direct verification.",
-          "relevance": "Primary authority for the Indian absolute-liability doctrine. Not activated as verified until the original judgment text is opened.",
-          "verificationStatus": "pending-original-judgment"
+          "year": 1986,
+          "citation": "1987 AIR 1086; 1987 SCC (1) 395; 1987 SCR (1) 819",
+          "holding": "Judgment dated 20/12/1986. An enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty. If harm results from an accident in that activity, for example escape of toxic gas, the enterprise is strictly and absolutely liable to compensate those affected, and that liability is not subject to the exceptions which operate under Rylands v. Fletcher. Compensation must be correlated to the magnitude and capacity of the enterprise. The Court did not decide whether Shriram was 'State' under Article 12, and directed the Delhi Legal Aid and Advice Board to file compensation actions rather than awarding compensation in that order.",
+          "relevance": "Direct authority for the Indian absolute-liability formulation used in this topic.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/8858.pdf",
+          "verificationStatus": "opened-official-pdf"
         },
         {
           "name": "Charan Lal Sahu v. Union of India",
           "year": 1989,
           "citation": "1990 AIR 1480; 1990 SCC (1) 613",
-          "holding": "Official Supreme Court text quotes the M.C. Mehta formulation: an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute and non-delegable duty, and is strictly and absolutely liable to compensate those affected by an accident such as escape of toxic gas, not subject to the exceptions which operate under Rylands v. Fletcher.",
-          "relevance": "Official confirmation of the stated Mehta absolute-liability formulation. This PDF is not the Oleum judgment itself.",
+          "holding": "Official Supreme Court text quotes the M.C. Mehta absolute and non-delegable liability formulation and the departure from the Rylands v. Fletcher exceptions. This PDF is not the Oleum judgment.",
+          "relevance": "Later official quotation of the Mehta formulation.",
           "sourceUrl": "https://api.sci.gov.in/jonew/judis/7699.pdf",
           "verificationStatus": "opened-official-pdf"
         }
