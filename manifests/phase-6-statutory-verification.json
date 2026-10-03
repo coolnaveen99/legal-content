@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 6 — Statutory Section & Reference Consistency Verification",
-  "generatedAt": "2026-10-03T09:07:11.689Z",
+  "generatedAt": "2026-10-03T09:51:45.241Z",
   "scope": {
     "migratedTopics": 3551
   },
@@ -13,13 +13,13 @@
   ],
   "summary": {
     "topicsAudited": 3551,
-    "topicsWithFindings": 1330,
-    "totalFindings": 1379,
+    "topicsWithFindings": 1334,
+    "totalFindings": 1383,
     "highSeverity": 993,
-    "mediumSeverity": 386
+    "mediumSeverity": 390
   },
   "byType": {
-    "legacy-cross-reference": 386,
+    "legacy-cross-reference": 390,
     "source-attachment": 993
   },
   "findings": [
@@ -386,6 +386,15 @@
     {
       "path": "topics/bns/s-136.json",
       "id": "topic:india:bns-s-136",
+      "subject": "bns",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bns/s-137.json",
+      "id": "topic:india:bns-s-137",
       "subject": "bns",
       "type": "legacy-cross-reference",
       "severity": "medium",
@@ -1241,6 +1250,15 @@
     {
       "path": "topics/bns/s-225.json",
       "id": "topic:india:bns-s-225",
+      "subject": "bns",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bns/s-226.json",
+      "id": "topic:india:bns-s-226",
       "subject": "bns",
       "type": "legacy-cross-reference",
       "severity": "medium",
@@ -2553,6 +2571,15 @@
       "evidence": ""
     },
     {
+      "path": "topics/bns/s-45.json",
+      "id": "topic:india:bns-s-45",
+      "subject": "bns",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
       "path": "topics/bns/s-46.json",
       "id": "topic:india:bns-s-46",
       "subject": "bns",
@@ -2879,6 +2906,15 @@
     {
       "path": "topics/bns/s-8.json",
       "id": "topic:india:bns-s-8",
+      "subject": "bns",
+      "type": "legacy-cross-reference",
+      "severity": "medium",
+      "message": "Legacy criminal-law section references are present; verify each mapping against the official corresponding-section table.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/bns/s-80.json",
+      "id": "topic:india:bns-s-80",
       "subject": "bns",
       "type": "legacy-cross-reference",
       "severity": "medium",
