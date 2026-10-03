@@ -205,7 +205,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Current control item:** CONTROL-002 — reconcile Torts authoritative subject inventory against the complete repository topic inventory and freeze the subject scope.
+**Current control item:** CONTROL-003 / Torts verification — do not rework COMPLETE_LOCKED rows (none locked). Absolute-liability source URL corrected on 2026-10-03; original Oleum PDF still unopened, so the topic stays in-progress.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
 **Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.

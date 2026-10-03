@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | REVIEW | REVIEW — source URL corrected; Oleum PDF not yet opened | PENDING | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -148,3 +148,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Rylands doctrine/current treatment: checked
 - Status: **VERIFIED**
 - COMPLETE_LOCKED: not yet; integration, build and production gates remain.
+
+
+### Absolute liability — source-correction checkpoint (2026-10-03)
+- Enhancement depth: scaffold present; not reworked.
+- Official PDF opened: `https://api.sci.gov.in/jonew/judis/7699.pdf`.
+- Finding: that PDF is *Charan Lal Sahu v. Union of India* (judgment 22/12/1989; 1990 AIR 1480; 1990 SCC (1) 613), not *M.C. Mehta v. Union of India* (Oleum).
+- The opened judgment quotes the Mehta absolute and non-delegable liability formulation and the departure from the *Rylands v. Fletcher* exceptions.
+- Original Oleum judgment text: **not opened**. Topic remains `in-progress`. Not verified. Not published. Not COMPLETE_LOCKED.
+- Next action: open the original Oleum judgment before any verified status.
