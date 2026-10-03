@@ -12,7 +12,7 @@ const REQUIRED = [
 ];
 
 let checked=0, enhanced=0, errors=0;
-function walk(dir){
+function* walk(dir){
   for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
     const p=path.join(dir,entry.name);
     if(entry.isDirectory()) walk(p);
