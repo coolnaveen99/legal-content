@@ -118,6 +118,7 @@ function normalizeRenamedReferences(value) {
 }
 
 function buildCanonical(subject, localId, legacy) {
+  const normalizedLegacy = normalizeRenamedReferences(legacy);
   const overview = String(
     legacy.overview ??
     legacy.glance ??
@@ -129,13 +130,13 @@ function buildCanonical(subject, localId, legacy) {
 
   const content = {
     overview,
-    ...normalizeRenamedReferences(legacy),
-    sections: normalizeSections(legacy.sections),
-    examples: normalizeExamples(legacy.examples),
-    hypotheticals: normalizeHypotheticals(legacy.hypotheticals),
-    relatedJudgments: Array.isArray(legacy.relatedJudgments) ? legacy.relatedJudgments : [],
-    relatedTopics: Array.isArray(legacy.relatedTopics) ? legacy.relatedTopics : [],
-    illustrations: Array.isArray(legacy.illustrations) ? legacy.illustrations : [],
+    ...normalizedLegacy,
+    sections: normalizeSections(normalizedLegacy.sections),
+    examples: normalizeExamples(normalizedLegacy.examples),
+    hypotheticals: normalizeHypotheticals(normalizedLegacy.hypotheticals),
+    relatedJudgments: Array.isArray(normalizedLegacy.relatedJudgments) ? normalizedLegacy.relatedJudgments : [],
+    relatedTopics: Array.isArray(normalizedLegacy.relatedTopics) ? normalizedLegacy.relatedTopics : [],
+    illustrations: Array.isArray(normalizedLegacy.illustrations) ? normalizedLegacy.illustrations : [],
     legacySubjectSlug: subject,
     legacyTopicId: localId,
     migrationNote:
