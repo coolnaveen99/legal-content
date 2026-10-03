@@ -18,8 +18,6 @@ on:
         description: "Inventory only; do not modify content"
         required: false
         default: "false"
-  schedule:
-    - cron: "0 3 * * *"
 
 permissions:
   contents: write
@@ -84,16 +82,16 @@ jobs:
           ENHANCEMENT_BRANCH: ${{ steps.branch.outputs.branch }}
           ENHANCEMENT_TOPICS_PER_RUN: ${{ github.event.inputs.topics_per_run || '1' }}
           ENHANCEMENT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
-          ENHANCEMENT_PROVIDER_URL: ${{ secrets.ENHANCEMENT_PROVIDER_URL }}
-          ENHANCEMENT_PROVIDER_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6-astra' }}
         run: node scripts/content-enhancement-bot.mjs
 
       - name: Validate enhanced content
         run: |
           npm install
+          npm run manifest:refresh
           npm run validate:enhancements
           npm run validate
-          npm run manifest:refresh
 
       - name: Commit topic enhancement
         if: github.event.inputs.dry_run != 'true'
