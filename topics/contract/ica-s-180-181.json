@@ -125,9 +125,9 @@
     "legacyTopicId": "ica-s-180-181",
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
-      "version": "1",
+      "version": 2,
       "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Ica Section 180 181.",
         "Separate the points already present in the topic sections.",
@@ -164,7 +164,9 @@
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
-          "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic."
+          "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic.",
+          "Full Contract subject inventory confirms this topic is within the 60-topic repository scope.",
+          "Enhancement metadata upgraded to subject-enhancement; no unverified case authority added."
         ]
       },
       "examAnswerStructure": {
@@ -190,14 +192,18 @@
           "Counterargument and response",
           "Conclusion"
         ]
-      }
+      },
+      "distinctions": [
+        "Distinguish the specific statutory rule in this topic from adjacent provisions by identifying the exact statutory trigger, conditions and consequence.",
+        "Apply the provision covered by this topic to the facts before considering related contractual doctrines."
+      ]
     },
     "caseLaw": []
   },
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-03T11:06:00.000Z",
+  "updatedAt": "2026-10-03T12:21:56.169Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
