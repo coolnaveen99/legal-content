@@ -42,7 +42,7 @@
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | DONE — file not named in validator errors | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -192,3 +192,11 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - These figures are immediate statutory relief. They do not replace the Oleum measure of compensation.
 - Not COMPLETE_LOCKED. Content validation, integration and production gates remain open.
 - Lock refusal: the whole catalogue cannot be marked COMPLETE_LOCKED. No other Torts row has closed those gates.
+
+
+### Absolute liability — content-validation checkpoint (2026-10-03)
+- `node scripts/validate.mjs` and `node scripts/validate-enhancements.mjs` were run.
+- `topics/torts/absolute-liability.json` was not named in the error output.
+- Catalogue result: enhancement validation reported topics=3652, enhanced=3652, errors=5935. Many Torts files lack `enhancement.caseLaw`. Manifest sha256 mismatches were also reported.
+- `node scripts/gate-unverified-promotion.mjs`: promoted=3, errors=0.
+- Not COMPLETE_LOCKED. Integration and production gates were not run to a pass, and the catalogue validation did not pass.

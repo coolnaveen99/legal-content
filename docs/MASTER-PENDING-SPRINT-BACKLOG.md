@@ -205,7 +205,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Current control item:** CONTROL-003 / Torts verification — G.S.R. 772(E) prescribed amounts opened. Absolute liability statutory and Oleum case-law gates checked. Not COMPLETE_LOCKED: content validation, integration and production remain open. No catalogue-wide lock.
+**Current control item:** CONTROL-003 / Torts verification — absolute-liability.json was not named in validator errors. Catalogue enhancement validation still reports 5935 errors. Not COMPLETE_LOCKED. Integration and production remain open.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
 **Torts row-level mapping:** `docs/TORTS-ROW-LEVEL-MAPPING.md`.
