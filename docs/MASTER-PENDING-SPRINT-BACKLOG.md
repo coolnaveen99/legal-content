@@ -194,8 +194,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** VER-001 BNS s.2 continued. Clauses (25)-(27), (32) and (39) checked. Public-servant descriptions (e) and (f) still unread.
+**Current batch:** VER-001 BNS s.2 public-servant descriptions (e) and (f) checked. (j) seen in part. (i) and the rest of (k) not re-read.
 **Verified enhancements:** 0.
-**Next open item:** BNS s.2 public-servant descriptions (e) and (f).
+**Next open item:** BNS s.2 public-servant descriptions (i) and the remainder of (k).
 **AI phase:** NOT STARTED.
 
