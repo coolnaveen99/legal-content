@@ -83,11 +83,11 @@
 - [x] **BNSS-001** Complete BNSS §§1–531 (Chapters I through XXXIX complete — BNSS catalogue 100% enhanced from Section 1 to Section 531). Additive in-progress enhancements on topics/bnss/s-1.json through s-531.json. Not verified or published.
 - [x] **BSA-001** Complete BSA §§1–170 (Chapters I through XII complete — BSA catalogue 100% enhanced from Section 1 to Section 170). Additive in-progress enhancements on topics/bsa/s-1.json through s-170.json. Not verified or published.
 - [x] **CONST-001** Complete Constitutional Law topics (Arts. 1–395 + sub-articles + 21 foundational doctrines complete — 522 topics 100% enhanced with all 14 required fields, section-specific principles, zero generic template contamination, and landmark hardening). Additive in-progress enhancements across topics/constitution/*.json. Not verified or published.
-- [ ] **CONTRACT-001** Enhance Contract/commercial-law topics.
-- [ ] **TORT-001** Enhance Torts topics.
-- [ ] **ADMIN-001** Enhance Administrative Law topics.
-- [ ] **ARB-001** Enhance Arbitration topics.
-- [ ] **REMAIN-001** Enhance remaining subject families.
+- [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Not verified.
+- [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
+- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Not verified.
+- [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
+- [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
 - [ ] **REMAIN-003** Run full-catalog enhancement progress report after every batch.
 
@@ -194,10 +194,10 @@ An item can be marked **COMPLETED** only when:
 
 ## 11. Current execution pointer
 
-**Current batch:** structural enhancement objects added for every topic that previously had none (2,065 topics). Constitution, BNS, BNSS and BSA already had enhancements; their remaining files without an enhancement object were included.
-**Status of those new objects:** `in-progress` only. Built from each topic's existing overview, sections and examples. No case law was added. Not verified. Not published.
+**Current batch:** remaining subject families assembled from their own migrated notes in one pass (Contract, Torts, Admin, Arbitration, and the other scaffold families).
+**Status:** `in-progress`, coverage `assembled-from-migrated`. Not verified. Not published. No case law added.
+**Substantive enhancements:** Constitution, BNS, BNSS, BSA, and the one pre-existing Admin topic. The assembled topics are not counted as substantive.
 **Verified enhancements:** 0.
-**Published enhancements:** 0.
-**Still pending:** authoritative verification (VER-001 onward), product integration, and any topic whose existing note is too thin for exam use.
+**Next open item:** VER-001, statutory verification against authoritative sources. Do not mark assembled topics verified without that check.
 **AI phase:** NOT STARTED.
 

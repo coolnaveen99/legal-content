@@ -42,6 +42,8 @@ for (const subject of fs.readdirSync(topicRoot).sort()) {
     const thin =
       noteText.includes("No case law invented") ||
       noteText.includes("Existing migrated topic text only") ||
+      noteText.includes("Assembled from this topic") ||
+      enhancement.coverage === "assembled-from-migrated" ||
       String(enhancement.definition || "").includes("No additional legal rule was generated");
     if (thin) scaffold++;
     else substantive++;
