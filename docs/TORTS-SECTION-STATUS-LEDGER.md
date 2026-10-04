@@ -28,7 +28,7 @@
 | 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | DONE | DONE — legal personality; minors/unsound mind (CPC Order XXXII; Limitation Act ss.6–8) | DONE — official Achutrao Haribhau Khodwa PDF 15962 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 10 | Joint tortfeasors | tort-joint-tortfeasors.json | DONE | DONE | DONE — uncodified common law; MVA/CPC procedural interface | DONE — official Khenyei PDF 42673 opened (para 18) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 11 | State / government liability | state-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 11 | State / government liability | state-liability.json | DONE | DONE | DONE — Art. 300 / Arts. 32 & 226; CPC ss.79–82 | DONE — official Achutrao Khodwa (15962) & Chandrima Das (16557) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 12 | Negligence | negligence.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 13 | Res ipsa loquitur | negligence.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 14 | Contributory negligence | negligence.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -264,3 +264,19 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Reconciled ledger mapping: Row 10 mapped to existing inventory file `tort-joint-tortfeasors.json`.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+
+### State / government liability (Row 11) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDFs:
+  1. `https://api.sci.gov.in/jonew/judis/15962.pdf`: *Achutrao Haribhau Khodwa & Ors. v. State of Maharashtra & Ors.*, (1996) 2 SCC 634, AIR 1996 SC 2377, JT 1996 (2) 624, 1996 SCALE (2) 328, decided 20/02/1996, B.N. Kirpal and S.P. Bharucha JJ.
+  2. `https://api.sci.gov.in/jonew/judis/16557.pdf`: *The Chairman, Railway Board & Ors. v. Mrs. Chandrima Das & Ors.*, (2000) 2 SCC 465, AIR 2000 SC 988, decided 28/01/2000, S. Saghir Ahmad and R.P. Sethi JJ.
+- Holding & core propositions:
+  - Sovereign vs. Non-Sovereign Distinction: Affirmed the principle from *State of Rajasthan v. Vidhyawati* (1962) and critically delimited *Kasturi Lal v. State of U.P.* (1965). Running a government civil hospital or medical facility is a welfare activity and not an immune sovereign function; the State is vicariously liable under Article 300 for negligence of its medical officers (*Achutrao Haribhau Khodwa*).
+  - Commercial Undertakings & Public Law Liability: Running railways is a commercial undertaking where the Union of India is vicariously liable in damages for tortious offences committed by employees. Established that compensation for violation of fundamental rights (Article 21) can be awarded directly in public law proceedings under Article 226 / Article 32, independent of and alongside private law tort suits (*Chandrima Das*).
+- Doctrinal distinctions:
+  - Private Law Tort Liability (Article 300 / Section 9 CPC / Sections 79–82 CPC) vs. Public Law Strict Constitutional Liability (Article 32 / Article 226) for deprivation of life or personal liberty (*Nilabati Behera*, *Rudul Sah*, *Chandrima Das*).
+  - Strict construction of sovereign immunity: Confined strictly to primary, inalienable functions of statehood (defence, external affairs, coinage, maintenance of public order under coercive statutory power); unavailable for welfare, medical, commercial, or municipal activities.
+- Statutory & procedural framework: Constitution of India, Articles 300, 32, 226, 21, 372; Code of Civil Procedure 1908, Sections 79–82 and Order XXVII (mandatory Section 80 notice for regular civil suits; execution stay under Section 82); Limitation Act 1963, Articles 72, 112 (30-year limitation for suits by or on behalf of Government), and residual Article 113.
+- Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
