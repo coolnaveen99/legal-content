@@ -60,7 +60,7 @@ jobs:
                 else if (e.name.endsWith('.json')) {
                   try {
                     const j = JSON.parse(fs.readFileSync(p, 'utf8'));
-                    if (j.entityType === 'topic' && j.content?.legacySubjectSlug === subject && j.content?.enhancement?.exampleQuality !== 'concrete-v2') pending++;
+                    if (j.entityType === 'topic' && j.content?.legacySubjectSlug === subject && j.content?.enhancement?.exampleQuality !== 'concrete-v3') pending++;
                   } catch {}
                 }
               }

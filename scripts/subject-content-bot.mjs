@@ -20,7 +20,7 @@ const STATE_ROOT = path.join(ROOT, ".subject-content-bot-state");
 const SUBJECT = (process.env.SUBJECT_BOT_SUBJECT || "").trim();
 const PER_RUN = Math.min(Math.max(Number(process.env.SUBJECT_BOT_TOPICS_PER_RUN || 1), 1), 20);
 const DRY = process.env.SUBJECT_BOT_DRY_RUN === "1";
-const QUALITY = "concrete-v2";
+const QUALITY = "concrete-v3";
 const CURRENT = new Set(["bns", "bnss", "bsa"]);
 const HISTORICAL = new Set(["ipc", "crpc", "iea"]);
 const BOT_TITLES = [
@@ -99,7 +99,7 @@ for (const file of walk(TOPIC_ROOT)) {
 }
 topics.sort((a, b) => a.entity.id.localeCompare(b.entity.id));
 const state = loadState();
-const queue = topics.filter((item) => item.entity.content?.enhancement?.exampleQuality !== QUALITY);
+const queue = topics.filter((item) => item.entity.content?.enhancement?.exampleQuality !== QUALITY || !String(item.entity.content?.examples?.find((entry) => entry?.title?.startsWith("Teaching pattern - recorded ingredients present"))?.body || "").includes("Educational hypothetical, not an official statutory illustration"));
 const pending = queue.slice(0, PER_RUN);
 console.log(JSON.stringify({
   subject: SUBJECT,
@@ -142,6 +142,11 @@ for (const item of pending) {
     kind: "hypothetical",
     inventedCase: false,
   };
+  const requiredBits = ["Educational hypothetical, not an official statutory illustration and not a new decided case.", "Facts already recorded", "Issue already recorded", "Recorded ingredient used:", "Application: a person affected by", "Authority already recorded"];
+  if (!requiredBits.every((bit) => applies.body.includes(bit))) {
+    console.error("Example shape rejected for " + entity.id);
+    continue;
+  }
   const fails = {
     title: `Teaching pattern - recorded ingredient missing - ${title}`,
     body: `Educational hypothetical, not an official statutory illustration and not a new decided case. ${lawNote()} The same person asks for the result of ${title}, but one ingredient already recorded in this file is absent: ${ingredient} The recorded rule does not apply. Do not invent a holding, section, citation, or procedural step to fill that gap.`,
