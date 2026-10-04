@@ -27,7 +27,7 @@
 | 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | DONE | DONE — uncodified common law (Art. 372; CPC Order XXXII; s.83/s.86 CPC) | DONE — official Chandrima Das PDF 16557 opened (paras 16–22) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | DONE | DONE — legal personality; minors/unsound mind (CPC Order XXXII; Limitation Act ss.6–8) | DONE — official Achutrao Haribhau Khodwa PDF 15962 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 10 | Joint tortfeasors | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 10 | Joint tortfeasors | tort-joint-tortfeasors.json | DONE | DONE | DONE — uncodified common law; MVA/CPC procedural interface | DONE — official Khenyei PDF 42673 opened (para 18) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 11 | State / government liability | state-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 12 | Negligence | negligence.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 13 | Res ipsa loquitur | negligence.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -249,5 +249,18 @@ The verification pass confirmed the Supreme Court authorities used for professio
   - Confirmed that running a civil hospital is a welfare activity and not an immune sovereign function; State held vicariously liable for doctors' negligence (*Achutrao Haribhau Khodwa*).
   - Confirmed that running railways is a commercial undertaking where the State/Union is vicariously liable in damages for tortious acts of employees (*Chandrima Das*).
 - Statutory & procedural framework: Common law received under Article 372; procedural capacity under CPC (Order XXXII for minors and persons of unsound mind; Section 83 for alien enemies; Section 86 for foreign sovereigns); suspension of limitation during legal disability under Sections 6–8 of the Limitation Act 1963; State suability under Article 300.
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+
+### Joint tortfeasors and composite negligence (Row 10) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDF: `https://api.sci.gov.in/jonew/judis/42673.pdf`: *Khenyei v. New India Assurance Co. Ltd. & Ors.*, Civil Appeal No. 4244 of 2015, decided 07/05/2015, (2015) 9 SCC 273, AIR 2015 SC 2261, 2015 (6) SCALE 194, 3-Judge Bench: H.L. Dattu C.J.I., S.A. Bobde, and Arun Mishra JJ.
+- Holding & core propositions: Settled conflict between Full Bench decisions of High Courts and authoritatively established the four controlling propositions of composite negligence in India (para 18):
+  1. In the case of composite negligence, the claimant is entitled to sue both or any one of the joint tortfeasors and recover the entire compensation, as the liability of joint tortfeasors is joint and several.
+  2. Apportionment of compensation between two tortfeasors vis-a-vis the claimant is impermissible; the claimant can recover whole damages from any solvent defendant at their option.
+  3. Where all joint tortfeasors are impleaded and evidence is sufficient, the tribunal or court may determine inter se negligence for contribution; the paying tortfeasor can recover the excess share from the co-tortfeasor directly in execution proceedings without filing an independent suit.
+  4. The court/tribunal should not determine the composite negligence of non-impleaded drivers in their absence; the paying tortfeasor is left to sue in independent proceedings for contribution.
+- Doctrinal distinction (paras 14–16): Affirmed the clear demarcation between **composite negligence** (multiple wrongdoers, innocent victim, joint and several liability, 100% recovery) and **contributory negligence** (victim's own fault contributes to injury, damages proportionately severed/reduced).
+- Statutory & forum framework: Common law received under Article 372; procedural joinder and execution under CPC (Order I Rules 1, 3, 10; Order XXI); Motor Vehicles Act 1988 (Sections 165–175); residual limitation under Article 113 of the Limitation Act 1963.
+- Reconciled ledger mapping: Row 10 mapped to existing inventory file `tort-joint-tortfeasors.json`.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
