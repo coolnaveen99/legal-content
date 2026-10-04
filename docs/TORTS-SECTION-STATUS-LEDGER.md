@@ -18,9 +18,9 @@
 
 | # | Topic / coverage | Repo file | Inventory | Enhancement | Statute/current law | Case law | Content validation | Integration | Production | Final |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Nature and definition | nature-definition.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 2 | Essential elements / constituents | nature-definition.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 3 | Distinction from crime/contract | nature-definition.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 1 | Nature and definition | nature-definition.json | DONE | DONE | DONE — uncodified common law (Art. 372 / s.9 CPC; Limitation Act Art. 113) | DONE — official Subramanian Swamy PDF 44579 opened (paras 63–66) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
+| 2 | Essential elements / constituents | nature-definition.json | DONE | DONE | DONE — injuria sine damno foundation verified (paras 63, 66) | DONE — official Subramanian Swamy PDF 44579 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
+| 3 | Distinction from crime/contract | nature-definition.json | DONE | DONE | DONE — civil injury vs crime/contract confirmed (paras 76–80) | DONE — official Subramanian Swamy PDF 44579 opened (paras 76–80) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 6 | General defences | general-defences.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -200,3 +200,12 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Catalogue result: enhancement validation reported topics=3652, enhanced=3652, errors=5935. Many Torts files lack `enhancement.caseLaw`. Manifest sha256 mismatches were also reported.
 - `node scripts/gate-unverified-promotion.mjs`: promoted=3, errors=0.
 - Not COMPLETE_LOCKED. Integration and production gates were not run to a pass, and the catalogue validation did not pass.
+
+
+### Nature and definition (Rows 1–3) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDF: `https://api.sci.gov.in/judgment/judis/44579.pdf`: *Subramanian Swamy v. Union of India & Ors.*, WP (Crl.) 184/2014, decided 13/05/2016, (2016) 7 SCC 221, Dipak Misra and Prafulla C. Pant JJ.
+- Paras 63–66: Confirmed uncodified common-law foundation of Indian tort law (quoting M.C. Setalvad), its status as law in force under Article 372 (*Superintendent and Remembrancer of Legal Affairs v. Corporation of Calcutta*, 1967), and maintainability of civil action under Section 9 CPC (*Ganga Bai v. Vijay Kumar*, 1974) without needing express statutory authorization. Confirmed foundational principle of *injuria sine damno* being actionable and *damnum sine injuria* not being actionable (quoting Justice G.P. Singh, *Law of Torts*).
+- Paras 76–80: Confirmed essential distinction between crime and civil injury / tort (quoting Blackstone and Kenny). Private wrongs or civil injuries are infringements of individual civil rights remediable by damages; public wrongs or crimes are violations of public rights due to the social aggregate capacity sounding in State prosecution and punishment.
+- Statutory framework: Indian tort law remains uncodified common law. Residual limitation under Limitation Act 1963, Article 113 (3 years from date right to sue accrues). Specialised statutes (Motor Vehicles Act 1988, Consumer Protection Act 2019) supplement without codifying general tort law.
+- Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.

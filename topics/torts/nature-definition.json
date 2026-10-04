@@ -77,13 +77,14 @@
         "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-04",
+        "verifiedBy": "Subramanian Swamy official-PDF pass",
         "notes": [
-          "Topic reviewed for enhancement structure; tort law is not codified in one general statute.",
-          "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/",
-          "Official Supreme Court judgment text checked and exact topic proposition activated: Subramanian Swamy v. Union of India."
+          "Opened official Supreme Court PDF https://api.sci.gov.in/judgment/judis/44579.pdf: Subramanian Swamy v. Union of India & Ors., Writ Petition (Crl.) No. 184 of 2014, judgment 13/05/2016, (2016) 7 SCC 221, Dipak Misra & Prafulla C. Pant JJ.",
+          "Confirmed paras 63–66: uncodified common-law foundation of Indian tort law (quoting M.C. Setalvad), recognized as law in force under Article 372 (Corporation of Calcutta, 1967), and maintainable under Section 9 CPC without needing express statutory authorization (Ganga Bai, 1974).",
+          "Confirmed paras 76–80: distinction between crime (public wrong against community, prosecuted by State for punishment) and tort/civil injury (private wrong infringing individual civil rights, remediable by civil action for damages).",
+          "Statutory framework check: Indian tort law is uncodified common law; residual limitation under Limitation Act 1963 Art. 113 (3 years); specialised tribunals/commissions under Motor Vehicles Act 1988 and Consumer Protection Act 2019 provide supplementary remedies.",
+          "Not COMPLETE_LOCKED: subject-wide verification of remaining Torts topics remains in progress."
         ]
       },
       "distinctions": [
@@ -107,10 +108,11 @@
         {
           "name": "Subramanian Swamy v. Union of India",
           "year": 2016,
-          "citation": "(2016) 7 SCC 221",
-          "holding": "The Supreme Court described the law of torts as a body of common-law rules developed to secure reasonable behaviour and respect for rights and interests, and discussed its foundation in actionable injury and legally protected rights.",
-          "relevance": "Direct Supreme Court discussion of the nature and foundational principles of Indian tort law.",
-          "sourceUrl": "https://api.sci.gov.in/judgment/judis/44579.pdf"
+          "citation": "(2016) 7 SCC 221; 2016 (7) SCALE 379; WP (Crl.) 184 of 2014",
+          "holding": "Judgment dated 13/05/2016. The Supreme Court reviewed the nature and foundation of the law of torts in India, noting that the law of civil wrongs remains largely uncodified common law received in India, continuing as law in force under Article 372 of the Constitution, and actionable under Section 9 CPC. The Court highlighted that tort rules secure reasonable behaviour and respect for rights based on actionable legal injury (injuria sine damno), and distinguished civil injuries (infringements of individual private rights sounding in damages) from crimes (violations of public rights due to the social aggregate capacity sounding in punishment).",
+          "relevance": "Direct Supreme Court discussion of the nature, constitutional basis, and foundational principles of Indian tort law.",
+          "sourceUrl": "https://api.sci.gov.in/judgment/judis/44579.pdf",
+          "verificationStatus": "opened-official-pdf"
         }
       ]
     },
