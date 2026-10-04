@@ -24,8 +24,8 @@
 | 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | DONE — threshold actionability maxims (Art. 372 / s.9 CPC) | DONE — official Subramanian Swamy PDF 44579 opened (para 63) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | DONE | DONE | DONE — maxims received under Art. 372 / actionable under s.9 CPC | DONE — official Subramanian Swamy (para 63) & Vohra Sadikbhai (para 22) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 6 | General defences | general-defences.json | DONE | DONE | DONE — uncodified common-law defences (Art. 372; CPC Order VIII) | DONE — official Vohra Sadikbhai PDF 43636 opened (paras 22–26) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | DONE | DONE — uncodified common law (Art. 372; CPC Order XXXII; s.83/s.86 CPC) | DONE — official Chandrima Das PDF 16557 opened (paras 16–22) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
+| 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | DONE | DONE — legal personality; minors/unsound mind (CPC Order XXXII; Limitation Act ss.6–8) | DONE — official Achutrao Haribhau Khodwa PDF 15962 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 10 | Joint tortfeasors | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 11 | State / government liability | state-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -235,5 +235,19 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Evidentiary & liability standard: Affirmed that road accidents must be judged on broad probabilities without requiring proof beyond reasonable doubt, and applied *res ipsa loquitur* where a passenger bus collides with an overhanging milestone. Emphasised social justice orientation and prompt interim deposit of compensation.
 - Statutory & forum framework: Grounded in common-law principles (*qui facit per alium facit per se* and *respondeat superior*) enforceable via Section 9 CPC, with statutory insurance/claims tribunal mechanism under the Motor Vehicles Act 1988 (Sections 165–175) and residual limitation under Article 113 of the Limitation Act 1963.
 - Reconciled ledger mapping: Rows 7 & 8 mapped to existing inventory file `tort-capacity-state-liability.json`.
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+
+### Parties & Capacity in tort (Rows 7–8) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDFs:
+  1. `https://api.sci.gov.in/jonew/judis/15962.pdf`: *Achutrao Haribhau Khodwa & Ors. v. State of Maharashtra & Ors.*, (1996) 2 SCC 634, AIR 1996 SC 2377, JT 1996 (2) 624, 1996 SCALE (2) 328, decided 20/02/1996, B.N. Kirpal and S.P. Bharucha JJ.
+  2. `https://api.sci.gov.in/jonew/judis/16557.pdf`: *The Chairman, Railway Board & Ors. v. Mrs. Chandrima Das & Ors.*, (2000) 2 SCC 465, AIR 2000 SC 988, decided 28/01/2000, S. Saghir Ahmad and R.P. Sethi JJ.
+- Capacity of parties & representative standing:
+  - *Achutrao Haribhau Khodwa*: Confirmed that surviving legal representatives (husband and minor children) have full standing and capacity under tort/wrongful death principles (Fatal Accidents Act 1855) to sue the State and medical officers for fatal medical negligence. Minors sue through next friends pursuant to CPC Order XXXII Rule 1.
+  - *Chandrima Das*: Confirmed that foreign nationals (non-citizens) are 'persons' entitled to the fundamental right to life, dignity, and bodily integrity under Article 21, and have legal standing to receive tort compensation. Affirmed that a practicing advocate has public interest *locus standi* to institute a petition claiming compensation on behalf of an indigent victim of crime/tort against State instrumentalities.
+- State capacity & limits of sovereign immunity:
+  - Confirmed that running a civil hospital is a welfare activity and not an immune sovereign function; State held vicariously liable for doctors' negligence (*Achutrao Haribhau Khodwa*).
+  - Confirmed that running railways is a commercial undertaking where the State/Union is vicariously liable in damages for tortious acts of employees (*Chandrima Das*).
+- Statutory & procedural framework: Common law received under Article 372; procedural capacity under CPC (Order XXXII for minors and persons of unsound mind; Section 83 for alien enemies; Section 86 for foreign sovereigns); suspension of limitation during legal disability under Sections 6–8 of the Limitation Act 1963; State suability under Article 300.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
