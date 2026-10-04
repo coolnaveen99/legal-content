@@ -24,9 +24,9 @@
 | 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | DONE — threshold actionability maxims (Art. 372 / s.9 CPC) | DONE — official Subramanian Swamy PDF 44579 opened (para 63) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | DONE | DONE | DONE — maxims received under Art. 372 / actionable under s.9 CPC | DONE — official Subramanian Swamy (para 63) & Vohra Sadikbhai (para 22) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 6 | General defences | general-defences.json | DONE | DONE | DONE — uncodified common-law defences (Art. 372; CPC Order VIII) | DONE — official Vohra Sadikbhai PDF 43636 opened (paras 22–26) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 7 | Parties / who may sue or be sued | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 8 | Capacity in tort | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 10 | Joint tortfeasors | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 11 | State / government liability | state-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 12 | Negligence | negligence.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -226,5 +226,14 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Paras 22–26: Confirmed that general defences (such as Act of God or inevitable accident) do not absolve liability where antecedent or concurrent negligence of the defendant is established (e.g. failure to maintain safe reservoir levels or drainage channels; approving *Greenock Corporation*, 1917 and *S. Vedantacharya*, 1987).
 - Para 26: Confirmed that the burden of pleading and proving every ingredient of an inevitable accident or general defence lies squarely upon the defendant.
 - Maxims (*ubi jus ibi remedium*, *volenti non fit injuria*): Confirmed that Indian common-law tort liability and general defences operate under Article 372 and are pleadable as affirmative defences under CPC Order VIII.
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+
+### Vicarious liability (Row 9) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDF: `https://api.sci.gov.in/jonew/judis/4581.pdf`: *N. K. V. Bros (P) Ltd. v. M. Karumai Ammal & Ors.*, (1980) 3 SCC 457, 1980 AIR 1354, 1980 SCR (3) 101, decided 20/03/1980, V.R. Krishna Iyer and D.A. Desai JJ.
+- Holding & core propositions: Confirmed that an employer/master (transport bus operator) is vicariously liable in tort for the wrongful acts and culpable negligence of its employee/driver committed in the course of employment. Reaffirmed that criminal acquittal of the driver under Section 304A IPC does not preclude or bar civil tort liability or award of compensation before a Claims Tribunal.
+- Evidentiary & liability standard: Affirmed that road accidents must be judged on broad probabilities without requiring proof beyond reasonable doubt, and applied *res ipsa loquitur* where a passenger bus collides with an overhanging milestone. Emphasised social justice orientation and prompt interim deposit of compensation.
+- Statutory & forum framework: Grounded in common-law principles (*qui facit per alium facit per se* and *respondeat superior*) enforceable via Section 9 CPC, with statutory insurance/claims tribunal mechanism under the Motor Vehicles Act 1988 (Sections 165–175) and residual limitation under Article 113 of the Limitation Act 1963.
+- Reconciled ledger mapping: Rows 7 & 8 mapped to existing inventory file `tort-capacity-state-liability.json`.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
