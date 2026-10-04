@@ -22,8 +22,8 @@
 | 2 | Essential elements / constituents | nature-definition.json | DONE | DONE | DONE — injuria sine damno foundation verified (paras 63, 66) | DONE — official Subramanian Swamy PDF 44579 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 3 | Distinction from crime/contract | nature-definition.json | DONE | DONE | DONE — civil injury vs crime/contract confirmed (paras 76–80) | DONE — official Subramanian Swamy PDF 44579 opened (paras 76–80) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | DONE — threshold actionability maxims (Art. 372 / s.9 CPC) | DONE — official Subramanian Swamy PDF 44579 opened (para 63) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 6 | General defences | general-defences.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | DONE | DONE | DONE — maxims received under Art. 372 / actionable under s.9 CPC | DONE — official Subramanian Swamy (para 63) & Vohra Sadikbhai (para 22) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
+| 6 | General defences | general-defences.json | DONE | DONE | DONE — uncodified common-law defences (Art. 372; CPC Order VIII) | DONE — official Vohra Sadikbhai PDF 43636 opened (paras 22–26) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
 | 7 | Parties / who may sue or be sued | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 8 | Capacity in tort | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -216,5 +216,15 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Para 63 (p. 110): Confirmed express affirmation that the principles forming the foundation of the law of torts in India are that *injuria sine damno* is actionable but *damnum sine injuria* is not (approving Justice G.P. Singh, *Law of Torts*).
 - Actionability & remedies: *Injuria sine damno* applies to torts actionable per se (such as trespass, false imprisonment, libel, and wrongful denial of civil/constitutional rights as in *Bhim Singh v. State of J&K*, 1985); *damnum sine injuria* excludes tort liability for lawful trade competition (*Gloucester Grammar School*, *Mogul Steamship Co.*) and damage arising without violation of an existing legal right.
 - Statutory/forum framework: Uncodified common law received under Article 372; actionable under Section 9 CPC.
+- Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
+- Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+
+### Ubi jus ibi remedium & General defences (Rows 5–6) — verification checkpoint (2026-10-04)
+- Opened official Supreme Court judgment PDF: `https://api.sci.gov.in/jonew/judis/43636.pdf`: *Vohra Sadikbhai Rajakbhai & Ors. v. State of Gujarat & Ors.*, Civil Appeal No. 1866 of 2016, decided 10/05/2016, (2016) 12 SCC 1, AIR 2016 SC 2289, A.K. Sikri and R.K. Agrawal JJ.
+- Para 22: Confirmed definition and ingredients of Act of God (*vis major*) as an extraordinary, direct, violent, and irresistible operation of elementary natural forces unconnected with the agency of man, which could not reasonably have been anticipated or resisted by human care and skill.
+- Paras 22–26: Confirmed that general defences (such as Act of God or inevitable accident) do not absolve liability where antecedent or concurrent negligence of the defendant is established (e.g. failure to maintain safe reservoir levels or drainage channels; approving *Greenock Corporation*, 1917 and *S. Vedantacharya*, 1987).
+- Para 26: Confirmed that the burden of pleading and proving every ingredient of an inevitable accident or general defence lies squarely upon the defendant.
+- Maxims (*ubi jus ibi remedium*, *volenti non fit injuria*): Confirmed that Indian common-law tort liability and general defences operate under Article 372 and are pleadable as affirmative defences under CPC Order VIII.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.

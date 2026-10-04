@@ -66,29 +66,53 @@
         "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-04",
+        "verifiedBy": "Vohra Sadikbhai Rajakbhai official-PDF pass",
         "notes": [
-          "Topic reviewed for enhancement structure; tort law is not codified in one general statute.",
-          "No case added to active case-law fields because the specific judgment page was not opened.",
-          "Verification page: https://www.sci.gov.in/judgements-case-no/",
-          "Official Supreme Court judgment opened and exact proposition checked: Vohra Sadikbhai Rajakbhai v. State of Gujarat."
+          "Opened official Supreme Court PDF https://api.sci.gov.in/jonew/judis/43636.pdf: Vohra Sadikbhai Rajakbhai & Ors. v. State of Gujarat & Ors., Civil Appeal No. 1866 of 2016, judgment 10/05/2016, (2016) 12 SCC 1, AIR 2016 SC 2289, A.K. Sikri & R.K. Agrawal JJ.",
+          "Confirmed para 22: definition and ingredients of Act of God (vis major) as an extraordinary, violent, and irresistible operation of natural forces unconnected with human agency that could not be reasonably anticipated or resisted by human care and skill.",
+          "Confirmed paras 22–26: relationship between Act of God and negligence; natural forces do not absolve liability where antecedent or concurrent negligence is established (citing Greenock Corporation and S. Vedantacharya, 1987).",
+          "Confirmed para 26: onus of proving inevitable accident and general defences lies squarely on the defendant.",
+          "Common-law and statutory framework check: General defences in Indian tort law (volenti non fit injuria, inevitable accident, act of God, statutory authority, private defence, necessity) operate under uncodified common law received under Article 372 and pleadable in civil defense under the CPC.",
+          "Not COMPLETE_LOCKED: remaining Torts topics in ledger remain OPEN."
         ]
       },
       "distinctions": [
         {
           "id": "general-defences-dist-1",
           "title": "Volenti is based on informed consent to risk; contributory negligence concerns the claimant's failure to take reasonable care and generally affects damages.",
-          "left": "Volenti is based on informed consent to risk; contributory negligence concerns the claimant's failure to take reasonable care and generally affects damages.",
-          "right": "Apply the stated distinction to the facts.",
-          "rows": []
+          "left": "Volenti non fit injuria: complete defense barring claim; requires free consent and knowledge of full risk (sciens et volens).",
+          "right": "Contributory negligence: partial defense reducing quantum; requires failure by claimant to take reasonable care for own safety.",
+          "rows": [
+            {
+              "basis": "Effect on liability",
+              "left": "Complete defense barring recovery entirely",
+              "right": "Apportionment / reduction of damages"
+            },
+            {
+              "basis": "Mental requirement",
+              "left": "Voluntary agreement to run the specific legal risk",
+              "right": "Carelessness or failure to exercise ordinary care"
+            }
+          ]
         },
         {
           "id": "general-defences-dist-2",
           "title": "Inevitable accident concerns an event not preventable by reasonable care; Act of God is confined to extraordinary natural forces.",
-          "left": "Inevitable accident concerns an event not preventable by reasonable care; Act of God is confined to extraordinary natural forces.",
-          "right": "Apply the stated distinction to the facts.",
-          "rows": []
+          "left": "Inevitable accident: physically unavoidable accident despite exercise of ordinary caution and skill; may involve human or mechanical agency.",
+          "right": "Act of God (vis major): direct, violent and irresistible operation of elementary natural forces unconnected with human agency.",
+          "rows": [
+            {
+              "basis": "Originating cause",
+              "left": "May arise from human conduct, mechanical failure or agency",
+              "right": "Exclusively elementary natural forces without human intervention"
+            },
+            {
+              "basis": "Standard of inevitability",
+              "left": "Not preventable by ordinary care, caution and skill",
+              "right": "Extraordinary natural event that could not be reasonably anticipated"
+            }
+          ]
         }
       ],
       "examAnswerStructure": "Introduction → classify defences → ingredients of each → apply to facts → distinguish complete/partial defences → conclusion.",
@@ -96,10 +120,11 @@
         {
           "name": "Vohra Sadikbhai Rajakbhai v. State of Gujarat",
           "year": 2016,
-          "citation": "Civil Appeal No. 1866 of 2016",
-          "holding": "The Supreme Court examined the defence of Act of God in a tort claim arising from release of dam water and held that natural forces do not automatically excuse negligence; reasonable care remains relevant.",
-          "relevance": "Direct authority for the Act of God defence and its limits.",
-          "sourceUrl": "https://api.sci.gov.in/jonew/judis/43636.pdf"
+          "citation": "(2016) 12 SCC 1; AIR 2016 SC 2289; 2016 (5) SCALE 176; CA 1866 of 2016",
+          "holding": "Judgment dated 10/05/2016. The Supreme Court comprehensively expounded the general defence of Act of God (vis major) in tort law, defining it as an extraordinary, direct, violent and irresistible act of nature which could not reasonably be anticipated or resisted by human skill. The Court held that the defence does not absolve the defendant from tort liability where antecedent or concurrent negligence exists (such as failing to maintain safe water levels in a dam prior to monsoon rains). The burden of proving an inevitable accident or Act of God rests strictly on the defendant.",
+          "relevance": "Direct authoritative Supreme Court exposition on the ingredients, limits, and burden of proof for the general defence of Act of God (vis major) and inevitable accident in Indian tort law.",
+          "sourceUrl": "https://api.sci.gov.in/jonew/judis/43636.pdf",
+          "verificationStatus": "opened-official-pdf"
         }
       ]
     },
