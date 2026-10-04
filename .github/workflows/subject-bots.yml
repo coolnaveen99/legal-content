@@ -36,6 +36,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+          token: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -129,7 +130,7 @@ jobs:
       - name: Open or update PR
         if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
         run: |
           EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --state open --json number --jq '.[0].number // empty')
           if [ -z "$EXISTING" ]; then
@@ -140,7 +141,7 @@ jobs:
       - name: Merge completed subject and continue
         if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
           REMAINING: ${{ steps.enhance.outputs.remaining }}
           SUBJECT: ${{ steps.subject.outputs.subject }}
         run: |
