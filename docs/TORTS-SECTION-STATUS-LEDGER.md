@@ -1,7 +1,7 @@
 # Torts Section-Level Status Ledger
 
-**Date:** 2026-10-03  
-**Status:** LIVE — SCOPE FROZEN / GAP TOPICS CREATED / VERIFICATION PENDING  
+**Date:** 2026-10-05  
+**Status:** LIVE — SCOPE FROZEN / ALL TOPICS MAPPED / ENHANCEMENT SCAFFOLD COMPLETE / VERIFICATION PENDING  
 **Standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`  
 **Subject inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`
 
@@ -32,13 +32,13 @@
 | 12 | Negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 13 | Res ipsa loquitur | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 14 | Contributory negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
-| 15 | Nervous shock | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 16 | Remoteness of damage | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 17 | Nuisance | nuisance.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 18 | Trespass to person | trespass-person.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 20 | Trespass to goods | trespass-property.json / trespass.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 21 | Trespass ab initio | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 20 | Trespass to goods | trespass-property.json / tort-conversion-detinue.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 21 | Trespass ab initio | tort-trespass-ab-initio.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
@@ -48,17 +48,17 @@
 | 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 29 | Extra-judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 30 | Malicious prosecution | malicious-prosecution.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 31 | Abuse of legal procedure/process | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 32 | Deceit / fraud | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 33 | Occupier / dangerous premises | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 34 | Dangerous chattels / product liability interface | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 35 | Liability for animals | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 36 | Statutory liability | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 37 | Motor Vehicles Act interface | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 38 | Consumer Protection Act interface | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 31 | Abuse of legal procedure/process | tort-abuse-of-process.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 32 | Deceit / fraud | tort-deceit-misstatement.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 33 | Occupier / dangerous premises | tort-occupiers-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 34 | Dangerous chattels / product liability interface | consumer.json / tort-occupiers-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 35 | Liability for animals | tort-scienter-action.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 36 | Statutory liability | tort-statutory-liability.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 37 | Motor Vehicles Act interface | mact-claims.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 38 | Consumer Protection Act interface | consumer.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 39 | Constitutional/public-law tort | state-liability.json + Constitution | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 40 | Environmental/public liability applications | absolute-liability.json + Environmental Law | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 41 | Extinguishment/discharge of tortious liability | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 41 | Extinguishment/discharge of tortious liability | tort-discharge.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 
 ## Immediate execution queue
 
@@ -69,14 +69,14 @@
 5. [x] Complete row-level mapping and create the four genuine first-order gap topic files.
 6. [x] Run structural content-quality validation on the four newly created gap files.
 7. [x] Run the enhancement-depth audit across all 38 pre-existing files; 26 migrated files required and received additive exam-depth scaffolds, while 12 historical canonical files already had the newer scaffold.
-6. [ ] Inspect existing enhancement fields before changing any existing topic.
-7. [ ] Complete only missing enhancement gates.
-8. [ ] Complete statutory/current-law verification where applicable.
-9. [ ] Complete case-law verification.
-10. [ ] Run legal/content validation.
-11. [ ] Run product integration validation.
-12. [ ] Run production validation.
-13. [ ] Lock only after all applicable rows are complete.
+8. [x] Inspect existing enhancement fields before changing any existing topic.
+9. [x] Complete only missing enhancement gates; all 42 repository topics now have enhancement-depth scaffolding.
+10. [ ] Complete statutory/current-law verification where applicable.
+11. [ ] Complete case-law verification.
+12. [ ] Run legal/content validation.
+13. [ ] Run product integration validation.
+14. [ ] Run production validation.
+15. [ ] Lock only after all applicable rows are complete.
 
 ## Current measured position
 
@@ -88,6 +88,14 @@
 - Additional curriculum-control rows identified: **32**
 - Topics currently safe to call fully complete: **0**
 - Reason: subject-wide inventory and all completion gates have not yet been closed.
+
+## Pending-task update — 2026-10-05
+
+- Repository mapping is now complete for all 41 control rows; stale `MISSING` entries were reconciled to existing canonical topic files.
+- Enhancement-depth inspection is complete for all 42 repository topics, supported by the ENH-008 batch report.
+- Schema and manifest validation passed; manifest validation still reports 4,651 pre-existing SHA-256 mismatch warnings.
+- Next executable task: begin row-level statutory/current-law and case-law verification, starting with topics whose mappings are now complete.
+- Legal/content validation, product integration, production validation and final locking remain pending.
 
 ## Reopening rule
 
