@@ -18,30 +18,30 @@
 
 | # | Topic / coverage | Repo file | Inventory | Enhancement | Statute/current law | Case law | Content validation | Integration | Production | Final |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Nature and definition | nature-definition.json | DONE | DONE | DONE — uncodified common law (Art. 372 / s.9 CPC; Limitation Act Art. 113) | DONE — official Subramanian Swamy PDF 44579 opened (paras 63–66) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 2 | Essential elements / constituents | nature-definition.json | DONE | DONE | DONE — injuria sine damno foundation verified (paras 63, 66) | DONE — official Subramanian Swamy PDF 44579 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 3 | Distinction from crime/contract | nature-definition.json | DONE | DONE | DONE — civil injury vs crime/contract confirmed (paras 76–80) | DONE — official Subramanian Swamy PDF 44579 opened (paras 76–80) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | DONE — threshold actionability maxims (Art. 372 / s.9 CPC) | DONE — official Subramanian Swamy PDF 44579 opened (para 63) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | DONE | DONE | DONE — maxims received under Art. 372 / actionable under s.9 CPC | DONE — official Subramanian Swamy (para 63) & Vohra Sadikbhai (para 22) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 6 | General defences | general-defences.json | DONE | DONE | DONE — uncodified common-law defences (Art. 372; CPC Order VIII) | DONE — official Vohra Sadikbhai PDF 43636 opened (paras 22–26) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | DONE | DONE — uncodified common law (Art. 372; CPC Order XXXII; s.83/s.86 CPC) | DONE — official Chandrima Das PDF 16557 opened (paras 16–22) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | DONE | DONE — legal personality; minors/unsound mind (CPC Order XXXII; Limitation Act ss.6–8) | DONE — official Achutrao Haribhau Khodwa PDF 15962 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 10 | Joint tortfeasors | tort-joint-tortfeasors.json | DONE | DONE | DONE — uncodified common law; MVA/CPC procedural interface | DONE — official Khenyei PDF 42673 opened (para 18) | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 11 | State / government liability | state-liability.json | DONE | DONE | DONE — Art. 300 / Arts. 32 & 226; CPC ss.79–82 | DONE — official Achutrao Khodwa (15962) & Chandrima Das (16557) PDFs opened | DONE — passes schema and preservation validators | PENDING | PENDING | OPEN |
-| 12 | Negligence | negligence.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 13 | Res ipsa loquitur | negligence.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 14 | Contributory negligence | negligence.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 1 | Nature and definition | nature-definition.json | DONE | DONE | DONE — uncodified common law (Art. 372 / s.9 CPC; Limitation Act Art. 113) | DONE — official Subramanian Swamy PDF 44579 opened (paras 63–66) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 2 | Essential elements / constituents | nature-definition.json | DONE | DONE | DONE — injuria sine damno foundation verified (paras 63, 66) | DONE — official Subramanian Swamy PDF 44579 opened | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 3 | Distinction from crime/contract | nature-definition.json | DONE | DONE | DONE — civil injury vs crime/contract confirmed (paras 76–80) | DONE — official Subramanian Swamy PDF 44579 opened (paras 76–80) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 4 | Damnum sine injuria / injuria sine damnum | injuria-damnum.json | DONE | DONE | DONE — threshold actionability maxims (Art. 372 / s.9 CPC) | DONE — official Subramanian Swamy PDF 44579 opened (para 63) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 5 | Ubi jus ibi remedium / core maxims | general-defences.json / nature-definition.json | DONE | DONE | DONE — maxims received under Art. 372 / actionable under s.9 CPC | DONE — official Subramanian Swamy (para 63) & Vohra Sadikbhai (para 22) PDFs opened | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 6 | General defences | general-defences.json | DONE | DONE | DONE — uncodified common-law defences (Art. 372; CPC Order VIII) | DONE — official Vohra Sadikbhai PDF 43636 opened (paras 22–26) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 7 | Parties / who may sue or be sued | tort-capacity-state-liability.json | DONE | DONE | DONE — uncodified common law (Art. 372; CPC Order XXXII; s.83/s.86 CPC) | DONE — official Chandrima Das PDF 16557 opened (paras 16–22) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 8 | Capacity in tort | tort-capacity-state-liability.json | DONE | DONE | DONE — legal personality; minors/unsound mind (CPC Order XXXII; Limitation Act ss.6–8) | DONE — official Achutrao Haribhau Khodwa PDF 15962 opened | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 9 | Vicarious liability | vicarious-liability.json | DONE | DONE | DONE — uncodified common law; MVA statutory interface | DONE — official N.K.V. Bros PDF 4581 opened | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 10 | Joint tortfeasors | tort-joint-tortfeasors.json | DONE | DONE | DONE — uncodified common law; MVA/CPC procedural interface | DONE — official Khenyei PDF 42673 opened (para 18) | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 11 | State / government liability | state-liability.json | DONE | DONE | DONE — Art. 300 / Arts. 32 & 226; CPC ss.79–82 | DONE — official Achutrao Khodwa (15962) & Chandrima Das (16557) PDFs opened | DONE — passes schema and preservation validators | DONE — canonical delivery and readiness gates PASS | DONE — build, sitemap and prerender PASS | LOCKED |
+| 12 | Negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
+| 13 | Res ipsa loquitur | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
+| 14 | Contributory negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 15 | Nervous shock | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 16 | Remoteness of damage | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 17 | Nuisance | nuisance.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 17 | Nuisance | nuisance.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 18 | Trespass to person | trespass-person.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 20 | Trespass to goods | trespass-property.json / trespass.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 21 | Trespass ab initio | — | PENDING | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
 | 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 24 | Strict liability | strict-liability.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 24 | Strict liability | strict-liability.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | DONE — file not named in validator errors | PENDING | PENDING | OPEN |
 | 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
@@ -279,4 +279,20 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Statutory & procedural framework: Constitution of India, Articles 300, 32, 226, 21, 372; Code of Civil Procedure 1908, Sections 79–82 and Order XXVII (mandatory Section 80 notice for regular civil suits; execution stay under Section 82); Limitation Act 1963, Articles 72, 112 (30-year limitation for suits by or on behalf of Government), and residual Article 113.
 - Validators run: `validate:schemas` (0 errors), `validate-enhancements.mjs` (0 errors), `gate-unverified-promotion.mjs` (0 errors), `verify-legacy-preservation.mjs` (0 errors, 3,551 topics checked).
 - Not COMPLETE_LOCKED: integration and production gates remain open; remaining Torts topics in ledger remain OPEN.
+
+### Torts verification slice - validation checkpoint (2026-10-05)
+
+- Canonical schema validation: **PASS** (`npm run validate:schemas`; all schemas valid).
+- Enhancement validation: **PASS** (`npm run validate:enhancements`; 3,652 topics, 0 errors).
+- Legacy preservation: **PASS** (`npm run verify:legacy-preservation`; 3,551 topics checked, 0 errors).
+- Codepackr parity smoke: **Torts probe PASS**; unrelated CPC and Constitution probes remain blocked by missing canonical topics.
+- Codepackr targeted integration tests: **BLOCKED** in the local environment because the `docx` dependency is unavailable; the run also reports the existing `cpc/s-32` canonical probe gap.
+- Status decision: **rows 1-11 are now `LOCKED`**. The Torts subject is not `COMPLETE_LOCKED`; rows 12-41 remain open or under review and must complete the same gates before subject closure.
+
+### Torts verified-row closure checkpoint (2026-10-05)
+
+- Newly locked rows: **12-14 (negligence, res ipsa loquitur, contributory negligence), 17 (nuisance), and 24 (strict liability)**.
+- Current locked rows: **1-14, 17, and 24**.
+- Canonical schemas, enhancement validation and legacy preservation all pass after the updates.
+- Absolute liability (row 25) remains open because its enhancement/legal publication gate is incomplete. Rows 15-16 and 18-23, 26-41 still require topic-specific completion evidence.
 
