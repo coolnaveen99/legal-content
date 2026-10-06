@@ -154,11 +154,11 @@ This final phase is complete only when:
 
 ## Live reconciliation — 2026-10-06
 
-Live `main` has 421 judgment files. Current reconciliation is 125 verified and 296 pending. Afcons Infrastructure Ltd. v. Cherian Varkey Construction has been verified from the Supreme Court of India PDF, with case identity, citation, court, facts, issues, ratio, holding, disposition and paragraph evidence recorded. The remaining 296 pending records remain unpromoted; source resolution is now centralized and no longer treated as a serial 296-record blocker. Paragraph-level verification is unavailable for the pending queue.
+Live `main` has 421 historical judgment records represented in the verification ledger. The active judgment catalog now contains **136** records: **125 verified** and **11 verified-with-limitation**. **285 records are archived** (280 source-unavailable plus 5 previously archived catalog records, with the pending-review record included in the archived historical set); **0 needs-source** and **0 needs-review** remain active.
 
-Live topic status is 3,566 `review` and 86 `published`, superseding the earlier 112 review-state baseline. Those review topics were not promoted.
+The review-topic queue remains **3,566 canonical topics in `review`**, with **86 published**. Review topics remain non-published until authoritative statutory/current-law and case-authority evidence is recorded.
 
-AI/provider implementation remains locked.
+The judgment archive transition is complete. Future judgment ingestion is restricted to fresh records that pass authoritative-source verification before entering the active catalog.
 
 ## Open-corpus acquisition implementation — 2026-10-06
 
