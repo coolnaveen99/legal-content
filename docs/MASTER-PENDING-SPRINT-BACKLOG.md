@@ -104,7 +104,7 @@
 
 ## 5. Sprint 3 — Legal verification and publishing readiness
 
-- [ ] **VER-001** Verify statutory text against authoritative current sources. Started: `docs/VER-001-STATUTORY-SOURCE-MAP.md` and `docs/VER-001-SPOT-CHECK.md`. BNS s.1 subsections (1)–(4) matched India Code. No topic marked verified.
+- [ ] **VER-001** Verify statutory text against authoritative current sources. **PARTIAL — Contract is now the first in-scope execution subject:** `docs/VER-001-CONTRACT-INVENTORY-2026-10-06.md` establishes all 60 Contract JSON topics against the India Code Indian Contract Act, 1872 source anchor. No Contract topic is marked verified from the inventory alone. Continue section-by-section verification starting with ICA §§1–9.
 - [ ] **VER-002** Verify amendment/current-law status where applicable.
 - [ ] **VER-003** Verify case names, citations and courts.
 - [ ] **VER-004** Verify case principles/ratio against authoritative judgments.
