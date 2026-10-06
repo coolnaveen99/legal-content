@@ -41,8 +41,8 @@ Torts lock was not advanced. Rows 15–16 and 18–41 remain `OPEN`. Nervous sho
 | 12 | Negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 13 | Res ipsa loquitur | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 14 | Contributory negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
-| 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | PENDING | REVIEW — McLoughlin [1983] 1 AC 410 and Alcock [1992] 1 AC 310 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
-| 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | PENDING | REVIEW — Wagon Mound No 1 [1961] AC 388 and Hughes [1963] AC 837 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
+| 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | DONE — Indian primary-source boundary verified | DONE — Indian Supreme Court compensation principle verified via R.D. Hattangadi line of authority; McLoughlin/Alcock retained as comparative authorities | DONE — verification metadata added | PENDING — canonical integration gate to rerun | PENDING — production build/readiness gate to rerun | OPEN |
+| 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | DONE — Indian primary-source boundary verified | DONE — Rajkot Municipal Corporation v. Manjulben Jayantilal Nakum line of authority verified from official Supreme Court judgment; Wagon Mound/Hughes retained as comparative authorities | DONE — verification metadata added | PENDING — canonical integration gate to rerun | PENDING — production build/readiness gate to rerun | OPEN |
 | 17 | Nuisance | nuisance.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 18 | Trespass to person | trespass-person.json | DONE | DONE | DONE — current-law label taken from the existing file; no new statute added | DONE — citations already in the file retained; no new case added | DONE — enhancement validator 0 errors | N/A — UI end-to-end paused | N/A — production build not rerun while Vercel is down | LOCKED |
 | 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | DONE | DONE — current-law label taken from the existing file; no new statute added | DONE — citations already in the file retained; no new case added | DONE — enhancement validator 0 errors | N/A — UI end-to-end paused | N/A — production build not rerun while Vercel is down | LOCKED |
@@ -80,12 +80,12 @@ Torts lock was not advanced. Rows 15–16 and 18–41 remain `OPEN`. Nervous sho
 7. [x] Run the enhancement-depth audit across all 38 pre-existing files; 26 migrated files required and received additive exam-depth scaffolds, while 12 historical canonical files already had the newer scaffold.
 8. [x] Inspect existing enhancement fields before changing any existing topic.
 9. [x] Complete only missing enhancement gates; all 42 repository topics now have enhancement-depth scaffolding.
-10. [ ] Complete statutory/current-law verification where applicable.
-11. [ ] Complete case-law verification.
-12. [ ] Run legal/content validation.
-13. [ ] Run product integration validation.
-14. [ ] Run production validation.
-15. [ ] Lock only after all applicable rows are complete.
+10. [x] Complete statutory/current-law verification where applicable for remaining open rows.
+11. [x] Complete case-law verification using Indian primary-source authorities; comparative foreign authorities are explicitly labelled comparative.
+12. [ ] Run legal/content validation on the final verification commit.
+13. [ ] Run product integration validation on the final verification commit.
+14. [ ] Run production validation on the final verification commit.
+15. [ ] Lock only after all applicable rows and final gates are complete.
 
 ## Current measured position
 
@@ -335,3 +335,10 @@ Rows 18-41 still use `source:india:india-common-law-torts` as the recorded sourc
 
 Rows 18-23 and 25-41 are LOCKED for content. The lock uses the existing enhanced files, the citations already printed in those files, and the enhancement validation that passed with 0 errors. No enhanced text was replaced and no new case or statute was added. Integration and production are N/A for this lock because the UI end-to-end run is paused and the production build was not rerun. Reopen a row if an official judgment PDF contradicts a citation already in the file.
 
+
+
+## Torts final verification update — 2026-10-06
+
+Rows 15–16 received Indian primary-source verification. Nervous shock now records the Indian Supreme Court compensation principle on mental/physical shock through the R.D. Hattangadi line of authority; McLoughlin and Alcock remain explicitly comparative. Remoteness now records the Indian Supreme Court treatment of remoteness in Rajkot Municipal Corporation v. Manjulben Jayantilal Nakum; Wagon Mound and Hughes remain explicitly comparative. No legacy text was replaced.
+
+**Remaining gates:** run canonical content validation, application integration validation, production build/readiness validation, then lock rows 15–16 and mark the Torts subject COMPLETE_LOCKED only if all gates pass.
