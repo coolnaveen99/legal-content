@@ -175,7 +175,7 @@ Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PU
 
 ### Final verification queue
 
-- [ ] **FV-001** Re-audit the live judgment-verification inventory against current `legal-content/main`. The earlier readiness baseline contains **297 pending judgment-verification records**; this count must be reconciled before final closure.
+- [ ] **FV-001** Re-audit the live judgment-verification inventory against current `legal-content/main`. The earlier readiness baseline contained **297 pending judgment-verification records**; current live state is **296 pending / 125 verified** after Afcons verification.
 - [ ] **FV-002** Verify the pending judgment records using the open-corpus acquisition layer first (Open India Law / AWS Open Data), then retain authoritative publisher provenance and inspectable judgment evidence.
 - [ ] **FV-003** Verify judgment identity, citation, court, date, holding, ratio and material propositions.
 - [ ] **FV-004** Record source/paragraph/page evidence only where actually inspected; never fabricate references.
@@ -233,7 +233,7 @@ An item can be marked **COMPLETED** only when:
 ## 12. Current execution pointer
 
 **Current batch:** Final Authoritative Legal Verification & Publication Readiness.
-**Judgment verification baseline:** 297 pending records from the earlier readiness audit; FV-001 requires reconciliation against current `legal-content/main` before treating 297 as the exact live count.
+**Judgment verification queue:** 296 pending records / 125 verified on current `legal-content/main`; FV-002/FV-003/FV-004 remain active for the pending queue.
 **Review-state publication baseline:** 3,566 migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is COMPLETE_LOCKED; other enhanced batches remain subject to final verification/publication gates.
 **Current control item:** Final authoritative legal verification and publication readiness. Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
