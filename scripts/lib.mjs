@@ -58,7 +58,7 @@ export function walkJsonFiles(dir, acc = []) {
     if (name === 'README.md' || name.startsWith('.')) continue
     const full = join(dir, name)
     const st = statSync(full)
-    if (st.isDirectory()) walkJsonFiles(full, acc)
+    if (st.isDirectory() && name !== "archive") walkJsonFiles(full, acc)
     else if (name.endsWith('.json')) acc.push(full)
   }
   return acc
