@@ -1,6 +1,6 @@
 # Master Pending Sprint Backlog & Execution Checklist
 
-**Date:** 2026-10-03  
+**Date:** 2026-10-06  
 **Applies to:** `coolnaveen99/codepackr-law` + `coolnaveen99/legal-content`  
 **Execution rule:** one backlog item at a time; direct commit to `main`; validate before marking complete.
 
@@ -38,7 +38,7 @@
 - [x] **S0-011** Establish legacy preservation validator.
 - [x] **S0-012** Prevent normal CI from overwriting enhancements with legacy content.
 - [x] **S0-013** Establish enhancement schema and validation contract.
-- [ ] **S0-014** Add a documented recovery drill for restoring a damaged topic and reapplying its enhancement.
+- [x] **S0-014** Add a documented recovery drill for restoring a damaged topic and reapplying its enhancement. `scripts/migrate-legacy-topics.mjs` now preserves existing canonical topics by default; destructive restore requires `ALLOW_DESTRUCTIVE_LEGACY_RESTORE=1` and is exposed only by the explicit manual recovery workflow.
 - [x] **S0-015** Run a full baseline/preservation audit before large-scale enhancement begins. Evidence: `docs/CONTENT-PRESERVATION-AUDIT-2026-10-06.md`; 3,551 real migrated topics preserved; canonical baseline protection reports 3,648 compared / 0 shortened.
 
 ## 3. Sprint 1 — Enhancement framework hardening
