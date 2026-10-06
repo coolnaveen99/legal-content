@@ -117,6 +117,9 @@ jobs:
       - name: Report full-catalog enhancement progress
         run: node scripts/report-enhancement-progress.mjs
 
+      - name: Final manifest refresh after all content mutations
+        run: node scripts/refresh-manifest.mjs
+
       - name: Validate schemas, entities, relationships, manifest
         run: node scripts/validate.mjs --graph-report
 
