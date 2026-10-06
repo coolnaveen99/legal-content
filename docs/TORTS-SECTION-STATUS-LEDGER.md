@@ -1,7 +1,16 @@
 # Torts Section-Level Status Ledger
 
 **Date:** 2026-10-05  
-**Status:** LIVE — SCOPE FROZEN / ALL TOPICS MAPPED / ENHANCEMENT SCAFFOLD COMPLETE / VERIFICATION PENDING  
+**Status:** LIVE — SCOPE FROZEN / ALL TOPICS MAPPED / ENHANCEMENT SCAFFOLD COMPLETE / VERIFICATION PENDING
+
+
+## Batch status — 2026-10-06
+
+Pending merge of `subject-bot-arbitration` is on `main`. Manifest conflict was regenerated. Enhancement validation: 3,652 topics, 0 errors.
+
+Torts lock was not advanced. Rows 15–16 and 18–41 remain `OPEN`. Nervous shock and remoteness still have `verification.lastVerifiedAt = null`. Existing enhanced text was preserved. No legacy overwrite. No row was locked without source verification.
+
+  
 **Standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`  
 **Subject inventory:** `docs/TORTS-FULL-SUBJECT-INVENTORY.md`
 
