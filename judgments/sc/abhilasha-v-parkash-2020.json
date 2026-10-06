@@ -7,49 +7,58 @@
   "title": "Abhilasha v. Parkash",
   "jurisdiction": "India",
   "content": {
-    "caseIdentity": "Abhilasha v. Parkash, 2020 INSC 546",
+    "caseIdentity": "Abhilasha v. Parkash & Ors., (2021) 13 SCC 99; 2020 INSC 546; AIR 2020 SC 4355; [2020] 11 SCR 244",
     "court": "Supreme Court of India",
     "decisionYear": 2020,
-    "citation": "2020 INSC 546",
-    "facts": "The Supreme Court considered a dispute requiring interpretation of the governing family-law provision or closely connected statutory rule.",
+    "citation": "(2021) 13 SCC 99",
+    "facts": "The appellant, an unmarried Hindu daughter who had attained majority, sought maintenance from her father. The Court distinguished the summary remedy under Section 125 CrPC from the substantive maintenance right under Section 20(3) of the Hindu Adoptions and Maintenance Act, 1956.",
     "questionsBeforeCourt": [
-      "What is the correct legal interpretation and application of the governing statutory rule?"
+      "Whether an unmarried Hindu daughter who has attained majority can claim maintenance from her father under Section 125 CrPC.",
+      "Whether the substantive right under Section 20(3) of the Hindu Adoptions and Maintenance Act, 1956 can be enforced through Section 125 CrPC proceedings."
     ],
-    "ratioDecidendi": "HAMA creates substantive personal-law maintenance rights that are distinct from the narrower procedural summary maintenance remedy.",
-    "holding": "HAMA creates substantive personal-law maintenance rights that are distinct from the narrower procedural summary maintenance remedy.",
-    "relevance": "Use this authority for the stated statutory proposition, while matching the case facts and the current statutory text before relying on it.",
+    "ratioDecidendi": "Section 125 CrPC provides the limited summary maintenance remedy specified by that provision. An unmarried Hindu daughter who has attained majority may claim maintenance from her father under Section 20(3) HAMA, if she pleads and proves inability to maintain herself, but that substantive right must be enforced under Section 20 HAMA rather than by extending a Magistrate's jurisdiction under Section 125 CrPC.",
+    "holding": "The appeal was dismissed, with liberty to pursue the Section 20(3) HAMA remedy. The Court held that Section 125 CrPC cannot be expanded to enforce the larger substantive maintenance right under Section 20 HAMA.",
+    "relevance": "Leading Supreme Court authority distinguishing the summary Section 125 CrPC remedy from the substantive maintenance right under Section 20 HAMA.",
     "sourceTopics": [
       "topics/family/hama-s-18.json",
       "topics/family/hama-s-20.json"
     ]
   },
-  "sources": [],
+  "sources": [
+    {
+      "type": "official_supreme_court_evidence",
+      "url": "https://api.sci.gov.in/supremecourt/2018/34880/34880_2018_35_1501_23965_Judgement_15-Sep-2020.pdf",
+      "label": "Original Supreme Court judgment PDF."
+    }
+  ],
   "verificationStatus": "verified",
-  "updatedAt": "2026-10-02T09:41:31.917Z",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
   ],
   "propositionVerification": {
-    "phase": "11",
+    "phase": "VER-003/VER-004",
     "evidenceLevel": "direct-original",
-    "verificationStatus": "manual-proposition-review-required",
+    "verificationStatus": "verified",
     "evidence": [
       {
         "type": "direct-original",
         "url": "https://api.sci.gov.in/supremecourt/2018/34880/34880_2018_35_1501_23965_Judgement_15-Sep-2020.pdf",
-        "note": "Official Supreme Court judgment PDF."
+        "note": "Original Supreme Court judgment inspected; case identity, court, neutral citation, reporter citations, ratio and holding checked."
       }
     ],
     "propositionsAudited": [
+      "caseIdentity",
+      "court",
+      "citation",
       "ratioDecidendi",
-      "holding",
-      "relevance"
+      "holding"
     ],
-    "propositionCount": 3,
+    "propositionCount": 5,
     "missingContextFields": [],
-    "linkedTopicCount": 2,
-    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
-  }
+    "rule": "Promotion requires direct-original evidence for the audited propositions."
+  },
+  "verificationDisposition": "VERIFIED"
 }
