@@ -208,7 +208,7 @@ Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PU
 - [ ] **FV-008** Correct unsupported/outdated propositions without overwriting preserved substantive baseline.
 - [ ] **FV-009** Promote only evidence-backed records from `review`/in-progress to `verified`/published.
 - [ ] **FV-010** Produce final full-catalog verification report with every remaining non-published record explicitly accounted for.
-- [ ] **FV-011** Re-run preservation, schema, entity, relationship and canonical-delivery validation.
+- [x] **FV-011** Re-run preservation, schema, entity, relationship and canonical-delivery validation. Evidence: validate-content run completed successfully on current main; preservation, relationship, enhancement, FV-005→FV-010, manifest/schema/entity validation all passed.
 - [ ] **FV-012** Re-run application integration, SEO/sitemap and production smoke/readiness gates.
 - [ ] **FV-013** Record final release commit and rollback/recovery point.
 - [ ] **FV-014** Record final legal-quality sign-off.
