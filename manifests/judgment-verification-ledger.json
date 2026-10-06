@@ -1,16 +1,15 @@
 {
   "schemaVersion": "v1",
-  "generatedAt": "2026-10-06T06:52:11Z",
+  "generatedAt": "2026-10-06T06:55:17Z",
   "repository": "coolnaveen99/legal-content",
   "branch": "main",
   "baselinePending": 297,
   "summary": {
     "total": 421,
     "verified": 124,
-    "needs-source": 297,
-    "corrected": 0,
-    "conflicting-authority": 0,
-    "duplicateNameRecords": 2
+    "needs-source": 296,
+    "needs-review": 1,
+    "corrected": 0
   },
   "records": [
     {
@@ -390,18 +389,18 @@
     {
       "judgmentId": "judgment:india:anuradha-bhasin-v-union-of-india-2020",
       "caseName": "Anuradha Bhasin v. Union of India",
-      "court": null,
-      "date": 2020,
+      "court": "Supreme Court of India",
+      "date": "2020-01-10",
       "citation": "(2020) 3 SCC 637",
       "topic": "topics/constitution/art-19.json",
-      "sourceUrl": null,
-      "sourceType": "not-inspected",
-      "verificationStatus": "needs-source",
+      "sourceUrl": "https://api.sci.gov.in/supremecourt/2019/28817/28817_2019_2_1501_19350_Order_10-Jan-2020.pdf",
+      "sourceType": "Supreme Court of India record of proceedings",
+      "verificationStatus": "needs-review",
       "currentLawStatus": "needs-review",
-      "decoderStatus": "existing-file-retained",
-      "laterTreatment": "not-assessed-in-this-pass",
+      "decoderStatus": "identity-only",
+      "laterTreatment": "later miscellaneous application in W.P.(C) 1031/2019 was not decided by the order inspected",
       "verificationDate": "2026-10-06",
-      "notes": "Official judgment text was not opened in this pass. Existing enhanced file preserved. Paragraph-level verification unavailable.",
+      "notes": "Official order inspected. W.P.(C) 1031/2019, Anuradha Bhasin v Union of India, pronounced 10 January 2020 by N.V. Ramana, R. Subhash Reddy and B.R. Gavai. The order says the petitions were disposed in terms of the signed reportable judgment, which is not in this PDF. Paragraph-level verification of the ratio is unavailable. Citation (2020) 3 SCC 637 was not re-proved from this order.",
       "duplicateName": false
     },
     {
