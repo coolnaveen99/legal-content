@@ -78,3 +78,9 @@ Core docs set:
 ## Production acceptance (content repo)
 
 Content-repo acceptance for **architecture** is ready when Sections 0–10 are implemented and CI is green. **Corpus** acceptance requires migration waves + app consumption (Sections 11 and 13).
+
+## Release and rollback gates
+
+- **FV-013** records the immutable Git SHA and manifest SHA-256 used for a release snapshot.
+- **FV-014** verifies that recovery uses a previous known-good immutable contentRef and never rewrites published history.
+- These gates are engineering/audit controls; they do not certify legal correctness or automatically change entity lifecycle status.
