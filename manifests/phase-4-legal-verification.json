@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-06T15:28:20.899Z",
+  "generatedAt": "2026-10-06T15:29:53.312Z",
   "scope": {
     "migratedTopics": 3551
   },
@@ -13,16 +13,16 @@
   ],
   "summary": {
     "topicsAudited": 3551,
-    "topicsWithFindings": 2297,
-    "totalFindings": 3768,
+    "topicsWithFindings": 2298,
+    "totalFindings": 3769,
     "highSeverity": 2997,
-    "mediumSeverity": 771
+    "mediumSeverity": 772
   },
   "byType": {
     "provenance": 1910,
     "transition-law": 1071,
     "temporal-status": 716,
-    "workflow-status": 1,
+    "workflow-status": 2,
     "case-metadata": 18,
     "case-year": 13,
     "placeholder-quality": 36,
@@ -29130,6 +29130,15 @@
     {
       "path": "topics/contract/ica-s-1-2.json",
       "id": "topic:india:contract-ica-s-1-2",
+      "subject": "contract",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/contract/ica-s-3-9.json",
+      "id": "topic:india:contract-ica-s-3-9",
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
