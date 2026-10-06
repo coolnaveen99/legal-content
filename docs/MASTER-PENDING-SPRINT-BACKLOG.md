@@ -179,8 +179,8 @@
 | VER-002 | **PARTIAL — TRANSITION LEDGER ADDED** | `docs/VER-002-CURRENT-LAW-AMENDMENT-LEDGER-2026-10-06.md` records verified transition-sensitive findings for Industrial Relations/Industrial Disputes and Income-tax; proposition-level review remains required. |
 | VER-003 | **PARTIAL — DIRECT CASE CHECK ADDED** | Verify case names, citations and courts against authoritative case records. |
 | VER-004 | **PARTIAL — DIRECT RATIO CHECK ADDED** | Verify case principles/ratio against authoritative judgments. |
-| VER-005 | **OPEN** | Audit source URLs and authority classification; reject weak/secondary-only authority for verified status. |
-| VER-006 | **OPEN** | Identify outdated, repealed or superseded propositions. |
+| VER-005 | **PARTIAL — OFFICIAL SOURCE STANDARD RECORDED** | Audit source URLs and authority classification; reject weak/secondary-only authority for verified status. |
+| VER-006 | **PARTIAL — TRANSITION FLAGS RECORDED** | Identify outdated, repealed or superseded propositions. |
 | VER-007 | **OPEN** | Record verification date and verifier consistently. |
 | VER-008 | **COMPLETED** | Existing promotion gate remains controlling. |
 | VER-009 | **COMPLETED for Torts** | Torts is COMPLETE_LOCKED; do not reopen without a documented trigger. |
