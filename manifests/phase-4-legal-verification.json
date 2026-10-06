@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-06T06:27:10.859Z",
+  "generatedAt": "2026-10-06T06:29:48.546Z",
   "scope": {
     "migratedTopics": 3551
   },
@@ -14,8 +14,8 @@
   "summary": {
     "topicsAudited": 3551,
     "topicsWithFindings": 2296,
-    "totalFindings": 3768,
-    "highSeverity": 2998,
+    "totalFindings": 3767,
+    "highSeverity": 2997,
     "mediumSeverity": 770
   },
   "byType": {
@@ -26,7 +26,7 @@
     "case-year": 13,
     "placeholder-quality": 36,
     "case-proposition-quality": 2,
-    "known-case-metadata-risk": 2
+    "known-case-metadata-risk": 1
   },
   "findings": [
     {
@@ -33769,15 +33769,6 @@
       "severity": "high",
       "message": "Case \"Gloucester Grammar School Case\" contains generic doctrinal boilerplate in its case-specific facts/ratio fields; verify against the authority.",
       "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "id": "topic:india:torts-tort-injuria-damnum",
-      "subject": "torts",
-      "type": "known-case-metadata-risk",
-      "severity": "high",
-      "message": "Ashby v White is recorded with year 1932 despite a citation containing 1703; authoritative verification required.",
-      "evidence": "(1703) 2 Ld Raym 938"
     },
     {
       "path": "topics/torts/tort-injuria-damnum.json",

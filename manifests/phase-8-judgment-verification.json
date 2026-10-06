@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-06T06:27:11.858Z",
+  "generatedAt": "2026-10-06T06:29:50.174Z",
   "scope": {
     "migratedTopics": 3100,
     "caseRecords": 9088
@@ -15,8 +15,8 @@
     "caseRecords": 9088,
     "topicsWithCases": 3100,
     "topicsWithFindings": 3064,
-    "totalFindings": 16439,
-    "highSeverity": 15,
+    "totalFindings": 16438,
+    "highSeverity": 14,
     "mediumSeverity": 16424
   },
   "byType": {
@@ -24,7 +24,7 @@
     "missing-case-analysis": 6053,
     "missing-citation": 18,
     "implausible-year": 13,
-    "known-case-metadata-risk": 2,
+    "known-case-metadata-risk": 1,
     "duplicate-case-record": 8817
   },
   "findings": [
@@ -60859,14 +60859,6 @@
       "severity": "medium",
       "message": "Case \"Bloomberg Television v. Zee Entertainment Enterprises Ltd.\" is missing ratioDecidendi.",
       "evidence": ""
-    },
-    {
-      "path": "topics/torts/tort-injuria-damnum.json",
-      "topic": "topic:india:torts-tort-injuria-damnum",
-      "type": "known-case-metadata-risk",
-      "severity": "high",
-      "message": "Ashby v White historical year requires correction/verification.",
-      "evidence": "expected 1703"
     },
     {
       "path": "topics/torts/tort-injuria-damnum.json",
