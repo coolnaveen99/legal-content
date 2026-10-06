@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:association-for-democratic-reforms-v-union-of-india-2024",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "Association for Democratic Reforms v. Union of India",
   "jurisdiction": "India",
@@ -24,12 +24,20 @@
       "topics/constitution/art-329.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.114Z",
+  "sources": [
+    {
+      "type": "official_supreme_court_evidence",
+      "url": "https://api.sci.gov.in/supremecourt/2017/27935/27935_2017_1_1501_50573_Judgement_15-Feb-2024.pdf",
+      "label": "Authoritative Supreme Court evidence inspected in verification loop."
+    }
+  ],
+  "verificationStatus": "verified_with_limitation",
+  "updatedAt": "2026-10-06T07:57:57.426Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED_WITH_LIMITATION",
+  "verificationNote": "Official Supreme Court judgment; 2024 INSC 113, W.P.(C) 880/2017 and connected matters."
 }
