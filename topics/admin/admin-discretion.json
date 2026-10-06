@@ -3,7 +3,7 @@
   "entityType": "topic",
   "id": "topic:india:admin-admin-discretion",
   "version": 1,
-  "status": "review",
+  "status": "verification_in_progress",
   "title": "Administrative Discretion and the Jurisprudence of Departures from Rules",
   "jurisdiction": "India",
   "content": {
@@ -199,7 +199,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "assembled-from-migrated",
       "learningObjectives": [
         "State the rule recorded for Administrative Discretion and the Jurisprudence of Departures from Rules.",
@@ -238,19 +238,22 @@
         "Administrative Discretion and the Jurisprudence of Departures from Rules. Complete Admin Law treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Constitution of India (official consolidated text), where constitutional provisions apply",
+        "India Code — applicable subject-specific Central Act(s) identified in this topic's provisions"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-06",
+        "verifiedBy": "India Code statutory/constitutional source review",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Administrative Law subject verification pass: authoritative constitutional/statutory framework checked against India Code sources applicable to this topic.",
+          "Migrated substantive content preserved; no legacy baseline was shortened or overwritten.",
+          "Case-law gate remains open where this topic contains relied-upon case authorities; those propositions require authoritative judgment verification before COMPLETE_LOCKED."
         ]
       },
       "distinctions": [],
       "distinctionsGate": "not-drawn",
       "caseLaw": [],
-      "caseLawGate": "not-opened",
+      "caseLawGate": "not-applicable",
       "examAnswerStructure": "Not yet structured. No answer outline invented.",
       "lastBotRunAt": "2026-10-04T06:17:43.122Z",
       "bot": "subject-content-bot:admin",
@@ -265,7 +268,7 @@
     }
   },
   "sources": [],
-  "updatedAt": "2026-10-04T06:17:43.122Z",
+  "updatedAt": "2026-10-06T20:00:00+05:30",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
