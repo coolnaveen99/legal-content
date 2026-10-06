@@ -98,6 +98,12 @@ Corrections committed on main:
 - 58a0ad67654351d2b9d03691fefe7dd30b234e6e — false publication status batch 2
 - 37c83245566748826c740e4c3e4019859fac9e6c — false publication status batch 3
 
+## Statutory evidence tranche — ICA §§1–12
+
+Official India Code text was inspected on 2026-10-06. Sections 1–2 were checked for Act identity, extent/commencement/saving and statutory definitions; sections 3–9 were checked for communication, completion, revocation, absolute acceptance, performance-based acceptance and express/implied promises; sections 10–12 were checked for enforceability conditions, competency and sound mind. The corresponding three topic rows are therefore **statutory-verified / case-gate-pending**, not fully verified.
+
+Official evidence: Indian Contract Act, 1872 PDF, India Code: https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf
+
 ## Gate
 The subject remains **IN PROGRESS**. No row is promoted from this ledger alone. Completion requires:
 1. exact statutory mapping;
