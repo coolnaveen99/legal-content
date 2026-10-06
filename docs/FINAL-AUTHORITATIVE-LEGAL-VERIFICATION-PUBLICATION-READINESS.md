@@ -16,9 +16,9 @@ The canonical legal-content repository remains the source of truth. Verification
 
 ### A. Judgment verification queue
 
-**Current pending count: 296 judgment records.** One record (Afcons Infrastructure Ltd. v. Cherian Varkey Construction, (2010) 8 SCC 24) has now been verified against the Supreme Court judgment PDF.
+**Current unresolved source-acquisition count: 289 judgment records.** Seven records have now been classified `verified-with-limitation` after authoritative Supreme Court follow-on evidence was inspected. One record (Afcons Infrastructure Ltd. v. Cherian Varkey Construction, (2010) 8 SCC 24) has now been verified against the Supreme Court judgment PDF.
 
-The earlier 297 baseline has been reduced by one evidence-backed verification. Live queue state is now 421 judgment files: 125 verified and 296 pending.
+The earlier 297 baseline has been reduced by one evidence-backed verification. Live queue state is now 421 judgment files: 125 fully verified, 7 verified-with-limitation, and 289 still requiring source acquisition.
 
 Every pending judgment record must be classified as one of:
 
@@ -175,4 +175,4 @@ The matcher produces evidence and candidate matches only. It never marks a judgm
 The bulk corpora are intentionally kept outside the canonical repository. Source resolution is performed centrally; explicit per-record sources are retained when evidence is actually inspected.
 
 **Current phase position:** acquisition infrastructure COMPLETE; judgment substantive verification remains ACTIVE. AI/provider implementation remains LOCKED.
-\n## Throughput decision — 2026-10-06\n\nThe 296 pending Supreme Court judgments are no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
+\n## Throughput decision — 2026-10-06\n\nThe unresolved Supreme Court source-acquisition queue is no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. The verification loop now processes the queue sequentially and records unavailable originals separately from authoritative follow-on evidence. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
