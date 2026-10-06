@@ -154,7 +154,7 @@ This final phase is complete only when:
 
 ## Live reconciliation — 2026-10-06
 
-Live `main` has 421 judgment files. Current reconciliation is 125 verified and 296 pending. Afcons Infrastructure Ltd. v. Cherian Varkey Construction has been verified from the Supreme Court of India PDF, with case identity, citation, court, facts, issues, ratio, holding, disposition and paragraph evidence recorded. The remaining 296 pending records have not been promoted without source inspection. Paragraph-level verification is unavailable for the pending queue.
+Live `main` has 421 judgment files. Current reconciliation is 125 verified and 296 pending. Afcons Infrastructure Ltd. v. Cherian Varkey Construction has been verified from the Supreme Court of India PDF, with case identity, citation, court, facts, issues, ratio, holding, disposition and paragraph evidence recorded. The remaining 296 pending records remain unpromoted; source resolution is now centralized and no longer treated as a serial 296-record blocker. Paragraph-level verification is unavailable for the pending queue.
 
 Live topic status is 3,566 `review` and 86 `published`, superseding the earlier 112 review-state baseline. Those review topics were not promoted.
 
@@ -162,7 +162,7 @@ AI/provider implementation remains locked.
 
 ## Open-corpus acquisition implementation — 2026-10-06
 
-The AI-accessible judgment acquisition layer is now implemented in the canonical repository.
+The AI-accessible judgment acquisition and centralized reference-resolution layer is now implemented in the canonical repository.
 
 - Policy: `docs/JUDGMENT-OPEN-CORPUS-SOURCE-POLICY.md`
 - Workflow: `docs/judgment-verification/README.md`
@@ -172,6 +172,7 @@ The AI-accessible judgment acquisition layer is now implemented in the canonical
 
 The matcher produces evidence and candidate matches only. It never marks a judgment `verified` automatically. A matched judgment must still pass text inspection, identity/citation checks, ratio verification and current-law/later-treatment checks.
 
-The bulk corpora are intentionally kept outside the canonical repository; only metadata, provenance, hashes/evidence and final verification status belong in legal-content.
+The bulk corpora are intentionally kept outside the canonical repository. Source resolution is performed centrally; explicit per-record sources are retained when evidence is actually inspected.
 
 **Current phase position:** acquisition infrastructure COMPLETE; judgment substantive verification remains ACTIVE. AI/provider implementation remains LOCKED.
+\n## Throughput decision — 2026-10-06\n\nThe 296 pending Supreme Court judgments are no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
