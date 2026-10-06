@@ -90,7 +90,7 @@
 - [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Completed and preserved in canonical inventory.
 - [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement and verification within the unified Contract subject inventory.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
-- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance is now curated for 6/44 Admin topics, with 38/44 remaining; final publication gates remain open.
+- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance is now curated for 12/44 Admin topics, with 32/44 remaining; final publication gates remain open.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
