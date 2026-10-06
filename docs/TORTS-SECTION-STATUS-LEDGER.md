@@ -44,30 +44,30 @@ Torts lock was not advanced. Rows 15–16 and 18–41 remain `OPEN`. Nervous sho
 | 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | PENDING | REVIEW — McLoughlin [1983] 1 AC 410 and Alcock [1992] 1 AC 310 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
 | 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | PENDING | REVIEW — Wagon Mound No 1 [1961] AC 388 and Hughes [1963] AC 837 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
 | 17 | Nuisance | nuisance.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
-| 18 | Trespass to person | trespass-person.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 20 | Trespass to goods | trespass-property.json / tort-conversion-detinue.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 21 | Trespass ab initio | tort-trespass-ab-initio.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 23 | Defamation defences/privilege | defamation.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 18 | Trespass to person | trespass-person.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 20 | Trespass to goods | trespass-property.json / tort-conversion-detinue.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 21 | Trespass ab initio | tort-trespass-ab-initio.json | DONE | DONE | REVIEW | REVIEW — existing citations retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 22 | Defamation — libel/slander | defamation.json | DONE | DONE | REVIEW | REVIEW — existing file retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 23 | Defamation defences/privilege | defamation.json | DONE | DONE | REVIEW | REVIEW — mapped to existing defamation file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
 | 24 | Strict liability | strict-liability.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
-| 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | DONE — file not named in validator errors | PENDING | PENDING | OPEN |
-| 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 27 | Damages and assessment | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 28 | Injunction / restitution / judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 29 | Extra-judicial remedies | remedies.json | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 30 | Malicious prosecution | malicious-prosecution.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 31 | Abuse of legal procedure/process | tort-abuse-of-process.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 32 | Deceit / fraud | tort-deceit-misstatement.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 33 | Occupier / dangerous premises | tort-occupiers-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 34 | Dangerous chattels / product liability interface | consumer.json / tort-occupiers-liability.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 35 | Liability for animals | tort-scienter-action.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 36 | Statutory liability | tort-statutory-liability.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 37 | Motor Vehicles Act interface | mact-claims.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 38 | Consumer Protection Act interface | consumer.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 39 | Constitutional/public-law tort | state-liability.json + Constitution | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 40 | Environmental/public liability applications | absolute-liability.json + Environmental Law | REVIEW | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
-| 41 | Extinguishment/discharge of tortious liability | tort-discharge.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
+| 25 | Absolute liability | absolute-liability.json | DONE | DONE | DONE — 1991 Gazette, Jan Vishwas 2023, G.S.R. 772(E) opened | DONE — official Oleum PDF 8858 opened | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 26 | Remedies | remedies.json | DONE | DONE | REVIEW | REVIEW — existing file retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 27 | Damages and assessment | tort-remedies-damages.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 28 | Injunction / restitution / judicial remedies | remedies.json | DONE | DONE | REVIEW | REVIEW — mapped to existing remedies file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 29 | Extra-judicial remedies | remedies.json | DONE | DONE | REVIEW | REVIEW — mapped to existing remedies file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 30 | Malicious prosecution | malicious-prosecution.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 31 | Abuse of legal procedure/process | tort-abuse-of-process.json | DONE | DONE | REVIEW | REVIEW — existing citations retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 32 | Deceit / fraud | tort-deceit-misstatement.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 33 | Occupier / dangerous premises | tort-occupiers-liability.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 34 | Dangerous chattels / product liability interface | consumer.json / tort-occupiers-liability.json | DONE | DONE | REVIEW | REVIEW — existing citations retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 35 | Liability for animals | tort-scienter-action.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 36 | Statutory liability | tort-statutory-liability.json | DONE | DONE | REVIEW | REVIEW — existing citations retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 37 | Motor Vehicles Act interface | mact-claims.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 38 | Consumer Protection Act interface | consumer.json | DONE | DONE | REVIEW | REVIEW — existing citations retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 39 | Constitutional/public-law tort | state-liability.json | DONE | DONE | REVIEW — mapped to existing state-liability file | REVIEW — existing file retained | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 40 | Environmental/public liability applications | absolute-liability.json | DONE | DONE | DONE — uses the already verified absolute-liability record | DONE — uses the already opened Oleum record | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
+| 41 | Extinguishment/discharge of tortious liability | tort-discharge.json | DONE | DONE | REVIEW | REVIEW — years aligned to citations already in the file | DONE — enhancement validator 0 errors | PENDING | PENDING | OPEN |
 
 ## Immediate execution queue
 
@@ -319,3 +319,8 @@ The verification pass confirmed the Supreme Court authorities used for professio
 
 Open Torts topic files were checked together. Case years that disagreed with the year already printed in the citation were aligned. No enhanced text was replaced. No legacy file was copied back. No new case or citation was added. Rows 15–16 and 18–41 remain OPEN because an official judgment PDF was not opened and the production route/build lock was not rerun.
 
+
+
+## Rows 18-41 batch — 2026-10-06
+
+Inventory, enhancement, and enhancement validation are recorded for rows 18-23 and 25-41. Case years were aligned only where the citation already printed the year. No enhanced text was replaced. Integration and production remain pending. These rows are not locked.
