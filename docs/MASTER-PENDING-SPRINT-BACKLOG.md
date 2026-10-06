@@ -255,3 +255,4 @@ An item can be marked **COMPLETED** only when:
 - Command: `npm run judgments:queue`
 - Acquisition layer: Open India Law + AWS Supreme Court/High Court Open Data.
 - Rule: acquisition/matching never marks a judgment verified; substantive verification remains FV-002/FV-003/FV-004.
+\n## Throughput decision — 2026-10-06\n\nThe 296 pending Supreme Court judgments are no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
