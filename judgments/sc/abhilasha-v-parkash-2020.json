@@ -39,26 +39,25 @@
     "phase-9"
   ],
   "propositionVerification": {
-    "phase": "VER-003/VER-004",
+    "phase": "11",
     "evidenceLevel": "direct-original",
-    "verificationStatus": "verified",
+    "verificationStatus": "manual-proposition-review-required",
     "evidence": [
       {
         "type": "direct-original",
         "url": "https://api.sci.gov.in/supremecourt/2018/34880/34880_2018_35_1501_23965_Judgement_15-Sep-2020.pdf",
-        "note": "Original Supreme Court judgment inspected; case identity, court, neutral citation, reporter citations, ratio and holding checked."
+        "note": "Official Supreme Court judgment PDF."
       }
     ],
     "propositionsAudited": [
-      "caseIdentity",
-      "court",
-      "citation",
       "ratioDecidendi",
-      "holding"
+      "holding",
+      "relevance"
     ],
-    "propositionCount": 5,
+    "propositionCount": 3,
     "missingContextFields": [],
-    "rule": "Promotion requires direct-original evidence for the audited propositions."
+    "linkedTopicCount": 2,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
   },
   "verificationDisposition": "VERIFIED"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 10 — Authoritative Judgment Verification",
-  "generatedAt": "2026-10-06T08:37:56.535Z",
+  "generatedAt": "2026-10-06T12:19:02.967Z",
   "policy": [
     "Verification requires authoritative case-law evidence; a search result or secondary summary alone does not promote a judgment.",
     "The Supreme Court's own site provides judgment search facilities and its Landmark Judgment Summaries are informational aids, not substitutes for the Court's decision.",
@@ -13,11 +13,11 @@
     "scrSearch": "https://scr.sci.gov.in/scrsearch/"
   },
   "summary": {
-    "judgmentsAudited": 421,
+    "judgmentsAudited": 378,
     "priority1": 11,
-    "verified": 126,
-    "officialEvidenceAttached": 137,
-    "pending": 295
+    "verified": 125,
+    "officialEvidenceAttached": 136,
+    "pending": 253
   },
   "records": [
     {
@@ -27,7 +27,7 @@
       "decisionYear": 1969,
       "status": "review",
       "priority": "priority-2",
-      "officialEvidence": "source-id-present",
+      "officialEvidence": "not-attached",
       "verification": "pending",
       "requiredEvidence": [
         "authoritative Supreme Court judgment or SCR record",
@@ -56,7 +56,7 @@
       "id": "judgment:india:a-r-antulay-v-r-s-nayak-1992",
       "name": "A.R. Antulay v. R.S. Nayak",
       "citation": "(1992) 1 SCC 225",
-      "decisionYear": 1992,
+      "decisionYear": 1991,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "source-id-present",
@@ -121,7 +121,7 @@
     {
       "id": "judgment:india:abhilasha-v-parkash-2020",
       "name": "Abhilasha v. Parkash",
-      "citation": "2020 INSC 546",
+      "citation": "(2021) 13 SCC 99",
       "decisionYear": 2020,
       "status": "review",
       "priority": "priority-1",
@@ -133,7 +133,7 @@
         "court/bench confirmation where available",
         "proposition-level verification before publication"
       ],
-      "verifiedAt": "2026-10-02T09:41:31.917Z",
+      "verifiedAt": "2026-10-06T00:00:00.000Z",
       "evidenceLevel": "direct-original"
     },
     {
@@ -151,24 +151,6 @@
         "court/bench confirmation where available",
         "proposition-level verification before publication"
       ]
-    },
-    {
-      "id": "judgment:india:addanki-narayanappa-v-bhaskara-krishnappa-1966",
-      "name": "Addanki Narayanappa v. Bhaskara Krishnappa",
-      "citation": "AIR 1966 SC 1300",
-      "decisionYear": 1966,
-      "status": "verified",
-      "priority": "priority-2",
-      "officialEvidence": "attached",
-      "verification": "verified-against-authoritative-evidence",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ],
-      "verifiedAt": "2026-10-06T08:36:48.221Z",
-      "evidenceLevel": "official-primary"
     },
     {
       "id": "judgment:india:adm-jabalpur-v-shivkant-shukla-1976",
@@ -191,18 +173,16 @@
       "name": "Afcons Infrastructure Ltd. v. Cherian Varkey Construction",
       "citation": "(2010) 8 SCC 24",
       "decisionYear": 2010,
-      "status": "verified",
+      "status": "review",
       "priority": "priority-2",
-      "officialEvidence": "attached",
-      "verification": "verified-against-authoritative-evidence",
+      "officialEvidence": "not-attached",
+      "verification": "pending",
       "requiredEvidence": [
         "authoritative Supreme Court judgment or SCR record",
         "citation and decision-date confirmation",
         "court/bench confirmation where available",
         "proposition-level verification before publication"
-      ],
-      "verifiedAt": "2026-10-06T00:00:00.000Z",
-      "evidenceLevel": "official-judgment"
+      ]
     },
     {
       "id": "judgment:india:afcons-infrastructure-ltd-v-cherian-varkey-construction-co-p-ltd-2010",
@@ -224,10 +204,10 @@
       "id": "judgment:india:aiims-students-union-v-aiims-2002",
       "name": "AIIMS Students’ Union v. AIIMS",
       "citation": "(2002) 1 SCC 428",
-      "decisionYear": 2002,
+      "decisionYear": 2001,
       "status": "review",
       "priority": "priority-2",
-      "officialEvidence": "not-attached",
+      "officialEvidence": "source-id-present",
       "verification": "pending",
       "requiredEvidence": [
         "authoritative Supreme Court judgment or SCR record",
@@ -287,10 +267,10 @@
       ]
     },
     {
-      "id": "judgment:india:alcock-v-chief-constable-of-south-yorkshire-police-1991",
+      "id": "judgment:india:alcock-v-chief-constable-of-south-yorkshire-police-1992",
       "name": "Alcock v Chief Constable of South Yorkshire Police",
       "citation": "[1992] 1 AC 310",
-      "decisionYear": 1991,
+      "decisionYear": 1992,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -321,10 +301,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:allen-v-flood-1991",
+      "id": "judgment:india:allen-v-flood-1898",
       "name": "Allen v Flood",
       "citation": "[1898] AC 1",
-      "decisionYear": 1991,
+      "decisionYear": 1898,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -456,25 +436,9 @@
     },
     {
       "id": "judgment:india:armory-v-delamirie-1722",
-      "name": "Armory v. Delamirie",
-      "citation": "(1722) 1 Strange 505",
-      "decisionYear": 1722,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:armory-v-delamirie-2009",
       "name": "Armory v Delamirie",
       "citation": "(1722) 1 Stra 505",
-      "decisionYear": 2009,
+      "decisionYear": 1722,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -509,14 +473,16 @@
       "decisionYear": 2011,
       "status": "review",
       "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
+      "officialEvidence": "attached",
+      "verification": "verified-against-authoritative-evidence",
       "requiredEvidence": [
         "authoritative Supreme Court judgment or SCR record",
         "citation and decision-date confirmation",
         "court/bench confirmation where available",
         "proposition-level verification before publication"
-      ]
+      ],
+      "verifiedAt": "2026-10-06T00:00:00.000Z",
+      "evidenceLevel": "official-judgment"
     },
     {
       "id": "judgment:india:arunachala-gounder-v-ponnusamy-2022",
@@ -571,26 +537,10 @@
       ]
     },
     {
-      "id": "judgment:india:australian-safeway-stores-pty-ltd-v-zaluzna-2009",
+      "id": "judgment:india:australian-safeway-stores-pty-ltd-v-zaluzna-1987",
       "name": "Australian Safeway Stores Pty Ltd v Zaluzna",
       "citation": "(1987) 162 CLR 479",
-      "decisionYear": 2009,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:authority-requiring-full-report-verification-2026",
-      "name": "Authority requiring full-report verification",
-      "citation": "needs-review",
-      "decisionYear": 2026,
+      "decisionYear": 1987,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -841,22 +791,6 @@
       ]
     },
     {
-      "id": "judgment:india:bhagwandas-goverdhandas-kedia-v-girdharilal-parshottamdas-1966",
-      "name": "Bhagwandas Goverdhandas Kedia v. Girdharilal Parshottamdas",
-      "citation": "AIR 1966 SC 543",
-      "decisionYear": 1966,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:bharat-singh-v-bhagirathi-1966",
       "name": "Bharat Singh v. Bhagirathi",
       "citation": "AIR 1966 SC 405",
@@ -941,10 +875,10 @@
       ]
     },
     {
-      "id": "judgment:india:bird-v-jones-1932",
+      "id": "judgment:india:bird-v-jones-1845",
       "name": "Bird v Jones",
       "citation": "(1845) 7 QB 742",
-      "decisionYear": 1932,
+      "decisionYear": 1845,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1021,26 +955,10 @@
       ]
     },
     {
-      "id": "judgment:india:bolton-partners-v-lambert-1889",
-      "name": "Bolton Partners v. Lambert",
-      "citation": "41 Ch D 295",
-      "decisionYear": 1889,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:bradford-corporation-v-pickles-1932",
+      "id": "judgment:india:bradford-corporation-v-pickles-1895",
       "name": "Bradford Corporation v Pickles",
       "citation": "[1895] AC 587",
-      "decisionYear": 1932,
+      "decisionYear": 1895,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1091,38 +1009,6 @@
       "name": "Cadila Health Care Ltd. v. Cadila Pharmaceuticals Ltd.",
       "citation": "(2001) 5 SCC 73",
       "decisionYear": 2001,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:caparo-industries-plc-v-dickman-1990",
-      "name": "Caparo Industries plc v. Dickman",
-      "citation": "[1990] 2 AC 605 (House of Lords)",
-      "decisionYear": 1990,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:carlill-v-carbolic-smoke-ball-co-1893",
-      "name": "Carlill v. Carbolic Smoke Ball Co.",
-      "citation": "[1893] 1 QB 256",
-      "decisionYear": 1893,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1249,10 +1135,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:collins-v-wilcock-1991",
+      "id": "judgment:india:collins-v-wilcock-1984",
       "name": "Collins v Wilcock",
       "citation": "[1984] 1 WLR 1172",
-      "decisionYear": 1991,
+      "decisionYear": 1984,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1301,26 +1187,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:cox-v-hickman-1860",
-      "name": "Cox v. Hickman",
-      "citation": "8 HLC 268",
-      "decisionYear": 1860,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:crofter-hand-woven-harris-tweed-co-ltd-v-veitch-2009",
+      "id": "judgment:india:crofter-hand-woven-harris-tweed-co-ltd-v-veitch-1942",
       "name": "Crofter Hand Woven Harris Tweed Co Ltd v Veitch",
       "citation": "[1942] AC 435",
-      "decisionYear": 2009,
+      "decisionYear": 1942,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1501,10 +1371,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:derry-v-peek-1966",
+      "id": "judgment:india:derry-v-peek-1889",
       "name": "Derry v Peek",
       "citation": "(1889) 14 App Cas 337",
-      "decisionYear": 1966,
+      "decisionYear": 1889,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1568,25 +1438,9 @@
     },
     {
       "id": "judgment:india:donoghue-v-stevenson-1932",
-      "name": "Donoghue v. Stevenson",
-      "citation": "[1932] AC 562 (House of Lords)",
+      "name": "Donoghue v Stevenson",
+      "citation": "[1932] AC 562",
       "decisionYear": 1932,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:dulichand-lakshminarayan-v-cit-1956",
-      "name": "Dulichand Lakshminarayan v. CIT",
-      "citation": "AIR 1956 SC 354",
-      "decisionYear": 1956,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1631,10 +1485,10 @@
       ]
     },
     {
-      "id": "judgment:india:entick-v-carrington-1966",
+      "id": "judgment:india:entick-v-carrington-1765",
       "name": "Entick v Carrington",
       "citation": "(1765) 19 St Tr 1029",
-      "decisionYear": 1966,
+      "decisionYear": 1765,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1681,10 +1535,10 @@
       ]
     },
     {
-      "id": "judgment:india:filburn-v-people-s-palace-and-aquarium-co-ltd-1932",
+      "id": "judgment:india:filburn-v-people-s-palace-and-aquarium-co-ltd-1890",
       "name": "Filburn v People's Palace and Aquarium Co Ltd",
       "citation": "(1890) 25 QBD 258",
-      "decisionYear": 1932,
+      "decisionYear": 1890,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1717,22 +1571,6 @@
       "name": "Francis Coralie Mullin v. Administrator, Union Territory of Delhi",
       "citation": "(1981) 1 SCC 608",
       "decisionYear": 1981,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:gajanan-moreshwar-parelkar-v-moreshwar-madan-mantri-1942",
-      "name": "Gajanan Moreshwar Parelkar v. Moreshwar Madan Mantri",
-      "citation": "AIR 1942 Bom 302",
-      "decisionYear": 1942,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1781,22 +1619,6 @@
       "name": "Ghapoo Yadav v. State of Madhya Pradesh",
       "citation": "(2003) 3 SCC 528",
       "decisionYear": 2003,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:gherulal-parakh-v-mahadeodas-maiya-1959",
-      "name": "Gherulal Parakh v. Mahadeodas Maiya",
-      "citation": "AIR 1959 SC 781",
-      "decisionYear": 1959,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1863,10 +1685,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:gobald-motor-service-ltd-v-r-m-k-veluswami-1966",
+      "id": "judgment:india:gobald-motor-service-ltd-v-r-m-k-veluswami-1962",
       "name": "Gobald Motor Service Ltd v R.M.K. Veluswami",
       "citation": "AIR 1962 SC 1",
-      "decisionYear": 1966,
+      "decisionYear": 1962,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1879,10 +1701,10 @@
       ]
     },
     {
-      "id": "judgment:india:gopalakrishna-pillai-v-melepurath-sankunni-ezhuthassan-2009",
+      "id": "judgment:india:gopalakrishna-pillai-v-melepurath-sankunni-ezhuthassan-1988",
       "name": "Gopalakrishna Pillai v Melepurath Sankunni Ezhuthassan",
       "citation": "(1988) 1 SCC 382",
-      "decisionYear": 2009,
+      "decisionYear": 1988,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -1911,22 +1733,6 @@
       ],
       "verifiedAt": "2026-10-02T11:53:23.150Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:grant-v-australian-knitting-mills-ltd-1936",
-      "name": "Grant v. Australian Knitting Mills Ltd.",
-      "citation": "[1936] AC 85",
-      "decisionYear": 1936,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:gurbaksh-singh-sibbia-v-state-of-punjab-1980",
@@ -2011,26 +1817,10 @@
       ]
     },
     {
-      "id": "judgment:india:hedley-byrne-and-co-ltd-v-heller-and-partners-ltd-2009",
+      "id": "judgment:india:hedley-byrne-and-co-ltd-v-heller-and-partners-ltd-1964",
       "name": "Hedley Byrne & Co Ltd v Heller & Partners Ltd",
       "citation": "[1964] AC 465",
-      "decisionYear": 2009,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:hind-construction-co-v-state-of-maharashtra-1979",
-      "name": "Hind Construction Co. v. State of Maharashtra",
-      "citation": "(1979) 2 SCC 70",
-      "decisionYear": 1979,
+      "decisionYear": 1964,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -2095,10 +1885,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:hollins-v-fowler-1966",
+      "id": "judgment:india:hollins-v-fowler-1875",
       "name": "Hollins v Fowler",
       "citation": "(1875) LR 7 HL 757",
-      "decisionYear": 1966,
+      "decisionYear": 1875,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -2143,10 +1933,10 @@
       ]
     },
     {
-      "id": "judgment:india:hughes-v-lord-advocate-2009",
+      "id": "judgment:india:hughes-v-lord-advocate-1963",
       "name": "Hughes v Lord Advocate",
       "citation": "[1963] AC 837",
-      "decisionYear": 2009,
+      "decisionYear": 1963,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -2405,38 +2195,6 @@
       ],
       "verifiedAt": "2026-10-02T11:46:31.785Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:jacob-mathew-v-state-of-punjab-2005",
-      "name": "Jacob Mathew v. State of Punjab",
-      "citation": "(2005) 6 SCC 1 (Supreme Court of India)",
-      "decisionYear": 2005,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:jagdish-chandra-gupta-v-kajaria-traders-india-ltd-1964",
-      "name": "Jagdish Chandra Gupta v. Kajaria Traders (India) Ltd.",
-      "citation": "AIR 1964 SC 1882",
-      "decisionYear": 1964,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:janhit-abhiyan-v-union-of-india-ews-case-2022",
@@ -2709,10 +2467,10 @@
       ]
     },
     {
-      "id": "judgment:india:kasturi-lal-ralia-ram-jain-v-state-of-uttar-pradesh-1932",
+      "id": "judgment:india:kasturi-lal-ralia-ram-jain-v-state-of-uttar-pradesh-1965",
       "name": "Kasturi Lal Ralia Ram Jain v State of Uttar Pradesh",
       "citation": "AIR 1965 SC 1039",
-      "decisionYear": 1932,
+      "decisionYear": 1965,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -2949,22 +2707,6 @@
       "evidenceLevel": "direct-original"
     },
     {
-      "id": "judgment:india:lakshminarayan-ram-gopal-and-son-ltd-v-government-of-hyderabad-1954",
-      "name": "Lakshminarayan Ram Gopal & Son Ltd. v. Government of Hyderabad",
-      "citation": "AIR 1954 SC 364",
-      "decisionYear": 1954,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:lalita-kumari-v-government-of-u-p-2014",
       "name": "Lalita Kumari v. Government of U.P.",
       "citation": "(2014) 2 SCC 1",
@@ -3015,22 +2757,6 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:lallan-prasad-v-rahmat-ali-1967",
-      "name": "Lallan Prasad v. Rahmat Ali",
-      "citation": "AIR 1967 SC 1322",
-      "decisionYear": 1967,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:laxmi-engineering-works-v-p-s-g-industrial-institute-1995",
       "name": "Laxmi Engineering Works v. P.S.G. Industrial Institute",
       "citation": "(1995) 3 SCC 583 (Supreme Court of India)",
@@ -3051,22 +2777,6 @@
       "name": "Laxmi v. Union of India",
       "citation": "(2014) 4 SCC 427",
       "decisionYear": 2014,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:lickbarrow-v-mason-1787",
-      "name": "Lickbarrow v. Mason",
-      "citation": "(1787) 2 TR 63",
-      "decisionYear": 1787,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3111,10 +2821,10 @@
       ]
     },
     {
-      "id": "judgment:india:lumley-v-gye-1966",
+      "id": "judgment:india:lumley-v-gye-1853",
       "name": "Lumley v Gye",
       "citation": "(1853) 2 E & B 216",
-      "decisionYear": 1966,
+      "decisionYear": 1853,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3163,22 +2873,6 @@
       "name": "M.C. Mehta v. Union of India",
       "citation": "(1988) 1 SCC 471",
       "decisionYear": 1988,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:m-c-mehta-v-union-of-india-oleum-gas-leak-case-1987",
-      "name": "M.C. Mehta v. Union of India (Oleum Gas Leak Case)",
-      "citation": "(1987) 1 SCC 395 (Supreme Court of India)",
-      "decisionYear": 1987,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3459,10 +3153,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:may-v-burdett-1991",
+      "id": "judgment:india:may-v-burdett-1846",
       "name": "May v Burdett",
       "citation": "(1846) 9 QB 101",
-      "decisionYear": 1991,
+      "decisionYear": 1846,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3475,10 +3169,10 @@
       ]
     },
     {
-      "id": "judgment:india:mcloughlin-v-o-brian-1932",
+      "id": "judgment:india:mcloughlin-v-o-brian-1983",
       "name": "McLoughlin v O'Brian",
       "citation": "[1983] 1 AC 410",
-      "decisionYear": 1932,
+      "decisionYear": 1983,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3491,10 +3185,10 @@
       ]
     },
     {
-      "id": "judgment:india:melepurath-sankunni-ezhuthassan-v-thekittil-geopalankutty-nair-2009",
+      "id": "judgment:india:melepurath-sankunni-ezhuthassan-v-thekittil-geopalankutty-nair-1986",
       "name": "Melepurath Sankunni Ezhuthassan v Thekittil Geopalankutty Nair",
       "citation": "(1986) 1 SCC 118",
-      "decisionYear": 2009,
+      "decisionYear": 1986,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3559,10 +3253,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:mogul-steamship-co-ltd-v-mcgregor-gow-and-co-2009",
+      "id": "judgment:india:mogul-steamship-co-ltd-v-mcgregor-gow-and-co-1892",
       "name": "Mogul Steamship Co Ltd v McGregor, Gow & Co",
       "citation": "[1892] AC 25",
-      "decisionYear": 2009,
+      "decisionYear": 1892,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3575,10 +3269,10 @@
       ]
     },
     {
-      "id": "judgment:india:mohammed-amin-v-jogendra-kumar-bannerjee-1991",
+      "id": "judgment:india:mohammed-amin-v-jogendra-kumar-bannerjee-1947",
       "name": "Mohammed Amin v Jogendra Kumar Bannerjee",
       "citation": "AIR 1947 PC 108",
-      "decisionYear": 1991,
+      "decisionYear": 1947,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3625,42 +3319,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:mohori-bibee-v-dharmodas-ghose-1903",
-      "name": "Mohori Bibee v. Dharmodas Ghose",
-      "citation": "(1903) 30 IA 114",
-      "decisionYear": 1903,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:morgan-stanley-v-kartick-das-1994",
       "name": "Morgan Stanley v. Kartick Das",
       "citation": "(1994) 4 SCC 225",
       "decisionYear": 1994,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:morris-v-c-w-martin-and-sons-ltd-1966",
-      "name": "Morris v. C.W. Martin & Sons Ltd.",
-      "citation": "[1966] 1 QB 716",
-      "decisionYear": 1966,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3705,58 +3367,10 @@
       ]
     },
     {
-      "id": "judgment:india:municipal-corporation-of-delhi-v-subhagwanti-1966",
-      "name": "Municipal Corporation of Delhi v. Subhagwanti",
-      "citation": "AIR 1966 SC 1750 (Supreme Court of India)",
-      "decisionYear": 1966,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:municipal-corporation-of-greater-bombay-v-laxman-iyer-1991",
+      "id": "judgment:india:municipal-corporation-of-greater-bombay-v-laxman-iyer-2003",
       "name": "Municipal Corporation of Greater Bombay v Laxman Iyer",
       "citation": "(2003) 8 SCC 731",
-      "decisionYear": 1991,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:municipal-council-ratlam-v-vardhichand-2009",
-      "name": "Municipal Council, Ratlam v Vardhichand",
-      "citation": "(1980) 4 SCC 162",
-      "decisionYear": 2009,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:murlidhar-chiranjilal-v-harishchandra-dwarkadas-1962",
-      "name": "Murlidhar Chiranjilal v. Harishchandra Dwarkadas",
-      "citation": "AIR 1962 SC 366",
-      "decisionYear": 1962,
+      "decisionYear": 2003,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3807,22 +3421,6 @@
       "name": "Nagendra Sah v. State of Bihar",
       "citation": "(2021) 10 SCC 725",
       "decisionYear": 2021,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:naihati-jute-mills-ltd-v-khyaliram-jagannath-1968",
-      "name": "Naihati Jute Mills Ltd. v. Khyaliram Jagannath",
-      "citation": "AIR 1968 SC 522",
-      "decisionYear": 1968,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -3901,10 +3499,10 @@
       ]
     },
     {
-      "id": "judgment:india:national-insurance-co-ltd-v-pranay-sethi-2009",
+      "id": "judgment:india:national-insurance-co-ltd-v-pranay-sethi-2017",
       "name": "National Insurance Co Ltd v Pranay Sethi",
       "citation": "(2017) 16 SCC 680",
-      "decisionYear": 2009,
+      "decisionYear": 2017,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4001,22 +3599,6 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1991",
-      "name": "Nilabati Behera v State of Orissa",
-      "citation": "(1993) 2 SCC 746",
-      "decisionYear": 1991,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:nilabati-behera-v-state-of-orissa-1993",
       "name": "Nilabati Behera v. State of Orissa",
       "citation": "(1993) 2 SCC 746",
@@ -4101,10 +3683,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:overseas-tankship-uk-ltd-v-morts-dock-the-wagon-mound-no-1-1966",
+      "id": "judgment:india:overseas-tankship-uk-ltd-v-morts-dock-the-wagon-mound-no-1-1961",
       "name": "Overseas Tankship (UK) Ltd v Morts Dock (The Wagon Mound No 1)",
       "citation": "[1961] AC 388",
-      "decisionYear": 1966,
+      "decisionYear": 1961,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4215,22 +3797,6 @@
       ]
     },
     {
-      "id": "judgment:india:pannalal-jankidas-v-mohanlal-1951",
-      "name": "Pannalal Jankidas v. Mohanlal",
-      "citation": "AIR 1951 SC 144",
-      "decisionYear": 1951,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:parshotam-lal-dhingra-v-union-of-india-1958",
       "name": "Parshotam Lal Dhingra v. Union of India",
       "citation": "1958 SCR 828",
@@ -4253,22 +3819,6 @@
       "name": "Pathumma v. Kuntalan Kutty",
       "citation": "AIR 1981 SC 1683",
       "decisionYear": 1981,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:payne-v-cave-1789",
-      "name": "Payne v. Cave",
-      "citation": "(1789) 3 TR 148",
-      "decisionYear": 1789,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4463,10 +4013,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:quinn-v-leathem-1966",
+      "id": "judgment:india:quinn-v-leathem-1901",
       "name": "Quinn v Leathem",
       "citation": "[1901] AC 495",
-      "decisionYear": 1966,
+      "decisionYear": 1901,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4597,10 +4147,10 @@
       ]
     },
     {
-      "id": "judgment:india:ram-coomar-coondoo-v-chunder-canto-mookerjee-1932",
+      "id": "judgment:india:ram-coomar-coondoo-v-chunder-canto-mookerjee-1876",
       "name": "Ram Coomar Coondoo v Chunder Canto Mookerjee",
       "citation": "(1876) 4 IA 23",
-      "decisionYear": 1932,
+      "decisionYear": 1876,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4791,22 +4341,6 @@
       ]
     },
     {
-      "id": "judgment:india:read-v-j-lyons-and-co-ltd-1947",
-      "name": "Read v. J. Lyons & Co. Ltd.",
-      "citation": "[1947] AC 156 (House of Lords)",
-      "decisionYear": 1947,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:regina-v-govinda-1876",
       "name": "Regina v. Govinda",
       "citation": "(1876) 1 Bom 342",
@@ -4875,10 +4409,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:rookes-v-barnard-2009",
+      "id": "judgment:india:rookes-v-barnard-1964",
       "name": "Rookes v Barnard",
       "citation": "[1964] AC 1129",
-      "decisionYear": 2009,
+      "decisionYear": 1964,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -4891,42 +4425,10 @@
       ]
     },
     {
-      "id": "judgment:india:rowland-v-divall-1923",
-      "name": "Rowland v. Divall",
-      "citation": "[1923] 2 KB 500",
-      "decisionYear": 1923,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:rudul-sah-v-state-of-bihar-1991",
+      "id": "judgment:india:rudul-sah-v-state-of-bihar-1983",
       "name": "Rudul Sah v State of Bihar",
       "citation": "(1983) 4 SCC 141",
-      "decisionYear": 1991,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:rylands-v-fletcher-1868",
-      "name": "Rylands v. Fletcher",
-      "citation": "L.R. 3 H.L. 330 (House of Lords)",
-      "decisionYear": 1868,
+      "decisionYear": 1983,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -5125,10 +4627,10 @@
       ]
     },
     {
-      "id": "judgment:india:sarla-verma-v-delhi-transport-corporation-1966",
+      "id": "judgment:india:sarla-verma-v-delhi-transport-corporation-2009",
       "name": "Sarla Verma v Delhi Transport Corporation",
       "citation": "(2009) 6 SCC 121",
-      "decisionYear": 1966,
+      "decisionYear": 2009,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -5191,22 +4693,6 @@
       ],
       "verifiedAt": "2026-10-02T11:46:31.801Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:satyabrata-ghose-v-mugneeram-bangur-and-co-1954",
-      "name": "Satyabrata Ghose v. Mugneeram Bangur & Co.",
-      "citation": "AIR 1954 SC 44",
-      "decisionYear": 1954,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:sawan-ram-v-kalawanti-1967",
@@ -5431,10 +4917,10 @@
       ]
     },
     {
-      "id": "judgment:india:six-carpenters-case-2009",
+      "id": "judgment:india:six-carpenters-case-1610",
       "name": "Six Carpenters' Case",
       "citation": "(1610) 8 Co Rep 146a",
-      "decisionYear": 2009,
+      "decisionYear": 1610,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -5497,22 +4983,6 @@
       ]
     },
     {
-      "id": "judgment:india:southern-roadways-ltd-v-s-m-krishnan-1989",
-      "name": "Southern Roadways Ltd. v. S.M. Krishnan",
-      "citation": "(1989) 4 SCC 603",
-      "decisionYear": 1989,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:special-reference-no-1-of-1998-third-judges-case-1998",
       "name": "Special Reference No. 1 of 1998 (Third Judges Case)",
       "citation": "(1998) 7 SCC 739",
@@ -5549,22 +5019,6 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:state-bank-of-india-v-indexport-registered-1992",
-      "name": "State Bank of India v. Indexport Registered",
-      "citation": "AIR 1992 SC 1740",
-      "decisionYear": 1992,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:state-bank-of-india-v-n-sundara-money-1976",
       "name": "State Bank of India v. N. Sundara Money",
       "citation": "(1976) 1 SCC 822",
@@ -5581,22 +5035,6 @@
       ],
       "verifiedAt": "2026-10-02T11:46:31.994Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:state-bank-of-saurashtra-v-chitranjan-rangnath-raja-1980",
-      "name": "State Bank of Saurashtra v. Chitranjan Rangnath Raja",
-      "citation": "(1980) 4 SCC 516",
-      "decisionYear": 1980,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:state-nct-of-delhi-v-navjot-sandhu-afsan-guru-2005",
@@ -5765,22 +5203,6 @@
       ],
       "verifiedAt": "2026-10-02T11:53:23.294Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:state-of-gujarat-v-memon-mahomed-haji-hasam-1967",
-      "name": "State of Gujarat v. Memon Mahomed Haji Hasam",
-      "citation": "AIR 1967 SC 1885",
-      "decisionYear": 1967,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:state-of-h-p-v-lekh-raj-2000",
@@ -6163,22 +5585,6 @@
       ]
     },
     {
-      "id": "judgment:india:state-of-west-bengal-v-b-k-mondal-and-sons-1962",
-      "name": "State of West Bengal v. B.K. Mondal & Sons",
-      "citation": "AIR 1962 SC 779",
-      "decisionYear": 1962,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:state-of-west-bengal-v-mir-mohammad-omar-2000",
       "name": "State of West Bengal v. Mir Mohammad Omar",
       "citation": "(2000) 8 SCC 382",
@@ -6195,26 +5601,10 @@
       ]
     },
     {
-      "id": "judgment:india:stephens-v-myers-1932",
+      "id": "judgment:india:stephens-v-myers-1830",
       "name": "Stephens v Myers",
       "citation": "(1830) 4 C & P 349",
-      "decisionYear": 1932,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:sturges-v-bridgman-1966",
-      "name": "Sturges v Bridgman",
-      "citation": "(1879) 11 Ch D 852",
-      "decisionYear": 1966,
+      "decisionYear": 1830,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -6263,22 +5653,6 @@
       "name": "Sukhar v. State of U.P.",
       "citation": "(1999) 9 SCC 507",
       "decisionYear": 1999,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
-      "id": "judgment:india:superintendence-co-of-india-p-ltd-v-krishan-murgai-1981",
-      "name": "Superintendence Co. of India (P) Ltd. v. Krishan Murgai",
-      "citation": "(1981) 2 SCC 246",
-      "decisionYear": 1981,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -6411,22 +5785,6 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:syed-abdul-khader-v-rami-reddy-1979",
-      "name": "Syed Abdul Khader v. Rami Reddy",
-      "citation": "(1979) 2 SCC 601",
-      "decisionYear": 1979,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:syed-yakoob-v-k-s-radhakrishnan-1964",
       "name": "Syed Yakoob v. K.S. Radhakrishnan",
       "citation": "AIR 1964 SC 477",
@@ -6497,10 +5855,10 @@
       "evidenceLevel": "official-corrob"
     },
     {
-      "id": "judgment:india:t-o-anthony-v-karvarnan-1932",
+      "id": "judgment:india:t-o-anthony-v-karvarnan-2008",
       "name": "T.O. Anthony v Karvarnan",
       "citation": "(2008) 3 SCC 748",
-      "decisionYear": 1932,
+      "decisionYear": 2008,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
@@ -6545,22 +5903,6 @@
       ]
     },
     {
-      "id": "judgment:india:the-winkfield-1902",
-      "name": "The Winkfield",
-      "citation": "[1902] P 42",
-      "decisionYear": 1902,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:trimukh-maroti-kirkan-v-state-of-maharashtra-2006",
       "name": "Trimukh Maroti Kirkan v. State of Maharashtra",
       "citation": "(2006) 10 SCC 681",
@@ -6593,22 +5935,6 @@
       ]
     },
     {
-      "id": "judgment:india:union-carbide-corporation-v-union-of-india-1991",
-      "name": "Union Carbide Corporation v. Union of India",
-      "citation": "(1991) 4 SCC 584 (Supreme Court of India)",
-      "decisionYear": 1991,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
-    },
-    {
       "id": "judgment:india:union-of-india-v-azadi-bachao-andolan-2004",
       "name": "Union of India v. Azadi Bachao Andolan",
       "citation": "(2004) 10 SCC 1",
@@ -6625,22 +5951,6 @@
       ],
       "verifiedAt": "2026-10-02T11:53:23.304Z",
       "evidenceLevel": "official-corrob"
-    },
-    {
-      "id": "judgment:india:union-of-india-v-kishorilal-gupta-and-bros-1959",
-      "name": "Union of India v. Kishorilal Gupta & Bros.",
-      "citation": "AIR 1959 SC 1362",
-      "decisionYear": 1959,
-      "status": "review",
-      "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
-      "requiredEvidence": [
-        "authoritative Supreme Court judgment or SCR record",
-        "citation and decision-date confirmation",
-        "court/bench confirmation where available",
-        "proposition-level verification before publication"
-      ]
     },
     {
       "id": "judgment:india:union-of-india-v-mohit-minerals-pvt-ltd-2022",
@@ -6843,10 +6153,10 @@
       ]
     },
     {
-      "id": "judgment:india:west-bengal-state-electricity-board-v-dilip-kumar-ray-1932",
+      "id": "judgment:india:west-bengal-state-electricity-board-v-dilip-kumar-ray-2007",
       "name": "West Bengal State Electricity Board v Dilip Kumar Ray",
       "citation": "(2007) 14 SCC 568",
-      "decisionYear": 1932,
+      "decisionYear": 2007,
       "status": "review",
       "priority": "priority-2",
       "officialEvidence": "not-attached",
