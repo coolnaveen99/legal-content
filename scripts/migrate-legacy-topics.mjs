@@ -6,7 +6,8 @@
  * Target: topics/*.json in this repository.
  *
  * Rules:
- * - Every real legacy topic is authoritative for this preservation pass: existing canonical topic files are replaced with the migrated legacy content.
+ * - Existing canonical topic files are preserved by default. Legacy content may fill missing canonical topics but must not overwrite enhancements.
+ * - Destructive legacy restoration is an explicit recovery-only operation and requires ALLOW_DESTRUCTIVE_LEGACY_RESTORE=1.
  * - Known renamed families (adr -> arbitration, tort -> torts) are audited as renames.
  * - Legacy helper modules are explicitly excluded.
  * - Remaining real topic records are imported as review-status canonical records.
@@ -200,6 +201,8 @@ if (fs.existsSync(LEGACY_ROOT)) {
     .map(x => x.path.slice("src/data/topics/".length, -3));
 }
 
+const destructiveRestore = process.env.ALLOW_DESTRUCTIVE_LEGACY_RESTORE === "1";
+
 const audit = [];
 let created = 0;
 let renamed = 0;
@@ -233,10 +236,24 @@ for (const legacyPath of legacyFiles) {
     const canonical = buildCanonical(targetSubject, localId, legacy);
 
     fs.mkdirSync(path.dirname(targetAbs), { recursive: true });
-    fs.writeFileSync(targetAbs, JSON.stringify(canonical, null, 2) + "\n");
-    if (fs.existsSync(targetAbs)) exact++;
-    else created++;
-    audit.push({ legacyPath, canonicalPath: targetPath, disposition: "REPLACED_FROM_LEGACY" });
+    if (fs.existsSync(targetAbs) && !destructiveRestore) {
+      exact++;
+      audit.push({
+        legacyPath,
+        canonicalPath: targetPath,
+        disposition: "PRESERVED_EXISTING_CANONICAL",
+        note: "Existing canonical content was not overwritten. Legacy content remains available for recovery/audit only.",
+      });
+    } else {
+      fs.writeFileSync(targetAbs, JSON.stringify(canonical, null, 2) + "\n");
+      if (fs.existsSync(targetAbs)) exact++;
+      else created++;
+      audit.push({
+        legacyPath,
+        canonicalPath: targetPath,
+        disposition: destructiveRestore ? "RESTORED_FROM_LEGACY" : "CREATED_FROM_LEGACY",
+      });
+    }
   } catch (error) {
     errors++;
     audit.push({
