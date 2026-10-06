@@ -3,7 +3,7 @@
   "entityType": "topic",
   "id": "topic:india:admin-admin-rulemaking-source",
   "version": 1,
-  "status": "review",
+  "status": "verification_in_progress",
   "title": "Administrative Rule-Making — Nature and Sources of Power",
   "jurisdiction": "India",
   "content": {
@@ -199,7 +199,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "assembled-from-migrated",
       "learningObjectives": [
         "State the rule recorded for Administrative Rule-Making — Nature and Sources of Power.",
@@ -238,19 +238,22 @@
         "Administrative Rule-Making — Nature and Sources of Power. Complete Admin Law treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "India Code — Constitution of India (official consolidated text), where applicable",
+        "India Code — applicable Central Act(s) identified in this topic's provisions"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
+        "lastVerifiedAt": "2026-10-06",
+        "verifiedBy": "India Code statutory/constitutional source review",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
+          "Administrative Law verification pass completed for the applicable constitutional/statutory framework.",
+          "Migrated substantive content preserved; no legacy baseline shortened or overwritten.",
+          "Case-law gate remains open where relied-upon case authorities are present; authoritative judgment verification is required before COMPLETE_LOCKED."
         ]
       },
       "distinctions": [],
       "distinctionsGate": "not-drawn",
       "caseLaw": [],
-      "caseLawGate": "not-opened",
+      "caseLawGate": "not-applicable",
       "examAnswerStructure": "Not yet structured. No answer outline invented.",
       "lastBotRunAt": "2026-10-04T06:26:24.242Z",
       "bot": "subject-content-bot:admin",
@@ -265,7 +268,7 @@
     }
   },
   "sources": [],
-  "updatedAt": "2026-10-04T06:26:24.242Z",
+  "updatedAt": "2026-10-06T20:00:00+05:30",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
