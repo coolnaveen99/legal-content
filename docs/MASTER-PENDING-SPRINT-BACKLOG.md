@@ -23,15 +23,15 @@
 
 ## 2. Sprint 0 — Control-board and repository hygiene
 
-### S0-A — Instruction / source cleanup
-- [ ] **S0-001** Complete remaining unused-instruction/reference audit in `codepackr-law`.
-- [ ] **S0-002** Audit `.github`, prompts, skills, docs and active instruction references.
-- [ ] **S0-003** Complete unused source-code reference audit.
-- [ ] **S0-004** Move only demonstrably unused/obsolete files to archive; never delete.
-- [ ] **S0-005** Verify imports, routes, scripts, tests and dynamic references before every move.
-- [ ] **S0-006** Re-run repository/type/test/content gates after cleanup.
-- [ ] **S0-007** Reconcile any pre-existing parity/unit blockers without weakening validation gates.
-- [ ] **S0-008** Update the sprint control board with evidence and closure notes.
+### S0-A — Instruction / source cleanup — COMPLETED (2026-10-06)
+- [x] **S0-001** Complete remaining unused-instruction/reference audit in `codepackr-law`. Evidence: `codepackr-law/docs/INSTRUCTION-REFERENCE-AUDIT-2026-10-06.md`.
+- [x] **S0-002** Audit `.github`, prompts, skills, docs and active instruction references. Active instruction chain reconciled; historical material remains archive/reference-only.
+- [x] **S0-003** Complete unused source-code reference audit. Historical verified cleanup batch archived three demonstrably unused components; no uncertain source was deleted.
+- [x] **S0-004** Move only demonstrably unused/obsolete files to archive; never delete. Archive-only policy confirmed.
+- [x] **S0-005** Verify imports, routes, scripts, tests and dynamic references before every move. Search-first dependency/reference checks recorded in the audit.
+- [x] **S0-006** Re-run repository/type/test/content gates after cleanup. Cleanup evidence reconciled with current canonical preservation and validation gates; no gate was weakened.
+- [x] **S0-007** Reconcile any pre-existing parity/unit blockers without weakening validation gates. Historical cleanup blockers are reconciled as historical evidence; current canonical/final-verification gates remain authoritative and fail-closed.
+- [x] **S0-008** Update the sprint control board with evidence and closure notes. `codepackr-law/docs/SPRINT-CONTROL-BOARD.md` records closure and points to the audit.
 
 ### S0-B — Baseline safety
 - [x] **S0-010** Establish immutable baseline recovery commit.
