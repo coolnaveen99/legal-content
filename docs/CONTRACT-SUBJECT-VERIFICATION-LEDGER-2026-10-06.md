@@ -110,7 +110,7 @@ All 60 repository topic rows now have an identified authoritative statutory sour
 
 This closes the **source-family mapping gate for all 60 topics**, but it does **not** convert the 60 topics to VERIFIED. Topic-level legal correctness, current-law checks and authoritative case verification remain separate gates.
 
-Evidence: ICA citeturn0view0; Sale of Goods Act citeturn1view1; Partnership Act India Code sources citeturn2search1turn2search0; Specific Relief Amendment Act, 2018 citeturn2search2.
+Evidence: ICA official PDF and India Code handle; Sale of Goods Act official India Code PDF; Indian Partnership Act official India Code Act record/PDF; Specific Relief (Amendment) Act, 2018 official India Code publication.
 
 ## Gate
 The subject remains **IN PROGRESS**. No row is promoted from this ledger alone. Completion requires:
