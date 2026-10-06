@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:d-s-nakara-v-union-of-india-1983",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "D.S. Nakara v. Union of India",
   "jurisdiction": "India",
@@ -21,12 +21,20 @@
       "topics/constitution/preamble.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.113Z",
+  "sources": [
+    {
+      "type": "official_supreme_court_evidence",
+      "url": "https://api.sci.gov.in/supremecourt/2020/11162/11162_2020_35_1501_27212_Judgement_23-Mar-2021.pdf",
+      "label": "Authoritative Supreme Court evidence inspected in verification loop."
+    }
+  ],
+  "verificationStatus": "verified_with_limitation",
+  "updatedAt": "2026-10-06T07:58:19.523Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED_WITH_LIMITATION",
+  "verificationNote": "Official Supreme Court follow-on judgment expressly cites D.S. Nakara, (1983) 1 SCC 305 on pension equality and Article 14; original judgment not inspected in this pass."
 }
