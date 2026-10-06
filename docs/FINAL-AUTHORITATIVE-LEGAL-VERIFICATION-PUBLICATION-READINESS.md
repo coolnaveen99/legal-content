@@ -16,9 +16,9 @@ The canonical legal-content repository remains the source of truth. Verification
 
 ### A. Judgment verification queue
 
-**Baseline pending count: 297 judgment records.**
+**Current pending count: 296 judgment records.** One record (Afcons Infrastructure Ltd. v. Cherian Varkey Construction, (2010) 8 SCC 24) has now been verified against the Supreme Court judgment PDF.
 
-The 297 figure has now been reconciled against the live `legal-content/main` judgment inventory and matches the pending count recorded by Phase 10. It remains a queue count, not a verification result.
+The earlier 297 baseline has been reduced by one evidence-backed verification. Live queue state is now 421 judgment files: 125 verified and 296 pending.
 
 Every pending judgment record must be classified as one of:
 
@@ -154,7 +154,7 @@ This final phase is complete only when:
 
 ## Live reconciliation — 2026-10-06
 
-Live `main` has 421 judgment files. Phase 10 already recorded 124 as verified against authoritative evidence and 297 as pending. That 297 baseline matches the live pending count. This pass did not open official judgment text for the 297 pending records, so they are dispositioned `needs-source`. Existing files were preserved. No judgment was newly marked verified. Paragraph-level verification is unavailable for the pending queue.
+Live `main` has 421 judgment files. Current reconciliation is 125 verified and 296 pending. Afcons Infrastructure Ltd. v. Cherian Varkey Construction has been verified from the Supreme Court of India PDF, with case identity, citation, court, facts, issues, ratio, holding, disposition and paragraph evidence recorded. The remaining 296 pending records have not been promoted without source inspection. Paragraph-level verification is unavailable for the pending queue.
 
 Live topic status is 3,566 `review` and 86 `published`, superseding the earlier 112 review-state baseline. Those review topics were not promoted.
 
