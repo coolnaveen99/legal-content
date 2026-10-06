@@ -150,3 +150,12 @@ This final phase is complete only when:
 - final legal-quality sign-off is recorded.
 
 **AI/provider work remains blocked until this phase closes.**
+
+
+## Live reconciliation — 2026-10-06
+
+Live `main` has 421 judgment files. Phase 10 already recorded 124 as verified against authoritative evidence and 297 as pending. That 297 baseline matches the live pending count. This pass did not open official judgment text for the 297 pending records, so they are dispositioned `needs-source`. Existing files were preserved. No judgment was newly marked verified. Paragraph-level verification is unavailable for the pending queue.
+
+Live topic status is 3,566 `review` and 86 `published`, not the earlier 112 review-state baseline. Those review topics were not promoted.
+
+AI/provider implementation remains locked.
