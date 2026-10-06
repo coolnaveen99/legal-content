@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:arjun-panditrao-khotkar-v-kailash-kushanrao-gorantyal-2020",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal",
   "jurisdiction": "India",
@@ -190,12 +190,20 @@
       "topics/bsa/s-99.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.098Z",
+  "sources": [
+    {
+      "type": "official_supreme_court_evidence",
+      "url": "https://api.sci.gov.in/supremecourt/2011/3414/3414_2011_6_1501_62290_Judgement_14-Jul-2025.pdf",
+      "label": "Authoritative Supreme Court evidence inspected in verification loop."
+    }
+  ],
+  "verificationStatus": "verified_with_limitation",
+  "updatedAt": "2026-10-06T07:57:51.060Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED_WITH_LIMITATION",
+  "verificationNote": "Official Supreme Court follow-on reproduces the material Section 65-B reasoning of Arjun Panditrao Khotkar, (2020) 7 SCC 1; original 2020 judgment not used as the sole inspected source in this pass."
 }
