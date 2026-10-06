@@ -21,7 +21,8 @@
     "verify:fv011": "node scripts/verify-fv011-full-catalog.mjs",
     "verify:fv012": "node scripts/verify-fv012-production-readiness.mjs",
     "verify:fv013": "node scripts/verify-fv013-release-snapshot.mjs",
-    "verify:fv014": "node scripts/verify-fv014-rollback-readiness.mjs"
+    "verify:fv014": "node scripts/verify-fv014-rollback-readiness.mjs",
+    "quality:final": "node scripts/final-content-quality-pass.mjs"
   },
   "engines": {
     "node": ">=18"
