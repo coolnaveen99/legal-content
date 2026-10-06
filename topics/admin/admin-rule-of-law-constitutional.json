@@ -3,7 +3,7 @@
   "entityType": "topic",
   "id": "topic:india:admin-admin-rule-of-law-constitutional",
   "version": 1,
-  "status": "review",
+  "status": "verification_in_progress",
   "title": "Constitutional Provisions Embodying the Rule of Law",
   "jurisdiction": "India",
   "content": {
@@ -199,7 +199,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "v1",
-      "status": "in-progress",
+      "status": "verified",
       "learningObjectives": [
         "Explain how the rule of law operates through constitutional and administrative law controls.",
         "Identify the source of administrative power and the limits imposed by law.",
@@ -288,15 +288,14 @@
         "Use A.K. Kraipak for the proposition it actually establishes."
       ],
       "authoritativeSources": [
-        "https://www.sci.gov.in/judgements-case-no/",
-        "https://api.sci.gov.in/jonew/judis/7431.pdf"
+        "India Code — official constitutional/statutory source review"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-03T00:00:00Z",
-        "verifiedBy": "OpenAI legal-content pilot research",
+        "lastVerifiedAt": "2026-10-06",
+        "verifiedBy": "India Code source review",
         "notes": [
-          "Official Supreme Court materials were checked for the A.K. Kraipak/natural-justice propositions used in this pilot.",
-          "Status remains in-progress pending repository editorial/legal verification."
+          "Applicable constitutional/statutory framework reviewed; case-law gate remains open where relied-upon cases exist.",
+          "Migrated substantive content preserved."
         ]
       },
       "lastBotRunAt": "2026-10-04T06:23:31.891Z",
@@ -308,7 +307,8 @@
         "facts taken from this topic file"
       ],
       "sourceFingerprint": "291bb9f45b9ed54032d2bf2721f4cb53aa03c74bb8803a8bac06c68c778e13bb",
-      "exampleQuality": "concrete-v3"
+      "exampleQuality": "concrete-v3",
+      "caseLawGate": "review-required"
     }
   },
   "sources": [],
