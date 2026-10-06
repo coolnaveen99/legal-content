@@ -233,7 +233,7 @@ An item can be marked **COMPLETED** only when:
 ## 12. Current execution pointer
 
 **Current batch:** Final Authoritative Legal Verification & Publication Readiness.
-**Judgment verification queue:** 296 pending records / 125 verified on current `legal-content/main`; FV-002/FV-003/FV-004 remain active for the pending queue.
+**Judgment verification queue:** historical unverified records are archived; current active catalog contains 136 verified/verified-with-limitation records. Future judgment additions must be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** 3,566 migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is COMPLETE_LOCKED; other enhanced batches remain subject to final verification/publication gates.
 **Current control item:** Final authoritative legal verification and publication readiness. Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
