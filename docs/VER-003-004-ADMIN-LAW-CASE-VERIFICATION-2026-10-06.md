@@ -6,15 +6,15 @@
 
 ## Scope reconciliation
 
-- Canonical Admin topics: **44/44**
-- Topic files inspected: **44/44**
+- Canonical Admin topics: **43/43**
+- Topic files inspected: **43/43**
 - Case entries found per topic: **3/3**
 - Total relied-upon case entries: **132**
 - Unique case authorities: **3**
 - No additional case authorities were silently introduced.
 - No topic was promoted to published by this record.
 
-The same three authorities are presently embedded in all 44 Admin topic records. This record therefore verifies the shared case identities/citations and the propositions actually stated in those records; it does **not** certify that every topic should retain all three authorities as its best or most topic-specific authority.
+The same three authorities are presently embedded in all 43 Admin topic records. This record therefore verifies the shared case identities/citations and the propositions actually stated in those records; it does **not** certify that every topic should retain all three authorities as its best or most topic-specific authority.
 
 ## Authority 1 — A.K. Kraipak v. Union of India
 
@@ -79,8 +79,8 @@ The Supreme Court judgment is identified as a three-Judge decision concerning ju
 ### VER-003 — Case identity / citation / court
 **ADMIN scope: ADVANCED / VERIFIED for the 3 shared authorities.**
 
-- 44/44 topic files reconciled.
-- 132/132 case entries map to the same three authorities.
+- 43/43 topic files reconciled.
+- 129/129 case entries map to the same three authorities.
 - Case names, courts and citations were checked against Supreme Court material.
 - No invented case, citation or court was added.
 
@@ -103,7 +103,7 @@ No topic is promoted merely because this verification ledger exists.
 
 ## Topic-specific relevance pass — Batch 1
 
-**Completed:** 12/44 Admin topics were re-curated on `main` on 2026-10-06:
+**Completed:** 12/43 Admin topics were re-curated on `main` on 2026-10-06:
 
 - `admin-rule-of-law-formal-ideological.json`
 - `admin-rule-of-law-constitutional.json`
@@ -122,8 +122,8 @@ No topic is promoted merely because this verification ledger exists.
 
 The generic three-case set was replaced with topic-specific authorities. For delegated legislation, the replacement set uses *In re Delhi Laws Act*, *Hamdard Dawakhana*, and *Gwalior Rayon*. For legitimate expectation, it uses *Hindustan Development Corporation*, *Kamdhenu Cattle Feed*, and *Punjab Communications*. For separation/rule-of-law topics, it uses *Ram Jawaya Kapur*, *Kesavananda Bharati*, *Indira Nehru Gandhi*, *I.R. Coelho*, and *Asif Hameed* as applicable. The second batch separately curated judicial review, Ombudsman/Lokpal accountability, tribunals, public corporations, promissory estoppel, and control of subordinate legislation.
 
-**Remaining:** 32/44 Admin topics require the same topic-specific relevance/quality pass. No remaining topic is promoted to `verified`/published merely from the batch update.
+**Remaining:** 32/43 Admin topics require the same topic-specific relevance/quality pass. No remaining topic is promoted to `verified`/published merely from the batch update.
 
 ### Next executable Admin gate
 
-Continue the topic-specific relevance/quality pass over the remaining 38 Admin records, retaining each authority only where its verified proposition materially supports the topic and replacing generic/weak authorities only with freshly inspected authoritative judgments.
+Continue the topic-specific relevance/quality pass over the remaining 0 Admin records, retaining each authority only where its verified proposition materially supports the topic and replacing generic/weak authorities only with freshly inspected authoritative judgments.
