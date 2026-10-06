@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   populate:
-    if: !contains(github.event.head_commit.message, '[reference-links-bot]')
+    if: "!contains(github.event.head_commit.message, '[reference-links-bot]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
