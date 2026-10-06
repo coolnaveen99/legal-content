@@ -1,8 +1,7 @@
 name: Judgment ingestion bot
 
+# STOPPED 2026-10-06. Schedule removed. Job is disabled.
 on:
-  schedule:
-    - cron: "30 2 * * *"
   workflow_dispatch:
     inputs:
       max:
@@ -19,65 +18,11 @@ permissions:
 
 concurrency:
   group: judgment-ingestion
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   ingest:
+    if: false
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Install PDF extraction
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Discover and ingest
-        env:
-          JUDGMENT_BOT_MAX: ${{ github.event.inputs.max || '100' }}
-          JUDGMENT_BOT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
-        run: node scripts/judgment-bot.mjs
-      - name: Verify judgment records
-        run: node scripts/verify-judgment-bot.mjs
-      - name: Refresh manifest
-        run: npm run manifest:refresh
-      - name: Repository validation
-        run: npm run validate
-      - name: Enhancement validation
-        run: npm run validate:enhancements
-      - name: Create dated judgment branch
-        if: github.event.inputs.dry_run != 'true'
-        run: |
-          BRANCH="judgment-$(date -u +%Y-%m-%d)"
-          echo "JUDGMENT_BRANCH=$BRANCH" >> "$GITHUB_ENV"
-          git checkout -B "$BRANCH"
-
-      - name: Commit and push judgment branch
-        if: github.event.inputs.dry_run != 'true'
-        run: |
-          git config user.name "codepackr-judgment-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add judgments .judgment-bot-state.json manifests/content-manifest.json
-          if git diff --cached --quiet; then
-            echo "No new judgment records."
-            exit 0
-          fi
-          git commit -m "chore(judgments): ingest court judgments"
-          git push --force-with-lease origin "$JUDGMENT_BRANCH"
-
-      - name: Open pull request to main
-        if: github.event.inputs.dry_run != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$JUDGMENT_BRANCH" --base main --state open --json number --jq '.[0].number // empty')
-          if [ -z "$EXISTING" ]; then
-            gh pr create --repo "$GITHUB_REPOSITORY" --head "$JUDGMENT_BRANCH" --base main --title "Judgment ingestion — $(date -u +%Y-%m-%d)" --body "Automated Supreme Court / High Court judgment ingestion. Review and merge into main after verification."
-          else
-            echo "Open PR #$EXISTING already exists for $JUDGMENT_BRANCH"
-          fi
+      - run: echo "Judgment ingestion bot is stopped."

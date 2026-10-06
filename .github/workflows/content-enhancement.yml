@@ -1,5 +1,6 @@
 name: Legal content enhancement bot
 
+# STOPPED 2026-10-06. Chained next-topic and next-subject dispatch removed. Job is disabled.
 on:
   workflow_dispatch:
     inputs:
@@ -26,156 +27,11 @@ permissions:
 
 concurrency:
   group: content-enhancement-${{ github.event.inputs.subject || 'scheduled' }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   enhance:
+    if: false
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     steps:
-      - name: Checkout requested branch or main
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.inputs.branch || 'main' }}
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Resolve subject for scheduled run
-        id: subject
-        shell: bash
-        run: |
-          if [ -n "${{ github.event.inputs.subject }}" ]; then
-            echo "subject=${{ github.event.inputs.subject }}" >> "$GITHUB_OUTPUT"
-          else
-            node - <<'NODE'
-            const fs=require('fs');
-            const p='topics';
-            const set=new Set();
-            function walk(d){if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const x=d+'/'+e.name;if(e.isDirectory())walk(x);else if(e.name.endsWith('.json')){try{const j=JSON.parse(fs.readFileSync(x));if(j.entityType==='topic'&&j.content?.legacySubjectSlug)set.add(j.content.legacySubjectSlug)}catch{}}}}
-            walk(p);
-            console.log('subject='+[...set].sort()[0]);
-            NODE
-          fi
-
-      - name: Create dated subject branch
-        id: branch
-        if: github.event.inputs.dry_run != 'true'
-        shell: bash
-        run: |
-          if [ -n "${{ github.event.inputs.branch }}" ]; then
-            echo "branch=${{ github.event.inputs.branch }}" >> "$GITHUB_OUTPUT"
-          else
-            SUBJECT="${{ steps.subject.outputs.subject }}"
-            BRANCH="content-enhancement-${SUBJECT}-$(date -u +%Y-%m-%d)"
-            git checkout -B "$BRANCH"
-            git push -u origin "$BRANCH"
-            echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Run enhancement
-        env:
-          ENHANCEMENT_SUBJECT: ${{ steps.subject.outputs.subject }}
-          ENHANCEMENT_BRANCH: ${{ steps.branch.outputs.branch }}
-          ENHANCEMENT_TOPICS_PER_RUN: ${{ github.event.inputs.topics_per_run || '1' }}
-          ENHANCEMENT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6-astra' }}
-        run: node scripts/content-enhancement-bot.mjs
-
-      - name: Validate enhanced content
-        run: |
-          npm install
-          npm run manifest:refresh
-          npm run validate:enhancements
-          npm run validate
-
-      - name: Commit topic enhancement
-        if: github.event.inputs.dry_run != 'true'
-        shell: bash
-        run: |
-          git config user.name "codepackr-content-enhancement-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics .content-enhancement-state manifests/content-manifest.json
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-          git commit -m "chore(content): enhance topic and illustrations"
-          git push origin "${{ steps.branch.outputs.branch }}"
-
-      - name: Check subject completion
-        id: completion
-        if: github.event.inputs.dry_run != 'true'
-        env:
-          SUBJECT: ${{ steps.subject.outputs.subject }}
-        run: |
-          node - <<'NODE'
-          const fs=require('fs');
-          const path=require('path');
-          const subject=process.env.SUBJECT;
-          const slug=subject.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-          const statePath=path.join('.content-enhancement-state',slug+'.json');
-          let state={completedTopics:[]};
-          try{state=JSON.parse(fs.readFileSync(statePath));}catch{}
-          let total=0;
-          function walk(d){if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.json')){try{const j=JSON.parse(fs.readFileSync(p));if(j.entityType==='topic'&&j.content?.legacySubjectSlug===subject)total++;}catch{}}}}
-          walk('topics');
-          const done=total>0 && state.completedTopics.length>=total;
-          fs.appendFileSync(process.env.GITHUB_OUTPUT,'complete='+done+'\\n');
-          console.log(JSON.stringify({subject,total,completed:state.completedTopics.length,complete:done}));
-          NODE
-
-      - name: Open subject PR when complete
-        if: github.event.inputs.dry_run != 'true' && steps.completion.outputs.complete == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --state open --json number --jq '.[0].number // empty')
-          if [ -z "$EXISTING" ]; then
-            gh pr create --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --title "Content enhancement — ${{ steps.subject.outputs.subject }}" --body "Automated subject-wide legal content and illustration enhancement. All topics passed repository validation."
-          else
-            echo "Open PR #$EXISTING already exists."
-          fi
-
-      - name: Start next subject
-        if: github.event.inputs.dry_run != 'true' && steps.completion.outputs.complete == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CURRENT_SUBJECT: ${{ steps.subject.outputs.subject }}
-        run: |
-          NEXT=$(node - <<'NODE'
-          const fs=require('fs');
-          const set=new Set();
-          function walk(d){if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+'/'+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith('.json')){try{const j=JSON.parse(fs.readFileSync(p));if(j.entityType==='topic'&&j.content?.legacySubjectSlug)set.add(j.content.legacySubjectSlug)}catch{}}}}
-          walk('topics');
-          const current=process.env.CURRENT_SUBJECT;
-          const subjects=[...set].sort();
-          const i=subjects.indexOf(current);
-          console.log(i>=0 && i+1<subjects.length ? subjects[i+1] : '');
-          NODE
-          )
-          if [ -n "$NEXT" ]; then
-            gh workflow run content-enhancement.yml --repo "$GITHUB_REPOSITORY" --ref main -f subject="$NEXT" -f topics_per_run="1"
-            echo "Started next subject: $NEXT"
-          else
-            echo "All subjects have been dispatched."
-          fi
-
-      - name: Trigger next topic
-        if: github.event.inputs.dry_run != 'true' && steps.completion.outputs.complete != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh workflow run content-enhancement.yml \
-            --repo "$GITHUB_REPOSITORY" \
-            --ref "${{ steps.branch.outputs.branch }}" \
-            -f subject="${{ steps.subject.outputs.subject }}" \
-            -f branch="${{ steps.branch.outputs.branch }}" \
-            -f topics_per_run="1"
-
-      - name: Note
-        run: echo "Enhancement cycle completed. Either the next topic was triggered or the subject PR was opened."
+      - run: echo "Legal content enhancement bot is stopped."

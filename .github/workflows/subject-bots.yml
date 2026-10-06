@@ -1,5 +1,6 @@
 name: Subject content bots
 
+# STOPPED 2026-10-06. Schedule and self-dispatch removed. Job is disabled.
 on:
   workflow_dispatch:
     inputs:
@@ -15,8 +16,6 @@ on:
         description: Inventory only
         required: false
         default: "false"
-  schedule:
-    - cron: "15 18 * * *"
 
 permissions:
   contents: write
@@ -25,135 +24,12 @@ permissions:
 
 concurrency:
   group: subject-content-bots
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   enhance:
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-          token: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Resolve subject
-        id: subject
-        env:
-          REQUESTED: ${{ github.event.inputs.subject }}
-        run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const path = require('path');
-          const subjects = ['admin','arbitration','bns','bnss','bsa','company','constitution','contract','cpc','cyber','dpsp','environment','ethics','family','fundamental-rights','ipr','labour','land','limitation','ni-act','petition-formats','pil','registration','sra','taxation','tort','torts','tpa'];
-          const requested = (process.env.REQUESTED || '').trim();
-          function needsWork(subject) {
-            let pending = 0;
-            function walk(d) {
-              if (!fs.existsSync(d)) return;
-              for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-                const p = path.join(d, e.name);
-                if (e.isDirectory()) walk(p);
-                else if (e.name.endsWith('.json')) {
-                  try {
-                    const j = JSON.parse(fs.readFileSync(p, 'utf8'));
-                    if (j.entityType === 'topic' && j.content?.legacySubjectSlug === subject && j.content?.enhancement?.exampleQuality !== 'concrete-v3') pending++;
-                  } catch {}
-                }
-              }
-            }
-            walk('topics');
-            return pending;
-          }
-          const pool = requested ? subjects.filter(s => s === requested) : subjects;
-          const subject = pool.find(s => needsWork(s) > 0) || '';
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'subject=' + subject + '\n');
-          console.log(JSON.stringify({ subject, requested }));
-          NODE
-      - name: Stop when every subject is complete
-        if: steps.subject.outputs.subject == ''
-        run: echo "All subject bots are complete."
-      - name: Use subject branch
-        id: branch
-        if: steps.subject.outputs.subject != ''
-        run: |
-          BRANCH="subject-bot-${{ steps.subject.outputs.subject }}"
-          git fetch origin "$BRANCH" || true
-          if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH"; then
-            git checkout -B "$BRANCH" "origin/$BRANCH"
-            git merge origin/main --no-edit || {
-              git checkout --ours manifests/content-manifest.json || true
-              git add manifests/content-manifest.json || true
-              git commit -m "chore: keep branch moving past manifest conflict" || true
-            }
-          else
-            git checkout -B "$BRANCH" origin/main
-          fi
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-      - name: Enhance subject
-        id: enhance
-        if: steps.subject.outputs.subject != ''
-        env:
-          SUBJECT_BOT_SUBJECT: ${{ steps.subject.outputs.subject }}
-          SUBJECT_BOT_TOPICS_PER_RUN: ${{ github.event.inputs.topics_per_run || '1' }}
-          SUBJECT_BOT_DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
-        run: |
-          node scripts/subject-content-bot.mjs | tee /tmp/subject-bot.json
-          python3 - <<'PY'
-          import json, os
-          raw = open('/tmp/subject-bot.json').read().strip().splitlines()[0]
-          data = json.loads(raw)
-          open(os.environ['GITHUB_OUTPUT'], 'a').write('pending=' + str(len(data.get('pendingSelected') or [])) + '\n')
-          open(os.environ['GITHUB_OUTPUT'], 'a').write('remaining=' + str(data.get('remaining') or 0) + '\n')
-          PY
-      - name: Validate
-        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
-        run: |
-          npm run manifest:refresh
-          npm run validate:enhancements
-          npm run validate
-      - name: Commit subject branch
-        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
-        run: |
-          git config user.name "codepackr-subject-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics illustrations .subject-content-bot-state manifests/content-manifest.json
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-          git commit -m "chore(${{ steps.subject.outputs.subject }}): add teaching pattern for next topic"
-          git push -u origin "${{ steps.branch.outputs.branch }}"
-      - name: Start next topic without waiting for a pull request
-        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true'
-        env:
-          GH_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
-        run: |
-          gh workflow run subject-bots.yml --repo "$GITHUB_REPOSITORY" --ref main -f subject="" -f topics_per_run="${{ github.event.inputs.topics_per_run || '1' }}"
-          echo "Next topic dispatched. Pull request is not a gate."
-      - name: Open or update PR
-        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.pending != '0'
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
-        run: |
-          EXISTING=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --state open --json number --jq '.[0].number // empty')
-          if [ -z "$EXISTING" ]; then
-            gh pr create --repo "$GITHUB_REPOSITORY" --head "${{ steps.branch.outputs.branch }}" --base main --title "Subject bot — ${{ steps.subject.outputs.subject }}" --body "Non-AI subject bot. Teaching patterns use only text already in the topic file. The next topic starts after the topic is written and does not wait for this pull request."
-          else
-            echo "Open PR #$EXISTING"
-          fi
-      - name: Merge completed subject
-        if: steps.subject.outputs.subject != '' && github.event.inputs.dry_run != 'true' && steps.enhance.outputs.remaining == '0'
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.ENHANCEMENT_PROVIDER_TOKEN }}
-          SUBJECT: ${{ steps.subject.outputs.subject }}
-        run: |
-          PR=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "subject-bot-$SUBJECT" --base main --state open --json number --jq '.[0].number // empty')
-          if [ -n "$PR" ]; then
-            gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --merge --delete-branch || echo "Merge skipped; branch remains for review."
-          fi
+      - run: echo "Subject content bots are stopped."

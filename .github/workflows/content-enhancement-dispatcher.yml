@@ -1,5 +1,6 @@
 name: Content enhancement subject dispatcher
 
+# STOPPED 2026-10-06. Weekly schedule removed. Job is disabled.
 on:
   workflow_dispatch:
     inputs:
@@ -7,8 +8,6 @@ on:
         description: "Specific subject slug; blank means all subjects"
         required: false
         default: ""
-  schedule:
-    - cron: "30 3 * * 1"
 
 permissions:
   contents: write
@@ -16,27 +15,7 @@ permissions:
 
 jobs:
   dispatch:
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Dispatch subject workers
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REQUESTED_SUBJECT: ${{ github.event.inputs.subject }}
-        run: |
-          node - <<'NODE' > /tmp/subjects.txt
-          const fs=require('fs');
-          const set=new Set();
-          function walk(d){if(!fs.existsSync(d))return;for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=d+'/'+e.name;if(e.isDirectory())walk(p);else if(e.name.endsWith('.json')){try{const j=JSON.parse(fs.readFileSync(p));if(j.entityType==='topic'&&j.content?.legacySubjectSlug)set.add(j.content.legacySubjectSlug)}catch{}}}}
-          walk('topics');
-          const wanted=process.env.REQUESTED_SUBJECT;
-          for(const s of [...set].sort()) if(!wanted || wanted===s) console.log(s);
-          NODE
-          while IFS= read -r SUBJECT; do
-            [ -z "$SUBJECT" ] && continue
-            gh workflow run content-enhancement.yml --repo "$GITHUB_REPOSITORY" --ref main -f subject="$SUBJECT" -f topics_per_run="1"
-            echo "Dispatched $SUBJECT"
-          done < /tmp/subjects.txt
+      - run: echo "Content enhancement dispatcher is stopped."
