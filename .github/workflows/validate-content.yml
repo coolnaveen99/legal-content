@@ -111,6 +111,9 @@ jobs:
       - name: Final verification gates FV-005 through FV-010
         run: node scripts/verify-fv005-fv010.mjs
 
+      - name: Sprint 6 final content quality pass QUAL-001 through QUAL-011
+        run: npm run quality:final
+
       - name: Full-catalog verification gate FV-011
         run: node scripts/verify-fv011-full-catalog.mjs
 
