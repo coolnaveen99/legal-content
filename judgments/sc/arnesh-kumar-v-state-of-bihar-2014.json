@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:arnesh-kumar-v-state-of-bihar-2014",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "Arnesh Kumar v. State of Bihar",
   "jurisdiction": "India",
@@ -552,12 +552,20 @@
       "topics/bnss/s-99.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.100Z",
+  "sources": [
+    {
+      "type": "official_supreme_court_evidence",
+      "url": "https://api.sci.gov.in/supremecourt/2022/37889/37889_2022_5_2_67463_Judgement_15-Jan-2026.pdf",
+      "label": "Authoritative Supreme Court evidence inspected in verification loop."
+    }
+  ],
+  "verificationStatus": "verified_with_limitation",
+  "updatedAt": "2026-10-06T07:57:53.673Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED_WITH_LIMITATION",
+  "verificationNote": "Official Supreme Court follow-on reproduces the material arrest safeguards from Arnesh Kumar, (2014) 8 SCC 273; original 2014 judgment not inspected in this pass."
 }
