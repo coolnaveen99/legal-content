@@ -41,8 +41,8 @@ Torts lock was not advanced. Rows 15–16 and 18–41 remain `OPEN`. Nervous sho
 | 12 | Negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 13 | Res ipsa loquitur | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 14 | Contributory negligence | negligence.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
-| 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
-| 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | OPEN |
+| 15 | Nervous shock | tort-nervous-shock.json | DONE | DONE | PENDING | REVIEW — McLoughlin [1983] 1 AC 410 and Alcock [1992] 1 AC 310 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
+| 16 | Remoteness of damage | tort-remoteness-damage.json / negligence.json | DONE | DONE | PENDING | REVIEW — Wagon Mound No 1 [1961] AC 388 and Hughes [1963] AC 837 years and ratios corrected; official PDF not opened | PENDING | PENDING | PENDING | OPEN |
 | 17 | Nuisance | nuisance.json | DONE | DONE | DONE - verified | DONE - verified | DONE - validation PASS | DONE - integration PASS | DONE - production PASS | LOCKED |
 | 18 | Trespass to person | trespass-person.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
 | 19 | Trespass to land/property | trespass-property.json / trespass.json | DONE | REVIEW | REVIEW | REVIEW | PENDING | PENDING | PENDING | OPEN |
