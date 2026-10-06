@@ -2,30 +2,48 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:a-r-antulay-v-r-s-nayak-1992",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "A.R. Antulay v. R.S. Nayak",
   "jurisdiction": "India",
   "content": {
     "caseIdentity": "A.R. Antulay v. R.S. Nayak, (1992) 1 SCC 225",
-    "court": "",
+    "court": "Supreme Court of India",
     "decisionYear": 1992,
     "citation": "(1992) 1 SCC 225",
-    "facts": "",
-    "questionsBeforeCourt": [],
-    "ratioDecidendi": "",
-    "holding": "Guidelines for delay; no rigid outer limit that automatically terminates every delayed prosecution.",
-    "relevance": "Leading constitutional authority on speedy trial remedies.",
+    "facts": "The Constitution Bench considered the constitutional right to speedy trial and the effect of prolonged delay across investigation, inquiry, trial, appeal, revision and retrial.",
+    "questionsBeforeCourt": [
+      "Whether the right to speedy trial is part of Article 21.",
+      "How delay should be assessed and what remedies may follow from unconstitutional delay.",
+      "Whether a rigid universal time-limit should automatically terminate every delayed criminal proceeding."
+    ],
+    "ratioDecidendi": "The right to speedy trial is an integral part of Article 21. Delay must be assessed contextually, considering responsibility for delay, nature of the offence, number of accused and witnesses, court workload, systemic conditions and prejudice. No rigid universal outer limit can be prescribed for every prosecution.",
+    "holding": "The Court rejected a fixed automatic time-bar applicable to every delayed prosecution and laid down guiding principles for determining whether delay violates Article 21 and what remedy is appropriate.",
+    "relevance": "Leading Constitution Bench authority on the Article 21 right to speedy trial and contextual remedies for unconstitutional delay.",
     "sourceTopics": [
       "topics/bnss/doctrine-speedy-trial.json"
-    ]
+    ],
+    "judgmentDate": "1992-04-16"
   },
-  "sources": [],
+  "sources": [
+    {
+      "type": "official_follow_on",
+      "url": "https://api.sci.gov.in/jonew/judis/17587.pdf",
+      "label": "Official Supreme Court judgment citing A.R. Antulay, (1992) 1 SCC 225 and discussing its speedy-trial principles."
+    },
+    {
+      "type": "secondary_full_text",
+      "url": "https://urbanrightslegal.com/cases/a-r-antulay-v-r-s-nayak-1992",
+      "label": "Secondary full-text reproduction; not treated as issuing-court evidence."
+    }
+  ],
   "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.104Z",
+  "updatedAt": "2026-10-06T07:52:50.176Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "NEEDS_SOURCE",
+  "verificationNote": "The official Supreme Court follow-on source confirms the citation and core speedy-trial proposition, but the original 1992 issuing-court judgment was not located in an inspectable official PDF during this pass. The record therefore remains pending and is not promoted."
 }
