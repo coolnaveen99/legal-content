@@ -1,7 +1,7 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 10 — Authoritative Judgment Verification",
-  "generatedAt": "2026-10-06T07:59:09.397Z",
+  "generatedAt": "2026-10-06T08:37:18.951Z",
   "policy": [
     "Verification requires authoritative case-law evidence; a search result or secondary summary alone does not promote a judgment.",
     "The Supreme Court's own site provides judgment search facilities and its Landmark Judgment Summaries are informational aids, not substitutes for the Court's decision.",
@@ -15,9 +15,9 @@
   "summary": {
     "judgmentsAudited": 421,
     "priority1": 11,
-    "verified": 125,
-    "officialEvidenceAttached": 136,
-    "pending": 296
+    "verified": 126,
+    "officialEvidenceAttached": 137,
+    "pending": 295
   },
   "records": [
     {
@@ -157,16 +157,18 @@
       "name": "Addanki Narayanappa v. Bhaskara Krishnappa",
       "citation": "AIR 1966 SC 1300",
       "decisionYear": 1966,
-      "status": "review",
+      "status": "verified",
       "priority": "priority-2",
-      "officialEvidence": "not-attached",
-      "verification": "pending",
+      "officialEvidence": "attached",
+      "verification": "verified-against-authoritative-evidence",
       "requiredEvidence": [
         "authoritative Supreme Court judgment or SCR record",
         "citation and decision-date confirmation",
         "court/bench confirmation where available",
         "proposition-level verification before publication"
-      ]
+      ],
+      "verifiedAt": "2026-10-06T08:36:48.221Z",
+      "evidenceLevel": "official-primary"
     },
     {
       "id": "judgment:india:adm-jabalpur-v-shivkant-shukla-1976",
