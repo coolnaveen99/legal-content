@@ -150,6 +150,10 @@ This final phase is complete only when:
 **AI/provider work remains blocked until this phase closes.**
 
 
+## Environment decision — 2026-10-06
+
+Vercel deployment is intentionally stopped and is **not a blocker for repository-side FV-011 validation**. Schema, entity, relationship, preservation, canonical-delivery and CI evidence must be completed from repository/CI checks. Production deployment/smoke claims remain explicitly blocked until an actual production runtime is available; this is an environment dependency, not a reason to weaken or skip legal-content validation.
+
 ## Live reconciliation — 2026-10-06
 
 Live `main` has 421 historical judgment records represented in the verification ledger. The active judgment catalog now contains **136** records: **125 verified** and **11 verified-with-limitation**. **285 records are archived** (280 source-unavailable plus 5 previously archived catalog records, with the pending-review record included in the archived historical set); **0 needs-source** and **0 needs-review** remain active.
