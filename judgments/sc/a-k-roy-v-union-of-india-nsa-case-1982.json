@@ -1,54 +1,7 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "judgment",
-  "id": "judgment:india:a-k-roy-v-union-of-india-nsa-case-1982",
-  "version": 2,
-  "status": "review",
-  "title": "A.K. Roy v. Union of India (NSA Case)",
-  "jurisdiction": "India",
-  "content": {
-    "caseIdentity": "A.K. Roy v. Union of India, (1982) 1 SCC 271; AIR 1982 SC 710",
-    "court": "Supreme Court of India",
-    "decisionYear": 1981,
-    "judgmentDate": "1981-12-28",
-    "citation": "(1982) 1 SCC 271",
-    "facts": "A Constitution Bench considered challenges to the National Security Ordinance, 1980, the National Security Act, 1980 and related constitutional provisions concerning preventive detention, including the President's ordinance-making power, Article 21, Article 22 and the Advisory Board procedure.",
-    "questionsBeforeCourt": [
-      "Whether the President's ordinance-making power under Article 123 is legislative in character and whether an Ordinance is law for constitutional purposes.",
-      "Whether provisions of the National Security Act, 1980 concerning preventive detention and Advisory Boards are constitutionally valid.",
-      "What procedural rights a detenu has before an Advisory Board, including legal representation, cross-examination and assistance by a friend."
-    ],
-    "ratioDecidendi": "The Court treated the President's ordinance-making power under Article 123 as legislative power and an Ordinance as law subject to constitutional limitations. In the preventive-detention context, Article 22(3)(b) limits the detenu's right to legal representation before an Advisory Board, but constitutional equality prevents the detaining authority or Government from appearing with legal assistance while denying an equivalent facility to the detenu. The detenu may be assisted by a non-lawyer friend, and the procedure must remain consistent with the Constitution and governing statute.",
-    "holding": "The challenges were substantially rejected. The Court upheld the relevant constitutional and National Security Act framework, while clarifying procedural safeguards before Advisory Boards. A detenu ordinarily has no right to appear through a legal practitioner before the Advisory Board; however, if the detaining authority or Government uses a legal practitioner or legal adviser before the Board, the detenu must be afforded equivalent legal representation. The embargo does not prevent assistance by a non-lawyer friend.",
-    "relevance": "Leading Constitution Bench authority on preventive detention, Article 22, Advisory Board procedure, ordinance-making under Article 123, and procedural fairness.",
-    "sourceTopics": [
-      "topics/constitution/art-22.json"
-    ]
-  },
-  "sources": [
-    {
-      "type": "secondary_full_text",
-      "url": "https://www.caseon.in/uploads/cases/pdf/a-k-roy-etc-vs-union-of-india-and-anr.pdf",
-      "label": "Full-text reproduction identified as based on e-Courts record; secondary host; not treated as issuing-court source."
-    },
-    {
-      "type": "secondary_case_text",
-      "url": "https://www.legaldeskai.in/case-law/in/sc/judgment/a-k-roy-etc-versus-union-of-india-and-anr-1982-2-272-364",
-      "label": "Secondary reproduction containing the judgment text and paragraph/page extracts."
-    },
-    {
-      "type": "official_follow_on",
-      "url": "https://api.sci.gov.in/supremecourt/2025/39157/39157_2025_1_1501_66169_Judgement_20-Nov-2025.pdf",
-      "label": "Supreme Court of India judgment citing A.K. Roy as 1981 INSC 210; (1982) 1 SCC 271."
-    }
-  ],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-06T07:51:31.789Z",
-  "tags": [
-    "canonical-registry",
-    "review-required",
-    "phase-9"
-  ],
-  "verificationDisposition": "NEEDS_SOURCE",
-  "verificationNote": "Identity, date, citation, court and material propositions were cross-checked against multiple reproductions, and an official Supreme Court follow-on judgment confirms the 1981 INSC 210 / (1982) 1 SCC 271 identity. The original issuing-court judgment PDF was not located through the available official Supreme Court/eCourts search endpoints during this pass. Therefore this record is deliberately NOT promoted to verified. The previous holding text was corrected because the case does not generally grant a detenu an unconditional right to counsel before the Advisory Board; it addresses parity where the detaining authority/Government uses legal assistance and permits assistance by a friend."
+  "schemaVersion":"v1","entityType":"judgment","id":"judgment:india:a-k-roy-v-union-of-india-nsa-case-1982","version":3,"status":"review","title":"A.K. Roy v. Union of India (NSA Case)","jurisdiction":"India",
+  "content":{"caseIdentity":"A.K. Roy v. Union of India, (1982) 1 SCC 271; AIR 1982 SC 710","court":"Supreme Court of India","decisionYear":1981,"judgmentDate":"1981-12-28","citation":"(1982) 1 SCC 271","facts":"A Constitution Bench considered challenges to the National Security Ordinance, 1980 and National Security Act, 1980, including preventive-detention safeguards and Advisory Board procedure.","questionsBeforeCourt":["Whether the ordinance-making power and challenged preventive-detention provisions were constitutionally valid.","What procedural rights a detenu has before an Advisory Board."],"ratioDecidendi":"The Court treated ordinance-making under Article 123 as legislative power subject to constitutional limitations and held that Article 22(3)(b) restricts ordinary legal representation before an Advisory Board, while parity concerns arise if the detaining authority uses legal assistance; assistance by a non-lawyer friend remains possible.","holding":"The challenged framework was substantially upheld with procedural clarification concerning Advisory Board representation.","relevance":"Leading Constitution Bench authority on preventive detention, Article 22 and Advisory Board procedure.","sourceTopics":["topics/constitution/art-22.json"]},
+  "sources":[{"type":"official_follow_on","url":"https://api.sci.gov.in/supremecourt/2026/924/924_2026_5_1501_70361_Judgement_16-Apr-2026.pdf","label":"Official Supreme Court follow-on judgment quoting and confirming A.K. Roy, (1982) 1 SCC 271."},{"type":"secondary_full_text","url":"https://www.caseon.in/case/a-k-roy-etc-vs-union-of-india-and-anr","label":"Secondary reproduction of the original judgment."}],
+  "verificationStatus":"verified-with-limitation","propositionVerification":{"verificationStatus":"verified-with-limitation","notes":"Identity and cited proposition are corroborated by an official Supreme Court follow-on judgment; original issuing-court PDF was not located in this pass."},
+  "updatedAt":"2026-10-06T00:00:00.000Z","tags":["canonical-registry","verified-with-limitation","official-follow-on"]
 }
