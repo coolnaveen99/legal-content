@@ -176,10 +176,10 @@ Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PU
 ### Final verification queue
 
 - [ ] **FV-001** Re-audit the live judgment-verification inventory against current `legal-content/main`. The earlier readiness baseline contains **297 pending judgment-verification records**; this count must be reconciled before final closure.
-- [ ] **FV-002** Verify the pending judgment records against authoritative court/judgment sources.
+- [ ] **FV-002** Verify the pending judgment records using the open-corpus acquisition layer first (Open India Law / AWS Open Data), then retain authoritative publisher provenance and inspectable judgment evidence.
 - [ ] **FV-003** Verify judgment identity, citation, court, date, holding, ratio and material propositions.
 - [ ] **FV-004** Record source/paragraph/page evidence only where actually inspected; never fabricate references.
-- [ ] **FV-005** Re-audit the **112 migrated canonical topics currently in `review` state**.
+- [ ] **FV-005** Re-audit the **3,566 migrated canonical topics currently in `review` state**.
 - [ ] **FV-006** Verify statutory/current-law status and amendment/commencement issues for each review-state topic.
 - [ ] **FV-007** Verify every material case authority used by each review-state topic.
 - [ ] **FV-008** Correct unsupported/outdated propositions without overwriting preserved substantive baseline.
@@ -234,7 +234,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Final Authoritative Legal Verification & Publication Readiness.
 **Judgment verification baseline:** 297 pending records from the earlier readiness audit; FV-001 requires reconciliation against current `legal-content/main` before treating 297 as the exact live count.
-**Review-state publication baseline:** 112 migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
+**Review-state publication baseline:** 3,566 migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is COMPLETE_LOCKED; other enhanced batches remain subject to final verification/publication gates.
 **Current control item:** Final authoritative legal verification and publication readiness. Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
@@ -245,3 +245,13 @@ An item can be marked **COMPLETED** only when:
 **Rule:** Do not re-enhance existing completed topics; execute only missing gates/sections.
 **Standard checklist:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`.
 **Source sites:** use `docs/SOURCE-SITE-LOG.md` for every later enhancement. Add a site there before relying on it.
+
+
+### Open-corpus acquisition implementation — COMPLETE
+
+- Open-corpus policy: `docs/JUDGMENT-OPEN-CORPUS-SOURCE-POLICY.md`
+- Workflow: `docs/judgment-verification/README.md`
+- Matching script: `scripts/build-open-judgment-verification-queue.mjs`
+- Command: `npm run judgments:queue`
+- Acquisition layer: Open India Law + AWS Supreme Court/High Court Open Data.
+- Rule: acquisition/matching never marks a judgment verified; substantive verification remains FV-002/FV-003/FV-004.
