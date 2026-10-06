@@ -10,7 +10,9 @@
 - Repository-mapped: **44/44**
 - Verification gate advanced: **44/44**
 - Final COMPLETE_LOCKED: **0/44**
-- Case-law gate: remains open where relied-upon case authorities exist.
+- Case-law gate: **advanced for all 44 topics** at the shared-authority identity/ratio level; detailed topic-specific authority relevance and publication correction remain open.
+- Case-law evidence: `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`.
+- Shared authorities reconciled: 3 authorities × 44 topics = 132 case entries; no additional case authorities introduced.
 - Fresh judgment acquisition: deferred by the master execution sequence.
 
 ## Topic inventory
@@ -22,6 +24,12 @@
 The statutory/constitutional verification pass uses official India Code material applicable to the topics, including the Constitution of India, the Administrative Tribunals Act, 1985, the Lokpal and Lokayuktas Act, 2013, the Commissions of Inquiry Act, 1952, and other topic-specific enactments identified by each topic's provision metadata.
 
 India Code confirms the Administrative Tribunals Act's tribunal establishment, jurisdiction, procedure and limitation framework; the Lokpal Act establishes the Lokpal and its inquiry/prosecution structure; the Commissions of Inquiry Act provides the statutory framework for commissions; and Article 311 provides constitutional procedural protection for covered civil servants. These sources are used as authoritative statutory/constitutional anchors. 
+
+## Case-law verification result
+
+The 44 topic files were inspected and all 132 case entries resolve to the same three authorities: *A.K. Kraipak v. Union of India*, *Maneka Gandhi v. Union of India*, and *Tata Cellular v. Union of India*. Their identities, citations, courts and the propositions actually recorded in the topic files were checked against authoritative Supreme Court material. The *Kraipak* record carries an explicit limitation because the original 1969 judgment was not directly inspected; later Supreme Court judgments identify and reproduce/apply the relevant reasoning. No case was promoted merely from a secondary citation or search result.
+
+**Evidence:** `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`.
 
 ## Remaining gates
 
