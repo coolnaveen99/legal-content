@@ -16,9 +16,7 @@ The canonical legal-content repository remains the source of truth. Verification
 
 ### A. Judgment verification queue
 
-**Current unresolved source-acquisition count: 289 judgment records.** Seven records have now been classified `verified-with-limitation` after authoritative Supreme Court follow-on evidence was inspected. One record (Afcons Infrastructure Ltd. v. Cherian Varkey Construction, (2010) 8 SCC 24) has now been verified against the Supreme Court judgment PDF.
-
-The earlier 297 baseline has been reduced by one evidence-backed verification. Live queue state is now 421 judgment files: 125 fully verified, 7 verified-with-limitation, and 289 still requiring source acquisition.
+**Current active judgment catalog: 136 records — 125 fully verified and 11 verified-with-limitation.** Historical source-unavailable records from the earlier queue are archived separately and are no longer treated as an active verification queue. Future additions must be fresh records that pass authoritative-source verification before activation.
 
 Every pending judgment record must be classified as one of:
 
@@ -138,9 +136,9 @@ Promotion requires:
 
 This final phase is complete only when:
 
-- the 297-record baseline has been reconciled to an exact current queue;
+- the historical 297-record baseline has been reconciled into the active catalog and archived historical records;
 - every pending judgment record has a final evidence-backed disposition;
-- all 112 review-state migrated topics have a final publication disposition;
+- all 3,566 review-state migrated topics have a final publication disposition;
 - no review record is silently treated as published;
 - all authoritative source evidence is recorded;
 - preservation and canonical integrity remain PASS;
@@ -174,5 +172,5 @@ The matcher produces evidence and candidate matches only. It never marks a judgm
 
 The bulk corpora are intentionally kept outside the canonical repository. Source resolution is performed centrally; explicit per-record sources are retained when evidence is actually inspected.
 
-**Current phase position:** acquisition infrastructure COMPLETE; judgment substantive verification remains ACTIVE. AI/provider implementation remains LOCKED.
+**Current phase position:** acquisition infrastructure COMPLETE; judgment substantive verification remains ACTIVE. Torts is independently COMPLETE_LOCKED and is not part of the remaining open subject work unless a documented reopening trigger occurs. AI/provider implementation remains LOCKED.
 \n## Throughput decision — 2026-10-06\n\nThe unresolved Supreme Court source-acquisition queue is no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. The verification loop now processes the queue sequentially and records unavailable originals separately from authoritative follow-on evidence. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
