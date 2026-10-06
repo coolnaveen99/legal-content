@@ -409,16 +409,14 @@ function validateManifest(byId, entities) {
       if (live.version !== entry.version) fail(`manifest version mismatch for ${entry.path}`);
       if (live.status !== entry.status) fail(`manifest status mismatch for ${entry.path}`);
       if (entry.sha256 && entry.sha256 !== live.sha256) {
-        warn(`manifest sha256 mismatch for ${entry.path} (run npm run manifest:refresh)`);
+        fail(`manifest sha256 mismatch for ${entry.path} (run npm run manifest:refresh)`);
       }
     }
   }
 
   for (const e of entities) {
-    if (
-      (e.status === "published" || e.status === "review-due" || e.status === "archived") &&
-      !seenIds.has(e.id)
-    ) {
+    if (seenIds.has(e.id)) continue;
+    if (e.status === "published" || e.status === "review-due" || e.status === "archived") {
       fail(`published/review-due/archived entity missing from manifest: ${e.id} (${e.path})`);
     }
   }
