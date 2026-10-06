@@ -1,7 +1,7 @@
 # VER-001 Contract Subject Inventory — 2026-10-06
 
 ## Status
-**PARTIAL — inventory established; substantive section-by-section verification not yet complete.**
+**PARTIAL — inventory established; ICA §§1–2 verified; remaining Contract topics require section-by-section verification.**
 
 ### Canonical subject
 - Repository: `coolnaveen99/legal-content`
@@ -78,6 +78,14 @@ The current India Code record enumerates the Act's operative sections and expres
 - `specific-relief.json`
 - `void-agreements.json`
 
+### Verification progress
+
+| Unit | Status | Evidence |
+|---|---|---|
+| ICA §§1–2 | **VERIFIED** | `docs/VER-001-CONTRACT-ICA-S-1-2-VERIFICATION-2026-10-06.md`; commit `e3c15de36031b90c88aa6c663f27635dd02e1319` |
+| ICA §§3–9 | **NEXT** | Statutory verification not yet completed |
+| Remaining Contract inventory | **PENDING** | Sequential verification required |
+
 ### Verification rule
 For each topic before promotion:
 1. Map the topic to the exact statutory provision(s).
@@ -95,4 +103,4 @@ This document establishes the repository inventory and source anchor only. It do
 - India Code official PDF/text result was independently located during the 2026-10-06 verification pass.
 
 ## Next executable unit
-Proceed section-by-section through the 60-topic Contract inventory, beginning with ICA §§1–9, while preserving all migrated content and recording evidence per topic.
+Proceed section-by-section through the remaining Contract inventory, beginning with ICA §§3–9, while preserving all migrated content and recording evidence per topic. Do not reopen the verified ICA §§1–2 unit without a documented trigger.
