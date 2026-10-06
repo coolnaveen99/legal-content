@@ -126,12 +126,24 @@ jobs:
       - name: Relationship unit tests (PIL pilot)
         run: node scripts/test-relationships.mjs
 
+      - name: FV-012 production readiness gate
+        run: node scripts/verify-fv012-production-readiness.mjs
+
+      - name: FV-013 release snapshot gate
+        env:
+          RELEASE_STRICT: "true"
+        run: node scripts/verify-fv013-release-snapshot.mjs
+
+      - name: FV-014 rollback readiness gate
+        run: node scripts/verify-fv014-rollback-readiness.mjs
+
+
       - name: Commit regenerated content on main
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json manifests/phase-2-quality-audit.json manifests/phase-3-provenance-audit.json manifests/phase-3b-topic-verification.json manifests/phase-4-legal-verification.json manifests/phase-6-statutory-verification.json manifests/phase-7-statutory-deep-verification.json manifests/phase-8-judgment-verification.json manifests/phase-9-judgment-registry.json manifests/phase-10-authoritative-judgment-verification.json manifests/phase-11-proposition-verification.json manifests/phase-12-judgment-completeness.json manifests/phase-13-final-acceptance-readiness.json judgments
+          git add topics manifests/content-manifest.json manifests/relationship-index.json manifests/legacy-topic-migration.json manifests/phase-2-quality-audit.json manifests/phase-3-provenance-audit.json manifests/phase-3b-topic-verification.json manifests/phase-4-legal-verification.json manifests/phase-6-statutory-verification.json manifests/phase-7-statutory-deep-verification.json manifests/phase-8-judgment-verification.json manifests/phase-9-judgment-registry.json manifests/phase-10-authoritative-judgment-verification.json manifests/phase-11-proposition-verification.json manifests/phase-12-judgment-completeness.json manifests/phase-13-final-acceptance-readiness.json manifests/fv-012-production-readiness.json manifests/fv-013-release-snapshot.json manifests/fv-014-rollback-readiness.json docs/FV-012-PRODUCTION-READINESS-REPORT.md docs/FV-013-RELEASE-SNAPSHOT.md docs/FV-014-ROLLBACK-READINESS.md judgments
           if git diff --staged --quiet; then
             echo "No generated content changes to commit"
           else
