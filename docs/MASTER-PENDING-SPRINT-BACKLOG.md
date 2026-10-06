@@ -184,7 +184,7 @@
 | VER-007 | **PARTIAL — VERIFICATION METADATA LEDGER ADDED** | Record verification date and verifier consistently. |
 | VER-008 | **COMPLETED** | Existing promotion gate remains controlling. |
 | VER-009 | **COMPLETED for Torts** | Torts is COMPLETE_LOCKED; do not reopen without a documented trigger. |
-| VER-010 | **OPEN** | Apply publication status only after the complete publication criteria pass. |
+| VER-010 | **PARTIAL — PUBLICATION GATE AUDITED** | Apply publication status only after the complete publication criteria pass. |
 | VER-011 | **COMPLETED** | Torts subject-level ledger exists and is reconciled. |
 | VER-012 | **OPEN** | Produce final full-catalog verification report after VER-001–010 evidence is complete. |
 
