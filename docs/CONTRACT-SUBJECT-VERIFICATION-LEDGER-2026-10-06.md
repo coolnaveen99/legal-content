@@ -89,6 +89,15 @@ Single-subject control ledger for the complete Contract collection. This ledger 
 | 59 | specific-relief.json | Specific Relief Act / contract remedies | SOURCE-VERIFICATION-PENDING |
 | 60 | void-agreements.json | ICA §§20–30 | SOURCE-VERIFICATION-PENDING |
 
+## Reconciliation update — 2026-10-06
+
+A repository-wide status audit found 18 Contract files carrying `published` while their own verification metadata remained `lastVerifiedAt: null` / `caseLawGate: not-opened`. Those 18 files were downgraded to `review` without changing substantive content. The remaining Contract topic files were already `review` in the audit. Contract therefore has **0 topics published and 60 topics in review** pending substantive verification.
+
+Corrections committed on main:
+- 7099b7b44d6b5764a698d6be4f18fcb64c9ec530 — false publication status batch 1
+- 58a0ad67654351d2b9d03691fefe7dd30b234e6e — false publication status batch 2
+- 37c83245566748826c740e4c3e4019859fac9e6c — false publication status batch 3
+
 ## Gate
 The subject remains **IN PROGRESS**. No row is promoted from this ledger alone. Completion requires:
 1. exact statutory mapping;
