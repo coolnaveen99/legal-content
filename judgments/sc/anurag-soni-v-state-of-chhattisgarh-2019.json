@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:anurag-soni-v-state-of-chhattisgarh-2019",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verified",
   "title": "Anurag Soni v. State of Chhattisgarh",
   "jurisdiction": "India",
   "content": {
@@ -20,12 +20,44 @@
       "topics/bns/s-69.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.100Z",
+  "sources": [
+    {
+      "type": "official_supreme_court",
+      "url": "https://api.sci.gov.in/supremecourt/2018/48211/48211_2018_Judgement_09-Apr-2019.pdf",
+      "label": "Supreme Court of India authoritative judgment PDF"
+    }
+  ],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED",
+  "verificationNote": "Original Supreme Court judgment inspected; official PDF identifies Criminal Appeal No.629/2019, judgment dated 09-Apr-2019 and the conviction context. The Court addresses consent obtained on a misconception of fact where a promise to marry was false from inception.",
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-primary",
+    "verificationStatus": "verified",
+    "evidence": [
+      {
+        "type": "official-primary",
+        "url": "https://api.sci.gov.in/supremecourt/2018/48211/48211_2018_Judgement_09-Apr-2019.pdf",
+        "note": "Original judgment inspected."
+      }
+    ],
+    "propositionsAudited": [
+      "caseIdentity",
+      "court",
+      "judgmentDate",
+      "citation",
+      "facts",
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 8,
+    "missingContextFields": []
+  }
 }
