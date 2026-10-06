@@ -39,7 +39,7 @@
 - [x] **S0-012** Prevent normal CI from overwriting enhancements with legacy content.
 - [x] **S0-013** Establish enhancement schema and validation contract.
 - [ ] **S0-014** Add a documented recovery drill for restoring a damaged topic and reapplying its enhancement.
-- [ ] **S0-015** Run a full baseline/preservation audit before large-scale enhancement begins.
+- [x] **S0-015** Run a full baseline/preservation audit before large-scale enhancement begins. Evidence: `docs/CONTENT-PRESERVATION-AUDIT-2026-10-06.md`; 3,551 real migrated topics preserved; canonical baseline protection reports 3,648 compared / 0 shortened.
 
 ## 3. Sprint 1 — Enhancement framework hardening
 
