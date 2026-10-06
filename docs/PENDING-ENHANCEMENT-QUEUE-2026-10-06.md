@@ -85,6 +85,6 @@ docs/ENH-006-QUALITY-REPORT.md and docs/ENH-009-SUBJECT-PROGRESS.md remain histo
 
 ## Current execution pointer
 
-**NEXT: E-03 Arbitration — full 132-topic inventory, enhancement and preservation-controlled batch.**
+**ACTIVE: E-03 Arbitration — 5/132 topics enhanced in E-03A (s-7, s-8, s-9, s-11, s-16). Remaining Arbitration scope: 127 topics.**
 
 Do not reopen Contract, Constitution, HMA, Limitation, Registration, SRA or Torts without a documented reopening trigger. Do not restart Admin as a bulk enhancement subject. Fresh judgment acquisition remains deferred until the Final Content Quality Pass. AI/provider remains last.
