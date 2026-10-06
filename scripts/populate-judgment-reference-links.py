@@ -149,6 +149,11 @@ def main():
 
     print(f"Reference links populated: {updated}")
     print(f"Unmatched pending records: {len(unmatched)}")
+    if not unmatched and updated == len(pending):
+        workflow = ROOT / ".github" / "workflows" / "populate-judgment-reference-links.yml"
+        if workflow.exists():
+            workflow.unlink()
+            print("All pending records matched; removing one-shot workflow.")
     if unmatched:
         Path(ROOT / "docs" / "judgment-verification").mkdir(parents=True, exist_ok=True)
         report = ROOT / "docs" / "judgment-verification" / "REFERENCE-LINK-QUEUE.md"
