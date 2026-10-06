@@ -131,7 +131,7 @@ function walkJsonFiles(dir) {
     for (const name of fs.readdirSync(cur)) {
       const p = path.join(cur, name);
       const st = fs.statSync(p);
-      if (st.isDirectory()) stack.push(p);
+      if (st.isDirectory() && name !== "archive") stack.push(p);
       else if (name.endsWith(".json")) out.push(p);
     }
   }
