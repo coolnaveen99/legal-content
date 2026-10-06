@@ -145,7 +145,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "assembled-from-migrated",
       "learningObjectives": [
         "State the rule recorded for Nervous shock is a historical label for actionable psychiatric injury caused by wrongful conduct.",
@@ -207,7 +207,26 @@
         }
       ],
       "caseLaw": [],
-      "caseLawGate": "not-opened"
+      "caseLawGate": "not-opened",
+      "verificationNotes": [
+        "Indian primary-source verification added 2026-10-06.",
+        "R.D. Hattangadi v. Pest Control (India) (P) Ltd., (1995) 1 SCC 551, as reproduced and applied by the Supreme Court in an official judgment, recognizes non-pecuniary damages including mental and physical shock, pain and suffering.",
+        "The comparative common-law authorities McLoughlin v O'Brian and Alcock v Chief Constable of South Yorkshire Police remain identified as comparative authorities; they are not represented as Indian Supreme Court authorities.",
+        "Indian tort law is uncodified; the topic should distinguish compensable mental shock/psychiatric injury from ordinary distress and apply negligence, causation, proof and limitation to the facts."
+      ]
+    },
+    "authoritativeSources": [
+      "Supreme Court of India official judgment service: https://www.sci.gov.in/judgements-case/",
+      "Supreme Court of India judgment applying R.D. Hattangadi principles: https://api.sci.gov.in/supremecourt/2018/26338/26338_2018_1_1502_39777_Judgement_16-Nov-2022.pdf"
+    ],
+    "verification": {
+      "lastVerifiedAt": "2026-10-06",
+      "verifiedBy": "OpenAI verification pass",
+      "notes": [
+        "Verified the Indian compensatory principle on mental and physical shock through an official Supreme Court judgment citing R.D. Hattangadi, (1995) 1 SCC 551.",
+        "McLoughlin v O'Brian and Alcock are retained as comparative common-law authorities and are not promoted as Indian binding authorities.",
+        "No new Indian legal proposition was invented; the topic's current-law framing remains negligence-based and evidence-dependent."
+      ]
     }
   },
   "sources": [
