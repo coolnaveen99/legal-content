@@ -18,7 +18,7 @@ The canonical legal-content repository remains the source of truth. Verification
 
 **Baseline pending count: 297 judgment records.**
 
-The 297 figure is retained as the execution baseline from the earlier judgment-verification/readiness audit. It must be **re-audited against current `legal-content/main` before being treated as the exact live count**.
+The 297 figure has now been reconciled against the live `legal-content/main` judgment inventory and matches the pending count recorded by Phase 10. It remains a queue count, not a verification result.
 
 Every pending judgment record must be classified as one of:
 
@@ -33,7 +33,7 @@ No judgment may be marked authoritative merely because an AI-generated summary, 
 
 ### B. Review-state migrated-topic queue
 
-**Current publication-readiness baseline: 112 canonical migrated topics in `review` state.**
+**Current publication-readiness state: 3,566 canonical topics in `review` and 86 in `published` state.**
 
 These records passed migration/catalog parity but are intentionally not production-published. Each requires authoritative provenance/current-law verification before promotion.
 
@@ -156,6 +156,22 @@ This final phase is complete only when:
 
 Live `main` has 421 judgment files. Phase 10 already recorded 124 as verified against authoritative evidence and 297 as pending. That 297 baseline matches the live pending count. This pass did not open official judgment text for the 297 pending records, so they are dispositioned `needs-source`. Existing files were preserved. No judgment was newly marked verified. Paragraph-level verification is unavailable for the pending queue.
 
-Live topic status is 3,566 `review` and 86 `published`, not the earlier 112 review-state baseline. Those review topics were not promoted.
+Live topic status is 3,566 `review` and 86 `published`, superseding the earlier 112 review-state baseline. Those review topics were not promoted.
 
 AI/provider implementation remains locked.
+
+## Open-corpus acquisition implementation — 2026-10-06
+
+The AI-accessible judgment acquisition layer is now implemented in the canonical repository.
+
+- Policy: `docs/JUDGMENT-OPEN-CORPUS-SOURCE-POLICY.md`
+- Workflow: `docs/judgment-verification/README.md`
+- Matcher: `scripts/build-open-judgment-verification-queue.mjs`
+- Package command: `npm run judgments:queue`
+- Registered sources: AWS Supreme Court Judgments, AWS High Court Judgments, and Open India Law.
+
+The matcher produces evidence and candidate matches only. It never marks a judgment `verified` automatically. A matched judgment must still pass text inspection, identity/citation checks, ratio verification and current-law/later-treatment checks.
+
+The bulk corpora are intentionally kept outside the canonical repository; only metadata, provenance, hashes/evidence and final verification status belong in legal-content.
+
+**Current phase position:** acquisition infrastructure COMPLETE; judgment substantive verification remains ACTIVE. AI/provider implementation remains LOCKED.
