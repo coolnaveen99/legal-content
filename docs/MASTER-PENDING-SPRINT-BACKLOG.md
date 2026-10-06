@@ -181,7 +181,7 @@
 | VER-004 | **PARTIAL — DIRECT RATIO CHECK ADDED** | Verify case principles/ratio against authoritative judgments. |
 | VER-005 | **PARTIAL — OFFICIAL SOURCE STANDARD RECORDED** | Audit source URLs and authority classification; reject weak/secondary-only authority for verified status. |
 | VER-006 | **PARTIAL — TRANSITION FLAGS RECORDED** | Identify outdated, repealed or superseded propositions. |
-| VER-007 | **OPEN** | Record verification date and verifier consistently. |
+| VER-007 | **PARTIAL — VERIFICATION METADATA LEDGER ADDED** | Record verification date and verifier consistently. |
 | VER-008 | **COMPLETED** | Existing promotion gate remains controlling. |
 | VER-009 | **COMPLETED for Torts** | Torts is COMPLETE_LOCKED; do not reopen without a documented trigger. |
 | VER-010 | **OPEN** | Apply publication status only after the complete publication criteria pass. |
