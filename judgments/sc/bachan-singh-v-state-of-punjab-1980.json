@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:bachan-singh-v-state-of-punjab-1980",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verified",
   "title": "Bachan Singh v. State of Punjab",
   "jurisdiction": "India",
   "content": {
@@ -20,20 +20,44 @@
       "topics/bns/s-4.json"
     ]
   },
-  "sources": [],
+  "sources": [
+    {
+      "type": "official_supreme_court",
+      "url": "https://api.sci.gov.in/jonew/judis/9886.pdf",
+      "label": "Official Supreme Court of India judgment PDF; inspected for identity, date, citation, issues and majority holdings."
+    }
+  ],
   "verificationStatus": "verified",
-  "updatedAt": "2026-10-02T10:30:00Z",
+  "updatedAt": "2026-10-06T08:37:25.678Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
   ],
   "propositionVerification": {
-    "phase": "10",
-    "evidenceLevel": "official-corrob",
-    "verificationStatus": "verified-against-authoritative-evidence",
-    "reviewedAt": "2026-10-02T10:30:00Z",
-    "evidenceUrl": "https://api.sci.gov.in/supremecourt/2017/12811/12811_2017_4_1501_48305_Judgement_09-Nov-2023.pdf",
-    "note": "Official Supreme Court judgment corroborates the citation and the Bachan Singh sentencing framework, including equal consideration of aggravating and mitigating circumstances."
-  }
+    "phase": "11",
+    "evidenceLevel": "official-primary",
+    "verificationStatus": "verified",
+    "evidence": [
+      {
+        "type": "official-primary",
+        "url": "https://api.sci.gov.in/jonew/judis/9886.pdf",
+        "note": "Original judgment inspected; material propositions confirmed from the headnote and opening 159-page judgment."
+      }
+    ],
+    "propositionsAudited": [
+      "caseIdentity",
+      "court",
+      "judgmentDate",
+      "citation",
+      "facts",
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 8,
+    "missingContextFields": []
+  },
+  "verificationDisposition": "VERIFIED",
+  "verificationNote": "Verified against the official Supreme Court of India judgment PDF. The official record gives judgment date 16 August 1982, five-judge bench, AIR 1982 SC 1325 and (1982) 3 SCC 24. The majority upheld Section 302 IPC and Section 354(3) CrPC and held that death penalty should be reserved for exceptional cases, with 'special reasons' understood in that context."
 }
