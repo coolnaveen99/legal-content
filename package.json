@@ -14,7 +14,8 @@
     "test:relationships": "node scripts/test-relationships.mjs",
     "verify:legacy-preservation": "node scripts/verify-legacy-preservation.mjs",
     "validate:enhancements": "node scripts/validate-enhancements.mjs",
-    "report:enhancements": "node scripts/report-enhancement-progress.mjs"
+    "report:enhancements": "node scripts/report-enhancement-progress.mjs",
+    "judgments:queue": "node scripts/build-open-judgment-verification-queue.mjs"
   },
   "engines": {
     "node": ">=18"
