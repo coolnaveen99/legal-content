@@ -145,7 +145,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "1",
-      "status": "in-progress",
+      "status": "verified",
       "coverage": "assembled-from-migrated",
       "learningObjectives": [
         "State the rule recorded for Remoteness limits recovery to damage sufficiently connected with the tort.",
@@ -207,7 +207,26 @@
         }
       ],
       "caseLaw": [],
-      "caseLawGate": "not-opened"
+      "caseLawGate": "not-opened",
+      "verificationNotes": [
+        "Indian primary-source verification added 2026-10-06.",
+        "Rajkot Municipal Corporation v. Manjulben Jayantilal Nakum, (1997) 9 SCC 552, is cited in an official Supreme Court judgment for the tort of negligence and expressly recognizes remoteness as relevant to liability and compensation.",
+        "The Wagon Mound and Hughes authorities remain identified as comparative common-law authorities; they are not represented as Indian Supreme Court authorities.",
+        "The topic distinguishes factual causation from legal remoteness and applies reasonable foreseeability to the kind of damage."
+      ]
+    },
+    "authoritativeSources": [
+      "Supreme Court of India official judgment service: https://www.sci.gov.in/judgements-case/",
+      "Supreme Court of India official judgment discussing Rajkot Municipal Corporation v. Manjulben Jayantilal Nakum and remoteness: https://api.sci.gov.in/supremecourt/2015/20639/20639_2015_Judgement_15-Mar-2019.pdf"
+    ],
+    "verification": {
+      "lastVerifiedAt": "2026-10-06",
+      "verifiedBy": "OpenAI verification pass",
+      "notes": [
+        "Verified Indian Supreme Court treatment of negligence, duty, breach, damage and remoteness through the official Rajkot Municipal Corporation judgment.",
+        "The Wagon Mound and Hughes v Lord Advocate remain comparative common-law authorities and are not promoted as Indian binding authorities.",
+        "No unsupported Indian statutory rule was added."
+      ]
     }
   },
   "sources": [
