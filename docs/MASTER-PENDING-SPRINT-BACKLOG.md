@@ -90,7 +90,7 @@
 - [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Completed and preserved in canonical inventory.
 - [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement and verification within the unified Contract subject inventory.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
-- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance and final publication gates remain open.
+- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance is now curated for 6/44 Admin topics, with 38/44 remaining; final publication gates remain open.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
@@ -267,7 +267,7 @@ An item can be marked **COMPLETED** only when:
 
 ## 12. Current execution pointer
 
-**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with Administrative Law advanced through its 44-topic statutory/constitutional gate and shared case-law identity/ratio pass; topic-specific authority relevance and final publication gates remain open. Fresh judgment acquisition remains deferred until after the Final Content Quality Pass.
+**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with Administrative Law advanced through its 44-topic statutory/constitutional gate and shared case-law identity/ratio pass; topic-specific authority relevance is 6/44 complete, 38/44 remain; final publication gates remain open. Fresh judgment acquisition remains deferred until after the Final Content Quality Pass.
 **Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Existing/pending judgment verification remains governed by FV-002–FV-004. Future *new* judgment additions are deferred until after the Final Content Quality Pass and must then be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** **3,566** migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is **COMPLETE_LOCKED**; other enhanced batches remain subject to final verification/publication gates.
