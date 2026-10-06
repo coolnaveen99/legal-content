@@ -103,7 +103,7 @@ No topic is promoted merely because this verification ledger exists.
 
 ## Topic-specific relevance pass — Batch 1
 
-**Completed:** 6/44 Admin topics were re-curated on `main` on 2026-10-06:
+**Completed:** 12/44 Admin topics were re-curated on `main` on 2026-10-06:
 
 - `admin-rule-of-law-formal-ideological.json`
 - `admin-rule-of-law-constitutional.json`
@@ -111,10 +111,18 @@ No topic is promoted merely because this verification ledger exists.
 - `admin-separation-comparative.json`
 - `admin-delegated-legislation.json`
 - `admin-legitimate-expectation.json`
+- `admin-judicial-review.json`
+- `admin-ombudsman.json`
+- `admin-tribunals-structure.json`
+- `admin-tribunals-advantages.json`
+- `admin-tribunals-features.json`
+- `admin-public-corporations.json`
+- `admin-promissory-estoppel.json`
+- `admin-rulemaking-control.json`
 
-The generic three-case set was replaced with topic-specific authorities. For delegated legislation, the replacement set uses *In re Delhi Laws Act*, *Hamdard Dawakhana*, and *Gwalior Rayon*. For legitimate expectation, it uses *Hindustan Development Corporation*, *Kamdhenu Cattle Feed*, and *Punjab Communications*. For separation/rule-of-law topics, it uses *Ram Jawaya Kapur*, *Kesavananda Bharati*, *Indira Nehru Gandhi*, *I.R. Coelho*, and *Asif Hameed* as applicable to the individual topic.
+The generic three-case set was replaced with topic-specific authorities. For delegated legislation, the replacement set uses *In re Delhi Laws Act*, *Hamdard Dawakhana*, and *Gwalior Rayon*. For legitimate expectation, it uses *Hindustan Development Corporation*, *Kamdhenu Cattle Feed*, and *Punjab Communications*. For separation/rule-of-law topics, it uses *Ram Jawaya Kapur*, *Kesavananda Bharati*, *Indira Nehru Gandhi*, *I.R. Coelho*, and *Asif Hameed* as applicable. The second batch separately curated judicial review, Ombudsman/Lokpal accountability, tribunals, public corporations, promissory estoppel, and control of subordinate legislation.
 
-**Remaining:** 38/44 Admin topics require the same topic-specific relevance/quality pass. No remaining topic is promoted to `verified`/published merely from the batch update.
+**Remaining:** 32/44 Admin topics require the same topic-specific relevance/quality pass. No remaining topic is promoted to `verified`/published merely from the batch update.
 
 ### Next executable Admin gate
 
