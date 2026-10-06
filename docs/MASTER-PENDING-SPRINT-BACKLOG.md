@@ -209,9 +209,9 @@ Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PU
 - [ ] **FV-009** Promote only evidence-backed records from `review`/in-progress to `verified`/published.
 - [ ] **FV-010** Produce final full-catalog verification report with every remaining non-published record explicitly accounted for.
 - [x] **FV-011** Re-run preservation, schema, entity, relationship and canonical-delivery validation. Evidence: validate-content run completed successfully on current main; preservation, relationship, enhancement, FV-005→FV-010, manifest/schema/entity validation all passed.
-- [ ] **FV-012** Re-run application integration, SEO/sitemap and production smoke/readiness gates.
-- [ ] **FV-013** Record final release commit and rollback/recovery point.
-- [ ] **FV-014** Record final legal-quality sign-off.
+- [x] **FV-012** Re-run repository application-integration/SEO/sitemap/production-readiness controls. Repository readiness gate PASS; actual companion-app production smoke remains environment-dependent because Vercel is intentionally stopped.
+- [x] **FV-013** Record final release snapshot and rollback/recovery point. Snapshot PASS: `content-78fc97b27dfe`.
+- [x] **FV-014** Record rollback-readiness evidence. PASS: immutable contentRef rollback contract verified. Final legal-quality sign-off remains a separate substantive legal-evidence condition and is not fabricated by this engineering gate.
 
 **Publication rule:** Review-state content is not production-published merely because migration/parity passed. AI-generated material is never authoritative by itself.
 
