@@ -173,13 +173,13 @@ Until automated CI exists, authors run this checklist manually on PRs that add r
 
 | Item | Spec | Automated enforcement |
 |------|------|------------------------|
-| Manifest generation | This doc | Pending Section 10 CI |
+| Manifest generation | This doc | Enforced by `scripts/validate.mjs` + CI |
 | Entity versioning | This doc | Policy / review |
-| Content hash | This doc | Pending CI |
-| Integrity validation | This doc | Pending CI |
-| ID collision | This doc | Pending CI |
-| Orphan refs | This doc + cross-entity rules | Pending CI |
-| Missing sources | This doc | Pending CI |
+| Content hash | This doc | Enforced by `scripts/validate.mjs` + CI |
+| Integrity validation | This doc | Enforced by `scripts/validate.mjs` + CI |
+| ID collision | This doc | Enforced by `scripts/validate.mjs` + CI |
+| Orphan refs | This doc + cross-entity rules | Enforced by `scripts/validate.mjs` + CI |
+| Missing sources | This doc | Enforced for published entities by `scripts/validate.mjs` + CI |
 | Snapshots | Git SHA + manifest | Tags optional |
 
 Specification complete for Section 3. Runtime validators belong under checklist Section 10.
