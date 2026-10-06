@@ -90,7 +90,7 @@
 - [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Completed and preserved in canonical inventory.
 - [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement and verification within the unified Contract subject inventory.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
-- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; case-law verification and final publication gates remain open.
+- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance and final publication gates remain open.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
@@ -106,8 +106,8 @@
 
 - [x] **VER-001** Verify statutory text against authoritative current sources. **COMPLETE for Contract:** all 60 canonical Contract topic records are verified/reconciled. Evidence: `docs/VER-001-CONTRACT-COMPLETION-2026-10-06.md` and `docs/VER-001-CONTRACT-INVENTORY-2026-10-06.md`. Continue VER-001 for the next subject without reopening Contract.
 - [ ] **VER-002** Verify amendment/current-law status where applicable.
-- [ ] **VER-003** Verify case names, citations and courts.
-- [ ] **VER-004** Verify case principles/ratio against authoritative judgments.
+- [ ] **VER-003** Verify case names, citations and courts. **Admin scope advanced:** 44/44 topics and 132/132 case entries reconciled to 3 shared authorities; evidence: `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`. Global gate remains open for the rest of the catalog.
+- [ ] **VER-004** Verify case principles/ratio against authoritative judgments. **Admin scope advanced:** propositions in all 44 Admin topic files checked against authoritative Supreme Court material; *Kraipak* retains an explicit original-source inspection limitation. Global gate remains open for the rest of the catalog.
 - [ ] **VER-005** Verify source URLs and source authority.
 - [ ] **VER-006** Identify outdated/repealed/superseded propositions.
 - [ ] **VER-007** Record verification date and verifier.
@@ -177,8 +177,8 @@
 |---|---|---|
 | VER-001 | **PARTIAL / SCOPED** | Expand statutory source checks only for in-scope subjects; excluded statutory families remain untouched. |
 | VER-002 | **PARTIAL — TRANSITION LEDGER ADDED** | `docs/VER-002-CURRENT-LAW-AMENDMENT-LEDGER-2026-10-06.md` records verified transition-sensitive findings for Industrial Relations/Industrial Disputes and Income-tax; proposition-level review remains required. |
-| VER-003 | **PARTIAL — DIRECT CASE CHECK ADDED** | Verify case names, citations and courts against authoritative case records. |
-| VER-004 | **PARTIAL — DIRECT RATIO CHECK ADDED** | Verify case principles/ratio against authoritative judgments. |
+| VER-003 | **PARTIAL — ADMIN 44-TOPIC PASS** | Continue case identity/citation/court verification for remaining in-scope subjects; Admin evidence is recorded in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`. |
+| VER-004 | **PARTIAL — ADMIN 44-TOPIC PASS** | Continue ratio verification for remaining in-scope subjects; Admin propositions are verified with the documented *Kraipak* source limitation. |
 | VER-005 | **PARTIAL — OFFICIAL SOURCE STANDARD RECORDED** | Audit source URLs and authority classification; reject weak/secondary-only authority for verified status. |
 | VER-006 | **PARTIAL — TRANSITION FLAGS RECORDED** | Identify outdated, repealed or superseded propositions. |
 | VER-007 | **PARTIAL — VERIFICATION METADATA LEDGER ADDED** | Record verification date and verifier consistently. |
@@ -267,7 +267,7 @@ An item can be marked **COMPLETED** only when:
 
 ## 12. Current execution pointer
 
-**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with Administrative Law now advanced through its 44-topic statutory/constitutional verification gate; case-law and final publication gates remain open. Fresh judgment acquisition remains deferred until after the Final Content Quality Pass.
+**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with Administrative Law advanced through its 44-topic statutory/constitutional gate and shared case-law identity/ratio pass; topic-specific authority relevance and final publication gates remain open. Fresh judgment acquisition remains deferred until after the Final Content Quality Pass.
 **Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Existing/pending judgment verification remains governed by FV-002–FV-004. Future *new* judgment additions are deferred until after the Final Content Quality Pass and must then be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** **3,566** migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is **COMPLETE_LOCKED**; other enhanced batches remain subject to final verification/publication gates.
