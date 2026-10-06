@@ -167,7 +167,36 @@
 - [ ] **QUAL-010** Check current-law warnings where relevant.
 - [ ] **QUAL-011** Re-run preservation and legal validation after corrections.
 
-## 9. Sprint 7 — Final AI phase (must remain last)
+## 9. Sprint 7 — Final Authoritative Legal Verification & Publication Readiness
+
+**Status: ACTIVE — FINAL NON-AI PHASE**
+
+Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PUBLICATION-READINESS.md`.
+
+### Final verification queue
+
+- [ ] **FV-001** Re-audit the live judgment-verification inventory against current `legal-content/main`. The earlier readiness baseline contains **297 pending judgment-verification records**; this count must be reconciled before final closure.
+- [ ] **FV-002** Verify the pending judgment records against authoritative court/judgment sources.
+- [ ] **FV-003** Verify judgment identity, citation, court, date, holding, ratio and material propositions.
+- [ ] **FV-004** Record source/paragraph/page evidence only where actually inspected; never fabricate references.
+- [ ] **FV-005** Re-audit the **112 migrated canonical topics currently in `review` state**.
+- [ ] **FV-006** Verify statutory/current-law status and amendment/commencement issues for each review-state topic.
+- [ ] **FV-007** Verify every material case authority used by each review-state topic.
+- [ ] **FV-008** Correct unsupported/outdated propositions without overwriting preserved substantive baseline.
+- [ ] **FV-009** Promote only evidence-backed records from `review`/in-progress to `verified`/published.
+- [ ] **FV-010** Produce final full-catalog verification report with every remaining non-published record explicitly accounted for.
+- [ ] **FV-011** Re-run preservation, schema, entity, relationship and canonical-delivery validation.
+- [ ] **FV-012** Re-run application integration, SEO/sitemap and production smoke/readiness gates.
+- [ ] **FV-013** Record final release commit and rollback/recovery point.
+- [ ] **FV-014** Record final legal-quality sign-off.
+
+**Publication rule:** Review-state content is not production-published merely because migration/parity passed. AI-generated material is never authoritative by itself.
+
+**Queue dependency:** Judgment verification must be completed before dependent topics relying materially on those judgments are promoted.
+
+**AI gate:** Sprint 8 / AI-provider work remains blocked until FV-001 through FV-014 are closed.
+
+## 10. Sprint 8 — Final AI phase (must remain last)
 
 **Gate:** Do not start until all non-AI enhancement, verification, integration and production-readiness work above is complete.
 
@@ -189,7 +218,7 @@
 - [ ] **AI-016** Perform production readiness and rollback test.
 - [ ] **AI-017** Final AI release audit.
 
-## 10. Definition of Done
+## 11. Definition of Done
 
 An item can be marked **COMPLETED** only when:
 - implementation/documentation exists;
@@ -201,11 +230,13 @@ An item can be marked **COMPLETED** only when:
 - the commit is on `main`;
 - no unsupported production claim is made.
 
-## 11. Current execution pointer
+## 12. Current execution pointer
 
-**Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
-**Verified enhancements:** 0.
-**Current control item:** Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
+**Current batch:** Final Authoritative Legal Verification & Publication Readiness.
+**Judgment verification baseline:** 297 pending records from the earlier readiness audit; FV-001 requires reconciliation against current `legal-content/main` before treating 297 as the exact live count.
+**Review-state publication baseline:** 112 migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
+**Verified enhancements:** Torts is COMPLETE_LOCKED; other enhanced batches remain subject to final verification/publication gates.
+**Current control item:** Final authoritative legal verification and publication readiness. Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **HMA working set:** COMPLETE_LOCKED by owner instruction on 2026-10-03. India Code PDF was not opened and that gate is waived for this subject only. Named judgment PDFs were opened. Do not rework HMA unless a reopening trigger exists. Next subject is not started.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
