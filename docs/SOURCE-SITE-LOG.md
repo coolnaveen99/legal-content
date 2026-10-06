@@ -57,3 +57,13 @@ Indian Kanoon, blogs, commentaries, and model-answer sites are not an authority 
 | G.S.R. 756(E), 18 October 2023 | https://egazette.gov.in/WriteReadData/2023/249538.pdf | PLIA Jan Vishwas entries in force 1 April 2024 |
 
 | G.S.R. 772(E), 17 December 2024 | https://moef.gov.in/storage/tender/1735217194.pdf | PLIA prescribed relief amounts and insurance cap |
+
+## Open bulk judgment acquisition (AI verification layer)
+
+| Use | Site | Role |
+|---|---|---|
+| Supreme Court bulk judgments | https://registry.opendata.aws/indian-supreme-court-judgments/ | Trusted open bulk corpus; downloaded from eCourts; metadata, Parquet, JSON and PDFs; CC-BY-4.0. Use for bulk acquisition/matching, not as a substitute for publisher provenance. |
+| High Court bulk judgments | https://registry.opendata.aws/indian-high-court-judgments/ | Trusted open bulk corpus for 25 High Courts; downloaded from eCourts; metadata, Parquet, JSON and PDFs; CC-BY-4.0. |
+| Open India Law | https://github.com/Vaquill-AI/open-india-law | Structured research corpus from official government sources; publisher/source provenance retained. Use for bulk matching and text retrieval; snapshot is not proof of current law. |
+
+These open corpora are now the primary AI-accessible acquisition layer for FV-001/FV-005. They do not independently promote a record to verified. Official publisher provenance and inspectable judgment text remain required for authoritative verification.
