@@ -259,7 +259,7 @@ An item can be marked **COMPLETED** only when:
 **Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Future judgment additions must be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** **3,566** migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is **COMPLETE_LOCKED**; other enhanced batches remain subject to final verification/publication gates.
-**Current control item:** Final authoritative legal verification and publication readiness. Torts is **COMPLETE_LOCKED** and must not be reopened without a documented legal/source, schema, product-regression, or current-law trigger.
+**Current control item:** Final authoritative legal verification and publication readiness. Vercel is intentionally stopped; repository/CI validation is non-blocking and production-runtime smoke/deployment evidence remains environment-dependent. Torts is **COMPLETE_LOCKED** and must not be reopened without a documented legal/source, schema, product-regression, or current-law trigger.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **HMA working set:** COMPLETE_LOCKED by owner instruction on 2026-10-03. India Code PDF was not opened and that gate is waived for this subject only. Named judgment PDFs were opened. Do not rework HMA unless a reopening trigger exists. Next subject is not started.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
