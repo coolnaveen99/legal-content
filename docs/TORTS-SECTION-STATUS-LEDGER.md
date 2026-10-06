@@ -324,3 +324,9 @@ Open Torts topic files were checked together. Case years that disagreed with the
 ## Rows 18-41 batch — 2026-10-06
 
 Inventory, enhancement, and enhancement validation are recorded for rows 18-23 and 25-41. Case years were aligned only where the citation already printed the year. No enhanced text was replaced. Integration and production remain pending. These rows are not locked.
+
+
+## Next pending gate — source and current law
+
+Rows 18-41 still use `source:india:india-common-law-torts` as the recorded source. That is not an opened official judgment or Gazette PDF, so the statute/current-law and case-law columns stay REVIEW. Integration and production stay pending. No enhanced text was replaced.
+
