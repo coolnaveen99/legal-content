@@ -108,6 +108,9 @@ jobs:
       - name: Validate student content enhancements
         run: node scripts/validate-enhancements.mjs
 
+      - name: Final verification gates FV-005 through FV-010
+        run: node scripts/verify-fv005-fv010.mjs
+
       - name: Report full-catalog enhancement progress
         run: node scripts/report-enhancement-progress.mjs
 
