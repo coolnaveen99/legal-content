@@ -169,6 +169,8 @@
 
 ## VER Legal-Verification Execution Status — 2026-10-06
 
+**Execution audit:** `docs/VER-001-012-EXECUTION-AUDIT-2026-10-06.md` (`65720ed92e0075e67311c8a784ec6600222d4fc5`). Full-catalog closure is not certified because the repository does not yet contain evidence for every statutory proposition, case identity, ratio, current-law status, source authority, and verification timestamp.
+
 **Execution scope:** Continue VER-001 through VER-012 as the separate legal-verification workstream. BNS, BNSS, BSA and Constitution remain excluded from the current implementation pass per the active CodePackr Law scope instruction; they must not be marked verified merely from existing source-map entries.
 
 | ID | Current status | Next executable action |
