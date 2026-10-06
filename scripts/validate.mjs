@@ -10,6 +10,17 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+function stableStringify(value) {
+  if (value === null || typeof value !== "object") return JSON.stringify(value);
+  if (Array.isArray(value)) return `[${value.map(stableStringify).join(",")}]`;
+  const keys = Object.keys(value).sort();
+  return `{${keys.map((k) => `${JSON.stringify(k)}:${stableStringify(value[k])}`).join(",")}}`;
+}
+
+function sha256Canonical(value) {
+  return crypto.createHash("sha256").update(stableStringify(value), "utf8").digest("hex");
+}
+
 const CONTENT_DIRS = [
   "topics",
   "provisions",
@@ -229,7 +240,7 @@ function validateEntitiesAndIds() {
         path: rel,
         version: data.version,
         status: data.status,
-        sha256: sha256(raw),
+        sha256: sha256Canonical(data),
         sources: data.sources,
         content: data.content,
         rawData: data,
