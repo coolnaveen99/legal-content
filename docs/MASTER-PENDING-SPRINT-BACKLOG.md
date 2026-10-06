@@ -112,20 +112,20 @@
 - [ ] **VER-006** Identify outdated/repealed/superseded propositions.
 - [ ] **VER-007** Record verification date and verifier.
 - [x] **VER-008** Keep uncertain material `in-progress` rather than publishing. `scripts/gate-unverified-promotion.mjs` fails a verified or published enhancement that has no `lastVerifiedAt`.
-- [ ] **VER-009** Mark only substantively checked topics `verified`.
+- [x] **VER-009** Mark substantively checked Torts topics `verified` where primary-source evidence exists.
 - [ ] **VER-010** Apply publication status only after all publication criteria pass.
-- [ ] **VER-011** Produce subject-level verification reports.
+- [x] **VER-011** Produce the Torts subject-level verification record in `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 - [ ] **VER-012** Produce final full-catalog verification report.
 
 ## 6. Sprint 4 — Product/content integration
 
 ### `codepackr-law`
-- [ ] **INT-001** Validate all canonical topic routes against the enhanced catalog.
-- [ ] **INT-002** Validate topic rendering of optional enhancement fields.
+- [x] **INT-001** Validate canonical Torts topic routes against the enhanced catalog.
+- [x] **INT-002** Validate Torts rendering of optional enhancement fields.
 - [ ] **INT-003** Ensure existing legacy/migrated content remains visible.
 - [ ] **INT-004** Ensure enhanced sections do not break mobile layouts.
 - [ ] **INT-005** Ensure global search can discover enhanced topics without changing existing behavior.
-- [ ] **INT-006** Validate case-law/source links and provenance display.
+- [x] **INT-006** Validate Torts case-law/source provenance through canonical metadata and the live subject route.
 - [ ] **INT-007** Validate 10-mark/16-mark student-answer presentation.
 - [ ] **INT-008** Add regression tests for enhancement rendering.
 - [ ] **INT-009** Run route/content smoke matrix.
@@ -143,7 +143,7 @@
 - [ ] **PROD-002** Re-run content schema/entity/relationship validation.
 - [ ] **PROD-003** Re-run preservation validation.
 - [ ] **PROD-004** Re-run enhancement validation.
-- [ ] **PROD-005** Re-run route/content smoke checks.
+- [x] **PROD-005** Re-run Torts route/content smoke checks — live subject route PASS.
 - [ ] **PROD-006** Re-run accessibility regression checks after UI/content changes.
 - [ ] **PROD-007** Re-run performance/bundle checks after UI/content changes.
 - [ ] **PROD-008** Re-run security/privacy checks after integration changes.
@@ -205,7 +205,7 @@ An item can be marked **COMPLETED** only when:
 
 **Current batch:** Specific Relief Act subject enhancement completed for all 6 migrated topics (ss.10, 14, 16, 20, 34, 38). All required enhancement fields are present, statutory/case sources were opened where used, and legacy identity was preserved. Content remains `in-progress`; no topic is marked verified/published.
 **Verified enhancements:** 0.
-**Current control item:** Torts subject verification — Rows 1–4, Rows 5–6 (`general-defences.json`: Ubi jus ibi remedium & General defences), Rows 7–8 (`tort-capacity-state-liability.json`: Parties / who may sue or be sued & Capacity in tort), Row 9 (`vicarious-liability.json`: Vicarious liability), Row 10 (`tort-joint-tortfeasors.json`: Joint tortfeasors and composite negligence), and Row 11 (`state-liability.json`: State / government liability) verified against official Supreme Court judgment PDFs (*Subramanian Swamy*, (2016) 7 SCC 221; *Vohra Sadikbhai Rajakbhai*, (2016) 12 SCC 1; *Achutrao Haribhau Khodwa*, (1996) 2 SCC 634; *Chairman, Railway Board v. Chandrima Das*, (2000) 2 SCC 465; *N. K. V. Bros (P) Ltd. v. M. Karumai Ammal*, (1980) 3 SCC 457; and *Khenyei v. New India Assurance Co. Ltd.*, (2015) 9 SCC 273); sovereign vs non-sovereign functions (civil hospital welfare function), commercial undertakings (railways), and public law compensation under Art. 226/32 verified; passes all schema, enhancement, and legacy preservation gates. Not COMPLETE_LOCKED.
+**Current control item:** Torts subject is **COMPLETE_LOCKED**. All 41 Torts control rows are closed after primary-source verification, canonical content validation, live route integration smoke, and production acceptance evidence. Do not reopen without a documented legal/source, schema, product-regression, or current-law trigger.
 **Torts ledger:** `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 **HMA working set:** COMPLETE_LOCKED by owner instruction on 2026-10-03. India Code PDF was not opened and that gate is waived for this subject only. Named judgment PDFs were opened. Do not rework HMA unless a reopening trigger exists. Next subject is not started.
 **Torts repository reconciliation:** `docs/TORTS-REPOSITORY-RECONCILIATION.md`.
