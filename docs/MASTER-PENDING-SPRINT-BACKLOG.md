@@ -90,7 +90,7 @@
 - [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Completed and preserved in canonical inventory.
 - [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement and verification within the unified Contract subject inventory.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
-- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 44/44 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance is now curated for 14/44 Admin topics, with 30/44 remaining; final publication gates remain open.
+- [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Complete: 43/43 canonical topic records reconciled. Verification ledger: `docs/VER-002-ADMIN-LAW-VERIFICATION-LEDGER-2026-10-06.md`. Statutory/constitutional verification gate advanced for all 44; shared case-law identity/ratio verification advanced for all 44 with evidence in `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`; topic-specific authority relevance is now curated for 14/43 Admin topics, with 30/44 remaining; final publication gates remain open.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
@@ -106,8 +106,8 @@
 
 - [x] **VER-001** Verify statutory text against authoritative current sources. **COMPLETE for Contract:** all 60 canonical Contract topic records are verified/reconciled. Evidence: `docs/VER-001-CONTRACT-COMPLETION-2026-10-06.md` and `docs/VER-001-CONTRACT-INVENTORY-2026-10-06.md`. Continue VER-001 for the next subject without reopening Contract.
 - [ ] **VER-002** Verify amendment/current-law status where applicable.
-- [ ] **VER-003** Verify case names, citations and courts. **Admin scope advanced:** 44/44 topics and 132/132 case entries reconciled to 3 shared authorities; evidence: `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`. Global gate remains open for the rest of the catalog.
-- [ ] **VER-004** Verify case principles/ratio against authoritative judgments. **Admin scope advanced:** propositions in all 44 Admin topic files checked against authoritative Supreme Court material; *Kraipak* retains an explicit original-source inspection limitation. Global gate remains open for the rest of the catalog.
+- [ ] **VER-003** Verify case names, citations and courts. **Admin scope advanced:** 43/43 topics and 129/129 case entries reconciled to 3 shared authorities; evidence: `docs/VER-003-004-ADMIN-LAW-CASE-VERIFICATION-2026-10-06.md`. Global gate remains open for the rest of the catalog.
+- [ ] **VER-004** Verify case principles/ratio against authoritative judgments. **Admin scope advanced:** propositions in all 43 Admin topic files checked against authoritative Supreme Court material; *Kraipak* retains an explicit original-source inspection limitation. Global gate remains open for the rest of the catalog.
 - [ ] **VER-005** Verify source URLs and source authority.
 - [ ] **VER-006** Identify outdated/repealed/superseded propositions.
 - [ ] **VER-007** Record verification date and verifier.
