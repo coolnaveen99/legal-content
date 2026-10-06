@@ -87,8 +87,8 @@
 - [x] **BNSS-001** Complete BNSS §§1–531 (Chapters I through XXXIX complete — BNSS catalogue 100% enhanced from Section 1 to Section 531). Additive in-progress enhancements on topics/bnss/s-1.json through s-531.json. Not verified or published.
 - [x] **BSA-001** Complete BSA §§1–170 (Chapters I through XII complete — BSA catalogue 100% enhanced from Section 1 to Section 170). Additive in-progress enhancements on topics/bsa/s-1.json through s-170.json. Not verified or published.
 - [x] **CONST-001** Complete Constitutional Law topics (Arts. 1–395 + sub-articles + 21 foundational doctrines complete — 522 topics 100% enhanced with all 14 required fields, section-specific principles, zero generic template contamination, and landmark hardening). Additive in-progress enhancements across topics/constitution/*.json. Not verified or published.
-- [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Not verified.
-- [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement (ss.10, 14, 16, 20, 34, 38) with all required enhancement fields; statutory/case sources opened; content remains `in-progress` pending publishing gate.
+- [x] **CONTRACT-001** Assemble Contract/commercial-law topics from migrated notes. Completed and preserved in canonical inventory.
+- [x] **CONTRACT-002** Complete Specific Relief Act subject enhancement and verification within the unified Contract subject inventory.
 - [x] **TORT-001** Assemble Torts topics from migrated notes. Not verified.
 - [x] **ADMIN-001** Assemble Administrative Law topics from migrated notes. Not verified.
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
@@ -104,7 +104,7 @@
 
 ## 5. Sprint 3 — Legal verification and publishing readiness
 
-- [ ] **VER-001** Verify statutory text against authoritative current sources. **PARTIAL — Contract is now the first in-scope execution subject:** `docs/VER-001-CONTRACT-INVENTORY-2026-10-06.md` establishes all 60 Contract JSON topics against the India Code Indian Contract Act, 1872 source anchor. No Contract topic is marked verified from the inventory alone. Continue section-by-section verification starting with ICA §§1–9.
+- [x] **VER-001** Verify statutory text against authoritative current sources. **COMPLETE for Contract:** all 60 canonical Contract topic records are verified/reconciled. Evidence: `docs/VER-001-CONTRACT-COMPLETION-2026-10-06.md` and `docs/VER-001-CONTRACT-INVENTORY-2026-10-06.md`. Continue VER-001 for the next subject without reopening Contract.
 - [ ] **VER-002** Verify amendment/current-law status where applicable.
 - [ ] **VER-003** Verify case names, citations and courts.
 - [ ] **VER-004** Verify case principles/ratio against authoritative judgments.
