@@ -219,6 +219,18 @@ Authoritative execution control: `docs/FINAL-AUTHORITATIVE-LEGAL-VERIFICATION-PU
 
 **AI gate:** Sprint 8 / AI-provider work remains blocked until FV-001 through FV-014 are closed.
 
+## 7A. Fresh Judgment Acquisition — DEFERRED UNTIL AFTER FINAL QUALITY PASS
+
+**Execution-order decision — 2026-10-06:** New/fresh judgment acquisition batches are deliberately deferred until Sprint 6 — Final Content Quality Pass — and its required non-AI integration/production follow-up gates are closed.
+
+- Batch 31 is complete and remains historical evidence; it is not reopened.
+- FV-002 through FV-004 concern verification of existing/pending judgment records needed by the current final legal-verification workstream. That verification is distinct from acquiring new judgments and is not blocked by this sequencing decision.
+- No new fresh-judgment acquisition batch may begin before the Final Content Quality Pass closes.
+- After the quality pass, fresh acquisition resumes only from a current inventory, with duplicate checks, exact citations, authoritative-source verification, and full validation.
+- AI/provider implementation remains last and remains blocked until the final non-AI gates close.
+
+**Binding sequence:** Review-state topic verification → Content/Product Integration → Production Follow-up → Final Content Quality Pass → Fresh Judgment Acquisition → AI/Provider phase.
+
 ## 10. Sprint 8 — Final AI phase (must remain last)
 
 **Gate:** Do not start until all non-AI enhancement, verification, integration and production-readiness work above is complete.
@@ -255,8 +267,8 @@ An item can be marked **COMPLETED** only when:
 
 ## 12. Current execution pointer
 
-**Current batch:** Final Authoritative Legal Verification & Publication Readiness.
-**Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Future judgment additions must be fresh and authoritative-source verified before activation.
+**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with fresh judgment acquisition explicitly deferred until after the Final Content Quality Pass.
+**Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Existing/pending judgment verification remains governed by FV-002–FV-004. Future *new* judgment additions are deferred until after the Final Content Quality Pass and must then be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** **3,566** migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is **COMPLETE_LOCKED**; other enhanced batches remain subject to final verification/publication gates.
 **Current control item:** Final authoritative legal verification and publication readiness. Vercel is intentionally stopped; repository/CI validation is non-blocking and production-runtime smoke/deployment evidence remains environment-dependent. Torts is **COMPLETE_LOCKED** and must not be reopened without a documented legal/source, schema, product-regression, or current-law trigger.
