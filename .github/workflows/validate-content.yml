@@ -44,6 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LEGACY_CONTENT_ROOT: ${{ github.workspace }}/codepackr-law
+          ALLOW_DESTRUCTIVE_LEGACY_RESTORE: "1"
         run: node scripts/migrate-legacy-topics.mjs
 
       - name: Persist restored legacy topic content
