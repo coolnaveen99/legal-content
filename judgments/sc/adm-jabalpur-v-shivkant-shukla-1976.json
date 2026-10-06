@@ -2,30 +2,47 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:adm-jabalpur-v-shivkant-shukla-1976",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "ADM Jabalpur v. Shivkant Shukla",
   "jurisdiction": "India",
   "content": {
-    "caseIdentity": "ADM Jabalpur v. Shivkant Shukla, (1976) 2 SCC 521",
-    "court": "",
+    "caseIdentity": "Additional District Magistrate, Jabalpur v. Shivkant Shukla, (1976) 2 SCC 521; AIR 1976 SC 1207",
+    "court": "Supreme Court of India",
     "decisionYear": 1976,
     "citation": "(1976) 2 SCC 521",
-    "facts": "",
-    "questionsBeforeCourt": [],
-    "ratioDecidendi": "",
-    "holding": "Held that during emergency no person had locus standi to move writ of habeas corpus. (Formally overruled by 44th Amendment and Puttaswamy).",
-    "relevance": "The darkest hour of Indian jurisprudence, corrected by constitutional amendment.",
+    "facts": "During the 1975 Emergency, detenus challenged detention through habeas corpus proceedings and the Court considered the effect of the Presidential order under Article 359(1).",
+    "questionsBeforeCourt": [
+      "Whether habeas corpus could be maintained during the relevant Presidential order suspending enforcement of specified fundamental rights.",
+      "Whether the suspension barred judicial examination of detention in the circumstances before the Court."
+    ],
+    "ratioDecidendi": "The majority held that the relevant Article 359(1) Presidential order barred the enforcement of the suspended fundamental right to personal liberty through habeas corpus during the specified period. Justice H.R. Khanna dissented.",
+    "holding": "By majority, habeas corpus relief was held unavailable for enforcement of the suspended right during the relevant Emergency. The majority position was later rejected by constitutional change and by K.S. Puttaswamy (2017).",
+    "relevance": "Landmark Emergency-era habeas corpus and preventive-detention decision concerning Articles 21 and 359.",
     "sourceTopics": [
       "topics/constitution/emergency.json"
-    ]
+    ],
+    "judgmentDate": "1976-04-28"
   },
-  "sources": [],
+  "sources": [
+    {
+      "type": "official_supreme_court",
+      "url": "https://api.sci.gov.in/jonew/judis/5387.pdf",
+      "label": "Supreme Court of India judgment PDF endpoint."
+    },
+    {
+      "type": "official_follow_on",
+      "url": "https://api.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_24-Aug-2017.pdf",
+      "label": "Official Supreme Court follow-on judgment."
+    }
+  ],
   "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.114Z",
+  "updatedAt": "2026-10-06T07:52:36.781Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "NEEDS_SOURCE",
+  "verificationNote": "Official Supreme Court source identified, but the original PDF endpoint timed out during this pass and could not be inspected. Record therefore remains pending and is not promoted."
 }
