@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:addanki-narayanappa-v-bhaskara-krishnappa-1966",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verified",
   "title": "Addanki Narayanappa v. Bhaskara Krishnappa",
   "jurisdiction": "India",
   "content": {
@@ -24,12 +24,49 @@
       "topics/contract/partnership-s-39-55.json"
     ]
   },
-  "sources": [],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.115Z",
+  "sources": [
+    {
+      "type": "official_supreme_court",
+      "url": "https://api.sci.gov.in/jonew/judis/2743.pdf",
+      "label": "Official Supreme Court of India judgment PDF; inspected for identity, date, citation, facts and holding."
+    },
+    {
+      "type": "official_follow_on",
+      "url": "https://api.sci.gov.in/supremecourt/2024/10776/10776_2024_5_1502_62289_Judgement_14-Jul-2025.pdf",
+      "label": "Official Supreme Court follow-on judgment citing Addanki Narayanappa."
+    }
+  ],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-06T08:36:48.221Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "VERIFIED",
+  "verificationNote": "Verified against the official Supreme Court of India judgment PDF. The official record identifies the case as Addanki Narayanappa & Anr. v. Bhaskara Krishtappa and Ors., judgment dated 21 January 1966, AIR 1966 SC 1300, (1966) 3 SCR 400. The judgment holds, inter alia, that the dissolution/settlement document did not itself convey immovable property so as to require registration under Section 17(1)(c) of the Registration Act.",
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-primary",
+    "verificationStatus": "verified",
+    "evidence": [
+      {
+        "type": "official-primary",
+        "url": "https://api.sci.gov.in/jonew/judis/2743.pdf",
+        "note": "Original Supreme Court judgment inspected; identity, citation, date and material holding confirmed."
+      }
+    ],
+    "propositionsAudited": [
+      "caseIdentity",
+      "court",
+      "judgmentDate",
+      "citation",
+      "facts",
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 8,
+    "missingContextFields": []
+  }
 }
