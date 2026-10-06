@@ -167,6 +167,27 @@
 - [ ] **QUAL-010** Check current-law warnings where relevant.
 - [ ] **QUAL-011** Re-run preservation and legal validation after corrections.
 
+## VER Legal-Verification Execution Status — 2026-10-06
+
+**Execution scope:** Continue VER-001 through VER-012 as the separate legal-verification workstream. BNS, BNSS, BSA and Constitution remain excluded from the current implementation pass per the active CodePackr Law scope instruction; they must not be marked verified merely from existing source-map entries.
+
+| ID | Current status | Next executable action |
+|---|---|---|
+| VER-001 | **PARTIAL / SCOPED** | Expand statutory source checks only for in-scope subjects; excluded statutory families remain untouched. |
+| VER-002 | **OPEN** | Check amendment/current-law status for in-scope statutory propositions against official sources. |
+| VER-003 | **OPEN** | Verify case names, citations and courts against authoritative case records. |
+| VER-004 | **OPEN** | Verify case principles/ratio against authoritative judgments. |
+| VER-005 | **OPEN** | Audit source URLs and authority classification; reject weak/secondary-only authority for verified status. |
+| VER-006 | **OPEN** | Identify outdated, repealed or superseded propositions. |
+| VER-007 | **OPEN** | Record verification date and verifier consistently. |
+| VER-008 | **COMPLETED** | Existing promotion gate remains controlling. |
+| VER-009 | **COMPLETED for Torts** | Torts is COMPLETE_LOCKED; do not reopen without a documented trigger. |
+| VER-010 | **OPEN** | Apply publication status only after the complete publication criteria pass. |
+| VER-011 | **COMPLETED** | Torts subject-level ledger exists and is reconciled. |
+| VER-012 | **OPEN** | Produce final full-catalog verification report after VER-001–010 evidence is complete. |
+
+**Control rule:** Do not convert review/in-progress material to verified or published merely because a URL exists. Primary/authoritative evidence, verification date, and current-law status must be recorded.
+
 ## 9. Sprint 7 — Final Authoritative Legal Verification & Publication Readiness
 
 **Status: ACTIVE — FINAL NON-AI PHASE**
