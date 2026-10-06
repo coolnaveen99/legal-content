@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "judgment",
   "id": "judgment:india:a-k-kraipak-v-union-of-india-1969",
-  "version": 1,
+  "version": 2,
   "status": "review",
   "title": "A.K. Kraipak v. Union of India",
   "jurisdiction": "India",
@@ -65,12 +65,36 @@
       "topics/admin/admin-writ-remedies.json"
     ]
   },
-  "sources": [],
+  "sources": [
+    {
+      "type": "official-court-follow-on",
+      "authority": "Supreme Court of India",
+      "url": "https://api.sci.gov.in/jonew/judis/7431.pdf",
+      "accessedAt": "2026-10-06",
+      "evidence": "Official Supreme Court judgment expressly cites A.K. Kraipak, (1969) 2 SCC 262, and reproduces its paragraph 13 discussion on the thin distinction between administrative and quasi-judicial power and the requirement of fair administrative action."
+    },
+    {
+      "type": "official-court-follow-on",
+      "authority": "Supreme Court of India",
+      "url": "https://api.sci.gov.in/supremecourt/2023/14927/14927_2023_1_1502_56564_Judgement_18-Oct-2024.pdf",
+      "accessedAt": "2026-10-06",
+      "evidence": "Official Supreme Court judgment identifies A.K. Kraipak as a Constitution Bench authority and cites paragraph 20 for application of natural justice to administrative decisions."
+    },
+    {
+      "type": "secondary-discovery",
+      "authority": "Indian Kanoon",
+      "url": "https://indiankanoon.org/docfragment/126007299/?formInput=a+k+kraipak+++",
+      "accessedAt": "2026-10-06",
+      "evidence": "Discovery copy identifies the 29 April 1969 decision, AIR 1970 SC 150, and reproduces the bias discussion; used for discovery only, not authoritative verification."
+    }
+  ],
   "verificationStatus": "pending",
-  "updatedAt": "2026-10-02T16:31:29.097Z",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
   "tags": [
     "canonical-registry",
     "review-required",
     "phase-9"
-  ]
+  ],
+  "verificationDisposition": "NEEDS_SOURCE",
+  "verificationNote": "The original 1969 judgment PDF was not located in the official Supreme Court endpoints inspected during this pass. Official Supreme Court follow-on judgments corroborate the cited propositions, but that is insufficient to mark this record verified. Keep verificationStatus pending until the original authoritative judgment is inspectable."
 }
