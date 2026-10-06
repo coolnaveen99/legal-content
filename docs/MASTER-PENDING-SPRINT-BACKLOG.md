@@ -59,22 +59,22 @@
 ### Required content model for each substantive topic
 
 **Mandatory control:** Before any subject enhancement, complete the full authoritative inventory and repository mapping. Never infer that unlisted sections are complete.
-- [ ] **CONT-001** Learning objectives.
-- [ ] **CONT-002** Definition/core concept.
-- [ ] **CONT-003** Legal principle/doctrine.
-- [ ] **CONT-004** Statutory framework and interpretation.
-- [ ] **CONT-005** Essential ingredients/elements.
-- [ ] **CONT-006** Detailed student-friendly explanation.
-- [ ] **CONT-007** Practical examples/illustrations.
-- [ ] **CONT-008** Distinctions/comparisons where legally useful.
-- [ ] **CONT-009** Relevant verified case law and principles.
-- [ ] **CONT-010** Problem/application analysis.
-- [ ] **CONT-011** Short-answer structure.
-- [ ] **CONT-012** 10-mark answer structure.
-- [ ] **CONT-013** 16-mark answer structure.
-- [ ] **CONT-014** Key takeaways.
-- [ ] **CONT-015** Authoritative sources.
-- [ ] **CONT-016** Current-law verification metadata.
+- [x] **CONT-001** Learning objectives. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-002** Definition/core concept. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-003** Legal principle/doctrine. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-004** Statutory framework and interpretation. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-005** Essential ingredients/elements. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-006** Detailed student-friendly explanation. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-007** Practical examples/illustrations. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-008** Distinctions/comparisons where legally useful. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-009** Relevant verified case law and principles. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-010** Problem/application analysis. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-011** Short-answer structure. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-012** 10-mark answer structure. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-013** 16-mark answer structure. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-014** Key takeaways. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-015** Authoritative sources. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
+- [x] **CONT-016** Current-law verification metadata. — enhancement schema/control is implemented and CI-validated for enhanced records; substantive legal verification/publication remains governed by FV-002→FV-010.
 
 ### Batch order
 - [x] **BNS-001** Complete BNS §§11–15. Additive in-progress enhancements on topics/bns/s-11.json through s-15.json. Not verified or published.
@@ -94,7 +94,7 @@
 - [x] **ARB-001** Assemble Arbitration topics from migrated notes. Not verified.
 - [x] **REMAIN-001** Assemble remaining subject families from migrated notes. Not verified.
 - [ ] **REMAIN-002** Reconcile renamed-family topics and relationship references after each major subject.
-- [ ] **REMAIN-003** Run full-catalog enhancement progress report after every batch.
+- [x] **REMAIN-003** Run full-catalog enhancement progress report after every batch — wired into the main validation workflow.
 - [x] **CONTROL-001** Create and maintain section-level completion ledger using `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md`. Live Torts ledger: `docs/TORTS-SECTION-STATUS-LEDGER.md`.
 - [x] **CONTROL-002** Reconcile Torts authoritative subject scope against the complete repository topic inventory; 38 Torts JSON files reconciled and scope frozen in `docs/TORTS-REPOSITORY-RECONCILIATION.md`. Continue this control for each subsequent subject before declaring enhancement complete.
 - [ ] **CONTROL-003** Prevent rework by skipping `COMPLETE_LOCKED` items unless a documented reopening trigger exists.
