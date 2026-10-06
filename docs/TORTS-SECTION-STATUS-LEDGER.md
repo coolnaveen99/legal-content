@@ -313,3 +313,9 @@ The verification pass confirmed the Supreme Court authorities used for professio
 - Canonical schemas, enhancement validation and legacy preservation all pass after the updates.
 - Absolute liability (row 25) remains open because its enhancement/legal publication gate is incomplete. Rows 15-16 and 18-23, 26-41 still require topic-specific completion evidence.
 
+
+
+## Full-subject integrity pass — 2026-10-06
+
+Open Torts topic files were checked together. Case years that disagreed with the year already printed in the citation were aligned. No enhanced text was replaced. No legacy file was copied back. No new case or citation was added. Rows 15–16 and 18–41 remain OPEN because an official judgment PDF was not opened and the production route/build lock was not rerun.
+
