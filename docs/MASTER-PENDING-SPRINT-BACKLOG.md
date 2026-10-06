@@ -155,17 +155,27 @@
 
 ## 8. Sprint 6 — Final content quality pass
 
-- [ ] **QUAL-001** Identify topics with weak or incomplete enhancement coverage.
-- [ ] **QUAL-002** Remove duplicate boilerplate while preserving substantive baseline.
-- [ ] **QUAL-003** Improve student readability and legal terminology.
-- [ ] **QUAL-004** Check examples against the actual rule.
-- [ ] **QUAL-005** Check distinctions for legal accuracy.
-- [ ] **QUAL-006** Check problem questions/application reasoning.
-- [ ] **QUAL-007** Check 10-mark answer completeness.
-- [ ] **QUAL-008** Check 16-mark answer completeness.
-- [ ] **QUAL-009** Check cross-topic relationships.
-- [ ] **QUAL-010** Check current-law warnings where relevant.
-- [ ] **QUAL-011** Re-run preservation and legal validation after corrections.
+**Status:** **ACTIVE — deterministic audit implemented; substantive remediation remains open.**
+
+Audit implementation: `scripts/final-content-quality-pass.mjs`  
+Command: `npm run quality:final`  
+CI integration: `.github/workflows/validate-content.yml`
+
+The audit is evidence-conservative: it never rewrites legal content and never promotes a topic. Current ENH-006 evidence shows **3,652 topics, 1,583 substantive enhancements, 2,065 scaffold enhancements, 0 missing enhancement objects**. The scaffold population is therefore the principal QUAL remediation queue.
+
+- [x] **QUAL-001** Deterministically identify weak/incomplete enhancement coverage.
+- [x] **QUAL-002** Detect duplicate/generic boilerplate without deleting baseline content.
+- [x] **QUAL-003** Detect generic student-readability/legal-terminology gaps.
+- [x] **QUAL-004** Detect missing/generic examples.
+- [x] **QUAL-005** Detect missing/generic distinctions.
+- [x] **QUAL-006** Detect missing/deferred problem/application reasoning.
+- [x] **QUAL-007** Detect weak 10-mark/short-answer structures.
+- [x] **QUAL-008** Detect weak 16-mark/comprehensive-answer structures.
+- [x] **QUAL-009** Detect missing relationship mappings.
+- [x] **QUAL-010** Detect transition/current-law-sensitive content without an explicit status warning.
+- [x] **QUAL-011** Enforce preservation/provenance checks within the pass; substantive legal verification remains governed by FV-005–FV-010.
+
+**Closure rule:** QUAL-001–QUAL-011 are not considered substantively closed until the detected remediation queue is resolved and the final preservation/legal validation gates pass. No scaffold topic is promoted merely to make this section green.
 
 ## VER Legal-Verification Execution Status — 2026-10-06
 
