@@ -27,4 +27,9 @@ The present ACA files contain repeated generic case sets across multiple unrelat
 Recent Supreme Court decisions continue to clarify Sections 11, 16 and 34. These developments must be reflected only in the relevant section files after verification.
 
 ## Status
-VERIFICATION_IN_PROGRESS — ACA remains the sole active subject until all closure gates are evidenced.
+VERIFICATION_IN_PROGRESS
+
+### 2026-10-06 execution update
+- Canonical ACA files substantively touched/cleaned through s. 54 (including 29A/29B/42A where encountered).
+- Section-specific authority corrections completed for s. 11, s. 16 and s. 34 using Supreme Court primary-source verification.
+- Remaining corpus still requires section-by-section statutory and case-law verification; therefore COMPLETE_LOCKED is not yet permitted. — ACA remains the sole active subject until all closure gates are evidenced.
