@@ -101,6 +101,21 @@ This record does **not** close final publication readiness. The Admin topics rem
 
 No topic is promoted merely because this verification ledger exists.
 
-## Next executable Admin gate
+## Topic-specific relevance pass — Batch 1
 
-Perform a topic-specific relevance/quality pass over the 44 Admin records, retaining each shared authority only where its verified proposition materially supports the topic, and replacing generic/weak authorities only with freshly inspected authoritative judgments.
+**Completed:** 6/44 Admin topics were re-curated on `main` on 2026-10-06:
+
+- `admin-rule-of-law-formal-ideological.json`
+- `admin-rule-of-law-constitutional.json`
+- `admin-separation-montesquieu.json`
+- `admin-separation-comparative.json`
+- `admin-delegated-legislation.json`
+- `admin-legitimate-expectation.json`
+
+The generic three-case set was replaced with topic-specific authorities. For delegated legislation, the replacement set uses *In re Delhi Laws Act*, *Hamdard Dawakhana*, and *Gwalior Rayon*. For legitimate expectation, it uses *Hindustan Development Corporation*, *Kamdhenu Cattle Feed*, and *Punjab Communications*. For separation/rule-of-law topics, it uses *Ram Jawaya Kapur*, *Kesavananda Bharati*, *Indira Nehru Gandhi*, *I.R. Coelho*, and *Asif Hameed* as applicable to the individual topic.
+
+**Remaining:** 38/44 Admin topics require the same topic-specific relevance/quality pass. No remaining topic is promoted to `verified`/published merely from the batch update.
+
+### Next executable Admin gate
+
+Continue the topic-specific relevance/quality pass over the remaining 38 Admin records, retaining each authority only where its verified proposition materially supports the topic and replacing generic/weak authorities only with freshly inspected authoritative judgments.
