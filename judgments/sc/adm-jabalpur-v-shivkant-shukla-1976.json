@@ -1,48 +1,7 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "judgment",
-  "id": "judgment:india:adm-jabalpur-v-shivkant-shukla-1976",
-  "version": 2,
-  "status": "review",
-  "title": "ADM Jabalpur v. Shivkant Shukla",
-  "jurisdiction": "India",
-  "content": {
-    "caseIdentity": "Additional District Magistrate, Jabalpur v. Shivkant Shukla, (1976) 2 SCC 521; AIR 1976 SC 1207",
-    "court": "Supreme Court of India",
-    "decisionYear": 1976,
-    "citation": "(1976) 2 SCC 521",
-    "facts": "During the 1975 Emergency, detenus challenged detention through habeas corpus proceedings and the Court considered the effect of the Presidential order under Article 359(1).",
-    "questionsBeforeCourt": [
-      "Whether habeas corpus could be maintained during the relevant Presidential order suspending enforcement of specified fundamental rights.",
-      "Whether the suspension barred judicial examination of detention in the circumstances before the Court."
-    ],
-    "ratioDecidendi": "The majority held that the relevant Article 359(1) Presidential order barred the enforcement of the suspended fundamental right to personal liberty through habeas corpus during the specified period. Justice H.R. Khanna dissented.",
-    "holding": "By majority, habeas corpus relief was held unavailable for enforcement of the suspended right during the relevant Emergency. The majority position was later rejected by constitutional change and by K.S. Puttaswamy (2017).",
-    "relevance": "Landmark Emergency-era habeas corpus and preventive-detention decision concerning Articles 21 and 359.",
-    "sourceTopics": [
-      "topics/constitution/emergency.json"
-    ],
-    "judgmentDate": "1976-04-28"
-  },
-  "sources": [
-    {
-      "type": "official_supreme_court",
-      "url": "https://api.sci.gov.in/jonew/judis/5387.pdf",
-      "label": "Supreme Court of India judgment PDF endpoint."
-    },
-    {
-      "type": "official_follow_on",
-      "url": "https://api.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_24-Aug-2017.pdf",
-      "label": "Official Supreme Court follow-on judgment."
-    }
-  ],
-  "verificationStatus": "pending",
-  "updatedAt": "2026-10-06T07:52:36.781Z",
-  "tags": [
-    "canonical-registry",
-    "review-required",
-    "phase-9"
-  ],
-  "verificationDisposition": "NEEDS_SOURCE",
-  "verificationNote": "Official Supreme Court source identified, but the original PDF endpoint timed out during this pass and could not be inspected. Record therefore remains pending and is not promoted."
+  "schemaVersion":"v1","entityType":"judgment","id":"judgment:india:adm-jabalpur-v-shivkant-shukla-1976","version":3,"status":"review","title":"ADM Jabalpur v. Shivkant Shukla","jurisdiction":"India",
+  "content":{"caseIdentity":"Additional District Magistrate, Jabalpur v. Shivkant Shukla, (1976) 2 SCC 521; AIR 1976 SC 1207","court":"Supreme Court of India","decisionYear":1976,"judgmentDate":"1976-04-28","citation":"(1976) 2 SCC 521","facts":"During the 1975 Emergency, detenus challenged detention through habeas corpus proceedings and the Court considered the effect of the Presidential order under Article 359(1).","questionsBeforeCourt":["Whether habeas corpus could be maintained during the relevant Presidential order.","Whether suspension of enforcement of Article 21 barred judicial examination of detention."],"ratioDecidendi":"The majority held that the relevant Article 359(1) order barred enforcement of the suspended fundamental right through habeas corpus during the specified period; Justice H.R. Khanna dissented.","holding":"By majority, habeas corpus relief was held unavailable for enforcement of the suspended right during the relevant Emergency. The majority position was later rejected in subsequent constitutional jurisprudence.","relevance":"Landmark Emergency-era habeas corpus decision concerning Articles 21 and 359.","sourceTopics":["topics/constitution/emergency.json"]},
+  "sources":[{"type":"official_follow_on","url":"https://api.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_24-Aug-2017.pdf","label":"Official Supreme Court follow-on expressly discussing ADM Jabalpur and its later rejection."},{"type":"official_reference","url":"https://api.sci.gov.in/supremecourt/2016/27156/27156_2016_3_1501_40744_Judgement_03-Jan-2023.pdf","label":"Official Supreme Court judgment identifying ADM Jabalpur, AIR 1976 SC 1207."}],
+  "verificationStatus":"verified-with-limitation","propositionVerification":{"verificationStatus":"verified-with-limitation","notes":"Official Supreme Court follow-on material confirms identity and material historical proposition; original 1976 PDF endpoint was not inspectable in this pass."},
+  "updatedAt":"2026-10-06T00:00:00.000Z","tags":["canonical-registry","verified-with-limitation","official-follow-on"]
 }
