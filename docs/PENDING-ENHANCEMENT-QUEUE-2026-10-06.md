@@ -24,9 +24,15 @@ Near-complete residual queues remain active:
 
 Administrative Law is **not a new enhancement queue**. Its statutory/constitutional gate and shared case-law identity/ratio work are already advanced. Topic-specific authority relevance remains a separate legal-verification gate. The five E-01A edits are evidence in docs/batches/ENH-ADMIN-E01A-2026-10-06.md; do not restart Admin as a 44-topic batch.
 
+## Priority policy — no yield-based legal depth
+
+**Effective 2026-10-07:** `High-Yield`, `Medium-Yield`, and `Low-Yield` are removed as legal-content quality/depth classifications. Every canonical topic must ultimately meet the same legal-completeness, source-verification, case-verification, preservation, integration, and production gates. Any priority value below controls execution order only; it never lowers the required final standard for a topic.
+
+A topic may be processed earlier because of dependency, risk, current-law sensitivity, user impact, or implementation efficiency, but no statutory section is treated as legally less important because it is less frequently examined or reported.
+
 ## Active enhancement queue
 
-| Priority | Subject | Known open enhancement scope | Status |
+| Execution Priority | Subject | Known open enhancement scope | Status |
 |---|---|---:|---|
 | P0 | Arbitration | 132 scaffold topics | NEXT |
 | P0 | Company | 561 scaffold topics | OPEN |
@@ -85,6 +91,6 @@ docs/ENH-006-QUALITY-REPORT.md and docs/ENH-009-SUBJECT-PROGRESS.md remain histo
 
 ## Current execution pointer
 
-**ACTIVE: E-03 Arbitration — 5/132 topics enhanced in E-03A (s-7, s-8, s-9, s-11, s-16). Remaining Arbitration scope: 127 topics.**
+**ACTIVE: E-03 Arbitration — 5/132 topics enhanced in E-03A (s-7, s-8, s-9, s-11, s-16). Remaining Arbitration scope: 127 topics. All 132 remain subject to the same final legal-completeness standard; execution priority does not change depth.**
 
 Do not reopen Contract, Constitution, HMA, Limitation, Registration, SRA or Torts without a documented reopening trigger. Do not restart Admin as a bulk enhancement subject. Fresh judgment acquisition remains deferred until the Final Content Quality Pass. AI/provider remains last.
