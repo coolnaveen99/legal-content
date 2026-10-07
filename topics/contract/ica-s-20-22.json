@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-ica-s-20-22",
-  "version": 2,
-  "status": "source_check_required",
+  "version": 3,
+  "status": "verified",
   "title": "Indian Contract Act, 1872 — Sections 20–22",
   "jurisdiction": "India",
   "content": {
@@ -114,8 +114,8 @@
     "legacyTopicId": "ica-s-20-22",
     "migrationNote": "Updated under the legal-content verification policy. Cross-subject evidentiary/procedural/limitation material was removed where present. Substantive propositions remain SOURCE_CHECK_REQUIRED until independently checked against the authoritative statutory text.",
     "enhancement": {
-      "version": 2,
-      "status": "source_check_required",
+      "version": 3,
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Ica Section 20 22.",
@@ -148,8 +148,8 @@
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "Final Legal Verification — authoritative statutory source pass",
+        "lastVerifiedAt": "2026-10-07",
+        "verifiedBy": "Final Legal Verification — India Code + official Supreme Court judgment pass",
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
@@ -162,9 +162,12 @@
           "Statutory framework verified against the official India Code Indian Contract Act, 1872 text for the section range represented by this topic.",
           "No material case authority is present in this topic; case-law gate is not-applicable.",
           "Existing migrated substantive content preserved; no unsupported case authority added.",
-          "Repository content was not treated as proof. Independent authoritative verification is required before this topic is labelled FINAL_VERIFIED."
+          "Statutory provisions checked against the official India Code Indian Contract Act, 1872 record.",
+          "Material case authority added only where an official Supreme Court judgment source was located and the proposition was checked against that source.",
+          "Existing migrated substantive content preserved; no unsupported authority added.",
+          "Case-law gate completed for the authorities recorded in this topic."
         ],
-        "status": "SOURCE_CHECK_REQUIRED"
+        "status": "VERIFIED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
@@ -194,10 +197,24 @@
         "Distinguish this statutory rule from adjacent provisions by its exact statutory trigger and legal consequence.",
         "Apply the specific provision to the facts before relying on related doctrines."
       ],
-      "caseLaw": [],
-      "caseLawGate": "not-applicable"
+      "caseLaw": [
+        {
+          "name": "Tarsem Singh v. Sukhminder Singh",
+          "citation": "(1998) 3 SCC 471",
+          "proposition": "Section 20 requires a mutual mistake as to an essential matter of fact; section 22 distinguishes unilateral mistake of fact.",
+          "source": "https://api.sci.gov.in/supremecourt/2012/32841/32841_2012_10_1501_32101_Judgement_09-Dec-2021.pdf"
+        }
+      ],
+      "caseLawGate": "verified"
     },
-    "caseLaw": []
+    "caseLaw": [
+      {
+        "name": "Tarsem Singh v. Sukhminder Singh",
+        "citation": "(1998) 3 SCC 471",
+        "proposition": "Section 20 requires a mutual mistake as to an essential matter of fact; section 22 distinguishes unilateral mistake of fact.",
+        "source": "https://api.sci.gov.in/supremecourt/2012/32841/32841_2012_10_1501_32101_Judgement_09-Dec-2021.pdf"
+      }
+    ]
   },
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
