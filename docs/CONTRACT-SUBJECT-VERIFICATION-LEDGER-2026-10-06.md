@@ -57,7 +57,7 @@ Single-subject control ledger for the complete Contract collection. This ledger 
 | 27 | ica-s-226-238.json | ICA §§226–238 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 28 | ica-s-23-25.json | ICA §§23–25 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 29 | ica-s-26-30.json | ICA §§26–30 | STATUTE-MAPPED / CASE-GATE-PENDING |
-| 30 | ica-s-3-9.json | ICA §§3–9 | STATUTE-MAPPED / CASE-GATE-PENDING |
+| 30 | ica-s-3-9.json | ICA §§3–9 | STATUTORY-VERIFIED / CASE-GATE-N/A |
 | 31 | ica-s-31-36.json | ICA §§31–36 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 32 | ica-s-37-45.json | ICA §§37–45 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 33 | ica-s-46-50.json | ICA §§46–50 | STATUTE-MAPPED / CASE-GATE-PENDING |
@@ -67,7 +67,7 @@ Single-subject control ledger for the complete Contract collection. This ledger 
 | 37 | ica-s-68-72.json | ICA §§68–72 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 38 | ica-s-73-75.json | ICA §§73–75 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 39 | indemnity-guarantee.json | ICA §§124–147 | STATUTE-MAPPED / CASE-GATE-PENDING |
-| 40 | offer-acceptance.json | ICA §§2(a)-(b), 3–9 | STATUTE-MAPPED / CASE-GATE-PENDING |
+| 40 | offer-acceptance.json | ICA §§2(a)-(b), 3–9 | STATUTORY-VERIFIED / CASE-GATE-N/A |
 | 41 | partnership-s-1-17.json | Partnership Act §§1–17 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 42 | partnership-s-18-30.json | Partnership Act §§18–30 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 43 | partnership-s-31-38.json | Partnership Act §§31–38 | STATUTE-MAPPED / CASE-GATE-PENDING |
@@ -100,7 +100,7 @@ Corrections committed on main:
 
 ## Statutory evidence tranche — ICA §§1–12
 
-Official India Code text was inspected on 2026-10-06. Sections 1–2 were checked for Act identity, extent/commencement/saving and statutory definitions; sections 3–9 were checked for communication, completion, revocation, absolute acceptance, performance-based acceptance and express/implied promises; sections 10–12 were checked for enforceability conditions, competency and sound mind. The corresponding three topic rows are therefore **statutory-verified / case-gate-pending**, not fully verified.
+Official India Code text was inspected on 2026-10-06. Sections 1–2 were checked for Act identity, extent/commencement/saving and statutory definitions; sections 3–9 were checked for communication, completion, revocation, absolute acceptance, performance-based acceptance and express/implied promises; sections 10–12 were checked for enforceability conditions, competency and sound mind. The corresponding statutory rows are **statutory-verified**. For the offer/acceptance unit, no material case authority is being relied upon in this verification tranche, so its case gate is **not-applicable**. Other Contract rows remain pending their own topic-level case and current-law gates.
 
 Official evidence: Indian Contract Act, 1872 PDF, India Code: https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf
 
@@ -127,3 +127,11 @@ The repository contains Sale of Goods and Partnership material inside the Contra
 
 ## Next execution
 Verify the ICA §§1–75 family and then the ICA §§124–238 family, followed by Partnership, Sale of Goods and Specific Relief. Do not publish or mark verified merely because a source URL exists.
+
+
+## Execution update — 2026-10-07
+
+- `ica-s-3-9.json`: statutory enhancement and India Code verification completed.
+- `offer-acceptance.json`: substantive enhancement upgraded and verified against the official India Code text for ICA ss. 3–9; no unverified case authority added.
+- Commit: `ca9950088d0c1ae9451c5131908c248ef910b1f7`.
+- Contract remains IN PROGRESS; this is a verification tranche, not subject-wide closure.
