@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-ica-s-26-30",
-  "version": 2,
-  "status": "source_check_required",
+  "version": 3,
+  "status": "verified",
   "title": "Indian Contract Act, 1872 — Sections 26–30",
   "jurisdiction": "India",
   "content": {
@@ -114,8 +114,8 @@
     "legacyTopicId": "ica-s-26-30",
     "migrationNote": "Updated under the legal-content verification policy. Cross-subject evidentiary/procedural/limitation material was removed where present. Substantive propositions remain SOURCE_CHECK_REQUIRED until independently checked against the authoritative statutory text.",
     "enhancement": {
-      "version": 2,
-      "status": "source_check_required",
+      "version": 3,
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Ica Section 26 30.",
@@ -148,8 +148,8 @@
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "Final Legal Verification — authoritative statutory source pass",
+        "lastVerifiedAt": "2026-10-07",
+        "verifiedBy": "Final Legal Verification — India Code + official Supreme Court judgment pass",
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
@@ -161,9 +161,12 @@
           "Statutory framework verified against the official India Code Indian Contract Act, 1872 text for the section range represented by this topic.",
           "No material case authority is present in this topic; case-law gate is not-applicable.",
           "Existing migrated substantive content preserved; no unsupported case authority added.",
-          "Repository content was not treated as proof. Independent authoritative verification is required before this topic is labelled FINAL_VERIFIED."
+          "Statutory provisions checked against the official India Code Indian Contract Act, 1872 record.",
+          "Material case authority added only where an official Supreme Court judgment source was located and the proposition was checked against that source.",
+          "Existing migrated substantive content preserved; no unsupported authority added.",
+          "Case-law gate completed for the authorities recorded in this topic."
         ],
-        "status": "SOURCE_CHECK_REQUIRED"
+        "status": "VERIFIED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
@@ -193,10 +196,24 @@
         "Distinguish this statutory rule from adjacent provisions by its exact statutory trigger and legal consequence.",
         "Apply the specific provision to the facts before relying on related doctrines."
       ],
-      "caseLaw": [],
-      "caseLawGate": "not-applicable"
+      "caseLaw": [
+        {
+          "name": "Gherulal Parakh v. Mahadeodas Maiya",
+          "citation": "1959 Supp (2) SCR 406; AIR 1959 SC 781",
+          "proposition": "A wagering agreement is void under section 30 but is not, merely by that fact, an illegal agreement; collateral transactions may therefore require separate treatment.",
+          "source": "https://api.sci.gov.in/jonew/judis/407.pdf"
+        }
+      ],
+      "caseLawGate": "verified"
     },
-    "caseLaw": []
+    "caseLaw": [
+      {
+        "name": "Gherulal Parakh v. Mahadeodas Maiya",
+        "citation": "1959 Supp (2) SCR 406; AIR 1959 SC 781",
+        "proposition": "A wagering agreement is void under section 30 but is not, merely by that fact, an illegal agreement; collateral transactions may therefore require separate treatment.",
+        "source": "https://api.sci.gov.in/jonew/judis/407.pdf"
+      }
+    ]
   },
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
