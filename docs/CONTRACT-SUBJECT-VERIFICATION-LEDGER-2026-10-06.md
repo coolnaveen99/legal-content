@@ -50,13 +50,13 @@ Single-subject control ledger for the complete Contract collection. This ledger 
 | 20 | ica-s-182-189.json | ICA §§182–189 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 21 | ica-s-190-195.json | ICA §§190–195 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 22 | ica-s-196-200.json | ICA §§196–200 | STATUTE-MAPPED / CASE-GATE-PENDING |
-| 23 | ica-s-20-22.json | ICA §§20–22 | STATUTE-MAPPED / CASE-GATE-PENDING |
+| 23 | ica-s-20-22.json | ICA §§20–22 | VERIFIED / CASE-GATE-VERIFIED |
 | 24 | ica-s-201-210.json | ICA §§201–210 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 25 | ica-s-211-221.json | ICA §§211–221 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 26 | ica-s-222-225.json | ICA §§222–225 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 27 | ica-s-226-238.json | ICA §§226–238 | STATUTE-MAPPED / CASE-GATE-PENDING |
-| 28 | ica-s-23-25.json | ICA §§23–25 | STATUTE-MAPPED / CASE-GATE-PENDING |
-| 29 | ica-s-26-30.json | ICA §§26–30 | STATUTE-MAPPED / CASE-GATE-PENDING |
+| 28 | ica-s-23-25.json | ICA §§23–25 | VERIFIED / CASE-GATE-VERIFIED |
+| 29 | ica-s-26-30.json | ICA §§26–30 | VERIFIED / CASE-GATE-VERIFIED |
 | 30 | ica-s-3-9.json | ICA §§3–9 | STATUTORY-VERIFIED / CASE-GATE-N/A |
 | 31 | ica-s-31-36.json | ICA §§31–36 | STATUTE-MAPPED / CASE-GATE-PENDING |
 | 32 | ica-s-37-45.json | ICA §§37–45 | STATUTE-MAPPED / CASE-GATE-PENDING |
@@ -135,3 +135,12 @@ Verify the ICA §§1–75 family and then the ICA §§124–238 family, followed
 - `offer-acceptance.json`: substantive enhancement upgraded and verified against the official India Code text for ICA ss. 3–9; no unverified case authority added.
 - Commit: `ca9950088d0c1ae9451c5131908c248ef910b1f7`.
 - Contract remains IN PROGRESS; this is a verification tranche, not subject-wide closure.
+
+
+## Execution update — 2026-10-07 (Contract verification tranche 2)
+
+- `ica-s-20-22.json`: statutory and case-law verification completed; Tarsem Singh v. Sukhminder Singh verified against an official Supreme Court judgment source.
+- `ica-s-23-25.json`: statutory and case-law verification completed; Gherulal Parakh v. Mahadeodas Maiya and B.O.I. Finance Ltd. v. Custodian recorded from official Supreme Court judgment material.
+- `ica-s-26-30.json`: statutory and case-law verification completed; Gherulal Parakh v. Mahadeodas Maiya verified against the official Supreme Court judgment source.
+- Commits: `7cad09e768fe1f88daf26acee7bb49013594b0fa`, `1f1b90ed96c88e55b033064fdce7563fca51c70e`, `ef1e928c77c3394b38f367c90c74098ae90ceece`.
+- Contract subject remains IN PROGRESS; 5 of 60 rows are now promoted by the ledger (`ica-s-3-9`, `offer-acceptance`, `ica-s-20-22`, `ica-s-23-25`, `ica-s-26-30`).
