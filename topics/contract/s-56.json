@@ -2,7 +2,7 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-56",
-  "version": 2,
+  "version": 3,
   "status": "verified",
   "title": "Section 56 ICA — Frustration and impossibility",
   "jurisdiction": "India",
@@ -42,7 +42,7 @@
       "Indian Contract Act, 1872"
     ],
     "enhancement": {
-      "version": 2,
+      "version": 3,
       "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
@@ -76,8 +76,8 @@
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "Final Legal Verification — authoritative statutory source pass",
+        "lastVerifiedAt": "2026-10-07",
+        "verifiedBy": "Final Legal Verification — India Code + official Supreme Court judgment pass",
         "notes": [
           "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
@@ -86,8 +86,13 @@
           "Enhancement metadata upgraded; no unverified case authority added.",
           "Statutory framework/source provenance verified against the applicable official India Code Act text.",
           "No material case authority is present in this topic; case-law gate is not-applicable.",
-          "Migrated substantive content preserved; no unsupported authority added."
-        ]
+          "Migrated substantive content preserved; no unsupported authority added.",
+          "Section 56 checked against the official India Code Act text.",
+          "Satyabrata Ghose v. Mugneeram Bangur & Co. was checked against the official Supreme Court judgment source.",
+          "Existing migrated substantive content preserved; no unsupported authority added.",
+          "Case-law gate completed for the authority recorded in this topic."
+        ],
+        "status": "VERIFIED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
@@ -117,16 +122,30 @@
         "Distinguish this statutory rule from adjacent provisions by its exact statutory trigger and legal consequence.",
         "Apply the specific provision to the facts before relying on related doctrines."
       ],
-      "caseLaw": [],
-      "caseLawGate": "not-applicable"
+      "caseLaw": [
+        {
+          "name": "Satyabrata Ghose v. Mugneeram Bangur & Co.",
+          "citation": "1954 AIR 44; 1954 SCR 310",
+          "proposition": "Section 56 is a rule of positive law governing frustration by supervening impossibility or illegality; impossibility is not confined to physical impossibility and must strike at the root of the contract.",
+          "source": "https://api.sci.gov.in/jonew/judis/1001.pdf"
+        }
+      ],
+      "caseLawGate": "verified"
     },
-    "caseLaw": []
+    "caseLaw": [
+      {
+        "name": "Satyabrata Ghose v. Mugneeram Bangur & Co.",
+        "citation": "1954 AIR 44; 1954 SCR 310",
+        "proposition": "Section 56 is a rule of positive law governing frustration by supervening impossibility or illegality; impossibility is not confined to physical impossibility and must strike at the root of the contract.",
+        "source": "https://api.sci.gov.in/jonew/judis/1001.pdf"
+      }
+    ]
   },
   "sources": [
     "source:india:india-code-contract-1872",
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "updatedAt": "2026-10-07T00:00:00.000Z",
   "effectiveFrom": "1872-09-01",
   "effectiveTo": null,
   "tags": [
