@@ -10,6 +10,8 @@
 
 ## 0. Governing rules
 
+**Yield-classification removal — 2026-10-07:** No topic is classified as High-Yield, Medium-Yield, or Low-Yield for legal depth, completeness, verification, or publication. All topics have one final legal-quality standard. Any `Priority`/P0/P1/P2 label in this plan is execution sequencing only and must never be used to justify shallower treatment.
+
 1. `legal-content/main` is the canonical source of truth.
 2. Never bulk-copy legacy `codepackr-law` content over enhanced canonical content.
 3. Preserve migrated substantive baseline text.
@@ -50,7 +52,7 @@ No unknown enhancement population remains.
 
 **Goal:** Convert scaffold-level enhancements into genuinely topic-specific substantive enhancements.
 
-**Current principal queue:** approximately **2,065 scaffold enhancements**.
+**Current principal queue:** approximately **2,065 scaffold enhancements**. Every scaffold topic receives the same final substantive standard; ordering is operational only.
 
 ### Per-topic requirements
 - [ ] P1-001 Topic-specific definition.
@@ -77,7 +79,7 @@ No topic remains classified as scaffold solely because the enhancement was gener
 
 ### Execution order
 
-| Priority | Subject | Topics | Current substantive |
+| Execution order | Subject | Topics | Current substantive |
 |---|---|---:|---:|
 | 1 | Admin | 44 | 1 |
 | 2 | Arbitration | 132 | 0 |
@@ -455,3 +457,14 @@ A phase becomes **COMPLETE** only when:
 **Fresh judgment acquisition:** blocked until Final Content Quality Pass closes.
 
 **AI/provider:** blocked until all non-AI work closes.
+
+
+## Yield Classification Removal Control
+
+- [x] YIELD-001 Remove High-Yield/Medium-Yield/Low-Yield as legal completeness tiers.
+- [x] YIELD-002 Preserve execution priority only for sequencing, dependency, risk, current-law sensitivity, and implementation efficiency.
+- [ ] YIELD-003 Audit remaining application UI, prompts, scripts, metadata, and legacy content for yield-based depth claims.
+- [ ] YIELD-004 Replace any yield-based completion gate with the standard all-topic legal-completeness gate.
+- [ ] YIELD-005 Re-run topic/catalog validation after the application-side cleanup.
+
+**Binding rule:** A rarely litigated, rarely examined, or procedurally narrow provision may still be outcome-determinative. It must not receive a reduced legal-content standard.
