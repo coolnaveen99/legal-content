@@ -2,27 +2,22 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-offer-acceptance",
-  "version": 2,
-  "status": "verified",
+  "version": 3,
+  "status": "source_check_required",
   "title": "Offer and acceptance — ICA ss. 2–9",
   "jurisdiction": "India",
   "content": {
     "overview": "A proposal (offer) when accepted becomes a promise. Communication, revocation, and acceptance rules under sections 3–9 determine when parties are bound.",
     "sections": [
       {
-        "heading": "Offer and invitation to treat",
-        "body": "An offer is capable of acceptance so as to form a promise. Catalogues, advertisements, and price lists are often invitations to treat, not offers.",
+        "heading": "Statutory scope — Offer and acceptance — ICA ss. 2–9",
+        "body": "This topic is confined to the identified statutory provisions. The statutory text and the specific legal effect of each provision should control the analysis.",
         "order": 1
       },
       {
         "heading": "Communication and revocation",
         "body": "Communication of proposal, acceptance, and revocation follows sections 3–5. A proposal may be revoked before acceptance is complete as against the proposer. Acceptance must be absolute and unqualified (s. 7).",
         "order": 2
-      },
-      {
-        "heading": "Track B",
-        "body": "Plead the communication chain: when the offer was made, how accepted, and whether revocation arrived in time. Electronic contracts need proof of dispatch and receipt under IT and BSA rules.",
-        "order": 3
       }
     ],
     "examples": [],
@@ -42,7 +37,7 @@
     ],
     "enhancement": {
       "version": 2,
-      "status": "verified",
+      "status": "source_check_required",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Offer and acceptance — ICA ss. 2–9.",
@@ -87,8 +82,10 @@
           "Enhancement metadata upgraded; no unverified case authority added.",
           "Statutory framework/source provenance verified against the applicable official India Code Act text.",
           "No material case authority is present in this topic; case-law gate is not-applicable.",
-          "Migrated substantive content preserved; no unsupported authority added."
-        ]
+          "Migrated substantive content preserved; no unsupported authority added.",
+          "Repository content was not treated as proof. Independent authoritative verification is required before this topic is labelled FINAL_VERIFIED."
+        ],
+        "status": "SOURCE_CHECK_REQUIRED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
@@ -121,13 +118,14 @@
       "caseLaw": [],
       "caseLawGate": "not-applicable"
     },
-    "caseLaw": []
+    "caseLaw": [],
+    "migrationNote": "Updated under the legal-content verification policy. Cross-subject evidentiary/procedural/limitation material was removed where present. Substantive propositions remain SOURCE_CHECK_REQUIRED until independently checked against the authoritative statutory text."
   },
   "sources": [
     "source:india:india-code-contract-1872",
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "updatedAt": "2026-10-07T00:00:00.000Z",
   "effectiveFrom": "1872-09-01",
   "effectiveTo": null,
   "tags": [
