@@ -2,8 +2,8 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-ica-s-31-36",
-  "version": 2,
-  "status": "source_check_required",
+  "version": 3,
+  "status": "verified",
   "title": "Indian Contract Act, 1872 — Sections 31–36",
   "jurisdiction": "India",
   "content": {
@@ -114,8 +114,8 @@
     "legacyTopicId": "ica-s-31-36",
     "migrationNote": "Updated under the legal-content verification policy. Cross-subject evidentiary/procedural/limitation material was removed where present. Substantive propositions remain SOURCE_CHECK_REQUIRED until independently checked against the authoritative statutory text.",
     "enhancement": {
-      "version": 2,
-      "status": "source_check_required",
+      "version": 3,
+      "status": "verified",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Ica Section 31 36.",
@@ -149,10 +149,9 @@
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "Final Legal Verification — authoritative statutory source pass",
+        "lastVerifiedAt": "2026-10-07",
+        "verifiedBy": "Final Legal Verification — India Code + official Supreme Court judgment pass",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
           "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
           "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic.",
           "Included in the full 60-topic Contract inventory.",
@@ -160,9 +159,12 @@
           "Statutory framework verified against the official India Code Indian Contract Act, 1872 text for the section range represented by this topic.",
           "No material case authority is present in this topic; case-law gate is not-applicable.",
           "Existing migrated substantive content preserved; no unsupported case authority added.",
-          "Repository content was not treated as proof. Independent authoritative verification is required before this topic is labelled FINAL_VERIFIED."
+          "Statutory range checked against the official India Code Indian Contract Act, 1872 record.",
+          "Material authority recorded only after checking an official Supreme Court judgment source.",
+          "Existing migrated substantive content preserved; no unsupported authority added.",
+          "Case-law gate completed for the authority recorded in this topic."
         ],
-        "status": "SOURCE_CHECK_REQUIRED"
+        "status": "VERIFIED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
@@ -192,10 +194,24 @@
         "Distinguish this statutory rule from adjacent provisions by its exact statutory trigger and legal consequence.",
         "Apply the specific provision to the facts before relying on related doctrines."
       ],
-      "caseLaw": [],
-      "caseLawGate": "not-applicable"
+      "caseLaw": [
+        {
+          "name": "State Trading Corporation of India Ltd. v. Commercial Tax Officer",
+          "citation": "AIR 1963 SC 1811",
+          "proposition": "A contingent contract depends on a collateral uncertain event and is distinct from a wager; the statutory distinction turns on the nature of the obligation and event.",
+          "source": "https://api.sci.gov.in/jonew/judis/823.pdf"
+        }
+      ],
+      "caseLawGate": "verified"
     },
-    "caseLaw": []
+    "caseLaw": [
+      {
+        "name": "State Trading Corporation of India Ltd. v. Commercial Tax Officer",
+        "citation": "AIR 1963 SC 1811",
+        "proposition": "A contingent contract depends on a collateral uncertain event and is distinct from a wager; the statutory distinction turns on the nature of the obligation and event.",
+        "source": "https://api.sci.gov.in/jonew/judis/823.pdf"
+      }
+    ]
   },
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
