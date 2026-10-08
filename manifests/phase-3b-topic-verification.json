@@ -1,8 +1,8 @@
 {
   "schemaVersion": "v1",
   "phase": "3B",
-  "generatedAt": "2026-10-08T05:20:14.603Z",
-  "scope": 3551,
+  "generatedAt": "2026-10-08T05:30:17.777Z",
+  "scope": 3550,
   "changed": 0,
   "sourceIssues": 0,
   "rows": [
@@ -34,12 +34,16 @@
       "legacySourcePresent": false,
       "provisionRefs": [
         {
-          "actId": "admin",
-          "section": null
+          "actId": "constitution",
+          "section": "Article 14"
         },
         {
-          "actId": "bsa",
-          "section": "s. 63"
+          "actId": "constitution",
+          "section": "Article 21"
+        },
+        {
+          "actId": "constitution",
+          "section": "Article 226"
         }
       ],
       "status": "verification_in_progress"
@@ -332,25 +336,6 @@
     {
       "path": "topics/admin/admin-liability.json",
       "id": "topic:india:admin-admin-liability",
-      "expectedSources": [],
-      "actualSources": [],
-      "missingSources": [],
-      "legacySourcePresent": false,
-      "provisionRefs": [
-        {
-          "actId": "admin",
-          "section": null
-        },
-        {
-          "actId": "bsa",
-          "section": "s. 63"
-        }
-      ],
-      "status": "verification_in_progress"
-    },
-    {
-      "path": "topics/admin/admin-nemo-judex.json",
-      "id": "topic:india:admin-admin-nemo-judex",
       "expectedSources": [],
       "actualSources": [],
       "missingSources": [],

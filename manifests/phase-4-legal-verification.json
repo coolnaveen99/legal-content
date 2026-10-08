@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-08T05:20:15.605Z",
+  "generatedAt": "2026-10-08T05:30:18.409Z",
   "scope": {
-    "migratedTopics": 3551
+    "migratedTopics": 3550
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,15 +12,15 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 3551,
-    "topicsWithFindings": 2338,
-    "totalFindings": 3937,
-    "highSeverity": 2997,
-    "mediumSeverity": 940
+    "topicsAudited": 3550,
+    "topicsWithFindings": 2337,
+    "totalFindings": 3935,
+    "highSeverity": 2996,
+    "mediumSeverity": 939
   },
   "byType": {
-    "provenance": 1910,
-    "workflow-status": 170,
+    "provenance": 1909,
+    "workflow-status": 169,
     "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
@@ -348,24 +348,6 @@
     {
       "path": "topics/admin/admin-liability.json",
       "id": "topic:india:admin-admin-liability",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-nemo-judex.json",
-      "id": "topic:india:admin-admin-nemo-judex",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-nemo-judex.json",
-      "id": "topic:india:admin-admin-nemo-judex",
       "subject": "admin",
       "type": "workflow-status",
       "severity": "medium",

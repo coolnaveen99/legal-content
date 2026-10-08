@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-08T05:20:17.246Z",
+  "generatedAt": "2026-10-08T05:30:19.387Z",
   "scope": {
-    "migratedTopics": 3100,
-    "caseRecords": 9087
+    "migratedTopics": 3099,
+    "caseRecords": 9084
   },
   "policy": [
     "Validates judgment metadata and case-analysis completeness against authoritative sources before publication.",
@@ -12,12 +12,12 @@
     "No topic is promoted to verified or published by this audit."
   ],
   "summary": {
-    "caseRecords": 9087,
-    "topicsWithCases": 3100,
-    "topicsWithFindings": 3058,
-    "totalFindings": 16396,
+    "caseRecords": 9084,
+    "topicsWithCases": 3099,
+    "topicsWithFindings": 3057,
+    "totalFindings": 16393,
     "highSeverity": 14,
-    "mediumSeverity": 16382
+    "mediumSeverity": 16379
   },
   "byType": {
     "missing-court": 1536,
@@ -25,7 +25,7 @@
     "missing-citation": 18,
     "implausible-year": 13,
     "known-case-metadata-risk": 1,
-    "duplicate-case-record": 8775
+    "duplicate-case-record": 8772
   },
   "findings": [
     {
@@ -61237,14 +61237,6 @@
       "evidence": "maneka gandhi v union of india|(1978) 1 scc 248"
     },
     {
-      "path": "topics/admin/admin-nemo-judex.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "maneka gandhi v union of india|(1978) 1 scc 248"
-    },
-    {
       "path": "topics/admin/admin-rule-of-law-welfare.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -61269,14 +61261,6 @@
       "evidence": "swadeshi cotton mills v union of india|(1981) 1 scc 664"
     },
     {
-      "path": "topics/admin/admin-nemo-judex.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "swadeshi cotton mills v union of india|(1981) 1 scc 664"
-    },
-    {
       "path": "topics/admin/admin-speaking-orders.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -61294,14 +61278,6 @@
     },
     {
       "path": "topics/admin/admin-functions.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "a.k. kraipak v union of india|(1969) 2 scc 262"
-    },
-    {
-      "path": "topics/admin/admin-nemo-judex.json",
       "topic": "",
       "type": "duplicate-case-record",
       "severity": "medium",
