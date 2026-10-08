@@ -51,6 +51,9 @@ Every completed verification unit must record the exact topic/path, authoritativ
 ## Definition of done
 The unified phase closes only when the full catalog has been reconciled and every remaining review/in-progress record is either evidence-backed and promoted, or explicitly accounted for with a documented reason it remains unpublished/in-progress.
 
+## Latest execution evidence — 2026-10-08
+Contract ICA §§10–12 were independently checked against the current India Code Act record and statutory text. Topic verification was promoted to `verified`; evidence: `docs/VER-001-CONTRACT-ICA-S-10-12-VERIFICATION-2026-10-08.md`. Topic commit: `cddb53fc82e64daf7af42897f4dadcfa187b082f`.
+
 ## Next execution
-Continue from the canonical full-catalog inventory, with Contract ICA §§3–9 as the immediate already-open unit, while all other subject work is controlled by the same evidence standard.
+Continue from the canonical full-catalog inventory with **Contract ICA §§13–14** as the next executable statutory unit, while all other subject work remains controlled by the same evidence standard.
 
