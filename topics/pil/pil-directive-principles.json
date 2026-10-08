@@ -11,38 +11,174 @@
     "glance": "Ask: (1) Which DPSP is invoked? (2) Is there a Part III or statutory hook? (3) Orientation vs free-standing relief? (4) Standing bona fides? (5) Forum?",
     "study": "Core rule: Article 37 makes DPSPs fundamental in governance but not enforceable by court in the same manner as Part III. PIL may use DPSPs to interpret rights, structure directions tied to legal duties, and show constitutional values — not to convert every policy preference into a writ.\n\nTypical pairings: Article 48A with environmental Article 21 claims; social-justice DPSPs with equality and dignity claims.\n\nLimits: Pure DPSP wish-lists without justiciable rights or duties fail. Abuse filters apply.\n\nCurrent-law framing: Part IV, Articles 21/14, 32/226. Case-law verification remains separate.",
     "sections": [
-      {"heading": "DPSP character under Article 37", "body": "Fundamental in governance; not enforceable like Part III, yet central to constitutional policy orientation.", "order": 1},
-      {"heading": "Use in PIL interpretation", "body": "Courts may read fundamental rights in light of DPSPs when framing environmental and social-justice claims.", "order": 2},
-      {"heading": "Need for a justiciable hook", "body": "Pair DPSP orientation with Article 21/14 injury or a statutory/public duty enforceable under 32/226.", "order": 3},
-      {"heading": "Standing and forum", "body": "Bona fide public-interest standing still required; choose 32 or 226 by rights base and territory.", "order": 4},
-      {"heading": "Limits", "body": "DPSP citation does not create unlimited judicial policy-making or validate private disputes.", "order": 5}
+      {
+        "heading": "DPSP character under Article 37",
+        "body": "Fundamental in governance; not enforceable like Part III, yet central to constitutional policy orientation.",
+        "order": 1
+      },
+      {
+        "heading": "Use in PIL interpretation",
+        "body": "Courts may read fundamental rights in light of DPSPs when framing environmental and social-justice claims.",
+        "order": 2
+      },
+      {
+        "heading": "Need for a justiciable hook",
+        "body": "Pair DPSP orientation with Article 21/14 injury or a statutory/public duty enforceable under 32/226.",
+        "order": 3
+      },
+      {
+        "heading": "Standing and forum",
+        "body": "Bona fide public-interest standing still required; choose 32 or 226 by rights base and territory.",
+        "order": 4
+      },
+      {
+        "heading": "Limits",
+        "body": "DPSP citation does not create unlimited judicial policy-making or validate private disputes.",
+        "order": 5
+      }
     ],
     "provisions": [
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-37", "section": "Article 37", "title": "Application of Directive Principles"},
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-48a", "section": "Article 48A", "title": "Environment — DPSP"},
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-21", "section": "Article 21", "title": "Life and personal liberty"}
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-37",
+        "section": "Article 37",
+        "title": "Application of Directive Principles"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-48a",
+        "section": "Article 48A",
+        "title": "Environment — DPSP"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-21",
+        "section": "Article 21",
+        "title": "Life and personal liberty"
+      }
     ],
     "examples": [
-      {"title": "DPSP plus Article 21", "body": "Environmental claim cites 48A and 21 for public pollution injury — DPSP orients; 21 supplies rights base.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Bare DPSP prayer", "body": "Petition seeks only general implementation of a DPSP without rights/duty particulars — weak maintainability.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "DPSP plus Article 21",
+        "body": "Environmental claim cites 48A and 21 for public pollution injury — DPSP orients; 21 supplies rights base.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Bare DPSP prayer",
+        "body": "Petition seeks only general implementation of a DPSP without rights/duty particulars — weak maintainability.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
-    "hypotheticals": [{"question": "Can a court issue a writ solely to enforce a DPSP?", "analysis": "DPSPs are not enforceable like Part III; relief is structured through rights and legal duties informed by DPSPs."}],
-    "distinctions": [{"id": "pil-dpsp-vs-fr", "title": "Directive Principles vs Fundamental Rights in PIL", "left": "Orientation and governance principles.", "right": "Directly enforceable Part III rights.", "rows": [{"point": "Article 37", "left": "Not enforceable like FR.", "right": "FR enforceable under 32/226."}]}],
-    "misconceptions": [{"id": "pil-dpsp-trap-1", "trap": "Every DPSP is as enforceable as Article 21 in PIL.", "correction": "DPSPs orient; Part III and statutory duties supply the usual enforceable base."}],
+    "hypotheticals": [
+      {
+        "question": "Can a court issue a writ solely to enforce a DPSP?",
+        "analysis": "DPSPs are not enforceable like Part III; relief is structured through rights and legal duties informed by DPSPs."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "pil-dpsp-vs-fr",
+        "title": "Directive Principles vs Fundamental Rights in PIL",
+        "left": "Orientation and governance principles.",
+        "right": "Directly enforceable Part III rights.",
+        "rows": [
+          {
+            "point": "Article 37",
+            "left": "Not enforceable like FR.",
+            "right": "FR enforceable under 32/226."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "pil-dpsp-trap-1",
+        "trap": "Every DPSP is as enforceable as Article 21 in PIL.",
+        "correction": "DPSPs orient; Part III and statutory duties supply the usual enforceable base."
+      }
+    ],
     "cases": [
-      {"name": "Bandhua Mukti Morcha v. Union of India", "year": 1984, "citation": "(1984) 3 SCC 161", "court": "Supreme Court of India", "facts": "Vulnerable-class enforcement.", "issue": "Flexible process?", "ratioDecidendi": "Flexible procedure for effective rights enforcement.", "holding": "Article 21 vehicle.", "relevance": "Rights-based structural PIL; verification open.", "judgmentId": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984"},
-      {"name": "S.P. Gupta v. Union of India", "year": 1981, "citation": "1981 Supp SCC 87", "court": "Supreme Court of India", "facts": "Public standing.", "issue": "Public injury standing?", "ratioDecidendi": "Standing may be relaxed for bona fide public redress.", "holding": "Expanded standing.", "relevance": "Standing; verification open.", "judgmentId": "judgment:india:s-p-gupta-v-union-of-india-1981"},
-      {"name": "State of Uttaranchal v. Balwant Singh Chaufal", "year": 2010, "citation": "(2010) 3 SCC 402", "court": "Supreme Court of India", "facts": "PIL misuse.", "issue": "Abuse screens?", "ratioDecidendi": "Credentials, motive, public injury, no personal gain.", "holding": "Screening guidelines.", "relevance": "Filters; verification open.", "judgmentId": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"}
+      {
+        "name": "Bandhua Mukti Morcha v. Union of India",
+        "year": 1984,
+        "citation": "(1984) 3 SCC 161",
+        "court": "Supreme Court of India",
+        "facts": "Vulnerable-class enforcement.",
+        "issue": "Flexible process?",
+        "ratioDecidendi": "Flexible procedure for effective rights enforcement.",
+        "holding": "Article 21 vehicle.",
+        "relevance": "Rights-based structural PIL; verification open.",
+        "judgmentId": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984"
+      },
+      {
+        "name": "S.P. Gupta v. Union of India",
+        "year": 1981,
+        "citation": "1981 Supp SCC 87",
+        "court": "Supreme Court of India",
+        "facts": "Public standing.",
+        "issue": "Public injury standing?",
+        "ratioDecidendi": "Standing may be relaxed for bona fide public redress.",
+        "holding": "Expanded standing.",
+        "relevance": "Standing; verification open.",
+        "judgmentId": "judgment:india:s-p-gupta-v-union-of-india-1981"
+      },
+      {
+        "name": "State of Uttaranchal v. Balwant Singh Chaufal",
+        "year": 2010,
+        "citation": "(2010) 3 SCC 402",
+        "court": "Supreme Court of India",
+        "facts": "PIL misuse.",
+        "issue": "Abuse screens?",
+        "ratioDecidendi": "Credentials, motive, public injury, no personal gain.",
+        "holding": "Screening guidelines.",
+        "relevance": "Filters; verification open.",
+        "judgmentId": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+      }
     ],
     "questionsAndAnswers": [
-      {"id": "pil-dpsp-10", "draftingCategory": "10-mark", "question": "Explain the role of Directive Principles in PIL.", "answer": "Article 37 character; interpretive use; need for rights/duty hook; examples (48A/21); limits.", "explanation": "10-mark."},
-      {"id": "pil-dpsp-16", "draftingCategory": "16-mark", "question": "Discuss Directive Principles of State Policy in the context of Public Interest Litigation.", "answer": "I. Article 37. II. Orientation role. III. Pairing with FR. IV. Standing/forum. V. Limits. VI. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "pil-dpsp-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain the role of Directive Principles in PIL.",
+        "answer": "Article 37 character; interpretive use; need for rights/duty hook; examples (48A/21); limits.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "pil-dpsp-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss Directive Principles of State Policy in the context of Public Interest Litigation.",
+        "answer": "I. Article 37. II. Orientation role. III. Pairing with FR. IV. Standing/forum. V. Limits. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["Articles 37, 48A, 21, 32, 226"],
-    "examTips": ["Never treat DPSPs as identical to Part III in enforceability.", "Always identify the justiciable hook."],
-    "revisionPoints": ["Art 37", "Orientation not free-standing", "Pair with FR", "Limits"],
-    "relatedJudgments": ["judgment:india:bandhua-mukti-morcha-v-union-of-india-1984", "judgment:india:s-p-gupta-v-union-of-india-1981", "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"],
-    "relatedTopics": ["topic:india:pil-pil-environmental", "topic:india:pil-pil-article-21", "topic:india:pil-pil-article-51a-g"],
+    "bareActPointers": [
+      "Articles 37, 48A, 21, 32, 226"
+    ],
+    "examTips": [
+      "Never treat DPSPs as identical to Part III in enforceability.",
+      "Always identify the justiciable hook."
+    ],
+    "revisionPoints": [
+      "Art 37",
+      "Orientation not free-standing",
+      "Pair with FR",
+      "Limits"
+    ],
+    "relatedJudgments": [
+      "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984",
+      "judgment:india:s-p-gupta-v-union-of-india-1981",
+      "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+    ],
+    "relatedTopics": [
+      "topic:india:pil-pil-environmental",
+      "topic:india:pil-pil-article-21",
+      "topic:india:pil-pil-article-51a-g"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "pil",
     "legacyTopicId": "pil-directive-principles",
@@ -51,26 +187,66 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Explain DPSP role in PIL", "Distinguish orientation from free-standing enforceability"],
+      "learningObjectives": [
+        "Explain DPSP role in PIL",
+        "Distinguish orientation from free-standing enforceability"
+      ],
       "definition": "DPSPs orient State policy and rights interpretation in PIL; they are not ordinarily free-standing writ causes of action like Part III rights.",
       "legalPrinciple": "Use DPSPs to inform justiciable claims under Articles 32/226; do not treat Part IV as identical to Part III.",
       "statutoryFramework": "Constitution of India — Part IV; Articles 37, 21, 32, 226.",
-      "essentialIngredients": ["Identified DPSP", "Justiciable rights/duty hook", "Bona fide standing", "Fit forum"],
+      "essentialIngredients": [
+        "Identified DPSP",
+        "Justiciable rights/duty hook",
+        "Bona fide standing",
+        "Fit forum"
+      ],
       "detailedExplanation": "DPSPs guide; FR and legal duties enforce.",
-      "examples": ["DPSP plus Article 21", "Bare DPSP prayer"],
+      "examples": [
+        "DPSP plus Article 21",
+        "Bare DPSP prayer"
+      ],
       "problemApplication": "Name DPSP; find rights/duty hook; standing; forum; filters.",
-      "distinctions": ["Directive Principles vs Fundamental Rights in PIL"],
+      "distinctions": [
+        "Directive Principles vs Fundamental Rights in PIL"
+      ],
       "caseLawNotes": "Migrated cases retained; verification separate.",
       "tenMarkStructure": "Art 37 → orientation → FR hook → examples → limits.",
       "sixteenMarkStructure": "Art 37 → role → pairing → standing → limits → conclusion.",
-      "keyTakeaways": ["Not free-standing like FR", "Orient interpretation", "Need justiciable hook"],
-      "authoritativeSources": ["Constitution of India — Articles 37, 21, 48A, 32, 226"],
+      "keyTakeaways": [
+        "Not free-standing like FR",
+        "Orient interpretation",
+        "Need justiciable hook"
+      ],
+      "authoritativeSources": [
+        "Constitution of India — Articles 37, 21, 48A, 32, 226"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "constitution", "label": "Constitution of India", "citation": "Articles 37, 21, 48A, 32, 226", "url": null, "notes": "Framework; holding verification separate."}],
+  "sources": [
+    {
+      "kind": "constitution",
+      "label": "Constitution of India",
+      "citation": "Articles 37, 21, 48A, 32, 226",
+      "url": null,
+      "notes": "Framework; holding verification separate."
+    }
+  ],
   "updatedAt": "2026-10-08T06:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

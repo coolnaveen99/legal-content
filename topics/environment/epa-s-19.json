@@ -11,27 +11,112 @@
     "glance": "Ask: (1) Complaint by Central Government/authorised officer? OR (2) Private complaint after 60-day notice? (3) Notice contents compliant? (4) Linked to s. 15 offence?",
     "study": "s. 19 is a cognizance filter. Prosecution without the prescribed complaint route is barred. Private prosecution requires prior statutory notice.\n\nNo new case invented.",
     "sections": [
-      {"heading": "Bar on cognizance", "body": "No court shall take cognizance of an offence under the Act except as s. 19 provides.", "order": 1},
-      {"heading": "Official complaint", "body": "Complaint by the Central Government or any authority or officer authorised in that behalf.", "order": 2},
-      {"heading": "Private complaint route", "body": "Any person may complain after giving not less than sixty days' notice of the alleged offence and of intention to complain to the Central Government or authorised officer/authority — as enacted.", "order": 3},
-      {"heading": "Link to s. 15", "body": "Cognizance rules apply to offences whose penalty is framed under s. 15 and related provisions.", "order": 4},
-      {"heading": "Method", "body": "Check who filed the complaint and whether the 60-day notice path was used correctly if private.", "order": 5}
+      {
+        "heading": "Bar on cognizance",
+        "body": "No court shall take cognizance of an offence under the Act except as s. 19 provides.",
+        "order": 1
+      },
+      {
+        "heading": "Official complaint",
+        "body": "Complaint by the Central Government or any authority or officer authorised in that behalf.",
+        "order": 2
+      },
+      {
+        "heading": "Private complaint route",
+        "body": "Any person may complain after giving not less than sixty days' notice of the alleged offence and of intention to complain to the Central Government or authorised officer/authority — as enacted.",
+        "order": 3
+      },
+      {
+        "heading": "Link to s. 15",
+        "body": "Cognizance rules apply to offences whose penalty is framed under s. 15 and related provisions.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Check who filed the complaint and whether the 60-day notice path was used correctly if private.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "epa", "actName": "Environment (Protection) Act, 1986", "provisionId": "epa-19", "section": "s. 19", "title": "Cognizance of offences"}],
-    "examples": [{"title": "Private notice", "body": "A resident gives 60 days' notice of an alleged s. 7/s. 15 contravention to the authorised authority and then files a complaint — s. 19 private route is engaged.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Can a court take cognizance on a police chargesheet alone under the EPA?", "analysis": "s. 19 requires complaint by the Central Government/authorised officer or by a person after statutory notice; the prescribed complaint route controls."}],
-    "distinctions": [{"id": "s19-vs-s15", "title": "s. 19 cognizance vs s. 15 penalty", "left": "Who may trigger court cognizance and on what conditions.", "right": "Substantive penal liability for contravention.", "rows": [{"point": "Role", "left": "Procedure to court.", "right": "Offence and punishment."}]}],
-    "misconceptions": [{"id": "s19-trap-1", "trap": "Anyone can file an EPA criminal complaint without notice.", "correction": "Private complaints require prior notice of not less than sixty days as s. 19 provides; official complaints need authorised complainant."}],
+    "provisions": [
+      {
+        "actId": "epa",
+        "actName": "Environment (Protection) Act, 1986",
+        "provisionId": "epa-19",
+        "section": "s. 19",
+        "title": "Cognizance of offences"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Private notice",
+        "body": "A resident gives 60 days' notice of an alleged s. 7/s. 15 contravention to the authorised authority and then files a complaint — s. 19 private route is engaged.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a court take cognizance on a police chargesheet alone under the EPA?",
+        "analysis": "s. 19 requires complaint by the Central Government/authorised officer or by a person after statutory notice; the prescribed complaint route controls."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "s19-vs-s15",
+        "title": "s. 19 cognizance vs s. 15 penalty",
+        "left": "Who may trigger court cognizance and on what conditions.",
+        "right": "Substantive penal liability for contravention.",
+        "rows": [
+          {
+            "point": "Role",
+            "left": "Procedure to court.",
+            "right": "Offence and punishment."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "s19-trap-1",
+        "trap": "Anyone can file an EPA criminal complaint without notice.",
+        "correction": "Private complaints require prior notice of not less than sixty days as s. 19 provides; official complaints need authorised complainant."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "s19-10", "draftingCategory": "10-mark", "question": "Explain Section 19 of the Environment (Protection) Act, 1986.", "answer": "Cognizance bar; official complaint; private notice route; link to s. 15.", "explanation": "10-mark."},
-      {"id": "s19-16", "draftingCategory": "16-mark", "question": "Discuss cognizance of offences under Section 19 EPA.", "answer": "I. Bar. II. Official complaint. III. Private notice. IV. s. 15 link. V. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "s19-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Section 19 of the Environment (Protection) Act, 1986.",
+        "answer": "Cognizance bar; official complaint; private notice route; link to s. 15.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "s19-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss cognizance of offences under Section 19 EPA.",
+        "answer": "I. Bar. II. Official complaint. III. Private notice. IV. s. 15 link. V. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["EPA 1986 s. 19", "EPA 1986 s. 15"],
-    "examTips": ["State 60-day notice for private complaints.", "Name authorised complainant route."],
-    "revisionPoints": ["Cognizance bar", "Official vs private complaint", "60-day notice"],
+    "bareActPointers": [
+      "EPA 1986 s. 19",
+      "EPA 1986 s. 15"
+    ],
+    "examTips": [
+      "State 60-day notice for private complaints.",
+      "Name authorised complainant route."
+    ],
+    "revisionPoints": [
+      "Cognizance bar",
+      "Official vs private complaint",
+      "60-day notice"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:environment-epa-s-15", "topic:india:environment-env-protection-act"],
+    "relatedTopics": [
+      "topic:india:environment-epa-s-15",
+      "topic:india:environment-env-protection-act"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "environment",
     "legacyTopicId": "epa-s-19",
@@ -40,26 +125,62 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State s. 19 cognizance routes", "Apply 60-day notice rule"],
+      "learningObjectives": [
+        "State s. 19 cognizance routes",
+        "Apply 60-day notice rule"
+      ],
       "definition": "EPA s. 19 bars cognizance except on complaint by the Central Government/authorised officer or by any person after not less than sixty days' notice as enacted.",
       "legalPrinciple": "Statutory filter on criminal cognizance for EPA offences.",
       "statutoryFramework": "Environment (Protection) Act, 1986 — Section 19.",
-      "essentialIngredients": ["Authorised complaint OR private notice + complaint", "Alleged offence under Act"],
+      "essentialIngredients": [
+        "Authorised complaint OR private notice + complaint",
+        "Alleged offence under Act"
+      ],
       "detailedExplanation": "Cognizance frame under EPA.",
-      "examples": ["Private notice"],
+      "examples": [
+        "Private notice"
+      ],
       "problemApplication": "Identify complainant path; check notice if private; link to s. 15 offence.",
-      "distinctions": ["s. 19 vs s. 15"],
+      "distinctions": [
+        "s. 19 vs s. 15"
+      ],
       "caseLawNotes": "No cases invented; verification open.",
       "tenMarkStructure": "Bar → official → private notice.",
       "sixteenMarkStructure": "Bar → official → private → s. 15 link → conclusion.",
-      "keyTakeaways": ["Cognizance filter", "60-day private notice"],
-      "authoritativeSources": ["EPA 1986 s. 19"],
+      "keyTakeaways": [
+        "Cognizance filter",
+        "60-day private notice"
+      ],
+      "authoritativeSources": [
+        "EPA 1986 s. 19"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Environment (Protection) Act, 1986", "citation": "s. 19", "url": null, "notes": "Framework; no case holdings invented."}],
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Environment (Protection) Act, 1986",
+      "citation": "s. 19",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
   "updatedAt": "2026-10-08T08:19:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

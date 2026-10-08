@@ -11,27 +11,113 @@
     "glance": "Ask: (1) Is the project in a category requiring EIA/clearance? (2) Screening and appraisal complete? (3) Public consultation where required? (4) Clearance conditions complied with?",
     "study": "EIA is a preventive tool aligned with the precautionary principle. Always check the current EIA Notification and amendments for category lists, exemption and process steps — do not invent category numbers from memory.\n\nNo new case invented.",
     "sections": [
-      {"heading": "Purpose", "body": "Assess likely environmental impacts before clearance so that harm can be avoided, mitigated or conditioned.", "order": 1},
-      {"heading": "Legal base", "body": "EPA 1986 enabling powers and the EIA Notification issued thereunder; project-specific sector clearances may also apply.", "order": 2},
-      {"heading": "Process outline", "body": "Screening, scoping, public consultation (where applicable), appraisal and decision — as the current notification provides.", "order": 3},
-      {"heading": "Conditions and compliance", "body": "Clearance is typically conditional; breach of conditions is a compliance and enforcement issue under the EPA scheme.", "order": 4},
-      {"heading": "Forum", "body": "Challenges may lie before NGT for Schedule I environmental questions, or High Court under Art. 226 where maintainable.", "order": 5}
+      {
+        "heading": "Purpose",
+        "body": "Assess likely environmental impacts before clearance so that harm can be avoided, mitigated or conditioned.",
+        "order": 1
+      },
+      {
+        "heading": "Legal base",
+        "body": "EPA 1986 enabling powers and the EIA Notification issued thereunder; project-specific sector clearances may also apply.",
+        "order": 2
+      },
+      {
+        "heading": "Process outline",
+        "body": "Screening, scoping, public consultation (where applicable), appraisal and decision — as the current notification provides.",
+        "order": 3
+      },
+      {
+        "heading": "Conditions and compliance",
+        "body": "Clearance is typically conditional; breach of conditions is a compliance and enforcement issue under the EPA scheme.",
+        "order": 4
+      },
+      {
+        "heading": "Forum",
+        "body": "Challenges may lie before NGT for Schedule I environmental questions, or High Court under Art. 226 where maintainable.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "epa", "actName": "Environment (Protection) Act, 1986", "provisionId": "epa-eia", "section": "EIA framework", "title": "Environmental impact assessment"}],
-    "examples": [{"title": "Category project without clearance", "body": "A project requiring prior environmental clearance under the EIA Notification proceeds without it — clearance defect and potential EPA enforcement follow.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Is EIA optional for every industrial project?", "analysis": "No. Whether EIA/clearance is required depends on the project category under the current EIA Notification and related instruments."}],
-    "distinctions": [{"id": "eia-vs-consent", "title": "EIA clearance vs Water/Air consent", "left": "Prior environmental clearance under EIA framework for listed projects.", "right": "Medium-specific Board consent under Water Act / Air Act.", "rows": [{"point": "Instrument", "left": "EIA Notification / EPA.", "right": "Water or Air Act consent."}]}],
-    "misconceptions": [{"id": "eia-trap-1", "trap": "EIA clearance replaces Water and Air Act consents.", "correction": "EIA clearance and medium-specific consents are distinct requirements; both may apply."}],
+    "provisions": [
+      {
+        "actId": "epa",
+        "actName": "Environment (Protection) Act, 1986",
+        "provisionId": "epa-eia",
+        "section": "EIA framework",
+        "title": "Environmental impact assessment"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Category project without clearance",
+        "body": "A project requiring prior environmental clearance under the EIA Notification proceeds without it — clearance defect and potential EPA enforcement follow.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is EIA optional for every industrial project?",
+        "analysis": "No. Whether EIA/clearance is required depends on the project category under the current EIA Notification and related instruments."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "eia-vs-consent",
+        "title": "EIA clearance vs Water/Air consent",
+        "left": "Prior environmental clearance under EIA framework for listed projects.",
+        "right": "Medium-specific Board consent under Water Act / Air Act.",
+        "rows": [
+          {
+            "point": "Instrument",
+            "left": "EIA Notification / EPA.",
+            "right": "Water or Air Act consent."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "eia-trap-1",
+        "trap": "EIA clearance replaces Water and Air Act consents.",
+        "correction": "EIA clearance and medium-specific consents are distinct requirements; both may apply."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "eia-10", "draftingCategory": "10-mark", "question": "Explain Environmental Impact Assessment in Indian environmental law.", "answer": "Purpose; EPA/Notification base; process outline; compliance and forum.", "explanation": "10-mark."},
-      {"id": "eia-16", "draftingCategory": "16-mark", "question": "Discuss the legal framework of EIA in India.", "answer": "I. Purpose. II. Legal base. III. Process. IV. Conditions. V. vs consent. VI. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "eia-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Environmental Impact Assessment in Indian environmental law.",
+        "answer": "Purpose; EPA/Notification base; process outline; compliance and forum.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "eia-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss the legal framework of EIA in India.",
+        "answer": "I. Purpose. II. Legal base. III. Process. IV. Conditions. V. vs consent. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["EPA 1986", "EIA Notification (current text)", "NGT Act 2010"],
-    "examTips": ["Do not invent category lists.", "Separate EIA clearance from Board consent."],
-    "revisionPoints": ["Preventive assessment", "Notification-driven", "Clearance conditions"],
+    "bareActPointers": [
+      "EPA 1986",
+      "EIA Notification (current text)",
+      "NGT Act 2010"
+    ],
+    "examTips": [
+      "Do not invent category lists.",
+      "Separate EIA clearance from Board consent."
+    ],
+    "revisionPoints": [
+      "Preventive assessment",
+      "Notification-driven",
+      "Clearance conditions"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:environment-env-protection-act", "topic:india:environment-env-precautionary"],
+    "relatedTopics": [
+      "topic:india:environment-env-protection-act",
+      "topic:india:environment-env-precautionary"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "environment",
     "legacyTopicId": "env-eia",
@@ -40,26 +126,64 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State EIA purpose and legal base", "Distinguish from Board consent"],
+      "learningObjectives": [
+        "State EIA purpose and legal base",
+        "Distinguish from Board consent"
+      ],
       "definition": "EIA is the pre-decision assessment of a project's likely environmental effects under the EPA and the EIA Notification.",
       "legalPrinciple": "Preventive environmental governance through prior assessment and conditional clearance.",
       "statutoryFramework": "Environment (Protection) Act, 1986; EIA Notification.",
-      "essentialIngredients": ["Project category", "Required process steps", "Clearance and conditions"],
+      "essentialIngredients": [
+        "Project category",
+        "Required process steps",
+        "Clearance and conditions"
+      ],
       "detailedExplanation": "Core EIA framework for Indian environmental law.",
-      "examples": ["Category project without clearance"],
+      "examples": [
+        "Category project without clearance"
+      ],
       "problemApplication": "Check category; verify process; check conditions compliance.",
-      "distinctions": ["EIA vs Water/Air consent"],
+      "distinctions": [
+        "EIA vs Water/Air consent"
+      ],
       "caseLawNotes": "No cases invented; verification open.",
       "tenMarkStructure": "Purpose → base → process → compliance.",
       "sixteenMarkStructure": "Purpose → base → process → conditions → vs consent → conclusion.",
-      "keyTakeaways": ["Prior assessment", "Notification is operative"],
-      "authoritativeSources": ["EPA 1986", "EIA Notification"],
+      "keyTakeaways": [
+        "Prior assessment",
+        "Notification is operative"
+      ],
+      "authoritativeSources": [
+        "EPA 1986",
+        "EIA Notification"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Environment (Protection) Act, 1986 / EIA Notification", "citation": "framework", "url": null, "notes": "Framework; no case holdings invented."}],
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Environment (Protection) Act, 1986 / EIA Notification",
+      "citation": "framework",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
   "updatedAt": "2026-10-08T08:04:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

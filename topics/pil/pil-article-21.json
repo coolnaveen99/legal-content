@@ -11,38 +11,175 @@
     "glance": "Ask: (1) Is life, liberty, or dignity engaged? (2) Whose rights — class unable to approach? (3) Forum 32 or 226? (4) Bona fides? (5) Precise relief?",
     "study": "Core rule: Article 21 supplies the rights base for many structural PILs — bonded labour, custodial conditions, basic dignity claims. PIL standing allows representative enforcement; it does not invent rights beyond Article 21 and related Part III guarantees.\n\nExpanded life and dignity: Courts have read Article 21 to include aspects of dignified existence. In PIL, plead the concrete deprivation and the public or class character of the injury.\n\nForum: Article 32 for Supreme Court Part III enforcement; Article 226 for High Court, including where other legal rights join the claim.\n\nLimits: Private disputes, vague policy wish-lists, and motivated petitions fail even when Article 21 is recited.\n\nCurrent-law framing: Name Article 21 and the writ article. Case-law verification remains a separate gate.",
     "sections": [
-      {"heading": "Article 21 as PIL rights base", "body": "Life and personal liberty, read with dignity, ground many public-interest petitions for classes that cannot litigate individually.", "order": 1},
-      {"heading": "Representative enforcement", "body": "Liberal standing lets a bona fide petitioner seek enforcement of Article 21 for others who face access barriers.", "order": 2},
-      {"heading": "Concrete injury and relief", "body": "Plead specific deprivations and implementable directions; avoid omnibus governance prayers without legal duty.", "order": 3},
-      {"heading": "Forum under Articles 32 and 226", "body": "Choose Supreme Court or High Court by rights base, scale, and territory.", "order": 4},
-      {"heading": "Abuse filters", "body": "Article 21 citation does not cure private rivalry or publicity petitions.", "order": 5}
+      {
+        "heading": "Article 21 as PIL rights base",
+        "body": "Life and personal liberty, read with dignity, ground many public-interest petitions for classes that cannot litigate individually.",
+        "order": 1
+      },
+      {
+        "heading": "Representative enforcement",
+        "body": "Liberal standing lets a bona fide petitioner seek enforcement of Article 21 for others who face access barriers.",
+        "order": 2
+      },
+      {
+        "heading": "Concrete injury and relief",
+        "body": "Plead specific deprivations and implementable directions; avoid omnibus governance prayers without legal duty.",
+        "order": 3
+      },
+      {
+        "heading": "Forum under Articles 32 and 226",
+        "body": "Choose Supreme Court or High Court by rights base, scale, and territory.",
+        "order": 4
+      },
+      {
+        "heading": "Abuse filters",
+        "body": "Article 21 citation does not cure private rivalry or publicity petitions.",
+        "order": 5
+      }
     ],
     "provisions": [
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-21", "section": "Article 21", "title": "Protection of life and personal liberty"},
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-32", "section": "Article 32", "title": "Supreme Court remedies"},
-      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court remedies"}
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-21",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-32",
+        "section": "Article 32",
+        "title": "Supreme Court remedies"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-226",
+        "section": "Article 226",
+        "title": "High Court remedies"
+      }
     ],
     "examples": [
-      {"title": "Class dignity claim", "body": "Systemic bonded labour in a region: Article 21 plus representative standing and possible continuing directions.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Private label", "body": "Service dispute framed only as Article 21 PIL without public class injury: abuse filter applies.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Class dignity claim",
+        "body": "Systemic bonded labour in a region: Article 21 plus representative standing and possible continuing directions.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Private label",
+        "body": "Service dispute framed only as Article 21 PIL without public class injury: abuse filter applies.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
-    "hypotheticals": [{"question": "Does every social grievance become Article 21 PIL?", "analysis": "No. There must be a justiciable life/liberty/dignity deprivation, bona fides, and fit forum."}],
-    "distinctions": [{"id": "pil-21-vs-standing", "title": "Article 21 rights vs PIL standing", "left": "Article 21: substantive right.", "right": "Standing: who may enforce it in public interest.", "rows": [{"point": "Both needed", "left": "Rights base.", "right": "Access rule."}]}],
-    "misconceptions": [{"id": "pil-21-trap-1", "trap": "Naming Article 21 guarantees merits success.", "correction": "Standing, forum, concrete injury, and abuse filters still apply."}],
+    "hypotheticals": [
+      {
+        "question": "Does every social grievance become Article 21 PIL?",
+        "analysis": "No. There must be a justiciable life/liberty/dignity deprivation, bona fides, and fit forum."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "pil-21-vs-standing",
+        "title": "Article 21 rights vs PIL standing",
+        "left": "Article 21: substantive right.",
+        "right": "Standing: who may enforce it in public interest.",
+        "rows": [
+          {
+            "point": "Both needed",
+            "left": "Rights base.",
+            "right": "Access rule."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "pil-21-trap-1",
+        "trap": "Naming Article 21 guarantees merits success.",
+        "correction": "Standing, forum, concrete injury, and abuse filters still apply."
+      }
+    ],
     "cases": [
-      {"name": "Bandhua Mukti Morcha v. Union of India", "year": 1984, "citation": "(1984) 3 SCC 161", "court": "Supreme Court of India", "facts": "Bonded labour and dignity/liberty claims.", "issue": "Flexible enforcement of Article 21 for vulnerable persons?", "ratioDecidendi": "Courts may use flexible procedure and continuing directions for effective Fundamental Rights enforcement.", "holding": "Petition treated as vehicle for Article 21 enforcement.", "relevance": "Primary Article 21 PIL orientation; verification open.", "judgmentId": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984"},
-      {"name": "S.P. Gupta v. Union of India", "year": 1981, "citation": "1981 Supp SCC 87", "court": "Supreme Court of India", "facts": "Public standing.", "issue": "When may a person approach for public injury?", "ratioDecidendi": "Standing may be relaxed for bona fide public redress.", "holding": "Expanded public-interest standing.", "relevance": "Standing for Article 21 PILs; verification open.", "judgmentId": "judgment:india:s-p-gupta-v-union-of-india-1981"},
-      {"name": "State of Uttaranchal v. Balwant Singh Chaufal", "year": 2010, "citation": "(2010) 3 SCC 402", "court": "Supreme Court of India", "facts": "PIL misuse.", "issue": "Abuse safeguards?", "ratioDecidendi": "Verify credentials, motive, public injury, absence of personal gain.", "holding": "Screening guidelines.", "relevance": "Filters even for Article 21-labelled PILs; verification open.", "judgmentId": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"}
+      {
+        "name": "Bandhua Mukti Morcha v. Union of India",
+        "year": 1984,
+        "citation": "(1984) 3 SCC 161",
+        "court": "Supreme Court of India",
+        "facts": "Bonded labour and dignity/liberty claims.",
+        "issue": "Flexible enforcement of Article 21 for vulnerable persons?",
+        "ratioDecidendi": "Courts may use flexible procedure and continuing directions for effective Fundamental Rights enforcement.",
+        "holding": "Petition treated as vehicle for Article 21 enforcement.",
+        "relevance": "Primary Article 21 PIL orientation; verification open.",
+        "judgmentId": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984"
+      },
+      {
+        "name": "S.P. Gupta v. Union of India",
+        "year": 1981,
+        "citation": "1981 Supp SCC 87",
+        "court": "Supreme Court of India",
+        "facts": "Public standing.",
+        "issue": "When may a person approach for public injury?",
+        "ratioDecidendi": "Standing may be relaxed for bona fide public redress.",
+        "holding": "Expanded public-interest standing.",
+        "relevance": "Standing for Article 21 PILs; verification open.",
+        "judgmentId": "judgment:india:s-p-gupta-v-union-of-india-1981"
+      },
+      {
+        "name": "State of Uttaranchal v. Balwant Singh Chaufal",
+        "year": 2010,
+        "citation": "(2010) 3 SCC 402",
+        "court": "Supreme Court of India",
+        "facts": "PIL misuse.",
+        "issue": "Abuse safeguards?",
+        "ratioDecidendi": "Verify credentials, motive, public injury, absence of personal gain.",
+        "holding": "Screening guidelines.",
+        "relevance": "Filters even for Article 21-labelled PILs; verification open.",
+        "judgmentId": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+      }
     ],
     "questionsAndAnswers": [
-      {"id": "pil-21-10", "draftingCategory": "10-mark", "question": "Explain Article 21 as a base for Public Interest Litigation.", "answer": "State Article 21 text and expanded dignity reading. Link representative standing. Forum 32/226. Concrete injury and relief. Abuse filters.", "explanation": "10-mark."},
-      {"id": "pil-21-16", "draftingCategory": "16-mark", "question": "Discuss PIL for enforcement of Article 21. Examine standing, forum, relief, and limits.", "answer": "I. Article 21 content. II. Why PIL fits vulnerable classes. III. Standing. IV. Forum. V. Relief including continuing directions. VI. Limits and abuse. VII. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "pil-21-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Article 21 as a base for Public Interest Litigation.",
+        "answer": "State Article 21 text and expanded dignity reading. Link representative standing. Forum 32/226. Concrete injury and relief. Abuse filters.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "pil-21-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss PIL for enforcement of Article 21. Examine standing, forum, relief, and limits.",
+        "answer": "I. Article 21 content. II. Why PIL fits vulnerable classes. III. Standing. IV. Forum. V. Relief including continuing directions. VI. Limits and abuse. VII. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["Constitution of India — Article 21", "Articles 32 and 226"],
-    "examTips": ["Always pair Article 21 with standing and forum.", "Demand concrete injury."],
-    "revisionPoints": ["Life liberty dignity", "Representative enforcement", "Forum 32/226", "Abuse filters"],
-    "relatedJudgments": ["judgment:india:bandhua-mukti-morcha-v-union-of-india-1984", "judgment:india:s-p-gupta-v-union-of-india-1981", "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"],
-    "relatedTopics": ["topic:india:pil-locus-standi", "topic:india:pil-art-32", "topic:india:pil-pil-continuing-mandamus"],
+    "bareActPointers": [
+      "Constitution of India — Article 21",
+      "Articles 32 and 226"
+    ],
+    "examTips": [
+      "Always pair Article 21 with standing and forum.",
+      "Demand concrete injury."
+    ],
+    "revisionPoints": [
+      "Life liberty dignity",
+      "Representative enforcement",
+      "Forum 32/226",
+      "Abuse filters"
+    ],
+    "relatedJudgments": [
+      "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984",
+      "judgment:india:s-p-gupta-v-union-of-india-1981",
+      "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+    ],
+    "relatedTopics": [
+      "topic:india:pil-locus-standi",
+      "topic:india:pil-art-32",
+      "topic:india:pil-pil-continuing-mandamus"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "pil",
     "legacyTopicId": "pil-article-21",
@@ -51,26 +188,67 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Use Article 21 as PIL rights base", "Apply standing and abuse filters to Article 21 PILs"],
+      "learningObjectives": [
+        "Use Article 21 as PIL rights base",
+        "Apply standing and abuse filters to Article 21 PILs"
+      ],
       "definition": "Article 21 PIL is representative enforcement of life, liberty, and dignity claims under Articles 32/226 for classes facing access barriers.",
       "legalPrinciple": "Article 21 may be enforced through liberalised standing where deprivation is real and public; abuse filters remain.",
       "statutoryFramework": "Constitution of India — Articles 21, 32, 226.",
-      "essentialIngredients": ["Article 21 deprivation", "Public or class character", "Bona fide standing", "Fit forum", "No abuse"],
+      "essentialIngredients": [
+        "Article 21 deprivation",
+        "Public or class character",
+        "Bona fide standing",
+        "Fit forum",
+        "No abuse"
+      ],
       "detailedExplanation": "Article 21 anchors many structural PILs; standing opens the door without inventing rights.",
-      "examples": ["Class dignity claim", "Private label"],
+      "examples": [
+        "Class dignity claim",
+        "Private label"
+      ],
       "problemApplication": "Identify Article 21 injury; test standing; choose forum; seek precise relief; apply filters.",
-      "distinctions": ["Article 21 rights vs PIL standing"],
+      "distinctions": [
+        "Article 21 rights vs PIL standing"
+      ],
       "caseLawNotes": "Migrated cases retained; verification separate.",
       "tenMarkStructure": "Art 21 → standing → forum → injury/relief → filters.",
       "sixteenMarkStructure": "Content → why PIL → standing → forum → relief → limits → conclusion.",
-      "keyTakeaways": ["Art 21 is rights base", "Standing is access rule", "Filters still apply"],
-      "authoritativeSources": ["Constitution of India — Articles 21, 32, 226"],
+      "keyTakeaways": [
+        "Art 21 is rights base",
+        "Standing is access rule",
+        "Filters still apply"
+      ],
+      "authoritativeSources": [
+        "Constitution of India — Articles 21, 32, 226"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "constitution", "label": "Constitution of India", "citation": "Articles 21, 32, 226", "url": null, "notes": "Framework; holding verification separate."}],
+  "sources": [
+    {
+      "kind": "constitution",
+      "label": "Constitution of India",
+      "citation": "Articles 21, 32, 226",
+      "url": null,
+      "notes": "Framework; holding verification separate."
+    }
+  ],
   "updatedAt": "2026-10-08T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

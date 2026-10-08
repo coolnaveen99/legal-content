@@ -11,38 +11,125 @@
     "glance": "Ask: (1) SMA marriage? (2) Which s. 27 ground? (3) Ingredients proved? (4) Not mutual-consent path (s. 28)?",
     "study": "Do not cite HMA s. 13 grounds by number for an SMA marriage; use s. 27 of the SMA.\n\nCase already in migrated file: Samar Ghosh v. Jaya Ghosh (2007) 4 SCC 511 — mental cruelty is fact-sensitive; illustrative categories; statutory ground must be proved on the facts. No additional cases invented.",
     "sections": [
-      {"heading": "Contested grounds", "body": "Adultery, desertion, imprisonment, cruelty, mental-disorder grounds and other heads as in s. 27.", "order": 1},
-      {"heading": "Wife-specific / post-decree grounds", "body": "Additional grounds as enacted in the section for the wife and after certain decrees.", "order": 2},
-      {"heading": "Proof", "body": "Each ground must be proved on the facts; cruelty is fact-sensitive.", "order": 3},
-      {"heading": "Contrast with s. 28", "body": "s. 27 is contested; s. 28 is mutual consent.", "order": 4},
-      {"heading": "Forum", "body": "District Court / Family Court as applicable under the Act and Family Courts Act.", "order": 5}
+      {
+        "heading": "Contested grounds",
+        "body": "Adultery, desertion, imprisonment, cruelty, mental-disorder grounds and other heads as in s. 27.",
+        "order": 1
+      },
+      {
+        "heading": "Wife-specific / post-decree grounds",
+        "body": "Additional grounds as enacted in the section for the wife and after certain decrees.",
+        "order": 2
+      },
+      {
+        "heading": "Proof",
+        "body": "Each ground must be proved on the facts; cruelty is fact-sensitive.",
+        "order": 3
+      },
+      {
+        "heading": "Contrast with s. 28",
+        "body": "s. 27 is contested; s. 28 is mutual consent.",
+        "order": 4
+      },
+      {
+        "heading": "Forum",
+        "body": "District Court / Family Court as applicable under the Act and Family Courts Act.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "sma", "actName": "Special Marriage Act, 1954", "provisionId": "sma-27", "section": "s. 27", "title": "Divorce"}],
-    "examples": [{"title": "Cruelty petition", "body": "Spouse petitions under s. 27 on cruelty — must prove the ground on the facts; do not import HMA section numbers.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Can HMA s. 13 be cited for an SMA divorce?", "analysis": "No. Use SMA s. 27 for contested divorce under the Special Marriage Act."}],
-    "distinctions": [{"id": "sma-27-vs-28", "title": "s. 27 contested vs s. 28 mutual consent", "left": "Fault/other contested grounds.", "right": "Joint petition; separation and mutual agreement.", "rows": [{"point": "Consent", "left": "Opposed or one-sided petition.", "right": "Both parties agree."}]}],
-    "misconceptions": [{"id": "sma-27-trap-1", "trap": "HMA divorce sections apply automatically to SMA marriages.", "correction": "SMA has its own divorce chapter; cite s. 27 (or s. 28 for mutual consent)."}],
-    "cases": [{
-      "name": "Samar Ghosh v. Jaya Ghosh",
-      "year": 2007,
-      "citation": "(2007) 4 SCC 511",
-      "court": "Supreme Court of India",
-      "facts": "Dispute involving mental cruelty as a matrimonial ground.",
-      "issue": "How mental cruelty is to be assessed.",
-      "ratioDecidendi": "Mental cruelty is fact-sensitive; the Court supplied illustrative categories while emphasizing that the statutory matrimonial ground must be proved on the facts.",
-      "holding": "Fact-sensitive assessment of mental cruelty; illustrative categories.",
-      "relevance": "Use for cruelty analysis; match to the statutory text relied on.",
-      "judgmentId": "judgment:india:samar-ghosh-v-jaya-ghosh-2007"
-    }],
+    "provisions": [
+      {
+        "actId": "sma",
+        "actName": "Special Marriage Act, 1954",
+        "provisionId": "sma-27",
+        "section": "s. 27",
+        "title": "Divorce"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Cruelty petition",
+        "body": "Spouse petitions under s. 27 on cruelty — must prove the ground on the facts; do not import HMA section numbers.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can HMA s. 13 be cited for an SMA divorce?",
+        "analysis": "No. Use SMA s. 27 for contested divorce under the Special Marriage Act."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "sma-27-vs-28",
+        "title": "s. 27 contested vs s. 28 mutual consent",
+        "left": "Fault/other contested grounds.",
+        "right": "Joint petition; separation and mutual agreement.",
+        "rows": [
+          {
+            "point": "Consent",
+            "left": "Opposed or one-sided petition.",
+            "right": "Both parties agree."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "sma-27-trap-1",
+        "trap": "HMA divorce sections apply automatically to SMA marriages.",
+        "correction": "SMA has its own divorce chapter; cite s. 27 (or s. 28 for mutual consent)."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Samar Ghosh v. Jaya Ghosh",
+        "year": 2007,
+        "citation": "(2007) 4 SCC 511",
+        "court": "Supreme Court of India",
+        "facts": "Dispute involving mental cruelty as a matrimonial ground.",
+        "issue": "How mental cruelty is to be assessed.",
+        "ratioDecidendi": "Mental cruelty is fact-sensitive; the Court supplied illustrative categories while emphasizing that the statutory matrimonial ground must be proved on the facts.",
+        "holding": "Fact-sensitive assessment of mental cruelty; illustrative categories.",
+        "relevance": "Use for cruelty analysis; match to the statutory text relied on.",
+        "judgmentId": "judgment:india:samar-ghosh-v-jaya-ghosh-2007"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "sma-27-10", "draftingCategory": "10-mark", "question": "Explain divorce under SMA s. 27.", "answer": "Contested grounds; proof; contrast s. 28; do not cite HMA numbers.", "explanation": "10-mark."},
-      {"id": "sma-27-16", "draftingCategory": "16-mark", "question": "Discuss the grounds of divorce under the Special Marriage Act.", "answer": "I. s. 27 grounds. II. Proof. III. vs s. 28. IV. vs HMA. V. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "sma-27-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain divorce under SMA s. 27.",
+        "answer": "Contested grounds; proof; contrast s. 28; do not cite HMA numbers.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "sma-27-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss the grounds of divorce under the Special Marriage Act.",
+        "answer": "I. s. 27 grounds. II. Proof. III. vs s. 28. IV. vs HMA. V. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["SMA s. 27", "SMA s. 28"],
-    "examTips": ["Cite SMA s. 27, not HMA s. 13.", "State that cruelty is fact-sensitive."],
-    "revisionPoints": ["Contested grounds", "vs mutual consent", "Own Act sections"],
+    "bareActPointers": [
+      "SMA s. 27",
+      "SMA s. 28"
+    ],
+    "examTips": [
+      "Cite SMA s. 27, not HMA s. 13.",
+      "State that cruelty is fact-sensitive."
+    ],
+    "revisionPoints": [
+      "Contested grounds",
+      "vs mutual consent",
+      "Own Act sections"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:family-sma-s-28", "topic:india:family-special-marriage"],
+    "relatedTopics": [
+      "topic:india:family-sma-s-28",
+      "topic:india:family-special-marriage"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "sma-s-27",
@@ -51,26 +138,63 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Apply s. 27 contested divorce", "Distinguish from s. 28"],
+      "learningObjectives": [
+        "Apply s. 27 contested divorce",
+        "Distinguish from s. 28"
+      ],
       "definition": "Section 27 SMA provides contested divorce grounds for marriages under the Act.",
       "legalPrinciple": "Contested divorce under SMA uses s. 27; each ground must be proved on the facts.",
       "statutoryFramework": "Special Marriage Act, 1954 — Section 27.",
-      "essentialIngredients": ["SMA marriage", "Statutory ground", "Proof on facts"],
+      "essentialIngredients": [
+        "SMA marriage",
+        "Statutory ground",
+        "Proof on facts"
+      ],
       "detailedExplanation": "Contested divorce chapter of the SMA.",
-      "examples": ["Cruelty petition"],
+      "examples": [
+        "Cruelty petition"
+      ],
       "problemApplication": "Identify ground; prove facts; use SMA sections only.",
-      "distinctions": ["s. 27 vs s. 28"],
+      "distinctions": [
+        "s. 27 vs s. 28"
+      ],
       "caseLawNotes": "Samar Ghosh retained from migrated file; no new holdings invented.",
       "tenMarkStructure": "Grounds → proof → vs s. 28.",
       "sixteenMarkStructure": "Grounds → proof → vs s. 28 → vs HMA → conclusion.",
-      "keyTakeaways": ["Own Act grounds", "Proof required"],
-      "authoritativeSources": ["Special Marriage Act, 1954 — Section 27"],
+      "keyTakeaways": [
+        "Own Act grounds",
+        "Proof required"
+      ],
+      "authoritativeSources": [
+        "Special Marriage Act, 1954 — Section 27"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Special Marriage Act, 1954", "citation": "Section 27", "url": null, "notes": "Framework; Samar Ghosh from migrated file."}],
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Special Marriage Act, 1954",
+      "citation": "Section 27",
+      "url": null,
+      "notes": "Framework; Samar Ghosh from migrated file."
+    }
+  ],
   "updatedAt": "2026-10-08T07:08:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

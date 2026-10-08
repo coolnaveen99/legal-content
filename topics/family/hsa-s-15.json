@@ -11,30 +11,119 @@
     "glance": "Ask: (1) Female Hindu intestate? (2) Source of property (own / from parents / from husband)? (3) Apply s. 15(1) order or s. 15(2) special rule?",
     "study": "Section 15(1) order: (a) sons and daughters (including the children of any pre-deceased son or daughter) and the husband; (b) heirs of the husband; (c) mother and father; (d) heirs of the father; (e) heirs of the mother.\n\nSection 15(2): special rules — property inherited from father or mother devolves, in the absence of a son or daughter (including children of pre-deceased son or daughter), upon the heirs of the father; property inherited from husband or father-in-law devolves, in the absence of a son or daughter (including such children), upon the heirs of the husband.\n\nSection 16 provides the order of succession and manner of distribution among heirs of a female Hindu.\n\nNo case holdings invented. Case-law verification remains a separate gate.",
     "sections": [
-      {"heading": "s. 15(1) general order", "body": "Children and husband first; then husband’s heirs; parents; father’s heirs; mother’s heirs.", "order": 1},
-      {"heading": "s. 15(2) source-based exceptions", "body": "Property inherited from parents or from husband/father-in-law follows special reversion-style rules when there is no son or daughter (including issue of pre-deceased child).", "order": 2},
-      {"heading": "Distribution", "body": "Manner of distribution among the heirs is under s. 16.", "order": 3},
-      {"heading": "Contrast with male scheme", "body": "Male intestacy follows s. 8 Class I/II scheme; female intestacy follows s. 15.", "order": 4},
-      {"heading": "Application tip", "body": "Always ask how the female acquired the property before applying s. 15(1) or (2).", "order": 5}
+      {
+        "heading": "s. 15(1) general order",
+        "body": "Children and husband first; then husband’s heirs; parents; father’s heirs; mother’s heirs.",
+        "order": 1
+      },
+      {
+        "heading": "s. 15(2) source-based exceptions",
+        "body": "Property inherited from parents or from husband/father-in-law follows special reversion-style rules when there is no son or daughter (including issue of pre-deceased child).",
+        "order": 2
+      },
+      {
+        "heading": "Distribution",
+        "body": "Manner of distribution among the heirs is under s. 16.",
+        "order": 3
+      },
+      {
+        "heading": "Contrast with male scheme",
+        "body": "Male intestacy follows s. 8 Class I/II scheme; female intestacy follows s. 15.",
+        "order": 4
+      },
+      {
+        "heading": "Application tip",
+        "body": "Always ask how the female acquired the property before applying s. 15(1) or (2).",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "hsa", "actName": "Hindu Succession Act, 1956", "provisionId": "hsa-15", "section": "s. 15", "title": "General rules of succession in the case of female Hindus"}],
+    "provisions": [
+      {
+        "actId": "hsa",
+        "actName": "Hindu Succession Act, 1956",
+        "provisionId": "hsa-15",
+        "section": "s. 15",
+        "title": "General rules of succession in the case of female Hindus"
+      }
+    ],
     "examples": [
-      {"title": "Children and husband", "body": "Female Hindu dies intestate leaving son, daughter and husband — they take under s. 15(1)(a).", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Property from father, no children", "body": "Property inherited from father; no son or daughter — s. 15(2) points to heirs of the father.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Children and husband",
+        "body": "Female Hindu dies intestate leaving son, daughter and husband — they take under s. 15(1)(a).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Property from father, no children",
+        "body": "Property inherited from father; no son or daughter — s. 15(2) points to heirs of the father.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
-    "hypotheticals": [{"question": "Why does source of property matter under s. 15?", "analysis": "Because s. 15(2) displaces the general order when property was inherited from parents or husband/father-in-law and there is no son or daughter (including specified issue)."}],
-    "distinctions": [{"id": "hsa-15-vs-8", "title": "s. 15 female vs s. 8 male intestacy", "left": "Female — s. 15(1)/(2) order.", "right": "Male — Class I/II/agnates/cognates.", "rows": [{"point": "First tier", "left": "Children and husband.", "right": "Class I Schedule."}]}],
-    "misconceptions": [{"id": "hsa-15-trap-1", "trap": "Female intestacy uses the same Class I list as males under s. 8.", "correction": "Female intestacy is under s. 15, with a different order and source-based rules in s. 15(2)."}],
+    "hypotheticals": [
+      {
+        "question": "Why does source of property matter under s. 15?",
+        "analysis": "Because s. 15(2) displaces the general order when property was inherited from parents or husband/father-in-law and there is no son or daughter (including specified issue)."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "hsa-15-vs-8",
+        "title": "s. 15 female vs s. 8 male intestacy",
+        "left": "Female — s. 15(1)/(2) order.",
+        "right": "Male — Class I/II/agnates/cognates.",
+        "rows": [
+          {
+            "point": "First tier",
+            "left": "Children and husband.",
+            "right": "Class I Schedule."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "hsa-15-trap-1",
+        "trap": "Female intestacy uses the same Class I list as males under s. 8.",
+        "correction": "Female intestacy is under s. 15, with a different order and source-based rules in s. 15(2)."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "hsa-15-10", "draftingCategory": "10-mark", "question": "Explain succession to the property of a female Hindu under HSA s. 15.", "answer": "s. 15(1) five-tier order; s. 15(2) source rules; link to s. 16; contrast s. 8.", "explanation": "10-mark."},
-      {"id": "hsa-15-16", "draftingCategory": "16-mark", "question": "Discuss general rules of succession for female Hindus under the HSA.", "answer": "I. s. 15(1). II. s. 15(2). III. s. 16 distribution. IV. Worked examples. V. vs male scheme. VI. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "hsa-15-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain succession to the property of a female Hindu under HSA s. 15.",
+        "answer": "s. 15(1) five-tier order; s. 15(2) source rules; link to s. 16; contrast s. 8.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "hsa-15-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss general rules of succession for female Hindus under the HSA.",
+        "answer": "I. s. 15(1). II. s. 15(2). III. s. 16 distribution. IV. Worked examples. V. vs male scheme. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["HSA s. 15", "HSA s. 16", "HSA s. 8"],
-    "examTips": ["Always check source of property.", "Do not apply Class I Schedule to females by default."],
-    "revisionPoints": ["s. 15(1) order", "s. 15(2) exceptions", "vs s. 8"],
+    "bareActPointers": [
+      "HSA s. 15",
+      "HSA s. 16",
+      "HSA s. 8"
+    ],
+    "examTips": [
+      "Always check source of property.",
+      "Do not apply Class I Schedule to females by default."
+    ],
+    "revisionPoints": [
+      "s. 15(1) order",
+      "s. 15(2) exceptions",
+      "vs s. 8"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:family-hsa-s-8", "topic:india:family-hsa-s-14"],
+    "relatedTopics": [
+      "topic:india:family-hsa-s-8",
+      "topic:india:family-hsa-s-14"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "hsa-s-15",
@@ -43,26 +132,66 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Apply s. 15(1) order", "Apply s. 15(2) source rules", "Contrast with male intestacy"],
+      "learningObjectives": [
+        "Apply s. 15(1) order",
+        "Apply s. 15(2) source rules",
+        "Contrast with male intestacy"
+      ],
       "definition": "Section 15 HSA sets the intestate succession order for female Hindus, with special source-based rules in sub-section (2).",
       "legalPrinciple": "Female intestacy follows s. 15; source of property can change the devolution path under s. 15(2).",
       "statutoryFramework": "Hindu Succession Act, 1956 — Sections 15 and 16.",
-      "essentialIngredients": ["Female Hindu intestate", "Identify property source", "Apply 15(1) or 15(2)", "Distribute under s. 16"],
+      "essentialIngredients": [
+        "Female Hindu intestate",
+        "Identify property source",
+        "Apply 15(1) or 15(2)",
+        "Distribute under s. 16"
+      ],
       "detailedExplanation": "Distinct female intestate scheme with source sensitivity.",
-      "examples": ["Children and husband", "Property from father, no children"],
+      "examples": [
+        "Children and husband",
+        "Property from father, no children"
+      ],
       "problemApplication": "List survivors; check source; apply 15(1) or (2).",
-      "distinctions": ["s. 15 vs s. 8"],
+      "distinctions": [
+        "s. 15 vs s. 8"
+      ],
       "caseLawNotes": "No cases invented; verification open.",
       "tenMarkStructure": "15(1) → 15(2) → s. 16 → vs s. 8.",
       "sixteenMarkStructure": "15(1) → 15(2) → distribution → examples → vs male → conclusion.",
-      "keyTakeaways": ["Different from male scheme", "Source matters"],
-      "authoritativeSources": ["Hindu Succession Act, 1956 — Section 15"],
+      "keyTakeaways": [
+        "Different from male scheme",
+        "Source matters"
+      ],
+      "authoritativeSources": [
+        "Hindu Succession Act, 1956 — Section 15"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Hindu Succession Act, 1956", "citation": "Section 15", "url": null, "notes": "Framework; no case holdings invented."}],
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Hindu Succession Act, 1956",
+      "citation": "Section 15",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
   "updatedAt": "2026-10-08T06:48:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null

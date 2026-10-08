@@ -82,7 +82,7 @@
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
       "version": "2",
-      "status": "omitted",
+      "status": "source_check_required",
       "coverage": "current-law-verification",
       "learningObjectives": [
         "Identify omitted statutory provisions.",
@@ -122,7 +122,13 @@
       "rules": [
         "legal-content: current law first",
         "Do not present omitted text as current law"
-      ]
+      ],
+      "distinctions": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      }
     },
     "status": "omitted",
     "updatedAt": "2026-10-08T00:00:00.000Z"

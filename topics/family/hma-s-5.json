@@ -11,37 +11,148 @@
     "glance": "Ask: (1) Living spouse? (2) Mental capacity? (3) Ages 21/18? (4) Prohibited degrees / custom? (5) Sapinda / custom? (6) Map breach to s. 11, 12 or 18?",
     "study": "Section 5 is the gateway provision. A marriage may be solemnised between any two Hindus if:\n(i) neither has a spouse living;\n(ii) neither is incapable of valid consent by unsoundness of mind, or suffers mental disorder making them unfit for marriage and procreation, or has recurrent attacks of insanity;\n(iii) bridegroom has completed 21 years and bride 18 years;\n(iv) parties are not within degrees of prohibited relationship, unless custom governing each permits;\n(v) parties are not sapindas of each other, unless custom governing each permits.\n\nCeremony is governed by s. 7. Registration under s. 8 is facilitative.\n\nConsequences: breach of (i)/(iv)/(v) → void under s. 11; certain mental conditions, force, fraud, pregnancy by another → voidable under s. 12; bigamy also attracts s. 17; other contraventions may attract s. 18. Custom exception applies only to (iv) and (v), not to monogamy.\n\nCase-law verification remains a separate gate.",
     "sections": [
-      {"heading": "Five conditions", "body": "Monogamy; mental capacity (three sub-clauses); age 21/18; prohibited degrees (custom may save); sapinda (custom may save).", "order": 1},
-      {"heading": "Custom exceptions", "body": "Custom may save only clauses (iv) and (v). It cannot validate a bigamous marriage under (i).", "order": 2},
-      {"heading": "Consequences of breach", "body": "s. 11 void for (i)/(iv)/(v); s. 12 voidable for specified defects; ss. 17–18 penal consequences where applicable.", "order": 3},
-      {"heading": "Ceremony and registration", "body": "s. 7 ceremonies; where saptapadi is included, marriage is complete on the seventh step. s. 8 registration is evidence, not essential to validity.", "order": 4},
-      {"heading": "Age and child marriage", "body": "Age under HMA interacts with the Prohibition of Child Marriage Act; not every under-age marriage is treated as void under s. 11 in the same absolute manner as bigamy.", "order": 5}
+      {
+        "heading": "Five conditions",
+        "body": "Monogamy; mental capacity (three sub-clauses); age 21/18; prohibited degrees (custom may save); sapinda (custom may save).",
+        "order": 1
+      },
+      {
+        "heading": "Custom exceptions",
+        "body": "Custom may save only clauses (iv) and (v). It cannot validate a bigamous marriage under (i).",
+        "order": 2
+      },
+      {
+        "heading": "Consequences of breach",
+        "body": "s. 11 void for (i)/(iv)/(v); s. 12 voidable for specified defects; ss. 17–18 penal consequences where applicable.",
+        "order": 3
+      },
+      {
+        "heading": "Ceremony and registration",
+        "body": "s. 7 ceremonies; where saptapadi is included, marriage is complete on the seventh step. s. 8 registration is evidence, not essential to validity.",
+        "order": 4
+      },
+      {
+        "heading": "Age and child marriage",
+        "body": "Age under HMA interacts with the Prohibition of Child Marriage Act; not every under-age marriage is treated as void under s. 11 in the same absolute manner as bigamy.",
+        "order": 5
+      }
     ],
     "provisions": [
-      {"actId": "hma", "actName": "Hindu Marriage Act, 1955", "provisionId": "hma-5", "section": "s. 5", "title": "Conditions for a Hindu marriage"}
+      {
+        "actId": "hma",
+        "actName": "Hindu Marriage Act, 1955",
+        "provisionId": "hma-5",
+        "section": "s. 5",
+        "title": "Conditions for a Hindu marriage"
+      }
     ],
     "examples": [
-      {"title": "All conditions satisfied", "body": "Unmarried Hindus of sound mind, ages 25 and 22, not within prohibited degrees or sapinda — valid if ceremonies completed.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Living spouse — void", "body": "Second ceremony while first marriage subsists — void under s. 11 read with s. 5(i); s. 17 may also apply.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "All conditions satisfied",
+        "body": "Unmarried Hindus of sound mind, ages 25 and 22, not within prohibited degrees or sapinda — valid if ceremonies completed.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Living spouse — void",
+        "body": "Second ceremony while first marriage subsists — void under s. 11 read with s. 5(i); s. 17 may also apply.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
-    "hypotheticals": [{"question": "Can custom validate a bigamous second marriage?", "analysis": "No. Custom exception applies only to prohibited degrees and sapinda, not to monogamy under s. 5(i)."}],
-    "distinctions": [{"id": "hma-5-vs-consequences", "title": "s. 5 conditions vs ss. 11/12/18 consequences", "left": "s. 5 states conditions.", "right": "ss. 11/12/17/18 prescribe consequences of breach.", "rows": [{"point": "Bigamy / prohibited degrees / sapinda", "left": "(i), (iv), (v)", "right": "Void under s. 11"}, {"point": "Mental capacity / force / fraud", "left": "(ii) and related", "right": "Often voidable under s. 12"}]}],
+    "hypotheticals": [
+      {
+        "question": "Can custom validate a bigamous second marriage?",
+        "analysis": "No. Custom exception applies only to prohibited degrees and sapinda, not to monogamy under s. 5(i)."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "hma-5-vs-consequences",
+        "title": "s. 5 conditions vs ss. 11/12/18 consequences",
+        "left": "s. 5 states conditions.",
+        "right": "ss. 11/12/17/18 prescribe consequences of breach.",
+        "rows": [
+          {
+            "point": "Bigamy / prohibited degrees / sapinda",
+            "left": "(i), (iv), (v)",
+            "right": "Void under s. 11"
+          },
+          {
+            "point": "Mental capacity / force / fraud",
+            "left": "(ii) and related",
+            "right": "Often voidable under s. 12"
+          }
+        ]
+      }
+    ],
     "misconceptions": [
-      {"id": "hma-5-trap-1", "trap": "Only monogamy and age need to be stated for s. 5.", "correction": "All five conditions must be stated."},
-      {"id": "hma-5-trap-2", "trap": "Custom can save a bigamous marriage.", "correction": "Custom saves only (iv) and (v), not (i)."}
+      {
+        "id": "hma-5-trap-1",
+        "trap": "Only monogamy and age need to be stated for s. 5.",
+        "correction": "All five conditions must be stated."
+      },
+      {
+        "id": "hma-5-trap-2",
+        "trap": "Custom can save a bigamous marriage.",
+        "correction": "Custom saves only (iv) and (v), not (i)."
+      }
     ],
     "cases": [
-      {"name": "Sarla Mudgal v. Union of India", "year": 1995, "citation": "(1995) 3 SCC 635", "court": "Supreme Court of India", "facts": "Hindu husbands converted to Islam and contracted second marriages without dissolving the first.", "issue": "Whether the second marriage is valid and constitutes bigamy.", "ratioDecidendi": "A second marriage after conversion without dissolving the first Hindu marriage is void under s. 11 read with s. 5(i) and constitutes bigamy. Conversion does not automatically dissolve the Hindu marriage.", "holding": "Second marriages held void.", "relevance": "Monogamy under s. 5(i); verification open.", "judgmentId": "judgment:india:sarla-mudgal-v-union-of-india-1995"}
+      {
+        "name": "Sarla Mudgal v. Union of India",
+        "year": 1995,
+        "citation": "(1995) 3 SCC 635",
+        "court": "Supreme Court of India",
+        "facts": "Hindu husbands converted to Islam and contracted second marriages without dissolving the first.",
+        "issue": "Whether the second marriage is valid and constitutes bigamy.",
+        "ratioDecidendi": "A second marriage after conversion without dissolving the first Hindu marriage is void under s. 11 read with s. 5(i) and constitutes bigamy. Conversion does not automatically dissolve the Hindu marriage.",
+        "holding": "Second marriages held void.",
+        "relevance": "Monogamy under s. 5(i); verification open.",
+        "judgmentId": "judgment:india:sarla-mudgal-v-union-of-india-1995"
+      }
     ],
     "questionsAndAnswers": [
-      {"id": "hma-5-10", "draftingCategory": "10-mark", "question": "State and explain the conditions for a valid Hindu marriage under Section 5 HMA.", "answer": "List all five conditions with custom exceptions for (iv)/(v); map breaches to s. 11, 12, 17–18; note ceremony under s. 7.", "explanation": "10-mark."},
-      {"id": "hma-5-16", "draftingCategory": "16-mark", "question": "Discuss the conditions for a valid Hindu marriage under s. 5 and the consequences of breach.", "answer": "I. Five conditions. II. Custom exceptions. III. Consequences (11/12/17/18). IV. Ceremony. V. Worked examples. VI. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "hma-5-10",
+        "draftingCategory": "10-mark",
+        "question": "State and explain the conditions for a valid Hindu marriage under Section 5 HMA.",
+        "answer": "List all five conditions with custom exceptions for (iv)/(v); map breaches to s. 11, 12, 17–18; note ceremony under s. 7.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "hma-5-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss the conditions for a valid Hindu marriage under s. 5 and the consequences of breach.",
+        "answer": "I. Five conditions. II. Custom exceptions. III. Consequences (11/12/17/18). IV. Ceremony. V. Worked examples. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["HMA s. 5", "HMA s. 7", "HMA s. 11", "HMA s. 12", "HMA ss. 17–18"],
-    "examTips": ["List all five conditions.", "Custom exception only for (iv) and (v).", "Map each major breach to consequence section."],
-    "revisionPoints": ["Five conditions", "Custom only (iv)/(v)", "Void vs voidable map"],
-    "relatedJudgments": ["judgment:india:sarla-mudgal-v-union-of-india-1995"],
-    "relatedTopics": ["topic:india:family-hma-s-11", "topic:india:family-hma-s-12", "topic:india:family-hma-s-13"],
+    "bareActPointers": [
+      "HMA s. 5",
+      "HMA s. 7",
+      "HMA s. 11",
+      "HMA s. 12",
+      "HMA ss. 17–18"
+    ],
+    "examTips": [
+      "List all five conditions.",
+      "Custom exception only for (iv) and (v).",
+      "Map each major breach to consequence section."
+    ],
+    "revisionPoints": [
+      "Five conditions",
+      "Custom only (iv)/(v)",
+      "Void vs voidable map"
+    ],
+    "relatedJudgments": [
+      "judgment:india:sarla-mudgal-v-union-of-india-1995"
+    ],
+    "relatedTopics": [
+      "topic:india:family-hma-s-11",
+      "topic:india:family-hma-s-12",
+      "topic:india:family-hma-s-13"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "hma-s-5",
@@ -50,26 +161,68 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State all five s. 5 conditions", "Apply custom exceptions correctly", "Map breach to s. 11/12/18"],
+      "learningObjectives": [
+        "State all five s. 5 conditions",
+        "Apply custom exceptions correctly",
+        "Map breach to s. 11/12/18"
+      ],
       "definition": "Section 5 HMA states five conditions for a valid Hindu marriage; consequences of breach are in neighbouring sections.",
       "legalPrinciple": "A Hindu marriage must satisfy the five statutory conditions; monogamy is absolute; custom may save only prohibited degrees and sapinda.",
       "statutoryFramework": "Hindu Marriage Act, 1955 — Sections 5, 7, 11, 12, 17–18.",
-      "essentialIngredients": ["Hindus under s. 2", "No living spouse", "Mental capacity", "Ages 21/18", "Not prohibited degrees/sapinda unless custom"],
+      "essentialIngredients": [
+        "Hindus under s. 2",
+        "No living spouse",
+        "Mental capacity",
+        "Ages 21/18",
+        "Not prohibited degrees/sapinda unless custom"
+      ],
       "detailedExplanation": "Gateway provision; consequences live in ss. 11–12 and 17–18.",
-      "examples": ["All conditions satisfied", "Living spouse — void"],
+      "examples": [
+        "All conditions satisfied",
+        "Living spouse — void"
+      ],
       "problemApplication": "Check each condition; apply custom only where allowed; map consequence.",
-      "distinctions": ["s. 5 vs consequence sections"],
+      "distinctions": [
+        "s. 5 vs consequence sections"
+      ],
       "caseLawNotes": "Sarla Mudgal retained for monogamy orientation; verification separate.",
       "tenMarkStructure": "Five conditions → custom exceptions → consequence map.",
       "sixteenMarkStructure": "Conditions → exceptions → consequences → ceremony → examples → conclusion.",
-      "keyTakeaways": ["All five conditions", "Custom not for bigamy", "Map to 11/12/18"],
-      "authoritativeSources": ["Hindu Marriage Act, 1955 — Section 5"],
+      "keyTakeaways": [
+        "All five conditions",
+        "Custom not for bigamy",
+        "Map to 11/12/18"
+      ],
+      "authoritativeSources": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Hindu Marriage Act, 1955", "citation": "Section 5", "url": null, "notes": "Framework; holding verification separate."}],
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Hindu Marriage Act, 1955",
+      "citation": "Section 5",
+      "url": null,
+      "notes": "Framework; holding verification separate."
+    }
+  ],
   "updatedAt": "2026-10-08T06:23:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null
