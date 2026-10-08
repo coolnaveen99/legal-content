@@ -21,7 +21,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
 | family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
 | fundamental-rights | 12 | 12 | 0 | 100 | **COMPLETE_LOCKED** |
-| hma | 5 | 5 | 0 | 100 | SUBSTANTIVE |
+| hma | 5 | 5 | 0 | 100 | **COMPLETE_LOCKED** |
 | ipr | 63 | 0 | 0 | 0 | SCAFFOLD |
 | labour | 523 | 0 | 0 | 0 | SCAFFOLD |
 | land | 44 | 0 | 0 | 0 | SCAFFOLD |
@@ -53,3 +53,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Registration COMPLETE_LOCKED — 2026-10-08:** All 3 Registration Act topics (`s-17`, `s-18`, `s-49`) remediated to `substantive-topic-specific-v1`. **Do not reopen Registration for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/REGISTRATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Limitation COMPLETE_LOCKED — 2026-10-08:** All 5 Limitation Act topics (`s-3`, `s-5`, `s-12`, `s-14`, `s-18`) remediated to `substantive-topic-specific-v1`. **Do not reopen Limitation for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/LIMITATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Hindu Marriage Act COMPLETE_LOCKED — 2026-10-08:** All 5 HMA topics (`s-9`, `s-13`, `s-13b`, `s-24`, `s-25`) remediated to `substantive-topic-specific-v1`. **Do not reopen Hindu Marriage Act for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/HMA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
