@@ -1,8 +1,8 @@
-# Pending Enhancement Queue — 2026-10-06
+# Pending Enhancement Queue — Reconciled Snapshot (2026-10-08)
 
 ## Purpose
 
-This is the reconciled enhancement queue for legal-content/main. It is separate from legal verification and publication status.
+This is a historical enhancement-queue snapshot retained for auditability. It is separate from legal verification and publication status. **It is subordinate to the current Final Content Quality Pass and `docs/TEAM-WORK-COORDINATION-GATE.md`; do not select work from the historical ordering below without reconciling current `main` first.**
 
 ## Reconciliation decision
 
@@ -11,6 +11,10 @@ The older ENH-006/ENH-009 reports are **stale generated artifacts** relative to 
 Confirmed closed/locked subjects are removed from the active enhancement queue:
 - **Contract — COMPLETE: 60/60** (docs/VER-001-CONTRACT-COMPLETION-2026-10-06.md)
 - **Torts — COMPLETE_LOCKED**
+- **Arbitration — COMPLETE for substantive enhancement (132/132); final legal-verification/publication gates remain open**
+- **DPSP — COMPLETE_LOCKED (2026-10-08)**
+- **NI — COMPLETE_LOCKED (2026-10-08)**
+- **Family — COMPLETE_LOCKED (2026-10-08)**
 - **Constitution — substantive complete: 522/522**
 - **HMA — COMPLETE_LOCKED by owner instruction**
 - **Limitation — substantive complete: 5/5**
@@ -34,7 +38,7 @@ A topic may be processed earlier because of dependency, risk, current-law sensit
 
 | Execution Priority | Subject | Known open enhancement scope | Status |
 |---|---|---:|---|
-| P0 | Arbitration | 132 scaffold topics | NEXT |
+| P0 | Arbitration | 132 topics | COMPLETE — do not reopen without documented trigger |
 | P0 | Company | 561 scaffold topics | OPEN |
 | P0 | CPC | 249 scaffold topics | OPEN |
 | P0 | Labour | 523 scaffold topics | OPEN |
@@ -57,7 +61,7 @@ A topic may be processed earlier because of dependency, risk, current-law sensit
 
 ## Execution order
 
-1. **E-03 Arbitration — 132 topics**
+1. **Final Content Quality Pass / Unified All-Subject Legal Verification — current control sequence**
 2. E-04 Company — 561
 3. E-05 CPC — 249
 4. E-06 Labour — 523
@@ -91,6 +95,6 @@ docs/ENH-006-QUALITY-REPORT.md and docs/ENH-009-SUBJECT-PROGRESS.md remain histo
 
 ## Current execution pointer
 
-**RECONCILED: E-03 Arbitration — 132/132 tracked topics have now received substantive enhancement. The final 13 unowned review topics were closed in E-03D after reconciliation with current `main`; no open PR or worker branch was found. All 132 remain subject to the same final legal-completeness, legal-verification, preservation, integration and production gates; substantive enhancement does not itself close QUAL gates.**
+**RECONCILED 2026-10-08: Arbitration substantive enhancement is complete at 132/132 and is not an executable enhancement target. The repository is now controlled by the Final Content Quality Pass / Unified All-Subject Legal Verification sequence. Select only a demonstrably pending and unowned remediation/verification range after checking current `main`, recent commits, PRs and ownership.**
 
 Do not reopen Contract, Constitution, HMA, Limitation, Registration, SRA or Torts without a documented reopening trigger. Do not restart Admin as a bulk enhancement subject. Fresh judgment acquisition remains deferred until the Final Content Quality Pass. AI/provider remains last.
