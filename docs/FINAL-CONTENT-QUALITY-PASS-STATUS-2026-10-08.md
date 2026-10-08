@@ -9,8 +9,8 @@ This evidence review confirms that the deterministic QUAL framework is implement
 ## Current evidence
 
 - Canonical topic records with enhancement objects: **3,652**
-- Substantive enhancements: **1,585**
-- Scaffold enhancements: **2,063**
+- Substantive enhancements: **1,586+** (Admin ultra vires added 2026-10-08; full recount awaits next ENH-006 run)
+- Scaffold enhancements: **~2,062**
 - Missing enhancement objects: **0**
 - Baseline topics compared: **3,648**
 - Baseline shortened/removed: **0**
@@ -49,7 +49,7 @@ The authoritative ENH-006 subject report identifies the largest remaining scaffo
 - Taxation — 51
 - Cyber — 53
 - Land — 44
-- Admin — **41**
+- Admin — remaining scaffolds after 2026-10-08 remediations
 - Family — 38
 - Environment — 31
 - PIL — 23
@@ -88,7 +88,36 @@ BNS, BNSS, BSA and Constitution have substantial enhancement coverage but still 
 - Corrected the prior placeholder exam structure and removed generic scaffold language from the enhancement object.
 - Case-law verification remains separate and is explicitly marked `verification_required`; no unverified authority was promoted to a verified source.
 
-**QUAL impact:** third Admin scaffold remediation completed. The authoritative ledger is updated to 1,585 substantive / 2,063 scaffold. QUAL-001 through QUAL-010 remain open corpus-wide until the remaining queue and validators are complete.
+### Admin — Administrative Discretion
+
+- Topic file: `topics/admin/admin-discretion.json`
+- Remediation commit: prior 2026-10-08 main commits
+- Replaced assembled-from-migrated enhancement with substantive-topic-specific-v1 coverage for Administrative Discretion.
+- Case-law verification remains a separate gate.
+
+### Admin — Speaking Orders / Reasoned Decisions
+
+- Topic file: `topics/admin/admin-speaking-orders.json`
+- Remediation commit: prior 2026-10-08 main commits
+- Replaced scaffold with substantive topic-specific content.
+- Case-law verification remains a separate gate.
+
+### Admin — Nemo Judex In Causa Sua
+
+- Topic file: `topics/admin/admin-nemo-judex.json`
+- Remediation commit: prior 2026-10-08 main commits
+- Restored and remediated to substantive content after placeholder regression.
+- Case-law verification remains a separate gate.
+
+### Admin — Doctrine of Ultra Vires — Substantive and Procedural Review
+
+- Topic file: `topics/admin/admin-ultra-vires.json`
+- Remediation commit: `50e68e5e1e9c4eea6925c6bec36a8b9b96daeb43`
+- Replaced assembled-from-migrated enhancement with substantive-topic-specific-v1 coverage for Doctrine of Ultra Vires.
+- Topic-specific sections on substantive vs procedural ultra vires, jurisdictional vs intra-vires defects, rule-making ultra vires, remedies, distinctions vs discretion/natural justice, misconceptions, exam structures.
+- Case-law verification remains a separate gate; authorities already in file retained (Tata Cellular etc.). Legacy identifiers preserved.
+
+**QUAL impact:** Admin ultra vires scaffold remediation completed on main. QUAL-001 through QUAL-010 remain open corpus-wide until the remaining queue and validators are complete.
 
 ## Important quality boundary
 
