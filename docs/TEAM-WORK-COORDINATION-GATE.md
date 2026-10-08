@@ -51,6 +51,7 @@ The Arbitration subject is the immediate example of this coordination problem. M
 | Subject | Lock | Meaning |
 |---------|------|--------|
 | **Torts** | COMPLETE_LOCKED | Do not reopen without a documented trigger. |
+| **Taxation** | COMPLETE_LOCKED (2026-10-08) | All 51 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law and rate verification remain a separate open gate. Evidence: `docs/TAXATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **Specific Relief** | COMPLETE_LOCKED (2026-10-08) | All 6 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/SRA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **Hindu Marriage Act** | COMPLETE_LOCKED (2026-10-08) | All 5 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/HMA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **Limitation** | COMPLETE_LOCKED (2026-10-08) | All 5 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/LIMITATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |

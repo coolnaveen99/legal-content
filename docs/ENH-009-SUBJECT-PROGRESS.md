@@ -31,7 +31,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
 | registration | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | sra | 6 | 6 | 0 | 100 | **COMPLETE_LOCKED** |
-| taxation | 51 | 0 | 0 | 0 | SCAFFOLD |
+| taxation | 51 | 51 | 0 | 100 | **COMPLETE_LOCKED** |
 | torts | 42 | 16 | 3 | 38 | PARTIAL |
 | tpa | 6 | 6 | 0 | 100 | **ENHANCEMENT COMPLETE / VERIFICATION OPEN** |
 
@@ -57,3 +57,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Hindu Marriage Act COMPLETE_LOCKED — 2026-10-08:** All 5 HMA topics (`s-9`, `s-13`, `s-13b`, `s-24`, `s-25`) remediated to `substantive-topic-specific-v1`. **Do not reopen Hindu Marriage Act for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/HMA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Specific Relief COMPLETE_LOCKED — 2026-10-08:** All 6 SRA topics (`s-10`, `s-14`, `s-16`, `s-20`, `s-34`, `s-38`) remediated to `substantive-topic-specific-v1`. **Do not reopen Specific Relief for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/SRA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Taxation COMPLETE_LOCKED — 2026-10-08:** All 51 taxation topics remediated to `substantive-topic-specific-v1`. **Do not reopen Taxation for scaffold/enhancement remediation without a documented trigger.** Case-law, rates and the 2025 Act commencement remain open. Evidence: `docs/TAXATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
