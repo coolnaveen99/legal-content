@@ -1,3 +1,5 @@
+> **Granularity superseded (2026-10-08):** This historical grouped-topic ledger is retained for audit history. The canonical Contract statutory ledger is now `docs/CONTRACT-SECTION-WISE-LEDGER-2026-10-08.md`, where one operative ICA provision equals one canonical topic/page.
+
 # Contract Subject Verification Ledger — 2026-10-06
 
 ## Purpose
