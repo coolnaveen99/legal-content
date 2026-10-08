@@ -22,7 +22,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
 | fundamental-rights | 12 | 12 | 0 | 100 | **COMPLETE_LOCKED** |
 | hma | 5 | 5 | 0 | 100 | **COMPLETE_LOCKED** |
-| ipr | 63 | 0 | 0 | 0 | SCAFFOLD |
+| ipr | 63 | 63 | 0 | 100 | **COMPLETE_LOCKED** |
 | labour | 523 | 0 | 0 | 0 | SCAFFOLD |
 | land | 44 | 0 | 0 | 0 | SCAFFOLD |
 | limitation | 5 | 5 | 0 | 100 | **COMPLETE_LOCKED** |
@@ -59,3 +59,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Specific Relief COMPLETE_LOCKED — 2026-10-08:** All 6 SRA topics (`s-10`, `s-14`, `s-16`, `s-20`, `s-34`, `s-38`) remediated to `substantive-topic-specific-v1`. **Do not reopen Specific Relief for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/SRA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Taxation COMPLETE_LOCKED — 2026-10-08:** All 51 taxation topics remediated to `substantive-topic-specific-v1`. **Do not reopen Taxation for scaffold/enhancement remediation without a documented trigger.** Case-law, rates and the 2025 Act commencement remain open. Evidence: `docs/TAXATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Intellectual Property COMPLETE_LOCKED — 2026-10-08:** All 63 IPR topics remediated to `substantive-topic-specific-v1`. **Do not reopen Intellectual Property for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/IPR-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
