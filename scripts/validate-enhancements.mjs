@@ -32,7 +32,7 @@ if(fs.existsSync(topicRoot)){
     for(const key of REQUIRED){
       if(!(key in e)) { console.error("ERROR: "+rel+" missing enhancement."+key); errors++; }
     }
-    if(!["planned","in-progress","verified","published"].includes(e.status)){
+    if(!["planned","in-progress","source_check_required","verification_in_progress","verified","published"].includes(e.status)){
       console.error("ERROR: "+rel+" invalid enhancement status"); errors++;
     }
     if(e.status==="verified" || e.status==="published"){
