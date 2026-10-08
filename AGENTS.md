@@ -85,3 +85,8 @@ Never use "closed PR" as the sole signal that a range is available.
 ## Priority
 
 This coordination gate overrides ordinary "pick the next subject" behavior. Preventing duplicate legal-content work is a P0 repository-integrity requirement.
+
+
+## Active Work Control — 2026-10-08
+
+The authoritative execution control is `docs/WORK-CONTROL-MASTER-2026-10-08.md`. Read it before selecting or claiming work. Archived control-history documents are audit-only and must not be used to reopen, assign, or close work. Section/topic status and current `main` evidence override historical queues and generated reports.
