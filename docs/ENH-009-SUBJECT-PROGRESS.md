@@ -6,7 +6,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 
 | Subject | Topics | Substantive | Verified | Substantive % | Track |
 |---|---:|---:|---:|---:|---|
-| admin | 44 | 1 | 0 | 2 | PARTIAL |
+| admin | 44 | 44 | 0 | 100 | ENHANCEMENT COMPLETE / VERIFICATION OPEN |
 | arbitration | 132 | 0 | 0 | 0 | SCAFFOLD |
 | bns | 368 | 359 | 0 | 98 | PARTIAL |
 | bnss | 539 | 531 | 0 | 99 | PARTIAL |
@@ -34,3 +34,6 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | taxation | 51 | 0 | 0 | 0 | SCAFFOLD |
 | torts | 42 | 16 | 3 | 38 | PARTIAL |
 | tpa | 6 | 0 | 0 | 0 | SCAFFOLD |
+
+
+> **Admin reconciliation — 2026-10-08:** Current `main` was reconciled against the live 44-topic Admin inventory. Enhancement coverage is 44/44 substantive-topic-specific. This does not promote verification or publication; the subject remains open for legal/publication gates. Evidence: `docs/ADMIN-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
