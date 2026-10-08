@@ -2,63 +2,65 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:tpa-s-105",
-  "version": 1,
-  "status": "published",
-  "title": "Section 105 TPA — Lease",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Lease — Section 105 TPA",
   "jurisdiction": "India",
   "content": {
-    "overview": "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration.",
-    "study": "Licence is not a lease. Rent-control statutes may overlay TPA. How a lease is made is section 107.",
-    "relatedTopics": [
-      "topic:india:tpa-s-107"
+    "overview": "Section 105 of the Transfer of Property Act, 1882 defines a lease of immovable property as a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money, a share of crops, service or any other thing of value, to be rendered periodically or on specified occasions to the transferor by the transferee, who accepts the transfer on such terms. The transferor is the lessor; the transferee is the lessee; the price is called the premium and the money, share, service or other thing to be so rendered is called the rent.",
+    "glance": "Ask: (1) Right to enjoy immovable property? (2) Certain time or perpetuity? (3) Consideration — premium and/or rent? (4) Lessor and lessee?",
+    "study": "Lease transfers a limited right to enjoy, not full ownership (contrast sale). Duration may be fixed or perpetual. Consideration may be premium, rent, or both.\n\nHow leases are made is governed by s. 107.\n\nNo case holdings invented. Case-law verification remains a separate gate.",
+    "sections": [
+      {"heading": "Definition", "body": "Transfer of a right to enjoy immovable property for a certain time or in perpetuity, for premium and/or rent.", "order": 1},
+      {"heading": "Parties", "body": "Lessor (transferor) and lessee (transferee).", "order": 2},
+      {"heading": "Consideration", "body": "Premium (price) and/or rent (periodical or on specified occasions).", "order": 3},
+      {"heading": "Duration", "body": "Certain time (express or implied) or perpetuity.", "order": 4},
+      {"heading": "Link to s. 107", "body": "How leases are made — registered instrument / delivery of possession rules under s. 107.", "order": 5}
     ],
+    "provisions": [{"actId": "tpa", "actName": "Transfer of Property Act, 1882", "provisionId": "tpa-105", "section": "s. 105", "title": "Lease defined"}],
+    "examples": [{"title": "Yearly lease", "body": "Owner transfers right to enjoy a shop for one year for monthly rent — lease under s. 105; formality under s. 107.", "kind": "hypothetical", "inventedCase": false}],
+    "hypotheticals": [{"question": "Does a lease transfer ownership like a sale?", "analysis": "No. A lease transfers only a right to enjoy for the term; ownership remains with the lessor."}],
+    "distinctions": [{"id": "tpa105-vs-54", "title": "Lease (s. 105) vs sale (s. 54)", "left": "Right to enjoy for a term or perpetuity; rent/premium.", "right": "Transfer of ownership for price.", "rows": [{"point": "What passes", "left": "Enjoyment right.", "right": "Ownership."}]}],
+    "misconceptions": [{"id": "tpa105-trap-1", "trap": "Every licence to occupy is a lease under s. 105.", "correction": "Lease requires transfer of a right to enjoy on the statutory terms; licences and pure permissions are distinct."}],
+    "cases": [],
+    "questionsAndAnswers": [
+      {"id": "tpa105-10", "draftingCategory": "10-mark", "question": "Define lease under TPA s. 105.", "answer": "Right to enjoy; certain time or perpetuity; premium/rent; lessor and lessee; link s. 107.", "explanation": "10-mark."},
+      {"id": "tpa105-16", "draftingCategory": "16-mark", "question": "Discuss the essentials of a lease under the Transfer of Property Act.", "answer": "I. Definition. II. Parties. III. Duration. IV. Consideration. V. vs sale. VI. Conclusion.", "explanation": "16-mark."}
+    ],
+    "bareActPointers": ["TPA s. 105", "TPA s. 107"],
+    "examTips": ["Separate right to enjoy from ownership.", "Always link formality under s. 107."],
+    "revisionPoints": ["Right to enjoy", "Premium/rent", "s. 107 formality"],
+    "relatedJudgments": [],
+    "relatedTopics": ["topic:india:tpa-s-107", "topic:india:tpa-s-54"],
     "illustrations": [],
     "legacySubjectSlug": "tpa",
     "legacyTopicId": "s-105",
+    "migrationNote": "Substantive enhancement; no case invented; verification open.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
-      "learningObjectives": [
-        "State the rule recorded for Section 105 TPA — Lease.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
-      ],
-      "definition": "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration.",
-      "legalPrinciple": "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration.",
-      "statutoryFramework": "Section 105 TPA — Lease",
-      "essentialIngredients": [
-        "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration."
-      ],
-      "detailedExplanation": "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration.",
-      "examples": [
-        "No illustration was present on the migrated topic. None was invented."
-      ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
-      "keyTakeaways": [
-        "A lease transfers a right to enjoy immovable property for a time, or in perpetuity, for rent or other consideration."
-      ],
-      "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
-      ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Define lease under s. 105", "Distinguish from sale"],
+      "definition": "Section 105 TPA defines lease as transfer of a right to enjoy immovable property for a certain time or in perpetuity for premium and/or rent.",
+      "legalPrinciple": "Lease transfers enjoyment, not ownership; formality is under s. 107.",
+      "statutoryFramework": "Transfer of Property Act, 1882 — Section 105.",
+      "essentialIngredients": ["Right to enjoy", "Immovable property", "Duration", "Consideration"],
+      "detailedExplanation": "Core lease definition under the TPA.",
+      "examples": ["Yearly lease"],
+      "problemApplication": "Check definition; open s. 107 for how made.",
+      "distinctions": ["Lease vs sale"],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "Definition → parties → consideration → s. 107.",
+      "sixteenMarkStructure": "Definition → duration → consideration → vs sale → formality → conclusion.",
+      "keyTakeaways": ["Enjoyment not ownership", "Link s. 107"],
+      "authoritativeSources": ["Transfer of Property Act, 1882 — Section 105"],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08."
     }
   },
-  "sources": [
-    "source:india:india-code-tpa-1882"
-  ],
-  "updatedAt": "2026-10-03T11:18:50.014Z",
+  "sources": [{"kind": "statute", "label": "Transfer of Property Act, 1882", "citation": "Section 105", "url": null, "notes": "Framework; no case holdings invented."}],
+  "updatedAt": "2026-10-08T07:20:00.000Z",
   "effectiveFrom": "1882-07-01",
   "effectiveTo": null
 }
