@@ -100,3 +100,45 @@ Never use "closed PR" as the sole signal that a range is available.
 ## Priority
 
 This coordination gate overrides ordinary "pick the next subject" behavior. Preventing duplicate legal-content work is a P0 repository-integrity requirement.
+
+## Topic-wise production publishing gate — P0
+
+Publishing is a separate gate from legal verification. **Do not equate `verified` with `published`.**
+
+### Mandatory batch publishing protocol
+
+1. Publish only topics that are already substantively verified on `main`.
+2. Work in controlled batches: default **5 topics for the first production batch**, then up to 10 topics after the first batch is proven stable.
+3. Before promotion, re-check:
+   - exact statutory mapping;
+   - current-law/amendment status;
+   - material case-law inventory and authoritative verification;
+   - source and verification metadata;
+   - schema/entity/relationship validation;
+   - preservation of migrated substantive content.
+4. Promote only the selected topic records from `verified` to `published`. Never mass-promote an entire subject merely because some topics are verified.
+5. Regenerate `manifests/content-manifest.json` using the repository's manifest generation/refresh tooling. The manifest is part of the production delivery contract.
+6. Run the repository validation suite, including manifest, enhancement, relationship, and final-verification checks required by the current CI.
+7. Verify the corresponding production topic URLs through CodePackr Law's canonical ContentGateway. A page shell without topic content is a **failed publication**, not a successful deployment.
+8. Record the batch range, topic IDs, source/evidence gate, manifest result, validation result, production result, and commit SHA.
+9. If any gate fails, stop that batch, fix the issue, and do not silently continue to the next batch.
+10. A subject is not COMPLETE merely because all currently verified topics have been published. Subject closure still requires the subject verification ledger and final reconciliation.
+
+### Publication status rule
+
+Use this lifecycle:
+
+`draft/research/review → verified → published`
+
+- `verified` = legal/content verification complete.
+- `published` = explicitly approved for production delivery and present in the production manifest.
+- `published` must never be used to hide incomplete legal verification.
+
+### Rollback rule
+
+If production validation fails, revert the affected batch to the prior safe publication state and investigate the manifest/gateway/content mismatch before publishing another batch.
+
+### Current rollout policy
+
+The first Contract production batch is **5 topics**, selected from already verified Contract topics. Subsequent batches proceed only after live delivery of the preceding batch is confirmed.
+\n
