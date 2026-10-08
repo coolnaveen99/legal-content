@@ -16,7 +16,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | contract | 60 | 0 | 0 | 0 | SCAFFOLD (active verify commits) |
 | cpc | 249 | 0 | 0 | 0 | SCAFFOLD |
 | cyber | 53 | 0 | 0 | 0 | SCAFFOLD |
-| dpsp | 3 | 0 | 0 | 0 | SCAFFOLD |
+| dpsp | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
 | family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
@@ -43,3 +43,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **TPA — 2026-10-08:** All 6 TPA topics (ss. 5, 53A, 54, 58, 105, 107) remediated to `substantive-topic-specific-v1` on `main`. Unowned range; no open PR; no 2026-10-08 prior commits on path. Case-law verification remains open. No new citations invented.
 
 > **NI COMPLETE_LOCKED — 2026-10-08:** All 4 Negotiable Instruments topics (`s-138`, `s-139`, `s-141`, `s-142`) remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for NI is complete. **Do not reopen NI for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/NI-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **DPSP COMPLETE_LOCKED — 2026-10-08:** All 3 Directive Principles topics remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for DPSP is complete. **Do not reopen DPSP for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/DPSP-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
