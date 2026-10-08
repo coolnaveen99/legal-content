@@ -2,13 +2,199 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:pil-art-32",
-  "version": 2,
-  "status": "published",
+  "version": 3,
+  "status": "verification_in_progress",
   "title": "PIL under Article 32 — Supreme Court",
   "jurisdiction": "India",
   "content": {
-    "overview": "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights.",
-    "study": "PIL is a rule of standing, not a new writ. Under Article 32 the claim must still concern enforcement of fundamental rights. Use this forum for Part III violations affecting large or disadvantaged classes; use Article 226 in the High Court where the grievance is wider public-law wrong or territorial convenience so requires. Private disputes dressed as PIL fail. Cross-read the constitutional Article 32 topic for the writ power itself.",
+    "overview": "Article 32 is the Supreme Court gateway for Public Interest Litigation to enforce Part III fundamental rights. Liberalised standing opens who may approach, but it does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights. Private disputes dressed as PIL still fail.",
+    "glance": "Ask: (1) Is a Part III fundamental right engaged? (2) Is the petitioner acting bona fide in public interest? (3) Why is the Supreme Court the appropriate forum rather than Article 226? (4) Is the claim a private dispute in disguise? (5) What precise writ or direction is sought?",
+    "study": "Core rule: Article 32 guarantees the right to move the Supreme Court for enforcement of fundamental rights. PIL uses that gateway with liberalised standing so that disadvantaged classes and systemic Part III violations can reach the Court. The subject-matter limit remains fundamental rights.\n\nWhat Article 32 supplies: Jurisdiction in the Supreme Court, the power to issue directions or orders or writs for enforcement of Part III rights, and a constitutional right to constitutional remedies. PIL does not rewrite those limits.\n\nWhat liberal standing adds: A bona fide petitioner may be heard even if not personally the sole aggrieved individual, where the claim is to enforce fundamental rights of persons who cannot approach the Court or to address a public fundamental-rights wrong.\n\nWhat it does not add: Article 32 is not a residual public-law court for every legal wrong. Non-Part-III grievances, ordinary civil disputes, and region-specific public duties often belong under Article 226 in the High Courts.\n\nForum choice: Prefer Article 32 when the core complaint is enforcement of fundamental rights at a national or Supreme Court level. Prefer Article 226 where the wrong is territorial, involves other legal rights, or High Court process is the suitable first forum.\n\nCurrent-law framing: Ground the analysis in the text of Article 32 and Part III. Cross-read the constitutional Article 32 topic for the writ power itself. Case-law verification remains a separate gate; no holding is treated as verified solely from study text.",
+    "sections": [
+      {
+        "heading": "Article 32 as the Supreme Court PIL gateway",
+        "body": "Article 32 is both a fundamental right and a jurisdictional clause. For PIL, it is the door through which public-interest claims to enforce Part III rights enter the Supreme Court. Standing may be liberalised; the rights enforced must still be fundamental rights.",
+        "order": 1
+      },
+      {
+        "heading": "Subject-matter limit: Part III fundamental rights",
+        "body": "Liberal standing does not convert Article 32 into a court of general public-law supervision. The petition must still seek enforcement of one or more fundamental rights. Claims that are purely statutory, contractual, or service-related without a Part III anchor are outside the proper Article 32 PIL frame.",
+        "order": 2
+      },
+      {
+        "heading": "Liberalised standing within Article 32",
+        "body": "A bona fide public-interest petitioner may move the Court for enforcement of fundamental rights of persons who cannot approach effectively, or for systemic Part III violations. Bona fides and the public character of the claim remain essential; private rivalries fail.",
+        "order": 3
+      },
+      {
+        "heading": "Choosing Article 32 or Article 226",
+        "body": "Article 32 is the Supreme Court Part III forum. Article 226 is wider in the High Courts (fundamental rights and other legal rights) and is often the practical first forum for region-specific wrongs. Forum choice turns on the right engaged, the scale of the wrong, and appropriate judicial hierarchy — not on the PIL label alone.",
+        "order": 4
+      },
+      {
+        "heading": "Abuse filters still apply",
+        "body": "Private disputes, busybodies, and vague or motivated petitions may be refused under Article 32 as under Article 226. Costs may follow for misuse. See the companion topic on limits and costs.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-32",
+        "section": "Article 32",
+        "title": "Right to constitutional remedies — Supreme Court writ jurisdiction for fundamental rights"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-226",
+        "section": "Article 226",
+        "title": "High Court writ jurisdiction — comparison forum for PIL"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Systemic Part III violation",
+        "body": "A bona fide petitioner approaches the Supreme Court under Article 32 alleging widespread denial of a fundamental right to a disadvantaged class that cannot litigate individually. The issue is whether Article 32 PIL is the correct gateway because Part III rights are directly engaged.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Non-Part-III public duty",
+        "body": "A petition to the Supreme Court under Article 32 complains only of breach of a statutory service rule with no fundamental-right claim. The issue is whether Article 32 is the wrong forum and whether Article 226 or the statutory forum is appropriate.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Private dispute under Article 32 label",
+        "body": "A commercial rival files an Article 32 'PIL' seeking cancellation of a competitor's licence without a genuine Part III public-interest claim. The issue is abuse filtering and possible costs.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does liberalised PIL standing allow the Supreme Court under Article 32 to hear any public grievance?",
+        "analysis": "No. Standing may be liberalised, but Article 32 still requires enforcement of fundamental rights. Non-Part-III grievances belong elsewhere."
+      },
+      {
+        "question": "When should a petitioner prefer Article 226 over Article 32?",
+        "analysis": "Often when the wrong is region-specific, involves other legal rights beyond Part III, or the High Court is the suitable first forum. Article 32 remains the Supreme Court Part III gateway."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "pil-32-vs-226",
+        "title": "PIL under Article 32 vs Article 226",
+        "left": "Article 32: Supreme Court; enforcement of fundamental rights.",
+        "right": "Article 226: High Courts; fundamental rights and other legal rights for any other purpose, subject to territorial limits.",
+        "rows": [
+          {
+            "point": "Court",
+            "left": "Supreme Court of India.",
+            "right": "High Courts."
+          },
+          {
+            "point": "Rights",
+            "left": "Part III fundamental rights.",
+            "right": "Fundamental rights and other legal rights."
+          },
+          {
+            "point": "Typical use in PIL",
+            "left": "National or Supreme Court-level Part III enforcement.",
+            "right": "Region-specific wrongs; broader public-law duties."
+          }
+        ]
+      },
+      {
+        "id": "pil-32-vs-standing",
+        "title": "Article 32 jurisdiction vs liberalised standing",
+        "left": "Article 32 jurisdiction: power and subject-matter (fundamental rights).",
+        "right": "Liberalised standing: who may move the Court in a public-interest claim.",
+        "rows": [
+          {
+            "point": "Question",
+            "left": "Is this a Part III enforcement claim in the Supreme Court?",
+            "right": "May this bona fide petitioner be heard for others or for the public interest?"
+          },
+          {
+            "point": "If missing",
+            "left": "Wrong forum or no Article 32 claim.",
+            "right": "Petition may fail for want of standing or bona fides."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "pil-32-trap-1",
+        "trap": "PIL under Article 32 can cure any public wrong, including pure statutory breaches.",
+        "correction": "Article 32 remains limited to enforcement of fundamental rights; liberal standing does not expand subject-matter."
+      },
+      {
+        "id": "pil-32-trap-2",
+        "trap": "Article 32 and Article 226 are interchangeable for every PIL.",
+        "correction": "They differ in court, rights enforceable, and typical forum fitness; choose deliberately."
+      },
+      {
+        "id": "pil-32-trap-3",
+        "trap": "Once filed as Article 32 PIL, abuse filters no longer apply.",
+        "correction": "Private disputes, busybodies, and motivated petitions may still be refused with costs."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "pil-32-brief",
+        "draftingCategory": "brief",
+        "question": "How should an Article 32 PIL problem be analysed?",
+        "answer": "I. Identify the Part III right claimed. II. Confirm Supreme Court forum fitness under Article 32. III. Test liberalised standing and bona fides. IV. Compare with Article 226 if forum is contested. V. Apply abuse filters. VI. State precise relief sought for enforcement of fundamental rights.",
+        "explanation": "IRAC-style chamber analysis."
+      },
+      {
+        "id": "pil-32-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Public Interest Litigation under Article 32 of the Constitution.",
+        "answer": "State Article 32 as the Supreme Court Part III gateway. Explain liberalised standing within that gateway. Stress the subject-matter limit to fundamental rights. Contrast briefly with Article 226. Note abuse filters. Conclude that PIL is standing plus Article 32, not a new writ.",
+        "explanation": "Topic-specific 10-mark structure."
+      },
+      {
+        "id": "pil-32-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss PIL under Article 32. How does liberalised standing interact with the fundamental-rights limit, and when is Article 226 preferable?",
+        "answer": "I. Article 32 as right and jurisdiction. II. PIL as standing rule within Article 32. III. Part III subject-matter limit. IV. Liberal standing criteria and bona fides. V. Comparison with Article 226. VI. Abuse filters and costs. VII. Forum-choice analysis. VIII. Conclusion: access without expanding jurisdiction beyond fundamental rights.",
+        "explanation": "Topic-specific 16-mark structure."
+      },
+      {
+        "id": "pil-32-submissions",
+        "draftingCategory": "submissions",
+        "question": "What should written submissions in an Article 32 PIL contain on forum and standing?",
+        "answer": "Identify the Part III right; explain why Supreme Court enforcement is appropriate; demonstrate bona fide public interest and why the affected class cannot approach; answer any Article 226 preference objection; and separate standing from the merits prayer.",
+        "explanation": "Structured written-submissions framework."
+      }
+    ],
+    "bareActPointers": [
+      "Constitution of India — Article 32",
+      "Constitution of India — Part III",
+      "Constitution of India — Article 226 (comparison)",
+      "Companion topics: locus-standi; limits-and-costs; constitutional art-32 topic"
+    ],
+    "examTips": [
+      "Always tie Article 32 PIL to Part III fundamental rights.",
+      "State that liberal standing does not expand subject-matter.",
+      "Compare Article 226 when forum is in issue.",
+      "Apply abuse filters even under Article 32.",
+      "Do not invent case holdings."
+    ],
+    "revisionPoints": [
+      "Article 32 = Supreme Court Part III gateway",
+      "Liberal standing within, not beyond, fundamental rights",
+      "Article 32 vs Article 226 forum choice",
+      "Abuse filters still apply",
+      "PIL is not a new writ"
+    ],
+    "relatedJudgments": [],
     "relatedTopics": [
       "topic:india:constitution-art-32",
       "topic:india:pil-locus-standi",
@@ -19,51 +205,67 @@
     "illustrations": [],
     "legacySubjectSlug": "pil",
     "legacyTopicId": "art-32",
+    "migrationNote": "Substantive enhancement of the migrated topic. Legacy baseline is preserved; case-law verification remains a separate gate.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "State the rule recorded for PIL under Article 32 — Supreme Court.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain Article 32 as the Supreme Court PIL gateway for Part III rights.",
+        "Apply the subject-matter limit that liberal standing does not expand.",
+        "Choose between Article 32 and Article 226 with reasons.",
+        "Apply abuse filters to Article 32 PIL petitions."
       ],
-      "definition": "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights.",
-      "legalPrinciple": "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights.",
-      "statutoryFramework": "PIL under Article 32 — Supreme Court",
+      "definition": "PIL under Article 32 is the use of the Supreme Court's fundamental-rights jurisdiction with liberalised standing so that bona fide public-interest petitioners may seek enforcement of Part III rights, without converting Article 32 into a general public-law court.",
+      "legalPrinciple": "Article 32 remains limited to enforcement of fundamental rights; PIL liberalises who may approach but not what rights may be enforced under that article.",
+      "statutoryFramework": "Constitution of India — Article 32 and Part III; Article 226 for forum comparison.",
       "essentialIngredients": [
-        "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights."
+        "Part III fundamental right engaged",
+        "Supreme Court forum under Article 32",
+        "Bona fide public-interest standing where representative",
+        "Appropriate forum choice versus Article 226",
+        "Absence of private-dispute or abuse markers"
       ],
-      "detailedExplanation": "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights.",
+      "detailedExplanation": "Core rule: Article 32 is the Supreme Court Part III gateway. PIL opens standing for genuine public-interest enforcement of those rights. It does not create residual jurisdiction over every public grievance.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "Systemic Part III violation",
+        "Non-Part-III public duty",
+        "Private dispute under Article 32 label"
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "problemApplication": "Identify the Part III right; confirm Article 32 fitness; test standing and bona fides; compare Article 226; apply abuse filters; seek precise relief.",
+      "distinctions": [
+        "Article 32 vs Article 226",
+        "Article 32 jurisdiction vs liberalised standing"
+      ],
+      "caseLawNotes": "No case entries are promoted to verified authority in this remediation. Case-law identity and ratio verification remain a separate evidence-backed gate.",
+      "shortAnswerStructure": "Define Article 32 gateway; state Part III limit; note liberal standing; contrast Article 226 briefly.",
+      "tenMarkStructure": "Article 32 gateway → liberal standing → Part III limit → vs 226 → abuse filters → conclusion.",
+      "sixteenMarkStructure": "Article 32 as right and jurisdiction → PIL standing → subject-matter limit → forum choice with 226 → abuse and costs → worked forum analysis → conclusion.",
       "keyTakeaways": [
-        "Article 32 is the Supreme Court gateway for PIL to enforce Part III fundamental rights; liberalised standing does not enlarge Article 32 into a general public-law jurisdiction beyond fundamental rights."
+        "Article 32 PIL enforces fundamental rights in the Supreme Court.",
+        "Liberal standing does not expand subject-matter beyond Part III.",
+        "Article 226 is often the wider or first High Court forum.",
+        "Abuse filters apply under Article 32 as elsewhere."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Constitution of India — Article 32 and Part III",
+        "Constitution of India — Article 226"
       ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Topic-specific substance added 2026-10-08. Case-law verification remains open; status moved from published to verification_in_progress to match the open verification gate."
     }
   },
   "sources": [
-    "source:india:india-pil-practice",
-    "source:india:india-code-constitution"
+    {
+      "kind": "constitution",
+      "label": "Constitution of India",
+      "citation": "Article 32; Part III; Article 226",
+      "url": null,
+      "notes": "Constitutional framework; verification of any specific holding remains separate."
+    }
   ],
-  "updatedAt": "2026-10-03T11:18:49.971Z",
+  "updatedAt": "2026-10-08T05:54:00.000Z",
   "effectiveFrom": "1950-01-26",
   "effectiveTo": null
 }
