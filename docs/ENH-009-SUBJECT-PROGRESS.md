@@ -15,7 +15,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | constitution | 522 | 522 | 0 | 100 | SUBSTANTIVE |
 | contract | 60 | 0 | 0 | 0 | SCAFFOLD (active verify commits) |
 | cpc | 249 | 0 | 0 | 0 | SCAFFOLD |
-| cyber | 53 | 5 | 0 | 9 | SUBSTANTIVE ENHANCEMENT IN PROGRESS (E-CYBER-01) |
+| cyber | 53 | 53 | 0 | 100 | **COMPLETE_LOCKED** |
 | dpsp | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
@@ -63,3 +63,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Intellectual Property COMPLETE_LOCKED — 2026-10-08:** All 63 IPR topics remediated to `substantive-topic-specific-v1`. **Do not reopen Intellectual Property for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/IPR-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Land Law COMPLETE_LOCKED — 2026-10-08:** All 44 land topics remediated to `substantive-topic-specific-v1`. **Do not reopen Land Law for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/LAND-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Cyber Law COMPLETE_LOCKED — 2026-10-08:** All 53 Cyber topics remediated to `substantive-topic-specific-v1`. Scaffold/substantive enhancement remediation is complete; **do not reopen Cyber for remediation without a documented trigger**. Legal verification and publication remain separate open gates (0/53 verified). Evidence: `docs/CYBER-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
