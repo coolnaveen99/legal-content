@@ -140,3 +140,10 @@ The Final Content Quality Pass may be closed only after:
 ## Next execution boundary
 
 Continue with the canonical enhancement queue, subject by subject, beginning with the remaining Admin scaffold population and then the next subjects in the authoritative execution order. Do not reopen Torts.
+
+### Arbitration — E-03 substantive enhancement batches
+
+- E-03A/E-03B advanced the Arbitration enhancement population through **19/132** tracked topics: ACA ss. 7–25 at the completed batch points (s.10, ss.12–15 and ss.17–25 newly remediated in this pass; prior E-03A covered ss.7–9, 11 and 16).
+- The enhanced records now contain topic-specific statutory modules, rule-specific examples, application hypotheticals, distinctions, misconceptions, answer structures, source metadata and explicit separation of case-law verification.
+- **113 Arbitration enhancement topics remain.**
+- This does not close the Arbitration subject or QUAL gates; case-law/current-law verification and later quality/integration gates remain separate.
