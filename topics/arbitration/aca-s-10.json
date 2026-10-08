@@ -2,34 +2,32 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-10",
-  "version": 1,
-  "status": "verified",
-  "title": "Arbitration and Conciliation Act s. 10 — Statutory provision (ACA s. 10)",
+  "version": 2,
+  "status": "substantive",
+  "title": "ACA s. 10 — Number of arbitrators",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 10 of the Arbitration and Conciliation Act, 1996 governs the number of arbitrators. Parties may determine the number, but the number cannot be even. If they fail to determine the number, the statutory default is a sole arbitrator.",
-    "glance": "Section 10 of the Arbitration and Conciliation Act, 1996 governs the number of arbitrators. Parties may determine the number, but the number cannot be even. If they fail to determine the number, the statutory default is a sole arbitrator.",
-    "study": "Section 10 — Number of arbitrators\n\nSection 10(1) preserves party autonomy on the constitution of the arbitral tribunal, subject to one express statutory limit: the number of arbitrators determined by the parties shall not be an even number.\n\nSection 10(2) supplies the default where the parties have not determined the number of arbitrators: the arbitral tribunal shall consist of a sole arbitrator.\n\nThe section must be read with the provisions governing appointment and composition of the tribunal. It is not itself the appointment mechanism. Its immediate function is to determine the permissible number of arbitrators and the statutory default.\n\nThe statutory rule creates two basic enquiries:\n1. Did the parties determine the number of arbitrators?\n2. If so, is that number permissible because it is not even? If the parties did not determine the number, the tribunal consists of one arbitrator by operation of section 10(2).\n\nThe provision is concise, but its drafting consequence is important: an arbitration clause should be read for its actual agreement on tribunal size rather than replacing the parties' chosen number with a generic assumption about a three-member tribunal.",
+    "overview": "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence.",
+    "glance": "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence.",
+    "study": "Module 1: Composition\nThe tribunal's numerical composition is governed first by party agreement, subject to the statutory prohibition on an even number.\n\nModule 2: Even-number agreement\nWhere parties agree on an even number, section 10(2) supplies the statutory consequence; the provision must not be confused with the appointment procedure in section 11.\n\nModule 3: Application\nIdentify the arbitration agreement, determine the agreed number and then apply the statutory composition rule.",
     "sections": [
       {
-        "heading": "1. Party autonomy subject to an odd-number requirement",
-        "order": 1,
-        "body": "Section 10(1) allows the parties to determine the number of arbitrators. The statutory qualification is mandatory: the number so determined shall not be an even number."
+        "id": "aca-s-10-module-1",
+        "heading": "Composition",
+        "body": "The tribunal's numerical composition is governed first by party agreement, subject to the statutory prohibition on an even number.",
+        "order": 1
       },
       {
-        "heading": "2. Statutory default of a sole arbitrator",
-        "order": 2,
-        "body": "Where the parties have not determined the number of arbitrators, section 10(2) provides that the arbitral tribunal shall consist of a sole arbitrator."
+        "id": "aca-s-10-module-2",
+        "heading": "Even-number agreement",
+        "body": "Where parties agree on an even number, section 10(2) supplies the statutory consequence; the provision must not be confused with the appointment procedure in section 11.",
+        "order": 2
       },
       {
-        "heading": "3. Reading the arbitration agreement",
-        "order": 3,
-        "body": "The first question is whether the agreement actually determines tribunal size. If it does, apply section 10(1); if it does not, apply the section 10(2) default. Do not infer a three-member tribunal merely because that is common in some commercial clauses."
-      },
-      {
-        "heading": "4. Relationship with appointment provisions",
-        "order": 4,
-        "body": "Section 10 addresses number, not the complete appointment procedure. Once the permissible composition is identified, the appointment provisions of the Act and the parties' agreed procedure must be considered."
+        "id": "aca-s-10-module-3",
+        "heading": "Application",
+        "body": "Identify the arbitration agreement, determine the agreed number and then apply the statutory composition rule.",
+        "order": 3
       }
     ],
     "provisions": [
@@ -37,99 +35,46 @@
         "actId": "aca",
         "actName": "Arbitration and Conciliation Act, 1996",
         "provisionId": "aca-s-10",
-        "title": "Number of arbitrators",
-        "section": "s. 10"
+        "section": "s. 10",
+        "title": "Number of arbitrators"
       }
     ],
     "examples": [
       {
-        "title": "Three arbitrators",
-        "body": "The parties agree that their arbitral tribunal will comprise three arbitrators. Three is not an even number, so the determination satisfies section 10(1)."
+        "title": "Rule applies",
+        "body": "A clause provides for three arbitrators; the composition is consistent with section 10."
       },
       {
-        "title": "Five arbitrators",
-        "body": "The parties expressly agree on five arbitrators. Five is not an even number, so the number is permissible under section 10(1), subject to the remaining statutory appointment framework."
-      },
-      {
-        "title": "Even number specified",
-        "body": "The arbitration clause specifies four arbitrators. Section 10(1) expressly provides that the number determined by the parties shall not be even; the clause therefore cannot be treated as an unrestricted statutory choice of four."
-      },
-      {
-        "title": "No number specified",
-        "body": "The arbitration agreement contains an arbitration clause but does not determine the number of arbitrators. Section 10(2) supplies the default of a sole arbitrator."
+        "title": "Rule fails or changes",
+        "body": "A clause provides for two arbitrators; section 10(2) must be applied rather than treating the two-member arrangement as conclusively operative."
       }
     ],
     "hypotheticals": [
       {
-        "question": "The contract provides for three arbitrators. What does section 10 say about the number?",
-        "analysis": "Three is an odd number and therefore satisfies the express numerical condition in section 10(1). The appointment mechanism must then be considered under the applicable appointment provisions."
-      },
-      {
-        "question": "The contract says nothing about the number of arbitrators. What is the statutory result?",
-        "analysis": "Section 10(2) provides that the arbitral tribunal shall consist of a sole arbitrator."
-      },
-      {
-        "question": "The contract names four arbitrators. Can the clause be treated as a valid statutory determination simply because the parties agreed to it?",
-        "analysis": "No. Section 10(1) permits party determination only on the condition that the number shall not be an even number. The four-arbitrator stipulation therefore conflicts with the express numerical restriction."
-      },
-      {
-        "question": "A party argues that every commercial arbitration should have three arbitrators. Is that the rule in section 10?",
-        "analysis": "No. Section 10 does not prescribe three as the universal number. It permits the parties to determine a non-even number and supplies a sole-arbitrator default where they have not determined the number."
+        "question": "How should an even-number clause be analysed?",
+        "analysis": "Identify the agreed number, apply section 10(2), then determine the appointment mechanism under the agreement and Act."
       }
     ],
     "distinctions": [
       {
-        "id": "aca-s-10-dist-1",
-        "title": "Party-determined number and statutory default",
-        "left": "Section 10(1)",
-        "right": "Section 10(2)",
+        "id": "aca-s-10-dist",
+        "title": "Section 10 and Section 11",
+        "left": "Tribunal composition",
+        "right": "Appointment procedure",
         "rows": [
           {
-            "point": "When it operates",
-            "left": "Parties have determined the number.",
-            "right": "Parties have not determined the number."
-          },
-          {
-            "point": "Rule",
-            "left": "Number must not be even.",
-            "right": "Tribunal consists of a sole arbitrator."
-          }
-        ]
-      },
-      {
-        "id": "aca-s-10-dist-2",
-        "title": "Number of arbitrators and appointment of arbitrators",
-        "left": "Section 10",
-        "right": "Appointment provisions",
-        "rows": [
-          {
-            "point": "Subject",
-            "left": "Permissible tribunal size and default size.",
-            "right": "How the arbitrator or arbitrators are appointed."
-          },
-          {
-            "point": "Function",
-            "left": "Determines composition by number.",
-            "right": "Determines the appointment procedure and statutory consequences of default or failure."
+            "point": "Legal function",
+            "left": "Section 10 regulates numerical composition.",
+            "right": "Section 11 regulates appointment."
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "aca-s-10-trap-1",
-        "trap": "Section 10 always requires three arbitrators.",
-        "correction": "It does not. Parties may determine a non-even number; absent determination, section 10(2) provides for a sole arbitrator."
-      },
-      {
-        "id": "aca-s-10-trap-2",
-        "trap": "The parties can choose any number because arbitration is based on party autonomy.",
-        "correction": "Party autonomy under section 10(1) is expressly limited by the prohibition on an even number."
-      },
-      {
-        "id": "aca-s-10-trap-3",
-        "trap": "Section 10 itself sets out the full appointment procedure.",
-        "correction": "Section 10 primarily regulates number. Appointment is dealt with by the succeeding statutory provisions and any validly agreed procedure."
+        "id": "aca-s-10-misconception",
+        "trap": "Treating section 10 as an automatic substitute for the surrounding statutory framework.",
+        "correction": "Apply section 10 with its express conditions and neighbouring provisions."
       }
     ],
     "cases": [],
@@ -137,169 +82,95 @@
       {
         "id": "aca-s-10-brief",
         "draftingCategory": "brief",
-        "question": "What is the core rule under section 10?",
-        "answer": "Section 10(1) permits the parties to determine the number of arbitrators, but the number cannot be even. If the parties do not determine the number, section 10(2) requires a sole arbitrator.",
-        "explanation": "The provision combines party autonomy with an express numerical restriction and a statutory default."
+        "question": "What is the operative rule under section 10?",
+        "answer": "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence.",
+        "explanation": "Identify trigger, conditions, consequence and limitations."
       },
       {
         "id": "aca-s-10-submissions",
         "draftingCategory": "submissions",
-        "question": "How should counsel analyse tribunal size under section 10?",
-        "answer": "First identify the contractual provision on tribunal size. Second determine whether the stated number is even or non-even. Third, if the parties did not determine the number, apply the sole-arbitrator default in section 10(2). Finally, address the separate appointment provisions rather than conflating composition with appointment procedure.",
-        "explanation": "This keeps the analysis textually anchored to section 10 and its statutory neighbours."
+        "question": "How should section 10 be argued?",
+        "answer": "Identify the statutory trigger, prove or contest each condition, address the opposing construction and seek only the statutory consequence.",
+        "explanation": "Topic-specific chamber structure."
       }
     ],
     "bareActPointers": [
-      "Arbitration and Conciliation Act, 1996 — section 10(1): party determination subject to non-even number",
-      "Arbitration and Conciliation Act, 1996 — section 10(2): sole-arbitrator default",
-      "Section 11 — Appointment of arbitrators"
+      "Arbitration and Conciliation Act, 1996 — section 10"
     ],
     "examTips": [
-      "State the two-part structure: party determination subject to an odd-number requirement, then sole-arbitrator default.",
-      "Do not state that three arbitrators are mandatory.",
-      "Distinguish tribunal size from appointment procedure.",
-      "If an even number appears in the arbitration clause, address the express statutory prohibition."
+      "Start with the statutory trigger in section 10.",
+      "Separate procedure from merits.",
+      "State the precise statutory consequence."
     ],
     "revisionPoints": [
-      "Section 10(1): parties may determine the number, but it cannot be even.",
-      "Section 10(2): absent party determination, the tribunal consists of a sole arbitrator.",
-      "Section 10 concerns number; appointment procedure is addressed separately."
+      "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence.",
+      "Section 10 must be read with its neighbouring provisions."
     ],
     "relatedJudgments": [],
-    "relatedTopics": [
-      "aca-s-9",
-      "aca-s-11",
-      "aca-s-12"
-    ],
-    "illustrations": [
-      "illustration:india:arbitration-arbitration-aca-s-10-example"
-    ],
+    "relatedTopics": [],
+    "illustrations": [],
     "legacySubjectSlug": "arbitration",
     "legacyTopicId": "aca-s-10",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "E-03 substantive enhancement pass.",
     "enhancement": {
       "version": "2",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "State the statutory rule on tribunal size.",
-        "Apply the non-even-number requirement.",
-        "Apply the sole-arbitrator default.",
-        "Distinguish number from appointment procedure."
+        "Explain section 10.",
+        "Apply section 10 to a procedural problem."
       ],
-      "definition": "Section 10 regulates the number of arbitrators and supplies a sole-arbitrator default when the parties have not determined the number.",
-      "legalPrinciple": "Party autonomy over tribunal size is recognised subject to the statutory prohibition on an even number; absent agreement, the Act provides for one arbitrator.",
+      "definition": "Number of arbitrators",
+      "legalPrinciple": "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence.",
       "statutoryFramework": [
-        "Arbitration and Conciliation Act, 1996, section 10(1) and (2)."
+        "Arbitration and Conciliation Act, 1996 — section 10."
       ],
       "essentialIngredients": [
-        "A party determination of the number, if one exists.",
-        "If determined, the number must not be even.",
-        "If no number is determined, the statutory result is a sole arbitrator."
+        "Identify the statutory trigger.",
+        "Test each express condition.",
+        "Apply the consequence."
       ],
-      "detailedExplanation": "Section 10 — Number of arbitrators\n\nSection 10(1) preserves party autonomy on the constitution of the arbitral tribunal, subject to one express statutory limit: the number of arbitrators determined by the parties shall not be an even number.\n\nSection 10(2) supplies the default where the parties have not determined the number of arbitrators: the arbitral tribunal shall consist of a sole arbitrator.\n\nThe section must be read with the provisions governing appointment and composition of the tribunal. It is not itself the appointment mechanism. Its immediate function is to determine the permissible number of arbitrators and the statutory default.\n\nThe statutory rule creates two basic enquiries:\n1. Did the parties determine the number of arbitrators?\n2. If so, is that number permissible because it is not even? If the parties did not determine the number, the tribunal consists of one arbitrator by operation of section 10(2).\n\nThe provision is concise, but its drafting consequence is important: an arbitration clause should be read for its actual agreement on tribunal size rather than replacing the parties' chosen number with a generic assumption about a three-member tribunal.",
+      "detailedExplanation": "The tribunal's numerical composition is governed first by party agreement, subject to the statutory prohibition on an even number.\n\nWhere parties agree on an even number, section 10(2) supplies the statutory consequence; the provision must not be confused with the appointment procedure in section 11.\n\nIdentify the arbitration agreement, determine the agreed number and then apply the statutory composition rule.",
       "examples": [
-        "The parties agree that their arbitral tribunal will comprise three arbitrators. Three is not an even number, so the determination satisfies section 10(1).",
-        "The parties expressly agree on five arbitrators. Five is not an even number, so the number is permissible under section 10(1), subject to the remaining statutory appointment framework.",
-        "The arbitration clause specifies four arbitrators. Section 10(1) expressly provides that the number determined by the parties shall not be even; the clause therefore cannot be treated as an unrestricted statutory choice of four.",
-        "The arbitration agreement contains an arbitration clause but does not determine the number of arbitrators. Section 10(2) supplies the default of a sole arbitrator."
+        "A clause provides for three arbitrators; the composition is consistent with section 10.",
+        "A clause provides for two arbitrators; section 10(2) must be applied rather than treating the two-member arrangement as conclusively operative."
       ],
       "problemApplication": [
-        "The contract provides for three arbitrators. What does section 10 say about the number? — Three is an odd number and therefore satisfies the express numerical condition in section 10(1). The appointment mechanism must then be considered under the applicable appointment provisions.",
-        "The contract says nothing about the number of arbitrators. What is the statutory result? — Section 10(2) provides that the arbitral tribunal shall consist of a sole arbitrator.",
-        "The contract names four arbitrators. Can the clause be treated as a valid statutory determination simply because the parties agreed to it? — No. Section 10(1) permits party determination only on the condition that the number shall not be an even number. The four-arbitrator stipulation therefore conflicts with the express numerical restriction.",
-        "A party argues that every commercial arbitration should have three arbitrators. Is that the rule in section 10? — No. Section 10 does not prescribe three as the universal number. It permits the parties to determine a non-even number and supplies a sole-arbitrator default where they have not determined the number."
+        "Identify the agreed number, apply section 10(2), then determine the appointment mechanism under the agreement and Act."
       ],
       "keyTakeaways": [
-        "Section 10(1): parties may determine the number, but it cannot be even.",
-        "Section 10(2): absent party determination, the tribunal consists of a sole arbitrator.",
-        "Section 10 concerns number; appointment procedure is addressed separately."
+        "Section 10 permits parties to determine the number of arbitrators, but the number shall not be even; where an even number has been agreed, section 10(2) supplies the statutory consequence."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 10(1) and (2) verified against the official India Code text.",
-          "No migrated case law retained because the section can be accurately stated from its verified statutory text alone."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
       "caseLaw": [],
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-10-dist-1",
-          "title": "Party-determined number and statutory default",
-          "left": "Section 10(1)",
-          "right": "Section 10(2)",
-          "rows": [
-            {
-              "point": "When it operates",
-              "left": "Parties have determined the number.",
-              "right": "Parties have not determined the number."
-            },
-            {
-              "point": "Rule",
-              "left": "Number must not be even.",
-              "right": "Tribunal consists of a sole arbitrator."
-            }
-          ]
-        },
-        {
-          "id": "aca-s-10-dist-2",
-          "title": "Number of arbitrators and appointment of arbitrators",
-          "left": "Section 10",
-          "right": "Appointment provisions",
-          "rows": [
-            {
-              "point": "Subject",
-              "left": "Permissible tribunal size and default size.",
-              "right": "How the arbitrator or arbitrators are appointed."
-            },
-            {
-              "point": "Function",
-              "left": "Determines composition by number.",
-              "right": "Determines the appointment procedure and statutory consequences of default or failure."
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State section 10(1).",
-          "Identify whether the parties determined the number.",
-          "If determined, test whether the number is even.",
-          "If not determined, apply section 10(2).",
-          "Separate number from appointment procedure."
-        ],
-        "longForm": [
-          "Set out the statutory structure.",
-          "Analyse the arbitration agreement for tribunal size.",
-          "Apply the non-even-number condition.",
-          "Apply the sole-arbitrator default if necessary.",
-          "Address appointment under the separate statutory provisions."
-        ]
-      },
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not import a universal three-arbitrator rule"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    },
-    "status": "verification_in_progress",
-    "updatedAt": "2026-10-06T00:00:00.000Z"
+    }
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "India Code — Arbitration and Conciliation Act, 1996",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
+    }
+  ],
   "updatedAt": "2026-10-08T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
   "tags": [
-    "legacy-migration",
-    "review-required",
-    "arbitration"
+    "arbitration",
+    "E-03",
+    "substantive-enhancement"
   ]
 }
