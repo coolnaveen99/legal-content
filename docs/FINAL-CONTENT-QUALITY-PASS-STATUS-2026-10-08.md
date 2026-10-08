@@ -119,6 +119,17 @@ BNS, BNSS, BSA and Constitution have substantial enhancement coverage but still 
 
 **QUAL impact:** Admin ultra vires scaffold remediation completed on main. QUAL-001 through QUAL-010 remain open corpus-wide until the remaining queue and validators are complete.
 
+
+### Arbitration — remaining assembled scaffolds (E-03 tail)
+
+- Range: `lsaa-s-19`, `lsaa-s-20-21`, `lsaa-s-22b`, `med-s-4-6`, `med-s-20`, `med-s-28`, `s-34`, `s-36`.
+- Worker: manual quality remediation on `main` after confirming no open PR and no 2026-10-08 commit on these files. Family and Company ranges were left to the workers already committing them.
+- Replaced assembled-from-migrated generic ADR boilerplate with statute-specific enhancement coverage `substantive-topic-specific-v1`.
+- LSA Act ss. 19, 20, 21 and 22B mapped to organisation, cognizance/award, and Permanent Lok Adalat establishment. Mediation Act ss. 4–6, 20 and 28 mapped to agreement, pre-litigation mediation, First Schedule bar, registration (not enforcement), and exclusive challenge grounds.
+- ACA ss. 34 and 36 legacy notes preserved and expanded: exclusive set-aside, three months plus thirty days, no automatic stay, s. 36(3) conditions, fraud/corruption unconditional-stay proviso.
+- No new case citations invented. Case-law gate remains `verification_required`. Mediation commencement and s. 29 day-count remain `SOURCE_CHECK_REQUIRED`.
+- This does not close Arbitration or QUAL-001–QUAL-011. ACA section files already on E-03 coverage were not reopened.
+
 ## Important quality boundary
 
 The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual topics have been improved.
@@ -145,5 +156,5 @@ Continue with the canonical enhancement queue, subject by subject, beginning wit
 
 - E-03A/E-03B advanced the Arbitration enhancement population through **19/132** tracked topics: ACA ss. 7–25 at the completed batch points (s.10, ss.12–15 and ss.17–25 newly remediated in this pass; prior E-03A covered ss.7–9, 11 and 16).
 - The enhanced records now contain topic-specific statutory modules, rule-specific examples, application hypotheticals, distinctions, misconceptions, answer structures, source metadata and explicit separation of case-law verification.
-- **113 Arbitration enhancement topics remain.**
+- Earlier E-03 note recorded 113 topics remaining. The 2026-10-08 tail pass remediated the eight files still on assembled-from-migrated coverage. Arbitration is not closed.
 - This does not close the Arbitration subject or QUAL gates; case-law/current-law verification and later quality/integration gates remain separate.
