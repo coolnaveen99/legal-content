@@ -15,7 +15,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | constitution | 522 | 522 | 0 | 100 | SUBSTANTIVE |
 | contract | 60 | 0 | 0 | 0 | SCAFFOLD (active verify commits) |
 | cpc | 249 | 0 | 0 | 0 | SCAFFOLD |
-| cyber | 53 | 0 | 0 | 0 | SCAFFOLD |
+| cyber | 53 | 5 | 0 | 9 | SUBSTANTIVE ENHANCEMENT IN PROGRESS (E-CYBER-01) |
 | dpsp | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
