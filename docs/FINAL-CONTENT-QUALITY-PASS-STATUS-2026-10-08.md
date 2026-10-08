@@ -160,6 +160,12 @@ Arbitration E-03 advanced and tail closed for specific ranges; subject not COMPL
 - Coverage set to `substantive-topic-specific-v1`. Audit: `docs/ETHICS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 - Professional Ethics removed from the open scaffold queue for enhancement purposes. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
 
+## Content-depth decision — 2026-10-08
+
+The corpus-wide quality standard now explicitly has **no artificial content-length ceiling or floor**. Topic depth is complexity-driven. A topic may be concise when the law is simple, but complex doctrines must receive the full substantive treatment they require, including detailed doctrine, exceptions, examples, applications, distinctions and authorities where applicable. Length alone is not a quality metric; generic or boilerplate content remains a QUAL finding even if it is long.
+
+This standard applies to all subjects, including subjects already marked COMPLETE_LOCKED for scaffold/enhancement remediation. A materially inadequate-depth finding is a documented quality trigger before any locked subject is reopened. See docs/CONTENT-DEPTH-STANDARD-2026-10-08.md.
+
 ## Important quality boundary
 
 The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual subjects have been locked for scaffold work.
