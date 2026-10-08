@@ -38,6 +38,8 @@ const STATUS_ENUM = new Set([
   "draft",
   "research",
   "review",
+  "source_check_required",
+  "verification_in_progress",
   "verified",
   "approved",
   "published",
