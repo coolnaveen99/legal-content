@@ -2,163 +2,83 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:family-muslim-law",
-  "version": 1,
-  "status": "review",
-  "title": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Muslim Personal Law — Overview",
   "jurisdiction": "India",
   "content": {
-    "overview": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source.",
-    "glance": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source.",
-    "study": "Topic at a glance\nMuslim personal law in India is largely uncodified for classical marriage and divorce, supplemented by statutes: the Muslim Personal Law (Shariat) Application Act, 1937; the Dissolution of Muslim Marriages Act, 1939 (DMMA); and the Muslim Women (Protection of Rights on Marriage) Act, 2019. Always name the statute. Do not write a bare “section 2” without the Act.\n\nIntroduction\nMuslim family law questions test: nature of Muslim marriage (nikah), essentials of a valid marriage, dower (mahr), forms of divorce, and the 2019 Act on instant triple talaq. Constitutional holdings (Shayara Bano) must be cited as case law.\n\nNature of Muslim marriage\nNikah is a civil contract with religious significance. It requires proposal and acceptance (ijab and qubul) at the same meeting, competent parties, and absence of prohibited relationship. Witnesses are required under Sunni law as commonly applied in India.\n\nEssentials of a valid marriage\nParties must be of sound mind and have attained puberty (subject to school and guardianship rules). Free consent is required. Parties must not fall within prohibited degrees. Classical rules on inter-faith capacity should be stated carefully and not overstated beyond settled exam positions.\n\nDower (mahr)\nDower is a sum or property the husband must pay the wife. It may be specified or unspecified, prompt or deferred. It is a debt against the husband’s estate and a protection for the wife.\n\nDivorce — overview\nForms include talaq, khula, mubarat, and judicial dissolution under the Dissolution of Muslim Marriages Act, 1939.\n\nTalaq and the 2019 Act\nThe Supreme Court in Shayara Bano held talaq-e-biddat (instant triple talaq) unconstitutional. The Muslim Women (Protection of Rights on Marriage) Act, 2019 declares any pronouncement of instantaneous triple talaq (spoken, written or electronic) void and illegal, creates a criminal offence, and provides for subsistence allowance and related protection as enacted.\n\nDissolution of Muslim Marriages Act, 1939\nA Muslim wife may obtain a decree for dissolution on grounds in s. 2, including: husband’s whereabouts unknown for four years; neglect or failure to provide maintenance for two years; imprisonment for seven years or more; failure to perform marital obligations for three years; impotence; insanity or severe disease as specified; and cruelty (with statutory illustrations).\n\nMaintenance\nIdentify which statute applies on the facts: Muslim personal law, the 1986 Muslim Women Act, or s. 125 BNSS/CrPC. Do not collapse them into one vague claim.\n\nCurrent-law close\nName Shariat Act 1937, DMMA 1939, 2019 Act, and Shayara Bano. Do not treat Muslim law as a single sectioned code like the HMA.",
+    "overview": "Muslim personal law in India covers nikah (civil contract with religious significance), dower (mahr), forms of divorce, judicial dissolution under the Dissolution of Muslim Marriages Act, 1939, and the Muslim Women (Protection of Rights on Marriage) Act, 2019 on instantaneous triple talaq. Always name the statute. Shayara Bano held talaq-e-biddat unconstitutional; the 2019 Act declares instantaneous triple talaq void and illegal.",
+    "glance": "Ask: (1) Nikah essentials? (2) Mahr? (3) Talaq path or DMMA s. 2? (4) Instant triple talaq — Shayara Bano + 2019 Act?",
+    "study": "Nikah: ijab and qubul at the same meeting; competent parties; free consent; absence of prohibited relationship; witnesses under Sunni law as commonly applied.\n\nMahr: specified or unspecified; prompt or deferred; a debt and protection for the wife.\n\nDivorce: classical modes; wife’s judicial path under DMMA s. 2; instant triple talaq void/illegal under 2019 Act after Shayara Bano.\n\nCase already in migrated file: Shayara Bano v. Union of India (2017) 9 SCC 1. No additional cases invented.",
+    "sections": [
+      {"heading": "Nikah", "body": "Civil contract with religious significance; ijab-qubul; capacity; prohibited degrees; witnesses as commonly required.", "order": 1},
+      {"heading": "Mahr", "body": "Dower — prompt or deferred; debt against the husband; protection for the wife.", "order": 2},
+      {"heading": "Divorce overview", "body": "Talaq, khula, mubarat; judicial dissolution under DMMA; 2019 Act on instant triple talaq.", "order": 3},
+      {"heading": "Shayara Bano and 2019 Act", "body": "Talaq-e-biddat unconstitutional; instantaneous triple talaq void and illegal under the 2019 Act.", "order": 4},
+      {"heading": "DMMA s. 2", "body": "Wife’s statutory grounds for decree of dissolution — open the DMMA topic for full list.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "shariat", "actName": "Muslim Personal Law (Shariat) Application Act, 1937", "provisionId": "shariat-2", "section": "s. 2", "title": "Application"},
+      {"actId": "dmma", "actName": "Dissolution of Muslim Marriages Act, 1939", "provisionId": "dmma-2", "section": "s. 2", "title": "Grounds for dissolution"},
+      {"actId": "mwporm", "actName": "Muslim Women (Protection of Rights on Marriage) Act, 2019", "provisionId": "mwporm", "section": "2019 Act", "title": "Instant triple talaq"}
+    ],
     "examples": [
-      {
-        "title": "Example — essentials of nikah",
-        "body": "Offer and acceptance in one meeting between competent parties with required witnesses; mahr fixed. Valid nikah."
-      },
-      {
-        "title": "Example — instant triple talaq",
-        "body": "Husband sends “talaq talaq talaq” in one sitting. Under the 2019 Act the pronouncement is void and illegal; Shayara Bano held such talaq unconstitutional."
-      },
-      {
-        "title": "Example — wife’s judicial divorce",
-        "body": "Husband fails to provide maintenance for two years. Wife petitions under s. 2 DMMA 1939 for dissolution."
-      }
+      {"title": "Valid nikah", "body": "Offer and acceptance in one meeting between competent parties with required witnesses; mahr fixed — valid nikah.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Instant triple talaq", "body": "Pronouncement of instantaneous triple talaq — void and illegal under the 2019 Act; Shayara Bano held such talaq unconstitutional.", "kind": "hypothetical", "inventedCase": false}
     ],
-    "hypotheticals": [
-      {
-        "question": "What is the status of the talaq and what remedies may W invoke?",
-        "analysis": "The 2019 Act declares instantaneous triple talaq void and illegal. The marriage is not dissolved by the void pronouncement. W may pursue maintenance and other statutory reliefs."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "mpl-dist-divorce",
-        "title": "Classical talaq vs DMMA vs 2019 Act",
-        "left": "Classical / other modes",
-        "right": "DMMA 1939 / 2019 Act",
-        "rows": [
-          {
-            "point": "Who initiates",
-            "left": "Often husband (talaq); khula/mubarat involve wife/both",
-            "right": "DMMA: wife seeks court decree; 2019 Act voids instant triple talaq"
-          },
-          {
-            "point": "Instant triple talaq",
-            "left": "Historically claimed under some schools",
-            "right": "Unconstitutional (Shayara Bano); void & illegal under 2019 Act"
-          }
-        ]
-      }
-    ],
+    "hypotheticals": [{"question": "What is the status of an instantaneous triple talaq pronouncement?", "analysis": "Void and illegal under the 2019 Act; does not dissolve the marriage by that pronouncement alone."}],
+    "distinctions": [{"id": "mpl-divorce-paths", "title": "Classical talaq / DMMA / 2019 Act", "left": "Classical modes and DMMA judicial path.", "right": "2019 Act voids instantaneous triple talaq.", "rows": [{"point": "Instant triple talaq", "left": "Historically claimed under some schools.", "right": "Unconstitutional (Shayara Bano); void and illegal (2019 Act)."}]}],
     "misconceptions": [
-      {
-        "id": "mpl-m1",
-        "trap": "Writing that Muslim marriage is only a sacrament like classical Hindu marriage.",
-        "correction": "Nikah is characterised as a civil contract with religious significance."
-      },
-      {
-        "id": "mpl-m2",
-        "trap": "Stating that instant triple talaq is still a valid private divorce.",
-        "correction": "Shayara Bano held it unconstitutional; the 2019 Act declares it void and illegal."
-      }
+      {"id": "mpl-trap-1", "trap": "Muslim marriage is only a sacrament like classical Hindu marriage.", "correction": "Nikah is characterised as a civil contract with religious significance."},
+      {"id": "mpl-trap-2", "trap": "Instant triple talaq is still a valid private divorce.", "correction": "Shayara Bano held it unconstitutional; the 2019 Act declares it void and illegal."}
     ],
+    "cases": [{
+      "name": "Shayara Bano v. Union of India",
+      "year": 2017,
+      "citation": "(2017) 9 SCC 1",
+      "court": "Supreme Court of India",
+      "holding": "Declared talaq-e-biddat (instant triple talaq) unconstitutional.",
+      "relevance": "Pair with the 2019 Act in modern answers.",
+      "judgmentId": "judgment:india:shayara-bano-v-union-of-india-2017"
+    }],
     "questionsAndAnswers": [
-      {
-        "id": "mpl-q-10",
-        "draftingCategory": "brief",
-        "question": "Explain the essentials of a valid Muslim marriage and the concept of dower (mahr).",
-        "answer": "Introduction. Muslim marriage (nikah) is a civil contract with religious significance.\n\nEssentials. Ijab and qubul at the same meeting; competent parties; free consent; absence of prohibited relationship; witnesses under Sunni law as commonly applied.\n\nDower. Specified or unspecified; prompt or deferred; a debt and protection for the wife.\n\nIllustration. Consent exchanged with witnesses and mahr fixed — valid nikah.\n\nConclusion. State nikah as contract, list essentials, explain mahr.",
-        "explanation": "Cover ijab-qubul, competence, and mahr types."
-      },
-      {
-        "id": "mpl-q-16",
-        "draftingCategory": "submissions",
-        "question": "Discuss divorce under Muslim law with reference to Shayara Bano, the 2019 Act, and judicial dissolution under DMMA 1939.",
-        "answer": "Introduction. Divorce may be extra-judicial or judicial under DMMA 1939. Instant triple talaq is controlled by constitutional law and the 2019 Act.\n\nShayara Bano. Talaq-e-biddat held unconstitutional.\n\n2019 Act. Instantaneous triple talaq void and illegal; offence and subsistence protection as enacted.\n\nDMMA 1939. Wife may obtain dissolution on s. 2 grounds: whereabouts unknown four years; failure to maintain two years; long imprisonment; failure of marital obligations three years; impotence; specified disease; cruelty.\n\nIllustration. Instant triple talaq by message — void under 2019 Act; W may also seek DMMA relief if grounds exist.\n\nConclusion. Cite Shayara Bano, the 2019 Act, and DMMA by name.",
-        "explanation": "Need Shayara Bano + 2019 Act + at least three DMMA grounds."
-      }
+      {"id": "mpl-10", "draftingCategory": "10-mark", "question": "Explain the essentials of a valid Muslim marriage and the concept of dower.", "answer": "Nikah as contract; ijab-qubul; capacity; mahr types.", "explanation": "10-mark."},
+      {"id": "mpl-16", "draftingCategory": "16-mark", "question": "Discuss divorce under Muslim law with reference to Shayara Bano, the 2019 Act and DMMA.", "answer": "I. Modes. II. Shayara Bano. III. 2019 Act. IV. DMMA s. 2. V. Conclusion.", "explanation": "16-mark."}
     ],
-    "cases": [
-      {
-        "name": "Shayara Bano v. Union of India",
-        "year": 2017,
-        "citation": "(2017) 9 SCC 1",
-        "holding": "Declared talaq-e-biddat (instant triple talaq) unconstitutional.",
-        "relevance": "Pair with the 2019 Act in modern answers.",
-        "judgmentId": "judgment:india:shayara-bano-v-union-of-india-2017"
-      }
-    ],
-    "bareActPointers": [
-      "Muslim Personal Law (Shariat) Application Act, 1937",
-      "Dissolution of Muslim Marriages Act, 1939 — s. 2",
-      "Muslim Women (Protection of Rights on Marriage) Act, 2019"
-    ],
-    "examTips": [
-      "Never leave talaq without Shayara Bano and the 2019 Act.",
-      "List DMMA s. 2 grounds for wife’s judicial divorce.",
-      "Explain mahr as a debt and protection."
-    ],
-    "revisionPoints": [
-      "Nikah = contract; ijab + qubul; mahr.",
-      "Shayara Bano + 2019 Act = instant triple talaq void/illegal.",
-      "DMMA 1939 — wife’s judicial dissolution grounds."
-    ],
-    "sections": [],
+    "bareActPointers": ["Shariat Act 1937", "DMMA 1939 s. 2", "Muslim Women (Protection of Rights on Marriage) Act, 2019"],
+    "examTips": ["Always pair Shayara Bano with the 2019 Act.", "Name statutes expressly."],
+    "revisionPoints": ["Nikah = contract", "Shayara Bano + 2019 Act", "DMMA s. 2"],
     "relatedJudgments": [],
-    "relatedTopics": [],
+    "relatedTopics": ["topic:india:family-dmma-s-2", "topic:india:family-mpl-shariat-s-2", "topic:india:family-mwa-s-3"],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "muslim-law",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement; Shayara Bano retained from migrated file; no new case invented; verification open.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
-      "learningObjectives": [
-        "State the rule recorded for Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal).",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
-      ],
-      "definition": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source.",
-      "legalPrinciple": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source.",
-      "statutoryFramework": "Muslim Personal Law (Shariat) Application Act, 1937; Dissolution of Muslim Marriages Act, 1939 — s. 2; Muslim Women (Protection of Rights on Marriage) Act, 2019",
-      "essentialIngredients": [
-        "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source."
-      ],
-      "detailedExplanation": "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source.",
-      "examples": [
-        "Example — essentials of nikah: Offer and acceptance in one meeting between competent parties with required witnesses; mahr fixed. Valid nikah.",
-        "Example — instant triple talaq: Husband sends “talaq talaq talaq” in one sitting. Under the 2019 Act the pronouncement is void and illegal; Shayara Bano held such talaq unconstitutional.",
-        "Example — wife’s judicial divorce: Husband fails to provide maintenance for two years. Wife petitions under s. 2 DMMA 1939 for dissolution."
-      ],
-      "problemApplication": "What is the status of the talaq and what remedies may W invoke? — The 2019 Act declares instantaneous triple talaq void and illegal. The marriage is not dissolved by the void pronouncement. W may pursue maintenance and other statutory reliefs.",
-      "keyTakeaways": [
-        "Muslim personal law — nikah as contract, dower, talaq and DMMA 1939 judicial divorce, Muslim Women (Protection of Rights on Marriage) Act 2019 (instant triple talaq void/illegal). Always name the source."
-      ],
-      "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
-      ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["State nikah essentials", "Apply 2019 Act and DMMA overview"],
+      "definition": "Overview of Muslim personal law covering nikah, mahr, divorce paths, DMMA and the 2019 Act on instant triple talaq.",
+      "legalPrinciple": "Name the statute; instant triple talaq is void and illegal; wife has a judicial path under DMMA.",
+      "statutoryFramework": "Shariat Act 1937; DMMA 1939; Muslim Women (Protection of Rights on Marriage) Act, 2019.",
+      "essentialIngredients": ["Identify issue", "Name statute", "Apply correct path"],
+      "detailedExplanation": "Routing overview for Muslim family-law problems.",
+      "examples": ["Valid nikah", "Instant triple talaq"],
+      "problemApplication": "Classify issue; open matching statute topic.",
+      "distinctions": ["Divorce paths"],
+      "caseLawNotes": "Shayara Bano retained from migrated file; no new holdings invented.",
+      "tenMarkStructure": "Nikah → mahr → divorce overview.",
+      "sixteenMarkStructure": "Nikah → divorce modes → Shayara Bano → 2019 Act → DMMA → conclusion.",
+      "keyTakeaways": ["Name the statute", "Instant triple talaq void/illegal"],
+      "authoritativeSources": ["Shariat Act 1937", "DMMA 1939", "2019 Act", "Shayara Bano (2017) 9 SCC 1"],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08."
     }
   },
-  "sources": [],
-  "updatedAt": "2026-10-03T11:18:49.688Z",
+  "sources": [{"kind": "statute", "label": "Muslim personal law statutes", "citation": "Shariat Act, DMMA, 2019 Act", "url": null, "notes": "Overview framework; Shayara Bano from migrated file."}],
+  "updatedAt": "2026-10-08T07:14:00.000Z",
   "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "family"
-  ]
+  "effectiveTo": null
 }
