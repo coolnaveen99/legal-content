@@ -2,152 +2,71 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:family-special-marriage",
-  "version": 1,
-  "status": "review",
-  "title": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Special Marriage Act, 1954 — Overview",
   "jurisdiction": "India",
   "content": {
-    "overview": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions.",
-    "glance": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions.",
-    "study": "Topic at a glance\nThe Special Marriage Act, 1954 (SMA) provides a secular, civil form of marriage open to any two persons, regardless of religion. It is the correct statute for inter-religious marriages and for parties who want a civil marriage. Always write “Section 4 of the Special Marriage Act, 1954”.\n\nIntroduction\nUnlike the Hindu Marriage Act, 1955, the SMA is not a personal-law code for one community. It creates a uniform civil procedure: notice, objections, solemnisation before the Marriage Officer, and a certificate. Divorce, nullity and other matrimonial reliefs are provided inside the same Act.\n\nConditions relating to solemnisation (s. 4)\nA marriage may be solemnised if: neither party has a spouse living; neither is incapable of giving valid consent by reason of unsoundness of mind, or unfit for marriage and procreation by mental disorder, or subject to recurrent attacks of insanity; the male has completed 21 years and the female 18 years; and the parties are not within the degrees of prohibited relationship — subject to permitted custom not contrary to public policy.\n\nNotice and procedure (ss. 5–16)\nParties give notice to the Marriage Officer of the district in which at least one has resided for the prescribed period. Notice is published. Objections may be made within thirty days on the ground that the marriage would violate s. 4. After the objection period (or after objections are rejected), the marriage may be solemnised before the Marriage Officer and three witnesses. A marriage certificate is issued.\n\nVoid, voidable and divorce\nThe SMA has its own void, voidable and divorce provisions. Do not cite HMA section numbers for an SMA marriage. Mutual consent divorce exists under the SMA with its own procedure.\n\nWhy parties choose the SMA\nInter-religious couples; parties who reject religious ceremonies; couples who want a clear civil record and uniform divorce forum.\n\nCurrent-law close\nFor civil/secular/inter-religious marriage problems, open with the Special Marriage Act, 1954, s. 4 conditions, notice procedure, and the Act’s own nullity and divorce chapters.",
+    "overview": "The Special Marriage Act, 1954 provides a secular civil marriage open to any two persons regardless of religion. Conditions are in s. 4; notice, objections and solemnisation before the Marriage Officer follow ss. 5–16. The Act has its own void, voidable and divorce provisions — do not cite HMA section numbers for an SMA marriage.",
+    "glance": "Ask: (1) Any two persons? (2) s. 4 conditions? (3) Notice and 30-day objections? (4) Solemnisation before Marriage Officer + 3 witnesses?",
+    "study": "SMA is the correct statute for inter-religious marriages and for parties who want a civil ceremony and civil record.\n\ns. 4: no living spouse; mental capacity; ages 21/18; not within prohibited degrees (subject to permitted custom not contrary to public policy).\n\nProcedure: notice → publication → 30 days for objections → solemnisation before Marriage Officer and three witnesses → certificate.\n\nNo case holdings invented. Case-law verification remains a separate gate.",
+    "sections": [
+      {"heading": "Who may marry", "body": "Any two persons — secular, not limited to one community.", "order": 1},
+      {"heading": "s. 4 conditions", "body": "Monogamy; capacity; ages 21/18; prohibited degrees subject to permitted custom.", "order": 2},
+      {"heading": "Notice and objections", "body": "Notice to Marriage Officer; publication; thirty days for objections on s. 4 grounds.", "order": 3},
+      {"heading": "Solemnisation", "body": "Before Marriage Officer and three witnesses; certificate issued.", "order": 4},
+      {"heading": "Own relief chapters", "body": "Nullity and divorce under the SMA — not HMA section numbers.", "order": 5}
+    ],
+    "provisions": [{"actId": "sma", "actName": "Special Marriage Act, 1954", "provisionId": "sma-4", "section": "s. 4", "title": "Conditions relating to solemnization of special marriages"}],
     "examples": [
-      {
-        "title": "Example — inter-religious civil marriage",
-        "body": "A Hindu and a Christian marry under the SMA after notice and solemnisation before the Marriage Officer and three witnesses."
-      },
-      {
-        "title": "Example — objection period",
-        "body": "Within thirty days a third party objects that the bridegroom has a living spouse. If proved, the marriage cannot be solemnised under s. 4."
-      }
+      {"title": "Inter-religious civil marriage", "body": "Hindu and Christian marry under SMA after notice and solemnisation before the Marriage Officer.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Objection period", "body": "Within thirty days an objection that one party has a living spouse — if proved, marriage cannot be solemnised under s. 4.", "kind": "hypothetical", "inventedCase": false}
     ],
-    "hypotheticals": [
-      {
-        "question": "What is the difficulty?",
-        "analysis": "HMA applies only to Hindus (and related categories under s. 2 HMA). A civil inter-religious marriage should have been solemnised under the SMA."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "sma-dist-hma",
-        "title": "SMA vs HMA",
-        "left": "Special Marriage Act, 1954",
-        "right": "Hindu Marriage Act, 1955",
-        "rows": [
-          {
-            "point": "Who may marry",
-            "left": "Any two persons",
-            "right": "Hindus, Buddhists, Jains, Sikhs (s. 2 HMA)"
-          },
-          {
-            "point": "Form",
-            "left": "Civil — notice + Marriage Officer",
-            "right": "Customary rites (s. 7 HMA)"
-          },
-          {
-            "point": "Inter-religious",
-            "left": "Designed for it",
-            "right": "Not the correct statute without conversion"
-          }
-        ]
-      }
-    ],
+    "hypotheticals": [{"question": "Can HMA sections be used for an SMA marriage?", "analysis": "No. SMA has its own conditions, nullity and divorce chapters."}],
+    "distinctions": [{"id": "sma-vs-hma", "title": "SMA vs HMA", "left": "Any two persons; civil notice procedure.", "right": "Hindus (and related categories under s. 2); customary rites.", "rows": [{"point": "Inter-religious", "left": "Designed for it.", "right": "Not the correct statute without conversion."}]}],
     "misconceptions": [
-      {
-        "id": "sma-m1",
-        "trap": "Using HMA section numbers for an SMA marriage.",
-        "correction": "SMA has its own conditions, nullity and divorce sections."
-      },
-      {
-        "id": "sma-m2",
-        "trap": "Treating SMA as only registration of a religious marriage.",
-        "correction": "SMA is a complete code for solemnisation of a civil marriage."
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "sma-q-10",
-        "draftingCategory": "brief",
-        "question": "Explain the conditions and procedure for solemnisation of marriage under the Special Marriage Act, 1954.",
-        "answer": "Introduction. The SMA provides a secular civil marriage for any two persons.\n\nConditions — s. 4. No living spouse; mental capacity; ages 21/18; not within prohibited degrees subject to permitted custom.\n\nProcedure. Notice to Marriage Officer; publication; thirty days for objections; solemnisation before officer and three witnesses; certificate.\n\nIllustration. Inter-religious couple completes notice, faces no valid objection, solemnises before the officer — valid SMA marriage.\n\nConclusion. Cite s. 4 and the notice–solemnisation scheme of the Special Marriage Act, 1954.",
-        "explanation": "Must include s. 4 and notice/objection procedure."
-      },
-      {
-        "id": "sma-q-16",
-        "draftingCategory": "submissions",
-        "question": "Compare marriage under the Special Marriage Act, 1954 with the Hindu Marriage Act, 1955. When should parties prefer the SMA?",
-        "answer": "Introduction. HMA is personal-law for Hindus (and related groups). SMA is secular civil marriage for any two persons.\n\nApplicability and form. HMA s. 2 vs SMA open to all. HMA s. 7 customary rites vs SMA notice and Marriage Officer.\n\nConditions and reliefs. Both enforce monogamy and capacity, but texts differ. Each Act has its own nullity and divorce chapters.\n\nWhen to prefer SMA. Inter-religious unions; civil ceremony and civil record; avoidance of conversion solely to attract a personal law.\n\nConclusion. Choose the statute by applicability; cite SMA 1954 or HMA 1955 expressly.",
-        "explanation": "Comparison + clear preference cases scores well."
-      }
+      {"id": "sma-trap-1", "trap": "Using HMA section numbers for an SMA marriage.", "correction": "SMA has its own conditions, nullity and divorce sections."},
+      {"id": "sma-trap-2", "trap": "SMA is only registration of a religious marriage.", "correction": "SMA is a complete code for solemnisation of a civil marriage."}
     ],
     "cases": [],
-    "bareActPointers": [
-      "Special Marriage Act, 1954 — ss. 4–16 and matrimonial relief chapters"
+    "questionsAndAnswers": [
+      {"id": "sma-10", "draftingCategory": "10-mark", "question": "Explain the conditions and procedure under the Special Marriage Act, 1954.", "answer": "s. 4 conditions; notice; 30-day objections; solemnisation before Marriage Officer and three witnesses; certificate.", "explanation": "10-mark."},
+      {"id": "sma-16", "draftingCategory": "16-mark", "question": "Compare marriage under the SMA with the HMA. When should parties prefer the SMA?", "answer": "I. Applicability. II. Form. III. Conditions. IV. Reliefs. V. Preference cases. VI. Conclusion.", "explanation": "16-mark."}
     ],
-    "examTips": [
-      "SMA = any two persons; civil notice procedure.",
-      "Do not use HMA sections for SMA marriages.",
-      "State thirty-day objection period and three witnesses."
-    ],
-    "revisionPoints": [
-      "s. 4 conditions; notice; objections; Marriage Officer.",
-      "Secular / inter-religious use-case.",
-      "Own nullity and divorce chapters — not HMA numbers."
-    ],
-    "sections": [],
+    "bareActPointers": ["SMA ss. 4–16", "SMA matrimonial relief chapters"],
+    "examTips": ["SMA = any two persons.", "Do not use HMA sections for SMA marriages."],
+    "revisionPoints": ["s. 4", "Notice + 30 days", "Own divorce/nullity"],
     "relatedJudgments": [],
-    "relatedTopics": [],
+    "relatedTopics": ["topic:india:family-sma-s-4", "topic:india:family-hindu-marriage"],
     "illustrations": [],
     "legacySubjectSlug": "family",
     "legacyTopicId": "special-marriage",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement; no case invented; verification open.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
-      "learningObjectives": [
-        "State the rule recorded for Special Marriage Act, 1954 — secular civil marriage for any two persons; s.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
-      ],
-      "definition": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions.",
-      "legalPrinciple": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions.",
-      "statutoryFramework": "Special Marriage Act, 1954 — ss. 4–16 and matrimonial relief chapters",
-      "essentialIngredients": [
-        "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions."
-      ],
-      "detailedExplanation": "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions.",
-      "examples": [
-        "Example — inter-religious civil marriage: A Hindu and a Christian marry under the SMA after notice and solemnisation before the Marriage Officer and three witnesses.",
-        "Example — objection period: Within thirty days a third party objects that the bridegroom has a living spouse. If proved, the marriage cannot be solemnised under s. 4."
-      ],
-      "problemApplication": "What is the difficulty? — HMA applies only to Hindus (and related categories under s. 2 HMA). A civil inter-religious marriage should have been solemnised under the SMA.",
-      "keyTakeaways": [
-        "Special Marriage Act, 1954 — secular civil marriage for any two persons; s. 4 conditions; notice and solemnisation before Marriage Officer; Act’s own void/voidable and divorce provisions."
-      ],
-      "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
-      ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Apply s. 4 conditions", "Explain notice procedure", "Distinguish SMA from HMA"],
+      "definition": "SMA 1954 provides secular civil marriage for any two persons with statutory conditions, notice procedure and its own matrimonial reliefs.",
+      "legalPrinciple": "Civil, secular marriage code independent of personal-law ceremonies.",
+      "statutoryFramework": "Special Marriage Act, 1954 — Sections 4–16 and relief chapters.",
+      "essentialIngredients": ["s. 4 conditions met", "Notice and objection period", "Solemnisation before officer"],
+      "detailedExplanation": "Complete civil marriage scheme for any two persons.",
+      "examples": ["Inter-religious civil marriage", "Objection period"],
+      "problemApplication": "Check s. 4; follow notice path; use SMA relief sections only.",
+      "distinctions": ["SMA vs HMA"],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "Conditions → notice → solemnisation.",
+      "sixteenMarkStructure": "Applicability → form → conditions → reliefs → preference → conclusion.",
+      "keyTakeaways": ["Any two persons", "Own relief chapters"],
+      "authoritativeSources": ["Special Marriage Act, 1954"],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08."
     }
   },
-  "sources": [],
-  "updatedAt": "2026-10-03T11:18:49.690Z",
+  "sources": [{"kind": "statute", "label": "Special Marriage Act, 1954", "citation": "ss. 4–16", "url": null, "notes": "Framework; no case holdings invented."}],
+  "updatedAt": "2026-10-08T07:06:00.000Z",
   "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "family"
-  ]
+  "effectiveTo": null
 }
