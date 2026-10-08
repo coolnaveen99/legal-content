@@ -65,6 +65,15 @@ The Arbitration subject is the immediate example of this coordination problem. M
 | **NI** | COMPLETE_LOCKED (2026-10-08) | All 4 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/NI-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **Family** | COMPLETE_LOCKED (2026-10-08) | All 38 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 
+
+## Universal content-depth standard — P0
+
+All subjects follow docs/CONTENT-DEPTH-STANDARD-2026-10-08.md. There is NO artificial minimum or maximum line, word, character, paragraph, or byte count. Content must be as long as the law requires and as short as the law permits. Complex topics may require very extensive treatise-level treatment. Do not shorten substantive legal analysis to fit a target length, and do not inflate content merely to increase size.
+
+substantive-topic-specific-v1 is a substantive-quality classification, not a length target or a claim of exhaustive legal coverage. A topic is inadequate if it is materially too short, generic, boilerplate-driven, repetitive, or missing necessary topic-specific legal coverage. Such a finding is a documented quality trigger for any locked subject; locked subjects must not be silently reopened.
+
+For every subject, apply the complexity-driven depth test before declaring substantive enhancement complete: governing rule, scope, definitions, ingredients, exceptions, detailed doctrine, connected rules, examples, fact applications, distinctions, material defences/remedies/procedure where relevant, verified authorities where applicable, current-law issues, exam/application structures, revision points, sources and verification metadata. This is a coverage test, not a mechanical template; genuinely inapplicable elements may be omitted and important elements must be expanded.
+
 ## Completion evidence
 
 A task may be marked complete only when:
