@@ -11,7 +11,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | bns | 368 | 359 | 0 | 98 | PARTIAL |
 | bnss | 539 | 531 | 0 | 99 | PARTIAL |
 | bsa | 177 | 170 | 0 | 96 | PARTIAL |
-| company | 561 | 3 | 0 | 0 | SUBSTANTIVE ENHANCEMENT IN PROGRESS (E-04J: §§39–41) |
+| company | 561 | 6 | 0 | 0 | SUBSTANTIVE ENHANCEMENT IN PROGRESS (E-04K: §§42–44) |
 | constitution | 522 | 522 | 0 | 100 | SUBSTANTIVE |
 | contract | 60 | 0 | 0 | 0 | SCAFFOLD (active verify commits) |
 | cpc | 249 | 0 | 0 | 0 | SCAFFOLD |
