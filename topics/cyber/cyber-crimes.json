@@ -11,27 +11,112 @@
     "glance": "Ask: (1) Which IT Act offence section? (2) Mens rea where required (dishonestly/fraudulently)? (3) Civil s. 43 also available? (4) Concurrent BNS offence?",
     "study": "Map facts to the specific section. s. 66A is not good law. Always separate civil compensation (s. 43) from criminal prosecution.\n\nNo new case invented. Shreya Singhal context for s. 66A is a verification item — not invented here as a full holding.",
     "sections": [
-      {"heading": "Core offences", "body": "s. 65 (source code); s. 66 (computer-related offence linked to s. 43 acts done dishonestly/fraudulently); ss. 66B–66F (stolen computer resource, identity theft, personation, privacy, cyber terrorism).", "order": 1},
-      {"heading": "Obscenity cluster", "body": "ss. 67, 67A, 67B — publishing/transmitting obscene or sexually explicit material, including depicting children — as enacted.", "order": 2},
-      {"heading": "s. 66A status", "body": "s. 66A is not operative following constitutional invalidation; do not charge or advise under s. 66A.", "order": 3},
-      {"heading": "Civil parallel", "body": "s. 43 provides civil compensation for specified computer wrongs without necessarily requiring criminal mens rea.", "order": 4},
-      {"heading": "Method", "body": "Identify the computer resource act; match section; check mens rea; consider concurrent general criminal law.", "order": 5}
+      {
+        "heading": "Core offences",
+        "body": "s. 65 (source code); s. 66 (computer-related offence linked to s. 43 acts done dishonestly/fraudulently); ss. 66B–66F (stolen computer resource, identity theft, personation, privacy, cyber terrorism).",
+        "order": 1
+      },
+      {
+        "heading": "Obscenity cluster",
+        "body": "ss. 67, 67A, 67B — publishing/transmitting obscene or sexually explicit material, including depicting children — as enacted.",
+        "order": 2
+      },
+      {
+        "heading": "s. 66A status",
+        "body": "s. 66A is not operative following constitutional invalidation; do not charge or advise under s. 66A.",
+        "order": 3
+      },
+      {
+        "heading": "Civil parallel",
+        "body": "s. 43 provides civil compensation for specified computer wrongs without necessarily requiring criminal mens rea.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify the computer resource act; match section; check mens rea; consider concurrent general criminal law.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "ita", "actName": "Information Technology Act, 2000", "provisionId": "ita-crimes", "section": "ss. 65–67B", "title": "Cyber offences overview"}],
-    "examples": [{"title": "Identity theft", "body": "Fraudulent use of another person's electronic signature or password → s. 66C analysis; possible concurrent cheating offences under general criminal law.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Can offensive speech online still be prosecuted under s. 66A?", "analysis": "No. s. 66A is not operative law after constitutional invalidation; other provisions or general criminal law may apply only if their own ingredients are met."}],
-    "distinctions": [{"id": "crime-vs-civil", "title": "Criminal IT Act offences vs s. 43 civil liability", "left": "Prosecution with prescribed mens rea and punishment.", "right": "Compensation for specified acts causing damage without the same criminal threshold.", "rows": [{"point": "Remedy", "left": "Punishment.", "right": "Damages."}]}],
-    "misconceptions": [{"id": "crime-trap-1", "trap": "s. 66A is still available for online insults.", "correction": "s. 66A is struck down and must not be treated as current law."}],
+    "provisions": [
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-crimes",
+        "section": "ss. 65–67B",
+        "title": "Cyber offences overview"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Identity theft",
+        "body": "Fraudulent use of another person's electronic signature or password → s. 66C analysis; possible concurrent cheating offences under general criminal law.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can offensive speech online still be prosecuted under s. 66A?",
+        "analysis": "No. s. 66A is not operative law after constitutional invalidation; other provisions or general criminal law may apply only if their own ingredients are met."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "crime-vs-civil",
+        "title": "Criminal IT Act offences vs s. 43 civil liability",
+        "left": "Prosecution with prescribed mens rea and punishment.",
+        "right": "Compensation for specified acts causing damage without the same criminal threshold.",
+        "rows": [
+          {
+            "point": "Remedy",
+            "left": "Punishment.",
+            "right": "Damages."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "crime-trap-1",
+        "trap": "s. 66A is still available for online insults.",
+        "correction": "s. 66A is struck down and must not be treated as current law."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "cy-crime-10", "draftingCategory": "10-mark", "question": "Outline the principal cyber offences under the IT Act, 2000.", "answer": "ss. 65–66F cluster; ss. 67–67B; s. 66A status; civil parallel.", "explanation": "10-mark."},
-      {"id": "cy-crime-16", "draftingCategory": "16-mark", "question": "Discuss cyber crimes under the Information Technology Act, 2000.", "answer": "I. Core offences. II. Obscenity cluster. III. s. 66A. IV. Civil parallel. V. Method. VI. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "cy-crime-10",
+        "draftingCategory": "10-mark",
+        "question": "Outline the principal cyber offences under the IT Act, 2000.",
+        "answer": "ss. 65–66F cluster; ss. 67–67B; s. 66A status; civil parallel.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "cy-crime-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss cyber crimes under the Information Technology Act, 2000.",
+        "answer": "I. Core offences. II. Obscenity cluster. III. s. 66A. IV. Civil parallel. V. Method. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["IT Act 2000 ss. 43, 65–67B", "Note: s. 66A inoperative"],
-    "examTips": ["Never rely on s. 66A.", "Separate civil and criminal paths."],
-    "revisionPoints": ["s. 66 mens rea", "s. 66C/66D", "s. 66A struck down"],
+    "bareActPointers": [
+      "IT Act 2000 ss. 43, 65–67B",
+      "Note: s. 66A inoperative"
+    ],
+    "examTips": [
+      "Never rely on s. 66A.",
+      "Separate civil and criminal paths."
+    ],
+    "revisionPoints": [
+      "s. 66 mens rea",
+      "s. 66C/66D",
+      "s. 66A struck down"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:cyber-cyber-it-s-66", "topic:india:cyber-cyber-it-s-43"],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-it-s-66",
+      "topic:india:cyber-cyber-it-s-43"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "cyber",
     "legacyTopicId": "cyber-crimes",
@@ -40,27 +125,60 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Map cyber offence sections", "State s. 66A status"],
+      "learningObjectives": [
+        "Map cyber offence sections",
+        "State s. 66A status"
+      ],
       "definition": "Cyber crimes under the IT Act cover computer-related offences, identity theft, personation, privacy violation, cyber terrorism and electronic obscenity, with s. 66A no longer operative.",
       "legalPrinciple": "Specialised criminal liability for computer-resource wrongs under the IT Act.",
       "statutoryFramework": "IT Act 2000 ss. 65–67B (s. 66A inoperative).",
-      "essentialIngredients": ["Identify section", "Mens rea if required", "Computer resource nexus"],
+      "essentialIngredients": [
+        "Identify section",
+        "Mens rea if required",
+        "Computer resource nexus"
+      ],
       "detailedExplanation": "Cyber crimes overview.",
-      "examples": ["Identity theft"],
+      "examples": [
+        "Identity theft"
+      ],
       "problemApplication": "Match facts to section; exclude s. 66A; consider s. 43 civil.",
-      "distinctions": ["Crime vs civil"],
+      "distinctions": [
+        "Crime vs civil"
+      ],
       "caseLawNotes": "No cases invented; s. 66A invalidation on verification gate.",
       "tenMarkStructure": "Core → obscenity → s. 66A → civil.",
       "sixteenMarkStructure": "Core → obscenity → s. 66A → civil → method → conclusion.",
-      "keyTakeaways": ["s. 66A dead", "Civil and criminal distinct"],
-      "authoritativeSources": ["IT Act 2000"],
+      "keyTakeaways": [
+        "s. 66A dead",
+        "Civil and criminal distinct"
+      ],
+      "authoritativeSources": [
+        "IT Act 2000"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Information Technology Act, 2000", "citation": "ss. 65–67B", "url": null, "notes": "Framework; no case holdings invented."}],
-  "updatedAt": "2026-10-08T08:25:00.000Z",
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Information Technology Act, 2000",
+      "citation": "ss. 65–67B",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null
 }
