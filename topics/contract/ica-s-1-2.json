@@ -3,75 +3,112 @@
   "entityType": "topic",
   "id": "topic:india:contract-ica-s-1-2",
   "version": 2,
-  "status": "source_check_required",
+  "status": "review",
   "title": "Indian Contract Act, 1872 — Sections 1–2",
   "jurisdiction": "India",
   "content": {
-    "overview": "ICA ss. 1–2 — Preliminary and Interpretation is a Senior Counsel-level treatment of s. 1–2 under the Indian Contract Act, 1872. It connects statutory text, doctrine, authority, proof, procedure and remedies without marks-based formatting.",
-    "glance": "ICA ss. 1–2 — Preliminary and Interpretation is a Senior Counsel-level treatment of s. 1–2 under the Indian Contract Act, 1872. It connects statutory text, doctrine, authority, proof, procedure and remedies without marks-based formatting.",
+    "overview": "Sections 1 and 2 of the Indian Contract Act, 1872 establish the Act’s territorial and temporal operation and define the foundational contractual concepts used by the operative provisions. The definitions in section 2 must be read as statutory terms, not as free-standing textbook descriptions.",
+    "glance": "Sections 1 and 2 of the Indian Contract Act, 1872 establish the Act’s territorial and temporal operation and define the foundational contractual concepts used by the operative provisions. The definitions in section 2 must be read as statutory terms, not as free-standing textbook descriptions.",
     "sections": [
       {
-        "heading": "Statutory scope — Indian Contract Act, 1872, sections 1–2",
-        "body": "This topic is confined to sections 1–2 of the Indian Contract Act, 1872. The statutory text and the specific legal effect of each provision should control the analysis.",
-        "order": 1
+        "heading": "Section 1 — Title, extent, commencement and savings",
+        "order": 1,
+        "body": "Section 1 identifies the enactment as the Indian Contract Act, 1872, states its extent, commencement framework and saving clause. The saving provision preserves specified pre-existing usages, customs, incidents of contract and statutory enactments or provisions not repealed by the Act. The precise statutory text controls the scope of each saving."
       },
       {
-        "heading": "Textual Anatomy, Provisos & Statutory Deconstruction",
-        "body": "s. 1–2 must be broken into definitions, operative words, conditions, exceptions, savings and consequences. Map the agreement and commercial records to each statutory ingredient.",
-        "order": 2
+        "heading": "Section 2 — Interpretation clause",
+        "order": 2,
+        "body": "Section 2 supplies the vocabulary for the operative scheme. The principal defined expressions include proposal, promise, promisor, promisee, consideration, agreement, reciprocal promises, void agreement and contract. Each definition should be applied by identifying its statutory ingredients before moving to the operative provision governing the dispute."
       },
       {
-        "heading": "Mandatory Proving Ingredients & Essential Elements",
-        "body": "1. Establish the transaction and parties.\\n2. Identify the statutory trigger in s. 1–2.\\n3. Prove each constituent fact.\\n4. Test exceptions and defences.\\n5. Identify the precise legal consequence.",
-        "order": 3
+        "heading": "Proposal, acceptance, promise and agreement",
+        "order": 3,
+        "body": "Under section 2, a proposal is an expression of willingness to do or abstain from doing something with a view to obtaining the other person's assent; when the person to whom it is made signifies assent, the proposal becomes a promise. The persons making and accepting the proposal become promisor and promisee respectively. Every promise and every set of promises forming the consideration for each other is an agreement."
+      },
+      {
+        "heading": "Consideration, reciprocal promises and contract",
+        "order": 4,
+        "body": "Section 2(d) defines consideration by reference to an act, abstinence or promise done, abstained from or promised at the desire of the promisor. Section 2(f) recognises reciprocal promises. Section 2(h) defines contract as an agreement enforceable by law, so an agreement is not automatically a contract merely because assent has occurred."
+      },
+      {
+        "heading": "Void agreement and statutory sequencing",
+        "order": 5,
+        "body": "Section 2(g) identifies a void agreement as one not enforceable by law. In application, begin with the statutory definitions, then identify whether an agreement exists, and finally examine the later provisions of the Act to determine enforceability, validity or voidness."
       }
     ],
     "examples": [
       {
-        "title": "Illustration 1 — Statutory Ingredients Satisfied",
-        "body": "A dispute in which the claimant proves the transaction and every material ingredient of s. 1–2."
+        "title": "Illustration — Proposal becomes promise",
+        "body": "A communicates a willingness to sell specified goods to B at a stated price with the object of obtaining B’s assent. If B signifies assent in accordance with the Act, the proposal becomes a promise within section 2."
       },
       {
-        "title": "Illustration 2 — Boundary Defect / Exception",
-        "body": "One mandatory ingredient under s. 1–2 is absent or an exception applies."
+        "title": "Boundary case — Agreement is not necessarily a contract",
+        "body": "Two parties may reach an agreement, yet the arrangement may fail to be enforceable because a later statutory requirement or prohibition applies. Section 2(h) therefore requires the separate inquiry whether the agreement is enforceable by law."
       }
     ],
     "hypotheticals": [
       {
-        "question": "What consequence follows under s. 1–2?",
-        "analysis": "1. Jurisdiction.\\n2. Ingredient verification.\\n3. Evidentiary scrutiny.\\n4. Defences and rebuttal."
+        "question": "A sends B a communication expressing willingness to sell goods, but the communication is merely an invitation to negotiate. Has a proposal under section 2(a) necessarily been made?",
+        "analysis": "Identify whether the communication manifests willingness to do or abstain from doing something with a view to obtaining B’s assent. A communication that merely invites offers does not satisfy that statutory formulation merely because it concerns a possible transaction."
+      },
+      {
+        "question": "A and B agree on a transaction, but its enforcement is prohibited by a later provision of the Act. Is the arrangement necessarily a contract?",
+        "analysis": "Section 2(h) requires enforceability by law. The analysis therefore proceeds from the existence of an agreement to the later statutory rule governing enforceability; the label placed on the transaction by the parties is not decisive."
       }
     ],
     "distinctions": [
       {
-        "id": "ica-s-1-2-dist",
-        "title": "ICA ss. 1–2 — Preliminary and Interpretation vs neighbouring concept",
-        "left": "ICA ss. 1–2 — Preliminary and Interpretation",
-        "right": "Neighbouring concept",
+        "id": "ica-s-1-2-dist-1",
+        "title": "Agreement vs contract",
+        "left": "Agreement under section 2(e)",
+        "right": "Contract under section 2(h)",
         "rows": [
           {
-            "point": "Statutory Basis",
-            "left": "s. 1–2",
-            "right": "Different trigger"
+            "point": "Statutory basis",
+            "left": "Every promise and every set of promises forming consideration for each other is an agreement.",
+            "right": "An agreement enforceable by law is a contract."
           },
           {
-            "point": "Ingredients",
-            "left": "Governing statutory ingredients",
-            "right": "Different facts"
+            "point": "Legal inquiry",
+            "left": "Whether the required promises and consideration relationship exist.",
+            "right": "Whether the agreement is enforceable by law."
           },
           {
             "point": "Consequence",
-            "left": "Statutory consequence",
-            "right": "Different consequence"
+            "left": "Establishes the contractual arrangement at the definitional level.",
+            "right": "Confers the statutory status of an enforceable contract."
+          }
+        ]
+      },
+      {
+        "id": "ica-s-1-2-dist-2",
+        "title": "Proposal vs promise",
+        "left": "Proposal",
+        "right": "Promise",
+        "rows": [
+          {
+            "point": "Formation",
+            "left": "Willingness expressed with a view to obtaining assent.",
+            "right": "Arises when the person to whom the proposal is made signifies assent."
+          },
+          {
+            "point": "Statutory role",
+            "left": "Starting point for the formation sequence.",
+            "right": "Result of assent to the proposal."
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "ica-s-1-2-trap",
-        "trap": "Ignoring the exact statutory language in favour of a textbook shorthand.",
-        "correction": "Start with s. 1–2; precedent interprets but does not replace the statute."
+        "id": "ica-s-1-2-trap-1",
+        "trap": "Treating every commercial communication as a statutory proposal.",
+        "correction": "Apply the exact section 2(a) formulation and ask whether the communication was made with a view to obtaining assent."
+      },
+      {
+        "id": "ica-s-1-2-trap-2",
+        "trap": "Assuming every agreement is a contract.",
+        "correction": "Section 2(h) adds the requirement of enforceability by law."
       }
     ],
     "cases": [],
@@ -79,31 +116,32 @@
       {
         "id": "ica-s-1-2-brief",
         "draftingCategory": "brief",
-        "question": "Provide a structured Case Brief on ICA ss. 1–2 — Preliminary and Interpretation.",
-        "answer": "I. ISSUE & JURISDICTION\\nII. GOVERNING RULE\\nIII. APPLICATION\\nIV. CONCLUSION",
-        "explanation": "IRAC chamber assessment."
+        "question": "How should sections 1–2 be used when analysing a contractual dispute?",
+        "answer": "First identify the Act’s operation and any relevant saving under section 1. Then classify the transaction using the section 2 definitions—proposal, promise, consideration, agreement, reciprocal promises, void agreement and contract. Only after that apply the operative provision governing validity or enforcement.",
+        "explanation": "The definitions provide the statutory sequence for analysing later contractual rules."
       },
       {
         "id": "ica-s-1-2-submissions",
         "draftingCategory": "submissions",
-        "question": "Draft Written Submissions on ICA ss. 1–2 — Preliminary and Interpretation.",
-        "answer": "I. MATERIAL FACTS\\nII. STATUTORY SCHEME\\nIII. INGREDIENTS\\nIV. AUTHORITIES\\nV. REBUTTAL\\nVI. PRAYER",
-        "explanation": "Courtroom written-submission structure."
+        "question": "What is the central submission when the opposing party conflates agreement with contract?",
+        "answer": "Section 2 distinguishes the two concepts. An agreement is defined by the statutory promise structure; a contract is an agreement enforceable by law. The Court should therefore determine enforceability under the applicable operative provisions rather than treating assent alone as conclusive.",
+        "explanation": "The submission is confined to the statutory definitions and their sequencing."
       }
     ],
     "bareActPointers": [
-      "Indian Contract Act, 1872 — s. 1–2",
-      "Connected chapter provisions"
+      "Indian Contract Act, 1872 — section 1",
+      "Indian Contract Act, 1872 — section 2(a)–(j), including proposal, promise, consideration, agreement, reciprocal promises, void agreement and contract"
     ],
     "examTips": [
-      "Lead with the statutory trigger.",
-      "Use authority only for the proposition actually decided."
+      "Start with the exact statutory definition before applying a contractual doctrine.",
+      "Separate formation vocabulary (proposal, promise, agreement) from enforceability (contract).",
+      "Do not infer a contract merely from commercial consensus; test enforceability under the operative provisions."
     ],
     "revisionPoints": [
-      "Governing provision: s. 1–2",
-      "Mandatory ingredients and exceptions",
-      "Forum and limitation checkpoints",
-      "Verified authority and ratio"
+      "Section 1 governs title, extent, commencement and savings.",
+      "Section 2 supplies the statutory vocabulary for the Act.",
+      "Proposal + assent produces a promise within the statutory definitions.",
+      "Agreement and contract are distinct: enforceability is essential to section 2(h)."
     ],
     "relatedJudgments": [],
     "relatedTopics": [],
@@ -115,76 +153,70 @@
     "migrationNote": "Updated under the legal-content verification policy. Cross-subject evidentiary/procedural/limitation material was removed where present. Substantive propositions remain SOURCE_CHECK_REQUIRED until independently checked against the authoritative statutory text.",
     "enhancement": {
       "version": 2,
-      "status": "source_check_required",
+      "status": "substantive",
       "coverage": "subject-enhancement",
       "learningObjectives": [
-        "State the rule recorded for Ica Section 1 2.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain the operation and saving framework in section 1.",
+        "Apply the section 2 definitions in the correct formation sequence.",
+        "Distinguish proposal, promise, agreement and contract.",
+        "Use consideration and reciprocal promises as statutory concepts rather than shorthand labels.",
+        "Identify why enforceability must be tested separately from the existence of an agreement."
       ],
-      "definition": "Sections 1–2 establish the Act’s identity and the core defined terms that control the later provisions.",
-      "legalPrinciple": "Section 1 states the Act’s short title, extent, commencement and saving; section 2 supplies the interpretation rules used throughout the Act, including proposal, promise, consideration, agreement, contract, void agreement and reciprocal promises.",
+      "definition": "Sections 1–2 establish the Act’s operation and statutory vocabulary. Section 2 defines the principal formation and enforceability concepts that later provisions apply.",
+      "legalPrinciple": "The Indian Contract Act must be read through its statutory definitions: formation terminology is supplied by section 2, while the legal status of an agreement as a contract depends on enforceability by law.",
       "statutoryFramework": [
-        "Indian Contract Act, 1872 — sections 1–2"
+        "Section 1 — short title, extent, commencement and savings.",
+        "Section 2(a)–(j) — statutory definitions, including proposal, promise, consideration, agreement, reciprocal promises, void agreement and contract."
       ],
       "essentialIngredients": [
-        "Identify the Act and its temporal and territorial operation.",
-        "Apply the statutory meanings in section 2 before interpreting later provisions.",
-        "Distinguish proposal, acceptance, promise, consideration, agreement and contract.",
-        "Use the defined terms consistently with the statutory context."
+        "Identify the relevant provision and statutory term.",
+        "Apply the definition to the facts without importing an inconsistent textbook meaning.",
+        "Distinguish formation of an agreement from enforceability as a contract.",
+        "Check later operative provisions before concluding that an agreement is enforceable."
       ],
-      "detailedExplanation": "India Code rule for sections 1–2: Section 1 states the Act’s short title, extent, commencement and saving; section 2 supplies the interpretation rules used throughout the Act, including proposal, promise, consideration, agreement, contract, void agreement and reciprocal promises.\n\nDefinition: Sections 1–2 establish the Act’s identity and the core defined terms that control the later provisions.\n\nIngredients / conditions:\n1. Identify the Act and its temporal and territorial operation.\n2. Apply the statutory meanings in section 2 before interpreting later provisions.\n3. Distinguish proposal, acceptance, promise, consideration, agreement and contract.\n4. Use the defined terms consistently with the statutory context.",
+      "detailedExplanation": "Section 1 establishes the Act’s formal operation and savings. Section 2 then supplies the statutory vocabulary through which the later chapters must be read. A proposal is directed toward obtaining assent; assent converts it into a promise; promises forming the consideration for each other constitute an agreement; and only an agreement enforceable by law is a contract. Consideration is separately defined by section 2(d), while section 2(g) identifies an agreement not enforceable by law as void. The correct method is therefore sequential: classify the communication and promises, identify the agreement, and then test enforceability under the substantive provisions.",
       "examples": [
-        "A makes a proposal to B and B signifies assent; the statutory definitions determine when the proposal becomes a promise and the resulting agreement can be tested under later provisions."
+        "A communicates a willingness to sell specified goods to B at a stated price with the object of obtaining B’s assent. If B signifies assent in accordance with the Act, the proposal becomes a promise within section 2.",
+        "Two parties may reach an agreement, yet the arrangement may fail to be enforceable because a later statutory requirement or prohibition applies. Section 2(h) therefore requires the separate inquiry whether the agreement is enforceable by law."
       ],
       "problemApplication": [
-        "Apply sections 1–2: identify the precise statutory trigger, test each ingredient against the facts, consider the relevant exception or limitation, and state the statutory consequence."
+        "Identify the statutory term actually disputed.",
+        "Quote or accurately paraphrase the applicable section 2 definition.",
+        "Map each factual element to the definition.",
+        "Then apply the operative provision governing enforceability or voidness.",
+        "Conclude only on the legal consequence supported by the statutory scheme."
       ],
       "keyTakeaways": [
-        "Section 1 states the Act’s short title, extent, commencement and saving; section 2 supplies the interpretation rules used throughout the Act, including proposal, promise, consideration, agreement, contract, void agreement and reciprocal promises.",
-        "Sections 1–2 establish the Act’s identity and the core defined terms that control the later provisions."
+        "Section 1 governs title, extent, commencement and savings.",
+        "Section 2 supplies the statutory vocabulary for the Act.",
+        "Proposal + assent produces a promise within the statutory definitions.",
+        "Agreement and contract are distinct: enforceability is essential to section 2(h)."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "CodePackr Law legal verification pass",
+        "lastVerifiedAt": "2026-10-08",
+        "verifiedBy": "CodePackr Law statutory verification pass",
         "notes": [
-          "Statutory source verified against India Code record for the Indian Contract Act, 1872 (Act No. 9 of 1872).",
-          "Section 1 verified: short title, extent, commencement and saving framework.",
-          "Section 2 verified: interpretation clause and defined terms used throughout the Act, including proposal, promise, consideration, agreement, contract, void agreement and reciprocal promises.",
-          "India Code Act structure confirms sections 1–2 are operative preliminary provisions and distinguishes later repealed chapters/provisions.",
-          "No case authority is relied upon in this topic; case-law verification is therefore not applicable to the current substantive propositions.",
-          "Current-law verification is based on the authoritative India Code Act record and statutory PDF opened during this verification pass.",
-          "Verification source: https://www.indiacode.nic.in/handle/123456789/2187",
-          "Verification source PDF: https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf",
-          "Repository content was not treated as proof. Independent authoritative verification is required before this topic is labelled FINAL_VERIFIED."
+          "Sections 1–2 checked against the India Code record for the Indian Contract Act, 1872.",
+          "The enhancement relies on statutory propositions only; no unverified case authority has been added.",
+          "The distinction between agreement and contract is taken directly from section 2(e) and 2(h)."
         ],
         "status": "SOURCE_CHECK_REQUIRED"
       },
       "examAnswerStructure": {
         "shortAnswer": [
-          "Identify the relevant section.",
-          "State the exact statutory rule.",
+          "Identify the applicable definition.",
+          "State the statutory rule.",
           "Apply the facts and conclude."
         ],
-        "tenMark": [
-          "Introduction",
-          "Exact statutory rule",
-          "Definitions / ingredients",
-          "Application to facts",
-          "Exception or limitation",
-          "Conclusion"
-        ],
-        "sixteenMark": [
-          "Introduction and statutory scheme",
-          "Detailed section-by-section analysis",
-          "Ingredients and exceptions",
-          "Statutory illustration / factual application",
-          "Verified case law only if separately sourced",
-          "Counterargument and response",
-          "Conclusion"
+        "longForm": [
+          "Set out the statutory scheme.",
+          "Analyse the relevant definitions in sequence.",
+          "Distinguish agreement from enforceability.",
+          "Apply the later operative provision.",
+          "Address the principal counterargument and conclude."
         ]
       },
       "distinctions": [
@@ -199,7 +231,7 @@
   "sources": [
     "https://www.indiacode.nic.in/handle/123456789/2187"
   ],
-  "updatedAt": "2026-10-07T00:00:00.000Z",
+  "updatedAt": "2026-10-08T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
