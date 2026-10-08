@@ -46,6 +46,13 @@ After a merge:
 
 The Arbitration subject is the immediate example of this coordination problem. Multiple closed Arbitration PRs existed while substantive Arbitration enhancement commits were still landing. Therefore, no developer should restart Arbitration from the beginning. Work must continue only from the current `main` enhancement pointer and only on an unowned pending range.
 
+## COMPLETE_LOCKED subjects (do not reopen)
+
+| Subject | Lock | Meaning |
+|---------|------|--------|
+| **Torts** | COMPLETE_LOCKED | Do not reopen without a documented trigger. |
+| **Family** | COMPLETE_LOCKED (2026-10-08) | All 38 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
+
 ## Completion evidence
 
 A task may be marked complete only when:
