@@ -11,27 +11,113 @@
     "glance": "Ask: (1) Was a listed act done? (2) Without permission of owner/person in charge? (3) Computer resource nexus under s. 2? (4) Civil compensation vs s. 66 criminal?",
     "study": "s. 43 does not require criminal mens rea. s. 66 adds dishonestly or fraudulently for criminal punishment. List the specific clause of s. 43 on the facts.\n\nNo new case invented.",
     "sections": [
-      {"heading": "Civil liability", "body": "Listed acts without permission attract liability to pay damages by way of compensation to the affected person.", "order": 1},
-      {"heading": "Listed acts", "body": "Include unauthorised access, downloading/copying data, introducing virus/contaminant, causing damage/disruption, denial of access, charging services to another account, destroying/altering information, and source-code related acts — as enumerated in the section.", "order": 2},
-      {"heading": "Without permission", "body": "The act must be without permission of the owner or person in charge of the computer, system or network.", "order": 3},
-      {"heading": "vs s. 66", "body": "s. 66 criminalises doing any act under s. 43 dishonestly or fraudulently; s. 43 remains the civil compensation path.", "order": 4},
-      {"heading": "Method", "body": "Identify listed act; prove lack of permission; quantify compensation claim; consider parallel s. 66 if mens rea present.", "order": 5}
+      {
+        "heading": "Civil liability",
+        "body": "Listed acts without permission attract liability to pay damages by way of compensation to the affected person.",
+        "order": 1
+      },
+      {
+        "heading": "Listed acts",
+        "body": "Include unauthorised access, downloading/copying data, introducing virus/contaminant, causing damage/disruption, denial of access, charging services to another account, destroying/altering information, and source-code related acts — as enumerated in the section.",
+        "order": 2
+      },
+      {
+        "heading": "Without permission",
+        "body": "The act must be without permission of the owner or person in charge of the computer, system or network.",
+        "order": 3
+      },
+      {
+        "heading": "vs s. 66",
+        "body": "s. 66 criminalises doing any act under s. 43 dishonestly or fraudulently; s. 43 remains the civil compensation path.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify listed act; prove lack of permission; quantify compensation claim; consider parallel s. 66 if mens rea present.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "ita", "actName": "Information Technology Act, 2000", "provisionId": "ita-43", "section": "s. 43", "title": "Penalty and compensation for damage to computer, computer system, etc."}],
-    "examples": [{"title": "Unauthorised data copy", "body": "Employee copies confidential database without permission after exit — s. 43 civil claim for compensation; s. 66 if done dishonestly/fraudulently.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Must prosecution prove dishonesty for s. 43 compensation?", "analysis": "No. s. 43 is civil compensation for listed acts without permission; dishonesty is relevant to s. 66 criminal liability."}],
-    "distinctions": [{"id": "s43-vs-s66", "title": "s. 43 civil vs s. 66 criminal", "left": "Compensation for listed acts without permission.", "right": "Punishment when s. 43 acts are done dishonestly or fraudulently.", "rows": [{"point": "Mens rea", "left": "Not required for civil liability.", "right": "Dishonestly or fraudulently required."}]}],
-    "misconceptions": [{"id": "s43-trap-1", "trap": "s. 43 is only a criminal provision.", "correction": "s. 43 is civil compensation; criminal path is s. 66 for dishonest/fraudulent commission."}],
+    "provisions": [
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-43",
+        "section": "s. 43",
+        "title": "Penalty and compensation for damage to computer, computer system, etc."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Unauthorised data copy",
+        "body": "Employee copies confidential database without permission after exit — s. 43 civil claim for compensation; s. 66 if done dishonestly/fraudulently.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Must prosecution prove dishonesty for s. 43 compensation?",
+        "analysis": "No. s. 43 is civil compensation for listed acts without permission; dishonesty is relevant to s. 66 criminal liability."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "s43-vs-s66",
+        "title": "s. 43 civil vs s. 66 criminal",
+        "left": "Compensation for listed acts without permission.",
+        "right": "Punishment when s. 43 acts are done dishonestly or fraudulently.",
+        "rows": [
+          {
+            "point": "Mens rea",
+            "left": "Not required for civil liability.",
+            "right": "Dishonestly or fraudulently required."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "s43-trap-1",
+        "trap": "s. 43 is only a criminal provision.",
+        "correction": "s. 43 is civil compensation; criminal path is s. 66 for dishonest/fraudulent commission."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "s43-10", "draftingCategory": "10-mark", "question": "Explain Section 43 of the IT Act, 2000.", "answer": "Civil compensation; listed acts; without permission; vs s. 66.", "explanation": "10-mark."},
-      {"id": "s43-16", "draftingCategory": "16-mark", "question": "Discuss civil liability for damage to computer under Section 43 IT Act.", "answer": "I. Liability. II. Listed acts. III. Permission. IV. vs s. 66. V. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "s43-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Section 43 of the IT Act, 2000.",
+        "answer": "Civil compensation; listed acts; without permission; vs s. 66.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "s43-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss civil liability for damage to computer under Section 43 IT Act.",
+        "answer": "I. Liability. II. Listed acts. III. Permission. IV. vs s. 66. V. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["IT Act 2000 s. 43", "IT Act 2000 s. 66", "IT Act 2000 s. 2"],
-    "examTips": ["List the exact s. 43 clause.", "Separate civil and criminal."],
-    "revisionPoints": ["Civil compensation", "Without permission", "s. 66 mens rea add-on"],
+    "bareActPointers": [
+      "IT Act 2000 s. 43",
+      "IT Act 2000 s. 66",
+      "IT Act 2000 s. 2"
+    ],
+    "examTips": [
+      "List the exact s. 43 clause.",
+      "Separate civil and criminal."
+    ],
+    "revisionPoints": [
+      "Civil compensation",
+      "Without permission",
+      "s. 66 mens rea add-on"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:cyber-cyber-it-s-66", "topic:india:cyber-cyber-it-s-43a"],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-it-s-66",
+      "topic:india:cyber-cyber-it-s-43a"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "cyber",
     "legacyTopicId": "cyber-it-s-43",
@@ -40,27 +126,61 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State s. 43 civil liability", "Distinguish from s. 66"],
+      "learningObjectives": [
+        "State s. 43 civil liability",
+        "Distinguish from s. 66"
+      ],
       "definition": "IT Act s. 43 makes a person who without permission does listed acts on a computer resource liable to pay damages by way of compensation to the affected person.",
       "legalPrinciple": "Civil compensation for unauthorised computer-resource wrongs.",
       "statutoryFramework": "Information Technology Act, 2000 — Section 43.",
-      "essentialIngredients": ["Listed act", "Without permission", "Computer resource", "Affected person"],
+      "essentialIngredients": [
+        "Listed act",
+        "Without permission",
+        "Computer resource",
+        "Affected person"
+      ],
       "detailedExplanation": "Civil computer damage liability.",
-      "examples": ["Unauthorised data copy"],
+      "examples": [
+        "Unauthorised data copy"
+      ],
       "problemApplication": "Match listed act; prove no permission; claim compensation; check s. 66 if mens rea.",
-      "distinctions": ["s. 43 vs s. 66"],
+      "distinctions": [
+        "s. 43 vs s. 66"
+      ],
       "caseLawNotes": "No cases invented; verification open.",
       "tenMarkStructure": "Liability → acts → permission → vs s. 66.",
       "sixteenMarkStructure": "Liability → acts → permission → vs s. 66 → method → conclusion.",
-      "keyTakeaways": ["Civil not criminal", "s. 66 needs dishonesty/fraud"],
-      "authoritativeSources": ["IT Act 2000 s. 43"],
+      "keyTakeaways": [
+        "Civil not criminal",
+        "s. 66 needs dishonesty/fraud"
+      ],
+      "authoritativeSources": [
+        "IT Act 2000 s. 43"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Information Technology Act, 2000", "citation": "s. 43", "url": null, "notes": "Framework; no case holdings invented."}],
-  "updatedAt": "2026-10-08T08:35:00.000Z",
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Information Technology Act, 2000",
+      "citation": "s. 43",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null
 }
