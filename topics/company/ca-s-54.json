@@ -4,241 +4,72 @@
   "id": "topic:india:company-ca-s-54",
   "version": 2,
   "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 54 (Issue of sweat equity shares)",
+  "title": "Companies Act, 2013 — Section 54 (Issue of Sweat Equity Shares)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 54 permits sweat equity shares of a class already issued when its statutory conditions are met, including special-resolution approval and the applicable listed/unlisted regulatory framework.",
-    "glance": "Issue of sweat equity shares",
-    "study": "Companies Act, 2013 — Section 54. Section 54 permits sweat equity shares of a class already issued when its statutory conditions are met, including special-resolution approval and the applicable listed/unlisted regulatory framework. Apply the statutory ingredients to the facts, check exceptions and connected provisions, and state the legal consequence.",
+    "overview": "Section 54 permits a company to issue sweat equity shares of a class of shares already issued, to its directors or employees, at a discount or for consideration other than cash, for providing know-how or making available rights in the nature of intellectual property or value additions, subject to a special resolution and prescribed conditions including valuation, limits and lock-in.",
+    "glance": "Sweat equity to directors/employees for know-how/IP/value additions; special resolution; prescribed conditions; exception to the discount ban under s. 53.",
+    "study": "Notwithstanding anything contained in section 53, a company may issue sweat equity shares of a class of shares already issued if the issue is authorised by a special resolution; the resolution specifies the number of shares, current market price, consideration (if any) and the class of directors or employees to whom they are issued; not less than one year has elapsed since the date on which the company became entitled to commence business; and the sweat equity shares are issued in accordance with prescribed regulations on valuation, limits, lock-in and other conditions. ‘Sweat equity shares’ means equity shares issued at a discount or for consideration other than cash for providing know-how or making available rights in the nature of intellectual property or value additions. Current-law framing: confirm special resolution and eligibility; apply prescribed conditions; treat as exception to s. 53.",
     "sections": [
-      {
-        "heading": "Statutory Rule",
-        "body": "Section 54 permits sweat equity shares of a class already issued when its statutory conditions are met, including special-resolution approval and the applicable listed/unlisted regulatory framework.",
-        "order": 1
-      },
-      {
-        "heading": "Mandatory Ingredients and Conditions",
-        "body": "Sweat equity is of a class of shares already issued; Special resolution authorises the issue; Resolution specifies number, current market price, consideration and class/classes of directors or employees; At least one year has elapsed since commencement of business under the statutory condition; Listed company follows applicable SEBI regulations; unlisted company follows prescribed rules",
-        "order": 2
-      },
-      {
-        "heading": "Application and Exceptions",
-        "body": "Classify the transaction, identify the operative condition or exception, and apply each statutory requirement to the record.",
-        "order": 3
-      },
-      {
-        "heading": "Connected Provisions and Consequences",
-        "body": "Section 54 is a controlled exception linked to section 53; the Companies (Share Capital and Debentures) Rules and applicable SEBI framework supply additional requirements.",
-        "order": 4
-      }
+      {"heading": "Meaning", "body": "Sweat equity shares are equity shares issued at a discount or for non-cash consideration for know-how, intellectual property rights or value additions.", "order": 1},
+      {"heading": "Conditions", "body": "Special resolution specifying number, market price, consideration and class of recipients; at least one year since entitlement to commence business; compliance with prescribed regulations.", "order": 2},
+      {"heading": "Relation to s. 53", "body": "Section 54 operates notwithstanding the discount prohibition in section 53.", "order": 3}
     ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-54",
-        "section": "Section 54",
-        "title": "Issue of sweat equity shares"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-54", "section": "Section 54", "title": "Issue of sweat equity shares"}],
     "examples": [
-      {
-        "title": "Section 54 example 1",
-        "body": "A company proposes sweat equity to eligible directors/employees; the general meeting passes the required special resolution specifying the prescribed particulars and the company follows applicable rules.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Section 54 example 2",
-        "body": "For a listed company, the issue must also comply with applicable SEBI regulations.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
+      {"title": "Compliant sweat equity", "body": "After a special resolution and valuation, a company issues sweat equity to an employee for IP contributed. Section 54 is complied with; s. 53 does not void the issue.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Missing special resolution", "body": "Sweat equity is issued without a special resolution. Section 54 conditions are not met.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "How should a Section 54 problem be analysed?",
-        "analysis": "Identify the transaction; state section 54; apply each ingredient; test exceptions and connected provisions; conclude on the statutory consequence."
-      }
+      {"question": "Is sweat equity free of all capital rules?", "analysis": "No. It is a regulated exception to s. 53 and must satisfy special resolution, eligibility, valuation and prescribed conditions under s. 54."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s54-distinction",
-        "title": "Section 54 is a controlled exception linked to section 53; the Companies (Share Capital and Debentures) Rules and applicable SEBI framework supply additional requirements.",
-        "left": "Section 54 — Issue of sweat equity shares",
-        "right": "Connected provisions and adjacent share-capital rules",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Issue of sweat equity shares",
-            "right": "Different statutory trigger or consequence"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s54-trap-1",
-        "trap": "Replacing the statutory rule with a generic company-law summary.",
-        "correction": "State Section 54 and apply its actual conditions and exceptions."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s54-vs-s53", "title": "Sweat equity (s. 54) vs discount prohibition (s. 53)", "left": "Regulated exception for directors/employees for know-how/IP", "right": "General ban on discounted issues", "rows": [{"point": "Focus", "left": "Permitted route", "right": "Default prohibition"}]}],
+    "misconceptions": [{"id": "ca-s54-trap-1", "trap": "Any discounted issue to employees is automatically valid as sweat equity.", "correction": "Sweat equity requires special resolution, prescribed conditions and a qualifying purpose (know-how/IP/value additions)."}],
+    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
     "questionsAndAnswers": [
-      {
-        "id": "ca-s54-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 54 issue be argued?",
-        "answer": "I. Identify the transaction. II. State Section 54. III. Apply every ingredient and exception. IV. Address connected provisions. V. Conclude with the precise statutory consequence.",
-        "explanation": "IRAC."
-      }
+      {"id": "ca-s54-brief", "draftingCategory": "brief", "question": "How should a Section 54 problem be analysed?", "answer": "I. Identify proposed sweat equity. II. Check special resolution and statutory conditions. III. Confirm exception to s. 53. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s54-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Resolution; purpose; valuation/prescribed compliance; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 54",
-      "Connected share-capital provisions relevant to the transaction"
-    ],
-    "examTips": [
-      "Name the section and statutory trigger first.",
-      "Separate the rule from exceptions.",
-      "Apply the facts to every mandatory condition.",
-      "Do not invent case authority."
-    ],
-    "revisionPoints": [
-      "Issue of sweat equity shares",
-      "Sweat equity is of a class of shares already issued",
-      "Special resolution authorises the issue",
-      "Resolution specifies number, current market price, consideration and class/classes of directors or employees",
-      "At least one year has elapsed since commencement of business under the statutory condition",
-      "Listed company follows applicable SEBI regulations; unlisted company follows prescribed rules"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 54", "Connected: Section 53"],
+    "examTips": ["Define sweat equity.", "List special resolution and key conditions.", "Link as exception to s. 53."],
+    "revisionPoints": ["Meaning", "Conditions", "Relation to s. 53"],
+    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
+    "relatedTopics": ["company-ca-s-53"],
+    "illustrations": ["illustration:india:company-ca-s-54-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-54",
-    "migrationNote": "Substantive enhancement preserving the legacy topic ID. Case-law and final publication verification remain separate gates.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "Explain Section 54.",
-        "Identify its statutory ingredients and exceptions.",
-        "Apply the rule to a factual problem without inventing authority."
-      ],
-      "definition": "Section 54 permits sweat equity shares of a class already issued when its statutory conditions are met, including special-resolution approval and the applicable listed/unlisted regulatory framework.",
-      "legalPrinciple": "Sweat equity is an exception to the discount prohibition and is available only through the controlled statutory route in section 54 and applicable rules/regulations.",
-      "statutoryFramework": "Companies Act, 2013, Section 54; applicable rules/regulations where relevant.",
-      "essentialIngredients": [
-        "Sweat equity is of a class of shares already issued",
-        "Special resolution authorises the issue",
-        "Resolution specifies number, current market price, consideration and class/classes of directors or employees",
-        "At least one year has elapsed since commencement of business under the statutory condition",
-        "Listed company follows applicable SEBI regulations; unlisted company follows prescribed rules"
-      ],
-      "detailedExplanation": "Section 54 permits sweat equity shares of a class already issued when its statutory conditions are met, including special-resolution approval and the applicable listed/unlisted regulatory framework.",
-      "examples": [
-        "A company proposes sweat equity to eligible directors/employees; the general meeting passes the required special resolution specifying the prescribed particulars and the company follows applicable rules.",
-        "For a listed company, the issue must also comply with applicable SEBI regulations."
-      ],
-      "problemApplication": "Classify the transaction, apply Section 54, test exceptions and connected provisions, then state the consequence.",
-      "keyTakeaways": [
-        "Issue of sweat equity shares",
-        "Sweat equity is an exception to the discount prohibition and is available only through the controlled statutory route in section 54 and applicable rules/regulations."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 54"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED",
-        "note": "Statutory subject checked against current MCA/India Code material on 2026-10-08; case-law verification remains separate.",
-        "date": "2026-10-08"
-      },
-      "distinctions": [
-        "Section 54 is a controlled exception linked to section 53; the Companies (Share Capital and Debentures) Rules and applicable SEBI framework supply additional requirements."
-      ],
+      "learningObjectives": ["Define sweat equity shares.", "State the conditions for issue under s. 54.", "Explain the relationship with the s. 53 prohibition."],
+      "definition": "Section 54 permits issue of sweat equity shares to directors or employees for know-how, intellectual property or value additions, at a discount or for non-cash consideration, on prescribed conditions, notwithstanding s. 53.",
+      "legalPrinciple": "Sweat equity is a regulated capital-raising and reward mechanism that operates as a controlled exception to the discount ban.",
+      "statutoryFramework": "Companies Act, 2013, Section 54.",
+      "essentialIngredients": ["Class of shares already issued", "Special resolution with prescribed particulars", "One year since entitlement to commence business", "Prescribed valuation, limits and lock-in", "Purpose: know-how / IP / value additions"],
+      "detailedExplanation": "Section 54 balances employee/director incentivisation with capital-protection rules.",
+      "examples": ["Compliant sweat equity", "Missing special resolution"],
+      "problemApplication": "Check resolution, purpose and prescribed conditions; confirm exception to s. 53.",
+      "keyTakeaways": ["Special resolution required.", "Know-how/IP/value additions purpose.", "Exception to s. 53 discount ban."],
+      "authoritativeSources": ["Companies Act, 2013, Section 54"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Sweat equity (s. 54) vs discount prohibition (s. 53)"],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
+      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Rule; ingredients; exceptions; application; conclusion.",
-        "sixteenMark": "Introduction; statutory text; ingredients; exceptions/connected provisions; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-08T00:00:00.000Z",
+      "examAnswerStructure": {"tenMark": "Meaning; conditions; vs s. 53; conclude.", "sixteenMark": "Introduction; definition; conditions; exception to discount ban; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T09:15:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
       "sourceFingerprint": "ca-s54-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
     "caseLawGate": "verification_required"
   },
-  "sources": [
-    {
-      "type": "official-statute",
-      "name": "Ministry of Corporate Affairs — Companies Act, 2013",
-      "checkedAt": "2026-10-08"
-    }
-  ],
-  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-08T09:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-54", "sweat-equity"]
 }

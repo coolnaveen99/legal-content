@@ -4,237 +4,71 @@
   "id": "topic:india:company-ca-s-51",
   "version": 2,
   "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 51 (Payment of dividend in proportion to amount paid-up)",
+  "title": "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 51 permits a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share, subject to the Act and applicable rules.",
-    "glance": "Payment of dividend in proportion to amount paid-up",
-    "study": "Companies Act, 2013 — Section 51. Section 51 permits a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share, subject to the Act and applicable rules. Apply the statutory ingredients to the facts, check exceptions and connected provisions, and state the legal consequence.",
+    "overview": "Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others.",
+    "glance": "If articles authorise, dividends may be paid in proportion to the amount paid-up on each share where paid-up amounts differ.",
+    "study": "A company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others. The section permits proportional dividend on partly paid shares when the articles allow it. Current-law framing: check articles authorisation; compare paid-up amounts; apply proportional dividend if authorised.",
     "sections": [
-      {
-        "heading": "Statutory Rule",
-        "body": "Section 51 permits a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share, subject to the Act and applicable rules.",
-        "order": 1
-      },
-      {
-        "heading": "Mandatory Ingredients and Conditions",
-        "body": "Company is paying a dividend; Articles authorise payment in proportion to amount paid-up; Dividend is apportioned by the amount paid-up on each share",
-        "order": 2
-      },
-      {
-        "heading": "Application and Exceptions",
-        "body": "Classify the transaction, identify the operative condition or exception, and apply each statutory requirement to the record.",
-        "order": 3
-      },
-      {
-        "heading": "Connected Provisions and Consequences",
-        "body": "Section 51 permits proportionate dividend by paid-up amount; section 50 separately addresses acceptance of unpaid share capital.",
-        "order": 4
-      }
+      {"heading": "Articles Authority", "body": "Proportional dividend is available only if the articles authorise it.", "order": 1},
+      {"heading": "Proportion to Paid-Up", "body": "Where some shares have a larger amount paid up than others, dividend may be paid in proportion to the amount paid-up on each share.", "order": 2}
     ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-51",
-        "section": "Section 51",
-        "title": "Payment of dividend in proportion to amount paid-up"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-51", "section": "Section 51", "title": "Payment of dividend in proportion to amount paid-up"}],
     "examples": [
-      {
-        "title": "Section 51 example 1",
-        "body": "If the articles authorise proportional payment and two otherwise comparable shares have different amounts paid-up, the dividend may be apportioned according to the respective paid-up amounts.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Section 51 example 2",
-        "body": "If the articles contain no such authority, section 51 does not itself create that authority.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
+      {"title": "Proportional dividend", "body": "Articles authorise proportional dividend. Shares with ₹50 paid-up receive half the dividend per share of fully paid ₹100 shares. Section 51 is applied.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "No articles authority", "body": "Articles are silent. The company cannot rely on s. 51 to pay dividend only in proportion to paid-up amounts without articles authorisation.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "How should a Section 51 problem be analysed?",
-        "analysis": "Identify the transaction; state section 51; apply each ingredient; test exceptions and connected provisions; conclude on the statutory consequence."
-      }
+      {"question": "Must dividends always be proportional to paid-up capital?", "analysis": "Only if the articles authorise it under s. 51. Otherwise the company’s dividend distribution follows the articles and general dividend rules."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s51-distinction",
-        "title": "Section 51 permits proportionate dividend by paid-up amount; section 50 separately addresses acceptance of unpaid share capital.",
-        "left": "Section 51 — Payment of dividend in proportion to amount paid-up",
-        "right": "Connected provisions and adjacent share-capital rules",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Payment of dividend in proportion to amount paid-up",
-            "right": "Different statutory trigger or consequence"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s51-trap-1",
-        "trap": "Replacing the statutory rule with a generic company-law summary.",
-        "correction": "State Section 51 and apply its actual conditions and exceptions."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s51-vs-s50", "title": "Proportional dividend (s. 51) vs acceptance of unpaid capital (s. 50)", "left": "How dividend is calculated on partly paid shares", "right": "Power to accept uncalled capital in advance", "rows": [{"point": "Focus", "left": "Dividend distribution", "right": "Capital receipt"}]}],
+    "misconceptions": [{"id": "ca-s51-trap-1", "trap": "Partly paid shareholders always get reduced dividend by force of statute alone.", "correction": "Section 51 applies only if the articles authorise proportional dividend."}],
+    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
     "questionsAndAnswers": [
-      {
-        "id": "ca-s51-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 51 issue be argued?",
-        "answer": "I. Identify the transaction. II. State Section 51. III. Apply every ingredient and exception. IV. Address connected provisions. V. Conclude with the precise statutory consequence.",
-        "explanation": "IRAC."
-      }
+      {"id": "ca-s51-brief", "draftingCategory": "brief", "question": "How should a Section 51 problem be analysed?", "answer": "I. Check articles. II. Compare paid-up amounts. III. Apply proportional rule if authorised. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s51-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Articles; paid-up amounts; dividend calculation; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 51",
-      "Connected share-capital provisions relevant to the transaction"
-    ],
-    "examTips": [
-      "Name the section and statutory trigger first.",
-      "Separate the rule from exceptions.",
-      "Apply the facts to every mandatory condition.",
-      "Do not invent case authority."
-    ],
-    "revisionPoints": [
-      "Payment of dividend in proportion to amount paid-up",
-      "Company is paying a dividend",
-      "Articles authorise payment in proportion to amount paid-up",
-      "Dividend is apportioned by the amount paid-up on each share"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 51", "Connected: Sections 50, 123"],
+    "examTips": ["Articles authorisation is essential.", "Proportion is to amount paid-up, not nominal value alone."],
+    "revisionPoints": ["Articles authority", "Proportion to paid-up"],
+    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
+    "relatedTopics": ["company-ca-s-50"],
+    "illustrations": ["illustration:india:company-ca-s-51-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-51",
-    "migrationNote": "Substantive enhancement preserving the legacy topic ID. Case-law and final publication verification remain separate gates.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "Explain Section 51.",
-        "Identify its statutory ingredients and exceptions.",
-        "Apply the rule to a factual problem without inventing authority."
-      ],
-      "definition": "Section 51 permits a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share, subject to the Act and applicable rules.",
-      "legalPrinciple": "Section 51 is an enabling rule: proportional dividend by paid-up amount depends on authority in the company's articles.",
-      "statutoryFramework": "Companies Act, 2013, Section 51; applicable rules/regulations where relevant.",
-      "essentialIngredients": [
-        "Company is paying a dividend",
-        "Articles authorise payment in proportion to amount paid-up",
-        "Dividend is apportioned by the amount paid-up on each share"
-      ],
-      "detailedExplanation": "Section 51 permits a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share, subject to the Act and applicable rules.",
-      "examples": [
-        "If the articles authorise proportional payment and two otherwise comparable shares have different amounts paid-up, the dividend may be apportioned according to the respective paid-up amounts.",
-        "If the articles contain no such authority, section 51 does not itself create that authority."
-      ],
-      "problemApplication": "Classify the transaction, apply Section 51, test exceptions and connected provisions, then state the consequence.",
-      "keyTakeaways": [
-        "Payment of dividend in proportion to amount paid-up",
-        "Section 51 is an enabling rule: proportional dividend by paid-up amount depends on authority in the company's articles."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 51"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED",
-        "note": "Statutory subject checked against current MCA/India Code material on 2026-10-08; case-law verification remains separate.",
-        "date": "2026-10-08"
-      },
-      "distinctions": [
-        "Section 51 permits proportionate dividend by paid-up amount; section 50 separately addresses acceptance of unpaid share capital."
-      ],
+      "learningObjectives": ["State when proportional dividend is permitted under s. 51.", "Link the rule to articles authorisation."],
+      "definition": "Section 51 allows a company, if authorised by its articles, to pay dividends in proportion to the amount paid-up on each share where paid-up amounts differ.",
+      "legalPrinciple": "Dividend proportionality to paid-up capital is optional and articles-driven, not automatic.",
+      "statutoryFramework": "Companies Act, 2013, Section 51.",
+      "essentialIngredients": ["Articles authorise proportional dividend", "Different amounts paid up on shares", "Dividend paid in proportion to paid-up amounts"],
+      "detailedExplanation": "Section 51 is a short enabling rule for fair treatment of partly paid shares in dividend distribution.",
+      "examples": ["Proportional dividend", "No articles authority"],
+      "problemApplication": "Check articles; map paid-up amounts; apply or refuse proportional dividend.",
+      "keyTakeaways": ["Articles required.", "Proportion to paid-up, not face value alone."],
+      "authoritativeSources": ["Companies Act, 2013, Section 51"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Proportional dividend (s. 51) vs acceptance of unpaid capital (s. 50)"],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
+      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Rule; ingredients; exceptions; application; conclusion.",
-        "sixteenMark": "Introduction; statutory text; ingredients; exceptions/connected provisions; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-08T00:00:00.000Z",
+      "examAnswerStructure": {"tenMark": "Rule; articles; conclude.", "sixteenMark": "Introduction; articles; proportion; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T09:15:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
       "sourceFingerprint": "ca-s51-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
     "caseLawGate": "verification_required"
   },
-  "sources": [
-    {
-      "type": "official-statute",
-      "name": "Ministry of Corporate Affairs — Companies Act, 2013",
-      "checkedAt": "2026-10-08"
-    }
-  ],
-  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-08T09:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-51", "proportional-dividend"]
 }
