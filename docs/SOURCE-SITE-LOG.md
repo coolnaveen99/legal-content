@@ -22,6 +22,8 @@ Future enhancements must use a site listed here, or add the new site to this fil
 | Gazette notifications | https://egazette.gov.in/ | Not yet opened for a topic |
 | Public Liability Insurance Act, 1991 Gazette | https://moef.gov.in/uploads/pdf-uploads/pdf_693024ea7c3633.90180378.pdf | Absolute liability statutory interface; 1991 text only |
 
+| Current Companies Act, 2013 text | https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf | Company sections 39–41 — statutory text checked 2026-10-08 |
+
 ## Judgments
 
 Use these before any other case site. Record the URL in the topic verification note.
