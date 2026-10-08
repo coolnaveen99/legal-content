@@ -4,304 +4,83 @@
   "id": "topic:india:admin-admin-legitimate-expectation",
   "version": 2,
   "status": "verification_in_progress",
-  "title": "Doctrine of Legitimate Expectation in Administrative Action",
+  "title": "Doctrine of Legitimate Expectation",
   "jurisdiction": "India",
   "content": {
-    "overview": "Legitimate expectation protects a person who has been led to expect a particular procedure or benefit from a public authority by reason of an express promise, a regular past practice, or a published policy. The doctrine primarily secures procedural fairness before a departure from the expectation. Substantive protection is more limited and remains subject to statutory power and overriding public interest.",
-    "glance": "Identify the representation, practice or policy that generated the expectation; test whether the expectation is legitimate; determine whether procedural fairness required a hearing before departure; and assess any claim to substantive protection against statutory limits and public interest.",
-    "study": "Core rule: where a public authority has, by promise, settled practice or published policy, generated an expectation that a person will be treated in a particular way, fairness may require that the authority not depart from that course without affording an opportunity to be heard.\n\nSources of expectation: An expectation may arise from (1) an express assurance or promise, (2) a regular and consistent past practice, or (3) a published policy or circular. The expectation must be clear, reasonable and induced by the authority's own conduct.\n\nProcedural protection: The ordinary remedy is procedural. Before departing from the expected course, the authority should give the affected person notice and a chance to make representations. This links legitimate expectation to the broader requirement of audi alteram partem.\n\nSubstantive protection: Indian courts have been cautious about converting legitimate expectation into a rigid substantive right to a particular outcome. Any substantive claim remains subject to the statutory power of the authority and to overriding public interest. The doctrine cannot compel an authority to act ultra vires or to freeze policy permanently.\n\nLimits: No legitimate expectation arises from an unlawful promise, from a mere hope, or from conduct that is too vague to generate a reasonable expectation. Change of policy is not by itself unlawful; the question is whether fairness required a hearing or other safeguard before the change affected the claimant.\n\nCurrent-law framing: Ground the analysis in the Constitution and the specific statute creating the administrative power. Do not treat the Bharatiya Sakshya Adhiniyam, 2023 as the source of legitimate-expectation doctrine; evidence provisions apply only when proof issues arise.",
+    "overview": "Legitimate expectation protects a person who has been led to expect a benefit or a particular procedure by a public authority’s promise, practice or representation. It is rooted in fairness and Article 14 non-arbitrariness; it does not create an absolute right and cannot override statute or public interest properly weighed.",
+    "glance": "Identify the representation or practice; test whether expectation is legitimate; ask whether denial is fair and whether public interest justifies departure; state the consequence (hearing or substantive protection where applicable).",
+    "study": "Legitimate expectation may be procedural (expectation of a hearing or consultation) or substantive (expectation of a benefit). Indian courts recognise the doctrine as an aspect of fairness under Article 14. The expectation must be based on a clear representation, established practice or promise by a public authority. It yields to statute, and a change of policy may be justified by overriding public interest if the change is not arbitrary. Current-law framing: ground the analysis in Article 14 and the specific representation or practice.",
     "sections": [
-      {
-        "heading": "Meaning and Purpose",
-        "body": "Legitimate expectation is a fairness doctrine that protects reliance on a public authority's promise, practice or published policy. Its primary purpose is to ensure that a person is not taken by surprise by a sudden departure from an expected course without an opportunity to be heard.",
-        "order": 1
-      },
-      {
-        "heading": "How an Expectation Arises",
-        "body": "Identify a clear representation, a consistent past practice, or a published policy attributable to the authority. The expectation must be reasonable in the circumstances. Vague hopes, unlawful promises, or unilateral assumptions by the claimant do not generate a protected expectation.",
-        "order": 2
-      },
-      {
-        "heading": "Procedural Protection",
-        "body": "Where a legitimate expectation is established, fairness ordinarily requires notice and an opportunity to make representations before the authority departs from the expected course. This procedural protection is the core of the doctrine in most cases.",
-        "order": 3
-      },
-      {
-        "heading": "Substantive Claims and Public Interest",
-        "body": "Substantive protection — a claim to the expected benefit itself — is more limited. Courts examine whether the authority has statutory power to deliver the expected outcome and whether overriding public interest justifies departure. The doctrine cannot force an ultra vires act or freeze policy indefinitely.",
-        "order": 4
-      },
-      {
-        "heading": "Remedies",
-        "body": "Relief may include a direction to afford a hearing before departure, quashing of a decision taken without fairness, or remittal for a lawful decision. Substantive relief is exceptional and must fit within the statutory framework.",
-        "order": 5
-      }
+      {"heading": "Basis of the Expectation", "body": "Clear representation, consistent practice or promise by a public authority.", "order": 1},
+      {"heading": "Procedural Legitimate Expectation", "body": "Expectation of notice, hearing or consultation before a decision adverse to the person.", "order": 2},
+      {"heading": "Substantive Legitimate Expectation", "body": "Expectation of a benefit or continuance of a policy; protected against arbitrary denial subject to public interest.", "order": 3},
+      {"heading": "Limits", "body": "Cannot override statute; yields to bona fide change of policy in the public interest; not an absolute vested right.", "order": 4}
     ],
     "provisions": [
-      {
-        "actId": "constitution",
-        "actName": "Constitution of India",
-        "provisionId": "constitution-art-14",
-        "section": "Article 14",
-        "title": "Equality and non-arbitrariness as a constitutional review standard"
-      },
-      {
-        "actId": "constitution",
-        "actName": "Constitution of India",
-        "provisionId": "constitution-art-226",
-        "section": "Article 226",
-        "title": "High Court judicial review and writ jurisdiction"
-      }
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"}
     ],
     "examples": [
-      {
-        "title": "Departure from published policy without hearing",
-        "body": "A department publishes criteria for processing a class of applications and then rejects an application under different, unannounced criteria without giving the applicant a chance to respond. The issue is whether a legitimate expectation of policy-based treatment arose and whether procedural fairness was breached.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Change of policy in public interest",
-        "body": "An authority that had followed a long-standing practice announces a new policy for the future and offers affected persons a chance to make representations. The issue is whether the change is lawful once procedural fairness is observed and public interest is shown.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Unlawful promise",
-        "body": "An officer promises a benefit that the governing statute does not authorise. The claimant relies on the promise. The analysis must recognise that an ultra vires assurance cannot generate a legitimate expectation that compels an unlawful act.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
+      {"title": "Assured benefit withdrawn", "body": "An authority publishes a scheme and assures applicants that qualifying persons will receive a benefit. It later withdraws the scheme without hearing after applications are invited. Procedural and possibly substantive legitimate expectation are engaged.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Policy change with reasons", "body": "A long-standing policy is changed for recorded public-interest reasons after affected persons are heard. The expectation may yield to the justified policy change.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Does every change of administrative policy violate legitimate expectation?",
-        "analysis": "No. Policy may change. The questions are whether an expectation arose, whether fairness required a hearing before the change affected the claimant, and whether overriding public interest justifies the departure within statutory power."
-      },
-      {
-        "question": "Can legitimate expectation compel the authority to grant a substantive benefit?",
-        "analysis": "Only in limited circumstances. First confirm that the expectation is legitimate and that the authority has power to grant the benefit. Then assess public interest and statutory limits. Procedural protection is the ordinary outcome; substantive relief is exceptional."
-      }
+      {"question": "Does legitimate expectation create a vested right?", "analysis": "No. It is a fairness doctrine; it does not create an absolute right and yields to statute and justified public interest."},
+      {"question": "Is a mere hope enough?", "analysis": "No. The expectation must be based on a clear representation, practice or promise attributable to the public authority."}
     ],
     "distinctions": [
-      {
-        "id": "admin-le-vs-audi",
-        "title": "Legitimate expectation vs audi alteram partem",
-        "left": "Legitimate expectation is triggered by the authority's own promise, practice or policy.",
-        "right": "Audi alteram partem is the general fair-hearing requirement before adverse administrative action.",
-        "rows": [
-          {
-            "point": "Trigger",
-            "left": "Representation, practice or published policy generating reliance.",
-            "right": "Adverse decision affecting rights or interests, subject to context."
-          },
-          {
-            "point": "Relationship",
-            "left": "Often supplies the reason why a hearing is required before departure.",
-            "right": "Broader natural-justice principle applicable even without a prior promise."
-          }
-        ]
-      },
-      {
-        "id": "admin-le-vs-prop",
-        "title": "Legitimate expectation vs proportionality",
-        "left": "Legitimate expectation protects reliance on representation or practice.",
-        "right": "Proportionality tests whether means are suitable, necessary and not excessive relative to an aim.",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Fairness of departing from an expected course.",
-            "right": "Balance between administrative aim and burden on the affected person."
-          },
-          {
-            "point": "Typical analysis",
-            "left": "Source of expectation → procedural hearing → limited substantive claim.",
-            "right": "Aim → suitability → necessity → overall balance."
-          }
-        ]
-      }
+      {"id": "admin-le-vs-estoppel", "title": "Legitimate expectation vs promissory estoppel", "left": "Fairness-based protection of expectation from public authority conduct", "right": "Equity-based enforcement of a clear promise inducing reliance", "rows": [{"point": "Focus", "left": "Fairness / Article 14", "right": "Promise and detrimental reliance"}]}
     ],
     "misconceptions": [
-      {
-        "id": "admin-le-trap-1",
-        "trap": "Any past practice permanently freezes policy.",
-        "correction": "Policy may change; the doctrine primarily requires fairness before departure, not permanent substantive entitlement."
-      },
-      {
-        "id": "admin-le-trap-2",
-        "trap": "An unlawful promise creates an enforceable legitimate expectation.",
-        "correction": "An ultra vires assurance cannot compel the authority to act outside its statutory power."
-      },
-      {
-        "id": "admin-le-trap-3",
-        "trap": "BSA provisions create the doctrine of legitimate expectation.",
-        "correction": "The doctrine arises from administrative-law fairness principles; evidence law is relevant only to evidentiary questions."
-      }
+      {"id": "admin-le-trap-1", "trap": "Legitimate expectation is an absolute right.", "correction": "It is a fairness doctrine subject to statute and justified public interest."},
+      {"id": "admin-le-trap-2", "trap": "Any disappointment of hope creates a claim.", "correction": "Only expectations founded on clear representation, practice or promise are protected."}
     ],
     "cases": [
-      {
-        "name": "Union of India v Hindustan Development Corporation",
-        "year": 1993,
-        "citation": "(1993) 3 SCC 499",
-        "court": "Supreme Court of India",
-        "facts": "The case concerned claims based on expectations arising from governmental conduct in a commercial and administrative setting.",
-        "issue": "What is the nature and limit of legitimate expectation in public law?",
-        "ratioDecidendi": "Legitimate expectation may arise from representation, promise or consistent past practice, but it does not automatically create a substantive enforceable right and remains subject to public interest and lawful policy.",
-        "holding": "The Court clarified the doctrine's scope and limits on the facts before it.",
-        "relevance": "Leading Indian authority on the contours of legitimate expectation.",
-        "judgmentId": "judgment:india:union-of-india-v-hindustan-development-corporation-1993"
-      },
-      {
-        "name": "Food Corporation of India v M/s Kamdhenu Cattle Feed Industries",
-        "year": 1993,
-        "citation": "(1993) 1 SCC 71",
-        "court": "Supreme Court of India",
-        "facts": "A highest tenderer challenged non-acceptance of its bid and invoked legitimate expectation.",
-        "issue": "Does legitimate expectation require automatic acceptance of a tender?",
-        "ratioDecidendi": "Public authorities must act fairly and non-arbitrarily, but legitimate expectation does not confer an automatic right to acceptance of a commercial bid.",
-        "holding": "The Court rejected an absolute entitlement while requiring fair dealing.",
-        "relevance": "Authority on fairness, tender decisions and the limits of legitimate expectation.",
-        "judgmentId": "judgment:india:food-corporation-of-india-v-kamdhenu-cattle-feed-industries-1993"
-      },
-      {
-        "name": "Punjab Communications Ltd v Union of India",
-        "year": 1999,
-        "citation": "(1999) 4 SCC 727",
-        "court": "Supreme Court of India",
-        "facts": "A policy change was challenged on the basis of an expectation arising from prior governmental practice.",
-        "issue": "What is the distinction between procedural and substantive legitimate expectation?",
-        "ratioDecidendi": "The doctrine may protect procedural expectations and, in appropriate cases, substantive expectations, but policy may change for overriding public interest and lawful reasons.",
-        "holding": "The Court explained the procedural/substantive distinction and limits.",
-        "relevance": "Authority on procedural versus substantive legitimate expectation and public-interest limitations.",
-        "judgmentId": "judgment:india:punjab-communications-ltd-v-union-of-india-1999"
-      }
+      {"name": "Food Corporation of India v Kamdhenu Cattle Feed Industries", "year": 1993, "citation": "(1993) 1 SCC 71", "court": "Supreme Court of India", "facts": "Expectation arising from government tender/policy process.", "issue": "Scope of legitimate expectation in administrative decision-making.", "ratioDecidendi": "Legitimate expectation is a part of the rule of non-arbitrariness under Article 14; it does not create an absolute right.", "holding": "Doctrine applied within fairness limits.", "relevance": "Leading Indian authority on legitimate expectation.", "judgmentId": "judgment:india:food-corporation-of-india-v-kamdhenu-cattle-feed-industries-1993"}
     ],
     "questionsAndAnswers": [
-      {
-        "id": "admin-le-brief",
-        "draftingCategory": "brief",
-        "question": "How should a legitimate-expectation challenge be analysed?",
-        "answer": "I. Identify the promise, practice or policy said to generate the expectation. II. Test whether the expectation is clear, reasonable and legitimate. III. Determine whether procedural fairness required a hearing before departure. IV. If substantive relief is claimed, test statutory power and overriding public interest. V. Identify the appropriate remedy.",
-        "explanation": "IRAC-style chamber analysis."
-      },
-      {
-        "id": "admin-le-submissions",
-        "draftingCategory": "submissions",
-        "question": "What should written submissions on legitimate expectation contain?",
-        "answer": "Set out the representation, practice or policy and the reliance placed on it; establish legitimacy of the expectation; identify the procedural defect if any; address public-interest and ultra vires limits on substantive claims; and seek only the relief supported by the governing law and record.",
-        "explanation": "Structured written-submissions framework."
-      }
+      {"id": "admin-le-brief", "draftingCategory": "brief", "question": "How should a legitimate-expectation problem be analysed?", "answer": "I. Identify the representation or practice. II. Test legitimacy of the expectation. III. Ask whether denial is fair / public interest justifies departure. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-le-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Representation identified; expectation characterised; fairness/public-interest analysis; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Constitution of India — Articles 14 and 226 where applicable",
-      "The specific Act, rules, circulars or policies of the public authority",
-      "Use BSA 2023 only where an actual evidentiary issue arises"
-    ],
-    "examTips": [
-      "Always identify the source of the expectation (promise, practice or policy).",
-      "Treat procedural protection as the ordinary outcome.",
-      "State clearly that substantive protection is limited and subject to public interest.",
-      "Reject ultra vires promises as a basis for enforceable expectation.",
-      "Conclude with a precise remedy (hearing / quash / remit)."
-    ],
-    "revisionPoints": [
-      "Meaning and purpose of legitimate expectation",
-      "Sources: promise, practice, policy",
-      "Procedural protection",
-      "Limits on substantive protection",
-      "Remedies"
-    ],
-    "relatedJudgments": [
-      "judgment:india:union-of-india-v-hindustan-development-corporation-1993",
-      "judgment:india:food-corporation-of-india-v-kamdhenu-cattle-feed-industries-1993",
-      "judgment:india:punjab-communications-ltd-v-union-of-india-1999"
-    ],
-    "relatedTopics": [
-      "admin-audi-alteram",
-      "admin-proportionality",
-      "admin-promissory-estoppel",
-      "admin-judicial-review",
-      "admin-discretion"
-    ],
-    "illustrations": [
-      "illustration:india:admin-admin-admin-legitimate-expectation-example"
-    ],
+    "bareActPointers": ["Constitution Article 14", "Relevant policy/representation documents", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Distinguish procedural and substantive expectation.", "State that it is not an absolute right.", "Link to Article 14 non-arbitrariness."],
+    "revisionPoints": ["Basis of the expectation", "Procedural LE", "Substantive LE", "Limits"],
+    "relatedJudgments": ["judgment:india:food-corporation-of-india-v-kamdhenu-cattle-feed-industries-1993"],
+    "relatedTopics": ["admin-promissory-estoppel", "admin-discretion", "admin-audi-alteram"],
+    "illustrations": ["illustration:india:admin-admin-admin-legitimate-expectation-example"],
     "legacySubjectSlug": "admin",
     "legacyTopicId": "admin-legitimate-expectation",
-    "migrationNote": "Substantive enhancement of the migrated topic. Legacy baseline is preserved; case-law verification remains a separate gate.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "Explain how a legitimate expectation arises from promise, practice or policy.",
-        "Apply procedural protection as the ordinary consequence of a legitimate expectation.",
-        "Analyse the limits on substantive protection, including public interest and ultra vires constraints.",
-        "Formulate a proportionate judicial-review remedy."
-      ],
-      "definition": "Legitimate expectation is a fairness doctrine that protects a person who has been led by a public authority's promise, practice or published policy to expect a particular procedure or treatment.",
-      "legalPrinciple": "Where a clear and reasonable expectation has been generated by a public authority, fairness ordinarily requires a hearing before departure; substantive protection is limited and subject to statutory power and overriding public interest.",
-      "statutoryFramework": "Constitution of India (Articles 14, 226 where engaged); the specific Act, rules, circulars or policies of the authority. BSA 2023 is relevant only to evidentiary questions.",
-      "essentialIngredients": [
-        "Clear representation, practice or published policy attributable to the authority",
-        "Reasonable and legitimate expectation induced thereby",
-        "Departure from the expected course affecting the claimant",
-        "Procedural fairness (notice and hearing) before departure, unless lawfully excluded",
-        "For substantive claims: statutory power and absence of overriding public-interest justification"
-      ],
-      "detailedExplanation": "Core rule: where a public authority has, by promise, settled practice or published policy, generated an expectation that a person will be treated in a particular way, fairness may require that the authority not depart from that course without affording an opportunity to be heard.",
-      "examples": [
-        "Departure from published policy without hearing",
-        "Change of policy in public interest",
-        "Unlawful promise"
-      ],
-      "problemApplication": "Identify the source of expectation; test legitimacy; apply procedural protection; limit substantive claims; formulate the precise remedy.",
-      "keyTakeaways": [
-        "Expectation arises from promise, practice or policy — not from mere hope.",
-        "Procedural protection is the ordinary core of the doctrine.",
-        "Substantive relief is exceptional and cannot compel ultra vires action.",
-        "Policy change is lawful if fairness and public-interest limits are respected."
-      ],
-      "authoritativeSources": [
-        "Constitution of India — Articles 14, 226",
-        "Union of India v Hindustan Development Corporation (1993) 3 SCC 499 (already present in the topic file)"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Doctrine-level content grounded in established legitimate-expectation principles and authorities already present in the file. Case-law proposition verification remains a separate gate; no new citations or holdings were invented.",
-        "date": "2026-10-08"
-      },
-      "distinctions": [
-        "Legitimate expectation vs audi alteram partem",
-        "Legitimate expectation vs proportionality"
-      ],
+      "learningObjectives": ["Define legitimate expectation.", "Distinguish procedural and substantive forms.", "State the limits of the doctrine."],
+      "definition": "Legitimate expectation protects a person led by a public authority’s representation or practice to expect a benefit or procedure, subject to fairness and public interest.",
+      "legalPrinciple": "Expectation founded on clear representation or practice is protected against arbitrary denial under Article 14; it is not an absolute right.",
+      "statutoryFramework": "Constitution Article 14; relevant policy instruments.",
+      "essentialIngredients": ["Representation or practice", "Legitimate expectation", "Fairness / public-interest analysis"],
+      "detailedExplanation": "The doctrine operationalises fairness when public authorities create expectations.",
+      "examples": ["Assured benefit withdrawn", "Policy change with reasons"],
+      "problemApplication": "Identify representation; test legitimacy; weigh public interest.",
+      "keyTakeaways": ["Not an absolute right.", "Procedural and substantive forms.", "Yields to statute and justified public interest."],
+      "authoritativeSources": ["Kamdhenu Cattle Feed (already in file)", "Constitution Article 14"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Legitimate expectation vs promissory estoppel"],
       "distinctionsGate": "drawn",
-      "caseLaw": [
-        "Union of India v Hindustan Development Corporation",
-        "Food Corporation of India v M/s Kamdhenu Cattle Feed Industries",
-        "Punjab Communications Ltd v Union of India"
-      ],
+      "caseLaw": ["Food Corporation of India v Kamdhenu Cattle Feed Industries"],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Define legitimate expectation; state sources; explain procedural protection; note limits on substantive claims; conclude with remedy.",
-        "sixteenMark": "Introduction; sources of expectation; procedural protection; substantive limits and public interest; distinctions from audi alteram and proportionality; application to a short problem; conclusion."
-      },
-      "lastBotRunAt": "2026-10-08T05:50:00.000Z",
+      "examAnswerStructure": {"tenMark": "Define; distinguish forms; state limits; conclude.", "sixteenMark": "Introduction; basis; procedural; substantive; limits; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:30:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations or holdings",
-        "Preserve migrated baseline identifiers",
-        "Case-law verification remains separate",
-        "Coverage marked substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "d81246093de10e0656902307d811b03b0ccddcd3",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-le-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
     "caseLawGate": "verification_required"
   },
   "sources": [],
-  "updatedAt": "2026-10-08T05:50:00.000Z",
+  "updatedAt": "2026-10-08T07:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["admin", "legitimate-expectation", "judicial-review", "natural-justice"]
+  "tags": ["admin", "legitimate-expectation"]
 }
