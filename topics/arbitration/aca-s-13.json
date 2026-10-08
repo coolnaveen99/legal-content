@@ -3,38 +3,31 @@
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-13",
   "version": 2,
-  "status": "verified",
-  "title": "Arbitration and Conciliation Act s. 13 — Statutory provision (ACA s. 13)",
+  "status": "substantive",
+  "title": "ACA s. 13 — Challenge procedure",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
-    "glance": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
-    "study": "Section 13 — Challenge procedure\n\nThe parties are free to agree on a procedure for challenging an arbitrator, subject to the statutory framework. A party intending to challenge must send a written statement of the reasons for the challenge within the statutory period after becoming aware of the constitution of the tribunal or the circumstance forming the ground.\n\nUnless the challenged arbitrator withdraws or the other party agrees to the challenge, the arbitral tribunal decides the challenge. If the challenge is unsuccessful, the tribunal continues the proceedings and makes the award. The statutory scheme then preserves the challenge as a ground in the later setting-aside framework rather than creating an ordinary immediate appeal against the tribunal's rejection.",
+    "overview": "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal.",
+    "glance": "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal.",
+    "study": "Module 1: Written challenge\nA party intending to challenge must send a written statement of reasons within the statutory period after becoming aware of the relevant circumstance.\n\nModule 2: First-instance decision\nUnless the challenged arbitrator withdraws or the other party agrees, the arbitral tribunal determines the challenge.\n\nModule 3: Advocacy\nA proper challenge identifies the statutory ground, establishes timeliness and distinguishes independence concerns from dissatisfaction with procedural rulings.",
     "sections": [
       {
-        "heading": "Agreed challenge procedure",
-        "body": "The parties are free to agree on a procedure for challenging an arbitrator, subject to the statutory framework. A party intending to challenge must send a written statement of the reasons for the challenge within the statutory period after becoming aware of the constitution of the tribunal or the circumstance forming the ground.",
+        "id": "aca-s-13-module-1",
+        "heading": "Written challenge",
+        "body": "A party intending to challenge must send a written statement of reasons within the statutory period after becoming aware of the relevant circumstance.",
         "order": 1
       },
       {
-        "heading": "Written challenge and statutory time",
-        "body": "Unless the challenged arbitrator withdraws or the other party agrees to the challenge, the arbitral tribunal decides the challenge. If the challenge is unsuccessful, the tribunal continues the proceedings and makes the award. The statutory scheme then preserves the challenge as a ground in the later setting-aside framework rather than creating an ordinary immediate appeal against the tribunal's rejection.",
+        "id": "aca-s-13-module-2",
+        "heading": "First-instance decision",
+        "body": "Unless the challenged arbitrator withdraws or the other party agrees, the arbitral tribunal determines the challenge.",
         "order": 2
       },
       {
-        "heading": "Decision by the tribunal",
-        "body": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
+        "id": "aca-s-13-module-3",
+        "heading": "Advocacy",
+        "body": "A proper challenge identifies the statutory ground, establishes timeliness and distinguishes independence concerns from dissatisfaction with procedural rulings.",
         "order": 3
-      },
-      {
-        "heading": "Effect of an unsuccessful challenge",
-        "body": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
-        "order": 4
-      },
-      {
-        "heading": "Interaction with section 34",
-        "body": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
-        "order": 5
       }
     ],
     "provisions": [
@@ -42,55 +35,46 @@
         "actId": "aca",
         "actName": "Arbitration and Conciliation Act, 1996",
         "provisionId": "aca-s-13",
-        "title": "Challenge procedure",
-        "section": "s. 13"
+        "section": "s. 13",
+        "title": "Challenge procedure"
       }
     ],
     "examples": [
       {
-        "title": "Application 1",
-        "body": "A party learns of a relevant relationship after appointment and submits a written challenge within the statutory period; the tribunal applies section 13 unless the challenged arbitrator withdraws or the other party agrees."
+        "title": "Rule applies",
+        "body": "A party promptly discovers a relevant circumstance and serves a written challenge within the statutory period."
       },
       {
-        "title": "Application 2",
-        "body": "An unsuccessful challenge does not by itself terminate the arbitration; the Act specifies the subsequent procedural consequence."
+        "title": "Rule fails or changes",
+        "body": "A party complains about an adverse procedural order without establishing a statutory challenge ground."
       }
     ],
     "hypotheticals": [
       {
-        "question": "A challenge is filed outside the statutory period without an applicable basis for extension. Counsel must address section 13's timing requirement before merits.",
-        "analysis": "Identify the statutory condition, apply it to the proved record, address the strongest contrary argument, and state the precise consequence under the Act."
-      },
-      {
-        "question": "The challenged arbitrator does not withdraw and the opposing party does not agree; the tribunal determines the challenge.",
-        "analysis": "Identify the statutory condition, apply it to the proved record, address the strongest contrary argument, and state the precise consequence under the Act."
+        "question": "How does section 13 differ from section 12?",
+        "analysis": "Section 12 supplies the substantive disclosure/challenge framework; section 13 supplies the procedural route."
       }
     ],
     "distinctions": [
       {
-        "id": "aca-s-13-dist-1",
-        "title": "Challenge",
-        "left": "Section 13 provides the procedural mechanism.",
-        "right": "Ineligibility",
+        "id": "aca-s-13-dist",
+        "title": "Challenge ground and procedure",
+        "left": "Section 12",
+        "right": "Section 13",
         "rows": [
           {
-            "point": "Statutory function",
-            "left": "Section 13 provides the procedural mechanism.",
-            "right": "Ineligibility"
+            "point": "Legal function",
+            "left": "Section 12 supplies the substantive framework.",
+            "right": "Section 13 supplies the procedure."
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "aca-s-13-trap-1",
-        "trap": "Treating section 13 as a generic arbitration rule rather than a specific statutory provision.",
-        "correction": "Apply the text and conditions of section 13 and its connected provisions; do not import unrelated doctrine."
-      },
-      {
-        "id": "aca-s-13-trap-2",
-        "trap": "Assuming party autonomy overrides mandatory statutory requirements.",
-        "correction": "Party autonomy operates subject to the mandatory provisions and limits of the Arbitration and Conciliation Act, 1996."
+        "id": "aca-s-13-misconception",
+        "trap": "Treating section 13 as an automatic substitute for the surrounding statutory framework.",
+        "correction": "Apply section 13 with its express conditions and neighbouring provisions."
       }
     ],
     "cases": [],
@@ -98,125 +82,84 @@
       {
         "id": "aca-s-13-brief",
         "draftingCategory": "brief",
-        "question": "What is the controlling rule in section 13?",
-        "answer": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
-        "explanation": "Statutory analysis should begin with the text, identify each operative condition, and then apply the proved facts."
+        "question": "What is the operative rule under section 13?",
+        "answer": "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal.",
+        "explanation": "Identify trigger, conditions, consequence and limitations."
       },
       {
         "id": "aca-s-13-submissions",
         "draftingCategory": "submissions",
-        "question": "How should counsel argue section 13?",
-        "answer": "Set out the statutory text and procedural context, identify the operative conditions, apply each condition to the record, answer the opposing construction, and seek only the consequence authorised by the Act.",
-        "explanation": "Senior-counsel structure anchored to the statute."
+        "question": "How should section 13 be argued?",
+        "answer": "Identify the statutory trigger, prove or contest each condition, address the opposing construction and seek only the statutory consequence.",
+        "explanation": "Topic-specific chamber structure."
       }
     ],
     "bareActPointers": [
       "Arbitration and Conciliation Act, 1996 — section 13"
     ],
     "examTips": [
-      "Start with the statutory text.",
-      "Separate mandatory conditions from discretionary procedural choices.",
-      "Apply the provision to the actual record rather than a generic arbitration fact pattern.",
-      "Distinguish the section from its nearest connected provision."
+      "Start with the statutory trigger in section 13.",
+      "Separate procedure from merits.",
+      "State the precise statutory consequence."
     ],
     "revisionPoints": [
-      "Section 13: Challenge procedure",
-      "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed."
+      "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal.",
+      "Section 13 must be read with its neighbouring provisions."
     ],
     "relatedJudgments": [],
-    "relatedTopics": [
-      "aca-s-12",
-      "aca-s-14"
-    ],
-    "illustrations": [
-      "illustration:india:arbitration-arbitration-aca-s-13-example"
-    ],
+    "relatedTopics": [],
+    "illustrations": [],
     "legacySubjectSlug": "arbitration",
     "legacyTopicId": "aca-s-13",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "E-03 substantive enhancement pass.",
     "enhancement": {
       "version": "2",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "State and apply section 13.",
-        "Identify its mandatory conditions and procedural consequences.",
-        "Distinguish the provision from adjacent sections."
+        "Explain section 13.",
+        "Apply section 13 to a procedural problem."
       ],
       "definition": "Challenge procedure",
-      "legalPrinciple": "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed.",
+      "legalPrinciple": "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal.",
       "statutoryFramework": [
-        "Arbitration and Conciliation Act, 1996, section 13."
+        "Arbitration and Conciliation Act, 1996 — section 13."
       ],
       "essentialIngredients": [
-        "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed."
+        "Identify the statutory trigger.",
+        "Test each express condition.",
+        "Apply the consequence."
       ],
-      "detailedExplanation": "Section 13 — Challenge procedure\n\nThe parties are free to agree on a procedure for challenging an arbitrator, subject to the statutory framework. A party intending to challenge must send a written statement of the reasons for the challenge within the statutory period after becoming aware of the constitution of the tribunal or the circumstance forming the ground.\n\nUnless the challenged arbitrator withdraws or the other party agrees to the challenge, the arbitral tribunal decides the challenge. If the challenge is unsuccessful, the tribunal continues the proceedings and makes the award. The statutory scheme then preserves the challenge as a ground in the later setting-aside framework rather than creating an ordinary immediate appeal against the tribunal's rejection.",
+      "detailedExplanation": "A party intending to challenge must send a written statement of reasons within the statutory period after becoming aware of the relevant circumstance.\n\nUnless the challenged arbitrator withdraws or the other party agrees, the arbitral tribunal determines the challenge.\n\nA proper challenge identifies the statutory ground, establishes timeliness and distinguishes independence concerns from dissatisfaction with procedural rulings.",
       "examples": [
-        "A party learns of a relevant relationship after appointment and submits a written challenge within the statutory period; the tribunal applies section 13 unless the challenged arbitrator withdraws or the other party agrees.",
-        "An unsuccessful challenge does not by itself terminate the arbitration; the Act specifies the subsequent procedural consequence."
+        "A party promptly discovers a relevant circumstance and serves a written challenge within the statutory period.",
+        "A party complains about an adverse procedural order without establishing a statutory challenge ground."
       ],
       "problemApplication": [
-        "A challenge is filed outside the statutory period without an applicable basis for extension. Counsel must address section 13's timing requirement before merits.",
-        "The challenged arbitrator does not withdraw and the opposing party does not agree; the tribunal determines the challenge."
+        "Section 12 supplies the substantive disclosure/challenge framework; section 13 supplies the procedural route."
       ],
       "keyTakeaways": [
-        "Section 13: Challenge procedure",
-        "Section 13 establishes the procedural route for challenging an arbitrator on grounds agreed by the parties or on grounds falling within section 12. It preserves the arbitral process by requiring the challenge to be made before the tribunal in the manner and time prescribed."
+        "Section 13 provides the procedural route for challenging an arbitrator after appointment, including written reasons, statutory timing and first-instance determination by the tribunal."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 13 substantively remediated from the current statutory scheme.",
-          "No unverified migrated case law retained."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
       "caseLaw": [],
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-13-dist-1",
-          "title": "Challenge",
-          "left": "Section 13 provides the procedural mechanism.",
-          "right": "Ineligibility",
-          "rows": [
-            {
-              "point": "Statutory function",
-              "left": "Section 13 provides the procedural mechanism.",
-              "right": "Ineligibility"
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State section 13.",
-          "Identify the operative conditions.",
-          "Apply them to the record.",
-          "State the statutory consequence."
-        ],
-        "longForm": [
-          "Set out section 13.",
-          "Analyse the connected provisions.",
-          "Apply the facts and evidence.",
-          "Address the strongest contrary argument.",
-          "Formulate the precise relief or consequence."
-        ]
-      },
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not import unrelated case law"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    },
-    "status": "verified",
-    "updatedAt": "2026-10-08T00:00:00.000Z"
+    }
   },
   "sources": [
     {
@@ -225,11 +168,9 @@
     }
   ],
   "updatedAt": "2026-10-08T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
   "tags": [
-    "legacy-migration",
-    "review-required",
-    "arbitration"
+    "arbitration",
+    "E-03",
+    "substantive-enhancement"
   ]
 }
