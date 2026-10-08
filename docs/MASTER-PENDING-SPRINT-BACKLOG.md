@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-08  
 **Applies to:** `coolnaveen99/codepackr-law` + `coolnaveen99/legal-content`  
-**Execution rule:** one backlog item at a time; direct commit to `main`; validate before marking complete.
+**Execution rule:** one backlog item at a time; use a feature/fix/chore branch and PR for normal contributor work; direct commits to `main` are owner-only emergency hotfixes or explicitly authorized repository-maintenance actions; validate before marking complete.
 
 **Section-level control standard:** `docs/SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST.md` is the mandatory checklist for every section/article/rule/topic. A subject cannot be considered complete from a partial working set.
 
@@ -19,7 +19,7 @@
 - [ ] **RULE-009 — AI-generated content is never authoritative by itself.**
 - [ ] **RULE-010 — AI provider implementation is the final product phase.**
 - [ ] **RULE-011 — Do not reopen closed Phases 0–32, PR-001–010 or UI-RD-01–10 unless new evidence identifies a regression.**
-- [ ] **RULE-012 — Direct commits to `main` are the normal execution path for this backlog.**
+- [ ] **RULE-012 — Normal contributor changes use a branch + PR; direct `main` commits are restricted to the owner for documented emergency hotfixes or explicitly authorized repository-maintenance actions.**
 
 ## 2. Sprint 0 — Control-board and repository hygiene
 
