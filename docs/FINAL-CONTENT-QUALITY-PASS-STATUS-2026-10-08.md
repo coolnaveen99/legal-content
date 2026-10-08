@@ -9,8 +9,8 @@ This evidence review confirms that the deterministic QUAL framework is implement
 ## Current evidence
 
 - Canonical topic records with enhancement objects: **3,652**
-- Substantive enhancements: **1,584**
-- Scaffold enhancements: **2,064**
+- Substantive enhancements: **1,585**
+- Scaffold enhancements: **2,063**
 - Missing enhancement objects: **0**
 - Baseline topics compared: **3,648**
 - Baseline shortened/removed: **0**
@@ -18,7 +18,7 @@ This evidence review confirms that the deterministic QUAL framework is implement
 - Fresh judgment acquisition: **blocked until this quality pass closes**.
 - AI/provider work: **blocked until non-AI quality/legal gates close**.
 
-> Note: 1,583 + 2,065 = 3,648, which matches the baseline-comparison population. The 3,652 figure is the current canonical topic/enhancement-object population and should not be treated as a mutually-exclusive partition without reconciliation.
+> Note: the substantive/scaffold counts above reconcile to the current 3,648 baseline-comparison population. The 3,652 figure is the current canonical topic/enhancement-object population and should not be treated as a mutually-exclusive partition without reconciliation.
 
 ## QUAL gate disposition
 
@@ -38,7 +38,7 @@ This evidence review confirms that the deterministic QUAL framework is implement
 
 ## Principal remediation queue
 
-The authoritative ENH-006 subject report identifies the largest scaffold populations as:
+The authoritative ENH-006 subject report identifies the largest remaining scaffold populations as:
 
 - Company — 561
 - Labour — 523
@@ -47,35 +47,52 @@ The authoritative ENH-006 subject report identifies the largest scaffold populat
 - Ethics — 80
 - IPR — 63
 - Taxation — 51
+- Cyber — 53
 - Land — 44
-- Admin — 42
+- Admin — **41**
+- Family — 38
 - Environment — 31
 - PIL — 23
 - Fundamental Rights — 12
 - Petition Formats — 8
-- Cyber — 53
-- Family — 38
-- TPA — 6
 - Contract — 60
+- TPA — 6
 
 BNS, BNSS, BSA and Constitution have substantial enhancement coverage but still require the same final quality standard for every applicable topic. No yield classification is used to reduce that standard.
 
-## Important quality finding
+## Remediation completed — 2026-10-08
 
-Representative Admin scaffold records still contain the exact patterns that the QUAL pass is designed to reject, including:
+### Admin — Constitutional Protection to Civil Servants — Article 311
 
-- `coverage: assembled-from-migrated`
-- generic treatise wording repeated across topics;
-- examples based on “recorded ingredients” rather than the actual legal rule;
-- generic distinction placeholders;
-- `examAnswerStructure: Not yet structured. No answer outline invented.`;
-- empty `relatedTopics` / `relatedJudgments` on topics where relationships are useful.
+- Topic file: `topics/admin/admin-civil-services.json`
+- Remediation commit: `336e0a15209d39ab32e8c0450c32efb2e430a283`
+- Replaced generic Administrative Law scaffold with Article 311-specific constitutional analysis.
+- Added protected-class test, Article 311(1) authority test, Article 311(2) inquiry/opportunity test, and separate second-proviso clauses (a), (b), and (c).
+- Added topic-specific hypotheticals, distinctions, problem application, learning objectives, key takeaways, and 10/16-mark answer structures.
+- Preserved the separate case-law verification gate; no unverified authority was promoted to verified.
 
-Therefore **QUAL-001/002/004/005/006/007/008/009 cannot honestly be marked PASS yet**.
+### Admin — Administrative Adjudication — Procedure and Natural Justice
 
-## Legal-source boundary
+- Topic file: `topics/admin/admin-adjudication.json`
+- Remediation commit: `41bb70dc9eb3b4a311ce8f399e5361a865b4d562`
+- Replaced the migrated scaffold with a substantive doctrine-specific treatment covering source of adjudicatory power, jurisdiction, natural justice, impartiality, judicial-review grounds, remedies and exam application.
+- Added rule-specific hypotheticals, distinctions, problem reasoning, learning objectives and 10/16-mark answer structures.
+- Case-law verification remains separate.
 
-The remediation must remain separate from legal verification. Current authoritative sources confirm, for example, that Article 311 contains specific constitutional protections concerning dismissal, removal and reduction in rank of qualifying civil servants, while Supreme Court materials continue to treat natural justice and fair hearing as context-dependent administrative-law requirements. Remediation must therefore replace generic scaffolding with provision/doctrine-specific content, not merely longer prose.
+### Admin — Principles of Natural Justice — Audi Alteram Partem
+
+- Topic file: `topics/admin/admin-audi-alteram.json`
+- Remediation commit: `65f2435e30127b72797b57ef7adbc31e6f3e6f3e`
+- Replaced the migrated scaffold with a substantive fair-hearing treatment covering notice, disclosure, meaningful opportunity, consideration, recognised exceptions, urgency/post-decisional safeguards and judicial-review relief.
+- Added topic-specific hypotheticals, distinctions against bias/reasoned orders, problem application, learning objectives, current-law framing, supported relationships and 10/16-mark answer structures.
+- Corrected the prior placeholder exam structure and removed generic scaffold language from the enhancement object.
+- Case-law verification remains separate and is explicitly marked `verification_required`; no unverified authority was promoted to a verified source.
+
+**QUAL impact:** third Admin scaffold remediation completed. The authoritative ledger is updated to 1,585 substantive / 2,063 scaffold. QUAL-001 through QUAL-010 remain open corpus-wide until the remaining queue and validators are complete.
+
+## Important quality boundary
+
+The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual topics have been improved.
 
 ## Closure requirements
 
@@ -94,29 +111,3 @@ The Final Content Quality Pass may be closed only after:
 ## Next execution boundary
 
 Continue with the canonical enhancement queue, subject by subject, beginning with the remaining Admin scaffold population and then the next subjects in the authoritative execution order. Do not reopen Torts.
-
-## Remediation completed — 2026-10-08
-
-### Admin — Constitutional Protection to Civil Servants — Article 311
-
-- Topic file: `topics/admin/admin-civil-services.json`
-- Remediation commit: `336e0a15209d39ab32e8c0450c32efb2e430a283`
-- Replaced generic Administrative Law scaffold with Article 311-specific constitutional analysis.
-- Added protected-class test, Article 311(1) authority test, Article 311(2) inquiry/opportunity test, and separate second-proviso clauses (a), (b), and (c).
-- Added topic-specific hypotheticals, distinctions, problem application, learning objectives, key takeaways, and 10/16-mark answer structures.
-- Preserved the separate case-law verification gate; no unverified authority was promoted to verified.
-- Source boundary checked against India Code and Supreme Court material on Article 311/natural justice.
-
-**QUAL impact:** one substantive scaffold remediation completed. QUAL-001, QUAL-002, QUAL-004, QUAL-005, QUAL-006, QUAL-007 and QUAL-008 have evidence of progress, but remain OPEN corpus-wide until the applicable queue is remediated and the final validators pass.
-
-
-### Admin — Administrative Adjudication — Procedure and Natural Justice
-
-- Topic file: `topics/admin/admin-adjudication.json`
-- Remediation commit: `41bb70dc9eb3b4a311ce8f399e5361a865b4d562`
-- Replaced the migrated scaffold with a substantive doctrine-specific treatment covering source of adjudicatory power, jurisdiction, natural justice, impartiality, judicial-review grounds, remedies and exam application.
-- Added rule-specific hypotheticals, distinctions, problem reasoning, learning objectives and 10/16-mark answer structures.
-- Removed the prior placeholder exam structure and generic enhancement language from the enhancement object.
-- Case-law verification remains separate; no unverified case ratio was promoted.
-
-**QUAL impact:** second Admin scaffold remediation completed. Corpus remediation remains open; the authoritative enhancement ledger must be regenerated by `npm run report:enhancements` before the repository-wide counts are treated as CI evidence.
