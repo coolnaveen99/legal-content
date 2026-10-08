@@ -91,6 +91,6 @@ docs/ENH-006-QUALITY-REPORT.md and docs/ENH-009-SUBJECT-PROGRESS.md remain histo
 
 ## Current execution pointer
 
-**ACTIVE: E-03 Arbitration — 24/132 topics substantively enhanced in E-03A/E-03B/E-03C (s-7, s-8, s-9, s-10, s-11, s-12, s-13, s-14, s-15, s-16, s-17, s-18, s-19, s-20, s-21, s-22, s-23, s-24, s-25, s-27, s-28, s-29, s-30, s-31). Remaining Arbitration scope: 108 topics. All 132 remain subject to the same final legal-completeness standard; execution priority does not change depth.**
+**ACTIVE: E-03 Arbitration — 119/132 topics substantively enhanced through E-03C/E-03D (ACA ss.1–87 plus inserted current provisions and the completed ADR/arbitration research topics in the active queue). Remaining Arbitration scope: 13 topics. All 132 remain subject to the same final legal-completeness standard; execution priority does not change depth.**
 
 Do not reopen Contract, Constitution, HMA, Limitation, Registration, SRA or Torts without a documented reopening trigger. Do not restart Admin as a bulk enhancement subject. Fresh judgment acquisition remains deferred until the Final Content Quality Pass. AI/provider remains last.
