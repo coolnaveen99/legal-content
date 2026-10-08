@@ -32,7 +32,10 @@ The enhancement uses the Information Technology Act, 2000 as the statutory sourc
 This audit closes the **substantive enhancement/remediation phase** of Cyber Law. It does not claim legal verification or publication. Those remain separate gates and require authoritative source/case-law verification.
 
 ## Main head after remediation
-`a1a1f7ea05ccb7c9281db282c192211837fbe1e7`
+`3ceb899cf1fdb040033d3e2ebe5b6e04362c0186`
+
+## Validation note
+The repository-wide `validate-content` / `Validate legal content` workflows currently fail on pre-existing non-Cyber catalog errors (757 enhancement-metadata/schema errors across other subjects, including invalid legacy statuses and missing enhancement fields). The latest failed run reported **0 Cyber-specific ERROR lines**. Cyber therefore has no identified validator error in that run, but the repository-wide gate remains red until unrelated legacy/catalog issues are repaired.
 
 ## Result
-Cyber Law substantive enhancement is complete and should be treated as COMPLETE_LOCKED for scaffold/remediation work unless a documented reopening trigger exists.
+Cyber Law substantive enhancement is complete and should be treated as COMPLETE_LOCKED for scaffold/remediation work unless a documented reopening trigger exists. Legal verification/publication remains separate.
