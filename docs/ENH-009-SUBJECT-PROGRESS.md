@@ -11,9 +11,9 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | bns | 368 | 359 | 0 | 98 | PARTIAL |
 | bnss | 539 | 531 | 0 | 99 | PARTIAL |
 | bsa | 177 | 170 | 0 | 96 | PARTIAL |
-| company | 561 | 0 | 0 | 0 | SCAFFOLD |
+| company | 561 | 0 | 0 | 0 | SCAFFOLD (active E-04 on main) |
 | constitution | 522 | 522 | 0 | 100 | SUBSTANTIVE |
-| contract | 60 | 0 | 0 | 0 | SCAFFOLD |
+| contract | 60 | 0 | 0 | 0 | SCAFFOLD (active verify commits) |
 | cpc | 249 | 0 | 0 | 0 | SCAFFOLD |
 | cyber | 53 | 0 | 0 | 0 | SCAFFOLD |
 | dpsp | 3 | 0 | 0 | 0 | SCAFFOLD |
@@ -33,9 +33,11 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | sra | 6 | 6 | 0 | 100 | SUBSTANTIVE |
 | taxation | 51 | 0 | 0 | 0 | SCAFFOLD |
 | torts | 42 | 16 | 3 | 38 | PARTIAL |
-| tpa | 6 | 0 | 0 | 0 | SCAFFOLD |
+| tpa | 6 | 6 | 0 | 100 | **ENHANCEMENT COMPLETE / VERIFICATION OPEN** |
 
 
 > **Admin reconciliation — 2026-10-08:** Current `main` was reconciled against the live 44-topic Admin inventory. Enhancement coverage is 44/44 substantive-topic-specific. This does not promote verification or publication; the subject remains open for legal/publication gates. Evidence: `docs/ADMIN-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Family COMPLETE_LOCKED — 2026-10-08:** All 38 Family topics on `main` remediated to `substantive-topic-specific-v1` / `verification_in_progress`. QUAL scaffold remediation for Family is complete. **Do not reopen Family for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain separate open gates (not promoted to verified/published). Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **TPA — 2026-10-08:** All 6 TPA topics (ss. 5, 53A, 54, 58, 105, 107) remediated to `substantive-topic-specific-v1` on `main`. Unowned range; no open PR; no 2026-10-08 prior commits on path. Case-law verification remains open. No new citations invented.
