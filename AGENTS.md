@@ -42,9 +42,13 @@ After a merge:
 - compare the proposed work against current `main` before making changes;
 - never restore an older snapshot over enhanced canonical content.
 
-## Arbitration incident rule
+## Current-state rule
 
-The Arbitration subject is the immediate example of this coordination problem. Multiple closed Arbitration PRs existed while substantive Arbitration enhancement commits were still landing. Therefore, no developer should restart Arbitration from the beginning. Work must continue only from the current `main` enhancement pointer and only on an unowned pending range.
+Historical subject incidents are **not current assignments**. Reconcile the latest `main` quality-status/control documents, pending enhancement queue, recent commits, and open/recent PRs before selecting work.
+
+If a subject/range is complete or `COMPLETE_LOCKED`, skip it unless a documented reopening trigger exists. If it is pending, claim only an explicitly unowned exact range.
+
+**Arbitration is not a special exception:** the recent Arbitration PR history is preserved as evidence of the coordination problem, but it must not be used to restart or prioritize Arbitration. Current `main` evidence controls.
 
 ## Completion evidence
 
