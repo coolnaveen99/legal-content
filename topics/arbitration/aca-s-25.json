@@ -2,28 +2,31 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-25",
-  "version": 1,
-  "status": "verified",
-  "title": "Arbitration and Conciliation Act s. 25 — Statutory provision (ACA s. 25)",
+  "version": 2,
+  "status": "substantive",
+  "title": "ACA s. 25 — Default of a party",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-    "glance": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-    "study": "Section 25 — Default of a party\n\nSection 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.\n\nApply the provision by identifying its operative conditions, procedural stage, connected statutory provisions and precise consequence.",
+    "overview": "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence.",
+    "glance": "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence.",
+    "study": "Module 1: Claimant default\nFailure by the claimant to communicate the statement of claim without sufficient cause permits the tribunal to terminate proceedings as provided by section 25.\n\nModule 2: Respondent default\nFailure by the respondent to communicate a defence does not by itself amount to an admission; the tribunal may continue without treating the omission as an admission of allegations.\n\nModule 3: Hearing/evidence default\nFailure to appear or produce evidence can permit the tribunal to continue and make the award on the material before it, subject to the Act and procedural fairness.",
     "sections": [
       {
-        "heading": "Statutory rule",
-        "body": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
+        "id": "aca-s-25-module-1",
+        "heading": "Claimant default",
+        "body": "Failure by the claimant to communicate the statement of claim without sufficient cause permits the tribunal to terminate proceedings as provided by section 25.",
         "order": 1
       },
       {
-        "heading": "Operative analysis",
-        "body": "Identify each condition in section 25, then apply it to the proved record and address the strongest contrary construction.",
+        "id": "aca-s-25-module-2",
+        "heading": "Respondent default",
+        "body": "Failure by the respondent to communicate a defence does not by itself amount to an admission; the tribunal may continue without treating the omission as an admission of allegations.",
         "order": 2
       },
       {
-        "heading": "Connected provisions",
-        "body": "Read section 25 with its immediately relevant provisions of the Arbitration and Conciliation Act, 1996 and keep separate the functions assigned to each section.",
+        "id": "aca-s-25-module-3",
+        "heading": "Hearing/evidence default",
+        "body": "Failure to appear or produce evidence can permit the tribunal to continue and make the award on the material before it, subject to the Act and procedural fairness.",
         "order": 3
       }
     ],
@@ -32,51 +35,46 @@
         "actId": "aca",
         "actName": "Arbitration and Conciliation Act, 1996",
         "provisionId": "aca-s-25",
-        "title": "Default of a party",
-        "section": "s. 25"
+        "section": "s. 25",
+        "title": "Default of a party"
       }
     ],
     "examples": [
       {
-        "title": "Direct application",
-        "body": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it."
+        "title": "Rule applies",
+        "body": "A respondent fails to file a defence; the tribunal may continue but cannot treat silence as an automatic admission."
       },
       {
-        "title": "Boundary analysis",
-        "body": "A party cannot obtain a result merely by naming section 25; the statutory conditions and procedural safeguards must be satisfied on the record."
+        "title": "Rule fails or changes",
+        "body": "A claimant fails to communicate the statement of claim without sufficient cause; the statutory consequence may be termination under section 25(a)."
       }
     ],
     "hypotheticals": [
       {
-        "question": "How should section 25 be applied?",
-        "analysis": "State the statutory rule, identify every operative condition, apply each to the facts, answer the principal objection, and state only the consequence authorised by the Act."
+        "question": "Does failure to file a defence equal admission?",
+        "analysis": "No. Section 25(b) expressly prevents the tribunal from treating the failure as an admission of the claimant's allegations."
       }
     ],
     "distinctions": [
       {
-        "id": "aca-s-25-dist-1",
-        "title": "Section 25 and adjacent provisions",
-        "left": "Section 25: Default of a party",
-        "right": "Connected statutory provision",
+        "id": "aca-s-25-dist",
+        "title": "Claimant and respondent default",
+        "left": "Failure by claimant",
+        "right": "Failure by respondent",
         "rows": [
           {
-            "point": "Function",
-            "left": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-            "right": "Has a distinct statutory function; do not import its requirements or consequence into section 25."
+            "point": "Legal function",
+            "left": "Can engage termination under section 25(a).",
+            "right": "Does not by itself amount to admission under section 25(b)."
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "aca-s-25-trap-1",
-        "trap": "Treating section 25 as a generic arbitration principle.",
-        "correction": "Apply the exact statutory conditions of section 25."
-      },
-      {
-        "id": "aca-s-25-trap-2",
-        "trap": "Assuming party agreement overrides mandatory statutory requirements.",
-        "correction": "Party autonomy remains subject to the mandatory provisions of the Act."
+        "id": "aca-s-25-misconception",
+        "trap": "Treating section 25 as self-contained without reading its statutory conditions.",
+        "correction": "Apply section 25 with the Act's express conditions and connected provisions."
       }
     ],
     "cases": [],
@@ -84,131 +82,95 @@
       {
         "id": "aca-s-25-brief",
         "draftingCategory": "brief",
-        "question": "What is the controlling rule in section 25?",
-        "answer": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-        "explanation": "Statutory analysis anchored to the text."
+        "question": "What is the operative rule under section 25?",
+        "answer": "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence.",
+        "explanation": "Identify trigger, conditions and consequence."
       },
       {
         "id": "aca-s-25-submissions",
         "draftingCategory": "submissions",
-        "question": "How should counsel structure submissions under section 25?",
-        "answer": "Set out the text, identify the operative conditions, apply them to the record, answer the opposing construction, and seek the precise statutory consequence.",
-        "explanation": "Senior-counsel structure."
+        "question": "How should section 25 be argued?",
+        "answer": "State the statutory trigger, address each condition, rebut the opposing construction and seek the precise statutory consequence.",
+        "explanation": "Topic-specific chamber structure."
       }
     ],
     "bareActPointers": [
       "Arbitration and Conciliation Act, 1996 — section 25"
     ],
     "examTips": [
-      "Start with the statutory text.",
-      "Separate mandatory conditions from discretionary procedure.",
-      "Apply the provision to the actual record."
+      "Begin with the statutory trigger in section 25.",
+      "Separate procedural authority from merits.",
+      "State the precise consequence."
     ],
     "revisionPoints": [
-      "Section 25: Default of a party",
-      "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it."
+      "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence.",
+      "Read section 25 with the neighbouring provisions."
     ],
     "relatedJudgments": [],
-    "relatedTopics": [
-      "aca-s-24",
-      "aca-s-26"
-    ],
-    "illustrations": [
-      "illustration:india:arbitration-arbitration-aca-s-25-example"
-    ],
+    "relatedTopics": [],
+    "illustrations": [],
     "legacySubjectSlug": "arbitration",
     "legacyTopicId": "aca-s-25",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "E-03 substantive enhancement pass.",
     "enhancement": {
       "version": "2",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "State and apply section 25.",
-        "Identify its operative conditions.",
-        "Distinguish it from adjacent provisions."
+        "Explain section 25.",
+        "Apply its conditions to facts."
       ],
       "definition": "Default of a party",
-      "legalPrinciple": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
+      "legalPrinciple": "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence.",
       "statutoryFramework": [
-        "Arbitration and Conciliation Act, 1996, section 25."
+        "Arbitration and Conciliation Act, 1996 — section 25."
       ],
       "essentialIngredients": [
-        "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it."
+        "Identify trigger.",
+        "Test statutory conditions.",
+        "Apply consequence."
       ],
-      "detailedExplanation": "Section 25 — Default of a party\n\nSection 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.\n\nApply the provision by identifying its operative conditions, procedural stage, connected statutory provisions and precise consequence.",
+      "detailedExplanation": "Failure by the claimant to communicate the statement of claim without sufficient cause permits the tribunal to terminate proceedings as provided by section 25.\n\nFailure by the respondent to communicate a defence does not by itself amount to an admission; the tribunal may continue without treating the omission as an admission of allegations.\n\nFailure to appear or produce evidence can permit the tribunal to continue and make the award on the material before it, subject to the Act and procedural fairness.",
       "examples": [
-        "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-        "A party cannot obtain a result merely by naming section 25; the statutory conditions and procedural safeguards must be satisfied on the record."
+        "A respondent fails to file a defence; the tribunal may continue but cannot treat silence as an automatic admission.",
+        "A claimant fails to communicate the statement of claim without sufficient cause; the statutory consequence may be termination under section 25(a)."
       ],
       "problemApplication": [
-        "How should section 25 be applied? — State the statutory rule, identify every operative condition, apply each to the facts, answer the principal objection, and state only the consequence authorised by the Act."
+        "No. Section 25(b) expressly prevents the tribunal from treating the failure as an admission of the claimant's allegations."
       ],
       "keyTakeaways": [
-        "Section 25: Default of a party",
-        "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it."
+        "Section 25 specifies the consequences when the claimant or respondent fails to take a required procedural step, including failure to communicate the statement of claim or defence and failure to appear or produce evidence."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 25 substantively remediated from the statutory scheme.",
-          "No unverified migrated case law retained."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
       "caseLaw": [],
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-25-dist-1",
-          "title": "Section 25 and adjacent provisions",
-          "left": "Section 25: Default of a party",
-          "right": "Connected statutory provision",
-          "rows": [
-            {
-              "point": "Function",
-              "left": "Section 25 distinguishes the consequences of claimant and respondent default. Failure by the claimant to communicate the statement of claim leads to termination of proceedings. Failure by the respondent to communicate a defence does not amount to admission, and the tribunal may continue. Failure to appear or produce evidence permits the tribunal to continue and make the award on the evidence before it.",
-              "right": "Has a distinct statutory function; do not import its requirements or consequence into section 25."
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State section 25.",
-          "Identify the operative conditions.",
-          "Apply them to the record.",
-          "State the statutory consequence."
-        ],
-        "longForm": [
-          "Set out section 25.",
-          "Analyse connected provisions.",
-          "Apply facts and evidence.",
-          "Address the strongest contrary argument.",
-          "Formulate the precise consequence."
-        ]
-      },
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not import unrelated case law"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    },
-    "status": "verified",
-    "updatedAt": "2026-10-08T00:00:00.000Z"
+    }
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "India Code — Arbitration and Conciliation Act, 1996",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
+    }
+  ],
   "updatedAt": "2026-10-08T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
   "tags": [
-    "legacy-migration",
-    "review-required",
-    "arbitration"
+    "arbitration",
+    "E-03",
+    "substantive-enhancement"
   ]
 }
