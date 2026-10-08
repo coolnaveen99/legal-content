@@ -1,6 +1,6 @@
 # Master Pending Sprint Backlog & Execution Checklist
 
-**Date:** 2026-10-06  
+**Date:** 2026-10-08  
 **Applies to:** `coolnaveen99/codepackr-law` + `coolnaveen99/legal-content`  
 **Execution rule:** one backlog item at a time; direct commit to `main`; validate before marking complete.
 
@@ -277,7 +277,7 @@ An item can be marked **COMPLETED** only when:
 
 ## 12. Current execution pointer
 
-**Current batch:** Final Authoritative Legal Verification & Publication Readiness, with Administrative Law advanced through its 44-topic statutory/constitutional gate and shared case-law identity/ratio pass; topic-specific authority relevance is 6/44 complete, 38/44 remain; final publication gates remain open. Fresh judgment acquisition remains deferred until after the Final Content Quality Pass.
+**Current control sequence:** Final Content Quality Pass / Unified All-Subject Legal Verification. QUAL-001–QUAL-011 remain substantively OPEN. Work must be selected from the current unowned remediation/verification range after the coordination gate; stale generated progress reports must not be used to reopen completed or locked subjects. Fresh judgment acquisition remains deferred until the Final Content Quality Pass closes.
 **Judgment verification queue:** historical unverified records are archived; current active catalog contains **136 verified/verified-with-limitation** records. Existing/pending judgment verification remains governed by FV-002–FV-004. Future *new* judgment additions are deferred until after the Final Content Quality Pass and must then be fresh and authoritative-source verified before activation.
 **Review-state publication baseline:** **3,566** migrated canonical topics currently in `review` state and intentionally not production-published pending authoritative provenance/current-law verification.
 **Verified enhancements:** Torts is **COMPLETE_LOCKED**; other enhanced batches remain subject to final verification/publication gates.
@@ -302,8 +302,8 @@ An item can be marked **COMPLETED** only when:
 - Rule: acquisition/matching never marks a judgment verified; substantive verification remains FV-002/FV-003/FV-004.
 \n## Throughput decision — 2026-10-06\n\nThe 296 pending Supreme Court judgments are no longer a serial project blocker. Reference acquisition is centralized through `scripts/resolve-judgment-reference.mjs`, with official eCourts search plus open-corpus fallbacks. Substantive verification proceeds by dependency/impact priority while the remaining CodePackr Law work continues in parallel. A source reference never promotes a record to `verified`.\n
 
-## Active Enhancement Execution Queue — 2026-10-06
+## Active Enhancement Queue — subordinate control
 
 Canonical queue: `docs/PENDING-ENHANCEMENT-QUEUE-2026-10-06.md`.
 
-**Next executable batch: E-01 Admin — 43 scaffold topics.** The queue is enhancement-only; legal verification/publication remains separately gated. Torts is locked. Fresh judgment acquisition and AI/provider work remain blocked until the Final Content Quality Pass closes.
+The enhancement queue is subordinate to the current Final Content Quality Pass and coordination gate. Do **not** use the historical `E-01 Admin` pointer as the next task. Current `main` evidence must be checked before selecting any subject/range. Torts and other `COMPLETE_LOCKED` subjects must not be reopened without a documented trigger. Fresh judgment acquisition and AI/provider work remain blocked until the Final Content Quality Pass closes.
