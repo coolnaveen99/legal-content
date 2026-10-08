@@ -2,29 +2,44 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-31",
-  "version": 1,
-  "status": "verified",
-  "title": "ACA s. 31 — Form and contents of arbitral award (ACA s. 31)",
+  "version": 2,
+  "status": "substantive",
+  "title": "ACA s. 31 — Form and contents of arbitral award",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-    "glance": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-    "study": "Section 31 — Form and contents of arbitral award\n\nSection 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.\n\nApply the provision by identifying operative conditions, exceptions, procedural stage and connected provisions. Do not substitute generic arbitration practice for the statutory rule.",
+    "overview": "Section 31 prescribes the formal and substantive requirements of an arbitral award, including writing and signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy, and statutory rules concerning interest and costs.",
+    "glance": "Section 31 prescribes the formal and substantive requirements of an arbitral award, including writing and signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy, and statutory rules concerning interest and costs.",
+    "study": "Module 1: Writing and signatures\nThe award must be in writing and signed by the members of the arbitral tribunal in accordance with section 31. Where there is more than one arbitrator, the statutory majority/signature rule applies, with the dissenting-signature proviso operating as prescribed.\n\nModule 2: Reasons\nThe award must state reasons unless the parties have agreed that no reasons are to be given or the award is an award on agreed terms under section 30.\n\nModule 3: Date, place and delivery\nThe award states its date and the place of arbitration, and a signed copy is delivered to each party.\n\nModule 4: Interest\nSection 31 contains the statutory framework for pre-award and post-award interest, subject to party agreement and the express terms of the provision.\n\nModule 5: Costs\nSection 31's costs provision must now be read with section 31A; the award may determine costs subject to the Act's statutory costs regime.",
     "sections": [
       {
-        "heading": "Statutory rule",
-        "body": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
+        "id": "aca-s-31-module-1",
+        "heading": "Writing and signatures",
+        "body": "The award must be in writing and signed by the members of the arbitral tribunal in accordance with section 31. Where there is more than one arbitrator, the statutory majority/signature rule applies, with the dissenting-signature proviso operating as prescribed.",
         "order": 1
       },
       {
-        "heading": "Operative conditions",
-        "body": "Identify each condition and procedural consequence before applying the facts.",
+        "id": "aca-s-31-module-2",
+        "heading": "Reasons",
+        "body": "The award must state reasons unless the parties have agreed that no reasons are to be given or the award is an award on agreed terms under section 30.",
         "order": 2
       },
       {
-        "heading": "Connected provisions",
-        "body": "Read section 31 with its relevant neighbouring provisions.",
+        "id": "aca-s-31-module-3",
+        "heading": "Date, place and delivery",
+        "body": "The award states its date and the place of arbitration, and a signed copy is delivered to each party.",
         "order": 3
+      },
+      {
+        "id": "aca-s-31-module-4",
+        "heading": "Interest",
+        "body": "Section 31 contains the statutory framework for pre-award and post-award interest, subject to party agreement and the express terms of the provision.",
+        "order": 4
+      },
+      {
+        "id": "aca-s-31-module-5",
+        "heading": "Costs",
+        "body": "Section 31's costs provision must now be read with section 31A; the award may determine costs subject to the Act's statutory costs regime.",
+        "order": 5
       }
     ],
     "provisions": [
@@ -32,51 +47,40 @@
         "actId": "aca",
         "actName": "Arbitration and Conciliation Act, 1996",
         "provisionId": "aca-s-31",
-        "title": "Form and contents of arbitral award",
-        "section": "s. 31"
+        "section": "s. 31",
+        "title": "Form and contents of arbitral award"
       }
     ],
     "examples": [
       {
-        "title": "Direct application",
-        "body": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs."
+        "title": "Rule applies",
+        "body": "A final award is written, signed, reasoned, dated and states the place of arbitration, and a signed copy is delivered to each party."
       },
       {
-        "title": "Boundary",
-        "body": "Naming section 31 is insufficient; its statutory conditions must be satisfied on the record."
+        "title": "Rule fails or changes",
+        "body": "An award gives no reasons even though no statutory exception applies; the tribunal must satisfy the section 31 requirement to state reasons."
       }
     ],
     "hypotheticals": [
       {
-        "question": "What is the controlling test under section 31?",
-        "analysis": "State the rule, identify conditions, apply the record, answer the principal objection and state the authorised consequence."
+        "question": "Are reasons always mandatory?",
+        "analysis": "No. Section 31 recognises specified exceptions, including party agreement that no reasons are required and an award on agreed terms under section 30."
       }
     ],
     "distinctions": [
       {
-        "id": "aca-s-31-dist-1",
-        "title": "Section 31 and connected provisions",
-        "left": "Section 31: Form and contents of arbitral award",
-        "right": "Adjacent statutory provision",
-        "rows": [
-          {
-            "point": "Function",
-            "left": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-            "right": "Distinct statutory function; do not substitute it for section 31."
-          }
-        ]
+        "id": "aca-s-31-dist",
+        "title": "Reasons and formal requirements",
+        "left": "General rule",
+        "right": "Reasoned written award subject to statutory exceptions",
+        "rows": "Award on agreed terms/other statutory exception may alter the reasons requirement."
       }
     ],
     "misconceptions": [
       {
-        "id": "aca-s-31-trap-1",
-        "trap": "Treating section 31 as a generic arbitration rule.",
-        "correction": "Apply its exact statutory language."
-      },
-      {
-        "id": "aca-s-31-trap-2",
-        "trap": "Assuming party agreement overrides mandatory law.",
-        "correction": "Party autonomy remains subject to mandatory provisions of the Act."
+        "id": "aca-s-31-misconception",
+        "trap": "Treating section 31 as merely a formatting provision.",
+        "correction": "It regulates core award validity requirements as well as interest and costs consequences; each subsection must be tested separately."
       }
     ],
     "cases": [],
@@ -84,113 +88,107 @@
       {
         "id": "aca-s-31-brief",
         "draftingCategory": "brief",
-        "question": "What is section 31?",
-        "answer": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-        "explanation": "Text-first statutory analysis."
+        "question": "What does section 31 regulate?",
+        "answer": "It prescribes the form and contents of an arbitral award and includes rules on reasons, date/place, delivery, interest and costs.",
+        "explanation": "Map the award against each applicable subsection before advising on challenge or enforcement."
       },
       {
         "id": "aca-s-31-submissions",
         "draftingCategory": "submissions",
-        "question": "How should section 31 be argued?",
-        "answer": "Set out the provision, identify conditions and exceptions, apply the record, answer the contrary construction and seek the precise statutory consequence.",
-        "explanation": "Senior-counsel structure."
+        "question": "How should section 31 be applied in submissions?",
+        "answer": "Start with the statutory text, identify every condition and then apply the facts to the precise statutory consequence.",
+        "explanation": "Keep the submission statute-led and distinguish discretion, conditions and consequence."
       }
     ],
     "bareActPointers": [
       "Arbitration and Conciliation Act, 1996 — section 31"
     ],
     "examTips": [
-      "Start with statutory text.",
-      "Identify exceptions and provisos.",
-      "Apply the provision to the record."
+      "Begin with the statutory rule: Identify the statutory rule in section 31.",
+      "Begin with the statutory rule: Distinguish its conditions, exceptions and consequences.",
+      "Begin with the statutory rule: Apply section 31 to a concrete arbitral problem without adding unsupported authority."
     ],
     "revisionPoints": [
-      "Section 31: Form and contents of arbitral award",
-      "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs."
+      "Section 31 prescribes the formal and substantive requirements of an arbitral award, including writing and signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy, and statutory rules concerning interest and costs.",
+      "The award must be in writing and signed by the members of the arbitral tribunal in accordance with section 31. Where there is more than one arbitrator, the statutory majority/signature rule applies, with the dissenting-signature proviso operating as prescribed.",
+      "The award must state reasons unless the parties have agreed that no reasons are to be given or the award is an award on agreed terms under section 30.",
+      "The award states its date and the place of arbitration, and a signed copy is delivered to each party.",
+      "Section 31 contains the statutory framework for pre-award and post-award interest, subject to party agreement and the express terms of the provision.",
+      "Section 31's costs provision must now be read with section 31A; the award may determine costs subject to the Act's statutory costs regime."
     ],
     "relatedJudgments": [],
     "relatedTopics": [],
-    "illustrations": [
-      "illustration:india:arbitration-arbitration-aca-s-31-example"
-    ],
+    "illustrations": [],
     "legacySubjectSlug": "arbitration",
     "legacyTopicId": "aca-s-31",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "E-03 substantive enhancement pass.",
     "enhancement": {
       "version": "2",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "State and apply section 31.",
-        "Identify conditions and exceptions.",
-        "Distinguish adjacent provisions."
+        "Identify the statutory rule in section 31.",
+        "Distinguish its conditions, exceptions and consequences.",
+        "Apply section 31 to a concrete arbitral problem without adding unsupported authority."
       ],
       "definition": "Form and contents of arbitral award",
-      "legalPrinciple": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
+      "legalPrinciple": "Section 31 prescribes the formal and substantive requirements of an arbitral award, including writing and signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy, and statutory rules concerning interest and costs.",
       "statutoryFramework": [
-        "Arbitration and Conciliation Act, 1996, section 31."
+        "Arbitration and Conciliation Act, 1996 — section 31."
       ],
       "essentialIngredients": [
-        "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs."
+        "Writing and signatures: identify and apply the statutory condition.",
+        "Reasons: identify and apply the statutory condition.",
+        "Date, place and delivery: identify and apply the statutory condition.",
+        "Interest: identify and apply the statutory condition.",
+        "Costs: identify and apply the statutory condition."
       ],
-      "detailedExplanation": "Section 31 — Form and contents of arbitral award\n\nSection 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.\n\nApply the provision by identifying operative conditions, exceptions, procedural stage and connected provisions. Do not substitute generic arbitration practice for the statutory rule.",
+      "detailedExplanation": "Module 1: Writing and signatures\nThe award must be in writing and signed by the members of the arbitral tribunal in accordance with section 31. Where there is more than one arbitrator, the statutory majority/signature rule applies, with the dissenting-signature proviso operating as prescribed.\n\nModule 2: Reasons\nThe award must state reasons unless the parties have agreed that no reasons are to be given or the award is an award on agreed terms under section 30.\n\nModule 3: Date, place and delivery\nThe award states its date and the place of arbitration, and a signed copy is delivered to each party.\n\nModule 4: Interest\nSection 31 contains the statutory framework for pre-award and post-award interest, subject to party agreement and the express terms of the provision.\n\nModule 5: Costs\nSection 31's costs provision must now be read with section 31A; the award may determine costs subject to the Act's statutory costs regime.",
       "examples": [
-        "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-        "Naming section 31 is insufficient; its statutory conditions must be satisfied on the record."
+        "A final award is written, signed, reasoned, dated and states the place of arbitration, and a signed copy is delivered to each party.",
+        "An award gives no reasons even though no statutory exception applies; the tribunal must satisfy the section 31 requirement to state reasons."
       ],
       "problemApplication": [
-        "What is the controlling test under section 31? — State the rule, identify conditions, apply the record, answer the principal objection and state the authorised consequence."
+        "No. Section 31 recognises specified exceptions, including party agreement that no reasons are required and an award on agreed terms under section 30."
       ],
       "keyTakeaways": [
-        "Section 31: Form and contents of arbitral award",
-        "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs."
+        "Section 31 prescribes the formal and substantive requirements of an arbitral award, including writing and signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy, and statutory rules concerning interest and costs.",
+        "The award must be in writing and signed by the members of the arbitral tribunal in accordance with section 31. Where there is more than one arbitrator, the statutory majority/signature rule applies, with the dissenting-signature proviso operating as prescribed.",
+        "The award must state reasons unless the parties have agreed that no reasons are to be given or the award is an award on agreed terms under section 30.",
+        "The award states its date and the place of arbitration, and a signed copy is delivered to each party.",
+        "Section 31 contains the statutory framework for pre-award and post-award interest, subject to party agreement and the express terms of the provision.",
+        "Section 31's costs provision must now be read with section 31A; the award may determine costs subject to the Act's statutory costs regime."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 31 remediated from the statutory scheme.",
-          "No unverified migrated case law retained."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
       "caseLaw": [],
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-31-dist-1",
-          "title": "Section 31 and connected provisions",
-          "left": "Section 31: Form and contents of arbitral award",
-          "right": "Adjacent statutory provision",
-          "rows": [
-            {
-              "point": "Function",
-              "left": "Section 31 regulates the form and contents of an arbitral award, including writing, signature, reasons subject to statutory exceptions, date and place, delivery of a signed copy to each party, and statutory provisions concerning interest and costs.",
-              "right": "Distinct statutory function; do not substitute it for section 31."
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not import unrelated case law"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    },
-    "status": "verified",
-    "updatedAt": "2026-10-08T00:00:00.000Z"
+    }
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "India Code — Arbitration and Conciliation Act, 1996",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
+    }
+  ],
   "updatedAt": "2026-10-08T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
   "tags": [
-    "legacy-migration",
-    "review-required",
-    "arbitration"
+    "arbitration",
+    "E-03",
+    "substantive-enhancement"
   ]
 }
