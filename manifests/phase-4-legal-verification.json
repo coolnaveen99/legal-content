@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-08T05:44:32.654Z",
+  "generatedAt": "2026-10-08T11:24:33.983Z",
   "scope": {
-    "migratedTopics": 3548
+    "migratedTopics": 3337
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,15 +12,15 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 3548,
-    "topicsWithFindings": 2335,
-    "totalFindings": 3931,
-    "highSeverity": 2994,
-    "mediumSeverity": 937
+    "topicsAudited": 3337,
+    "topicsWithFindings": 2220,
+    "totalFindings": 3705,
+    "highSeverity": 2844,
+    "mediumSeverity": 861
   },
   "byType": {
-    "provenance": 1907,
-    "workflow-status": 167,
+    "provenance": 1757,
+    "workflow-status": 91,
     "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
@@ -67,741 +67,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/admin/admin-citizen-faults.json",
-      "id": "topic:india:admin-admin-citizen-faults",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-citizen-faults.json",
-      "id": "topic:india:admin-admin-citizen-faults",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-civil-services.json",
-      "id": "topic:india:admin-admin-civil-services",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-civil-services.json",
-      "id": "topic:india:admin-admin-civil-services",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-commission-inquiry.json",
-      "id": "topic:india:admin-admin-commission-inquiry",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-commission-inquiry.json",
-      "id": "topic:india:admin-admin-commission-inquiry",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-constitutional-foundations.json",
-      "id": "topic:india:admin-admin-constitutional-foundations",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-constitutional-foundations.json",
-      "id": "topic:india:admin-admin-constitutional-foundations",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-constitutional-interface.json",
-      "id": "topic:india:admin-admin-constitutional-interface",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-constitutional-interface.json",
-      "id": "topic:india:admin-admin-constitutional-interface",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-cvc.json",
-      "id": "topic:india:admin-admin-cvc",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-cvc.json",
-      "id": "topic:india:admin-admin-cvc",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-delegated-legislation.json",
-      "id": "topic:india:admin-admin-delegated-legislation",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-delegated-legislation.json",
-      "id": "topic:india:admin-admin-delegated-legislation",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-functions.json",
-      "id": "topic:india:admin-admin-functions",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-functions.json",
-      "id": "topic:india:admin-admin-functions",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-good-governance.json",
-      "id": "topic:india:admin-admin-good-governance",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-good-governance.json",
-      "id": "topic:india:admin-admin-good-governance",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-international.json",
-      "id": "topic:india:admin-admin-international",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-international.json",
-      "id": "topic:india:admin-admin-international",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-introduction.json",
-      "id": "topic:india:admin-admin-introduction",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-introduction.json",
-      "id": "topic:india:admin-admin-introduction",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-judicial-accountability.json",
-      "id": "topic:india:admin-admin-judicial-accountability",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-judicial-accountability.json",
-      "id": "topic:india:admin-admin-judicial-accountability",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-judicial-review.json",
-      "id": "topic:india:admin-admin-judicial-review",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-judicial-review.json",
-      "id": "topic:india:admin-admin-judicial-review",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-legitimate-expectation.json",
-      "id": "topic:india:admin-admin-legitimate-expectation",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-legitimate-expectation.json",
-      "id": "topic:india:admin-admin-legitimate-expectation",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-liability.json",
-      "id": "topic:india:admin-admin-liability",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-liability.json",
-      "id": "topic:india:admin-admin-liability",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-ombudsman.json",
-      "id": "topic:india:admin-admin-ombudsman",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-ombudsman.json",
-      "id": "topic:india:admin-admin-ombudsman",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-promissory-estoppel.json",
-      "id": "topic:india:admin-admin-promissory-estoppel",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-promissory-estoppel.json",
-      "id": "topic:india:admin-admin-promissory-estoppel",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-proportionality.json",
-      "id": "topic:india:admin-admin-proportionality",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-proportionality.json",
-      "id": "topic:india:admin-admin-proportionality",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-public-corporations.json",
-      "id": "topic:india:admin-admin-public-corporations",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-public-corporations.json",
-      "id": "topic:india:admin-admin-public-corporations",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rti-transparency.json",
-      "id": "topic:india:admin-admin-rti-transparency",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rti-transparency.json",
-      "id": "topic:india:admin-admin-rti-transparency",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-constitutional.json",
-      "id": "topic:india:admin-admin-rule-of-law-constitutional",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-constitutional.json",
-      "id": "topic:india:admin-admin-rule-of-law-constitutional",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-dicey.json",
-      "id": "topic:india:admin-admin-rule-of-law-dicey",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-dicey.json",
-      "id": "topic:india:admin-admin-rule-of-law-dicey",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-formal-ideological.json",
-      "id": "topic:india:admin-admin-rule-of-law-formal-ideological",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-formal-ideological.json",
-      "id": "topic:india:admin-admin-rule-of-law-formal-ideological",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-mixed-economy.json",
-      "id": "topic:india:admin-admin-rule-of-law-mixed-economy",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-mixed-economy.json",
-      "id": "topic:india:admin-admin-rule-of-law-mixed-economy",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-welfare.json",
-      "id": "topic:india:admin-admin-rule-of-law-welfare",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rule-of-law-welfare.json",
-      "id": "topic:india:admin-admin-rule-of-law-welfare",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-control.json",
-      "id": "topic:india:admin-admin-rulemaking-control",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-control.json",
-      "id": "topic:india:admin-admin-rulemaking-control",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-limits.json",
-      "id": "topic:india:admin-admin-rulemaking-limits",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-limits.json",
-      "id": "topic:india:admin-admin-rulemaking-limits",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-source.json",
-      "id": "topic:india:admin-admin-rulemaking-source",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-rulemaking-source.json",
-      "id": "topic:india:admin-admin-rulemaking-source",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-cases.json",
-      "id": "topic:india:admin-admin-separation-cases",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-cases.json",
-      "id": "topic:india:admin-admin-separation-cases",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-comparative.json",
-      "id": "topic:india:admin-admin-separation-comparative",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-comparative.json",
-      "id": "topic:india:admin-admin-separation-comparative",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-montesquieu.json",
-      "id": "topic:india:admin-admin-separation-montesquieu",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-montesquieu.json",
-      "id": "topic:india:admin-admin-separation-montesquieu",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-powers.json",
-      "id": "topic:india:admin-admin-separation-powers",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-separation-powers.json",
-      "id": "topic:india:admin-admin-separation-powers",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-sources.json",
-      "id": "topic:india:admin-admin-sources",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-sources.json",
-      "id": "topic:india:admin-admin-sources",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-advantages.json",
-      "id": "topic:india:admin-admin-tribunals-advantages",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-advantages.json",
-      "id": "topic:india:admin-admin-tribunals-advantages",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-features.json",
-      "id": "topic:india:admin-admin-tribunals-features",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-features.json",
-      "id": "topic:india:admin-admin-tribunals-features",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-growth.json",
-      "id": "topic:india:admin-admin-tribunals-growth",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-growth.json",
-      "id": "topic:india:admin-admin-tribunals-growth",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-structure.json",
-      "id": "topic:india:admin-admin-tribunals-structure",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-tribunals-structure.json",
-      "id": "topic:india:admin-admin-tribunals-structure",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-ultra-vires.json",
-      "id": "topic:india:admin-admin-ultra-vires",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-ultra-vires.json",
-      "id": "topic:india:admin-admin-ultra-vires",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-writ-remedies.json",
-      "id": "topic:india:admin-admin-writ-remedies",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-writ-remedies.json",
-      "id": "topic:india:admin-admin-writ-remedies",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-1.json",
       "id": "topic:india:arbitration-aca-s-1",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-1.json",
-      "id": "topic:india:arbitration-aca-s-1",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-10.json",
-      "id": "topic:india:arbitration-aca-s-10",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-10.json",
-      "id": "topic:india:arbitration-aca-s-10",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -819,79 +90,7 @@
       "subject": "arbitration",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-12.json",
-      "id": "topic:india:arbitration-aca-s-12",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-12.json",
-      "id": "topic:india:arbitration-aca-s-12",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-13.json",
-      "id": "topic:india:arbitration-aca-s-13",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-13.json",
-      "id": "topic:india:arbitration-aca-s-13",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-14.json",
-      "id": "topic:india:arbitration-aca-s-14",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-14.json",
-      "id": "topic:india:arbitration-aca-s-14",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-15.json",
-      "id": "topic:india:arbitration-aca-s-15",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-15.json",
-      "id": "topic:india:arbitration-aca-s-15",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -909,61 +108,7 @@
       "subject": "arbitration",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-17.json",
-      "id": "topic:india:arbitration-aca-s-17",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-17.json",
-      "id": "topic:india:arbitration-aca-s-17",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-18.json",
-      "id": "topic:india:arbitration-aca-s-18",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-18.json",
-      "id": "topic:india:arbitration-aca-s-18",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-19.json",
-      "id": "topic:india:arbitration-aca-s-19",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-19.json",
-      "id": "topic:india:arbitration-aca-s-19",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -973,123 +118,6 @@
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-2.json",
-      "id": "topic:india:arbitration-aca-s-2",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-20.json",
-      "id": "topic:india:arbitration-aca-s-20",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-20.json",
-      "id": "topic:india:arbitration-aca-s-20",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-21.json",
-      "id": "topic:india:arbitration-aca-s-21",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-21.json",
-      "id": "topic:india:arbitration-aca-s-21",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-22.json",
-      "id": "topic:india:arbitration-aca-s-22",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-22.json",
-      "id": "topic:india:arbitration-aca-s-22",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-23.json",
-      "id": "topic:india:arbitration-aca-s-23",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-23.json",
-      "id": "topic:india:arbitration-aca-s-23",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-24.json",
-      "id": "topic:india:arbitration-aca-s-24",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-24.json",
-      "id": "topic:india:arbitration-aca-s-24",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-25.json",
-      "id": "topic:india:arbitration-aca-s-25",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-25.json",
-      "id": "topic:india:arbitration-aca-s-25",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1107,61 +135,7 @@
       "subject": "arbitration",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-27.json",
-      "id": "topic:india:arbitration-aca-s-27",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-27.json",
-      "id": "topic:india:arbitration-aca-s-27",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-28.json",
-      "id": "topic:india:arbitration-aca-s-28",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-28.json",
-      "id": "topic:india:arbitration-aca-s-28",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-29.json",
-      "id": "topic:india:arbitration-aca-s-29",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-29.json",
-      "id": "topic:india:arbitration-aca-s-29",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "message": "Migrated topic has status archived; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1174,30 +148,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-29a.json",
-      "id": "topic:india:arbitration-aca-s-29a",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-29b.json",
       "id": "topic:india:arbitration-aca-s-29b",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-29b.json",
-      "id": "topic:india:arbitration-aca-s-29b",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1210,66 +166,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-3.json",
-      "id": "topic:india:arbitration-aca-s-3",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-30.json",
-      "id": "topic:india:arbitration-aca-s-30",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-30.json",
-      "id": "topic:india:arbitration-aca-s-30",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-31.json",
-      "id": "topic:india:arbitration-aca-s-31",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-31.json",
-      "id": "topic:india:arbitration-aca-s-31",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-32.json",
       "id": "topic:india:arbitration-aca-s-32",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-32.json",
-      "id": "topic:india:arbitration-aca-s-32",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1282,30 +184,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-33.json",
-      "id": "topic:india:arbitration-aca-s-33",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-34.json",
       "id": "topic:india:arbitration-aca-s-34",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-34.json",
-      "id": "topic:india:arbitration-aca-s-34",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1318,30 +202,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-35.json",
-      "id": "topic:india:arbitration-aca-s-35",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-36.json",
       "id": "topic:india:arbitration-aca-s-36",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-36.json",
-      "id": "topic:india:arbitration-aca-s-36",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1354,30 +220,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-37.json",
-      "id": "topic:india:arbitration-aca-s-37",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-38.json",
       "id": "topic:india:arbitration-aca-s-38",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-38.json",
-      "id": "topic:india:arbitration-aca-s-38",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1390,30 +238,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-39.json",
-      "id": "topic:india:arbitration-aca-s-39",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-4.json",
       "id": "topic:india:arbitration-aca-s-4",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-4.json",
-      "id": "topic:india:arbitration-aca-s-4",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1426,30 +256,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-40.json",
-      "id": "topic:india:arbitration-aca-s-40",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-41.json",
       "id": "topic:india:arbitration-aca-s-41",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-41.json",
-      "id": "topic:india:arbitration-aca-s-41",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1462,30 +274,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-42.json",
-      "id": "topic:india:arbitration-aca-s-42",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-42a.json",
       "id": "topic:india:arbitration-aca-s-42a",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-42a.json",
-      "id": "topic:india:arbitration-aca-s-42a",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1498,30 +292,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-43.json",
-      "id": "topic:india:arbitration-aca-s-43",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-44.json",
       "id": "topic:india:arbitration-aca-s-44",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-44.json",
-      "id": "topic:india:arbitration-aca-s-44",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1534,30 +310,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-45.json",
-      "id": "topic:india:arbitration-aca-s-45",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-46.json",
       "id": "topic:india:arbitration-aca-s-46",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-46.json",
-      "id": "topic:india:arbitration-aca-s-46",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1570,30 +328,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-47.json",
-      "id": "topic:india:arbitration-aca-s-47",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-48.json",
       "id": "topic:india:arbitration-aca-s-48",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-48.json",
-      "id": "topic:india:arbitration-aca-s-48",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1606,30 +346,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-49.json",
-      "id": "topic:india:arbitration-aca-s-49",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-5.json",
       "id": "topic:india:arbitration-aca-s-5",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-5.json",
-      "id": "topic:india:arbitration-aca-s-5",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1642,30 +364,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-50.json",
-      "id": "topic:india:arbitration-aca-s-50",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-51.json",
       "id": "topic:india:arbitration-aca-s-51",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-51.json",
-      "id": "topic:india:arbitration-aca-s-51",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1678,30 +382,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-52.json",
-      "id": "topic:india:arbitration-aca-s-52",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-53.json",
       "id": "topic:india:arbitration-aca-s-53",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-53.json",
-      "id": "topic:india:arbitration-aca-s-53",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1714,30 +400,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-54.json",
-      "id": "topic:india:arbitration-aca-s-54",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-55.json",
       "id": "topic:india:arbitration-aca-s-55",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-55.json",
-      "id": "topic:india:arbitration-aca-s-55",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1750,30 +418,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-56.json",
-      "id": "topic:india:arbitration-aca-s-56",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-57.json",
       "id": "topic:india:arbitration-aca-s-57",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-57.json",
-      "id": "topic:india:arbitration-aca-s-57",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1786,30 +436,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-58.json",
-      "id": "topic:india:arbitration-aca-s-58",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-59.json",
       "id": "topic:india:arbitration-aca-s-59",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-59.json",
-      "id": "topic:india:arbitration-aca-s-59",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1822,30 +454,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-6.json",
-      "id": "topic:india:arbitration-aca-s-6",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-60.json",
       "id": "topic:india:arbitration-aca-s-60",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-60.json",
-      "id": "topic:india:arbitration-aca-s-60",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1858,30 +472,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-61.json",
-      "id": "topic:india:arbitration-aca-s-61",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-62.json",
       "id": "topic:india:arbitration-aca-s-62",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-62.json",
-      "id": "topic:india:arbitration-aca-s-62",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1894,30 +490,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-63.json",
-      "id": "topic:india:arbitration-aca-s-63",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-64.json",
       "id": "topic:india:arbitration-aca-s-64",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-64.json",
-      "id": "topic:india:arbitration-aca-s-64",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1930,30 +508,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-65.json",
-      "id": "topic:india:arbitration-aca-s-65",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-66.json",
       "id": "topic:india:arbitration-aca-s-66",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-66.json",
-      "id": "topic:india:arbitration-aca-s-66",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -1966,35 +526,8 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-67.json",
-      "id": "topic:india:arbitration-aca-s-67",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-68.json",
       "id": "topic:india:arbitration-aca-s-68",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-68.json",
-      "id": "topic:india:arbitration-aca-s-68",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-69.json",
-      "id": "topic:india:arbitration-aca-s-69",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
@@ -2005,9 +538,9 @@
       "path": "topics/arbitration/aca-s-69.json",
       "id": "topic:india:arbitration-aca-s-69",
       "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "type": "provenance",
+      "severity": "high",
+      "message": "No canonical source attached.",
       "evidence": ""
     },
     {
@@ -2038,30 +571,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-70.json",
-      "id": "topic:india:arbitration-aca-s-70",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-71.json",
       "id": "topic:india:arbitration-aca-s-71",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-71.json",
-      "id": "topic:india:arbitration-aca-s-71",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -2074,30 +589,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-72.json",
-      "id": "topic:india:arbitration-aca-s-72",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-73.json",
       "id": "topic:india:arbitration-aca-s-73",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-73.json",
-      "id": "topic:india:arbitration-aca-s-73",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -2110,30 +607,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-74.json",
-      "id": "topic:india:arbitration-aca-s-74",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-75.json",
       "id": "topic:india:arbitration-aca-s-75",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-75.json",
-      "id": "topic:india:arbitration-aca-s-75",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -2146,30 +625,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-76.json",
-      "id": "topic:india:arbitration-aca-s-76",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-77.json",
       "id": "topic:india:arbitration-aca-s-77",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-77.json",
-      "id": "topic:india:arbitration-aca-s-77",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -2182,30 +643,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-78.json",
-      "id": "topic:india:arbitration-aca-s-78",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-79.json",
       "id": "topic:india:arbitration-aca-s-79",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-79.json",
-      "id": "topic:india:arbitration-aca-s-79",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -2236,30 +679,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/arbitration/aca-s-80.json",
-      "id": "topic:india:arbitration-aca-s-80",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/arbitration/aca-s-81.json",
       "id": "topic:india:arbitration-aca-s-81",
       "subject": "arbitration",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-81.json",
-      "id": "topic:india:arbitration-aca-s-81",
-      "subject": "arbitration",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -25177,24 +23602,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-1.json",
-      "id": "topic:india:company-ca-s-1",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-10.json",
-      "id": "topic:india:company-ca-s-10",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-100.json",
       "id": "topic:india:company-ca-s-100",
       "subject": "company",
@@ -25285,24 +23692,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-10a.json",
-      "id": "topic:india:company-ca-s-10a",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-11.json",
-      "id": "topic:india:company-ca-s-11",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-110.json",
       "id": "topic:india:company-ca-s-110",
       "subject": "company",
@@ -25386,24 +23775,6 @@
     {
       "path": "topics/company/ca-s-119.json",
       "id": "topic:india:company-ca-s-119",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-12-14.json",
-      "id": "topic:india:company-ca-s-12-14",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-12.json",
-      "id": "topic:india:company-ca-s-12",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -25510,15 +23881,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-13.json",
-      "id": "topic:india:company-ca-s-13",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-130.json",
       "id": "topic:india:company-ca-s-130",
       "subject": "company",
@@ -25602,15 +23964,6 @@
     {
       "path": "topics/company/ca-s-139.json",
       "id": "topic:india:company-ca-s-139",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-14.json",
-      "id": "topic:india:company-ca-s-14",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -25708,15 +24061,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-15.json",
-      "id": "topic:india:company-ca-s-15",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-150.json",
       "id": "topic:india:company-ca-s-150",
       "subject": "company",
@@ -25800,15 +24144,6 @@
     {
       "path": "topics/company/ca-s-159.json",
       "id": "topic:india:company-ca-s-159",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-16.json",
-      "id": "topic:india:company-ca-s-16",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -25915,6 +24250,15 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-17.json",
+      "id": "topic:india:company-ca-s-17",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-170.json",
       "id": "topic:india:company-ca-s-170",
       "subject": "company",
@@ -26014,6 +24358,15 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-18.json",
+      "id": "topic:india:company-ca-s-18",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-180.json",
       "id": "topic:india:company-ca-s-180",
       "subject": "company",
@@ -26110,6 +24463,15 @@
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/company/ca-s-19.json",
+      "id": "topic:india:company-ca-s-19",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -26221,6 +24583,15 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-20.json",
+      "id": "topic:india:company-ca-s-20",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-200.json",
       "id": "topic:india:company-ca-s-200",
       "subject": "company",
@@ -26317,6 +24688,15 @@
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/company/ca-s-21.json",
+      "id": "topic:india:company-ca-s-21",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -26419,6 +24799,15 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-22.json",
+      "id": "topic:india:company-ca-s-22",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-220.json",
       "id": "topic:india:company-ca-s-220",
       "subject": "company",
@@ -26502,15 +24891,6 @@
     {
       "path": "topics/company/ca-s-229.json",
       "id": "topic:india:company-ca-s-229",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-23.json",
-      "id": "topic:india:company-ca-s-23",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -26608,15 +24988,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-24.json",
-      "id": "topic:india:company-ca-s-24",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-240.json",
       "id": "topic:india:company-ca-s-240",
       "subject": "company",
@@ -26691,15 +25062,6 @@
     {
       "path": "topics/company/ca-s-249.json",
       "id": "topic:india:company-ca-s-249",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-25.json",
-      "id": "topic:india:company-ca-s-25",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -26797,15 +25159,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-26.json",
-      "id": "topic:india:company-ca-s-26",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-260.json",
       "id": "topic:india:company-ca-s-260",
       "subject": "company",
@@ -26889,15 +25242,6 @@
     {
       "path": "topics/company/ca-s-269.json",
       "id": "topic:india:company-ca-s-269",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-27.json",
-      "id": "topic:india:company-ca-s-27",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -26995,15 +25339,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-28.json",
-      "id": "topic:india:company-ca-s-28",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-280.json",
       "id": "topic:india:company-ca-s-280",
       "subject": "company",
@@ -27087,15 +25422,6 @@
     {
       "path": "topics/company/ca-s-289.json",
       "id": "topic:india:company-ca-s-289",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-29.json",
-      "id": "topic:india:company-ca-s-29",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -27193,24 +25519,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-3.json",
-      "id": "topic:india:company-ca-s-3",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-30.json",
-      "id": "topic:india:company-ca-s-30",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-300.json",
       "id": "topic:india:company-ca-s-300",
       "subject": "company",
@@ -27294,15 +25602,6 @@
     {
       "path": "topics/company/ca-s-309.json",
       "id": "topic:india:company-ca-s-309",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-31.json",
-      "id": "topic:india:company-ca-s-31",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -27400,15 +25699,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-32.json",
-      "id": "topic:india:company-ca-s-32",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-320.json",
       "id": "topic:india:company-ca-s-320",
       "subject": "company",
@@ -27492,15 +25782,6 @@
     {
       "path": "topics/company/ca-s-329.json",
       "id": "topic:india:company-ca-s-329",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-33.json",
-      "id": "topic:india:company-ca-s-33",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -27598,15 +25879,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-34.json",
-      "id": "topic:india:company-ca-s-34",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-340.json",
       "id": "topic:india:company-ca-s-340",
       "subject": "company",
@@ -27690,15 +25962,6 @@
     {
       "path": "topics/company/ca-s-349.json",
       "id": "topic:india:company-ca-s-349",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-35.json",
-      "id": "topic:india:company-ca-s-35",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -27796,15 +26059,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-36.json",
-      "id": "topic:india:company-ca-s-36",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-360.json",
       "id": "topic:india:company-ca-s-360",
       "subject": "company",
@@ -27888,15 +26142,6 @@
     {
       "path": "topics/company/ca-s-369.json",
       "id": "topic:india:company-ca-s-369",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-37.json",
-      "id": "topic:india:company-ca-s-37",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -28417,15 +26662,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-38.json",
-      "id": "topic:india:company-ca-s-38",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-380.json",
       "id": "topic:india:company-ca-s-380",
       "subject": "company",
@@ -28626,15 +26862,6 @@
     {
       "path": "topics/company/ca-s-3a.json",
       "id": "topic:india:company-ca-s-3a",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-4.json",
-      "id": "topic:india:company-ca-s-4",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -28849,15 +27076,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-42.json",
-      "id": "topic:india:company-ca-s-42",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-420.json",
       "id": "topic:india:company-ca-s-420",
       "subject": "company",
@@ -28948,15 +27166,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-43.json",
-      "id": "topic:india:company-ca-s-43",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-430.json",
       "id": "topic:india:company-ca-s-430",
       "subject": "company",
@@ -29040,15 +27249,6 @@
     {
       "path": "topics/company/ca-s-439.json",
       "id": "topic:india:company-ca-s-439",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-44.json",
-      "id": "topic:india:company-ca-s-44",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -29164,15 +27364,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-45.json",
-      "id": "topic:india:company-ca-s-45",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-450.json",
       "id": "topic:india:company-ca-s-450",
       "subject": "company",
@@ -29256,15 +27447,6 @@
     {
       "path": "topics/company/ca-s-459.json",
       "id": "topic:india:company-ca-s-459",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-46.json",
-      "id": "topic:india:company-ca-s-46",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -29362,15 +27544,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-47.json",
-      "id": "topic:india:company-ca-s-47",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-470.json",
       "id": "topic:india:company-ca-s-470",
       "subject": "company",
@@ -29380,152 +27553,8 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-48.json",
-      "id": "topic:india:company-ca-s-48",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-49.json",
-      "id": "topic:india:company-ca-s-49",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-5.json",
-      "id": "topic:india:company-ca-s-5",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-50.json",
-      "id": "topic:india:company-ca-s-50",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-51.json",
-      "id": "topic:india:company-ca-s-51",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-52.json",
-      "id": "topic:india:company-ca-s-52",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-53.json",
-      "id": "topic:india:company-ca-s-53",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-54.json",
-      "id": "topic:india:company-ca-s-54",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-55.json",
-      "id": "topic:india:company-ca-s-55",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-56.json",
-      "id": "topic:india:company-ca-s-56",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-57.json",
-      "id": "topic:india:company-ca-s-57",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-58.json",
-      "id": "topic:india:company-ca-s-58",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-59.json",
-      "id": "topic:india:company-ca-s-59",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-6.json",
       "id": "topic:india:company-ca-s-6",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-60.json",
-      "id": "topic:india:company-ca-s-60",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-61.json",
-      "id": "topic:india:company-ca-s-61",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-62.json",
-      "id": "topic:india:company-ca-s-62",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -29589,15 +27618,6 @@
     {
       "path": "topics/company/ca-s-69.json",
       "id": "topic:india:company-ca-s-69",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-7.json",
-      "id": "topic:india:company-ca-s-7",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -29704,15 +27724,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-8.json",
-      "id": "topic:india:company-ca-s-8",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-80.json",
       "id": "topic:india:company-ca-s-80",
       "subject": "company",
@@ -29796,15 +27807,6 @@
     {
       "path": "topics/company/ca-s-89.json",
       "id": "topic:india:company-ca-s-89",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-9.json",
-      "id": "topic:india:company-ca-s-9",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -30226,30 +28228,12 @@
       "evidence": ""
     },
     {
-      "path": "topics/contract/ica-s-1-2.json",
-      "id": "topic:india:contract-ica-s-1-2",
-      "subject": "contract",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/contract/ica-s-10-12.json",
-      "id": "topic:india:contract-ica-s-10-12",
-      "subject": "contract",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
       "path": "topics/contract/ica-s-124-125.json",
       "id": "topic:india:contract-ica-s-124-125",
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30258,7 +28242,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30267,7 +28251,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30276,7 +28260,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30285,7 +28269,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30294,7 +28278,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30303,7 +28287,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30312,7 +28296,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30321,7 +28305,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30330,7 +28314,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30339,7 +28323,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30348,7 +28332,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30357,7 +28341,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30366,7 +28350,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30375,7 +28359,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verified; review status is expected until legal verification.",
+      "message": "Migrated topic has status published; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30384,7 +28368,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30393,7 +28377,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30402,7 +28386,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30411,7 +28395,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30420,7 +28404,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verified; review status is expected until legal verification.",
+      "message": "Migrated topic has status published; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30429,7 +28413,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verified; review status is expected until legal verification.",
+      "message": "Migrated topic has status published; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30438,7 +28422,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status verified; review status is expected until legal verification.",
+      "message": "Migrated topic has status published; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30465,7 +28449,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30474,7 +28458,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30483,7 +28467,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30492,7 +28476,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30501,7 +28485,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30510,7 +28494,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30519,7 +28503,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30528,7 +28512,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30537,7 +28521,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30546,7 +28530,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30555,7 +28539,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30564,7 +28548,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -30573,7 +28557,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -32998,255 +30982,336 @@
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-air-pollution.json",
-      "id": "topic:india:environment-env-air-pollution",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-certifying-authorities.json",
+      "id": "topic:india:cyber-cyber-certifying-authorities",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-biodiversity.json",
-      "id": "topic:india:environment-env-biodiversity",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-66b.json",
+      "id": "topic:india:cyber-cyber-it-s-66b",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-constitutional.json",
-      "id": "topic:india:environment-env-constitutional",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-66c.json",
+      "id": "topic:india:cyber-cyber-it-s-66c",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-eia.json",
-      "id": "topic:india:environment-env-eia",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-66d.json",
+      "id": "topic:india:cyber-cyber-it-s-66d",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-epa-sections.json",
-      "id": "topic:india:environment-env-epa-sections",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-66e.json",
+      "id": "topic:india:cyber-cyber-it-s-66e",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-forest-conservation.json",
-      "id": "topic:india:environment-env-forest-conservation",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-66f.json",
+      "id": "topic:india:cyber-cyber-it-s-66f",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-introduction.json",
-      "id": "topic:india:environment-env-introduction",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-67.json",
+      "id": "topic:india:cyber-cyber-it-s-67",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-judiciary.json",
-      "id": "topic:india:environment-env-judiciary",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-67a.json",
+      "id": "topic:india:cyber-cyber-it-s-67a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-ngt-act.json",
-      "id": "topic:india:environment-env-ngt-act",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-67b.json",
+      "id": "topic:india:cyber-cyber-it-s-67b",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-polluter-pays.json",
-      "id": "topic:india:environment-env-polluter-pays",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-69.json",
+      "id": "topic:india:cyber-cyber-it-s-69",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-precautionary.json",
-      "id": "topic:india:environment-env-precautionary",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-69a.json",
+      "id": "topic:india:cyber-cyber-it-s-69a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-protection-act.json",
-      "id": "topic:india:environment-env-protection-act",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-70.json",
+      "id": "topic:india:cyber-cyber-it-s-70",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-public-trust.json",
-      "id": "topic:india:environment-env-public-trust",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-70a.json",
+      "id": "topic:india:cyber-cyber-it-s-70a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-water-air-acts.json",
-      "id": "topic:india:environment-env-water-air-acts",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-70b.json",
+      "id": "topic:india:cyber-cyber-it-s-70b",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-water-pollution.json",
-      "id": "topic:india:environment-env-water-pollution",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-72.json",
+      "id": "topic:india:cyber-cyber-it-s-72",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/env-wildlife.json",
-      "id": "topic:india:environment-env-wildlife",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-72a.json",
+      "id": "topic:india:cyber-cyber-it-s-72a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-10.json",
-      "id": "topic:india:environment-epa-s-10",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-75.json",
+      "id": "topic:india:cyber-cyber-it-s-75",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-11.json",
-      "id": "topic:india:environment-epa-s-11",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-78.json",
+      "id": "topic:india:cyber-cyber-it-s-78",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-15.json",
-      "id": "topic:india:environment-epa-s-15",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-79.json",
+      "id": "topic:india:cyber-cyber-it-s-79",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-19.json",
-      "id": "topic:india:environment-epa-s-19",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-it-s-80.json",
+      "id": "topic:india:cyber-cyber-it-s-80",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-2.json",
-      "id": "topic:india:environment-epa-s-2",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-jurisdiction-investigation.json",
+      "id": "topic:india:cyber-cyber-jurisdiction-investigation",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-23.json",
-      "id": "topic:india:environment-epa-s-23",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-privacy.json",
+      "id": "topic:india:cyber-cyber-privacy",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-24.json",
-      "id": "topic:india:environment-epa-s-24",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/cyber-security.json",
+      "id": "topic:india:cyber-cyber-security",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-25.json",
-      "id": "topic:india:environment-epa-s-25",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/it-s-10a.json",
+      "id": "topic:india:cyber-it-s-10a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-3.json",
-      "id": "topic:india:environment-epa-s-3",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/it-s-2.json",
+      "id": "topic:india:cyber-it-s-2",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-4.json",
-      "id": "topic:india:environment-epa-s-4",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/it-s-3-3a.json",
+      "id": "topic:india:cyber-it-s-3-3a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-5.json",
-      "id": "topic:india:environment-epa-s-5",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/it-s-4.json",
+      "id": "topic:india:cyber-it-s-4",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
-      "path": "topics/environment/epa-s-6.json",
-      "id": "topic:india:environment-epa-s-6",
-      "subject": "environment",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
+      "path": "topics/cyber/it-s-43.json",
+      "id": "topic:india:cyber-it-s-43",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-43a.json",
+      "id": "topic:india:cyber-it-s-43a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-5-6.json",
+      "id": "topic:india:cyber-it-s-5-6",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-65.json",
+      "id": "topic:india:cyber-it-s-65",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-66.json",
+      "id": "topic:india:cyber-it-s-66",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-66a.json",
+      "id": "topic:india:cyber-it-s-66a",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-66e.json",
+      "id": "topic:india:cyber-it-s-66e",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-67.json",
+      "id": "topic:india:cyber-it-s-67",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-69.json",
+      "id": "topic:india:cyber-it-s-69",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/cyber/it-s-79.json",
+      "id": "topic:india:cyber-it-s-79",
+      "subject": "cyber",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -33991,105 +32056,6 @@
       "path": "topics/ethics/ethics-witnesses.json",
       "id": "topic:india:ethics-ethics-witnesses",
       "subject": "ethics",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/adoption-maintenance.json",
-      "id": "topic:india:family-adoption-maintenance",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/guardianship-minority.json",
-      "id": "topic:india:family-guardianship-minority",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/hindu-joint-family.json",
-      "id": "topic:india:family-hindu-joint-family",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/hindu-marriage.json",
-      "id": "topic:india:family-hindu-marriage",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/hindu-succession.json",
-      "id": "topic:india:family-hindu-succession",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/islamic-gift-hiba.json",
-      "id": "topic:india:family-islamic-gift-hiba",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/muslim-law.json",
-      "id": "topic:india:family-muslim-law",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/sources-schools.json",
-      "id": "topic:india:family-sources-schools",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/special-marriage.json",
-      "id": "topic:india:family-special-marriage",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/testamentary-succession.json",
-      "id": "topic:india:family-testamentary-succession",
-      "subject": "family",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/family/wakf-endowments.json",
-      "id": "topic:india:family-wakf-endowments",
-      "subject": "family",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",

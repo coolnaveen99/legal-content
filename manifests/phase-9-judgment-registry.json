@@ -1,209 +1,20 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 9 — Canonical Judgment Registry",
-  "generatedAt": "2026-10-08T05:44:34.035Z",
+  "generatedAt": "2026-10-08T11:24:36.135Z",
   "policy": [
     "Creates deterministic canonical judgment records from existing migrated case records.",
     "Preserves only information already present in canonical topic data; it does not invent facts, holdings, ratios, dates or paragraph references.",
     "New registry records remain review/pending verification until authoritative case-law verification is completed."
   ],
   "summary": {
-    "uniqueCases": 454,
+    "uniqueCases": 372,
     "created": 0,
-    "existing": 454,
-    "topicsLinked": 3097,
-    "conflicts": 106
+    "existing": 372,
+    "topicsLinked": 2829,
+    "conflicts": 78
   },
   "conflicts": [
-    {
-      "id": "judgment:india:tata-cellular-v-union-of-india-1994",
-      "name": "Tata Cellular v Union of India",
-      "citation": "(1994) 6 SCC 651",
-      "records": 8,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:state-of-uttar-pradesh-v-maharaja-dharmander-prasad-singh-1989",
-      "name": "State of Uttar Pradesh v Maharaja Dharmander Prasad Singh",
-      "citation": "(1989) 2 SCC 505",
-      "records": 8,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006",
-      "name": "State of Tamil Nadu v P. Krishnamurthy",
-      "citation": "(2006) 4 SCC 517",
-      "records": 8,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:maneka-gandhi-v-union-of-india-1978",
-      "name": "Maneka Gandhi v Union of India",
-      "citation": "(1978) 1 SCC 248",
-      "records": 4,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:a-k-kraipak-v-union-of-india-1969",
-      "name": "A.K. Kraipak v Union of India",
-      "citation": "(1969) 2 SCC 262",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
-      "name": "Kesavananda Bharati v State of Kerala",
-      "citation": "(1973) 4 SCC 225",
-      "records": 4,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:i-r-coelho-v-state-of-tamil-nadu-2007",
-      "name": "I.R. Coelho v State of Tamil Nadu",
-      "citation": "(2007) 2 SCC 1",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:in-re-delhi-laws-act-1912-1951",
-      "name": "In re Delhi Laws Act, 1912",
-      "citation": "AIR 1951 SC 332",
-      "records": 4,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955",
-      "name": "Ram Jawaya Kapur v State of Punjab",
-      "citation": "AIR 1955 SC 549",
-      "records": 4,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:tata-cellular-v-union-of-india-1994",
-      "name": "Tata Cellular v. Union of India",
-      "citation": "(1994) 6 SCC 651",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1993",
-      "name": "Nilabati Behera v State of Orissa",
-      "citation": "(1993) 2 SCC 746",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:rudul-sah-v-state-of-bihar-1983",
-      "name": "Rudul Sah v State of Bihar",
-      "citation": "(1983) 4 SCC 141",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:ajay-hasia-v-khalid-mujib-sehravardi-1981",
-      "name": "Ajay Hasia v. Khalid Mujib Sehravardi",
-      "citation": "(1981) 1 SCC 722",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
-      "name": "Kesavananda Bharati v. State of Kerala",
-      "citation": "(1973) 4 SCC 225",
-      "records": 429,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:smt-indira-nehru-gandhi-v-shri-raj-narain-1975",
-      "name": "Smt. Indira Nehru Gandhi v. Shri Raj Narain",
-      "citation": "1975 Supp SCC 1",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:i-r-coelho-dead-by-lrs-v-state-of-tamil-nadu-2007",
-      "name": "I.R. Coelho (Dead) by LRs. v. State of Tamil Nadu",
-      "citation": "(2007) 2 SCC 1",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:maneka-gandhi-1978",
-      "name": "Maneka Gandhi v. Union of India",
-      "citation": "(1978) 1 SCC 248",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985",
-      "name": "Indian Express Newspapers (Bombay) Pvt. Ltd. v. Union of India",
-      "citation": "(1985) 1 SCC 641",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006",
-      "name": "State of Tamil Nadu v. P. Krishnamurthy",
-      "citation": "(2006) 4 SCC 517",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989",
-      "name": "Asif Hameed v State of Jammu and Kashmir",
-      "citation": "Supp (2) SCC 364",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:rai-sahib-ram-jawaya-kapur-v-state-of-punjab-1955",
-      "name": "Rai Sahib Ram Jawaya Kapur v. State of Punjab",
-      "citation": "AIR 1955 SC 549; (1955) 2 SCR 225",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989",
-      "name": "Asif Hameed v. State of Jammu and Kashmir",
-      "citation": "1989 Supp (2) SCC 364",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:l-chandra-kumar-v-union-of-india-1997",
-      "name": "L. Chandra Kumar v. Union of India",
-      "citation": "(1997) 3 SCC 261",
-      "records": 7,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:union-of-india-v-madras-bar-association-2010",
-      "name": "Union of India v. Madras Bar Association",
-      "citation": "(2010) 11 SCC 1",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:rojer-mathew-v-south-indian-bank-ltd-2019",
-      "name": "Rojer Mathew v. South Indian Bank Ltd.",
-      "citation": "(2020) 6 SCC 1",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:vidya-drolia-v-durga-trading-corporation-2021",
-      "name": "Vidya Drolia v. Durga Trading Corporation",
-      "citation": "(2021) 2 SCC 1",
-      "records": 123,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:cox-and-kings-ltd-v-sap-india-pvt-ltd-2023",
-      "name": "Cox and Kings Ltd. v. SAP India Pvt. Ltd.",
-      "citation": "(2024) 4 SCC 1",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
     {
       "id": "judgment:india:regina-v-govinda-1876",
       "name": "Regina v. Govinda",
@@ -418,7 +229,7 @@
       "id": "judgment:india:anvar-p-v-v-p-k-basheer-2014",
       "name": "Anvar P.V. v. P.K. Basheer",
       "citation": "(2014) 10 SCC 473",
-      "records": 219,
+      "records": 203,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
@@ -457,6 +268,13 @@
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
+      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
+      "name": "Kesavananda Bharati v. State of Kerala",
+      "citation": "(1973) 4 SCC 225",
+      "records": 425,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
       "id": "judgment:india:minerva-mills-1980",
       "name": "Minerva Mills Ltd. v. Union of India",
       "citation": "(1980) 3 SCC 625",
@@ -471,10 +289,24 @@
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
+      "id": "judgment:india:ajay-hasia-v-khalid-mujib-sehravardi-1981",
+      "name": "Ajay Hasia v. Khalid Mujib Sehravardi",
+      "citation": "(1981) 1 SCC 722",
+      "records": 2,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
+      "id": "judgment:india:l-chandra-kumar-v-union-of-india-1997",
+      "name": "L. Chandra Kumar v. Union of India",
+      "citation": "(1997) 3 SCC 261",
+      "records": 4,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
       "id": "judgment:india:shayara-bano-v-union-of-india-2017",
       "name": "Shayara Bano v. Union of India",
       "citation": "(2017) 9 SCC 1",
-      "records": 4,
+      "records": 2,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
@@ -495,7 +327,7 @@
       "id": "judgment:india:shreya-singhal-v-union-of-india-2015",
       "name": "Shreya Singhal v. Union of India",
       "citation": "(2015) 5 SCC 1",
-      "records": 54,
+      "records": 38,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
@@ -506,10 +338,17 @@
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
+      "id": "judgment:india:maneka-gandhi-1978",
+      "name": "Maneka Gandhi v. Union of India",
+      "citation": "(1978) 1 SCC 248",
+      "records": 2,
+      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
+    },
+    {
       "id": "judgment:india:k-s-puttaswamy-v-union-of-india-2017",
       "name": "K.S. Puttaswamy v. Union of India",
       "citation": "(2017) 10 SCC 1",
-      "records": 55,
+      "records": 39,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
@@ -537,7 +376,7 @@
       "id": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984",
       "name": "Bandhua Mukti Morcha v. Union of India",
       "citation": "(1984) 3 SCC 161",
-      "records": 20,
+      "records": 2,
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
@@ -709,41 +548,6 @@
       "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
     },
     {
-      "id": "judgment:india:abhilasha-v-parkash-2020",
-      "name": "Abhilasha v. Parkash",
-      "citation": "2020 INSC 546",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:vineeta-sharma-v-rakesh-sharma-2020",
-      "name": "Vineeta Sharma v. Rakesh Sharma",
-      "citation": "(2020) 9 SCC 1",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:saroj-rani-v-sudarshan-kumar-chadha-1984",
-      "name": "Saroj Rani v. Sudarshan Kumar Chadha",
-      "citation": "AIR 1984 SC 1562",
-      "records": 2,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:amardeep-singh-v-harveen-kaur-2017",
-      "name": "Amardeep Singh v. Harveen Kaur",
-      "citation": "(2017) 8 SCC 746",
-      "records": 3,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
-      "id": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010",
-      "name": "State of Uttaranchal v. Balwant Singh Chaufal",
-      "citation": "(2010) 3 SCC 402",
-      "records": 19,
-      "message": "Repeated topic records contain differing metadata or analysis; authoritative reconciliation required."
-    },
-    {
       "id": "judgment:india:melepurath-sankunni-ezhuthassan-v-thekittil-geopalankutty-nair-1986",
       "name": "Melepurath Sankunni Ezhuthassan v Thekittil Geopalankutty Nair",
       "citation": "(1986) 1 SCC 118",
@@ -763,32 +567,32 @@
       "id": "judgment:india:tata-cellular-v-union-of-india-1994",
       "name": "Tata Cellular v Union of India",
       "citation": "(1994) 6 SCC 651",
-      "topicCount": 8,
-      "recordCount": 8,
+      "topicCount": 1,
+      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:state-of-uttar-pradesh-v-maharaja-dharmander-prasad-singh-1989",
       "name": "State of Uttar Pradesh v Maharaja Dharmander Prasad Singh",
       "citation": "(1989) 2 SCC 505",
-      "topicCount": 8,
-      "recordCount": 8,
+      "topicCount": 1,
+      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006",
       "name": "State of Tamil Nadu v P. Krishnamurthy",
       "citation": "(2006) 4 SCC 517",
-      "topicCount": 8,
-      "recordCount": 8,
+      "topicCount": 1,
+      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:maneka-gandhi-v-union-of-india-1978",
       "name": "Maneka Gandhi v Union of India",
       "citation": "(1978) 1 SCC 248",
-      "topicCount": 4,
-      "recordCount": 4,
+      "topicCount": 1,
+      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
@@ -803,494 +607,6 @@
       "id": "judgment:india:a-k-kraipak-v-union-of-india-1969",
       "name": "A.K. Kraipak v Union of India",
       "citation": "(1969) 2 SCC 262",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:state-of-karnataka-v-union-of-india-1977",
-      "name": "State of Karnataka v Union of India",
-      "citation": "(1977) 4 SCC 608",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:t-n-seshan-v-union-of-india-1995",
-      "name": "T. N. Seshan v Union of India",
-      "citation": "(1995) 4 SCC 611",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:p-sirajuddin-v-state-of-madras-1970",
-      "name": "P. Sirajuddin v State of Madras",
-      "citation": "(1970) 1 SCC 595",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
-      "name": "Kesavananda Bharati v State of Kerala",
-      "citation": "(1973) 4 SCC 225",
-      "topicCount": 4,
-      "recordCount": 4,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:minerva-mills-ltd-v-union-of-india-1980",
-      "name": "Minerva Mills Ltd. v Union of India",
-      "citation": "(1980) 3 SCC 625",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:i-r-coelho-v-state-of-tamil-nadu-2007",
-      "name": "I.R. Coelho v State of Tamil Nadu",
-      "citation": "(2007) 2 SCC 1",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:e-p-royappa-v-state-of-tamil-nadu-1974",
-      "name": "E.P. Royappa v State of Tamil Nadu",
-      "citation": "(1974) 4 SCC 3",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:ajay-hasia-v-khalid-mujib-sehravardi-1981",
-      "name": "Ajay Hasia v Khalid Mujib Sehravardi",
-      "citation": "(1981) 1 SCC 722",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:vineet-narain-v-union-of-india-1998",
-      "name": "Vineet Narain v Union of India",
-      "citation": "(1998) 1 SCC 226",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:centre-for-public-interest-litigation-v-union-of-india-2011",
-      "name": "Centre for Public Interest Litigation v Union of India",
-      "citation": "(2011) 4 SCC 1",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:prakash-singh-v-union-of-india-2006",
-      "name": "Prakash Singh v Union of India",
-      "citation": "(2006) 8 SCC 1",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:in-re-delhi-laws-act-1912-1951",
-      "name": "In re Delhi Laws Act, 1912",
-      "citation": "AIR 1951 SC 332",
-      "topicCount": 4,
-      "recordCount": 4,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:hamdard-dawakhana-wakf-lal-kuan-delhi-v-union-of-india-1960",
-      "name": "Hamdard Dawakhana (Wakf) Lal Kuan, Delhi v. Union of India",
-      "citation": "(1960) 2 SCR 671",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:gwalior-rayon-silk-mfg-wvg-co-ltd-v-assistant-commissioner-of-sales-tax-1974",
-      "name": "Gwalior Rayon Silk Mfg. (Wvg.) Co. Ltd. v. Assistant Commissioner of Sales Tax",
-      "citation": "(1974) 4 SCC 98",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955",
-      "name": "Ram Jawaya Kapur v State of Punjab",
-      "citation": "AIR 1955 SC 549",
-      "topicCount": 4,
-      "recordCount": 4,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:supreme-court-advocates-on-record-association-v-union-of-india-1993",
-      "name": "Supreme Court Advocates-on-Record Association v Union of India",
-      "citation": "(1993) 4 SCC 441",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:k-veeraswami-v-union-of-india-1991",
-      "name": "K. Veeraswami v Union of India",
-      "citation": "(1991) 3 SCC 655",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:c-ravichandran-iyer-v-a-m-bhattacharjee-1995",
-      "name": "C. Ravichandran Iyer v A.M. Bhattacharjee",
-      "citation": "(1995) 5 SCC 457",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:tata-cellular-v-union-of-india-1994",
-      "name": "Tata Cellular v. Union of India",
-      "citation": "(1994) 6 SCC 651",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:council-of-civil-service-unions-v-minister-for-the-civil-service-1984",
-      "name": "Council of Civil Service Unions v. Minister for the Civil Service",
-      "citation": "[1985] AC 374",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:state-of-uttar-pradesh-v-maharaja-dharmander-prasad-singh-1989",
-      "name": "State of Uttar Pradesh v. Maharaja Dharmander Prasad Singh",
-      "citation": "(1989) 2 SCC 505",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:union-of-india-v-hindustan-development-corporation-1993",
-      "name": "Union of India v. Hindustan Development Corporation",
-      "citation": "(1993) 3 SCC 499",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:food-corporation-of-india-v-m-s-kamdhenu-cattle-feed-industries-1993",
-      "name": "Food Corporation of India v. M/s Kamdhenu Cattle Feed Industries",
-      "citation": "(1993) 1 SCC 71",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:punjab-communications-ltd-v-union-of-india-1999",
-      "name": "Punjab Communications Ltd. v. Union of India",
-      "citation": "(1999) 4 SCC 727",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1993",
-      "name": "Nilabati Behera v State of Orissa",
-      "citation": "(1993) 2 SCC 746",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:rudul-sah-v-state-of-bihar-1983",
-      "name": "Rudul Sah v State of Bihar",
-      "citation": "(1983) 4 SCC 141",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:d-k-basu-v-state-of-west-bengal-1997",
-      "name": "D.K. Basu v State of West Bengal",
-      "citation": "(1997) 1 SCC 416",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:vineet-narain-v-union-of-india-1998",
-      "name": "Vineet Narain v. Union of India",
-      "citation": "(1998) 1 SCC 226",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:centre-for-public-interest-litigation-v-union-of-india-2011",
-      "name": "Centre for Public Interest Litigation v. Union of India",
-      "citation": "(2011) 4 SCC 1",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:lok-prahari-v-union-of-india-2018",
-      "name": "Lok Prahari v. Union of India",
-      "citation": "(2018) 4 SCC 699",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:union-of-india-v-indo-afghan-agencies-ltd-1968",
-      "name": "Union of India v. Indo-Afghan Agencies Ltd.",
-      "citation": "(1968) 2 SCR 366",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:motilal-padampat-sugar-mills-co-ltd-v-state-of-uttar-pradesh-1979",
-      "name": "Motilal Padampat Sugar Mills Co. Ltd. v. State of Uttar Pradesh",
-      "citation": "(1979) 2 SCC 409",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:kasinka-trading-v-union-of-india-1995",
-      "name": "Kasinka Trading v. Union of India",
-      "citation": "(1995) 1 SCC 274",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:cbse-v-aditya-bandopadhyay-2011",
-      "name": "CBSE v Aditya Bandopadhyay",
-      "citation": "(2011) 8 SCC 497",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:girish-ramchandra-deshpande-v-cic-2013",
-      "name": "Girish Ramchandra Deshpande v CIC",
-      "citation": "(2013) 1 SCC 212",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:cpio-v-subhash-chandra-agarwal-2019",
-      "name": "CPIO v Subhash Chandra Agarwal",
-      "citation": "(2020) 5 SCC 481",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:praga-tools-corporation-v-c-a-imanual-1969",
-      "name": "Praga Tools Corporation v. C.A. Imanual",
-      "citation": "(1969) 1 SCC 585",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:sukhdev-singh-v-bhagatram-sardar-singh-raghuvanshi-1975",
-      "name": "Sukhdev Singh v. Bhagatram Sardar Singh Raghuvanshi",
-      "citation": "(1975) 1 SCC 421",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:ajay-hasia-v-khalid-mujib-sehravardi-1981",
-      "name": "Ajay Hasia v. Khalid Mujib Sehravardi",
-      "citation": "(1981) 1 SCC 722",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
-      "name": "Kesavananda Bharati v. State of Kerala",
-      "citation": "(1973) 4 SCC 225",
-      "topicCount": 429,
-      "recordCount": 429,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:smt-indira-nehru-gandhi-v-shri-raj-narain-1975",
-      "name": "Smt. Indira Nehru Gandhi v. Shri Raj Narain",
-      "citation": "1975 Supp SCC 1",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:i-r-coelho-dead-by-lrs-v-state-of-tamil-nadu-2007",
-      "name": "I.R. Coelho (Dead) by LRs. v. State of Tamil Nadu",
-      "citation": "(2007) 2 SCC 1",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:indira-nehru-gandhi-v-raj-narain-1975",
-      "name": "Indira Nehru Gandhi v Raj Narain",
-      "citation": "Supp SCC 1 305",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:a-k-kraipak-v-union-of-india-1969",
-      "name": "A.K. Kraipak v. Union of India",
-      "citation": "(1969) 2 SCC 262",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:maneka-gandhi-1978",
-      "name": "Maneka Gandhi v. Union of India",
-      "citation": "(1978) 1 SCC 248",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:d-s-nakara-v-union-of-india-1983",
-      "name": "D.S. Nakara v Union of India",
-      "citation": "(1983) 1 SCC 305",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:olga-tellis-v-bombay-municipal-corporation-1985",
-      "name": "Olga Tellis v Bombay Municipal Corporation",
-      "citation": "(1985) 3 SCC 545",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985",
-      "name": "Indian Express Newspapers (Bombay) Pvt. Ltd. v. Union of India",
-      "citation": "(1985) 1 SCC 641",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006",
-      "name": "State of Tamil Nadu v. P. Krishnamurthy",
-      "citation": "(2006) 4 SCC 517",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:cellular-operators-association-of-india-v-telecom-regulatory-authority-of-india-2016",
-      "name": "Cellular Operators Association of India v. Telecom Regulatory Authority of India",
-      "citation": "(2016) 7 SCC 703",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:harishankar-bagla-v-state-of-madhya-pradesh-1954",
-      "name": "Harishankar Bagla v. State of Madhya Pradesh",
-      "citation": "AIR 1954 SC 465; (1955) 1 SCR 380",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989",
-      "name": "Asif Hameed v State of Jammu and Kashmir",
-      "citation": "Supp (2) SCC 364",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:rai-sahib-ram-jawaya-kapur-v-state-of-punjab-1955",
-      "name": "Rai Sahib Ram Jawaya Kapur v. State of Punjab",
-      "citation": "AIR 1955 SC 549; (1955) 2 SCR 225",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989",
-      "name": "Asif Hameed v. State of Jammu and Kashmir",
-      "citation": "1989 Supp (2) SCC 364",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:state-of-bihar-v-d-n-ganguly-1958",
-      "name": "State of Bihar v D.N. Ganguly",
-      "citation": "AIR 1958 SC 1018",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:l-chandra-kumar-v-union-of-india-1997",
-      "name": "L. Chandra Kumar v. Union of India",
-      "citation": "(1997) 3 SCC 261",
-      "topicCount": 7,
-      "recordCount": 7,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:union-of-india-v-madras-bar-association-2010",
-      "name": "Union of India v. Madras Bar Association",
-      "citation": "(2010) 11 SCC 1",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:rojer-mathew-v-south-indian-bank-ltd-2019",
-      "name": "Rojer Mathew v. South Indian Bank Ltd.",
-      "citation": "(2020) 6 SCC 1",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:l-chandra-kumar-v-union-of-india-1997",
-      "name": "L. Chandra Kumar v Union of India",
-      "citation": "(1997) 3 SCC 261",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:union-of-india-v-madras-bar-association-2010",
-      "name": "Union of India v Madras Bar Association",
-      "citation": "(2010) 11 SCC 1",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:rojer-mathew-v-south-indian-bank-ltd-2020",
-      "name": "Rojer Mathew v South Indian Bank Ltd.",
-      "citation": "(2020) 6 SCC 1",
       "topicCount": 1,
       "recordCount": 1,
       "verificationStatus": "pending"
@@ -1299,72 +615,24 @@
       "id": "judgment:india:vidya-drolia-v-durga-trading-corporation-2021",
       "name": "Vidya Drolia v. Durga Trading Corporation",
       "citation": "(2021) 2 SCC 1",
-      "topicCount": 123,
-      "recordCount": 123,
+      "topicCount": 38,
+      "recordCount": 38,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:perkins-eastman-architects-dpc-v-hscc-india-ltd-2020",
       "name": "Perkins Eastman Architects DPC v. HSCC (India) Ltd.",
       "citation": "(2020) 20 SCC 760",
-      "topicCount": 122,
-      "recordCount": 122,
+      "topicCount": 38,
+      "recordCount": 38,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:afcons-infrastructure-ltd-v-cherian-varkey-construction-co-p-ltd-2010",
       "name": "Afcons Infrastructure Ltd. v. Cherian Varkey Construction Co. (P) Ltd.",
       "citation": "(2010) 8 SCC 24",
-      "topicCount": 122,
-      "recordCount": 122,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:cox-and-kings-ltd-v-sap-india-pvt-ltd-2023",
-      "name": "Cox and Kings Ltd. v. SAP India Pvt. Ltd.",
-      "citation": "(2024) 4 SCC 1",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:pravin-electricals-p-ltd-v-galaxy-infra-and-engineering-p-ltd-2021",
-      "name": "Pravin Electricals (P) Ltd. v. Galaxy Infra & Engineering (P) Ltd.",
-      "citation": "(2021) 5 SCC 671",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:uttarakhand-purv-sainik-kalyan-nigam-ltd-v-northern-coal-field-ltd-2020",
-      "name": "Uttarakhand Purv Sainik Kalyan Nigam Ltd. v. Northern Coal Field Ltd.",
-      "citation": "(2020) 2 SCC 455",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:gayatri-balasamy-v-isg-novasoft-technologies-ltd-2025",
-      "name": "Gayatri Balasamy v. ISG Novasoft Technologies Ltd.",
-      "citation": "2025 INSC 605",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:associate-builders-v-delhi-development-authority-2014",
-      "name": "Associate Builders v. Delhi Development Authority",
-      "citation": "(2015) 3 SCC 49",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:ssangyong-engineering-and-construction-co-ltd-v-national-highways-authority-of-india-2019",
-      "name": "Ssangyong Engineering & Construction Co. Ltd. v. National Highways Authority of India",
-      "citation": "(2019) 15 SCC 131",
-      "topicCount": 1,
-      "recordCount": 1,
+      "topicCount": 38,
+      "recordCount": 38,
       "verificationStatus": "pending"
     },
     {
@@ -2195,8 +1463,8 @@
       "id": "judgment:india:anvar-p-v-v-p-k-basheer-2014",
       "name": "Anvar P.V. v. P.K. Basheer",
       "citation": "(2014) 10 SCC 473",
-      "topicCount": 219,
-      "recordCount": 219,
+      "topicCount": 203,
+      "recordCount": 203,
       "verificationStatus": "pending"
     },
     {
@@ -2339,32 +1607,32 @@
       "id": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897",
       "name": "Salomon v. A. Salomon & Co. Ltd.",
       "citation": "[1897] AC 22",
-      "topicCount": 561,
-      "recordCount": 561,
+      "topicCount": 508,
+      "recordCount": 508,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:foss-v-harbottle-1843",
       "name": "Foss v. Harbottle",
       "citation": "(1843) 2 Hare 461",
-      "topicCount": 561,
-      "recordCount": 561,
+      "topicCount": 508,
+      "recordCount": 508,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981",
       "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
       "citation": "(1981) 3 SCC 333",
-      "topicCount": 561,
-      "recordCount": 561,
+      "topicCount": 508,
+      "recordCount": 508,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997",
       "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
       "citation": "(1997) 1 SCC 579",
-      "topicCount": 561,
-      "recordCount": 561,
+      "topicCount": 508,
+      "recordCount": 508,
       "verificationStatus": "pending"
     },
     {
@@ -2381,6 +1649,14 @@
       "citation": "AIR 1967 SC 1643",
       "topicCount": 2,
       "recordCount": 2,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973",
+      "name": "Kesavananda Bharati v. State of Kerala",
+      "citation": "(1973) 4 SCC 225",
+      "topicCount": 425,
+      "recordCount": 425,
       "verificationStatus": "pending"
     },
     {
@@ -2413,6 +1689,14 @@
       "citation": "(1979) 3 SCC 489",
       "topicCount": 1,
       "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:ajay-hasia-v-khalid-mujib-sehravardi-1981",
+      "name": "Ajay Hasia v. Khalid Mujib Sehravardi",
+      "citation": "(1981) 1 SCC 722",
+      "topicCount": 2,
+      "recordCount": 2,
       "verificationStatus": "pending"
     },
     {
@@ -2464,11 +1748,19 @@
       "verificationStatus": "pending"
     },
     {
+      "id": "judgment:india:l-chandra-kumar-v-union-of-india-1997",
+      "name": "L. Chandra Kumar v. Union of India",
+      "citation": "(1997) 3 SCC 261",
+      "topicCount": 4,
+      "recordCount": 4,
+      "verificationStatus": "pending"
+    },
+    {
       "id": "judgment:india:shayara-bano-v-union-of-india-2017",
       "name": "Shayara Bano v. Union of India",
       "citation": "(2017) 9 SCC 1",
-      "topicCount": 4,
-      "recordCount": 4,
+      "topicCount": 2,
+      "recordCount": 2,
       "verificationStatus": "pending"
     },
     {
@@ -2515,8 +1807,8 @@
       "id": "judgment:india:shreya-singhal-v-union-of-india-2015",
       "name": "Shreya Singhal v. Union of India",
       "citation": "(2015) 5 SCC 1",
-      "topicCount": 54,
-      "recordCount": 54,
+      "topicCount": 38,
+      "recordCount": 38,
       "verificationStatus": "pending"
     },
     {
@@ -2568,11 +1860,19 @@
       "verificationStatus": "pending"
     },
     {
+      "id": "judgment:india:maneka-gandhi-1978",
+      "name": "Maneka Gandhi v. Union of India",
+      "citation": "(1978) 1 SCC 248",
+      "topicCount": 2,
+      "recordCount": 2,
+      "verificationStatus": "pending"
+    },
+    {
       "id": "judgment:india:k-s-puttaswamy-v-union-of-india-2017",
       "name": "K.S. Puttaswamy v. Union of India",
       "citation": "(2017) 10 SCC 1",
-      "topicCount": 55,
-      "recordCount": 55,
+      "topicCount": 39,
+      "recordCount": 39,
       "verificationStatus": "pending"
     },
     {
@@ -2715,8 +2015,8 @@
       "id": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984",
       "name": "Bandhua Mukti Morcha v. Union of India",
       "citation": "(1984) 3 SCC 161",
-      "topicCount": 20,
-      "recordCount": 20,
+      "topicCount": 2,
+      "recordCount": 2,
       "verificationStatus": "pending"
     },
     {
@@ -3587,24 +2887,24 @@
       "id": "judgment:india:m-c-mehta-v-union-of-india-1988",
       "name": "M.C. Mehta v. Union of India",
       "citation": "(1987) 1 SCC 395",
-      "topicCount": 31,
-      "recordCount": 31,
+      "topicCount": 3,
+      "recordCount": 3,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:vellore-citizens-welfare-forum-v-union-of-india-1996",
       "name": "Vellore Citizens Welfare Forum v. Union of India",
       "citation": "(1996) 5 SCC 647",
-      "topicCount": 31,
-      "recordCount": 31,
+      "topicCount": 3,
+      "recordCount": 3,
       "verificationStatus": "pending"
     },
     {
       "id": "judgment:india:m-c-mehta-v-kamal-nath-1997",
       "name": "M.C. Mehta v. Kamal Nath",
       "citation": "(1997) 1 SCC 388",
-      "topicCount": 31,
-      "recordCount": 31,
+      "topicCount": 3,
+      "recordCount": 3,
       "verificationStatus": "pending"
     },
     {
@@ -3621,166 +2921,6 @@
       "citation": "(2003) 2 SCC 45",
       "topicCount": 80,
       "recordCount": 80,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:shamim-ara-v-state-of-u-p-2002",
-      "name": "Shamim Ara v. State of U.P.",
-      "citation": "(2002) 7 SCC 518",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:sawan-ram-v-kalawanti-1967",
-      "name": "Sawan Ram v. Kalawanti",
-      "citation": "AIR 1967 SC 1761",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:abhilasha-v-parkash-2020",
-      "name": "Abhilasha v. Parkash",
-      "citation": "2020 INSC 546",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:kulbhushan-kumar-v-raj-kumari-1970",
-      "name": "Kulbhushan Kumar v. Raj Kumari",
-      "citation": "(1970) 3 SCC 15",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:ghisalal-v-dhapubai-2011",
-      "name": "Ghisalal v. Dhapubai",
-      "citation": "(2011) 2 SCC 298",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:vineeta-sharma-v-rakesh-sharma-2020",
-      "name": "Vineeta Sharma v. Rakesh Sharma",
-      "citation": "(2020) 9 SCC 1",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:saroj-rani-v-sudarshan-kumar-chadha-1984",
-      "name": "Saroj Rani v. Sudarshan Kumar Chadha",
-      "citation": "AIR 1984 SC 1562",
-      "topicCount": 2,
-      "recordCount": 2,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:amardeep-singh-v-harveen-kaur-2017",
-      "name": "Amardeep Singh v. Harveen Kaur",
-      "citation": "(2017) 8 SCC 746",
-      "topicCount": 3,
-      "recordCount": 3,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:naveen-kohli-v-neelu-kohli-2006",
-      "name": "Naveen Kohli v. Neelu Kohli",
-      "citation": "(2006) 4 SCC 558",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:sarla-mudgal-v-union-of-india-1995",
-      "name": "Sarla Mudgal v. Union of India",
-      "citation": "(1995) 3 SCC 635",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:nil-ratan-kundu-v-abhijit-kundu-2008",
-      "name": "Nil Ratan Kundu v. Abhijit Kundu",
-      "citation": "(2008) 9 SCC 413",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:githa-hariharan-v-reserve-bank-of-india-1999",
-      "name": "Githa Hariharan v. Reserve Bank of India",
-      "citation": "(1999) 2 SCC 228",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:sarojamma-v-neelamma-2006",
-      "name": "Sarojamma v. Neelamma",
-      "citation": "(2006) 9 SCC 680",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:v-tulasamma-v-sesha-reddy-1977",
-      "name": "V. Tulasamma v. Sesha Reddy",
-      "citation": "(1977) 3 SCC 99",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:arunachala-gounder-v-ponnusamy-2022",
-      "name": "Arunachala Gounder v. Ponnusamy",
-      "citation": "2022 INSC 74",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:rani-purnima-debi-v-kumar-khagendra-narayan-deb-1962",
-      "name": "Rani Purnima Debi v. Kumar Khagendra Narayan Deb",
-      "citation": "AIR 1962 SC 567",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:commissioner-of-wealth-tax-v-chander-sen-1986",
-      "name": "Commissioner of Wealth Tax v. Chander Sen",
-      "citation": "(1986) 3 SCC 567",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:danial-latifi-v-union-of-india-2001",
-      "name": "Danial Latifi v. Union of India",
-      "citation": "(2001) 7 SCC 740",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:samar-ghosh-v-jaya-ghosh-2007",
-      "name": "Samar Ghosh v. Jaya Ghosh",
-      "citation": "(2007) 4 SCC 511",
-      "topicCount": 1,
-      "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:seema-v-ashwani-kumar-2006",
-      "name": "Seema v. Ashwani Kumar",
-      "citation": "(2006) 2 SCC 578",
-      "topicCount": 1,
-      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
@@ -3923,8 +3063,8 @@
       "id": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010",
       "name": "State of Uttaranchal v. Balwant Singh Chaufal",
       "citation": "(2010) 3 SCC 402",
-      "topicCount": 19,
-      "recordCount": 19,
+      "topicCount": 1,
+      "recordCount": 1,
       "verificationStatus": "pending"
     },
     {
@@ -3949,14 +3089,6 @@
       "citation": "AIR 1964 SC 538",
       "topicCount": 1,
       "recordCount": 1,
-      "verificationStatus": "pending"
-    },
-    {
-      "id": "judgment:india:s-p-gupta-v-union-of-india-1981",
-      "name": "S.P. Gupta v. Union of India",
-      "citation": "1981 Supp SCC 87",
-      "topicCount": 18,
-      "recordCount": 18,
       "verificationStatus": "pending"
     },
     {
@@ -4072,6 +3204,14 @@
       "verificationStatus": "pending"
     },
     {
+      "id": "judgment:india:nilabati-behera-v-state-of-orissa-1993",
+      "name": "Nilabati Behera v State of Orissa",
+      "citation": "(1993) 2 SCC 746",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
       "id": "judgment:india:quinn-v-leathem-1901",
       "name": "Quinn v Leathem",
       "citation": "[1901] AC 495",
@@ -4179,6 +3319,14 @@
       "id": "judgment:india:bird-v-jones-1845",
       "name": "Bird v Jones",
       "citation": "(1845) 7 QB 742",
+      "topicCount": 1,
+      "recordCount": 1,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "judgment:india:rudul-sah-v-state-of-bihar-1983",
+      "name": "Rudul Sah v State of Bihar",
+      "citation": "(1983) 4 SCC 141",
       "topicCount": 1,
       "recordCount": 1,
       "verificationStatus": "pending"

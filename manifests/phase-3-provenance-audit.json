@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 3 — Source & legal provenance verification",
-  "generatedAt": "2026-10-08T05:44:31.649Z",
+  "generatedAt": "2026-10-08T11:24:32.520Z",
   "scope": {
-    "migratedTopics": 3548,
+    "migratedTopics": 3337,
     "canonicalSourceEntities": 33
   },
   "policy": [
@@ -14,19 +14,19 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "mappedTopics": 1599,
-    "sourceGapTopics": 1949
+    "mappedTopics": 1538,
+    "sourceGapTopics": 1799
   },
   "bySubject": {
     "admin": {
-      "topics": 41,
+      "topics": 2,
       "mapped": 0,
-      "unmapped": 41
+      "unmapped": 2
     },
     "arbitration": {
-      "topics": 125,
+      "topics": 106,
       "mapped": 0,
-      "unmapped": 125
+      "unmapped": 106
     },
     "bns": {
       "topics": 368,
@@ -44,9 +44,9 @@
       "unmapped": 177
     },
     "company": {
-      "topics": 561,
+      "topics": 508,
       "mapped": 0,
-      "unmapped": 561
+      "unmapped": 508
     },
     "constitution": {
       "topics": 522,
@@ -64,24 +64,19 @@
       "unmapped": 235
     },
     "cyber": {
-      "topics": 53,
-      "mapped": 53,
+      "topics": 37,
+      "mapped": 37,
       "unmapped": 0
     },
     "environment": {
-      "topics": 31,
+      "topics": 3,
       "mapped": 0,
-      "unmapped": 31
+      "unmapped": 3
     },
     "ethics": {
       "topics": 80,
       "mapped": 0,
       "unmapped": 80
-    },
-    "family": {
-      "topics": 38,
-      "mapped": 27,
-      "unmapped": 11
     },
     "ipr": {
       "topics": 63,
@@ -101,11 +96,6 @@
     "petition-formats": {
       "topics": 8,
       "mapped": 8,
-      "unmapped": 0
-    },
-    "pil": {
-      "topics": 18,
-      "mapped": 18,
       "unmapped": 0
     },
     "taxation": {
@@ -139,368 +129,8 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "admin/admin-citizen-faults",
-      "canonicalPath": "topics/admin/admin-citizen-faults.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-civil-services",
-      "canonicalPath": "topics/admin/admin-civil-services.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-commission-inquiry",
-      "canonicalPath": "topics/admin/admin-commission-inquiry.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-constitutional-foundations",
-      "canonicalPath": "topics/admin/admin-constitutional-foundations.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-constitutional-interface",
-      "canonicalPath": "topics/admin/admin-constitutional-interface.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-cvc",
-      "canonicalPath": "topics/admin/admin-cvc.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-delegated-legislation",
-      "canonicalPath": "topics/admin/admin-delegated-legislation.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-functions",
-      "canonicalPath": "topics/admin/admin-functions.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-good-governance",
-      "canonicalPath": "topics/admin/admin-good-governance.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-international",
-      "canonicalPath": "topics/admin/admin-international.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-introduction",
-      "canonicalPath": "topics/admin/admin-introduction.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-judicial-accountability",
-      "canonicalPath": "topics/admin/admin-judicial-accountability.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-judicial-review",
-      "canonicalPath": "topics/admin/admin-judicial-review.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-legitimate-expectation",
-      "canonicalPath": "topics/admin/admin-legitimate-expectation.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-liability",
-      "canonicalPath": "topics/admin/admin-liability.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-ombudsman",
-      "canonicalPath": "topics/admin/admin-ombudsman.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-promissory-estoppel",
-      "canonicalPath": "topics/admin/admin-promissory-estoppel.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-proportionality",
-      "canonicalPath": "topics/admin/admin-proportionality.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-public-corporations",
-      "canonicalPath": "topics/admin/admin-public-corporations.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rti-transparency",
-      "canonicalPath": "topics/admin/admin-rti-transparency.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rule-of-law-constitutional",
-      "canonicalPath": "topics/admin/admin-rule-of-law-constitutional.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rule-of-law-dicey",
-      "canonicalPath": "topics/admin/admin-rule-of-law-dicey.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rule-of-law-formal-ideological",
-      "canonicalPath": "topics/admin/admin-rule-of-law-formal-ideological.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rule-of-law-mixed-economy",
-      "canonicalPath": "topics/admin/admin-rule-of-law-mixed-economy.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rule-of-law-welfare",
-      "canonicalPath": "topics/admin/admin-rule-of-law-welfare.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rulemaking-control",
-      "canonicalPath": "topics/admin/admin-rulemaking-control.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rulemaking-limits",
-      "canonicalPath": "topics/admin/admin-rulemaking-limits.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-rulemaking-source",
-      "canonicalPath": "topics/admin/admin-rulemaking-source.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-separation-cases",
-      "canonicalPath": "topics/admin/admin-separation-cases.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-separation-comparative",
-      "canonicalPath": "topics/admin/admin-separation-comparative.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-separation-montesquieu",
-      "canonicalPath": "topics/admin/admin-separation-montesquieu.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-separation-powers",
-      "canonicalPath": "topics/admin/admin-separation-powers.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-sources",
-      "canonicalPath": "topics/admin/admin-sources.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-tribunals-advantages",
-      "canonicalPath": "topics/admin/admin-tribunals-advantages.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-tribunals-features",
-      "canonicalPath": "topics/admin/admin-tribunals-features.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-tribunals-growth",
-      "canonicalPath": "topics/admin/admin-tribunals-growth.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-tribunals-structure",
-      "canonicalPath": "topics/admin/admin-tribunals-structure.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-ultra-vires",
-      "canonicalPath": "topics/admin/admin-ultra-vires.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "admin/admin-writ-remedies",
-      "canonicalPath": "topics/admin/admin-writ-remedies.json",
-      "subject": "admin",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "arbitration/aca-s-1",
       "canonicalPath": "topics/arbitration/aca-s-1.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-10",
-      "canonicalPath": "topics/arbitration/aca-s-10.json",
       "subject": "arbitration",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -517,71 +147,8 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "arbitration/aca-s-12",
-      "canonicalPath": "topics/arbitration/aca-s-12.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-13",
-      "canonicalPath": "topics/arbitration/aca-s-13.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-14",
-      "canonicalPath": "topics/arbitration/aca-s-14.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-15",
-      "canonicalPath": "topics/arbitration/aca-s-15.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "arbitration/aca-s-16",
       "canonicalPath": "topics/arbitration/aca-s-16.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-17",
-      "canonicalPath": "topics/arbitration/aca-s-17.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-18",
-      "canonicalPath": "topics/arbitration/aca-s-18.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-19",
-      "canonicalPath": "topics/arbitration/aca-s-19.json",
       "subject": "arbitration",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -598,89 +165,8 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "arbitration/aca-s-20",
-      "canonicalPath": "topics/arbitration/aca-s-20.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-21",
-      "canonicalPath": "topics/arbitration/aca-s-21.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-22",
-      "canonicalPath": "topics/arbitration/aca-s-22.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-23",
-      "canonicalPath": "topics/arbitration/aca-s-23.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-24",
-      "canonicalPath": "topics/arbitration/aca-s-24.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-25",
-      "canonicalPath": "topics/arbitration/aca-s-25.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "arbitration/aca-s-26",
       "canonicalPath": "topics/arbitration/aca-s-26.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-27",
-      "canonicalPath": "topics/arbitration/aca-s-27.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-28",
-      "canonicalPath": "topics/arbitration/aca-s-28.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-29",
-      "canonicalPath": "topics/arbitration/aca-s-29.json",
       "subject": "arbitration",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -708,24 +194,6 @@
     {
       "legacyPath": "arbitration/aca-s-3",
       "canonicalPath": "topics/arbitration/aca-s-3.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-30",
-      "canonicalPath": "topics/arbitration/aca-s-30.json",
-      "subject": "arbitration",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "arbitration/aca-s-31",
-      "canonicalPath": "topics/arbitration/aca-s-31.json",
       "subject": "arbitration",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -13579,24 +13047,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-1",
-      "canonicalPath": "topics/company/ca-s-1.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-10",
-      "canonicalPath": "topics/company/ca-s-10.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-100",
       "canonicalPath": "topics/company/ca-s-100.json",
       "subject": "company",
@@ -13687,24 +13137,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-10a",
-      "canonicalPath": "topics/company/ca-s-10a.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-11",
-      "canonicalPath": "topics/company/ca-s-11.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-110",
       "canonicalPath": "topics/company/ca-s-110.json",
       "subject": "company",
@@ -13788,24 +13220,6 @@
     {
       "legacyPath": "company/ca-s-119",
       "canonicalPath": "topics/company/ca-s-119.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-12-14",
-      "canonicalPath": "topics/company/ca-s-12-14.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-12",
-      "canonicalPath": "topics/company/ca-s-12.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -13912,15 +13326,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-13",
-      "canonicalPath": "topics/company/ca-s-13.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-130",
       "canonicalPath": "topics/company/ca-s-130.json",
       "subject": "company",
@@ -14004,15 +13409,6 @@
     {
       "legacyPath": "company/ca-s-139",
       "canonicalPath": "topics/company/ca-s-139.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-14",
-      "canonicalPath": "topics/company/ca-s-14.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -14110,15 +13506,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-15",
-      "canonicalPath": "topics/company/ca-s-15.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-150",
       "canonicalPath": "topics/company/ca-s-150.json",
       "subject": "company",
@@ -14202,15 +13589,6 @@
     {
       "legacyPath": "company/ca-s-159",
       "canonicalPath": "topics/company/ca-s-159.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-16",
-      "canonicalPath": "topics/company/ca-s-16.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -14911,15 +14289,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-23",
-      "canonicalPath": "topics/company/ca-s-23.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-230",
       "canonicalPath": "topics/company/ca-s-230.json",
       "subject": "company",
@@ -15010,15 +14379,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-24",
-      "canonicalPath": "topics/company/ca-s-24.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-240",
       "canonicalPath": "topics/company/ca-s-240.json",
       "subject": "company",
@@ -15093,15 +14453,6 @@
     {
       "legacyPath": "company/ca-s-249",
       "canonicalPath": "topics/company/ca-s-249.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-25",
-      "canonicalPath": "topics/company/ca-s-25.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -15199,15 +14550,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-26",
-      "canonicalPath": "topics/company/ca-s-26.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-260",
       "canonicalPath": "topics/company/ca-s-260.json",
       "subject": "company",
@@ -15291,15 +14633,6 @@
     {
       "legacyPath": "company/ca-s-269",
       "canonicalPath": "topics/company/ca-s-269.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-27",
-      "canonicalPath": "topics/company/ca-s-27.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -15397,15 +14730,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-28",
-      "canonicalPath": "topics/company/ca-s-28.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-280",
       "canonicalPath": "topics/company/ca-s-280.json",
       "subject": "company",
@@ -15489,15 +14813,6 @@
     {
       "legacyPath": "company/ca-s-289",
       "canonicalPath": "topics/company/ca-s-289.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-29",
-      "canonicalPath": "topics/company/ca-s-29.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -15595,24 +14910,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-3",
-      "canonicalPath": "topics/company/ca-s-3.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-30",
-      "canonicalPath": "topics/company/ca-s-30.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-300",
       "canonicalPath": "topics/company/ca-s-300.json",
       "subject": "company",
@@ -15696,15 +14993,6 @@
     {
       "legacyPath": "company/ca-s-309",
       "canonicalPath": "topics/company/ca-s-309.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-31",
-      "canonicalPath": "topics/company/ca-s-31.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -15802,15 +15090,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-32",
-      "canonicalPath": "topics/company/ca-s-32.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-320",
       "canonicalPath": "topics/company/ca-s-320.json",
       "subject": "company",
@@ -15894,15 +15173,6 @@
     {
       "legacyPath": "company/ca-s-329",
       "canonicalPath": "topics/company/ca-s-329.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-33",
-      "canonicalPath": "topics/company/ca-s-33.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -16000,15 +15270,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-34",
-      "canonicalPath": "topics/company/ca-s-34.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-340",
       "canonicalPath": "topics/company/ca-s-340.json",
       "subject": "company",
@@ -16092,15 +15353,6 @@
     {
       "legacyPath": "company/ca-s-349",
       "canonicalPath": "topics/company/ca-s-349.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-35",
-      "canonicalPath": "topics/company/ca-s-35.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -16198,15 +15450,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-36",
-      "canonicalPath": "topics/company/ca-s-36.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-360",
       "canonicalPath": "topics/company/ca-s-360.json",
       "subject": "company",
@@ -16290,15 +15533,6 @@
     {
       "legacyPath": "company/ca-s-369",
       "canonicalPath": "topics/company/ca-s-369.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-37",
-      "canonicalPath": "topics/company/ca-s-37.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -16819,15 +16053,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-38",
-      "canonicalPath": "topics/company/ca-s-38.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-380",
       "canonicalPath": "topics/company/ca-s-380.json",
       "subject": "company",
@@ -17028,15 +16253,6 @@
     {
       "legacyPath": "company/ca-s-3a",
       "canonicalPath": "topics/company/ca-s-3a.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-4",
-      "canonicalPath": "topics/company/ca-s-4.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -17251,15 +16467,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-42",
-      "canonicalPath": "topics/company/ca-s-42.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-420",
       "canonicalPath": "topics/company/ca-s-420.json",
       "subject": "company",
@@ -17350,15 +16557,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-43",
-      "canonicalPath": "topics/company/ca-s-43.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-430",
       "canonicalPath": "topics/company/ca-s-430.json",
       "subject": "company",
@@ -17442,15 +16640,6 @@
     {
       "legacyPath": "company/ca-s-439",
       "canonicalPath": "topics/company/ca-s-439.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-44",
-      "canonicalPath": "topics/company/ca-s-44.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -17566,15 +16755,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-45",
-      "canonicalPath": "topics/company/ca-s-45.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-450",
       "canonicalPath": "topics/company/ca-s-450.json",
       "subject": "company",
@@ -17658,15 +16838,6 @@
     {
       "legacyPath": "company/ca-s-459",
       "canonicalPath": "topics/company/ca-s-459.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-46",
-      "canonicalPath": "topics/company/ca-s-46.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -17764,15 +16935,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-47",
-      "canonicalPath": "topics/company/ca-s-47.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-470",
       "canonicalPath": "topics/company/ca-s-470.json",
       "subject": "company",
@@ -17782,152 +16944,8 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-48",
-      "canonicalPath": "topics/company/ca-s-48.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-49",
-      "canonicalPath": "topics/company/ca-s-49.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-5",
-      "canonicalPath": "topics/company/ca-s-5.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-50",
-      "canonicalPath": "topics/company/ca-s-50.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-51",
-      "canonicalPath": "topics/company/ca-s-51.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-52",
-      "canonicalPath": "topics/company/ca-s-52.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-53",
-      "canonicalPath": "topics/company/ca-s-53.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-54",
-      "canonicalPath": "topics/company/ca-s-54.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-55",
-      "canonicalPath": "topics/company/ca-s-55.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-56",
-      "canonicalPath": "topics/company/ca-s-56.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-57",
-      "canonicalPath": "topics/company/ca-s-57.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-58",
-      "canonicalPath": "topics/company/ca-s-58.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-59",
-      "canonicalPath": "topics/company/ca-s-59.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-6",
       "canonicalPath": "topics/company/ca-s-6.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-60",
-      "canonicalPath": "topics/company/ca-s-60.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-61",
-      "canonicalPath": "topics/company/ca-s-61.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-62",
-      "canonicalPath": "topics/company/ca-s-62.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -17991,15 +17009,6 @@
     {
       "legacyPath": "company/ca-s-69",
       "canonicalPath": "topics/company/ca-s-69.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-7",
-      "canonicalPath": "topics/company/ca-s-7.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -18106,15 +17115,6 @@
       "needsSourceRecord": true
     },
     {
-      "legacyPath": "company/ca-s-8",
-      "canonicalPath": "topics/company/ca-s-8.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
       "legacyPath": "company/ca-s-80",
       "canonicalPath": "topics/company/ca-s-80.json",
       "subject": "company",
@@ -18198,15 +17198,6 @@
     {
       "legacyPath": "company/ca-s-89",
       "canonicalPath": "topics/company/ca-s-89.json",
-      "subject": "company",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "company/ca-s-9",
-      "canonicalPath": "topics/company/ca-s-9.json",
       "subject": "company",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
@@ -30532,246 +29523,6 @@
       "needsSourceRecord": false
     },
     {
-      "legacyPath": "cyber/cyber-crimes",
-      "canonicalPath": "topics/cyber/cyber-crimes.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-data-protection",
-      "canonicalPath": "topics/cyber/cyber-data-protection.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-electronic-evidence",
-      "canonicalPath": "topics/cyber/cyber-electronic-evidence.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-introduction",
-      "canonicalPath": "topics/cyber/cyber-introduction.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-10a",
-      "canonicalPath": "topics/cyber/cyber-it-s-10a.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-2",
-      "canonicalPath": "topics/cyber/cyber-it-s-2.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-3",
-      "canonicalPath": "topics/cyber/cyber-it-s-3.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-3a",
-      "canonicalPath": "topics/cyber/cyber-it-s-3a.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-4",
-      "canonicalPath": "topics/cyber/cyber-it-s-4.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-43",
-      "canonicalPath": "topics/cyber/cyber-it-s-43.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-43a",
-      "canonicalPath": "topics/cyber/cyber-it-s-43a.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-5",
-      "canonicalPath": "topics/cyber/cyber-it-s-5.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-6",
-      "canonicalPath": "topics/cyber/cyber-it-s-6.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-65",
-      "canonicalPath": "topics/cyber/cyber-it-s-65.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-66",
-      "canonicalPath": "topics/cyber/cyber-it-s-66.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "cyber/cyber-it-s-66a",
-      "canonicalPath": "topics/cyber/cyber-it-s-66a.json",
-      "subject": "cyber",
-      "candidateSourceIds": [
-        "source:india:india-code-it-2000"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-it-2000.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
       "legacyPath": "cyber/cyber-it-s-66b",
       "canonicalPath": "topics/cyber/cyber-it-s-66b.json",
       "subject": "cyber",
@@ -31310,258 +30061,6 @@
         null
       ],
       "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "environment/env-air-pollution",
-      "canonicalPath": "topics/environment/env-air-pollution.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-biodiversity",
-      "canonicalPath": "topics/environment/env-biodiversity.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-constitutional",
-      "canonicalPath": "topics/environment/env-constitutional.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-eia",
-      "canonicalPath": "topics/environment/env-eia.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-epa-sections",
-      "canonicalPath": "topics/environment/env-epa-sections.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-forest-conservation",
-      "canonicalPath": "topics/environment/env-forest-conservation.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-introduction",
-      "canonicalPath": "topics/environment/env-introduction.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-judiciary",
-      "canonicalPath": "topics/environment/env-judiciary.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-ngt-act",
-      "canonicalPath": "topics/environment/env-ngt-act.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-polluter-pays",
-      "canonicalPath": "topics/environment/env-polluter-pays.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-precautionary",
-      "canonicalPath": "topics/environment/env-precautionary.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-protection-act",
-      "canonicalPath": "topics/environment/env-protection-act.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-public-trust",
-      "canonicalPath": "topics/environment/env-public-trust.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-water-air-acts",
-      "canonicalPath": "topics/environment/env-water-air-acts.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-water-pollution",
-      "canonicalPath": "topics/environment/env-water-pollution.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/env-wildlife",
-      "canonicalPath": "topics/environment/env-wildlife.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-10",
-      "canonicalPath": "topics/environment/epa-s-10.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-11",
-      "canonicalPath": "topics/environment/epa-s-11.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-15",
-      "canonicalPath": "topics/environment/epa-s-15.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-19",
-      "canonicalPath": "topics/environment/epa-s-19.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-2",
-      "canonicalPath": "topics/environment/epa-s-2.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-23",
-      "canonicalPath": "topics/environment/epa-s-23.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-24",
-      "canonicalPath": "topics/environment/epa-s-24.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-25",
-      "canonicalPath": "topics/environment/epa-s-25.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-3",
-      "canonicalPath": "topics/environment/epa-s-3.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-4",
-      "canonicalPath": "topics/environment/epa-s-4.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-5",
-      "canonicalPath": "topics/environment/epa-s-5.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "environment/epa-s-6",
-      "canonicalPath": "topics/environment/epa-s-6.json",
-      "subject": "environment",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
     },
     {
       "legacyPath": "environment/epa-s-7",
@@ -32305,510 +30804,6 @@
       "legacyPath": "ethics/ethics-witnesses",
       "canonicalPath": "topics/ethics/ethics-witnesses.json",
       "subject": "ethics",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/adoption-maintenance",
-      "canonicalPath": "topics/family/adoption-maintenance.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/dmma-s-2",
-      "canonicalPath": "topics/family/dmma-s-2.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-dmma-1939"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-dmma-1939.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/guardianship-minority",
-      "canonicalPath": "topics/family/guardianship-minority.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/hama-s-12",
-      "canonicalPath": "topics/family/hama-s-12.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hama-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hama-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hama-s-18",
-      "canonicalPath": "topics/family/hama-s-18.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hama-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hama-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hama-s-19",
-      "canonicalPath": "topics/family/hama-s-19.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hama-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hama-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hama-s-20",
-      "canonicalPath": "topics/family/hama-s-20.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hama-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hama-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hama-s-6",
-      "canonicalPath": "topics/family/hama-s-6.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hama-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hama-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hindu-joint-family",
-      "canonicalPath": "topics/family/hindu-joint-family.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/hindu-marriage",
-      "canonicalPath": "topics/family/hindu-marriage.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/hindu-succession",
-      "canonicalPath": "topics/family/hindu-succession.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/hma-s-11",
-      "canonicalPath": "topics/family/hma-s-11.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-12",
-      "canonicalPath": "topics/family/hma-s-12.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-13",
-      "canonicalPath": "topics/family/hma-s-13.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-13b",
-      "canonicalPath": "topics/family/hma-s-13b.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-24",
-      "canonicalPath": "topics/family/hma-s-24.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-25",
-      "canonicalPath": "topics/family/hma-s-25.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-5",
-      "canonicalPath": "topics/family/hma-s-5.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hma-s-9",
-      "canonicalPath": "topics/family/hma-s-9.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hma-1955"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hma-1955.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hmga-s-13",
-      "canonicalPath": "topics/family/hmga-s-13.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hmga-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hmga-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hmga-s-6",
-      "canonicalPath": "topics/family/hmga-s-6.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hmga-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hmga-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hmga-s-8",
-      "canonicalPath": "topics/family/hmga-s-8.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hmga-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hmga-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hsa-s-14",
-      "canonicalPath": "topics/family/hsa-s-14.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hsa-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hsa-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hsa-s-15",
-      "canonicalPath": "topics/family/hsa-s-15.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hsa-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hsa-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hsa-s-30",
-      "canonicalPath": "topics/family/hsa-s-30.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hsa-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hsa-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hsa-s-6",
-      "canonicalPath": "topics/family/hsa-s-6.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hsa-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hsa-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/hsa-s-8",
-      "canonicalPath": "topics/family/hsa-s-8.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-hsa-1956"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-hsa-1956.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/islamic-gift-hiba",
-      "canonicalPath": "topics/family/islamic-gift-hiba.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/mpl-shariat-s-2",
-      "canonicalPath": "topics/family/mpl-shariat-s-2.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-mpl-shariat-1937"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-mpl-shariat-1937.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/muslim-law",
-      "canonicalPath": "topics/family/muslim-law.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/mwa-s-3",
-      "canonicalPath": "topics/family/mwa-s-3.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-mwa-1874"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-mwa-1874.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/sma-s-27",
-      "canonicalPath": "topics/family/sma-s-27.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-sma-1954"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-sma-1954.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/sma-s-28",
-      "canonicalPath": "topics/family/sma-s-28.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-sma-1954"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-sma-1954.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/sma-s-4",
-      "canonicalPath": "topics/family/sma-s-4.json",
-      "subject": "family",
-      "candidateSourceIds": [
-        "source:india:india-code-sma-1954"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-code-sma-1954.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "family/sources-schools",
-      "canonicalPath": "topics/family/sources-schools.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/special-marriage",
-      "canonicalPath": "topics/family/special-marriage.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/testamentary-succession",
-      "canonicalPath": "topics/family/testamentary-succession.json",
-      "subject": "family",
-      "candidateSourceIds": [],
-      "candidateSourcePaths": [],
-      "candidateStatuses": [],
-      "needsSourceRecord": true
-    },
-    {
-      "legacyPath": "family/wakf-endowments",
-      "canonicalPath": "topics/family/wakf-endowments.json",
-      "subject": "family",
       "candidateSourceIds": [],
       "candidateSourcePaths": [],
       "candidateStatuses": [],
@@ -43308,276 +41303,6 @@
       ],
       "candidateSourcePaths": [
         "sources/india-code-cpc-1908.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-abuse-guidelines",
-      "canonicalPath": "topics/pil/pil-abuse-guidelines.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-14",
-      "canonicalPath": "topics/pil/pil-article-14.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-19",
-      "canonicalPath": "topics/pil/pil-article-19.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-21",
-      "canonicalPath": "topics/pil/pil-article-21.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-226",
-      "canonicalPath": "topics/pil/pil-article-226.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-32",
-      "canonicalPath": "topics/pil/pil-article-32.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-article-51a-g",
-      "canonicalPath": "topics/pil/pil-article-51a-g.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-articles-32-226",
-      "canonicalPath": "topics/pil/pil-articles-32-226.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-continuing-mandamus",
-      "canonicalPath": "topics/pil/pil-continuing-mandamus.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-directive-principles",
-      "canonicalPath": "topics/pil/pil-directive-principles.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-environmental",
-      "canonicalPath": "topics/pil/pil-environmental.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-epistolary",
-      "canonicalPath": "topics/pil/pil-epistolary.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-evolution",
-      "canonicalPath": "topics/pil/pil-evolution.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-landmark-cases",
-      "canonicalPath": "topics/pil/pil-landmark-cases.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-locus-standi",
-      "canonicalPath": "topics/pil/pil-locus-standi.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-procedure",
-      "canonicalPath": "topics/pil/pil-procedure.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-social-justice",
-      "canonicalPath": "topics/pil/pil-social-justice.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
-      ],
-      "candidateStatuses": [
-        null
-      ],
-      "needsSourceRecord": false
-    },
-    {
-      "legacyPath": "pil/pil-writs",
-      "canonicalPath": "topics/pil/pil-writs.json",
-      "subject": "pil",
-      "candidateSourceIds": [
-        "source:india:india-pil-practice"
-      ],
-      "candidateSourcePaths": [
-        "sources/india-pil-practice.json"
       ],
       "candidateStatuses": [
         null
