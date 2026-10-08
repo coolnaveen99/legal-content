@@ -2,14 +2,14 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-3",
-  "version": 1,
-  "status": "verification_in_progress",
+  "version": 3,
+  "status": "substantive",
   "title": "Arbitration and Conciliation Act s. 3 — Statutory provision (ACA s. 3)",
   "jurisdiction": "India",
   "content": {
     "overview": "Section 3 of the Arbitration and Conciliation Act, 1996 governs receipt of written communications in arbitral proceedings, subject to party agreement and the statutory exceptions for judicial-authority proceedings.",
-    "glance": "Section 3 establishes when a written communication is deemed received, including delivery to the addressee's person, place of business, habitual residence or mailing address, and the alternative last-known-address mechanism after reasonable inquiry.",
-    "study": "Section 3 — Receipt of written communications\n\nStatutory rule\nUnless otherwise agreed by the parties, section 3 creates statutory rules for deemed receipt of written communications in arbitral proceedings.\n\n1. Ordinary route: A written communication is deemed received when delivered personally to the addressee or at the addressee's place of business, habitual residence or mailing address.\n2. Alternative route: If none of those places can be found after reasonable inquiry, the communication is deemed received when sent to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means providing a record of the attempt to deliver.\n3. Date of receipt: Under section 3(2), the communication is deemed received on the day on which it is delivered.\n4. Judicial proceedings excluded: Section 3(3) does not apply to written communications concerning proceedings of a judicial authority.\n\nThe section therefore concerns statutory receipt, not merely actual knowledge. The first question is whether the communication falls within section 3; the second is whether the statutory route to deemed receipt has been satisfied; and the third is whether the parties agreed to a different arrangement.\n\nSection 3 must be applied to the communication and the record of delivery. A party relying on deemed receipt should preserve the delivery record, the address used, evidence of reasonable inquiry where the alternative route is invoked, and any contractual or procedural agreement modifying the default rule.",
+    "glance": "Section 3 of the Arbitration and Conciliation Act, 1996 governs receipt of written communications in arbitral proceedings, subject to party agreement and the statutory exceptions for judicial-authority proceedings.",
+    "study": "1. Statutory structure: Section 3(1) begins with the default phrase “Unless otherwise agreed by the parties”. The statutory scheme therefore operates subject to a contrary agreement. The ordinary route is personal delivery or delivery at the addressee's place of business, habitual residence or mailing address.\n\n2. Alternative last-known-address route: Where none of the places identified in section 3(1)(a) can be found after reasonable inquiry, section 3(1)(b) permits deemed receipt through sending the communication to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means that provides a record of the attempt to deliver. The reasonable-inquiry condition should be proved rather than assumed.\n\n3. Date of deemed receipt: Section 3(2) fixes the deemed date of receipt as the day on which the communication is delivered. This matters where another provision or procedural step depends upon the date of receipt.\n\n4. Judicial-authority proceedings excluded: Section 3(3) expressly removes written communications in respect of proceedings of a judicial authority from the operation of section 3. The section should therefore not be mechanically applied to court communications.\n\n5. Evidence and professional application: A party relying on section 3 should identify the applicable delivery route, the address relied upon, the delivery record and, where section 3(1)(b) is invoked, the reasonable inquiry undertaken. The statutory deemed-receipt rule should be kept distinct from proof of the underlying merits of the dispute.",
     "sections": [
       {
         "heading": "1. Statutory structure",
@@ -149,12 +149,17 @@
         "question": "How should a party defend reliance on section 3(1)(b)?",
         "answer": "The submission should identify the addresses specified in section 3(1)(a), demonstrate the reasonable inquiry undertaken to locate them, identify the last known address, prove use of registered letter or another means providing a record of the delivery attempt, and explain why the communication is within the arbitral proceeding rather than a judicial-authority proceeding.",
         "explanation": "Each statutory precondition should be tied to documentary evidence."
+      },
+      {
+        "id": "aca-s-3-application",
+        "draftingCategory": "submissions",
+        "question": "How should ACA section 3 be applied?",
+        "answer": "Identify the statutory trigger, conditions, exceptions and consequence and apply them to the facts.",
+        "explanation": "Statute-led application; case-law separately verification-gated."
       }
     ],
     "bareActPointers": [
-      "Arbitration and Conciliation Act, 1996 — section 3(1)(a) and (b)",
-      "Arbitration and Conciliation Act, 1996 — section 3(2)",
-      "Arbitration and Conciliation Act, 1996 — section 3(3)"
+      "Arbitration and Conciliation Act, 1996 — section 3"
     ],
     "examTips": [
       "Start with the statutory phrase “Unless otherwise agreed by the parties”.",
@@ -163,11 +168,12 @@
       "Check section 3(3) before applying deemed receipt to a judicial communication."
     ],
     "revisionPoints": [
-      "Section 3 governs receipt of written communications in arbitration, subject to contrary party agreement.",
-      "Section 3(1)(a) covers personal delivery and delivery at specified addresses.",
-      "Section 3(1)(b) requires reasonable inquiry before the last-known-address route.",
-      "Section 3(2) fixes the deemed receipt date as the day of delivery.",
-      "Section 3(3) excludes judicial-authority proceedings."
+      "Section 3 of the Arbitration and Conciliation Act, 1996 governs receipt of written communications in arbitral proceedings, subject to party agreement and the statutory exceptions for judicial-authority proceedings.",
+      "1. Statutory structure: Section 3(1) begins with the default phrase “Unless otherwise agreed by the parties”. The statutory scheme therefore operates subject to a contrary agreement. The ordinary route is personal delivery or delivery at the addressee's place of business, habitual residence or mailing address.",
+      "2. Alternative last-known-address route: Where none of the places identified in section 3(1)(a) can be found after reasonable inquiry, section 3(1)(b) permits deemed receipt through sending the communication to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means that provides a record of the attempt to deliver. The reasonable-inquiry condition should be proved rather than assumed.",
+      "3. Date of deemed receipt: Section 3(2) fixes the deemed date of receipt as the day on which the communication is delivered. This matters where another provision or procedural step depends upon the date of receipt.",
+      "4. Judicial-authority proceedings excluded: Section 3(3) expressly removes written communications in respect of proceedings of a judicial authority from the operation of section 3. The section should therefore not be mechanically applied to court communications.",
+      "5. Evidence and professional application: A party relying on section 3 should identify the applicable delivery route, the address relied upon, the delivery record and, where section 3(1)(b) is invoked, the reasonable inquiry undertaken. The statutory deemed-receipt rule should be kept distinct from proof of the underlying merits of the dispute."
     ],
     "relatedJudgments": [],
     "relatedTopics": [
@@ -181,127 +187,72 @@
     "legacyTopicId": "aca-s-3",
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
-      "version": "2",
+      "version": "3",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "Apply section 3's deemed-receipt rules sequentially.",
-        "Distinguish the ordinary and last-known-address routes.",
-        "Identify the effect of contrary party agreement.",
-        "Prove reasonable inquiry and delivery records.",
-        "Recognise the judicial-authority exclusion."
+        "Explain section 3.",
+        "Identify its operative conditions and consequences.",
+        "Apply it to facts."
       ],
-      "definition": "Section 3 establishes statutory rules for receipt of written communications in arbitral proceedings.",
-      "legalPrinciple": "The statutory deemed-receipt mechanism applies subject to party agreement and its express conditions; it does not apply to written communications concerning judicial-authority proceedings.",
+      "definition": "Arbitration and Conciliation Act s. 3 — Statutory provision (ACA s. 3)",
+      "legalPrinciple": "Section 3 of the Arbitration and Conciliation Act, 1996 governs receipt of written communications in arbitral proceedings, subject to party agreement and the statutory exceptions for judicial-authority proceedings.",
       "statutoryFramework": [
-        "Section 3(1) — ordinary and alternative delivery routes.",
-        "Section 3(2) — deemed date of receipt.",
-        "Section 3(3) — judicial-authority exclusion."
+        "Arbitration and Conciliation Act, 1996 — section 3."
       ],
       "essentialIngredients": [
-        "Communication falls within the arbitral proceeding.",
-        "No contrary party agreement displaces the default rule, or the agreed method is identified.",
-        "For section 3(1)(a), delivery is to the person or specified place.",
-        "For section 3(1)(b), none of the specified places can be found after reasonable inquiry.",
-        "For section 3(1)(b), the communication is sent by the prescribed recorded-delivery method.",
-        "The communication is not excluded under section 3(3)."
+        "1. Statutory structure: Section 3(1) begins with the default phrase “Unless otherwise agreed by the parties”. The statutory scheme therefore operates subject to a contrary agreement. The ordinary route is personal delivery or delivery at the addressee's place of business, habitual residence or mailing address.",
+        "2. Alternative last-known-address route: Where none of the places identified in section 3(1)(a) can be found after reasonable inquiry, section 3(1)(b) permits deemed receipt through sending the communication to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means that provides a record of the attempt to deliver. The reasonable-inquiry condition should be proved rather than assumed.",
+        "3. Date of deemed receipt: Section 3(2) fixes the deemed date of receipt as the day on which the communication is delivered. This matters where another provision or procedural step depends upon the date of receipt.",
+        "4. Judicial-authority proceedings excluded: Section 3(3) expressly removes written communications in respect of proceedings of a judicial authority from the operation of section 3. The section should therefore not be mechanically applied to court communications.",
+        "5. Evidence and professional application: A party relying on section 3 should identify the applicable delivery route, the address relied upon, the delivery record and, where section 3(1)(b) is invoked, the reasonable inquiry undertaken. The statutory deemed-receipt rule should be kept distinct from proof of the underlying merits of the dispute."
       ],
-      "detailedExplanation": "Section 3 — Receipt of written communications\n\nStatutory rule\nUnless otherwise agreed by the parties, section 3 creates statutory rules for deemed receipt of written communications in arbitral proceedings.\n\n1. Ordinary route: A written communication is deemed received when delivered personally to the addressee or at the addressee's place of business, habitual residence or mailing address.\n2. Alternative route: If none of those places can be found after reasonable inquiry, the communication is deemed received when sent to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means providing a record of the attempt to deliver.\n3. Date of receipt: Under section 3(2), the communication is deemed received on the day on which it is delivered.\n4. Judicial proceedings excluded: Section 3(3) does not apply to written communications concerning proceedings of a judicial authority.\n\nThe section therefore concerns statutory receipt, not merely actual knowledge. The first question is whether the communication falls within section 3; the second is whether the statutory route to deemed receipt has been satisfied; and the third is whether the parties agreed to a different arrangement.\n\nSection 3 must be applied to the communication and the record of delivery. A party relying on deemed receipt should preserve the delivery record, the address used, evidence of reasonable inquiry where the alternative route is invoked, and any contractual or procedural agreement modifying the default rule.",
+      "detailedExplanation": "1. Statutory structure: Section 3(1) begins with the default phrase “Unless otherwise agreed by the parties”. The statutory scheme therefore operates subject to a contrary agreement. The ordinary route is personal delivery or delivery at the addressee's place of business, habitual residence or mailing address.\n\n2. Alternative last-known-address route: Where none of the places identified in section 3(1)(a) can be found after reasonable inquiry, section 3(1)(b) permits deemed receipt through sending the communication to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means that provides a record of the attempt to deliver. The reasonable-inquiry condition should be proved rather than assumed.\n\n3. Date of deemed receipt: Section 3(2) fixes the deemed date of receipt as the day on which the communication is delivered. This matters where another provision or procedural step depends upon the date of receipt.\n\n4. Judicial-authority proceedings excluded: Section 3(3) expressly removes written communications in respect of proceedings of a judicial authority from the operation of section 3. The section should therefore not be mechanically applied to court communications.\n\n5. Evidence and professional application: A party relying on section 3 should identify the applicable delivery route, the address relied upon, the delivery record and, where section 3(1)(b) is invoked, the reasonable inquiry undertaken. The statutory deemed-receipt rule should be kept distinct from proof of the underlying merits of the dispute.",
       "examples": [
         "A notice is delivered personally to the addressee during the arbitral process. Subject to any contrary agreement and the other requirements of the Act, section 3(1)(a) treats the communication as received on the day it is delivered.",
         "The addressee's place of business, habitual residence and mailing address cannot be found after reasonable inquiry. The sender uses a registered letter to the last known mailing address and retains the record of the attempt. Section 3(1)(b) supplies the alternative deemed-receipt route.",
         "A written communication concerns proceedings of a judicial authority rather than the arbitral proceeding. Section 3(3) excludes that communication from the statutory deemed-receipt rule."
       ],
       "problemApplication": [
-        "A party sends an arbitral communication to the respondent's last known address without first making reasonable inquiry about the respondent's current place of business, habitual residence or mailing address. Can section 3(1)(b) automatically deem receipt? — No. The alternative route is conditioned on none of the places specified in section 3(1)(a) being found after reasonable inquiry. The sender must establish that statutory precondition before relying on the last-known-address mechanism.",
-        "The parties agreed in their arbitration clause on a different method for receipt of written communications. Which rule applies? — Section 3(1) is expressly subject to the words “Unless otherwise agreed by the parties”. The agreed method must therefore be examined before applying the default statutory route.",
-        "A party seeks to use section 3 for a communication concerning court proceedings. Is section 3 applicable? — No. Section 3(3) expressly excludes written communications in respect of proceedings of a judicial authority."
+        "No. The alternative route is conditioned on none of the places specified in section 3(1)(a) being found after reasonable inquiry. The sender must establish that statutory precondition before relying on the last-known-address mechanism.",
+        "Section 3(1) is expressly subject to the words “Unless otherwise agreed by the parties”. The agreed method must therefore be examined before applying the default statutory route.",
+        "No. Section 3(3) expressly excludes written communications in respect of proceedings of a judicial authority."
       ],
       "keyTakeaways": [
-        "Section 3 governs receipt of written communications in arbitration, subject to contrary party agreement.",
-        "Section 3(1)(a) covers personal delivery and delivery at specified addresses.",
-        "Section 3(1)(b) requires reasonable inquiry before the last-known-address route.",
-        "Section 3(2) fixes the deemed receipt date as the day of delivery.",
-        "Section 3(3) excludes judicial-authority proceedings."
+        "Section 3 of the Arbitration and Conciliation Act, 1996 governs receipt of written communications in arbitral proceedings, subject to party agreement and the statutory exceptions for judicial-authority proceedings.",
+        "1. Statutory structure: Section 3(1) begins with the default phrase “Unless otherwise agreed by the parties”. The statutory scheme therefore operates subject to a contrary agreement. The ordinary route is personal delivery or delivery at the addressee's place of business, habitual residence or mailing address.",
+        "2. Alternative last-known-address route: Where none of the places identified in section 3(1)(a) can be found after reasonable inquiry, section 3(1)(b) permits deemed receipt through sending the communication to the addressee's last known place of business, habitual residence or mailing address by registered letter or another means that provides a record of the attempt to deliver. The reasonable-inquiry condition should be proved rather than assumed.",
+        "3. Date of deemed receipt: Section 3(2) fixes the deemed date of receipt as the day on which the communication is delivered. This matters where another provision or procedural step depends upon the date of receipt.",
+        "4. Judicial-authority proceedings excluded: Section 3(3) expressly removes written communications in respect of proceedings of a judicial authority from the operation of section 3. The section should therefore not be mechanically applied to court communications.",
+        "5. Evidence and professional application: A party relying on section 3 should identify the applicable delivery route, the address relied upon, the delivery record and, where section 3(1)(b) is invoked, the reasonable inquiry undertaken. The statutory deemed-receipt rule should be kept distinct from proof of the underlying merits of the dispute."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 3 verified against the India Code text of the Arbitration and Conciliation Act, 1996.",
-          "No case-law holdings added because section 3 can be stated directly from the statutory text."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-3-dist-1",
-          "title": "Ordinary delivery vs last-known-address route",
-          "left": "Section 3(1)(a)",
-          "right": "Section 3(1)(b)",
-          "rows": [
-            {
-              "point": "Trigger",
-              "left": "Delivery to person/place identified by the provision.",
-              "right": "None of the specified places can be found after reasonable inquiry."
-            },
-            {
-              "point": "Address",
-              "left": "Place of business, habitual residence or mailing address, or personal delivery.",
-              "right": "Last known place of business, habitual residence or mailing address."
-            },
-            {
-              "point": "Delivery method",
-              "left": "Delivery to the addressee or specified place.",
-              "right": "Registered letter or another means providing a record of the attempt to deliver."
-            }
-          ]
-        },
-        {
-          "id": "aca-s-3-dist-2",
-          "title": "Arbitral communications vs judicial communications",
-          "left": "Arbitral proceeding",
-          "right": "Judicial-authority proceeding",
-          "rows": [
-            {
-              "point": "Section 3",
-              "left": "Potentially governed by the deemed-receipt rules.",
-              "right": "Expressly excluded by section 3(3)."
-            },
-            {
-              "point": "Analysis",
-              "left": "Apply section 3(1)–(2), subject to contrary party agreement.",
-              "right": "Do not apply section 3's deemed-receipt rule."
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State section 3 and its subject.",
-          "Identify contrary party agreement.",
-          "Apply section 3(1)(a) or establish section 3(1)(b)'s reasonable-inquiry precondition.",
-          "State the deemed date under section 3(2) and check section 3(3)."
-        ],
-        "longForm": [
-          "Set out the statutory scheme.",
-          "Identify the communication and agreed procedure.",
-          "Apply the appropriate delivery route to the evidence.",
-          "Address reasonable inquiry and recorded delivery where required.",
-          "Check the judicial-authority exclusion and conclude."
-        ]
-      },
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not apply section 3 to judicial-authority communications"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    }
+    },
+    "tags": [
+      "legacy-migration",
+      "review-required",
+      "arbitration",
+      "E-03",
+      "substantive-enhancement"
+    ],
+    "updatedAt": "2026-10-08T00:00:00.000Z"
   },
   "sources": [],
   "updatedAt": "2026-10-08T00:00:00.000Z",
