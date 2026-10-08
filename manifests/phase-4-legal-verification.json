@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-08T05:38:13.994Z",
+  "generatedAt": "2026-10-08T05:44:32.654Z",
   "scope": {
-    "migratedTopics": 3549
+    "migratedTopics": 3548
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,15 +12,15 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 3549,
-    "topicsWithFindings": 2336,
-    "totalFindings": 3933,
-    "highSeverity": 2995,
-    "mediumSeverity": 938
+    "topicsAudited": 3548,
+    "topicsWithFindings": 2335,
+    "totalFindings": 3931,
+    "highSeverity": 2994,
+    "mediumSeverity": 937
   },
   "byType": {
-    "provenance": 1908,
-    "workflow-status": 168,
+    "provenance": 1907,
+    "workflow-status": 167,
     "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
@@ -186,24 +186,6 @@
     {
       "path": "topics/admin/admin-delegated-legislation.json",
       "id": "topic:india:admin-admin-delegated-legislation",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-discretion.json",
-      "id": "topic:india:admin-admin-discretion",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-discretion.json",
-      "id": "topic:india:admin-admin-discretion",
       "subject": "admin",
       "type": "workflow-status",
       "severity": "medium",

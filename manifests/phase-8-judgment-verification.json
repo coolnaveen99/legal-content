@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-08T05:38:15.032Z",
+  "generatedAt": "2026-10-08T05:44:33.672Z",
   "scope": {
-    "migratedTopics": 3098,
-    "caseRecords": 9081
+    "migratedTopics": 3097,
+    "caseRecords": 9078
   },
   "policy": [
     "Validates judgment metadata and case-analysis completeness against authoritative sources before publication.",
@@ -12,12 +12,12 @@
     "No topic is promoted to verified or published by this audit."
   ],
   "summary": {
-    "caseRecords": 9081,
-    "topicsWithCases": 3098,
-    "topicsWithFindings": 3056,
-    "totalFindings": 16389,
+    "caseRecords": 9078,
+    "topicsWithCases": 3097,
+    "topicsWithFindings": 3055,
+    "totalFindings": 16386,
     "highSeverity": 14,
-    "mediumSeverity": 16375
+    "mediumSeverity": 16372
   },
   "byType": {
     "missing-court": 1536,
@@ -25,7 +25,7 @@
     "missing-citation": 18,
     "implausible-year": 13,
     "known-case-metadata-risk": 1,
-    "duplicate-case-record": 8768
+    "duplicate-case-record": 8765
   },
   "findings": [
     {
@@ -61021,14 +61021,6 @@
       "evidence": "tata cellular v union of india|(1994) 6 scc 651"
     },
     {
-      "path": "topics/admin/admin-discretion.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "tata cellular v union of india|(1994) 6 scc 651"
-    },
-    {
       "path": "topics/admin/admin-good-governance.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -61093,14 +61085,6 @@
       "evidence": "state of uttar pradesh v maharaja dharmander prasad singh|(1989) 2 scc 505"
     },
     {
-      "path": "topics/admin/admin-discretion.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "state of uttar pradesh v maharaja dharmander prasad singh|(1989) 2 scc 505"
-    },
-    {
       "path": "topics/admin/admin-good-governance.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -61158,14 +61142,6 @@
     },
     {
       "path": "topics/admin/admin-civil-services.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "state of tamil nadu v p. krishnamurthy|(2006) 4 scc 517"
-    },
-    {
-      "path": "topics/admin/admin-discretion.json",
       "topic": "",
       "type": "duplicate-case-record",
       "severity": "medium",
