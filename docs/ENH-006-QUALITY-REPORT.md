@@ -7,13 +7,13 @@ Scaffold topics remain `in-progress` and are not verified.
 
 | Metric | Count |
 |---|---:|
-| Substantive enhancements | 1583 |
-| Scaffold enhancements | 2065 |
+| Substantive enhancements | 1584 |
+| Scaffold enhancements | 2064 |
 | Missing enhancement object | 0 |
 
 | Subject | Topics | Substantive | Scaffold | Missing |
 |---|---:|---:|---:|---:|
-| admin | 44 | 1 | 43 | 0 |
+| admin | 44 | 2 | 42 | 0 |
 | arbitration | 132 | 0 | 132 | 0 |
 | bns | 368 | 359 | 9 | 0 |
 | bnss | 539 | 531 | 8 | 0 |
