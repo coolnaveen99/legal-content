@@ -2,245 +2,65 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:cyber-cyber-crimes",
-  "version": 1,
-  "status": "review",
-  "title": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Cyber Crimes — Overview under IT Act, 2000",
   "jurisdiction": "India",
   "content": {
-    "overview": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-    "glance": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-    "study": "Topic at a glance\nCyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is a registered theme in Cyber Law. Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nProvenance, purpose and doctrinal foundation\nThe topic exists to organise a legally enforceable rule, doctrine or professional procedure. Read the statutory text, constitutional setting, institutional purpose and binding authorities together. The correct analysis begins with the legal question and avoids replacing the governing enactment with a generic textbook summary.\n\nTextual anatomy and operative test\n1. Identify the governing enactment, section, article, rule, doctrine or professional standard named by the topic.\n2. Deconstruct definitions, conditions precedent, exceptions, provisos, explanations, jurisdictional limits and remedies.\n3. Distinguish the topic from its nearest neighbour: Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Certifying Authorities, Controller and Subscriber Duties; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B.\n4. Apply the rule to the record and state which fact satisfies or fails each ingredient.\n\nCourtroom and evidentiary roadmap\nCompetent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum. the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable. Where electronic records are relied upon, apply BSA 2023 s. 63 and the applicable burden provisions without treating electronic admissibility as proof of the ultimate fact. Identify limitation, notice, maintainability, alternative remedy and the exact relief sought.\n\nCurrent-law close\nInformation Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences Always name the statute and provision in the final advice.",
+    "overview": "Cyber crimes under the Information Technology Act, 2000 include tampering with computer source documents (s. 65), computer-related offences such as dishonestly or fraudulently doing any act under s. 43 (s. 66), identity theft (s. 66C), cheating by personation using computer resource (s. 66D), violation of privacy (s. 66E), cyber terrorism (s. 66F), and publishing or transmitting obscene or sexually explicit material in electronic form (ss. 67, 67A, 67B). Section 66A was struck down; do not treat it as operative law. Civil liability under s. 43 is distinct from criminal liability.",
+    "glance": "Ask: (1) Which IT Act offence section? (2) Mens rea where required (dishonestly/fraudulently)? (3) Civil s. 43 also available? (4) Concurrent BNS offence?",
+    "study": "Map facts to the specific section. s. 66A is not good law. Always separate civil compensation (s. 43) from criminal prosecution.\n\nNo new case invented. Shreya Singhal context for s. 66A is a verification item — not invented here as a full holding.",
     "sections": [
-      {
-        "heading": "Provenance, Legislative Objective and Doctrinal Foundations",
-        "body": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.",
-        "order": 1
-      },
-      {
-        "heading": "Textual Anatomy, Exceptions and Connected Rules",
-        "body": "Identify every operative clause, condition, explanation, exception and remedy in Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Certifying Authorities, Controller and Subscriber Duties; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B.\nHistorical or comparative law may explain development but cannot replace the current governing rule.",
-        "order": 2
-      },
-      {
-        "heading": "Mandatory Proving Ingredients and Legal Test",
-        "body": "Identify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.",
-        "order": 3
-      },
-      {
-        "heading": "BSA 2023 Burden and Electronic Evidence Checkpoints",
-        "body": "the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is established.\nApply BSA s. 63 to electronic records where tendered, separately analysing relevance, authenticity, certificate and weight.",
-        "order": 4
-      },
-      {
-        "heading": "Procedural Roadmap, Forum and Limitation Checkpoints",
-        "body": "Competent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences",
-        "order": 5
-      }
+      {"heading": "Core offences", "body": "s. 65 (source code); s. 66 (computer-related offence linked to s. 43 acts done dishonestly/fraudulently); ss. 66B–66F (stolen computer resource, identity theft, personation, privacy, cyber terrorism).", "order": 1},
+      {"heading": "Obscenity cluster", "body": "ss. 67, 67A, 67B — publishing/transmitting obscene or sexually explicit material, including depicting children — as enacted.", "order": 2},
+      {"heading": "s. 66A status", "body": "s. 66A is not operative following constitutional invalidation; do not charge or advise under s. 66A.", "order": 3},
+      {"heading": "Civil parallel", "body": "s. 43 provides civil compensation for specified computer wrongs without necessarily requiring criminal mens rea.", "order": 4},
+      {"heading": "Method", "body": "Identify the computer resource act; match section; check mens rea; consider concurrent general criminal law.", "order": 5}
     ],
-    "provisions": [
-      {
-        "actId": "cyber",
-        "actName": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-        "provisionId": "cyber-cyber-crimes",
-        "title": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Example 1 - Rule applies",
-        "body": "The claimant or applicant establishes the forum, legal foundation, every mandatory ingredient and the requested remedy under Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. The authority applies the rule on the proved record."
-      },
-      {
-        "title": "Example 2 - Boundary defect",
-        "body": "A material condition, jurisdictional fact, limitation requirement or evidentiary foundation for Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is missing. The Court identifies the defect and refuses, returns, remands or limits the relief according to law."
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Whether relief under Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "cyber-crimes-distinction",
-        "title": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B and connected legal concept",
-        "left": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B",
-        "right": "Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Certifying Authorities, Controller and Subscriber Duties; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "cyber-crimes-trap-1",
-        "trap": "Treating Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "cyber-crimes-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles."
-      },
-      {
-        "id": "cyber-crimes-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Shreya Singhal v. Union of India",
-        "year": 2015,
-        "citation": "(2015) 5 SCC 1",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed restrictions on online speech under the Information Technology Act.",
-        "issue": "Whether IT Act s. 66A impermissibly restricted constitutional speech.",
-        "ratioDecidendi": "Section 66A was vague and overbroad and violated Article 19(1)(a); it was not saved by Article 19(2).",
-        "holding": "Section 66A was struck down in its entirety.",
-        "relevance": "Use only as historical status; do not present s. 66A as a current offence.",
-        "judgmentId": "judgment:india:shreya-singhal-v-union-of-india-2015"
-      },
-      {
-        "name": "Anvar P.V. v. P.K. Basheer",
-        "year": 2014,
-        "citation": "(2014) 10 SCC 473",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined the statutory method for proving electronic records.",
-        "issue": "Whether electronic records can be admitted without the applicable certificate route.",
-        "ratioDecidendi": "Electronic records must satisfy the special statutory proof requirements applicable to computer outputs.",
-        "holding": "The Court reaffirmed the certificate discipline for electronic evidence.",
-        "relevance": "Use with BSA s. 63 and digital-record admissibility.",
-        "judgmentId": "judgment:india:anvar-p-v-v-p-k-basheer-2014"
-      },
-      {
-        "name": "K.S. Puttaswamy v. Union of India",
-        "year": 2017,
-        "citation": "(2017) 10 SCC 1",
-        "court": "Supreme Court of India",
-        "facts": "The Constitution Bench considered privacy as a constitutional right in the digital and modern State.",
-        "issue": "Whether privacy is protected as a Fundamental Right.",
-        "ratioDecidendi": "Privacy is intrinsic to dignity, liberty and Part III, subject to legality, legitimate aim, proportionality and procedural safeguards.",
-        "holding": "Constitutional privacy was unanimously recognised.",
-        "relevance": "Use for surveillance, data protection and informational privacy.",
-        "judgmentId": "judgment:india:k-s-puttaswamy-v-union-of-india-2017"
-      }
-    ],
+    "provisions": [{"actId": "ita", "actName": "Information Technology Act, 2000", "provisionId": "ita-crimes", "section": "ss. 65–67B", "title": "Cyber offences overview"}],
+    "examples": [{"title": "Identity theft", "body": "Fraudulent use of another person's electronic signature or password → s. 66C analysis; possible concurrent cheating offences under general criminal law.", "kind": "hypothetical", "inventedCase": false}],
+    "hypotheticals": [{"question": "Can offensive speech online still be prosecuted under s. 66A?", "analysis": "No. s. 66A is not operative law after constitutional invalidation; other provisions or general criminal law may apply only if their own ingredients are met."}],
+    "distinctions": [{"id": "crime-vs-civil", "title": "Criminal IT Act offences vs s. 43 civil liability", "left": "Prosecution with prescribed mens rea and punishment.", "right": "Compensation for specified acts causing damage without the same criminal threshold.", "rows": [{"point": "Remedy", "left": "Punishment.", "right": "Damages."}]}],
+    "misconceptions": [{"id": "crime-trap-1", "trap": "s. 66A is still available for online insults.", "correction": "s. 66A is struck down and must not be treated as current law."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "id": "cyber-crimes-brief",
-        "draftingCategory": "brief",
-        "question": "Structured Case Brief and legal problem assessment on Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.",
-        "answer": "I. ISSUE AND JURISDICTION\nWhether Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nCyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
-        "explanation": "IRAC chamber brief."
-      },
-      {
-        "id": "cyber-crimes-submissions",
-        "draftingCategory": "submissions",
-        "question": "Comprehensive Written Submissions on Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.",
-        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B under Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.",
-        "explanation": "Senior Counsel written submissions."
-      }
+      {"id": "cy-crime-10", "draftingCategory": "10-mark", "question": "Outline the principal cyber offences under the IT Act, 2000.", "answer": "ss. 65–66F cluster; ss. 67–67B; s. 66A status; civil parallel.", "explanation": "10-mark."},
+      {"id": "cy-crime-16", "draftingCategory": "16-mark", "question": "Discuss cyber crimes under the Information Technology Act, 2000.", "answer": "I. Core offences. II. Obscenity cluster. III. s. 66A. IV. Civil parallel. V. Method. VI. Conclusion.", "explanation": "16-mark."}
     ],
-    "bareActPointers": [
-      "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-      "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the governing statute in the opening sentence.",
-      "List ingredients before applying facts.",
-      "Separate jurisdiction, limitation, admissibility and merits.",
-      "Use only verified authorities and extract the ratio relevant to the issue."
-    ],
-    "revisionPoints": [
-      "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B",
-      "Mandatory ingredients and exceptions",
-      "Forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum",
-      "BSA electronic evidence and burden checkpoints where applicable"
-    ],
+    "bareActPointers": ["IT Act 2000 ss. 43, 65–67B", "Note: s. 66A inoperative"],
+    "examTips": ["Never rely on s. 66A.", "Separate civil and criminal paths."],
+    "revisionPoints": ["s. 66 mens rea", "s. 66C/66D", "s. 66A struck down"],
     "relatedJudgments": [],
-    "relatedTopics": [],
+    "relatedTopics": ["topic:india:cyber-cyber-it-s-66", "topic:india:cyber-cyber-it-s-43"],
     "illustrations": [],
     "legacySubjectSlug": "cyber",
     "legacyTopicId": "cyber-crimes",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement; no new case invented; verification open.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
-      "learningObjectives": [
-        "State the rule recorded for Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
-      ],
-      "definition": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-      "legalPrinciple": "Provenance, Legislative Objective and Doctrinal Foundations. Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.",
-      "statutoryFramework": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles; Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B; BSA s. 63 and ss. 104, 109 where relevant",
-      "essentialIngredients": [
-        "Provenance, Legislative Objective and Doctrinal Foundations: Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value be",
-        "Textual Anatomy, Exceptions and Connected Rules: Identify every operative clause, condition, explanation, exception and remedy in Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Certifying Authorities, Controller and Subscriber Duties; Cyber Security and Critical Information Infrastructure — ss. 6",
-        "Mandatory Proving Ingredients and Legal Test: Identify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.",
-        "BSA 2023 Burden and Electronic Evidence Checkpoints: the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is estab",
-        "Procedural Roadmap, Forum and Limitation Checkpoints: Competent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology"
-      ],
-      "detailedExplanation": "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.\n\nProvenance, Legislative Objective and Doctrinal Foundations\nCyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.\n\nTextual Anatomy, Exceptions and Connected Rules\nIdentify every operative clause, condition, explanation, exception and remedy in Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Certifying Authorities, Controller and Subscriber Duties; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B.\nHistorical or comparative law may explain development but cannot replace the current governing rule.\n\nMandatory Proving Ingredients and Legal Test\nIdentify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.\n\nBSA 2023 Burden and Electronic Evidence Checkpoints\nthe complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is established.\nApply BSA s. 63 to electronic records where tendered, separately analysing relevance, authenticity, certificate and weight.\n\nProcedural Roadmap, Forum and Limitation Checkpoints\nCompetent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences",
-      "examples": [
-        "Example 1 - Rule applies: The claimant or applicant establishes the forum, legal foundation, every mandatory ingredient and the requested remedy under Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. The authority applies the rule on the proved record.",
-        "Example 2 - Boundary defect: A material condition, jurisdictional fact, limitation requirement or evidentiary foundation for Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is missing. The Court identifies the defect and refuses, returns, remands or limits the relief according to law."
-      ],
-      "problemApplication": "Whether relief under Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B is maintainable and what order should the competent forum pass. — 1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy.",
-      "keyTakeaways": [
-        "Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting."
-      ],
-      "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
-      ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Map cyber offence sections", "State s. 66A status"],
+      "definition": "Cyber crimes under the IT Act cover computer-related offences, identity theft, personation, privacy violation, cyber terrorism and electronic obscenity, with s. 66A no longer operative.",
+      "legalPrinciple": "Specialised criminal liability for computer-resource wrongs under the IT Act.",
+      "statutoryFramework": "IT Act 2000 ss. 65–67B (s. 66A inoperative).",
+      "essentialIngredients": ["Identify section", "Mens rea if required", "Computer resource nexus"],
+      "detailedExplanation": "Cyber crimes overview.",
+      "examples": ["Identity theft"],
+      "problemApplication": "Match facts to section; exclude s. 66A; consider s. 43 civil.",
+      "distinctions": ["Crime vs civil"],
+      "caseLawNotes": "No cases invented; s. 66A invalidation on verification gate.",
+      "tenMarkStructure": "Core → obscenity → s. 66A → civil.",
+      "sixteenMarkStructure": "Core → obscenity → s. 66A → civil → method → conclusion.",
+      "keyTakeaways": ["s. 66A dead", "Civil and criminal distinct"],
+      "authoritativeSources": ["IT Act 2000"],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08."
     }
   },
-  "sources": [
-    "source:india:india-code-it-2000"
-  ],
-  "updatedAt": "2026-10-03T11:18:49.608Z",
+  "sources": [{"kind": "statute", "label": "Information Technology Act, 2000", "citation": "ss. 65–67B", "url": null, "notes": "Framework; no case holdings invented."}],
+  "updatedAt": "2026-10-08T08:25:00.000Z",
   "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "cyber"
-  ]
+  "effectiveTo": null
 }
