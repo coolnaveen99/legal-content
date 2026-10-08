@@ -94,3 +94,17 @@ The Final Content Quality Pass may be closed only after:
 ## Next execution boundary
 
 Continue with the canonical enhancement queue, subject by subject, beginning with the remaining Admin scaffold population and then the next subjects in the authoritative execution order. Do not reopen Torts.
+
+## Remediation completed — 2026-10-08
+
+### Admin — Constitutional Protection to Civil Servants — Article 311
+
+- Topic file: `topics/admin/admin-civil-services.json`
+- Remediation commit: `336e0a15209d39ab32e8c0450c32efb2e430a283`
+- Replaced generic Administrative Law scaffold with Article 311-specific constitutional analysis.
+- Added protected-class test, Article 311(1) authority test, Article 311(2) inquiry/opportunity test, and separate second-proviso clauses (a), (b), and (c).
+- Added topic-specific hypotheticals, distinctions, problem application, learning objectives, key takeaways, and 10/16-mark answer structures.
+- Preserved the separate case-law verification gate; no unverified authority was promoted to verified.
+- Source boundary checked against India Code and Supreme Court material on Article 311/natural justice.
+
+**QUAL impact:** one substantive scaffold remediation completed. QUAL-001, QUAL-002, QUAL-004, QUAL-005, QUAL-006, QUAL-007 and QUAL-008 have evidence of progress, but remain OPEN corpus-wide until the applicable queue is remediated and the final validators pass.
