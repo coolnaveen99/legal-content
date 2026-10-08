@@ -27,7 +27,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | land | 44 | 0 | 0 | 0 | SCAFFOLD |
 | limitation | 5 | 5 | 0 | 100 | SUBSTANTIVE |
 | ni | 4 | 4 | 0 | 100 | **COMPLETE_LOCKED** |
-| petition-formats | 8 | 0 | 0 | 0 | SCAFFOLD |
+| petition-formats | 8 | 8 | 0 | 100 | **COMPLETE_LOCKED** |
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
 | registration | 3 | 3 | 0 | 100 | SUBSTANTIVE |
 | sra | 6 | 6 | 0 | 100 | SUBSTANTIVE |
@@ -45,3 +45,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **NI COMPLETE_LOCKED — 2026-10-08:** All 4 Negotiable Instruments topics (`s-138`, `s-139`, `s-141`, `s-142`) remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for NI is complete. **Do not reopen NI for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/NI-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **DPSP COMPLETE_LOCKED — 2026-10-08:** All 3 Directive Principles topics remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for DPSP is complete. **Do not reopen DPSP for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/DPSP-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Petition Formats COMPLETE_LOCKED — 2026-10-08:** All 8 petition-format topics remediated to `substantive-topic-specific-v1`. **Do not reopen Petition Formats for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/PETITION-FORMATS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.

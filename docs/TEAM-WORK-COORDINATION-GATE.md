@@ -51,6 +51,7 @@ The Arbitration subject is the immediate example of this coordination problem. M
 | Subject | Lock | Meaning |
 |---------|------|--------|
 | **Torts** | COMPLETE_LOCKED | Do not reopen without a documented trigger. |
+| **Petition Formats** | COMPLETE_LOCKED (2026-10-08) | All 8 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/PETITION-FORMATS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **DPSP** | COMPLETE_LOCKED (2026-10-08) | All 3 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/DPSP-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **NI** | COMPLETE_LOCKED (2026-10-08) | All 4 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/NI-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
 | **Family** | COMPLETE_LOCKED (2026-10-08) | All 38 topics substantive-topic-specific-v1 on `main`. Do not reopen for scaffold/enhancement remediation without a documented trigger. Case-law verification remains a separate open gate. Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. |
