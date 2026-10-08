@@ -32,7 +32,7 @@ The enhancement uses the Information Technology Act, 2000 as the statutory sourc
 This audit closes the **substantive enhancement/remediation phase** of Cyber Law. It does not claim legal verification or publication. Those remain separate gates and require authoritative source/case-law verification.
 
 ## Main head after remediation
-`62bb2bfea466824850fa8de5f219787bb642544a`
+`a1a1f7ea05ccb7c9281db282c192211837fbe1e7`
 
 ## Result
 Cyber Law substantive enhancement is complete and should be treated as COMPLETE_LOCKED for scaffold/remediation work unless a documented reopening trigger exists.
