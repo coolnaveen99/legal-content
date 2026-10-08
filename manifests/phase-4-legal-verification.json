@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-08T05:37:21.314Z",
+  "generatedAt": "2026-10-08T05:38:13.994Z",
   "scope": {
-    "migratedTopics": 3550
+    "migratedTopics": 3549
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,15 +12,15 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 3550,
-    "topicsWithFindings": 2337,
-    "totalFindings": 3935,
-    "highSeverity": 2996,
-    "mediumSeverity": 939
+    "topicsAudited": 3549,
+    "topicsWithFindings": 2336,
+    "totalFindings": 3933,
+    "highSeverity": 2995,
+    "mediumSeverity": 938
   },
   "byType": {
-    "provenance": 1909,
-    "workflow-status": 169,
+    "provenance": 1908,
+    "workflow-status": 168,
     "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
@@ -672,24 +672,6 @@
     {
       "path": "topics/admin/admin-sources.json",
       "id": "topic:india:admin-admin-sources",
-      "subject": "admin",
-      "type": "workflow-status",
-      "severity": "medium",
-      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-speaking-orders.json",
-      "id": "topic:india:admin-admin-speaking-orders",
-      "subject": "admin",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/admin/admin-speaking-orders.json",
-      "id": "topic:india:admin-admin-speaking-orders",
       "subject": "admin",
       "type": "workflow-status",
       "severity": "medium",
