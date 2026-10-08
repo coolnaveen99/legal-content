@@ -2,112 +2,130 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:cyber-cyber-certifying-authorities",
-  "version": 1,
-  "status": "review",
-  "title": "Certifying Authorities, Controller and Subscriber Duties",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Cyber Law — Certifying Authorities, Controller and Subscriber Duties",
   "jurisdiction": "India",
   "content": {
-    "overview": "Certifying Authorities, Controller and Subscriber Duties. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-    "glance": "Certifying Authorities, Controller and Subscriber Duties. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-    "study": "Topic at a glance\nCertifying Authorities, Controller and Subscriber Duties is a registered theme in Cyber Law. Certifying Authorities, Controller and Subscriber Duties is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nProvenance, purpose and doctrinal foundation\nThe topic exists to organise a legally enforceable rule, doctrine or professional procedure. Read the statutory text, constitutional setting, institutional purpose and binding authorities together. The correct analysis begins with the legal question and avoids replacing the governing enactment with a generic textbook summary.\n\nTextual anatomy and operative test\n1. Identify the governing enactment, section, article, rule, doctrine or professional standard named by the topic.\n2. Deconstruct definitions, conditions precedent, exceptions, provisos, explanations, jurisdictional limits and remedies.\n3. Distinguish the topic from its nearest neighbour: Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B; Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\n4. Apply the rule to the record and state which fact satisfies or fails each ingredient.\n\nCourtroom and evidentiary roadmap\nCompetent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum. the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable. Where electronic records are relied upon, apply BSA 2023 s. 63 and the applicable burden provisions without treating electronic admissibility as proof of the ultimate fact. Identify limitation, notice, maintainability, alternative remedy and the exact relief sought.\n\nCurrent-law close\nInformation Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences Always name the statute and provision in the final advice.",
+    "overview": "The Information Technology Act, 2000 creates the regulatory framework for Certifying Authorities and the Controller of Certifying Authorities and imposes duties on subscribers of electronic signature certificates. The framework covers appointment and functions of the Controller, recognition/licensing and supervision of Certifying Authorities, issuance and lifecycle of electronic signature certificates, and subscriber acceptance and private-key control.",
+    "glance": "IT Act Chapter VI regulates the Controller and Certifying Authorities; Chapters VII–VIII regulate electronic signature certificates and subscriber duties.",
+    "study": "The topic should be read principally through IT Act sections 17–42 and the applicable Certifying Authorities Rules. Sections 17–20 establish the Controller and core regulatory functions; sections 21–34 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35–39 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40–42 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
     "sections": [
       {
-        "heading": "Provenance, Legislative Objective and Doctrinal Foundations",
-        "body": "Certifying Authorities, Controller and Subscriber Duties sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.",
+        "heading": "Controller and Regulatory Architecture — ss. 17–20",
+        "body": "Section 17 provides for appointment of the Controller and other officers. Section 18 sets out regulatory functions including supervision of Certifying Authorities, standards, certificate form/content, audit arrangements, subscriber dealings and disclosure records. Section 19 permits recognition of foreign Certifying Authorities subject to conditions and prior Central Government approval. Section 20 concerns the Controller's role as repository for specified certificate information.",
         "order": 1
       },
       {
-        "heading": "Textual Anatomy, Exceptions and Connected Rules",
-        "body": "Identify every operative clause, condition, explanation, exception and remedy in Certifying Authorities, Controller and Subscriber Duties.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B; Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\nHistorical or comparative law may explain development but cannot replace the current governing rule.",
+        "heading": "Licensing, Investigation and Certifying Authority Compliance — ss. 21–34",
+        "body": "The licensing and supervisory framework covers licence requirements and procedure, suspension/revocation, notice and disclosure obligations, investigation/access powers, prescribed procedures and surrender/display/compliance requirements. A Certifying Authority must operate within the Act, rules, regulations, licence conditions and applicable security/certification requirements.",
         "order": 2
       },
       {
-        "heading": "Mandatory Proving Ingredients and Legal Test",
-        "body": "Identify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.",
+        "heading": "Electronic Signature Certificates — ss. 35–39",
+        "body": "A person may apply for an electronic signature certificate. The Certifying Authority considers the certification practice statement and required enquiries, and its issuance representations concern statutory compliance, publication/availability, the subscriber's key pair, accuracy and reliability. Certificates may be suspended or revoked on statutory grounds, with applicable hearing and communication requirements; suspension/revocation notices are published in the specified repository.",
         "order": 3
       },
       {
-        "heading": "BSA 2023 Burden and Electronic Evidence Checkpoints",
-        "body": "the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is established.\nApply BSA s. 63 to electronic records where tendered, separately analysing relevance, authenticity, certificate and weight.",
+        "heading": "Subscriber Duties — ss. 40–42",
+        "body": "Subscribers generate the relevant key pair using the prescribed security procedure, perform prescribed duties for electronic signature certificates, accept certificates through publication/authorisation or other approval, and certify the truth of material representations. Every subscriber must exercise reasonable care over the private key and promptly notify the Certifying Authority if it is compromised; liability continues until the required notification.",
         "order": 4
       },
       {
-        "heading": "Procedural Roadmap, Forum and Limitation Checkpoints",
-        "body": "Competent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences",
+        "heading": "Operational and Evidence Checklist",
+        "body": "Identify the certificate type, Certifying Authority, licence/status, subscriber, certificate lifecycle event, key compromise or revocation issue, applicable rule/security procedure, and evidence relied upon. Electronic records must separately satisfy the applicable evidence law; admissibility does not itself establish authenticity, attribution or ultimate liability.",
         "order": 5
       }
     ],
     "provisions": [
       {
-        "actId": "cyber",
-        "actName": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-        "provisionId": "cyber-cyber-certifying-authorities",
-        "title": "Certifying Authorities, Controller and Subscriber Duties"
+        "actId": "information-technology-act-2000",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "it-s-17-42",
+        "section": "Sections 17–42",
+        "title": "Controller, Certifying Authorities, electronic signature certificates and subscriber duties"
       },
       {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
+        "actId": "information-technology-act-2000",
+        "actName": "Information Technology (Certifying Authorities) Rules, 2000 and applicable amendments/rules",
+        "provisionId": "it-ca-rules",
+        "title": "Certifying Authority regulatory and security framework"
       }
     ],
     "examples": [
       {
-        "title": "Example 1 - Rule applies",
-        "body": "The claimant or applicant establishes the forum, legal foundation, every mandatory ingredient and the requested remedy under Certifying Authorities, Controller and Subscriber Duties. The authority applies the rule on the proved record."
+        "title": "Certificate issuance",
+        "body": "A subscriber applies to a licensed Certifying Authority with the required particulars. The Authority follows the statutory application, enquiry and certification-practice requirements before issuing the certificate.",
+        "kind": "hypothetical",
+        "inventedCase": false
       },
       {
-        "title": "Example 2 - Boundary defect",
-        "body": "A material condition, jurisdictional fact, limitation requirement or evidentiary foundation for Certifying Authorities, Controller and Subscriber Duties is missing. The Court identifies the defect and refuses, returns, remands or limits the relief according to law."
+        "title": "Compromised private key",
+        "body": "A subscriber discovers that the private key corresponding to a certificate may have been compromised. Section 42 requires prompt communication to the Certifying Authority; the subscriber remains liable under the statutory rule until notification.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Revocation",
+        "body": "A material fact in a certificate is false or concealed, or another statutory revocation ground exists. The Certifying Authority must apply the statutory revocation process and communicate and publish the resulting status as required.",
+        "kind": "hypothetical",
+        "inventedCase": false
       }
     ],
     "hypotheticals": [
       {
-        "question": "Whether relief under Certifying Authorities, Controller and Subscriber Duties is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
+        "question": "How should a dispute involving a Certifying Authority or subscriber be analysed?",
+        "analysis": "1. Identify the certificate, parties and lifecycle event. 2. Map the facts to ss. 17–42 and applicable rules. 3. Check licence, issuance, representations, suspension/revocation and subscriber duties. 4. Test the evidence and attribution separately. 5. State the statutory consequence and forum."
       }
     ],
     "distinctions": [
       {
-        "id": "cyber-certifying-authorities-distinction",
-        "title": "Certifying Authorities, Controller and Subscriber Duties and connected legal concept",
-        "left": "Certifying Authorities, Controller and Subscriber Duties",
-        "right": "Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B; Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B",
+        "id": "cyber-ca-vs-cybercrime",
+        "title": "Certifying Authority regulation vs cyber-crime provisions",
+        "left": "IT Act ss. 17–42 regulate the certification infrastructure and certificate lifecycle.",
+        "right": "IT Act offence/penalty provisions address separate prohibited conduct.",
         "rows": [
           {
-            "point": "Source",
-            "left": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-            "right": "Connected statute, doctrine or procedural route"
+            "point": "Focus",
+            "left": "Regulator, CA, certificate and subscriber duties",
+            "right": "Prohibited conduct and penalties"
           },
           {
             "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
+            "left": "Licence, certificate, key or regulatory event",
+            "right": "Elements of the specific offence/contravention"
+          }
+        ]
+      },
+      {
+        "id": "cyber-ca-vs-evidence",
+        "title": "Certificate regulation vs electronic-evidence admissibility",
+        "left": "IT Act certificate rules govern authentication infrastructure and duties.",
+        "right": "Evidence law governs admissibility, proof and evidentiary weight.",
+        "rows": [
           {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
+            "point": "Question",
+            "left": "Was the certificate/key process compliant?",
+            "right": "Can the record be proved and what weight should it receive?"
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "cyber-certifying-authorities-trap-1",
-        "trap": "Treating Certifying Authorities, Controller and Subscriber Duties as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
+        "id": "cyber-ca-trap-1",
+        "trap": "A digital signature certificate is automatically valid merely because a document contains a digital signature.",
+        "correction": "Identify the certificate, issuing authority, applicable statutory/rule requirements and certificate status."
       },
       {
-        "id": "cyber-certifying-authorities-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles."
+        "id": "cyber-ca-trap-2",
+        "trap": "A subscriber's private-key compromise ends liability immediately.",
+        "correction": "Section 42 expressly links the subscriber's statutory liability to notification of the compromise."
       },
       {
-        "id": "cyber-certifying-authorities-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
+        "id": "cyber-ca-trap-3",
+        "trap": "Section 66A is part of the current Cyber Law offence framework.",
+        "correction": "Section 66A was struck down by the Supreme Court in Shreya Singhal; do not present it as a current offence."
       }
     ],
     "cases": [
@@ -150,92 +168,135 @@
     ],
     "questionsAndAnswers": [
       {
-        "id": "cyber-certifying-authorities-brief",
+        "id": "cyber-ca-brief",
         "draftingCategory": "brief",
-        "question": "Structured Case Brief and legal problem assessment on Certifying Authorities, Controller and Subscriber Duties.",
-        "answer": "I. ISSUE AND JURISDICTION\nWhether Certifying Authorities, Controller and Subscriber Duties applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nCertifying Authorities, Controller and Subscriber Duties is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
-        "explanation": "IRAC chamber brief."
+        "question": "How should a Certifying Authority/subscriber dispute be argued?",
+        "answer": "I. Identify certificate and parties. II. State the relevant IT Act ss. 17–42 and applicable rules. III. Apply issuance, certificate-status and subscriber-duty requirements. IV. Address evidence and attribution separately. V. Conclude on the statutory consequence.",
+        "explanation": "IRAC."
       },
       {
-        "id": "cyber-certifying-authorities-submissions",
-        "draftingCategory": "submissions",
-        "question": "Comprehensive Written Submissions on Certifying Authorities, Controller and Subscriber Duties.",
-        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct Certifying Authorities, Controller and Subscriber Duties under Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.",
-        "explanation": "Senior Counsel written submissions."
+        "id": "cyber-ca-exam",
+        "draftingCategory": "exam",
+        "question": "What are the key duties of a subscriber?",
+        "answer": "Generate the key pair under the prescribed procedure; comply with prescribed electronic-signature duties; accept the certificate only with the statutory representations; exercise reasonable care over the private key; and promptly notify the Certifying Authority of compromise.",
+        "explanation": "Sections 40–42."
       }
     ],
     "bareActPointers": [
-      "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
-      "Certifying Authorities, Controller and Subscriber Duties",
-      "BSA s. 63 and ss. 104, 109 where relevant"
+      "IT Act, 2000 — ss. 17–20: Controller and regulatory architecture",
+      "IT Act, 2000 — ss. 21–34: licensing, supervision, investigation, procedure and disclosure",
+      "IT Act, 2000 — ss. 35–39: electronic signature certificate lifecycle",
+      "IT Act, 2000 — ss. 40–42: subscriber duties and private-key control",
+      "Information Technology (Certifying Authorities) Rules, 2000"
     ],
     "examTips": [
-      "Name the governing statute in the opening sentence.",
-      "List ingredients before applying facts.",
-      "Separate jurisdiction, limitation, admissibility and merits.",
-      "Use only verified authorities and extract the ratio relevant to the issue."
+      "Map the facts to the exact section rather than treating the chapter as one rule.",
+      "Separate Controller powers, CA obligations and subscriber duties.",
+      "For suspension/revocation, identify the statutory ground and procedural safeguards.",
+      "Treat certificate validity and evidentiary admissibility as separate questions.",
+      "Do not cite struck-down section 66A as current law."
     ],
     "revisionPoints": [
-      "Certifying Authorities, Controller and Subscriber Duties",
-      "Mandatory ingredients and exceptions",
-      "Forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum",
-      "BSA electronic evidence and burden checkpoints where applicable"
+      "Controller under ss. 17–18",
+      "Foreign CA recognition under s. 19",
+      "CA licensing/supervision framework",
+      "Certificate issuance and representations under ss. 35–36",
+      "Suspension/revocation under ss. 37–39",
+      "Subscriber duties under ss. 40–42"
     ],
-    "relatedJudgments": [],
+    "relatedJudgments": [
+      "judgment:india:shreya-singhal-v-union-of-india-2015",
+      "judgment:india:anvar-p-v-v-p-basheer-2014",
+      "judgment:india:k-s-puttaswamy-v-union-of-india-2017"
+    ],
     "relatedTopics": [],
     "illustrations": [],
     "legacySubjectSlug": "cyber",
     "legacyTopicId": "cyber-certifying-authorities",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement preserving the legacy topic ID. Statutory source verified against current MeitY material; case-law verification remains a separate gate.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "State the rule recorded for Certifying Authorities, Controller and Subscriber Duties.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "Explain the Controller/Certifying Authority regulatory architecture.",
+        "Apply the electronic-signature certificate lifecycle rules.",
+        "Apply subscriber acceptance and private-key duties.",
+        "Distinguish certificate regulation from evidence and offence provisions."
       ],
-      "definition": "Certifying Authorities, Controller and Subscriber Duties. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.",
-      "legalPrinciple": "Provenance, Legislative Objective and Doctrinal Foundations. Certifying Authorities, Controller and Subscriber Duties sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.",
-      "statutoryFramework": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles; Certifying Authorities, Controller and Subscriber Duties; BSA s. 63 and ss. 104, 109 where relevant",
+      "definition": "The Information Technology Act, 2000 creates the regulatory framework for Certifying Authorities and the Controller of Certifying Authorities and imposes duties on subscribers of electronic signature certificates. The framework covers appointment and functions of the Controller, recognition/licensing and supervision of Certifying Authorities, issuance and lifecycle of electronic signature certificates, and subscriber acceptance and private-key control.",
+      "legalPrinciple": "The IT Act creates a regulated trust framework for electronic signatures: the Controller supervises the certification ecosystem, Certifying Authorities issue and manage certificates under statutory controls, and subscribers bear defined duties concerning acceptance and private-key security.",
+      "statutoryFramework": "Information Technology Act, 2000, ss. 17–42; Information Technology (Certifying Authorities) Rules, 2000 and applicable amendments.",
       "essentialIngredients": [
-        "Provenance, Legislative Objective and Doctrinal Foundations: Certifying Authorities, Controller and Subscriber Duties sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value befor",
-        "Textual Anatomy, Exceptions and Connected Rules: Identify every operative clause, condition, explanation, exception and remedy in Certifying Authorities, Controller and Subscriber Duties.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B; Cyber Crimes — ss. 66B, 66C, 66D, 66",
-        "Mandatory Proving Ingredients and Legal Test: Identify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.",
-        "BSA 2023 Burden and Electronic Evidence Checkpoints: the complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is estab",
-        "Procedural Roadmap, Forum and Limitation Checkpoints: Competent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology"
+        "Identify the relevant IT Act section and certificate lifecycle event",
+        "Identify the Certifying Authority and applicable licence/rule framework",
+        "Apply issuance, representations, suspension or revocation requirements where relevant",
+        "Apply subscriber acceptance and private-key duties",
+        "Separate statutory compliance from electronic-evidence proof"
       ],
-      "detailedExplanation": "Certifying Authorities, Controller and Subscriber Duties. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting.\n\nProvenance, Legislative Objective and Doctrinal Foundations\nCertifying Authorities, Controller and Subscriber Duties sits within Cyber Law and is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles.\nExplain the legal mischief, institutional purpose and constitutional value before applying the rule.\nUse the named statute, doctrine or professional standard rather than a generic substitute.\n\nTextual Anatomy, Exceptions and Connected Rules\nIdentify every operative clause, condition, explanation, exception and remedy in Certifying Authorities, Controller and Subscriber Duties.\nDistinguish it from Introduction to Cyber Law — Cyberspace, Jurisdiction and Cybercrime; Cyber Security and Critical Information Infrastructure — ss. 69, 69A, 70, 70A and 70B; Cyber Crimes — ss. 66B, 66C, 66D, 66E, 66F, 67, 67A and 67B.\nHistorical or comparative law may explain development but cannot replace the current governing rule.\n\nMandatory Proving Ingredients and Legal Test\nIdentify the forum and procedural stage.\nProve each jurisdictional, substantive and procedural condition from the record.\nAddress the principal defence, exception, limitation and precise legal consequence.\n\nBSA 2023 Burden and Electronic Evidence Checkpoints\nthe complainant or prosecution must establish the digital act, attribution, unauthorised access or communication, causation and statutory ingredients; electronic records require BSA s. 63 foundation where applicable\nApply BSA s. 104 to the ordinary foundational burden and s. 109 only to facts especially within knowledge after foundation is established.\nApply BSA s. 63 to electronic records where tendered, separately analysing relevance, authenticity, certificate and weight.\n\nProcedural Roadmap, Forum and Limitation Checkpoints\nCompetent forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.\nCheck limitation, notice, alternative remedy, jurisdiction and statutory appeal or review route.\nTransition and current law: identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences",
+      "detailedExplanation": "The topic should be read principally through IT Act sections 17–42 and the applicable Certifying Authorities Rules. Sections 17–20 establish the Controller and core regulatory functions; sections 21–34 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35–39 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40–42 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
       "examples": [
-        "Example 1 - Rule applies: The claimant or applicant establishes the forum, legal foundation, every mandatory ingredient and the requested remedy under Certifying Authorities, Controller and Subscriber Duties. The authority applies the rule on the proved record.",
-        "Example 2 - Boundary defect: A material condition, jurisdictional fact, limitation requirement or evidentiary foundation for Certifying Authorities, Controller and Subscriber Duties is missing. The Court identifies the defect and refuses, returns, remands or limits the relief according to law."
+        "A subscriber applies to a licensed Certifying Authority with the required particulars. The Authority follows the statutory application, enquiry and certification-practice requirements before issuing the certificate.",
+        "A subscriber discovers that the private key corresponding to a certificate may have been compromised. Section 42 requires prompt communication to the Certifying Authority; the subscriber remains liable under the statutory rule until notification.",
+        "A material fact in a certificate is false or concealed, or another statutory revocation ground exists. The Certifying Authority must apply the statutory revocation process and communicate and publish the resulting status as required."
       ],
-      "problemApplication": "Whether relief under Certifying Authorities, Controller and Subscriber Duties is maintainable and what order should the competent forum pass. — 1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy.",
+      "problemApplication": "Classify the certificate event, map it to the relevant section, apply the statutory/rule requirements, then analyse evidence and consequence separately.",
       "keyTakeaways": [
-        "Certifying Authorities, Controller and Subscriber Duties. Complete Cyber treatise with statutory deconstruction, examples, verified authorities, forum analysis and chamber drafting."
+        "Controller regulates the certification ecosystem.",
+        "Certifying Authorities have statutory issuance, disclosure and certificate-lifecycle duties.",
+        "Subscribers must protect private keys and promptly report compromise.",
+        "Certificate regulation and evidentiary admissibility are distinct questions."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "MeitY — Information Technology Act, 2000",
+        "Information Technology (Certifying Authorities) Rules, 2000"
       ],
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
+        "status": "SOURCE_CHECKED",
+        "note": "Sections 17–42 checked against current MeitY IT Act material on 2026-10-08; case-law gate remains separate.",
+        "date": "2026-10-08"
       },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
-    }
+      "distinctions": [
+        "Certifying Authority regulation vs cyber-crime provisions",
+        "Certificate regulation vs electronic-evidence admissibility"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Shreya Singhal v. Union of India — historical status of s.66A",
+        "Anvar P.V. v. P.K. Basheer — electronic evidence proof",
+        "K.S. Puttaswamy v. Union of India — constitutional privacy"
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Architecture; CA lifecycle; subscriber duties; conclusion.",
+        "sixteenMark": "Introduction; ss.17–20; ss.21–34; ss.35–39; ss.40–42; evidence distinction; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T00:00:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "cyber-certifying-authorities-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
   },
   "sources": [
-    "source:india:india-code-it-2000"
+    {
+      "type": "official-statute",
+      "name": "MeitY — Information Technology Act, 2000",
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "type": "official-rules",
+      "name": "Information Technology (Certifying Authorities) Rules, 2000",
+      "checkedAt": "2026-10-08"
+    }
   ],
-  "updatedAt": "2026-10-03T11:18:49.607Z",
+  "updatedAt": "2026-10-08T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
