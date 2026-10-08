@@ -1,7 +1,7 @@
 # Administrative Law — Full Repository Reconciliation
 
-**Date:** 2026-10-06  
-**Status:** INVENTORY FROZEN — NEXT SUBJECT EXECUTION  
+**Date:** 2026-10-08  
+**Status:** ENHANCEMENT COMPLETE — LEGAL/PUBLICATION GATES OPEN  
 **Subject:** Administrative Law  
 **Canonical directory:** `topics/admin/`
 
@@ -15,7 +15,7 @@ Torts is already `COMPLETE_LOCKED` and is not reopened. The 296 pending Supreme 
 
 ## Full repository inventory
 
-The canonical `topics/admin/` tree contains **45 Administrative Law topic records**. The inventory is frozen from the live `main` tree and every record below is in scope unless a later evidence-backed exclusion is documented.
+The canonical `topics/admin/` tree contains **44 unique Administrative Law topic records**. The inventory is frozen from the live `main` tree and every record below is in scope unless a later evidence-backed exclusion is documented.
 
 1. admin-adjudication.json
 2. admin-audi-alteram.json
@@ -61,15 +61,15 @@ The canonical `topics/admin/` tree contains **45 Administrative Law topic record
 42. admin-tribunals-structure.json
 43. admin-ultra-vires.json
 44. admin-writ-remedies.json
-45. admin-judicial-review.json (canonical tree check requires duplicate-name reconciliation before final lock)
+(The earlier 45th entry was a documentation duplicate of `admin-judicial-review.json`; the live tree contains 44 unique records.)
 
 ## Gate status
 
 | Gate | Status | Evidence / next action |
 |---|---|---|
 | A — Full subject inventory | COMPLETE | Live `topics/admin/` tree inventoried and frozen 2026-10-06 |
-| B — Repository mapping | IN PROGRESS | All live canonical paths mapped; duplicate/renamed-family and legacy identity reconciliation remains |
-| C — Enhancement completeness | IN PROGRESS | Existing ADMIN-001 assembly is not treated as subject completion; all 45 records must pass C01–C23 |
+| B — Repository mapping | COMPLETE FOR CURRENT 44-TOPIC INVENTORY | Live unique paths reconciled; no duplicate `admin-judicial-review.json` exists in the directory |
+| C — Enhancement completeness | COMPLETE | 44/44 unique topics have substantive topic-specific enhancement; evidence: `docs/ADMIN-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md` |
 | D — Statutory/current-law verification | PENDING | Verify Constitution/statutes/rules from authoritative current sources |
 | E — Case-law verification | PARALLEL | Resolve/verify relied-upon judgments by dependency priority; 296 global queue is not a serial blocker |
 | F — Legal/content validation | PENDING | Run schema, enhancement, reference and preservation gates after subject work |
@@ -96,4 +96,4 @@ The canonical `topics/admin/` tree contains **45 Administrative Law topic record
 7. Run CodePackr Law integration/production checks.
 8. Produce final Administrative Law section/topic ledger and lock only after all applicable gates pass.
 
-**Current final status:** `INVENTORIED / REPOSITORY_MAPPING_IN_PROGRESS` — not verified, not published, not complete.
+**Current final status:** `ENHANCEMENT_COMPLETE / LEGAL_VERIFICATION_OPEN` — not yet published or `COMPLETE_LOCKED`.
