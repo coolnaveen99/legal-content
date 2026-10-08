@@ -29,7 +29,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | ni | 4 | 4 | 0 | 100 | **COMPLETE_LOCKED** |
 | petition-formats | 8 | 8 | 0 | 100 | **COMPLETE_LOCKED** |
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
-| registration | 3 | 3 | 0 | 100 | SUBSTANTIVE |
+| registration | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | sra | 6 | 6 | 0 | 100 | SUBSTANTIVE |
 | taxation | 51 | 0 | 0 | 0 | SCAFFOLD |
 | torts | 42 | 16 | 3 | 38 | PARTIAL |
@@ -49,3 +49,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Petition Formats COMPLETE_LOCKED — 2026-10-08:** All 8 petition-format topics remediated to `substantive-topic-specific-v1`. **Do not reopen Petition Formats for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/PETITION-FORMATS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Fundamental Rights COMPLETE_LOCKED — 2026-10-08:** All 12 Part III topics remediated to `substantive-topic-specific-v1`. **Do not reopen Fundamental Rights for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/FR-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Registration COMPLETE_LOCKED — 2026-10-08:** All 3 Registration Act topics (`s-17`, `s-18`, `s-49`) remediated to `substantive-topic-specific-v1`. **Do not reopen Registration for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/REGISTRATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
