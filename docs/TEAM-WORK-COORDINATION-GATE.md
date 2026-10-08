@@ -142,3 +142,14 @@ If production validation fails, revert the affected batch to the prior safe publ
 
 The first Contract production batch is **5 topics**, selected from already verified Contract topics. Subsequent batches proceed only after live delivery of the preceding batch is confirmed.
 \n
+
+## Contract section-wise canonicalization — P0
+
+For the Contract subject, **one statutory provision must equal one canonical topic/page**. Do not create or treat grouped statutory ranges such as ICA ss. 26–30, ss. 37–45, or ss. 124–125 as the canonical student-facing statutory unit.
+
+- ICA ss. 1–75 and ss. 124–238 are represented as individual section topics, including s. 19A and s. 178A.
+- ICA ss. 76–123 are repealed and must not be presented as current operative Contract sections.
+- Existing grouped Contract records are retained only as supplementary migration/source material until their substantive content is separated into the individual section records.
+- Individual section records remain independently gated: source verification, case-law verification where applicable, schema/preservation validation, then publication.
+- Sale of Goods Act and Partnership Act sections are separate statutes and must not be folded into ICA section topics.
+- Do not mark the Contract subject complete until every required individual section has passed its applicable gates.
