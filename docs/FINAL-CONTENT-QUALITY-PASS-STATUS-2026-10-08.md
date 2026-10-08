@@ -125,6 +125,13 @@ Arbitration E-03 advanced and tail closed for specific ranges; subject not COMPL
 - Coverage set to `substantive-topic-specific-v1`. Audit: `docs/HMA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 - Hindu Marriage Act removed from the open enhancement queue. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
 
+
+### Specific Relief — subject lock
+
+- Topics: `topics/sra/s-10.json`, `s-14.json`, `s-16.json`, `s-20.json`, `s-34.json`, `s-38.json` (6/6).
+- Coverage set to `substantive-topic-specific-v1`. Audit: `docs/SRA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+- Specific Relief removed from the open enhancement queue. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
+
 ## Important quality boundary
 
 The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual subjects have been locked for scaffold work.

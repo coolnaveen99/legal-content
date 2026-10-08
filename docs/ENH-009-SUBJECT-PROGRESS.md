@@ -30,7 +30,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | petition-formats | 8 | 8 | 0 | 100 | **COMPLETE_LOCKED** |
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
 | registration | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
-| sra | 6 | 6 | 0 | 100 | SUBSTANTIVE |
+| sra | 6 | 6 | 0 | 100 | **COMPLETE_LOCKED** |
 | taxation | 51 | 0 | 0 | 0 | SCAFFOLD |
 | torts | 42 | 16 | 3 | 38 | PARTIAL |
 | tpa | 6 | 6 | 0 | 100 | **ENHANCEMENT COMPLETE / VERIFICATION OPEN** |
@@ -55,3 +55,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Limitation COMPLETE_LOCKED — 2026-10-08:** All 5 Limitation Act topics (`s-3`, `s-5`, `s-12`, `s-14`, `s-18`) remediated to `substantive-topic-specific-v1`. **Do not reopen Limitation for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/LIMITATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Hindu Marriage Act COMPLETE_LOCKED — 2026-10-08:** All 5 HMA topics (`s-9`, `s-13`, `s-13b`, `s-24`, `s-25`) remediated to `substantive-topic-specific-v1`. **Do not reopen Hindu Marriage Act for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/HMA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Specific Relief COMPLETE_LOCKED — 2026-10-08:** All 6 SRA topics (`s-10`, `s-14`, `s-16`, `s-20`, `s-34`, `s-38`) remediated to `substantive-topic-specific-v1`. **Do not reopen Specific Relief for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/SRA-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.

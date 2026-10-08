@@ -7,8 +7,8 @@
   "title": "Section 34 SRA — Declaration",
   "jurisdiction": "India",
   "content": {
-    "overview": "A person entitled to a legal character or a property right may sue for a declaration against a person who denies it.",
-    "study": "The proviso kills a bare declaration when further relief — possession, injunction, cancellation — was available and omitted. Ask for the consequential relief in the same plaint.",
+    "overview": "Section 34 of the Specific Relief Act, 1963 allows any person entitled to a legal character, or to any right as to any property, to sue a person who denies or is interested to deny that title, for a declaration that he is so entitled. The plaintiff need not ask for any further relief. The proviso says no court shall make such a declaration where the plaintiff, being able to seek further relief than a mere declaration of title, omits to do so. The declaration is discretionary. It is not specific performance and not an injunction.",
+    "study": "Plead a legal character or a property right, and a defendant who denies it. If further relief is available and is not asked, the proviso blocks a bare declaration. Do not use section 34 to enforce a contract.",
     "relatedTopics": [
       "topic:india:sra-s-38"
     ],
@@ -17,76 +17,80 @@
     "legacyTopicId": "s-34",
     "enhancement": {
       "version": "2",
-      "status": "in-progress",
-      "coverage": "subject-enhancement",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "Explain declaratory relief under Section 34.",
-        "Identify when a plaintiff may seek declaration of legal character or property right.",
-        "Apply the proviso requiring consequential relief where further relief is available."
+        "State who may seek a section 34 declaration.",
+        "Apply the proviso on omitted further relief.",
+        "Keep declaration distinct from specific performance."
       ],
-      "definition": "Section 34 permits a person entitled to a legal character or property right to sue against a person denying or interested to deny that entitlement, subject to the court's discretion and the proviso concerning omitted consequential relief.",
-      "legalPrinciple": "A declaration determines the legal character or right in issue, but the proviso prevents a plaintiff who can seek further relief from obtaining only a bare declaration while omitting the consequential relief.",
-      "statutoryFramework": "Specific Relief Act, 1963, Section 34, including its proviso and trustee explanation; read with the nature of the consequential relief sought.",
+      "definition": "Section 34 is a discretionary declaration of a legal character or a property right against a person who denies or is interested to deny it.",
+      "legalPrinciple": "A declaration is available without further relief only if the plaintiff could not seek further relief. The proviso is mandatory where further relief was available and omitted.",
+      "statutoryFramework": "Specific Relief Act, 1963, section 34.",
       "essentialIngredients": [
-        "Plaintiff must claim entitlement to a legal character or property right.",
-        "Defendant must deny or be interested to deny that entitlement.",
-        "The court considers whether declaratory relief should be granted.",
-        "If further relief is available, identify and plead the consequential relief required by the proviso.",
-        "Where a trustee is involved, consider the statutory explanation concerning a person interested to deny title."
+        "Legal character or a right as to property",
+        "Defendant denies or is interested to deny it",
+        "Declaration sought",
+        "Further relief asked if the plaintiff is able to seek it",
+        "Discretion to make the declaration"
       ],
-      "detailedExplanation": "Section 34 is a declaratory remedy, not a substitute for every consequential civil remedy. The plaintiff must establish the legal character or property right and the defendant's adverse denial or interest. The crucial pleading question is whether further relief—such as possession or injunction—is available and necessary. The Supreme Court has treated the proviso as a bar to an incomplete bare-declaration claim where further relief is omitted, while recognising that the issue depends on the relief actually available on the facts.",
+      "detailedExplanation": "The entitlement is present tense: a person entitled to a legal character or to a right as to any property. The defendant must deny, or be interested to deny, the title. The court may in its discretion make the declaration. The opening words say the plaintiff need not ask for further relief, but the proviso qualifies that. If the plaintiff is able to seek further relief than a mere declaration of title and omits to do so, the court shall not make the declaration. Further relief means a relief the plaintiff could have sought in the suit, such as possession where the plaintiff is out of possession. A plaintiff in possession seeking a declaration against a denial is the ordinary case outside the proviso. Section 34 does not order a contract to be performed.",
       "examples": [
-        "A person out of possession who seeks only a declaration of ownership against the person in possession should ordinarily consider a consequential possession relief rather than relying on a bare declaration."
+        "A person in possession of a house sues a stranger who denies his title, and asks only for a declaration. Section 34 can be considered.",
+        "A plaintiff out of possession asks only for a declaration of title and does not ask for possession. The proviso applies if possession could have been sought.",
+        "A buyer asks for a declaration that a sale contract exists, without seeking performance. That is not the section 10 remedy."
       ],
-      "distinctions": "Section 34 concerns declaration of status or right; Section 35 addresses the effect of the declaration; Sections 38 and 39 concern injunctive relief; CPC pleading rules determine how consequential relief is framed procedurally.",
-      "caseLaw": [
-        {
-          "name": "Venkataraja v. Vidyane Doureradjaperumal",
-          "year": 2013,
-          "citation": "Supreme Court, 10 Apr 2013",
-          "holding": "The Supreme Court treated the proviso to Section 34 as material where the plaintiff could seek further relief and omitted it, including where possession could be sought.",
-          "relevance": "Direct authority on the limits of a bare declaratory suit under the Section 34 proviso.",
-          "sourceUrl": "https://api.sci.gov.in/supremecourt/2010/6819/6819_2016_42_1501_34601_Judgement_01-Apr-2022.pdf"
-        }
+      "problemApplication": "Identify the character or property right, the denial, and whether further relief was available. If it was available and omitted, refuse the bare declaration.",
+      "distinctions": [
+        "Declaration vs specific performance",
+        "Declaration vs perpetual injunction",
+        "Bare declaration vs declaration with further relief",
+        "Legal character vs a mere commercial hope"
       ],
-      "problemApplication": "A claimant seeks a declaration of title but is not in possession. Identify the legal right, the adverse denial, whether possession or injunction is available, and whether the proviso to Section 34 requires consequential relief.",
-      "examAnswerStructure": [
-        "Identify the legal character or property right.",
-        "Identify the adverse denial or threat.",
-        "State Section 34 and its proviso.",
-        "Determine whether consequential relief is available.",
-        "Apply the facts to the pleading and relief structure.",
-        "Conclude on maintainability and appropriate relief."
-      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Ready-and-willing and adequate-relief readings remain on the case-law gate.",
+      "shortAnswerStructure": "A person entitled to a legal character or property right may sue a denying person for a declaration, but not if able to seek further relief and omitting it.",
+      "tenMarkStructure": "Who may sue → discretion → proviso → one omitted-possession illustration.",
+      "sixteenMarkStructure": "Text → legal character and property right → denial → proviso → border with sections 10 and 38 → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "A person entitled to a legal character or property right may sue a denying person for a declaration, but not if able to seek further relief and omitting it.",
+        "tenMark": "Who may sue → discretion → proviso → one omitted-possession illustration.",
+        "sixteenMark": "Text → legal character and property right → denial → proviso → border with sections 10 and 38 → facts → conclusion."
+      },
       "keyTakeaways": [
-        "Section 34 supports declaratory relief for legal character or property rights.",
-        "The proviso matters whenever further relief is available and omitted.",
-        "The relief sought must match the practical legal problem presented by the facts."
+        "The plaintiff needs a legal character or a property right.",
+        "The defendant must deny or be interested to deny it.",
+        "The declaration is discretionary.",
+        "Further relief must be asked if it could be sought.",
+        "Section 34 does not enforce a contract."
       ],
       "authoritativeSources": [
-        "India Code — Specific Relief Act, 1963",
-        "Supreme Court of India — Venkataraja v. Vidyane Doureradjaperumal"
+        "Specific Relief Act, 1963, section 34"
       ],
-      "notes": [
-        "India Code statutory source reviewed for Section 34.",
-        "Official Supreme Court judgment source reviewed for the Section 34 proviso.",
-        "Enhancement remains in-progress pending repository-level verification/publishing."
-      ],
+      "currentLawStatus": "verification_required",
       "verification": {
-        "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "India Code / Supreme Court of India official sources",
-        "notes": [
-          "India Code statutory source reviewed for Section 34.",
-          "Official Supreme Court judgment source reviewed for the Section 34 proviso.",
-          "Enhancement remains in-progress pending repository-level verification/publishing."
-        ]
-      }
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 34 text and proviso. No case ratio on further relief.",
+        "date": "2026-10-08"
+      },
+      "lastBotRunAt": "2026-10-08T08:12:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "sra-s34-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
     }
   },
   "sources": [
     "source:india:india-code-sra-1963"
   ],
-  "updatedAt": "2026-10-03T18:25:00+05:30",
+  "updatedAt": "2026-10-08",
   "effectiveFrom": "1964-03-01",
   "effectiveTo": null
 }
