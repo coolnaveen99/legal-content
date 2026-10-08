@@ -25,7 +25,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | ipr | 63 | 0 | 0 | 0 | SCAFFOLD |
 | labour | 523 | 0 | 0 | 0 | SCAFFOLD |
 | land | 44 | 0 | 0 | 0 | SCAFFOLD |
-| limitation | 5 | 5 | 0 | 100 | SUBSTANTIVE |
+| limitation | 5 | 5 | 0 | 100 | **COMPLETE_LOCKED** |
 | ni | 4 | 4 | 0 | 100 | **COMPLETE_LOCKED** |
 | petition-formats | 8 | 8 | 0 | 100 | **COMPLETE_LOCKED** |
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
@@ -51,3 +51,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Fundamental Rights COMPLETE_LOCKED — 2026-10-08:** All 12 Part III topics remediated to `substantive-topic-specific-v1`. **Do not reopen Fundamental Rights for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/FR-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Registration COMPLETE_LOCKED — 2026-10-08:** All 3 Registration Act topics (`s-17`, `s-18`, `s-49`) remediated to `substantive-topic-specific-v1`. **Do not reopen Registration for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/REGISTRATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Limitation COMPLETE_LOCKED — 2026-10-08:** All 5 Limitation Act topics (`s-3`, `s-5`, `s-12`, `s-14`, `s-18`) remediated to `substantive-topic-specific-v1`. **Do not reopen Limitation for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/LIMITATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.

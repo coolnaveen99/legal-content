@@ -7,8 +7,8 @@
   "title": "Section 14 Limitation Act — Wrong forum in good faith",
   "jurisdiction": "India",
   "content": {
-    "overview": "Time spent diligently and in good faith in a court that could not entertain the matter is excluded from limitation for the later suit.",
-    "study": "Same matter, same defendant, due diligence, good faith, and a defect of jurisdiction or something like it. A hopeless forum-shop does not get 14.",
+    "overview": "Section 14 of the Limitation Act, 1963 excludes time spent prosecuting another civil proceeding that fails for want of jurisdiction or another cause of a like nature. For a suit, the plaintiff must have prosecuted with due diligence another civil proceeding against the same defendant, on the same matter in issue, in good faith, in a court which from defect of jurisdiction or other cause of a like nature could not entertain it. Section 14(2) makes the same exclusion for an application. The exclusion is of that prosecution time. It is not a general condonation, and it does not apply to a forum that could have entertained the matter.",
+    "study": "Require the same matter, due diligence, good faith, and a court that could not entertain the proceeding. A merits dismissal is not a section 14 defect. Do not use section 14 to save a late filing that was never prosecuted in another court.",
     "relatedTopics": [
       "topic:india:limitation-s-3",
       "topic:india:cpc-s-9"
@@ -18,71 +18,83 @@
     "legacyTopicId": "s-14",
     "enhancement": {
       "version": "2",
-      "status": "in-progress",
-      "coverage": "subject-enhancement",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "Explain Limitation Act, 1963 Section 14.",
-        "Apply the provision to a limitation calculation or factual problem.",
-        "Distinguish the provision from related limitation rules."
+        "State the section 14 conditions for a suit and an application.",
+        "Require defect of jurisdiction or a like cause.",
+        "Keep a merits failure outside the section."
       ],
-      "definition": "Section 14 excludes time spent prosecuting, with due diligence and in good faith, a civil proceeding in a court that cannot entertain it because of jurisdictional defect or a like cause, subject to the statutory conditions.",
-      "legalPrinciple": "The provision protects a diligent litigant who pursued the same matter in the wrong forum in good faith; every statutory condition must be satisfied.",
-      "statutoryFramework": "Limitation Act, 1963, Section 14(1) for suits, Section 14(2) for applications and the related sub-sections.",
+      "definition": "Section 14 excludes time spent diligently and in good faith on the same matter in a court that could not entertain it, when computing limitation for the later suit or application.",
+      "legalPrinciple": "The later court does not add a new period. It leaves out time lost to a proceeding the earlier court could not hear.",
+      "statutoryFramework": "Limitation Act, 1963, section 14. Section 5 is condonation. Section 14 is exclusion.",
       "essentialIngredients": [
-        "Prior and subsequent proceedings must be civil proceedings of the type covered.",
-        "The prior proceeding must have been prosecuted with due diligence and in good faith.",
-        "The earlier court must have been unable to entertain the matter because of defect of jurisdiction or a like cause.",
-        "The proceedings must concern the same matter or the same party and relief as specified by the subsection.",
-        "Exclude the qualifying period when computing limitation for the later proceeding."
+        "Later suit or application",
+        "Earlier civil proceeding prosecuted",
+        "Due diligence",
+        "Same matter in issue",
+        "Same defendant, for a suit",
+        "Good faith",
+        "Defect of jurisdiction or other cause of a like nature",
+        "Earlier court unable to entertain it"
       ],
-      "detailedExplanation": "Section 14 is narrower than a general fairness discretion. The Supreme Court has identified the core conditions: same party/proceeding context, due diligence and good faith, failure because of jurisdiction or a like cause, and sufficient identity between the earlier and later proceedings. Negligence or a materially different claim can defeat the exclusion.",
+      "detailedExplanation": "Section 14(1) is the suit rule. The excluded time is the time during which the plaintiff has been prosecuting the other civil proceeding. That proceeding may be in a court of first instance or in appeal or revision. It must be against the defendant, relate to the same matter in issue, and be prosecuted in good faith in a court which, from defect of jurisdiction or other cause of a like nature, is unable to entertain it. Section 14(2) applies the exclusion to an application, with the defendant in the later application corresponding to the opposite party. Section 14(3) excludes a period already excluded under section 9 of the old Act in the stated way; ordinary problems do not need it. A dismissal on the merits is not inability to entertain. A voluntary withdrawal from a court that had jurisdiction is not this section.",
       "examples": [
-        "A claimant diligently prosecutes the same civil relief in a court that lacks jurisdiction, discovers the jurisdictional defect, and promptly institutes the proceeding in the competent court. If the statutory conditions are satisfied, the qualifying earlier period may be excluded."
+        "A title suit is filed in a court which lacks territorial jurisdiction and is returned. The time of that prosecution is excluded in the later suit if diligence and good faith are shown.",
+        "The first court had jurisdiction and dismissed the suit on evidence. Section 14 does not exclude that time.",
+        "No earlier proceeding was filed. Section 14 has nothing to exclude."
       ],
-      "distinctions": "Section 14 excludes time spent in a qualifying wrong-forum proceeding; Section 5 condones eligible delay; Section 12 deals with specific computational exclusions.",
-      "caseLaw": [
-        {
-          "name": "M.P. Steel Corporation v. Commissioner of Central Excise",
-          "year": 2015,
-          "citation": "(2015) 7 SCC 58",
-          "holding": "The Supreme Court explained the conditions for Section 14 and recognized that due diligence and good faith are central to excluding time spent in a prior proceeding before a forum unable to entertain it.",
-          "relevance": "Direct authority on the ingredients of Section 14.",
-          "sourceUrl": "https://api.sci.gov.in/jonew/judis/41732.pdf"
-        }
+      "problemApplication": "List forum, dates, same parties, same matter, diligence, good faith, and why the first court could not entertain the case. If the first court could decide it, refuse the exclusion.",
+      "distinctions": [
+        "Section 14 exclusion vs section 5 condonation",
+        "Want of jurisdiction vs dismissal on merits",
+        "Same matter vs a new claim",
+        "Prosecuted time vs idle time before filing"
       ],
-      "problemApplication": "Compare the earlier and later proceedings, identify the jurisdictional defect, test due diligence and good faith, and calculate the period to be excluded.",
-      "examAnswerStructure": [
-        "Introduction and statutory provision",
-        "Identify the prescribed period and triggering event",
-        "State statutory ingredients",
-        "Apply computation/exclusion/extension rules",
-        "Address exceptions and related provisions",
-        "Conclude whether the proceeding is within time or what relief is available"
-      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Sufficient-cause and good-faith illustrations are statutory, not holdings.",
+      "shortAnswerStructure": "Exclude time spent in good faith and with due diligence on the same matter in a court that could not entertain it.",
+      "tenMarkStructure": "Conditions → suit and application → merits dismissal excluded → one returned-plaint illustration.",
+      "sixteenMarkStructure": "Purpose → each condition → what is not a like cause → border with section 5 → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "Exclude time spent in good faith and with due diligence on the same matter in a court that could not entertain it.",
+        "tenMark": "Conditions → suit and application → merits dismissal excluded → one returned-plaint illustration.",
+        "sixteenMark": "Purpose → each condition → what is not a like cause → border with section 5 → facts → conclusion."
+      },
       "keyTakeaways": [
-        "The provision protects a diligent litigant who pursued the same matter in the wrong forum in good faith; every statutory condition must be satisfied.",
-        "Section 14 excludes time spent in a qualifying wrong-forum proceeding; Section 5 condones eligible delay; Section 12 deals with specific computational exclusions."
+        "Section 14 excludes prosecution time.",
+        "The matter and the diligence must match.",
+        "Good faith is required.",
+        "The earlier court must have been unable to entertain the proceeding.",
+        "A merits loss is not section 14."
       ],
       "authoritativeSources": [
-        "India Code — Limitation Act, 1963",
-        "Official Supreme Court of India judgment source where case law is activated"
+        "Limitation Act, 1963, section 14"
       ],
+      "currentLawStatus": "verification_required",
       "verification": {
-        "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "India Code / Supreme Court of India official sources",
-        "notes": [
-          "India Code statutory text reviewed for Section 14.",
-          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
-          "No authority was activated for Section 3 because no opened judgment was needed to establish an exact Section 3 proposition in this batch.",
-          "State amendments and special/local laws must be checked where applicable."
-        ]
-      }
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 14 conditions stated from the Act. No good-faith holding added.",
+        "date": "2026-10-08"
+      },
+      "lastBotRunAt": "2026-10-08T08:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "lim-s14-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
     }
   },
   "sources": [
     "source:india:india-code-limitation-1963"
   ],
-  "updatedAt": "2026-10-03T13:00:00Z",
+  "updatedAt": "2026-10-08",
   "effectiveFrom": "1964-01-01",
   "effectiveTo": null
 }

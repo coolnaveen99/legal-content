@@ -7,8 +7,8 @@
   "title": "Section 12 Limitation Act — Time for copies",
   "jurisdiction": "India",
   "content": {
-    "overview": "Exclude the starting day. For appeal, revision and review, also exclude the time requisitely spent obtaining the copy.",
-    "study": "Requisite means the time the copying office actually needed after a proper application. Dilatory applicants do not get the calendar they wasted.",
+    "overview": "Section 12 of the Limitation Act, 1963 is a computation rule. In computing limitation for any suit, appeal or application, the day from which the period is to be reckoned is excluded. For an appeal, an application for leave to appeal, a revision, or a review, the time requisite for obtaining a copy of the decree, sentence or order is also excluded, and the day on which the judgment complained of was pronounced is excluded. The time requisite for obtaining a copy of the judgment on which the decree or order is founded is excluded as well. Time taken to obtain a copy is the time requisite, not every day the party later chooses to wait.",
+    "study": "Exclude the start day in every computation. Exclude copy time only for appeal, leave, revision and review. Do not exclude copy time from a suit unless another section says so.",
     "relatedTopics": [
       "topic:india:limitation-s-5",
       "topic:india:cpc-s-96"
@@ -18,70 +18,81 @@
     "legacyTopicId": "s-12",
     "enhancement": {
       "version": "2",
-      "status": "in-progress",
-      "coverage": "subject-enhancement",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "Explain Limitation Act, 1963 Section 12.",
-        "Apply the provision to a limitation calculation or factual problem.",
-        "Distinguish the provision from related limitation rules."
+        "Exclude the reckoning day under section 12(1).",
+        "Exclude requisite copy time for appeal, revision and review.",
+        "Keep copy-time exclusion off ordinary suits."
       ],
-      "definition": "Section 12 excludes specified periods when computing limitation, including the day from which the prescribed period is reckoned and, in specified appeals, revisions and reviews, requisite time for obtaining the copy of the relevant decree or order.",
-      "legalPrinciple": "Limitation is computed after applying the statutory exclusions in Section 12; the provision is a computation rule, not a general condonation provision.",
-      "statutoryFramework": "Limitation Act, 1963, Section 12 and its subsections concerning suits, appeals, revisions, reviews and copies.",
+      "definition": "Section 12 excludes the day from which limitation is reckoned and, for appeal, revision and review, the time requisite for obtaining the necessary copy.",
+      "legalPrinciple": "Section 12 is exclusion in computation, not condonation. The party does not need sufficient cause for the days the section excludes.",
+      "statutoryFramework": "Limitation Act, 1963, section 12. Section 5 is a different power.",
       "essentialIngredients": [
-        "Identify the proceeding and subsection of Section 12 that applies.",
-        "Exclude the statutory starting day.",
-        "For specified appellate/revisional/review proceedings, identify the requisite copying period.",
-        "Calculate the resulting limitation period."
+        "Period being computed for a suit, appeal or application",
+        "Start day excluded",
+        "For appeal, leave, revision or review, judgment day excluded",
+        "Time requisite for the decree, sentence or order copy excluded",
+        "Time requisite for the judgment copy excluded",
+        "No extra delay after the copy was ready"
       ],
-      "detailedExplanation": "Section 12 adjusts the arithmetic of limitation. The Supreme Court has applied Section 12(1) to exclude the day from which limitation is reckoned and has recognized its role in calculating limitation periods in special statutory proceedings unless excluded by the governing law.",
+      "detailedExplanation": "Section 12(1) applies to suits as well as appeals and applications, but only for the day from which the period is to be reckoned. Section 12(2) is narrower. It applies to an appeal, an application for leave to appeal, a revision, and a review of a judgment. It excludes the day the judgment was pronounced and the time requisite for obtaining a copy of the decree, sentence or order appealed from or sought to be revised or reviewed. Section 12(3) excludes the time requisite for a copy of the judgment on which that decree or order is founded. Section 12(4) deals with a copy served without the party's application and is read before adding waiting time. The exclusion is the time requisite, which is the time required to obtain the copy, not a later period of inaction.",
       "examples": [
-        "If a limitation period begins from the date of a judgment or order, the day of that judgment/order is excluded under Section 12(1). Where the provision applicable to an appeal permits exclusion of requisite time for obtaining a copy, that copying period is also removed from the computation."
+        "A three-year suit period starts on 1 March. That day is excluded under section 12(1). Copy time is not excluded from the suit.",
+        "An appeal is filed after the period, but the days taken to obtain the decree copy are excluded under section 12(2).",
+        "The copy was ready and the party waited a further month. That further month is not time requisite under section 12."
       ],
-      "distinctions": "Section 12 excludes specified time from computation; Section 14 excludes time spent bona fide prosecuting the same matter in a court unable to entertain it; Section 5 concerns condonation of eligible delay.",
-      "caseLaw": [
-        {
-          "name": "My Preferred Transformation & Hospitality Pvt. Ltd. v. M/s Faridabad Implements Pvt. Ltd.",
-          "year": 2025,
-          "citation": "2025 INSC 56",
-          "holding": "The Supreme Court discussed Section 12 and reiterated that the day from which a limitation period is to be reckoned is excluded in computation.",
-          "relevance": "Direct Supreme Court authority discussing Section 12 computation.",
-          "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/15925/15925_2024_12_1502_58501_Judgement_10-Jan-2025.pdf"
-        }
+      "problemApplication": "Exclude the start day. Add copy time only if the proceeding is an appeal, leave application, revision or review, and only for the time requisite. Send any remaining delay to section 5 if that section applies.",
+      "distinctions": [
+        "Section 12 exclusion vs section 5 condonation",
+        "Start-day exclusion for suits vs copy-time exclusion",
+        "Time requisite vs later delay",
+        "Appeal computation vs suit computation"
       ],
-      "problemApplication": "Identify the triggering date, exclude the first day, determine whether copy time is statutorily excludable for the particular proceeding, and calculate the final filing date.",
-      "examAnswerStructure": [
-        "Introduction and statutory provision",
-        "Identify the prescribed period and triggering event",
-        "State statutory ingredients",
-        "Apply computation/exclusion/extension rules",
-        "Address exceptions and related provisions",
-        "Conclude whether the proceeding is within time or what relief is available"
-      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Sufficient-cause and good-faith illustrations are statutory, not holdings.",
+      "shortAnswerStructure": "Exclude the reckoning day. For appeal, revision and review, also exclude the time requisite for the copy.",
+      "tenMarkStructure": "Section 12(1) → section 12(2) and (3) → time requisite → border with section 5.",
+      "sixteenMarkStructure": "Computation not condonation → each subsection → which proceedings → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "Exclude the reckoning day. For appeal, revision and review, also exclude the time requisite for the copy.",
+        "tenMark": "Section 12(1) → section 12(2) and (3) → time requisite → border with section 5.",
+        "sixteenMark": "Computation not condonation → each subsection → which proceedings → facts → conclusion."
+      },
       "keyTakeaways": [
-        "Limitation is computed after applying the statutory exclusions in Section 12; the provision is a computation rule, not a general condonation provision.",
-        "Section 12 excludes specified time from computation; Section 14 excludes time spent bona fide prosecuting the same matter in a court unable to entertain it; Section 5 concerns condonation of eligible delay."
+        "The start day is excluded for suits, appeals and applications.",
+        "Copy time is excluded for appeal, leave, revision and review.",
+        "The judgment day is excluded in those proceedings.",
+        "Only time requisite counts.",
+        "Section 12 is not section 5."
       ],
       "authoritativeSources": [
-        "India Code — Limitation Act, 1963",
-        "Official Supreme Court of India judgment source where case law is activated"
+        "Limitation Act, 1963, section 12"
       ],
+      "currentLawStatus": "verification_required",
       "verification": {
-        "lastVerifiedAt": "2026-10-03",
-        "verifiedBy": "India Code / Supreme Court of India official sources",
-        "notes": [
-          "India Code statutory text reviewed for Section 12.",
-          "Official Supreme Court judgment pages were opened for the authorities activated in caseLaw.",
-          "No authority was activated for Section 3 because no opened judgment was needed to establish an exact Section 3 proposition in this batch.",
-          "State amendments and special/local laws must be checked where applicable."
-        ]
-      }
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 12 text only. No case citation on time requisite.",
+        "date": "2026-10-08"
+      },
+      "lastBotRunAt": "2026-10-08T08:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "lim-s12-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
     }
   },
   "sources": [
     "source:india:india-code-limitation-1963"
   ],
-  "updatedAt": "2026-10-03T13:00:00Z",
+  "updatedAt": "2026-10-08",
   "effectiveFrom": "1964-01-01",
   "effectiveTo": null
 }

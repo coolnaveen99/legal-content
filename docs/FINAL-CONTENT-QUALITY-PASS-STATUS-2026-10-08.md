@@ -111,6 +111,13 @@ Arbitration E-03 advanced and tail closed for specific ranges; subject not COMPL
 - Coverage set to `substantive-topic-specific-v1`. Audit: `docs/REGISTRATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 - Registration removed from the open enhancement queue. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
 
+
+### Limitation — subject lock
+
+- Topics: `topics/limitation/s-3.json`, `s-5.json`, `s-12.json`, `s-14.json`, `s-18.json` (5/5).
+- Coverage set to `substantive-topic-specific-v1`. Audit: `docs/LIMITATION-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+- Limitation removed from the open enhancement queue. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
+
 ## Important quality boundary
 
 The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual subjects have been locked for scaffold work.
