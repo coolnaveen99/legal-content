@@ -2,63 +2,65 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:tpa-s-5",
-  "version": 1,
-  "status": "published",
-  "title": "Section 5 TPA — Transfer of property",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Transfer of Property — Section 5 TPA",
   "jurisdiction": "India",
   "content": {
-    "overview": "A transfer is a living person conveying property, in present or in future, to another living person.",
-    "study": "Wills are not TPA transfers. Companies are living persons for this section. Sale, mortgage, lease and gift are the named modes that follow.",
-    "relatedTopics": [
-      "topic:india:tpa-s-54"
+    "overview": "Section 5 of the Transfer of Property Act, 1882 defines transfer of property as an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself and one or more other living persons. Company or association or body of individuals is treated as a living person for this section. Wills and other dispositions taking effect only on death are outside this definition.",
+    "glance": "Ask: (1) Living person to living person? (2) Conveyance in present or future? (3) Not a will? (4) Which named mode follows (sale, mortgage, lease, gift)?",
+    "study": "s. 5 is the definitional gateway. Named modes — sale (s. 54), mortgage (s. 58), lease (s. 105), gift (s. 122) — operate within this concept.\n\nNo case holdings invented. Case-law verification remains a separate gate.",
+    "sections": [
+      {"heading": "Living person", "body": "Transferor and transferee must be living persons; company/association/body of individuals counts as a living person under the section.", "order": 1},
+      {"heading": "Conveyance", "body": "Property may be conveyed in present or in future.", "order": 2},
+      {"heading": "Wills excluded", "body": "Dispositions taking effect only on death (wills) are not transfers under s. 5.", "order": 3},
+      {"heading": "Named modes", "body": "Sale, mortgage, lease and gift are the principal statutory modes that follow.", "order": 4},
+      {"heading": "Routing", "body": "Identify the mode, then open the corresponding section topic.", "order": 5}
     ],
+    "provisions": [{"actId": "tpa", "actName": "Transfer of Property Act, 1882", "provisionId": "tpa-5", "section": "s. 5", "title": "Transfer of property defined"}],
+    "examples": [{"title": "Company as living person", "body": "A company conveys land by registered sale deed — treated as a living person under s. 5; mode is sale under s. 54.", "kind": "hypothetical", "inventedCase": false}],
+    "hypotheticals": [{"question": "Is a will a transfer under s. 5?", "analysis": "No. A will takes effect on death and is outside the living-person conveyance defined in s. 5."}],
+    "distinctions": [{"id": "tpa5-vs-will", "title": "s. 5 transfer vs will", "left": "Living person conveys inter vivos (present or future).", "right": "Disposition effective only on death.", "rows": [{"point": "Timing", "left": "During life.", "right": "On death."}]}],
+    "misconceptions": [{"id": "tpa5-trap-1", "trap": "Every property disposition is a TPA transfer under s. 5.", "correction": "Wills and purely testamentary dispositions are outside s. 5."}],
+    "cases": [],
+    "questionsAndAnswers": [
+      {"id": "tpa5-10", "draftingCategory": "10-mark", "question": "Define transfer of property under TPA s. 5.", "answer": "Living person; conveyance present or future; company as living person; wills excluded; named modes.", "explanation": "10-mark."},
+      {"id": "tpa5-16", "draftingCategory": "16-mark", "question": "Discuss the meaning of transfer of property under the TPA.", "answer": "I. Text. II. Living person. III. Present/future. IV. Wills. V. Named modes. VI. Conclusion.", "explanation": "16-mark."}
+    ],
+    "bareActPointers": ["TPA s. 5", "TPA ss. 54, 58, 105"],
+    "examTips": ["Exclude wills.", "Route to the named mode."],
+    "revisionPoints": ["Living person", "Wills out", "Named modes"],
+    "relatedJudgments": [],
+    "relatedTopics": ["topic:india:tpa-s-54", "topic:india:tpa-s-58", "topic:india:tpa-s-105"],
     "illustrations": [],
     "legacySubjectSlug": "tpa",
     "legacyTopicId": "s-5",
+    "migrationNote": "Substantive enhancement; no case invented; verification open.",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
-      "learningObjectives": [
-        "State the rule recorded for Section 5 TPA — Transfer of property.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
-      ],
-      "definition": "A transfer is a living person conveying property, in present or in future, to another living person.",
-      "legalPrinciple": "A transfer is a living person conveying property, in present or in future, to another living person.",
-      "statutoryFramework": "Section 5 TPA — Transfer of property",
-      "essentialIngredients": [
-        "A transfer is a living person conveying property, in present or in future, to another living person."
-      ],
-      "detailedExplanation": "A transfer is a living person conveying property, in present or in future, to another living person.",
-      "examples": [
-        "No illustration was present on the migrated topic. None was invented."
-      ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
-      "keyTakeaways": [
-        "A transfer is a living person conveying property, in present or in future, to another living person."
-      ],
-      "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
-      ],
-      "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
-      },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Define transfer under s. 5", "Exclude wills", "Route to named modes"],
+      "definition": "Section 5 TPA defines transfer as a living person conveying property, in present or in future, to one or more other living persons.",
+      "legalPrinciple": "Inter vivos conveyance by living persons; testamentary dispositions excluded.",
+      "statutoryFramework": "Transfer of Property Act, 1882 — Section 5.",
+      "essentialIngredients": ["Living person", "Conveyance", "Present or future", "Not a will"],
+      "detailedExplanation": "Definitional gateway for TPA modes of transfer.",
+      "examples": ["Company as living person"],
+      "problemApplication": "Identify living parties; exclude wills; open mode section.",
+      "distinctions": ["s. 5 vs will"],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "Definition → living person → wills → modes.",
+      "sixteenMarkStructure": "Text → elements → wills → modes → conclusion.",
+      "keyTakeaways": ["Living person", "Wills excluded"],
+      "authoritativeSources": ["Transfer of Property Act, 1882 — Section 5"],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08."
     }
   },
-  "sources": [
-    "source:india:india-code-tpa-1882"
-  ],
-  "updatedAt": "2026-10-03T11:18:50.014Z",
+  "sources": [{"kind": "statute", "label": "Transfer of Property Act, 1882", "citation": "Section 5", "url": null, "notes": "Framework; no case holdings invented."}],
+  "updatedAt": "2026-10-08T07:16:00.000Z",
   "effectiveFrom": "1882-07-01",
   "effectiveTo": null
 }
