@@ -8,7 +8,7 @@ Source: Gazette of India Extraordinary, Part II, Section 1, No. 53, New Delhi, 2
 
 - Copy used: https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf (SHA-256 `c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4`). This is the same file as in VER-001-BNS-S4-S9 and VER-001-BNS-S10-S13.
 - Gazette pages 20–22.
-- India Code: retried 2026-10-08 16:34 IST: bitstream request timed out. The consolidated current text was not read. Amendments after enactment are not checked for this range.
+- India Code: retried 2026-10-08 22:04 IST: bitstream request timed out. The consolidated current text was not read. Amendments after enactment are not checked for this range.
 
 Method: the Gazette text layer was extracted with word coordinates. Margin notes, marginal Act citations, running headers, chapter headings and italic sub-headings were removed, and the text was split at each section number. The extraction reproduces the hand transcriptions of ss.4–13 exactly. Each statutory-text block in `content.sections` ("The legal rule", "Explanations", "Statutory illustrations", "Exceptions and provisos") was then aligned word by word with the official text of its section. Case was compared, hyphen and line-break joins were normalised, and spacing artefacts of the Gazette text layer (for example `whileAcontinues`) were ignored. "Essential ingredients" was checked for text not in the statute. Where it reproduces the statute only in part, that is recorded below, but the omissions were not corrected. Punctuation was not compared character by character. Import-dropped punctuation was left as is, as for ss.1–13.
 
@@ -49,3 +49,7 @@ None. Where present, Essential ingredients reproduces the statute without extra 
 ## Status
 
 Each topic file records a "Body check 2026-10-08" verification note, and `updatedAt` is changed. `statutoryFramework` is left as it is. Top-level `status` stays `review`. `enhancement.status` stays `in-progress`. `lastVerifiedAt` and `verifiedBy` are unchanged. This comparison was made by an AI execution agent. Under `.github/copilot-instructions.md`, it is evidence, not authoritative legal verification. Human review is needed before any `VERIFIED` status.
+
+## Erratum (2026-10-08)
+
+The India Code retry time was first written as "16:34 IST". That was the box's UTC clock time, wrongly labelled IST. The correct time is 22:04 IST (16:34 UTC). Nothing else in this record has changed.
