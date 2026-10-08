@@ -20,7 +20,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
 | family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
-| fundamental-rights | 12 | 0 | 0 | 0 | SCAFFOLD |
+| fundamental-rights | 12 | 12 | 0 | 100 | **COMPLETE_LOCKED** |
 | hma | 5 | 5 | 0 | 100 | SUBSTANTIVE |
 | ipr | 63 | 0 | 0 | 0 | SCAFFOLD |
 | labour | 523 | 0 | 0 | 0 | SCAFFOLD |
@@ -47,3 +47,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **DPSP COMPLETE_LOCKED — 2026-10-08:** All 3 Directive Principles topics remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for DPSP is complete. **Do not reopen DPSP for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/DPSP-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Petition Formats COMPLETE_LOCKED — 2026-10-08:** All 8 petition-format topics remediated to `substantive-topic-specific-v1`. **Do not reopen Petition Formats for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/PETITION-FORMATS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Fundamental Rights COMPLETE_LOCKED — 2026-10-08:** All 12 Part III topics remediated to `substantive-topic-specific-v1`. **Do not reopen Fundamental Rights for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/FR-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
