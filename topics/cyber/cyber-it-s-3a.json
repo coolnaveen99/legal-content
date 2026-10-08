@@ -11,27 +11,113 @@
     "glance": "Ask: (1) Electronic signature or only digital signature claimed? (2) Technique reliable and/or scheduled? (3) Unique linkage and control conditions met? (4) Link to ss. 3, 5?",
     "study": "s. 3A is the broader electronic-signature provision introduced by amendment. Digital signature (s. 3) remains a species of electronic signature.\n\nNo new case invented.",
     "sections": [
-      {"heading": "Electronic signature", "body": "Subscriber may authenticate an electronic record by electronic signature or electronic authentication technique considered reliable and as may be specified in the Second Schedule.", "order": 1},
-      {"heading": "Reliability", "body": "Technique is reliable if signature creation data are uniquely linked to and under the control of the signatory, and alterations are detectable — as the section provides.", "order": 2},
-      {"heading": "Digital signature included", "body": "Digital signature under s. 3 is a form of electronic signature under s. 3A.", "order": 3},
-      {"heading": "Central specification", "body": "Central Government may specify techniques in the Second Schedule and prescribe procedures as the Act allows.", "order": 4},
-      {"heading": "Method", "body": "Identify the technique; test reliability/schedule status; relate to legal recognition under ss. 4–5.", "order": 5}
+      {
+        "heading": "Electronic signature",
+        "body": "Subscriber may authenticate an electronic record by electronic signature or electronic authentication technique considered reliable and as may be specified in the Second Schedule.",
+        "order": 1
+      },
+      {
+        "heading": "Reliability",
+        "body": "Technique is reliable if signature creation data are uniquely linked to and under the control of the signatory, and alterations are detectable — as the section provides.",
+        "order": 2
+      },
+      {
+        "heading": "Digital signature included",
+        "body": "Digital signature under s. 3 is a form of electronic signature under s. 3A.",
+        "order": 3
+      },
+      {
+        "heading": "Central specification",
+        "body": "Central Government may specify techniques in the Second Schedule and prescribe procedures as the Act allows.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify the technique; test reliability/schedule status; relate to legal recognition under ss. 4–5.",
+        "order": 5
+      }
     ],
-    "provisions": [{"actId": "ita", "actName": "Information Technology Act, 2000", "provisionId": "ita-3a", "section": "s. 3A", "title": "Electronic signature"}],
-    "examples": [{"title": "Scheduled technique", "body": "Authentication using a Second Schedule electronic authentication technique that meets reliability conditions — s. 3A is satisfied subject to the official specification.", "kind": "hypothetical", "inventedCase": false}],
-    "hypotheticals": [{"question": "Does s. 3A replace s. 3?", "analysis": "No. s. 3A is broader; digital signature under s. 3 remains a recognised form of electronic signature."}],
-    "distinctions": [{"id": "s3a-vs-s3", "title": "s. 3A electronic signature vs s. 3 digital signature", "left": "Genus: electronic signature / scheduled reliable technique.", "right": "Species: digital signature via asymmetric crypto and hash.", "rows": [{"point": "Scope", "left": "Broader.", "right": "Specific technique."}]}],
-    "misconceptions": [{"id": "s3a-trap-1", "trap": "Electronic signature and digital signature are identical.", "correction": "Digital signature is one form of electronic signature; s. 3A is the broader concept."}],
+    "provisions": [
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-3a",
+        "section": "s. 3A",
+        "title": "Electronic signature"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Scheduled technique",
+        "body": "Authentication using a Second Schedule electronic authentication technique that meets reliability conditions — s. 3A is satisfied subject to the official specification.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does s. 3A replace s. 3?",
+        "analysis": "No. s. 3A is broader; digital signature under s. 3 remains a recognised form of electronic signature."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "s3a-vs-s3",
+        "title": "s. 3A electronic signature vs s. 3 digital signature",
+        "left": "Genus: electronic signature / scheduled reliable technique.",
+        "right": "Species: digital signature via asymmetric crypto and hash.",
+        "rows": [
+          {
+            "point": "Scope",
+            "left": "Broader.",
+            "right": "Specific technique."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "s3a-trap-1",
+        "trap": "Electronic signature and digital signature are identical.",
+        "correction": "Digital signature is one form of electronic signature; s. 3A is the broader concept."
+      }
+    ],
     "cases": [],
     "questionsAndAnswers": [
-      {"id": "s3a-10", "draftingCategory": "10-mark", "question": "Explain Section 3A of the IT Act, 2000.", "answer": "Electronic signature; reliability; digital signature as form; schedule power.", "explanation": "10-mark."},
-      {"id": "s3a-16", "draftingCategory": "16-mark", "question": "Discuss electronic signature under Section 3A IT Act.", "answer": "I. Concept. II. Reliability. III. vs s. 3. IV. Schedule. V. Conclusion.", "explanation": "16-mark."}
+      {
+        "id": "s3a-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Section 3A of the IT Act, 2000.",
+        "answer": "Electronic signature; reliability; digital signature as form; schedule power.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "s3a-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss electronic signature under Section 3A IT Act.",
+        "answer": "I. Concept. II. Reliability. III. vs s. 3. IV. Schedule. V. Conclusion.",
+        "explanation": "16-mark."
+      }
     ],
-    "bareActPointers": ["IT Act 2000 s. 3A", "IT Act 2000 s. 3", "Second Schedule"],
-    "examTips": ["Call digital signature a species.", "State reliability conditions."],
-    "revisionPoints": ["Electronic signature genus", "Reliability conditions", "Second Schedule"],
+    "bareActPointers": [
+      "IT Act 2000 s. 3A",
+      "IT Act 2000 s. 3",
+      "Second Schedule"
+    ],
+    "examTips": [
+      "Call digital signature a species.",
+      "State reliability conditions."
+    ],
+    "revisionPoints": [
+      "Electronic signature genus",
+      "Reliability conditions",
+      "Second Schedule"
+    ],
     "relatedJudgments": [],
-    "relatedTopics": ["topic:india:cyber-cyber-it-s-3", "topic:india:cyber-cyber-it-s-5"],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-it-s-3",
+      "topic:india:cyber-cyber-it-s-5"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "cyber",
     "legacyTopicId": "cyber-it-s-3a",
@@ -40,27 +126,60 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State s. 3A electronic signature", "Relate to s. 3 digital signature"],
+      "learningObjectives": [
+        "State s. 3A electronic signature",
+        "Relate to s. 3 digital signature"
+      ],
       "definition": "IT Act s. 3A allows authentication by electronic signature or reliable scheduled electronic authentication technique; digital signature is one form.",
       "legalPrinciple": "Broad statutory recognition of electronic signature techniques meeting reliability criteria.",
       "statutoryFramework": "Information Technology Act, 2000 — Section 3A.",
-      "essentialIngredients": ["Electronic signature technique", "Reliability / schedule", "Authentication of electronic record"],
+      "essentialIngredients": [
+        "Electronic signature technique",
+        "Reliability / schedule",
+        "Authentication of electronic record"
+      ],
       "detailedExplanation": "Electronic signature frame.",
-      "examples": ["Scheduled technique"],
+      "examples": [
+        "Scheduled technique"
+      ],
       "problemApplication": "Identify technique; test reliability; open ss. 4–5 recognition if needed.",
-      "distinctions": ["s. 3A vs s. 3"],
+      "distinctions": [
+        "s. 3A vs s. 3"
+      ],
       "caseLawNotes": "No cases invented; verification open.",
       "tenMarkStructure": "Concept → reliability → vs s. 3.",
       "sixteenMarkStructure": "Concept → reliability → vs s. 3 → schedule → conclusion.",
-      "keyTakeaways": ["Genus/species", "Reliability required"],
-      "authoritativeSources": ["IT Act 2000 s. 3A"],
+      "keyTakeaways": [
+        "Genus/species",
+        "Reliability required"
+      ],
+      "authoritativeSources": [
+        "IT Act 2000 s. 3A"
+      ],
       "currentLawStatus": "verification_required",
       "lastVerifiedAt": null,
-      "verificationNotes": "Substantive remediation 2026-10-08."
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
     }
   },
-  "sources": [{"kind": "statute", "label": "Information Technology Act, 2000", "citation": "s. 3A", "url": null, "notes": "Framework; no case holdings invented."}],
-  "updatedAt": "2026-10-08T08:30:00.000Z",
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Information Technology Act, 2000",
+      "citation": "s. 3A",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null
 }
