@@ -26,7 +26,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | labour | 523 | 0 | 0 | 0 | SCAFFOLD |
 | land | 44 | 0 | 0 | 0 | SCAFFOLD |
 | limitation | 5 | 5 | 0 | 100 | SUBSTANTIVE |
-| ni | 4 | 0 | 0 | 0 | SCAFFOLD |
+| ni | 4 | 4 | 0 | 100 | **COMPLETE_LOCKED** |
 | petition-formats | 8 | 0 | 0 | 0 | SCAFFOLD |
 | pil | 23 | 0 | 0 | 0 | SCAFFOLD |
 | registration | 3 | 3 | 0 | 100 | SUBSTANTIVE |
@@ -41,3 +41,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Family COMPLETE_LOCKED — 2026-10-08:** All 38 Family topics on `main` remediated to `substantive-topic-specific-v1` / `verification_in_progress`. QUAL scaffold remediation for Family is complete. **Do not reopen Family for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain separate open gates (not promoted to verified/published). Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **TPA — 2026-10-08:** All 6 TPA topics (ss. 5, 53A, 54, 58, 105, 107) remediated to `substantive-topic-specific-v1` on `main`. Unowned range; no open PR; no 2026-10-08 prior commits on path. Case-law verification remains open. No new citations invented.
+
+> **NI COMPLETE_LOCKED — 2026-10-08:** All 4 Negotiable Instruments topics (`s-138`, `s-139`, `s-141`, `s-142`) remediated to `substantive-topic-specific-v1`. QUAL scaffold remediation for NI is complete. **Do not reopen NI for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain open. Evidence: `docs/NI-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.

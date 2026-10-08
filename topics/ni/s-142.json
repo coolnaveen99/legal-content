@@ -7,8 +7,8 @@
   "title": "Section 142 NI Act — Cognizance of offences",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation.",
-    "study": "Cognizance is complaint-based, not police-charge-sheet based. Compute limitation from the day after the fifteen-day notice period expires. Amendments address where the cheque is delivered for collection and allow one trial for multiple cheques in specified circumstances. Pair with sections 138 and 141 for maintainability.",
+    "overview": "Section 142 of the Negotiable Instruments Act, 1881 controls cognizance of s. 138 offences. No court shall take cognizance except on a written complaint by the payee or the holder in due course. The complaint must be made within one month of the date on which the cause of action arises under the proviso to s. 138, and a court may take cognizance later if the complainant satisfies it that there was sufficient cause for the delay. Cognizance is by a Metropolitan Magistrate or a Judicial Magistrate of the first class. Subsection (2), as inserted by the 2015 amendment, fixes territorial jurisdiction: where the cheque is delivered for collection through an account, the court where the branch of the bank through which the payee or holder maintains the account is situated; otherwise, the court where the branch on which the drawer maintains the account is situated. The same subsection provides that, where a complaint is filed in that court, all subsequent complaints against the same drawer for dishonour of cheques arising out of the same transaction are filed before the same court, irrespective of where those later cheques were delivered or presented.",
+    "study": "Cognizance is complaint-based. Compute one month from the day the cause of action arises, which is the day after the fifteen-day notice period expires unpaid. Ask for condonation expressly if late. For territory, apply s. 142(2) and do not revive the pre-amendment presentation-only test. Multiple cheques from the same transaction follow the first proper court.",
     "relatedTopics": [
       "topic:india:ni-s-138",
       "topic:india:ni-s-139",
@@ -18,49 +18,85 @@
     "legacySubjectSlug": "ni-act",
     "legacyTopicId": "s-142",
     "enhancement": {
-      "version": "1",
-      "status": "in-progress",
-      "coverage": "assembled-from-migrated",
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
       "learningObjectives": [
-        "State the rule recorded for Section 142 NI Act — Cognizance of offences.",
-        "Separate the points already present in the topic sections.",
-        "Do not add a case or section number that is not already in this note."
+        "State the written-complaint, one-month and magistrate conditions in s. 142(1).",
+        "Compute limitation from the s. 138 cause of action and note condonation.",
+        "Apply the 2015 territorial rule and the same-transaction consolidation rule in s. 142(2)."
       ],
-      "definition": "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation.",
-      "legalPrinciple": "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation.",
-      "statutoryFramework": "Section 142 NI Act — Cognizance of offences",
+      "definition": "Section 142 bars cognizance of a s. 138 offence except on a timely written complaint by the payee or holder in due course before a Metropolitan Magistrate or Judicial Magistrate of the first class, and fixes where that complaint lies.",
+      "legalPrinciple": "A police report does not start a s. 138 prosecution. Time runs from the statutory cause of action, not from the dishonour date. Territory follows the 2015 collection-account or drawer-account rule.",
+      "statutoryFramework": "Negotiable Instruments Act, 1881, s. 142(1) and s. 142(2); cause of action under the s. 138 proviso; transitional provision in s. 142A is related and not restated as verified procedure here.",
       "essentialIngredients": [
-        "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation."
+        "Written complaint",
+        "Complainant is the payee or holder in due course",
+        "Filed within one month of the s. 138 cause of action, or delay condoned for sufficient cause",
+        "Metropolitan Magistrate or Judicial Magistrate of the first class",
+        "Territory: collection-account branch, or drawer-account branch if not presented through an account",
+        "Later cheques from the same transaction follow that court"
       ],
-      "detailedExplanation": "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation.",
+      "detailedExplanation": "Section 142(1)(a) is a cognizance bar: the court proceeds on a complaint in writing by the payee or holder in due course, not on a charge-sheet. Section 142(1)(b) gives one month from the date the cause of action arises under clause (c) of the s. 138 proviso. That cause of action arises when the drawer fails to pay within fifteen days of receiving the notice. The proviso to s. 142(1)(b) allows later cognizance if the complainant satisfies the court of sufficient cause for delay. Section 142(1)(c) confines cognizance to a Metropolitan Magistrate or a Judicial Magistrate of the first class. Section 142(2) replaced the earlier jurisdictional dispute for new complaints: delivery for collection through an account points to the payee's or holder's collecting branch; any other presentation points to the drawer's account branch. The consolidation sentence keeps subsequent complaints against the same drawer from the same transaction in that court. Section 142A deals with transfer of pending cases and is flagged rather than rewritten.",
       "examples": [
-        "No illustration was present on the migrated topic. None was invented."
+        "Notice is served on 1 March. The fifteen days end on 16 March. The cause of action is 16 March and the one-month complaint period runs from that date.",
+        "The payee files a police FIR only. Section 142(1)(a) is not met.",
+        "The cheque is deposited in the payee's account at a Bengaluru branch. Section 142(2)(a) points to the court of that branch.",
+        "A second cheque from the same transaction is dishonoured through a different bank. The subsequent complaint still goes to the court of the first proper complaint."
       ],
-      "problemApplication": "No problem question was present on the migrated topic. None was invented.",
+      "problemApplication": "Fix the cause-of-action date from notice service plus fifteen days. Check complainant status, writing, one month or a condonation plea, and magistrate class. Then apply s. 142(2) to the mode of presentation. Do not use the place of the drawer's signature as the test.",
+      "distinctions": [
+        "Complaint cognizance vs police charge-sheet",
+        "Limitation from cause of action vs limitation from dishonour",
+        "Section 142(2)(a) collecting branch vs s. 142(2)(b) drawer branch",
+        "First complaint court vs a later cheque presented elsewhere in the same transaction"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Existing published notes were preserved. Identity, citation and ratio of any cheque-dishonour authority remain a separate evidence-backed gate.",
+      "shortAnswerStructure": "Written complaint by payee or holder; one month from cause of action; MM or JMFC; state the collection-branch rule.",
+      "tenMarkStructure": "Cognizance bar → time and condonation → magistrate → s. 142(2) territory → same-transaction consolidation.",
+      "sixteenMarkStructure": "Why s. 142 exists → subsection (1) conditions → cause-of-action arithmetic → 2015 territory → consolidation → s. 142A flagged → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "Written complaint by payee or holder; one month from cause of action; MM or JMFC; state the collection-branch rule.",
+        "tenMark": "Cognizance bar → time and condonation → magistrate → s. 142(2) territory → same-transaction consolidation.",
+        "sixteenMark": "Why s. 142 exists → subsection (1) conditions → cause-of-action arithmetic → 2015 territory → consolidation → s. 142A flagged → facts → conclusion."
+      },
       "keyTakeaways": [
-        "Section 142 restricts cognizance of section 138 offences to written complaints by the payee or holder in due course, filed within one month of the cause of action under the proviso to section 138, before a Metropolitan Magistrate or a Judicial Magistrate of the first class, with rules on territorial jurisdiction and successive presentation."
+        "Cognizance requires a written complaint by the payee or holder in due course.",
+        "One month runs from the s. 138 cause of action, with a sufficient-cause condonation proviso.",
+        "Only a Metropolitan Magistrate or JMFC takes cognizance.",
+        "Territory follows the collecting branch or, otherwise, the drawer's branch.",
+        "Later cheques from the same transaction stay with that court."
       ],
       "authoritativeSources": [
-        "Migrated topic text in this file. Not independently checked against India Code in this batch."
+        "Negotiable Instruments Act, 1881, section 142",
+        "Negotiable Instruments (Amendment) Act, 2015, section 142(2)",
+        "source:india:india-code-ni-1881"
       ],
+      "currentLawStatus": "verification_required",
       "verification": {
-        "lastVerifiedAt": null,
-        "verifiedBy": null,
-        "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added."
-        ]
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Statutory cognizance and 2015 jurisdiction text. Section 142A transfer mechanics are not restated. No new case citations.",
+        "date": "2026-10-08"
       },
-      "distinctions": [],
-      "distinctionsGate": "not-drawn",
-      "caseLaw": [],
-      "caseLawGate": "not-opened",
-      "examAnswerStructure": "Not yet structured. No answer outline invented."
+      "lastBotRunAt": "2026-10-08T07:25:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ni-s142-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
     }
   },
   "sources": [
     "source:india:india-code-ni-1881"
   ],
-  "updatedAt": "2026-10-03T11:18:49.969Z",
+  "updatedAt": "2026-10-08",
   "effectiveFrom": "1882-03-01",
   "effectiveTo": null
 }
