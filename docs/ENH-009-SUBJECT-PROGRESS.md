@@ -19,7 +19,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | dpsp | 3 | 0 | 0 | 0 | SCAFFOLD |
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
 | ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
-| family | 38 | 0 | 0 | 0 | SCAFFOLD |
+| family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
 | fundamental-rights | 12 | 0 | 0 | 0 | SCAFFOLD |
 | hma | 5 | 5 | 0 | 100 | SUBSTANTIVE |
 | ipr | 63 | 0 | 0 | 0 | SCAFFOLD |
@@ -37,3 +37,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 
 
 > **Admin reconciliation — 2026-10-08:** Current `main` was reconciled against the live 44-topic Admin inventory. Enhancement coverage is 44/44 substantive-topic-specific. This does not promote verification or publication; the subject remains open for legal/publication gates. Evidence: `docs/ADMIN-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Family COMPLETE_LOCKED — 2026-10-08:** All 38 Family topics on `main` remediated to `substantive-topic-specific-v1` / `verification_in_progress`. QUAL scaffold remediation for Family is complete. **Do not reopen Family for scaffold/enhancement remediation without a documented trigger.** Case-law and current-law verification remain separate open gates (not promoted to verified/published). Evidence: `docs/FAMILY-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
