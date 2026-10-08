@@ -18,7 +18,7 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 | cyber | 53 | 53 | 0 | 100 | **COMPLETE_LOCKED** |
 | dpsp | 3 | 3 | 0 | 100 | **COMPLETE_LOCKED** |
 | environment | 31 | 0 | 0 | 0 | SCAFFOLD |
-| ethics | 80 | 0 | 0 | 0 | SCAFFOLD |
+| ethics | 80 | 80 | 0 | 100 | **COMPLETE_LOCKED** |
 | family | 38 | 38 | 0 | 100 | **COMPLETE_LOCKED** |
 | fundamental-rights | 12 | 12 | 0 | 100 | **COMPLETE_LOCKED** |
 | hma | 5 | 5 | 0 | 100 | **COMPLETE_LOCKED** |
@@ -65,3 +65,5 @@ VERIFIED requires every topic in the subject to be verified or published. None a
 > **Land Law COMPLETE_LOCKED — 2026-10-08:** All 44 land topics remediated to `substantive-topic-specific-v1`. **Do not reopen Land Law for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/LAND-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 
 > **Cyber Law COMPLETE_LOCKED — 2026-10-08:** All 53 Cyber topics remediated to `substantive-topic-specific-v1`. Scaffold/substantive enhancement remediation is complete; **do not reopen Cyber for remediation without a documented trigger**. Legal verification and publication remain separate open gates (0/53 verified). Evidence: `docs/CYBER-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+
+> **Professional Ethics COMPLETE_LOCKED — 2026-10-08:** All 80 ethics topics remediated to `substantive-topic-specific-v1`. **Do not reopen Professional Ethics for scaffold/enhancement remediation without a documented trigger.** Case-law verification remains open. Evidence: `docs/ETHICS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.

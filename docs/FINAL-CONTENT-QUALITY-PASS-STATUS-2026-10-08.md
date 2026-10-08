@@ -153,6 +153,13 @@ Arbitration E-03 advanced and tail closed for specific ranges; subject not COMPL
 - Coverage set to `substantive-topic-specific-v1`. Audit: `docs/LAND-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
 - Land Law removed from the open scaffold queue for enhancement purposes. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
 
+
+### Professional Ethics — subject lock
+
+- Topics: 80/80 under `topics/ethics/`.
+- Coverage set to `substantive-topic-specific-v1`. Audit: `docs/ETHICS-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`.
+- Professional Ethics removed from the open scaffold queue for enhancement purposes. Case-law gate remains open. QUAL-001–QUAL-011 remain open corpus-wide.
+
 ## Important quality boundary
 
 The remediation queue is substantive content work, not a substitute for legal verification. Case-law verification remains a separate evidence-backed gate. Do not mark QUAL-001–QUAL-011 complete merely because enhancement objects exist or because individual subjects have been locked for scaffold work.
