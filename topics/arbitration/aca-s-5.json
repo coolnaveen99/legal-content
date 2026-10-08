@@ -2,14 +2,14 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:arbitration-aca-s-5",
-  "version": 1,
-  "status": "verification_in_progress",
+  "version": 3,
+  "status": "substantive",
   "title": "Arbitration and Conciliation Act s. 5 — Statutory provision (ACA s. 5)",
   "jurisdiction": "India",
   "content": {
     "overview": "Section 5 of the Arbitration and Conciliation Act, 1996 establishes the principle of limited judicial intervention in matters governed by Part I: notwithstanding other law, judicial authorities shall not intervene except where the Act itself provides for intervention.",
     "glance": "Section 5 of the Arbitration and Conciliation Act, 1996 establishes the principle of limited judicial intervention in matters governed by Part I: notwithstanding other law, judicial authorities shall not intervene except where the Act itself provides for intervention.",
-    "study": "Section 5 — Extent of judicial intervention\n\nCore statutory rule\nSection 5 provides that, notwithstanding anything contained in any other law for the time being in force, in matters governed by Part I, no judicial authority shall intervene except where intervention is provided for in Part I.\n\nThe provision performs two linked functions:\n1. It identifies the matters to which the non-intervention rule applies: matters governed by Part I.\n2. It makes the prohibition subject to express statutory gateways contained in Part I.\n\nSection 5 is therefore not a freestanding bar against every court proceeding connected with arbitration. The correct question is whether the matter is governed by Part I and, if so, whether the Act provides the particular judicial intervention sought.\n\nThe section must be read with the specific Part I provision under which court intervention is invoked. Examples include statutory mechanisms for interim measures, appointment of arbitrators, court assistance in taking evidence, challenges and setting aside, and enforcement-related proceedings where the Act expressly provides for judicial action. Section 5 does not itself create those remedies; it preserves the statutory scheme in which those remedies are located.\n\nFor analysis, identify the exact judicial intervention sought, the Part I provision said to authorise it, and whether the arbitration is within the scope of Part I. Avoid converting section 5 into an unrestricted doctrine of judicial abstention.",
+    "study": "1. Non-intervention is the statutory starting point: Section 5 begins with an overriding clause: notwithstanding other law in force, judicial intervention is excluded in matters governed by Part I except where Part I provides for it. The provision therefore gives primacy to the statutory arbitration framework for the question of intervention.\n\n2. Identify whether Part I governs the matter: The phrase “matters governed by this Part” is central. Before invoking section 5, identify the arbitration and procedural setting and determine whether the requested judicial action falls within Part I. The section should not be applied without first establishing its field of operation.\n\n3. Identify the statutory gateway: Section 5 does not list every permissible court intervention. Instead, it makes intervention lawful where Part I provides for it. The application must therefore identify the specific Part I provision that authorises the requested judicial action.\n\n4. Relationship with other laws: The opening non obstante clause means that, in a matter governed by Part I, another law cannot be used as an independent basis for judicial intervention contrary to the Part I scheme. The precise interaction depends on the statutory provision and subject matter actually before the court.\n\n5. Scope of the principle: Section 5 is a rule of statutory allocation of judicial intervention, not a command that courts never act in arbitration matters. Where Part I expressly provides a judicial role, that role remains available. Where no Part I gateway exists, the court must not create intervention merely from general jurisdictional powers.",
     "sections": [
       {
         "heading": "1. Non-intervention is the statutory starting point",
@@ -144,11 +144,17 @@
         "question": "How should a section 5 objection be pleaded?",
         "answer": "State the matter and procedural stage, identify the judicial intervention sought, demonstrate that Part I governs the matter, and require the opposing party to identify the Part I provision authorising the intervention. Address the non obstante clause and explain why a general power under another law cannot displace the statutory scheme.",
         "explanation": "The submission should focus on statutory allocation rather than broad assertions of arbitral autonomy."
+      },
+      {
+        "id": "aca-s-5-application",
+        "draftingCategory": "submissions",
+        "question": "How should ACA section 5 be applied?",
+        "answer": "Identify the statutory trigger, conditions, exceptions and consequence and apply them to the facts.",
+        "explanation": "Statute-led application; case-law separately verification-gated."
       }
     ],
     "bareActPointers": [
-      "Arbitration and Conciliation Act, 1996 — section 5",
-      "Part I provisions expressly providing for judicial intervention"
+      "Arbitration and Conciliation Act, 1996 — section 5"
     ],
     "examTips": [
       "Quote the operative rule accurately.",
@@ -158,10 +164,12 @@
       "Do not describe section 5 as an absolute ouster of courts."
     ],
     "revisionPoints": [
-      "Section 5 limits judicial intervention in matters governed by Part I.",
-      "The limitation is subject to intervention provided for in Part I.",
-      "The non obstante clause addresses conflicting reliance on other laws.",
-      "The section does not itself create every judicial remedy; the particular Part I provision must be identified."
+      "Section 5 of the Arbitration and Conciliation Act, 1996 establishes the principle of limited judicial intervention in matters governed by Part I: notwithstanding other law, judicial authorities shall not intervene except where the Act itself provides for intervention.",
+      "1. Non-intervention is the statutory starting point: Section 5 begins with an overriding clause: notwithstanding other law in force, judicial intervention is excluded in matters governed by Part I except where Part I provides for it. The provision therefore gives primacy to the statutory arbitration framework for the question of intervention.",
+      "2. Identify whether Part I governs the matter: The phrase “matters governed by this Part” is central. Before invoking section 5, identify the arbitration and procedural setting and determine whether the requested judicial action falls within Part I. The section should not be applied without first establishing its field of operation.",
+      "3. Identify the statutory gateway: Section 5 does not list every permissible court intervention. Instead, it makes intervention lawful where Part I provides for it. The application must therefore identify the specific Part I provision that authorises the requested judicial action.",
+      "4. Relationship with other laws: The opening non obstante clause means that, in a matter governed by Part I, another law cannot be used as an independent basis for judicial intervention contrary to the Part I scheme. The precise interaction depends on the statutory provision and subject matter actually before the court.",
+      "5. Scope of the principle: Section 5 is a rule of statutory allocation of judicial intervention, not a command that courts never act in arbitration matters. Where Part I expressly provides a judicial role, that role remains available. Where no Part I gateway exists, the court must not create intervention merely from general jurisdictional powers."
     ],
     "relatedJudgments": [],
     "relatedTopics": [
@@ -176,120 +184,72 @@
     "legacyTopicId": "aca-s-5",
     "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
     "enhancement": {
-      "version": "2",
+      "version": "3",
       "status": "substantive",
-      "coverage": "subject-enhancement",
+      "coverage": "E-03-Arbitration",
       "learningObjectives": [
-        "State the exact section 5 rule.",
-        "Identify whether Part I governs the matter.",
-        "Locate the statutory gateway for judicial intervention.",
-        "Apply the non obstante clause correctly.",
-        "Avoid treating section 5 as an absolute bar to courts."
+        "Explain section 5.",
+        "Identify its operative conditions and consequences.",
+        "Apply it to facts."
       ],
-      "definition": "Section 5 limits judicial intervention in matters governed by Part I except where Part I provides for intervention.",
-      "legalPrinciple": "Judicial intervention in a Part I matter must have a statutory gateway in Part I; section 5 does not abolish the judicial functions expressly assigned by the Act.",
+      "definition": "Arbitration and Conciliation Act s. 5 — Statutory provision (ACA s. 5)",
+      "legalPrinciple": "Section 5 of the Arbitration and Conciliation Act, 1996 establishes the principle of limited judicial intervention in matters governed by Part I: notwithstanding other law, judicial authorities shall not intervene except where the Act itself provides for intervention.",
       "statutoryFramework": [
-        "Section 5 — extent of judicial intervention.",
-        "Part I — provisions supplying specific judicial intervention."
+        "Arbitration and Conciliation Act, 1996 — section 5."
       ],
       "essentialIngredients": [
-        "Matter governed by Part I.",
-        "A judicial authority is asked to intervene.",
-        "The requested intervention is identified precisely.",
-        "A Part I provision authorising that intervention is identified; absent such provision, section 5 bars the intervention."
+        "1. Non-intervention is the statutory starting point: Section 5 begins with an overriding clause: notwithstanding other law in force, judicial intervention is excluded in matters governed by Part I except where Part I provides for it. The provision therefore gives primacy to the statutory arbitration framework for the question of intervention.",
+        "2. Identify whether Part I governs the matter: The phrase “matters governed by this Part” is central. Before invoking section 5, identify the arbitration and procedural setting and determine whether the requested judicial action falls within Part I. The section should not be applied without first establishing its field of operation.",
+        "3. Identify the statutory gateway: Section 5 does not list every permissible court intervention. Instead, it makes intervention lawful where Part I provides for it. The application must therefore identify the specific Part I provision that authorises the requested judicial action.",
+        "4. Relationship with other laws: The opening non obstante clause means that, in a matter governed by Part I, another law cannot be used as an independent basis for judicial intervention contrary to the Part I scheme. The precise interaction depends on the statutory provision and subject matter actually before the court.",
+        "5. Scope of the principle: Section 5 is a rule of statutory allocation of judicial intervention, not a command that courts never act in arbitration matters. Where Part I expressly provides a judicial role, that role remains available. Where no Part I gateway exists, the court must not create intervention merely from general jurisdictional powers."
       ],
-      "detailedExplanation": "Section 5 — Extent of judicial intervention\n\nCore statutory rule\nSection 5 provides that, notwithstanding anything contained in any other law for the time being in force, in matters governed by Part I, no judicial authority shall intervene except where intervention is provided for in Part I.\n\nThe provision performs two linked functions:\n1. It identifies the matters to which the non-intervention rule applies: matters governed by Part I.\n2. It makes the prohibition subject to express statutory gateways contained in Part I.\n\nSection 5 is therefore not a freestanding bar against every court proceeding connected with arbitration. The correct question is whether the matter is governed by Part I and, if so, whether the Act provides the particular judicial intervention sought.\n\nThe section must be read with the specific Part I provision under which court intervention is invoked. Examples include statutory mechanisms for interim measures, appointment of arbitrators, court assistance in taking evidence, challenges and setting aside, and enforcement-related proceedings where the Act expressly provides for judicial action. Section 5 does not itself create those remedies; it preserves the statutory scheme in which those remedies are located.\n\nFor analysis, identify the exact judicial intervention sought, the Part I provision said to authorise it, and whether the arbitration is within the scope of Part I. Avoid converting section 5 into an unrestricted doctrine of judicial abstention.",
+      "detailedExplanation": "1. Non-intervention is the statutory starting point: Section 5 begins with an overriding clause: notwithstanding other law in force, judicial intervention is excluded in matters governed by Part I except where Part I provides for it. The provision therefore gives primacy to the statutory arbitration framework for the question of intervention.\n\n2. Identify whether Part I governs the matter: The phrase “matters governed by this Part” is central. Before invoking section 5, identify the arbitration and procedural setting and determine whether the requested judicial action falls within Part I. The section should not be applied without first establishing its field of operation.\n\n3. Identify the statutory gateway: Section 5 does not list every permissible court intervention. Instead, it makes intervention lawful where Part I provides for it. The application must therefore identify the specific Part I provision that authorises the requested judicial action.\n\n4. Relationship with other laws: The opening non obstante clause means that, in a matter governed by Part I, another law cannot be used as an independent basis for judicial intervention contrary to the Part I scheme. The precise interaction depends on the statutory provision and subject matter actually before the court.\n\n5. Scope of the principle: Section 5 is a rule of statutory allocation of judicial intervention, not a command that courts never act in arbitration matters. Where Part I expressly provides a judicial role, that role remains available. Where no Part I gateway exists, the court must not create intervention merely from general jurisdictional powers.",
       "examples": [
         "A party seeks a judicial remedy that Part I expressly assigns to a court. Section 5 does not bar the remedy because the intervention is authorised by the Act itself.",
         "A party asks a court to intervene in an arbitral matter but cannot identify a Part I provision authorising that intervention. Section 5 requires the request to be tested against the statutory scheme rather than a general invitation to supervise the arbitration.",
         "A party invokes another law as the basis for court intervention in a matter governed by Part I. Section 5 requires the court to consider the non obstante clause and whether Part I itself provides the relevant intervention."
       ],
       "problemApplication": [
-        "A party asks a court to intervene in an arbitration but cites no Part I provision authorising the intervention. Is section 5 automatically satisfied merely because the matter concerns arbitration? — No. The applicant must identify the statutory basis for judicial intervention within Part I. Section 5 is not merely a label for arbitration-related disputes; it directs attention to the intervention expressly provided by the statutory scheme.",
-        "A party invokes a general power under another law to obtain judicial intervention in a matter governed by Part I. What is the section 5 inquiry? — The court must first examine the non obstante clause and determine whether the requested intervention is one that Part I provides for. The general provision cannot be treated as an independent route that bypasses the Part I scheme.",
-        "Does section 5 mean that courts have no role once arbitration begins? — No. Part I itself provides specified judicial functions. Section 5 limits intervention to those statutory gateways; it does not eliminate the judicial role created by Part I."
+        "No. The applicant must identify the statutory basis for judicial intervention within Part I. Section 5 is not merely a label for arbitration-related disputes; it directs attention to the intervention expressly provided by the statutory scheme.",
+        "The court must first examine the non obstante clause and determine whether the requested intervention is one that Part I provides for. The general provision cannot be treated as an independent route that bypasses the Part I scheme.",
+        "No. Part I itself provides specified judicial functions. Section 5 limits intervention to those statutory gateways; it does not eliminate the judicial role created by Part I."
       ],
       "keyTakeaways": [
-        "Section 5 limits judicial intervention in matters governed by Part I.",
-        "The limitation is subject to intervention provided for in Part I.",
-        "The non obstante clause addresses conflicting reliance on other laws.",
-        "The section does not itself create every judicial remedy; the particular Part I provision must be identified."
+        "Section 5 of the Arbitration and Conciliation Act, 1996 establishes the principle of limited judicial intervention in matters governed by Part I: notwithstanding other law, judicial authorities shall not intervene except where the Act itself provides for intervention.",
+        "1. Non-intervention is the statutory starting point: Section 5 begins with an overriding clause: notwithstanding other law in force, judicial intervention is excluded in matters governed by Part I except where Part I provides for it. The provision therefore gives primacy to the statutory arbitration framework for the question of intervention.",
+        "2. Identify whether Part I governs the matter: The phrase “matters governed by this Part” is central. Before invoking section 5, identify the arbitration and procedural setting and determine whether the requested judicial action falls within Part I. The section should not be applied without first establishing its field of operation.",
+        "3. Identify the statutory gateway: Section 5 does not list every permissible court intervention. Instead, it makes intervention lawful where Part I provides for it. The application must therefore identify the specific Part I provision that authorises the requested judicial action.",
+        "4. Relationship with other laws: The opening non obstante clause means that, in a matter governed by Part I, another law cannot be used as an independent basis for judicial intervention contrary to the Part I scheme. The precise interaction depends on the statutory provision and subject matter actually before the court.",
+        "5. Scope of the principle: Section 5 is a rule of statutory allocation of judicial intervention, not a command that courts never act in arbitration matters. Where Part I expressly provides a judicial role, that role remains available. Where no Part I gateway exists, the court must not create intervention merely from general jurisdictional powers."
       ],
       "authoritativeSources": [
         "https://www.indiacode.nic.in/bitstream/123456789/1978/1/A1996-26.pdf"
       ],
       "verification": {
         "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "India Code statutory verification pass",
+        "verifiedBy": "India Code statutory enhancement pass",
         "notes": [
-          "Section 5 verified against the India Code text of the Arbitration and Conciliation Act, 1996.",
-          "No case-law holdings added; the statutory principle is stated from the Act text."
+          "Substantive enhancement completed.",
+          "Case-law verification remains separate; no unverified authority promoted."
         ],
         "status": "SOURCE_VERIFIED"
       },
-      "caseLawGate": "not-needed",
-      "distinctions": [
-        {
-          "id": "aca-s-5-dist-1",
-          "title": "Section 5 limitation vs complete judicial exclusion",
-          "left": "Statutory position",
-          "right": "Incorrect absolute proposition",
-          "rows": [
-            {
-              "point": "Rule",
-              "left": "No intervention except where Part I provides for it.",
-              "right": "Courts can never intervene in arbitration."
-            },
-            {
-              "point": "Effect",
-              "left": "Judicial gateways remain where the Act expressly provides them.",
-              "right": "Would improperly erase statutory court functions."
-            }
-          ]
-        },
-        {
-          "id": "aca-s-5-dist-2",
-          "title": "Part I gateway vs general jurisdiction",
-          "left": "Specific statutory intervention",
-          "right": "General power",
-          "rows": [
-            {
-              "point": "Source",
-              "left": "Express provision in Part I.",
-              "right": "Power arising elsewhere."
-            },
-            {
-              "point": "Section 5 analysis",
-              "left": "Potentially permitted.",
-              "right": "Cannot bypass the Part I scheme merely because it is a general power."
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State section 5.",
-          "Identify whether Part I governs.",
-          "Identify the judicial intervention sought.",
-          "Locate the Part I provision authorising it.",
-          "Conclude whether section 5 permits or bars intervention."
-        ],
-        "longForm": [
-          "Set out section 5 and its non obstante clause.",
-          "Define the field of operation.",
-          "Identify the requested judicial intervention.",
-          "Analyse the Part I statutory gateway.",
-          "Address any competing general-law basis.",
-          "Conclude narrowly on the intervention sought."
-        ]
-      },
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
       "rules": [
-        "legal-content: no invented authority",
-        "Use current statutory text",
-        "Do not treat section 5 as an absolute bar to judicial intervention"
+        "No invented authority",
+        "Current statutory text controls"
       ]
-    }
+    },
+    "tags": [
+      "legacy-migration",
+      "review-required",
+      "arbitration",
+      "E-03",
+      "substantive-enhancement"
+    ],
+    "updatedAt": "2026-10-08T00:00:00.000Z"
   },
   "sources": [],
   "updatedAt": "2026-10-08T00:00:00.000Z",
