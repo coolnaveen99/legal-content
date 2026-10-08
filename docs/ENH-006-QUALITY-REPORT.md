@@ -13,7 +13,7 @@ Scaffold topics remain `in-progress` and are not verified.
 
 | Subject | Topics | Substantive | Scaffold | Missing |
 |---|---:|---:|---:|---:|
-| admin | 44 | 3 | 41 | 0 |
+| admin | 44 | 44 | 0 | 0 |
 | arbitration | 132 | 0 | 132 | 0 |
 | bns | 368 | 359 | 9 | 0 |
 | bnss | 539 | 531 | 8 | 0 |
@@ -41,3 +41,6 @@ Scaffold topics remain `in-progress` and are not verified.
 | taxation | 51 | 0 | 51 | 0 |
 | torts | 38 | 0 | 38 | 0 |
 | tpa | 6 | 0 | 6 | 0 |
+
+
+> **Admin reconciliation — 2026-10-08:** The generated baseline report was stale relative to current `main`. A live audit of all 44 unique `topics/admin/*.json` records confirms substantive topic-specific enhancement coverage for 44/44 and no missing enhancement objects. Evidence: `docs/ADMIN-ENHANCEMENT-COMPLETION-AUDIT-2026-10-08.md`. The remaining Admin status is legal/publication verification, not enhancement scaffolding.
