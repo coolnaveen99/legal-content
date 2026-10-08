@@ -11,33 +11,137 @@
     "glance": "Equity vs preference; differential rights equity under prescribed rules; preferential dividend and capital repayment define preference shares.",
     "study": "The share capital of a company limited by shares is of two kinds: equity share capital and preference share capital. Equity share capital means all share capital which is not preference share capital, and may have voting rights or differential rights as to dividend, voting or otherwise in accordance with such rules as may be prescribed. Preference share capital means that part of the issued share capital which carries a preferential right with respect to payment of dividend (fixed amount or rate) and preferential right as to repayment of capital in the event of winding up or repayment of capital, in preference to equity. Explanations and provisos address cumulative/non-cumulative features and pre-commencement preference rights. Current-law framing: identify the rights attached to the instrument; classify as equity or preference; if differential-rights equity, test the prescribed rules.",
     "sections": [
-      {"heading": "Two Kinds", "body": "Share capital of a company limited by shares is equity or preference.", "order": 1},
-      {"heading": "Equity Share Capital", "body": "All capital that is not preference; may carry ordinary voting rights or prescribed differential rights as to dividend, voting or otherwise.", "order": 2},
-      {"heading": "Preference Share Capital", "body": "Preferential right to dividend (fixed amount or rate) and preferential right to repayment of capital on winding up or repayment, in preference to equity.", "order": 3},
-      {"heading": "Differential Rights", "body": "Equity with differential rights is valid only within the statutory and rule framework.", "order": 4}
+      {
+        "heading": "Two Kinds",
+        "body": "Share capital of a company limited by shares is equity or preference.",
+        "order": 1
+      },
+      {
+        "heading": "Equity Share Capital",
+        "body": "All capital that is not preference; may carry ordinary voting rights or prescribed differential rights as to dividend, voting or otherwise.",
+        "order": 2
+      },
+      {
+        "heading": "Preference Share Capital",
+        "body": "Preferential right to dividend (fixed amount or rate) and preferential right to repayment of capital on winding up or repayment, in preference to equity.",
+        "order": 3
+      },
+      {
+        "heading": "Differential Rights",
+        "body": "Equity with differential rights is valid only within the statutory and rule framework.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-43", "section": "Section 43", "title": "Kinds of share capital"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-43",
+        "section": "Section 43",
+        "title": "Kinds of share capital"
+      }
+    ],
     "examples": [
-      {"title": "Ordinary equity", "body": "Shares with ordinary voting rights and residual dividend rights are equity share capital.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Preference classification", "body": "Shares with a fixed preferential dividend and priority repayment of capital on winding up are preference share capital under s. 43.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Differential rights equity", "body": "A proposed equity class with differential voting rights must satisfy the prescribed rules; s. 43 alone does not validate non-compliant differential rights.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Ordinary equity",
+        "body": "Shares with ordinary voting rights and residual dividend rights are equity share capital.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Preference classification",
+        "body": "Shares with a fixed preferential dividend and priority repayment of capital on winding up are preference share capital under s. 43.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Differential rights equity",
+        "body": "A proposed equity class with differential voting rights must satisfy the prescribed rules; s. 43 alone does not validate non-compliant differential rights.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "How do you classify shares with fixed preferential dividend and priority capital repayment?", "analysis": "They fall within preference share capital under s. 43 when the statutory preferential rights as to dividend and capital are present."}
+      {
+        "question": "How do you classify shares with fixed preferential dividend and priority capital repayment?",
+        "analysis": "They fall within preference share capital under s. 43 when the statutory preferential rights as to dividend and capital are present."
+      }
     ],
-    "distinctions": [{"id": "ca-s43-vs-s44", "title": "Kinds of share capital (s. 43) vs nature of shares (s. 44)", "left": "Classification: equity or preference", "right": "Legal character: movable property transferable per articles", "rows": [{"point": "Focus", "left": "Capital type", "right": "Property and transferability"}]}],
-    "misconceptions": [{"id": "ca-s43-trap-1", "trap": "Any share with a higher dividend is automatically preference capital.", "correction": "Preference status depends on the statutory preferential rights as to dividend and repayment of capital specified in s. 43."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s43-vs-s44",
+        "title": "Kinds of share capital (s. 43) vs nature of shares (s. 44)",
+        "left": "Classification: equity or preference",
+        "right": "Legal character: movable property transferable per articles",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Capital type",
+            "right": "Property and transferability"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s43-trap-1",
+        "trap": "Any share with a higher dividend is automatically preference capital.",
+        "correction": "Preference status depends on the statutory preferential rights as to dividend and repayment of capital specified in s. 43."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s43-brief", "draftingCategory": "brief", "question": "How should a Section 43 problem be analysed?", "answer": "I. Identify company limited by shares. II. Examine rights attached. III. Classify equity or preference. IV. If differential equity, check prescribed rules. V. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s43-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Instrument rights; classification under s. 43; differential-rights compliance if claimed; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s43-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 43 problem be analysed?",
+        "answer": "I. Identify company limited by shares. II. Examine rights attached. III. Classify equity or preference. IV. If differential equity, check prescribed rules. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s43-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Instrument rights; classification under s. 43; differential-rights compliance if claimed; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 43", "Connected: Sections 44, 47, 48"],
-    "examTips": ["Define equity as residual (not preference).", "State both preferential rights for preference capital.", "Flag differential-rights equity needs prescribed rules."],
-    "revisionPoints": ["Two kinds", "Equity share capital", "Preference share capital", "Differential rights"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-44", "company-ca-s-47"],
-    "illustrations": ["illustration:india:company-ca-s-43-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 43",
+      "Connected: Sections 44, 47, 48"
+    ],
+    "examTips": [
+      "Define equity as residual (not preference).",
+      "State both preferential rights for preference capital.",
+      "Flag differential-rights equity needs prescribed rules."
+    ],
+    "revisionPoints": [
+      "Two kinds",
+      "Equity share capital",
+      "Preference share capital",
+      "Differential rights"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-44",
+      "company-ca-s-47"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-43",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -45,25 +149,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["Classify share capital as equity or preference under s. 43.", "State the preferential rights that define preference capital.", "Explain differential-rights equity under prescribed rules."],
+      "learningObjectives": [
+        "Classify share capital as equity or preference under s. 43.",
+        "State the preferential rights that define preference capital.",
+        "Explain differential-rights equity under prescribed rules."
+      ],
       "definition": "Section 43 classifies share capital of a company limited by shares into equity and preference, with equity capable of differential rights under prescribed rules.",
       "legalPrinciple": "Capital classification turns on the rights attached to the shares, not labels alone.",
       "statutoryFramework": "Companies Act, 2013, Section 43.",
-      "essentialIngredients": ["Company limited by shares", "Equity = not preference; may have differential rights under rules", "Preference = preferential dividend and preferential capital repayment"],
+      "essentialIngredients": [
+        "Company limited by shares",
+        "Equity = not preference; may have differential rights under rules",
+        "Preference = preferential dividend and preferential capital repayment"
+      ],
       "detailedExplanation": "Section 43 is the foundational classification for Chapter IV share capital analysis.",
-      "examples": ["Ordinary equity", "Preference classification", "Differential rights equity"],
+      "examples": [
+        "Ordinary equity",
+        "Preference classification",
+        "Differential rights equity"
+      ],
       "problemApplication": "Map attached rights to equity or preference; test differential-rights rules if claimed.",
-      "keyTakeaways": ["Equity is residual.", "Preference needs both preferential rights.", "Differential equity is rule-bound."],
-      "authoritativeSources": ["Companies Act, 2013, Section 43"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Kinds of share capital (s. 43) vs nature of shares (s. 44)"],
+      "keyTakeaways": [
+        "Equity is residual.",
+        "Preference needs both preferential rights.",
+        "Differential equity is rule-bound."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 43"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Kinds of share capital (s. 43) vs nature of shares (s. 44)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Two kinds; definitions; conclude.", "sixteenMark": "Introduction; equity; preference; differential rights; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Two kinds; definitions; conclude.",
+        "sixteenMark": "Introduction; equity; preference; differential rights; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T09:05:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s43-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -73,5 +211,10 @@
   "updatedAt": "2026-10-08T09:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-43", "kinds-of-share-capital"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-43",
+    "kinds-of-share-capital"
+  ]
 }

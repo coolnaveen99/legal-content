@@ -11,43 +11,148 @@
     "glance": "List the mandatory clauses of the memorandum under s. 4; state the name-availability and objects rules; note the effect of the memorandum as the company’s constitutional document.",
     "study": "The memorandum of association is the foundational constitutional document of a company. Section 4 requires it to state (a) the name of the company with the last word ‘Limited’ or ‘Private Limited’ as applicable (or as prescribed for OPC/s. 8 companies); (b) the State in which the registered office is to be situated; (c) the objects for which the company is proposed to be incorporated and any matter considered necessary in furtherance thereof; (d) the liability of members (limited by shares, limited by guarantee, or unlimited); and (e) in the case of a company having a share capital, the amount of share capital and its division into shares of a fixed amount, and the number of shares each subscriber agrees to take. Name reservation and restrictions on undesirable names are also addressed. The memorandum, once registered, binds the company and its members. Current-law framing: ground the analysis in s. 4 and the connected formation provisions.",
     "sections": [
-      {"heading": "Name Clause", "body": "The memorandum must state the company name with the prescribed ending (Limited / Private Limited / as applicable for OPC or s. 8).", "order": 1},
-      {"heading": "Registered Office State", "body": "The State in which the registered office is to be situated must be stated.", "order": 2},
-      {"heading": "Objects Clause", "body": "The objects for which the company is proposed to be incorporated, and matters considered necessary in furtherance thereof.", "order": 3},
-      {"heading": "Liability Clause", "body": "Whether liability of members is limited by shares, limited by guarantee, or unlimited.", "order": 4},
-      {"heading": "Capital and Subscription", "body": "For companies with share capital: amount of share capital, division into shares, and shares taken by each subscriber.", "order": 5}
+      {
+        "heading": "Name Clause",
+        "body": "The memorandum must state the company name with the prescribed ending (Limited / Private Limited / as applicable for OPC or s. 8).",
+        "order": 1
+      },
+      {
+        "heading": "Registered Office State",
+        "body": "The State in which the registered office is to be situated must be stated.",
+        "order": 2
+      },
+      {
+        "heading": "Objects Clause",
+        "body": "The objects for which the company is proposed to be incorporated, and matters considered necessary in furtherance thereof.",
+        "order": 3
+      },
+      {
+        "heading": "Liability Clause",
+        "body": "Whether liability of members is limited by shares, limited by guarantee, or unlimited.",
+        "order": 4
+      },
+      {
+        "heading": "Capital and Subscription",
+        "body": "For companies with share capital: amount of share capital, division into shares, and shares taken by each subscriber.",
+        "order": 5
+      }
     ],
     "provisions": [
-      {"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-4", "section": "Section 4", "title": "Memorandum"}
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-4",
+        "section": "Section 4",
+        "title": "Memorandum"
+      }
     ],
     "examples": [
-      {"title": "Incomplete objects", "body": "A proposed memorandum omits any statement of objects. Section 4 is not complied with; the Registrar may refuse registration.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Name ending", "body": "A private company memorandum uses the name without ‘Private Limited’. The name clause under s. 4 is defective.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Incomplete objects",
+        "body": "A proposed memorandum omits any statement of objects. Section 4 is not complied with; the Registrar may refuse registration.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Name ending",
+        "body": "A private company memorandum uses the name without ‘Private Limited’. The name clause under s. 4 is defective.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can a company act outside its objects clause?", "analysis": "Acts beyond the objects raise ultra vires issues; the memorandum defines the scope of the company’s capacity. Modern drafting and statutory reforms have narrowed classical ultra vires rigidity, but the objects remain a core constitutional limit."},
-      {"question": "Is the memorandum the same as the articles?", "analysis": "No. The memorandum is the charter (name, objects, liability, capital); the articles (s. 5) regulate internal management."}
+      {
+        "question": "Can a company act outside its objects clause?",
+        "analysis": "Acts beyond the objects raise ultra vires issues; the memorandum defines the scope of the company’s capacity. Modern drafting and statutory reforms have narrowed classical ultra vires rigidity, but the objects remain a core constitutional limit."
+      },
+      {
+        "question": "Is the memorandum the same as the articles?",
+        "analysis": "No. The memorandum is the charter (name, objects, liability, capital); the articles (s. 5) regulate internal management."
+      }
     ],
     "distinctions": [
-      {"id": "ca-s4-memo-vs-articles", "title": "Memorandum vs articles", "left": "Charter: name, objects, liability, capital", "right": "Internal regulations: management, meetings, shares", "rows": [{"point": "Focus", "left": "External capacity and identity", "right": "Internal governance"}]}
+      {
+        "id": "ca-s4-memo-vs-articles",
+        "title": "Memorandum vs articles",
+        "left": "Charter: name, objects, liability, capital",
+        "right": "Internal regulations: management, meetings, shares",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "External capacity and identity",
+            "right": "Internal governance"
+          }
+        ]
+      }
     ],
     "misconceptions": [
-      {"id": "ca-s4-trap-1", "trap": "The memorandum and articles are interchangeable.", "correction": "They serve different functions; the memorandum is the charter, the articles regulate internal management."},
-      {"id": "ca-s4-trap-2", "trap": "Objects can be left blank and filled later.", "correction": "Section 4 requires the objects to be stated in the memorandum at formation."}
+      {
+        "id": "ca-s4-trap-1",
+        "trap": "The memorandum and articles are interchangeable.",
+        "correction": "They serve different functions; the memorandum is the charter, the articles regulate internal management."
+      },
+      {
+        "id": "ca-s4-trap-2",
+        "trap": "Objects can be left blank and filled later.",
+        "correction": "Section 4 requires the objects to be stated in the memorandum at formation."
+      }
     ],
     "cases": [
-      {"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.", "issue": "What is the legal effect of incorporation?", "ratioDecidendi": "A registered company is a legal person separate from its members.", "holding": "Separate personality affirmed.", "relevance": "Authority already in the file; the memorandum is part of the incorporation package that creates separate personality.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
+        "issue": "What is the legal effect of incorporation?",
+        "ratioDecidendi": "A registered company is a legal person separate from its members.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Authority already in the file; the memorandum is part of the incorporation package that creates separate personality.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
     ],
     "questionsAndAnswers": [
-      {"id": "ca-s4-brief", "draftingCategory": "brief", "question": "How should a Section 4 problem be analysed?", "answer": "I. List the mandatory memorandum clauses. II. Test the facts against each clause. III. Distinguish memorandum from articles. IV. Conclude on validity/registration consequences.", "explanation": "IRAC."},
-      {"id": "ca-s4-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Clause-by-clause compliance; name and objects analysis; liability and capital particulars; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s4-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 4 problem be analysed?",
+        "answer": "I. List the mandatory memorandum clauses. II. Test the facts against each clause. III. Distinguish memorandum from articles. IV. Conclude on validity/registration consequences.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s4-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Clause-by-clause compliance; name and objects analysis; liability and capital particulars; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 4", "Connected: Sections 3, 5, 7", "BSA 2023 only for evidentiary issues"],
-    "examTips": ["List all mandatory clauses.", "Distinguish memorandum and articles.", "Link objects to capacity/ultra vires discussion."],
-    "revisionPoints": ["Name clause", "Registered office State", "Objects", "Liability", "Capital and subscription"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-3", "company-ca-s-5", "company-ca-s-7"],
-    "illustrations": ["illustration:india:company-ca-s-4-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 4",
+      "Connected: Sections 3, 5, 7",
+      "BSA 2023 only for evidentiary issues"
+    ],
+    "examTips": [
+      "List all mandatory clauses.",
+      "Distinguish memorandum and articles.",
+      "Link objects to capacity/ultra vires discussion."
+    ],
+    "revisionPoints": [
+      "Name clause",
+      "Registered office State",
+      "Objects",
+      "Liability",
+      "Capital and subscription"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-3",
+      "company-ca-s-5",
+      "company-ca-s-7"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-4",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -55,25 +160,60 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["List the mandatory contents of the memorandum under s. 4.", "Distinguish memorandum from articles.", "State the role of the objects clause."],
+      "learningObjectives": [
+        "List the mandatory contents of the memorandum under s. 4.",
+        "Distinguish memorandum from articles.",
+        "State the role of the objects clause."
+      ],
       "definition": "Section 4 prescribes the mandatory contents of the memorandum of association, the company’s charter document.",
       "legalPrinciple": "A valid memorandum must state name, registered-office State, objects, liability and (where applicable) capital and subscription particulars.",
       "statutoryFramework": "Companies Act, 2013, Section 4.",
-      "essentialIngredients": ["Name clause", "Registered-office State", "Objects", "Liability clause", "Capital/subscription where applicable"],
+      "essentialIngredients": [
+        "Name clause",
+        "Registered-office State",
+        "Objects",
+        "Liability clause",
+        "Capital/subscription where applicable"
+      ],
       "detailedExplanation": "The memorandum defines the company’s identity, capacity and member liability.",
-      "examples": ["Incomplete objects", "Name ending"],
+      "examples": [
+        "Incomplete objects",
+        "Name ending"
+      ],
       "problemApplication": "Check each mandatory clause against the draft memorandum.",
-      "keyTakeaways": ["Five core content areas.", "Memorandum is the charter.", "Objects define capacity."],
-      "authoritativeSources": ["Companies Act, 2013, Section 4"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Memorandum vs articles"],
+      "keyTakeaways": [
+        "Five core content areas.",
+        "Memorandum is the charter.",
+        "Objects define capacity."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 4"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level content; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Memorandum vs articles"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "List mandatory clauses; distinguish articles; conclude.", "sixteenMark": "Introduction; each clause; memorandum vs articles; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "List mandatory clauses; distinguish articles; conclude.",
+        "sixteenMark": "Introduction; each clause; memorandum vs articles; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T07:50:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s4-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -83,5 +223,10 @@
   "updatedAt": "2026-10-08T07:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-4", "memorandum"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-4",
+    "memorandum"
+  ]
 }

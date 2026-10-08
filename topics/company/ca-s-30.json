@@ -11,31 +11,123 @@
     "glance": "Prospectus advertisements must state specified memorandum particulars and capital structure; the rule is disclosure-focused and operates alongside the full prospectus regime.",
     "study": "Where any advertisement of a prospectus of a company is published in any manner, the advertisement must specify the contents of the memorandum as regards the objects, the liability of members, the amount of share capital of the company, the names of the signatories to the memorandum and the number of shares subscribed for by them, and the capital structure of the company. The provision ensures that even a short advertisement carries core constitutional and capital information. It does not replace the full prospectus under s. 26. Current-law framing: identify a published advertisement of a prospectus; check the mandatory memorandum and capital disclosures.",
     "sections": [
-      {"heading": "Trigger", "body": "Publication of an advertisement of a prospectus in any manner engages s. 30.", "order": 1},
-      {"heading": "Mandatory Particulars", "body": "The advertisement must state memorandum objects, member liability, share capital, memorandum signatories and their subscribed shares, and capital structure.", "order": 2},
-      {"heading": "Relation to Full Prospectus", "body": "Section 30 is an advertisement disclosure rule; the full prospectus content and filing duties remain under s. 26 and related provisions.", "order": 3}
+      {
+        "heading": "Trigger",
+        "body": "Publication of an advertisement of a prospectus in any manner engages s. 30.",
+        "order": 1
+      },
+      {
+        "heading": "Mandatory Particulars",
+        "body": "The advertisement must state memorandum objects, member liability, share capital, memorandum signatories and their subscribed shares, and capital structure.",
+        "order": 2
+      },
+      {
+        "heading": "Relation to Full Prospectus",
+        "body": "Section 30 is an advertisement disclosure rule; the full prospectus content and filing duties remain under s. 26 and related provisions.",
+        "order": 3
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-30", "section": "Section 30", "title": "Advertisement of prospectus"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-30",
+        "section": "Section 30",
+        "title": "Advertisement of prospectus"
+      }
+    ],
     "examples": [
-      {"title": "Compliant advertisement", "body": "A company publishes a prospectus advertisement that states the required memorandum and capital-structure particulars. Section 30 is met.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Bare promotional ad", "body": "An advertisement of a prospectus omits objects, capital and signatory details. Section 30 is breached.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Compliant advertisement",
+        "body": "A company publishes a prospectus advertisement that states the required memorandum and capital-structure particulars. Section 30 is met.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Bare promotional ad",
+        "body": "An advertisement of a prospectus omits objects, capital and signatory details. Section 30 is breached.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Does a short advertisement replace the need for a full prospectus?", "analysis": "No. Section 30 only regulates what an advertisement of a prospectus must state; the full prospectus regime under s. 26 remains."}
+      {
+        "question": "Does a short advertisement replace the need for a full prospectus?",
+        "analysis": "No. Section 30 only regulates what an advertisement of a prospectus must state; the full prospectus regime under s. 26 remains."
+      }
     ],
-    "distinctions": [{"id": "ca-s30-vs-s26", "title": "Advertisement of prospectus (s. 30) vs content of prospectus (s. 26)", "left": "Minimum particulars in any published advertisement", "right": "Full statutory content, dating, signing and ROC filing", "rows": [{"point": "Focus", "left": "Advertisement disclosure", "right": "Prospectus as regulated document"}]}],
-    "misconceptions": [{"id": "ca-s30-trap-1", "trap": "Any promotional material about an issue is free of statutory content rules.", "correction": "If it is an advertisement of a prospectus, s. 30 requires specified memorandum and capital particulars."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s30-vs-s26",
+        "title": "Advertisement of prospectus (s. 30) vs content of prospectus (s. 26)",
+        "left": "Minimum particulars in any published advertisement",
+        "right": "Full statutory content, dating, signing and ROC filing",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Advertisement disclosure",
+            "right": "Prospectus as regulated document"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s30-trap-1",
+        "trap": "Any promotional material about an issue is free of statutory content rules.",
+        "correction": "If it is an advertisement of a prospectus, s. 30 requires specified memorandum and capital particulars."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s30-brief", "draftingCategory": "brief", "question": "How should a Section 30 problem be analysed?", "answer": "I. Identify advertisement of a prospectus. II. Check mandatory particulars. III. Distinguish from full s. 26 duties. IV. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s30-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Advertisement text; missing particulars if any; relation to prospectus; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s30-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 30 problem be analysed?",
+        "answer": "I. Identify advertisement of a prospectus. II. Check mandatory particulars. III. Distinguish from full s. 26 duties. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s30-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Advertisement text; missing particulars if any; relation to prospectus; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 30", "Connected: Section 26"],
-    "examTips": ["List the mandatory advertisement particulars.", "Do not treat s. 30 as a substitute for the full prospectus."],
-    "revisionPoints": ["Trigger", "Mandatory particulars", "Relation to full prospectus"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-26"],
-    "illustrations": ["illustration:india:company-ca-s-30-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 30",
+      "Connected: Section 26"
+    ],
+    "examTips": [
+      "List the mandatory advertisement particulars.",
+      "Do not treat s. 30 as a substitute for the full prospectus."
+    ],
+    "revisionPoints": [
+      "Trigger",
+      "Mandatory particulars",
+      "Relation to full prospectus"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-26"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-30",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -43,25 +135,57 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State when s. 30 applies.", "List the mandatory advertisement particulars.", "Distinguish advertisement rules from full prospectus duties."],
+      "learningObjectives": [
+        "State when s. 30 applies.",
+        "List the mandatory advertisement particulars.",
+        "Distinguish advertisement rules from full prospectus duties."
+      ],
       "definition": "Section 30 requires every advertisement of a prospectus to specify prescribed memorandum and capital-structure particulars.",
       "legalPrinciple": "Even a short prospectus advertisement must carry core constitutional and capital information.",
       "statutoryFramework": "Companies Act, 2013, Section 30.",
-      "essentialIngredients": ["Advertisement of a prospectus", "Specified memorandum particulars", "Capital structure"],
+      "essentialIngredients": [
+        "Advertisement of a prospectus",
+        "Specified memorandum particulars",
+        "Capital structure"
+      ],
       "detailedExplanation": "Section 30 is a targeted disclosure rule for published prospectus advertisements.",
-      "examples": ["Compliant advertisement", "Bare promotional ad"],
+      "examples": [
+        "Compliant advertisement",
+        "Bare promotional ad"
+      ],
       "problemApplication": "Identify advertisement; checklist particulars; keep s. 26 separate.",
-      "keyTakeaways": ["Advertisement must state objects, liability, capital, signatories, structure.", "Does not replace the full prospectus."],
-      "authoritativeSources": ["Companies Act, 2013, Section 30"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Advertisement of prospectus (s. 30) vs content of prospectus (s. 26)"],
+      "keyTakeaways": [
+        "Advertisement must state objects, liability, capital, signatories, structure.",
+        "Does not replace the full prospectus."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 30"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Advertisement of prospectus (s. 30) vs content of prospectus (s. 26)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Trigger; particulars; conclude.", "sixteenMark": "Introduction; trigger; particulars; vs s. 26; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Trigger; particulars; conclude.",
+        "sixteenMark": "Introduction; trigger; particulars; vs s. 26; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T08:50:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s30-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -71,5 +195,10 @@
   "updatedAt": "2026-10-08T08:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-30", "advertisement-of-prospectus"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-30",
+    "advertisement-of-prospectus"
+  ]
 }

@@ -11,36 +11,140 @@
     "glance": "State the Central Government’s power to direct a name change; note resemblance and inadvertent registration grounds; state the consequences of non-compliance.",
     "study": "If, through inadvertence or otherwise, a company is registered with a name that is identical with or too nearly resembles the name of an existing company, or in other prescribed circumstances, the Central Government may direct the company to change its name within the prescribed period. The company must comply by adopting a new name in accordance with the Act. If it fails to comply, the Central Government may order the name to be changed and the Registrar to enter the new name; the company may also be liable to a fine. The provision protects against confusingly similar names and administrative error in registration. Current-law framing: ground the analysis in s. 16 and link to name rules under s. 4 and name-change procedure under s. 13.",
     "sections": [
-      {"heading": "Grounds for Direction", "body": "Name identical with or too nearly resembling an existing company name, or registration by inadvertence or other prescribed cause.", "order": 1},
-      {"heading": "Central Government Direction", "body": "The Central Government may direct the company to change its name within the prescribed time.", "order": 2},
-      {"heading": "Company’s Duty to Comply", "body": "The company must adopt a new compliant name under the Act’s name-change procedure.", "order": 3},
-      {"heading": "Consequences of Non-Compliance", "body": "Central Government may itself order the name change and Registrar entry; fines may apply.", "order": 4}
+      {
+        "heading": "Grounds for Direction",
+        "body": "Name identical with or too nearly resembling an existing company name, or registration by inadvertence or other prescribed cause.",
+        "order": 1
+      },
+      {
+        "heading": "Central Government Direction",
+        "body": "The Central Government may direct the company to change its name within the prescribed time.",
+        "order": 2
+      },
+      {
+        "heading": "Company’s Duty to Comply",
+        "body": "The company must adopt a new compliant name under the Act’s name-change procedure.",
+        "order": 3
+      },
+      {
+        "heading": "Consequences of Non-Compliance",
+        "body": "Central Government may itself order the name change and Registrar entry; fines may apply.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-16", "section": "Section 16", "title": "Rectification of name of company"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-16",
+        "section": "Section 16",
+        "title": "Rectification of name of company"
+      }
+    ],
     "examples": [
-      {"title": "Nearly identical name", "body": "A new company is registered with a name too nearly resembling an existing listed company’s name. Under s. 16 the Central Government may direct a change.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Non-compliance with direction", "body": "The company ignores the direction to change its name. The Central Government may order the change and the Registrar may enter the new name; penalties may follow.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Nearly identical name",
+        "body": "A new company is registered with a name too nearly resembling an existing listed company’s name. Under s. 16 the Central Government may direct a change.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Non-compliance with direction",
+        "body": "The company ignores the direction to change its name. The Central Government may order the change and the Registrar may enter the new name; penalties may follow.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Is s. 16 limited to names registered by mistake?", "analysis": "No. It covers identity or close resemblance with existing names as well as inadvertent or other prescribed registration situations."},
-      {"question": "Can the company choose any new name after a s. 16 direction?", "analysis": "The new name must still comply with the Act’s name rules (s. 4 and related provisions) and the name-change procedure under s. 13."}
+      {
+        "question": "Is s. 16 limited to names registered by mistake?",
+        "analysis": "No. It covers identity or close resemblance with existing names as well as inadvertent or other prescribed registration situations."
+      },
+      {
+        "question": "Can the company choose any new name after a s. 16 direction?",
+        "analysis": "The new name must still comply with the Act’s name rules (s. 4 and related provisions) and the name-change procedure under s. 13."
+      }
     ],
-    "distinctions": [{"id": "ca-s16-vs-s13-name", "title": "Rectification (s. 16) vs voluntary name change (s. 13)", "left": "Directed by Central Government for resemblance or error", "right": "Company-initiated change by special resolution and approval", "rows": [{"point": "Focus", "left": "Compulsory rectification", "right": "Voluntary alteration"}]}],
+    "distinctions": [
+      {
+        "id": "ca-s16-vs-s13-name",
+        "title": "Rectification (s. 16) vs voluntary name change (s. 13)",
+        "left": "Directed by Central Government for resemblance or error",
+        "right": "Company-initiated change by special resolution and approval",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Compulsory rectification",
+            "right": "Voluntary alteration"
+          }
+        ]
+      }
+    ],
     "misconceptions": [
-      {"id": "ca-s16-trap-1", "trap": "Once a name is registered it can never be forced to change.", "correction": "Section 16 allows the Central Government to direct a change for identity, resemblance or inadvertent registration."},
-      {"id": "ca-s16-trap-2", "trap": "s. 16 is only about trademarks.", "correction": "It is a company-law rectification power focused on company names under the Act, though trade-mark conflicts may also arise under other law."}
+      {
+        "id": "ca-s16-trap-1",
+        "trap": "Once a name is registered it can never be forced to change.",
+        "correction": "Section 16 allows the Central Government to direct a change for identity, resemblance or inadvertent registration."
+      },
+      {
+        "id": "ca-s16-trap-2",
+        "trap": "s. 16 is only about trademarks.",
+        "correction": "It is a company-law rectification power focused on company names under the Act, though trade-mark conflicts may also arise under other law."
+      }
     ],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; name is part of the corporate identity created on registration.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; name is part of the corporate identity created on registration.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s16-brief", "draftingCategory": "brief", "question": "How should a Section 16 problem be analysed?", "answer": "I. Identify the ground (resemblance / inadvertence). II. State the Central Government’s power to direct change. III. Note compliance duty and non-compliance consequences. IV. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s16-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Ground for direction; direction status; compliance or default; Registrar action; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s16-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 16 problem be analysed?",
+        "answer": "I. Identify the ground (resemblance / inadvertence). II. State the Central Government’s power to direct change. III. Note compliance duty and non-compliance consequences. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s16-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Ground for direction; direction status; compliance or default; Registrar action; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 16", "Connected: Sections 4, 13"],
-    "examTips": ["Distinguish compulsory rectification from voluntary name change.", "State resemblance and inadvertence grounds.", "Note Central Government and Registrar roles on default."],
-    "revisionPoints": ["Grounds for direction", "Central Government direction", "Duty to comply", "Consequences of non-compliance"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-4", "company-ca-s-13"],
-    "illustrations": ["illustration:india:company-ca-s-16-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 16",
+      "Connected: Sections 4, 13"
+    ],
+    "examTips": [
+      "Distinguish compulsory rectification from voluntary name change.",
+      "State resemblance and inadvertence grounds.",
+      "Note Central Government and Registrar roles on default."
+    ],
+    "revisionPoints": [
+      "Grounds for direction",
+      "Central Government direction",
+      "Duty to comply",
+      "Consequences of non-compliance"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-4",
+      "company-ca-s-13"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-16",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -48,25 +152,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State the grounds for name rectification under s. 16.", "Explain the Central Government’s direction power.", "Describe consequences of non-compliance."],
+      "learningObjectives": [
+        "State the grounds for name rectification under s. 16.",
+        "Explain the Central Government’s direction power.",
+        "Describe consequences of non-compliance."
+      ],
       "definition": "Section 16 empowers the Central Government to direct a company to change its name where the name is identical with or too nearly resembles an existing name or was registered by inadvertence or otherwise.",
       "legalPrinciple": "Confusingly similar or inadvertently registered names may be rectified by Central Government direction; non-compliance allows the Government to force the change.",
       "statutoryFramework": "Companies Act, 2013, Section 16.",
-      "essentialIngredients": ["Ground (resemblance or inadvertence)", "Central Government direction", "Compliance within time", "Consequences on default"],
+      "essentialIngredients": [
+        "Ground (resemblance or inadvertence)",
+        "Central Government direction",
+        "Compliance within time",
+        "Consequences on default"
+      ],
       "detailedExplanation": "Section 16 protects the integrity of the company-name register and reduces public confusion.",
-      "examples": ["Nearly identical name", "Non-compliance with direction"],
+      "examples": [
+        "Nearly identical name",
+        "Non-compliance with direction"
+      ],
       "problemApplication": "Identify ground; state direction; assess compliance; note default consequences.",
-      "keyTakeaways": ["Resemblance and inadvertence are key grounds.", "Central Government can direct and, on default, force the change.", "Distinct from voluntary s. 13 name change."],
-      "authoritativeSources": ["Companies Act, 2013, Section 16"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Rectification (s. 16) vs voluntary name change (s. 13)"],
+      "keyTakeaways": [
+        "Resemblance and inadvertence are key grounds.",
+        "Central Government can direct and, on default, force the change.",
+        "Distinct from voluntary s. 13 name change."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 16"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Rectification (s. 16) vs voluntary name change (s. 13)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Grounds; direction; default consequences; conclude.", "sixteenMark": "Introduction; grounds; direction power; compliance; default; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Grounds; direction; default consequences; conclude.",
+        "sixteenMark": "Introduction; grounds; direction power; compliance; default; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T08:15:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s16-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -76,5 +214,10 @@
   "updatedAt": "2026-10-08T08:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-16", "rectification-of-name"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-16",
+    "rectification-of-name"
+  ]
 }

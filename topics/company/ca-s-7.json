@@ -11,42 +11,142 @@
     "glance": "List the documents to be filed under s. 7; state the Registrar’s role; note the effect of the certificate of incorporation and the company’s status from the date of incorporation.",
     "study": "Section 7 is the procedural heart of incorporation. Persons forming a company must file with the Registrar the memorandum and articles, a declaration of compliance, an affidavit from first directors, address for correspondence, particulars of subscribers and first directors, and other prescribed documents. The Registrar may accept or reject the documents. On registration, the Registrar issues a certificate of incorporation, which is conclusive evidence that all requirements of the Act in respect of registration have been complied with and that the company is duly registered. From the date of incorporation in the certificate, the subscribers and subsequent members become a body corporate by the name in the memorandum, capable of exercising the functions of an incorporated company with perpetual succession and a common seal (where it has one), and with power to hold property and to sue and be sued. Current-law framing: ground the analysis in s. 7 and the connected formation provisions (ss. 3–5).",
     "sections": [
-      {"heading": "Documents for Incorporation", "body": "Memorandum, articles, compliance declaration, director affidavits, address, subscriber and director particulars, and other prescribed documents.", "order": 1},
-      {"heading": "Registrar’s Scrutiny", "body": "The Registrar examines the documents and may accept or refuse registration.", "order": 2},
-      {"heading": "Certificate of Incorporation", "body": "On registration the Registrar issues a certificate of incorporation, which is conclusive evidence of compliance with registration requirements and of due registration.", "order": 3},
-      {"heading": "Effect of Incorporation", "body": "From the date in the certificate, the company is a body corporate with perpetual succession, capacity to hold property, and capacity to sue and be sued.", "order": 4}
+      {
+        "heading": "Documents for Incorporation",
+        "body": "Memorandum, articles, compliance declaration, director affidavits, address, subscriber and director particulars, and other prescribed documents.",
+        "order": 1
+      },
+      {
+        "heading": "Registrar’s Scrutiny",
+        "body": "The Registrar examines the documents and may accept or refuse registration.",
+        "order": 2
+      },
+      {
+        "heading": "Certificate of Incorporation",
+        "body": "On registration the Registrar issues a certificate of incorporation, which is conclusive evidence of compliance with registration requirements and of due registration.",
+        "order": 3
+      },
+      {
+        "heading": "Effect of Incorporation",
+        "body": "From the date in the certificate, the company is a body corporate with perpetual succession, capacity to hold property, and capacity to sue and be sued.",
+        "order": 4
+      }
     ],
     "provisions": [
-      {"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-7", "section": "Section 7", "title": "Incorporation of company"}
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-7",
+        "section": "Section 7",
+        "title": "Incorporation of company"
+      }
     ],
     "examples": [
-      {"title": "Complete filing", "body": "All prescribed documents under s. 7 are filed in order. The Registrar registers the company and issues the certificate of incorporation.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Defective declaration", "body": "The compliance declaration is false or incomplete. The Registrar may refuse registration; post-incorporation consequences may also follow if fraud is later established.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Complete filing",
+        "body": "All prescribed documents under s. 7 are filed in order. The Registrar registers the company and issues the certificate of incorporation.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Defective declaration",
+        "body": "The compliance declaration is false or incomplete. The Registrar may refuse registration; post-incorporation consequences may also follow if fraud is later established.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Is the certificate of incorporation conclusive for all purposes?", "analysis": "It is conclusive evidence that registration requirements were complied with and that the company is duly registered. It does not validate illegal objects or protect against all forms of challenge in every context."},
-      {"question": "When does the company come into existence?", "analysis": "From the date of incorporation mentioned in the certificate issued under s. 7."}
+      {
+        "question": "Is the certificate of incorporation conclusive for all purposes?",
+        "analysis": "It is conclusive evidence that registration requirements were complied with and that the company is duly registered. It does not validate illegal objects or protect against all forms of challenge in every context."
+      },
+      {
+        "question": "When does the company come into existence?",
+        "analysis": "From the date of incorporation mentioned in the certificate issued under s. 7."
+      }
     ],
     "distinctions": [
-      {"id": "ca-s7-formation-vs-incorporation", "title": "Formation (s. 3) vs incorporation (s. 7)", "left": "Agreement to form and subscription of memorandum", "right": "Filing, registration and certificate creating the body corporate", "rows": [{"point": "Focus", "left": "Who forms and on what terms", "right": "When and how legal personality arises"}]}
+      {
+        "id": "ca-s7-formation-vs-incorporation",
+        "title": "Formation (s. 3) vs incorporation (s. 7)",
+        "left": "Agreement to form and subscription of memorandum",
+        "right": "Filing, registration and certificate creating the body corporate",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Who forms and on what terms",
+            "right": "When and how legal personality arises"
+          }
+        ]
+      }
     ],
     "misconceptions": [
-      {"id": "ca-s7-trap-1", "trap": "Signing the memorandum incorporates the company.", "correction": "Incorporation occurs only on registration and issue of the certificate under s. 7."},
-      {"id": "ca-s7-trap-2", "trap": "The certificate cures all illegality in the objects.", "correction": "The certificate is conclusive of registration compliance; it does not legitimise unlawful objects."}
+      {
+        "id": "ca-s7-trap-1",
+        "trap": "Signing the memorandum incorporates the company.",
+        "correction": "Incorporation occurs only on registration and issue of the certificate under s. 7."
+      },
+      {
+        "id": "ca-s7-trap-2",
+        "trap": "The certificate cures all illegality in the objects.",
+        "correction": "The certificate is conclusive of registration compliance; it does not legitimise unlawful objects."
+      }
     ],
     "cases": [
-      {"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.", "issue": "What is the legal effect of incorporation?", "ratioDecidendi": "A registered company is a legal person separate from its members.", "holding": "Separate personality affirmed.", "relevance": "Authority already in the file; classic statement of the effect of incorporation.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
+        "issue": "What is the legal effect of incorporation?",
+        "ratioDecidendi": "A registered company is a legal person separate from its members.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Authority already in the file; classic statement of the effect of incorporation.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
     ],
     "questionsAndAnswers": [
-      {"id": "ca-s7-brief", "draftingCategory": "brief", "question": "How should a Section 7 problem be analysed?", "answer": "I. List required documents. II. State the Registrar’s role. III. Explain the certificate and its conclusiveness. IV. State the effect from the date of incorporation. V. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s7-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Document checklist; registration status; certificate analysis; effect of incorporation; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s7-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 7 problem be analysed?",
+        "answer": "I. List required documents. II. State the Registrar’s role. III. Explain the certificate and its conclusiveness. IV. State the effect from the date of incorporation. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s7-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Document checklist; registration status; certificate analysis; effect of incorporation; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 7", "Connected: Sections 3, 4, 5, 9", "BSA 2023 only for evidentiary issues"],
-    "examTips": ["List the key documents for incorporation.", "State the conclusive effect of the certificate carefully.", "Link to separate legal personality under s. 9."],
-    "revisionPoints": ["Documents for incorporation", "Registrar’s scrutiny", "Certificate of incorporation", "Effect of incorporation"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-3", "company-ca-s-4", "company-ca-s-9"],
-    "illustrations": ["illustration:india:company-ca-s-7-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 7",
+      "Connected: Sections 3, 4, 5, 9",
+      "BSA 2023 only for evidentiary issues"
+    ],
+    "examTips": [
+      "List the key documents for incorporation.",
+      "State the conclusive effect of the certificate carefully.",
+      "Link to separate legal personality under s. 9."
+    ],
+    "revisionPoints": [
+      "Documents for incorporation",
+      "Registrar’s scrutiny",
+      "Certificate of incorporation",
+      "Effect of incorporation"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-3",
+      "company-ca-s-4",
+      "company-ca-s-9"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-7",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -54,25 +154,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["List the documents required for incorporation under s. 7.", "State the effect of the certificate of incorporation.", "Explain when the company comes into existence."],
+      "learningObjectives": [
+        "List the documents required for incorporation under s. 7.",
+        "State the effect of the certificate of incorporation.",
+        "Explain when the company comes into existence."
+      ],
       "definition": "Section 7 prescribes the incorporation process before the Registrar and the effect of the certificate of incorporation.",
       "legalPrinciple": "On registration and issue of the certificate, the company becomes a body corporate from the date of incorporation with perpetual succession and capacity to hold property and to sue and be sued.",
       "statutoryFramework": "Companies Act, 2013, Section 7.",
-      "essentialIngredients": ["Prescribed documents filed", "Registrar’s registration", "Certificate issued", "Effect from date of incorporation"],
+      "essentialIngredients": [
+        "Prescribed documents filed",
+        "Registrar’s registration",
+        "Certificate issued",
+        "Effect from date of incorporation"
+      ],
       "detailedExplanation": "Section 7 completes the formation process begun under ss. 3–5.",
-      "examples": ["Complete filing", "Defective declaration"],
+      "examples": [
+        "Complete filing",
+        "Defective declaration"
+      ],
       "problemApplication": "Check documents; assess registration; state effect of certificate.",
-      "keyTakeaways": ["Filing + registration + certificate = incorporation.", "Certificate is conclusive of registration compliance.", "Personality runs from the date in the certificate."],
-      "authoritativeSources": ["Companies Act, 2013, Section 7"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Formation (s. 3) vs incorporation (s. 7)"],
+      "keyTakeaways": [
+        "Filing + registration + certificate = incorporation.",
+        "Certificate is conclusive of registration compliance.",
+        "Personality runs from the date in the certificate."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 7"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level content; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Formation (s. 3) vs incorporation (s. 7)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "List documents; state certificate effect; conclude.", "sixteenMark": "Introduction; documents; Registrar; certificate; effect of incorporation; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "List documents; state certificate effect; conclude.",
+        "sixteenMark": "Introduction; documents; Registrar; certificate; effect of incorporation; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T07:50:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s7-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -82,5 +216,10 @@
   "updatedAt": "2026-10-08T07:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-7", "incorporation"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-7",
+    "incorporation"
+  ]
 }

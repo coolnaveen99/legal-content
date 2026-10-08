@@ -11,31 +11,124 @@
     "glance": "Equity holders vote on every resolution proportionate to paid-up equity; preference holders vote mainly on rights-affecting, winding-up and capital-reduction resolutions; arrears of dividend can enlarge preference voting.",
     "study": "Subject to section 43 and section 50(2), every member of a company limited by shares and holding any equity share capital has a right to vote on every resolution placed before the company, and voting right on a poll is in proportion to the paid-up equity share capital. Preference shareholders have a right to vote only on resolutions which directly affect the rights attached to their preference shares, and on any resolution for winding up or for repayment or reduction of share capital. Where the dividend on preference shares is in arrears for a prescribed period, preference shareholders may acquire voting rights on all resolutions as provided. Current-law framing: identify class of shares; apply equity voting or limited preference voting; check dividend arrears for expanded preference rights.",
     "sections": [
-      {"heading": "Equity Voting", "body": "Equity shareholders vote on every resolution; on a poll, votes are proportional to paid-up equity capital.", "order": 1},
-      {"heading": "Preference Voting — Limited", "body": "Preference shareholders vote on resolutions that directly affect preference rights, and on winding-up or reduction/repayment of capital.", "order": 2},
-      {"heading": "Preference Voting — Expanded", "body": "Where preference dividends are in arrears for the prescribed period, preference shareholders may vote on all resolutions as provided.", "order": 3}
+      {
+        "heading": "Equity Voting",
+        "body": "Equity shareholders vote on every resolution; on a poll, votes are proportional to paid-up equity capital.",
+        "order": 1
+      },
+      {
+        "heading": "Preference Voting — Limited",
+        "body": "Preference shareholders vote on resolutions that directly affect preference rights, and on winding-up or reduction/repayment of capital.",
+        "order": 2
+      },
+      {
+        "heading": "Preference Voting — Expanded",
+        "body": "Where preference dividends are in arrears for the prescribed period, preference shareholders may vote on all resolutions as provided.",
+        "order": 3
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-47", "section": "Section 47", "title": "Voting rights"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-47",
+        "section": "Section 47",
+        "title": "Voting rights"
+      }
+    ],
     "examples": [
-      {"title": "Equity poll", "body": "On a poll, an equity holder with twice the paid-up equity capital of another has twice the voting power under s. 47.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Preference on rights variation", "body": "A resolution altering preference dividend rights triggers preference shareholders’ right to vote under s. 47.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Equity poll",
+        "body": "On a poll, an equity holder with twice the paid-up equity capital of another has twice the voting power under s. 47.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Preference on rights variation",
+        "body": "A resolution altering preference dividend rights triggers preference shareholders’ right to vote under s. 47.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can preference shareholders vote on an ordinary business resolution when dividends are current?", "analysis": "Generally no, unless the resolution directly affects preference rights or is for winding-up or capital reduction/repayment. Arrears of dividend can expand voting."}
+      {
+        "question": "Can preference shareholders vote on an ordinary business resolution when dividends are current?",
+        "analysis": "Generally no, unless the resolution directly affects preference rights or is for winding-up or capital reduction/repayment. Arrears of dividend can expand voting."
+      }
     ],
-    "distinctions": [{"id": "ca-s47-vs-s43", "title": "Voting rights (s. 47) vs kinds of share capital (s. 43)", "left": "Who may vote and on what", "right": "Equity vs preference classification", "rows": [{"point": "Focus", "left": "Voting power", "right": "Capital type"}]}],
-    "misconceptions": [{"id": "ca-s47-trap-1", "trap": "Preference shareholders always vote on every resolution.", "correction": "Preference voting is generally limited to rights-affecting, winding-up and capital-reduction resolutions, subject to arrears expansion."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s47-vs-s43",
+        "title": "Voting rights (s. 47) vs kinds of share capital (s. 43)",
+        "left": "Who may vote and on what",
+        "right": "Equity vs preference classification",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Voting power",
+            "right": "Capital type"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s47-trap-1",
+        "trap": "Preference shareholders always vote on every resolution.",
+        "correction": "Preference voting is generally limited to rights-affecting, winding-up and capital-reduction resolutions, subject to arrears expansion."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s47-brief", "draftingCategory": "brief", "question": "How should a Section 47 problem be analysed?", "answer": "I. Identify class of shares. II. Apply equity or preference voting rules. III. Check dividend arrears. IV. Conclude on voting rights.", "explanation": "IRAC."},
-      {"id": "ca-s47-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Share class; resolution type; arrears status; voting entitlement; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s47-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 47 problem be analysed?",
+        "answer": "I. Identify class of shares. II. Apply equity or preference voting rules. III. Check dividend arrears. IV. Conclude on voting rights.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s47-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Share class; resolution type; arrears status; voting entitlement; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 47", "Connected: Sections 43, 48, 50"],
-    "examTips": ["Equity: vote on every resolution; proportion to paid-up equity.", "Preference: limited voting + arrears expansion."],
-    "revisionPoints": ["Equity voting", "Preference limited voting", "Preference expanded on arrears"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-43", "company-ca-s-48"],
-    "illustrations": ["illustration:india:company-ca-s-47-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 47",
+      "Connected: Sections 43, 48, 50"
+    ],
+    "examTips": [
+      "Equity: vote on every resolution; proportion to paid-up equity.",
+      "Preference: limited voting + arrears expansion."
+    ],
+    "revisionPoints": [
+      "Equity voting",
+      "Preference limited voting",
+      "Preference expanded on arrears"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-43",
+      "company-ca-s-48"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-47",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -43,25 +136,57 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State equity and preference voting rules under s. 47.", "Explain expanded preference voting when dividends are in arrears."],
+      "learningObjectives": [
+        "State equity and preference voting rules under s. 47.",
+        "Explain expanded preference voting when dividends are in arrears."
+      ],
       "definition": "Section 47 allocates voting rights: equity holders vote on every resolution proportionate to paid-up equity; preference holders have limited voting with arrears expansion.",
       "legalPrinciple": "Voting power tracks capital class and, for preference, the status of preferential dividends.",
       "statutoryFramework": "Companies Act, 2013, Section 47.",
-      "essentialIngredients": ["Equity: vote on every resolution; poll proportional to paid-up equity", "Preference: vote on rights-affecting, winding-up, capital reduction", "Arrears may expand preference voting"],
+      "essentialIngredients": [
+        "Equity: vote on every resolution; poll proportional to paid-up equity",
+        "Preference: vote on rights-affecting, winding-up, capital reduction",
+        "Arrears may expand preference voting"
+      ],
       "detailedExplanation": "Section 47 is the core voting allocation rule for companies limited by shares.",
-      "examples": ["Equity poll", "Preference on rights variation"],
+      "examples": [
+        "Equity poll",
+        "Preference on rights variation"
+      ],
       "problemApplication": "Classify shares; map resolution type; check arrears.",
-      "keyTakeaways": ["Equity votes on everything.", "Preference voting is limited by default.", "Arrears can unlock full preference voting."],
-      "authoritativeSources": ["Companies Act, 2013, Section 47"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Voting rights (s. 47) vs kinds of share capital (s. 43)"],
+      "keyTakeaways": [
+        "Equity votes on everything.",
+        "Preference voting is limited by default.",
+        "Arrears can unlock full preference voting."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 47"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Voting rights (s. 47) vs kinds of share capital (s. 43)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Equity vs preference voting; conclude.", "sixteenMark": "Introduction; equity; preference; arrears; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Equity vs preference voting; conclude.",
+        "sixteenMark": "Introduction; equity; preference; arrears; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T09:10:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s47-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -71,5 +196,10 @@
   "updatedAt": "2026-10-08T09:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-47", "voting-rights"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-47",
+    "voting-rights"
+  ]
 }

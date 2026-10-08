@@ -11,32 +11,131 @@
     "glance": "No irredeemable preference shares; redeem within 20 years (infrastructure exception); redeem only fully paid shares out of profits or fresh issue; capital redemption reserve when out of profits.",
     "study": "A company limited by shares cannot issue any preference shares which are irredeemable. Preference shares must be liable to be redeemed within a period not exceeding twenty years from the date of their issue; for infrastructure projects a longer period not exceeding thirty years may be prescribed with conditions. Preference shares may be redeemed only out of the profits of the company which would otherwise be available for dividend or out of the proceeds of a fresh issue of shares made for the purposes of redemption; only fully paid-up shares may be redeemed. Where shares are redeemed out of profits, a sum equal to the nominal amount of the shares redeemed must be transferred to a capital redemption reserve account. Current-law framing: confirm no irredeemable issue; check redemption period, source of funds and CRR if applicable.",
     "sections": [
-      {"heading": "No Irredeemable Preference Shares", "body": "A company limited by shares shall not issue irredeemable preference shares.", "order": 1},
-      {"heading": "Redemption Period", "body": "Preference shares must be redeemable within twenty years of issue; infrastructure projects may have a longer prescribed period up to thirty years.", "order": 2},
-      {"heading": "Source of Redemption", "body": "Redemption only out of profits available for dividend or proceeds of a fresh issue; only fully paid-up shares may be redeemed.", "order": 3},
-      {"heading": "Capital Redemption Reserve", "body": "Where redemption is out of profits, a sum equal to the nominal amount redeemed must be transferred to the capital redemption reserve account.", "order": 4}
+      {
+        "heading": "No Irredeemable Preference Shares",
+        "body": "A company limited by shares shall not issue irredeemable preference shares.",
+        "order": 1
+      },
+      {
+        "heading": "Redemption Period",
+        "body": "Preference shares must be redeemable within twenty years of issue; infrastructure projects may have a longer prescribed period up to thirty years.",
+        "order": 2
+      },
+      {
+        "heading": "Source of Redemption",
+        "body": "Redemption only out of profits available for dividend or proceeds of a fresh issue; only fully paid-up shares may be redeemed.",
+        "order": 3
+      },
+      {
+        "heading": "Capital Redemption Reserve",
+        "body": "Where redemption is out of profits, a sum equal to the nominal amount redeemed must be transferred to the capital redemption reserve account.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-55", "section": "Section 55", "title": "Issue and redemption of preference shares"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-55",
+        "section": "Section 55",
+        "title": "Issue and redemption of preference shares"
+      }
+    ],
     "examples": [
-      {"title": "Valid redeemable issue", "body": "A company issues preference shares redeemable in 15 years, to be redeemed out of profits with CRR created. Section 55 is complied with.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Irredeemable attempt", "body": "Articles purport to authorise irredeemable preference shares. Section 55 prohibits such issue.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Valid redeemable issue",
+        "body": "A company issues preference shares redeemable in 15 years, to be redeemed out of profits with CRR created. Section 55 is complied with.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Irredeemable attempt",
+        "body": "Articles purport to authorise irredeemable preference shares. Section 55 prohibits such issue.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can preference shares be perpetual under the 2013 Act?", "analysis": "No. Section 55 bans irredeemable preference shares and requires redemption within the statutory period."}
+      {
+        "question": "Can preference shares be perpetual under the 2013 Act?",
+        "analysis": "No. Section 55 bans irredeemable preference shares and requires redemption within the statutory period."
+      }
     ],
-    "distinctions": [{"id": "ca-s55-vs-s43", "title": "Redeemable preference (s. 55) vs kinds of capital (s. 43)", "left": "Issue and redemption rules for preference shares", "right": "Classification of equity vs preference", "rows": [{"point": "Focus", "left": "Redeemability and funding", "right": "Capital type"}]}],
-    "misconceptions": [{"id": "ca-s55-trap-1", "trap": "Preference shares can be made irredeemable by special resolution.", "correction": "Section 55 prohibits issue of irredeemable preference shares by a company limited by shares."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s55-vs-s43",
+        "title": "Redeemable preference (s. 55) vs kinds of capital (s. 43)",
+        "left": "Issue and redemption rules for preference shares",
+        "right": "Classification of equity vs preference",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Redeemability and funding",
+            "right": "Capital type"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s55-trap-1",
+        "trap": "Preference shares can be made irredeemable by special resolution.",
+        "correction": "Section 55 prohibits issue of irredeemable preference shares by a company limited by shares."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s55-brief", "draftingCategory": "brief", "question": "How should a Section 55 problem be analysed?", "answer": "I. Confirm company limited by shares. II. Check redeemability and period. III. Test source of funds and CRR. IV. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s55-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Issue terms; redemption period; funding source; CRR; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s55-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 55 problem be analysed?",
+        "answer": "I. Confirm company limited by shares. II. Check redeemability and period. III. Test source of funds and CRR. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s55-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Issue terms; redemption period; funding source; CRR; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 55", "Connected: Sections 43, 52"],
-    "examTips": ["No irredeemable preference shares.", "20-year rule; infrastructure exception.", "CRR when redeeming out of profits."],
-    "revisionPoints": ["No irredeemable preference shares", "Redemption period", "Source of redemption", "Capital redemption reserve"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-43", "company-ca-s-52"],
-    "illustrations": ["illustration:india:company-ca-s-55-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 55",
+      "Connected: Sections 43, 52"
+    ],
+    "examTips": [
+      "No irredeemable preference shares.",
+      "20-year rule; infrastructure exception.",
+      "CRR when redeeming out of profits."
+    ],
+    "revisionPoints": [
+      "No irredeemable preference shares",
+      "Redemption period",
+      "Source of redemption",
+      "Capital redemption reserve"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-43",
+      "company-ca-s-52"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-55",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -44,25 +143,58 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State the ban on irredeemable preference shares.", "Explain redemption period, funding and CRR rules."],
+      "learningObjectives": [
+        "State the ban on irredeemable preference shares.",
+        "Explain redemption period, funding and CRR rules."
+      ],
       "definition": "Section 55 prohibits irredeemable preference shares and regulates the period, funding and reserves for redemption of preference shares.",
       "legalPrinciple": "Preference capital must be time-limited and redeemed from permitted sources with capital maintenance through CRR where profits are used.",
       "statutoryFramework": "Companies Act, 2013, Section 55.",
-      "essentialIngredients": ["No irredeemable preference shares", "Redeemable within 20 years (or prescribed longer for infrastructure)", "Redeem fully paid shares only out of profits or fresh issue", "CRR when out of profits"],
+      "essentialIngredients": [
+        "No irredeemable preference shares",
+        "Redeemable within 20 years (or prescribed longer for infrastructure)",
+        "Redeem fully paid shares only out of profits or fresh issue",
+        "CRR when out of profits"
+      ],
       "detailedExplanation": "Section 55 is a core capital-maintenance rule for preference capital.",
-      "examples": ["Valid redeemable issue", "Irredeemable attempt"],
+      "examples": [
+        "Valid redeemable issue",
+        "Irredeemable attempt"
+      ],
       "problemApplication": "Check redeemability, period, funding and CRR.",
-      "keyTakeaways": ["No perpetual preference shares.", "20-year default period.", "CRR protects capital when redeeming from profits."],
-      "authoritativeSources": ["Companies Act, 2013, Section 55"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Redeemable preference (s. 55) vs kinds of capital (s. 43)"],
+      "keyTakeaways": [
+        "No perpetual preference shares.",
+        "20-year default period.",
+        "CRR protects capital when redeeming from profits."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 55"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Redeemable preference (s. 55) vs kinds of capital (s. 43)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Ban; period; funding; CRR; conclude.", "sixteenMark": "Introduction; ban; period; funding; CRR; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Ban; period; funding; CRR; conclude.",
+        "sixteenMark": "Introduction; ban; period; funding; CRR; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T09:20:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s55-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -72,5 +204,10 @@
   "updatedAt": "2026-10-08T09:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-55", "redeemable-preference-shares"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-55",
+    "redeemable-preference-shares"
+  ]
 }

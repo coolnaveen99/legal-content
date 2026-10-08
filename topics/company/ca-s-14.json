@@ -11,36 +11,141 @@
     "glance": "State that articles may be altered by special resolution; note the limits of the Act and memorandum; mention entrenchment and filing.",
     "study": "Subject to the provisions of the Act and the conditions in the memorandum, a company may, by special resolution, alter its articles. The alteration is valid as if originally contained in the articles. Where the articles contain entrenchment provisions, those provisions may be amended only in the manner specified for entrenchment (typically a more stringent procedure). A copy of every special resolution altering the articles, and of the altered articles, must be filed with the Registrar. Articles cannot authorise what the Act forbids or contradict the memorandum. Current-law framing: ground the analysis in s. 14 and distinguish s. 13 (memorandum alteration).",
     "sections": [
-      {"heading": "Special Resolution", "body": "Articles may be altered by special resolution of the company.", "order": 1},
-      {"heading": "Limits — Act and Memorandum", "body": "Alteration is subject to the Act and the conditions in the memorandum; articles cannot override either.", "order": 2},
-      {"heading": "Entrenchment", "body": "Entrenchment provisions require the more stringent procedure specified for their amendment.", "order": 3},
-      {"heading": "Filing", "body": "A copy of the special resolution and of the altered articles must be filed with the Registrar.", "order": 4}
+      {
+        "heading": "Special Resolution",
+        "body": "Articles may be altered by special resolution of the company.",
+        "order": 1
+      },
+      {
+        "heading": "Limits — Act and Memorandum",
+        "body": "Alteration is subject to the Act and the conditions in the memorandum; articles cannot override either.",
+        "order": 2
+      },
+      {
+        "heading": "Entrenchment",
+        "body": "Entrenchment provisions require the more stringent procedure specified for their amendment.",
+        "order": 3
+      },
+      {
+        "heading": "Filing",
+        "body": "A copy of the special resolution and of the altered articles must be filed with the Registrar.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-14", "section": "Section 14", "title": "Alteration of articles"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-14",
+        "section": "Section 14",
+        "title": "Alteration of articles"
+      }
+    ],
     "examples": [
-      {"title": "Valid articles alteration", "body": "A company passes a special resolution to change its board-meeting quorum rules in the articles and files the altered articles. Section 14 is complied with.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Conflict with memorandum", "body": "An altered article purports to expand objects beyond the memorandum. The alteration is ineffective to the extent of the conflict; s. 13 is the route for object change.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Valid articles alteration",
+        "body": "A company passes a special resolution to change its board-meeting quorum rules in the articles and files the altered articles. Section 14 is complied with.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Conflict with memorandum",
+        "body": "An altered article purports to expand objects beyond the memorandum. The alteration is ineffective to the extent of the conflict; s. 13 is the route for object change.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can articles be altered by board resolution alone?", "analysis": "No. Section 14 requires a special resolution of the company."},
-      {"question": "Can an article override a memorandum clause?", "analysis": "No. Alteration under s. 14 is subject to the memorandum; conflict is resolved in favour of the memorandum."}
+      {
+        "question": "Can articles be altered by board resolution alone?",
+        "analysis": "No. Section 14 requires a special resolution of the company."
+      },
+      {
+        "question": "Can an article override a memorandum clause?",
+        "analysis": "No. Alteration under s. 14 is subject to the memorandum; conflict is resolved in favour of the memorandum."
+      }
     ],
-    "distinctions": [{"id": "ca-s14-vs-s13", "title": "Alteration of articles (s. 14) vs memorandum (s. 13)", "left": "Internal regulations; special resolution; subject to Act and memo", "right": "Charter change; special resolution plus often CG/RD approval", "rows": [{"point": "Focus", "left": "Management rules", "right": "Name, objects, State of office"}]}],
+    "distinctions": [
+      {
+        "id": "ca-s14-vs-s13",
+        "title": "Alteration of articles (s. 14) vs memorandum (s. 13)",
+        "left": "Internal regulations; special resolution; subject to Act and memo",
+        "right": "Charter change; special resolution plus often CG/RD approval",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Management rules",
+            "right": "Name, objects, State of office"
+          }
+        ]
+      }
+    ],
     "misconceptions": [
-      {"id": "ca-s14-trap-1", "trap": "Articles can be freely rewritten without regard to the memorandum.", "correction": "Section 14 expressly subjects alteration to the Act and the memorandum."},
-      {"id": "ca-s14-trap-2", "trap": "Entrenchment can be removed by ordinary special resolution without more.", "correction": "Entrenchment provisions may be amended only in the manner specified for entrenchment."}
+      {
+        "id": "ca-s14-trap-1",
+        "trap": "Articles can be freely rewritten without regard to the memorandum.",
+        "correction": "Section 14 expressly subjects alteration to the Act and the memorandum."
+      },
+      {
+        "id": "ca-s14-trap-2",
+        "trap": "Entrenchment can be removed by ordinary special resolution without more.",
+        "correction": "Entrenchment provisions may be amended only in the manner specified for entrenchment."
+      }
     ],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; articles regulate the internal life of the incorporated person.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; articles regulate the internal life of the incorporated person.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s14-brief", "draftingCategory": "brief", "question": "How should a Section 14 problem be analysed?", "answer": "I. Confirm special resolution. II. Test against Act and memorandum. III. Check entrenchment if relevant. IV. Confirm filing. V. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s14-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Resolution status; conflict with Act/memo if any; entrenchment; filing; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s14-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 14 problem be analysed?",
+        "answer": "I. Confirm special resolution. II. Test against Act and memorandum. III. Check entrenchment if relevant. IV. Confirm filing. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s14-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Resolution status; conflict with Act/memo if any; entrenchment; filing; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 14", "Connected: Sections 5, 10, 13"],
-    "examTips": ["State special resolution clearly.", "Always check Act and memorandum limits.", "Flag entrenchment if present."],
-    "revisionPoints": ["Special resolution", "Limits — Act and memorandum", "Entrenchment", "Filing"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-5", "company-ca-s-13", "company-ca-s-10"],
-    "illustrations": ["illustration:india:company-ca-s-14-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 14",
+      "Connected: Sections 5, 10, 13"
+    ],
+    "examTips": [
+      "State special resolution clearly.",
+      "Always check Act and memorandum limits.",
+      "Flag entrenchment if present."
+    ],
+    "revisionPoints": [
+      "Special resolution",
+      "Limits — Act and memorandum",
+      "Entrenchment",
+      "Filing"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-5",
+      "company-ca-s-13",
+      "company-ca-s-10"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-14",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -48,25 +153,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State how articles may be altered under s. 14.", "Explain the limits of the Act and memorandum.", "Describe entrenchment and filing requirements."],
+      "learningObjectives": [
+        "State how articles may be altered under s. 14.",
+        "Explain the limits of the Act and memorandum.",
+        "Describe entrenchment and filing requirements."
+      ],
       "definition": "Section 14 allows alteration of articles by special resolution subject to the Act and the memorandum, with filing of the altered articles.",
       "legalPrinciple": "Articles are alterable by special resolution but cannot override the Act or the memorandum.",
       "statutoryFramework": "Companies Act, 2013, Section 14.",
-      "essentialIngredients": ["Special resolution", "Consistency with Act and memorandum", "Entrenchment procedure if applicable", "Filing with Registrar"],
+      "essentialIngredients": [
+        "Special resolution",
+        "Consistency with Act and memorandum",
+        "Entrenchment procedure if applicable",
+        "Filing with Registrar"
+      ],
       "detailedExplanation": "Section 14 is the primary route for changing the company’s internal regulations after incorporation.",
-      "examples": ["Valid articles alteration", "Conflict with memorandum"],
+      "examples": [
+        "Valid articles alteration",
+        "Conflict with memorandum"
+      ],
       "problemApplication": "Check resolution; test against Act and memo; apply entrenchment rules if any; confirm filing.",
-      "keyTakeaways": ["Special resolution required.", "Subject to Act and memorandum.", "Entrenchment has stricter rules."],
-      "authoritativeSources": ["Companies Act, 2013, Section 14"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Alteration of articles (s. 14) vs memorandum (s. 13)"],
+      "keyTakeaways": [
+        "Special resolution required.",
+        "Subject to Act and memorandum.",
+        "Entrenchment has stricter rules."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 14"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Alteration of articles (s. 14) vs memorandum (s. 13)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Special resolution; limits; filing; conclude.", "sixteenMark": "Introduction; power to alter; limits; entrenchment; filing; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Special resolution; limits; filing; conclude.",
+        "sixteenMark": "Introduction; power to alter; limits; entrenchment; filing; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T08:15:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s14-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -76,5 +215,10 @@
   "updatedAt": "2026-10-08T08:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-14", "alteration-of-articles"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-14",
+    "alteration-of-articles"
+  ]
 }

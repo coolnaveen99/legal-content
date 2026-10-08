@@ -11,31 +11,125 @@
     "glance": "If securities were allotted or agreed to be allotted with a view to public offer for sale, the public offer document is deemed a prospectus.",
     "study": "Where a company allots or agrees to allot securities with a view to those securities being offered for sale to the public, any document by which the offer for sale is made is deemed to be a prospectus issued by the company. Prospectus enactments and rules apply with the statutory adaptations. There is a rebuttable presumption that an allotment or agreement to allot within a prescribed period before the offer was made with a view to public sale. Current-law framing: identify allotment with a view to public sale; treat the offer document as a prospectus; apply s. 26 and related duties.",
     "sections": [
-      {"heading": "Deeming Rule", "body": "A document offering for sale to the public securities allotted or agreed to be allotted with a view to public sale is deemed a prospectus.", "order": 1},
-      {"heading": "Application of Prospectus Law", "body": "Prospectus enactments and rules apply with the statutory modifications.", "order": 2},
-      {"heading": "Presumption", "body": "Allotment or agreement to allot within the prescribed period before the offer is presumed to have been with a view to public sale, subject to proof to the contrary.", "order": 3}
+      {
+        "heading": "Deeming Rule",
+        "body": "A document offering for sale to the public securities allotted or agreed to be allotted with a view to public sale is deemed a prospectus.",
+        "order": 1
+      },
+      {
+        "heading": "Application of Prospectus Law",
+        "body": "Prospectus enactments and rules apply with the statutory modifications.",
+        "order": 2
+      },
+      {
+        "heading": "Presumption",
+        "body": "Allotment or agreement to allot within the prescribed period before the offer is presumed to have been with a view to public sale, subject to proof to the contrary.",
+        "order": 3
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-25", "section": "Section 25", "title": "Document containing offer of securities for sale to be deemed prospectus"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-25",
+        "section": "Section 25",
+        "title": "Document containing offer of securities for sale to be deemed prospectus"
+      }
+    ],
     "examples": [
-      {"title": "Offer for sale after allotment", "body": "A company allots shares to an intermediary who immediately offers them to the public. The offer document is deemed a prospectus under s. 25.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Rebutting the presumption", "body": "Allotment occurred long before any public offer for an independent purpose. The presumption may be rebutted on the facts.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Offer for sale after allotment",
+        "body": "A company allots shares to an intermediary who immediately offers them to the public. The offer document is deemed a prospectus under s. 25.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Rebutting the presumption",
+        "body": "Allotment occurred long before any public offer for an independent purpose. The presumption may be rebutted on the facts.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can a company avoid prospectus rules by allotting to a middleman who then sells to the public?", "analysis": "No. Section 25 deems the offer-for-sale document a prospectus where the allotment was with a view to public sale."}
+      {
+        "question": "Can a company avoid prospectus rules by allotting to a middleman who then sells to the public?",
+        "analysis": "No. Section 25 deems the offer-for-sale document a prospectus where the allotment was with a view to public sale."
+      }
     ],
-    "distinctions": [{"id": "ca-s25-vs-s26", "title": "Deemed prospectus (s. 25) vs content of prospectus (s. 26)", "left": "When an offer-for-sale document is treated as a prospectus", "right": "What a prospectus must contain", "rows": [{"point": "Focus", "left": "Characterisation", "right": "Disclosure content"}]}],
-    "misconceptions": [{"id": "ca-s25-trap-1", "trap": "Only a document formally labelled prospectus attracts prospectus law.", "correction": "Section 25 deems certain offer-for-sale documents to be prospectuses regardless of label."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s25-vs-s26",
+        "title": "Deemed prospectus (s. 25) vs content of prospectus (s. 26)",
+        "left": "When an offer-for-sale document is treated as a prospectus",
+        "right": "What a prospectus must contain",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Characterisation",
+            "right": "Disclosure content"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s25-trap-1",
+        "trap": "Only a document formally labelled prospectus attracts prospectus law.",
+        "correction": "Section 25 deems certain offer-for-sale documents to be prospectuses regardless of label."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s25-brief", "draftingCategory": "brief", "question": "How should a Section 25 problem be analysed?", "answer": "I. Identify allotment with a view to public sale. II. Apply the deeming rule. III. Apply prospectus duties. IV. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s25-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Allotment facts; view to public sale; deeming; prospectus compliance; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s25-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 25 problem be analysed?",
+        "answer": "I. Identify allotment with a view to public sale. II. Apply the deeming rule. III. Apply prospectus duties. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s25-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Allotment facts; view to public sale; deeming; prospectus compliance; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 25", "Connected: Sections 26, 23"],
-    "examTips": ["State the deeming rule.", "Note the presumption.", "Link to s. 26."],
-    "revisionPoints": ["Deeming rule", "Application of prospectus law", "Presumption"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-26", "company-ca-s-23"],
-    "illustrations": ["illustration:india:company-ca-s-25-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 25",
+      "Connected: Sections 26, 23"
+    ],
+    "examTips": [
+      "State the deeming rule.",
+      "Note the presumption.",
+      "Link to s. 26."
+    ],
+    "revisionPoints": [
+      "Deeming rule",
+      "Application of prospectus law",
+      "Presumption"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-26",
+      "company-ca-s-23"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-25",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -43,25 +137,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State when an offer-for-sale document is deemed a prospectus.", "Explain the presumption.", "Link s. 25 to prospectus disclosure duties."],
+      "learningObjectives": [
+        "State when an offer-for-sale document is deemed a prospectus.",
+        "Explain the presumption.",
+        "Link s. 25 to prospectus disclosure duties."
+      ],
       "definition": "Section 25 treats a document used to offer to the public securities allotted or agreed to be allotted with a view to public sale as a prospectus.",
       "legalPrinciple": "Offer-for-sale structures cannot avoid prospectus obligations where allotment was with a view to public sale.",
       "statutoryFramework": "Companies Act, 2013, Section 25.",
-      "essentialIngredients": ["Allotment or agreement to allot", "With a view to public sale", "Document offering to the public", "Deemed prospectus"],
+      "essentialIngredients": [
+        "Allotment or agreement to allot",
+        "With a view to public sale",
+        "Document offering to the public",
+        "Deemed prospectus"
+      ],
       "detailedExplanation": "Section 25 closes a classic avoidance route around prospectus regulation.",
-      "examples": ["Offer for sale after allotment", "Rebutting the presumption"],
+      "examples": [
+        "Offer for sale after allotment",
+        "Rebutting the presumption"
+      ],
       "problemApplication": "Prove view to public sale; apply deeming; then apply prospectus rules.",
-      "keyTakeaways": ["Offer-for-sale document can be a deemed prospectus.", "Presumption applies to recent allotments.", "Prospectus law then applies."],
-      "authoritativeSources": ["Companies Act, 2013, Section 25"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Deemed prospectus (s. 25) vs content of prospectus (s. 26)"],
+      "keyTakeaways": [
+        "Offer-for-sale document can be a deemed prospectus.",
+        "Presumption applies to recent allotments.",
+        "Prospectus law then applies."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 25"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Deemed prospectus (s. 25) vs content of prospectus (s. 26)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Deeming rule; presumption; conclude.", "sixteenMark": "Introduction; deeming; presumption; link to s. 26; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Deeming rule; presumption; conclude.",
+        "sixteenMark": "Introduction; deeming; presumption; link to s. 26; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T08:45:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s25-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -71,5 +199,10 @@
   "updatedAt": "2026-10-08T08:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-25", "deemed-prospectus"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-25",
+    "deemed-prospectus"
+  ]
 }

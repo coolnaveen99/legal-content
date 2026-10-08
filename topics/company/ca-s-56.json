@@ -11,32 +11,131 @@
     "glance": "Proper instrument of transfer required for registration; transmission by operation of law without instrument; certificate delivery timelines; penalties for default.",
     "study": "A company shall not register a transfer of securities of the company unless a proper instrument of transfer, in such form as may be prescribed, duly stamped, dated and executed by or on behalf of the transferor and the transferee and specifying the name, address and occupation (if any) of the transferee, has been delivered to the company by the transferor or the transferee within a period of sixty days from the date of execution, along with the certificate relating to the securities. Where the instrument is lost or not delivered within time, the company may register on such terms as to indemnity as the Board may think fit. Nothing in the section prejudices transmission of securities by operation of law. The company must deliver certificates of securities allotted or transferred within prescribed periods. Current-law framing: identify transfer vs transmission; for transfer, test instrument, stamping, delivery and certificate; for transmission, apply operation-of-law route.",
     "sections": [
-      {"heading": "Transfer — Instrument", "body": "Registration of transfer requires a proper prescribed instrument, duly stamped, dated and executed by transferor and transferee, delivered with the certificate within the prescribed period.", "order": 1},
-      {"heading": "Lost Instrument / Late Delivery", "body": "Board may register on indemnity terms where the instrument is lost or not delivered in time.", "order": 2},
-      {"heading": "Transmission", "body": "Transmission by operation of law (e.g. death, insolvency) does not require an instrument of transfer.", "order": 3},
-      {"heading": "Certificate Delivery", "body": "Certificates must be delivered within the statutory periods after allotment or transfer; default attracts penalty.", "order": 4}
+      {
+        "heading": "Transfer — Instrument",
+        "body": "Registration of transfer requires a proper prescribed instrument, duly stamped, dated and executed by transferor and transferee, delivered with the certificate within the prescribed period.",
+        "order": 1
+      },
+      {
+        "heading": "Lost Instrument / Late Delivery",
+        "body": "Board may register on indemnity terms where the instrument is lost or not delivered in time.",
+        "order": 2
+      },
+      {
+        "heading": "Transmission",
+        "body": "Transmission by operation of law (e.g. death, insolvency) does not require an instrument of transfer.",
+        "order": 3
+      },
+      {
+        "heading": "Certificate Delivery",
+        "body": "Certificates must be delivered within the statutory periods after allotment or transfer; default attracts penalty.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-56", "section": "Section 56", "title": "Transfer and transmission of securities"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-56",
+        "section": "Section 56",
+        "title": "Transfer and transmission of securities"
+      }
+    ],
     "examples": [
-      {"title": "Valid transfer", "body": "A duly stamped and executed transfer form is delivered with the share certificate within sixty days. The company may register the transfer under s. 56.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Transmission on death", "body": "On the death of a member, the legal representative seeks registration by transmission. No instrument of transfer is required under s. 56.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Valid transfer",
+        "body": "A duly stamped and executed transfer form is delivered with the share certificate within sixty days. The company may register the transfer under s. 56.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Transmission on death",
+        "body": "On the death of a member, the legal representative seeks registration by transmission. No instrument of transfer is required under s. 56.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Is an oral agreement enough to compel registration of a share transfer?", "analysis": "No. Section 56 requires a proper instrument of transfer in the prescribed form, duly stamped and executed, delivered with the certificate (subject to indemnity for loss)."}
+      {
+        "question": "Is an oral agreement enough to compel registration of a share transfer?",
+        "analysis": "No. Section 56 requires a proper instrument of transfer in the prescribed form, duly stamped and executed, delivered with the certificate (subject to indemnity for loss)."
+      }
     ],
-    "distinctions": [{"id": "ca-s56-vs-s58", "title": "Transfer/transmission (s. 56) vs refusal of registration (s. 58)", "left": "How transfer/transmission is effected", "right": "When registration may be refused and Tribunal appeal", "rows": [{"point": "Focus", "left": "Procedure", "right": "Refusal and remedy"}]}],
-    "misconceptions": [{"id": "ca-s56-trap-1", "trap": "Transmission also needs a transfer form.", "correction": "Section 56 expressly preserves transmission by operation of law without an instrument of transfer."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s56-vs-s58",
+        "title": "Transfer/transmission (s. 56) vs refusal of registration (s. 58)",
+        "left": "How transfer/transmission is effected",
+        "right": "When registration may be refused and Tribunal appeal",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Procedure",
+            "right": "Refusal and remedy"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s56-trap-1",
+        "trap": "Transmission also needs a transfer form.",
+        "correction": "Section 56 expressly preserves transmission by operation of law without an instrument of transfer."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s56-brief", "draftingCategory": "brief", "question": "How should a Section 56 problem be analysed?", "answer": "I. Classify transfer or transmission. II. For transfer, test instrument, stamp, delivery, certificate. III. For transmission, apply operation of law. IV. Check certificate timelines. V. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s56-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Instrument or transmission facts; timelines; certificate delivery; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s56-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 56 problem be analysed?",
+        "answer": "I. Classify transfer or transmission. II. For transfer, test instrument, stamp, delivery, certificate. III. For transmission, apply operation of law. IV. Check certificate timelines. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s56-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Instrument or transmission facts; timelines; certificate delivery; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 56", "Connected: Sections 44, 58, 59"],
-    "examTips": ["Separate transfer from transmission.", "List instrument requirements.", "Note certificate delivery timelines."],
-    "revisionPoints": ["Transfer — instrument", "Lost instrument / indemnity", "Transmission", "Certificate delivery"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-44", "company-ca-s-58"],
-    "illustrations": ["illustration:india:company-ca-s-56-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 56",
+      "Connected: Sections 44, 58, 59"
+    ],
+    "examTips": [
+      "Separate transfer from transmission.",
+      "List instrument requirements.",
+      "Note certificate delivery timelines."
+    ],
+    "revisionPoints": [
+      "Transfer — instrument",
+      "Lost instrument / indemnity",
+      "Transmission",
+      "Certificate delivery"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-44",
+      "company-ca-s-58"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-56",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -44,25 +143,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State the instrument requirements for transfer under s. 56.", "Distinguish transmission by operation of law.", "State certificate delivery obligations."],
+      "learningObjectives": [
+        "State the instrument requirements for transfer under s. 56.",
+        "Distinguish transmission by operation of law.",
+        "State certificate delivery obligations."
+      ],
       "definition": "Section 56 regulates registration of transfers of securities through a proper instrument and recognises transmission by operation of law without an instrument.",
       "legalPrinciple": "Title against the company for a voluntary transfer depends on compliance with the statutory instrument and delivery rules; transmission follows law without a transfer form.",
       "statutoryFramework": "Companies Act, 2013, Section 56.",
-      "essentialIngredients": ["Proper instrument of transfer (prescribed form, stamped, executed)", "Delivery with certificate within prescribed period", "Transmission without instrument by operation of law", "Certificate delivery timelines"],
+      "essentialIngredients": [
+        "Proper instrument of transfer (prescribed form, stamped, executed)",
+        "Delivery with certificate within prescribed period",
+        "Transmission without instrument by operation of law",
+        "Certificate delivery timelines"
+      ],
       "detailedExplanation": "Section 56 is the principal procedural rule for transfer and transmission of securities.",
-      "examples": ["Valid transfer", "Transmission on death"],
+      "examples": [
+        "Valid transfer",
+        "Transmission on death"
+      ],
       "problemApplication": "Classify route; test instrument or transmission; check timelines.",
-      "keyTakeaways": ["Instrument for transfer.", "No instrument for transmission.", "Certificate delivery is time-bound."],
-      "authoritativeSources": ["Companies Act, 2013, Section 56"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Transfer/transmission (s. 56) vs refusal of registration (s. 58)"],
+      "keyTakeaways": [
+        "Instrument for transfer.",
+        "No instrument for transmission.",
+        "Certificate delivery is time-bound."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 56"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Transfer/transmission (s. 56) vs refusal of registration (s. 58)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Transfer requirements; transmission; conclude.", "sixteenMark": "Introduction; transfer; transmission; certificates; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Transfer requirements; transmission; conclude.",
+        "sixteenMark": "Introduction; transfer; transmission; certificates; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T09:20:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s56-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -72,5 +205,10 @@
   "updatedAt": "2026-10-08T09:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-56", "transfer-transmission"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-56",
+    "transfer-transmission"
+  ]
 }

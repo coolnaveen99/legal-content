@@ -11,32 +11,130 @@
     "glance": "List disclosure heads; note dating, signing and ROC filing; flag SEBI overlay for listed issues.",
     "study": "A prospectus must be dated and signed and must state the information and reports specified by the section and the rules. A signed copy must be filed with the Registrar for registration before the prospectus is issued. SEBI regulations apply in addition where securities are listed or proposed to be listed. Current-law framing: treat s. 26 as the core disclosure statute for public offers under the Companies Act, read with SEBI where applicable.",
     "sections": [
-      {"heading": "Statutory Content", "body": "The prospectus must contain the matters and reports prescribed by the section and rules.", "order": 1},
-      {"heading": "Dating and Signing", "body": "The prospectus must be dated and signed by the persons named as directors or proposed directors.", "order": 2},
-      {"heading": "Filing with Registrar", "body": "A signed copy must be delivered to the Registrar for registration before the prospectus is issued.", "order": 3},
-      {"heading": "SEBI Overlay", "body": "Listed and intending-to-list issues must also satisfy SEBI disclosure regulations.", "order": 4}
+      {
+        "heading": "Statutory Content",
+        "body": "The prospectus must contain the matters and reports prescribed by the section and rules.",
+        "order": 1
+      },
+      {
+        "heading": "Dating and Signing",
+        "body": "The prospectus must be dated and signed by the persons named as directors or proposed directors.",
+        "order": 2
+      },
+      {
+        "heading": "Filing with Registrar",
+        "body": "A signed copy must be delivered to the Registrar for registration before the prospectus is issued.",
+        "order": 3
+      },
+      {
+        "heading": "SEBI Overlay",
+        "body": "Listed and intending-to-list issues must also satisfy SEBI disclosure regulations.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-26", "section": "Section 26", "title": "Matters to be stated in prospectus"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-26",
+        "section": "Section 26",
+        "title": "Matters to be stated in prospectus"
+      }
+    ],
     "examples": [
-      {"title": "Compliant prospectus", "body": "A public company dates and signs its prospectus, includes prescribed disclosures, and files a signed copy with the ROC before issue.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Issue without filing", "body": "A prospectus is circulated without prior delivery of a signed copy to the Registrar. Section 26 is breached.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Compliant prospectus",
+        "body": "A public company dates and signs its prospectus, includes prescribed disclosures, and files a signed copy with the ROC before issue.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Issue without filing",
+        "body": "A prospectus is circulated without prior delivery of a signed copy to the Registrar. Section 26 is breached.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Is dating alone enough?", "analysis": "No. Section 26 also requires prescribed content, signing and ROC filing before issue."}
+      {
+        "question": "Is dating alone enough?",
+        "analysis": "No. Section 26 also requires prescribed content, signing and ROC filing before issue."
+      }
     ],
-    "distinctions": [{"id": "ca-s26-vs-s25", "title": "Content of prospectus (s. 26) vs deemed prospectus (s. 25)", "left": "What must be stated and filed", "right": "When an offer-for-sale document is treated as a prospectus", "rows": [{"point": "Focus", "left": "Disclosure and form", "right": "Characterisation"}]}],
-    "misconceptions": [{"id": "ca-s26-trap-1", "trap": "A short advertisement is always enough without a full prospectus.", "correction": "Public offers require a prospectus meeting s. 26 requirements, subject only to specific statutory exceptions."}],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; background only.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "distinctions": [
+      {
+        "id": "ca-s26-vs-s25",
+        "title": "Content of prospectus (s. 26) vs deemed prospectus (s. 25)",
+        "left": "What must be stated and filed",
+        "right": "When an offer-for-sale document is treated as a prospectus",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Disclosure and form",
+            "right": "Characterisation"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s26-trap-1",
+        "trap": "A short advertisement is always enough without a full prospectus.",
+        "correction": "Public offers require a prospectus meeting s. 26 requirements, subject only to specific statutory exceptions."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s26-brief", "draftingCategory": "brief", "question": "How should a Section 26 problem be analysed?", "answer": "I. Identify the prospectus. II. Check content, dating, signing and ROC filing. III. Apply SEBI if listing involved. IV. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s26-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Disclosure checklist; formality compliance; SEBI status; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s26-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 26 problem be analysed?",
+        "answer": "I. Identify the prospectus. II. Check content, dating, signing and ROC filing. III. Apply SEBI if listing involved. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s26-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Disclosure checklist; formality compliance; SEBI status; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 26", "SEBI ICDR where applicable"],
-    "examTips": ["List formality and content separately.", "Always mention ROC filing before issue."],
-    "revisionPoints": ["Statutory content", "Dating and signing", "Filing with Registrar", "SEBI overlay"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-25", "company-ca-s-23"],
-    "illustrations": ["illustration:india:company-ca-s-26-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 26",
+      "SEBI ICDR where applicable"
+    ],
+    "examTips": [
+      "List formality and content separately.",
+      "Always mention ROC filing before issue."
+    ],
+    "revisionPoints": [
+      "Statutory content",
+      "Dating and signing",
+      "Filing with Registrar",
+      "SEBI overlay"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-25",
+      "company-ca-s-23"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-26",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -44,25 +142,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State the content and form requirements under s. 26.", "Explain ROC filing before issue.", "Apply the SEBI overlay where relevant."],
+      "learningObjectives": [
+        "State the content and form requirements under s. 26.",
+        "Explain ROC filing before issue.",
+        "Apply the SEBI overlay where relevant."
+      ],
       "definition": "Section 26 prescribes the statutory content and formal requirements of a prospectus issued by or on behalf of a public company.",
       "legalPrinciple": "A prospectus is a regulated disclosure document that must be dated, signed, filed and complete as prescribed before issue.",
       "statutoryFramework": "Companies Act, 2013, Section 26.",
-      "essentialIngredients": ["Prescribed disclosures", "Dated and signed", "Signed copy filed with ROC", "SEBI where listing involved"],
+      "essentialIngredients": [
+        "Prescribed disclosures",
+        "Dated and signed",
+        "Signed copy filed with ROC",
+        "SEBI where listing involved"
+      ],
       "detailedExplanation": "Section 26 is the core Companies Act disclosure statute for public offers.",
-      "examples": ["Compliant prospectus", "Issue without filing"],
+      "examples": [
+        "Compliant prospectus",
+        "Issue without filing"
+      ],
       "problemApplication": "Checklist content and formalities; test filing.",
-      "keyTakeaways": ["Content + date + sign + file.", "No issue before ROC delivery.", "SEBI adds, does not replace, s. 26."],
-      "authoritativeSources": ["Companies Act, 2013, Section 26"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Content of prospectus (s. 26) vs deemed prospectus (s. 25)"],
+      "keyTakeaways": [
+        "Content + date + sign + file.",
+        "No issue before ROC delivery.",
+        "SEBI adds, does not replace, s. 26."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 26"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Content of prospectus (s. 26) vs deemed prospectus (s. 25)"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Content; formalities; filing; conclude.", "sixteenMark": "Introduction; content; date/sign; filing; SEBI; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Content; formalities; filing; conclude.",
+        "sixteenMark": "Introduction; content; date/sign; filing; SEBI; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T08:45:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s26-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -72,5 +204,10 @@
   "updatedAt": "2026-10-08T08:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-26", "prospectus-content"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-26",
+    "prospectus-content"
+  ]
 }

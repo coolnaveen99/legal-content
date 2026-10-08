@@ -11,36 +11,142 @@
     "glance": "State that articles must be registered; note Table F default; explain that articles regulate internal management and bind the company and members.",
     "study": "The articles of association regulate the internal management of the company. Section 5 requires that the articles be registered with the memorandum. A company may adopt the model articles in Table F (or other prescribed tables for different company types) or register its own articles. Articles may contain regulations for management and matters incidental thereto. Entrenchment provisions may be included subject to the statutory conditions. The articles bind the company and the members as if they were signed by each member and contained covenants to observe them. Current-law framing: ground the analysis in s. 5 and distinguish articles from the memorandum under s. 4.",
     "sections": [
-      {"heading": "Registration with Memorandum", "body": "Articles must be filed and registered with the memorandum under the incorporation process.", "order": 1},
-      {"heading": "Model Articles (Table F)", "body": "A company may adopt the model articles in the applicable Table or register custom articles.", "order": 2},
-      {"heading": "Internal Management", "body": "Articles regulate meetings, directors, shares, dividends and other internal matters.", "order": 3},
-      {"heading": "Binding Effect", "body": "Articles bind the company and members as contractual covenants inter se.", "order": 4}
+      {
+        "heading": "Registration with Memorandum",
+        "body": "Articles must be filed and registered with the memorandum under the incorporation process.",
+        "order": 1
+      },
+      {
+        "heading": "Model Articles (Table F)",
+        "body": "A company may adopt the model articles in the applicable Table or register custom articles.",
+        "order": 2
+      },
+      {
+        "heading": "Internal Management",
+        "body": "Articles regulate meetings, directors, shares, dividends and other internal matters.",
+        "order": 3
+      },
+      {
+        "heading": "Binding Effect",
+        "body": "Articles bind the company and members as contractual covenants inter se.",
+        "order": 4
+      }
     ],
-    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-5", "section": "Section 5", "title": "Articles"}],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-5",
+        "section": "Section 5",
+        "title": "Articles"
+      }
+    ],
     "examples": [
-      {"title": "Adoption of Table F", "body": "A private company adopts Table F without modification. Section 5 is satisfied.", "kind": "hypothetical", "inventedCase": false},
-      {"title": "Conflict with memorandum", "body": "An article conflicts with a mandatory memorandum clause. The memorandum prevails on the conflict.", "kind": "hypothetical", "inventedCase": false}
+      {
+        "title": "Adoption of Table F",
+        "body": "A private company adopts Table F without modification. Section 5 is satisfied.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Conflict with memorandum",
+        "body": "An article conflicts with a mandatory memorandum clause. The memorandum prevails on the conflict.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
     ],
     "hypotheticals": [
-      {"question": "Can articles override the memorandum?", "analysis": "No. The memorandum is the charter; articles regulate internal management and cannot contradict the memorandum on fundamental matters."},
-      {"question": "Are articles binding on outsiders?", "analysis": "Articles primarily bind the company and members inter se; outsider rights depend on separate contract or statutory provision."}
+      {
+        "question": "Can articles override the memorandum?",
+        "analysis": "No. The memorandum is the charter; articles regulate internal management and cannot contradict the memorandum on fundamental matters."
+      },
+      {
+        "question": "Are articles binding on outsiders?",
+        "analysis": "Articles primarily bind the company and members inter se; outsider rights depend on separate contract or statutory provision."
+      }
     ],
-    "distinctions": [{"id": "ca-s5-articles-vs-memo", "title": "Articles vs memorandum", "left": "Internal management regulations", "right": "Charter: name, objects, liability, capital", "rows": [{"point": "Focus", "left": "Internal governance", "right": "External identity and capacity"}]}],
+    "distinctions": [
+      {
+        "id": "ca-s5-articles-vs-memo",
+        "title": "Articles vs memorandum",
+        "left": "Internal management regulations",
+        "right": "Charter: name, objects, liability, capital",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Internal governance",
+            "right": "External identity and capacity"
+          }
+        ]
+      }
+    ],
     "misconceptions": [
-      {"id": "ca-s5-trap-1", "trap": "Articles and memorandum are the same document.", "correction": "They serve different functions under ss. 4 and 5."},
-      {"id": "ca-s5-trap-2", "trap": "Custom articles are mandatory.", "correction": "A company may adopt the prescribed model tables."}
+      {
+        "id": "ca-s5-trap-1",
+        "trap": "Articles and memorandum are the same document.",
+        "correction": "They serve different functions under ss. 4 and 5."
+      },
+      {
+        "id": "ca-s5-trap-2",
+        "trap": "Custom articles are mandatory.",
+        "correction": "A company may adopt the prescribed model tables."
+      }
     ],
-    "cases": [{"name": "Salomon v. A. Salomon & Co. Ltd.", "year": 1897, "citation": "[1897] AC 22", "court": "House of Lords", "facts": "Properly incorporated company challenged as indistinct from controller.", "issue": "Effect of incorporation?", "ratioDecidendi": "Registered company is a separate legal person.", "holding": "Separate personality affirmed.", "relevance": "Already in file; articles form part of the incorporation package.", "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"}],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; articles form part of the incorporation package.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
     "questionsAndAnswers": [
-      {"id": "ca-s5-brief", "draftingCategory": "brief", "question": "How should a Section 5 problem be analysed?", "answer": "I. State the role of articles. II. Note registration and Table F option. III. Distinguish memorandum. IV. State binding effect. V. Conclude.", "explanation": "IRAC."},
-      {"id": "ca-s5-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Articles content; model vs custom; conflict with memorandum if any; binding effect; precise relief.", "explanation": "Submissions."}
+      {
+        "id": "ca-s5-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 5 problem be analysed?",
+        "answer": "I. State the role of articles. II. Note registration and Table F option. III. Distinguish memorandum. IV. State binding effect. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s5-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Articles content; model vs custom; conflict with memorandum if any; binding effect; precise relief.",
+        "explanation": "Submissions."
+      }
     ],
-    "bareActPointers": ["Companies Act, 2013 — Section 5", "Table F / prescribed model articles", "Connected: ss. 4, 7, 10"],
-    "examTips": ["Distinguish articles from memorandum.", "Mention Table F option.", "State the binding inter se effect."],
-    "revisionPoints": ["Registration with memorandum", "Table F", "Internal management", "Binding effect"],
-    "relatedJudgments": ["judgment:india:salomon-v-a-salomon-and-co-ltd-1897"],
-    "relatedTopics": ["company-ca-s-4", "company-ca-s-7", "company-ca-s-10"],
-    "illustrations": ["illustration:india:company-ca-s-5-example"],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 5",
+      "Table F / prescribed model articles",
+      "Connected: ss. 4, 7, 10"
+    ],
+    "examTips": [
+      "Distinguish articles from memorandum.",
+      "Mention Table F option.",
+      "State the binding inter se effect."
+    ],
+    "revisionPoints": [
+      "Registration with memorandum",
+      "Table F",
+      "Internal management",
+      "Binding effect"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-4",
+      "company-ca-s-7",
+      "company-ca-s-10"
+    ],
+    "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-5",
     "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
@@ -48,25 +154,59 @@
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": ["State the function of articles under s. 5.", "Distinguish articles from memorandum.", "Explain the Table F option and binding effect."],
+      "learningObjectives": [
+        "State the function of articles under s. 5.",
+        "Distinguish articles from memorandum.",
+        "Explain the Table F option and binding effect."
+      ],
       "definition": "Section 5 governs the articles of association as the internal management document registered with the memorandum.",
       "legalPrinciple": "Articles regulate internal management, may adopt model tables, and bind the company and members inter se.",
       "statutoryFramework": "Companies Act, 2013, Section 5.",
-      "essentialIngredients": ["Articles registered", "Model or custom content", "Internal management scope", "Binding effect"],
+      "essentialIngredients": [
+        "Articles registered",
+        "Model or custom content",
+        "Internal management scope",
+        "Binding effect"
+      ],
       "detailedExplanation": "Articles complete the constitutional package begun by the memorandum.",
-      "examples": ["Adoption of Table F", "Conflict with memorandum"],
+      "examples": [
+        "Adoption of Table F",
+        "Conflict with memorandum"
+      ],
       "problemApplication": "Identify articles content; test against memorandum; state inter se effect.",
-      "keyTakeaways": ["Articles = internal management.", "Table F available.", "Bind company and members."],
-      "authoritativeSources": ["Companies Act, 2013, Section 5"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
-      "distinctions": ["Articles vs memorandum"],
+      "keyTakeaways": [
+        "Articles = internal management.",
+        "Table F available.",
+        "Bind company and members."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 5"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Articles vs memorandum"
+      ],
       "distinctionsGate": "drawn",
-      "caseLaw": ["Salomon v. A. Salomon & Co. Ltd."],
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
       "caseLawGate": "verification_required",
-      "examAnswerStructure": {"tenMark": "Role of articles; Table F; binding effect; conclude.", "sixteenMark": "Introduction; content and registration; model articles; memorandum distinction; binding effect; application; conclusion."},
+      "examAnswerStructure": {
+        "tenMark": "Role of articles; Table F; binding effect; conclude.",
+        "sixteenMark": "Introduction; content and registration; model articles; memorandum distinction; binding effect; application; conclusion."
+      },
       "lastBotRunAt": "2026-10-08T07:55:00.000Z",
       "bot": "manual-quality-remediation",
-      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
       "sourceFingerprint": "ca-s5-2026-10-08",
       "exampleQuality": "topic-specific-v1"
     },
@@ -76,5 +216,10 @@
   "updatedAt": "2026-10-08T07:55:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": ["company", "companies-act-2013", "section-5", "articles"]
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-5",
+    "articles"
+  ]
 }
