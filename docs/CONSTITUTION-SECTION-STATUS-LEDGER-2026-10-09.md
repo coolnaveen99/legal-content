@@ -14,5 +14,5 @@
 
 ## P3 progress
 
-**Done:** 52, 53, 54, 55, 56, 74, 75, 76, 124  
-**Pending:** 57–73, 77–78, 125–147 (living; 124A–C omitted/struck already in P0)
+**Done:** 52–65, 72–78, 124–134, 136  
+**Pending:** 66–71, 135, 137–147 (and any residual living structural)
