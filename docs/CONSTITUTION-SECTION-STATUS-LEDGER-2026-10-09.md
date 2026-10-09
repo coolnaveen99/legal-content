@@ -7,8 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P10** | Omitted through Tribunals & Official Language | **COMPLETE** |
-| **P11** | Finance, Property & Trade (265, 300A, 301–307) | **COMPLETE** |
+| **P0–P11** | Core Parts through Finance/Trade/Property | **COMPLETE** |
+| **P12** | Residual institutional (51A, CAG 148–151, FC 280) | **COMPLETE** |
 
-## P11 progress
-Done: 265, 300A, 301–305, 307.
+## P12 progress
+Done: 51A, 148–151, 280.
