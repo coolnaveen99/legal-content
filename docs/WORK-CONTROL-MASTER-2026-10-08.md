@@ -74,3 +74,16 @@ Topic/section range: ca-s-64, 65, 69, 70, 72, 74, 75, 76, 78, 79, 80, 82, 86, 87
 Current status: IN_PROGRESS — not COMPLETE_LOCKED
 Latest evidence: docs/COMPANY-LAW-BATCH-2-2026-10-09.md
 Missing gate: 384 scaffolds, case-law verification, India Code source attachment, SEO and production
+
+
+## Company Law source-and-illustration claim — 2026-10-09
+Subject: Company Law
+Topic/section range: ca-s-104 and ca-s-105 only
+Current main commit at claim: cc15b04eeaa1f46ed9c504977f2af609439655bf
+Current status: AVAILABLE → CLAIMED; not COMPLETE_LOCKED
+Current owner: current assistant batch
+Latest evidence: docs/batches/company-law-task-inventory-2026-10-09.json; entries ca-s-104 and ca-s-105 have bot=null and verification=null; current topic files remain generic scaffold content.
+Missing gate: topic-specific statutory-source attachment and separately labelled educational illustration entities; statutory text/current-law verification remains open.
+Planned change: attach verified official India Code section URLs, add two clearly educational illustration entities for each section, and link them from the canonical topic JSON. Do not mark verified/published or close case-law/SEO/production gates.
+Validation: JSON parse and repository validator to be checked after changes.
+Evidence/commit: pending.
