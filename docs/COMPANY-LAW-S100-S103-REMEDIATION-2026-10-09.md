@@ -105,3 +105,12 @@ Section 101’s study and app mirror now include a distinct Rule 18 checklist fo
 - App mirror section 101 commit: `c26c6a9337f0cfd00709f5aef73fbdda60c549a1`.
 - **Qualification:** the rule source is a secondary statutory reproduction, not Gazette-primary. The record explicitly leaves current official Gazette/amendment verification open.
 - Section 101 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. This update does not certify all rules, exemptions, case law, build/E2E, SEO or production.
+
+
+## Private-company meeting-exemption follow-up — sections 102–103 (2026-10-09)
+
+- Added official MCA source record `sources/companies-act-2013-private-company-meeting-exemptions.json` for the section 462 private-company meeting modifications: G.S.R. 464(E), 5 June 2015, read with G.S.R. 583(E), 13 June 2017 and corrigendum S.O. 2218(E), 13 July 2017.
+- Sections 102 and 103 now explain that the notification modifies the application of sections 101–107 to private companies unless otherwise specified in the section or the articles provide otherwise, but that the section 462 modification applies only to private companies without a default in filing financial statements under section 137 or annual returns under section 92. Company-specific eligibility, current notification text and articles must be checked before relying on the modification. This is distinct from the OPC disapplication under section 122(1).
+- Official MCA source URLs: https://www.mca.gov.in/Ministry/pdf/ExemptionPrivateCompanies.pdf and https://www.mca.gov.in/Ministry/pdf/Exemptions_to_private_companies_05062015.pdf. Source remains `review`; this does not constitute final legal sign-off.
+- Canonical section 102: `dd1ab2c3b0d2a3d1909c317092a82b40fdd1640b`; section 103: `44f73b7a90ce27ef202e746f5d9ebd2381c15500`. App mirror commits and post-write focused validation are to be recorded after completion.
+- Both topics remain `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Full repository validator, app build/E2E, independent case-law review, SEO and production gates remain open.
