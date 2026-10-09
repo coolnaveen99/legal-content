@@ -14,14 +14,14 @@ Method: the Gazette text layer was extracted with word coordinates. Margin notes
 
 | Section | Local file | Statutory blocks compared | Official words | Result |
 |---|---|---|---|---|
-| 63 | topics/bns/s-63.json | — | 417 | Not compared: no statutory-text block |
-| 64 | topics/bns/s-64.json | — | 549 | Not compared: no statutory-text block |
+| 63 | topics/bns/s-63.json | Added after baseline | 417 | Not compared in original pass; current block exists, full reconciliation still open |
+| 64 | topics/bns/s-64.json | Added after baseline | 549 | Not compared in original pass; current block exists, full reconciliation still open |
 | 65 | topics/bns/s-65.json | The legal rule, Exceptions and provisos | 180 | Matched |
 | 66 | topics/bns/s-66.json | The legal rule | 83 | Matched |
 | 67 | topics/bns/s-67.json | The legal rule, Explanations | 78 | Matched |
 | 68 | topics/bns/s-68.json | The legal rule, Explanations | 264 | Matched |
-| 69 | topics/bns/s-69.json | — | 79 | Not compared: no statutory-text block |
-| 70 | topics/bns/s-70.json | — | 213 | Not compared: no statutory-text block |
+| 69 | topics/bns/s-69.json | Added after baseline | 79 | Not compared in original pass; current block exists, full reconciliation still open |
+| 70 | topics/bns/s-70.json | Added after baseline | 213 | Not compared in original pass; current block exists, full reconciliation still open |
 | 71 | topics/bns/s-71.json | The legal rule | 58 | Matched |
 | 72 | topics/bns/s-72.json | The legal rule, Explanations, Exceptions and provisos | 261 | Matched |
 | 73 | topics/bns/s-73.json | The legal rule, Explanations | 84 | Corrected, then matched |
@@ -35,7 +35,7 @@ Method: the Gazette text layer was extracted with word coordinates. Margin notes
 
 ## Logged, not changed, not verified
 
-- No statutory-text block: s.63, s.64, s.69, s.70. In these files `content.sections` holds only commentary-style headings, with no "The legal rule" block. Their statutory body could not be compared and is not verified. Adding the statute text would be an editorial content change.
+- Original baseline had no statutory-text block for ss. 63, 64, 69 and 70. Subsequent commits added a dedicated `The legal rule` block to each. The presence of these blocks has been rechecked on current main, but the new text has not yet received the original word-by-word comparison; each remains unverified pending that comparison.
 
 ## Essential ingredients: partial extracts (derived, not changed)
 
@@ -54,3 +54,16 @@ Method: the Gazette text layer was extracted with word coordinates. Margin notes
 ## Status
 
 Each topic file records a "Body check 2026-10-08" verification note, and `updatedAt` is changed. `statutoryFramework` is left as it is. Top-level `status` stays `review`. `enhancement.status` stays `in-progress`. `lastVerifiedAt` and `verifiedBy` are unchanged. This comparison was made by an AI execution agent. Under `.github/copilot-instructions.md`, it is evidence, not authoritative legal verification. Human review is needed before any `VERIFIED` status.
+
+
+## Current-main follow-up — 2026-10-09
+
+The original 2026-10-08 table above is retained as the historical baseline. The four previously absent statutory blocks (ss. 63, 64, 69 and 70) now exist on current `main`, as confirmed by fetching the live topic files. Their later addition does **not** retroactively mean they were compared in the 2026-10-08 pass; formal word-by-word comparison remains open for all four.
+
+The previously recorded omissions in the derived `Essential ingredients` extracts have since been repaired on current main:
+- **s. 65:** added the omitted provisos on reasonable victim-support fine and payment of fine to the victim. A duplicate copy introduced during the first repair attempt was removed; the current field contains one pair.
+- **s. 66:** restored the omitted reference to both sub-section (1) and sub-section (2) of s. 64.
+- **s. 68:** restored the omitted actor category “(b) a public servant”.
+- **s. 75:** restored the complete cross-references for sub-section (2) (clauses (i)–(iii) of sub-section (1)) and sub-section (3) (clause (iv) of sub-section (1)).
+
+These are completeness fixes to derived extracts, not a substitute for checking the full operative section, explanations, exceptions, current amendments, case law or commentary. All topics remain `review`; the 2026-10-08 source cutoff and current-law limitation in the original report remain applicable.
