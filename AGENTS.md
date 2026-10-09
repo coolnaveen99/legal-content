@@ -90,3 +90,8 @@ This coordination gate overrides ordinary "pick the next subject" behavior. Prev
 ## Active Work Control — 2026-10-08
 
 The authoritative execution control is `docs/WORK-CONTROL-MASTER-2026-10-08.md`. Read it before selecting or claiming work. Archived control-history documents are audit-only and must not be used to reopen, assign, or close work. Section/topic status and current `main` evidence override historical queues and generated reports.
+
+
+## 2026-10-09 roadmap and core-content policy
+
+Follow `docs/WORK-CONTROL-MASTER-2026-10-08.md` and `docs/SPRINT-MEETING-2026-10-09-ROADMAP-AND-YIELD-POLICY.md`. The Work Control Master remains the sole work-selection/ownership authority. Preserve the existing structure, topic-level claims, schemas, evidence, and lifecycle. Every registered provision receives its required core depth regardless of yield classification. Staged publication is allowed only after applicable minimum legal/source, content-quality, technical and publication gates pass. Continue current-law verification and deploy supported corrections promptly. After required verification and integrated validation/E2E pass, proceed to section-wise judgments and then Supreme Court coverage. The separate High-Yield Study Guide is final-stage supplementary work. Do not weaken mandatory gates or rush reviewers.
