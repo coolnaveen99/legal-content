@@ -243,3 +243,8 @@ Inspected the official Gazette PDF at https://egazette.gov.in/WriteReadData/2022
 
 ## Further Rule 18 amendment-scope check — 2026-10-09
 IndiaCode's reproduction of the Gazette text for G.S.R. 175(E), 16 February 2018, was inspected. Its operative change substitutes Annexure Forms MGT-6 and MGT-15; it does not amend Rule 18 on its face. This narrows the scope of that specific instrument only. The source record `sources/companies-management-administration-rules-2014-rule-18.json` and the section 101 inventory entry were updated. The full consolidated Rule 18, complete amendment chain, and direct MCA-hosted primary PDF remain unresolved; section 101 stays `SOURCE_CHECK_REQUIRED`.
+
+
+## Further Rule 18 amendment-scope checks — G.S.R. 159(E), 2021 and G.S.R. 44(E), 2023
+
+The official MCA-hosted PDF for G.S.R. 159(E), 5 March 2021 (https://www.mca.gov.in/Ministry/pdf/CompaniesMgmtAdminAmndtRules_11032021.pdf) was inspected: its operative amendments substitute Rule 11(1) and Rule 12, not Rule 18. IndiaCode's reproduction of G.S.R. 44(E), 21 January 2023 (https://indiacode.ecourtsindia.com/rules/g-s-r-no-44-e-companies-management-and-administration-amendment-rules-3a85c8f3/) shows Annexure substitutions for Forms MGT-3 and MGT-14, not Rule 18. These are narrow scope checks for two specific instruments, not proof of a complete amendment chain or consolidated current Rule 18. Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; direct Gazette-primary text and current-rule reconciliation, independent case-law review, repository-wide validation/build/E2E, SEO, production and legal sign-off remain open.
