@@ -39,3 +39,10 @@ Latest full validation runs failed at `validate:enhancements`; the workflow then
 ## Disposition
 
 BNS remains **OPEN**. Next work remains: full statutory word-by-word comparison, current central/state law and commencement checks, source-backed judgment/proposition audit, canonical inventory, successful full-catalog validation, integration/SEO, production/release/rollback evidence and qualified human legal sign-off.
+
+## Additional Section 69 hypothetical correction — 2026-10-09
+
+A follow-up review found the Section 69 hypothetical treated alleged deceit as conclusive, assumed that an existing marriage automatically proved the offence, presented the statutory “identity” limb too broadly, and categorically stated that psychological deceit means the conduct cannot amount to rape. These were overstatements. The hypothetical has been rewritten to require separate analysis of the applicable Section 69 limb, the statutory phrase “marrying by suppressing identity”, intention and causation, the precise facts/holdings of cited cases, and the Section 63 rape exclusion. The answer now calls for a reasoned conclusion based on proved ingredients rather than treating the hypothetical's characterization as conclusive.
+
+**Source anchor:** Section 69's operative wording is available in the official India Code BNS Act text: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf. This correction does not certify the cited judgments; primary-judgment verification remains a separate open gate.
+
