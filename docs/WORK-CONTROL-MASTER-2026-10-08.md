@@ -39,7 +39,7 @@ Enhancement-complete != legally verified. Verified != published. A subject is CO
 The Final Content Quality Pass remains OPEN corpus-wide. Use current main and section evidence for exact counts. Torts and other locked subjects must not be reopened without a documented trigger. Contract must be controlled by its current section-wise ledger, not older queues.
 
 ## Sequencing
-Fresh judgment acquisition is blocked until the Final Content Quality Pass closes. AI/provider work remains last and blocked until all non-AI gates close.
+Fresh judgment acquisition remains deferred until the comprehensive enhancement/current-law work and required integrated validation gates pass; then complete section-/subject-wise judgment enrichment followed by the dedicated Supreme Court coverage pass. AI/provider remains last and blocked until the existing non-AI gates close. SEO, production and legal sign-off remain mandatory for COMPLETE_LOCKED.
 
 ## Work claim record
 Subject:
@@ -204,3 +204,20 @@ Planned change: add a separate official-PDF technical validator; preserve FAIL f
 Observed baseline failures: latest legal-content Validate legal content run 37952321464 fails enhancement validation with 4,299 missing-field errors across 3,678 topics (not PDF-specific); latest codepackr-law E2E run 37951837537 reports configured webServer exit code 2 (no PDF-specific diagnostic). No concrete PDF request failure log exists in repository history inspected; tests will use deterministic captured-response fixtures and this limitation will be documented rather than mislabelled as a production incident.
 Validation: `npm run test:pdf-validation` passed in GitHub Actions on commit `209ec44bb010d031c290702436406808e0178345` (outcomes, bounded retries, manual-review closure, checksum-based queue preservation, and required-owner guard). Live official PDF workflow run `37958434725` completed successfully with `PASS_WITH_MANUAL_REVIEW_REQUIRED (6 pending)`: three MCA requests returned HTTP 403 HTML responses; one India Code request timed out after three attempts; two Gazette requests failed to connect after three attempts. These are access/retrieval limitations, not legal verification. Persistent evidence: `docs/pdf-manual-review-queue.json`; no checksum or document bytes were available for the blocked/failed responses. The full `Validate legal content` workflow still fails at the existing `validate:enhancements` gate with 4,299 missing-field errors across 3,678 topics; the new PDF tests run before that gate and pass.
 Evidence/commit: validator `e42d74d29337e575b9f21f38273fb778e2d519e1`; tests `209ec44bb010d031c290702436406808e0178345`; PDF workflow `5609df02f0e54569ed542ea9925ff009fd42ccdf`; persistent queue `8b642bc25f2c18788875d778ffa8a40b965078a0`.
+
+
+## 2026-10-09 Roadmap and core-content policy
+
+## 2026-10-09 Roadmap and core-content policy
+
+This section supplements—not replaces—the lifecycle and ownership controls above. See `docs/SPRINT-MEETING-2026-10-09-ROADMAP-AND-YIELD-POLICY.md`.
+
+- Complete the registered legal-content inventory to topic-appropriate depth. No High/Medium/Low-Yield label may lower completeness, depth, verification, validation, or closure requirements for a core section, Article, provision, or doctrinal topic.
+- Work priority may reflect risk, dependencies, source availability, and reviewer capacity; it must not reduce the quality required of any topic.
+- Record an enhancement-baseline lock separately from `COMPLETE_LOCKED`. Baseline lock preserves the completed enhancement snapshot; it does not certify current-law verification, publication, integration, SEO, production, or legal sign-off.
+- Use rolling subject publication only when that subject and its published content pass the applicable minimum legal/source, content-quality, technical and publication gates. Do not publish an unverified proposition as verified current law. Items not meeting the release gate remain staged/restricted.
+- Continue full current-law verification after initial eligible releases, record authoritative evidence, and correct material verified defects promptly through the canonical content path and applicable focused checks.
+- After current-law work and the required integrated validation/E2E gates pass, proceed to section-/subject-wise judgment enrichment, followed by a dedicated Supreme Court judgment coverage pass. Preserve existing judgment verification requirements and do not invent case details.
+- The optional High-Yield Study Guide is final-stage supplementary learning material. It cannot replace, shorten, prioritize, or gate the core legal library.
+- Preserve the existing lifecycle, topic IDs, schemas, ownership controls, source hierarchy, SEO/production gates, reopening triggers, and evidence requirements. AI/provider work remains subject to existing later-stage controls.
+- Reviewer fatigue is a quality risk: use manageable non-overlapping batches, allow unresolved items to remain blocked/source-check-required, and never trade legal accuracy for a quota.
