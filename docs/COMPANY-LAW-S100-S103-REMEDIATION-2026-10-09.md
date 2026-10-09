@@ -58,3 +58,16 @@ App mirrors:
 - Passing repository-wide legal-content validation and app typecheck/build/E2E evidence.
 - SEO/canonical/noindex and production verification.
 - Subject-wide completion remains open.
+
+
+## Amendment-reconciliation follow-up — sections 101–102
+
+The initial focused pass did not sufficiently distinguish the original 2013 text from subsequent amendments. A further official-source check identified missing/current-law details and these were corrected rather than leaving the initial summary as-is.
+
+- **Section 101:** attached the official Companies (Amendment) Act, 2017, sections 27–28 source. The shorter-notice rule now distinguishes AGM consent (at least 95% of members entitled to vote) from other meetings (for a company with share capital, a majority in number plus at least 95% of voting paid-up share capital; for a company without share capital, at least 95% of voting power). Added the proviso that a member entitled to vote only on particular resolutions is counted only for those resolutions.
+- **Section 102:** attached the official Companies (Amendment) Act, 2019, section 16 source. Added the 2% shareholding disclosure threshold for interests in another company affected by the special business, inspection particulars for referenced documents, the benefit-in-trust/compensation consequence, and the current subsection (5) penalty wording: ₹50,000 or five times the benefit, whichever is higher. Removed the inaccurate generic statement about a knowledge-based exception framework.
+- Canonical topics remain `verification_in_progress`, inventory gate remains `SOURCE_CHECK_REQUIRED`, and no case-law or publication gate is marked complete.
+- Source records: `sources/companies-amendment-act-2017-sections-100-101.json`, `sources/companies-amendment-act-2019-section-102.json`.
+- Canonical commits: `4ad412cd69ec3e20df20ee4948fd592dc194fd49` (s. 101), `de1a32c7b937311210969422b5ff2d216d3a3124` (s. 102); source commits `c1ee496b7033b04f57cee5faf025b7bd61f794a3`, `fa94128e8714ac2fca23280a4b0b7d8f1a24e307`.
+- App mirror commits: `1134b2224201ddd86c5fa58d30dc887036786a23` (s. 101), `7cd216a4c833a32cc5a863ad8462cd3b4879e74d` (s. 102).
+- Validation is focused JSON/source-reference/content-parity checking only; full build, E2E, all applicable meeting rules, company-specific exemptions, and independent case-law review remain open.
