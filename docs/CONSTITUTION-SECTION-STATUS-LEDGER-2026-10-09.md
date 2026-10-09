@@ -22,7 +22,7 @@
 - **Missing gate:** Focused article-specific enhancement; then JSON validation and ledger evidence. Repository-wide validation remains separately open.
 - **Planned change:** Add a bounded article-specific analysis distinguishing the constitutional tier rule, the population exception, and the need to read territorial exceptions and implementation rules from the applicable constitutional/state-law provisions; do not add unverified state-specific claims.
 - **Validation:** Pending; validate JSON after change and re-fetch committed file. Do not mark Article 243B legally verified or complete based on editorial review alone.
-- **Evidence/commit:** Claim only; implementation not yet made.
+- **Evidence/commit:** Claim recorded in commit `384689ced82d151b0ea2984cbd5687c297fc3917`. Article-file update was attempted but blocked by the platform safety check; no Article 243B content change was made. Do not bypass the safeguard. Resume only after the write restriction is resolved; then validate JSON and record the resulting commit.
 
 Earlier completed core articles: 243, 243B–243E, 243G, 243K, 243N.
 
