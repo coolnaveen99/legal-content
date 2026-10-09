@@ -14,6 +14,7 @@ const base = {
   title: "Sample Gazette PDF",
   url: "https://egazette.gov.in/sample.pdf",
   expectedOfficialHost: "egazette.gov.in",
+  reviewOwner: "coolnaveen99 (repository maintainer)",
   httpStatus: 200,
   finalUrl: "https://egazette.gov.in/sample.pdf",
   contentType: "application/pdf",
