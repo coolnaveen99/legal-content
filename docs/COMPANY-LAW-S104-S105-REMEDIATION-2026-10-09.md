@@ -26,8 +26,8 @@
 - Parsed all eight changed/new canonical JSON entities successfully.
 - Checked required top-level entity fields, entity types, source URL host, source review status, parent-topic references and explicit non-statutory-illustration flags.
 - Checked that both topic files remain at `status: review`, each references its source and two illustrations, and unrelated case lists are empty.
-- GitHub Actions validation was still running when this record was written; its final result must be checked before claiming repository validation passed.
-- Full statutory amendment/rules verification, schema validator completion, app TypeScript/build/E2E results, section 105 deep-link attachment, case-law verification, SEO and production remain open.
+- GitHub Actions “Validate legal content” failed on the corpus-wide enhancement validator: 4,299 missing-field errors across 3,678 topics, with log examples in unrelated Constitution topics such as `topics/constitution/art-93.json` through `art-99.json`. The focused JSON/reference integrity checks for this batch passed, but the repository-wide validator did not. This failure is not evidence that the Company Law edits caused the errors; CI must be investigated separately.
+- Full statutory amendment/rules verification, a passing repository-wide schema/enhancement validator, app TypeScript/build/E2E results, section 105 deep-link attachment, case-law verification, SEO and production remain open.
 
 ## Commits
 Canonical topic/source/illustration changes:
