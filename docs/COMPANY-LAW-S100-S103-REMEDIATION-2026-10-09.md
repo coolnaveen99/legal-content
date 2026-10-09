@@ -114,3 +114,8 @@ Section 101’s study and app mirror now include a distinct Rule 18 checklist fo
 - Official MCA source URLs: https://www.mca.gov.in/Ministry/pdf/ExemptionPrivateCompanies.pdf and https://www.mca.gov.in/Ministry/pdf/Exemptions_to_private_companies_05062015.pdf. Source remains `review`; this does not constitute final legal sign-off.
 - Canonical section 102: `dd1ab2c3b0d2a3d1909c317092a82b40fdd1640b`; section 103: `44f73b7a90ce27ef202e746f5d9ebd2381c15500`. App mirror commits and post-write focused validation are to be recorded after completion.
 - Both topics remain `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Full repository validator, app build/E2E, independent case-law review, SEO and production gates remain open.
+
+
+## Rule 17 official amendment evidence — 2026-10-09
+
+The official India Code-hosted Gazette PDF for G.S.R. 908(E), 23 September 2016, was located and attached as `sources/companies-management-administration-amendment-rules-2016-rule-17.json`. Rule 5 of that notification expressly substitutes “on any day except national holiday” for “on working day” in the Explanation to Rule 17(2). The new primary-source record is linked from the section 100 topic and the existing Rule 17 reproduction record. This verifies that particular amendment only; it does **not** certify the full consolidated Rule 17 text or every remaining sub-rule. The Rule 17 source and section 100 remain under review / `SOURCE_CHECK_REQUIRED` pending broader official rule reconciliation, independent case-law review, full validation/build/E2E and legal sign-off.
