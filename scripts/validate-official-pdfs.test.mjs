@@ -6,6 +6,7 @@ import {
   validatePdfTarget,
   closeManualReview,
   buildManualReviewQueue,
+  mergeManualReviewQueue,
 } from "./validate-official-pdfs.mjs";
 
 const base = {
@@ -118,4 +119,36 @@ test("manual-review queue is deterministic and reports pending count explicitly"
   assert.equal(queue.items[0].sourceId, "source:india:a");
   assert.equal(queue.legalVerificationAuthorized, false);
   assert.equal(queue.publicationAuthorized, false);
+});
+
+
+test("previous manual closure is preserved only when the fetched PDF checksum is unchanged", () => {
+  const first = classifyPdfAttempt({ ...base, parseStatus: "unknown", checksumSha256: "abc123" });
+  const closed = closeManualReview(first, {
+    reviewer: "Reviewer One",
+    reviewedAt: "2026-10-09T11:00:00.000Z",
+    browserOpens: true,
+    identityCheck: "Matched issuing authority and title.",
+    pageCount: 12,
+    ocrResult: "readable",
+    legibilityNotes: "Legible.",
+    finalReviewOutcome: "verified",
+    evidence: ["official index entry"],
+  });
+  const sameDocument = mergeManualReviewQueue(
+    [classifyPdfAttempt({ ...base, parseStatus: "unknown", checksumSha256: "abc123" })],
+    { items: [closed] },
+    "2026-10-09T12:00:00.000Z",
+  );
+  assert.equal(sameDocument.pendingCount, 0);
+  assert.equal(sameDocument.items[0].finalReviewOutcome, "verified");
+  assert.equal(sameDocument.legalVerificationAuthorized, false);
+
+  const changedDocument = mergeManualReviewQueue(
+    [classifyPdfAttempt({ ...base, parseStatus: "unknown", checksumSha256: "changed456" })],
+    { items: [closed] },
+    "2026-10-09T12:00:00.000Z",
+  );
+  assert.equal(changedDocument.pendingCount, 1);
+  assert.equal(changedDocument.items[0].finalReviewOutcome, "pending");
 });
