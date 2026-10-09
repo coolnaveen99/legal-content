@@ -136,13 +136,19 @@
         "The audit committee is s. 177. The nomination and remuneration committee is s. 178. Auditor appointment remains with members under s. 139, though the committee recommends."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 177",
+          "citation": "Statutory audit committee",
+          "point": "A listed company, and the prescribed classes of public companies, constitute an audit committee of at least three directors with a majority of independent directors. This is a statutory pointer, not a judgment."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T16:15:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -153,8 +159,8 @@
       "sourceFingerprint": "ca-s-177-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -164,12 +170,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T16:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
