@@ -87,3 +87,16 @@ Missing gate: topic-specific statutory-source attachment and separately labelled
 Planned change: attach verified official India Code section URLs, add two clearly educational illustration entities for each section, and link them from the canonical topic JSON. Do not mark verified/published or close case-law/SEO/production gates.
 Validation: focused JSON/reference integrity checks passed for all eight changed/new JSON entities. GitHub Actions repository-wide enhancement validation failed with 4,299 missing-field errors across 3,678 topics (log examples are unrelated Constitution topics); not a clean validator pass.
 Evidence/commit: docs/COMPANY-LAW-S104-S105-REMEDIATION-2026-10-09.md; evidence refresh commit: a27372882f00c4f1299b135dbbc25abb7b9a3608; canonical tracking commit: 85bd8bebda592dc21bad41475297d82f5e3610a9; app mirrors initially: 469cdbb184e85133ee61667d42a103a400a14e50 and f05adb3cde422ad8a89bb95941233dcd342d5448; type-corrected mirrors: f8d81182ba72049529e28e2c1cf8b54a59a2a7e5 and ee0418c82ff366f1399cb17ff27e786a178c68ad. Repository-wide validator failure recorded; app CI for the type-corrected s. 104/105 modules failed due 57 TypeScript errors in other `company-*.ts` doctrinal modules; the CI log contained no s. 104/105 TypeScript errors after correction. Repository-wide validator and app CI are not passing; gates remain open.
+
+
+## Company Law source-remediation claim — 2026-10-09 (sections 100–103)
+Subject: Company Law
+Topic/section range: ca-s-100, ca-s-101, ca-s-102, ca-s-103 only
+Current main commit at claim: e69ea2da0ec614022eb4af5913d93bcbdb799ce3
+Current status: IN_PROGRESS — not COMPLETE_LOCKED
+Current owner: current-assistant-company-s100-s103
+Latest evidence: docs/batches/company-law-task-inventory-2026-10-09.json; entries ca-s-100 through ca-s-103 had bot=null and SOURCE_CHECK_REQUIRED; no open Company Law PR was found in either repository.
+Missing gate: official statutory-source attachment and correction of generic/cross-subject scaffold content for four general-meeting provisions; full amendment/rules verification, case-law, SEO and production gates remain open.
+Planned change: verify sections against official MCA Companies Act text, replace generic content only with provision-specific supported rules, add source provenance, mirror the corrected canonical content into the app only after canonical edits, and record validation. Do not mark verified/published or close Company Law.
+Validation: pending.
+Evidence/commit: pending.
