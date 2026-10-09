@@ -18,15 +18,15 @@ Reviewed the current canonical topic files for BNS sections 121–135. Changes w
 
 ## Commits
 
-- s. 121: https://github.com/coolnaveen99/legal-content/commit/84778b46344876a27222d831d09001aa9a3a3313
-- s. 122: https://github.com/coolnaveen99/legal-content/commit/3d7962bb044eb7f5b8c8d75d770a8387153a5262
-- s. 123: https://github.com/coolnaveen99/legal-content/commit/04b50a9190f53d6ed13ed0b9a6a30afe7e88bd8e
+- s. 121: https://github.com/coolnaveen99/legal-content/commit/789e0bf7007a0dcd555ec9c17f144338fe2d4351
+- s. 122: https://github.com/coolnaveen99/legal-content/commit/ded3cab36822e8ef5eb4a7d5b2b68950597f4d5c
+- s. 123: https://github.com/coolnaveen99/legal-content/commit/3f4a797cd59a7dbd10bb552d3056e37948d7daab
 - s. 124: https://github.com/coolnaveen99/legal-content/commit/e004731f6a3c11c7469e6d9979d31d5493e6897a
-- s. 125: https://github.com/coolnaveen99/legal-content/commit/56ca582f72d1208d3da523daf79f37973988ea6f
+- s. 125: https://github.com/coolnaveen99/legal-content/commit/96039d84d45f5e0115812df500eb6395898a653a
 - s. 127: https://github.com/coolnaveen99/legal-content/commit/b330650ae4e4f710559b046f57ed8ab13066a14c
-- s. 128: https://github.com/coolnaveen99/legal-content/commit/46a628ba8a56e6650b78d7de3ab031db0ca33e23
-- s. 129: https://github.com/coolnaveen99/legal-content/commit/a1aeb72816b7c41e5cfe456e72170c2ead828652
-- s. 130: https://github.com/coolnaveen99/legal-content/commit/224cbe005d01e0e69a457ec66933e3a9d5b3f115
+- s. 128: https://github.com/coolnaveen99/legal-content/commit/fcd162a813cd8ad8d6e912a8ee3eb66bc136e483
+- s. 129: https://github.com/coolnaveen99/legal-content/commit/2de3ca4d26f743422e5b92335f0bd3701eb190af
+- s. 130: https://github.com/coolnaveen99/legal-content/commit/594ed7a8ef79c971fc3fe2e9a53f010a4b4ffcc9
 - s. 131: https://github.com/coolnaveen99/legal-content/commit/0e5946057c6034bea1dd092a75da5fb836042bd5
 - s. 132: https://github.com/coolnaveen99/legal-content/commit/d20efd9e402e68ebef00fbe12de959bc47ce6242
 - s. 133: https://github.com/coolnaveen99/legal-content/commit/0917dd25a8b50c355990d747d5775caed1dcafdf
