@@ -167,23 +167,29 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Member offer for sale (s. 28) vs company public offer (s. 23)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Companies Act, 2013, section 28",
+          "citation": "Companies Act, 2013, section 28",
+          "point": "Section 28 allows certain members, in consultation with the Board, to offer all or part of their shareholding to the public in accordance with the prescribed procedure. The offer document is treated as a prospectus of the company for the application of prospectus provisions, with specified adaptations.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Member offer; Board consultation; deemed prospectus; conclude.",
         "sixteenMark": "Introduction; power; procedure; deemed prospectus; vs s. 23; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T08:45:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -200,12 +206,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

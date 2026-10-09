@@ -124,13 +124,21 @@
         "Section 6 is an override rule. Section 9 is the effect of registration. Section 10 binds members to the memorandum and articles as if signed, but only subject to the Act."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 6",
+          "citation": "Companies Act, 2013, section 6",
+          "point": "Section 6 gives the Act, and any rule or instrument made under it, overriding effect over the memorandum, articles, agreement or resolution to the extent of inconsistency.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -141,8 +149,8 @@
       "sourceFingerprint": "ca-s-6-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -152,12 +160,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

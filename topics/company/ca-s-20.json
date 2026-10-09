@@ -239,21 +239,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Service on company/officer under s.20(1) vs service on Registrar/member under s.20(2)",
         "Permitted statutory mode vs proof of actual delivery in a particular dispute"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 20",
+          "citation": "Companies Act, 2013, section 20",
+          "point": "Section 20 prescribes statutory modes for serving documents on a company or officer and, separately, on the Registrar or a member. It recognises physical and prescribed electronic modes and defines courier by reference to proof of delivery.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Identify recipient; state applicable subsection; list permitted modes; address registered office/electronic mode; discuss proof of delivery; conclude.",
         "sixteenMark": "Introduction; s.20(1); depository proviso; s.20(2); member-request rule; courier definition; factual application and evidence; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T12:55:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -288,7 +296,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -302,7 +310,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

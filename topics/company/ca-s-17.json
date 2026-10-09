@@ -222,21 +222,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Section 17 document-access right vs section 117 filing/registration requirements",
         "Member's statutory request for specified documents vs general discovery or inspection rights under other provisions"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 17",
+          "citation": "Companies Act, 2013, section 17",
+          "point": "Section 17 gives a member a statutory right to obtain specified corporate documents on request, subject to prescribed fees. The company must supply the memorandum, articles, and specified section 117 agreements/resolutions within seven days; default attracts a daily penalty subject to the statutory cap.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Issue; identify member and document category; state section 17 right; apply fee and seven-day period; determine default and penalty; conclude.",
         "sixteenMark": "Introduction; statutory scope; documents covered; request and fee; seven-day deadline; default and penalty; factual application; distinction from other inspection/disclosure rights; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T12:55:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -271,7 +279,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -285,7 +293,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

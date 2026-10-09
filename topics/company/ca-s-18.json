@@ -222,21 +222,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Conversion under section 18 vs fresh incorporation",
         "Change of company class vs extinction of the company's pre-existing liabilities"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 18",
+          "citation": "Companies Act, 2013, section 18",
+          "point": "Section 18 permits a company of any class registered under the Companies Act to convert into another class by altering its memorandum and articles in accordance with Chapter II. The Registrar closes the former registration and issues a new certificate after statutory compliance, while pre-conversion debts, liabilities, obligations and contracts continue unaffected.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Meaning and statutory power; memorandum/articles alteration; Registrar process; continuity of liabilities; conclusion.",
         "sixteenMark": "Introduction; eligibility and method; Chapter II compliance; Registrar's role; certificate; effect on debts/contracts; practical application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T12:55:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -271,7 +279,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -285,7 +293,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

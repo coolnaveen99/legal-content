@@ -247,20 +247,26 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-08",
-        "verifiedBy": "primary-source statutory review",
-        "notes": [
-          "Section 41 heading and operative text checked against the official MCA Companies Act text on 2026-10-08. India Code Companies Act record used as a statutory catalogue cross-check. No new case law promoted; case-law gate remains open."
-        ]
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Section 41 differs from section 40 because section 40 regulates public offers, recognised-stock-exchange permission and public application money, whereas section 41 concerns foreign depository receipts and requires a special resolution. Section 42 concerns private placement and is not a substitute for the specific authorisation route in section 41."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 41",
+          "citation": "Companies Act, 2013, section 41",
+          "point": "Section 41 authorises a company, after passing a special resolution in its general meeting, to issue depository receipts in a foreign country in the prescribed manner and subject to prescribed conditions.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": "10-mark structure: (1) identify section and purpose; (2) state every operative condition; (3) explain exceptions/connected provisions; (4) apply facts; (5) state statutory consequence. 16-mark answer: add legislative purpose, compliance sequence, practical illustration, distinction from connected sections, and verification caveat.",
-      "lastBotRunAt": "2026-10-08T08:00:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "OpenAI legal-content enhancement",
       "rules": "SOURCE-SITE-LOG + SECTION-LEVEL-CONTENT-COMPLETION-CHECKLIST",
       "indiaCode": {
@@ -269,12 +275,13 @@
         "sectionDeepLink": null,
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
-    }
+    },
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

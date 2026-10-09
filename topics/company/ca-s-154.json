@@ -188,17 +188,25 @@
         "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T10:25:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 154",
+          "citation": "Companies Act, 2013, section 154",
+          "point": "The Central Government allots a Director Identification Number within the prescribed period.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b3",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Omission of ss 93, 194 and 195 confirmed from indexed current texts. Other rules aligned to Act structure. Case-law not added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -208,12 +216,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

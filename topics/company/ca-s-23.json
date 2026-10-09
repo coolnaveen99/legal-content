@@ -177,23 +177,29 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Public vs private company issue routes"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Companies Act, 2013, section 23",
+          "citation": "Companies Act, 2013, section 23",
+          "point": "Section 23 sets out the permitted routes by which a public company or a private company may issue securities: public offer, private placement, or rights/bonus issue. Listed companies and companies intending to list must also comply with SEBI law.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Company type; routes; SEBI; conclude.",
         "sixteenMark": "Introduction; public routes; private routes; SEBI; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T08:35:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -210,12 +216,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

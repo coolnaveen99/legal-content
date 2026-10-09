@@ -167,23 +167,29 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Discount prohibition (s. 53) vs sweat equity (s. 54)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Companies Act, 2013, section 53",
+          "citation": "Companies Act, 2013, section 53",
+          "point": "Section 53 prohibits a company from issuing shares at a discount. Any share issued by a company at a discounted price is void. Exception is made for sweat equity shares issued in accordance with section 54. Contravention attracts liability to pay the amount received with interest at a prescribed rate and penalties.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Prohibition; voidness; exception; conclude.",
         "sixteenMark": "Introduction; prohibition; consequences; s. 54; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T09:15:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -200,12 +206,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

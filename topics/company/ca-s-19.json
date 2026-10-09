@@ -239,21 +239,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Prohibited subsidiary holding vs the three statutory exceptions",
         "Void allotment/transfer vs permissible pre-existing, trustee or legal-representative holding"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 19",
+          "citation": "Companies Act, 2013, section 19",
+          "point": "Section 19 generally prohibits a subsidiary from holding shares in its holding company and prohibits the holding company from allotting or transferring its shares to the subsidiary. Any such allotment or transfer is void, subject to specified statutory exceptions.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "State prohibition; identify exceptions; explain voting limitation; address no-share-capital rule; apply facts; conclude.",
         "sixteenMark": "Introduction; statutory prohibition; exceptions; validity consequence; voting rule; guarantee/unlimited company rule; factual application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T12:55:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -288,7 +296,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -302,7 +310,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

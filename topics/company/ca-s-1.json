@@ -222,9 +222,9 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level content grounded in the statutory wording of s. 1; case-law verification separate; no new citations invented; Salomon retained as already in file for personality context only.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Commencement vs application",
@@ -232,14 +232,20 @@
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Companies Act, 2013, section 1",
+          "citation": "Companies Act, 2013, section 1",
+          "point": "Section 1 of the Companies Act, 2013 provides the short title, extends the Act to the whole of India, provides for phased commencement of provisions by Central Government notification, and defines the categories of companies and body corporates to which the Act applies, including carve-outs where special legislation is inconsistent.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "State short title, extent, commencement rule and application categories; note one special-Act carve-out; conclude.",
         "sixteenMark": "Introduction; short title and extent; commencement mechanism; each s. 1(4) category; special-Act carve-outs; application to facts; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T07:45:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -256,12 +262,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

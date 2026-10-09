@@ -222,21 +222,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Authentication under s.21 vs execution of deeds/bills under s.22",
         "KMP signing vs officer/employee signing with Board authorisation"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 21",
+          "citation": "Companies Act, 2013, section 21",
+          "point": "Section 21 permits a company document or proceeding requiring authentication, and contracts made by or on behalf of the company, to be signed by a key managerial personnel or an officer/employee duly authorised by the Board, subject to the Act.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Scope; signatory categories; Board authorisation; statutory qualification; application; conclusion.",
         "sixteenMark": "Introduction; statutory scope; KMP and authorised officer/employee; Board authority; exceptions/other Act provisions; factual application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T13:00:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -271,7 +279,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -285,7 +293,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

@@ -168,23 +168,29 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Alteration of capital (s. 61) vs reduction of capital (s. 66)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Companies Act, 2013, section 61",
+          "citation": "Companies Act, 2013, section 61",
+          "point": "Section 61 allows a limited company having a share capital, if so authorised by its articles, to alter its memorandum to increase authorised capital; consolidate and divide shares; convert fully paid shares into stock and reconvert; sub-divide shares; or cancel unissued shares. Certain alterations (e.g. consolidation or division that results in a change in voting percentage of shareholders) require Tribunal approval. Cancellation of unissued shares does not amount to a reduction of share capital under the Act.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Types; Tribunal trigger; cancel ≠ reduction; conclude.",
         "sixteenMark": "Introduction; types; Tribunal; cancel vs reduction; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T09:25:00.000Z",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -201,12 +207,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

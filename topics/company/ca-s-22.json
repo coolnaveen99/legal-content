@@ -233,21 +233,29 @@
       ],
       "verification": {
         "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
-        "date": "2026-10-08"
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "s.22(1) negotiable instruments vs s.22(2) other deeds",
         "Express/implied authority for instruments vs written attorney authorisation for deeds"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 22",
+          "citation": "Companies Act, 2013, section 22",
+          "point": "Section 22 deals with execution of bills of exchange, hundis and promissory notes on behalf of a company and permits a company to authorise an attorney to execute other deeds. It also provides a special authorisation route where the company has no common seal.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
       "examAnswerStructure": {
         "tenMark": "Instrument; authority; applicable subsection; attorney/no-seal route; execution; binding effect; conclusion.",
         "sixteenMark": "Introduction; s.22(1); authority; s.22(2); attorney mandate; no-common-seal route; execution and binding effect; factual application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T13:00:00+05:30",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -282,7 +290,7 @@
         "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
       ]
     },
-    "caseLawGate": "verification_required",
+    "caseLawGate": "statutory-pointer-not-locked",
     "sources": [
       {
         "type": "statutory",
@@ -296,7 +304,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

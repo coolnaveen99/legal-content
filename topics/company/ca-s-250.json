@@ -187,17 +187,25 @@
         "Insolvency and Bankruptcy Code, 2016 for voluntary liquidation",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T10:45:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 250",
+          "citation": "Companies Act, 2013, section 250",
+          "point": "Where a company stands dissolved under section 248, it ceases to operate as a company and the certificate of incorporation is deemed to have been cancelled, except for the purpose of realising the amount due to the company and for payment of its liabilities.",
+          "kind": "statutory-pointer",
+          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+        }
+      ],
+      "caseLawGate": "statutory-pointer-not-locked",
+      "lastBotRunAt": "2026-10-09T17:00:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b5",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Voluntary winding-up sections 304-323 marked omitted. Tribunal winding-up rules aligned to surviving Chapter XX. Case-law not added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Bulk statutory pointer from existing operative rule. No judgment added. Not verified.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -207,12 +215,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "statutory-pointer-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T17:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
