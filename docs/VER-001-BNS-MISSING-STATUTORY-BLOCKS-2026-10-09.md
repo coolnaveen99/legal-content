@@ -28,6 +28,13 @@ The text blocks include the operative section wording and applicable sub-section
 - The current full-catalog GitHub workflows must finish successfully. A pre-existing malformed JSON object was found in `topics/constitution/art-388.json` during this validation and repaired by closing the missing object brace; that fix is included to unblock catalog parsing.
 - No topic status was promoted. All affected topics retain their previous status; do not set them to `verified`, `published` or `COMPLETE_LOCKED` without the remaining required evidence.
 
+
+## CI snapshot — 2026-10-09
+
+For the main commit checked during this execution, the `validate-content` workflow successfully completed manifest regeneration, relationship-index build, legacy-preservation checks, canonical content quality audit, source/provenance audit, topic-to-source audit, current-law metadata normalization, legal-proposition/case-law audit, statutory consistency audit and statutory deep-verification audit. It then failed at `validate:enhancements`; 547 errors were reported for Constitution topic files missing required enhancement fields. The log did not identify any of the 16 BNS files as the source of those errors. Later full-catalog verification and FV gates were skipped because the workflow stopped at that failure.
+
+The separate `Validate legal content` workflow passed JSON/schema/entity/relationship/manifest validation (0 errors, 0 warnings) but failed at the same enhancement validation step. Therefore **CI is not green** and no full-catalog pass is claimed. The Constitution enhancement backlog is outside this BNS statutory-text batch and is not silently treated as resolved.
+
 ## Remaining BNS closure gates
 
 1. Formal word-by-word body verification, including illustrations, punctuation policy and import artefacts.
