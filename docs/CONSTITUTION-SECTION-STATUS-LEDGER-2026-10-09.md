@@ -22,9 +22,9 @@ Direct-to-main commits added a dedicated "Article-specific doctrinal analysis an
 These additions are incremental remediation only. They do not establish that all articles in these Parts, the full 523-file Constitution catalogue, QUAL gates, current-law review, case-law review, preservation, schema validation or publication gates are complete.
 
 ## Remaining work / validation status
-- Part IX remaining articles and substantive depth review: OPEN. Additional article-specific sections committed for Articles 243L and 243M.
+- Part IX remaining articles and substantive depth review: OPEN. Additional article-specific sections committed for Articles 243C, 243D, 243E, 243L and 243M.
 - Part IXA remaining articles and substantive depth review: OPEN. Additional article-specific sections committed for Articles 243R, 243S, 243T, 243U and 243V, alongside prior 243P and 243Q.
 - Part XXI special-provision article-by-article review: OPEN. Articles 371 and 371A received additional article-specific sections.
-- Corpus-wide Constitution quality audit and official-text comparison: OPEN.
+- Corpus-wide Constitution quality audit and official-text comparison: OPEN. Latest inspected enhancement validation reports 2,447 errors across 3,678 topics; errors include missing required enhancement fields across the wider catalogue, not only Constitution.
 - Preservation, schema/entity/relationship validation and final quality report: PENDING.
 - Next action: continue targeted article-specific remediation, then run repository validation and update this ledger only with observed evidence.
