@@ -7,8 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P6** | Omitted, Part I, Parliament, Union Exec/Judiciary, DPSP, State Exec/Leg, High Courts | **COMPLETE** |
-| **P7** | Emergency (352–360) & Amendment (368) | **IN_PROGRESS** |
+| **P0–P7** | Omitted through Emergency & Amendment | **COMPLETE** |
+| **P8** | Part XIV — Services (308–323) | **SUBSTANTIALLY COMPLETE** |
 
-## P7 progress
-Done this commit: 352–360, 368.
+## P8 progress
+Core Services articles remediated: 308–312, 315–318, 320, 323.
