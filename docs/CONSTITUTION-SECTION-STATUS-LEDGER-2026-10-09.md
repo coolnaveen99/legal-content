@@ -79,3 +79,8 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - Current check: ten required enhancement fields are absent. The analysis commit is present on main; no matching PR was identified in the previous review.
 - Planned change: add Article 243K-specific structured explanation, clearly hypothetical examples and exam application; do not invent authorities or claim comprehensive legal verification.
 - Validation and commit evidence: pending. Full repository validation, statutory/current-law and case-law review remain open.
+### Article 243K enhancement — blocked before write
+- **Pre-edit claim:** Recorded in commit `cef2d8abeca29d6ebff17ad3b3d05da4af54bd91` before the article edit.
+- **Article state:** The attempted Article 243K content update was blocked by the platform safety check; no Article 243K change was made. Current article blob remains `5fc4f68d16292e73f8580ac756bed1b095a5e78b` as last successfully fetched before the attempt.
+- **Work performed:** Read existing article and required-field gaps; checked Article 243K clauses (1)–(4) and the clause (2) proviso against the official Constitution text from the Legislative Department. Draft was not committed.
+- **Next action:** Stop and resolve the platform write restriction through an allowed path. Do not retry through alternate write methods or bypass safety checks. Enhancement, validation and full legal review remain pending.
