@@ -145,3 +145,11 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - **Missing gate:** A focused authoritative text comparison. The file also contains broad doctrinal, case-law and procedural claims that are outside this claim and remain unverified.
 - **Planned work:** Compare Article 243L clause and proviso text against the Legislative Department's official Constitution publication. Do not rewrite article content unless a precise discrepancy is confirmed. Do not mark the topic complete.
 - **Validation/evidence:** Pending; after comparison, append the result and source locator to this ledger. No article-file write is planned.
+
+
+### Article 243L statutory text comparison — result
+- **Source checked:** Legislative Department, Government of India, *The Constitution of India*, official PDF: https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf. Article 243L text appears in the Part IX text around printed page 115; the official reproduction was also returned in the current source search.
+- **Comparison outcome:** The operative clause and proviso reproduced in `content.enhancement.detailedExplanation` match the official Article 243L text in substance. The repository uses lower-case “legislative Assembly” where the official PDF capitalizes “Legislative Assembly”; this is a capitalization difference, not a substantive discrepancy. No statutory-text correction is indicated by this narrow comparison.
+- **Files changed:** Ledger only; no Article 243L content changed.
+- **Validation / status boundary:** The article JSON was re-fetched from `main` and parsed successfully for inspection; its blob remains `bec210c94186910a85023a33e3fbda4f39f54ce8`. Topic status remains `review`. This check does not verify the surrounding doctrinal statements, case holdings, remedies, current-law status, State/UT implementation, schema validation, integration, SEO or production gates. In particular, generic case-law and procedural claims in the article remain source-check-required. Do not mark the topic complete.
+- **Evidence:** Claim commit `9cdbaf85a92675d283f5340fd87238bf9467aa0d`; this result is recorded in the present ledger commit.
