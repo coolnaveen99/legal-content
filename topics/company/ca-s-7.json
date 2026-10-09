@@ -184,23 +184,27 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level content; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation added. Not a primary-report verification.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Formation (s. 3) vs incorporation (s. 7)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Salomon v A Salomon & Co Ltd",
+          "citation": "[1897] AC 22",
+          "point": "The certificate of incorporation is the point at which a separate legal person comes into existence. Section 7 makes the certificate conclusive evidence that the statutory requirements have been complied with."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "List documents; state certificate effect; conclude.",
         "sixteenMark": "Introduction; documents; Registrar; certificate; effect of incorporation; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T07:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -217,12 +221,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

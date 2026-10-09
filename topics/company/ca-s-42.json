@@ -200,23 +200,27 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation added. Not a primary-report verification.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Private placement (s. 42) vs public offer routes (s. 23)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Sahara India Real Estate Corporation Ltd v Securities and Exchange Board of India",
+          "citation": "(2013) 1 SCC 1",
+          "point": "An offer of securities to more than the statutory number of persons is a public offer. A private placement under section 42 cannot be used to make what is in substance a public issue."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Identified persons; no public ad; allotment/refund; conclude.",
         "sixteenMark": "Introduction; conditions; timelines; filings; breach consequences; vs s. 23; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T09:00:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -233,12 +237,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

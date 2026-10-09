@@ -176,23 +176,27 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation added. Not a primary-report verification.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Internal statutory contract vs outsider rights"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Borland's Trustee v Steel Brothers & Co Ltd",
+          "citation": "[1901] 1 Ch 279",
+          "point": "The memorandum and articles are the contract that measures the member's interest. Section 10 binds the company and the members as if each had signed them."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Binding effect; inter se nature; conclude.",
         "sixteenMark": "Introduction; s. 10 formula; parties; outsider distinction; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T07:55:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:00:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -209,12 +213,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
