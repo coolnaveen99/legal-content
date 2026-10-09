@@ -105,3 +105,10 @@ Source: official India Code BNS Act text, s. 75: https://www.indiacode.nic.in/bi
 After the preceding targeted check, a deeper recursive scan of the current topic JSON found three residual occurrences of the truncated punishment cross-reference in the generated hypothetical (one) and Q&A answers (two). The earlier “no remaining truncated patterns” statement did not cover these occurrences reliably. Replaced each with a complete, accurate distinction: subsection (2) applies to clauses (i)–(iii) of subsection (1), while subsection (3) applies to clause (iv), with the corresponding penalty tiers. No statutory-text block was changed.
 
 Current-main verification after commit: JSON parses; recursive scan confirms no remaining malformed “specified in clause” punishment extract in the topic; the two penalty tiers are stated in each repaired answer. Topic status remains `review`. This does not certify full-catalog validation, current-law amendments, case-law propositions, or legal sign-off.
+
+
+## Derived-extract numbering and cross-reference follow-up — 2026-10-09
+
+A recursive scan of sections 63–75 identified additional import-generated defects outside the operative statutory-rule blocks: duplicated list/subsection labels in the s. 65 and s. 75 hypotheticals; a line-split s. 66 cross-reference to sub-section (2) of s. 64; and s. 72 derived excerpts that split “Nothing in sub-section (1)” across labels and repeated outer numbering. Corrected these derived excerpts in s. 65, s. 66, s. 72, and s. 75. In s. 72, the exception clauses are now labelled as clauses (a)–(c) instead of conflating outer list numbering with statutory labels. No operative `The legal rule` block was intentionally changed in this batch.
+
+Targeted follow-up checks must confirm current-main JSON parses, the s. 66 cross-reference reads “sub-section (2) of section 64”, the s. 72 subsection (2) exception reads “sub-section (1)”, and the s. 75 residual punishment extracts remain corrected. This remains derived-content cleanup only; topic status stays `review`, and no full-catalog CI or legal sign-off is implied.
