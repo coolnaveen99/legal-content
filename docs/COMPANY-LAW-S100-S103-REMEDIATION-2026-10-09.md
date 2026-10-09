@@ -89,7 +89,7 @@ A further meeting-rules check identified that section 100 alone does not capture
 
 - Rule text source record: `sources/companies-management-administration-rules-2014-rule-17.json`, based on the ICSI e-book reproduction at https://e-book.icsi.edu/Actpagedisplay.aspx?PAGENAME=18033, which notes the 2016 substitution of “on any day except national holiday” for “on working day”.
 - Source record commit: `84e9941f81c2210a852b46992edbd2477e469100`.
-- Canonical section 100 commit: `091f6e3c248843f17b61267f085e55637ca5299f`.
+- Canonical section 100 content commit: `091f6e3c248843f17b61267f085e55637ca5299f`; follow-up source-reference correction commit: `41fc0d96e0123b477cdd80dc69e021edd523d324`.
 - App mirror section 100 commit: `f411c78e948882b95e0ae5e08ed8c2b7fd81ee2e`.
 - **Qualification:** the rule source is a professional-institute reproduction, not a Gazette-primary copy. The note expressly leaves Gazette-primary confirmation open; do not treat this as final current-law verification.
-- Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Rule/exemption review for sections 100–103, independent case-law review, repository-wide validation, app build/E2E, SEO/noindex, production and qualified legal sign-off remain open.
+- Focused follow-up check confirmed the rule source is attached at the canonical topic’s top-level `sources` array, and the app mirror parses with the Rule 17 module present. Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Rule/exemption review for sections 100–103, independent case-law review, repository-wide validation, app build/E2E, SEO/noindex, production and qualified legal sign-off remain open.
