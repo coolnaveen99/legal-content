@@ -132,3 +132,10 @@ Canonical commits: s. 102 `dd1ab2c3b0d2a3d1909c317092a82b40fdd1640b`; s. 103 `44
 App mirrors: s. 102 `d96bcfa456d0c265c1bd3a41103d65510c9eb54`; s. 103 `ece4b2e9fcff1d5262cb543007297ae20ae85506`.
 Focused validation: canonical JSON parses; source is linked; topics remain `verification_in_progress`; inventory remains `SOURCE_CHECK_REQUIRED`; app glance/study parity and new module presence pass. This is not a full repository validator, TypeScript build/E2E, independent legal sign-off, SEO or production pass.
 Next within claim: continue source-checking meeting rules and relevant class-specific exemptions; retain the source review caveat until notification/amendment scope and company eligibility are independently verified.
+
+
+## Rule 17 official amendment evidence — 2026-10-09
+Claim: `current-assistant-company-s100-s103` (continues; not closed).
+Change: added official India Code-hosted Gazette evidence for G.S.R. 908(E), 23 September 2016, confirming the specific Rule 17(2) Explanation wording substitution from “on working day” to “on any day except national holiday”.
+Source: `sources/companies-management-administration-amendment-rules-2016-rule-17.json`; existing Rule 17 reproduction source now links to it. Canonical section 100 topic links both sources and states the limited scope of confirmation.
+Qualification: this does not verify all current Rule 17 sub-rules or all subsequent amendments. Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`; full official-rule reconciliation, case-law review, repository validator, app build/E2E and legal sign-off remain open.
