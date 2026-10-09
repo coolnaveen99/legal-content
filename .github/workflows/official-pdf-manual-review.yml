@@ -2,6 +2,12 @@ name: Official PDF technical review (manual dispatch)
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/official-pdf-targets.json'
+      - 'scripts/validate-official-pdfs.mjs'
+      - '.github/workflows/official-pdf-manual-review.yml'
 
 permissions:
   contents: read
