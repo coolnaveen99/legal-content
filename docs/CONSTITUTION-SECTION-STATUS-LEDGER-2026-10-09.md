@@ -11,4 +11,20 @@
 | **P13** | Part IX — Panchayats (core) | **IN_PROGRESS** |
 
 ## P13 progress
-Done this commit: 243, 243B–243E, 243G, 243K, 243N.
+Earlier completed core articles: 243, 243B–243E, 243G, 243K, 243N.
+
+## Additional article-specific remediation — 2026-10-09
+Direct-to-main commits added a dedicated "Article-specific doctrinal analysis and application" section to:
+- Part IX: Articles 243F, 243H, 243I, 243J and 243O.
+- Part IXA: Articles 243P and 243Q.
+- Part XXI: Articles 371 and 371A.
+
+These additions are incremental remediation only. They do not establish that all articles in these Parts, the full 523-file Constitution catalogue, QUAL gates, current-law review, case-law review, preservation, schema validation or publication gates are complete.
+
+## Remaining work / validation status
+- Part IX remaining articles and substantive depth review: OPEN.
+- Part IXA remaining articles and substantive depth review: OPEN.
+- Part XXI special-provision article-by-article review: OPEN.
+- Corpus-wide Constitution quality audit and official-text comparison: OPEN.
+- Preservation, schema/entity/relationship validation and final quality report: PENDING.
+- Next action: continue targeted article-specific remediation, then run repository validation and update this ledger only with observed evidence.
