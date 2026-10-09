@@ -22,7 +22,7 @@ Agree a sustainable path to complete the comprehensive legal library, publish el
 
 ### Stage A — Complete content enhancement
 
-Complete the registered inventory to the required topic-specific depth. Preserve correct existing material, remove scaffolds through substantive work, avoid boilerplate and invented authority, and keep uncertainty visible.
+Complete the registered inventory to the required topic-specific depth. Preserve correct existing material, remove scaffolds through substantive work, avoid boilerplate and invented authority, and keep uncertainty visible. Complete enhancement means completing coverage and structure, not inventing or asserting unverified legal propositions. For each substantive proposition, preserve the existing VERIFY → CORRECT → STRUCTURE → ENHANCE rule. A public release still requires the applicable minimum legal/source checks.
 
 ### Stage B — Lock the enhancement baseline
 
