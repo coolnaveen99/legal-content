@@ -7,8 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P11** | Core Parts through Finance/Trade/Property | **COMPLETE** |
-| **P12** | Residual institutional (51A, CAG 148–151, FC 280) | **COMPLETE** |
+| **P0–P12** | Core through CAG/FC/Duties | **COMPLETE** |
+| **P13** | Part IX — Panchayats (core) | **IN_PROGRESS** |
 
-## P12 progress
-Done: 51A, 148–151, 280.
+## P13 progress
+Done this commit: 243, 243B–243E, 243G, 243K, 243N.
