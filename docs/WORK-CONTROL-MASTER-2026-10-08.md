@@ -111,3 +111,6 @@ Applicability follow-up (2026-10-09): Company Law sections 100–103 were update
 
 
 Rule 17 follow-up (2026-10-09, existing claim `current-assistant-company-s100-s103`): section 100 now distinguishes section 100’s requisition threshold/timetable from Rule 17’s requisitionists-meeting procedure. Canonical topic commit `091f6e3c248843f17b61267f085e55637ca5299f`; Rule 17 source record `84e9941f81c2210a852b46992edbd2477e469100`; app mirror `f411c78e948882b95e0ae5e08ed8c2b7fd81ee2e`. Source is an ICSI reproduction, not Gazette-primary; current official rule verification remains open. Do not mark verified/published or close the range.
+
+
+Rule 17 source-link correction (2026-10-09): the canonical section 100 topic now attaches `source:india:companies-management-administration-rules-2014-rule-17` in the topic-level source array (commit `41fc0d96e0123b477cdd80dc69e021edd523d324`). Focused JSON/reference validation is required; the source remains a professional-institute reproduction, not Gazette-primary.
