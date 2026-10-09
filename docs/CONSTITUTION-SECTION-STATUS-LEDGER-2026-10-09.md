@@ -7,9 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P4** | Omitted, Part I, Parliament, Union Exec/Judiciary, DPSP | **COMPLETE** |
-| **P5** | State Executive & Legislature core | **COMPLETE** (core) |
-| **P6** | High Courts structural (214–231 living) | **IN_PROGRESS** |
+| **P0–P6** | Omitted, Part I, Parliament, Union Exec/Judiciary, DPSP, State Exec/Leg, High Courts | **COMPLETE** |
+| **P7** | Emergency (352–360) & Amendment (368) | **IN_PROGRESS** |
 
-## P6 progress
-Done this commit: 214–217, 219–224, 226–229, 231.
+## P7 progress
+Done this commit: 352–360, 368.
