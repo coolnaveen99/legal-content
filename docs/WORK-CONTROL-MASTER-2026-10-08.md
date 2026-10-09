@@ -114,3 +114,8 @@ Rule 17 follow-up (2026-10-09, existing claim `current-assistant-company-s100-s1
 
 
 Rule 17 source-link correction (2026-10-09): the canonical section 100 topic now attaches `source:india:companies-management-administration-rules-2014-rule-17` in the topic-level source array (commit `41fc0d96e0123b477cdd80dc69e021edd523d324`). Focused JSON/reference validation is required; the source remains a professional-institute reproduction, not Gazette-primary.
+
+
+
+
+Rule 18 follow-up (2026-10-09, existing claim `current-assistant-company-s100-s103`): section 101 now distinguishes section 101’s notice period/recipient rules from Rule 18’s electronic-notice and proof-of-sending requirements. Canonical topic commit `4ba10b73bbec76948efac6d257e3ce3d2b915cc3`; source record `085f823a7e4b7577a3ab749fe7df9741f1217c82`; app mirror `c26c6a9337f0cfd00709f5aef73fbdda60c549a1`. Source is a secondary reproduction, not Gazette-primary; current official rule verification remains open.
