@@ -6,6 +6,7 @@
  * legal source's verification status and never authorizes publication.
  */
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -168,9 +169,11 @@ export async function validatePdfTarget(target, options = {}) {
   const fetchImpl = options.fetchImpl || globalThis.fetch;
   const sleep = options.sleep || delay;
   const environment = options.environment || "CI";
+  let inferredHost = target.expectedOfficialHost || "";
+  if (!inferredHost) { try { inferredHost = new URL(target.url).hostname; } catch { inferredHost = ""; } }
   const base = {
     ...target,
-    expectedOfficialHost: target.expectedOfficialHost || new URL(target.url).hostname,
+    expectedOfficialHost: inferredHost,
     maxAttempts,
     environment,
   };
@@ -193,9 +196,10 @@ export async function validatePdfTarget(target, options = {}) {
         } else {
           const buffer = new Uint8Array(await response.arrayBuffer());
           const signature = buffer.length >= 5 && new TextDecoder().decode(buffer.slice(0, 5)) === "%PDF-" ? "valid" : "invalid";
+          const checksumSha256 = crypto.createHash("sha256").update(buffer).digest("hex");
           // No PDF parser is installed in this repository. A header signature alone
           // is insufficient for PASS, so received bytes remain pending review.
-          last = classifyPdfAttempt({ ...base, attempts: attempt, httpStatus: response.status, finalUrl, contentType, byteLength: buffer.length, signature, parseStatus: signature === "invalid" ? "unknown" : "unknown" });
+          last = classifyPdfAttempt({ ...base, attempts: attempt, httpStatus: response.status, finalUrl, contentType, byteLength: buffer.length, checksumSha256, signature, parseStatus: "unknown" });
         }
       } else {
         const textPrefix = response.ok ? await response.clone().text().catch(() => "") : "";
@@ -283,7 +287,7 @@ async function main() {
   const results = [];
   for (const target of targets) {
     if (!target?.sourceId || !target?.title || !target?.url || !target?.expectedOfficialHost) {
-      results.push(classifyPdfAttempt({ ...target, error: "Missing required sourceId/title/url/expectedOfficialHost metadata.", attempts: 1 }));
+      results.push(classifyPdfAttempt({ ...target, url: target?.url || "", error: "Missing required sourceId/title/url/expectedOfficialHost metadata.", attempts: 1 }));
       continue;
     }
     results.push(await validatePdfTarget(target));
