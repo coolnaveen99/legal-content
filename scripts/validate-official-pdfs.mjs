@@ -211,6 +211,38 @@ export async function validatePdfTarget(target, options = {}) {
   return last;
 }
 
+export function closeManualReview(item, review) {
+  if (item?.outcome !== PDF_OUTCOME.MANUAL_REVIEW_REQUIRED) {
+    throw new Error("Only MANUAL_REVIEW_REQUIRED items can be manually reviewed.");
+  }
+  if (!review?.reviewer || !review?.reviewedAt || !review?.identityCheck || !review?.legibilityNotes || !Array.isArray(review?.evidence) || review.evidence.length === 0) {
+    throw new Error("Manual closure requires reviewer, reviewedAt, identityCheck, legibilityNotes and evidence.");
+  }
+  if (!["verified", "rejected", "pending"].includes(review.finalReviewOutcome)) {
+    throw new Error("finalReviewOutcome must be verified, rejected, or pending.");
+  }
+  return {
+    ...item,
+    reviewer: review.reviewer,
+    reviewedAt: review.reviewedAt,
+    browserOpens: review.browserOpens ?? null,
+    identityCheck: review.identityCheck,
+    pageCount: Number.isInteger(review.pageCount) ? review.pageCount : null,
+    ocrResult: review.ocrResult || "not_recorded",
+    legibilityNotes: review.legibilityNotes,
+    checksumSha256: review.checksumSha256 || item.checksumSha256 || null,
+    finalReviewOutcome: review.finalReviewOutcome,
+    evidence: [...(item.evidence || []), ...review.evidence],
+    nextAction: review.finalReviewOutcome === "pending"
+      ? "Complete the remaining identity/legibility checks and record evidence."
+      : review.finalReviewOutcome === "rejected"
+        ? "Reject this document as a usable source and locate an authoritative replacement."
+        : "Technical manual review recorded. Statutory/case-law verification and publication gates remain separate.",
+    legalVerificationChanged: false,
+    publicationAuthorized: false,
+  };
+}
+
 export function buildManualReviewQueue(results, generatedAt = new Date().toISOString()) {
   const items = results
     .filter((r) => r.outcome === PDF_OUTCOME.MANUAL_REVIEW_REQUIRED)
