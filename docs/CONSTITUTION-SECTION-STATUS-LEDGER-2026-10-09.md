@@ -7,8 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P7** | Omitted through Emergency & Amendment | **COMPLETE** |
-| **P8** | Part XIV — Services (308–323) | **SUBSTANTIALLY COMPLETE** |
+| **P0–P8** | Omitted through Services | **COMPLETE** |
+| **P9** | Part XV — Elections (324–329A) | **COMPLETE** |
 
-## P8 progress
-Core Services articles remediated: 308–312, 315–318, 320, 323.
+## P9 progress
+Done: 324–329, 329A (repealed note).
