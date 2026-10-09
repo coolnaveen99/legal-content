@@ -67,3 +67,8 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - Current check: ten required enhancement fields are absent; recent commit search found the analysis commit and no matching PR.
 - Planned change: add Article 243N-specific structured explanations and clearly hypothetical examples; do not invent authorities or claim legal verification.
 - Validation and commit evidence: pending. Repository-wide validation and statutory/current-law review remain open.
+### Article 243N enhancement structure — result
+- **Article commit:** `3491331d6ce6acc3ca437511a42b784de0784b07` (direct to `main`); resulting article blob `89fc29bd4d37fcae34a043ee20eac224e1938a46`.
+- **Validation evidence:** Re-fetched Article 243N from `main`; JSON parsing passed. All 14 required enhancement keys are present and the targeted required-field checks passed. Existing overview, study content and both sections were preserved. The `caseLaw` array remains empty; no unverified cases were added.
+- **Source boundary:** The article text and two distinct transitional rules were cross-checked against the official Constitution text published by the Legislative Department. This does not establish comprehensive current-law or case-law verification.
+- **Status boundary:** Article remains `in-progress`. Full enhancement validator/repository pipeline, statutory/current-law verification, case verification, integration, SEO and production checks remain open.
