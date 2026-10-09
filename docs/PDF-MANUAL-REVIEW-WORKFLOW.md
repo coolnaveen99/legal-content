@@ -11,7 +11,7 @@ The current runtime deliberately does not ship a PDF parsing/OCR dependency. It 
 ## Run
 
 1. Create a local or reviewed JSON target list using the shape in `docs/official-pdf-targets.example.json`.
-2. Include only known source records, and set `expectedOfficialHost` to the exact issuing authority host confirmed from official metadata. Do not use a broad parent domain such as `gov.in`.
+2. Include only known source records, set `expectedOfficialHost` to the exact issuing authority host confirmed from official metadata, and assign `reviewOwner` to a responsible person or role. Do not use a broad parent domain such as `gov.in`.
 3. Run:
 
    ```sh
