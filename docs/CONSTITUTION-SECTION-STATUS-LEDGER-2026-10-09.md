@@ -11,6 +11,19 @@
 | **P13** | Part IX — Panchayats (core) | **IN_PROGRESS** |
 
 ## P13 progress
+## Active work claim — Article 243B
+
+- **Subject:** Constitution of India — Part IX (Panchayats)
+- **Topic/range:** `topics/constitution/art-243b.json` — Article 243B only
+- **Current main evidence:** Latest inspected main commit `4ecafe7ffad0172f5d93c967f1907e3788f7a84a`; Article file blob `08a1abdbadbeadc7e7ed070af6458d03e7b203ea`.
+- **Current status:** Enhancement remains `in-progress`; no dedicated article-specific doctrinal analysis section.
+- **Current owner:** coolnaveen99 (direct-to-main workflow); no matching 243B PR found in PR search. Recent main history and current file checked.
+- **Latest evidence:** Existing file states the three-tier rule and intermediate-level exception; official Constitution text previously located through the Legislative Department and India Code.
+- **Missing gate:** Focused article-specific enhancement; then JSON validation and ledger evidence. Repository-wide validation remains separately open.
+- **Planned change:** Add a bounded article-specific analysis distinguishing the constitutional tier rule, the population exception, and the need to read territorial exceptions and implementation rules from the applicable constitutional/state-law provisions; do not add unverified state-specific claims.
+- **Validation:** Pending; validate JSON after change and re-fetch committed file. Do not mark Article 243B legally verified or complete based on editorial review alone.
+- **Evidence/commit:** Claim only; implementation not yet made.
+
 Earlier completed core articles: 243, 243B–243E, 243G, 243K, 243N.
 
 ## Additional article-specific remediation — 2026-10-09
