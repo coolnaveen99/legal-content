@@ -10,7 +10,8 @@
 | **P0** | Omitted / inoperative | **COMPLETE** |
 | **P1** | Part I + Citizenship | **COMPLETE** |
 | **P2** | Parliamentary (79–122) | **COMPLETE** (QUAL) |
-| **P3** | Union Executive (52–78) & Judiciary structural (124–147 living) | **SUBSTANTIALLY COMPLETE** |
+| **P3** | Union Executive & Judiciary structural | **COMPLETE** (QUAL) |
+| **P4** | Part IV — Directive Principles (36–51) | **IN_PROGRESS** |
 
-## P3 final
-Core President, VP, Council of Ministers, AG, conduct of business, SC establishment, jurisdiction (original, appellate, SLP, review), enforcement, rule-making, and related structural articles remediated.
+## P4 progress
+Core DPSP articles remediated this commit (36–51 living set).
