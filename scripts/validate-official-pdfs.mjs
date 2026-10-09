@@ -260,11 +260,12 @@ export function buildManualReviewQueue(results, generatedAt = new Date().toISOSt
       publicationAuthorized: false,
     }))
     .sort((a, b) => String(a.sourceId || a.url).localeCompare(String(b.sourceId || b.url)));
+  const pendingCount = items.filter((x) => x.finalReviewOutcome === "pending").length;
   return {
     schemaVersion: "v1",
     generatedAt,
-    status: items.length ? "PASS_WITH_MANUAL_REVIEW_REQUIRED" : "PASS",
-    pendingCount: items.filter((x) => x.finalReviewOutcome === "pending").length,
+    status: pendingCount ? "PASS_WITH_MANUAL_REVIEW_REQUIRED" : "PASS",
+    pendingCount,
     legalVerificationAuthorized: false,
     publicationAuthorized: false,
     items,
