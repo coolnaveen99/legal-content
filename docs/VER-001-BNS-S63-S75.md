@@ -67,3 +67,16 @@ The previously recorded omissions in the derived `Essential ingredients` extract
 - **s. 75:** restored the complete cross-references for sub-section (2) (clauses (i)–(iii) of sub-section (1)) and sub-section (3) (clause (iv) of sub-section (1)).
 
 These are completeness fixes to derived extracts, not a substitute for checking the full operative section, explanations, exceptions, current amendments, case law or commentary. All topics remain `review`; the 2026-10-08 source cutoff and current-law limitation in the original report remain applicable.
+
+
+## Current-main follow-up — 2026-10-09: Section 65 proviso structure
+
+A targeted review of topics/bns/s-65.json found that the study note and the “Exceptions and provisos” block repeated the fine-related provisos without distinguishing their statutory placement. BNS s. 65(1) and s. 65(2) each have their own pair of provisos; the phrase “under this sub-section” must be tied to the applicable subsection. The “The legal rule” block did not include those provisos, while “Essential ingredients” attached one pair after both subsections, obscuring the statutory structure.
+
+Corrected on current main:
+- The “The legal rule” block now includes both subsections and the two provisos immediately following each applicable subsection.
+- “Essential ingredients” contains the two punishment clauses without misplacing provisos as ingredients.
+- “Exceptions and provisos”, the study note, and both Q&A answers identify the separate subsection (1) and subsection (2) proviso sets.
+- No case-law proposition or topic verification status was changed. Topic status remains review; human legal verification and current-law sign-off remain open.
+
+Source checked: enacted BNS text, section 65, in the India Code Act text: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf. This pass is limited to subsection/proviso structure; it does not establish whether later amendments affect the section.
