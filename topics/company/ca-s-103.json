@@ -8,8 +8,8 @@
   "jurisdiction": "India",
   "content": {
     "overview": "Section 103 sets statutory minimum quorum for general meetings, subject to the articles providing a larger number, and prescribes what happens when quorum is absent at the appointed time and at an adjourned meeting.",
-    "glance": "Check the company type, member count, articles and personal presence. Section 103 sets different public-company thresholds and a two-member threshold for private companies, with adjournment/cancellation rules.",
-    "study": "## Minimum quorum\nUnless the articles provide for a larger number, a public company’s quorum is five members personally present where the number of members is not more than 1,000; fifteen where it is more than 1,000 but not more than 5,000; and thirty where it exceeds 5,000. For a private company, the statutory quorum is two members personally present. Check applicable company-specific exemptions or modifications and the articles before applying the default.\n\n## Absence of quorum\nIf quorum is not present within half an hour after the appointed time, a meeting called by the Board is ordinarily adjourned to the same day in the next week at the same time and place, or to another date/time/place determined by the Board. A meeting called by requisitionists under section 100 stands cancelled. For an adjournment or change under section 103(2)(a), the company must give at least three days’ notice to members individually or by the specified newspaper advertisements.\n\nIf quorum is still absent within half an hour at the adjourned meeting, the members present form the quorum under section 103(3). Do not apply that final rule to a requisitionists’ meeting cancelled under section 103(2)(b).",
+    "glance": "Check the company type, member count, articles and personal presence. Section 103 sets different public-company thresholds and a two-member threshold for private companies, with adjournment/cancellation rules. This section does not apply to an OPC: see section 122(1) and its separate procedure.",
+    "study": "## Minimum quorum\nUnless the articles provide for a larger number, a public company’s quorum is five members personally present where the number of members is not more than 1,000; fifteen where it is more than 1,000 but not more than 5,000; and thirty where it exceeds 5,000. For a private company, the statutory quorum is two members personally present. Check applicable company-specific exemptions or modifications and the articles before applying the default.\n\n## Absence of quorum\nIf quorum is not present within half an hour after the appointed time, a meeting called by the Board is ordinarily adjourned to the same day in the next week at the same time and place, or to another date/time/place determined by the Board. A meeting called by requisitionists under section 100 stands cancelled. For an adjournment or change under section 103(2)(a), the company must give at least three days’ notice to members individually or by the specified newspaper advertisements.\n\nIf quorum is still absent within half an hour at the adjourned meeting, the members present form the quorum under section 103(3). Do not apply that final rule to a requisitionists’ meeting cancelled under section 103(2)(b).\n\n## One Person Company limitation\nSection 122(1) expressly provides that sections 98 and 100–111 do not apply to a One Person Company (OPC). Do not apply this section’s ordinary meeting mechanics to an OPC as if it were an ordinary company. Section 122(2)–(3) separately governs how ordinary business that would otherwise be transacted at an AGM is handled for an OPC. Confirm OPC status and apply the current section 122 procedure before advising.",
     "sections": [
       {
         "heading": "Thresholds and articles",
@@ -30,6 +30,11 @@
         "heading": "Adjourned meeting",
         "body": "If quorum is again absent within half an hour at the adjourned meeting, the members present constitute quorum under section 103(3). Keep this rule distinct from cancellation of a requisitionists’ meeting.",
         "order": 4
+      },
+      {
+        "heading": "One Person Company limitation",
+        "body": "Section 122(1) disapplies sections 98 and 100–111 to an OPC. Section 122(2)–(3) supplies a separate procedure for ordinary business otherwise transacted at an AGM. Confirm whether the company is an OPC before applying this section.",
+        "order": 5
       }
     ],
     "provisions": [
@@ -87,6 +92,10 @@
         "id": "ca-s-103-trap-2",
         "trap": "Treating the existence of a notice, requisition, explanatory statement or attendance list as automatic proof of statutory compliance.",
         "correction": "Test the relevant contents, recipients, consent, voting entitlement, personal presence and timing separately."
+      },
+      {
+        "misconception": "Sections 100–103 apply to every company in the same way, including a One Person Company.",
+        "correction": "Section 122(1) expressly disapplies sections 100–111 to an OPC; section 122(2)–(3) provides a separate route for ordinary business at an OPC's AGM."
       }
     ],
     "cases": [],
@@ -101,7 +110,8 @@
     ],
     "bareActPointers": [
       "Companies Act, 2013, section 103",
-      "Companies Act, 2013, section 100 (requisitionists’ meeting)"
+      "Companies Act, 2013, section 100 (requisitionists’ meeting)",
+      "Companies Act, 2013, section 122(1)–(3) (OPC applicability and separate procedure)"
     ],
     "examTips": [
       "State the operative rule in section 103, identify every statutory condition, and apply it to the stated facts.",
@@ -113,7 +123,8 @@
       "If quorum is absent within half an hour, a Board-called meeting is ordinarily adjourned under section 103(2)(a); a meeting called by requisitionists under section 100 is cancelled under section 103(2)(b).",
       "For an adjournment or change under clause (a), give not less than three days’ notice to members individually or by the statutory newspaper-advertisement method.",
       "If quorum is again absent within half an hour at the adjourned meeting, the members present constitute quorum under section 103(3). Keep this rule distinct from cancellation of a requisitionists’ meeting.",
-      "Status remains under source/legal review; this update does not certify all amendments, rules, exemptions or case law."
+      "Status remains under source/legal review; this update does not certify all amendments, rules, exemptions or case law.",
+      "Applicability check: section 122(1) disapplies sections 98 and 100–111 to an OPC; apply section 122(2)–(3) separately where relevant."
     ],
     "relatedJudgments": [
       {
@@ -193,9 +204,10 @@
   },
   "sources": [
     "source:india:india-code-companies-act-2013-s-103",
-    "source:india:india-code-companies-act-2013"
+    "source:india:india-code-companies-act-2013",
+    "source:india:companies-act-2013-s-122-opc-exemption"
   ],
-  "updatedAt": "2026-10-09T18:45:00.000Z",
+  "updatedAt": "2026-10-09T21:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
