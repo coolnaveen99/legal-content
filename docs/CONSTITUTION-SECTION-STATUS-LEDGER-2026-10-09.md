@@ -55,3 +55,8 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - **Planned change:** Add only Article 243G-specific learning objectives, definition, legal principle, statutory framework, essential ingredients, detailed explanation, hypothetical examples clearly labelled as hypotheticals, distinctions, problem application, and exam answer structure. Do not add case citations or claim independent legal verification.
 - **Validation:** Pending; after edit, parse JSON, check all required enhancement keys, re-fetch main and record exact commit. If the platform blocks the article write, do not bypass it; record the blocker and stop.
 - **Evidence/commit:** Claim recorded before editing in this ledger update.
+
+### Article 243G enhancement structure — result
+- **Article commit:** `5c97b394c0dd2f98b47bc92bceb8ed7735ead36e` (direct to `main`); resulting article blob `ac3d208ecb2b31d4679ca2d19df662d5391990e9`.
+- **Validation evidence:** Re-fetched the committed article from `main`; JSON parse passed. All 14 required enhancement keys are present. The `caseLaw` array is intentionally empty rather than populated with unverified citations. Article-specific analysis remains present.
+- **Status boundary:** Enhancement-field structure is addressed, but the topic remains `in-progress`. This targeted check is not a run of `npm run validate:enhancements` or the full repository pipeline, and it does not establish statutory/current-law verification, case verification, integration, SEO or production readiness.
