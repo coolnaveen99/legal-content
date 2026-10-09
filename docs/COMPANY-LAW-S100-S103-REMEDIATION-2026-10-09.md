@@ -235,3 +235,7 @@ Inspected the High Court-hosted PDF of the Companies (Management and Administrat
 - Rule 17 source record updated with provenance qualification.
 - Rule 18 source record updated with provenance qualification.
 - Inventory and work-control master updated; sections 100–103 remain `verification_in_progress` / `SOURCE_CHECK_REQUIRED`.
+
+## Rule 18 amendment-chain check — G.S.R. 279(E), 6 April 2022
+
+Inspected the official Gazette PDF at https://egazette.gov.in/WriteReadData/2022/234911.pdf. The operative amendment inserts Rule 14(3), not Rule 18; the notification’s amendment-history note lists preceding instruments through G.S.R. 159(E), 5 March 2021. Added a review-only source record and linked it from the Rule 18 source register. This narrows the scope of the 2022 instrument only; it does not prove no other amendment affects Rule 18 and does not establish a consolidated current Rule 18. Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; full current-rule reconciliation, case-law, repository validators/build/E2E, SEO, production and legal sign-off remain open.
