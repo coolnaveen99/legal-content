@@ -36,6 +36,7 @@ export function classifyPdfAttempt(input) {
     title: input.title || null,
     url: input.url || null,
     expectedOfficialHost: input.expectedOfficialHost || null,
+    reviewOwner: input.reviewOwner || null,
     attemptedAt: now,
     environment: input.environment || "unspecified",
     attempts: Number.isInteger(input.attempts) ? input.attempts : 1,
@@ -260,7 +261,10 @@ export function buildManualReviewQueue(results, generatedAt = new Date().toISOSt
       publicationAuthorized: false,
     }))
     .sort((a, b) => String(a.sourceId || a.url).localeCompare(String(b.sourceId || b.url)));
-  const pendingCount = items.filter((x) => x.finalReviewOutcome === "pending").length;
+  const pendingItems = items.filter((x) => x.finalReviewOutcome === "pending");
+  const missingOwner = pendingItems.filter((x) => !x.reviewOwner || !x.nextAction);
+  if (missingOwner.length) throw new Error(`Pending manual-review items must have reviewOwner and nextAction: ${missingOwner.map((x) => x.sourceId || x.url).join(", ")}`);
+  const pendingCount = pendingItems.length;
   return {
     schemaVersion: "v1",
     generatedAt,
@@ -314,7 +318,7 @@ async function main() {
   if (!Array.isArray(targets)) throw new Error("PDF targets file must contain a JSON array.");
   const results = [];
   for (const target of targets) {
-    if (!target?.sourceId || !target?.title || !target?.url || !target?.expectedOfficialHost) {
+    if (!target?.sourceId || !target?.title || !target?.url || !target?.expectedOfficialHost || !target?.reviewOwner) {
       results.push(classifyPdfAttempt({ ...target, url: target?.url || "", error: "Missing required sourceId/title/url/expectedOfficialHost metadata.", attempts: 1 }));
       continue;
     }
