@@ -271,6 +271,33 @@ export function buildManualReviewQueue(results, generatedAt = new Date().toISOSt
   };
 }
 
+export function mergeManualReviewQueue(results, previousQueue, generatedAt = new Date().toISOString()) {
+  const previous = new Map((previousQueue?.items || []).map((item) => [`${item.sourceId || ""}|${item.url || ""}`, item]));
+  const merged = results.map((result) => {
+    if (result.outcome !== PDF_OUTCOME.MANUAL_REVIEW_REQUIRED) return result;
+    const old = previous.get(`${result.sourceId || ""}|${result.url || ""}`);
+    // Preserve a completed review only when a fetched-byte checksum proves the
+    // reviewed document is byte-identical. Without a checksum, re-open the review.
+    if (!old || !result.checksumSha256 || old.checksumSha256 !== result.checksumSha256 || old.finalReviewOutcome === "pending") return result;
+    return {
+      ...result,
+      reviewer: old.reviewer,
+      reviewedAt: old.reviewedAt,
+      browserOpens: old.browserOpens,
+      identityCheck: old.identityCheck,
+      pageCount: old.pageCount,
+      ocrResult: old.ocrResult,
+      legibilityNotes: old.legibilityNotes,
+      finalReviewOutcome: old.finalReviewOutcome,
+      evidence: [...(result.evidence || []), ...(old.evidence || [])],
+      nextAction: old.nextAction,
+      legalVerificationChanged: false,
+      publicationAuthorized: false,
+    };
+  });
+  return buildManualReviewQueue(merged, generatedAt);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const targetArg = args.find((x) => x.startsWith("--targets="))?.slice("--targets=".length);
@@ -292,7 +319,12 @@ async function main() {
     }
     results.push(await validatePdfTarget(target));
   }
-  const queue = buildManualReviewQueue(results);
+  const outputPath = path.resolve(ROOT, outputArg || "docs/pdf-manual-review-queue.json");
+  let previousQueue = null;
+  if (fs.existsSync(outputPath)) {
+    try { previousQueue = JSON.parse(fs.readFileSync(outputPath, "utf8")); } catch { throw new Error("Existing manual-review queue is invalid JSON; refusing to overwrite audit evidence."); }
+  }
+  const queue = mergeManualReviewQueue(results, previousQueue);
   const report = {
     generatedAt: new Date().toISOString(),
     technicalGate: queue.status,
@@ -302,7 +334,6 @@ async function main() {
     publicationAuthorized: false,
     results,
   };
-  const outputPath = path.resolve(ROOT, outputArg || "docs/pdf-manual-review-queue.json");
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(queue, null, 2) + "\n");
   console.log(`PDF TECHNICAL GATE: ${queue.pendingCount ? `PASS WITH MANUAL REVIEW REQUIRED (${queue.pendingCount} pending)` : queue.status}`);
