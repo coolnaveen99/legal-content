@@ -1,36 +1,30 @@
-# BNS Section 61 Statutory Wording Correction — 2026-10-09
+# BNS Section 61 Statutory Wording Reconciliation — 2026-10-09
 
 **Repository:** `coolnaveen99/legal-content`  
 **Branch:** `main`  
 **Topic:** `topics/bns/s-61.json` — Criminal conspiracy  
-**Scope:** One exact mismatch in the statutory `The legal rule` block. No commentary, case-law, status, or enhancement fields changed.
+**Status:** Previous correction superseded by direct source recheck.
 
-## Finding
+## Source recheck and disposition
 
-The stored rule began:
+An earlier commit removed the words “with the common object” because they were believed not to appear in the enacted wording. A direct recheck of the official India Code BNS PDF disproved that conclusion: the official PDF text states:
 
-> “When two or more persons agree with the common object to do, or cause to be done—”
+> “61. Criminal conspiracy.—(1) When two or more persons agree with the common object to do, or cause to be done—”
 
-The enacted BNS section 61 wording is:
+The previous removal was therefore incorrect and has been reversed. The current topic now matches the wording shown in the official India Code PDF for this opening phrase.
 
-> “When two or more persons agree to do, or cause to be done—”
+## Authoritative source
 
-The phrase **“with the common object”** was not part of the quoted statutory text and has been removed. This is a transcription correction only; it does not change the topic's legal analysis or review status.
+- India Code, *The Bharatiya Nyaya Sanhita, 2023*, Act No. 45 of 2023, section 61: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf
+- The web-rendered PDF text displays the same phrase at lines 1376–1377: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf
 
-## Source
+## Commit history
 
-- Gazette of India, Extraordinary, BNS Act 45 of 2023, 25 December 2023: https://egazette.gov.in/WriteReadData/2024/253386.pdf
-- Ministry of Home Affairs, New Criminal Laws source page linking the BNS text: https://www.mha.gov.in/en/commoncontent/new-criminal-laws
+- Earlier removal (superseded): `7696ed615f0f549d23995d83df766baae84e95f6`
+- Restored official-source wording: `9c533d9861c30b44332842c45446071107d6b907`
 
-The Gazette PDF endpoint returned a fetch error during this pass, so the text was checked against the enacted BNS wording available in the official government BNS text. Re-open and line-by-line compare the complete provision against a directly readable Gazette/official Act copy during the full statutory reconciliation.
+## Verification limits
 
-## Validation limits
-
-- The exact targeted phrase is corrected and must be re-fetched to confirm the committed bytes.
-- This is **not** a full word-by-word statutory verification of section 61.
-- Topic status remains `review`; legal-source provenance, commentary, case-law, current-law checks and human legal sign-off remain open.
-- Latest full CI runs failed at `validate:enhancements` because of a wider catalogue backlog (hundreds of missing enhancement fields, concentrated in Constitution topics). Do not treat that unrelated backlog as passed or as evidence that this BNS correction failed.
-
-## Commit
-
-- Topic correction: `7696ed615f0f549d23995d83df766baae84e95f6`
+- The exact opening phrase was re-fetched after the restoration.
+- This is not a full word-by-word reconciliation of all section 61 wording, illustrations (if applicable), commentary or current-law status.
+- The topic remains `review`; human legal sign-off and the remaining BNS closure gates are open.
