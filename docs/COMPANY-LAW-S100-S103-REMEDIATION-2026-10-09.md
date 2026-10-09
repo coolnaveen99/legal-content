@@ -226,3 +226,12 @@ Retrieved and inspected the IndiaCode-hosted Gazette PDF copy of the 13 July 201
 - Canonical source record: `sources/companies-act-2013-private-company-meeting-exemptions.json`.
 - Updated canonical topics and app mirrors: `ca-s-102`, `ca-s-103`.
 - Sections 100–103 remain `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; company-specific eligibility/articles, direct MCA primary copies/current-law, independent case-law, repository-wide validation, app build/E2E, SEO, production and legal sign-off remain open.
+
+
+## Rule 17/18 original-text provenance check — 2026-10-09
+
+Inspected the High Court-hosted PDF of the Companies (Management and Administration) Rules, 2014 at https://thc.nic.in/Central%20Governmental%20Rules/Companies%20%28Management%20and%20Administration%29%20Rules%2C2014.pdf. It contains the original Rule 17 requisitionists’ meeting text and Rule 18 electronic-notice text, but its first page labels it “[To be Published in the Gazette]” and gives 27 March 2014 without the final G.S.R. 260(E) number. It is therefore recorded only as a court-hosted baseline cross-check, not treated as the final Gazette instrument. Rule 17’s 2016 amendment and Rule 18’s 2018 deletion remain verified only to the limited scope of their respective amendment notifications; the complete current consolidated text and full amendment chain remain open.
+
+- Rule 17 source record updated with provenance qualification.
+- Rule 18 source record updated with provenance qualification.
+- Inventory and work-control master updated; sections 100–103 remain `verification_in_progress` / `SOURCE_CHECK_REQUIRED`.
