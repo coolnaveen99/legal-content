@@ -144,3 +144,12 @@ Continued the recursive pattern audit and repaired derived hypothetical/essentia
 Pattern scans of s. 151–180 found no split-reference markers, though s. 170's list formatting needs semantic review rather than a blind label replacement. A scan of s. 181–195 found and corrected the confirmed duplicate-label issues in s. 182, s. 191, s. 193, s. 194 and s. 195. A scan of s. 196–210 found and corrected s. 197's duplicated opening label. A scan of s. 226–240 found and corrected s. 229, s. 230 and s. 232. Other detected issues, including s. 139, s. 143 and s. 144, remain open for careful review. All affected topics remain `review`.
 
 This is still a targeted import-artifact pass. It does not establish that every BNS section is word-for-word reconciled, that all amendments/commencement notices are current, or that case law and downstream production gates are complete. Full-catalog validation and qualified human legal sign-off remain required.
+
+
+## BNS Sections 229–358: extended derived-extract audit — 2026-10-09
+
+Additional targeted repairs were made to generated hypotheticals in s. 297 (removed imported Chapter XVI heading fragments and corrected repeated subsection labels), s. 308, s. 310, s. 324, s. 327, s. 329, s. 331, s. 334 (removed an imported Chapter XVIII heading fragment), s. 336 and s. 340. Section 197 and s. 229–232 fixes are recorded above. These edits were limited to derived hypothetical text and did not intentionally alter the operative statutory-rule blocks.
+
+A pattern scan of s. 241–285 returned no duplicate-label or split-reference matches; s. 286–300 flagged s. 294 and s. 297; s. 301–315 flagged s. 308 and s. 310; s. 316–340 flagged s. 319, s. 330 and additional sections including s. 334, s. 336 and s. 340; s. 341–358 still contains review leads including s. 341, s. 342, s. 345, s. 347, s. 350, s. 351, s. 353, s. 356 and s. 358. Some tool writes on sensitive legal-text files were blocked, so those items remain unmodified pending careful review rather than claiming false closure.
+
+The audit is not a full statutory reconciliation. The official India Code BNS text remains the baseline source; this pass does not establish amendment/commencement completeness, case-law accuracy, or human legal sign-off. Full-catalog validation and downstream integration/SEO/production gates remain open.
