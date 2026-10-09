@@ -18,6 +18,7 @@ jobs:
       - run: npm run manifest:refresh
       - run: npm run validate
       - run: npm run validate:enhancements
+      - run: npm run test:pdf-validation
       - run: npm run test:relationships
       - run: npm run verify:fv005-fv010
       - run: npm run verify:fv011
