@@ -98,3 +98,10 @@ A fresh live-file check found that, despite the prior note saying the cross-refe
 Corrected the derived study ingredients and enhancement ingredients to identify all four acts in s. 75(1), and restored the exact punishment cross-references: s. 75(2) applies to clauses (i), (ii) and (iii) of subsection (1); s. 75(3) applies to clause (iv) of subsection (1). Targeted broken references in generated hypothetical/Q&A material were also corrected where present. The operative `The legal rule` block was not changed. Topic status remains `review`.
 
 Source: official India Code BNS Act text, s. 75: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a2023-45.pdf. The source verifies the enacted text; this targeted correction is not a current-amendment scan or legal sign-off.
+
+
+## Second-pass correction — 2026-10-09: residual Section 75 generated-answer defects
+
+After the preceding targeted check, a deeper recursive scan of the current topic JSON found three residual occurrences of the truncated punishment cross-reference in the generated hypothetical (one) and Q&A answers (two). The earlier “no remaining truncated patterns” statement did not cover these occurrences reliably. Replaced each with a complete, accurate distinction: subsection (2) applies to clauses (i)–(iii) of subsection (1), while subsection (3) applies to clause (iv), with the corresponding penalty tiers. No statutory-text block was changed.
+
+Current-main verification after commit: JSON parses; recursive scan confirms no remaining malformed “specified in clause” punishment extract in the topic; the two penalty tiers are stated in each repaired answer. Topic status remains `review`. This does not certify full-catalog validation, current-law amendments, case-law propositions, or legal sign-off.
