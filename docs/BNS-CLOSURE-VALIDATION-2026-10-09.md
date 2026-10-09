@@ -63,7 +63,7 @@ Evidence: [VER-001 missing statutory-block execution record](https://github.com/
 - Section 113: appended the final Explanation concerning the Superintendent of Police decision on registration under BNS s. 113 or UAPA; full block reconciliation remains open.
 - Section 106(2): commencement exception recorded in the topic. The MHA Annual Report 2025–26 repeats that s. 106(2) was excluded from commencement; check for a later Gazette notification and obtain human legal sign-off before closure.
 - Import artefacts: targeted cleanup completed for sections 60, 62, 73, 307 and 308. See [cleanup evidence](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-IMPORT-ARTEFACT-CLEANUP-2026-10-09.md).
-- Section 61: corrected the statutory opening sentence by removing the unsupported words “with the common object”. See [Section 61 correction evidence](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-S61-STATUTORY-WORDING-CORRECTION-2026-10-09.md).
+- Section 61: an earlier attempt to remove “with the common object” was reversed after direct recheck showed those words in the official India Code PDF. Current topic restored to the official PDF wording. See [Section 61 reconciliation evidence](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-S61-STATUTORY-WORDING-CORRECTION-2026-10-09.md).
 - No affected topic was promoted beyond `review`.
 
 ### Current CI result
@@ -79,3 +79,8 @@ The failure remains `validate:enhancements`, reporting missing required enhancem
 
 **BNS remains OPEN and is not eligible for `COMPLETE_LOCKED`.** The next content gate is formal section-by-section statutory reconciliation and current-law verification, followed by case/judgment verification, a complete BNS inventory ledger, clean current validation, BNS integration/SEO evidence, production/release/rollback evidence when runtime is available, and qualified human legal sign-off.
 
+
+
+### Section 61 source-reconciliation correction — 2026-10-09
+
+The earlier edit that removed “with the common object” was incorrect: the official India Code BNS PDF itself includes that phrase in section 61(1). The phrase has been restored on current `main` and the evidence note corrected. Commit: `9c533d9861c30b44332842c45446071107d6b907`. This reinforces that every statutory block requires comparison against the exact authoritative text; no broad statutory-verification gate is closed by the existence of a block.
