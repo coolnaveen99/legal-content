@@ -41,3 +41,41 @@ Checked the active work-control rules in `AGENTS.md` and `docs/WORK-CONTROL-MAST
 ## Closure decision
 
 **BNS remains OPEN.** The checked evidence is sufficient to reject closure now, but not sufficient to claim that the entire subject has been fully validated. In particular, the 16 statutory-text gaps, current-law checks, case-law verification, logged editorial issues, and final legal/integration/SEO/production/sign-off gates prevent closure. No topic status has been promoted and no content has been changed by this audit.
+
+---
+
+## Current-main recheck — 2026-10-09 03:43 UTC
+
+This addendum supersedes any earlier statement in this report that the 16 `The legal rule` blocks are still absent. The baseline cited in the original audit predates later direct commits.
+
+### Verified structural state
+
+The current `main` versions of all 16 affected topic files were fetched and parsed as JSON. Each contains exactly one `content.sections` entry headed `The legal rule`:
+
+`61, 63, 64, 69, 70, 100, 101, 103, 111, 112, 113, 116, 117, 303, 304, 309`.
+
+Evidence: [VER-001 missing statutory-block execution record](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-MISSING-STATUTORY-BLOCKS-2026-10-09.md).
+
+**Revised gate result:** Structural presence of the 16 blocks is **CLOSED**. Formal word-by-word reconciliation against the enacted Act remains **OPEN**. Existence of a block must not be described as proof that its complete text is accurate or current.
+
+### Subsequent changes reconciled
+
+- Section 113: appended the final Explanation concerning the Superintendent of Police decision on registration under BNS s. 113 or UAPA; full block reconciliation remains open.
+- Section 106(2): commencement exception recorded in the topic. The MHA Annual Report 2025–26 repeats that s. 106(2) was excluded from commencement; check for a later Gazette notification and obtain human legal sign-off before closure.
+- Import artefacts: targeted cleanup completed for sections 60, 62, 73, 307 and 308. See [cleanup evidence](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-IMPORT-ARTEFACT-CLEANUP-2026-10-09.md).
+- Section 61: corrected the statutory opening sentence by removing the unsupported words “with the common object”. See [Section 61 correction evidence](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-S61-STATUTORY-WORDING-CORRECTION-2026-10-09.md).
+- No affected topic was promoted beyond `review`.
+
+### Current CI result
+
+Latest runs observed at this recheck both failed on commit `fc0dd119d17f915df106195d5b94924c047b532d`:
+
+- [Validate legal content](https://github.com/coolnaveen99/legal-content/actions/runs/37880462893)
+- [validate-content](https://github.com/coolnaveen99/legal-content/actions/runs/37880462927)
+
+The failure remains `validate:enhancements`, reporting missing required enhancement fields across the catalogue, concentrated in Constitution topics. This means full CI is **RED**, later gated checks were skipped, and no catalogue-wide validation pass is claimed. Do not add generic filler to BNS topics to mask an unrelated catalogue backlog.
+
+### Current closure decision
+
+**BNS remains OPEN and is not eligible for `COMPLETE_LOCKED`.** The next content gate is formal section-by-section statutory reconciliation and current-law verification, followed by case/judgment verification, a complete BNS inventory ledger, clean current validation, BNS integration/SEO evidence, production/release/rollback evidence when runtime is available, and qualified human legal sign-off.
+
