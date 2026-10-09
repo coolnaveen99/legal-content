@@ -181,3 +181,16 @@ The source record for G.S.R. 464(E), 5 June 2015, read with G.S.R. 583(E), 13 Ju
 - App mirrors: s.102 `4ae001cf2047f728432306303748d850b6689420`; s.103 `d614fd5822ed3f5a4be4f07d48354c7e61cca50d`.
 - Inventory update: `6c30d36662424db5fe4df398fd1a2ae8737e92f4`.
 - Status remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Primary-text retrieval, later notification chain, company-specific eligibility/articles, independent case-law review, repository-wide validation, app build/E2E, SEO and production remain open.
+
+
+## Rule 18 2024 amendment-scope follow-up — 2026-10-09
+
+Retrieved the official MCA-hosted text of G.S.R. 403(E), 15 July 2024. Its operative change substitutes Annexure Form MGT-6; it does not amend Rule 18. Added a review-only source record and linked it to the Rule 18 source register and canonical section 101 topic; synced the app mirror study and inventory. The official Gazette text for G.S.R. 358(E), 30 May 2025 remains independently unretrieved; secondary descriptions concern Annexure form substitutions only. This is limited amendment-chain evidence, not a consolidated current Rule 18 verification.
+
+- Source record: `sources/companies-management-administration-amendment-rules-2024.json`.
+- Source record commit: `825acc439be2f78f1e088da3b326074b7efea81e`.
+- Rule 18 register commit: `2a80d6c9576e12d64588a6e74e5915243743b8f3`.
+- Canonical section 101 commit: `e27554bf9eb09bbd2bce2f56ac1e2dffdb337f31`.
+- App mirror section 101: `a5276205abb06ca9d985686b8e50670479b859fd`.
+- Inventory: `2c3d4fd5ffc542d9ed3e13cd103633abb6f2c864`.
+- Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Full consolidated Rule 18 verification, independent case-law review, repository-wide validator/build/E2E, SEO and production remain open.
