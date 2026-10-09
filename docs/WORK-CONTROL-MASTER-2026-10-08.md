@@ -1,5 +1,5 @@
 # Work Control Master — Legal Content
-**Effective:** 2026-10-08  
+**Effective:** 2026-10-09  
 **Status:** AUTHORITATIVE / ACTIVE
 
 This is the only active work-selection and ownership control. Older sprint, roadmap, queue, subject-by-subject and phase documents are historical evidence only.
