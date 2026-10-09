@@ -44,3 +44,14 @@ These additions are incremental remediation only. They do not establish that all
 
 ## Targeted structural check — 2026-10-09
 A read-only check of the current main versions of Articles 243B, 243G, 243K and 243N confirmed that each file parses as JSON and includes the expected top-level topic structure and legacy identity metadata. This was **not** a repository validator run. The same check found that each article's `content.enhancement` object is missing these required fields: `learningObjectives`, `definition`, `legalPrinciple`, `statutoryFramework`, `essentialIngredients`, `detailedExplanation`, `examples`, `distinctions`, `problemApplication` and `examAnswerStructure`. The focused analysis text in these files' `study` fields does not satisfy the separate required-field checks. These four topics therefore remain structurally incomplete for enhancement validation. No topic content was changed and no legal-verification gate is claimed as passed. Repository-wide validation is still pending.
+
+## Active work claim — Article 243G enhancement structure
+- **Subject:** Constitution of India — Part IX (Panchayats)
+- **Topic/range:** `topics/constitution/art-243g.json` — enhancement fields only
+- **Current main commit/evidence:** Article blob `8a8b04704f4853ec94af73107841694405c1db53`; focused doctrinal analysis was added in commit `64f9766b9cb2e022cf031320fd2e08f2f0bc5704`.
+- **Current status:** Existing article-specific analysis is present in `study` and `sections`, but ten required enhancement fields are absent from `content.enhancement`.
+- **Current owner:** coolnaveen99 (direct-to-main workflow); searched recent commits and PRs for 243G; no matching PR found.
+- **Missing gate:** Structurally complete enhancement fields, then JSON/required-field validation. Statutory/case-law verification and repository-wide validation remain separate open gates.
+- **Planned change:** Add only Article 243G-specific learning objectives, definition, legal principle, statutory framework, essential ingredients, detailed explanation, hypothetical examples clearly labelled as hypotheticals, distinctions, problem application, and exam answer structure. Do not add case citations or claim independent legal verification.
+- **Validation:** Pending; after edit, parse JSON, check all required enhancement keys, re-fetch main and record exact commit. If the platform blocks the article write, do not bypass it; record the blocker and stop.
+- **Evidence/commit:** Claim recorded before editing in this ledger update.
