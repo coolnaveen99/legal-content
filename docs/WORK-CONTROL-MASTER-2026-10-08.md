@@ -190,3 +190,17 @@ Rule 18 scope follow-up (2026-10-09): IndiaCode's reproduction of Gazette G.S.R.
 
 
 Rule 18 amendment-scope follow-up (2026-10-09; claim `current-assistant-company-s100-s103`): inspected official MCA-hosted G.S.R. 159(E), 5 March 2021 (https://www.mca.gov.in/Ministry/pdf/CompaniesMgmtAdminAmndtRules_11032021.pdf); operative amendments substitute Rule 11(1) and Rule 12, not Rule 18. IndiaCode's reproduction of G.S.R. 44(E), 21 January 2023 (https://indiacode.ecourtsindia.com/rules/g-s-r-no-44-e-companies-management-and-administration-amendment-rules-3a85c8f3/) identifies Annexure substitutions for Forms MGT-3 and MGT-14, not Rule 18. Source register, section 101 inventory, and remediation report updated. These limited instrument checks do not close the Rule 18 primary-source/consolidated-text gate; s.101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. No legal verification, case-law, validation, SEO, production or closure gate is marked complete.
+
+
+## Official PDF manual-review validator claim — 2026-10-09
+Subject: Cross-corpus validation infrastructure (Company Law closure dependency)
+Topic/section range: PDF retrieval/format technical sub-gate only; no legal-content verification flags
+Current main commit: 502646dab5be8cae7c38ae9939c41b4730be1181
+Current status: IN_PROGRESS
+Current owner: current assistant — issue #40
+Latest evidence: issue #40; docs/meetings/meeting-06-finalized/2026-10-09-sprint-review-pdf-manual-validation.md; inspected scripts/validate.mjs and scripts/validate-enhancements.mjs. No existing dedicated PDF validator or caller is present in the main tree.
+Missing gate: auditable technical outcomes, bounded retries, pending manual-review queue, tests, CI integration and reviewer documentation.
+Planned change: add a separate official-PDF technical validator; preserve FAIL for affirmative invalidity; allow MANUAL_REVIEW_REQUIRED only for technical retrieval/parse uncertainty; never mutate legal source verification or publication status.
+Observed baseline failures: latest legal-content Validate legal content run 37952321464 fails enhancement validation with 4,299 missing-field errors across 3,678 topics (not PDF-specific); latest codepackr-law E2E run 37951837537 reports configured webServer exit code 2 (no PDF-specific diagnostic). No concrete PDF request failure log exists in repository history inspected; tests will use deterministic captured-response fixtures and this limitation will be documented rather than mislabelled as a production incident.
+Validation: pending implementation.
+Evidence/commit: pending.
