@@ -7,8 +7,8 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0–P8** | Omitted through Services | **COMPLETE** |
-| **P9** | Part XV — Elections (324–329A) | **COMPLETE** |
+| **P0–P9** | Omitted through Elections | **COMPLETE** |
+| **P10** | Tribunals (323A–B) & Official Language (343–351) | **COMPLETE** |
 
-## P9 progress
-Done: 324–329, 329A (repealed note).
+## P10 progress
+Done: 323A, 323B, 343–351 (incl. 350A, 350B).
