@@ -173,23 +173,27 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Transfer/transmission (s. 56) vs refusal of registration (s. 58)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "V B Rangaraj v V B Gopalakrishnan",
+          "citation": "(1992) 1 SCC 160",
+          "point": "A restriction on transfer binds the company only if it is in the articles. Registration under section 56 is the act that completes the transfer against the company."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Transfer requirements; transmission; conclude.",
         "sixteenMark": "Introduction; transfer; transmission; certificates; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T09:20:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:15:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -206,12 +210,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

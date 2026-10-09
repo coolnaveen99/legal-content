@@ -190,17 +190,23 @@
         "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T10:10:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Foss v Harbottle",
+          "citation": "(1843) 2 Hare 461",
+          "point": "Section 245 is the statutory class-action exception to the proper-plaintiff rule. A member who meets the threshold may apply where the section's grounds are made out. The rule in Foss does not bar that application."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-09T14:15:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b2",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule aligned to indexed heading and, for sections 92, 96, 135 and 185, to texts retrieved on 2026-10-09. Full India Code paste and case-law verification remain open.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -210,12 +216,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

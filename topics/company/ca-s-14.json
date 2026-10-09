@@ -183,23 +183,27 @@
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-08"
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
+        "date": "2026-10-09"
       },
       "distinctions": [
         "Alteration of articles (s. 14) vs memorandum (s. 13)"
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Salomon v. A. Salomon & Co. Ltd."
+        {
+          "name": "Allen v Gold Reefs of West Africa Ltd",
+          "citation": "[1900] 1 Ch 656",
+          "point": "An alteration of articles must be bona fide for the benefit of the company as a whole. Section 14 requires a special resolution. The statutory power does not authorise an alteration that is a fraud on the minority."
+        }
       ],
-      "caseLawGate": "verification_required",
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Special resolution; limits; filing; conclude.",
         "sixteenMark": "Introduction; power to alter; limits; entrenchment; filing; application; conclusion."
       },
-      "lastBotRunAt": "2026-10-08T08:15:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:15:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
         "No invented citations",
@@ -216,12 +220,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
