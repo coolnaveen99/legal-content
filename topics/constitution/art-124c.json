@@ -2,128 +2,79 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:constitution-art-124c",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Article 124C — Omitted / Repealed",
+  "title": "Article 124C — Power of Parliament to make law (NJAC) (Inoperative)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Article 124C — Omitted / Repealed. Not current working law.",
-    "glance": "Article 124C — Omitted / Repealed. Not current working law.",
-    "study": "Article 124C (“Power of Parliament to make law. ––Parliament may, by law, regulate the procedure for the appointment of Chief Justice of India and other Judges of the Supreme”) of the Constitution of India has been omitted by constitutional amendment.\n\nStatus: Repealed / Omitted.\nIt is not current working law in the territory of India.\n\nExamination Instruction:\nWhen answering university or judicial service questions, note that Article 124C is omitted and identify the living constitutional or statutory provision that currently governs the subject matter.",
-    "questionsAndAnswers": [
+    "overview": "Article 124C was inserted by the Constitution (Ninety-ninth Amendment) Act, 2014 as part of the National Judicial Appointments Commission (NJAC) framework, empowering Parliament to regulate appointment procedure. The Supreme Court in Supreme Court Advocates-on-Record Association v. Union of India (2015) struck down the 99th Amendment (including Articles 124A–124C) and the NJAC Act as violating judicial independence (basic structure). The provision remains in some printed texts but is inoperative; the collegium system continues.",
+    "glance": "Art 124C (NJAC) inserted by 99th Amendment 2014; struck down by SC 2015. Inoperative. Collegium continues.",
+    "study": "Article 124C authorised Parliament to make law regulating the procedure for appointment of the Chief Justice of India and other Judges of the Supreme Court and High Courts and related NJAC matters.\n\nStatus: Inserted by the Constitution (Ninety-ninth Amendment) Act, 2014 (w.e.f. 13-4-2015). Declared unconstitutional and void by the Supreme Court in the NJAC judgment (2015). Not operative law.\n\nLiving frame: Judicial appointments continue under the collegium system as restored by that judgment.\n\nExamination rule: State that Article 124C is inoperative after the 2015 judgment; do not treat NJAC as the current appointment mechanism.",
+    "sections": [
       {
-        "id": "art-124C-omitted-qa",
-        "draftingCategory": "brief",
-        "question": "Explain the constitutional status and historical context of Article 124C (Power of Parliament to make law. ––Parliament may, by law, regulate the procedure for the appointment of Chief Justice of India and other Judges of the Supreme).",
-        "answer": "I. INTRODUCTION & STATUS\nArticle 124C of the Constitution of India (“Power of Parliament to make law. ––Parliament may, by law, regulate the procedure for the appointment of Chief Justice of India and other Judges of the Supreme”) is omitted. It does not form part of the living, enforceable constitutional text.\n\nII. HISTORICAL BACKGROUND\nThe provision was repealed/omitted by constitutional amendment to remove obsolete structures, harmonize constitutional governance, or eliminate transitional provisions.\n\nIII. CURRENT GOVERNING HEADING\nExaminees must identify the living provision that now regulates this field (e.g. general powers of Parliament, corresponding statutory enactments, or alternative constitutional mechanisms).\n\nIV. CONCLUSION\nCite Article 124C strictly as a repealed/omitted heading. Do not apply its text to contemporary 2026 dispute scenarios.",
-        "explanation": "Demonstrates awareness of constitutional amendments and living vs repealed text."
+        "heading": "Constitutional status",
+        "body": "Inserted by the 99th Amendment, 2014 as part of NJAC (with Arts 124A and 124B). Struck down by the Supreme Court in Supreme Court Advocates-on-Record Association v. Union of India (2015) on basic-structure grounds (judicial independence). Inoperative; collegium continues.",
+        "order": 1
+      },
+      {
+        "heading": "Exam checkpoints",
+        "body": "1. Distinguish textual presence from operative effect.\n2. Cite the 2015 NJAC judgment for invalidity of the 99th Amendment package.\n3. Current mechanism: collegium (Second and Third Judges cases line, reaffirmed 2015).",
+        "order": 2
       }
     ],
-    "examTips": [
-      "Do not cite Article 124C as living law. State that it is omitted and cite the active provision."
+    "misconceptions": [
+      {
+        "id": "art-124c-trap-1",
+        "trap": "NJAC under Articles 124A–124C is the current appointment system.",
+        "correction": "The 99th Amendment and NJAC were struck down in 2015. The collegium system continues. Article 124C is inoperative."
+      }
     ],
-    "sections": [],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedJudgments": [],
-    "relatedTopics": [],
-    "illustrations": [],
+    "questionsAndAnswers": [
+      {
+        "id": "art-124c-status",
+        "draftingCategory": "brief",
+        "question": "What is the status of Article 124C?",
+        "answer": "Article 124C was inserted by the 99th Amendment, 2014 as part of NJAC. The Supreme Court struck down the 99th Amendment (including Art 124C) in 2015. The provision is inoperative; judicial appointments continue under the collegium system.",
+        "relatedProvisionIds": ["constitution-article-124c"]
+      }
+    ],
+    "cases": [
+      {
+        "name": "Supreme Court Advocates-on-Record Association v. Union of India",
+        "year": 2015,
+        "citation": "(2016) 5 SCC 1",
+        "holding": "The 99th Constitutional Amendment and the NJAC Act were struck down as violating the basic structure (judicial independence). Articles 124A–124C are unconstitutional and inoperative.",
+        "relevance": "Mandatory citation for status of Art 124C / NJAC."
+      }
+    ],
+    "bareActPointers": ["Article 124C (99th Amendment — struck down 2015)", "Collegium system"],
+    "examTips": ["Always state: inserted by 99th Amendment; struck down 2015; collegium continues."],
     "legacySubjectSlug": "constitution",
     "legacyTopicId": "art-124c",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Remediated 2026-10-09: accurate NJAC / 99th Amendment / 2015 strike-down status. Only the NJAC judgment is cited.",
     "enhancement": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "in-progress",
-      "caseLaw": [],
+      "coverage": "substantive-topic-specific-v1",
+      "caseLaw": ["Supreme Court Advocates-on-Record Association v. Union of India (2015)"],
       "authoritativeSources": [
-        "Constitution of India, Part V: The Union, Chapter IV: The Union Judiciary (Articles 124–147)",
-        "Supreme Court of India Landmark Constitutional Jurisprudence",
-        "Constituent Assembly Debates (Official Reports)"
+        "Constitution (Ninety-ninth Amendment) Act, 2014",
+        "Supreme Court Advocates-on-Record Association v. Union of India (2015)"
       ],
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
-        "notes": [
-          "Complete constitutional enhancement for ARTICLE 124C.",
-          "Preserved legacySubjectSlug: \"constitution\" and legacyTopicId: \"art-124c\".",
-          "Verified repealed/omitted status; clarified historical background and current governing doctrine."
-        ]
-      },
-      "learningObjectives": [
-        "Understand the historical purpose of ARTICLE 124C as originally enacted in the Constitution of India.",
-        "Identify the Constitutional Amendment Act and judicial developments that repealed or omitted this provision.",
-        "Analyze the constitutional vacuum or successor framework created by the omission of ARTICLE 124C.",
-        "Evaluate how modern constitutional jurisprudence resolves issues previously governed by this provision."
-      ],
-      "definition": "ARTICLE 124C (Omitted / Repealed) is an omitted provision of the Constitution of India. Originally situated in Part V: The Union, it was repealed or omitted by constitutional amendment to modernize India's constitutional governance and realign institutional powers.",
-      "legalPrinciple": "The doctrine of constitutional transition and legislative evolution, ensuring that obsolete historical frameworks are excised while preserving substantive rights under the broader democratic structure.",
-      "statutoryFramework": [
-        "Part V: The Union, Chapter IV: The Union Judiciary (Articles 124–147)",
-        "ARTICLE 124C of the Constitution of India",
-        "Interplay with connected provisions in Part V: The Union and Fundamental Rights under Part III",
-        "Subject to the Basic Structure Doctrine and judicial review under Articles 32, 136, and 226"
-      ],
-      "essentialIngredients": [
-        "Historical enactment under the original text of the Constitution of India.",
-        "Formal omission or repeal by a Constitutional Amendment Act or judicial invalidation.",
-        "Cessation of operational effect in current Indian territory.",
-        "Governance of related subject matters by updated constitutional articles or modern statutory enactments."
-      ],
-      "detailedExplanation": "ARTICLE 124C (Omitted / Repealed) formed part of Part V: The Union of the Constitution of India. Over the evolution of Indian constitutionalism, Parliament determined that this provision no longer served the transformative democratic needs of the Republic, leading to its formal repeal or omission via constitutional amendment.\n\nStudents must recognize that while ARTICLE 124C is no longer living law, its historical existence provides crucial context for understanding the development of Part V: The Union and the contemporary distribution of powers under the Indian Constitution.",
-      "examples": [
-        "Historical illustration (Application Prior to Repeal): A litigant seeks to enforce rights under ARTICLE 124C in a dispute arising before its formal omission. The court applies the savings doctrine, holding that accrued rights are evaluated under the law in force at the time of the transaction unless expressly extinguished by the amending Act.",
-        "Modern exam illustration (Inadmissibility of Repealed Article): A petitioner files a writ petition under Article 226 asserting a violation of ARTICLE 124C. The High Court dismisses the petition on the threshold, noting that the article has been omitted by constitutional amendment and no enforceable right survives under the repealed provision."
-      ],
-      "distinctions": [
-        "ARTICLE 124C (Omitted) vs Living Constitutional Provisions: ARTICLE 124C has ceased to be enforceable, whereas contemporary living provisions in Part V: The Union continue to govern the field.",
-        "Repeal vs Abeyance: A repealed constitutional article is permanently excised from the working text, distinguishable from provisions suspended temporarily during emergencies."
-      ],
-      "problemApplication": [
-        "Issue: Whether a petitioner can invoke ARTICLE 124C to challenge State action initiated after the date of its constitutional repeal.",
-        "Rule: A repealed constitutional article cannot serve as the legal foundation for a fresh cause of action arising subsequent to the date of omission.",
-        "Application: The impugned State action occurred post-repeal; the petitioner cannot rely on non-existent constitutional provisions.",
-        "Counterargument: The petitioner argues historical continuity and lingering equitable expectations.",
-        "Conclusion: The petition is non-maintainable under ARTICLE 124C; the challenge must be reformulated under living constitutional or statutory provisions."
-      ],
-      "examAnswerStructure": {
-        "shortAnswer": [
-          "State the title, constitutional location (Part V: The Union, Chapter IV: The Union Judiciary (Articles 124–147)), and core purpose of ARTICLE 124C.",
-          "Highlight the key conditions precedent and competent authority.",
-          "Note its relationship with Fundamental Rights and judicial review."
-        ],
-        "tenMark": [
-          "Introduction: Constitutional status, placement in Part V: The Union, and legislative intent.",
-          "Textual Anatomy: Breakdown of essential clauses, sub-clauses, and provisos.",
-          "Essential Ingredients: Conditions precedent, procedural roadmap, and competent authorities.",
-          "Judicial Interpretation: Landmark Supreme Court rulings interpreting ARTICLE 124C.",
-          "Conclusion: Impact on constitutional governance and rule of law."
-        ],
-        "sixteenMark": [
-          "Philosophical and Structural Foundations: Historical origin (Constituent Assembly Debates / GoI Act 1935) and structural role in Indian federalism/democracy.",
-          "Comprehensive Analysis of ARTICLE 124C: Clause-by-clause doctrinal dissection and interplay with Part V: The Union.",
-          "The Golden Triangle and Constitutional Discipline: How Article 14 non-arbitrariness and Article 21 due process govern the operation of ARTICLE 124C.",
-          "Leading Judicial Authorities: Evolution of Supreme Court jurisprudence from early formalist approaches to modern substantive review.",
-          "Comparative and Inter-Article Dynamics: Distinctions between ARTICLE 124C and corresponding constitutional provisions.",
-          "Problem Scenario Resolution: Detailed IRAC application to factual scenarios and counterarguments.",
-          "Master Conclusion: Synthesis of constitutional safeguards, accountability, and student answer roadmap."
-        ]
+        "notes": ["Status as struck down / inoperative recorded from the 2015 NJAC judgment. No additional holdings invented."]
       },
       "keyTakeaways": [
-        "ARTICLE 124C was omitted by constitutional amendment and is no longer living law.",
-        "Students must cite the living successor or alternative statutory/constitutional provisions in examinations.",
-        "Historical understanding of the repeal illuminates the evolutionary trajectory of Part V: The Union."
+        "Art 124C (NJAC) inserted by 99th Amendment 2014.",
+        "Struck down by SC 2015; inoperative; collegium continues."
       ]
     }
   },
-  "sources": [
-    "source:india:india-code-constitution"
-  ],
-  "updatedAt": "2026-10-02T16:33:30.511Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "constitution"
-  ]
+  "sources": ["source:india:india-code-constitution"],
+  "updatedAt": "2026-10-09T03:10:00.000Z",
+  "effectiveFrom": "2015-04-13",
+  "effectiveTo": "2015-10-16",
+  "tags": ["constitution", "inoperative", "99th-amendment", "njac", "review-required"]
 }
