@@ -106,3 +106,8 @@ Amendment reconciliation follow-up (sections 101–102): official amendment sour
 
 
 Applicability follow-up (2026-10-09): Company Law sections 100–103 were updated with the section 122(1) OPC disapplication and the separate section 122(2)–(3) procedure. Official source record `sources/companies-act-2013-s-122-opc-exemption.json`; evidence `docs/COMPANY-LAW-S100-S103-REMEDIATION-2026-10-09.md`. Canonical commits: `9d25a1c08af3a5844b886df985ee169913153bfa`, `562ee02f278d9ab404104f73eea792628b776259`, `68973cf449bec23c1b60ddc7600626f3a4b5c7f2`, `0aa110abc69895a0634773e4f5d06a2b502b6970`; app mirrors: `6dff3d3ef372e5c3f93bd2b4aa328b2db64ceeca`, `bc5fdac7f41ce695137dd3992c735ac3862c3fb2`, `ca1fd0ae283c61f616c5ebe96ddfb1f1c5e9f7fd`, `d875daf538f371df6bda658e217f9f4f20b285dc`. Remains in progress; full rule/exemption and case-law checks and repository-wide CI are outstanding.
+
+
+
+
+Rule 17 follow-up (2026-10-09, existing claim `current-assistant-company-s100-s103`): section 100 now distinguishes section 100’s requisition threshold/timetable from Rule 17’s requisitionists-meeting procedure. Canonical topic commit `091f6e3c248843f17b61267f085e55637ca5299f`; Rule 17 source record `84e9941f81c2210a852b46992edbd2477e469100`; app mirror `f411c78e948882b95e0ae5e08ed8c2b7fd81ee2e`. Source is an ICSI reproduction, not Gazette-primary; current official rule verification remains open. Do not mark verified/published or close the range.
