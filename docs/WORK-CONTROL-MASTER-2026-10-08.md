@@ -151,3 +151,10 @@ Evidence commits for this follow-up:
 
 
 Rule 18 official amendment follow-up (2026-10-09, existing claim `current-assistant-company-s100-s103`): official MCA-hosted G.S.R. 560(E), 13 June 2018, confirms that the Explanation after Rule 18(3)(ix) was omitted. Added a source record, linked it from the Rule 18 reproduction and section 101 canonical topic, mirrored the scope note to the app, and updated inventory/remediation evidence. This verifies that deletion only; full current Rule 18 reconciliation remains open. Section 101 stays `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; no legal sign-off, full validator/build/E2E, SEO or production completion is claimed. Evidence commits: source `af214d2335f632c47ac23db613cf689735188e13`; Rule 18 record `021e11079e951387dd752fe38a737b6df8289078`; canonical s.101 `cd55bc74a5f94c7bc893411492beffbe8f87046e`; app mirror `e2df6cb2353d579ac7be57e98d465375c1f9f440`; inventory `4480dd60c017a9f218acbd5150e83ef14b6b6049`; remediation `049a13e033169687c934d36afde2d58160317cd6`.
+
+
+## Rule 18 amendment-history register follow-up — 2026-10-09
+
+Within the existing claim `current-assistant-company-s100-s103`, added `sources/companies-management-administration-amendment-history-2020.json` from the official India Code-hosted 28 August 2020 Gazette notification. Its note lists the amendment notification sequence through G.S.R. 560(E), 13 June 2018, including G.S.R. 175(E), 16 February 2018; the operative 2020 change concerns Rule 12. The source is linked from the existing Rule 18 reproduction record. This improves the documented amendment chain through that instrument only; post-August-2020 amendments and full consolidated Rule 18 remain unverified. Keep section 101 `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; no closure, legal sign-off or full validation/build claim.
+
+Evidence: source record `0a19062ff8b11e1ebb575c30253a00def991e42d`; source linkage and tracking updates follow.
