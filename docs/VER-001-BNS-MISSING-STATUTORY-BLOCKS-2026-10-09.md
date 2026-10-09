@@ -46,3 +46,11 @@ The separate `Validate legal content` workflow passed JSON/schema/entity/relatio
 7. Human legal-quality sign-off.
 
 **Result:** The 16 missing statutory-rule blocks have been populated directly on `main`. BNS remains open until the remaining legal-verification and subject-level gates are evidenced.
+
+## Follow-up correction — BNS section 113 — 2026-10-09
+
+During direct comparison with the official India Code PDF (text marked “As on the 6th October, 2025”), the statutory-rule block for section 113 was found to omit the final Explanation declaring that an officer not below the rank of Superintendent of Police decides whether to register the case under section 113 BNS or under the Unlawful Activities (Prevention) Act, 1967. That Explanation has now been appended to `topics/bns/s-113.json` on `main`.
+
+Official text reference: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf (PDF text around lines 2080–2082).
+
+**Verification status:** This is a targeted correction, not a completed word-by-word audit of all 16 statutory blocks or all amendments through 2026. Section 113’s body-check gate remains open until the full block is reconciled and current-law status is confirmed.
