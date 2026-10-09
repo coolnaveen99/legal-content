@@ -153,3 +153,10 @@ Additional targeted repairs were made to generated hypotheticals in s. 297 (remo
 A pattern scan of s. 241–285 returned no duplicate-label or split-reference matches; s. 286–300 flagged s. 294 and s. 297; s. 301–315 flagged s. 308 and s. 310; s. 316–340 flagged s. 319, s. 330 and additional sections including s. 334, s. 336 and s. 340; s. 341–358 still contains review leads including s. 341, s. 342, s. 345, s. 347, s. 350, s. 351, s. 353, s. 356 and s. 358. Some tool writes on sensitive legal-text files were blocked, so those items remain unmodified pending careful review rather than claiming false closure.
 
 The audit is not a full statutory reconciliation. The official India Code BNS text remains the baseline source; this pass does not establish amendment/commencement completeness, case-law accuracy, or human legal sign-off. Full-catalog validation and downstream integration/SEO/production gates remain open.
+
+
+## BNS derived-extract audit continuation — sections 106–180 — 2026-10-09
+
+Continued the targeted recursive scan across s. 106–180. The selected pattern scan found no malformed split-subsection/clause references, duplicate subsection-label pattern, or undefined-value markers in s. 106–138, s. 145–150, and s. 151–180. It found duplicate subsection labels in the generated hypothetical extracts for s. 139 (four occurrences), s. 143 (one), and s. 144 (two); those labels were corrected in derived hypothetical text only. Topic statuses remain `review`.
+
+This is a narrow pattern-based scan, not a word-by-word statutory reconciliation and not a statement that every topic is complete. It does not resolve the known s. 106(2) commencement-status gate, the full-catalog enhancement-validation blocker, primary-case verification, current amendments, integration/SEO/production checks, or human legal sign-off. BNS remains OPEN.
