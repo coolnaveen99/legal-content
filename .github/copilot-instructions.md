@@ -248,3 +248,10 @@ For repository work requested by the user:
 - Do NOT create a pull request when the user explicitly says not to create one.
 - Do NOT create a feature branch unless the user explicitly requests one.
 - Keep commits focused and use a clear commit message describing the change.
+
+
+## 2026-10-09 Roadmap: complete core coverage and staged publication
+
+The Work Control Master remains the sole work-selection and ownership authority. Preserve the existing VERIFY → CORRECT → STRUCTURE → ENHANCE order for each substantive proposition; a broad enhancement pass must not invent or assert unverified law as current. Every registered section, Article, provision and doctrinal topic must receive the required topic-specific depth, regardless of High/Medium/Low-Yield labels. Yield labels must not determine omission, depth, legal verification, validation or closure. Lock the enhancement baseline separately from `COMPLETE_LOCKED`.
+
+Publish subjects in rolling releases only after their applicable minimum legal/source, content-quality, technical and publication gates pass. Continue corpus-wide current-law verification after eligible releases; correct and deploy verified material defects promptly through the canonical content path. After required verification and integrated validation/E2E pass, add judgments by subject/section, then conduct a dedicated Supreme Court judgment coverage pass. A separate optional High-Yield Study Guide is final-stage supplementary work and must not replace the complete legal library. Preserve all existing schemas, IDs, source hierarchy, ownership, SEO/production, sign-off, and closure gates. Protect reviewer capacity and leave unsupported items in SOURCE_CHECK_REQUIRED/BLOCKED rather than guessing. See `docs/SPRINT-MEETING-2026-10-09-ROADMAP-AND-YIELD-POLICY.md`.
