@@ -29,3 +29,9 @@
 4. Have a qualified legal reviewer sign off the current-law conclusion before changing the BNS verification gate to passed.
 
 **Gate status:** Current-law/amendment verification remains **OPEN — PARTIAL SCAN RECORDED**. Do not mark BNS `COMPLETE_LOCKED`.
+
+## Targeted commencement finding — BNS section 106(2)
+
+Official Ministry of Home Affairs Notification S.O. 850(E), dated 23 February 2024, appoints 1 July 2024 as the commencement date for BNS provisions **except section 106(2)**. The Ministry's parliamentary answer of 30 July 2024 repeats that exception. Official sources: https://www.mha.gov.in/sites/default/files/BharatiyaNagarikSurakshaSanhita_24022024.pdf and https://www.mha.gov.in/MHA1/Par2017/pdfs/par2024-pdfs/LS30072024/1377.pdf.
+
+Added a `Commencement status` section to `topics/bns/s-106.json` on `main` to distinguish enacted wording from commencement. The topic remains `review`; this is not a declaration that section 106(2) is currently in force. A final Gazette check for any later commencement notification and human legal sign-off remain required.
