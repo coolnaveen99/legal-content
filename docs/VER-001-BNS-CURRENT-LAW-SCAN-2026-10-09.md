@@ -35,3 +35,9 @@
 Official Ministry of Home Affairs Notification S.O. 850(E), dated 23 February 2024, appoints 1 July 2024 as the commencement date for BNS provisions **except section 106(2)**. The Ministry's parliamentary answer of 30 July 2024 repeats that exception. Official sources: https://www.mha.gov.in/sites/default/files/BharatiyaNagarikSurakshaSanhita_24022024.pdf and https://www.mha.gov.in/MHA1/Par2017/pdfs/par2024-pdfs/LS30072024/1377.pdf.
 
 Added a `Commencement status` section to `topics/bns/s-106.json` on `main` to distinguish enacted wording from commencement. The topic remains `review`; this is not a declaration that section 106(2) is currently in force. A final Gazette check for any later commencement notification and human legal sign-off remain required.
+
+## Additional current official confirmation — MHA Annual Report 2025–26
+
+The Ministry of Home Affairs' Annual Report 2025–26 repeats at paragraph 11.39 that BNS provisions except section 106(2) came into force on 1 July 2024. This is a more recent official confirmation than the 2024 parliamentary answers and supports retaining the section 106(2) exception in the topic pending a later commencement notification. Source: https://www.mha.gov.in/sites/default/files/AREnglish_24032026.pdf.
+
+**Bounded conclusion as of this scan:** The latest MHA report located still records section 106(2) as excluded from commencement. This is strong official evidence, but the final closure gate still requires a targeted Gazette search for a later notification and human legal sign-off. Do not infer that a proposed amendment bill has become law without an enacted Act and commencement evidence.
