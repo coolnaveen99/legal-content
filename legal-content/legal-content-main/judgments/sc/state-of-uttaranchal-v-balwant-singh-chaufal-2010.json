@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010",
+  "version": 1,
+  "status": "review",
+  "title": "State of Uttaranchal v. Balwant Singh Chaufal",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "State of Uttaranchal v. Balwant Singh Chaufal, (2010) 3 SCC 402",
+    "court": "Supreme Court of India",
+    "decisionYear": 2010,
+    "citation": "(2010) 3 SCC 402",
+    "facts": "The Court addressed misuse of PIL jurisdiction for private or publicity-oriented objectives.",
+    "questionsBeforeCourt": [
+      "What safeguards prevent abuse of public-interest jurisdiction?"
+    ],
+    "ratioDecidendi": "Courts must verify credentials, motive, substantial public injury and the absence of personal gain before entertaining PIL.",
+    "holding": "Laid down comprehensive 8-point mandatory guidelines for High Courts to filter frivolous, vexatious, or blackmailing PILs.",
+    "relevance": "Mandatory verification guidelines and costs for abuse of PIL process.",
+    "sourceTopics": [
+      "topics/petition-formats/format-pil.json",
+      "topics/pil/pil-locus-standi.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T09:41:31.918Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2022/18261/18261_2022_8_1501_39494_Judgement_07-Nov-2022.pdf",
+        "note": "Official Supreme Court judgment cites the 2010 decision and describes its PIL-development framework; direct original PDF was not located in this search pass."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 2,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

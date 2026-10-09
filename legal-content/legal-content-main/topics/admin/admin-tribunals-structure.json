@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-tribunals-structure",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Administrative Tribunals — Structure, Powers and Procedure",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "The structure, powers and procedure of administrative tribunals are fixed by their parent statutes and by constitutional requirements of independence and judicial review. Appointment, tenure, jurisdiction, powers to summon evidence and appellate hierarchies must be examined together.",
+    "glance": "Map the statutory structure (appointment, tenure, benches, powers, appeals); test independence; identify the judicial-review route to the High Court or Supreme Court.",
+    "study": "Structural legitimacy of tribunals depends on how members are appointed and removed, the security of tenure, the separation of administrative control from adjudicatory function, and the preservation of judicial review under Articles 226/227 and 32. Powers to regulate procedure, summon witnesses and enforce orders are statutory. Defective structure can invite constitutional challenge even if individual decisions appear fair. Current-law framing: ground the analysis in the parent statute and Constitution. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Appointment and Tenure", "body": "Method of appointment and security of tenure affect independence.", "order": 1},
+      {"heading": "Jurisdiction and Powers", "body": "Defined by the parent Act; includes procedural and enforcement powers as conferred.", "order": 2},
+      {"heading": "Benches and Hierarchy", "body": "Internal organisation and statutory appeals.", "order": 3},
+      {"heading": "Independence Requirements", "body": "Freedom from executive control over adjudicatory outcomes.", "order": 4},
+      {"heading": "Judicial Review", "body": "High Court and Supreme Court supervision cannot be wholly excluded.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-323a", "section": "Article 323A", "title": "Administrative tribunals"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-227", "section": "Article 227", "title": "High Court superintendence"}
+    ],
+    "examples": [
+      {"title": "Structural challenge", "body": "Appointment rules place adjudicatory members under pervasive executive control. A structural challenge to independence is open even without attacking a particular order.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Finality and review", "body": "Parent Act says tribunal orders are final. High Court review under Articles 226/227 remains available per L. Chandra Kumar.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "If the statute says the tribunal is final, can High Courts interfere?", "analysis": "Yes. Constitutional judicial review remains."},
+      {"question": "Does any executive role in appointments destroy the tribunal?", "analysis": "The test is overall independence, not the total absence of any executive role."}
+    ],
+    "distinctions": [
+      {"id": "admin-ts-struct-vs-order", "title": "Structural challenge vs challenge to individual order", "left": "Attack on design of the tribunal", "right": "Attack on a particular decision's legality or fairness", "rows": [{"point": "Focus", "left": "Design", "right": "Individual order"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-ts-trap-1", "trap": "If the statute says the tribunal is final, High Courts cannot interfere.", "correction": "Constitutional judicial review remains."},
+      {"id": "admin-ts-trap-2", "trap": "Any executive role in appointments destroys the tribunal.", "correction": "The test is overall independence, not the total absence of any executive role."}
+    ],
+    "cases": [
+      {"name": "L. Chandra Kumar v Union of India", "year": 1997, "citation": "(1997) 3 SCC 261", "court": "Supreme Court of India", "facts": "Constitutional validity of the tribunal system and exclusion of High Court jurisdiction.", "issue": "What is the constitutional place of tribunals and judicial review by High Courts?", "ratioDecidendi": "Tribunals may perform specialised functions, but decisions remain subject to High Court review under Articles 226/227.", "holding": "Tribunals upheld subject to constitutional judicial review.", "relevance": "Leading authority on structure and review.", "judgmentId": "judgment:india:l-chandra-kumar-v-union-of-india-1997"},
+      {"name": "Union of India v Madras Bar Association", "year": 2010, "citation": "(2010) 11 SCC 1", "court": "Supreme Court of India", "facts": "Institutional design of NCLT/NCLAT.", "issue": "What institutional safeguards are required for constitutionally valid tribunals?", "ratioDecidendi": "Tribunalisation must preserve independence, impartiality and adjudicatory standards.", "holding": "Defective aspects invalidated; safeguards required.", "relevance": "Authority already in the file on composition and independence.", "judgmentId": "judgment:india:union-of-india-v-madras-bar-association-2010"},
+      {"name": "Rojer Mathew v South Indian Bank Ltd.", "year": 2019, "citation": "(2020) 6 SCC 1", "court": "Supreme Court of India", "facts": "Tribunal conditions of service rules examined.", "issue": "Whether tribunal service conditions could be structured inconsistently with judicial independence.", "ratioDecidendi": "Tribunal administration must conform to constitutional independence requirements.", "holding": "Framework scrutinised for constitutional defects.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:rojer-mathew-v-south-indian-bank-ltd-2019"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-ts-brief", "draftingCategory": "brief", "question": "How should a tribunals-structure problem be analysed?", "answer": "I. Map statutory structure. II. Test independence. III. Identify review route. IV. Formulate structural or individual relief.", "explanation": "IRAC."},
+      {"id": "admin-ts-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Structure mapped; independence analysis; review pathway; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Parent tribunal statute", "Constitution Articles 323A/323B, 226, 227", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Map appointment, tenure, powers, appeals.", "Stress independence and review.", "Separate structural challenges from challenges to individual orders."],
+    "revisionPoints": ["Appointment and tenure", "Jurisdiction and powers", "Benches and hierarchy", "Independence", "Judicial review"],
+    "relatedJudgments": ["judgment:india:l-chandra-kumar-v-union-of-india-1997", "judgment:india:union-of-india-v-madras-bar-association-2010", "judgment:india:rojer-mathew-v-south-indian-bank-ltd-2019"],
+    "relatedTopics": ["admin-tribunals-features", "admin-tribunals-advantages", "admin-judicial-review"],
+    "illustrations": ["illustration:india:admin-admin-admin-tribunals-structure-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-tribunals-structure",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Map tribunal structure.", "Test independence.", "Identify the judicial-review route."],
+      "definition": "Tribunal structure is fixed by parent statutes and constitutional independence and review requirements.",
+      "legalPrinciple": "Structure is constitutional as well as statutory; tenure and appointment matter; review is a structural guarantee.",
+      "statutoryFramework": "Parent tribunal statute; Constitution Articles 323A/323B, 226, 227.",
+      "essentialIngredients": ["Statutory structure mapped", "Independence analysis", "Review route identified"],
+      "detailedExplanation": "Structural legitimacy depends on appointment, tenure, independence and review.",
+      "examples": ["Structural challenge", "Finality and review"],
+      "problemApplication": "Map structure; test independence; identify review.",
+      "keyTakeaways": ["Structure is constitutional as well as statutory.", "Tenure and appointment matter.", "Review is a structural guarantee.", "Read the parent Act carefully."],
+      "authoritativeSources": ["L. Chandra Kumar; Madras Bar Association; Rojer Mathew (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Structural challenge vs challenge to individual order"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["L. Chandra Kumar v Union of India", "Union of India v Madras Bar Association", "Rojer Mathew v South Indian Bank Ltd."],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Outline structure elements; stress independence and review; conclude.", "sixteenMark": "Introduction; appointment/tenure; powers; hierarchy; independence and review; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:26:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "2d5cf8617e63b1f4",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:26:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "tribunals", "structure", "independence"]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-good-governance",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Good Governance Principles in Administrative Law",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Good governance principles — transparency, accountability, participation, responsiveness, fairness and integrity — inform modern administrative law and reinforce constitutional standards of non-arbitrariness and fairness.",
+    "glance": "List the relevant good-governance principles; link each to a concrete administrative-law doctrine (RTI, reasoned orders, natural justice, judicial review); apply to the decision under challenge.",
+    "study": "Good governance is not a free-standing cause of action, but its principles are operationalised through existing doctrines: transparency through RTI and publication requirements; accountability through judicial review and audit; fairness through natural justice; integrity through conflict-of-interest rules. Indian courts increasingly refer to good-governance values when interpreting Article 14 and statutory duties. Current-law framing: treat good governance as interpretive support for constitutional and statutory standards, not as an independent source of power.",
+    "sections": [
+      {"heading": "Transparency", "body": "Access to information and publication of reasons support accountable administration.", "order": 1},
+      {"heading": "Accountability", "body": "Judicial review, audit and institutional oversight hold decision-makers to legal standards.", "order": 2},
+      {"heading": "Participation and Responsiveness", "body": "Consultation and consideration of affected interests improve legitimacy and quality of decisions.", "order": 3},
+      {"heading": "Fairness and Integrity", "body": "Natural justice and conflict-of-interest rules operationalise fairness and integrity.", "order": 4},
+      {"heading": "Legal Status", "body": "Good-governance principles reinforce but do not replace constitutional and statutory duties.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"}
+    ],
+    "examples": [
+      {"title": "Opaque allocation", "body": "A public resource is allocated without published criteria or reasons. Transparency and Article 14 non-arbitrariness are both engaged.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Unreasoned order", "body": "An authority rejects an application with a one-line order. The duty to give reasons (speaking orders) operationalises accountability and fairness.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Is good governance an independent enforceable right?", "analysis": "Not as a free-standing right; it is given effect through existing constitutional and statutory doctrines."},
+      {"question": "Does transparency require disclosure of every internal deliberation?", "analysis": "No. Legitimate confidentiality and deliberative privilege may limit disclosure; RTI exemptions illustrate the balance."}
+    ],
+    "distinctions": [
+      {"id": "admin-gg-vs-doctrine", "title": "Good-governance values vs operative legal doctrines", "left": "Normative aspirations (transparency, accountability)", "right": "Enforceable doctrines (RTI, natural justice, judicial review)", "rows": [{"point": "Focus", "left": "Aspiration", "right": "Legal duty"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-gg-trap-1", "trap": "Good governance creates new free-standing causes of action.", "correction": "It reinforces existing constitutional and statutory standards."},
+      {"id": "admin-gg-trap-2", "trap": "Transparency always requires full disclosure.", "correction": "Legitimate confidentiality limits apply; balance is required."}
+    ],
+    "cases": [
+      {"name": "Tata Cellular v Union of India", "year": 1994, "citation": "(1994) 6 SCC 651", "court": "Supreme Court of India", "facts": "Review of administrative decision-making.", "issue": "Scope of judicial review.", "ratioDecidendi": "Courts review legality and rationality of the process.", "holding": "Review standards applied.", "relevance": "Accountability through judicial review.", "judgmentId": "judgment:india:tata-cellular-v-union-of-india-1994"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-gg-brief", "draftingCategory": "brief", "question": "How should a good-governance problem be analysed?", "answer": "I. Identify the governance principle engaged. II. Link it to the operative doctrine. III. Apply the doctrine to the facts. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-gg-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Principle identified; linked doctrine; factual application; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution Article 14", "RTI Act where transparency is engaged", "Parent statute", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Link every governance value to a concrete doctrine.", "Do not plead good governance as a free-standing right.", "Use it as interpretive support."],
+    "revisionPoints": ["Transparency", "Accountability", "Participation", "Fairness and integrity", "Legal status"],
+    "relatedJudgments": ["judgment:india:tata-cellular-v-union-of-india-1994"],
+    "relatedTopics": ["admin-rti-transparency", "admin-speaking-orders", "admin-judicial-review"],
+    "illustrations": ["illustration:india:admin-admin-admin-good-governance-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-good-governance",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["List good-governance principles.", "Link each to an operative doctrine.", "Apply without treating them as free-standing rights."],
+      "definition": "Good governance principles inform administrative law by reinforcing transparency, accountability, fairness and integrity through existing doctrines.",
+      "legalPrinciple": "Governance values are given legal effect through constitutional and statutory doctrines, not as independent causes of action.",
+      "statutoryFramework": "Constitution Article 14; RTI Act; parent statutes.",
+      "essentialIngredients": ["Principle identified", "Doctrine linked", "Application to facts"],
+      "detailedExplanation": "Good governance operationalises constitutional standards of non-arbitrariness and fairness.",
+      "examples": ["Opaque allocation", "Unreasoned order"],
+      "problemApplication": "Identify principle; link doctrine; apply.",
+      "keyTakeaways": ["Link values to doctrines.", "Not free-standing rights.", "Transparency and accountability reinforce Article 14."],
+      "authoritativeSources": ["Constitution of India", "Tata Cellular (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Good-governance values vs operative legal doctrines"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Tata Cellular v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "List principles; link one to doctrine; apply; conclude.", "sixteenMark": "Introduction; each principle; doctrinal links; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:10:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-gg-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:10:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "good-governance"]
+}

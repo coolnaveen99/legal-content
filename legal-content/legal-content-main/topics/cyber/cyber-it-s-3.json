@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-cyber-it-s-3",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Information Technology Act, 2000 — Section 3 (Digital Signature Authentication)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 3 of the Information Technology Act, 2000 provides that subject to the provisions of the section any subscriber may authenticate an electronic record by affixing his digital signature. Authentication is effected by the use of asymmetric crypto system and hash function which envelop and transform the initial electronic record into another electronic record such that certain integrity and attribution properties hold, as the section enacts.",
+    "glance": "Ask: (1) Is authentication by digital signature claimed? (2) Asymmetric crypto system and hash function used as required? (3) Subscriber relationship? (4) Link to s. 3A electronic signature?",
+    "study": "s. 3 is about digital signature authentication technique. s. 3A introduced electronic signature more broadly. Do not conflate the two.\n\nNo new case invented.",
+    "sections": [
+      {
+        "heading": "Authentication power",
+        "body": "Any subscriber may authenticate an electronic record by affixing his digital signature, subject to the section.",
+        "order": 1
+      },
+      {
+        "heading": "Technique",
+        "body": "Authentication by asymmetric crypto system and hash function transforming the initial electronic record as the section provides.",
+        "order": 2
+      },
+      {
+        "heading": "Integrity properties",
+        "body": "The technique is designed so that any alteration of the record or signature is detectable and the signature is uniquely linked to the subscriber — as enacted.",
+        "order": 3
+      },
+      {
+        "heading": "Link to s. 3A",
+        "body": "s. 3A recognises electronic signature more broadly, including digital signature as one form; both must be read together.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify claimed authentication method; check statutory technique; relate to secure electronic record rules where relevant.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-3",
+        "section": "s. 3",
+        "title": "Authentication of electronic records"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Contract signed digitally",
+        "body": "Parties authenticate an electronic contract by digital signatures under s. 3 technique — authentication analysis follows the statutory crypto/hash requirements.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is a typed name at the end of an email a digital signature under s. 3?",
+        "analysis": "s. 3 contemplates authentication by asymmetric crypto system and hash function; a mere typed name does not satisfy that technique."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "s3-vs-s3a",
+        "title": "s. 3 digital signature vs s. 3A electronic signature",
+        "left": "Authentication specifically by digital signature (asymmetric crypto/hash).",
+        "right": "Broader electronic signature concept, of which digital signature is one form.",
+        "rows": [
+          {
+            "point": "Scope",
+            "left": "Digital signature technique.",
+            "right": "Electronic signature genus."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "s3-trap-1",
+        "trap": "Any electronic mark is a digital signature under s. 3.",
+        "correction": "s. 3 requires the specified authentication technique using asymmetric crypto system and hash function."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "s3-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Section 3 of the IT Act, 2000.",
+        "answer": "Authentication by digital signature; technique; integrity properties; link to s. 3A.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "s3-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss authentication of electronic records under Section 3 IT Act.",
+        "answer": "I. Power. II. Technique. III. Properties. IV. vs s. 3A. V. Conclusion.",
+        "explanation": "16-mark."
+      }
+    ],
+    "bareActPointers": [
+      "IT Act 2000 s. 3",
+      "IT Act 2000 s. 3A"
+    ],
+    "examTips": [
+      "State asymmetric crypto and hash.",
+      "Distinguish s. 3A."
+    ],
+    "revisionPoints": [
+      "Digital signature technique",
+      "Asymmetric crypto/hash",
+      "s. 3A link"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-it-s-3a",
+      "topic:india:cyber-cyber-it-s-5"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "cyber-it-s-3",
+    "migrationNote": "Substantive enhancement; no new case invented; verification open.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State s. 3 authentication technique",
+        "Distinguish from s. 3A"
+      ],
+      "definition": "IT Act s. 3 allows a subscriber to authenticate an electronic record by digital signature using asymmetric crypto system and hash function as enacted.",
+      "legalPrinciple": "Statutory technique for digital signature authentication of electronic records.",
+      "statutoryFramework": "Information Technology Act, 2000 — Section 3.",
+      "essentialIngredients": [
+        "Subscriber",
+        "Digital signature",
+        "Asymmetric crypto/hash technique"
+      ],
+      "detailedExplanation": "Digital signature authentication frame.",
+      "examples": [
+        "Contract signed digitally"
+      ],
+      "problemApplication": "Check technique compliance; relate to s. 3A if electronic signature broadly claimed.",
+      "distinctions": [
+        "s. 3 vs s. 3A"
+      ],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "Power → technique → properties.",
+      "sixteenMarkStructure": "Power → technique → properties → vs s. 3A → conclusion.",
+      "keyTakeaways": [
+        "Technique-specific",
+        "Not any electronic mark"
+      ],
+      "authoritativeSources": [
+        "IT Act 2000 s. 3"
+      ],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Information Technology Act, 2000",
+      "citation": "s. 3",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-separation-powers",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Doctrine of Separation of Powers & Rule of Law (Dicey's formulation)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "The doctrine of separation of powers divides state functions among legislature, executive and judiciary to prevent concentration of power. In India the separation is not rigid; the Constitution adopts checks and balances while treating separation as part of the basic structure in its essential features.",
+    "glance": "Identify which organ's function is engaged; test whether one organ has assumed a core function of another; apply Indian checks-and-balances rather than rigid tripartite separation.",
+    "study": "Classical separation assigns law-making, execution and adjudication to distinct organs. Indian constitutional practice is functional rather than rigid: delegated legislation, administrative adjudication and judicial review create overlaps. Courts intervene when one organ usurps the essential function of another. Separation and the rule of law are complementary limits on arbitrary power. Current-law framing: ground the analysis in the Constitution. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Classical Doctrine", "body": "Division of legislative, executive and judicial functions.", "order": 1},
+      {"heading": "Indian Adaptation", "body": "Checks and balances rather than rigid separation.", "order": 2},
+      {"heading": "Essential Functions", "body": "Core legislative, executive and judicial functions cannot be wholly usurped.", "order": 3},
+      {"heading": "Overlaps", "body": "Delegated legislation and tribunals create permitted overlaps within limits.", "order": 4},
+      {"heading": "Basic Structure", "body": "Essential separation features form part of the constitutional basic structure.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-50", "section": "Article 50", "title": "Separation of judiciary from executive"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Usurpation of judicial function", "body": "A statute transfers a core adjudicatory function in a manner that destroys judicial independence. Essential separation features are engaged.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Permitted overlap", "body": "A parent Act authorises rules on details within stated policy. Delegated legislation is a permitted overlap, not a rigid-separation violation.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Does India follow strict Montesquieu separation?", "analysis": "No. Indian practice is checks and balances under a written Constitution."},
+      {"question": "Is any overlap of functions unconstitutional?", "analysis": "Permitted overlaps exist; the vice is usurpation of essential functions."}
+    ],
+    "distinctions": [
+      {"id": "admin-sep-rigid-vs-checks", "title": "Rigid separation vs checks and balances", "left": "Strict functional isolation of organs", "right": "Controlled overlaps with mutual restraints", "rows": [{"point": "Focus", "left": "Isolation", "right": "Checks and balances"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-sep-trap-1", "trap": "India follows strict Montesquieu separation.", "correction": "Indian practice is checks and balances under a written Constitution."},
+      {"id": "admin-sep-trap-2", "trap": "Any overlap of functions is unconstitutional.", "correction": "Permitted overlaps exist; the vice is usurpation of essential functions."}
+    ],
+    "cases": [
+      {"name": "Ram Jawaya Kapur v State of Punjab", "year": 1955, "citation": "AIR 1955 SC 549", "court": "Supreme Court of India", "facts": "Executive action and constitutional distribution of governmental functions.", "issue": "Whether the Indian Constitution adopts a rigid separation of powers.", "ratioDecidendi": "The Constitution does not impose separation in absolute rigidity; functions are sufficiently differentiated.", "holding": "Functional separation rather than strict Montesquieuan separation recognised.", "relevance": "Principal Indian authority on functional separation.", "judgmentId": "judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955"},
+      {"name": "Asif Hameed v State of Jammu and Kashmir", "year": 1989, "citation": "1989 Supp (2) SCC 364", "court": "Supreme Court of India", "facts": "Limits of judicial intervention in matters allocated to other organs.", "issue": "Institutional limits on judicial review.", "ratioDecidendi": "Each constitutional organ must operate within its assigned sphere.", "holding": "Institutional restraint emphasised.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989"},
+      {"name": "Kesavananda Bharati v State of Kerala", "year": 1973, "citation": "(1973) 4 SCC 225", "court": "Supreme Court of India", "facts": "Basic structure of the Constitution.", "issue": "Whether separation of powers forms part of the constitutional structure.", "ratioDecidendi": "Checks and balances and separation of powers are components of the basic structure.", "holding": "Basic-structure doctrine established.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-sep-brief", "draftingCategory": "brief", "question": "How should a separation-of-powers problem be analysed?", "answer": "I. Identify organs and functions. II. Test usurpation of essential function. III. Apply Indian checks-and-balances. IV. Note basic-structure implications if any.", "explanation": "IRAC."},
+      {"id": "admin-sep-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Organs identified; function alleged to be usurped; Indian standard; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution of India", "Authorities already in the topic file", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["State classical doctrine then Indian adaptation.", "Reject rigid separation slogans.", "Link to basic structure where relevant."],
+    "revisionPoints": ["Classical doctrine", "Indian adaptation", "Essential functions", "Overlaps", "Basic structure"],
+    "relatedJudgments": ["judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955", "judgment:india:asif-hameed-v-state-of-jammu-and-kashmir-1989", "judgment:india:kesavananda-bharati-v-state-of-kerala-1973"],
+    "relatedTopics": ["admin-separation-montesquieu", "admin-separation-cases", "admin-rule-of-law-constitutional"],
+    "illustrations": ["illustration:india:admin-admin-admin-separation-powers-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-separation-powers",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Explain classical and Indian separation.", "Apply essential-function analysis.", "Link separation to basic structure."],
+      "definition": "Separation of powers divides state functions to prevent concentration of power; India adopts checks and balances.",
+      "legalPrinciple": "India rejects rigid separation; essential functions still matter; basic structure protects the core.",
+      "statutoryFramework": "Constitution of India.",
+      "essentialIngredients": ["Organs identified", "Function alleged to be usurped", "Indian checks-and-balances standard", "Basic-structure implication if any"],
+      "detailedExplanation": "Indian constitutional practice is functional rather than rigid.",
+      "examples": ["Usurpation of judicial function", "Permitted overlap"],
+      "problemApplication": "Identify organs; test usurpation; apply Indian standard.",
+      "keyTakeaways": ["India rejects rigid separation.", "Essential functions still matter.", "Overlaps are permitted within limits.", "Basic structure protects the core."],
+      "authoritativeSources": ["Ram Jawaya Kapur; Kesavananda; Asif Hameed (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Rigid separation vs checks and balances"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Ram Jawaya Kapur v State of Punjab", "Asif Hameed v State of Jammu and Kashmir", "Kesavananda Bharati v State of Kerala"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "State classical doctrine; note Indian checks and balances; one illustration; conclude.", "sixteenMark": "Introduction; classical doctrine; Indian adaptation; essential functions; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:22:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "cf255c4b60277f85",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:22:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "separation-of-powers", "constitution", "basic-structure"]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:commissioner-of-wealth-tax-v-chander-sen-1986",
+  "version": 1,
+  "status": "review",
+  "title": "Commissioner of Wealth Tax v. Chander Sen",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Commissioner of Wealth Tax v. Chander Sen, (1986) 3 SCC 567",
+    "court": "Supreme Court of India",
+    "decisionYear": 1986,
+    "citation": "(1986) 3 SCC 567",
+    "facts": "The Supreme Court considered a dispute requiring interpretation of the governing family-law provision or closely connected statutory rule.",
+    "questionsBeforeCourt": [
+      "What is the correct legal interpretation and application of the governing statutory rule?"
+    ],
+    "ratioDecidendi": "Property devolving under s. 8 is governed by the statutory succession scheme rather than automatic survivorship under old Hindu law.",
+    "holding": "Property devolving under s. 8 is governed by the statutory succession scheme rather than automatic survivorship under old Hindu law.",
+    "relevance": "Use this authority for the stated statutory proposition, while matching the case facts and the current statutory text before relying on it.",
+    "sourceTopics": [
+      "topics/family/hsa-s-8.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.130Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/9338.pdf",
+        "note": "Supreme Court of India (1986) 3 SCC 567; 1986 INSC 141; 1986 (3) SCR 254; Section 8 Hindu Succession Act and separate property character."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

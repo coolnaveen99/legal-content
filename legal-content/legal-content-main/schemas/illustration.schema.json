@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legal-content.codepackr.com/schemas/illustration.schema.json",
+  "title": "Legal Illustration",
+  "type": "object",
+  "required": ["schemaVersion", "entityType", "id", "version", "status", "title", "jurisdiction", "content", "sources", "updatedAt"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "entityType": { "const": "illustration" },
+    "id": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "status": { "type": "string" },
+    "title": { "type": "string" },
+    "jurisdiction": { "type": "string" },
+    "content": {
+      "type": "object",
+      "required": ["body"],
+      "properties": {
+        "type": { "type": "string", "enum": ["example", "hypothetical", "timeline", "flowchart", "decision-tree", "concept-map", "reasoning-map", "visual"] },
+        "body": { "type": "string" },
+        "nodes": { "type": "array", "items": { "type": "object" } },
+        "edges": { "type": "array", "items": { "type": "object" } },
+        "assetPath": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

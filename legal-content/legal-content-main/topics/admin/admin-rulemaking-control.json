@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-rulemaking-control",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Control of Administrative Rule-Making — Legislative, Judicial and Procedural",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Control over administrative rule-making is exercised through parliamentary laying and scrutiny, publication and consultation requirements, administrative hierarchical control, and judicial review for ultra vires and constitutional defects.",
+    "glance": "Identify which control channel is engaged — legislative, procedural, administrative or judicial — and apply the standards specific to that channel.",
+    "study": "Democratic control of subordinate legislation includes laying rules before the legislature and committee scrutiny where the parent Act so provides. Publication ensures notice. Consultation may be statutory or administrative. Courts control rules through judicial review. Effective control is cumulative. Current-law framing: ground the analysis in the parent Act and Constitution. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Legislative Control", "body": "Laying requirements, affirmative/negative resolutions and committee scrutiny.", "order": 1},
+      {"heading": "Publication and Consultation", "body": "Notice to the public and stakeholder input where required.", "order": 2},
+      {"heading": "Administrative Control", "body": "Internal vetting, hierarchical approval and departmental scrutiny.", "order": 3},
+      {"heading": "Judicial Control", "body": "Ultra vires, rights review and reasonableness where applicable.", "order": 4},
+      {"heading": "Interaction of Controls", "body": "No single channel is exclusive; gaps in one may be filled by another.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-13", "section": "Article 13", "title": "Laws inconsistent with fundamental rights"}
+    ],
+    "examples": [
+      {"title": "Laid but ultra vires", "body": "A rule is laid before Parliament but exceeds the parent Act. Laying does not cure ultra vires; judicial review remains available.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Publication failure", "body": "Required publication is omitted. Procedural control and possible invalidity are engaged.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "If a rule is laid before Parliament can it still be challenged in court?", "analysis": "Yes. Laying does not cure ultra vires or constitutional defects."},
+      {"question": "Is publication a mere formality?", "analysis": "Lack of required publication can affect validity and fairness."}
+    ],
+    "distinctions": [
+      {"id": "admin-rmc-leg-vs-jud", "title": "Legislative control vs judicial control", "left": "Political and procedural scrutiny by the legislature", "right": "Legal validity review by courts", "rows": [{"point": "Focus", "left": "Political scrutiny", "right": "Legal validity"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-rmc-trap-1", "trap": "If a rule is laid before Parliament it cannot be challenged in court.", "correction": "Laying does not cure ultra vires or constitutional defects."},
+      {"id": "admin-rmc-trap-2", "trap": "Publication is a mere formality.", "correction": "Lack of required publication can affect validity and fairness."}
+    ],
+    "cases": [
+      {"name": "Indian Express Newspapers (Bombay) Pvt. Ltd. v Union of India", "year": 1985, "citation": "(1985) 1 SCC 641", "court": "Supreme Court of India", "facts": "Validity of delegated legislation imposing customs duty on newsprint.", "issue": "Grounds for judicial review of subordinate legislation.", "ratioDecidendi": "Delegated legislation is open to judicial review on constitutional and statutory grounds.", "holding": "Judicial-review framework for subordinate legislation articulated.", "relevance": "Leading authority already in the file on control of delegated legislation.", "judgmentId": "judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985"},
+      {"name": "State of Tamil Nadu v P. Krishnamurthy", "year": 2006, "citation": "(2006) 4 SCC 517", "court": "Supreme Court of India", "facts": "Challenge to subordinate legislation.", "issue": "Grounds permitting courts to invalidate delegated legislation.", "ratioDecidendi": "Subordinate legislation may be challenged for lack of competence, constitutional violation, failure to conform to enabling statute, repugnancy and manifest arbitrariness.", "holding": "Applicable grounds consolidated.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006"},
+      {"name": "Cellular Operators Association of India v Telecom Regulatory Authority of India", "year": 2016, "citation": "(2016) 7 SCC 703", "court": "Supreme Court of India", "facts": "Regulations made by a statutory regulator reviewed.", "issue": "How judicial review operates against expert regulatory subordinate legislation.", "ratioDecidendi": "Regulatory expertise does not immunise subordinate legislation from judicial review.", "holding": "Regulations scrutinised against the governing statute.", "relevance": "Authority already in the file on modern regulatory rulemaking.", "judgmentId": "judgment:india:cellular-operators-association-of-india-v-telecom-regulatory-authority-of-india-2016"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-rmc-brief", "draftingCategory": "brief", "question": "How should a rulemaking-control problem be analysed?", "answer": "I. Identify control channel. II. Apply channel-specific standards. III. Note interaction of controls. IV. Formulate remedy.", "explanation": "IRAC."},
+      {"id": "admin-rmc-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Channel engaged; statutory requirement; judicial-review ground if challenged; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Parent statute laying/publication clauses", "Constitution Articles 13, 226", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["List control channels.", "State that laying does not cure ultra vires.", "Publication is central to fairness."],
+    "revisionPoints": ["Legislative control", "Publication and consultation", "Administrative control", "Judicial control", "Interaction"],
+    "relatedJudgments": ["judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985", "judgment:india:state-of-tamil-nadu-v-p-krishnamurthy-2006", "judgment:india:cellular-operators-association-of-india-v-telecom-regulatory-authority-of-india-2016"],
+    "relatedTopics": ["admin-rulemaking-source", "admin-rulemaking-limits", "admin-judicial-review"],
+    "illustrations": ["illustration:india:admin-admin-admin-rulemaking-control-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-rulemaking-control",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["List control channels over rule-making.", "Explain laying and judicial review.", "Apply interaction of controls."],
+      "definition": "Control of rule-making is multi-channel: legislative, procedural, administrative and judicial.",
+      "legalPrinciple": "Control is multi-channel; laying is not always mandatory; judicial review remains the backstop.",
+      "statutoryFramework": "Parent Act; Constitution Articles 13, 226.",
+      "essentialIngredients": ["Applicable control channel", "Statutory requirement for laying/publication/consultation", "Judicial review ground if challenged"],
+      "detailedExplanation": "Democratic control of subordinate legislation is cumulative.",
+      "examples": ["Laid but ultra vires", "Publication failure"],
+      "problemApplication": "Identify channel; apply standards; formulate remedy.",
+      "keyTakeaways": ["Control is multi-channel.", "Laying is not always mandatory — read the parent Act.", "Publication is central to fairness.", "Judicial review remains the backstop."],
+      "authoritativeSources": ["Authorities already in the topic file", "Parent statute"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Legislative control vs judicial control"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Indian Express Newspapers (Bombay) Pvt. Ltd. v Union of India", "State of Tamil Nadu v P. Krishnamurthy", "Cellular Operators Association of India v Telecom Regulatory Authority of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "List control channels; explain laying and judicial review; conclude.", "sixteenMark": "Introduction; legislative; procedural; administrative; judicial; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "remediated-control",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:20:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "rulemaking", "parliamentary-control", "judicial-review"]
+}

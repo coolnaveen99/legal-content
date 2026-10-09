@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:tort-injuria-damnum",
+  "version": 2,
+  "status": "published",
+  "title": "Injuria sine damno and damnum sine injuria",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Injuria sine damno (violation of a legal right without proven actual loss) is actionable. Damnum sine injuria (actual loss without violation of a legal right) is not. These maxims frame whether the claimant has a cause of action at all.",
+    "sections": [
+      {
+        "heading": "Injuria sine damno",
+        "body": "Where a legal right is invaded, the law presumes damage. Classic illustrations: Ashby v. White (wrongful denial of vote); Bhim Singh v. State of J&K (illegal detention — compensation for rights violation). The point is rights-protection, not a balance-sheet of financial loss.",
+        "order": 1
+      },
+      {
+        "heading": "Damnum sine injuria",
+        "body": "Competition or lawful exercise of rights may cause loss without creating a tort. Gloucester Grammar School and Mogul Steamship illustrate loss from lawful rivalry. The claimant must show an invaded legal right, not only economic harm.",
+        "order": 2
+      },
+      {
+        "heading": "Application method",
+        "body": "Identify the precise legal right claimed. If none, dismiss on damnum sine injuria. If a right exists, liability may follow even without special damage unless the tort requires proof of damage.",
+        "order": 3
+      }
+    ],
+    "examples": [],
+    "hypotheticals": [
+      {
+        "question": "A shopkeeper lawfully undercuts prices; a rival loses customers. Actionable?",
+        "analysis": "Absent unlawful means, conspiracy of a prohibited kind, or infringement of a legal right, this is damnum sine injuria. Lawful competition is not a tort."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:tort-nature-definition",
+      "topic:india:tort-general-defences"
+    ],
+    "relatedJudgments": [],
+    "illustrations": [],
+    "legacySubjectSlug": "tort",
+    "legacyTopicId": "injuria-damnum",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the rule recorded for Injuria sine damno and damnum sine injuria.",
+        "Separate the points already present in the topic sections.",
+        "Do not add a case or section number that is not already in this note."
+      ],
+      "definition": "Injuria sine damno means violation of a legal right without proof of actual pecuniary loss; damnum sine injuria means actual loss without infringement of a legal right.",
+      "legalPrinciple": "Actionability depends on infringement of a legal right, not merely on economic loss.",
+      "statutoryFramework": "Indian tort law is largely uncodified. The governing rules are developed through common-law principles, Indian judicial decisions and applicable legislation for particular fields; no statute should be treated as a general codification of this topic.",
+      "essentialIngredients": [
+        "Identify the plaintiff's legal right",
+        "Determine whether that right was infringed",
+        "Separate legal injury from consequential loss",
+        "Apply the remedy and any defence"
+      ],
+      "detailedExplanation": "Injuria sine damno (violation of a legal right without proven actual loss) is actionable. Damnum sine injuria (actual loss without violation of a legal right) is not. These maxims frame whether the claimant has a cause of action at all.",
+      "examples": [
+        "No illustration was present on the migrated topic. None was invented."
+      ],
+      "problemApplication": "A shopkeeper lawfully undercuts prices; a rival loses customers. Actionable? — Absent unlawful means, conspiracy of a prohibited kind, or infringement of a legal right, this is damnum sine injuria. Lawful competition is not a tort.",
+      "keyTakeaways": [
+        "Injuria sine damno (violation of a legal right without proven actual loss) is actionable. Damnum sine injuria (actual loss without violation of a legal right) is not. These maxims frame whether the claimant has a cause of action at all."
+      ],
+      "authoritativeSources": [
+        "Supreme Court of India — official judgments service: https://www.sci.gov.in/judgements-case-no/",
+        "Supreme Court Reports / eCommittee judgment search: https://scr.sci.gov.in/scrsearch/"
+      ],
+      "verification": {
+        "lastVerifiedAt": "2026-10-04",
+        "verifiedBy": "Subramanian Swamy official-PDF pass",
+        "notes": [
+          "Opened official Supreme Court PDF https://api.sci.gov.in/judgment/judis/44579.pdf: Subramanian Swamy v. Union of India & Ors., Writ Petition (Crl.) No. 184 of 2014, judgment 13/05/2016, (2016) 7 SCC 221, Dipak Misra & Prafulla C. Pant JJ.",
+          "Confirmed para 63 (p. 110): express affirmation of the foundational tort rule that injuria sine damno is actionable while damnum sine injuria is not (quoting Justice G.P. Singh, Law of Torts).",
+          "Confirmed para 66 (p. 111): right to institute a civil action under Section 9 CPC for invasion of legal rights without needing a separate empowering statute (Ganga Bai v. Vijay Kumar, 1974).",
+          "Common-law and constitutional framework check: injuria sine damno governs actionable per se torts (trespass, libel, false imprisonment) and constitutional damages for rights violation (Bhim Singh, 1985); damnum sine injuria governs lawful competition and damage resulting from exercise of legal rights without legal wrong.",
+          "Not COMPLETE_LOCKED: remaining Torts topics in ledger remain OPEN."
+        ]
+      },
+      "distinctions": [
+        {
+          "id": "injuria-damnum-dist-1",
+          "title": "Injuria sine damno",
+          "left": "Injuria sine damno: legal right violated; actual loss need not be proved. Actionable per se (e.g. Ashby v. White).",
+          "right": "Actionable in tort; damages awarded to vindicate the invaded legal right.",
+          "rows": [
+            {
+              "basis": "Infringement",
+              "left": "Legal right is infringed",
+              "right": "Actionable per se"
+            },
+            {
+              "basis": "Pecuniary loss",
+              "left": "No proof of financial loss required",
+              "right": "Nominal or substantial damages follow"
+            }
+          ]
+        },
+        {
+          "id": "injuria-damnum-dist-2",
+          "title": "Damnum sine injuria",
+          "left": "Damnum sine injuria: actual loss suffered; no legal right infringed. Not actionable in tort (e.g. Gloucester Grammar School).",
+          "right": "No remedy in tort; lawful exercise of rights or lawful competition does not constitute a legal wrong.",
+          "rows": [
+            {
+              "basis": "Infringement",
+              "left": "No legal right is infringed",
+              "right": "Not actionable in tort"
+            },
+            {
+              "basis": "Pecuniary loss",
+              "left": "Severe financial/material loss may exist",
+              "right": "Damages cannot be claimed"
+            }
+          ]
+        }
+      ],
+      "examAnswerStructure": "Define both maxims → explain legal injury versus actual damage → illustrate each → discuss limits/exceptions → conclusion.",
+      "caseLaw": [
+        {
+          "name": "Subramanian Swamy v. Union of India",
+          "year": 2016,
+          "citation": "(2016) 7 SCC 221; 2016 (7) SCALE 379; WP (Crl.) 184 of 2014",
+          "holding": "Judgment dated 13/05/2016. In para 63, the Supreme Court expressly affirmed the foundational principle of the law of torts in India, quoting Justice G.P. Singh: 'The principles which form the foundation of the law of torts are usually expressed by saying the injuria sine damno is actionable but damnum sine (or absque) injuria is not.' The Court confirmed that a civil suit under Section 9 CPC lies for the invasion of any legal right as a common-law remedy, whereas damnum without injuria confers no cause of action.",
+          "relevance": "Direct authority for the foundational injuria sine damno / damnum sine injuria distinction in Indian tort law.",
+          "sourceUrl": "https://api.sci.gov.in/judgment/judis/44579.pdf",
+          "verificationStatus": "opened-official-pdf"
+        }
+      ]
+    },
+    "cases": [],
+    "caseLaw": []
+  },
+  "sources": [
+    "source:india:india-common-law-torts"
+  ],
+  "updatedAt": "2026-10-03T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "current-law",
+    "torts",
+    "subject-complete"
+  ]
+}

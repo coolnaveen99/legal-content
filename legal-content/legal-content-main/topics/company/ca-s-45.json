@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-45",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 45 (Numbering of Shares)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 45 requires that every share in a company having a share capital be distinguished by its distinctive number, except where shares are held by a person in dematerialised form under the Depositories Act, 1996.",
+    "glance": "Every share must have a distinctive number, except dematerialised shares under the Depositories Act.",
+    "study": "Every share in a company having a share capital shall be distinguished by its distinctive number. Provided that nothing in this section shall apply to a share held by a person whose name is entered as holder of beneficial interest in such share in the records of a depository. Current-law framing: physical/certificated shares require distinctive numbers; demat shares under the Depositories Act are excepted.",
+    "sections": [
+      {
+        "heading": "Distinctive Number Rule",
+        "body": "Every share in a company having a share capital must be distinguished by its distinctive number.",
+        "order": 1
+      },
+      {
+        "heading": "Demat Exception",
+        "body": "The requirement does not apply to shares held in dematerialised form where the holder’s name is entered as beneficial owner in the depository’s records.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-45",
+        "section": "Section 45",
+        "title": "Numbering of shares"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Certificated shares numbered",
+        "body": "A company issues physical share certificates with distinctive numbers for each share. Section 45 is complied with.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Demat shares",
+        "body": "Shares held in a demat account under the Depositories Act need not carry distinctive numbers under s. 45.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Must dematerialised shares be numbered?",
+        "analysis": "No. The proviso to s. 45 excludes shares held with a depository where the holder is entered as beneficial owner."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s45-vs-s46",
+        "title": "Numbering of shares (s. 45) vs certificate of shares (s. 46)",
+        "left": "Distinctive number of each share",
+        "right": "Certificate as prima facie evidence of title",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Identification of shares",
+            "right": "Evidence of ownership"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s45-trap-1",
+        "trap": "All shares, including demat, must have distinctive numbers under s. 45.",
+        "correction": "The proviso excludes dematerialised shares held through a depository."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s45-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 45 problem be analysed?",
+        "answer": "I. Identify form of holding (certificated or demat). II. Apply distinctive-number rule or proviso. III. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s45-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Holding form; numbering compliance or demat exception; precise relief.",
+        "explanation": "Submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 45",
+      "Depositories Act, 1996",
+      "Connected: Section 46"
+    ],
+    "examTips": [
+      "State the rule and the demat proviso.",
+      "Link to depository records."
+    ],
+    "revisionPoints": [
+      "Distinctive number rule",
+      "Demat exception"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-46",
+      "company-ca-s-29"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-45",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the distinctive-number requirement.",
+        "Apply the demat exception under the Depositories Act."
+      ],
+      "definition": "Section 45 requires every share in a company having a share capital to be distinguished by its distinctive number, except dematerialised shares held through a depository.",
+      "legalPrinciple": "Certificated shares are identified by distinctive numbers; demat shares are identified through depository records.",
+      "statutoryFramework": "Companies Act, 2013, Section 45; Depositories Act, 1996.",
+      "essentialIngredients": [
+        "Company having a share capital",
+        "Distinctive number for each share",
+        "Exception for demat beneficial holders"
+      ],
+      "detailedExplanation": "Section 45 is a short identification rule with a modern demat carve-out.",
+      "examples": [
+        "Certificated shares numbered",
+        "Demat shares"
+      ],
+      "problemApplication": "Classify holding form; apply rule or proviso.",
+      "keyTakeaways": [
+        "Distinctive numbers for certificated shares.",
+        "Demat exception via depository."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 45"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Numbering of shares (s. 45) vs certificate of shares (s. 46)"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Rule; demat proviso; conclude.",
+        "sixteenMark": "Introduction; rule; exception; link to certificates; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T09:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s45-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T09:05:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-45",
+    "numbering-of-shares"
+  ]
+}

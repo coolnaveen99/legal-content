@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-19",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 19 (Subsidiary company not to hold shares in its holding company)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 19 generally prohibits a subsidiary from holding shares in its holding company and prohibits the holding company from allotting or transferring its shares to the subsidiary. Any such allotment or transfer is void, subject to specified statutory exceptions.",
+    "glance": "The core rule is a prohibition on cross-holding by a subsidiary in its holding company, subject to three specified exceptions and a limited voting consequence.",
+    "study": "Section 19 addresses reciprocal shareholding between a holding company and its subsidiary. The basic rule is that a company cannot, directly or through nominees, hold shares in its holding company; correspondingly, the holding company cannot allot or transfer its shares to a subsidiary, and a prohibited allotment or transfer is void. The section preserves three situations: shares held by the subsidiary as legal representative of a deceased member; shares held as trustee; and shares already held before the subsidiary relationship arose. Voting is specially restricted for the third-category subsidiary holding: the subsidiary may vote only in respect of shares held as legal representative or trustee. For a holding company limited by guarantee or an unlimited company without share capital, references to shares are read as references to members' interests.",
+    "sections": [
+      {
+        "heading": "General prohibition",
+        "body": "A subsidiary cannot hold shares in its holding company, directly or through nominees; the holding company likewise cannot allot or transfer its shares to the subsidiary. A prohibited allotment or transfer is void.",
+        "order": 1
+      },
+      {
+        "heading": "Statutory exceptions",
+        "body": "The prohibition does not apply where the subsidiary holds the shares as legal representative of a deceased member, as trustee, or where the subsidiary was already a shareholder before it became a subsidiary.",
+        "order": 2
+      },
+      {
+        "heading": "Voting limitation",
+        "body": "The subsidiary has voting rights in the holding company only for shares held in the legal-representative or trustee capacities identified in the first two exceptions.",
+        "order": 3
+      },
+      {
+        "heading": "No-share-capital holding company",
+        "body": "Where the holding company is limited by guarantee or unlimited and has no share capital, references to shares are construed as references to members' interests.",
+        "order": 4
+      },
+      {
+        "heading": "Application test",
+        "body": "Establish the holding/subsidiary relationship, identify the manner and timing of the holding, test each exception, determine whether the allotment/transfer is void and apply the voting rule.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "company",
+        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
+        "provisionId": "company-ca-s-19",
+        "title": "Companies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19)"
+      },
+      {
+        "actId": "bsa",
+        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
+        "provisionId": "bsa-s-63",
+        "section": "s. 63",
+        "title": "Electronic records where applicable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Prohibited acquisition",
+        "body": "A subsidiary acquires shares in its holding company through a nominee after becoming a subsidiary. The transaction falls within the prohibition and the allotment/transfer is void.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Pre-existing holding",
+        "body": "A company already held shares in another company before becoming its subsidiary. This is within the express exception, subject to the section's voting limitation.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Trust holding",
+        "body": "A subsidiary holds shares as trustee. The trust capacity is expressly recognised as an exception.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "What is the key application issue?",
+        "analysis": "A subsidiary acquires shares in its holding company through a nominee after becoming a subsidiary. The transaction falls within the prohibition and the allotment/transfer is void."
+      },
+      {
+        "question": "What is the key application issue?",
+        "analysis": "A company already held shares in another company before becoming its subsidiary. This is within the express exception, subject to the section's voting limitation."
+      },
+      {
+        "question": "What is the key application issue?",
+        "analysis": "A subsidiary holds shares as trustee. The trust capacity is expressly recognised as an exception."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s19-dist-1",
+        "title": "Prohibited subsidiary holding vs the three statutory exceptions",
+        "left": "Statutory rule / covered situation",
+        "right": "Nearest distinct rule or exception",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Prohibited subsidiary holding vs the three statutory exceptions",
+            "right": "Different legal basis or consequence"
+          }
+        ]
+      },
+      {
+        "id": "ca-s19-dist-2",
+        "title": "Void allotment/transfer vs permissible pre-existing, trustee or legal-representative holding",
+        "left": "Statutory rule / covered situation",
+        "right": "Nearest distinct rule or exception",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Void allotment/transfer vs permissible pre-existing, trustee or legal-representative holding",
+            "right": "Different legal basis or consequence"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
+        "issue": "What is the legal effect of incorporation?",
+        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
+        "holding": "The company's separate personality was affirmed.",
+        "relevance": "Use for Companies Act s. 9 and corporate personality.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      },
+      {
+        "name": "Foss v. Harbottle",
+        "year": 1843,
+        "citation": "(1843) 2 Hare 461",
+        "court": "Court of Chancery",
+        "facts": "Shareholders sought relief for alleged wrongs to the company.",
+        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
+        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
+        "holding": "The proper-plaintiff and majority-rule principles were established.",
+        "relevance": "Use with oppression, mismanagement and class-action analysis.",
+        "judgmentId": "judgment:india:foss-v-harbottle-1843"
+      },
+      {
+        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
+        "year": 1981,
+        "citation": "(1981) 3 SCC 333",
+        "court": "Supreme Court of India",
+        "facts": "The Court examined share issue powers and alleged oppression.",
+        "issue": "When does a corporate action become oppressive or invalid?",
+        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
+        "holding": "The corporate action was assessed under the statutory and equitable framework.",
+        "relevance": "Use for share allotment and oppression claims.",
+        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
+      },
+      {
+        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
+        "year": 1997,
+        "citation": "(1997) 1 SCC 579",
+        "court": "Supreme Court of India",
+        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
+        "issue": "What is the court's role in sanctioning a corporate scheme?",
+        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
+        "holding": "The principles governing scheme sanction were stated.",
+        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
+        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s-19-brief",
+        "draftingCategory": "brief",
+        "question": "Structured Case Brief and legal problem assessment on Companies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19).",
+        "answer": "I. ISSUE AND JURISDICTION\nWhether Companies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19) applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nCompanies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19) is governed by Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies. identify the company type, relevant financial year, statutory amendment, board or shareholder resolution, tribunal jurisdiction and limitation or procedural route.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
+        "explanation": "IRAC chamber brief."
+      },
+      {
+        "id": "ca-s-19-submissions",
+        "draftingCategory": "submissions",
+        "question": "Comprehensive Written Submissions on Companies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19).",
+        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct Companies Act s. 19 — Incorporation of Company and Matters Incidental Thereto provision (Companies Act s. 19) under Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the Registrar of Companies, adjudicating officer, NCLT, NCLAT, civil or criminal court where jurisdiction survives, High Court and Supreme Court according to the Companies Act route.",
+        "explanation": "Senior Counsel written submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 19"
+    ],
+    "examTips": [
+      "Section 19 targets reciprocal holding between holding and subsidiary companies.",
+      "The prohibited allotment or transfer is void.",
+      "There are three express exceptions: deceased-member legal representative, trustee, and pre-existing shareholding."
+    ],
+    "revisionPoints": [
+      "Section 19 targets reciprocal holding between holding and subsidiary companies.",
+      "The prohibited allotment or transfer is void.",
+      "There are three express exceptions: deceased-member legal representative, trustee, and pre-existing shareholding.",
+      "Voting is permitted for the first two exception categories, not generally for the pre-existing holding category."
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-19",
+    "migrationNote": "Substantive enhancement. Statutory source checked; case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the statutory rule in Companies Act, 2013, Section 19.",
+        "Identify its ingredients, exceptions and procedural consequences.",
+        "Apply the provision to a concrete company-law problem without inventing authority."
+      ],
+      "definition": "Section 19 generally prohibits a subsidiary from holding shares in its holding company and prohibits the holding company from allotting or transferring its shares to the subsidiary. Any such allotment or transfer is void, subject to specified statutory exceptions.",
+      "legalPrinciple": "Section 19 addresses reciprocal shareholding between a holding company and its subsidiary. The basic rule is that a company cannot, directly or through nominees, hold shares in its holding company; correspondingly, the holding company cannot allot or transfer its shares to a subsidiary, and a prohibited allotment or transfer is void. The section preserves three situations: shares held by the subsidiary as legal representative of a deceased member; shares held as trustee; and shares already held before the subsidiary relationship arose. Voting is specially restricted for the third-category subsidiary holding: the subsidiary may vote only in respect of shares held as legal representative or trustee. For a holding company limited by guarantee or an unlimited company without share capital, references to shares are read as references to members' interests.",
+      "statutoryFramework": "Companies Act, 2013, Section 19.",
+      "essentialIngredients": [
+        "General prohibition",
+        "Statutory exceptions",
+        "Voting limitation",
+        "No-share-capital holding company",
+        "Application test"
+      ],
+      "detailedExplanation": "Section 19 addresses reciprocal shareholding between a holding company and its subsidiary. The basic rule is that a company cannot, directly or through nominees, hold shares in its holding company; correspondingly, the holding company cannot allot or transfer its shares to a subsidiary, and a prohibited allotment or transfer is void. The section preserves three situations: shares held by the subsidiary as legal representative of a deceased member; shares held as trustee; and shares already held before the subsidiary relationship arose. Voting is specially restricted for the third-category subsidiary holding: the subsidiary may vote only in respect of shares held as legal representative or trustee. For a holding company limited by guarantee or an unlimited company without share capital, references to shares are read as references to members' interests.\n\nKey statutory components:\n1. General prohibition — A subsidiary cannot hold shares in its holding company, directly or through nominees; the holding company likewise cannot allot or transfer its shares to the subsidiary. A prohibited allotment or transfer is void.\n2. Statutory exceptions — The prohibition does not apply where the subsidiary holds the shares as legal representative of a deceased member, as trustee, or where the subsidiary was already a shareholder before it became a subsidiary.\n3. Voting limitation — The subsidiary has voting rights in the holding company only for shares held in the legal-representative or trustee capacities identified in the first two exceptions.\n4. No-share-capital holding company — Where the holding company is limited by guarantee or unlimited and has no share capital, references to shares are construed as references to members' interests.\n5. Application test — Establish the holding/subsidiary relationship, identify the manner and timing of the holding, test each exception, determine whether the allotment/transfer is void and apply the voting rule.",
+      "examples": [
+        "A subsidiary acquires shares in its holding company through a nominee after becoming a subsidiary. The transaction falls within the prohibition and the allotment/transfer is void.",
+        "A company already held shares in another company before becoming its subsidiary. This is within the express exception, subject to the section's voting limitation.",
+        "A subsidiary holds shares as trustee. The trust capacity is expressly recognised as an exception."
+      ],
+      "problemApplication": "First prove the corporate relationship and identify how the shares were acquired. Then determine whether the holding arose before or after the subsidiary relationship and whether the legal-representative or trustee exceptions apply. Finally determine validity and voting rights.",
+      "keyTakeaways": [
+        "Section 19 targets reciprocal holding between holding and subsidiary companies.",
+        "The prohibited allotment or transfer is void.",
+        "There are three express exceptions: deceased-member legal representative, trustee, and pre-existing shareholding.",
+        "Voting is permitted for the first two exception categories, not generally for the pre-existing holding category."
+      ],
+      "authoritativeSources": [
+        "India Code — The Companies Act, 2013, Section 19"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Section text checked against India Code. No new case citations invented; case-law verification remains open.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Prohibited subsidiary holding vs the three statutory exceptions",
+        "Void allotment/transfer vs permissible pre-existing, trustee or legal-representative holding"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "State prohibition; identify exceptions; explain voting limitation; address no-share-capital rule; apply facts; conclude.",
+        "sixteenMark": "Introduction; statutory prohibition; exceptions; validity consequence; voting rule; guarantee/unlimited company rule; factual application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T12:55:00+05:30",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1",
+        "Statutory source checked"
+      ],
+      "sourceFingerprint": "ca-s19-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "problemApplication": "First prove the corporate relationship and identify how the shares were acquired. Then determine whether the holding arose before or after the subsidiary relationship and whether the legal-representative or trustee exceptions apply. Finally determine validity and voting rights.",
+    "keyTakeaways": [
+      "Section 19 targets reciprocal holding between holding and subsidiary companies.",
+      "The prohibited allotment or transfer is void.",
+      "There are three express exceptions: deceased-member legal representative, trustee, and pre-existing shareholding.",
+      "Voting is permitted for the first two exception categories, not generally for the pre-existing holding category."
+    ],
+    "authoritativeSources": [
+      "India Code — The Companies Act, 2013, Section 19"
+    ],
+    "verification": {
+      "lastVerifiedAt": "2026-10-08",
+      "verifiedBy": "manual-quality-remediation",
+      "notes": [
+        "Statutory text checked against India Code for this section. Case-law verification remains separate; no new case citation added."
+      ]
+    },
+    "caseLawGate": "verification_required",
+    "sources": [
+      {
+        "type": "statutory",
+        "name": "India Code",
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+        "checkedAt": "2026-10-08"
+      }
+    ],
+    "updatedAt": "2026-10-08T12:55:00+05:30"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-03T11:18:49.185Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "company"
+  ]
+}

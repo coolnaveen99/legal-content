@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:sawan-ram-v-kalawanti-1967",
+  "version": 1,
+  "status": "review",
+  "title": "Sawan Ram v. Kalawanti",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Sawan Ram v. Kalawanti, AIR 1967 SC 1761",
+    "court": "Supreme Court of India",
+    "decisionYear": 1967,
+    "citation": "AIR 1967 SC 1761",
+    "facts": "The Supreme Court considered a dispute requiring interpretation of the governing family-law provision or closely connected statutory rule.",
+    "questionsBeforeCourt": [
+      "What is the correct legal interpretation and application of the governing statutory rule?"
+    ],
+    "ratioDecidendi": "The statutory adoption scheme determines the child's status and its consequences in the adoptive family, subject to the Act's safeguards.",
+    "holding": "The statutory adoption scheme determines the child's status and its consequences in the adoptive family, subject to the Act's safeguards.",
+    "relevance": "Use this authority for the stated statutory proposition, while matching the case facts and the current statutory text before relying on it.",
+    "sourceTopics": [
+      "topics/family/hama-s-12.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.268Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/jonew/judis/4028.pdf",
+        "note": "Supreme Court of India (1967) 3 SCR 687; AIR 1967 SC 1761; 1967 INSC 111; adoption by widow creates relationship with deceased husband under HAMA Section 12."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

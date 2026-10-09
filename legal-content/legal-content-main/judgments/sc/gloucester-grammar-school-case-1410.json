@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:gloucester-grammar-school-case-1410",
+  "version": 1,
+  "status": "review",
+  "title": "Gloucester Grammar School Case",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Gloucester Grammar School Case, Y.B. 11 Hen. IV, fol. 47, pl. 21",
+    "court": "Court of Common Pleas (England)",
+    "decisionYear": 1410,
+    "citation": "Y.B. 11 Hen. IV, fol. 47, pl. 21",
+    "facts": "A schoolmaster established a rival grammar school in Gloucester, causing students to leave the plaintiff's school and reducing the plaintiff's income. The reported authority is used to illustrate loss caused by lawful competition without infringement of a protected legal right.",
+    "questionsBeforeCourt": [
+      "Whether economic loss caused by lawful competition, without infringement of a legal right, gives rise to an action."
+    ],
+    "ratioDecidendi": "Mere economic loss caused by lawful competition is not, without infringement of a legal right, sufficient to found the tort claim described by the maxim damnum sine injuria.",
+    "holding": "The rival schoolmaster was not liable merely because lawful competition caused the plaintiff economic loss.",
+    "relevance": "Use the historical authority to distinguish consequential economic loss from infringement of a legal right.",
+    "sourceTopics": [
+      "topics/torts/tort-injuria-damnum.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.099Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://www.bailii.org/ew/cases/Misc/1410/1.html",
+        "note": "Court of Common Pleas (1410) Y.B. 11 Hen. IV, fol. 47, pl. 21; landmark authority establishing damnum sine injuria."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

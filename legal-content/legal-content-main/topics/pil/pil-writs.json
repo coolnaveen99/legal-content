@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:pil-pil-writs",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Five Constitutional Writs in PIL — Habeas Corpus, Mandamus, Certiorari, Prohibition and Quo Warranto",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "PIL uses the same five constitutional writs available under Articles 32 and 226 — habeas corpus, mandamus, certiorari, prohibition, and quo warranto — with liberalised standing. Choosing the correct writ matches the wrong: detention, public duty, jurisdictional error, or usurped office.",
+    "glance": "Ask: (1) Detention of liberty? (2) Public duty not performed? (3) Order without jurisdiction or illegality? (4) Proceedings to be stopped? (5) Office held without authority?",
+    "study": "Core rule: PIL is standing and process, not a sixth writ. Relief is still framed through the recognised writs or equivalent directions under Articles 32 and 226.\n\nHabeas corpus: unlawful detention; often used for missing persons or illegal custody claims in public-interest settings.\n\nMandamus: compel performance of a public duty; the workhorse of structural PIL, including continuing mandamus forms.\n\nCertiorari: quash orders of bodies acting without or in excess of jurisdiction or with patent illegality.\n\nProhibition: stop inferior bodies from exceeding jurisdiction.\n\nQuo warranto: challenge usurpation of a public office.\n\nCurrent-law framing: Match facts to the writ; standing liberalisation does not change writ ingredients. Verification of holdings remains separate.",
+    "sections": [
+      {
+        "heading": "Writs as the relief vocabulary of PIL",
+        "body": "Public-interest standing opens the door; the five writs (or directions of like nature) supply the remedy. Answers should name the writ that fits the pleaded wrong.",
+        "order": 1
+      },
+      {
+        "heading": "Habeas corpus in public-interest settings",
+        "body": "Used where liberty is restrained without lawful authority. Representative petitioners may seek production of persons who cannot approach the court.",
+        "order": 2
+      },
+      {
+        "heading": "Mandamus and continuing directions",
+        "body": "Mandamus compels public duties. Where default is ongoing, courts may structure successive monitoring directions (continuing mandamus) within the same writ power.",
+        "order": 3
+      },
+      {
+        "heading": "Certiorari and prohibition",
+        "body": "Certiorari quashes completed or operative orders tainted by jurisdictional error or illegality. Prohibition restrains further excess of jurisdiction. Both require a body amenable to writ and a jurisdictional or legal defect.",
+        "order": 4
+      },
+      {
+        "heading": "Quo warranto",
+        "body": "Challenges occupation of a public office without legal authority. Public interest in lawful tenure of office can support standing where the office is public.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-32",
+        "section": "Article 32",
+        "title": "Supreme Court power to issue writs"
+      },
+      {
+        "actId": "constitution",
+        "actName": "Constitution of India",
+        "provisionId": "constitution-art-226",
+        "section": "Article 226",
+        "title": "High Court power to issue writs"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Duty default",
+        "body": "Authorities fail to operate a statutory welfare scheme for a class of beneficiaries. Mandamus (possibly continuing) is the fit writ language.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Illegal detention claim",
+        "body": "A representative petition seeks production of persons allegedly held without authority. Habeas corpus is the fit writ.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does PIL create a new writ beyond the five?",
+        "analysis": "No. PIL liberalises standing and process; relief is still through the constitutional writs or equivalent directions."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "pil-writs-vs-standing",
+        "title": "Writ choice vs standing",
+        "left": "Writ choice: which remedy fits the wrong.",
+        "right": "Standing: who may ask for that remedy in public interest.",
+        "rows": [
+          {
+            "point": "Sequence",
+            "left": "After maintainability, select the writ.",
+            "right": "Threshold who-may-sue question."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "pil-writs-trap-1",
+        "trap": "Any PIL can demand any writ without matching facts.",
+        "correction": "Each writ has ingredients; mismatch is a ground for refusal."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Bandhua Mukti Morcha v. Union of India",
+        "year": 1984,
+        "citation": "(1984) 3 SCC 161",
+        "court": "Supreme Court of India",
+        "facts": "Bonded labour and Article 21 claims.",
+        "issue": "Flexible directions for continuing violations?",
+        "ratioDecidendi": "Courts may use flexible procedure and continuing directions for effective rights enforcement.",
+        "holding": "Petition treated as vehicle for Article 21 enforcement.",
+        "relevance": "Mandamus/continuing directions orientation; verification open.",
+        "judgmentId": "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984"
+      },
+      {
+        "name": "S.P. Gupta v. Union of India",
+        "year": 1981,
+        "citation": "1981 Supp SCC 87",
+        "court": "Supreme Court of India",
+        "facts": "Public standing and access.",
+        "issue": "When may a person approach for public injury?",
+        "ratioDecidendi": "Standing may be relaxed for bona fide public redress.",
+        "holding": "Expanded public-interest standing framework.",
+        "relevance": "Standing context for writ petitions; verification open.",
+        "judgmentId": "judgment:india:s-p-gupta-v-union-of-india-1981"
+      },
+      {
+        "name": "State of Uttaranchal v. Balwant Singh Chaufal",
+        "year": 2010,
+        "citation": "(2010) 3 SCC 402",
+        "court": "Supreme Court of India",
+        "facts": "Misuse of PIL.",
+        "issue": "Abuse safeguards?",
+        "ratioDecidendi": "Verify credentials, motive, public injury, absence of personal gain.",
+        "holding": "Screening guidelines for PIL abuse.",
+        "relevance": "Maintainability before writ relief; verification open.",
+        "judgmentId": "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "pil-writs-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain the five constitutional writs as used in PIL.",
+        "answer": "State that PIL uses the same five writs. Briefly define each and typical PIL use. Stress matching facts to writ. Note Arts 32/226.",
+        "explanation": "10-mark structure."
+      },
+      {
+        "id": "pil-writs-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss the five writs in the context of Public Interest Litigation.",
+        "answer": "I. PIL as standing not new writ. II–VI. Each writ with PIL illustration. VII. Continuing mandamus as structured mandamus. VIII. Abuse filters. IX. Conclusion.",
+        "explanation": "16-mark structure."
+      }
+    ],
+    "bareActPointers": [
+      "Constitution of India — Articles 32 and 226"
+    ],
+    "examTips": [
+      "Name the writ that fits the facts.",
+      "Do not treat PIL as a sixth writ."
+    ],
+    "revisionPoints": [
+      "Habeas corpus",
+      "Mandamus / continuing",
+      "Certiorari",
+      "Prohibition",
+      "Quo warranto"
+    ],
+    "relatedJudgments": [
+      "judgment:india:bandhua-mukti-morcha-v-union-of-india-1984",
+      "judgment:india:s-p-gupta-v-union-of-india-1981",
+      "judgment:india:state-of-uttaranchal-v-balwant-singh-chaufal-2010"
+    ],
+    "relatedTopics": [
+      "topic:india:pil-art-32",
+      "topic:india:pil-art-226",
+      "topic:india:pil-pil-continuing-mandamus"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "pil",
+    "legacyTopicId": "pil-writs",
+    "migrationNote": "Substantive enhancement; cases retained; verification open.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "Map PIL claims to the five writs",
+        "Distinguish standing from writ choice"
+      ],
+      "definition": "In PIL, the five constitutional writs remain the remedial vocabulary under Articles 32 and 226; liberal standing does not create a new writ.",
+      "legalPrinciple": "Match the pleaded wrong to habeas corpus, mandamus, certiorari, prohibition, or quo warranto within constitutional writ jurisdiction.",
+      "statutoryFramework": "Constitution of India — Articles 32 and 226.",
+      "essentialIngredients": [
+        "Identify the wrong",
+        "Select matching writ",
+        "Satisfy writ ingredients",
+        "Maintainable public-interest standing"
+      ],
+      "detailedExplanation": "PIL opens who may sue; writs define what order fits.",
+      "examples": [
+        "Duty default",
+        "Illegal detention claim"
+      ],
+      "problemApplication": "Classify the wrong; pick the writ; check standing and forum.",
+      "distinctions": [
+        "Writ choice vs standing"
+      ],
+      "caseLawNotes": "Migrated cases retained; verification separate.",
+      "tenMarkStructure": "PIL uses five writs → each briefly → match facts → Arts 32/226.",
+      "sixteenMarkStructure": "Standing vs writs → five writs → continuing mandamus → filters → conclusion.",
+      "keyTakeaways": [
+        "No sixth writ",
+        "Match facts to writ"
+      ],
+      "authoritativeSources": [
+        "Constitution of India — Articles 32 and 226"
+      ],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "kind": "constitution",
+      "label": "Constitution of India",
+      "citation": "Articles 32 and 226",
+      "url": null,
+      "notes": "Framework; holding verification separate."
+    }
+  ],
+  "updatedAt": "2026-10-08T06:02:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null
+}

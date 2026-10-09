@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-international",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "International and Comparative Dimensions of Administrative Law",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Indian administrative law draws selectively on comparative experience (especially common-law judicial review and continental droit administratif critiques) while remaining constitutionally autonomous. International human-rights standards and soft-law good-governance norms may inform interpretation but do not directly override domestic constitutional and statutory sources.",
+    "glance": "Identify any comparative or international material relied on; state its persuasive (not binding) status; apply domestic constitutional and statutory standards as primary.",
+    "study": "Dicey’s hostility to droit administratif shaped early common-law thinking; modern Indian law accepts specialised tribunals and extensive administrative discretion within constitutional limits. Comparative materials (UK, US, continental systems) and international soft law (transparency, anti-corruption) can illuminate doctrine but remain secondary. The binding hierarchy remains Constitution → statute → subordinate legislation → domestic case law. Current-law framing: never treat comparative or international material as a substitute for the Constitution or parent statute.",
+    "sections": [
+      {"heading": "Comparative Influence", "body": "Common-law judicial-review taxonomy and continental critiques of administrative power have informed Indian doctrine without displacing constitutional supremacy.", "order": 1},
+      {"heading": "International Soft Law", "body": "Transparency, anti-corruption and good-governance norms may support interpretive arguments but are not self-executing domestic law.", "order": 2},
+      {"heading": "Limits of Comparative Use", "body": "Comparative authority is persuasive only; Indian constitutional structure and statutory text control the outcome.", "order": 3}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"}
+    ],
+    "examples": [
+      {"title": "Persuasive comparative citation", "body": "Counsel cites a UK rationality decision. The court may find the reasoning helpful but must decide under Indian constitutional and statutory standards.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Can an unincorporated international instrument invalidate a domestic administrative rule?", "analysis": "No. Unincorporated instruments are not directly enforceable; they may inform interpretation only where consistent with domestic law."}
+    ],
+    "distinctions": [
+      {"id": "admin-int-binding-vs-persuasive", "title": "Binding domestic sources vs persuasive comparative materials", "left": "Constitution, statutes, binding Indian judgments", "right": "Foreign decisions, soft-law instruments", "rows": [{"point": "Focus", "left": "Binding", "right": "Persuasive only"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-int-trap-1", "trap": "Comparative law is binding in Indian administrative law.", "correction": "It is persuasive only; domestic constitutional and statutory sources control."}
+    ],
+    "cases": [
+      {"name": "Tata Cellular v Union of India", "year": 1994, "citation": "(1994) 6 SCC 651", "court": "Supreme Court of India", "facts": "Judicial review of administrative action.", "issue": "Scope of review.", "ratioDecidendi": "Indian courts review legality and rationality under domestic standards.", "holding": "Review standards applied.", "relevance": "Domestic review framework remains primary.", "judgmentId": "judgment:india:tata-cellular-v-union-of-india-1994"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-int-brief", "draftingCategory": "brief", "question": "How should comparative material be used?", "answer": "I. Identify the material. II. State its persuasive status. III. Apply domestic constitutional and statutory standards. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-int-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Domestic sources first; comparative material as support only; precise relief under Indian law.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution of India", "Parent statute", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Always rank domestic sources first.", "Label comparative material as persuasive.", "Do not treat soft law as self-executing."],
+    "revisionPoints": ["Comparative influence", "International soft law", "Limits of comparative use"],
+    "relatedJudgments": ["judgment:india:tata-cellular-v-union-of-india-1994"],
+    "relatedTopics": ["admin-sources", "admin-introduction", "admin-good-governance"],
+    "illustrations": ["illustration:india:admin-admin-admin-international-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-international",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["State the status of comparative and international materials.", "Rank domestic sources above persuasive materials.", "Apply the limit correctly."],
+      "definition": "Comparative and international materials may inform Indian administrative law but remain secondary to the Constitution and statutes.",
+      "legalPrinciple": "Domestic constitutional and statutory sources control; comparative material is persuasive only.",
+      "statutoryFramework": "Constitution of India; parent statutes.",
+      "essentialIngredients": ["Material identified", "Status stated", "Domestic standard applied"],
+      "detailedExplanation": "Indian administrative law is constitutionally autonomous while remaining open to persuasive comparative insight.",
+      "examples": ["Persuasive comparative citation"],
+      "problemApplication": "Rank sources; apply domestic law.",
+      "keyTakeaways": ["Domestic sources control.", "Comparative material is persuasive.", "Soft law is not self-executing."],
+      "authoritativeSources": ["Constitution of India", "Tata Cellular (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Binding domestic sources vs persuasive comparative materials"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Tata Cellular v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "State status of comparative material; apply domestic law; conclude.", "sixteenMark": "Introduction; comparative influence; soft law; limits; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:15:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-int-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:15:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "international", "comparative"]
+}

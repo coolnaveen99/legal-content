@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-functions",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Classification of Administrative Functions — Legislative, Executive, Judicial and Quasi-Judicial",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Administrative action is classified as legislative, executive, judicial or quasi-judicial. The classification is functional, not formal. It determines the applicable procedural safeguards (especially natural justice) and the intensity of judicial review.",
+    "glance": "Identify the nature of the power; apply the functional tests (policy vs individualised determination; rights vs privileges; lis); state the consequence for natural justice and review standards.",
+    "study": "Modern administration combines rule-making, pure executive action and adjudicatory functions. Courts classify the function by looking at its nature and effect rather than the label used by the statute. Legislative functions produce general rules of conduct; pure executive functions involve policy or managerial discretion without a lis; quasi-judicial functions decide disputed questions affecting individual rights and attract natural-justice requirements. The distinction is critical for audi alteram partem, reasoned orders and the scope of judicial review. Current-law framing: ground the analysis in the parent statute and constitutional standards. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Why Classification Matters", "body": "Classification controls the applicability of natural justice, the duty to give reasons, and the intensity of judicial review.", "order": 1},
+      {"heading": "Legislative Functions", "body": "Rule-making that produces general norms of conduct. Publication and ultra-vires review are principal controls; full natural justice is ordinarily not required.", "order": 2},
+      {"heading": "Pure Executive Functions", "body": "Policy, managerial or discretionary action without a lis between parties. Fairness may still constrain the action under Article 14, but classical natural-justice templates are often inapplicable.", "order": 3},
+      {"heading": "Judicial and Quasi-Judicial Functions", "body": "Determination of disputed questions affecting individual rights. A lis, duty to act judicially, and consequences for the person supply the indicators. Natural justice applies.", "order": 4},
+      {"heading": "Functional Tests", "body": "Courts examine the nature of the power, the presence of a dispute, the effect on rights, and statutory indicators rather than formal labels.", "order": 5},
+      {"heading": "Consequences for Review", "body": "Quasi-judicial decisions attract stricter procedural review; legislative instruments are tested mainly for ultra vires and constitutional validity; pure executive action is reviewed for arbitrariness and relevant considerations.", "order": 6}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Rule-making vs adjudication", "body": "An authority frames a general fee schedule applicable to all licensees (legislative). Separately it cancels one licensee’s permit after a contested inquiry (quasi-judicial). Natural justice applies to the cancellation, not to the fee schedule.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Policy decision without lis", "body": "Government decides to close a public sector unit for economic reasons. No individualised dispute is decided. The action is executive; challenge proceeds on arbitrariness or relevant-considerations grounds rather than classical natural-justice failure.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Selection with bias indicators", "body": "A selection committee includes a person who is himself a candidate. The function is quasi-judicial; the presence of bias attracts the nemo judex principle.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Does the label ‘administrative’ exclude natural justice?", "analysis": "No. Classification is functional. If the action decides a contested claim affecting rights, natural justice applies regardless of the statutory label."},
+      {"question": "Are all policy decisions immune from fairness review?", "analysis": "No. Article 14 non-arbitrariness and legitimate-expectation doctrines may still constrain pure executive policy decisions."},
+      {"question": "Is rule-making always free of hearing requirements?", "analysis": "Generally yes for pure legislative functions, but statute or fairness may require consultation in particular contexts."}
+    ],
+    "distinctions": [
+      {"id": "admin-fn-leg-vs-qj", "title": "Legislative vs quasi-judicial function", "left": "General norms of future conduct", "right": "Individualised determination of existing rights or liabilities", "rows": [{"point": "Focus", "left": "Rule-making", "right": "Adjudication"}]},
+      {"id": "admin-fn-exec-vs-qj", "title": "Pure executive vs quasi-judicial", "left": "Policy or managerial discretion without a lis", "right": "Decision of a disputed question affecting rights", "rows": [{"point": "Focus", "left": "No lis", "right": "Lis and duty to act judicially"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-fn-trap-1", "trap": "The statutory label ‘administrative’ decides the classification.", "correction": "Classification is functional; courts look at the nature and effect of the power."},
+      {"id": "admin-fn-trap-2", "trap": "Natural justice never applies to administrative action.", "correction": "Quasi-judicial administrative action attracts natural justice; pure executive action is still constrained by Article 14 fairness."},
+      {"id": "admin-fn-trap-3", "trap": "All rule-making requires a prior hearing of every affected person.", "correction": "Pure legislative functions ordinarily do not; individualised determinations do."}
+    ],
+    "cases": [
+      {"name": "Ram Jawaya Kapur v State of Punjab", "year": 1955, "citation": "AIR 1955 SC 549", "court": "Supreme Court of India", "facts": "The Court considered the relevant administrative-law issue.", "issue": "What governing legal principle applies?", "ratioDecidendi": "The Court applied the governing administrative-law and constitutional standard.", "holding": "The Court decided the issue on that legal basis.", "relevance": "Authority already in the file; executive power and functional classification context.", "judgmentId": "judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955"},
+      {"name": "A.K. Kraipak v Union of India", "year": 1969, "citation": "(1969) 2 SCC 262", "court": "Supreme Court of India", "facts": "The Court considered the relevant administrative-law issue.", "issue": "What governing legal principle applies?", "ratioDecidendi": "The Court applied the governing administrative-law and constitutional standard.", "holding": "The Court decided the issue on that legal basis.", "relevance": "Authority already in the file; quasi-judicial character and natural justice.", "judgmentId": "judgment:india:a-k-kraipak-v-union-of-india-1969"},
+      {"name": "Maneka Gandhi v Union of India", "year": 1978, "citation": "(1978) 1 SCC 248", "court": "Supreme Court of India", "facts": "The Court considered the relevant administrative-law issue.", "issue": "What governing legal principle applies?", "ratioDecidendi": "The Court applied the governing administrative-law and constitutional standard.", "holding": "The Court decided the issue on that legal basis.", "relevance": "Authority already in the file; fairness and Article 21 procedural content.", "judgmentId": "judgment:india:maneka-gandhi-v-union-of-india-1978"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-fn-brief", "draftingCategory": "brief", "question": "How should a classification-of-functions problem be analysed?", "answer": "I. Identify the power and its effect. II. Apply functional tests (policy vs individualised determination; lis; rights). III. Classify the function. IV. State the procedural and review consequences. V. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-fn-sub", "draftingCategory": "submissions", "question": "What should submissions on functional classification contain?", "answer": "Nature of the power; presence or absence of a lis; effect on rights; applicable natural-justice or Article 14 standard; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Parent statute creating the power", "Constitution Articles 14, 21, 226", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Classification is functional, not formal.", "State the consequence for natural justice.", "Distinguish legislative, pure executive and quasi-judicial.", "Link to Article 14 non-arbitrariness for pure executive action."],
+    "revisionPoints": ["Why classification matters", "Legislative functions", "Pure executive functions", "Judicial and quasi-judicial functions", "Functional tests", "Consequences for review"],
+    "relatedJudgments": ["judgment:india:ram-jawaya-kapur-v-state-of-punjab-1955", "judgment:india:a-k-kraipak-v-union-of-india-1969", "judgment:india:maneka-gandhi-v-union-of-india-1978"],
+    "relatedTopics": ["admin-audi-alteram", "admin-nemo-judex", "admin-discretion", "admin-judicial-review"],
+    "illustrations": ["illustration:india:admin-admin-admin-functions-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-functions",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Classify administrative functions functionally.", "State the consequences for natural justice and review.", "Distinguish legislative, executive and quasi-judicial action."],
+      "definition": "Administrative functions are classified as legislative, pure executive, judicial or quasi-judicial according to their nature and effect, not their statutory label.",
+      "legalPrinciple": "Classification is functional; quasi-judicial action attracts natural justice; pure executive action remains subject to Article 14 fairness; legislative action is controlled mainly by ultra vires and constitutional limits.",
+      "statutoryFramework": "Parent statute; Constitution Articles 14, 21, 226.",
+      "essentialIngredients": ["Nature of the power identified", "Presence or absence of a lis", "Effect on individual rights", "Applicable procedural standard stated"],
+      "detailedExplanation": "Courts look at the substance of the power. Individualised determinations affecting rights are quasi-judicial; general rule-making is legislative; policy without a lis is pure executive.",
+      "examples": ["Rule-making vs adjudication", "Policy decision without lis", "Selection with bias indicators"],
+      "problemApplication": "Identify the power; apply functional tests; classify; state natural-justice and review consequences.",
+      "keyTakeaways": ["Classification is functional.", "Quasi-judicial action attracts natural justice.", "Pure executive action is still constrained by Article 14.", "Legislative functions are reviewed mainly for ultra vires."],
+      "authoritativeSources": ["Ram Jawaya (already in file)", "Kraipak (already in file)", "Maneka Gandhi (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented; authorities already present in the file retained.", "date": "2026-10-08"},
+      "distinctions": ["Legislative vs quasi-judicial function", "Pure executive vs quasi-judicial"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Ram Jawaya Kapur v State of Punjab", "A.K. Kraipak v Union of India", "Maneka Gandhi v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "State the four-fold classification; explain functional tests; note natural-justice consequences; conclude.", "sixteenMark": "Introduction; why classification matters; each category explained; functional tests; consequences for review; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:50:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-fn-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:50:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "functions", "classification", "quasi-judicial"]
+}

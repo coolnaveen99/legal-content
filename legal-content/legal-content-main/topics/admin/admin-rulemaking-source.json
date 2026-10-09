@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-rulemaking-source",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Administrative Rule-Making — Nature and Sources of Power",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Administrative rule-making is the power of the executive to make subordinate legislation under authority conferred by the parent statute or the Constitution. The source of power, the breadth of delegation and the distinction between conditional legislation and excessive delegation structure legality.",
+    "glance": "Identify the parent Act or constitutional source; state the rule-making provision; test whether essential legislative function has been retained; and examine the challenged rule against the parent Act.",
+    "study": "Primary legislation may authorise the executive to fill in details through rules, regulations, bye-laws and notifications. The legislature must not abdicate essential legislative function — the determination of legislative policy and its binding standards. Conditional legislation is treated more permissively. Rules inconsistent with the parent Act are ultra vires. Current-law framing: ground the analysis in the parent Act and Constitution. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Source of Rule-Making Power", "body": "Parent statute or Constitution must confer the power.", "order": 1},
+      {"heading": "Delegated vs Conditional Legislation", "body": "Delegation fills details within policy; conditional legislation may switch on a complete code on facts.", "order": 2},
+      {"heading": "Essential Legislative Function", "body": "Policy and essential standards must remain with the legislature.", "order": 3},
+      {"heading": "Forms of Subordinate Legislation", "body": "Rules, regulations, notifications, bye-laws and schemes.", "order": 4},
+      {"heading": "Ultra Vires Control", "body": "Rules beyond the parent Act or constitutional limits are void.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-245", "section": "Article 245", "title": "Extent of laws made by Parliament and State Legislatures"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Rule without parent authority", "body": "An executive notification imposes obligations with no parent statute. There is no source of rule-making power.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Policy retained", "body": "A parent Act states policy and standards and authorises rules on details. Delegation is ordinarily valid.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Can the executive make any rule if convenient?", "analysis": "No. Rule-making requires statutory or constitutional authority."},
+      {"question": "Are all wide delegations automatically void?", "analysis": "The test is whether essential legislative function has been abandoned, not mere width."}
+    ],
+    "distinctions": [
+      {"id": "admin-rm-del-vs-cond", "title": "Delegated legislation vs conditional legislation", "left": "Fills details within a policy framework set by the legislature", "right": "Brings a complete legislative scheme into force on specified conditions", "rows": [{"point": "Focus", "left": "Detail-filling", "right": "Conditional commencement"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-rms-trap-1", "trap": "The executive can make any rule if it is convenient.", "correction": "Rule-making requires statutory or constitutional authority."},
+      {"id": "admin-rms-trap-2", "trap": "All wide delegations are automatically void.", "correction": "The test is whether essential legislative function has been abandoned, not mere width."}
+    ],
+    "cases": [
+      {"name": "In re Delhi Laws Act, 1912", "year": 1951, "citation": "AIR 1951 SC 332", "court": "Supreme Court of India", "facts": "Constitutional limits of delegation of legislative power.", "issue": "What is the constitutional source and permissible scope of delegated legislative power?", "ratioDecidendi": "The legislature may delegate subsidiary functions but cannot abdicate essential legislative functions; the enabling law must supply policy and standards.", "holding": "Foundational Indian framework for delegation established.", "relevance": "Primary authority for nature and constitutional source of rule-making power.", "judgmentId": "judgment:india:in-re-delhi-laws-act-1912-1951"},
+      {"name": "Harishankar Bagla v State of Madhya Pradesh", "year": 1954, "citation": "AIR 1954 SC 465", "court": "Supreme Court of India", "facts": "Delegated powers under Essential Supplies legislation challenged.", "issue": "Can Parliament delegate rule-making where the parent statute lays down policy and standards?", "ratioDecidendi": "Delegation is valid where the legislature has determined policy and provides sufficient guidance.", "holding": "Delegation upheld in the circumstances.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:harishankar-bagla-v-state-of-madhya-pradesh-1954"},
+      {"name": "Indian Express Newspapers (Bombay) Pvt. Ltd. v Union of India", "year": 1985, "citation": "(1985) 1 SCC 641", "court": "Supreme Court of India", "facts": "Subordinate legislation under statutory authority examined.", "issue": "Legal character and source of subordinate legislation.", "ratioDecidendi": "Rules derive authority from the enabling statute and are vulnerable when they exceed that authority.", "holding": "Relationship between primary and delegated legislation explained.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-rms-brief", "draftingCategory": "brief", "question": "How should a rulemaking-source problem be analysed?", "answer": "I. Identify parent source. II. Test essential legislative function. III. Classify delegated vs conditional. IV. Test ultra vires against parent Act.", "explanation": "IRAC."},
+      {"id": "admin-rms-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Parent Act; scope of delegation; consistency with parent; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Parent statute creating the rule-making power", "Constitution of India", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Always start with the parent Act.", "State essential legislative function test.", "Distinguish delegated and conditional legislation."],
+    "revisionPoints": ["Source of power", "Delegated vs conditional", "Essential legislative function", "Forms", "Ultra vires"],
+    "relatedJudgments": ["judgment:india:in-re-delhi-laws-act-1912-1951", "judgment:india:harishankar-bagla-v-state-of-madhya-pradesh-1954", "judgment:india:indian-express-newspapers-bombay-pvt-ltd-v-union-of-india-1985"],
+    "relatedTopics": ["admin-rulemaking-limits", "admin-rulemaking-control", "admin-ultra-vires"],
+    "illustrations": ["illustration:india:admin-admin-admin-rulemaking-source-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-rulemaking-source",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Identify the source of rule-making power.", "Apply the essential legislative function test.", "Distinguish delegated and conditional legislation."],
+      "definition": "Administrative rule-making is subordinate legislation under parent statutory or constitutional authority.",
+      "legalPrinciple": "No inherent executive power to make primary law; essential legislative function cannot be abdicated.",
+      "statutoryFramework": "Parent Act; Constitution of India.",
+      "essentialIngredients": ["Parent source of power", "Scope of delegation", "Consistency with parent Act", "Essential legislative function retained"],
+      "detailedExplanation": "Primary legislation may authorise the executive to fill in details.",
+      "examples": ["Rule without parent authority", "Policy retained"],
+      "problemApplication": "Identify source; test essential function; classify; test ultra vires.",
+      "keyTakeaways": ["No inherent executive primary law-making power.", "Essential legislative function cannot be abdicated.", "Rules must fit the parent Act.", "Conditional legislation is a recognised category."],
+      "authoritativeSources": ["In re Delhi Laws Act (already in file)", "Parent statute"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Delegated legislation vs conditional legislation"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["In re Delhi Laws Act, 1912", "Harishankar Bagla v State of Madhya Pradesh", "Indian Express Newspapers (Bombay) Pvt. Ltd. v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Define delegated legislation; state source requirement; note essential legislative function; conclude.", "sixteenMark": "Introduction; sources; delegation vs conditional; limits; ultra vires; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "01f683238a1d74e7",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:20:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "delegated-legislation", "rulemaking", "ultra-vires"]
+}

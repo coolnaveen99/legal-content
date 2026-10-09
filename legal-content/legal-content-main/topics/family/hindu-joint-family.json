@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:family-hindu-joint-family",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Hindu Joint Family and Mitakshara Coparcenary",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "A Hindu joint family is the wider unit of persons lineally descended from a common ancestor, their wives and unmarried daughters. The Mitakshara coparcenary is the narrower body of persons who acquire by birth an interest in joint family property. After the Hindu Succession (Amendment) Act, 2005, the daughter of a Mitakshara coparcener is a coparcener by birth in the same manner as a son (HSA s. 6). The karta manages the family and may alienate for legal necessity or benefit of the estate. Partition severs status and divides property.",
+    "glance": "Ask: (1) Joint family or coparcenary? (2) Ancestral vs separate property? (3) Daughter’s birthright post-2005? (4) Karta’s power and necessity? (5) Partition?",
+    "study": "Joint family (wider) ≠ coparcenary (narrower birthright group). Post-2005 daughters are coparceners by birth under HSA s. 6. Karta’s alienation binds only if for legal necessity or benefit of the estate (or with consent). Dayabhaga does not recognise Mitakshara-type birthright coparcenary.\n\nCase already in migrated file: Vineeta Sharma v. Rakesh Sharma (2020) 9 SCC 1 — daughter’s coparcenary by birth; right does not depend on father being alive on the amendment date; subject to statutory savings for earlier partitions/dispositions. No additional cases invented.",
+    "sections": [
+      {
+        "heading": "Joint family vs coparcenary",
+        "body": "Joint family is the wider social/legal unit; coparcenary is the birthright ownership group in Mitakshara law.",
+        "order": 1
+      },
+      {
+        "heading": "Daughter as coparcener (2005)",
+        "body": "Daughter of a Mitakshara coparcener is a coparcener by birth with the same rights and liabilities as a son (HSA s. 6).",
+        "order": 2
+      },
+      {
+        "heading": "Karta",
+        "body": "Manager of the joint family; may alienate joint family property for legal necessity or benefit of the estate.",
+        "order": 3
+      },
+      {
+        "heading": "Partition",
+        "body": "Severance of joint status and division of property; daughter as coparcener may claim equal share subject to s. 6 savings.",
+        "order": 4
+      },
+      {
+        "heading": "Dayabhaga contrast",
+        "body": "No Mitakshara-type birthright coparcenary; do not apply Mitakshara rules to Dayabhaga facts.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "hsa",
+        "actName": "Hindu Succession Act, 1956",
+        "provisionId": "hsa-6",
+        "section": "s. 6",
+        "title": "Devolution of interest in coparcenary property"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Daughter as coparcener",
+        "body": "Father, son and daughter in Mitakshara family — daughter is coparcener by birth post-2005 and may claim equal share on partition subject to s. 6 savings.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Alienation without necessity",
+        "body": "Karta sells joint family land without legal necessity or benefit — sale does not bind the challenging coparcener’s interest to that extent.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a pre-2005 partition always bar a daughter’s claim?",
+        "analysis": "Only genuine partitions within the statutory savings as interpreted in Vineeta Sharma are protected; sham or incomplete partitions do not defeat the daughter’s rights."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "hjf-vs-cop",
+        "title": "Joint family vs Mitakshara coparcenary",
+        "left": "Wider unit (lineal descendants, wives, unmarried daughters).",
+        "right": "Narrower birthright group in joint family property.",
+        "rows": [
+          {
+            "point": "Post-2005",
+            "left": "Unchanged as social unit.",
+            "right": "Daughter of a coparcener is a coparcener by birth."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "hjf-trap-1",
+        "trap": "Every Hindu family is automatically a Mitakshara coparcenary.",
+        "correction": "Joint family is wider; not every joint family member is a coparcener."
+      },
+      {
+        "id": "hjf-trap-2",
+        "trap": "Daughter’s right depends on father being alive on 9 September 2005.",
+        "correction": "Vineeta Sharma: right by birth; does not depend on father being alive on the amendment date, subject to statutory savings."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Vineeta Sharma v. Rakesh Sharma",
+        "year": 2020,
+        "citation": "(2020) 9 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "Dispute over a daughter’s claim to coparcenary rights under the 2005 amendment and the effect of the father’s death and alleged earlier partitions.",
+        "issue": "Whether the daughter acquires coparcenary rights by birth only if the father was alive on the amendment date, and how statutory savings operate.",
+        "ratioDecidendi": "Daughter of a coparcener becomes a coparcener by birth in the same manner as a son. The right does not depend on the father being alive on the date of the amendment. Subject to statutory savings for partitions and testamentary dispositions before the cut-off; sham partitions do not defeat the right.",
+        "holding": "Daughter held entitled to claim as a coparcener; earlier conflicting decisions clarified.",
+        "relevance": "Binding authority on temporal operation of the 2005 amendment to HSA s. 6.",
+        "judgmentId": "judgment:india:vineeta-sharma-v-rakesh-sharma-2020"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "hjf-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain the Mitakshara joint family and the effect of the 2005 amendment on daughters’ rights.",
+        "answer": "Joint family vs coparcenary; daughter as coparcener by birth; Vineeta Sharma on temporal operation; partition and savings.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "hjf-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss Hindu joint family, coparcenary and the daughter’s position after 2005.",
+        "answer": "I. Joint family. II. Coparcenary. III. 2005 amendment. IV. Vineeta Sharma. V. Karta and partition. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
+    ],
+    "bareActPointers": [
+      "HSA s. 6 (as amended 2005)",
+      "Vineeta Sharma v. Rakesh Sharma (2020) 9 SCC 1"
+    ],
+    "examTips": [
+      "Separate joint family from coparcenary.",
+      "Cite Vineeta Sharma for temporal operation."
+    ],
+    "revisionPoints": [
+      "Joint family ≠ coparcenary",
+      "Daughter = coparcener by birth",
+      "Vineeta Sharma (2020)"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "topic:india:family-hsa-s-6",
+      "topic:india:family-hindu-succession",
+      "topic:india:family-sources-schools"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "family",
+    "legacyTopicId": "hindu-joint-family",
+    "migrationNote": "Substantive enhancement; Vineeta Sharma retained from migrated file; no new case invented; verification open.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "Distinguish joint family and coparcenary",
+        "Apply daughter’s birthright under s. 6",
+        "State Vineeta Sharma holding already in file"
+      ],
+      "definition": "Hindu joint family is the wider unit; Mitakshara coparcenary is the birthright group; post-2005 daughters are equal coparceners under HSA s. 6.",
+      "legalPrinciple": "Daughter is a coparcener by birth; karta’s powers are limited by necessity/benefit; partition crystallises shares.",
+      "statutoryFramework": "Hindu Succession Act, 1956 — Section 6 (as amended 2005).",
+      "essentialIngredients": [
+        "Mitakshara family/coparcenary",
+        "Ancestral character if relevant",
+        "Daughter’s status under s. 6",
+        "Necessity for alienation challenges"
+      ],
+      "detailedExplanation": "Core joint family and coparcenary doctrine with 2005 equality.",
+      "examples": [
+        "Daughter as coparcener",
+        "Alienation without necessity"
+      ],
+      "problemApplication": "Identify unit; apply s. 6; check partition savings; assess karta’s act.",
+      "distinctions": [
+        "Joint family vs coparcenary"
+      ],
+      "caseLawNotes": "Vineeta Sharma retained from migrated content; no new holdings invented.",
+      "tenMarkStructure": "Joint family → coparcenary → 2005 → Vineeta Sharma.",
+      "sixteenMarkStructure": "Units → 2005 → Vineeta Sharma → karta → partition → conclusion.",
+      "keyTakeaways": [
+        "Daughter equal coparcener",
+        "Vineeta Sharma controlling"
+      ],
+      "authoritativeSources": [
+        "Hindu Succession Act, 1956 — Section 6",
+        "Vineeta Sharma v. Rakesh Sharma (2020) 9 SCC 1"
+      ],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08; case from migrated file only.",
+      "caseLaw": [],
+      "examAnswerStructure": {
+        "shortAnswer": [],
+        "tenMark": [],
+        "sixteenMark": []
+      },
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Structural enhancement fields added for validation. No case authority added. Case-law verification remains required."
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Hindu Succession Act, 1956",
+      "citation": "Section 6",
+      "url": null,
+      "notes": "Framework; Vineeta Sharma from migrated file."
+    }
+  ],
+  "updatedAt": "2026-10-08T07:03:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null
+}

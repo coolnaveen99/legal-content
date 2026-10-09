@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-cyber-privacy",
+  "version": 1,
+  "status": "verification_in_progress",
+  "title": "Privacy, Confidentiality and Data Protection — ss. 72 and 72A",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Cyber privacy and informational privacy. Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy. Interpret the named provision/topic by its own statutory elements and connect the analysis to evidence, technology and the appropriate legal consequence.",
+    "glance": "Cyber privacy and informational privacy. Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy. Interpret the named provision/topic by its own statutory elements and connect the analysis to evidence, technology and the appropriate legal consequence.",
+    "study": "Core rule\nCyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.\n\nTextual analysis\nIdentify each operative definition, condition, exception and legal consequence. Do not replace a statutory definition with ordinary usage.\n\nApplication\nMap the facts to each element and identify the relevant electronic record, system, contract, signature, data or security control. Separate technical facts from the legal proposition they support.\n\nEvidence\nWhere electronic records are relied upon, apply BSA 2023 s. 63 where applicable and separately analyse authenticity, integrity, attribution and weight.\n\nBoundaries\nDistinguish this topic from neighbouring IT Act provisions, contractual remedies, privacy rights and regulatory duties. A shared factual event does not make all provisions interchangeable.\n\nCurrent-law caution\nUse the statutory text and applicable rules in force on the relevant date; do not treat struck-down section 66A as current law.",
+    "sections": [
+      {
+        "heading": "Statutory purpose and operative scope",
+        "body": "Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.",
+        "order": 1
+      },
+      {
+        "heading": "Ingredients, definitions and conditions",
+        "body": "Identify every legally operative term and condition, including definitions, exceptions and provisos where relevant. State what must be established before the legal consequence follows.",
+        "order": 2
+      },
+      {
+        "heading": "Fact-to-element application",
+        "body": "Map the technical or factual record to each statutory element. Identify gaps instead of assuming that a technology label proves the legal element.",
+        "order": 3
+      },
+      {
+        "heading": "Electronic evidence and attribution",
+        "body": "Apply BSA 2023 s. 63 where an electronic record is tendered and separately establish source, integrity, authorship/attribution and weight.",
+        "order": 4
+      },
+      {
+        "heading": "Defences, connected law and remedy",
+        "body": "Identify consent/authority, contractual terms, statutory exceptions, constitutional considerations and the exact relief or consequence available under the governing provision.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "cyber",
+        "actName": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+        "provisionId": "cyber-cyber-privacy",
+        "title": "Privacy, Confidentiality and Data Protection — ss. 72 and 72A"
+      },
+      {
+        "actId": "bsa",
+        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
+        "provisionId": "bsa-s-63",
+        "section": "s. 63",
+        "title": "Electronic records where applicable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Rule applies",
+        "body": "The record establishes the facts required by the specific Privacy rule and supports the resulting legal consequence."
+      },
+      {
+        "title": "Boundary defect",
+        "body": "The technology or document exists, but a statutory definition, condition, authority or evidentiary link is missing; the legal conclusion must account for that gap."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "How should a legal problem under Cyber privacy and informational privacy be analysed?",
+        "analysis": "Identify the statutory source → define operative terms → list ingredients/conditions → map facts and evidence → test exceptions/defences → distinguish neighbouring rules → state consequence."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "cyber-cyber-privacy-boundary",
+        "title": "Cyber privacy and informational privacy — legal rule versus technical fact",
+        "left": "Statutory/legal requirement",
+        "right": "Technical or factual indicator",
+        "rows": [
+          {
+            "point": "Role",
+            "left": "Determines the legal consequence",
+            "right": "Supplies evidence or context"
+          },
+          {
+            "point": "Proof",
+            "left": "Must be established on the applicable legal standard",
+            "right": "Must be authenticated and connected to the issue"
+          },
+          {
+            "point": "Conclusion",
+            "left": "Apply only the governing provision",
+            "right": "Do not treat a technical label as a legal conclusion"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "legacy-topic-trap-1",
+        "trap": "Treating the migrated topic's generic cyber wording as the statutory rule.",
+        "correction": "State the exact provision/topic rule and its operative elements."
+      },
+      {
+        "id": "legacy-topic-trap-2",
+        "trap": "Treating an electronic record or technical event as self-proving.",
+        "correction": "Separate admissibility, authenticity, attribution and substantive proof."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Shreya Singhal v. Union of India",
+        "year": 2015,
+        "citation": "(2015) 5 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Court reviewed restrictions on online speech under the Information Technology Act.",
+        "issue": "Whether IT Act s. 66A impermissibly restricted constitutional speech.",
+        "ratioDecidendi": "Section 66A was vague and overbroad and violated Article 19(1)(a); it was not saved by Article 19(2).",
+        "holding": "Section 66A was struck down in its entirety.",
+        "relevance": "Use only as historical status; do not present s. 66A as a current offence.",
+        "judgmentId": "judgment:india:shreya-singhal-v-union-of-india-2015"
+      },
+      {
+        "name": "Anvar P.V. v. P.K. Basheer",
+        "year": 2014,
+        "citation": "(2014) 10 SCC 473",
+        "court": "Supreme Court of India",
+        "facts": "The Court examined the statutory method for proving electronic records.",
+        "issue": "Whether electronic records can be admitted without the applicable certificate route.",
+        "ratioDecidendi": "Electronic records must satisfy the special statutory proof requirements applicable to computer outputs.",
+        "holding": "The Court reaffirmed the certificate discipline for electronic evidence.",
+        "relevance": "Use with BSA s. 63 and digital-record admissibility.",
+        "judgmentId": "judgment:india:anvar-p-v-v-p-k-basheer-2014"
+      },
+      {
+        "name": "K.S. Puttaswamy v. Union of India",
+        "year": 2017,
+        "citation": "(2017) 10 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Constitution Bench considered privacy as a constitutional right in the digital and modern State.",
+        "issue": "Whether privacy is protected as a Fundamental Right.",
+        "ratioDecidendi": "Privacy is intrinsic to dignity, liberty and Part III, subject to legality, legitimate aim, proportionality and procedural safeguards.",
+        "holding": "Constitutional privacy was unanimously recognised.",
+        "relevance": "Use for surveillance, data protection and informational privacy.",
+        "judgmentId": "judgment:india:k-s-puttaswamy-v-union-of-india-2017"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "cyber-privacy-brief",
+        "draftingCategory": "brief",
+        "question": "Structured Case Brief and legal problem assessment on Privacy, Confidentiality and Data Protection — ss. 72 and 72A.",
+        "answer": "I. ISSUE AND JURISDICTION\nWhether Privacy, Confidentiality and Data Protection — ss. 72 and 72A applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nPrivacy, Confidentiality and Data Protection — ss. 72 and 72A is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
+        "explanation": "IRAC chamber brief."
+      },
+      {
+        "id": "cyber-privacy-submissions",
+        "draftingCategory": "submissions",
+        "question": "Comprehensive Written Submissions on Privacy, Confidentiality and Data Protection — ss. 72 and 72A.",
+        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct Privacy, Confidentiality and Data Protection — ss. 72 and 72A under Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.",
+        "explanation": "Senior Counsel written submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+      "Privacy, Confidentiality and Data Protection — ss. 72 and 72A",
+      "BSA s. 63 and ss. 104, 109 where relevant"
+    ],
+    "examTips": [
+      "Name the governing statute in the opening sentence.",
+      "List ingredients before applying facts.",
+      "Separate jurisdiction, limitation, admissibility and merits.",
+      "Use only verified authorities and extract the ratio relevant to the issue."
+    ],
+    "revisionPoints": [
+      "Privacy, Confidentiality and Data Protection — ss. 72 and 72A",
+      "Mandatory ingredients and exceptions",
+      "Forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum",
+      "BSA electronic evidence and burden checkpoints where applicable"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "cyber-privacy",
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the governing statutory rule precisely.",
+        "Apply each element to the factual and technical record.",
+        "Separate evidence questions from substantive legal conclusions."
+      ],
+      "definition": "Cyber privacy and informational privacy",
+      "legalPrinciple": "Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.",
+      "statutoryFramework": "Information Technology Act, 2000 — Privacy; applicable rules; BSA 2023 section 63 where applicable",
+      "essentialIngredients": [
+        "Statutory purpose and operative scope: Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.",
+        "Ingredients, definitions and conditions: Identify every legally operative term and condition, including definitions, exceptions and provisos where relevant. State what must be established before the legal consequence follows.",
+        "Fact-to-element application: Map the technical or factual record to each statutory element. Identify gaps instead of assuming that a technology label proves the legal element.",
+        "Electronic evidence and attribution: Apply BSA 2023 s. 63 where an electronic record is tendered and separately establish source, integrity, authorship/attribution and weight.",
+        "Defences, connected law and remedy: Identify consent/authority, contractual terms, statutory exceptions, constitutional considerations and the exact relief or consequence available under the governing provision."
+      ],
+      "detailedExplanation": "Core rule\nCyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.\n\nTextual analysis\nIdentify each operative definition, condition, exception and legal consequence. Do not replace a statutory definition with ordinary usage.\n\nApplication\nMap the facts to each element and identify the relevant electronic record, system, contract, signature, data or security control. Separate technical facts from the legal proposition they support.\n\nEvidence\nWhere electronic records are relied upon, apply BSA 2023 s. 63 where applicable and separately analyse authenticity, integrity, attribution and weight.\n\nBoundaries\nDistinguish this topic from neighbouring IT Act provisions, contractual remedies, privacy rights and regulatory duties. A shared factual event does not make all provisions interchangeable.\n\nCurrent-law caution\nUse the statutory text and applicable rules in force on the relevant date; do not treat struck-down section 66A as current law.",
+      "examples": [
+        {
+          "title": "Rule applies",
+          "body": "The record establishes the facts required by the specific Privacy rule and supports the resulting legal consequence."
+        },
+        {
+          "title": "Boundary defect",
+          "body": "The technology or document exists, but a statutory definition, condition, authority or evidentiary link is missing; the legal conclusion must account for that gap."
+        }
+      ],
+      "problemApplication": "Identify the statutory source → define operative terms → list ingredients/conditions → map facts and evidence → test exceptions/defences → distinguish neighbouring rules → state consequence.",
+      "keyTakeaways": [
+        "Cyber privacy analysis combines statutory data/confidentiality rules with constitutional privacy principles and requires identification of the data, processing/access activity, legal authority, consent or other lawful basis, safeguards and remedy.",
+        "Definitions and statutory conditions control the analysis.",
+        "Electronic evidence is not the same as proof of the underlying proposition."
+      ],
+      "authoritativeSources": [
+        "Information Technology Act, 2000 — official statutory text; current-law verification required before publication."
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive topic-specific enhancement completed; statutory/current-law and case-law publication gates remain open."
+        ]
+      },
+      "distinctions": [
+        {
+          "id": "cyber-cyber-privacy-boundary",
+          "title": "Cyber privacy and informational privacy — legal rule versus technical fact",
+          "left": "Statutory/legal requirement",
+          "right": "Technical or factual indicator",
+          "rows": [
+            {
+              "point": "Role",
+              "left": "Determines the legal consequence",
+              "right": "Supplies evidence or context"
+            },
+            {
+              "point": "Proof",
+              "left": "Must be established on the applicable legal standard",
+              "right": "Must be authenticated and connected to the issue"
+            },
+            {
+              "point": "Conclusion",
+              "left": "Apply only the governing provision",
+              "right": "Do not treat a technical label as a legal conclusion"
+            }
+          ]
+        }
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "not-opened",
+      "examAnswerStructure": "Issue → statutory rule/definitions → elements → fact application → evidence → exceptions/defences → conclusion."
+    },
+    "status": "verification_in_progress",
+    "updatedAt": "2026-10-08T00:00:00.000Z"
+  },
+  "sources": [
+    "source:india:india-code-it-2000"
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "cyber"
+  ]
+}

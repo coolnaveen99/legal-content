@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-it-s-43",
+  "version": 1,
+  "status": "verification_in_progress",
+  "title": "IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Penalty and compensation for damage to computer, computer system, etc.. Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients. The analysis must identify the protected record/system, the prohibited act, mental element, statutory condition, evidence and remedy.",
+    "glance": "Penalty and compensation for damage to computer, computer system, etc.. Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients. The analysis must identify the protected record/system, the prohibited act, mental element, statutory condition, evidence and remedy.",
+    "study": "Statutory rule\nSection 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.\n\nElements\nIdentify the object protected by the section, the precise prohibited act, the required knowledge/intent or other mental element and each qualifying condition. Do not convert a technical irregularity into statutory liability without matching the facts to the text.\n\nEvidence\nMap source records, system logs, code repositories, contracts, authorisations and communications to the relevant element. Apply BSA 2023 s. 63 where an electronic record is tendered and separately establish attribution and integrity.\n\nConnected provisions\nDistinguish legal recognition/admissibility from substantive liability; distinguish compensation under section 43/43A from criminal offences under sections 65 onward. For Government use under section 6, separate statutory recognition from an agency's power or obligation to conduct a transaction electronically.\n\nCurrent-law caution\nUse the provision and rules in force on the relevant date and do not plead struck-down section 66A.",
+    "sections": [
+      {
+        "heading": "Statutory purpose and protected interest",
+        "body": "Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.",
+        "order": 1
+      },
+      {
+        "heading": "Mandatory ingredients and mental element",
+        "body": "List each act, object, condition and mental element. State the fact needed to prove each and the fact that would negate it.",
+        "order": 2
+      },
+      {
+        "heading": "Evidence, attribution and technical record",
+        "body": "Identify the digital artefact and how it proves the relevant element. Apply BSA 2023 s. 63 where applicable and separately test integrity, source and attribution.",
+        "order": 3
+      },
+      {
+        "heading": "Relationship with neighbouring provisions",
+        "body": "Distinguish the section's legal consequence from electronic-record recognition, compensation, criminal offences, contractual claims and regulatory duties.",
+        "order": 4
+      },
+      {
+        "heading": "Remedy and practical application",
+        "body": "Identify the competent forum, limitation/procedure where relevant, strongest defence and exact relief or liability that the provision supports.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "cyber",
+        "actName": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+        "provisionId": "cyber-it-s-43",
+        "title": "IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43)"
+      },
+      {
+        "actId": "bsa",
+        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
+        "provisionId": "bsa-s-63",
+        "section": "s. 63",
+        "title": "Electronic records where applicable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Element-by-element match",
+        "body": "The record establishes the statutory object, prohibited act and mental/qualifying conditions required by 43. The legal consequence follows only to the extent proved."
+      },
+      {
+        "title": "Technical event without statutory match",
+        "body": "A system or document shows an irregularity, but the evidence does not establish a required statutory element or attribution. The conclusion must reflect that gap."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Whether the facts establish the legal consequence under section 43.",
+        "analysis": "Identify protected object → act → mental element/condition → evidence and attribution → neighbouring provisions → defence → forum and remedy."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "legacy-43-boundary",
+        "title": "Section 43 — recognition/evidence versus liability",
+        "left": "Section 43",
+        "right": "Adjacent evidence, compensation or criminal provision",
+        "rows": [
+          {
+            "point": "Purpose",
+            "left": "Specific statutory recognition or liability",
+            "right": "Different legal function"
+          },
+          {
+            "point": "Proof",
+            "left": "Must establish this section's own elements",
+            "right": "Separate elements must also be proved"
+          },
+          {
+            "point": "Consequence",
+            "left": "Section-specific",
+            "right": "Do not import the other provision's remedy"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "legacy-boundary-1",
+        "trap": "Assuming every electronic record automatically proves the underlying transaction or offence.",
+        "correction": "Legal recognition/admissibility and substantive proof are distinct."
+      },
+      {
+        "id": "legacy-boundary-2",
+        "trap": "Treating one cyber incident as proof of every related IT Act offence.",
+        "correction": "Each provision requires independent ingredient analysis."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Shreya Singhal v. Union of India",
+        "year": 2015,
+        "citation": "(2015) 5 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Court reviewed restrictions on online speech under the Information Technology Act.",
+        "issue": "Whether IT Act s. 66A impermissibly restricted constitutional speech.",
+        "ratioDecidendi": "Section 66A was vague and overbroad and violated Article 19(1)(a); it was not saved by Article 19(2).",
+        "holding": "Section 66A was struck down in its entirety.",
+        "relevance": "Use only as historical status; do not present s. 66A as a current offence.",
+        "judgmentId": "judgment:india:shreya-singhal-v-union-of-india-2015"
+      },
+      {
+        "name": "Anvar P.V. v. P.K. Basheer",
+        "year": 2014,
+        "citation": "(2014) 10 SCC 473",
+        "court": "Supreme Court of India",
+        "facts": "The Court examined the statutory method for proving electronic records.",
+        "issue": "Whether electronic records can be admitted without the applicable certificate route.",
+        "ratioDecidendi": "Electronic records must satisfy the special statutory proof requirements applicable to computer outputs.",
+        "holding": "The Court reaffirmed the certificate discipline for electronic evidence.",
+        "relevance": "Use with BSA s. 63 and digital-record admissibility.",
+        "judgmentId": "judgment:india:anvar-p-v-v-p-k-basheer-2014"
+      },
+      {
+        "name": "K.S. Puttaswamy v. Union of India",
+        "year": 2017,
+        "citation": "(2017) 10 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Constitution Bench considered privacy as a constitutional right in the digital and modern State.",
+        "issue": "Whether privacy is protected as a Fundamental Right.",
+        "ratioDecidendi": "Privacy is intrinsic to dignity, liberty and Part III, subject to legality, legitimate aim, proportionality and procedural safeguards.",
+        "holding": "Constitutional privacy was unanimously recognised.",
+        "relevance": "Use for surveillance, data protection and informational privacy.",
+        "judgmentId": "judgment:india:k-s-puttaswamy-v-union-of-india-2017"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "it-s-43-brief",
+        "draftingCategory": "brief",
+        "question": "Structured Case Brief and legal problem assessment on IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43).",
+        "answer": "I. ISSUE AND JURISDICTION\nWhether IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43) applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nIT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43) is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
+        "explanation": "IRAC chamber brief."
+      },
+      {
+        "id": "it-s-43-submissions",
+        "draftingCategory": "submissions",
+        "question": "Comprehensive Written Submissions on IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43).",
+        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43) under Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.",
+        "explanation": "Senior Counsel written submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+      "IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43)",
+      "BSA s. 63 and ss. 104, 109 where relevant"
+    ],
+    "examTips": [
+      "Name the governing statute in the opening sentence.",
+      "List ingredients before applying facts.",
+      "Separate jurisdiction, limitation, admissibility and merits.",
+      "Use only verified authorities and extract the ratio relevant to the issue."
+    ],
+    "revisionPoints": [
+      "IT Act s. 43 — Penalty and compensation for damage to computer system (IT Act s. 43)",
+      "Mandatory ingredients and exceptions",
+      "Forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum",
+      "BSA electronic evidence and burden checkpoints where applicable"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "it-s-43",
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the statutory rule and protected interest.",
+        "Apply each element to the technical and documentary record.",
+        "Distinguish evidence/recognition from substantive liability."
+      ],
+      "definition": "Penalty and compensation for damage to computer, computer system, etc.",
+      "legalPrinciple": "Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.",
+      "statutoryFramework": "Information Technology Act, 2000 — section 43; applicable rules; BSA 2023 section 63 where applicable",
+      "essentialIngredients": [
+        "Statutory purpose and protected interest: Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.",
+        "Mandatory ingredients and mental element: List each act, object, condition and mental element. State the fact needed to prove each and the fact that would negate it.",
+        "Evidence, attribution and technical record: Identify the digital artefact and how it proves the relevant element. Apply BSA 2023 s. 63 where applicable and separately test integrity, source and attribution.",
+        "Relationship with neighbouring provisions: Distinguish the section's legal consequence from electronic-record recognition, compensation, criminal offences, contractual claims and regulatory duties.",
+        "Remedy and practical application: Identify the competent forum, limitation/procedure where relevant, strongest defence and exact relief or liability that the provision supports."
+      ],
+      "detailedExplanation": "Statutory rule\nSection 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.\n\nElements\nIdentify the object protected by the section, the precise prohibited act, the required knowledge/intent or other mental element and each qualifying condition. Do not convert a technical irregularity into statutory liability without matching the facts to the text.\n\nEvidence\nMap source records, system logs, code repositories, contracts, authorisations and communications to the relevant element. Apply BSA 2023 s. 63 where an electronic record is tendered and separately establish attribution and integrity.\n\nConnected provisions\nDistinguish legal recognition/admissibility from substantive liability; distinguish compensation under section 43/43A from criminal offences under sections 65 onward. For Government use under section 6, separate statutory recognition from an agency's power or obligation to conduct a transaction electronically.\n\nCurrent-law caution\nUse the provision and rules in force on the relevant date and do not plead struck-down section 66A.",
+      "examples": [
+        {
+          "title": "Element-by-element match",
+          "body": "The record establishes the statutory object, prohibited act and mental/qualifying conditions required by 43. The legal consequence follows only to the extent proved."
+        },
+        {
+          "title": "Technical event without statutory match",
+          "body": "A system or document shows an irregularity, but the evidence does not establish a required statutory element or attribution. The conclusion must reflect that gap."
+        }
+      ],
+      "problemApplication": "Identify protected object → act → mental element/condition → evidence and attribution → neighbouring provisions → defence → forum and remedy.",
+      "keyTakeaways": [
+        "Section 43 identifies specified unauthorised or damaging acts involving a computer, computer system or network and provides for liability to pay compensation to the affected person, subject to its statutory ingredients.",
+        "Prove each statutory element independently.",
+        "Separate admissibility/recognition from merits."
+      ],
+      "authoritativeSources": [
+        "Information Technology Act, 2000 — official statutory text; current-law verification required before publication."
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive topic-specific enhancement completed; statutory/current-law and case-law publication gates remain open."
+        ]
+      },
+      "distinctions": [
+        {
+          "id": "legacy-43-boundary",
+          "title": "Section 43 — recognition/evidence versus liability",
+          "left": "Section 43",
+          "right": "Adjacent evidence, compensation or criminal provision",
+          "rows": [
+            {
+              "point": "Purpose",
+              "left": "Specific statutory recognition or liability",
+              "right": "Different legal function"
+            },
+            {
+              "point": "Proof",
+              "left": "Must establish this section's own elements",
+              "right": "Separate elements must also be proved"
+            },
+            {
+              "point": "Consequence",
+              "left": "Section-specific",
+              "right": "Do not import the other provision's remedy"
+            }
+          ]
+        }
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "not-opened",
+      "examAnswerStructure": "Issue → statutory rule → ingredients → evidence/attribution → connected provisions → defence → consequence."
+    },
+    "status": "verification_in_progress",
+    "updatedAt": "2026-10-08T00:00:00.000Z"
+  },
+  "sources": [
+    "source:india:india-code-it-2000"
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "cyber"
+  ]
+}

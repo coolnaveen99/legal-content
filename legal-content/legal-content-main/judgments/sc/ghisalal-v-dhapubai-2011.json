@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:ghisalal-v-dhapubai-2011",
+  "version": 1,
+  "status": "review",
+  "title": "Ghisalal v. Dhapubai",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Ghisalal v. Dhapubai, (2011) 2 SCC 298",
+    "court": "Supreme Court of India",
+    "decisionYear": 2011,
+    "citation": "(2011) 2 SCC 298",
+    "facts": "The Supreme Court considered a dispute requiring interpretation of the governing family-law provision or closely connected statutory rule.",
+    "questionsBeforeCourt": [
+      "What is the correct legal interpretation and application of the governing statutory rule?"
+    ],
+    "ratioDecidendi": "The validity of adoption depends on compliance with the mandatory statutory conditions; a document's label cannot replace the substantive requirements.",
+    "holding": "The validity of adoption depends on compliance with the mandatory statutory conditions; a document's label cannot replace the substantive requirements.",
+    "relevance": "Use this authority for the stated statutory proposition, while matching the case facts and the current statutory text before relying on it.",
+    "sourceTopics": [
+      "topics/family/hama-s-6.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.145Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2003/3052/3052_2003_Judgement_18-Jan-2011.pdf",
+        "note": "Supreme Court of India (2011) 2 SCC 298; 2011 INSC 44; Section 7 Hindu Adoptions and Maintenance Act consent requirement."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

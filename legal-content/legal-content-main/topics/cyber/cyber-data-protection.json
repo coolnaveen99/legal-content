@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-cyber-data-protection",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Data Protection — DPDP Act 2023 and IT Act Interface",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Data protection in India is now principally governed by the Digital Personal Data Protection Act, 2023 (DPDP Act), which regulates processing of digital personal data within a rights-and-duties framework for data principals and data fiduciaries. The IT Act and rules (including residual sensitive personal data provisions) may still be relevant on specific facts. Section 43A IT Act historically addressed compensation for failure to protect sensitive personal data; current analysis must prefer the DPDP scheme where it applies and verify transitional/residual IT Act application against official text.",
+    "glance": "Ask: (1) Digital personal data processing? (2) DPDP fiduciary duties / principal rights? (3) Residual IT Act s. 43A or rules still engaged? (4) Consent or other lawful ground?",
+    "study": "Prefer DPDP as the primary data-protection statute for digital personal data. Do not invent penalty figures or ground lists — cite the official Act.\n\nNo new case invented.",
+    "sections": [
+      {
+        "heading": "DPDP framework",
+        "body": "Regulates processing of digital personal data; defines data principal and data fiduciary roles; sets obligations and rights as enacted.",
+        "order": 1
+      },
+      {
+        "heading": "Lawful processing",
+        "body": "Processing requires a lawful ground under the Act (consent or other permitted grounds as specified) — verify current text.",
+        "order": 2
+      },
+      {
+        "heading": "Fiduciary duties",
+        "body": "Data fiduciaries must process for lawful purpose, maintain security safeguards and comply with principal rights as the Act provides.",
+        "order": 3
+      },
+      {
+        "heading": "IT Act interface",
+        "body": "s. 43A and SPDI rules historically provided compensation for sensitive personal data failures; assess residual application after DPDP commencement against official notifications.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify personal data and processing; map DPDP duties; check any residual IT Act path; open enforcement forum as provided.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "dpdp",
+        "actName": "Digital Personal Data Protection Act, 2023",
+        "provisionId": "dpdp-framework",
+        "section": "framework",
+        "title": "Digital personal data protection"
+      },
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-43a",
+        "section": "s. 43A",
+        "title": "Compensation for failure to protect data (residual analysis)"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Unauthorised processing",
+        "body": "A platform processes user personal data without a lawful DPDP ground — fiduciary obligations and enforcement under DPDP are engaged.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the IT Act alone still govern all personal data disputes?",
+        "analysis": "No. DPDP is the primary statute for digital personal data; IT Act residual provisions apply only as saved or concurrent on the facts."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "dpdp-vs-43a",
+        "title": "DPDP Act vs IT Act s. 43A",
+        "left": "Comprehensive digital personal data processing regime.",
+        "right": "Compensation for failure to protect sensitive personal data under IT Act framework (residual).",
+        "rows": [
+          {
+            "point": "Scope",
+            "left": "Primary DP regime.",
+            "right": "Historical/residual compensation path."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "dp-trap-1",
+        "trap": "IT Act s. 43A is still the main data protection law.",
+        "correction": "DPDP Act 2023 is the primary digital personal data statute; treat s. 43A as residual only after checking current law."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "dp-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain the data protection framework in India.",
+        "answer": "DPDP framework; lawful processing; fiduciary duties; IT Act residual interface.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "dp-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss the Digital Personal Data Protection Act, 2023 and its interface with the IT Act.",
+        "answer": "I. DPDP. II. Lawful processing. III. Duties/rights. IV. IT Act residual. V. Method. VI. Conclusion.",
+        "explanation": "16-mark."
+      }
+    ],
+    "bareActPointers": [
+      "DPDP Act 2023",
+      "IT Act 2000 s. 43A (residual)"
+    ],
+    "examTips": [
+      "Lead with DPDP for digital personal data.",
+      "Flag s. 43A as residual only."
+    ],
+    "revisionPoints": [
+      "DPDP primary",
+      "Fiduciary duties",
+      "IT Act residual"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-introduction",
+      "topic:india:cyber-cyber-it-s-43a"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "cyber-data-protection",
+    "migrationNote": "Substantive enhancement; no new case invented; verification open.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State DPDP as primary DP law",
+        "Relate residual IT Act path"
+      ],
+      "definition": "Digital personal data processing is governed primarily by the DPDP Act 2023, with residual IT Act provisions assessed only where still applicable.",
+      "legalPrinciple": "Rights-and-duties based regulation of digital personal data processing.",
+      "statutoryFramework": "DPDP Act 2023; IT Act 2000 s. 43A (residual).",
+      "essentialIngredients": [
+        "Digital personal data",
+        "Processing",
+        "Lawful ground / fiduciary duty"
+      ],
+      "detailedExplanation": "Data protection overview.",
+      "examples": [
+        "Unauthorised processing"
+      ],
+      "problemApplication": "Apply DPDP first; check residual IT Act only if needed.",
+      "distinctions": [
+        "DPDP vs s. 43A"
+      ],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "DPDP → duties → residual IT Act.",
+      "sixteenMarkStructure": "DPDP → processing → duties → residual → method → conclusion.",
+      "keyTakeaways": [
+        "DPDP is primary",
+        "s. 43A residual only"
+      ],
+      "authoritativeSources": [
+        "DPDP Act 2023"
+      ],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "DPDP Act 2023 / IT Act 2000",
+      "citation": "framework",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null
+}

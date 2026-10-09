@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-rule-of-law-mixed-economy",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Rule of Law in a Mixed Economy",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "In a mixed economy the State regulates and participates in economic activity while private enterprise continues. The rule of law requires that economic regulation and public commercial action remain authorised by law, non-arbitrary and subject to review, even where wide policy discretion exists.",
+    "glance": "Identify the regulatory or commercial power; test legal authorisation and non-arbitrariness; apply the appropriate intensity of review for economic policy without abandoning legality.",
+    "study": "Mixed-economy administration involves licensing, price controls, public sector undertakings and regulatory agencies. Wide economic discretion is common, but it is not a zone of immunity. Article 14, directive principles of policy and sectoral statutes structure legal limits. Courts often defer on pure policy choice while intervening for illegality, procedural unfairness or patent arbitrariness. Current-law framing: ground the analysis in the Constitution and the sectoral statute. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Mixed Economy Context", "body": "State regulation and participation coexist with private enterprise.", "order": 1},
+      {"heading": "Legal Authorisation", "body": "Every regulatory measure needs a statutory or constitutional source.", "order": 2},
+      {"heading": "Non-Arbitrariness in Economic Action", "body": "Article 14 constrains arbitrary economic regulation and state commercial conduct.", "order": 3},
+      {"heading": "Intensity of Review", "body": "Policy deference is real but not absolute; legality and fairness remain reviewable.", "order": 4},
+      {"heading": "Remedies", "body": "Writs, statutory appeals and sectoral tribunals provide enforcement routes.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Licensing without criteria", "body": "A licensing authority refuses a licence without stated criteria or reasons. Non-arbitrariness and legality review are engaged despite economic subject-matter.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Policy change with fairness", "body": "Government changes an economic policy prospectively after notice. Policy deference may apply if legality and fairness are observed.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Do courts never review economic policy?", "analysis": "They review legality and arbitrariness even if they defer on pure policy merits."},
+      {"question": "Is public sector action always immune as policy?", "analysis": "Public sector action remains subject to law and constitutional standards."}
+    ],
+    "distinctions": [
+      {"id": "admin-policy-vs-legality", "title": "Policy deference vs legality review", "left": "Courts respect primary economic policy choice", "right": "Courts still police jurisdiction, procedure and arbitrariness", "rows": [{"point": "Focus", "left": "Policy choice", "right": "Legal limits"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-me-trap-1", "trap": "Courts never review economic policy.", "correction": "They review legality and arbitrariness even if they defer on pure policy merits."},
+      {"id": "admin-me-trap-2", "trap": "Public sector action is always immune as policy.", "correction": "Public sector action remains subject to law and constitutional standards."}
+    ],
+    "cases": [
+      {"name": "A.K. Kraipak v Union of India", "year": 1969, "citation": "(1969) 2 SCC 262", "court": "Supreme Court of India", "facts": "Selection process involving bias concerns.", "issue": "How far do natural justice rules apply to administrative action?", "ratioDecidendi": "Natural justice applies where fairness requires it; bias is impermissible.", "holding": "Selection process invalidated for breach of natural justice.", "relevance": "Authority already in the file on fair administrative procedure.", "judgmentId": "judgment:india:a-k-kraipak-v-union-of-india-1969"},
+      {"name": "Maneka Gandhi v Union of India", "year": 1978, "citation": "(1978) 1 SCC 248", "court": "Supreme Court of India", "facts": "Passport impounded without adequate opportunity and reasons.", "issue": "Standard of fairness for State action affecting liberty.", "ratioDecidendi": "Procedure affecting Article 21 liberty must be fair, just and reasonable.", "holding": "Procedural fairness and reasonableness constitutionalised.", "relevance": "Authority already in the file.", "judgmentId": "judgment:india:maneka-gandhi-v-union-of-india-1978"},
+      {"name": "Tata Cellular v Union of India", "year": 1994, "citation": "(1994) 6 SCC 651", "court": "Supreme Court of India", "facts": "Public procurement decision under review.", "issue": "Limits of judicial review over administrative discretion.", "ratioDecidendi": "Review examines illegality, irrationality and procedural impropriety, not merits as an appellate authority.", "holding": "Classic Indian administrative review framework stated.", "relevance": "Authority already in the file on review of commercial/administrative decisions.", "judgmentId": "judgment:india:tata-cellular-v-union-of-india-1994"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-me-brief", "draftingCategory": "brief", "question": "How should a mixed-economy rule-of-law problem be analysed?", "answer": "I. Identify regulatory/commercial power. II. Test legal authorisation. III. Apply non-arbitrariness. IV. Calibrate review intensity. V. Formulate remedy.", "explanation": "IRAC."},
+      {"id": "admin-me-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Source of power; legality and fairness defects; intensity of review; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution of India — Articles 14, 226", "Sectoral economic statute", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["State legality and non-arbitrariness limits.", "Note policy deference is not immunity.", "Use Tata Cellular for review intensity in commercial contexts."],
+    "revisionPoints": ["Mixed economy context", "Legal authorisation", "Non-arbitrariness", "Review intensity", "Remedies"],
+    "relatedJudgments": ["judgment:india:a-k-kraipak-v-union-of-india-1969", "judgment:india:maneka-gandhi-v-union-of-india-1978", "judgment:india:tata-cellular-v-union-of-india-1994"],
+    "relatedTopics": ["admin-discretion", "admin-public-corporations", "admin-judicial-review"],
+    "illustrations": ["illustration:india:admin-admin-admin-rule-of-law-mixed-economy-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-rule-of-law-mixed-economy",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Explain rule of law in mixed-economy administration.", "Apply legality and non-arbitrariness to economic regulation.", "Calibrate review intensity."],
+      "definition": "In a mixed economy, economic regulation and public commercial action must remain authorised by law, non-arbitrary and reviewable.",
+      "legalPrinciple": "Economic discretion is still bounded by law; deference on policy is not immunity from legality review.",
+      "statutoryFramework": "Constitution Articles 14, 226; sectoral economic statutes.",
+      "essentialIngredients": ["Source of economic power", "Non-arbitrariness analysis", "Appropriate review intensity", "Remedy matched to defect"],
+      "detailedExplanation": "Mixed-economy administration involves wide but not unlimited discretion.",
+      "examples": ["Licensing without criteria", "Policy change with fairness"],
+      "problemApplication": "Identify power; test legality and non-arbitrariness; calibrate review; remedy.",
+      "keyTakeaways": ["Economic discretion is bounded by law.", "Deference is not immunity.", "Article 14 applies to economic regulation.", "Match remedy to the institutional scheme."],
+      "authoritativeSources": ["Constitution of India", "Authorities already in the topic file"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Policy deference vs legality review"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["A.K. Kraipak v Union of India", "Maneka Gandhi v Union of India", "Tata Cellular v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Explain mixed-economy context; state legality and non-arbitrariness limits; note deference; conclude.", "sixteenMark": "Introduction; mixed economy; legal limits; review intensity; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:18:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "14018645c3a20980",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:18:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "rule-of-law", "economy", "regulation"]
+}

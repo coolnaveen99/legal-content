@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-delegated-legislation",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Delegated Legislation — Excessive Delegation Test & Permissible Limits",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Delegated legislation is subordinate law-making power conferred by the legislature on the executive or other bodies. The Constitution permits delegation of detail but forbids abdication of essential legislative function. The excessive-delegation test asks whether the parent statute lays down a clear policy or standard to guide the delegate.",
+    "glance": "Identify the parent Act and the delegated power; ask whether essential legislative policy remains with the legislature; test for adequate standards/guidance; distinguish conditional legislation and sub-delegation; state the consequence of ultra vires delegation.",
+    "study": "Indian constitutional law accepts that modern legislation cannot anticipate every detail. The legislature may therefore empower the executive to fill in details, frame rules, or bring provisions into force. The limit is that the legislature must itself determine the essential legislative policy and leave only the mode of implementation to the delegate. When the parent statute supplies no intelligible policy or guidance, the delegation is excessive and the subordinate instrument is ultra vires. Conditional legislation (power to bring an Act into force on fulfilment of a condition) is generally valid. Sub-delegation is controlled by the maxim delegatus non potest delegare unless the parent statute expressly or impliedly authorises it. Judicial review under Articles 14, 19, 21 and 226/32 remains available. Current-law framing: ground the analysis in the parent statute and the Constitution. Do not treat BSA 2023 as the source of this doctrine.",
+    "sections": [
+      {"heading": "Meaning and Necessity of Delegated Legislation", "body": "Subordinate legislation fills administrative detail that primary legislation cannot practicably specify. Growth of the welfare state and technical regulation made delegation inevitable.", "order": 1},
+      {"heading": "Essential Legislative Function", "body": "The legislature must itself declare the policy and standards. Abdication of that function is unconstitutional.", "order": 2},
+      {"heading": "Excessive Delegation Test", "body": "Ask whether the parent Act supplies an intelligible principle or guidance for the exercise of the delegated power. Absence of standards renders the delegation excessive.", "order": 3},
+      {"heading": "Conditional Legislation", "body": "Power to bring a statute into force upon the occurrence of a stated contingency is ordinarily valid and is not treated as excessive delegation of policy.", "order": 4},
+      {"heading": "Sub-Delegation and Controls", "body": "Delegatus non potest delegare applies unless the parent statute authorises further delegation. Publication, laying before the legislature, and judicial review are principal controls.", "order": 5},
+      {"heading": "Judicial Review and Remedies", "body": "Subordinate legislation that exceeds the parent power or violates fundamental rights is ultra vires and may be struck down under Articles 226/32.", "order": 6}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-245", "section": "Article 245", "title": "Extent of legislative power"}
+    ],
+    "examples": [
+      {"title": "Unguided power to prohibit", "body": "A statute empowers the executive to add any substance to a prohibited list without stating criteria. The absence of legislative policy or guidance makes the delegation excessive and the power vulnerable to challenge.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Detail-filling within policy", "body": "A statute fixes the policy of regulating industrial emissions and empowers the Central Government to prescribe emission limits by notification. The essential policy remains with the legislature; the notification fills implementation detail and is ordinarily valid.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Conditional commencement", "body": "An Act provides that it shall come into force on a date to be notified by the Government. The power is conditional legislation, not an abdication of policy, and is generally upheld.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Does every grant of rule-making power amount to excessive delegation?", "analysis": "No. Delegation of detail within a clear legislative policy is permissible; only abdication of essential legislative function is forbidden."},
+      {"question": "Can subordinate legislation be challenged only on ultra vires grounds?", "analysis": "No. It may also be challenged for violation of fundamental rights, unreasonableness, or procedural non-compliance where the parent statute so requires."},
+      {"question": "Is sub-delegation always invalid?", "analysis": "Sub-delegation is invalid unless the parent statute expressly or by necessary implication authorises it."}
+    ],
+    "distinctions": [
+      {"id": "admin-dl-vs-conditional", "title": "Excessive delegation vs conditional legislation", "left": "Transfer of policy-making power without standards", "right": "Power to bring an already complete statute into force on a contingency", "rows": [{"point": "Focus", "left": "Policy abdication", "right": "Timing of operation"}]},
+      {"id": "admin-dl-vs-ultra-vires", "title": "Excessive delegation vs ordinary ultra vires", "left": "Defect in the parent statute itself", "right": "Delegate exceeds the limits of a valid parent power", "rows": [{"point": "Focus", "left": "Constitutional validity of the enabling provision", "right": "Scope of the subordinate instrument"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-dl-trap-1", "trap": "All delegated legislation is unconstitutional.", "correction": "Delegation of detail within a clear legislative policy is constitutionally permissible."},
+      {"id": "admin-dl-trap-2", "trap": "Conditional legislation is the same as excessive delegation.", "correction": "Conditional legislation concerns timing of commencement, not transfer of policy-making power."},
+      {"id": "admin-dl-trap-3", "trap": "Once a rule is framed it cannot be reviewed.", "correction": "Subordinate legislation remains subject to judicial review for ultra vires, unreasonableness and fundamental-rights violation."}
+    ],
+    "cases": [
+      {"name": "In re Delhi Laws Act, 1912", "year": 1951, "citation": "AIR 1951 SC 332", "court": "Supreme Court of India", "facts": "The Court examined statutory provisions delegating legislative power to the executive.", "issue": "What legislative functions may constitutionally be delegated?", "ratioDecidendi": "The legislature may delegate ancillary functions but cannot abdicate its essential legislative policy-making function.", "holding": "The Court laid down the foundational excessive-delegation principle.", "relevance": "Authority already in the file; leading Indian authority on permissible delegation.", "judgmentId": "judgment:india:in-re-delhi-laws-act-1912-1951"},
+      {"name": "Hamdard Dawakhana (Wakf) Lal Kuan, Delhi v. Union of India", "year": 1960, "citation": "(1960) 2 SCR 671", "court": "Supreme Court of India", "facts": "A statutory provision conferred power to add matters to a prohibited category without adequate legislative guidance.", "issue": "Whether unguided executive power amounted to excessive delegation.", "ratioDecidendi": "A delegation lacking adequate legislative policy or guidance is impermissible.", "holding": "The offending delegation was invalidated.", "relevance": "Authority already in the file; requirement of policy, standards and guidance.", "judgmentId": "judgment:india:hamdard-dawakhana-wakf-lal-kuan-delhi-v-union-of-india-1960"},
+      {"name": "Gwalior Rayon Silk Mfg. (Wvg.) Co. Ltd. v. Assistant Commissioner of Sales Tax", "year": 1974, "citation": "(1974) 4 SCC 98", "court": "Supreme Court of India", "facts": "The Court considered the extent to which legislative functions could be delegated.", "issue": "What distinguishes permissible delegation from abdication of legislative responsibility?", "ratioDecidendi": "The legislature must retain essential legislative functions while permitting subordinate legislation to fill in details within the policy laid down.", "holding": "The Court applied the distinction between essential legislative function and implementation detail.", "relevance": "Authority already in the file; permissible-limits analysis.", "judgmentId": "judgment:india:gwalior-rayon-silk-mfg-wvg-co-ltd-v-assistant-commissioner-of-sales-tax-1974"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-dl-brief", "draftingCategory": "brief", "question": "How should an excessive-delegation problem be analysed?", "answer": "I. Identify the parent statute and the delegated power. II. Ask whether essential legislative policy and standards remain with the legislature. III. Test for adequate guidance. IV. Distinguish conditional legislation and sub-delegation. V. State the consequence (valid / ultra vires).", "explanation": "IRAC."},
+      {"id": "admin-dl-sub", "draftingCategory": "submissions", "question": "What should submissions challenging delegated legislation contain?", "answer": "Parent statute and exact clause; policy/guidance analysis; comparison with authorities already on record; fundamental-rights or reasonableness ground if available; precise relief sought.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Parent enabling statute", "Constitution Articles 14, 19, 21, 226, 245", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["State the essential-legislative-function test first.", "Distinguish conditional legislation from excessive delegation.", "Name the three classic authorities already in the file.", "Always ask whether standards exist in the parent Act."],
+    "revisionPoints": ["Meaning and necessity", "Essential legislative function", "Excessive delegation test", "Conditional legislation", "Sub-delegation", "Judicial review and remedies"],
+    "relatedJudgments": ["judgment:india:in-re-delhi-laws-act-1912-1951", "judgment:india:hamdard-dawakhana-wakf-lal-kuan-delhi-v-union-of-india-1960", "judgment:india:gwalior-rayon-silk-mfg-wvg-co-ltd-v-assistant-commissioner-of-sales-tax-1974"],
+    "relatedTopics": ["admin-ultra-vires", "admin-rulemaking-limits", "admin-rulemaking-control", "admin-separation-powers"],
+    "illustrations": ["illustration:india:admin-admin-admin-delegated-legislation-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-delegated-legislation",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["State the excessive-delegation test.", "Distinguish essential legislative function from implementation detail.", "Explain conditional legislation and sub-delegation limits.", "Identify available judicial-review grounds."],
+      "definition": "Delegated legislation is subordinate law-making power conferred by statute; it is valid only when the legislature retains essential legislative policy and supplies adequate standards.",
+      "legalPrinciple": "The legislature may delegate detail but cannot abdicate essential legislative function; absence of policy or guidance renders the delegation excessive.",
+      "statutoryFramework": "Parent enabling statute; Constitution Articles 14, 19, 21, 226, 245.",
+      "essentialIngredients": ["Parent statute identified", "Essential policy retained by legislature", "Adequate standards or guidance", "Delegate acts within conferred limits"],
+      "detailedExplanation": "Indian constitutional law permits delegation of administrative detail while requiring the legislature to fix the essential policy. The excessive-delegation doctrine polices that boundary.",
+      "examples": ["Unguided power to prohibit", "Detail-filling within policy", "Conditional commencement"],
+      "problemApplication": "Identify parent power; test for policy and standards; classify the instrument; state ultra vires consequence if standards are absent.",
+      "keyTakeaways": ["Essential legislative function cannot be abdicated.", "Adequate standards are required.", "Conditional legislation is ordinarily valid.", "Sub-delegation needs statutory authority.", "Judicial review remains available."],
+      "authoritativeSources": ["In re Delhi Laws Act (already in file)", "Hamdard Dawakhana (already in file)", "Gwalior Rayon (already in file)", "Parent statute"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented; authorities already present in the file retained.", "date": "2026-10-08"},
+      "distinctions": ["Excessive delegation vs conditional legislation", "Excessive delegation vs ordinary ultra vires"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["In re Delhi Laws Act, 1912", "Hamdard Dawakhana (Wakf) Lal Kuan, Delhi v. Union of India", "Gwalior Rayon Silk Mfg. (Wvg.) Co. Ltd. v. Assistant Commissioner of Sales Tax"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Define delegated legislation; state excessive-delegation test; note conditional legislation; cite leading authorities; conclude.", "sixteenMark": "Introduction; necessity of delegation; essential legislative function; excessive-delegation test with authorities; conditional legislation; sub-delegation; controls and judicial review; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:45:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "dl-exdel-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:45:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "delegated-legislation", "excessive-delegation", "rulemaking"]
+}

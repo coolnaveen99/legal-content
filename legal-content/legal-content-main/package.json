@@ -1,0 +1,30 @@
+{
+  "name": "legal-content",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Canonical structured legal content for CodePackr Law",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "validate:schemas": "node scripts/validate.mjs --schemas-only",
+    "validate:manifest": "node scripts/validate.mjs --manifest-only",
+    "validate:graph": "node scripts/validate.mjs --graph-report",
+    "manifest:refresh": "node scripts/refresh-manifest.mjs",
+    "manifest:generate": "node scripts/generate-manifest.mjs",
+    "graph:index": "node scripts/build-relationship-index.mjs",
+    "test:relationships": "node scripts/test-relationships.mjs",
+    "verify:legacy-preservation": "node scripts/verify-legacy-preservation.mjs",
+    "validate:enhancements": "node scripts/validate-enhancements.mjs",
+    "report:enhancements": "node scripts/report-enhancement-progress.mjs",
+    "judgments:queue": "node scripts/build-open-judgment-verification-queue.mjs",
+    "judgments:reference": "node scripts/resolve-judgment-reference.mjs",
+    "verify:fv005-fv010": "node scripts/verify-fv005-fv010.mjs",
+    "verify:fv011": "node scripts/verify-fv011-full-catalog.mjs",
+    "verify:fv012": "node scripts/verify-fv012-production-readiness.mjs",
+    "verify:fv013": "node scripts/verify-fv013-release-snapshot.mjs",
+    "verify:fv014": "node scripts/verify-fv014-rollback-readiness.mjs",
+    "quality:final": "node scripts/final-content-quality-pass.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

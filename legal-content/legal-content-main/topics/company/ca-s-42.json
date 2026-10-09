@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-42",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 42 (Offer or Invitation for Subscription of Securities on Private Placement)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 42 regulates private placement: an offer or invitation to subscribe for securities may be made only to a select group of identified persons (not exceeding the prescribed number), without public advertisement, subject to a private-placement offer letter, banking-channel payment into a separate account, allotment within the statutory period (or refund with interest), return of allotment filing, and record-keeping. Breach can attract refund, penalty and treatment as a public offer.",
+    "glance": "Identified persons only; no public advertisement; offer letter; separate bank account; allotment/refund timeline; ROC return; breach may convert to public offer.",
+    "study": "A company may make a private placement of securities only to such persons as are identified by the Board and whose names are recorded prior to the invitation, not exceeding the number prescribed (excluding QIBs and employees under ESOP). No public advertisement or use of media/marketing channels to inform the public at large is permitted. The offer is made through a private-placement offer letter in the prescribed form. Application money must be paid through banking channels and kept in a separate bank account, not used except for adjustment against allotment or refund. Allotment must be completed within sixty days of receipt of application money; failing which money must be refunded within fifteen days thereafter with interest at twelve per cent per annum. A return of allotment must be filed with the Registrar within the prescribed period. Contravention may require refund of all moneys with interest and attract penalties; non-compliance with private-placement conditions can cause the issue to be deemed a public offer. Current-law framing: test identified-person list, absence of public solicitation, payment trail, allotment timing, filings and consequences of breach.",
+    "sections": [
+      {
+        "heading": "Identified Persons",
+        "body": "Offer only to Board-identified persons whose names are recorded before invitation, within the prescribed numerical limit (excluding QIBs and ESOP employees as provided).",
+        "order": 1
+      },
+      {
+        "heading": "No Public Advertisement",
+        "body": "No public advertisement or use of media, marketing, distribution channels or agents to inform the public at large.",
+        "order": 2
+      },
+      {
+        "heading": "Offer Letter and Payment",
+        "body": "Private-placement offer letter in prescribed form; subscription money through banking channels into a separate account.",
+        "order": 3
+      },
+      {
+        "heading": "Allotment and Refund",
+        "body": "Allotment within sixty days of receipt of application money; otherwise refund within fifteen days with 12% p.a. interest.",
+        "order": 4
+      },
+      {
+        "heading": "Filing and Records",
+        "body": "Return of allotment to the Registrar within the prescribed period; maintain required records.",
+        "order": 5
+      },
+      {
+        "heading": "Consequences of Breach",
+        "body": "Refund of moneys with interest; penalties; possible treatment of the issue as a public offer.",
+        "order": 6
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-42",
+        "section": "Section 42",
+        "title": "Offer or invitation for subscription of securities on private placement"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Compliant private placement",
+        "body": "The Board identifies investors, records names, issues offer letters, receives money in a separate bank account, allots within sixty days and files the return of allotment. Section 42 is complied with.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Social media solicitation",
+        "body": "A company advertises a ‘private placement’ on social media to the public. The no-public-advertisement rule is breached and the issue may be treated as a public offer.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Late allotment without refund",
+        "body": "Application money is received but allotment is not made within sixty days and refund is delayed. Section 42 requires refund with 12% interest.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a private placement be marketed online to the general public?",
+        "analysis": "No. Section 42 prohibits public advertisement and use of media/marketing channels to inform the public at large."
+      },
+      {
+        "question": "What if allotment is not made within sixty days?",
+        "analysis": "Application money must be refunded within fifteen days thereafter with interest at twelve per cent per annum."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s42-vs-s23",
+        "title": "Private placement (s. 42) vs public offer routes (s. 23)",
+        "left": "Identified persons; no public ad; offer letter; separate account",
+        "right": "Public offer via prospectus; SEBI overlay when listing",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Closed offer",
+            "right": "Public fundraising"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s42-trap-1",
+        "trap": "Calling an issue a private placement is enough if some investors are known.",
+        "correction": "Section 42 requires identified persons recorded before invitation, no public solicitation, and full procedural compliance."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s42-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 42 problem be analysed?",
+        "answer": "I. Check identified-person list and limit. II. Test no public ad. III. Check offer letter, payment, allotment timeline, filing. IV. State breach consequences. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s42-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Offer list; solicitation facts; payment trail; allotment/refund; ROC filing; precise relief.",
+        "explanation": "Submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 42",
+      "Companies (Prospectus and Allotment of Securities) Rules",
+      "Connected: Sections 23, 39, 40"
+    ],
+    "examTips": [
+      "List identified persons, no public ad, 60-day allotment, 12% refund interest.",
+      "State that breach can deem the issue a public offer.",
+      "Distinguish from s. 23 public-offer routes."
+    ],
+    "revisionPoints": [
+      "Identified persons",
+      "No public advertisement",
+      "Offer letter and separate account",
+      "60-day allotment / refund with 12% interest",
+      "ROC return",
+      "Breach consequences"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-23",
+      "company-ca-s-39",
+      "company-ca-s-40"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-42",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the private-placement conditions under s. 42.",
+        "Explain allotment/refund timelines and no-public-ad rule.",
+        "Identify consequences of breach including deemed public offer."
+      ],
+      "definition": "Section 42 governs private placement of securities to identified persons without public advertisement, with prescribed payment, allotment, filing and refund controls.",
+      "legalPrinciple": "Private placement is a controlled exception to public fundraising; procedural non-compliance can convert the issue into a public offer and attract refund and penalty consequences.",
+      "statutoryFramework": "Companies Act, 2013, Section 42 and applicable rules.",
+      "essentialIngredients": [
+        "Identified persons within prescribed limit",
+        "No public advertisement",
+        "Offer letter; banking-channel payment; separate account",
+        "Allotment within 60 days or refund with interest",
+        "Return of allotment filed"
+      ],
+      "detailedExplanation": "Section 42 is the principal private-placement code under Chapter III.",
+      "examples": [
+        "Compliant private placement",
+        "Social media solicitation",
+        "Late allotment without refund"
+      ],
+      "problemApplication": "Checklist each condition; map breaches to refund, penalty and deemed public offer.",
+      "keyTakeaways": [
+        "Identified persons only.",
+        "No public ad.",
+        "60 days to allot or refund with 12% interest.",
+        "Breach can mean public offer + penalties."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 42"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Private placement (s. 42) vs public offer routes (s. 23)"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Identified persons; no public ad; allotment/refund; conclude.",
+        "sixteenMark": "Introduction; conditions; timelines; filings; breach consequences; vs s. 23; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T09:00:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s42-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T09:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-42",
+    "private-placement"
+  ]
+}

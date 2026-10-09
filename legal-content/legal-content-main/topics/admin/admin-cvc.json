@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-cvc",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Central Vigilance Commission — Structure, Powers and Role",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "The Central Vigilance Commission (CVC) is the apex vigilance institution of the Union Government. It supervises vigilance administration, advises on vigilance cases and exercises statutory functions under the Central Vigilance Commission Act, 2003.",
+    "glance": "Identify the CVC’s statutory basis; state its principal functions (superintendence, advice, inquiry referral); note the limits relative to investigation agencies and courts.",
+    "study": "The CVC was given statutory status by the Central Vigilance Commission Act, 2003 following the Supreme Court’s directions in the Vineet Narain litigation. It exercises superintendence over the Delhi Special Police Establishment (CBI) in corruption cases, advises ministries on vigilance matters, and performs other functions assigned by the Act. It does not itself try offences or replace judicial process. Current-law framing: ground the analysis in the 2003 Act and related statutory framework.",
+    "sections": [
+      {"heading": "Statutory Basis", "body": "Central Vigilance Commission Act, 2003 confers statutory status and defines functions.", "order": 1},
+      {"heading": "Superintendence and Advice", "body": "Superintendence over CBI in corruption cases; advisory role for ministries and departments.", "order": 2},
+      {"heading": "Inquiry and Referral", "body": "Powers to inquire or cause inquiry into specified matters and to refer for further action.", "order": 3},
+      {"heading": "Limits", "body": "CVC is not a court; it does not determine criminal guilt or replace judicial review.", "order": 4}
+    ],
+    "provisions": [
+      {"actId": "cvc-act", "actName": "Central Vigilance Commission Act, 2003", "provisionId": "cvc-act-2003", "title": "Central Vigilance Commission Act, 2003"}
+    ],
+    "examples": [
+      {"title": "Vigilance advice", "body": "A ministry seeks CVC advice on a corruption-related disciplinary matter. The CVC’s advisory function under the 2003 Act is engaged.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Can the CVC convict a public servant?", "analysis": "No. It is a vigilance and supervisory body, not a criminal court."},
+      {"question": "Does CVC superintendence oust judicial review of CBI action?", "analysis": "No. Judicial review of investigative and prosecutorial action remains available within established limits."}
+    ],
+    "distinctions": [
+      {"id": "admin-cvc-vs-cbi", "title": "CVC vs CBI", "left": "Apex vigilance supervision and advice", "right": "Investigative agency", "rows": [{"point": "Focus", "left": "Superintendence and advice", "right": "Investigation"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-cvc-trap-1", "trap": "CVC is a criminal court.", "correction": "It is a vigilance institution with supervisory and advisory functions."},
+      {"id": "admin-cvc-trap-2", "trap": "CVC directions completely control CBI in all matters.", "correction": "Superintendence is defined by the 2003 Act and related framework; it is not unlimited."}
+    ],
+    "cases": [
+      {"name": "Vineet Narain v Union of India", "year": 1998, "citation": "(1998) 1 SCC 226", "court": "Supreme Court of India", "facts": "Directions for insulating CBI and establishing effective vigilance institutions.", "issue": "Institutional arrangements for independent investigation of corruption.", "ratioDecidendi": "The Court issued directions to secure independent investigation and effective vigilance oversight, leading to statutory recognition of the CVC.", "holding": "Directions issued for institutional reform.", "relevance": "Foundational authority for statutory CVC status.", "judgmentId": "judgment:india:vineet-narain-v-union-of-india-1998"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-cvc-brief", "draftingCategory": "brief", "question": "How should a CVC problem be analysed?", "answer": "I. Identify the statutory function engaged. II. State the limits of the power. III. Note relationship with CBI and courts. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-cvc-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Statutory basis; function; limits; relationship with investigation and review; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Central Vigilance Commission Act, 2003", "Related DSPE/CBI framework", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Cite the 2003 Act.", "Mention Vineet Narain for the institutional background.", "Distinguish supervision from adjudication."],
+    "revisionPoints": ["Statutory basis", "Superintendence and advice", "Inquiry and referral", "Limits"],
+    "relatedJudgments": ["judgment:india:vineet-narain-v-union-of-india-1998"],
+    "relatedTopics": ["admin-ombudsman", "admin-judicial-review", "admin-good-governance"],
+    "illustrations": ["illustration:india:admin-admin-admin-cvc-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-cvc",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["State the CVC’s statutory basis and functions.", "Distinguish CVC from CBI and courts.", "Note the Vineet Narain background."],
+      "definition": "The CVC is the apex statutory vigilance institution of the Union with supervisory and advisory functions under the 2003 Act.",
+      "legalPrinciple": "CVC exercises statutory superintendence and advice; it does not adjudicate criminal guilt or oust judicial review.",
+      "statutoryFramework": "Central Vigilance Commission Act, 2003.",
+      "essentialIngredients": ["Statutory function identified", "Limits stated", "Relationship with CBI/courts noted"],
+      "detailedExplanation": "The CVC provides institutional vigilance oversight within the constitutional and statutory framework.",
+      "examples": ["Vigilance advice"],
+      "problemApplication": "Identify function; state limits; conclude.",
+      "keyTakeaways": ["2003 Act is the statutory basis.", "Superintendence is not adjudication.", "Vineet Narain shaped institutional design."],
+      "authoritativeSources": ["Central Vigilance Commission Act, 2003", "Vineet Narain"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["CVC vs CBI"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Vineet Narain v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "State basis and functions; note limits; conclude.", "sixteenMark": "Introduction; basis; functions; limits; Vineet Narain; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-cvc-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:20:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "cvc", "vigilance"]
+}

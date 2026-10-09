@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-3",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 3 (Formation of Company)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 3 prescribes how a company may be formed under the Companies Act, 2013: by one or more persons (for a public company, two or more; for a private company, two or more; for a One Person Company, one person) subscribing their names to a memorandum and complying with the requirements of the Act in respect of registration.",
+    "glance": "Identify the type of company (public / private / OPC); state the minimum number of subscribers; note the requirement of a memorandum and compliance with registration requirements under the Act.",
+    "study": "Section 3 is the foundational formation provision. A company may be formed for any lawful purpose by (a) seven or more persons for a public company, (b) two or more persons for a private company, or (c) one person for a One Person Company, by subscribing their names to a memorandum and complying with the registration requirements of the Act. A company formed under this section may be limited by shares, limited by guarantee, or unlimited. The section links formation to the memorandum (s. 4), articles (s. 5) and the incorporation process before the Registrar (s. 7). Current-law framing: ground the analysis in s. 3 and the connected registration provisions; do not treat BSA 2023 as the source of company-law doctrine.",
+    "sections": [
+      {
+        "heading": "Who May Form a Company",
+        "body": "Public company: seven or more persons. Private company: two or more persons. One Person Company: one person. All must subscribe their names to a memorandum.",
+        "order": 1
+      },
+      {
+        "heading": "Lawful Purpose",
+        "body": "The company must be formed for a lawful purpose.",
+        "order": 2
+      },
+      {
+        "heading": "Types by Liability",
+        "body": "A company may be limited by shares, limited by guarantee, or unlimited.",
+        "order": 3
+      },
+      {
+        "heading": "Link to Registration",
+        "body": "Formation is completed only upon compliance with the registration requirements of the Act (memorandum, articles, and s. 7 process).",
+        "order": 4
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-3",
+        "section": "Section 3",
+        "title": "Formation of company"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Private company formation",
+        "body": "Two persons subscribe a memorandum for a private company limited by shares and comply with registration requirements. Section 3(1)(b) is satisfied.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "OPC formation",
+        "body": "A single individual forms a One Person Company by subscribing the memorandum and complying with OPC-specific requirements. Section 3(1)(c) applies.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Insufficient subscribers for public company",
+        "body": "Only five persons attempt to form a public company. The minimum of seven under s. 3(1)(a) is not met.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a single person form a private company under s. 3?",
+        "analysis": "No. A private company requires two or more persons. A single person may form only a One Person Company under s. 3(1)(c)."
+      },
+      {
+        "question": "Does subscription alone create the company?",
+        "analysis": "No. Subscription to the memorandum must be followed by compliance with the registration requirements; incorporation is completed under s. 7."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s3-public-vs-private-vs-opc",
+        "title": "Public company vs private company vs OPC (subscriber minimums)",
+        "left": "Public: 7+; Private: 2+; OPC: 1",
+        "right": "Different statutory minima for formation",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Minimum subscribers",
+            "right": "Company type"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s3-trap-1",
+        "trap": "Any number of persons can form any type of company.",
+        "correction": "Section 3 fixes distinct minimum subscriber numbers for public, private and OPC."
+      },
+      {
+        "id": "ca-s3-trap-2",
+        "trap": "Signing a memorandum automatically incorporates the company.",
+        "correction": "Registration under s. 7 is required; subscription is only the first step."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
+        "issue": "What is the legal effect of incorporation?",
+        "ratioDecidendi": "A registered company is a legal person separate from its members.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Authority already in the file; consequence of valid formation and registration.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s3-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 3 problem be analysed?",
+        "answer": "I. Identify the intended company type. II. Check the minimum number of subscribers. III. Confirm lawful purpose and liability type. IV. Note the need for registration compliance. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s3-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Company type; subscriber count; memorandum status; registration compliance; precise relief.",
+        "explanation": "Submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 3",
+      "Connected: Sections 4 (memorandum), 5 (articles), 7 (incorporation)",
+      "BSA 2023 only for evidentiary issues"
+    ],
+    "examTips": [
+      "State the three subscriber minima clearly.",
+      "Link s. 3 to s. 7 registration.",
+      "Distinguish OPC from private company."
+    ],
+    "revisionPoints": [
+      "Who may form",
+      "Lawful purpose",
+      "Types by liability",
+      "Link to registration"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-4",
+      "company-ca-s-5",
+      "company-ca-s-7",
+      "company-ca-s-9"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-3",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the minimum subscriber requirements for each company type.",
+        "Explain the link between formation and registration.",
+        "Identify the liability types available under s. 3."
+      ],
+      "definition": "Section 3 provides that a company may be formed for a lawful purpose by the prescribed minimum number of persons subscribing a memorandum and complying with registration requirements.",
+      "legalPrinciple": "Formation requires the statutory minimum of subscribers for the chosen company type, a memorandum, and compliance with the Act’s registration process.",
+      "statutoryFramework": "Companies Act, 2013, Section 3; connected ss. 4, 5, 7.",
+      "essentialIngredients": [
+        "Company type identified",
+        "Minimum subscribers met",
+        "Lawful purpose",
+        "Memorandum subscribed",
+        "Registration requirements complied with"
+      ],
+      "detailedExplanation": "Section 3 is the starting point for creating a company under the 2013 Act.",
+      "examples": [
+        "Private company formation",
+        "OPC formation",
+        "Insufficient subscribers for public company"
+      ],
+      "problemApplication": "Identify type; count subscribers; confirm memorandum and registration path.",
+      "keyTakeaways": [
+        "Public 7+, private 2+, OPC 1.",
+        "Subscription alone is not incorporation.",
+        "Liability may be by shares, guarantee or unlimited."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 3"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level content; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Public company vs private company vs OPC (subscriber minimums)"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "State formation rule and subscriber minima; note registration link; conclude.",
+        "sixteenMark": "Introduction; who may form; purpose; liability types; registration link; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T07:50:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s3-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:50:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-3",
+    "formation"
+  ]
+}

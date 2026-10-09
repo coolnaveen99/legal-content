@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:limitation-s-14",
+  "version": 1,
+  "status": "published",
+  "title": "Section 14 Limitation Act — Wrong forum in good faith",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 14 of the Limitation Act, 1963 excludes time spent prosecuting another civil proceeding that fails for want of jurisdiction or another cause of a like nature. For a suit, the plaintiff must have prosecuted with due diligence another civil proceeding against the same defendant, on the same matter in issue, in good faith, in a court which from defect of jurisdiction or other cause of a like nature could not entertain it. Section 14(2) makes the same exclusion for an application. The exclusion is of that prosecution time. It is not a general condonation, and it does not apply to a forum that could have entertained the matter.",
+    "study": "Require the same matter, due diligence, good faith, and a court that could not entertain the proceeding. A merits dismissal is not a section 14 defect. Do not use section 14 to save a late filing that was never prosecuted in another court.",
+    "relatedTopics": [
+      "topic:india:limitation-s-3",
+      "topic:india:cpc-s-9"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "limitation",
+    "legacyTopicId": "s-14",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the section 14 conditions for a suit and an application.",
+        "Require defect of jurisdiction or a like cause.",
+        "Keep a merits failure outside the section."
+      ],
+      "definition": "Section 14 excludes time spent diligently and in good faith on the same matter in a court that could not entertain it, when computing limitation for the later suit or application.",
+      "legalPrinciple": "The later court does not add a new period. It leaves out time lost to a proceeding the earlier court could not hear.",
+      "statutoryFramework": "Limitation Act, 1963, section 14. Section 5 is condonation. Section 14 is exclusion.",
+      "essentialIngredients": [
+        "Later suit or application",
+        "Earlier civil proceeding prosecuted",
+        "Due diligence",
+        "Same matter in issue",
+        "Same defendant, for a suit",
+        "Good faith",
+        "Defect of jurisdiction or other cause of a like nature",
+        "Earlier court unable to entertain it"
+      ],
+      "detailedExplanation": "Section 14(1) is the suit rule. The excluded time is the time during which the plaintiff has been prosecuting the other civil proceeding. That proceeding may be in a court of first instance or in appeal or revision. It must be against the defendant, relate to the same matter in issue, and be prosecuted in good faith in a court which, from defect of jurisdiction or other cause of a like nature, is unable to entertain it. Section 14(2) applies the exclusion to an application, with the defendant in the later application corresponding to the opposite party. Section 14(3) excludes a period already excluded under section 9 of the old Act in the stated way; ordinary problems do not need it. A dismissal on the merits is not inability to entertain. A voluntary withdrawal from a court that had jurisdiction is not this section.",
+      "examples": [
+        "A title suit is filed in a court which lacks territorial jurisdiction and is returned. The time of that prosecution is excluded in the later suit if diligence and good faith are shown.",
+        "The first court had jurisdiction and dismissed the suit on evidence. Section 14 does not exclude that time.",
+        "No earlier proceeding was filed. Section 14 has nothing to exclude."
+      ],
+      "problemApplication": "List forum, dates, same parties, same matter, diligence, good faith, and why the first court could not entertain the case. If the first court could decide it, refuse the exclusion.",
+      "distinctions": [
+        "Section 14 exclusion vs section 5 condonation",
+        "Want of jurisdiction vs dismissal on merits",
+        "Same matter vs a new claim",
+        "Prosecuted time vs idle time before filing"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Sufficient-cause and good-faith illustrations are statutory, not holdings.",
+      "shortAnswerStructure": "Exclude time spent in good faith and with due diligence on the same matter in a court that could not entertain it.",
+      "tenMarkStructure": "Conditions → suit and application → merits dismissal excluded → one returned-plaint illustration.",
+      "sixteenMarkStructure": "Purpose → each condition → what is not a like cause → border with section 5 → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "Exclude time spent in good faith and with due diligence on the same matter in a court that could not entertain it.",
+        "tenMark": "Conditions → suit and application → merits dismissal excluded → one returned-plaint illustration.",
+        "sixteenMark": "Purpose → each condition → what is not a like cause → border with section 5 → facts → conclusion."
+      },
+      "keyTakeaways": [
+        "Section 14 excludes prosecution time.",
+        "The matter and the diligence must match.",
+        "Good faith is required.",
+        "The earlier court must have been unable to entertain the proceeding.",
+        "A merits loss is not section 14."
+      ],
+      "authoritativeSources": [
+        "Limitation Act, 1963, section 14"
+      ],
+      "currentLawStatus": "verification_required",
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 14 conditions stated from the Act. No good-faith holding added.",
+        "date": "2026-10-08"
+      },
+      "lastBotRunAt": "2026-10-08T08:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "lim-s14-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    }
+  },
+  "sources": [
+    "source:india:india-code-limitation-1963"
+  ],
+  "updatedAt": "2026-10-08",
+  "effectiveFrom": "1964-01-01",
+  "effectiveTo": null
+}

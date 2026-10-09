@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-cyber-it-s-43a",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Information Technology Act, 2000 — Section 43A (Compensation for Failure to Protect Data)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 43A of the Information Technology Act, 2000 provides that where a body corporate possessing, dealing or handling any sensitive personal data or information in a computer resource that it owns, controls or operates is negligent in implementing and maintaining reasonable security practices and procedures and thereby causes wrongful loss or wrongful gain to any person, such body corporate is liable to pay damages by way of compensation to the affected person. After the Digital Personal Data Protection Act, 2023, treat s. 43A as residual/concurrent and prefer DPDP where it applies; verify transitional position against official text.",
+    "glance": "Ask: (1) Body corporate handling sensitive personal data? (2) Negligence in reasonable security practices? (3) Wrongful loss or gain caused? (4) DPDP primary path instead?",
+    "study": "s. 43A is civil compensation for security negligence regarding sensitive personal data. DPDP is now the primary digital personal data statute — flag residual analysis.\n\nNo new case invented.",
+    "sections": [
+      {
+        "heading": "Body corporate duty",
+        "body": "Applies to a body corporate possessing, dealing or handling sensitive personal data or information in a computer resource it owns, controls or operates.",
+        "order": 1
+      },
+      {
+        "heading": "Negligence",
+        "body": "Negligence in implementing and maintaining reasonable security practices and procedures.",
+        "order": 2
+      },
+      {
+        "heading": "Causation and loss",
+        "body": "Such negligence causes wrongful loss or wrongful gain to any person — compensation payable to the affected person.",
+        "order": 3
+      },
+      {
+        "heading": "DPDP interface",
+        "body": "DPDP Act 2023 is the primary digital personal data regime; assess whether s. 43A remains applicable on the facts as residual law.",
+        "order": 4
+      },
+      {
+        "heading": "Method",
+        "body": "Identify body corporate, sensitive personal data, security failure, loss/gain; check DPDP overlap.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "ita",
+        "actName": "Information Technology Act, 2000",
+        "provisionId": "ita-43a",
+        "section": "s. 43A",
+        "title": "Compensation for failure to protect data"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Data breach from weak security",
+        "body": "A company fails to maintain reasonable security for customer sensitive personal data leading to leak and wrongful loss — s. 43A compensation claim, subject to DPDP residual analysis.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is s. 43A still the main data protection remedy after DPDP?",
+        "analysis": "DPDP is primary for digital personal data; s. 43A is analysed as residual/concurrent only after checking current law."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "s43a-vs-s43",
+        "title": "s. 43A data security vs s. 43 computer wrongs",
+        "left": "Compensation for negligent failure to protect sensitive personal data.",
+        "right": "Compensation for listed unauthorised acts on computer resources.",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Security negligence / SPDI.",
+            "right": "Unauthorised access/damage acts."
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "s43a-trap-1",
+        "trap": "s. 43A is unaffected by DPDP.",
+        "correction": "DPDP is the primary digital personal data statute; treat s. 43A as residual pending official transitional analysis."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "s43a-10",
+        "draftingCategory": "10-mark",
+        "question": "Explain Section 43A of the IT Act, 2000.",
+        "answer": "Body corporate; negligence in security; wrongful loss/gain; DPDP residual interface.",
+        "explanation": "10-mark."
+      },
+      {
+        "id": "s43a-16",
+        "draftingCategory": "16-mark",
+        "question": "Discuss compensation for failure to protect data under Section 43A IT Act.",
+        "answer": "I. Duty. II. Negligence. III. Loss. IV. DPDP. V. Conclusion.",
+        "explanation": "16-mark."
+      }
+    ],
+    "bareActPointers": [
+      "IT Act 2000 s. 43A",
+      "DPDP Act 2023"
+    ],
+    "examTips": [
+      "Flag DPDP as primary.",
+      "State body corporate + SPDI + negligence."
+    ],
+    "revisionPoints": [
+      "Reasonable security practices",
+      "Sensitive personal data",
+      "DPDP residual"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "topic:india:cyber-cyber-data-protection",
+      "topic:india:cyber-cyber-it-s-43"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "cyber-it-s-43a",
+    "migrationNote": "Substantive enhancement; no new case invented; verification open.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State s. 43A compensation rule",
+        "Relate to DPDP"
+      ],
+      "definition": "IT Act s. 43A makes a body corporate negligent in reasonable security for sensitive personal data liable to pay compensation for resulting wrongful loss or gain, subject to residual analysis after DPDP.",
+      "legalPrinciple": "Civil compensation for negligent failure to protect sensitive personal data.",
+      "statutoryFramework": "Information Technology Act, 2000 — Section 43A; DPDP Act 2023 (primary).",
+      "essentialIngredients": [
+        "Body corporate",
+        "Sensitive personal data",
+        "Negligent security",
+        "Wrongful loss/gain"
+      ],
+      "detailedExplanation": "Data security compensation frame.",
+      "examples": [
+        "Data breach from weak security"
+      ],
+      "problemApplication": "Map SPDI and negligence; check DPDP first.",
+      "distinctions": [
+        "s. 43A vs s. 43"
+      ],
+      "caseLawNotes": "No cases invented; verification open.",
+      "tenMarkStructure": "Duty → negligence → loss → DPDP.",
+      "sixteenMarkStructure": "Duty → negligence → loss → DPDP → conclusion.",
+      "keyTakeaways": [
+        "Security negligence",
+        "DPDP primary"
+      ],
+      "authoritativeSources": [
+        "IT Act 2000 s. 43A"
+      ],
+      "currentLawStatus": "verification_required",
+      "lastVerifiedAt": null,
+      "verificationNotes": "Substantive remediation 2026-10-08.",
+      "caseLaw": [],
+      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive enhancement complete; legal verification/publication remains a separate gate."
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "kind": "statute",
+      "label": "Information Technology Act, 2000",
+      "citation": "s. 43A",
+      "url": null,
+      "notes": "Framework; no case holdings invented."
+    }
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-35",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 35 (Civil Liability for Mis-statements in Prospectus)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 35 creates civil compensation liability where a person has subscribed for securities of a company acting on any statement included, or the inclusion or omission of any matter, in the prospectus which is misleading and has sustained loss or damage as a consequence. Specified persons including the company, directors, promoters and persons who authorised the issue are liable, subject to statutory defences. Fraudulent intent can produce personal, unlimited responsibility.",
+    "glance": "Reliance on misleading prospectus statement/inclusion/omission; loss; liability of company, directors, promoters, authorisers and certain experts; defences; unlimited liability if fraud proved.",
+    "study": "Where a person has subscribed for securities of a company acting on any statement included, or the inclusion or omission of any matter, in the prospectus which is misleading and has sustained any loss or damage as a consequence thereof, the company and every person who is a director at the time of issue, named as director or agreed to become director, a promoter, or who has authorised the issue of the prospectus, and every expert who is liable under the section, are liable to pay compensation to every person who has sustained such loss or damage. Statutory defences include withdrawal of consent before issue, issue without knowledge or consent, and reasonable belief in truth. Where it is proved that a prospectus was issued with intent to defraud or for any fraudulent purpose, every person referred to in the section is personally responsible without any limitation of liability. Current-law framing: prove subscription on a misleading prospectus matter, loss, and the class of defendant; then test defences and any fraud allegation.",
+    "sections": [
+      {
+        "heading": "Cause of Action",
+        "body": "Subscription acting on a misleading statement, inclusion or omission in the prospectus, causing loss or damage.",
+        "order": 1
+      },
+      {
+        "heading": "Persons Liable",
+        "body": "Company; directors at time of issue; named/proposed directors; promoters; persons who authorised issue; experts as specified.",
+        "order": 2
+      },
+      {
+        "heading": "Defences",
+        "body": "Statutory defences include withdrawal of consent, issue without knowledge/consent, and reasonable belief in truth of the statement.",
+        "order": 3
+      },
+      {
+        "heading": "Fraudulent Prospectus",
+        "body": "If the prospectus was issued with intent to defraud or for a fraudulent purpose, liability is personal and unlimited for the persons referred to in the section.",
+        "order": 4
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-35",
+        "section": "Section 35",
+        "title": "Civil liability for mis-statements in prospectus"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Investor loss on misleading prospectus",
+        "body": "An investor subscribes on the basis of a misleading profit forecast in the prospectus and suffers loss. Section 35 supports a compensation claim against the statutory classes of defendants, subject to defences.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Director who withdrew consent",
+        "body": "A proposed director withdrew consent before issue and the prospectus was issued without that person’s authority. A statutory defence may apply.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Must the claimant prove fraud for ordinary s. 35 compensation?",
+        "analysis": "No. Ordinary s. 35 liability is for loss from reliance on a misleading prospectus matter; fraud escalates to unlimited personal liability."
+      },
+      {
+        "question": "Is the company itself liable under s. 35?",
+        "analysis": "Yes. The company is among the persons liable to pay compensation."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s35-vs-s34",
+        "title": "Civil liability (s. 35) vs criminal liability (s. 34)",
+        "left": "Compensation for loss from reliance",
+        "right": "Criminal liability of authorisers under s. 447",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Private compensation",
+            "right": "Public prosecution / punishment"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s35-trap-1",
+        "trap": "Only the company can be sued for prospectus misstatements.",
+        "correction": "Section 35 lists the company, directors, promoters, authorisers and certain experts as potentially liable."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s35-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 35 problem be analysed?",
+        "answer": "I. Prove subscription on misleading prospectus matter and loss. II. Identify defendant class. III. Test defences. IV. Address fraud/unlimited liability if alleged. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s35-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Reliance; loss; defendant class; defences; fraud allegation if any; precise relief.",
+        "explanation": "Submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 35",
+      "Connected: Sections 34, 36, 26"
+    ],
+    "examTips": [
+      "Structure: reliance + loss + defendant class + defences.",
+      "Separate ordinary compensation from fraudulent unlimited liability.",
+      "Distinguish from s. 34 criminal route."
+    ],
+    "revisionPoints": [
+      "Cause of action",
+      "Persons liable",
+      "Defences",
+      "Fraudulent prospectus — unlimited liability"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-34",
+      "company-ca-s-36"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-35",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "Explain the reliance, loss and causation structure of s. 35.",
+        "Identify the statutory classes of liable persons.",
+        "Distinguish ordinary defences from fraudulent unlimited liability."
+      ],
+      "definition": "Section 35 creates civil compensation liability for loss sustained by a person who subscribed for securities acting on a misleading statement, inclusion or omission in the prospectus.",
+      "legalPrinciple": "Investors who rely on a misleading prospectus and suffer loss can claim compensation from the company and specified individuals, with escalated unlimited liability if fraud is proved.",
+      "statutoryFramework": "Companies Act, 2013, Section 35.",
+      "essentialIngredients": [
+        "Subscription acting on misleading prospectus matter",
+        "Loss or damage as a consequence",
+        "Defendant within statutory class",
+        "No successful defence; fraud escalates liability"
+      ],
+      "detailedExplanation": "Section 35 is the principal civil remedy for prospectus misstatements under the Companies Act.",
+      "examples": [
+        "Investor loss on misleading prospectus",
+        "Director who withdrew consent"
+      ],
+      "problemApplication": "Prove reliance and loss; identify defendants; test defences; address fraud.",
+      "keyTakeaways": [
+        "Reliance + loss required.",
+        "Multiple defendant classes.",
+        "Fraud → unlimited personal liability."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 35"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Civil liability (s. 35) vs criminal liability (s. 34)"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Cause of action; persons liable; defences; conclude.",
+        "sixteenMark": "Introduction; reliance and loss; defendants; defences; fraud; vs s. 34; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T08:55:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s35-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T08:55:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-35",
+    "civil-liability-prospectus"
+  ]
+}

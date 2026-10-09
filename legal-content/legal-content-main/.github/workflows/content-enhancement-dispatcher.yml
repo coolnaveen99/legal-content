@@ -1,0 +1,21 @@
+name: Content enhancement subject dispatcher
+
+# STOPPED 2026-10-06. Weekly schedule removed. Job is disabled.
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Specific subject slug; blank means all subjects"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  dispatch:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Content enhancement dispatcher is stopped."

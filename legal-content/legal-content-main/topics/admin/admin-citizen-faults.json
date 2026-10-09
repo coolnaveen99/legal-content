@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-citizen-faults",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Citizen Faults and Limits on Administrative Remedies",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "A citizen seeking administrative or judicial relief against public authorities may be denied or limited relief because of delay, acquiescence, unclean hands, failure to exhaust alternative remedies, or lack of standing. These limits protect finality and fairness without extinguishing constitutional review.",
+    "glance": "Identify the alleged administrative wrong; test delay, alternative remedy, standing and conduct of the applicant; state the consequence for maintainability or relief.",
+    "study": "Judicial review and administrative remedies are subject to established limits. Unexplained delay may bar relief; availability of an adequate alternative remedy may lead the court to decline writ jurisdiction; lack of standing or unclean hands may defeat the claim. These doctrines do not oust constitutional jurisdiction but regulate its exercise. Current-law framing: apply the limits as discretionary constraints on relief, not as absolute bars to constitutional power.",
+    "sections": [
+      {"heading": "Delay and Laches", "body": "Unexplained delay may lead the court to refuse discretionary relief even where a legal defect is shown.", "order": 1},
+      {"heading": "Alternative Remedy", "body": "Where an adequate statutory alternative exists, courts may decline writ jurisdiction unless exceptional circumstances are shown.", "order": 2},
+      {"heading": "Standing", "body": "The applicant must have a sufficient interest; public-interest litigation has relaxed but not abolished standing requirements.", "order": 3},
+      {"heading": "Conduct of the Applicant", "body": "Unclean hands, suppression of facts or acquiescence may affect the grant of equitable or discretionary relief.", "order": 4}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Delayed challenge", "body": "A person challenges a licensing decision years after it was communicated, without explanation. Delay may bar discretionary relief.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Unexhausted appeal", "body": "A statute provides a specialised appeal. The applicant approaches the High Court directly without exhausting it. Alternative-remedy principles may lead the court to decline interference.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Does delay always defeat a fundamental-rights claim?", "analysis": "Not automatically. Courts weigh the nature of the right, the explanation for delay and the prejudice to third parties."},
+      {"question": "Is alternative remedy an absolute bar?", "analysis": "No. It is a rule of practice; exceptional circumstances (e.g., patent lack of jurisdiction, breach of natural justice) may justify direct writ intervention."}
+    ],
+    "distinctions": [
+      {"id": "admin-cf-delay-vs-limitation", "title": "Delay/laches vs statutory limitation", "left": "Discretionary bar to equitable/writ relief", "right": "Statutory time-bar extinguishing the claim", "rows": [{"point": "Focus", "left": "Discretion", "right": "Statutory extinction"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-cf-trap-1", "trap": "Any delay bars all constitutional relief.", "correction": "Delay is a discretionary factor; the nature of the right and explanation matter."},
+      {"id": "admin-cf-trap-2", "trap": "Alternative remedy always ousts writ jurisdiction.", "correction": "It is a rule of practice with recognised exceptions."}
+    ],
+    "cases": [
+      {"name": "Tata Cellular v Union of India", "year": 1994, "citation": "(1994) 6 SCC 651", "court": "Supreme Court of India", "facts": "Judicial review of administrative action.", "issue": "Scope and limits of review.", "ratioDecidendi": "Courts review legality within established supervisory limits.", "holding": "Review standards applied.", "relevance": "Framework for discretionary limits on relief.", "judgmentId": "judgment:india:tata-cellular-v-union-of-india-1994"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-cf-brief", "draftingCategory": "brief", "question": "How should a citizen-faults problem be analysed?", "answer": "I. Identify the wrong and the remedy sought. II. Test delay, alternative remedy, standing and conduct. III. State the consequence for maintainability or relief. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-cf-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Explanation of delay if any; alternative-remedy analysis; standing; clean-hands position; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution Article 226", "Parent statute’s appeal/revision provisions", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Treat delay and alternative remedy as discretionary factors.", "State the exceptions to alternative-remedy practice.", "Do not treat them as absolute ousters of constitutional power."],
+    "revisionPoints": ["Delay and laches", "Alternative remedy", "Standing", "Conduct of the applicant"],
+    "relatedJudgments": ["judgment:india:tata-cellular-v-union-of-india-1994"],
+    "relatedTopics": ["admin-judicial-review", "admin-writ-remedies", "admin-discretion"],
+    "illustrations": ["illustration:india:admin-admin-admin-citizen-faults-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-citizen-faults",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["State the principal limits on administrative and writ relief.", "Apply delay and alternative-remedy principles.", "Distinguish discretionary bars from absolute ousters."],
+      "definition": "Citizen faults — delay, alternative remedy, standing and conduct — may limit discretionary relief against public authorities without extinguishing constitutional jurisdiction.",
+      "legalPrinciple": "Relief is discretionary; unexplained delay, adequate alternative remedies and unclean hands may lead courts to refuse intervention.",
+      "statutoryFramework": "Constitution Article 226; parent statute appeal provisions.",
+      "essentialIngredients": ["Wrong identified", "Limit tested", "Consequence for relief stated"],
+      "detailedExplanation": "Discretionary limits protect finality while preserving constitutional review power.",
+      "examples": ["Delayed challenge", "Unexhausted appeal"],
+      "problemApplication": "Test each limit; state maintainability consequence.",
+      "keyTakeaways": ["Delay is discretionary.", "Alternative remedy is a practice rule with exceptions.", "Constitutional power is not ousted."],
+      "authoritativeSources": ["Constitution Article 226", "Tata Cellular (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Delay/laches vs statutory limitation"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Tata Cellular v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "List limits; apply one; conclude.", "sixteenMark": "Introduction; each limit; exceptions; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:25:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-cfaults-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:25:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "citizen-faults", "delay", "alternative-remedy"]
+}

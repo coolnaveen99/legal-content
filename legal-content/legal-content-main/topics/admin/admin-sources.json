@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-sources",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Sources of Administrative Law",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "The sources of administrative law in India are the Constitution, statutes, delegated legislation, judicial decisions, and to a limited extent customary and comparative materials. The Constitution is the supreme source; statutes create and limit administrative power; courts develop the controlling doctrines.",
+    "glance": "List the principal sources (Constitution, statutes, subordinate legislation, case law); rank them; apply the hierarchy to the problem.",
+    "study": "Administrative law is not a single code. Its content is drawn from constitutional provisions (especially fundamental rights and judicial review), primary legislation creating authorities and powers, subordinate legislation made under those statutes, and the body of Supreme Court and High Court decisions that articulate doctrines such as natural justice, ultra vires, proportionality and legitimate expectation. Comparative and textbook materials are persuasive only. Current-law framing: always begin with the Constitution and the parent statute. Do not treat BSA 2023 as a source of administrative-law doctrine.",
+    "sections": [
+      {"heading": "Constitution", "body": "Supreme source: Articles 14, 19, 21, 32, 136, 226, 227, 323A/323B and the basic-structure constraints on power.", "order": 1},
+      {"heading": "Primary Legislation", "body": "Statutes create authorities, confer powers, prescribe procedures and provide remedies.", "order": 2},
+      {"heading": "Delegated Legislation", "body": "Rules, regulations, notifications and bye-laws made under statutory authority, subject to the parent Act and the Constitution.", "order": 3},
+      {"heading": "Judicial Decisions", "body": "Supreme Court and High Court decisions develop and apply controlling doctrines.", "order": 4},
+      {"heading": "Other Materials", "body": "Custom, comparative law and academic writing are secondary and persuasive only.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"}
+    ],
+    "examples": [
+      {"title": "Hierarchy in practice", "body": "A rule framed under a statute conflicts with Article 14. The Constitution prevails; the rule is ultra vires.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Statute and doctrine", "body": "A licensing statute is silent on hearing. Judicial decisions on natural justice supply the procedural content unless the statute clearly excludes it.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Can delegated legislation override a constitutional guarantee?", "analysis": "No. The Constitution is supreme; subordinate legislation inconsistent with it is void."},
+      {"question": "Are textbooks a source of law?", "analysis": "They are secondary materials only; the binding sources are the Constitution, statutes and binding judicial decisions."}
+    ],
+    "distinctions": [
+      {"id": "admin-src-primary-vs-secondary", "title": "Primary vs secondary sources", "left": "Constitution, statutes, binding judgments", "right": "Textbooks, comparative materials, soft law", "rows": [{"point": "Focus", "left": "Binding", "right": "Persuasive only"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-src-trap-1", "trap": "Administrative law is purely case-law.", "correction": "The Constitution and statutes are primary; case law develops doctrines within that framework."},
+      {"id": "admin-src-trap-2", "trap": "Delegated legislation ranks equally with the Constitution.", "correction": "Delegated legislation is subordinate to both the parent statute and the Constitution."}
+    ],
+    "cases": [
+      {"name": "Kesavananda Bharati v State of Kerala", "year": 1973, "citation": "(1973) 4 SCC 225", "court": "Supreme Court of India", "facts": "Constitutional amendments and basic structure.", "issue": "Limits on amending power.", "ratioDecidendi": "The Constitution has a basic structure that cannot be destroyed.", "holding": "Basic-structure doctrine established.", "relevance": "Constitutional supremacy as the ultimate source constraint.", "judgmentId": "judgment:india:kesavananda-bharati-v-state-of-kerala-1973"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-src-brief", "draftingCategory": "brief", "question": "How should a sources problem be analysed?", "answer": "I. List applicable sources. II. Rank them. III. Apply the hierarchy to the instrument or decision. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-src-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Constitutional provisions; parent statute; relevant subordinate instrument; binding authorities; precise relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution of India", "Parent administrative statute", "Relevant rules/notifications", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Always start with the Constitution.", "Rank sources before applying them.", "Distinguish binding from persuasive materials."],
+    "revisionPoints": ["Constitution", "Primary legislation", "Delegated legislation", "Judicial decisions", "Other materials"],
+    "relatedJudgments": ["judgment:india:kesavananda-bharati-v-state-of-kerala-1973"],
+    "relatedTopics": ["admin-introduction", "admin-constitutional-foundations", "admin-delegated-legislation"],
+    "illustrations": ["illustration:india:admin-admin-admin-sources-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-sources",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["List the principal sources of administrative law.", "Rank them in a hierarchy.", "Apply the hierarchy to a concrete instrument."],
+      "definition": "The sources of Indian administrative law are the Constitution, statutes, delegated legislation and judicial decisions.",
+      "legalPrinciple": "The Constitution is supreme; statutes create power; delegated legislation is subordinate; judicial decisions develop controlling doctrines.",
+      "statutoryFramework": "Constitution of India; parent administrative statutes.",
+      "essentialIngredients": ["Sources identified", "Hierarchy applied", "Instrument tested against superior sources"],
+      "detailedExplanation": "Administrative law draws on multiple sources ranked by constitutional hierarchy.",
+      "examples": ["Hierarchy in practice", "Statute and doctrine"],
+      "problemApplication": "List sources; rank; apply to the instrument or decision.",
+      "keyTakeaways": ["Constitution is supreme.", "Statutes create and limit power.", "Delegated legislation is subordinate.", "Case law develops doctrines."],
+      "authoritativeSources": ["Constitution of India", "Kesavananda Bharati (already in file)"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Primary vs secondary sources"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["Kesavananda Bharati v State of Kerala"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "List sources; rank; apply; conclude.", "sixteenMark": "Introduction; each source; hierarchy; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-src-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:05:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "sources"]
+}

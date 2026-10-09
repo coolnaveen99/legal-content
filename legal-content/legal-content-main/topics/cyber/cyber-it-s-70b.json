@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:cyber-cyber-it-s-70b",
+  "version": 1,
+  "status": "verification_in_progress",
+  "title": "Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Indian Computer Emergency Response Team as national agency for incident response under Information Technology Act, 2000 — section 70B. Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions. Analyse the protected interest, statutory conditions, actor, mental element, exceptions, evidence and consequence separately.",
+    "glance": "Indian Computer Emergency Response Team as national agency for incident response under Information Technology Act, 2000 — section 70B. Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions. Analyse the protected interest, statutory conditions, actor, mental element, exceptions, evidence and consequence separately.",
+    "study": "Statutory rule\nSection 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.\n\nElement-by-element analysis\nIdentify the protected interest, qualifying information/system/function, source of the actor's access, required intent/knowledge and the statutory condition that makes the conduct punishable or regulates the institution.\n\nOperational and procedural setting\nIdentify the relevant Government/CERT-In/nodal authority or service relationship, applicable directions/rules and the documentary trail. Do not infer liability solely from possession or access.\n\nEvidence\nMap records, logs, notices, contracts, authorisations and communications to each ingredient. Apply BSA 2023 s. 63 where an electronic record is tendered, while separately analysing attribution and weight.\n\nBoundary\nDistinguish confidentiality offences from unauthorised-access/damage provisions, regulatory directions and contractual remedies. Cumulative liability requires independent statutory ingredients.\n\nCurrent-law caution\nUse the law and rules applicable on the relevant date and do not revive struck-down section 66A.",
+    "sections": [
+      {
+        "heading": "Protected interest and statutory function",
+        "body": "Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.",
+        "order": 1
+      },
+      {
+        "heading": "Ingredients, actor and mental element",
+        "body": "Identify every qualifying circumstance, act, status and mental element. State exactly what must be proved and what fact would defeat the element.",
+        "order": 2
+      },
+      {
+        "heading": "Institutional/procedural framework",
+        "body": "Identify the competent authority, designation, direction, contract or statutory source and the records that establish the legal relationship.",
+        "order": 3
+      },
+      {
+        "heading": "Electronic evidence and attribution",
+        "body": "Preserve logs, access records, communications, system records and contracts. Apply BSA 2023 s. 63 where applicable and separately prove authorship, access and intent.",
+        "order": 4
+      },
+      {
+        "heading": "Defences, overlap and remedy",
+        "body": "Test consent, authority, statutory exceptions, contractual terms, jurisdiction and limitation. Distinguish civil/contractual consequences from the specific IT Act offence or regulatory function.",
+        "order": 5
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "cyber",
+        "actName": "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+        "provisionId": "cyber-cyber-it-s-70b",
+        "title": "Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B)"
+      },
+      {
+        "actId": "bsa",
+        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
+        "provisionId": "bsa-s-63",
+        "section": "s. 63",
+        "title": "Electronic records where applicable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Statutory ingredients established",
+        "body": "The record establishes the qualifying system/information/relationship, the prohibited act and the required mental element under section 70B."
+      },
+      {
+        "title": "Access without required ingredient",
+        "body": "The accused had technical access, but the evidence does not establish the statutory condition or mental element. Access alone is not enough where the provision requires more."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Whether the facts satisfy section 70B.",
+        "analysis": "Identify protected interest → statutory trigger → actor/status → act → mental element → evidence → exceptions/authority → consequence."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "cyber-70b-boundary",
+        "title": "Section 70B versus neighbouring cyber liability",
+        "left": "Section 70B: Indian Computer Emergency Response Team as national agency for incident response",
+        "right": "Unauthorised access/damage, regulatory or contractual routes",
+        "rows": [
+          {
+            "point": "Legal source",
+            "left": "Specific IT Act section and its ingredients",
+            "right": "Different statutory or contractual source"
+          },
+          {
+            "point": "Proof",
+            "left": "Every element must be independently established",
+            "right": "Evidence must satisfy the other route's elements"
+          },
+          {
+            "point": "Consequence",
+            "left": "Section-specific result",
+            "right": "Separate remedy or offence"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "70B-trap-1",
+        "trap": "Treating technical access or possession as automatic proof of the statutory offence.",
+        "correction": "Prove the qualifying circumstance and mental element required by the section."
+      },
+      {
+        "id": "70B-trap-2",
+        "trap": "Treating a confidentiality obligation and an IT Act offence as interchangeable.",
+        "correction": "Identify the precise statutory source and independently test its ingredients."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Shreya Singhal v. Union of India",
+        "year": 2015,
+        "citation": "(2015) 5 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Court reviewed restrictions on online speech under the Information Technology Act.",
+        "issue": "Whether IT Act s. 66A impermissibly restricted constitutional speech.",
+        "ratioDecidendi": "Section 66A was vague and overbroad and violated Article 19(1)(a); it was not saved by Article 19(2).",
+        "holding": "Section 66A was struck down in its entirety.",
+        "relevance": "Use only as historical status; do not present s. 66A as a current offence.",
+        "judgmentId": "judgment:india:shreya-singhal-v-union-of-india-2015"
+      },
+      {
+        "name": "Anvar P.V. v. P.K. Basheer",
+        "year": 2014,
+        "citation": "(2014) 10 SCC 473",
+        "court": "Supreme Court of India",
+        "facts": "The Court examined the statutory method for proving electronic records.",
+        "issue": "Whether electronic records can be admitted without the applicable certificate route.",
+        "ratioDecidendi": "Electronic records must satisfy the special statutory proof requirements applicable to computer outputs.",
+        "holding": "The Court reaffirmed the certificate discipline for electronic evidence.",
+        "relevance": "Use with BSA s. 63 and digital-record admissibility.",
+        "judgmentId": "judgment:india:anvar-p-v-v-p-k-basheer-2014"
+      },
+      {
+        "name": "K.S. Puttaswamy v. Union of India",
+        "year": 2017,
+        "citation": "(2017) 10 SCC 1",
+        "court": "Supreme Court of India",
+        "facts": "The Constitution Bench considered privacy as a constitutional right in the digital and modern State.",
+        "issue": "Whether privacy is protected as a Fundamental Right.",
+        "ratioDecidendi": "Privacy is intrinsic to dignity, liberty and Part III, subject to legality, legitimate aim, proportionality and procedural safeguards.",
+        "holding": "Constitutional privacy was unanimously recognised.",
+        "relevance": "Use for surveillance, data protection and informational privacy.",
+        "judgmentId": "judgment:india:k-s-puttaswamy-v-union-of-india-2017"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "cyber-it-s-70b-brief",
+        "draftingCategory": "brief",
+        "question": "Structured Case Brief and legal problem assessment on Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B).",
+        "answer": "I. ISSUE AND JURISDICTION\nWhether Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B) applies to the stated facts and whether the chosen forum and remedy are maintainable.\n\nII. GOVERNING RULE\nInformation Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B) is governed by Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles. identify the date, technology, applicable IT Act provision, data regime, intermediary rule and evidence law; distinguish struck-down provisions from current offences.\n\nIII. INGREDIENT APPLICATION\nIdentify each condition, connect it to the evidence and answer the principal exception or defence. Apply BSA s. 63 to digital records where relevant and state the initial burden precisely.\n\nIV. CONCLUSION\nGrant, refuse or modify the relief only to the extent authorised by the governing law and proved record.",
+        "explanation": "IRAC chamber brief."
+      },
+      {
+        "id": "cyber-it-s-70b-submissions",
+        "draftingCategory": "submissions",
+        "question": "Comprehensive Written Submissions on Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B).",
+        "answer": "I. STATEMENT OF FACTS AND PROCEDURAL PROVENANCE\nSet out the material facts, forum, procedural stage, notices, pleadings and documents.\n\nII. STATUTORY AND DOCTRINAL SCHEME\nDeconstruct Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B) under Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles, including its purpose, conditions, exceptions and connected provisions.\n\nIII. SATISFACTION OF MANDATORY INGREDIENTS\nApply each ingredient to the record, address jurisdiction, limitation, maintainability and the opposing party's strongest objection.\n\nIV. VERIFIED AUTHORITIES\nUse the case ratios below only for the propositions they decide and distinguish contrary facts.\n\nV. EVIDENCE AND PRAYER\nAddress BSA ss. 63, 104 and 109 where relevant, then seek the precise order available from the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum.",
+        "explanation": "Senior Counsel written submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Information Technology Act, 2000, allied rules, the Digital Personal Data Protection Act, 2023 where applicable, BSA 2023 and constitutional privacy principles",
+      "Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B)",
+      "BSA s. 63 and ss. 104, 109 where relevant"
+    ],
+    "examTips": [
+      "Name the governing statute in the opening sentence.",
+      "List ingredients before applying facts.",
+      "Separate jurisdiction, limitation, admissibility and merits.",
+      "Use only verified authorities and extract the ratio relevant to the issue."
+    ],
+    "revisionPoints": [
+      "Information Technology Act s. 70B — Statutory provision (Information Technology Act s. 70B)",
+      "Mandatory ingredients and exceptions",
+      "Forum: the designated cyber-crime police and criminal court, adjudicating officer, civil court, High Court under Articles 226/227, or competent data-protection and regulatory forum",
+      "BSA electronic evidence and burden checkpoints where applicable"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [],
+    "illustrations": [],
+    "legacySubjectSlug": "cyber",
+    "legacyTopicId": "cyber-it-s-70b",
+    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "enhancement": {
+      "version": "1",
+      "status": "in-progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "Explain section 70B using its statutory ingredients.",
+        "Identify the actor, protected interest, mental element and evidence.",
+        "Distinguish statutory liability from adjacent contractual or regulatory consequences."
+      ],
+      "definition": "Indian Computer Emergency Response Team as national agency for incident response",
+      "legalPrinciple": "Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.",
+      "statutoryFramework": "Information Technology Act, 2000 — section 70B; applicable rules; BSA 2023 section 63 where applicable",
+      "essentialIngredients": [
+        "Protected interest and statutory function: Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.",
+        "Ingredients, actor and mental element: Identify every qualifying circumstance, act, status and mental element. State exactly what must be proved and what fact would defeat the element.",
+        "Institutional/procedural framework: Identify the competent authority, designation, direction, contract or statutory source and the records that establish the legal relationship.",
+        "Electronic evidence and attribution: Preserve logs, access records, communications, system records and contracts. Apply BSA 2023 s. 63 where applicable and separately prove authorship, access and intent.",
+        "Defences, overlap and remedy: Test consent, authority, statutory exceptions, contractual terms, jurisdiction and limitation. Distinguish civil/contractual consequences from the specific IT Act offence or regulatory function."
+      ],
+      "detailedExplanation": "Statutory rule\nSection 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.\n\nElement-by-element analysis\nIdentify the protected interest, qualifying information/system/function, source of the actor's access, required intent/knowledge and the statutory condition that makes the conduct punishable or regulates the institution.\n\nOperational and procedural setting\nIdentify the relevant Government/CERT-In/nodal authority or service relationship, applicable directions/rules and the documentary trail. Do not infer liability solely from possession or access.\n\nEvidence\nMap records, logs, notices, contracts, authorisations and communications to each ingredient. Apply BSA 2023 s. 63 where an electronic record is tendered, while separately analysing attribution and weight.\n\nBoundary\nDistinguish confidentiality offences from unauthorised-access/damage provisions, regulatory directions and contractual remedies. Cumulative liability requires independent statutory ingredients.\n\nCurrent-law caution\nUse the law and rules applicable on the relevant date and do not revive struck-down section 66A.",
+      "examples": [
+        {
+          "title": "Statutory ingredients established",
+          "body": "The record establishes the qualifying system/information/relationship, the prohibited act and the required mental element under section 70B."
+        },
+        {
+          "title": "Access without required ingredient",
+          "body": "The accused had technical access, but the evidence does not establish the statutory condition or mental element. Access alone is not enough where the provision requires more."
+        }
+      ],
+      "problemApplication": "Identify protected interest → statutory trigger → actor/status → act → mental element → evidence → exceptions/authority → consequence.",
+      "keyTakeaways": [
+        "Section 70B establishes CERT-In as the national agency for cyber-incident response and specifies its statutory functions, including information collection, alerts, coordination, advisories and other incident-response functions.",
+        "Access/possession alone is not necessarily enough.",
+        "Separate proof of the digital record from proof of the legal element."
+      ],
+      "authoritativeSources": [
+        "Information Technology Act, 2000 — official statutory text; current-law verification required before publication."
+      ],
+      "verification": {
+        "lastVerifiedAt": null,
+        "verifiedBy": null,
+        "notes": [
+          "Substantive topic-specific enhancement completed; statutory/current-law and case-law publication gates remain open."
+        ]
+      },
+      "distinctions": [
+        {
+          "id": "cyber-70b-boundary",
+          "title": "Section 70B versus neighbouring cyber liability",
+          "left": "Section 70B: Indian Computer Emergency Response Team as national agency for incident response",
+          "right": "Unauthorised access/damage, regulatory or contractual routes",
+          "rows": [
+            {
+              "point": "Legal source",
+              "left": "Specific IT Act section and its ingredients",
+              "right": "Different statutory or contractual source"
+            },
+            {
+              "point": "Proof",
+              "left": "Every element must be independently established",
+              "right": "Evidence must satisfy the other route's elements"
+            },
+            {
+              "point": "Consequence",
+              "left": "Section-specific result",
+              "right": "Separate remedy or offence"
+            }
+          ]
+        }
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "not-opened",
+      "examAnswerStructure": "Issue → statutory rule → protected interest/trigger → actor and mental element → evidence → exceptions → consequence."
+    },
+    "status": "verification_in_progress",
+    "updatedAt": "2026-10-08T00:00:00.000Z"
+  },
+  "sources": [
+    "source:india:india-code-it-2000"
+  ],
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "legacy-migration",
+    "review-required",
+    "cyber"
+  ]
+}

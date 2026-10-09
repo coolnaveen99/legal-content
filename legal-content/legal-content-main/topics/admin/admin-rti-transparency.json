@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-rti-transparency",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Right to Information and Administrative Transparency",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "The right to information is a statutory and constitutional dimension of administrative transparency. The Right to Information Act, 2005 creates enforceable access to information held by public authorities, subject to defined exemptions. Transparency supports accountability and informed participation in governance.",
+    "glance": "Identify the public authority and the information sought; test whether an exemption applies; apply the public-interest override where relevant; and follow the statutory request and appeal route.",
+    "study": "Transparency is both a governance value and a legal regime. The RTI Act obliges public authorities to disclose information on request and proactively, subject to exemptions such as national security, personal privacy and fiduciary confidentiality. The public-interest override may require disclosure even of exempt information in appropriate cases. Appeals lie to departmental appellate authorities and Information Commissions. Constitutional free-speech values inform interpretation but the Act remains the primary statutory framework. Current-law framing: ground the analysis in the RTI Act and the Constitution. Do not treat BSA 2023 as the source of RTI doctrine.",
+    "sections": [
+      {"heading": "Transparency as a Governance Value", "body": "Openness in administration supports accountability, reduces arbitrariness and enables citizen participation.", "order": 1},
+      {"heading": "RTI Act Framework", "body": "The Act defines public authorities, the right to information, exemptions and the institutional machinery of Information Commissions.", "order": 2},
+      {"heading": "Exemptions and Public Interest", "body": "Exemptions are specific and must be construed carefully. Public interest may justify disclosure of otherwise exempt material.", "order": 3},
+      {"heading": "Procedure and Appeals", "body": "Requests, fees, timelines, first appeals and second appeals to Information Commissions structure enforcement.", "order": 4},
+      {"heading": "Limits", "body": "RTI is not a substitute for discovery in pending litigation or a tool to harass; exemptions and process limits apply.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "rti", "actName": "Right to Information Act, 2005", "provisionId": "rti-s-3", "section": "s. 3", "title": "Right to information"},
+      {"actId": "rti", "actName": "Right to Information Act, 2005", "provisionId": "rti-s-8", "section": "s. 8", "title": "Exemption from disclosure"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-19", "section": "Article 19(1)(a)", "title": "Freedom of speech and expression (informational dimension)"}
+    ],
+    "examples": [
+      {"title": "Ordinary information request", "body": "A citizen seeks copies of policy guidelines held by a public authority. Unless an exemption applies, disclosure follows the Act.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Personal information claim", "body": "A request seeks personal information of a public servant. Exemption analysis under the Act is fact-specific; official information is not automatically personal.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Must every document of a public authority be disclosed?", "analysis": "No. Exemptions under the Act protect specified interests."},
+      {"question": "Is personal information of public servants always exempt?", "analysis": "Exemption analysis is fact-specific; official information is not automatically personal."}
+    ],
+    "distinctions": [
+      {"id": "admin-rti-vs-discovery", "title": "RTI disclosure vs discovery in litigation", "left": "Statutory information-access regime against public authorities", "right": "Procedural discovery between parties in a pending case", "rows": [{"point": "Focus", "left": "Public-law access", "right": "Inter-party litigation procedure"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-rti-trap-1", "trap": "Every document of a public authority must be disclosed.", "correction": "Exemptions under the Act protect specified interests."},
+      {"id": "admin-rti-trap-2", "trap": "Personal information of public servants is always exempt.", "correction": "Exemption analysis is fact-specific; official information is not automatically personal."}
+    ],
+    "cases": [
+      {"name": "CBSE v Aditya Bandopadhyay", "year": 2011, "citation": "(2011) 8 SCC 497", "court": "Supreme Court of India", "facts": "Access to evaluated answer-books under the information-law framework.", "issue": "Scope of the right to access information in the examination context.", "ratioDecidendi": "The Court examined the statutory information-access framework and the balance between transparency and other interests.", "holding": "The Court applied the governing standards to the information-access claim.", "relevance": "Authority already present in the topic file.", "judgmentId": "judgment:india:cbse-v-aditya-bandopadhyay-2011"},
+      {"name": "Girish Ramchandra Deshpande v CIC", "year": 2013, "citation": "(2013) 1 SCC 212", "court": "Supreme Court of India", "facts": "Request for personal information of a public servant.", "issue": "When is personal information exempt from disclosure?", "ratioDecidendi": "The Court examined statutory exemptions relating to personal information.", "holding": "The Court applied the exemption framework to the request.", "relevance": "Authority already present in the topic file.", "judgmentId": "judgment:india:girish-ramchandra-deshpande-v-cic-2013"},
+      {"name": "CPIO v Subhash Chandra Agarwal", "year": 2019, "citation": "(2020) 5 SCC 481", "court": "Supreme Court of India", "facts": "Disclosure claims involving high constitutional offices.", "issue": "How to balance transparency with competing institutional interests?", "ratioDecidendi": "The Court examined the statutory and constitutional balance between access and competing interests.", "holding": "The Court applied that balancing framework.", "relevance": "Authority already present in the topic file.", "judgmentId": "judgment:india:cpio-v-subhash-chandra-agarwal-2019"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-rti-brief", "draftingCategory": "brief", "question": "How should an RTI problem be analysed?", "answer": "I. Identify public authority and information. II. Test exemptions. III. Apply public-interest override if relevant. IV. Follow statutory appeal route.", "explanation": "IRAC."},
+      {"id": "admin-rti-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Public authority status; information sought; exemption analysis; public interest; precise disclosure or appellate relief.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Right to Information Act, 2005", "Constitution — Article 19(1)(a) informational dimension", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Name the RTI Act.", "List major exemption categories.", "Note public-interest override.", "Follow the appeal ladder."],
+    "revisionPoints": ["Transparency value", "RTI framework", "Exemptions", "Procedure and appeals", "Limits"],
+    "relatedJudgments": ["judgment:india:cbse-v-aditya-bandopadhyay-2011", "judgment:india:girish-ramchandra-deshpande-v-cic-2013", "judgment:india:cpio-v-subhash-chandra-agarwal-2019"],
+    "relatedTopics": ["admin-judicial-review", "admin-ombudsman", "admin-good-governance"],
+    "illustrations": ["illustration:india:admin-admin-admin-rti-transparency-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-rti-transparency",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Explain the RTI framework.", "Apply exemptions and public-interest override.", "Follow the statutory appeal route."],
+      "definition": "RTI is a statutory right of access to information held by public authorities, subject to defined exemptions.",
+      "legalPrinciple": "Public authorities must disclose information on request subject to exemptions; public interest may override exemptions in appropriate cases.",
+      "statutoryFramework": "Right to Information Act, 2005; Constitution Article 19(1)(a).",
+      "essentialIngredients": ["Public authority", "Information held", "Request under the Act", "Exemption analysis and public-interest override"],
+      "detailedExplanation": "Transparency is both a governance value and a legal regime.",
+      "examples": ["Ordinary information request", "Personal information claim"],
+      "problemApplication": "Identify authority, information, exemptions, public interest, appeal route.",
+      "keyTakeaways": ["RTI is statutory with constitutional underpinnings.", "Exemptions are specific.", "Public interest can override.", "Follow the appeal ladder."],
+      "authoritativeSources": ["RTI Act 2005", "Authorities already in the topic file"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["RTI disclosure vs discovery in litigation"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["CBSE v Aditya Bandopadhyay", "Girish Ramchandra Deshpande v CIC", "CPIO v Subhash Chandra Agarwal"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "State RTI right; list major exemptions; note public-interest override; conclude.", "sixteenMark": "Introduction; framework; exemptions; procedure; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T06:12:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "b1ec94703ae0fa0d",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T06:12:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "rti", "transparency", "accountability"]
+}

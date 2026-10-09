@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:ni-s-138",
+  "version": 1,
+  "status": "published",
+  "title": "Section 138 NI Act — Dishonour of cheque for insufficiency of funds",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 138 of the Negotiable Instruments Act, 1881 makes it an offence where a cheque drawn by a person on an account maintained by him with a banker, for discharge in whole or in part of a legally enforceable debt or other liability, is returned unpaid because the amount standing to the credit is insufficient or because it exceeds the arrangement with the bank. The proviso requires presentation within six months from the date of the cheque or within the period of its validity, whichever is earlier; a written demand by the payee or holder in due course within thirty days of receiving information of dishonour from the bank; and failure by the drawer to pay within fifteen days of receipt of that notice. The cause of action arises only after that fifteen-day period expires unpaid.",
+    "study": "Build the offence in order: account maintained by the drawer; cheque for a legally enforceable debt or other liability; presentation within validity; return for insufficiency or excess of arrangement; written demand within thirty days of the bank's intimation; failure to pay within fifteen days of receipt of notice. Stop if any proviso step is missing. Pair with s. 139 for the presumption, s. 141 if the drawer is a company, and s. 142 for cognizance. Cheque validity is currently shorter than the six-month statutory outer cap; confirm the bank's validity period before pleading presentation.",
+    "relatedTopics": [
+      "topic:india:ni-s-139",
+      "topic:india:ni-s-141",
+      "topic:india:ni-s-142"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "ni-act",
+    "legacyTopicId": "s-138",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the s. 138 offence and the three proviso conditions.",
+        "Compute presentation, notice and the fifteen-day payment window.",
+        "Separate the offence from the s. 139 presumption, s. 141 company liability and s. 142 cognizance."
+      ],
+      "definition": "Section 138 penalises dishonour of a cheque issued for a legally enforceable debt or other liability, after presentation, written notice and failure to pay within fifteen days.",
+      "legalPrinciple": "The offence is complete only when the statutory sequence ends with non-payment. A dishonour memo alone is not the offence. The debt or liability must be legally enforceable.",
+      "statutoryFramework": "Negotiable Instruments Act, 1881, s. 138 and its proviso; presumption in s. 139; company liability in s. 141; cognizance in s. 142. Presentation is within six months or the cheque's validity, whichever is earlier.",
+      "essentialIngredients": [
+        "Cheque drawn on an account maintained by the drawer",
+        "Issued for discharge in whole or in part of a debt or other liability",
+        "Debt or liability legally enforceable",
+        "Presented within six months or validity, whichever is earlier",
+        "Returned unpaid for insufficiency of funds or excess of arrangement",
+        "Written demand within thirty days of receiving bank information",
+        "Drawer fails to pay within fifteen days of receipt of notice"
+      ],
+      "detailedExplanation": "Section 138 is a sequence, not a single event. The cheque must be drawn by the account-holder for a legally enforceable debt or other liability. Return must be for insufficiency or because the cheque exceeds the arrangement; a return for a different bank reason must be matched to those statutory words before the offence is pleaded. Proviso (a) fixes presentation at six months from the date of the cheque or the period of validity, whichever is earlier. Proviso (b) requires the payee or holder in due course to demand the amount in writing within thirty days of receiving information from the bank. Proviso (c) gives the drawer fifteen days from receipt of that notice to pay. Only non-payment at the end of those fifteen days completes the offence and starts the s. 142 limitation. Notice must reach the drawer; a notice sent to a wrong address is a proof problem, not an automatic offence. The section does not itself decide territorial jurisdiction or company attribution.",
+      "examples": [
+        "A cheque for an existing loan is presented within validity, returned for funds insufficient, and remains unpaid fifteen days after a written demand served within thirty days of the return memo.",
+        "The cheque is returned 'signature differs'. The statutory return reasons are insufficiency or excess of arrangement; do not assume s. 138 applies without matching the reason.",
+        "Demand is posted on day 40 after the payee received the bank intimation. Proviso (b) is missed.",
+        "The drawer pays the cheque amount on day 10 after receiving notice. Proviso (c) is satisfied and the offence does not mature."
+      ],
+      "problemApplication": "List the seven ingredients in date order. Identify presentation date, return reason, date the payee received bank information, date of notice, date of service, and the fifteenth day. If any date fails, stop. Then send presumption to s. 139, company accused to s. 141, and the complaint forum and time to s. 142.",
+      "distinctions": [
+        "Dishonour memo vs completed s. 138 offence",
+        "Legally enforceable liability vs a time-barred or wagering debt",
+        "Section 138 ingredients vs s. 139 presumption",
+        "Section 138 drawer vs s. 141 company and officers"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "caseLawNotes": "No new case citation or ratio was added. Existing published notes were preserved. Identity, citation and ratio of any cheque-dishonour authority remain a separate evidence-backed gate.",
+      "shortAnswerStructure": "Define s. 138; list presentation, thirty-day notice and fifteen-day non-payment; state that the offence matures only after non-payment.",
+      "tenMarkStructure": "Debt or liability → presentation and return reason → notice → fifteen days → cause of action → one failed-step illustration.",
+      "sixteenMarkStructure": "Statutory sequence → each proviso → legally enforceable liability → return reasons → notice and service → cause of action → links to ss. 139, 141 and 142 → facts → conclusion.",
+      "examAnswerStructure": {
+        "short": "Define s. 138; list presentation, thirty-day notice and fifteen-day non-payment; state that the offence matures only after non-payment.",
+        "tenMark": "Debt or liability → presentation and return reason → notice → fifteen days → cause of action → one failed-step illustration.",
+        "sixteenMark": "Statutory sequence → each proviso → legally enforceable liability → return reasons → notice and service → cause of action → links to ss. 139, 141 and 142 → facts → conclusion."
+      },
+      "keyTakeaways": [
+        "The offence is the whole proviso sequence, not the return memo alone.",
+        "Presentation is six months or validity, whichever is earlier.",
+        "Written demand must be within thirty days of bank information.",
+        "Fifteen days to pay run from receipt of notice.",
+        "Cognizance and company liability are separate sections."
+      ],
+      "authoritativeSources": [
+        "Negotiable Instruments Act, 1881, section 138",
+        "source:india:india-code-ni-1881"
+      ],
+      "currentLawStatus": "verification_required",
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Statutory sequence of s. 138 preserved from the published note and expanded. Current cheque-validity period shorter than six months is flagged for bank/RBI verification and is not given a circular number here. No new case citations.",
+        "date": "2026-10-08"
+      },
+      "lastBotRunAt": "2026-10-08T07:25:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ni-s138-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    }
+  },
+  "sources": [
+    "source:india:india-code-ni-1881"
+  ],
+  "updatedAt": "2026-10-08",
+  "effectiveFrom": "1882-03-01",
+  "effectiveTo": null
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:k-s-puttaswamy-v-union-of-india-2017",
+  "version": 1,
+  "status": "review",
+  "title": "K.S. Puttaswamy v. Union of India",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "K.S. Puttaswamy v. Union of India, (2017) 10 SCC 1",
+    "court": "Supreme Court of India",
+    "decisionYear": 2017,
+    "citation": "(2017) 10 SCC 1",
+    "facts": "The Constitution Bench considered privacy as a constitutional right in the digital and modern State.",
+    "questionsBeforeCourt": [
+      "Whether privacy is protected as a Fundamental Right."
+    ],
+    "ratioDecidendi": "Privacy is intrinsic to dignity, liberty and Part III, subject to legality, legitimate aim, proportionality and procedural safeguards.",
+    "holding": "Constitutional privacy was unanimously recognised.",
+    "relevance": "Use for surveillance, data protection and informational privacy.",
+    "sourceTopics": [
+      "topics/cyber/cyber-it-s-10a.json",
+      "topics/cyber/cyber-it-s-2.json",
+      "topics/cyber/cyber-it-s-4.json",
+      "topics/cyber/cyber-it-s-43.json",
+      "topics/cyber/cyber-it-s-43a.json",
+      "topics/cyber/cyber-it-s-65.json",
+      "topics/cyber/cyber-it-s-66.json",
+      "topics/cyber/cyber-it-s-66a.json",
+      "topics/cyber/cyber-it-s-66e.json",
+      "topics/cyber/cyber-it-s-67.json",
+      "topics/cyber/cyber-it-s-69.json",
+      "topics/cyber/cyber-it-s-79.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:46:31.732Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://api.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_24-Aug-2017.pdf",
+        "note": "9-Judge Constitution Bench judgment in Writ Petition (Civil) No. 494 of 2012; 2017 INSC 777; (2017) 10 SCC 1."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 12,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

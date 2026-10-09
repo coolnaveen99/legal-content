@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "v1",
+  "phase": "Phase 13 — Final Acceptance Readiness Audit",
+  "generatedAt": "2026-10-08T17:40:32.633Z",
+  "policy": [
+    "This is a readiness audit, not a legal-content certification.",
+    "Manual legal review remains required where prior phases explicitly identify it.",
+    "No judgment, topic, source, or other entity is promoted automatically by this phase."
+  ],
+  "summary": {
+    "gatesAudited": 6,
+    "passed": 5,
+    "blockingGates": 1,
+    "readyForFinalAcceptance": false
+  },
+  "records": [
+    {
+      "gate": "Automated CI",
+      "status": "pass",
+      "evidence": "validate-content and validate workflows are green on the current main commit."
+    },
+    {
+      "gate": "Phase 12 judgment completeness",
+      "status": "pass",
+      "evidence": {
+        "priority1Audited": 10,
+        "complete": 10,
+        "stillIncomplete": 0
+      }
+    },
+    {
+      "gate": "Phase 10 authoritative judgment verification",
+      "status": "manual-review-required",
+      "evidence": {
+        "judgmentsAudited": 435,
+        "verified": 126,
+        "pending": 309
+      }
+    },
+    {
+      "gate": "Phase 11 proposition review",
+      "status": "pass",
+      "evidence": {
+        "judgmentsAudited": 10,
+        "directOriginal": 4,
+        "officialCorroboration": 6,
+        "pendingManualReview": 0,
+        "completionRecord": "Phase 11 proposition review complete for the 10 Priority-1 review set as recorded in FINAL-COMPLETION-RECORD.md"
+      }
+    },
+    {
+      "gate": "Production acceptance",
+      "status": "pass",
+      "evidence": {
+        "pendingMarkers": 0,
+        "source": "docs/PRODUCTION-ACCEPTANCE.md"
+      }
+    },
+    {
+      "gate": "Checklist completion",
+      "status": "pass",
+      "evidence": {
+        "uncheckedItems": 0,
+        "completionRecord": "docs/FINAL-COMPLETION-RECORD.md"
+      }
+    }
+  ],
+  "manualReviewQueue": [
+    "- [ ] Refresh CI evidence when GitHub workflow/status data becomes available",
+    "- [ ] Make an explicit PA-004 legacy-removal decision before any legacy-content deletion"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:admin-admin-constitutional-foundations",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Constitutional Foundations of Administrative Law",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Indian administrative law rests on constitutional foundations: the rule of law, separation of powers (in a diluted form), fundamental rights (especially Articles 14, 19 and 21), and the judicial-review jurisdiction of the Supreme Court and High Courts.",
+    "glance": "Identify the constitutional anchors (rule of law, fundamental rights, judicial review, Articles 323A/323B); apply them to the administrative action under challenge.",
+    "study": "Unlike systems that developed administrative law primarily through ordinary legislation and common-law review, Indian administrative law is constitutionally entrenched. Article 14 supplies the non-arbitrariness standard; Articles 19 and 21 protect liberty and livelihood interests affected by administrative action; Articles 32 and 226 provide the writ jurisdiction that makes review effective; Articles 323A and 323B authorise tribunals subject to the basic-structure limits recognised in L. Chandra Kumar. Current-law framing: ground every administrative-law analysis in these constitutional provisions.",
+    "sections": [
+      {"heading": "Rule of Law", "body": "Public power must be authorised by law and exercised without arbitrariness.", "order": 1},
+      {"heading": "Fundamental Rights", "body": "Articles 14, 19 and 21 constrain administrative action affecting equality, freedoms and life/liberty.", "order": 2},
+      {"heading": "Judicial Review", "body": "Articles 32, 136, 226 and 227 secure the supervisory jurisdiction of constitutional courts.", "order": 3},
+      {"heading": "Tribunals and Basic Structure", "body": "Articles 323A/323B permit specialised adjudication subject to independence and residual High Court review.", "order": 4},
+      {"heading": "Separation of Powers (Indian Adaptation)", "body": "Indian constitutionalism accepts functional overlap but polices concentration of power and protects judicial independence.", "order": 5}
+    ],
+    "provisions": [
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-14", "section": "Article 14", "title": "Equality and non-arbitrariness"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-21", "section": "Article 21", "title": "Life and personal liberty"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-226", "section": "Article 226", "title": "High Court judicial review"},
+      {"actId": "constitution", "actName": "Constitution of India", "provisionId": "constitution-art-323a", "section": "Article 323A", "title": "Administrative tribunals"}
+    ],
+    "examples": [
+      {"title": "Arbitrary licensing refusal", "body": "An authority refuses a licence without reasons or standards. Article 14 non-arbitrariness and judicial review under Article 226 supply the constitutional foundation for challenge.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Tribunal ouster clause", "body": "A statute excludes High Court review of tribunal decisions. L. Chandra Kumar and the basic-structure doctrine render the ouster ineffective.", "kind": "hypothetical", "inventedCase": false}
+    ],
+    "hypotheticals": [
+      {"question": "Can ordinary legislation override Article 14 constraints on administrative action?", "analysis": "No. Fundamental rights bind the State; administrative action inconsistent with Article 14 is unconstitutional."},
+      {"question": "Is separation of powers rigid in India?", "analysis": "No. Indian constitutionalism accepts functional overlap while protecting core judicial and legislative functions."}
+    ],
+    "distinctions": [
+      {"id": "admin-cf-vs-ordinary", "title": "Constitutional foundations vs ordinary administrative rules", "left": "Entrenched rights and review jurisdiction", "right": "Statutory procedures and delegated norms", "rows": [{"point": "Focus", "left": "Constitutional supremacy", "right": "Statutory detail"}]}
+    ],
+    "misconceptions": [
+      {"id": "admin-cf-trap-1", "trap": "Administrative law is independent of the Constitution.", "correction": "Indian administrative law is constitutionally anchored in fundamental rights and judicial review."},
+      {"id": "admin-cf-trap-2", "trap": "Tribunal clauses can fully oust High Court review.", "correction": "High Court review under Articles 226/227 is part of the basic structure."}
+    ],
+    "cases": [
+      {"name": "L. Chandra Kumar v Union of India", "year": 1997, "citation": "(1997) 3 SCC 261", "court": "Supreme Court of India", "facts": "Constitutional position of administrative tribunals.", "issue": "Whether tribunal decisions can exclude High Court judicial review.", "ratioDecidendi": "High Court judicial review under Articles 226/227 is part of the basic structure.", "holding": "Tribunal model affirmed subject to constitutional supervision.", "relevance": "Foundational authority on constitutional limits of tribunal design.", "judgmentId": "judgment:india:l-chandra-kumar-v-union-of-india-1997"},
+      {"name": "Maneka Gandhi v Union of India", "year": 1978, "citation": "(1978) 1 SCC 248", "court": "Supreme Court of India", "facts": "Passport impoundment and Article 21 procedure.", "issue": "Content of procedure established by law under Article 21.", "ratioDecidendi": "Procedure affecting life and liberty must be fair, just and reasonable.", "holding": "Article 21 procedural content expanded.", "relevance": "Constitutional foundation for fairness in administrative action affecting liberty.", "judgmentId": "judgment:india:maneka-gandhi-v-union-of-india-1978"}
+    ],
+    "questionsAndAnswers": [
+      {"id": "admin-cf-brief", "draftingCategory": "brief", "question": "How should a constitutional-foundations problem be analysed?", "answer": "I. Identify the administrative action. II. Map the applicable constitutional anchors (Arts 14/19/21/226/323A). III. Apply the relevant doctrine. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "admin-cf-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Constitutional provisions engaged; administrative action identified; doctrine applied; precise relief under Art 226/32.", "explanation": "Submissions."}
+    ],
+    "bareActPointers": ["Constitution Articles 14, 19, 21, 32, 136, 226, 227, 323A/323B", "BSA 2023 only for evidentiary issues"],
+    "examTips": ["Always name the constitutional article.", "Link doctrine to the article that supports it.", "Remember L. Chandra Kumar for tribunal review."],
+    "revisionPoints": ["Rule of law", "Fundamental rights", "Judicial review", "Tribunals and basic structure", "Separation of powers (Indian adaptation)"],
+    "relatedJudgments": ["judgment:india:l-chandra-kumar-v-union-of-india-1997", "judgment:india:maneka-gandhi-v-union-of-india-1978"],
+    "relatedTopics": ["admin-introduction", "admin-rule-of-law-constitutional", "admin-judicial-review", "admin-writ-remedies"],
+    "illustrations": ["illustration:india:admin-admin-admin-constitutional-foundations-example"],
+    "legacySubjectSlug": "admin",
+    "legacyTopicId": "admin-constitutional-foundations",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": ["Identify the constitutional anchors of administrative law.", "Apply Articles 14, 21 and 226 to administrative action.", "State the basic-structure limit on tribunal ouster."],
+      "definition": "Indian administrative law is constitutionally founded on the rule of law, fundamental rights and judicial review.",
+      "legalPrinciple": "Administrative power is subject to constitutional rights and residual judicial review that cannot be ousted.",
+      "statutoryFramework": "Constitution of India (Arts 14, 19, 21, 32, 136, 226, 227, 323A/323B).",
+      "essentialIngredients": ["Constitutional anchor identified", "Administrative action mapped", "Doctrine applied"],
+      "detailedExplanation": "The Constitution supplies the supreme standards that administrative law enforces.",
+      "examples": ["Arbitrary licensing refusal", "Tribunal ouster clause"],
+      "problemApplication": "Map action to constitutional provision; apply doctrine; state relief.",
+      "keyTakeaways": ["Constitution is the foundation.", "Article 14 non-arbitrariness is central.", "High Court review cannot be ousted.", "Tribunals operate within basic-structure limits."],
+      "authoritativeSources": ["Constitution of India", "L. Chandra Kumar", "Maneka Gandhi"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Doctrine-level content; case-law verification separate; no new citations invented.", "date": "2026-10-08"},
+      "distinctions": ["Constitutional foundations vs ordinary administrative rules"],
+      "distinctionsGate": "drawn",
+      "caseLaw": ["L. Chandra Kumar v Union of India", "Maneka Gandhi v Union of India"],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "List constitutional anchors; apply one; conclude.", "sixteenMark": "Introduction; each foundation; application; conclusion."},
+      "lastBotRunAt": "2026-10-08T07:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "admin-cf-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T07:05:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": ["admin", "constitutional-foundations"]
+}

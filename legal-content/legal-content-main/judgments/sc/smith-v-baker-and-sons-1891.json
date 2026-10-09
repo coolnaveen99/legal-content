@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:smith-v-baker-and-sons-1891",
+  "version": 1,
+  "status": "review",
+  "title": "Smith v Baker & Sons",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Smith v Baker & Sons, [1891] AC 325",
+    "court": "Leading common-law authority",
+    "decisionYear": 1891,
+    "citation": "[1891] AC 325",
+    "facts": "Knowledge of risk is not necessarily voluntary assumption of risk; an inevitable accident may excuse liability where reasonable care could not prevent the event.",
+    "questionsBeforeCourt": [
+      "What legal rule governs the doctrine?"
+    ],
+    "ratioDecidendi": "Knowledge of risk is not necessarily voluntary assumption of risk; an inevitable accident may excuse liability where reasonable care could not prevent the event.",
+    "holding": "Knowledge of risk is not necessarily voluntary assumption of risk; an inevitable accident may excuse liability where reasonable care could not prevent the event.",
+    "relevance": "Use the case for its stated ratio and apply it to the proved facts.",
+    "sourceTopics": [
+      "topics/torts/tort-general-defences.json"
+    ]
+  },
+  "sources": [],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-02T11:53:23.104Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-corrob",
+    "verificationStatus": "manual-proposition-review-required",
+    "evidence": [
+      {
+        "type": "official-corrob",
+        "url": "https://www.bailii.org/uk/cases/UKHL/1891/2.html",
+        "note": "House of Lords [1891] AC 325; landmark decision on volenti non fit injuria in employment and hazardous work."
+      }
+    ],
+    "propositionsAudited": [
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 3,
+    "missingContextFields": [],
+    "linkedTopicCount": 1,
+    "rule": "Authoritative evidence is attached as provenance. This phase does not rewrite, promote, or certify a proposition unless proposition-level legal review confirms the exact holding/ratio against the authoritative decision."
+  }
+}

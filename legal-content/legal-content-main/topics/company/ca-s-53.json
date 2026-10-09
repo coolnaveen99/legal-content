@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-53",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 53 (Prohibition on Issue of Shares at a Discount)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 53 prohibits a company from issuing shares at a discount. Any share issued by a company at a discounted price is void. Exception is made for sweat equity shares issued in accordance with section 54. Contravention attracts liability to pay the amount received with interest at a prescribed rate and penalties.",
+    "glance": "No issue of shares at a discount; discounted issue is void; sweat equity under s. 54 is the main exception; refund with interest and penalties on breach.",
+    "study": "Except as provided in section 54, a company shall not issue shares at a discount. Any share issued by a company at a discounted price shall be void. Where a company contravenes this section, the company shall be liable to pay to the person who received the shares the amount of the consideration received, with interest at a rate not less than the rate prescribed, and the company and every officer in default are liable to a penalty. Current-law framing: identify proposed or actual issue price below nominal value; apply the prohibition unless s. 54 sweat equity applies; state voidness and refund/penalty consequences.",
+    "sections": [
+      {
+        "heading": "Prohibition",
+        "body": "A company shall not issue shares at a discount, except as provided in section 54 (sweat equity).",
+        "order": 1
+      },
+      {
+        "heading": "Voidness",
+        "body": "Any share issued at a discounted price is void.",
+        "order": 2
+      },
+      {
+        "heading": "Consequences",
+        "body": "Company must pay the consideration received with prescribed interest; company and officers in default face penalties.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-53",
+        "section": "Section 53",
+        "title": "Prohibition on issue of shares at a discount"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Discounted issue void",
+        "body": "A company issues ₹10 face-value shares at ₹8. The issue is void under s. 53; consideration must be returned with interest.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Sweat equity exception",
+        "body": "Shares issued as sweat equity under s. 54 in accordance with that section fall outside the s. 53 prohibition.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a company issue shares below par to attract investors?",
+        "analysis": "No. Section 53 prohibits issue at a discount; such issue is void, subject to the sweat equity exception under s. 54."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s53-vs-s54",
+        "title": "Discount prohibition (s. 53) vs sweat equity (s. 54)",
+        "left": "General ban on discounted issues",
+        "right": "Permitted issue of sweat equity on prescribed conditions",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Prohibition",
+            "right": "Regulated exception"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s53-trap-1",
+        "trap": "Any below-par issue can be validated by shareholder approval alone.",
+        "correction": "Section 53 makes discounted issues void, subject only to the statutory sweat equity route under s. 54."
+      }
+    ],
+    "cases": [
+      {
+        "name": "Salomon v. A. Salomon & Co. Ltd.",
+        "year": 1897,
+        "citation": "[1897] AC 22",
+        "court": "House of Lords",
+        "facts": "Properly incorporated company challenged as indistinct from controller.",
+        "issue": "Effect of incorporation?",
+        "ratioDecidendi": "Registered company is a separate legal person.",
+        "holding": "Separate personality affirmed.",
+        "relevance": "Already in file; background only.",
+        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s53-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 53 problem be analysed?",
+        "answer": "I. Compare issue price to nominal value. II. Apply prohibition unless s. 54. III. State voidness and refund/penalty. IV. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s53-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Issue terms; discount analysis; s. 54 if claimed; consequences; precise relief.",
+        "explanation": "Submissions."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 53",
+      "Connected: Section 54"
+    ],
+    "examTips": [
+      "State prohibition + voidness.",
+      "Name sweat equity as the main exception.",
+      "Note refund with interest and penalties."
+    ],
+    "revisionPoints": [
+      "Prohibition",
+      "Voidness",
+      "Consequences",
+      "s. 54 exception"
+    ],
+    "relatedJudgments": [
+      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+    ],
+    "relatedTopics": [
+      "company-ca-s-54",
+      "company-ca-s-52"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-53",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "learningObjectives": [
+        "State the prohibition on issue at a discount.",
+        "Explain voidness and consequences.",
+        "Identify the sweat equity exception."
+      ],
+      "definition": "Section 53 prohibits issue of shares at a discount, renders such issue void, and provides refund and penalty consequences, subject to sweat equity under s. 54.",
+      "legalPrinciple": "Capital must not be diluted by below-par issues except through the regulated sweat equity route.",
+      "statutoryFramework": "Companies Act, 2013, Sections 53 and 54.",
+      "essentialIngredients": [
+        "Issue of shares at a price below nominal value",
+        "Not within s. 54",
+        "Issue void; refund with interest; penalties"
+      ],
+      "detailedExplanation": "Section 53 is a hard capital-maintenance rule against discounted issues.",
+      "examples": [
+        "Discounted issue void",
+        "Sweat equity exception"
+      ],
+      "problemApplication": "Compare price to par; apply voidness unless s. 54; state remedies.",
+      "keyTakeaways": [
+        "No discount issues.",
+        "Void + refund with interest.",
+        "Sweat equity is the main exception."
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013, Section 53"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-08"
+      },
+      "distinctions": [
+        "Discount prohibition (s. 53) vs sweat equity (s. 54)"
+      ],
+      "distinctionsGate": "drawn",
+      "caseLaw": [
+        "Salomon v. A. Salomon & Co. Ltd."
+      ],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Prohibition; voidness; exception; conclude.",
+        "sixteenMark": "Introduction; prohibition; consequences; s. 54; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-08T09:15:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s53-2026-10-08",
+      "exampleQuality": "topic-specific-v1"
+    },
+    "caseLawGate": "verification_required"
+  },
+  "sources": [],
+  "updatedAt": "2026-10-08T09:15:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-53",
+    "issue-at-discount"
+  ]
+}

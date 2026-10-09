@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "v1",
+  "entityType": "judgment",
+  "id": "judgment:india:addagada-raghavamma-v-anchalu-chenchamma-1964",
+  "version": 2,
+  "status": "verified",
+  "title": "Addagada Raghavamma v. Anchalu Chenchamma",
+  "jurisdiction": "India",
+  "content": {
+    "caseIdentity": "Addagada Raghavamma v. Anchalu Chenchamma, AIR 1964 SC 136",
+    "court": "Supreme Court of India",
+    "decisionYear": 1964,
+    "citation": "AIR 1964 SC 136",
+    "facts": "",
+    "questionsBeforeCourt": [],
+    "ratioDecidendi": "",
+    "holding": "Constitution Bench ruling establishing the classic distinction between burden of proof and onus of proof: the legal burden of establishing a case remains permanently on the party asserting it and never shifts, whereas the evidential onus of adducing evidence shifts from stage to stage during trial.",
+    "relevance": "The foundational locus classicus on Section 104 BSA allocation of burden.",
+    "sourceTopics": [
+      "topics/bsa/s-104.json"
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_supreme_court",
+      "url": "https://api.sci.gov.in/jonew/judis/3543.pdf",
+      "label": "Supreme Court of India authoritative judgment PDF"
+    }
+  ],
+  "verificationStatus": "verified",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "tags": [
+    "canonical-registry",
+    "review-required",
+    "phase-9"
+  ],
+  "verificationDisposition": "VERIFIED",
+  "verificationNote": "Original Supreme Court judgment inspected; official PDF identifies parties, date 09-Apr-1963, AIR 1964 SC 136 / 1964 SCR (2) 933, and the material holdings on partition, adoption, burden and onus of proof.",
+  "propositionVerification": {
+    "phase": "11",
+    "evidenceLevel": "official-primary",
+    "verificationStatus": "verified",
+    "evidence": [
+      {
+        "type": "official-primary",
+        "url": "https://api.sci.gov.in/jonew/judis/3543.pdf",
+        "note": "Original judgment inspected."
+      }
+    ],
+    "propositionsAudited": [
+      "caseIdentity",
+      "court",
+      "judgmentDate",
+      "citation",
+      "facts",
+      "ratioDecidendi",
+      "holding",
+      "relevance"
+    ],
+    "propositionCount": 8,
+    "missingContextFields": []
+  }
+}

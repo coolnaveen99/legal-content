@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "v1",
+  "gate": "FV-014",
+  "generatedAt": "2026-10-09T06:54:36.874Z",
+  "repository": "coolnaveen99/legal-content",
+  "summary": {
+    "errors": 2,
+    "warnings": 0,
+    "status": "FAIL"
+  },
+  "recovery": {
+    "immutableRefRequired": true,
+    "rewriteHistory": false,
+    "consumerAction": "point contentRef to previous known-good Git SHA",
+    "legalPublicationStatusUnchanged": true
+  },
+  "errors": [
+    "FV-013 release snapshot is FAIL",
+    "FV-013 snapshot has no gitSha"
+  ],
+  "warnings": []
+}
