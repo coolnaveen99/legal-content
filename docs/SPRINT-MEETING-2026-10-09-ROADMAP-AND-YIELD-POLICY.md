@@ -42,7 +42,7 @@ Resolve existing validation failures; run the required content/schema/preservati
 
 ### Stage F — Section-wise and subject-wise judgment enrichment
 
-After the applicable comprehensive content, current-law, validation and integration gates have passed, add and verify judgments against the relevant section/article/topic. Distinguish newly acquired judgments from verification of existing case references. Verify identity, court, date, citation, judgment text, relevant passages, holding and ratio to the extent supported by authoritative evidence.
+After the applicable comprehensive content, current-law, validation and integration gates have passed, add and verify newly acquired judgments against the relevant section/article/topic. Existing case references must still pass the current CASE_VERIFY gate before topic/subject closure; this later stage concerns fresh acquisition and coverage expansion. Distinguish new acquisition from verification of existing case references. Verify identity, court, date, citation, judgment text, relevant passages, holding and ratio to the extent supported by authoritative evidence.
 
 ### Stage G — Dedicated Supreme Court judgment coverage
 
