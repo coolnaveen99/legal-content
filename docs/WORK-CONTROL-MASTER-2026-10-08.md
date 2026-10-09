@@ -66,3 +66,11 @@ Latest evidence: docs/COMPANY-LAW-CLOSURE-AUDIT-2026-10-09.md and docs/batches/c
 Missing gate: India Code source attachment, case-law verification, 438 remaining scaffolds, SEO and production gates
 Planned change: section-specific enhancement only; no verified/published mark
 Validation: JSON structural check of upgraded files; full validate.mjs not run (dependencies absent)
+
+
+## Company Law claim — batch 2 — 2026-10-09
+Subject: Company Law
+Topic/section range: ca-s-64, 65, 69, 70, 72, 74, 75, 76, 78, 79, 80, 82, 86, 87, 88, 89, 91, 92, 96, 114, 117, 118, 124, 125, 127, 129, 134, 135, 137, 140, 141, 143, 152, 161, 165, 167, 174, 179, 180, 184, 185, 186, 197, 203, 232, 245, 271, 454
+Current status: IN_PROGRESS — not COMPLETE_LOCKED
+Latest evidence: docs/COMPANY-LAW-BATCH-2-2026-10-09.md
+Missing gate: 384 scaffolds, case-law verification, India Code source attachment, SEO and production
