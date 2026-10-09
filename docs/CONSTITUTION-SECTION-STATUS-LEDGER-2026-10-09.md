@@ -7,19 +7,16 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0** | Omitted / repealed / inoperative cluster | **SUBSTANTIALLY COMPLETE** |
-| **P1** | Part I Arts 1–4 + Citizenship 5–11 | **IN_PROGRESS** (1–4 done this commit) |
-| **P3** | Union Executive & Judiciary structural (living) | CLAIMED / pending |
+| **P0** | Omitted / repealed / inoperative cluster | **COMPLETE** |
+| **P1** | Part I Arts 1–4 + Citizenship 5–11 | **COMPLETE** |
+| **P3** | Union Executive & Judiciary structural (living) | CLAIMED / next |
 
-## P1 progress
+## P1 final
 
-| File | Notes | Status |
-|------|-------|--------|
-| art-1.json | Union of States; First Schedule; territory | Remediated |
-| art-2.json | Admission/establishment of new States | Remediated |
-| art-3.json | Formation/alteration of States; Presidential reference | Remediated |
-| art-4.json | Schedule amendments; not Art 368 amendments | Remediated |
-| art-5 … art-11 | Citizenship | Pending |
+| File | Subject | Status |
+|------|---------|--------|
+| art-1 … art-4 | Union & territory | Remediated |
+| art-5 … art-11 | Citizenship | Remediated this commit |
 
-## Rules
-VERIFY → CORRECT → STRUCTURE → ENHANCE. No invented authority. QUAL corpus-wide OPEN.
+## Next
+**P3** — Union Executive & Judiciary structural (living Arts 52–78, 124–147).
