@@ -215,3 +215,14 @@ Retrieved and inspected IndiaCode-hosted Gazette PDF copies of G.S.R. 464(E), 5 
 - Source record: `sources/companies-act-2013-private-company-meeting-exemptions.json`.
 - Canonical topics updated: `topics/company/ca-s-102.json`, `topics/company/ca-s-103.json`.
 - App mirrors updated: `src/data/topics/company/ca-s-102.ts`, `src/data/topics/company/ca-s-103.ts`.
+
+
+## S.O. 2218(E) corrigendum scope check — 2026-10-09
+
+Retrieved and inspected the IndiaCode-hosted Gazette PDF copy of the 13 July 2017 corrigendum to G.S.R. 583(E). Its operative text replaces “statement or” with “statement and” in paragraph 5, table item (ii). Read with the amended table item, this correction concerns the private-company exemption from auditor reporting under section 143(3)(i); it does not change the section 101–107/109 row in G.S.R. 464(E) or the paragraph 2A filing-default eligibility condition on the text inspected. IndiaCode expressly notes that the Department’s own PDF remains authoritative, so the direct MCA-hosted PDF and later/current notification position remain open. This resolves the previously open retrieval lead, not the full current-law/source gate.
+
+- IndiaCode instrument page: https://indiacode.ecourtsindia.com/rules/exemption-to-private-company-corrigendum-abaa50b7/
+- Gazette PDF copy: https://indiacode.ecourtsindia.com/doc/890bb7f0-bdc9-4a69-8283-8e6e0d4df3d9.pdf
+- Canonical source record: `sources/companies-act-2013-private-company-meeting-exemptions.json`.
+- Updated canonical topics and app mirrors: `ca-s-102`, `ca-s-103`.
+- Sections 100–103 remain `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; company-specific eligibility/articles, direct MCA primary copies/current-law, independent case-law, repository-wide validation, app build/E2E, SEO, production and legal sign-off remain open.
