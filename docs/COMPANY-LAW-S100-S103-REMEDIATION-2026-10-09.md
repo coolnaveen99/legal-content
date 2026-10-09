@@ -151,3 +151,13 @@ Located the official India Code-hosted Gazette PDF for the Companies (Management
 This is limited amendment-history evidence printed in the 2020 instrument. It does not establish whether any later notification after 28 August 2020 affects Rule 18, and does not make the secondary Rule 18 reproduction Gazette-primary. Section 101 remains `verification_in_progress`; the inventory gate remains `SOURCE_CHECK_REQUIRED`. No full consolidated-rule verification, legal sign-off, full repository validator, app build/E2E, SEO or production pass is claimed.
 
 - Official 2020 amendment-history source record commit: `0a19062ff8b11e1ebb575c30253a00def991e42d`.
+
+
+## Rule 18 official amendment-chain follow-up — 2026-10-09
+
+Added `sources/companies-management-administration-amendment-history-2023.json` from official Gazette notification G.S.R. 801(E), 27 October 2023. The notification's operative amendment concerns Rule 9, not Rule 18; its amendment-history note says the principal Rules were last amended by G.S.R. 44(E), 21 January 2023. Linked this limited evidence to the Rule 18 reproduction source and canonical section 101 topic, and mirrored the scope note to the app. This extends the evidence register beyond the 2020 instrument but is not a consolidated Rule 18 text, does not prove no later amendment affects Rule 18, and is not legal sign-off.
+
+- Official Gazette PDF: https://egazette.gov.in/WriteReadData/2023/249763.pdf
+- New source record: `sources/companies-management-administration-amendment-history-2023.json`.
+- Topic remains `verification_in_progress`; inventory remains `SOURCE_CHECK_REQUIRED`.
+- Focused validation required: JSON parse, source linkage, limited-scope wording, and canonical/app mirror parity. Full current-rule reconciliation, case-law review, repository-wide validator, app build/E2E, SEO and production gates remain open.
