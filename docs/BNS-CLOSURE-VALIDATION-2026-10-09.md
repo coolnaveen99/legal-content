@@ -93,3 +93,7 @@ The current-law scan has been expanded to record three introduced bill texts req
 
 The section 63–75 audit record has been updated to distinguish its 2026-10-08 baseline from later changes. Sections 63, 64, 69 and 70 now have `The legal rule` blocks, but those later-added blocks still require formal word-by-word comparison. Derived `Essential ingredients` omissions were repaired for sections 65, 66, 68 and 75 (fine-related provisos; both s. 64 sub-sections; s. 68 actor category (b); and s. 75 penalty cross-references). These targeted fixes were re-fetched and confirmed, and all affected topics remain `review`. Evidence: [updated sections 63–75 audit](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-S63-S75.md). This does not close the statutory/current-law or subject-level gates.
 
+### BNS section-file inventory presence check — 2026-10-09
+
+The live GitHub directory listing for `topics/bns` contains 368 JSON files: exactly 358 numbered section files (`s-1.json` through `s-358.json`) plus 10 non-section doctrine/topic files. A numeric check found no missing section file number in the range 1–358. This closes only the **numbered-file presence** check. It does not yet reconcile each topic to the Act's full section inventory, captions, omitted/repealed provisions, transitional treatment, source references, section status, or canonical page/SEO coverage; those remain open.
+
