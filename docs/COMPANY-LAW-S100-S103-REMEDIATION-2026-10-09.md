@@ -161,3 +161,12 @@ Added `sources/companies-management-administration-amendment-history-2023.json` 
 - New source record: `sources/companies-management-administration-amendment-history-2023.json`.
 - Topic remains `verification_in_progress`; inventory remains `SOURCE_CHECK_REQUIRED`.
 - Focused validation required: JSON parse, source linkage, limited-scope wording, and canonical/app mirror parity. Full current-rule reconciliation, case-law review, repository-wide validator, app build/E2E, SEO and production gates remain open.
+
+
+## Rule 18 amendment-chain follow-up — 2025 lead (2026-10-09)
+
+Indexed notification reproductions identify G.S.R. 358(E), dated 30 May 2025, as the Companies (Management and Administration) Amendment Rules, 2025, describing substitution of Forms MGT-7, MGT-7A and MGT-15 in the Annexure with effect from 14 July 2025. They identify G.S.R. 403(E), 15 July 2024, as the preceding amendment. The official Gazette URL has been recorded as `https://egazette.gov.in/WriteReadData/2025/263573.pdf`, but retrieval of the official PDF failed in this pass. Accordingly, this is a limited-scope amendment-chain lead, not a verified reading of the primary notification and not proof of a complete Rule 18 chain.
+
+- Source record: `sources/companies-management-administration-amendment-rules-2025.json` (review; primary-source URL identified, text not independently retrieved).
+- Rule 18 register and section 101 topic now link the record; app mirror and inventory note the limitation.
+- Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Full consolidated Rule 18, later amendment review, case-law review, repository validation, app build/E2E, SEO and production gates remain open.
