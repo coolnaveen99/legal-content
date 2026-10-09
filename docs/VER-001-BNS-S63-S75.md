@@ -160,3 +160,10 @@ The audit is not a full statutory reconciliation. The official India Code BNS te
 Continued the targeted recursive scan across s. 106–180. The selected pattern scan found no malformed split-subsection/clause references, duplicate subsection-label pattern, or undefined-value markers in s. 106–138, s. 145–150, and s. 151–180. It found duplicate subsection labels in the generated hypothetical extracts for s. 139 (four occurrences), s. 143 (one), and s. 144 (two); those labels were corrected in derived hypothetical text only. Topic statuses remain `review`.
 
 This is a narrow pattern-based scan, not a word-by-word statutory reconciliation and not a statement that every topic is complete. It does not resolve the known s. 106(2) commencement-status gate, the full-catalog enhancement-validation blocker, primary-case verification, current amendments, integration/SEO/production checks, or human legal sign-off. BNS remains OPEN.
+
+
+## BNS derived-extract audit continuation — sections 181–240 — 2026-10-09
+
+Continued the targeted pattern scan. Section 189 had one duplicated subsection label in its generated hypothetical; corrected it without changing the operative statutory rule. The selected duplicate-label, truncated-clause and undefined-value checks returned no matches in sections 181–188, 190–195, and 196–240. A split-reference detector produced two apparent hits in s. 199 and s. 209, but both were valid statutory cross-references spanning line breaks (BNSS s. 173(1) and BNSS s. 84(1)); no edits were made to those passages.
+
+These are limited automated checks, not word-by-word statutory verification. Current amendments, primary-case holdings, topic completeness, the s. 106(2) commencement gate, full-catalog CI, downstream integration/SEO/production and qualified legal sign-off remain open. BNS remains OPEN.
