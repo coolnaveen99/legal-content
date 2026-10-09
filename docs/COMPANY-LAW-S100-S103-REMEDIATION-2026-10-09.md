@@ -194,3 +194,13 @@ Retrieved the official MCA-hosted text of G.S.R. 403(E), 15 July 2024. Its opera
 - App mirror section 101: `a5276205abb06ca9d985686b8e50670479b859fd`.
 - Inventory: `2c3d4fd5ffc542d9ed3e13cd103633abb6f2c864`.
 - Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Full consolidated Rule 18 verification, independent case-law review, repository-wide validator/build/E2E, SEO and production remain open.
+
+
+## G.S.R. 358(E) scope check — 2026-10-09
+
+The full text of the 30 May 2025 Companies (Management and Administration) Amendment Rules, 2025 was checked through indexed secondary reproductions. An official Rajya Sabha debate/laying record lists G.S.R. 358(E) among MCA notifications laid before the House. The reproduced operative clauses substitute Forms MGT-7, MGT-7A and MGT-15 in the Rules' Annexure with effect from 14 July 2025; the change is form-only and does not amend Rule 18 on its face. The official Gazette PDF URL remains `https://egazette.gov.in/WriteReadData/2025/263573.pdf`, but the primary PDF was not independently retrieved. Accordingly, this is bounded amendment-scope evidence, not primary-text verification or a complete consolidated Rule 18 check.
+
+- Updated 2025 source record: `b674b9af30f7e40d45e6df33e628f3637d4f212b`.
+- Rule 18 register scope note: `7331506e7b8ea3b31845839497bebf1692a4d6dd`.
+- Official parliamentary record: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/268/582025/05082025.pdf
+- Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; full primary Gazette retrieval, consolidated Rule 18 verification, independent case-law review, repository-wide validation, app build/E2E, SEO and production gates remain open.
