@@ -119,3 +119,12 @@ Section 101’s study and app mirror now include a distinct Rule 18 checklist fo
 ## Rule 17 official amendment evidence — 2026-10-09
 
 The official India Code-hosted Gazette PDF for G.S.R. 908(E), 23 September 2016, was located and attached as `sources/companies-management-administration-amendment-rules-2016-rule-17.json`. Rule 5 of that notification expressly substitutes “on any day except national holiday” for “on working day” in the Explanation to Rule 17(2). The new primary-source record is linked from the section 100 topic and the existing Rule 17 reproduction record. This verifies that particular amendment only; it does **not** certify the full consolidated Rule 17 text or every remaining sub-rule. The Rule 17 source and section 100 remain under review / `SOURCE_CHECK_REQUIRED` pending broader official rule reconciliation, independent case-law review, full validation/build/E2E and legal sign-off.
+
+Evidence commits for this follow-up:
+- Official Rule 17(2) amendment source record: `a917555198a79c43d2e158c328cfe55e1f596316`.
+- Canonical section 100 topic/source linkage: `b79ec261d00293fe664e9c03cbbc0a6b79c1799b`.
+- Existing Rule 17 source qualification/link: `14642928306531159baf01d29fafc45c86af8e7b`.
+- Inventory: `8a3443838756069269f6bba5433cd51f0ace2b21`.
+- Remediation note: `addc114dc7140dccf4e2808b0d30747fb5aea1a3`.
+- Work-control master: `abab2866f41268ec49f5bce0e8333a9d6e014c06`.
+- App mirror section 100: `e004db150690c938da19c0553dccf9731c1d4e20`.
