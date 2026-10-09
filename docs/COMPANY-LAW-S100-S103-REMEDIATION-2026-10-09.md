@@ -128,3 +128,17 @@ Evidence commits for this follow-up:
 - Remediation note: `addc114dc7140dccf4e2808b0d30747fb5aea1a3`.
 - Work-control master: `abab2866f41268ec49f5bce0e8333a9d6e014c06`.
 - App mirror section 100: `e004db150690c938da19c0553dccf9731c1d4e20`.
+
+
+## Rule 18 official amendment evidence — 2026-10-09
+
+The official MCA-hosted notification G.S.R. 560(E), 13 June 2018, was added as `sources/companies-management-administration-amendment-rules-2018-rule-18.json`. It confirms the specific amendment deleting the Explanation after Rule 18(3)(ix). The existing secondary reproduction record now links this official source and states the limited scope. Canonical section 101 and the CodePackr Law app mirror now state that the deletion is confirmed, while the full consolidated current Rule 18 and remaining amendments still require official-source reconciliation.
+
+Evidence commits:
+- Official 2018 amendment source record: `af214d2335f632c47ac23db613cf689735188e13`.
+- Rule 18 reproduction source qualification/link: `021e11079e951387dd752fe38a737b6df8289078`.
+- Canonical section 101 topic: `cd55bc74a5f94c7bc893411492beffbe8f87046e`.
+- CodePackr Law section 101 mirror: `e2df6cb2353d579ac7be57e98d465375c1f9f440`.
+- Inventory update: `4480dd60c017a9f218acbd5150e83ef14b6b6049`.
+
+This confirms only the named deletion. Section 101 remains `verification_in_progress`, the inventory gate remains `SOURCE_CHECK_REQUIRED`, and full Rule 18/current-law reconciliation, independent case-law review, repository-wide validation, app build/E2E, SEO, production and legal sign-off remain open. No full validator/build pass is claimed.
