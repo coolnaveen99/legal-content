@@ -119,3 +119,10 @@ Targeted follow-up checks must confirm current-main JSON parses, the s. 66 cross
 A recursive scan of sections 63–75 identified additional import-generated defects outside the operative statutory-rule blocks: duplicated list/subsection labels in the s. 65 and s. 75 hypotheticals; a line-split s. 66 cross-reference to sub-section (2) of s. 64; and s. 72 derived excerpts that split “Nothing in sub-section (1)” across labels and repeated outer numbering. Corrected these derived excerpts in s. 65, s. 66, s. 72, and s. 75. In s. 72, the exception clauses are now labelled as clauses (a)–(c) instead of conflating outer list numbering with statutory labels. No operative `The legal rule` block was intentionally changed in this batch.
 
 Targeted follow-up checks must confirm current-main JSON parses, the s. 66 cross-reference reads “sub-section (2) of section 64”, the s. 72 subsection (2) exception reads “sub-section (1)”, and the s. 75 residual punishment extracts remain corrected. This remains derived-content cleanup only; topic status stays `review`, and no full-catalog CI or legal sign-off is implied.
+
+
+## Sections 80, 82 and 90 derived-extract correction — 2026-10-09
+
+A follow-on recursive scan of BNS sections 76–90 found duplicate subsection labels in the generated hypotheticals for s. 80 and s. 82, plus a duplicated s. 90(1) label and a split s. 90(2) cross-reference in derived material. Corrected those generated excerpts and the s. 90 “Essential ingredients” cross-reference. The operative s. 90 `The legal rule` text was deliberately not rewritten: the official enacted text itself uses the same awkward wording in subsection (2), so any proposed substantive editorial correction requires legal review rather than silent alteration. Sections remain `review`.
+
+A separate scan of sections 91–105 found no matches for the targeted broken subsection/clause patterns or undefined-value markers. This is a limited pattern scan, not proof of complete statutory accuracy. Full current-law, primary-authority, full-catalog validation, integration/SEO/production gates and qualified human legal sign-off remain outstanding.
