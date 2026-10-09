@@ -119,3 +119,16 @@ Rule 17 source-link correction (2026-10-09): the canonical section 100 topic now
 
 
 Rule 18 follow-up (2026-10-09, existing claim `current-assistant-company-s100-s103`): section 101 now distinguishes section 101’s notice period/recipient rules from Rule 18’s electronic-notice and proof-of-sending requirements. Canonical topic commit `4ba10b73bbec76948efac6d257e3ce3d2b915cc3`; source record `085f823a7e4b7577a3ab749fe7df9741f1217c82`; app mirror `c26c6a9337f0cfd00709f5aef73fbdda60c549a1`. Source is a secondary reproduction, not Gazette-primary; current official rule verification remains open.
+
+
+## Company Law s. 102–103 private-company exemption follow-up — 2026-10-09
+Subject: Company Law
+Topic/section range: ca-s-102 and ca-s-103, within existing claim `current-assistant-company-s100-s103`
+Current status: IN_PROGRESS — not COMPLETE_LOCKED
+Owner: current-assistant-company-s100-s103
+Source record: `sources/companies-act-2013-private-company-meeting-exemptions.json` (status review; official MCA notification material)
+Change: clarified the section 462 private-company meeting modification for sections 101–107 under G.S.R. 464(E) (2015), read with G.S.R. 583(E) (2017), including the eligibility condition that the private company must not have defaulted in filing its annual return under section 92 or financial statements under section 137. Both topics retain the separate OPC section 122 caveat.
+Canonical commits: s. 102 `dd1ab2c3b0d2a3d1909c317092a82b40fdd1640b`; s. 103 `44f73b7a90ce27ef202e746f5d9ebd2381c15500`.
+App mirrors: s. 102 `d96bcfa456d0c265c1bd3a41103d65510c9eb54`; s. 103 `ece4b2e9fcff1d5262cb543007297ae20ae85506`.
+Focused validation: canonical JSON parses; source is linked; topics remain `verification_in_progress`; inventory remains `SOURCE_CHECK_REQUIRED`; app glance/study parity and new module presence pass. This is not a full repository validator, TypeScript build/E2E, independent legal sign-off, SEO or production pass.
+Next within claim: continue source-checking meeting rules and relevant class-specific exemptions; retain the source review caveat until notification/amendment scope and company eligibility are independently verified.
