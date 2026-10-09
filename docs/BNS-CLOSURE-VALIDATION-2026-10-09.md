@@ -109,3 +109,20 @@ A further targeted legal-commentary pass corrected stale references to BSA secti
 
 Section 69's main hypothetical previously treated the alleged deception as conclusive, assumed an existing marriage automatically proved the offence, overread “marrying by suppressing identity”, and asserted that psychological deceit necessarily excludes rape. Rewrote the analysis to separately test the statutory limb, intention/causation, source-checked case holdings, and the requirement that the intercourse not amount to rape under section 63. The topic remains `review`; cited cases still require primary-judgment verification. Evidence: [BNS sections 63–70 liability/presumption audit](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-SS63-70-LIABILITY-PRESUMPTION-AUDIT-2026-10-09.md).
 
+### Local executable-gate recheck — 2026-10-09
+
+- `npm run report:enhancements`: PASS; BNS reports 368/368 enhanced, with all 368 still `in-progress`. This is not legal verification or publication approval.
+- `npm run quality:final`: PASS; no BNS-specific errors reported.
+- `npm run validate:schemas`: PASS; 0 errors and 0 warnings.
+- `npm run test:relationships`: PASS; 0 failures.
+- `npm run verify:legacy-preservation`: PASS; 3,551 records checked, 0 errors.
+- `npm run verify:fv005-fv010`: PASS; 3,678 topics and 421 judgment records checked, 0 errors.
+- `npm run verify:fv011`: PASS; 3,678 canonical topics and 421 judgment records checked.
+- `npm run verify:fv012`: PASS; 12/12 repository readiness controls present.
+- `npm run validate:enhancements`: FAIL at catalogue level with 2,427 errors, concentrated outside BNS; no BNS-specific entries were reported. BNS was not padded with generic fields to hide this unrelated backlog.
+- `npm run judgments:queue`: BLOCKED because the script requires an explicit `--corpus` argument; no corpus was supplied or inferred.
+- `npm run verify:fv013`: BLOCKED because this extracted workspace has no Git repository metadata.
+- `npm run verify:fv014`: FAIL; two rollback-readiness errors remain.
+
+**Disposition:** BNS remains OPEN. These checks close executable integrity/readiness evidence only. They do not close section-by-section statutory reconciliation, current-law/amendment/commencement review, primary judgment verification, BNS inventory reconciliation, integration/SEO, production/rollback evidence, or qualified human legal-quality sign-off. No BNS topic or subject status was promoted.
+
