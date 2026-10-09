@@ -126,3 +126,7 @@ Section 69's main hypothetical previously treated the alleged deception as concl
 
 **Disposition:** BNS remains OPEN. These checks close executable integrity/readiness evidence only. They do not close section-by-section statutory reconciliation, current-law/amendment/commencement review, primary judgment verification, BNS inventory reconciliation, integration/SEO, production/rollback evidence, or qualified human legal-quality sign-off. No BNS topic or subject status was promoted.
 
+### Enhancement-validator subject attribution — 2026-10-09
+
+The validator implementation was inspected and the full current run was filtered by topic path. It reported **2,427** `ERROR:` lines in total, all under `topics/constitution/`; it reported **0** errors under `topics/bns/`. Therefore the catalogue-wide failure is not evidence of a BNS enhancement-field defect. BNS topics were not changed or padded to conceal the Constitution backlog.
+

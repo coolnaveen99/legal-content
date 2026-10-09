@@ -37,7 +37,7 @@ These blocks are derived from the statute and do not reproduce it in full. They 
 
 - s.4 "Essential ingredients" quotes only (b), (c), (c)(1) and (d).
 - s.4 `enhancement.definition` says imprisonment for life "means imprisonment for the remainder of that person's natural life". That wording is not in s.4. Clause (b) reads only "Imprisonment for life;". This statement was not verified.
-- s.5 "Definitions and key terms" reads "“appropriate Government” — ,–– (a) … the Central Government." It has a stray ",––" and gives only limb (a) of the Explanation, leaving out limb (b) (State Government).
+   - s.5 "Definitions and key terms" previously read "“appropriate Government” — ,–– (a) … the Central Government." It had a stray ",––" and gave only limb (a) of the Explanation, leaving out limb (b) (State Government). This derived block was corrected on 2026-10-09 to reproduce both limbs; the statutory rule and Explanation were unchanged.
 - s.8 "Essential ingredients" drops the "(6)" label before "(a) The imprisonment which is imposed in default…".
 - s.8 `study` text labels the single Illustration as "Illustration (a)". The Gazette heading is "Illustration." with no lettering.
 - s.9 "Essential ingredients" omits the "(2) Where—" lead-in, so clauses (a) and (b) read as if they continue sub-section (1).
@@ -51,4 +51,4 @@ These blocks are derived from the statute and do not reproduce it in full. They 
 
 ## Status
 
-The topic files record a "Body check 2026-10-08" verification note. `statutoryFramework` is updated to the same pattern as VER-001-BNS-S2/S3. `updatedAt` is changed. Top-level `status` stays `review`. `enhancement.status` stays `in-progress`. `lastVerifiedAt` and `verifiedBy` are unchanged. This comparison was made by an AI execution agent. Under `.github/copilot-instructions.md`, it is evidence, not authoritative legal verification. Human review is needed before any `VERIFIED` status.
+The topic files record a "Body check 2026-10-08" verification note. The s.5 derived definition correction was applied on 2026-10-09 with backup `topics/bns/s-5.json.bak-2026-10-09-quality`; no statutory status was promoted. `statutoryFramework` is updated to the same pattern as VER-001-BNS-S2/S3. `updatedAt` is changed. Top-level `status` stays `review`. `enhancement.status` stays `in-progress`. `lastVerifiedAt` and `verifiedBy` are unchanged. This comparison was made by an AI execution agent. Under `.github/copilot-instructions.md`, it is evidence, not authoritative legal verification. Human review is needed before any `VERIFIED` status.
