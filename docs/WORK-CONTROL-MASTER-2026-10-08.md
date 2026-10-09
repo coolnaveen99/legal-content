@@ -54,3 +54,15 @@ Validation:
 Evidence/commit:
 
 If any field cannot be established, STOP.
+
+
+## Company Law claim — 2026-10-09
+Subject: Company Law
+Topic/section range: ca-s-2, ca-s-6, ca-s-63, ca-s-66, ca-s-67, ca-s-68, ca-s-71, ca-s-73, ca-s-76a, ca-s-77, ca-s-90, ca-s-123, ca-s-128, ca-s-139, ca-s-149, ca-s-164, ca-s-166, ca-s-173, ca-s-177, ca-s-188, ca-s-196, ca-s-230, ca-s-248, ca-s-253, ca-s-447, and company-*.json doctrinal topics
+Current main commit at claim: 15e4392ded402cd3a26583948f2246abc0394a1b
+Current status: IN_PROGRESS — not COMPLETE_LOCKED
+Current owner: company-closure-batch-2026-10-09
+Latest evidence: docs/COMPANY-LAW-CLOSURE-AUDIT-2026-10-09.md and docs/batches/company-law-task-inventory-2026-10-09.json
+Missing gate: India Code source attachment, case-law verification, 438 remaining scaffolds, SEO and production gates
+Planned change: section-specific enhancement only; no verified/published mark
+Validation: JSON structural check of upgraded files; full validate.mjs not run (dependencies absent)
