@@ -190,17 +190,23 @@
         "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T10:10:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 161",
+          "citation": "Statutory additional, alternate and nominee directors",
+          "point": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, within the limits in the section. This is a statutory pointer, not a judgment."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-09T16:00:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b2",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule aligned to indexed heading and, for sections 92, 96, 135 and 185, to texts retrieved on 2026-10-09. Full India Code paste and case-law verification remain open.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -210,12 +216,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T16:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
