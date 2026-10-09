@@ -80,3 +80,12 @@ Corrected on current main:
 - No case-law proposition or topic verification status was changed. Topic status remains review; human legal verification and current-law sign-off remain open.
 
 Source checked: enacted BNS text, section 65, in the India Code Act text: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf. This pass is limited to subsection/proviso structure; it does not establish whether later amendments affect the section.
+
+
+## Current-main follow-up — 2026-10-09: Section 68 actor categories and scope
+
+A focused current-main review found that the commentary-derived study list of essential ingredients omitted the express category “(b) a public servant”, despite the complete statutory-text block containing it. The enhancement essentialIngredients list also described only some actor categories and narrowed the protected woman’s location to custody/care or patient status, omitting the express alternative “present in the premises”.
+
+Corrected the study list and enhancement ingredient summary to state all four statutory actor categories, the alternatives for the woman being in custody, under charge, or present in the premises, the abuse/inducement requirement, and the statutory boundary that the intercourse does not amount to rape. The operative statutory-text block was not changed. The topic remains review; this is not a judgment audit or legal sign-off.
+
+Source anchor: BNS section 68 as enacted in the official India Code BNS text: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf. Amendments after enactment and primary-case propositions were not assessed in this targeted pass.
