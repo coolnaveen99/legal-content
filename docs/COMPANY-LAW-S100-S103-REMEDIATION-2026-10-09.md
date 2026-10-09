@@ -71,3 +71,13 @@ The initial focused pass did not sufficiently distinguish the original 2013 text
 - Canonical commits: `4ad412cd69ec3e20df20ee4948fd592dc194fd49` (s. 101), `de1a32c7b937311210969422b5ff2d216d3a3124` (s. 102); source commits `c1ee496b7033b04f57cee5faf025b7bd61f794a3`, `fa94128e8714ac2fca23280a4b0b7d8f1a24e307`.
 - App mirror commits: `1134b2224201ddd86c5fa58d30dc887036786a23` (s. 101), `7cd216a4c833a32cc5a863ad8462cd3b4879e74d` (s. 102).
 - Validation is focused JSON/source-reference/content-parity checking only; full build, E2E, all applicable meeting rules, company-specific exemptions, and independent case-law review remain open.
+
+
+## Follow-up applicability check — One Person Companies (2026-10-09)
+
+The principal Act's section 122(1) expressly disapplies sections 98 and 100–111 to a One Person Company (OPC). Sections 100–103 now carry an explicit applicability warning: do not apply their ordinary meeting mechanics to an OPC; section 122(2)–(3) provides a separate procedure for ordinary business otherwise transacted at an AGM. This is an important scope limitation, not a claim that all company-specific exemptions or rules have been exhausted.
+
+- Added official source record: `sources/companies-act-2013-s-122-opc-exemption.json` (Companies Act, 2013, section 122(1)–(3), MCA official Act PDF).
+- Canonical commits: s.100 `9d25a1c08af3a5844b886df985ee169913153bfa`; s.101 `562ee02f278d9ab404104f73eea792628b776259`; s.102 `68973cf449bec23c1b60ddc7600626f3a4b5c7f2`; s.103 `0aa110abc69895a0634773e4f5d06a2b502b6970`.
+- App mirror commits: s.100 `6dff3d3ef372e5c3f93bd2b4aa328b2db64ceeca`; s.101 `bc5fdac7f41ce695137dd3992c735ac3862c3fb2`; s.102 `ca1fd0ae283c61f616c5ebe96ddfb1f1c5e9f7fd`; s.103 `d875daf538f371df6bda658e217f9f4f20b285dc`.
+- Focused JSON/source/content parity checks remain required after this update. Full rule/exemption review, case-law verification, full repository validation, build/E2E, SEO and production gates remain open. Topics remain `verification_in_progress`; no legal sign-off is claimed.
