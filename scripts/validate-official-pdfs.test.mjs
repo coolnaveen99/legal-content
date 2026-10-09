@@ -154,3 +154,9 @@ test("previous manual closure is preserved only when the fetched PDF checksum is
   assert.equal(changedDocument.pendingCount, 1);
   assert.equal(changedDocument.items[0].finalReviewOutcome, "pending");
 });
+
+
+test("pending manual-review queue refuses items without an owner", () => {
+  const pending = classifyPdfAttempt({ ...base, reviewOwner: null, parseStatus: "unknown" });
+  assert.throws(() => buildManualReviewQueue([pending]), /reviewOwner and nextAction/);
+});
