@@ -84,3 +84,11 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - **Article state:** The attempted Article 243K content update was blocked by the platform safety check; no Article 243K change was made. Current article blob remains `5fc4f68d16292e73f8580ac756bed1b095a5e78b` as last successfully fetched before the attempt.
 - **Work performed:** Read existing article and required-field gaps; checked Article 243K clauses (1)–(4) and the clause (2) proviso against the official Constitution text from the Legislative Department. Draft was not committed.
 - **Next action:** Stop and resolve the platform write restriction through an allowed path. Do not retry through alternate write methods or bypass safety checks. Enhancement, validation and full legal review remain pending.
+
+## Article 243N claim — statutory text verification
+- **Scope:** `topics/constitution/art-243n.json`; verify only the constitutional text and structure of Article 243N against an official Government of India Constitution publication. This does not cover historical State laws, case law, or full current-law analysis.
+- **Current article blob:** `89fc29bd4d37fcae34a043ee20eac224e1938a46`; latest Article 243N enhancement evidence commit: `4922327386570712ccc61c81c04b67dd1c8bca6a`.
+- **Ownership check:** current main content is `in-progress`; recent commit search shows prior analysis/enhancement work, no matching PR was returned, and no claim for this verification range was present before this entry.
+- **Missing gate:** narrowly scoped official-text comparison and a documented result; comprehensive statutory/current-law, case-law, repository validation, integration, SEO and production gates remain open.
+- **Planned work:** compare the Article 243N wording and both limbs against the official Legislative Department Constitution PDF; record only what that source supports. No legal-content changes unless the comparison identifies a substantiated defect.
+- **Validation/evidence:** pending.
