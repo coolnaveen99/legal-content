@@ -9,9 +9,10 @@
 |----------|-------|--------|
 | **P0** | Omitted / inoperative | **COMPLETE** |
 | **P1** | Part I + Citizenship | **COMPLETE** |
-| **P2** | Parliamentary (79–122) | **COMPLETE** (QUAL) |
-| **P3** | Union Executive & Judiciary structural | **COMPLETE** (QUAL) |
-| **P4** | Part IV — Directive Principles (36–51) | **IN_PROGRESS** |
+| **P2** | Parliamentary (79–122) | **COMPLETE** |
+| **P3** | Union Executive & Judiciary structural | **COMPLETE** |
+| **P4** | Part IV — DPSP (36–51) | **COMPLETE** |
+| **P5** | State Executive & State Legislature core | **IN_PROGRESS** |
 
-## P4 progress
-Core DPSP articles remediated this commit (36–51 living set).
+## P5 progress
+Done this commit: 152–154, 163–164, 166–168, 170, 174, 200–201.
