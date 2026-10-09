@@ -142,3 +142,12 @@ Evidence commits:
 - Inventory update: `4480dd60c017a9f218acbd5150e83ef14b6b6049`.
 
 This confirms only the named deletion. Section 101 remains `verification_in_progress`, the inventory gate remains `SOURCE_CHECK_REQUIRED`, and full Rule 18/current-law reconciliation, independent case-law review, repository-wide validation, app build/E2E, SEO, production and legal sign-off remain open. No full validator/build pass is claimed.
+
+
+## Rule 18 amendment-chain follow-up — 2026-10-09
+
+Located the official India Code-hosted Gazette PDF for the Companies (Management and Administration) Amendment Rules, 2020 (notification dated 28 August 2020). Its amendment-history note lists the principal notification and subsequent amendment notifications through G.S.R. 560(E), 13 June 2018, including G.S.R. 175(E), 16 February 2018. The 2020 instrument's operative amendment is to Rule 12, not Rule 18. Added source record `sources/companies-management-administration-amendment-history-2020.json` and linked it from the Rule 18 reproduction record, which is already attached to section 101.
+
+This is limited amendment-history evidence printed in the 2020 instrument. It does not establish whether any later notification after 28 August 2020 affects Rule 18, and does not make the secondary Rule 18 reproduction Gazette-primary. Section 101 remains `verification_in_progress`; the inventory gate remains `SOURCE_CHECK_REQUIRED`. No full consolidated-rule verification, legal sign-off, full repository validator, app build/E2E, SEO or production pass is claimed.
+
+- Official 2020 amendment-history source record commit: `0a19062ff8b11e1ebb575c30253a00def991e42d`.
