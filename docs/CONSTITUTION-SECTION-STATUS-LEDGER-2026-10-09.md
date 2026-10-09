@@ -7,12 +7,9 @@
 
 | Priority | Range | Status |
 |----------|-------|--------|
-| **P0** | Omitted / inoperative | **COMPLETE** |
-| **P1** | Part I + Citizenship | **COMPLETE** |
-| **P2** | Parliamentary (79–122) | **COMPLETE** |
-| **P3** | Union Executive & Judiciary structural | **COMPLETE** |
-| **P4** | Part IV — DPSP (36–51) | **COMPLETE** |
-| **P5** | State Executive & State Legislature core | **IN_PROGRESS** |
+| **P0–P4** | Omitted, Part I, Parliament, Union Exec/Judiciary, DPSP | **COMPLETE** |
+| **P5** | State Executive & Legislature core | **COMPLETE** (core) |
+| **P6** | High Courts structural (214–231 living) | **IN_PROGRESS** |
 
-## P5 progress
-Done this commit: 152–154, 163–164, 166–168, 170, 174, 200–201.
+## P6 progress
+Done this commit: 214–217, 219–224, 226–229, 231.
