@@ -81,3 +81,15 @@ The principal Act's section 122(1) expressly disapplies sections 98 and 100–11
 - Canonical commits: s.100 `9d25a1c08af3a5844b886df985ee169913153bfa`; s.101 `562ee02f278d9ab404104f73eea792628b776259`; s.102 `68973cf449bec23c1b60ddc7600626f3a4b5c7f2`; s.103 `0aa110abc69895a0634773e4f5d06a2b502b6970`.
 - App mirror commits: s.100 `6dff3d3ef372e5c3f93bd2b4aa328b2db64ceeca`; s.101 `bc5fdac7f41ce695137dd3992c735ac3862c3fb2`; s.102 `ca1fd0ae283c61f616c5ebe96ddfb1f1c5e9f7fd`; s.103 `d875daf538f371df6bda658e217f9f4f20b285dc`.
 - Focused JSON/source/content parity checks remain required after this update. Full rule/exemption review, case-law verification, full repository validation, build/E2E, SEO and production gates remain open. Topics remain `verification_in_progress`; no legal sign-off is claimed.
+
+
+## Rule 17 follow-up — section 100 requisitionists’ EGM (2026-10-09)
+
+A further meeting-rules check identified that section 100 alone does not capture all procedural requirements for a requisitionists-convened EGM. Section 100’s study and app mirror now add a distinct Rule 17 overlay covering: clear 21 days’ notice before the proposed date; notice particulars; venue at the registered office or same city/town and no national holiday; signatures/authorisation; section 114(2) notice if a special resolution is proposed; Rule 17(5)’s statement that a section 102 explanatory statement need not be annexed to a requisitionists-convened EGM notice; member notice/delivery; accidental omission/non-receipt; and the member-list mechanism if the company does not convene.
+
+- Rule text source record: `sources/companies-management-administration-rules-2014-rule-17.json`, based on the ICSI e-book reproduction at https://e-book.icsi.edu/Actpagedisplay.aspx?PAGENAME=18033, which notes the 2016 substitution of “on any day except national holiday” for “on working day”.
+- Source record commit: `84e9941f81c2210a852b46992edbd2477e469100`.
+- Canonical section 100 commit: `091f6e3c248843f17b61267f085e55637ca5299f`.
+- App mirror section 100 commit: `f411c78e948882b95e0ae5e08ed8c2b7fd81ee2e`.
+- **Qualification:** the rule source is a professional-institute reproduction, not a Gazette-primary copy. The note expressly leaves Gazette-primary confirmation open; do not treat this as final current-law verification.
+- Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Rule/exemption review for sections 100–103, independent case-law review, repository-wide validation, app build/E2E, SEO/noindex, production and qualified legal sign-off remain open.
