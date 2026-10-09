@@ -84,3 +84,8 @@ The failure remains `validate:enhancements`, reporting missing required enhancem
 ### Section 61 source-reconciliation correction — 2026-10-09
 
 The earlier edit that removed “with the common object” was incorrect: the official India Code BNS PDF itself includes that phrase in section 61(1). The phrase has been restored on current `main` and the evidence note corrected. Commit: `9c533d9861c30b44332842c45446071107d6b907`. This reinforces that every statutory block requires comparison against the exact authoritative text; no broad statutory-verification gate is closed by the existence of a block.
+
+### Additional amendment-bill leads — current-law gate remains open
+
+The current-law scan has been expanded to record three introduced bill texts requiring official parliamentary status and Gazette follow-up: Bill No. XXVII of 2024 (proposes omitting s. 63 Exception 2, omitting s. 83 and inserting s. 110A); Bill No. XXXIX of 2024 (proposes replacing s. 63 Exception 2); and Bill No. I of 2026 (proposes inserting s. 24A). No enactment/commencement evidence was established by this search, so none is treated as operative law. See [updated current-law scan](https://github.com/coolnaveen99/legal-content/blob/main/docs/VER-001-BNS-CURRENT-LAW-SCAN-2026-10-09.md). Parliamentary status, Gazette enactment/commencement, s. 106(2) later notification and applicable State amendments remain to be checked before closing this gate.
+
