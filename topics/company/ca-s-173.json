@@ -136,13 +136,19 @@
         "Section 173 is board meetings. Section 96 is the annual general meeting. Section 100 is an extraordinary general meeting. Section 174 is board quorum."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 173",
+          "citation": "Statutory board meetings",
+          "point": "A company holds at least four board meetings in a year, with not more than one hundred and twenty days between meetings, subject to the one person company relaxation. This is a statutory pointer, not a judgment."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:45:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -153,8 +159,8 @@
       "sourceFingerprint": "ca-s-173-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -164,12 +170,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

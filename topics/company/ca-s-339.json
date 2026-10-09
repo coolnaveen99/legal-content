@@ -186,17 +186,23 @@
         "Companies Act, 2013",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T11:00:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Official Liquidator v P A Tendolkar",
+          "citation": "(1973) 1 SCC 602",
+          "point": "Personal liability for fraudulent conduct of business requires knowledge of the fraudulent purpose. A trading loss, without that knowledge, is not section 339."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-09T14:45:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b6",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section 325 marked omitted. Other winding-up rules aligned to Chapter XX. Case-law not added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -206,12 +212,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

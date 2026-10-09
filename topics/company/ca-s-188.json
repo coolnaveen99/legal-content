@@ -142,13 +142,19 @@
         "Section 188 is the contract list. Section 184 is disclosure of interest. Section 177 is audit-committee approval. SEBI LODR adds listed-company rules and is not a substitute for s. 188."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 188",
+          "citation": "Statutory related-party approval",
+          "point": "A related-party contract of the kinds listed needs the board consent, and the member approval where the rules require it. A related party does not vote on the member resolution. No single Supreme Court ratio is stated as the rule."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:45:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -159,8 +165,8 @@
       "sourceFingerprint": "ca-s-188-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -170,12 +176,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
