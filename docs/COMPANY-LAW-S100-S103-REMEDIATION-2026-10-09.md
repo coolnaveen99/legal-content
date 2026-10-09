@@ -170,3 +170,14 @@ Indexed notification reproductions identify G.S.R. 358(E), dated 30 May 2025, as
 - Source record: `sources/companies-management-administration-amendment-rules-2025.json` (review; primary-source URL identified, text not independently retrieved).
 - Rule 18 register and section 101 topic now link the record; app mirror and inventory note the limitation.
 - Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Full consolidated Rule 18, later amendment review, case-law review, repository validation, app build/E2E, SEO and production gates remain open.
+
+
+## Private-company exemption provenance follow-up — 2026-10-09
+
+The source record for G.S.R. 464(E), 5 June 2015, read with G.S.R. 583(E), 13 June 2017, and corrigendum S.O. 2218(E), 13 July 2017, now distinguishes the India Code-recorded reproduction and secondary reproductions from independently retrieved primary Gazette text. The India Code-recorded reproduction lists sections 101–107 and 109 as applying unless otherwise specified in the respective section or the company’s articles provide otherwise; the 2017 amendment inserts the filing-default eligibility condition for sections 92/137. An official parliamentary record confirms the 2017 notification and corrigendum were laid before the House, but is not a substitute for the operative Gazette text.
+
+- Source record commit: `42e84ed852ececa788827f137ce6ca715297364c`.
+- Canonical topics: s.102 `42913ed34426dd315c8fb2040b6769eb0017d991`; s.103 `6f223b060c4d4b8ec18725d338b419e435546524`.
+- App mirrors: s.102 `4ae001cf2047f728432306303748d850b6689420`; s.103 `d614fd5822ed3f5a4be4f07d48354c7e61cca50d`.
+- Inventory update: `6c30d36662424db5fe4df398fd1a2ae8737e92f4`.
+- Status remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`. Primary-text retrieval, later notification chain, company-specific eligibility/articles, independent case-law review, repository-wide validation, app build/E2E, SEO and production remain open.
