@@ -136,3 +136,12 @@ A read-only check of the current main versions of Articles 243B, 243G, 243K and 
 - **Comparison result:** Article 243J's operative text states that a State Legislature may, by law, make provisions concerning the maintenance of Panchayat accounts and the auditing of those accounts. The article's reproduced “Constitutional Text & Anatomy” sentence matches that operative proposition. No textual discrepancy was identified in this narrow comparison.
 - **Evidence:** Article re-fetched from `main`, blob `d025a5b2b164b90b8bdc4b9daf960b90d06c4016`; pre-work claim recorded in commit `702e8d8806837b5cbd2ef8d0f3f98824bd68326c`.
 - **Boundary / follow-up:** This does not identify or verify any particular State Panchayat Accounts Rules, audit authority, audit timetable, remedies, or case law. The article also contains generic forum, evidentiary and precedent claims that remain unverified in this pass. No article content was changed; status remains `in-progress` and all broader legal-review, validation, integration, SEO and production gates remain open.
+
+
+## Article 243L claim — statutory text comparison
+- **Scope:** `topics/constitution/art-243l.json` — compare only the reproduced Article 243L text with the official Constitution of India text; record any mismatch without asserting broader legal verification.
+- **Pre-work main evidence:** Ledger blob `0bed2ac99ec7451a4b281d8f0bbe51a9f91f9d9b`; Article 243L blob `bec210c94186910a85023a33e3fbda4f39f54ce8`; topic status is `review`. The existing Article 243L enhancement was added in commits `07b0debab4275215719291e325c5188ffd241e9c` and `f0d3f192c12eb94aa0a1276b0f48a8a94f76fc68`; no matching PR was returned by the current PR search.
+- **Owner / claim:** coolnaveen99, direct-to-main. No Article 243L statutory-verification claim was present in the current ledger before this entry.
+- **Missing gate:** A focused authoritative text comparison. The file also contains broad doctrinal, case-law and procedural claims that are outside this claim and remain unverified.
+- **Planned work:** Compare Article 243L clause and proviso text against the Legislative Department's official Constitution publication. Do not rewrite article content unless a precise discrepancy is confirmed. Do not mark the topic complete.
+- **Validation/evidence:** Pending; after comparison, append the result and source locator to this ledger. No article-file write is planned.
