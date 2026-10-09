@@ -89,3 +89,12 @@ A focused current-main review found that the commentary-derived study list of es
 Corrected the study list and enhancement ingredient summary to state all four statutory actor categories, the alternatives for the woman being in custody, under charge, or present in the premises, the abuse/inducement requirement, and the statutory boundary that the intercourse does not amount to rape. The operative statutory-text block was not changed. The topic remains review; this is not a judgment audit or legal sign-off.
 
 Source anchor: BNS section 68 as enacted in the official India Code BNS text: https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf. Amendments after enactment and primary-case propositions were not assessed in this targeted pass.
+
+
+## Current-main follow-up — 2026-10-09: Section 75 derived ingredient cross-references
+
+A fresh live-file check found that, despite the prior note saying the cross-references had been restored, the current `content.study` “Essential ingredients” list still contained truncated lines: subsection (2) ended at “clause” and subsection (3) ended at “clause”, with the next lines detached as “(1) shall be punished”. The same import-generated truncation appeared in the hypothetical/Q&A answer material.
+
+Corrected the derived study ingredients and enhancement ingredients to identify all four acts in s. 75(1), and restored the exact punishment cross-references: s. 75(2) applies to clauses (i), (ii) and (iii) of subsection (1); s. 75(3) applies to clause (iv) of subsection (1). Targeted broken references in generated hypothetical/Q&A material were also corrected where present. The operative `The legal rule` block was not changed. Topic status remains `review`.
+
+Source: official India Code BNS Act text, s. 75: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a2023-45.pdf. The source verifies the enacted text; this targeted correction is not a current-amendment scan or legal sign-off.
