@@ -195,12 +195,12 @@ Rule 18 amendment-scope follow-up (2026-10-09; claim `current-assistant-company-
 ## Official PDF manual-review validator claim — 2026-10-09
 Subject: Cross-corpus validation infrastructure (Company Law closure dependency)
 Topic/section range: PDF retrieval/format technical sub-gate only; no legal-content verification flags
-Current main commit: 502646dab5be8cae7c38ae9939c41b4730be1181
+Current main commit: 5609df02f0e54569ed542ea9925ff009fd42ccdf
 Current status: IN_PROGRESS
 Current owner: current assistant — issue #40
 Latest evidence: issue #40; docs/meetings/meeting-06-finalized/2026-10-09-sprint-review-pdf-manual-validation.md; inspected scripts/validate.mjs and scripts/validate-enhancements.mjs. No existing dedicated PDF validator or caller is present in the main tree.
 Missing gate: auditable technical outcomes, bounded retries, pending manual-review queue, tests, CI integration and reviewer documentation.
 Planned change: add a separate official-PDF technical validator; preserve FAIL for affirmative invalidity; allow MANUAL_REVIEW_REQUIRED only for technical retrieval/parse uncertainty; never mutate legal source verification or publication status.
 Observed baseline failures: latest legal-content Validate legal content run 37952321464 fails enhancement validation with 4,299 missing-field errors across 3,678 topics (not PDF-specific); latest codepackr-law E2E run 37951837537 reports configured webServer exit code 2 (no PDF-specific diagnostic). No concrete PDF request failure log exists in repository history inspected; tests will use deterministic captured-response fixtures and this limitation will be documented rather than mislabelled as a production incident.
-Validation: pending implementation.
-Evidence/commit: pending.
+Validation: `npm run test:pdf-validation` passed in GitHub Actions at commit `c9f4236de92522511fdeb52130aa8a5476022a69` (including outcome, bounded retry, manual-review closure, and checksum-based audit-preservation tests). Repository-wide `Validate legal content` still fails at the pre-existing `validate:enhancements` gate with 4,299 missing-field errors across 3,678 topics; the new PDF tests run before that gate and pass. Live official-PDF workflow run `37958206735` is in progress; no outcome recorded until it finishes.
+Evidence/commit: validator `e5ea7051e2f598fed05ba1b3da0aaadc0e7d9f39`; tests `c9f4236de92522511fdeb52130aa8a5476022a69`; workflow/targets `5609df02f0e54569ed542ea9925ff009fd42ccdf`.
