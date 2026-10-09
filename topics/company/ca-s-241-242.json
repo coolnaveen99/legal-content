@@ -186,17 +186,28 @@
         "Companies Act, 2013",
         "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text"
       ],
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "lastBotRunAt": "2026-10-09T10:35:00.000Z",
+      "caseLaw": [
+        {
+          "name": "Needle Industries (India) Ltd v Needle Industries Newey (India) Holding Ltd",
+          "citation": "(1981) 3 SCC 333",
+          "point": "Oppression is conduct that is burdensome, harsh and wrongful. An isolated illegal act is not enough."
+        },
+        {
+          "name": "Tata Consultancy Services Ltd v Cyrus Investments Pvt Ltd",
+          "citation": "(2021) 9 SCC 449",
+          "point": "Removal of a director, without prejudice to the member as a member, is not oppression under section 241."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-09T13:40:00.000Z",
       "bot": "company-closure-batch-2026-10-09-b4",
       "rules": [
         "No invented citations",
         "Not marked verified"
       ],
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Chapter XIX marked omitted. Other rules aligned to Act structure. Case-law not added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -206,12 +217,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T13:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [

@@ -130,13 +130,19 @@
         "Company under s. 2(20) is a statutory registration concept. It is not the same as a partnership firm, LLP, or foreign company."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Salomon v A Salomon & Co Ltd",
+          "citation": "[1897] AC 22",
+          "point": "Section 2 defines company by reference to incorporation. Salomon is the authority that incorporation creates a person distinct from the members."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T13:40:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -147,8 +153,8 @@
       "sourceFingerprint": "ca-s-2-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -158,12 +164,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T13:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
