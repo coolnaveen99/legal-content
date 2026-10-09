@@ -139,3 +139,12 @@ Claim: `current-assistant-company-s100-s103` (continues; not closed).
 Change: added official India Code-hosted Gazette evidence for G.S.R. 908(E), 23 September 2016, confirming the specific Rule 17(2) Explanation wording substitution from “on working day” to “on any day except national holiday”.
 Source: `sources/companies-management-administration-amendment-rules-2016-rule-17.json`; existing Rule 17 reproduction source now links to it. Canonical section 100 topic links both sources and states the limited scope of confirmation.
 Qualification: this does not verify all current Rule 17 sub-rules or all subsequent amendments. Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`; full official-rule reconciliation, case-law review, repository validator, app build/E2E and legal sign-off remain open.
+
+Evidence commits for this follow-up:
+- Official Rule 17(2) amendment source record: `a917555198a79c43d2e158c328cfe55e1f596316`.
+- Canonical section 100 topic/source linkage: `b79ec261d00293fe664e9c03cbbc0a6b79c1799b`.
+- Existing Rule 17 source qualification/link: `14642928306531159baf01d29fafc45c86af8e7b`.
+- Inventory: `8a3443838756069269f6bba5433cd51f0ace2b21`.
+- Remediation note: `addc114dc7140dccf4e2808b0d30747fb5aea1a3`.
+- Work-control master: `abab2866f41268ec49f5bce0e8333a9d6e014c06`.
+- App mirror section 100: `e004db150690c938da19c0553dccf9731c1d4e20`.
