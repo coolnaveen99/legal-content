@@ -10,9 +10,7 @@
 | **P0** | Omitted / inoperative | **COMPLETE** |
 | **P1** | Part I + Citizenship | **COMPLETE** |
 | **P2** | Parliamentary (79–122) | **COMPLETE** (QUAL) |
-| **P3** | Union Executive (52–78) & Judiciary structural (124–147 living) | **IN_PROGRESS** |
+| **P3** | Union Executive (52–78) & Judiciary structural (124–147 living) | **SUBSTANTIALLY COMPLETE** |
 
-## P3 progress
-
-**Done:** 52–65, 72–78, 124–134, 136  
-**Pending:** 66–71, 135, 137–147 (and any residual living structural)
+## P3 final
+Core President, VP, Council of Ministers, AG, conduct of business, SC establishment, jurisdiction (original, appellate, SLP, review), enforcement, rule-making, and related structural articles remediated.
