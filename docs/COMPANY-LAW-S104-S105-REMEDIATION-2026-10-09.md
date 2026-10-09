@@ -41,6 +41,10 @@ Canonical topic/source/illustration changes:
 - `5d7c800dd9507fe0086c2c543fb1f2a1d079736d`
 - Inventory tracking: `85bd8bebda592dc21bad41475297d82f5e3610a9`
 
-App mirror:
-- Section 104: `469cdbb184e85133ee61667d42a103a400a14e50`
-- Section 105: `f05adb3cde422ad8a89bb95941233dcd342d5448`
+App mirror content commits (initial mirror, subsequently type-corrected):
+- Section 104 initial: `469cdbb184e85133ee61667d42a103a400a14e50`
+- Section 105 initial: `f05adb3cde422ad8a89bb95941233dcd342d5448`
+- Section 104 type correction: `f8d81182ba72049529e28e2c1cf8b54a59a2a7e5`
+- Section 105 type correction: `ee0418c82ff366f1399cb17ff27e786a178c68ad`
+
+App validation note: an earlier typecheck reported errors in the first mirrored versions (example object fields, hypothetical IDs, and a non-supported drafting category). These were corrected in the two latest commits above. The new CI runs for those commits are pending/in progress; do not report app validation as passed until the runs finish.
