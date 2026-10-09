@@ -93,3 +93,15 @@ A further meeting-rules check identified that section 100 alone does not capture
 - App mirror section 100 commit: `f411c78e948882b95e0ae5e08ed8c2b7fd81ee2e`.
 - **Qualification:** the rule source is a professional-institute reproduction, not a Gazette-primary copy. The note expressly leaves Gazette-primary confirmation open; do not treat this as final current-law verification.
 - Focused follow-up check confirmed the rule source is attached at the canonical topic’s top-level `sources` array, and the app mirror parses with the Rule 17 module present. Section 100 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. Rule/exemption review for sections 100–103, independent case-law review, repository-wide validation, app build/E2E, SEO/noindex, production and qualified legal sign-off remain open.
+
+
+## Rule 18 follow-up — section 101 electronic notice (2026-10-09)
+
+Section 101’s study and app mirror now include a distinct Rule 18 checklist for electronic notice: recipient email address as recorded by the company/depository; annual opportunity to register/update an address for members without one recorded; meeting/company/place/date subject-line particulars; non-editable attachment or accessible link/instructions; retention of recipient, dispatch and failed-transmission/resending records; and recipient readability/retention of linked notice material.
+
+- Source record: `sources/companies-management-administration-rules-2014-rule-18.json`, based on Indian Kanoon’s reproduction of the Rules: https://indiankanoon.org/doc/132295112/.
+- Source record commit: `085f823a7e4b7577a3ab749fe7df9741f1217c82`.
+- Canonical section 101 commit: `4ba10b73bbec76948efac6d257e3ce3d2b915cc3`.
+- App mirror section 101 commit: `c26c6a9337f0cfd00709f5aef73fbdda60c549a1`.
+- **Qualification:** the rule source is a secondary statutory reproduction, not Gazette-primary. The record explicitly leaves current official Gazette/amendment verification open.
+- Section 101 remains `verification_in_progress`; inventory gate remains `SOURCE_CHECK_REQUIRED`. This update does not certify all rules, exemptions, case law, build/E2E, SEO or production.
