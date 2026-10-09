@@ -204,3 +204,14 @@ The full text of the 30 May 2025 Companies (Management and Administration) Amend
 - Rule 18 register scope note: `7331506e7b8ea3b31845839497bebf1692a4d6dd`.
 - Official parliamentary record: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/268/582025/05082025.pdf
 - Section 101 remains `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; full primary Gazette retrieval, consolidated Rule 18 verification, independent case-law review, repository-wide validation, app build/E2E, SEO and production gates remain open.
+
+
+## Private-company exemption Gazette-text follow-up — 2026-10-09
+
+Retrieved and inspected IndiaCode-hosted Gazette PDF copies of G.S.R. 464(E), 5 June 2015, and G.S.R. 583(E), 13 June 2017. The 2015 instrument’s Chapter VII table row lists sections 101–107 and section 109, with application unless otherwise specified in the section or the company’s articles provide otherwise. The 2017 instrument inserts paragraph 2A limiting the exceptions/modifications/adaptations to private companies without defaults in filing financial statements under section 137 or annual returns under section 92. The direct MCA-hosted PDFs and the 13 July 2017 corrigendum S.O. 2218(E) remain unretrieved; the corrigendum therefore remains a specific open source check. Updated the section 102/103 canonical notes and app mirrors to remove the stale blanket statement that the 2015/2017 Gazette text was not retrieved. Both topics remain `verification_in_progress` / `SOURCE_CHECK_REQUIRED`; company eligibility/articles, corrigendum/current notification position, independent case-law, repository-wide validation, app build/E2E, SEO, production and legal sign-off remain open.
+
+- 2015 Gazette PDF copy: https://indiacode.ecourtsindia.com/doc/46b1b436-b411-4027-8e48-3acf684d8a65.pdf
+- 2017 Gazette PDF copy: https://indiacode.ecourtsindia.com/doc/699f8a7f-578a-41ef-97cb-da02d338ee7b.pdf
+- Source record: `sources/companies-act-2013-private-company-meeting-exemptions.json`.
+- Canonical topics updated: `topics/company/ca-s-102.json`, `topics/company/ca-s-103.json`.
+- App mirrors updated: `src/data/topics/company/ca-s-102.ts`, `src/data/topics/company/ca-s-103.ts`.
