@@ -41,3 +41,16 @@ Added a `Commencement status` section to `topics/bns/s-106.json` on `main` to di
 The Ministry of Home Affairs' Annual Report 2025–26 repeats at paragraph 11.39 that BNS provisions except section 106(2) came into force on 1 July 2024. This is a more recent official confirmation than the 2024 parliamentary answers and supports retaining the section 106(2) exception in the topic pending a later commencement notification. Source: https://www.mha.gov.in/sites/default/files/AREnglish_24032026.pdf.
 
 **Bounded conclusion as of this scan:** The latest MHA report located still records section 106(2) as excluded from commencement. This is strong official evidence, but the final closure gate still requires a targeted Gazette search for a later notification and human legal sign-off. Do not infer that a proposed amendment bill has become law without an enacted Act and commencement evidence.
+
+## Additional amendment-bill leads found during subject closure work — 2026-10-09
+
+A further official-source search found additional introduced BNS amendment bills that must be included in the current-law verification queue. They are recorded as **proposals**, not operative amendments, unless passage, assent and commencement are independently evidenced.
+
+1. **BNS (Amendment) Bill, 2024 — Bill No. XXVII of 2024**, introduced in the Rajya Sabha on 26 July 2024. The text proposes omitting section 63 Exception 2, omitting section 83, and inserting section 110A. Official introduced bill: https://sansad.in/getFile/BillsTexts/RSBillTexts/Asintroduced/7-BNS_AD%20SIngh-E731202482858PM.pdf?source=legislation. No enactment or commencement evidence was established in this search. Do not alter operative s. 63 or s. 83 text on the basis of this bill alone.
+2. **BNS (Amendment) Bill, 2024 — Bill No. XXXIX of 2024**, shown as introduced in the Rajya Sabha on 7 February 2025. It proposes replacing section 63 Exception 2 with wording that subsisting marriage is not a mitigating factor. Official introduced bill: https://www.sansad.in/getFile/BillsTexts/RSBillTexts/Asintroduced/9e214202544058PM.pdf?source=legislation. No enactment or commencement evidence was established in this search.
+3. **BNS (Amendment) Bill, 2026 — Bill No. I of 2026**, introduced in the Rajya Sabha on 13 March 2026. It proposes adding section 24A concerning specified offences committed under voluntary intoxication. Official introduced bill: https://sansad.in/getFile/BillsTexts/RSBillTexts/Asintroduced/8e3192026103107AM.pdf?source=legislation. No enactment or commencement evidence was established in this search.
+
+### Current-law gate remains open
+
+The above is a lead inventory, not a complete parliamentary status audit. Before closing the gate, check each bill in the official parliamentary bill-status system and search the Gazette for an enacted Act plus commencement notification. Also verify the later-notification question for BNS s. 106(2), and check applicable State amendments. Do not represent any introduced bill as current law. The MHA New Criminal Laws page and India Code Act PDF are useful official starting points, but the India Code PDF located in this audit states that it is “As on the 6th October, 2025” and is not by itself a complete 2026 amendment certificate.
+
