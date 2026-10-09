@@ -130,13 +130,19 @@
         "Strike-off is an administrative removal of name. Winding up is a collective insolvency or Tribunal process. Restoration under s. 252 can revive the company as if the name had not been struck off."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
+      "caseLaw": [
+        {
+          "name": "Companies Act, 2013, section 248",
+          "citation": "Statutory strike-off",
+          "point": "The Registrar may strike off a company that is not carrying on business or not in operation, after notice. Strike-off is not winding up. Restoration is section 252."
+        }
+      ],
+      "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
         "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
       },
-      "lastBotRunAt": "2026-10-09T08:50:00.000Z",
+      "lastBotRunAt": "2026-10-09T14:30:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
         "No invented citations",
@@ -147,8 +153,8 @@
       "sourceFingerprint": "ca-s-248-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section rule written from the Companies Act, 2013 structure and indexed headings. Operative text and amendment commencement not independently re-fetched from India Code in this batch. No case added.",
+        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
+        "note": "Standard citation or statutory pointer added. Not a primary-report verification.",
         "date": "2026-10-09"
       },
       "indiaCode": {
@@ -158,12 +164,12 @@
         "note": "Act handle only. No section-level India Code URL was resolved."
       }
     },
-    "caseLawGate": "verification_required"
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T13:20:00.000Z",
+  "updatedAt": "2026-10-09T14:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
