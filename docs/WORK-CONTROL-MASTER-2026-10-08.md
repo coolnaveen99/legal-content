@@ -80,10 +80,10 @@ Missing gate: 384 scaffolds, case-law verification, India Code source attachment
 Subject: Company Law
 Topic/section range: ca-s-104 and ca-s-105 only
 Current main commit at claim: cc15b04eeaa1f46ed9c504977f2af609439655bf
-Current status: AVAILABLE → CLAIMED; not COMPLETE_LOCKED
+Current status: IN_PROGRESS — not COMPLETE_LOCKED
 Current owner: current assistant batch
 Latest evidence: docs/batches/company-law-task-inventory-2026-10-09.json; entries ca-s-104 and ca-s-105 have bot=null and verification=null; current topic files remain generic scaffold content.
 Missing gate: topic-specific statutory-source attachment and separately labelled educational illustration entities; statutory text/current-law verification remains open.
 Planned change: attach verified official India Code section URLs, add two clearly educational illustration entities for each section, and link them from the canonical topic JSON. Do not mark verified/published or close case-law/SEO/production gates.
-Validation: JSON parse and repository validator to be checked after changes.
-Evidence/commit: pending.
+Validation: JSON parse and focused integrity checks passed for all eight changed/new JSON entities; GitHub Actions result pending at time of record.
+Evidence/commit: docs/COMPANY-LAW-S104-S105-REMEDIATION-2026-10-09.md; canonical latest after inventory: 85bd8bebda592dc21bad41475297d82f5e3610a9; app mirrors: 469cdbb184e85133ee61667d42a103a400a14e50 and f05adb3cde422ad8a89bb95941233dcd342d5448.
