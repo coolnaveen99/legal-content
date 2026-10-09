@@ -22,7 +22,8 @@
     "verify:fv012": "node scripts/verify-fv012-production-readiness.mjs",
     "verify:fv013": "node scripts/verify-fv013-release-snapshot.mjs",
     "verify:fv014": "node scripts/verify-fv014-rollback-readiness.mjs",
-    "quality:final": "node scripts/final-content-quality-pass.mjs"
+    "quality:final": "node scripts/final-content-quality-pass.mjs",
+    "test:pdf-validation": "node --test scripts/validate-official-pdfs.test.mjs"
   },
   "engines": {
     "node": ">=18"
