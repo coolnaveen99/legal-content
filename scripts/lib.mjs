@@ -65,7 +65,11 @@ export function walkJsonFiles(dir, acc = []) {
 }
 
 export function loadJson(path) {
-  return JSON.parse(readFileSync(path, 'utf8'))
+  try {
+    return JSON.parse(readFileSync(path, 'utf8'))
+  } catch (error) {
+    throw new Error(`Invalid JSON in ${relative(REPO_ROOT, path)}: ${error.message}`)
+  }
 }
 
 export function sha256Canonical(obj) {
