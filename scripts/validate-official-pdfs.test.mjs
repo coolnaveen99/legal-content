@@ -141,6 +141,7 @@ test("previous manual closure is preserved only when the fetched PDF checksum is
     "2026-10-09T12:00:00.000Z",
   );
   assert.equal(sameDocument.pendingCount, 0);
+  assert.equal(sameDocument.status, "PASS");
   assert.equal(sameDocument.items[0].finalReviewOutcome, "verified");
   assert.equal(sameDocument.legalVerificationAuthorized, false);
 
