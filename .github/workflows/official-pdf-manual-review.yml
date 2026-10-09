@@ -1,0 +1,27 @@
+name: Official PDF technical review (manual dispatch)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-official-pdfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check explicit official PDF targets
+        run: node scripts/validate-official-pdfs.mjs --targets=docs/official-pdf-targets.json --output=docs/pdf-manual-review-queue.json
+      - name: Upload manual-review queue and run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-pdf-review-${{ github.run_id }}
+          path: docs/pdf-manual-review-queue.json
+          if-no-files-found: warn
+          retention-days: 30
