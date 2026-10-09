@@ -135,3 +135,12 @@ Continued the same pattern-based audit beyond s. 90. Direct-to-main fixes were m
 Pattern scans of s. 91–105 and s. 121–135 found no split-reference/undefined-marker matches, but s. 121–127 had several duplicate subsection labels that were corrected in derived hypotheticals. The scan of s. 136–150 identified additional repeated labels in s. 139, s. 140, s. 143 and s. 144; only s. 140 was corrected in this pass. The remaining s. 139/s. 143/s. 144 hits remain outstanding for careful review; no broad automated replacement was applied to those files. All topic statuses remain `review`.
 
 This is a narrow import-artifact audit, not word-for-word reconciliation of all 358 provisions, a current-amendment determination, case-law verification, or legal sign-off. Full-catalog validation and integration/SEO/production gates remain open.
+
+
+## BNS Sections 171–232: further derived-extract corrections — 2026-10-09
+
+Continued the recursive pattern audit and repaired derived hypothetical/essential-ingredient extracts where the imported text duplicated subsection labels or split statutory cross-references: s. 171 (undue influence at elections), s. 182, s. 191, s. 193, s. 194, s. 195, s. 197, s. 229, s. 230 and s. 232. For s. 182, the references to sub-section (1) were joined correctly. For s. 229, s. 230 and s. 232, duplicated labels and split sub-section (1) references were corrected. The official India Code text for s. 171 confirms that subsection (2) refers to subsection (1) and subsection (3) contains the separate exclusion; derived text now reflects that structure. The operative statutory-rule blocks were not intentionally changed.
+
+Pattern scans of s. 151–180 found no split-reference markers, though s. 170's list formatting needs semantic review rather than a blind label replacement. A scan of s. 181–195 found and corrected the confirmed duplicate-label issues in s. 182, s. 191, s. 193, s. 194 and s. 195. A scan of s. 196–210 found and corrected s. 197's duplicated opening label. A scan of s. 226–240 found and corrected s. 229, s. 230 and s. 232. Other detected issues, including s. 139, s. 143 and s. 144, remain open for careful review. All affected topics remain `review`.
+
+This is still a targeted import-artifact pass. It does not establish that every BNS section is word-for-word reconciled, that all amendments/commencement notices are current, or that case law and downstream production gates are complete. Full-catalog validation and qualified human legal sign-off remain required.
