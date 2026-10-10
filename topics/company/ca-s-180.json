@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-180",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 180 (Restrictions on board powers)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 180 (Restrictions on powers of Board)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution.",
-    "glance": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution.",
-    "study": "Companies Act, 2013 — Section 180 (Restrictions on board powers). The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
+    "overview": "Section 180 provides that the Board of Directors of a company shall exercise certain powers only with the consent of the company by a special resolution: (a) to sell, lease or otherwise dispose of the whole or substantially the whole of the undertaking of the company; (b) to invest otherwise in trust securities the amount of compensation received by the company as a result of any merger or amalgamation; (c) to borrow money, where the money to be borrowed, together with the money already borrowed, will exceed the aggregate of the paid-up share capital, free reserves and securities premium, apart from temporary loans obtained from the company’s bankers in the ordinary course of business; and (d) to remit, or give time for the repayment of, any debt due from a director.",
+    "glance": "Special resolution required for: sell/lease of whole or substantially whole undertaking; invest merger compensation other than in trust securities; borrow beyond paid-up capital + free reserves + securities premium (temporary bank loans excluded); remit director debt.",
+    "study": "The Board of Directors of a company shall exercise the following powers only with the consent of the company by a special resolution, namely: (a) to sell, lease or otherwise dispose of the whole or substantially the whole of the undertaking of the company or where the company owns more than one undertaking, of the whole or substantially the whole of any of such undertakings; (b) to invest otherwise in trust securities the amount of compensation received by it as a result of any merger or amalgamation; (c) to borrow money, where the money to be borrowed, together with the money already borrowed by the company will exceed aggregate of its paid-up share capital, free reserves and securities premium, apart from temporary loans obtained from the company’s bankers in the ordinary course of business; (d) to remit, or give time for the repayment of, any debt due from a director. Every special resolution passed by the company in general meeting in relation to the exercise of the powers referred to in clause (c) shall specify the total amount up to which moneys may be borrowed by the Board of Directors. Temporary loans mean loans repayable on demand or within six months from the date of the loan, such as short-term cash credit arrangements, discounting of bills, etc., but do not include loans raised for the purpose of financing capital expenditure. The expression “undertaking” means an undertaking in which the investment of the company exceeds twenty per cent of its net worth as per the audited balance sheet of the preceding financial year or an undertaking which generates twenty per cent of the total income of the company during the previous financial year; “substantially the whole of the undertaking” means twenty per cent or more of the value of the undertaking as per the audited balance sheet of the preceding financial year. Current-law framing: identify the act; apply the undertaking/borrowing definitions; require special resolution; note temporary-loan exclusion.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Borrowing does not include temporary loans in the ordinary course from the company's bankers. An undertaking is the statutory concept of an undertaking in which the company has invested a substantial part of its assets, as the explanation states. A special resolution under this section is filed under section 117.",
-        "order": 2
-      }
+      {"heading": "Sell or Lease Undertaking", "body": "Sale, lease or other disposal of the whole or substantially the whole of an undertaking requires special resolution. Undertaking and substantially-the-whole are defined by 20% net-worth/income and 20% value tests.", "order": 1},
+      {"heading": "Invest Merger Compensation", "body": "Investing merger/amalgamation compensation other than in trust securities requires special resolution.", "order": 2},
+      {"heading": "Borrow Beyond Limits", "body": "Borrowing that, with existing borrowings, exceeds paid-up share capital + free reserves + securities premium requires special resolution, excluding temporary loans from the company’s bankers in the ordinary course of business.", "order": 3},
+      {"heading": "Remit Director Debt", "body": "Remitting or giving time for repayment of any debt due from a director requires special resolution.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-180",
-        "title": "Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-180", "section": "Section 180", "title": "Restrictions on powers of Board"}],
     "examples": [
-      {
-        "title": "Powers reserved to members",
-        "body": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution."
-      }
+      {"title": "Borrowing beyond limit", "body": "A company with paid-up capital and free reserves of ₹10 crore already has borrowings of ₹8 crore and proposes a further ₹5 crore term loan (not a temporary bank loan). Aggregate borrowings would exceed the s. 180(1)(c) limit; a special resolution is required.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Temporary bank loan", "body": "A short-term cash credit from the company’s bankers repayable on demand is a temporary loan in the ordinary course and is excluded from the borrowing ceiling calculation under s. 180.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is an ordinary resolution enough to authorise sale of substantially the whole undertaking?", "analysis": "No. Section 180 requires the consent of the company by a special resolution for sale, lease or other disposal of the whole or substantially the whole of an undertaking."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-180-distinction",
-        "title": "Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180) and connected legal concept",
-        "left": "Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-180-trap-1",
-        "trap": "Treating Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-180-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-180-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s180-vs-s179", "title": "Restrictions on Board powers (s. 180) vs powers of Board (s. 179)", "left": "Specified acts need members’ special resolution", "right": "Board residual and meeting-only powers", "rows": [{"point": "Focus", "left": "Member reservation", "right": "Board competence"}]}],
+    "misconceptions": [{"id": "ca-s180-trap-1", "trap": "All borrowings need a special resolution.", "correction": "Only borrowings that take the aggregate above paid-up capital + free reserves + securities premium need a special resolution; temporary loans from the company’s bankers in the ordinary course are excluded."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 180 require?",
-        "answer": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution."
-      }
+      {"id": "ca-s180-brief", "draftingCategory": "brief", "question": "How should a Section 180 problem be analysed?", "answer": "I. Identify the act. II. Apply undertaking/borrowing definitions. III. Require special resolution. IV. Note temporary-loan exclusion. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s180-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Act facts; limits; resolution type; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 180 — Meetings of Board and Its Powers provision (Companies Act s. 180)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "Automatic Self-Cleansing Filter Syndicate Co Ltd v Cuninghame",
-        "citation": "[1906] 2 Ch 34",
-        "point": "Powers vested in the board are not exercisable by the general meeting. Section 180 then reserves specified powers to the company by special resolution."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-181",
-      "ca-s-179",
-      "ca-s-182"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 180", "Connected: Sections 179, 117"],
+    "examTips": ["Special resolution for four listed acts.", "Undertaking = 20% net worth or 20% income test.", "Borrowing ceiling excludes temporary bank loans.", "Special resolution for borrowing must specify the total amount."],
+    "revisionPoints": ["Sell or lease undertaking", "Invest merger compensation", "Borrow beyond limits", "Remit director debt"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-179"],
+    "illustrations": ["illustration:india:company-ca-s-180-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-180",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution.",
-      "legalPrinciple": "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution.",
-      "statutoryFramework": "Companies Act, 2013, section 180.",
-      "essentialIngredients": [
-        "Powers reserved to members",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 180 (Restrictions on board powers). The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
-      "examples": [
-        "Powers reserved to members"
-      ],
-      "keyTakeaways": [
-        "The board may sell or lease an undertaking, invest compensation amounts received on compulsory acquisition, borrow beyond paid-up capital and free reserves, and remit a debt due by a director, only with a special resolution."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Automatic Self-Cleansing Filter Syndicate Co Ltd v Cuninghame",
-          "citation": "[1906] 2 Ch 34",
-          "point": "Powers vested in the board are not exercisable by the general meeting. Section 180 then reserves specified powers to the company by special resolution."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the four acts requiring special resolution under s. 180.", "Apply the undertaking and borrowing definitions."],
+      "definition": "Section 180 requires special resolution for sale/lease of whole or substantially whole undertaking, investment of merger compensation outside trust securities, borrowing beyond prescribed limits, and remission of director debt.",
+      "legalPrinciple": "High-impact capital and asset decisions are reserved to members by special resolution rather than left solely to the Board.",
+      "statutoryFramework": "Companies Act, 2013, Section 180.",
+      "essentialIngredients": ["Special resolution for listed acts", "Undertaking / substantially-the-whole definitions", "Borrowing ceiling and temporary-loan exclusion", "Specified total amount in borrowing resolution"],
+      "detailedExplanation": "Section 180 is the member-reservation counterpart to the Board’s residual powers in s. 179.",
+      "examples": ["Borrowing beyond limit", "Temporary bank loan"],
+      "problemApplication": "Map the act to a clause; apply definitions; require special resolution.",
+      "keyTakeaways": ["Four special-resolution acts.", "20% undertaking tests.", "Temporary loans excluded from borrowing ceiling."],
+      "authoritativeSources": ["Companies Act, 2013, Section 180"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; prior mirrored English citation not carried forward as locked authority; case-law verification separate.", "date": "2026-10-10"},
+      "distinctions": ["Restrictions on Board powers (s. 180) vs powers of Board (s. 179)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Four acts; definitions; conclude.", "sixteenMark": "Introduction; each clause; undertaking/borrowing tests; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s180-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-180", "restrictions-on-board-powers"]
 }
