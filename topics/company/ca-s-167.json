@@ -2,243 +2,76 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-167",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 167 (Vacation of office)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 167 (Vacation of office of director)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184.",
-    "glance": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184.",
-    "study": "Companies Act, 2013 — Section 167 (Vacation of office). Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 167 provides that the office of a director shall become vacant in case the director incurs any of the disqualifications specified in section 164; absents himself from all the meetings of the Board of Directors held during a period of twelve months with or without seeking leave of absence; acts in contravention of section 184 relating to entering into contracts or arrangements in which he is directly or indirectly interested; fails to disclose his interest in any contract or arrangement in which he is directly or indirectly interested in contravention of section 184; becomes disqualified by an order of a court or the Tribunal; is convicted of an offence involving moral turpitude or otherwise and sentenced to imprisonment for not less than six months; or is removed in pursuance of the provisions of the Act. A private company may provide additional grounds in its articles.",
+    "glance": "Office vacates automatically on s. 164 disqualification, 12-month absence from all board meetings, s. 184 contraventions, court/Tribunal disqualification, conviction with ≥6 months’ imprisonment, or removal; private companies may add article grounds.",
+    "study": "The office of a director shall become vacant if he incurs any of the disqualifications specified in section 164; absents himself from all the meetings of the Board held during a period of twelve months with or without seeking leave of absence of the Board; acts in contravention of the provisions of section 184 relating to entering into contracts or arrangements in which he is directly or indirectly interested; fails to disclose his interest in contravention of section 184; becomes disqualified by an order of a court or the Tribunal; is convicted of an offence involving moral turpitude or otherwise and sentenced in respect thereof to imprisonment for not less than six months; or is removed in pursuance of the provisions of this Act. Where a director incurs disqualification under section 164(2), the office of the director shall become vacant in all the companies other than the company which is in default under that subsection. A private company may, by its articles, provide any other ground for vacation. If a person continues to act as director after the office has become vacant, he is liable to the penalty provided. Current-law framing: identify the ground; apply automatic vacation; note s. 164(2) multi-company effect; distinguish resignation (s. 168) and removal (s. 169).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Vacation is automatic on the stated events. Where the ground is section 164(2), the office in all companies other than the defaulting company becomes vacant. A private company may add grounds in its articles. Acting after vacation attracts the penalty.",
-        "order": 2
-      }
+      {"heading": "Disqualification Ground", "body": "Office vacates if the director incurs any disqualification under section 164. Under s. 164(2), vacation applies in all companies other than the defaulting company.", "order": 1},
+      {"heading": "Absence", "body": "Absence from all Board meetings held during a period of twelve months, with or without leave, vacates the office.", "order": 2},
+      {"heading": "Interest / Disclosure", "body": "Acting in contravention of section 184, or failing to disclose interest under section 184, vacates the office.", "order": 3},
+      {"heading": "Court / Conviction / Removal", "body": "Court or Tribunal disqualification order; conviction with imprisonment of not less than six months; or removal under the Act — each vacates the office.", "order": 4},
+      {"heading": "Private-Company Articles", "body": "A private company may provide additional grounds for vacation in its articles.", "order": 5}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-167",
-        "title": "Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-167", "section": "Section 167", "title": "Vacation of office of director"}],
     "examples": [
-      {
-        "title": "Vacation of office of director",
-        "body": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184."
-      }
+      {"title": "Twelve-month absence", "body": "A director attends no Board meeting for twelve consecutive months. Under s. 167 the office becomes vacant whether or not leave was sought.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "s. 164(2) multi-company effect", "body": "A person is a director of Company A (in default under s. 164(2)) and Company B. The office becomes vacant in Company B (and other non-defaulting companies), not in Company A under the s. 164(2) rule as framed.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is a board resolution required to vacate the office when a s. 167 ground occurs?", "analysis": "No. Vacation under section 167 is automatic on the occurrence of a stated ground. A resolution may record the fact but is not the source of the vacancy."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-167-distinction",
-        "title": "Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167) and connected legal concept",
-        "left": "Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-167-trap-1",
-        "trap": "Treating Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-167-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-167-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s167-vs-s168-s169", "title": "Vacation (s. 167) vs resignation (s. 168) vs removal (s. 169)", "left": "Automatic vacancy on statutory grounds", "right": "Resignation is voluntary notice; removal is by ordinary resolution after special notice", "rows": [{"point": "Focus", "left": "Automatic", "right": "Voluntary or member-driven"}]}],
+    "misconceptions": [{"id": "ca-s167-trap-1", "trap": "Absence from some but not all meetings in twelve months vacates the office.", "correction": "Section 167 requires absence from all Board meetings held during a period of twelve months."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 167 require?",
-        "answer": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184."
-      }
+      {"id": "ca-s167-brief", "draftingCategory": "brief", "question": "How should a Section 167 problem be analysed?", "answer": "I. Identify the ground. II. Apply automatic vacation. III. Note s. 164(2) multi-company effect if relevant. IV. Distinguish resignation/removal. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s167-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Ground facts; automatic vacation; multi-company effect if any; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 167 — Appointment and Qualifications of Directors provision (Companies Act s. 167)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-168",
-      "ca-s-166",
-      "ca-s-169"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 167", "Connected: Sections 164, 168, 169, 184"],
+    "examTips": ["Automatic on stated grounds.", "12-month absence from all Board meetings.", "s. 164(2) vacates other companies’ offices.", "Distinguish resignation and removal."],
+    "revisionPoints": ["Disqualification ground", "Absence", "Interest/disclosure", "Court/conviction/removal", "Private-company articles"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-164", "company-ca-s-168", "company-ca-s-169"],
+    "illustrations": ["illustration:india:company-ca-s-167-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-167",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184.",
-      "legalPrinciple": "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184.",
-      "statutoryFramework": "Companies Act, 2013, section 167.",
-      "essentialIngredients": [
-        "Vacation of office of director",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 167 (Vacation of office). Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Vacation of office of director"
-      ],
-      "keyTakeaways": [
-        "Office of a director becomes vacant on the grounds in the section, including incurring a disqualification under section 164, absence from all board meetings for twelve months without leave, and contravention of section 184."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 167",
-          "citation": "Statutory vacation of office",
-          "point": "The office of a director falls vacant on the grounds in the section, including disqualification under section 164, absence from all meetings for twelve months, and conviction of an offence involving imprisonment of the stated term. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the automatic vacation grounds under s. 167.", "Distinguish vacation from resignation and removal."],
+      "definition": "Section 167 provides that a director’s office becomes vacant automatically on the statutory grounds listed, including s. 164 disqualification, twelve-month absence from all Board meetings, and s. 184 contraventions.",
+      "legalPrinciple": "Certain events are incompatible with continued occupancy of the office of director and operate without a separate removal resolution.",
+      "statutoryFramework": "Companies Act, 2013, Section 167.",
+      "essentialIngredients": ["Ground under s. 167", "Automatic vacation", "s. 164(2) multi-company effect where applicable", "Private company may add article grounds"],
+      "detailedExplanation": "Section 167 is the automatic-vacation provision complementary to disqualification, resignation and removal.",
+      "examples": ["Twelve-month absence", "s. 164(2) multi-company effect"],
+      "problemApplication": "Map facts to a ground; apply automatic vacation.",
+      "keyTakeaways": ["Automatic grounds.", "All meetings in 12 months.", "s. 164(2) effect on other companies."],
+      "authoritativeSources": ["Companies Act, 2013, Section 167"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Vacation (s. 167) vs resignation (s. 168) vs removal (s. 169)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Grounds; automatic; conclude.", "sixteenMark": "Introduction; grounds; s. 164(2); vs resignation/removal; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s167-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-167", "vacation-of-office"]
 }
