@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-154",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 154 (Allotment of DIN)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 154 (Allotment of Director Identification Number)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The Central Government allots a Director Identification Number within the prescribed period.",
-    "glance": "The Central Government allots a Director Identification Number within the prescribed period.",
-    "study": "Companies Act, 2013 — Section 154 (Allotment of DIN). The Central Government allots a Director Identification Number within the prescribed period. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 154 provides that the Central Government shall, within the prescribed period from receipt of an application under section 153, allot a Director Identification Number to the applicant in such manner as may be prescribed.",
+    "glance": "Central Government allots a DIN within the prescribed period after a valid application under s. 153; allotment is administrative and enables appointment under s. 152.",
+    "study": "The Central Government shall, within such time as may be prescribed, allot a Director Identification Number to an applicant under section 153 in such manner as may be prescribed. Allotment is an administrative act following a complete application. The DIN is quoted on consents, returns and filings. A wrong or duplicate allotment is addressed under the correction and prohibition provisions (ss. 155–156 and related rules), not by treating the person as having two valid DINs. Current-law framing: confirm application under s. 153; identify allotment by the Central Government within the prescribed period; link to appointment under s. 152.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The Central Government allots a Director Identification Number within the prescribed period.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Allotment is an administrative act. A wrong or duplicate allotment can be corrected under the later sections. The number is quoted on returns and consents.",
-        "order": 2
-      }
+      {"heading": "Who Allots", "body": "The Central Government allots the Director Identification Number.", "order": 1},
+      {"heading": "Trigger and Time", "body": "Allotment follows an application under section 153 and must be made within the prescribed period.", "order": 2},
+      {"heading": "Manner", "body": "Allotment is in such manner as may be prescribed.", "order": 3},
+      {"heading": "Effect", "body": "Once allotted, the DIN is the unique identifier used for appointment, consent and ROC filings under the connected sections.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-154",
-        "title": "Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-154", "section": "Section 154", "title": "Allotment of Director Identification Number"}],
     "examples": [
-      {
-        "title": "Allotment of DIN",
-        "body": "The Central Government allots a Director Identification Number within the prescribed period."
-      }
+      {"title": "Timely allotment", "body": "An individual applies under s. 153. The Central Government allots a DIN within the prescribed period. The person may then consent to appointment under s. 152.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "No application, no allotment", "body": "Without a complete application under s. 153, there is nothing for the Central Government to allot under s. 154.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does allotment of a DIN itself appoint the person as a director?", "analysis": "No. Section 154 is allotment only. Appointment remains under section 152 (and composition under s. 149)."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-154-distinction",
-        "title": "Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154) and connected legal concept",
-        "left": "Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-154-trap-1",
-        "trap": "Treating Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-154-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-154-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s154-vs-s153", "title": "Allotment of DIN (s. 154) vs application for DIN (s. 153)", "left": "Central Government’s duty to allot within prescribed time", "right": "Individual’s duty to apply in prescribed form with fee", "rows": [{"point": "Focus", "left": "Allotment", "right": "Application"}]}],
+    "misconceptions": [{"id": "ca-s154-trap-1", "trap": "DIN allotment is the same as appointment as director.", "correction": "Allotment under s. 154 is only the grant of the identifier; appointment is a separate act under s. 152."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 154?",
-        "answer": "The Central Government allots a Director Identification Number within the prescribed period."
-      }
+      {"id": "ca-s154-brief", "draftingCategory": "brief", "question": "How should a Section 154 problem be analysed?", "answer": "I. Confirm application under s. 153. II. State Central Government allotment within prescribed period. III. Link to appointment under s. 152. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s154-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Application facts; allotment status; timeline; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 154 — Appointment and Qualifications of Directors provision (Companies Act s. 154)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "The Central Government allots a Director Identification Number within the prescribed period."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-155",
-      "ca-s-153",
-      "ca-s-156"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 154", "Connected: Sections 153, 155, 152"],
+    "examTips": ["Allotment is by the Central Government.", "Follows application under s. 153.", "Does not itself appoint the director."],
+    "revisionPoints": ["Who allots", "Trigger and time", "Manner", "Effect"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-153", "company-ca-s-155", "company-ca-s-152"],
+    "illustrations": ["illustration:india:company-ca-s-154-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-154",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The Central Government allots a Director Identification Number within the prescribed period.",
-      "legalPrinciple": "The Central Government allots a Director Identification Number within the prescribed period.",
-      "statutoryFramework": "Companies Act, 2013, section 154.",
-      "essentialIngredients": [
-        "Allotment of DIN"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 154 (Allotment of DIN). The Central Government allots a Director Identification Number within the prescribed period. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "Allotment of DIN"
-      ],
-      "keyTakeaways": [
-        "The Central Government allots a Director Identification Number within the prescribed period."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 154",
-          "citation": "Companies Act, 2013, section 154",
-          "point": "The Central Government allots a Director Identification Number within the prescribed period.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the Central Government’s allotment duty under s. 154.", "Distinguish allotment from application and from appointment."],
+      "definition": "Section 154 requires the Central Government to allot a Director Identification Number within the prescribed period after a valid application under section 153.",
+      "legalPrinciple": "Unique director identification is completed by governmental allotment following a statutory application.",
+      "statutoryFramework": "Companies Act, 2013, Section 154.",
+      "essentialIngredients": ["Application under s. 153", "Allotment by Central Government", "Within prescribed period", "In prescribed manner"],
+      "detailedExplanation": "Section 154 is the allotment leg of the DIN regime.",
+      "examples": ["Timely allotment", "No application, no allotment"],
+      "problemApplication": "Confirm application; check allotment; link to appointment.",
+      "keyTakeaways": ["CG allots.", "After s. 153 application.", "Allotment ≠ appointment."],
+      "authoritativeSources": ["Companies Act, 2013, Section 154"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Allotment of DIN (s. 154) vs application for DIN (s. 153)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Allotment duty; time; conclude.", "sixteenMark": "Introduction; application link; allotment; vs appointment; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:00:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s154-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-154", "din-allotment"]
 }
