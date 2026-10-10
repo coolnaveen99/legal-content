@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-197",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 197 (Managerial remuneration)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 197 (Overall maximum managerial remuneration and managerial remuneration in case of absence or inadequacy of profits)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors.",
-    "glance": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors.",
-    "study": "Companies Act, 2013 — Section 197 (Managerial remuneration). Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 197 caps the total managerial remuneration payable by a public company to its directors, including managing director and whole-time director, and its manager in respect of any financial year at eleven per cent of the net profits of that company for that financial year computed in the manner laid down in section 198, except that the company in general meeting may, with the approval of the Central Government where required by the rules in force, authorise payment of remuneration exceeding eleven per cent. Individual ceilings apply within that overall limit. Where in any financial year a company has no profits or its profits are inadequate, it may pay remuneration in accordance with Schedule V, subject to the conditions stated. Excess remuneration is recoverable from the person who received it. Sitting fees are dealt with separately under the section.",
+    "glance": "Public company: total managerial remuneration ≤ 11% of net profits (s. 198); GM may authorise more (CG approval where rules require); individual ceilings for MD/WTD/manager and other directors; inadequate profits → Schedule V route; excess recoverable; sitting fees separate.",
+    "study": "The total managerial remuneration payable by a public company to its directors, including managing director and whole-time director, and its manager in respect of any financial year shall not exceed eleven per cent of the net profits of that company for that financial year computed in the manner laid down in section 198 except that the company in general meeting may, authorise the payment of remuneration exceeding eleven per cent of the net profits of the company, subject to the provisions of Schedule V. The remuneration payable to any one managing director or whole-time director or manager shall not exceed five per cent of the net profits, and if there is more than one such director, remuneration shall not exceed ten per cent of the net profits to all such directors and manager taken together. Remuneration payable to directors who are neither managing directors nor whole-time directors shall not exceed one per cent of the net profits of the company if there is a managing or whole-time director or manager, and three per cent in any other case. Where in any financial year a company has no profits or its profits are inadequate, the company shall not pay to its directors, including managing or whole-time director or manager, any remuneration exclusive of sitting fees except in accordance with the provisions of Schedule V. If any director draws or receives, directly or indirectly, by way of remuneration any such sums in excess of the limit, he shall refund such sums to the company and until such sum is refunded, hold it in trust for the company. Current-law framing: compute net profits under s. 198; apply 11% overall and individual ceilings; test special resolution/Schedule V path for excess or inadequate profits; apply recovery of excess.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Net profits are computed under section 198. Where profits are inadequate, Schedule V or Central Government approval applies. Sitting fees are dealt with separately as the section provides. Excess remuneration is recoverable. Appointment of the office is section 196; this section is the pay limit.",
-        "order": 2
-      }
+      {"heading": "Overall Ceiling", "body": "Public company: total managerial remuneration to directors (including MD/WTD) and manager ≤ 11% of net profits computed under s. 198, unless GM authorises more subject to Schedule V / rules.", "order": 1},
+      {"heading": "Individual Ceilings", "body": "One MD/WTD/manager ≤ 5%; more than one such persons together ≤ 10%; other directors ≤ 1% (if there is MD/WTD/manager) or 3% (otherwise).", "order": 2},
+      {"heading": "Inadequate Profits", "body": "No profits or inadequate profits: remuneration (exclusive of sitting fees) only in accordance with Schedule V.", "order": 3},
+      {"heading": "Recovery of Excess", "body": "Excess remuneration is refundable to the company and held in trust until refunded.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-197",
-        "title": "Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-197", "section": "Section 197", "title": "Overall maximum managerial remuneration and managerial remuneration in case of absence or inadequacy of profits"}],
     "examples": [
-      {
-        "title": "Managerial remuneration",
-        "body": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors."
-      }
+      {"title": "Exceeding 11%", "body": "A public company’s net profits under s. 198 are ₹10 crore. Total managerial remuneration proposed is ₹1.5 crore (15%). Without GM authorisation under the section and applicable Schedule V conditions, the payment exceeds the 11% ceiling.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Inadequate profits", "body": "A public company has inadequate profits in a year. It may still pay MD remuneration only in accordance with Schedule V conditions, not by freely exceeding the percentage ceilings.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does Board approval alone allow managerial pay above 11% of net profits?", "analysis": "No. Exceeding the overall 11% ceiling requires authorisation by the company in general meeting, subject to Schedule V and any Central Government approval the rules in force require. Board approval is not enough."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-197-distinction",
-        "title": "Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197) and connected legal concept",
-        "left": "Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197)",
-        "right": "Companies Act s. 196 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 199 — Appointment and Remuneration of Managerial Personnel provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-197-trap-1",
-        "trap": "Treating Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-197-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-197-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s197-vs-s196", "title": "Managerial remuneration (s. 197) vs appointment of MD/WTD/manager (s. 196)", "left": "How much may be paid", "right": "Who may be appointed and for how long", "rows": [{"point": "Focus", "left": "Pay ceilings", "right": "Appointment and term"}]}],
+    "misconceptions": [{"id": "ca-s197-trap-1", "trap": "Private companies are freely subject to the same 11% ceiling as public companies under s. 197.", "correction": "Section 197’s overall and individual percentage ceilings are framed for public companies. Private-company treatment follows the Act and any applicable exemptions; do not assume the public-company ceiling applies automatically."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 197 require?",
-        "answer": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors."
-      }
+      {"id": "ca-s197-brief", "draftingCategory": "brief", "question": "How should a Section 197 problem be analysed?", "answer": "I. Compute net profits under s. 198. II. Apply 11% and individual ceilings. III. Test GM/Schedule V path if exceeded or profits inadequate. IV. Apply recovery of excess. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s197-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Profit computation; ceilings; approval path; excess recovery; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 197)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-198",
-      "ca-s-196",
-      "ca-s-199"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 197", "Connected: Sections 196, 198, Schedule V"],
+    "examTips": ["11% overall of s. 198 net profits.", "Individual 5%/10% and 1%/3% ceilings.", "Inadequate profits → Schedule V.", "Excess held in trust and recoverable."],
+    "revisionPoints": ["Overall ceiling", "Individual ceilings", "Inadequate profits", "Recovery of excess"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-196", "company-ca-s-198", "company-ca-s-199"],
+    "illustrations": ["illustration:india:company-ca-s-197-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-197",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors.",
-      "legalPrinciple": "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors.",
-      "statutoryFramework": "Companies Act, 2013, section 197.",
-      "essentialIngredients": [
-        "Managerial remuneration",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 197 (Managerial remuneration). Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Managerial remuneration"
-      ],
-      "keyTakeaways": [
-        "Total managerial remuneration is capped at eleven per cent of net profits unless a special resolution, and the rules in force, allow more, with individual ceilings for managing and whole-time directors and for other directors."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 197 and Schedule V",
-          "citation": "Statutory remuneration ceiling",
-          "point": "Managerial remuneration is capped by section 197 and Schedule V. An excess needs the approval the section requires. This entry is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the overall and individual managerial remuneration ceilings under s. 197.", "Explain the inadequate-profits and excess-recovery rules."],
+      "definition": "Section 197 caps public-company managerial remuneration at eleven per cent of net profits under s. 198, with individual ceilings, a Schedule V path for inadequate profits, and recovery of excess.",
+      "legalPrinciple": "Managerial pay is tied to company profitability and member oversight, with a statutory clawback for excess draws.",
+      "statutoryFramework": "Companies Act, 2013, Section 197 and Schedule V.",
+      "essentialIngredients": ["Public company net profits under s. 198", "Overall 11% ceiling unless GM authorises more", "Individual ceilings for MD/WTD/manager and other directors", "Schedule V where profits absent or inadequate", "Excess recoverable and held in trust"],
+      "detailedExplanation": "Section 197 is the primary managerial pay-limit provision, using the s. 198 profit base.",
+      "examples": ["Exceeding 11%", "Inadequate profits"],
+      "problemApplication": "Compute profits; apply ceilings; test Schedule V; recover excess.",
+      "keyTakeaways": ["11% overall.", "Individual ceilings.", "Schedule V for inadequate profits.", "Excess recoverable."],
+      "authoritativeSources": ["Companies Act, 2013, Section 197"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; CG-approval mechanics depend on rules in force; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Managerial remuneration (s. 197) vs appointment of MD/WTD/manager (s. 196)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Ceilings; inadequate profits; conclude.", "sixteenMark": "Introduction; overall; individual; Schedule V; recovery; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:10:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s197-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-197", "managerial-remuneration"]
 }

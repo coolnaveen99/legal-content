@@ -2,243 +2,74 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-198",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 198 (Calculation of net profits)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 198 (Calculation of profits)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-    "glance": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-    "study": "Companies Act, 2013 — Section 198 (Calculation of net profits). Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 198 prescribes the method of computing net profits of a company in any financial year for the purposes of section 197 (managerial remuneration) and is also used for corporate social responsibility under section 135. Credits are brought in as the section directs; specified items (including premiums on shares or debentures, profits on sale of forfeited shares, and certain unrealised gains) are excluded; and stated deductions (including usual working charges, directors’ remuneration, bonus, interest, repairs, depreciation, and tax on profits) are allowed or disallowed as listed.",
+    "glance": "Statutory profit base for s. 197 remuneration and s. 135 CSR: prescribed credits in; specified items out; listed deductions applied; not ordinary accounting profit without adjustment.",
+    "study": "In computing the net profits of a company in any financial year for the purpose of section 197, credit shall be given for the sums specified and credit shall not be given for the sums specified (including premiums on shares or debentures issued, profits on sales of forfeited shares, and profits of a capital nature including profits from the sale of the undertaking or any part thereof). In making the computation, certain sums are deducted (including usual working charges, directors’ remuneration, bonus or commission paid to staff, tax on profits, interest on debentures and loans, repairs, and depreciation to the extent specified). Certain other sums are not to be deducted (including income-tax paid, compensation or damages paid voluntarily, and loss of a capital nature). The same computation is used for the net-profit base relevant to section 135 CSR. Current-law framing: start from the financial-year results; apply s. 198 credits, exclusions and deductions; use the resulting figure for s. 197 ceilings and, where applicable, s. 135.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Profits are computed after the credits and before the deductions the section lists. Profits by way of premium on shares, profits on sale of forfeited shares, and unrealised gains are not brought in as the section directs. Sections 135 and 197 both use this computation.",
-        "order": 2
-      }
+      {"heading": "Purpose", "body": "Net profits for managerial remuneration under s. 197 and for CSR under s. 135 are computed under this section.", "order": 1},
+      {"heading": "Credits and Exclusions", "body": "Prescribed credits are brought in; premiums on shares/debentures, profits on forfeited shares, and certain capital/unrealised items are not credited as the section directs.", "order": 2},
+      {"heading": "Deductions", "body": "Listed working charges, remuneration, interest, repairs, depreciation and tax items are deducted or not deducted as the section specifies.", "order": 3}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-198",
-        "title": "Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-198", "section": "Section 198", "title": "Calculation of profits"}],
     "examples": [
-      {
-        "title": "Calculation of net profits",
-        "body": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR."
-      }
+      {"title": "Premium on shares excluded", "body": "A company earns a large premium on a fresh issue of shares. Under s. 198 that premium is not brought into the net-profit computation used for managerial remuneration.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Shared base for CSR", "body": "The same s. 198 net-profit figure that supports the s. 197 remuneration ceiling is also the profit base relevant to the company’s CSR obligation under s. 135.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May the Board use ordinary book profit without s. 198 adjustments for the 11% remuneration ceiling?", "analysis": "No. Section 197 expressly requires net profits to be computed in the manner laid down in section 198. Book profit without the statutory adjustments is not the correct base."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-198-distinction",
-        "title": "Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198) and connected legal concept",
-        "left": "Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198)",
-        "right": "Companies Act s. 196 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 199 — Appointment and Remuneration of Managerial Personnel provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-198-trap-1",
-        "trap": "Treating Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-198-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-198-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s198-vs-s197", "title": "Calculation of profits (s. 198) vs managerial remuneration (s. 197)", "left": "How net profits are computed", "right": "Percentage ceilings applied to that figure", "rows": [{"point": "Focus", "left": "Computation", "right": "Ceiling application"}]}],
+    "misconceptions": [{"id": "ca-s198-trap-1", "trap": "Any profit figure from the audited accounts can be used for the 11% ceiling without further adjustment.", "correction": "Section 198 mandates specific credits, exclusions and deductions. The s. 197 ceiling is applied to the figure so computed, not to unadjusted book profit."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 198?",
-        "answer": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR."
-      }
+      {"id": "ca-s198-brief", "draftingCategory": "brief", "question": "How should a Section 198 problem be analysed?", "answer": "I. Identify the purpose (s. 197 or s. 135). II. Apply credits and exclusions. III. Apply listed deductions. IV. State the resulting net-profit figure. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s198-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Computation steps; exclusions; deductions; resulting figure; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 198)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-199",
-      "ca-s-197",
-      "ca-s-200"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 198", "Connected: Sections 197, 135"],
+    "examTips": ["s. 198 is the profit engine for s. 197 and s. 135.", "Premiums and certain capital items excluded.", "Do not use unadjusted book profit for the 11% ceiling."],
+    "revisionPoints": ["Purpose", "Credits and exclusions", "Deductions"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-197", "company-ca-s-135"],
+    "illustrations": ["illustration:india:company-ca-s-198-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-198",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-      "legalPrinciple": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-      "statutoryFramework": "Companies Act, 2013, section 198.",
-      "essentialIngredients": [
-        "Calculation of net profits"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 198 (Calculation of net profits). Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Calculation of net profits"
-      ],
-      "keyTakeaways": [
-        "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 198",
-          "citation": "Companies Act, 2013, section 198",
-          "point": "Section 198 prescribes the additions and deductions for computing net profits for managerial remuneration and for CSR.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the role of s. 198 in computing net profits.", "Identify key exclusions and the link to ss. 197 and 135."],
+      "definition": "Section 198 prescribes the statutory method of computing net profits for managerial remuneration under s. 197 and for CSR under s. 135.",
+      "legalPrinciple": "Managerial pay and CSR obligations are measured against a standardised profit base, not raw accounting profit.",
+      "statutoryFramework": "Companies Act, 2013, Section 198.",
+      "essentialIngredients": ["Net profits for s. 197 and s. 135", "Prescribed credits and exclusions", "Listed deductions applied as directed"],
+      "detailedExplanation": "Section 198 is the computational foundation for remuneration ceilings and CSR.",
+      "examples": ["Premium on shares excluded", "Shared base for CSR"],
+      "problemApplication": "Adjust book results per s. 198; feed the figure into s. 197 or s. 135.",
+      "keyTakeaways": ["Statutory profit base.", "Exclusions matter.", "Used by both s. 197 and s. 135."],
+      "authoritativeSources": ["Companies Act, 2013, Section 198"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; full credit/deduction list is detailed in the Act; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Calculation of profits (s. 198) vs managerial remuneration (s. 197)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Purpose; key adjustments; conclude.", "sixteenMark": "Introduction; credits; exclusions; deductions; link to ss. 197/135; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:10:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s198-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-198", "calculation-of-profits"]
 }
