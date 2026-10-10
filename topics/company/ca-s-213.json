@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-213",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 213 (Investigation in other cases)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 213 (Investigation into company’s affairs in other cases)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-    "glance": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-    "study": "Companies Act, 2013 — Section 213 (Investigation in other cases). The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 213 empowers the Tribunal to order investigation into the affairs of a company on an application by members meeting the prescribed threshold (or by other persons as the section allows), where the business is being conducted with intent to defraud creditors, members or any other person, or otherwise for a fraudulent or unlawful purpose, or where persons concerned in formation or management have been guilty of fraud, misfeasance or other misconduct. The Tribunal may also order investigation on application by any other person or otherwise if circumstances suggest that the business is being conducted as above. The order is made to the Central Government, which then appoints inspectors. This is distinct from the Central Government’s own power under section 210 and from SFIO assignment under section 212.",
+    "glance": "Tribunal may order investigation on member application (threshold, unless waived) or other persons; grounds: intent to defraud, unlawful purpose, fraud/misfeasance/misconduct; order to CG to appoint inspectors; distinct from ss. 210 and 212.",
+    "study": "The Tribunal may, on an application made by not less than one hundred members or members holding not less than one-tenth of the total voting power (or such other number as may be prescribed), or on an application by any other person or otherwise, if it is satisfied that there are circumstances suggesting that—(a) the business of the company is being conducted with intent to defraud its creditors, members or any other person, or otherwise for a fraudulent or unlawful purpose, or in a manner oppressive to any of its members, or that the company was formed for any fraudulent or unlawful purpose; or (b) persons concerned in the formation or management have been guilty of fraud, misfeasance or other misconduct towards the company or its members, order investigation into the affairs of the company. The Central Government shall appoint inspectors on such order. Current-law framing: test standing (member threshold or other person); establish the statutory circumstances (defraud, unlawful purpose, fraud/misfeasance/misconduct); Tribunal order; CG appoints inspectors. Distinct from CG-initiated investigation under s. 210 and SFIO under s. 212.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The threshold for members tracks the oppression threshold unless the Tribunal waives it. The order goes to the Central Government, which appoints inspectors. This is distinct from the Government's own power under section 210.",
-        "order": 2
-      }
+      {"heading": "Standing", "body": "Application by members meeting the numerical or voting-power threshold (unless the Tribunal waives), or by any other person, or otherwise as the section allows.", "order": 1},
+      {"heading": "Grounds", "body": "Circumstances suggesting business conducted with intent to defraud, or for fraudulent/unlawful purpose, or oppressive; or formation/management persons guilty of fraud, misfeasance or misconduct.", "order": 2},
+      {"heading": "Order and Follow-Through", "body": "Tribunal orders investigation; Central Government appoints inspectors.", "order": 3},
+      {"heading": "Relationship to Other Routes", "body": "Distinct from CG’s own power under s. 210 and SFIO assignment under s. 212.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-213",
-        "title": "Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-213", "section": "Section 213", "title": "Investigation into company’s affairs in other cases"}],
     "examples": [
-      {
-        "title": "Tribunal-ordered investigation",
-        "body": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct."
-      }
+      {"title": "Member-threshold application", "body": "One hundred members apply to the Tribunal alleging that the business is being conducted with intent to defraud creditors. If the Tribunal is satisfied that the statutory circumstances exist, it may order investigation under s. 213; the Central Government then appoints inspectors.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Not the same as s. 210", "body": "Members cannot assume that a s. 213 application is decided by the Central Government. The Tribunal decides whether to order investigation; the Central Government’s role under s. 213 is to appoint inspectors after the Tribunal’s order.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Must the Central Government itself be satisfied of fraud before a s. 213 investigation can begin?", "analysis": "Under s. 213 the Tribunal must be satisfied that the statutory circumstances exist and then order investigation. The Central Government’s function on that order is to appoint inspectors. Separately, the Central Government may itself order investigation under s. 210 on its own triggers."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-213-distinction",
-        "title": "Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213) and connected legal concept",
-        "left": "Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 208 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-213-trap-1",
-        "trap": "Treating Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-213-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-213-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s213-vs-s210", "title": "Tribunal-ordered investigation (s. 213) vs CG investigation (s. 210)", "left": "Tribunal orders on member/other application; CG appoints inspectors", "right": "CG itself orders on s. 208 report, special resolution, public interest, or department request", "rows": [{"point": "Focus", "left": "Tribunal gateway", "right": "CG gateway"}]}],
+    "misconceptions": [{"id": "ca-s213-trap-1", "trap": "Any single member can always force a Tribunal investigation order under s. 213.", "correction": "Member applications must meet the numerical or voting-power threshold unless the Tribunal waives it. Other persons may apply as the section allows, but the Tribunal must still be satisfied of the statutory circumstances."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 213?",
-        "answer": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct."
-      }
+      {"id": "ca-s213-brief", "draftingCategory": "brief", "question": "How should a Section 213 problem be analysed?", "answer": "I. Test standing (threshold or other person). II. Establish statutory circumstances. III. Tribunal order; CG appoints inspectors. IV. Distinguish ss. 210/212. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s213-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Standing; circumstances; order sought; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 213 — Inspection, Inquiry and Investigation provision (Companies Act s. 213)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-214",
-      "ca-s-212",
-      "ca-s-215"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 213", "Connected: Sections 210, 212"],
+    "examTips": ["Member threshold (or waiver) / other person.", "Defraud, unlawful purpose, fraud/misfeasance/misconduct.", "Tribunal orders; CG appoints inspectors.", "Distinct from ss. 210 and 212."],
+    "revisionPoints": ["Standing", "Grounds", "Order and follow-through", "Relationship to other routes"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-210", "company-ca-s-212"],
+    "illustrations": ["illustration:india:company-ca-s-213-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-213",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-      "legalPrinciple": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-      "statutoryFramework": "Companies Act, 2013, section 213.",
-      "essentialIngredients": [
-        "Tribunal-ordered investigation"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 213 (Investigation in other cases). The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Tribunal-ordered investigation"
-      ],
-      "keyTakeaways": [
-        "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 213",
-          "citation": "Companies Act, 2013, section 213",
-          "point": "The Tribunal may order an investigation on an application by members meeting the threshold, or by other persons, where the business is being conducted to defraud, or for an unlawful purpose, or where persons concerned have been guilty of fraud or misconduct.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State when the Tribunal may order investigation under s. 213.", "Explain standing, grounds and the CG’s follow-through role."],
+      "definition": "Section 213 empowers the Tribunal to order investigation into a company’s affairs on application by members meeting the threshold (or other persons) where circumstances suggest defraud, unlawful purpose, or fraud/misfeasance/misconduct, after which the Central Government appoints inspectors.",
+      "legalPrinciple": "Members and other persons have a Tribunal gateway to investigation when company affairs show fraud or unlawful purpose, complementary to Central Government-initiated routes.",
+      "statutoryFramework": "Companies Act, 2013, Section 213.",
+      "essentialIngredients": ["Standing: member threshold or other person", "Circumstances suggesting defraud, unlawful purpose, or fraud/misfeasance/misconduct", "Tribunal order for investigation", "Central Government appoints inspectors"],
+      "detailedExplanation": "Section 213 is the Tribunal-ordered investigation route, parallel to CG and SFIO routes.",
+      "examples": ["Member-threshold application", "Not the same as s. 210"],
+      "problemApplication": "Test standing and grounds; seek Tribunal order; note CG appointment.",
+      "keyTakeaways": ["Tribunal gateway.", "Threshold and grounds.", "CG appoints inspectors."],
+      "authoritativeSources": ["Companies Act, 2013, Section 213"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; exact member threshold wording follows the Act; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Tribunal-ordered investigation (s. 213) vs CG investigation (s. 210)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Standing; grounds; order; conclude.", "sixteenMark": "Introduction; standing; grounds; order; vs ss. 210/212; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:40:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s213-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-213", "tribunal-investigation"]
 }

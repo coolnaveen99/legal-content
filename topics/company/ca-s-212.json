@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-212",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 212 (Investigation by Serious Fraud Investigation Office)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 212 (Investigation into affairs of Company by Serious Fraud Investigation Office)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-    "glance": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-    "study": "Companies Act, 2013 — Section 212 (Investigation by Serious Fraud Investigation Office). The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 212 empowers the Central Government to assign investigation into the affairs of a company to the Serious Fraud Investigation Office on the grounds stated in the section (including on receipt of a report under s. 208, or where the Government is of opinion that investigation by SFIO is necessary). Once a case is assigned to SFIO, no other investigating agency of the Central or State Government shall proceed with investigation of an offence under the Act in respect of that case. The investigating officer has the powers of an inspector. Arrest is governed by the section, and bail in an SFIO case is restricted as provided. The investigation report is filed as the section directs. Fraud charges commonly engage section 447.",
+    "glance": "CG assigns company investigation to SFIO on statutory grounds; exclusivity — other agencies do not proceed on the same Act offence; inspector powers; arrest and restricted bail; report as directed; often linked with s. 447 fraud.",
+    "study": "Where the Central Government is of the opinion that it is necessary to investigate into the affairs of a company by the Serious Fraud Investigation Office, it may assign the investigation to SFIO. The assignment may follow a report under section 208 or other grounds the section states. Where a case has been assigned to SFIO, no other investigating agency of Central or State Government shall proceed with investigation in respect of any offence under the Act in that case. The investigating officer of SFIO has the powers of an inspector under the Act. Arrest and bail are governed by the special provisions in the section. Current-law framing: confirm CG assignment to SFIO; apply exclusivity against parallel agency investigation of the same Act offence; note inspector powers, arrest and bail rules; link to s. 447 where fraud is alleged. Distinct from general CG investigation under s. 210 and from Tribunal-ordered investigation under s. 213.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Once assigned, another Central or State investigating agency does not proceed on the Companies Act offence covered by that case. The investigating officer has the powers of an inspector. Arrest is governed by the section, and bail in an SFIO case is restricted. The report is filed as the section directs. Fraud charges commonly travel with section 447.",
-        "order": 2
-      }
+      {"heading": "Assignment", "body": "Central Government may assign investigation of a company’s affairs to SFIO on the grounds in the section.", "order": 1},
+      {"heading": "Exclusivity", "body": "Once assigned, no other Central or State investigating agency proceeds with investigation of an offence under the Act in respect of that case.", "order": 2},
+      {"heading": "Powers, Arrest and Bail", "body": "Investigating officer has powers of an inspector; arrest governed by the section; bail restricted as provided.", "order": 3},
+      {"heading": "Report and Fraud", "body": "Investigation report filed as the section directs; fraud allegations commonly engage section 447.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-212",
-        "title": "Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-212", "section": "Section 212", "title": "Investigation into affairs of Company by Serious Fraud Investigation Office"}],
     "examples": [
-      {
-        "title": "SFIO investigation",
-        "body": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section."
-      }
+      {"title": "Exclusivity after assignment", "body": "CG assigns investigation of Company X to SFIO under s. 212. A State police unit then seeks to continue a parallel investigation of the same Companies Act offence. Section 212’s exclusivity rule bars that parallel proceeding on the Act offence in that case.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Arrest and bail", "body": "An SFIO investigating officer arrests a person in connection with a s. 212 investigation. Bail is governed by the special restrictions in the section, not only by general criminal procedure.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Can SFIO start investigating a company on its own without Central Government assignment?", "analysis": "Section 212 contemplates assignment by the Central Government of investigation into the affairs of a company to SFIO. The institutional existence of SFIO under s. 211 does not by itself authorise investigation of a named company without the assignment process."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-212-distinction",
-        "title": "Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212) and connected legal concept",
-        "left": "Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 208 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-212-trap-1",
-        "trap": "Treating Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-212-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-212-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s212-vs-s210", "title": "SFIO investigation (s. 212) vs CG inspector investigation (s. 210)", "left": "Assignment to SFIO; exclusivity; special arrest/bail rules", "right": "CG appoints inspectors on four triggers; general investigation route", "rows": [{"point": "Focus", "left": "SFIO route", "right": "General inspector route"}]}],
+    "misconceptions": [{"id": "ca-s212-trap-1", "trap": "Any police station can continue a Companies Act fraud case after SFIO assignment of that case.", "correction": "Once a case is assigned to SFIO under s. 212, no other Central or State investigating agency shall proceed with investigation of an offence under the Act in respect of that case."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 212?",
-        "answer": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section."
-      }
+      {"id": "ca-s212-brief", "draftingCategory": "brief", "question": "How should a Section 212 problem be analysed?", "answer": "I. Confirm CG assignment to SFIO. II. Apply exclusivity. III. Note powers, arrest and bail. IV. Distinguish s. 210/213. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s212-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Assignment facts; exclusivity; arrest/bail issues; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 212 — Inspection, Inquiry and Investigation provision (Companies Act s. 212)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-213",
-      "ca-s-211",
-      "ca-s-214"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 212", "Connected: Sections 211, 210, 447"],
+    "examTips": ["CG assigns to SFIO.", "Exclusivity against parallel agencies.", "Inspector powers; restricted bail.", "Distinct from s. 210."],
+    "revisionPoints": ["Assignment", "Exclusivity", "Powers, arrest and bail", "Report and fraud"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-211", "company-ca-s-210", "company-ca-s-447"],
+    "illustrations": ["illustration:india:company-ca-s-212-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-212",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-      "legalPrinciple": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-      "statutoryFramework": "Companies Act, 2013, section 212.",
-      "essentialIngredients": [
-        "SFIO investigation"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 212 (Investigation by Serious Fraud Investigation Office). The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "SFIO investigation"
-      ],
-      "keyTakeaways": [
-        "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 212",
-          "citation": "Companies Act, 2013, section 212",
-          "point": "The Central Government may assign investigation of a company's affairs to the Serious Fraud Investigation Office on the grounds in the section.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State how SFIO investigation is assigned under s. 212.", "Explain exclusivity, arrest and bail rules."],
+      "definition": "Section 212 empowers the Central Government to assign investigation of a company’s affairs to SFIO, with exclusivity against parallel agency investigation of the same Act offence, inspector powers, and special arrest and bail rules.",
+      "legalPrinciple": "Serious company fraud is channelled to a specialised office with exclusive investigative mandate and heightened process controls once assigned.",
+      "statutoryFramework": "Companies Act, 2013, Section 212.",
+      "essentialIngredients": ["Central Government assignment to SFIO", "Exclusivity against other agencies on the Act offence", "Inspector powers of investigating officer", "Arrest and restricted bail as section provides"],
+      "detailedExplanation": "Section 212 is the operational assignment and process rule for SFIO investigations.",
+      "examples": ["Exclusivity after assignment", "Arrest and bail"],
+      "problemApplication": "Confirm assignment; apply exclusivity and process rules.",
+      "keyTakeaways": ["CG assignment.", "Exclusivity.", "Special arrest/bail."],
+      "authoritativeSources": ["Companies Act, 2013, Section 212"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; bail and arrest details are in the section and should not be overstated; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["SFIO investigation (s. 212) vs CG inspector investigation (s. 210)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Assignment; exclusivity; conclude.", "sixteenMark": "Introduction; assignment; exclusivity; powers/bail; vs s. 210; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:40:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s212-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-212", "sfio-investigation"]
 }

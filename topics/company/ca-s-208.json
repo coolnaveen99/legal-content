@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-208",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 208 (Report on inspection)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 208 (Report on inspection made)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-    "glance": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-    "study": "Companies Act, 2013 — Section 208 (Report on inspection). The Registrar or inspector submits a report to the Central Government after inspection or inquiry. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 208 requires the Registrar or inspector to submit a report in writing to the Central Government after an inspection or inquiry under section 206. The report may recommend further investigation. It is not itself an adjudication. Action on the report may include ordering investigation under section 210 or assigning the case to the Serious Fraud Investigation Office under section 212.",
+    "glance": "After s. 206 inspection/inquiry: Registrar or inspector submits written report to Central Government; may recommend further investigation; not an adjudication; may lead to s. 210 investigation or s. 212 SFIO assignment.",
+    "study": "The Registrar or inspector shall, after the inspection of the books of account or an inquiry under section 206 and other books and papers of the company under section 206, submit a report in writing to the Central Government along with such documents, if any, and such report may, if necessary, include a recommendation that further investigation into the affairs of the company is necessary giving his reasons in support. Current-law framing: confirm completion of s. 206 inspection or inquiry; ensure written report to Central Government; note any recommendation for further investigation; distinguish the report from adjudication and from the investigation powers under ss. 210 and 212.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The report may recommend further investigation. It is not itself an adjudication. Action on the report may include investigation under section 210 or assignment to the SFIO under section 212.",
-        "order": 2
-      }
+      {"heading": "Trigger", "body": "Report follows inspection of books or inquiry under section 206.", "order": 1},
+      {"heading": "Form and Addressee", "body": "Written report to the Central Government, with such documents as may be attached.", "order": 2},
+      {"heading": "Recommendation", "body": "Report may recommend further investigation into the affairs of the company, with reasons in support.", "order": 3},
+      {"heading": "Consequence", "body": "Not an adjudication; may lead to investigation under s. 210 or SFIO assignment under s. 212.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-208",
-        "title": "Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-208", "section": "Section 208", "title": "Report on inspection made"}],
     "examples": [
-      {
-        "title": "Inspection report",
-        "body": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry."
-      }
+      {"title": "Recommendation for investigation", "body": "After a s. 206 inquiry, the Registrar submits a written report to the Central Government recommending further investigation because the affairs appear to be conducted in a manner prejudicial to members. Section 208 expressly allows such a recommendation with reasons.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Report is not a conviction", "body": "A director argues that the s. 208 report itself finds him guilty. The report is a communication to the Central Government; it is not an adjudication of guilt.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does a s. 208 report automatically open an SFIO investigation?", "analysis": "No. The report may recommend further investigation. Whether the Central Government orders investigation under s. 210 or assigns the case to SFIO under s. 212 is a separate decision."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-208-distinction",
-        "title": "Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208) and connected legal concept",
-        "left": "Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 209 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-208-trap-1",
-        "trap": "Treating Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-208-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-208-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s208-vs-s206", "title": "Report on inspection (s. 208) vs power to inspect/inquire (s. 206)", "left": "Written report to Central Government after inspection/inquiry", "right": "Registrar’s power to call for information, inspect and inquire", "rows": [{"point": "Focus", "left": "Reporting outcome", "right": "Initiating power"}]}],
+    "misconceptions": [{"id": "ca-s208-trap-1", "trap": "The inspection report under s. 208 is a binding finding against the company.", "correction": "Section 208 requires a written report to the Central Government. It may recommend further investigation but is not itself an adjudication."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 208?",
-        "answer": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry."
-      }
+      {"id": "ca-s208-brief", "draftingCategory": "brief", "question": "How should a Section 208 problem be analysed?", "answer": "I. Confirm s. 206 inspection/inquiry completed. II. Check written report to CG. III. Note any recommendation. IV. Distinguish investigation steps. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s208-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Inspection facts; report status; recommendation; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 208 — Inspection, Inquiry and Investigation provision (Companies Act s. 208)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "The Registrar or inspector submits a report to the Central Government after inspection or inquiry."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-209",
-      "ca-s-207",
-      "ca-s-210"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 208", "Connected: Sections 206, 210, 212"],
+    "examTips": ["Written report to CG after s. 206.", "May recommend further investigation.", "Not an adjudication.", "May lead to s. 210 or s. 212."],
+    "revisionPoints": ["Trigger", "Form and addressee", "Recommendation", "Consequence"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-206", "company-ca-s-210", "company-ca-s-212"],
+    "illustrations": ["illustration:india:company-ca-s-208-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-208",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-      "legalPrinciple": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-      "statutoryFramework": "Companies Act, 2013, section 208.",
-      "essentialIngredients": [
-        "Inspection report"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 208 (Report on inspection). The Registrar or inspector submits a report to the Central Government after inspection or inquiry. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "Inspection report"
-      ],
-      "keyTakeaways": [
-        "The Registrar or inspector submits a report to the Central Government after inspection or inquiry."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 208",
-          "citation": "Companies Act, 2013, section 208",
-          "point": "The Registrar or inspector submits a report to the Central Government after inspection or inquiry.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the reporting duty after inspection under s. 208.", "Explain the relationship to further investigation."],
+      "definition": "Section 208 requires the Registrar or inspector to submit a written report to the Central Government after a section 206 inspection or inquiry, which may recommend further investigation.",
+      "legalPrinciple": "Inspection outcomes are channelled to the Central Government through a formal written report before investigation powers are engaged.",
+      "statutoryFramework": "Companies Act, 2013, Section 208.",
+      "essentialIngredients": ["Inspection or inquiry under s. 206 completed", "Written report to Central Government", "Optional recommendation for further investigation with reasons"],
+      "detailedExplanation": "Section 208 closes the inspection loop by reporting to the Central Government.",
+      "examples": ["Recommendation for investigation", "Report is not a conviction"],
+      "problemApplication": "Confirm inspection; check report; map next steps.",
+      "keyTakeaways": ["Written report to CG.", "May recommend investigation.", "Not adjudication."],
+      "authoritativeSources": ["Companies Act, 2013, Section 208"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Report on inspection (s. 208) vs power to inspect/inquire (s. 206)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Report; recommendation; conclude.", "sixteenMark": "Introduction; trigger; form; recommendation; vs investigation; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:40:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s208-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-208", "inspection-report"]
 }
