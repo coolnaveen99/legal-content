@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-202",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 202 (Compensation for loss of office)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 202 (Compensation for loss of office of managing or whole-time director or manager)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-    "glance": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-    "study": "Companies Act, 2013 — Section 202 (Compensation for loss of office). A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 202 allows a company to make payment to a managing director, whole-time director or manager by way of compensation for loss of office, or as consideration for retirement from office, or in connection with such loss or retirement. No such payment shall be made in the cases prohibited by the section (including resignation, removal for specified defaults, winding-up on certain grounds, and reconstruction/amalgamation where the person is reappointed). The amount must not exceed the remuneration that would have been earned for the unexpired residue of the term or for three years, whichever is shorter, calculated on the average remuneration actually earned during a specified preceding period. Payment requires approval as the section provides.",
+    "glance": "MD/WTD/manager may receive loss-of-office compensation except in prohibited cases (resignation, certain defaults, certain windings-up, reappointment on reconstruction); cap = shorter of unexpired term or 3 years of average remuneration; approval as section requires.",
+    "study": "A company may make payment to a managing or whole-time director or manager, by way of compensation for loss of office, or as consideration for retirement from office, or in connection with such loss or retirement. No payment shall be made in the cases listed (including where the director resigns from office; where the office is lost by virtue of reconstruction or amalgamation and the person is reappointed; where the office is lost by virtue of winding-up on grounds of insolvency or certain other specified grounds; where the director has been guilty of fraud or breach of trust or specified defaults). The amount shall not exceed the remuneration which he would have earned if he had been in office for the unexpired residue of his term or for three years, whichever is shorter, calculated on the basis of the average remuneration actually earned by him during a period of three years immediately preceding the date on which he ceased to hold office, or where he held office for a lesser period, during such period. Current-law framing: identify MD/WTD/manager and proposed loss-of-office payment; exclude prohibited cases; apply the average-remuneration cap (shorter of unexpired term or three years); secure the approval the section requires. Distinguish transfer-linked payments under s. 191.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "No compensation is payable where the director resigns, or where the company is wound up on certain grounds, or where the office is lost by default. The cap is the average remuneration of the stated period. Member approval is required as the section states.",
-        "order": 2
-      }
+      {"heading": "Permitted Payment", "body": "Company may pay MD, WTD or manager compensation for loss of office, or consideration for retirement, or in connection with such loss or retirement.", "order": 1},
+      {"heading": "Prohibited Cases", "body": "No payment where the person resigns; loses office on reconstruction/amalgamation with reappointment; loses office on specified winding-up grounds; or is guilty of fraud, breach of trust or specified defaults.", "order": 2},
+      {"heading": "Cap", "body": "Not exceeding remuneration for the unexpired residue of the term or for three years, whichever is shorter, based on average remuneration actually earned in the preceding three years (or lesser period held).", "order": 3},
+      {"heading": "Approval", "body": "Payment requires the approval the section states; does not override other limits such as s. 197.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-202",
-        "title": "Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-202", "section": "Section 202", "title": "Compensation for loss of office of managing or whole-time director or manager"}],
     "examples": [
-      {
-        "title": "Compensation for loss of office",
-        "body": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap."
-      }
+      {"title": "Resignation — no compensation", "body": "An MD resigns mid-term and claims loss-of-office compensation. Section 202 prohibits payment where the director resigns from office.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Cap calculation", "body": "A WTD with two years of unexpired term and average annual remuneration of ₹50 lakh over the preceding three years may, if otherwise eligible, receive up to the shorter of two years’ or three years’ average — i.e. up to ₹1 crore — not an open-ended golden handshake.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May a company pay unlimited loss-of-office compensation to an MD removed without default?", "analysis": "No. Even when payment is not prohibited, the amount is capped at the shorter of the unexpired term or three years of average remuneration actually earned. Other limits (including s. 197) may also apply."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-202-distinction",
-        "title": "Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202) and connected legal concept",
-        "left": "Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202)",
-        "right": "Companies Act s. 196 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-202-trap-1",
-        "trap": "Treating Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-202-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-202-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s202-vs-s191", "title": "Loss-of-office compensation (s. 202) vs transfer-linked payment (s. 191)", "left": "General compensation for loss of office of MD/WTD/manager with statutory cap and prohibited cases", "right": "Payments linked to transfer of undertaking/property/shares; disclosure and GM approval", "rows": [{"point": "Focus", "left": "General loss-of-office", "right": "Transfer-triggered payment"}]}],
+    "misconceptions": [{"id": "ca-s202-trap-1", "trap": "Any departing MD is entitled to loss-of-office compensation as of right.", "correction": "Section 202 permits payment only outside the prohibited cases and only within the average-remuneration cap; resignation and certain defaults bar payment."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 202?",
-        "answer": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap."
-      }
+      {"id": "ca-s202-brief", "draftingCategory": "brief", "question": "How should a Section 202 problem be analysed?", "answer": "I. Confirm MD/WTD/manager and proposed payment. II. Exclude prohibited cases. III. Apply average-remuneration cap. IV. Check approval. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s202-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Office facts; prohibition test; cap calculation; approval; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 202 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 202)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-203",
-      "ca-s-201",
-      "ca-s-204"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 202", "Connected: Sections 191, 197"],
+    "examTips": ["Prohibited cases first (resignation, defaults, certain windings-up).", "Cap = shorter of unexpired term or 3 years’ average pay.", "Distinct from s. 191 transfer-linked payments."],
+    "revisionPoints": ["Permitted payment", "Prohibited cases", "Cap", "Approval"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-191", "company-ca-s-197"],
+    "illustrations": ["illustration:india:company-ca-s-202-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-202",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-      "legalPrinciple": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-      "statutoryFramework": "Companies Act, 2013, section 202.",
-      "essentialIngredients": [
-        "Compensation for loss of office"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 202 (Compensation for loss of office). A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Compensation for loss of office"
-      ],
-      "keyTakeaways": [
-        "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 202",
-          "citation": "Companies Act, 2013, section 202",
-          "point": "A company may make a payment to a managing or whole-time director or manager as compensation for loss of office, other than in the cases the section prohibits, within the stated cap.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State when loss-of-office compensation may be paid under s. 202.", "Apply the prohibited cases and the average-remuneration cap."],
+      "definition": "Section 202 permits limited compensation for loss of office of an MD, WTD or manager, subject to prohibited cases and a cap based on average remuneration for the shorter of the unexpired term or three years.",
+      "legalPrinciple": "Golden handshakes for managerial personnel are tightly capped and barred where the office is lost by resignation or default.",
+      "statutoryFramework": "Companies Act, 2013, Section 202.",
+      "essentialIngredients": ["Payment to MD/WTD/manager for loss of office or retirement", "Not a prohibited case", "Cap: shorter of unexpired term or 3 years’ average remuneration", "Approval as section requires"],
+      "detailedExplanation": "Section 202 is the general loss-of-office compensation rule for managerial personnel, distinct from transfer-linked payments under s. 191.",
+      "examples": ["Resignation — no compensation", "Cap calculation"],
+      "problemApplication": "Test prohibition; compute cap; check approval.",
+      "keyTakeaways": ["Prohibited cases bar payment.", "Average-remuneration cap.", "Distinct from s. 191."],
+      "authoritativeSources": ["Companies Act, 2013, Section 202"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; full list of prohibited cases is in the Act; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Loss-of-office compensation (s. 202) vs transfer-linked payment (s. 191)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Permission; prohibition; cap; conclude.", "sixteenMark": "Introduction; permission; prohibited cases; cap; vs s. 191; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s202-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-202", "compensation-loss-of-office"]
 }

@@ -2,245 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-203",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 203 (Key managerial personnel)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 203 (Appointment of key managerial personnel)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-    "glance": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-    "study": "Companies Act, 2013 — Section 203 (Key managerial personnel). Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
+    "overview": "Section 203 requires every company belonging to such class or classes of companies as may be prescribed to have the following whole-time key managerial personnel: (i) managing director, or chief executive officer or manager and in their absence, a whole-time director; (ii) company secretary; and (iii) chief financial officer. Appointment is by a resolution of the Board containing the terms and conditions of appointment, including remuneration. A whole-time key managerial personnel shall not hold office in more than one company except in its subsidiary company at the same time. A vacancy is filled by the Board within a period of six months from the date of vacancy. Key managerial personnel is defined in section 2(51).",
+    "glance": "Prescribed classes must appoint whole-time KMP: MD/CEO/manager (or WTD in their absence), CS, and CFO; Board resolution with terms; not more than one company (except subsidiary); vacancy filled within 6 months; definition in s. 2(51).",
+    "study": "Every company belonging to such class or classes of companies as may be prescribed shall have the following whole-time key managerial personnel—(i) managing director, or chief executive officer or manager and in their absence, a whole-time director; (ii) company secretary; and (iii) chief financial officer. Every whole-time key managerial personnel of a company shall be appointed by means of a resolution of the Board containing the terms and conditions of the appointment including the remuneration. A whole-time key managerial personnel shall not hold office in more than one company except in its subsidiary company at the same time: provided that nothing in this sub-section shall disentitle such a person from being a director of any company with the permission of the Board. If the office of any whole-time key managerial personnel is vacated, the resulting vacancy shall be filled-up by the Board at a meeting of the Board within a period of six months from the date of such vacancy. Current-law framing: confirm the company is in a prescribed class; ensure MD/CEO/manager (or WTD), CS and CFO are in place as whole-time KMP; appoint by Board resolution with terms; enforce the one-company limit (subsidiary exception); fill vacancy within six months. Definition: s. 2(51).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Appointment is by a board resolution containing the terms, filed with the Registrar. A whole-time key managerial person shall not hold office in more than one company at the same time, except as a director in a subsidiary or with the permission the section states. A vacancy is filled within six months. The definition is section 2(51).",
-        "order": 2
-      }
+      {"heading": "Mandatory KMP", "body": "Prescribed classes must have whole-time: (i) MD or CEO or manager, and in their absence a WTD; (ii) company secretary; (iii) chief financial officer.", "order": 1},
+      {"heading": "Board Appointment", "body": "Appointment by Board resolution containing terms and conditions, including remuneration.", "order": 2},
+      {"heading": "One-Company Limit", "body": "Whole-time KMP shall not hold office in more than one company at the same time, except in its subsidiary; may still be a director of another company with Board permission.", "order": 3},
+      {"heading": "Vacancy", "body": "Board fills a vacancy in whole-time KMP office within six months from the date of vacancy.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-203",
-        "title": "Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-203", "section": "Section 203", "title": "Appointment of key managerial personnel"}],
     "examples": [
-      {
-        "title": "Key managerial personnel",
-        "body": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer."
-      }
+      {"title": "Missing CFO", "body": "A prescribed-class company has an MD and a company secretary but no chief financial officer. Section 203 requires appointment of a whole-time CFO as well.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Dual whole-time office", "body": "A person is whole-time CFO of Company A and whole-time CFO of an unrelated Company B. Section 203 prohibits holding whole-time KMP office in more than one company at the same time, except in a subsidiary.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Must every private company appoint a company secretary under s. 203?", "analysis": "Only companies belonging to the class or classes prescribed for s. 203 must appoint the listed whole-time KMP. Whether a particular private company falls in a prescribed class depends on the rules in force; the section itself does not automatically cover every private company."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-203-distinction",
-        "title": "Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203) and connected legal concept",
-        "left": "Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203)",
-        "right": "Companies Act s. 196 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-203-trap-1",
-        "trap": "Treating Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-203-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-203-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s203-vs-s196", "title": "KMP appointment (s. 203) vs MD/WTD/manager appointment (s. 196)", "left": "Mandatory whole-time KMP suite for prescribed classes (MD/CEO/manager or WTD, CS, CFO)", "right": "Eligibility, term and dual-office rules for MD, WTD or manager specifically", "rows": [{"point": "Focus", "left": "KMP suite for prescribed classes", "right": "MD/WTD/manager appointment rules"}]}],
+    "misconceptions": [{"id": "ca-s203-trap-1", "trap": "Any director can double as company secretary without formal whole-time appointment.", "correction": "Section 203 requires prescribed classes to have a whole-time company secretary (among other KMP), appointed by Board resolution with terms. Informal dual roles do not satisfy the section."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 203 require?",
-        "answer": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer."
-      }
+      {"id": "ca-s203-brief", "draftingCategory": "brief", "question": "How should a Section 203 problem be analysed?", "answer": "I. Confirm prescribed class. II. Check MD/CEO/manager (or WTD), CS and CFO. III. Test Board resolution and one-company limit. IV. Check vacancy filling within 6 months. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s203-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Class status; KMP roster; appointment terms; dual-office facts; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 203 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 203)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-204",
-      "ca-s-202",
-      "ca-s-205"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 203", "Connected: Section 2(51), Section 196"],
+    "examTips": ["Prescribed classes only.", "MD/CEO/manager (or WTD) + CS + CFO.", "Board resolution with terms.", "One company (subsidiary exception); vacancy in 6 months."],
+    "revisionPoints": ["Mandatory KMP", "Board appointment", "One-company limit", "Vacancy"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-2", "company-ca-s-196"],
+    "illustrations": ["illustration:india:company-ca-s-203-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-203",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-      "legalPrinciple": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-      "statutoryFramework": "Companies Act, 2013, section 203.",
-      "essentialIngredients": [
-        "Key managerial personnel",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 203 (Key managerial personnel). Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
-      "examples": [
-        "Key managerial personnel"
-      ],
-      "keyTakeaways": [
-        "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 203",
-          "citation": "Companies Act, 2013, section 203",
-          "point": "Prescribed classes of companies must appoint a managing director, chief executive officer or manager and in their absence a whole-time director, a company secretary, and a chief financial officer.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the mandatory KMP suite under s. 203.", "Explain appointment, dual-office and vacancy rules."],
+      "definition": "Section 203 requires prescribed classes of companies to appoint whole-time key managerial personnel — MD/CEO/manager (or WTD in their absence), company secretary and chief financial officer — by Board resolution, subject to a one-company limit and six-month vacancy filling.",
+      "legalPrinciple": "Prescribed companies must maintain a defined core of whole-time managerial and governance officers so that responsibility is continuously attributable.",
+      "statutoryFramework": "Companies Act, 2013, Section 203; definition in Section 2(51).",
+      "essentialIngredients": ["Company in prescribed class", "Whole-time MD/CEO/manager (or WTD), CS and CFO", "Board resolution with terms including remuneration", "Not more than one company (subsidiary exception)", "Vacancy filled within six months"],
+      "detailedExplanation": "Section 203 is the KMP mandate for prescribed classes, complementing the MD/WTD appointment rules in s. 196.",
+      "examples": ["Missing CFO", "Dual whole-time office"],
+      "problemApplication": "Confirm class; check roster; test dual office and vacancy.",
+      "keyTakeaways": ["Prescribed classes.", "Three roles (MD/CEO/manager or WTD; CS; CFO).", "One-company limit; 6-month vacancy rule."],
+      "authoritativeSources": ["Companies Act, 2013, Section 203"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; prescribed classes depend on rules in force; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["KMP appointment (s. 203) vs MD/WTD/manager appointment (s. 196)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Mandatory KMP; appointment; conclude.", "sixteenMark": "Introduction; suite; Board appointment; dual office; vacancy; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s203-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-203", "key-managerial-personnel"]
 }
