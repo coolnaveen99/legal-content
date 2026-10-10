@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-153",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 153 (Application for allotment of DIN)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 153 (Application for allotment of Director Identification Number)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-    "glance": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-    "study": "Companies Act, 2013 — Section 153 (Application for allotment of DIN). Every individual intending to be appointed a director must apply for allotment of a Director Identification Number. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
+    "overview": "Section 153 requires every individual intending to be appointed as a director of a company to make an application for allotment of a Director Identification Number (DIN) in the prescribed form and manner to the Central Government, with the prescribed fee.",
+    "glance": "Every individual intending to be a director must apply for a DIN in the prescribed form with fee; one person, one DIN.",
+    "study": "Every individual intending to be appointed as a director of a company shall make an application for allotment of Director Identification Number to the Central Government in such form and manner and along with such fees as may be prescribed. A person holds only one DIN. Appointment under section 152 cannot proceed without a DIN allotted under section 154. Current-law framing: identify the individual intending appointment; confirm application in prescribed form with fee; link to allotment under s. 154 and appointment under s. 152.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The application is in the prescribed form with identity and address proof. A person has one DIN. Appointment under section 152 cannot proceed without it, and consent is filed with the appointment.",
-        "order": 2
-      }
+      {"heading": "Who Must Apply", "body": "Every individual intending to be appointed as a director of a company.", "order": 1},
+      {"heading": "Application", "body": "Application to the Central Government in the prescribed form and manner with prescribed fee.", "order": 2},
+      {"heading": "One DIN", "body": "A person is allotted and holds only one Director Identification Number.", "order": 3},
+      {"heading": "Link to Appointment", "body": "Without a DIN, appointment under section 152 cannot be completed; consent and DIN are filed with the appointment.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-153",
-        "title": "Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-153", "section": "Section 153", "title": "Application for allotment of Director Identification Number"}],
     "examples": [
-      {
-        "title": "Director Identification Number",
-        "body": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number."
-      }
+      {"title": "First-time applicant", "body": "A person intending to become a director for the first time applies for a DIN in the prescribed form with fee under s. 153.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "No DIN, no appointment", "body": "A company attempts to appoint a director who has not applied for or been allotted a DIN. Section 152 read with s. 153 blocks the appointment.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Can the same individual hold two DINs for two different companies?", "analysis": "No. A person is allotted and holds only one DIN, which is used across companies."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-153-distinction",
-        "title": "Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153) and connected legal concept",
-        "left": "Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-153-trap-1",
-        "trap": "Treating Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-153-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-153-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s153-vs-s154", "title": "Application for DIN (s. 153) vs allotment of DIN (s. 154)", "left": "Individual’s duty to apply", "right": "Central Government’s duty to allot within prescribed time", "rows": [{"point": "Focus", "left": "Application", "right": "Allotment"}]}],
+    "misconceptions": [{"id": "ca-s153-trap-1", "trap": "DIN is optional if the person is already a director of another company under the old regime without one.", "correction": "Every individual intending to be appointed as a director must have a DIN; appointment without DIN is not permitted under the s. 152/153 scheme."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 153?",
-        "answer": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number."
-      }
+      {"id": "ca-s153-brief", "draftingCategory": "brief", "question": "How should a Section 153 problem be analysed?", "answer": "I. Identify the individual intending appointment. II. Confirm application in prescribed form with fee. III. Link to allotment (s. 154) and appointment (s. 152). IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s153-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Application facts; form/fee compliance; DIN status; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 153 — Appointment and Qualifications of Directors provision (Companies Act s. 153)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-154",
-      "ca-s-152",
-      "ca-s-155"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 153", "Connected: Sections 152, 154, 155, 156"],
+    "examTips": ["Application is mandatory before appointment.", "One person, one DIN.", "Distinguish application (s. 153) from allotment (s. 154)."],
+    "revisionPoints": ["Who must apply", "Prescribed form and fee", "One DIN", "Link to appointment"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-152", "company-ca-s-154"],
+    "illustrations": ["illustration:india:company-ca-s-153-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-153",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-      "legalPrinciple": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-      "statutoryFramework": "Companies Act, 2013, section 153.",
-      "essentialIngredients": [
-        "Director Identification Number"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 153 (Application for allotment of DIN). Every individual intending to be appointed a director must apply for allotment of a Director Identification Number. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
-      "examples": [
-        "Director Identification Number"
-      ],
-      "keyTakeaways": [
-        "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 153",
-          "citation": "Companies Act, 2013, section 153",
-          "point": "Every individual intending to be appointed a director must apply for allotment of a Director Identification Number.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the DIN application duty under s. 153.", "Explain the one-DIN rule and link to appointment."],
+      "definition": "Section 153 requires every individual intending to be appointed a director to apply to the Central Government for allotment of a Director Identification Number in the prescribed form with fee.",
+      "legalPrinciple": "Unique identification of directors is a precondition to valid appointment and regulatory tracking.",
+      "statutoryFramework": "Companies Act, 2013, Section 153.",
+      "essentialIngredients": ["Individual intending to be appointed as director", "Application to Central Government", "Prescribed form, manner and fee", "One DIN per person"],
+      "detailedExplanation": "Section 153 is the application leg of the DIN regime; allotment follows under s. 154.",
+      "examples": ["First-time applicant", "No DIN, no appointment"],
+      "problemApplication": "Confirm intention to be appointed; check application; link to allotment and appointment.",
+      "keyTakeaways": ["Application mandatory.", "One DIN only.", "No DIN → no valid appointment under s. 152."],
+      "authoritativeSources": ["Companies Act, 2013, Section 153"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Application for DIN (s. 153) vs allotment of DIN (s. 154)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Application duty; one DIN; conclude.", "sixteenMark": "Introduction; who; form; one DIN; link to ss. 152/154; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T04:50:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s153-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T04:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-153", "director-identification-number"]
 }
