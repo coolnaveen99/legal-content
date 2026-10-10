@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-231",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 231 (Power of Tribunal to enforce compromise or arrangement)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-    "glance": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-    "study": "Companies Act, 2013 — Section 231 (Power of Tribunal to enforce compromise or arrangement). The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 231 empowers the Tribunal to supervise the carrying out of a compromise or arrangement sanctioned under section 230, to give directions for its implementation, to modify the order if necessary for proper working, and, if satisfied that the compromise or arrangement cannot be worked satisfactorily, to order winding up of the company. The power is supervisory: it does not allow the Tribunal to rewrite a scheme that was never approved by the statutory majority. Sanction itself remains under sections 230 and 232.",
+    "glance": "Tribunal supervises sanctioned scheme; may give directions or modify for proper working; may order winding up if scheme cannot be worked satisfactorily; supervisory, not a re-sanction power.",
+    "study": "Where the Tribunal makes an order under section 230 sanctioning a compromise or arrangement, it shall have power to supervise the carrying out of the compromise or arrangement and may give such directions or make such modifications as it considers necessary for the proper working. If the Tribunal is satisfied that a compromise or arrangement sanctioned under section 230 cannot be worked satisfactorily with or without modifications, it may order the winding up of the company. Current-law framing: confirm a sanctioned scheme under s. 230; identify implementation difficulties; seek directions or modifications for proper working; only if the scheme cannot be worked satisfactorily, seek winding up. Do not treat s. 231 as a fresh sanction of an unapproved bargain.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The power is supervisory. It does not let the Tribunal rewrite a scheme that has not been approved by the statutory majority. Sanction itself is sections 230 and 232.",
-        "order": 2
-      }
+      {"heading": "Supervision", "body": "Tribunal has power to supervise carrying out of a compromise or arrangement sanctioned under s. 230.", "order": 1},
+      {"heading": "Directions and Modification", "body": "May give directions or make modifications necessary for the proper working of the scheme.", "order": 2},
+      {"heading": "Winding Up", "body": "If satisfied the scheme cannot be worked satisfactorily (with or without modifications), Tribunal may order winding up.", "order": 3},
+      {"heading": "Limits", "body": "Supervisory only; does not rewrite an unapproved commercial bargain; sanction remains under ss. 230/232.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-231",
-        "title": "Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-231", "section": "Section 231", "title": "Power of Tribunal to enforce compromise or arrangement"}],
     "examples": [
-      {
-        "title": "Enforcement of a sanctioned scheme",
-        "body": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed."
-      }
+      {"title": "Directions for implementation", "body": "A sanctioned scheme under s. 230 stalls because a transfer of assets is blocked by a third-party consent. Parties apply under s. 231 for directions to implement the scheme properly.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Scheme cannot be worked", "body": "Despite modifications, the sanctioned arrangement cannot be implemented. The Tribunal, satisfied under s. 231, may order winding up of the company.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May the Tribunal under s. 231 replace the scheme with entirely different commercial terms never voted on?", "analysis": "No. Section 231 is supervisory of a scheme already sanctioned under s. 230. Modifications are for proper working of that scheme. It is not a power to impose a new bargain that lacked the statutory majority."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-231-distinction",
-        "title": "Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231) and connected legal concept",
-        "left": "Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231)",
-        "right": "Companies Act s. 230 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 233 — Compromises, Arrangements and Amalgamations provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-231-trap-1",
-        "trap": "Treating Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-231-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-231-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s231-vs-s230", "title": "Enforcement/supervision (s. 231) vs sanction of scheme (s. 230)", "left": "Supervise, direct, modify for working, or wind up if unworkable", "right": "Order meeting and sanction compromise/arrangement on statutory majority", "rows": [{"point": "Focus", "left": "Post-sanction supervision", "right": "Sanction process"}]}],
+    "misconceptions": [{"id": "ca-s231-trap-1", "trap": "Section 231 lets the Tribunal approve a scheme that never obtained the three-fourths value majority.", "correction": "Sanction is under s. 230 (and s. 232 for mergers). Section 231 supervises and enforces a scheme already sanctioned; it does not replace the majority requirement."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 231?",
-        "answer": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed."
-      }
+      {"id": "ca-s231-brief", "draftingCategory": "brief", "question": "How should a Section 231 problem be analysed?", "answer": "I. Confirm sanctioned scheme under s. 230. II. Identify implementation issue. III. Seek directions/modification or, if unworkable, winding up. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s231-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Sanction status; working difficulty; directions sought; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 231)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-232",
-      "ca-s-230",
-      "ca-s-233"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 231", "Connected: Sections 230, 232"],
+    "examTips": ["Post-sanction supervision.", "Directions and modifications for proper working.", "Winding up only if scheme cannot be worked.", "Not a re-sanction power."],
+    "revisionPoints": ["Supervision", "Directions and modification", "Winding up", "Limits"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-230", "company-ca-s-232"],
+    "illustrations": ["illustration:india:company-ca-s-231-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-231",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-      "legalPrinciple": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-      "statutoryFramework": "Companies Act, 2013, section 231.",
-      "essentialIngredients": [
-        "Enforcement of a sanctioned scheme"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 231 (Power of Tribunal to enforce compromise or arrangement). The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "Enforcement of a sanctioned scheme"
-      ],
-      "keyTakeaways": [
-        "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 231",
-          "citation": "Companies Act, 2013, section 231",
-          "point": "The Tribunal has power to supervise the carrying out of a compromise or arrangement it has sanctioned, and may modify the order or order winding up if the scheme cannot proceed.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the Tribunal’s enforcement powers under s. 231.", "Distinguish supervision from original sanction."],
+      "definition": "Section 231 empowers the Tribunal to supervise a sanctioned compromise or arrangement, give directions or modifications for proper working, and order winding up if the scheme cannot be worked satisfactorily.",
+      "legalPrinciple": "Once sanctioned, a scheme is under the Tribunal’s supervisory jurisdiction so that implementation difficulties can be resolved or, if unworkable, the company wound up.",
+      "statutoryFramework": "Companies Act, 2013, Section 231.",
+      "essentialIngredients": ["Scheme sanctioned under s. 230", "Power to supervise and direct", "Modification for proper working", "Winding up if cannot be worked satisfactorily"],
+      "detailedExplanation": "Section 231 is the post-sanction enforcement and supervision rule.",
+      "examples": ["Directions for implementation", "Scheme cannot be worked"],
+      "problemApplication": "Confirm sanction; seek directions or winding up as facts require.",
+      "keyTakeaways": ["Supervise sanctioned scheme.", "Modify for working.", "Wind up if unworkable."],
+      "authoritativeSources": ["Companies Act, 2013, Section 231"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Enforcement/supervision (s. 231) vs sanction of scheme (s. 230)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Supervision; modification; wind-up path; conclude.", "sixteenMark": "Introduction; supervision; directions; winding up; limits; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T08:35:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s231-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T08:35:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-231", "enforce-scheme"]
 }

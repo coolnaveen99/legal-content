@@ -2,264 +2,81 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-232",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 232 (Merger and amalgamation)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 232 (Merger and amalgamation of companies)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-    "glance": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-    "study": "Companies Act, 2013 — Section 232 (Merger and amalgamation). Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
+    "overview": "Section 232 applies where a compromise or arrangement proposed under section 230 involves a merger or amalgamation of two or more companies. It requires circulation of the draft scheme, a valuation report, and consideration of reports of the Registrar, official liquidator and other regulators as applicable. The Tribunal may sanction the scheme; the order may provide for transfer of property and liabilities, allotment of shares, and dissolution of the transferor company without winding up. Fast-track mergers of eligible companies use section 233; cross-border mergers with notified jurisdictions use section 234.",
+    "glance": "Merger/amalgamation scheme under s. 230 process + s. 232 extras: circulate scheme, valuation report, RD/OL/regulator reports; Tribunal sanction; transfer of property/liabilities; dissolution without winding up; distinct from fast-track s. 233 and cross-border s. 234.",
+    "study": "Where an application under section 230 involves a proposed merger or amalgamation of two or more companies, the Tribunal may order meetings and, on sanction, provide for transfer of the whole or part of the undertaking, property or liabilities, allotment or appropriation of shares, continuation of legal proceedings, and dissolution of the transferor company without winding up. The company must circulate the scheme and a report of the expert as to valuation, and the Tribunal considers reports of the Registrar and official liquidator. Current-law framing: confirm the scheme is a merger/amalgamation; apply s. 230 process plus s. 232 circulation, valuation and regulatory reports; obtain Tribunal sanction; effect transfer and optional dissolution without winding up. Distinguish fast-track (s. 233) and cross-border (s. 234).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The Tribunal sanctions the scheme after considering objections. The order transfers property and liabilities as it states and is filed with the Registrar. Fast-track mergers of small companies and of a holding company with its wholly owned subsidiary use section 233. Cross-border mergers with notified jurisdictions are section 234.",
-        "order": 2
-      }
+      {"heading": "Trigger", "body": "Compromise or arrangement under s. 230 that involves merger or amalgamation of two or more companies.", "order": 1},
+      {"heading": "Additional Requirements", "body": "Circulation of draft scheme; expert valuation report; reports of Registrar, official liquidator and other regulators as applicable.", "order": 2},
+      {"heading": "Sanction and Effect", "body": "Tribunal may sanction; order may transfer property and liabilities, provide for share allotment, continue proceedings, and dissolve transferor without winding up.", "order": 3},
+      {"heading": "Related Routes", "body": "Fast-track eligible mergers: s. 233; cross-border with notified jurisdictions: s. 234.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-232",
-        "title": "Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-232", "section": "Section 232", "title": "Merger and amalgamation of companies"}],
     "examples": [
-      {
-        "title": "Merger and amalgamation",
-        "body": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up."
-      }
+      {"title": "Amalgamation with dissolution", "body": "Company A merges into Company B under a s. 232 scheme. The Tribunal order transfers A’s property and liabilities to B and dissolves A without winding up.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Valuation report", "body": "A merger scheme is circulated without an expert valuation report. Section 232 requires circulation of the scheme together with the valuation report; omission can defeat sanction.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Must every merger go through the full Tribunal process under s. 232?", "analysis": "No. Eligible companies (e.g. small companies, holding and wholly owned subsidiary, and other notified classes) may use the fast-track route under s. 233, confirmed by the Central Government through the Regional Director, subject to the thresholds and objection process in that section."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-232-distinction",
-        "title": "Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232) and connected legal concept",
-        "left": "Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232)",
-        "right": "Companies Act s. 230 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 233 — Compromises, Arrangements and Amalgamations provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-232-trap-1",
-        "trap": "Treating Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-232-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-232-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s232-vs-s233", "title": "Tribunal merger (s. 232) vs fast-track merger (s. 233)", "left": "Full Tribunal process with valuation and RD/OL reports", "right": "Eligible classes; RD confirmation; 90% members / 9/10 creditors; objection can remit to Tribunal", "rows": [{"point": "Focus", "left": "Ordinary merger route", "right": "Fast-track route"}]}],
+    "misconceptions": [{"id": "ca-s232-trap-1", "trap": "Section 232 replaces section 230 for all schemes.", "correction": "Section 232 applies where the s. 230 compromise or arrangement involves a merger or amalgamation. The meeting and majority framework of s. 230 remains the foundation; s. 232 adds merger-specific requirements and effects."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 232 require?",
-        "answer": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up."
-      }
+      {"id": "ca-s232-brief", "draftingCategory": "brief", "question": "How should a Section 232 problem be analysed?", "answer": "I. Confirm merger/amalgamation under s. 230 process. II. Check circulation, valuation, RD/OL reports. III. Tribunal sanction and transfer/dissolution effects. IV. Distinguish s. 233/234. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s232-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Scheme; valuation; regulatory reports; sanction sought; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 232)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up."
-    ],
+    "bareActPointers": ["Companies Act, 2013 — Section 232", "Connected: Sections 230, 231, 233, 234"],
+    "examTips": ["s. 230 process + merger extras.", "Valuation and RD/OL reports.", "Dissolution without winding up possible.", "Fast-track is s. 233; cross-border is s. 234."],
+    "revisionPoints": ["Trigger", "Additional requirements", "Sanction and effect", "Related routes"],
     "relatedJudgments": [
-      {
-        "name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.",
-        "citation": "(1995) 1 SCC 499",
-        "point": "What is the scope of court scrutiny of a scheme of amalgamation?"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "citation": "(1997) 1 SCC 579",
-        "point": "What is the court's role in sanctioning a corporate scheme?"
-      }
+      {"name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.", "citation": "(1997) 1 SCC 579", "point": "Court’s role in sanctioning a corporate scheme."},
+      {"name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.", "citation": "(1995) 1 SCC 499", "point": "Scope of court scrutiny of amalgamation scheme."}
     ],
-    "relatedTopics": [
-      "ca-s-233",
-      "ca-s-231",
-      "ca-s-234"
-    ],
-    "illustrations": [],
+    "relatedTopics": ["company-ca-s-230", "company-ca-s-233", "company-ca-s-234"],
+    "illustrations": ["illustration:india:company-ca-s-232-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-232",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate. Miheer/Hindustan Lever retained as mirrored-standard only.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-      "legalPrinciple": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-      "statutoryFramework": "Companies Act, 2013, section 232.",
-      "essentialIngredients": [
-        "Merger and amalgamation",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 232 (Merger and amalgamation). Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
-      "examples": [
-        "Merger and amalgamation"
-      ],
-      "keyTakeaways": [
-        "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
+      "learningObjectives": ["State the additional requirements for merger/amalgamation under s. 232.", "Distinguish ordinary, fast-track and cross-border routes."],
+      "definition": "Section 232 governs schemes under s. 230 that involve merger or amalgamation, requiring circulation of the scheme and valuation report, consideration of regulatory reports, and enabling transfer of property and dissolution without winding up on Tribunal sanction.",
+      "legalPrinciple": "Mergers and amalgamations proceed through the compromise framework with added transparency, valuation and regulatory scrutiny, and can effect transfer and dissolution without a separate winding-up.",
+      "statutoryFramework": "Companies Act, 2013, Section 232.",
+      "essentialIngredients": ["Scheme is a merger or amalgamation under s. 230 process", "Circulation of scheme and valuation report", "Reports of Registrar, official liquidator and regulators", "Tribunal sanction; transfer and optional dissolution without winding up"],
+      "detailedExplanation": "Section 232 is the ordinary Tribunal route for mergers and amalgamations.",
+      "examples": ["Amalgamation with dissolution", "Valuation report"],
+      "problemApplication": "Confirm merger; apply extras; seek sanction; note alternative routes.",
+      "keyTakeaways": ["s. 230 + merger extras.", "Valuation and reports.", "Dissolution without winding up."],
+      "authoritativeSources": ["Companies Act, 2013, Section 232"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; mirrored citations only; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Tribunal merger (s. 232) vs fast-track merger (s. 233)"],
+      "distinctionsGate": "drawn",
       "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 232",
-          "citation": "Companies Act, 2013, section 232",
-          "point": "Where a compromise or arrangement involves a merger or amalgamation, section 232 adds the circulation of the scheme, valuation report, and the reports of the Regional Director and official liquidator, and allows dissolution without winding up.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        },
-        {
-          "name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.",
-          "citation": "(1995) 1 SCC 499",
-          "point": "What is the scope of court scrutiny of a scheme of amalgamation?",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from codepackr-law. Not a primary-report verification."
-        },
-        {
-          "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-          "citation": "(1997) 1 SCC 579",
-          "point": "What is the court's role in sanctioning a corporate scheme?",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from codepackr-law. Not a primary-report verification."
-        }
+        {"name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.", "citation": "(1997) 1 SCC 579", "point": "Court’s role in sanctioning schemes.", "kind": "mirrored-standard-citation", "note": "Mirrored from prior scaffold. Not a primary-report verification."},
+        {"name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.", "citation": "(1995) 1 SCC 499", "point": "Scrutiny of amalgamation schemes.", "kind": "mirrored-standard-citation", "note": "Mirrored from prior scaffold. Not a primary-report verification."}
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Trigger; extras; sanction; conclude.", "sixteenMark": "Introduction; trigger; requirements; effect; vs s. 233/234; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T08:35:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s232-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T08:35:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-232", "merger-amalgamation"]
 }
