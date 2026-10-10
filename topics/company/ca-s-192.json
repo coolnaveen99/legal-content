@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-192",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 192 (Restriction on non-cash transactions involving directors)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company.",
-    "glance": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company.",
-    "study": "Companies Act, 2013 — Section 192 (Restriction on non-cash transactions involving directors). A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 192 provides that a company shall not enter into an arrangement by which a director of the company or its holding, subsidiary or associate company, or a person connected with him, acquires or is to acquire assets for consideration other than cash from the company, or the company acquires or is to acquire assets for consideration other than cash from such a director or connected person, unless the arrangement is previously approved by a resolution of the company in general meeting. If the director or connected person is a director of its holding company, approval of the holding company in general meeting is also required. Notice of the resolution must include the particulars of the arrangement and the value of the assets. An arrangement in contravention is voidable at the instance of the company, subject to the restitution and bona fide third-party protections in the section.",
+    "glance": "Non-cash acquisition of assets between company and director/connected person (or holding/subsidiary/associate directors) needs prior GM resolution (and holding-company GM if relevant); notice states value; breach is voidable subject to statutory protections.",
+    "study": "A company shall not enter into an arrangement by which (a) a director of the company or its holding, subsidiary or associate company or a person connected with him acquires or is to acquire assets for consideration other than cash, from the company; or (b) the company acquires or is to acquire assets for consideration other than cash, from such a director or person so connected, unless prior approval for such arrangement is accorded by a resolution of the company in general meeting. If the director or connected person is a director of its holding company, resolution of the holding company in general meeting is also required. Notice for approval of the resolution must include the particulars of the arrangement along with the value of the assets involved. Any arrangement entered into in contravention is voidable at the instance of the company unless restitution is no longer possible and the company has been indemnified, or any rights acquired bona fide for value and without notice of contravention by any other person would be affected. Current-law framing: identify non-cash asset arrangement with director or connected person; require prior GM resolution (and holding-company resolution if applicable); check notice content; apply voidability and protections.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Notice of the resolution must include the value. An arrangement in breach is voidable at the instance of the company unless the restitution and bona fide third-party conditions in the section are met. Substantial asset is defined by the value thresholds in the section.",
-        "order": 2
-      }
+      {"heading": "Prohibition", "body": "Company must not enter into a non-cash asset arrangement with a director of the company or of its holding, subsidiary or associate company, or a person connected with him, without prior GM approval.", "order": 1},
+      {"heading": "Holding-Company Approval", "body": "If the director or connected person is a director of the holding company, the holding company’s general meeting must also approve.", "order": 2},
+      {"heading": "Notice", "body": "Notice of the resolution must include particulars of the arrangement and the value of the assets.", "order": 3},
+      {"heading": "Consequence", "body": "Arrangement in contravention is voidable at the instance of the company, subject to restitution impossibility with indemnity, and bona fide third-party rights.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-192",
-        "title": "Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-192", "section": "Section 192", "title": "Restriction on non-cash transactions involving directors"}],
     "examples": [
-      {
-        "title": "Non-cash transactions with directors",
-        "body": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company."
-      }
+      {"title": "Director buys company land for shares", "body": "A director is to acquire a substantial parcel of company land in exchange for shares rather than cash. Section 192 requires prior approval by a resolution of the company in general meeting, with notice stating the value.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Holding-company director", "body": "The arrangement is with a director of the holding company. Both the company’s and the holding company’s general meetings must approve under s. 192.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is Board approval alone enough for a non-cash asset deal with a director?", "analysis": "No. Section 192 requires prior approval by a resolution of the company in general meeting (and of the holding company where applicable). Board approval is not a substitute."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-192-distinction",
-        "title": "Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192) and connected legal concept",
-        "left": "Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-192-trap-1",
-        "trap": "Treating Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-192-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-192-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s192-vs-s188", "title": "Non-cash transactions with directors (s. 192) vs related-party transactions (s. 188)", "left": "Non-cash asset acquisitions involving directors/connected persons; GM approval", "right": "Broader list of RPT contract types; Board and sometimes member approval", "rows": [{"point": "Focus", "left": "Non-cash asset deals with directors", "right": "Specified RPT categories"}]}],
+    "misconceptions": [{"id": "ca-s192-trap-1", "trap": "Only cash deals with directors need scrutiny; non-cash exchanges are free of member approval.", "correction": "Section 192 specifically targets non-cash asset arrangements with directors and connected persons and requires prior general-meeting approval."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 192?",
-        "answer": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company."
-      }
+      {"id": "ca-s192-brief", "draftingCategory": "brief", "question": "How should a Section 192 problem be analysed?", "answer": "I. Identify non-cash asset arrangement with director/connected person. II. Require prior GM resolution (and holding-company GM if needed). III. Check notice content. IV. Apply voidability. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s192-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Arrangement facts; approval status; notice; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 192 — Meetings of Board and Its Powers provision (Companies Act s. 192)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-193",
-      "ca-s-191",
-      "ca-s-194"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 192", "Connected: Sections 188, 184"],
+    "examTips": ["Non-cash asset deals with directors need prior GM approval.", "Holding-company GM if director is of the holding company.", "Notice must state value.", "Voidable on breach, with statutory protections."],
+    "revisionPoints": ["Prohibition", "Holding-company approval", "Notice", "Consequence"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-188", "company-ca-s-184"],
+    "illustrations": ["illustration:india:company-ca-s-192-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-192",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company.",
-      "legalPrinciple": "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company.",
-      "statutoryFramework": "Companies Act, 2013, section 192.",
-      "essentialIngredients": [
-        "Non-cash transactions with directors"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 192 (Restriction on non-cash transactions involving directors). A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Non-cash transactions with directors"
-      ],
-      "keyTakeaways": [
-        "A company shall not enter into an arrangement by which a director or a connected person acquires a substantial asset from the company, or the company acquires a substantial asset from such a person, unless approved by a resolution of the company."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 192",
-          "citation": "Statutory restriction on non-cash transactions with directors",
-          "point": "A company does not enter into an arrangement for acquisition of a non-cash asset from a director, or for a director to acquire one from the company, above the threshold, without member approval. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the non-cash transaction restriction under s. 192.", "Explain approval, notice and voidability."],
+      "definition": "Section 192 prohibits non-cash asset arrangements between a company and its directors (or connected persons, or directors of holding/subsidiary/associate companies) without prior general-meeting approval, with notice of value and voidability on breach.",
+      "legalPrinciple": "Non-cash transfers of substantial assets involving directors are reserved to members so that value and conflict are openly tested.",
+      "statutoryFramework": "Companies Act, 2013, Section 192.",
+      "essentialIngredients": ["Non-cash asset arrangement with director or connected person", "Prior GM resolution (and holding-company GM if applicable)", "Notice with particulars and value", "Voidable on contravention subject to protections"],
+      "detailedExplanation": "Section 192 is a targeted member-approval rule for non-cash director asset deals.",
+      "examples": ["Director buys company land for shares", "Holding-company director"],
+      "problemApplication": "Map parties and consideration; require GM approval; apply voidability.",
+      "keyTakeaways": ["Prior GM approval.", "Notice of value.", "Voidable on breach."],
+      "authoritativeSources": ["Companies Act, 2013, Section 192"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Non-cash transactions with directors (s. 192) vs related-party transactions (s. 188)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Prohibition; GM approval; conclude.", "sixteenMark": "Introduction; scope; approval; notice; voidability; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:00:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s192-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-192", "non-cash-transactions"]
 }
