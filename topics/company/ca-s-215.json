@@ -2,242 +2,74 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-215",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 215 (Firm, body corporate or association not to be appointed as inspector)",
   "jurisdiction": "India",
   "content": {
-    "overview": "No firm, body corporate or other association shall be appointed as an inspector.",
-    "glance": "No firm, body corporate or other association shall be appointed as an inspector.",
-    "study": "Companies Act, 2013 — Section 215 (Firm, body corporate or association not to be appointed as inspector). No firm, body corporate or other association shall be appointed as an inspector. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 215 provides that no firm, body corporate or other association shall be appointed as an inspector under Chapter XIV. The appointment of an inspector is of an individual. The section does not prevent a firm or body from assisting an appointed individual inspector.",
+    "glance": "Inspector must be an individual — no firm, body corporate or association may be appointed as inspector; assistance by firms is not barred.",
+    "study": "No firm, body corporate or other association shall be appointed as an inspector. Current-law framing: confirm that any person appointed as inspector under the investigation chapter is an individual; reject appointment of a firm or company as the inspector itself; note that professional assistance to an individual inspector is not prohibited by this section.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "No firm, body corporate or other association shall be appointed as an inspector.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The appointment under the investigation chapter is of an individual. A firm cannot be the inspector. The section does not limit who may assist the inspector.",
-        "order": 2
-      }
+      {"heading": "Prohibition", "body": "No firm, body corporate or other association shall be appointed as an inspector.", "order": 1},
+      {"heading": "Individual Appointment", "body": "The statutory inspector is an individual competent person.", "order": 2},
+      {"heading": "Assistance", "body": "The section does not limit who may assist the inspector in a non-inspector capacity.", "order": 3}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-215",
-        "title": "Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-215", "section": "Section 215", "title": "Firm, body corporate or association not to be appointed as inspector"}],
     "examples": [
-      {
-        "title": "Inspector must be an individual",
-        "body": "No firm, body corporate or other association shall be appointed as an inspector."
-      }
+      {"title": "Firm named as inspector", "body": "The Central Government proposes to appoint ‘XYZ & Co., Chartered Accountants’ as inspector. Section 215 bars appointment of a firm as inspector; an individual partner or other individual must be appointed.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Assistance allowed", "body": "An individual inspector engages a forensic accounting firm to assist. Section 215 does not prohibit such assistance; it only bars the firm from being the appointed inspector.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May a company be appointed as inspector if it specialises in corporate investigations?", "analysis": "No. Section 215 expressly provides that no firm, body corporate or other association shall be appointed as an inspector. The appointee must be an individual."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-215-distinction",
-        "title": "Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215) and connected legal concept",
-        "left": "Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 208 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-215-trap-1",
-        "trap": "Treating Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-215-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-215-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s215-vs-s210", "title": "Who may be inspector (s. 215) vs appointment of inspectors (s. 210)", "left": "Prohibition on firm/body corporate/association as inspector", "right": "CG power to appoint one or more competent persons as inspectors", "rows": [{"point": "Focus", "left": "Eligibility form", "right": "Appointment power"}]}],
+    "misconceptions": [{"id": "ca-s215-trap-1", "trap": "Any professional firm can be named as the inspector under the Act.", "correction": "Section 215 prohibits appointment of a firm, body corporate or association as inspector. Only an individual may be appointed."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 215?",
-        "answer": "No firm, body corporate or other association shall be appointed as an inspector."
-      }
+      {"id": "ca-s215-brief", "draftingCategory": "brief", "question": "How should a Section 215 problem be analysed?", "answer": "I. Identify the proposed appointee. II. Apply the prohibition on firm/body/association. III. Confirm individual appointment. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s215-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Appointee identity; prohibition; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 215 — Inspection, Inquiry and Investigation provision (Companies Act s. 215)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "Do not plead omitted voluntary winding-up sections as current procedure."
-    ],
-    "revisionPoints": [
-      "No firm, body corporate or other association shall be appointed as an inspector."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-216",
-      "ca-s-214",
-      "ca-s-217"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 215", "Connected: Sections 210, 217"],
+    "examTips": ["Inspector = individual only.", "Firm/body corporate/association barred.", "Assistance not barred."],
+    "revisionPoints": ["Prohibition", "Individual appointment", "Assistance"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-210", "company-ca-s-217"],
+    "illustrations": ["illustration:india:company-ca-s-215-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-215",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "No firm, body corporate or other association shall be appointed as an inspector.",
-      "legalPrinciple": "No firm, body corporate or other association shall be appointed as an inspector.",
-      "statutoryFramework": "Companies Act, 2013, section 215.",
-      "essentialIngredients": [
-        "Inspector must be an individual"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 215 (Firm, body corporate or association not to be appointed as inspector). No firm, body corporate or other association shall be appointed as an inspector. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "Inspector must be an individual"
-      ],
-      "keyTakeaways": [
-        "No firm, body corporate or other association shall be appointed as an inspector."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Insolvency and Bankruptcy Code, 2016 for voluntary liquidation",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 215",
-          "citation": "Companies Act, 2013, section 215",
-          "point": "No firm, body corporate or other association shall be appointed as an inspector.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b5",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the bar on firm/body corporate inspectors under s. 215.", "Distinguish appointment from assistance."],
+      "definition": "Section 215 provides that no firm, body corporate or other association shall be appointed as an inspector under the investigation chapter.",
+      "legalPrinciple": "Investigative responsibility under the Act is vested in an identifiable individual, not in a collective entity as the formal inspector.",
+      "statutoryFramework": "Companies Act, 2013, Section 215.",
+      "essentialIngredients": ["No firm, body corporate or association as inspector", "Inspector is an individual", "Assistance by others not prohibited"],
+      "detailedExplanation": "Section 215 ensures personal accountability of the appointed inspector.",
+      "examples": ["Firm named as inspector", "Assistance allowed"],
+      "problemApplication": "Check appointee form; apply bar.",
+      "keyTakeaways": ["Individual only.", "Firms barred as inspector.", "Assistance OK."],
+      "authoritativeSources": ["Companies Act, 2013, Section 215"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Who may be inspector (s. 215) vs appointment of inspectors (s. 210)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Prohibition; individual; conclude.", "sixteenMark": "Introduction; prohibition; individual; assistance; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:50:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s215-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-215", "inspector-eligibility"]
 }
