@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-205",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 205 (Functions of company secretary)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-    "glance": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-    "study": "Companies Act, 2013 — Section 205 (Functions of company secretary). The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 205 provides that the functions of the company secretary shall include—(a) to report to the Board about compliance with the provisions of this Act, the rules made thereunder and other laws applicable to the company; (b) to ensure that the company complies with the applicable secretarial standards; (c) to discharge such other duties as may be prescribed. Appointment of a company secretary as key managerial personnel in prescribed classes is under section 203; the definition is in section 2(51).",
+    "glance": "CS functions: report to Board on compliance with Act, rules and other applicable laws; ensure compliance with secretarial standards; other prescribed duties; appointment as KMP under s. 203; defined in s. 2(51).",
+    "study": "The functions of the company secretary shall include—(a) to report to the Board about compliance with the provisions of this Act, the rules made thereunder and other laws applicable to the company; (b) to ensure that the company complies with the applicable secretarial standards; (c) to discharge such other duties as may be prescribed. Current-law framing: identify the company secretary; apply the reporting, secretarial-standards and prescribed-duty functions. Appointment obligation for prescribed classes is s. 203; secretarial audit of bigger companies is s. 204. A company secretary is a key managerial person under s. 2(51).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The section states the function; appointment in prescribed classes is section 203. A company secretary is a key managerial person under section 2(51).",
-        "order": 2
-      }
+      {"heading": "Compliance Reporting", "body": "Report to the Board about compliance with the Act, the rules and other laws applicable to the company.", "order": 1},
+      {"heading": "Secretarial Standards", "body": "Ensure that the company complies with the applicable secretarial standards.", "order": 2},
+      {"heading": "Other Prescribed Duties", "body": "Discharge such other duties as may be prescribed.", "order": 3},
+      {"heading": "Relationship to Appointment", "body": "Functions are stated in s. 205; mandatory appointment as whole-time KMP in prescribed classes is under s. 203.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-205",
-        "title": "Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-205", "section": "Section 205", "title": "Functions of company secretary"}],
     "examples": [
-      {
-        "title": "Functions of company secretary",
-        "body": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed."
-      }
+      {"title": "Secretarial standards not monitored", "body": "A company secretary fails to ensure compliance with applicable secretarial standards and does not report the gap to the Board. Section 205 expressly includes ensuring secretarial-standard compliance and reporting compliance to the Board.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Functions vs appointment", "body": "A prescribed-class company has no company secretary. The failure is primarily under s. 203 (appointment of KMP). Section 205 states the functions once a CS is in place.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does s. 205 itself require every company to appoint a company secretary?", "analysis": "No. Section 205 states the functions of the company secretary. The obligation to appoint a whole-time CS as KMP for prescribed classes is in section 203."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-205-distinction",
-        "title": "Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205) and connected legal concept",
-        "left": "Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205)",
-        "right": "Companies Act s. 196 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 197 — Appointment and Remuneration of Managerial Personnel provision; Companies Act s. 198 — Appointment and Remuneration of Managerial Personnel provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-205-trap-1",
-        "trap": "Treating Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-205-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-205-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s205-vs-s203", "title": "Functions of CS (s. 205) vs appointment of KMP (s. 203)", "left": "What the CS must do once appointed", "right": "Which companies must appoint a whole-time CS (among other KMP)", "rows": [{"point": "Focus", "left": "Functions", "right": "Appointment mandate"}]}],
+    "misconceptions": [{"id": "ca-s205-trap-1", "trap": "Section 205 is only about reporting to the Board; secretarial standards are optional.", "correction": "Section 205 expressly requires the CS to ensure that the company complies with the applicable secretarial standards, in addition to compliance reporting and other prescribed duties."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 205?",
-        "answer": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed."
-      }
+      {"id": "ca-s205-brief", "draftingCategory": "brief", "question": "How should a Section 205 problem be analysed?", "answer": "I. Identify the CS. II. Apply reporting, secretarial-standards and prescribed-duty functions. III. Distinguish appointment under s. 203. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s205-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "CS status; functions performed or omitted; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 205 — Appointment and Remuneration of Managerial Personnel provision (Companies Act s. 205)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-206",
-      "ca-s-204",
-      "ca-s-207"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 205", "Connected: Sections 203, 204, 2(51)"],
+    "examTips": ["Report to Board on compliance.", "Ensure secretarial standards.", "Other prescribed duties.", "Appointment is s. 203, not s. 205."],
+    "revisionPoints": ["Compliance reporting", "Secretarial standards", "Other prescribed duties", "Relationship to appointment"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-203", "company-ca-s-204"],
+    "illustrations": ["illustration:india:company-ca-s-205-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-205",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-      "legalPrinciple": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-      "statutoryFramework": "Companies Act, 2013, section 205.",
-      "essentialIngredients": [
-        "Functions of company secretary"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 205 (Functions of company secretary). The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "Functions of company secretary"
-      ],
-      "keyTakeaways": [
-        "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 205",
-          "citation": "Companies Act, 2013, section 205",
-          "point": "The functions of the company secretary include reporting to the board on compliance, ensuring compliance with the Act and secretarial standards, and discharging other duties prescribed.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the statutory functions of the company secretary under s. 205.", "Distinguish functions from the appointment mandate in s. 203."],
+      "definition": "Section 205 requires the company secretary to report to the Board on compliance with the Act, rules and other applicable laws, ensure compliance with secretarial standards, and discharge other prescribed duties.",
+      "legalPrinciple": "The company secretary is the statutory compliance reporter and secretarial-standards guardian within the company’s governance structure.",
+      "statutoryFramework": "Companies Act, 2013, Section 205.",
+      "essentialIngredients": ["Report to Board on compliance with Act, rules and other applicable laws", "Ensure compliance with applicable secretarial standards", "Discharge other prescribed duties"],
+      "detailedExplanation": "Section 205 defines the CS’s functional role; appointment is under s. 203.",
+      "examples": ["Secretarial standards not monitored", "Functions vs appointment"],
+      "problemApplication": "Map functions; distinguish appointment duty.",
+      "keyTakeaways": ["Board compliance reporting.", "Secretarial standards.", "Appointment is s. 203."],
+      "authoritativeSources": ["Companies Act, 2013, Section 205"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Functions of CS (s. 205) vs appointment of KMP (s. 203)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Functions; vs appointment; conclude.", "sixteenMark": "Introduction; reporting; standards; other duties; vs s. 203; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T07:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s205-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T07:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-205", "company-secretary-functions"]
 }
