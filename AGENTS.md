@@ -108,3 +108,10 @@ The official-PDF validator's technical outcome is separate from legal-source ver
 - Alternate copies or indexed text may support source-identity triage but do not prove byte identity with an inaccessible original URL. Do not close a checksum-based review without the actual reviewed document or an explicitly approved authoritative replacement and auditable evidence.
 - Preserve checksum-based closure safeguards; do not weaken the validator to force a green result. Keep legal verification/publication blocked while required reviews remain pending.
 - Test technical outcomes and report focused test results separately from the repository-wide status. Do not claim the overall workflow passes while unrelated validators fail.
+
+
+## Meeting and legacy-work alignment
+
+- For cross-repository legacy status reconciliation, follow `docs/LEGACY-WORK-ALIGNMENT-AUDIT.md`; preserve valid completed work and do not create a competing master queue.
+- For every roadmap/sprint meeting, read and follow `docs/SPRINT-MEETING-INSTRUCTIONS.md`. Record evidence, actual participants, decisions, dissent, blockers and non-overlapping action ownership. Do not invent consensus or metrics.
+- The Work Control Master remains the sole work-selection/ownership authority. Meeting records and historical reports are evidence, not independent task selectors.
