@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-162",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 162 (Appointment of directors to be voted individually)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-    "glance": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-    "study": "Companies Act, 2013 — Section 162 (Appointment of directors to be voted individually). A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 162 provides that at a general meeting a motion for the appointment of two or more persons as directors of the company by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to by the meeting without any vote being given against it. A resolution moved in contravention is void, whether or not objection was taken at the time.",
+    "glance": "Two or more directors cannot be appointed by one resolution unless the meeting first agrees without any dissenting vote that a single resolution may be used; a contravening resolution is void.",
+    "study": "At a general meeting of a company, a motion for the appointment of two or more persons as directors of the company by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to by the meeting without any vote being given against it. A resolution moved in contravention of this provision is void, whether or not its being so moved was objected to at the time. Nothing in the section applies to a company whose articles provide for election of directors by proportional representation under section 163. Current-law framing: identify a multi-person appointment motion at a general meeting; check whether a prior unanimous-consent resolution authorised a single resolution; if not, the appointment resolution is void.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The rule protects members from a slate vote. A resolution moved in contravention is void. It applies to appointments at a general meeting, not to a board appointment of an additional director under section 161.",
-        "order": 2
-      }
+      {"heading": "Default Rule", "body": "Directors are to be voted on individually at a general meeting; a single resolution for two or more persons is not the default.", "order": 1},
+      {"heading": "Exception", "body": "A single resolution may be used only if the meeting first agrees, without any vote against, that it shall be so moved.", "order": 2},
+      {"heading": "Consequence", "body": "A resolution moved in contravention is void, whether or not objection was taken at the time.", "order": 3},
+      {"heading": "Proportional Representation Carve-Out", "body": "The section does not apply where articles provide for election by proportional representation under section 163.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-162",
-        "title": "Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-162", "section": "Section 162", "title": "Appointment of directors to be voted individually"}],
     "examples": [
-      {
-        "title": "Individual voting on directors",
-        "body": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it."
-      }
+      {"title": "Slate vote without prior consent", "body": "The chair moves one resolution appointing A, B and C as directors without a prior resolution agreeing that a single motion may be used. Under s. 162 the resolution is void.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Prior consent obtained", "body": "The meeting first passes, without any dissenting vote, a resolution that the appointment of three directors may be moved by a single resolution. The subsequent single resolution is then within s. 162.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does failure to object at the meeting save a multi-person appointment resolution moved without prior consent?", "analysis": "No. Section 162 states that a resolution moved in contravention is void whether or not its being so moved was objected to at the time."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-162-distinction",
-        "title": "Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162) and connected legal concept",
-        "left": "Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-162-trap-1",
-        "trap": "Treating Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-162-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-162-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s162-vs-s163", "title": "Individual voting (s. 162) vs proportional representation (s. 163)", "left": "Default individual voting; single resolution only with prior unanimous-consent resolution", "right": "Articles may adopt proportional representation; s. 162 then does not apply", "rows": [{"point": "Focus", "left": "Voting method at GM", "right": "Optional article-based election system"}]}],
+    "misconceptions": [{"id": "ca-s162-trap-1", "trap": "A single resolution for several directors is always valid if no one objects at the meeting.", "correction": "Without a prior resolution agreed to without any vote against, a multi-person appointment resolution is void even if no one objected when it was moved."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 162?",
-        "answer": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it."
-      }
+      {"id": "ca-s162-brief", "draftingCategory": "brief", "question": "How should a Section 162 problem be analysed?", "answer": "I. Identify multi-person appointment motion at GM. II. Check prior unanimous-consent resolution. III. If absent, resolution is void. IV. Note s. 163 carve-out if applicable. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s162-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Meeting facts; motion structure; prior consent status; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 162 — Appointment and Qualifications of Directors provision (Companies Act s. 162)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-163",
-      "ca-s-161",
-      "ca-s-164"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 162", "Connected: Sections 152, 163"],
+    "examTips": ["Default: individual voting.", "Single resolution needs prior consent with no dissenting vote.", "Contravention → void even without contemporaneous objection."],
+    "revisionPoints": ["Default rule", "Exception", "Consequence", "s. 163 carve-out"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-152", "company-ca-s-163"],
+    "illustrations": ["illustration:india:company-ca-s-162-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-162",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-      "legalPrinciple": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-      "statutoryFramework": "Companies Act, 2013, section 162.",
-      "essentialIngredients": [
-        "Individual voting on directors"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 162 (Appointment of directors to be voted individually). A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Individual voting on directors"
-      ],
-      "keyTakeaways": [
-        "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 162",
-          "citation": "Companies Act, 2013, section 162",
-          "point": "A motion for the appointment of two or more persons as directors by a single resolution shall not be moved unless a resolution that it shall be so moved has first been agreed to without any vote against it.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the individual-voting rule under s. 162.", "Explain when a single resolution is permitted and the effect of contravention."],
+      "definition": "Section 162 requires directors to be voted on individually at a general meeting unless the meeting first agrees without any dissenting vote that a single resolution may appoint two or more persons; a contravening resolution is void.",
+      "legalPrinciple": "Members must be able to accept or reject each proposed director separately unless they unanimously permit a slate vote.",
+      "statutoryFramework": "Companies Act, 2013, Section 162.",
+      "essentialIngredients": ["General meeting appointment of two or more persons", "Prior resolution agreed without any vote against", "Otherwise the appointment resolution is void", "Does not apply where s. 163 proportional representation applies"],
+      "detailedExplanation": "Section 162 protects members from forced slate appointments at general meetings.",
+      "examples": ["Slate vote without prior consent", "Prior consent obtained"],
+      "problemApplication": "Identify multi-person motion; test prior consent; apply voidness.",
+      "keyTakeaways": ["Individual voting is the default.", "Single resolution needs prior no-dissent consent.", "Contravention is void."],
+      "authoritativeSources": ["Companies Act, 2013, Section 162"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Individual voting (s. 162) vs proportional representation (s. 163)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Default; exception; voidness; conclude.", "sixteenMark": "Introduction; rule; exception; consequence; s. 163; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s162-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-162", "individual-voting"]
 }

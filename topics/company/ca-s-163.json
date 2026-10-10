@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-163",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 163 (Proportional representation)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 163 (Option to adopt principle of proportional representation for appointment of directors)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-    "glance": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-    "study": "Companies Act, 2013 — Section 163 (Proportional representation). Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 163 allows the articles of a company to provide for appointment of not less than two-thirds of the total number of directors of a company according to the principle of proportional representation, whether by the single transferable vote or by a system of cumulative voting or otherwise. Such directors are not liable to retire by rotation.",
+    "glance": "Articles may adopt proportional representation (STV, cumulative voting or otherwise) for ≥2/3 of directors; those directors are not liable to retire by rotation; s. 162 then does not apply.",
+    "study": "Notwithstanding anything contained in this Act, the articles of a company may provide for the appointment of not less than two-thirds of the total number of the directors of a company in accordance with the principle of proportional representation, whether by the single transferable vote or by a system of cumulative voting or otherwise and such appointments may be made once every three years and casual vacancies of such directors shall be filled as provided in the said articles. Such directors are not liable to retire by rotation. Section 162 (individual voting) does not apply where this system is adopted. Current-law framing: check whether articles adopt proportional representation for at least two-thirds of directors; apply the article system and non-rotation consequence.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The section is an option, not a mandate. Appointments under it are not cut down by the rotation rule in section 152. Removal remains subject to the Act.",
-        "order": 2
-      }
+      {"heading": "Enabling Power", "body": "Articles may provide for appointment of not less than two-thirds of the total number of directors by proportional representation.", "order": 1},
+      {"heading": "Methods", "body": "Single transferable vote, cumulative voting, or otherwise as the articles specify.", "order": 2},
+      {"heading": "Tenure and Casual Vacancy", "body": "Appointments may be made once every three years; casual vacancies are filled as provided in the articles.", "order": 3},
+      {"heading": "No Rotation", "body": "Directors appointed under this system are not liable to retire by rotation under section 152.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-163",
-        "title": "Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-163", "section": "Section 163", "title": "Option to adopt principle of proportional representation for appointment of directors"}],
     "examples": [
-      {
-        "title": "Proportional representation",
-        "body": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation."
-      }
+      {"title": "Articles adopt STV", "body": "Articles provide that two-thirds of directors are elected by single transferable vote every three years. Those directors are not rotational under s. 152, and s. 162 does not apply to their election.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "No article provision", "body": "Articles are silent on proportional representation. Section 163 is not engaged; ordinary appointment and rotation under ss. 152 and 162 apply.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Must every company use proportional representation?", "analysis": "No. Section 163 is enabling. It applies only if the articles so provide for not less than two-thirds of the directors."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-163-distinction",
-        "title": "Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163) and connected legal concept",
-        "left": "Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-163-trap-1",
-        "trap": "Treating Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-163-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-163-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s163-vs-s152", "title": "Proportional representation (s. 163) vs ordinary rotation (s. 152)", "left": "Optional article-based proportional election; no rotation for those directors", "right": "Default public-company rotation of ≥2/3 of directors", "rows": [{"point": "Focus", "left": "Optional system", "right": "Default rotation rules"}]}],
+    "misconceptions": [{"id": "ca-s163-trap-1", "trap": "Proportional representation is mandatory for all public companies.", "correction": "Section 163 is an option the articles may adopt; it is not a mandatory system."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 163?",
-        "answer": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation."
-      }
+      {"id": "ca-s163-brief", "draftingCategory": "brief", "question": "How should a Section 163 problem be analysed?", "answer": "I. Check articles for proportional representation of ≥2/3 directors. II. Apply method and three-year cycle. III. Note non-rotation and s. 162 carve-out. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s163-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Article text; method used; tenure facts; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 163 — Appointment and Qualifications of Directors provision (Companies Act s. 163)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-164",
-      "ca-s-162",
-      "ca-s-165"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 163", "Connected: Sections 152, 162"],
+    "examTips": ["Enabling, not mandatory.", "≥2/3 of directors.", "Not liable to retire by rotation.", "s. 162 does not apply."],
+    "revisionPoints": ["Enabling power", "Methods", "Tenure and casual vacancy", "No rotation"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-152", "company-ca-s-162"],
+    "illustrations": ["illustration:india:company-ca-s-163-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-163",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-      "legalPrinciple": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-      "statutoryFramework": "Companies Act, 2013, section 163.",
-      "essentialIngredients": [
-        "Proportional representation"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 163 (Proportional representation). Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "Proportional representation"
-      ],
-      "keyTakeaways": [
-        "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 163",
-          "citation": "Companies Act, 2013, section 163",
-          "point": "Articles may provide that directors shall be appointed by proportional representation, by single transferable vote or cumulative voting or otherwise, and that such directors shall not be liable to retire by rotation.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the optional proportional-representation rule under s. 163.", "Explain non-rotation and the relationship with ss. 152 and 162."],
+      "definition": "Section 163 enables articles to provide for appointment of not less than two-thirds of directors by proportional representation; such directors are not liable to retire by rotation.",
+      "legalPrinciple": "Companies may opt into a minority-protective election system for a substantial part of the board.",
+      "statutoryFramework": "Companies Act, 2013, Section 163.",
+      "essentialIngredients": ["Articles so provide", "Not less than two-thirds of total directors", "Proportional representation (STV, cumulative or otherwise)", "Not liable to retire by rotation"],
+      "detailedExplanation": "Section 163 is an optional alternative to ordinary appointment and rotation.",
+      "examples": ["Articles adopt STV", "No article provision"],
+      "problemApplication": "Check articles; apply method and non-rotation.",
+      "keyTakeaways": ["Optional via articles.", "≥2/3 of directors.", "No rotation for those directors."],
+      "authoritativeSources": ["Companies Act, 2013, Section 163"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Proportional representation (s. 163) vs ordinary rotation (s. 152)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Enabling; ≥2/3; no rotation; conclude.", "sixteenMark": "Introduction; power; methods; tenure; vs ss. 152/162; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s163-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-163", "proportional-representation"]
 }

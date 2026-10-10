@@ -2,243 +2,76 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-165",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 165 (Number of directorships)",
   "jurisdiction": "India",
   "content": {
-    "overview": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten.",
-    "glance": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten.",
-    "study": "Companies Act, 2013 — Section 165 (Number of directorships). No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
+    "overview": "Section 165 provides that no person shall hold office as a director, including any alternate directorship, in more than twenty companies at the same time, of which the maximum number of public companies shall not exceed ten. Members may by special resolution specify a lower number. A person who holds office in more than the permitted number must choose which offices to vacate within the specified period.",
+    "glance": "Maximum 20 directorships (including alternate); of which public companies ≤10; members may set a lower cap by special resolution; excess must be vacated within the prescribed period.",
+    "study": "No person, after the commencement of this Act, shall hold office as a director, including any alternate directorship, in more than twenty companies at the same time: provided that the maximum number of public companies in which a person can be appointed as a director shall not exceed ten. In reckoning the limit, dormant companies are excluded as the section provides. A private company that is a holding or subsidiary of a public company is treated as a public company for this count. The members of a company may, by special resolution, specify any lesser number of companies in which a director of the company may act as directors. A person holding office in more than the permitted number must choose the companies in which to continue and resign from the rest within the period specified. Current-law framing: count all directorships including alternate; separate public-company count; apply special-resolution lower cap if any; require vacation of excess.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Dormant companies are excluded from the count as the section provides. A private company that is a holding or subsidiary of a public company counts as a public company for this cap. The person must choose which offices to vacate within the specified period if the cap is exceeded. Members may by special resolution specify a lower number.",
-        "order": 2
-      }
+      {"heading": "Overall Cap", "body": "No more than twenty companies at the same time, including alternate directorships.", "order": 1},
+      {"heading": "Public-Company Cap", "body": "Of the twenty, public companies shall not exceed ten. A private company that is a holding or subsidiary of a public company counts as a public company for this purpose.", "order": 2},
+      {"heading": "Exclusions", "body": "Dormant companies are excluded from the count as the section provides.", "order": 3},
+      {"heading": "Lower Cap by Members", "body": "Members may by special resolution specify a lesser number for directors of that company.", "order": 4},
+      {"heading": "Excess", "body": "A person exceeding the limit must choose which offices to retain and vacate the rest within the specified period.", "order": 5}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-165",
-        "title": "Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-165", "section": "Section 165", "title": "Number of directorships"}],
     "examples": [
-      {
-        "title": "Cap on directorships",
-        "body": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten."
-      }
+      {"title": "Public-company limit", "body": "A person is a director of twelve public companies. Section 165 is breached on the public-company cap of ten, even if the overall count is under twenty.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Holding/subsidiary private company", "body": "A private company that is a subsidiary of a public company counts as a public company toward the ten-public-company limit under s. 165.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Do alternate directorships count toward the twenty-company limit?", "analysis": "Yes. Section 165 expressly includes any alternate directorship in the count."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-165-distinction",
-        "title": "Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165) and connected legal concept",
-        "left": "Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-165-trap-1",
-        "trap": "Treating Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-165-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-165-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s165-vs-s149", "title": "Number of directorships (s. 165) vs board composition (s. 149)", "left": "Cap on how many companies one person may serve as director", "right": "Minimum and maximum number of directors on a single company’s board", "rows": [{"point": "Focus", "left": "Person’s portfolio of seats", "right": "Size of one board"}]}],
+    "misconceptions": [{"id": "ca-s165-trap-1", "trap": "Only public-company directorships are capped; private companies are unlimited.", "correction": "There is an overall cap of twenty companies (including private) and a separate public-company cap of ten."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 165 require?",
-        "answer": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten."
-      }
+      {"id": "ca-s165-brief", "draftingCategory": "brief", "question": "How should a Section 165 problem be analysed?", "answer": "I. Count all directorships including alternate. II. Count public companies (including private holding/subsidiary of public). III. Apply any special-resolution lower cap. IV. Require vacation of excess. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s165-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "List of directorships; public vs private count; special resolution if any; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 165 — Appointment and Qualifications of Directors provision (Companies Act s. 165)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-166",
-      "ca-s-164",
-      "ca-s-167"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 165", "Connected: Sections 149, 161"],
+    "examTips": ["20 overall; 10 public.", "Alternate counts.", "Private subsidiary of public counts as public.", "Members may set a lower cap."],
+    "revisionPoints": ["Overall cap", "Public-company cap", "Exclusions", "Lower cap by members", "Excess"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-149", "company-ca-s-164"],
+    "illustrations": ["illustration:india:company-ca-s-165-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-165",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten.",
-      "legalPrinciple": "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten.",
-      "statutoryFramework": "Companies Act, 2013, section 165.",
-      "essentialIngredients": [
-        "Cap on directorships",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 165 (Number of directorships). No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten. In an answer, state the person who must act, the condition that triggers the section, and the consequence the section attaches. Do not add a threshold or a time limit that the section does not state. Not a verified closure.",
-      "examples": [
-        "Cap on directorships"
-      ],
-      "keyTakeaways": [
-        "No person may hold office as director, including alternate director, in more than twenty companies, of which public companies cannot exceed ten."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 165",
-          "citation": "Statutory limit on number of directorships",
-          "point": "A person cannot be a director in more than twenty companies, and not more than ten public companies. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the twenty-company and ten-public-company caps under s. 165.", "Explain counting rules for alternate and private subsidiaries of public companies."],
+      "definition": "Section 165 limits a person to twenty directorships at a time, of which public companies cannot exceed ten, subject to a lower number fixed by special resolution.",
+      "legalPrinciple": "Concentration of board seats in one person is limited so that directors can discharge duties with adequate attention.",
+      "statutoryFramework": "Companies Act, 2013, Section 165.",
+      "essentialIngredients": ["Maximum 20 companies including alternate", "Maximum 10 public companies", "Private holding/subsidiary of public counts as public", "Dormant companies excluded as provided", "Members may set lower cap by special resolution"],
+      "detailedExplanation": "Section 165 is the statutory ceiling on a person’s portfolio of directorships.",
+      "examples": ["Public-company limit", "Holding/subsidiary private company"],
+      "problemApplication": "Count seats; apply dual caps; force vacation of excess.",
+      "keyTakeaways": ["20 overall; 10 public.", "Alternate counts.", "Members may lower the cap."],
+      "authoritativeSources": ["Companies Act, 2013, Section 165"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Number of directorships (s. 165) vs board composition (s. 149)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Caps; counting; conclude.", "sixteenMark": "Introduction; overall and public caps; counting rules; lower cap; excess; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s165-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-165", "number-of-directorships"]
 }
