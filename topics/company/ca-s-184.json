@@ -2,250 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-184",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 184 (Disclosure of interest)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 184 (Disclosure of interest by director)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change.",
-    "glance": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change.",
-    "study": "Companies Act, 2013 — Section 184 (Disclosure of interest). Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 184 requires every director to disclose his concern or interest in any company or companies or bodies corporate, firms, or other association of individuals, including shareholding, at the first meeting of the Board in which he participates as a director and thereafter at the first meeting of the Board in every financial year or whenever there is any change. A director who is interested in a contract or arrangement with a body corporate, firm or other entity shall disclose the nature of his concern or interest at the meeting of the Board in which the contract or arrangement is discussed, and shall not participate in such meeting. A contract or arrangement entered into without disclosure is voidable at the option of the company.",
+    "glance": "Director discloses concern/interest (including shareholding) at first Board meeting as director, at first Board meeting each year, and on change; interested director discloses nature of interest and does not participate; non-disclosure makes contract voidable at company’s option.",
+    "study": "Every director shall at the first meeting of the Board in which he participates as a director and thereafter at the first meeting of the Board in every financial year or whenever there is any change in the disclosures already made, disclose his concern or interest in any company or companies or bodies corporate, firms, or other association of individuals which shall include the shareholding, in such manner as may be prescribed. Every director who is in any way, whether directly or indirectly, concerned or interested in a contract or arrangement or proposed contract or arrangement entered into or to be entered into with a body corporate in which such director or such director in association with any other director holds more than two per cent shareholding, or with a firm or other entity in which such director is a partner, owner or member, shall disclose the nature of his concern or interest at the meeting of the Board in which the contract or arrangement is discussed and shall not participate in such meeting. A contract or arrangement entered into by the company without disclosure or with participation by the interested director is voidable at the option of the company. Current-law framing: confirm general disclosure (first meeting / annual / change); test specific disclosure and non-participation on the contract item; apply voidability on breach. Distinct from related-party transaction approval under section 188.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Disclosure is in the prescribed form. An interested director does not participate in the item. A contract entered without disclosure is voidable at the option of the company. The duty is separate from the approval route for specified related-party contracts under section 188.",
-        "order": 2
-      }
+      {"heading": "General Disclosure", "body": "Concern or interest in companies, bodies corporate, firms or associations (including shareholding) disclosed at the first Board meeting as director, at the first Board meeting each financial year, and on any change.", "order": 1},
+      {"heading": "Contract-Specific Disclosure", "body": "Director interested in a contract or arrangement discloses the nature of concern or interest at the Board meeting discussing it.", "order": 2},
+      {"heading": "Non-Participation", "body": "Interested director shall not participate in the Board meeting on that contract or arrangement.", "order": 3},
+      {"heading": "Consequence", "body": "Contract or arrangement entered without disclosure, or with participation by the interested director, is voidable at the option of the company.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-184",
-        "title": "Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-184", "section": "Section 184", "title": "Disclosure of interest by director"}],
     "examples": [
-      {
-        "title": "Disclosure of director's interest",
-        "body": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change."
-      }
+      {"title": "Annual disclosure", "body": "A director updates the Board at the first meeting of the financial year with current shareholdings in other companies. Section 184’s general disclosure duty is met for that year until a change occurs.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Participation after non-disclosure", "body": "A director interested in a proposed contract neither discloses nor abstains, and the Board approves the contract. The contract is voidable at the option of the company under s. 184.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does disclosure under s. 184 replace the need for s. 188 related-party approval?", "analysis": "No. Section 184 is a disclosure and non-participation rule. Section 188 is a separate approval regime for specified related-party transactions. Both may apply on the same facts."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-184-distinction",
-        "title": "Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184) and connected legal concept",
-        "left": "Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-184-trap-1",
-        "trap": "Treating Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-184-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-184-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s184-vs-s188", "title": "Disclosure of interest (s. 184) vs related-party transactions (s. 188)", "left": "Disclose and do not participate", "right": "Board/member approval route for specified RPTs", "rows": [{"point": "Focus", "left": "Transparency and abstention", "right": "Approval thresholds"}]}],
+    "misconceptions": [{"id": "ca-s184-trap-1", "trap": "Once a director has disclosed interests at appointment, no further disclosure is needed.", "correction": "Disclosure is required at the first Board meeting each financial year and whenever there is any change in the disclosures already made."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 184 require?",
-        "answer": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change."
-      }
+      {"id": "ca-s184-brief", "draftingCategory": "brief", "question": "How should a Section 184 problem be analysed?", "answer": "I. Confirm general disclosure timeline. II. Test contract-specific disclosure and non-participation. III. Apply voidability. IV. Distinguish s. 188. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s184-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Disclosure facts; participation; contract status; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 184 — Meetings of Board and Its Powers provision (Companies Act s. 184)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "Regal (Hastings) Ltd. v. Gulliver",
-        "citation": "[1942] 1 All ER 378",
-        "point": "May a director retain a profit made by reason of opportunity and position as director?"
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-185",
-      "ca-s-183",
-      "ca-s-186"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 184", "Connected: Sections 166, 188"],
+    "examTips": ["General disclosure: first meeting, annual, on change.", "Contract item: disclose and do not participate.", "Non-compliance → voidable at company’s option.", "Distinct from s. 188 RPT approval."],
+    "revisionPoints": ["General disclosure", "Contract-specific disclosure", "Non-participation", "Consequence"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-166", "company-ca-s-188"],
+    "illustrations": ["illustration:india:company-ca-s-184-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-184",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change.",
-      "legalPrinciple": "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change.",
-      "statutoryFramework": "Companies Act, 2013, section 184.",
-      "essentialIngredients": [
-        "Disclosure of director's interest",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 184 (Disclosure of interest). Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Disclosure of director's interest"
-      ],
-      "keyTakeaways": [
-        "Every director must disclose concern or interest in any company, body corporate, firm or other association, and in a contract or arrangement, at the first board meeting and on change."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 184",
-          "citation": "Statutory disclosure of interest",
-          "point": "A director discloses his concern or interest at the first meeting and on any change. An interested director does not participate in the contract in which he is interested. This is a statutory pointer, not a judgment."
-        },
-        {
-          "name": "Regal (Hastings) Ltd. v. Gulliver",
-          "citation": "[1942] 1 All ER 378",
-          "point": "May a director retain a profit made by reason of opportunity and position as director?",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from codepackr-law. Not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the disclosure and non-participation duties under s. 184.", "Explain voidability and distinction from s. 188."],
+      "definition": "Section 184 requires directors to disclose concerns and interests periodically and on contracts, and to abstain from participation on interested items, failing which the contract is voidable at the company’s option.",
+      "legalPrinciple": "Conflicts of interest are managed by mandatory disclosure and exclusion from deliberation rather than by automatic invalidity of all interested dealing.",
+      "statutoryFramework": "Companies Act, 2013, Section 184.",
+      "essentialIngredients": ["General disclosure at first meeting, annually and on change", "Contract-specific disclosure of nature of interest", "Non-participation by interested director", "Voidability at company’s option on breach"],
+      "detailedExplanation": "Section 184 is the core conflict-disclosure provision for directors.",
+      "examples": ["Annual disclosure", "Participation after non-disclosure"],
+      "problemApplication": "Map disclosure timeline; test abstention; apply voidability.",
+      "keyTakeaways": ["Disclose early and on change.", "Abstain on interested items.", "Voidable, not automatically void."],
+      "authoritativeSources": ["Companies Act, 2013, Section 184"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; prior mirrored English citation not carried forward as locked authority; case-law verification separate.", "date": "2026-10-10"},
+      "distinctions": ["Disclosure of interest (s. 184) vs related-party transactions (s. 188)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Disclosure; non-participation; voidability; conclude.", "sixteenMark": "Introduction; general; contract-specific; consequence; vs s. 188; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s184-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-184", "disclosure-of-interest"]
 }

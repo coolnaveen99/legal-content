@@ -2,255 +2,74 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-185",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 185 (Loans to directors)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 185 (Loan to directors, etc.)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner.",
-    "glance": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner.",
-    "study": "The present section is the text substituted by the Companies (Amendment) Act, 2017. A loan to a person in whom a director is interested may be given if a special resolution is passed with full particulars in the explanatory statement and the loan is used for the principal business of the borrowing company. Exceptions include a loan to a managing or whole-time director as part of service conditions extended to all employees or under a member-approved scheme, ordinary-course lending at not less than the prescribed yield, and specified holding-company support to a wholly owned subsidiary used for its principal business. Private-company exemptions, where they exist, must be taken from the notification in force, not assumed.",
+    "overview": "Section 185 (as substituted) prohibits a company from directly or indirectly advancing any loan, including any loan represented by a book debt, or giving any guarantee or providing any security in connection with any loan taken by (a) any director of the company, or of a company which is its holding company, or any partner or relative of any such director; or (b) any firm in which any such director or relative is a partner. A loan may be advanced to any person in whom any of the directors is interested if a special resolution is passed with full disclosure in the explanatory statement and the loans are utilised for the principal business activities of the borrowing entity. Specified exceptions include loans to managing or whole-time directors as part of conditions of service extended to all employees or pursuant to a scheme approved by members, ordinary-course lending by companies whose ordinary business includes lending, and certain holding-company support to wholly owned subsidiaries used for principal business activities.",
+    "glance": "Prohibition on loans/guarantees/security to directors, holding-company directors, their partners/relatives, and firms in which they are partners; special-resolution route for persons in whom a director is interested (principal-business use); limited statutory exceptions.",
+    "study": "No company shall, directly or indirectly, advance any loan, including any loan represented by a book debt to, or give any guarantee or provide any security in connection with any loan taken by, (a) any director of company, or of a company which is its holding company or any partner or relative of any such director; or (b) any firm in which any such director or relative is a partner. A company may advance any loan or give any guarantee or provide any security in connection with any loan taken by any person in whom any of the directors of the company is interested subject to the condition that a special resolution is passed by the company in general meeting and the loans are utilised by the borrowing company for its principal business activities; the explanatory statement to the notice must disclose full particulars. Exceptions include: (i) loan to a managing or whole-time director as a part of the conditions of service extended by the company to all its employees or pursuant to any scheme approved by the members by a special resolution; (ii) a company which in the ordinary course of its business provides loans or gives guarantees or securities for the due repayment of any loan and in respect of such loans an interest is charged at a rate not less than the rate of prevailing yield of one year, three years, five years or ten years Government security closest to the tenor of the loan; (iii) any loan made by a holding company to its wholly owned subsidiary or any guarantee/security by a holding company in respect of a loan made to its wholly owned subsidiary, provided the loan is utilised for the principal business activities of the subsidiary. Private-company exemptions, if any, must be taken from the notification in force. Current-law framing: identify the borrower class; apply the prohibition; test special-resolution route; apply listed exceptions.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The present section is the text substituted by the Companies (Amendment) Act, 2017. A loan to a person in whom a director is interested may be given if a special resolution is passed with full particulars in the explanatory statement and the loan is used for the principal business of the borrowing company. Exceptions include a loan to a managing or whole-time director as part of service conditions extended to all employees or under a member-approved scheme, ordinary-course lending at not less than the prescribed yield, and specified holding-company support to a wholly owned subsidiary used for its principal business. Private-company exemptions, where they exist, must be taken from the notification in force, not assumed.",
-        "order": 2
-      }
+      {"heading": "Core Prohibition", "body": "No loan (including book debt), guarantee or security for a loan to a director of the company or of its holding company, or to a partner or relative of such director, or to a firm in which such director or relative is a partner.", "order": 1},
+      {"heading": "Special-Resolution Route", "body": "Loan/guarantee/security to a person in whom any director is interested may be given if a special resolution is passed with full particulars in the explanatory statement and the funds are used for the principal business activities of the borrower.", "order": 2},
+      {"heading": "Exceptions", "body": "MD/WTD loans under service conditions extended to all employees or member-approved scheme; ordinary-course lending at not less than prescribed Government-security yield; holding-company support to wholly owned subsidiary for principal business.", "order": 3}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-185",
-        "title": "Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-185", "section": "Section 185", "title": "Loan to directors, etc."}],
     "examples": [
-      {
-        "title": "Loans to directors",
-        "body": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner."
-      }
+      {"title": "Loan to director’s relative", "body": "A company advances a loan to the spouse of a director. Section 185 prohibits loans to a relative of a director of the company, subject only to the special-resolution route or a listed exception if applicable.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Wholly owned subsidiary support", "body": "A holding company guarantees a loan taken by its wholly owned subsidiary for the subsidiary’s principal business. That support falls within the statutory exception under s. 185.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does calling a prohibited director loan a matter of internal management save it?", "analysis": "No. Section 185 is a statutory prohibition. Labelling the transaction as internal management does not displace the prohibition or the need to fit an exception or the special-resolution route."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-185-distinction",
-        "title": "Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185) and connected legal concept",
-        "left": "Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-185-trap-1",
-        "trap": "Treating Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-185-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-185-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s185-vs-s186", "title": "Loan to directors (s. 185) vs inter-corporate loans and investments (s. 186)", "left": "Prohibition focused on directors and connected persons", "right": "Limits and approvals for loans, guarantees and investments to other bodies corporate", "rows": [{"point": "Focus", "left": "Director-connected lending", "right": "Inter-corporate lending/investment limits"}]}],
+    "misconceptions": [{"id": "ca-s185-trap-1", "trap": "Any loan to a director is allowed if the Board approves it.", "correction": "Board approval alone is not enough. The transaction must fit a statutory exception or the special-resolution route with principal-business use; otherwise it is prohibited."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 185 require?",
-        "answer": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner."
-      }
+      {"id": "ca-s185-brief", "draftingCategory": "brief", "question": "How should a Section 185 problem be analysed?", "answer": "I. Identify borrower class. II. Apply prohibition. III. Test special-resolution route. IV. Apply listed exceptions. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s185-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Borrower facts; prohibition; exception or special resolution; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 185 — Meetings of Board and Its Powers provision (Companies Act s. 185)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "Needle Industries (India) Ltd v Needle Industries Newey (India) Holding Ltd",
-        "citation": "(1981) 3 SCC 333",
-        "point": "A loan or advantage to a director that breaches the statute is not cured by calling it a matter of internal management. Section 185 is a prohibition, subject to the stated exceptions."
-      },
-      {
-        "name": "Aberdeen Railway Co. v. Blaikie Bros.",
-        "citation": "(1854) 1 Macq 461",
-        "point": "May a director deal with the company when personally interested in the contract?"
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-186",
-      "ca-s-184",
-      "ca-s-187"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 185", "Connected: Sections 184, 186"],
+    "examTips": ["Core prohibition on director-connected loans/guarantees/security.", "Special resolution + principal-business use for persons in whom a director is interested.", "Know the three main exceptions.", "Private-company exemptions only if a notification so provides."],
+    "revisionPoints": ["Core prohibition", "Special-resolution route", "Exceptions"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-184", "company-ca-s-186"],
+    "illustrations": ["illustration:india:company-ca-s-185-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-185",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner.",
-      "legalPrinciple": "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner.",
-      "statutoryFramework": "Companies Act, 2013, section 185.",
-      "essentialIngredients": [
-        "Loans to directors",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "The present section is the text substituted by the Companies (Amendment) Act, 2017. A loan to a person in whom a director is interested may be given if a special resolution is passed with full particulars in the explanatory statement and the loan is used for the principal business of the borrowing company. Exceptions include a loan to a managing or whole-time director as part of service conditions extended to all employees or under a member-approved scheme, ordinary-course lending at not less than the prescribed yield, and specified holding-company support to a wholly owned subsidiary used for its principal business. Private-company exemptions, where they exist, must be taken from the notification in force, not assumed.",
-      "examples": [
-        "Loans to directors"
-      ],
-      "keyTakeaways": [
-        "A company must not directly or indirectly advance a loan, including a book debt, or give a guarantee or security for a loan, to a director, a holding-company director, or a partner or relative of such a director, or to a firm in which such a director or relative is a partner."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Needle Industries (India) Ltd v Needle Industries Newey (India) Holding Ltd",
-          "citation": "(1981) 3 SCC 333",
-          "point": "A loan or advantage to a director that breaches the statute is not cured by calling it a matter of internal management. Section 185 is a prohibition, subject to the stated exceptions."
-        },
-        {
-          "name": "Aberdeen Railway Co. v. Blaikie Bros.",
-          "citation": "(1854) 1 Macq 461",
-          "point": "May a director deal with the company when personally interested in the contract?",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from codepackr-law. Not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the prohibition and special-resolution route under s. 185.", "List the principal statutory exceptions."],
+      "definition": "Section 185 prohibits loans, guarantees and security to directors and specified connected persons, subject to a special-resolution route for persons in whom a director is interested and to limited statutory exceptions.",
+      "legalPrinciple": "Company resources are protected from preferential lending to those who control or influence the Board, subject to transparent member approval and defined business exceptions.",
+      "statutoryFramework": "Companies Act, 2013, Section 185 (as substituted).",
+      "essentialIngredients": ["Prohibition on loans/guarantees/security to directors and connected persons", "Special resolution + principal-business use for persons in whom a director is interested", "Listed exceptions (MD/WTD service conditions; ordinary-course lending; WOS support)"],
+      "detailedExplanation": "Section 185 is the primary anti-director-loan provision after the 2017 substitution.",
+      "examples": ["Loan to director’s relative", "Wholly owned subsidiary support"],
+      "problemApplication": "Map borrower; apply prohibition; test route and exceptions.",
+      "keyTakeaways": ["Broad prohibition.", "Special-resolution escape hatch.", "Narrow exceptions."],
+      "authoritativeSources": ["Companies Act, 2013, Section 185"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level post-2017 substitution; prior mirrored citations not carried forward as locked authority; case-law verification separate.", "date": "2026-10-10"},
+      "distinctions": ["Loan to directors (s. 185) vs inter-corporate loans and investments (s. 186)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Prohibition; special resolution; exceptions; conclude.", "sixteenMark": "Introduction; prohibition; special-resolution route; exceptions; vs s. 186; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s185-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-185", "loan-to-directors"]
 }
