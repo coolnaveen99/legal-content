@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-161",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 161 (Additional, alternate and nominee directors)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 161 (Appointment of additional director, alternate director and nominee director)",
   "jurisdiction": "India",
   "content": {
-    "overview": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow.",
-    "glance": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow.",
-    "study": "Companies Act, 2013 — Section 161 (Additional, alternate and nominee directors). The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 161 empowers the Board, if authorised by the articles or as the section provides, to appoint an additional director, an alternate director, a nominee director, and a director in casual vacancy. Each category has its own tenure and conditions.",
+    "glance": "Board may appoint: additional (till next AGM); alternate (for director absent from India ≥3 months); nominee (by institution/Government under law or agreement); casual vacancy (remainder of predecessor’s term).",
+    "study": "The articles of a company may confer on its Board of Directors the power to appoint any person, other than a person who fails to get appointed as a director in a general meeting, as an additional director at any time who shall hold office up to the date of the next annual general meeting or the last date on which the annual general meeting should have been held, whichever is earlier. The Board may, if so authorised by the articles or by a resolution passed by the company in general meeting, appoint a person as an alternate director to act for a director during his absence for a period of not less than three months from India. A company may have a nominee director appointed by any institution or by the Central Government or State Government by virtue of its shareholding or any agreement or by the Central Government or State Government in pursuance of any law. Where the office of any director appointed by the company in general meeting is vacated before his term expires in the normal course, the resulting casual vacancy may, subject to articles, be filled by the Board; the person so appointed holds office only up to the date up to which the director in whose place he is appointed would have held office if it had not been vacated. Current-law framing: identify the category (additional / alternate / nominee / casual vacancy); apply the corresponding tenure and conditions.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "An additional director holds office until the next annual general meeting. An alternate acts for a director absent from India for at least three months. A nominee is appointed by a specified institution or government in pursuance of a law or agreement. A casual vacancy in a member-appointed office is filled by the board and the appointee holds office for the remainder of the predecessor's term.",
-        "order": 2
-      }
+      {"heading": "Additional Director", "body": "Board may appoint if authorised by articles; holds office up to the next AGM or the last date on which the AGM should have been held, whichever is earlier; cannot appoint a person who failed to get appointed at a general meeting.", "order": 1},
+      {"heading": "Alternate Director", "body": "Board may appoint if authorised by articles or general-meeting resolution; acts for a director absent from India for not less than three months.", "order": 2},
+      {"heading": "Nominee Director", "body": "Appointed by an institution or by the Central or State Government by virtue of shareholding or agreement, or by the Central or State Government in pursuance of any law.", "order": 3},
+      {"heading": "Casual Vacancy", "body": "Board may fill a vacancy in a general-meeting-appointed directorship, subject to articles; appointee holds only for the remainder of the predecessor’s term.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-161",
-        "title": "Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-161", "section": "Section 161", "title": "Appointment of additional director, alternate director and nominee director"}],
     "examples": [
-      {
-        "title": "Additional and alternate directors",
-        "body": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow."
-      }
+      {"title": "Additional director till AGM", "body": "The Board, authorised by articles, appoints an additional director in January. The next AGM is in September. The additional director holds office only until that AGM (or the last date on which it should have been held).", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Alternate for absence from India", "body": "A director will be outside India for four months. The Board, if authorised, may appoint an alternate director for that period under s. 161.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Can the Board appoint as additional director a person who was proposed and failed to get appointed at the last general meeting?", "analysis": "No. Section 161 excludes a person who fails to get appointed as a director in a general meeting from appointment as additional director."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-161-distinction",
-        "title": "Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161) and connected legal concept",
-        "left": "Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161)",
-        "right": "Companies Act s. 150 — Appointment and Qualifications of Directors provision; Companies Act s. 151 — Appointment and Qualifications of Directors provision; Companies Act s. 152 — Appointment and Qualifications of Directors provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-161-trap-1",
-        "trap": "Treating Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-161-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-161-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s161-vs-s152", "title": "Board appointments under s. 161 vs general-meeting appointment under s. 152", "left": "Additional, alternate, nominee and casual-vacancy appointments by the Board", "right": "Primary appointment and rotation by the company in general meeting", "rows": [{"point": "Focus", "left": "Board-driven special appointments", "right": "Member-driven general appointment"}]}],
+    "misconceptions": [{"id": "ca-s161-trap-1", "trap": "An additional director continues indefinitely until removed.", "correction": "An additional director holds office only up to the next AGM or the last date on which the AGM should have been held, whichever is earlier."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 161 require?",
-        "answer": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow."
-      }
+      {"id": "ca-s161-brief", "draftingCategory": "brief", "question": "How should a Section 161 problem be analysed?", "answer": "I. Identify category (additional/alternate/nominee/casual vacancy). II. Apply authorisation and tenure rules. III. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s161-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Category; articles/authority; tenure facts; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 161 — Appointment and Qualifications of Directors provision (Companies Act s. 161)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-162",
-      "ca-s-160",
-      "ca-s-163"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 161", "Connected: Sections 152, 160"],
+    "examTips": ["Four categories: additional, alternate, nominee, casual vacancy.", "Additional: till next AGM.", "Alternate: absence from India ≥3 months.", "Casual vacancy: remainder of term."],
+    "revisionPoints": ["Additional director", "Alternate director", "Nominee director", "Casual vacancy"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-152", "company-ca-s-160"],
+    "illustrations": ["illustration:india:company-ca-s-161-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-161",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow.",
-      "legalPrinciple": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow.",
-      "statutoryFramework": "Companies Act, 2013, section 161.",
-      "essentialIngredients": [
-        "Additional and alternate directors",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 161 (Additional, alternate and nominee directors). The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "Additional and alternate directors"
-      ],
-      "keyTakeaways": [
-        "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, as the section and articles allow."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 161",
-          "citation": "Statutory additional, alternate and nominee directors",
-          "point": "The board may appoint an additional director, an alternate director, a nominee director, and a director to fill a casual vacancy, within the limits in the section. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["Distinguish the four Board appointment categories under s. 161.", "State tenure rules for additional and casual-vacancy directors."],
+      "definition": "Section 161 authorises Board appointment of additional, alternate and nominee directors and filling of casual vacancies, each on stated conditions and tenures.",
+      "legalPrinciple": "The Board may fill temporary or special directorship needs within statutory and article limits without displacing member control at the next AGM.",
+      "statutoryFramework": "Companies Act, 2013, Section 161.",
+      "essentialIngredients": ["Additional: articles authority; till next AGM", "Alternate: absence from India ≥3 months; articles or GM resolution", "Nominee: institution/Government under law or agreement", "Casual vacancy: Board fill; remainder of term"],
+      "detailedExplanation": "Section 161 is the Board’s toolkit for interim and special appointments alongside the general-meeting route under s. 152.",
+      "examples": ["Additional director till AGM", "Alternate for absence from India"],
+      "problemApplication": "Classify the appointment; apply the matching tenure and authority rule.",
+      "keyTakeaways": ["Four categories.", "Additional till next AGM.", "Alternate for ≥3 months’ absence from India.", "Casual vacancy = remainder of term."],
+      "authoritativeSources": ["Companies Act, 2013, Section 161"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Board appointments under s. 161 vs general-meeting appointment under s. 152"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Categories; tenure; conclude.", "sixteenMark": "Introduction; each category; authority; tenure; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T05:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s161-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T05:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-161", "additional-alternate-nominee-directors"]
 }
