@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-187",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 187 (Investments of company to be held in its own name)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Investments of a company must be held in its own name, subject to the exceptions in the section.",
-    "glance": "Investments of a company must be held in its own name, subject to the exceptions in the section.",
-    "study": "Companies Act, 2013 — Section 187 (Investments of company to be held in its own name). Investments of a company must be held in its own name, subject to the exceptions in the section. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 187 requires that all investments made or held by a company in any property, security or other asset shall be made and held by it in its own name: provided that the company may hold any shares in its subsidiary company in the name of any nominee or nominees of the company, if it is necessary to do so, to ensure that the number of members of the subsidiary company is not reduced below the statutory minimum. Further exceptions include investments held through a depository, and investments deposited with a bank or held in the name of a public official where required by law.",
+    "glance": "Company investments must be held in the company’s own name; limited exceptions for nominee holding in a subsidiary (to meet statutory minimum members), depository holding, and bank/public-official holding where the law requires.",
+    "study": "All investments made or held by a company in any property, security or other asset shall be made and held by it in its own name: Provided that the company may hold any shares in its subsidiary company in the name of any nominee or nominees of the company, if it is necessary to do so, to ensure that the number of members of the subsidiary company is not reduced below the statutory minimum. Nothing in this section shall be deemed to prevent a company from depositing with a bank, being the bankers of the company, any shares or securities for the collection of any dividend or interest payable thereon, or from depositing with, or transferring to, or holding in the name of, a depository any shares or securities. A register of investments not held in the company’s own name must be maintained where the section so requires. Beneficial ownership that is not disclosed may also engage sections 89 and 90. Current-law framing: confirm the investment is held in the company’s name; test whether a statutory exception applies; check register and beneficial-ownership disclosure if relevant.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Investments of a company must be held in its own name, subject to the exceptions in the section.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Exceptions include holding through a depository, a nominee to meet a statutory minimum, and investments held in the name of a bank or depository as the section allows. A beneficial holding that is not disclosed can also engage sections 89 and 90.",
-        "order": 2
-      }
+      {"heading": "Own-Name Rule", "body": "Investments in property, security or other asset must be made and held in the company’s own name.", "order": 1},
+      {"heading": "Subsidiary Nominee Exception", "body": "Shares in a subsidiary may be held in the name of a nominee of the company where necessary to keep the subsidiary’s membership at or above the statutory minimum.", "order": 2},
+      {"heading": "Depository and Bank Exceptions", "body": "Holding through a depository, or depositing with the company’s bankers for collection of dividend/interest, is permitted.", "order": 3},
+      {"heading": "Register and Beneficial Ownership", "body": "Where investments are not held in the company’s own name under an exception, the prescribed register is maintained; ss. 89 and 90 may also apply to beneficial ownership.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-187",
-        "title": "Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-187", "section": "Section 187", "title": "Investments of company to be held in its own name"}],
     "examples": [
-      {
-        "title": "Investments in own name",
-        "body": "Investments of a company must be held in its own name, subject to the exceptions in the section."
-      }
+      {"title": "Nominee for subsidiary membership", "body": "A holding company holds one share of its wholly owned subsidiary in the name of a nominee solely to meet the statutory minimum number of members. Section 187 permits that limited nominee holding.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Investment in director’s name", "body": "A company holds listed equity in the personal name of a director without a statutory exception. Section 187 is breached; the investment should be in the company’s own name.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May a company hold all its investments through a director as nominee for convenience?", "analysis": "No. The general rule is that investments must be held in the company’s own name. Nominee holding is allowed only in the narrow cases the section states (e.g. subsidiary minimum membership), not for general convenience."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-187-distinction",
-        "title": "Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187) and connected legal concept",
-        "left": "Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-187-trap-1",
-        "trap": "Treating Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-187-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-187-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s187-vs-s186", "title": "Investments in own name (s. 187) vs inter-corporate loans/investments (s. 186)", "left": "How title to investments is held", "right": "Quantitative ceilings and approvals for inter-corporate deployment", "rows": [{"point": "Focus", "left": "Title and holding", "right": "Limits and approvals"}]}],
+    "misconceptions": [{"id": "ca-s187-trap-1", "trap": "Nominee holding of company investments is freely allowed.", "correction": "Nominee holding is exceptional and limited (e.g. subsidiary membership minimum). The default is holding in the company’s own name."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 187?",
-        "answer": "Investments of a company must be held in its own name, subject to the exceptions in the section."
-      }
+      {"id": "ca-s187-brief", "draftingCategory": "brief", "question": "How should a Section 187 problem be analysed?", "answer": "I. Confirm investment is held in company’s name. II. Test statutory exception. III. Check register/beneficial-ownership rules. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s187-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Holding facts; exception if any; register status; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 187 — Meetings of Board and Its Powers provision (Companies Act s. 187)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "Investments of a company must be held in its own name, subject to the exceptions in the section."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-188",
-      "ca-s-186",
-      "ca-s-189"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 187", "Connected: Sections 89, 90, 186"],
+    "examTips": ["Default: hold in company’s own name.", "Narrow nominee exception for subsidiary membership.", "Depository and banker exceptions.", "Link to ss. 89–90 beneficial ownership."],
+    "revisionPoints": ["Own-name rule", "Subsidiary nominee exception", "Depository and bank exceptions", "Register and beneficial ownership"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-186", "company-ca-s-89"],
+    "illustrations": ["illustration:india:company-ca-s-187-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-187",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Investments of a company must be held in its own name, subject to the exceptions in the section.",
-      "legalPrinciple": "Investments of a company must be held in its own name, subject to the exceptions in the section.",
-      "statutoryFramework": "Companies Act, 2013, section 187.",
-      "essentialIngredients": [
-        "Investments in own name"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 187 (Investments of company to be held in its own name). Investments of a company must be held in its own name, subject to the exceptions in the section. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Investments in own name"
-      ],
-      "keyTakeaways": [
-        "Investments of a company must be held in its own name, subject to the exceptions in the section."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 187",
-          "citation": "Statutory investments of company to be held in its own name",
-          "point": "Investments of a company are held in its own name, subject to the exceptions in the section. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the own-name holding rule under s. 187.", "List the principal exceptions."],
+      "definition": "Section 187 requires company investments to be held in the company’s own name, subject to limited exceptions for subsidiary nominees, depositories and bankers.",
+      "legalPrinciple": "Corporate assets are titled in the company’s name so that ownership and control remain transparent and attributable to the company.",
+      "statutoryFramework": "Companies Act, 2013, Section 187.",
+      "essentialIngredients": ["Investments held in company’s own name", "Subsidiary nominee exception for statutory minimum membership", "Depository and banker exceptions", "Register where not held in own name"],
+      "detailedExplanation": "Section 187 is the title-holding companion to the quantitative controls in s. 186.",
+      "examples": ["Nominee for subsidiary membership", "Investment in director’s name"],
+      "problemApplication": "Check title; test exception; apply register rules.",
+      "keyTakeaways": ["Own name is the default.", "Nominee holding is exceptional.", "Depository holding is allowed."],
+      "authoritativeSources": ["Companies Act, 2013, Section 187"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Investments in own name (s. 187) vs inter-corporate loans/investments (s. 186)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Own-name rule; exceptions; conclude.", "sixteenMark": "Introduction; rule; exceptions; register; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:45:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s187-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-187", "investments-own-name"]
 }

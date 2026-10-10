@@ -2,250 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-186",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 186 (Inter-corporate loans and investments)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 186 (Loan and investment by company)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium.",
-    "glance": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium.",
-    "study": "The rate of interest cannot be lower than the prescribed yield. Disclosure in the financial statements is required. A defaulting company in deposits cannot use the section until the default is cured. The section has stated exceptions, including lending or investment in the ordinary course by a banking company, housing-finance company or insurance company, and acquisition under a rights issue. It is distinct from the director-loan bar in section 185.",
+    "overview": "Section 186 limits inter-corporate loans, guarantees, security and acquisitions. A company shall not directly or indirectly give any loan to any person or other body corporate, give any guarantee or provide security in connection with a loan, or acquire by way of subscription, purchase or otherwise the securities of any other body corporate, exceeding the higher of (a) sixty per cent of its paid-up share capital, free reserves and securities premium account, or (b) one hundred per cent of its free reserves and securities premium account, except with the prior approval of the company by a special resolution. Investments through more than two layers of investment companies are restricted. Interest on loans cannot be lower than the prescribed yield. Disclosure in financial statements is required. A company in default of deposits cannot use the section until the default is cured. Stated exceptions include ordinary-course lending/investment by banking, insurance and housing-finance companies, and acquisition under a rights issue.",
+    "glance": "Ceiling = higher of 60% of (paid-up + free reserves + securities premium) or 100% of (free reserves + securities premium); special resolution to exceed; max two layers of investment companies; prescribed minimum interest; disclosure; deposit-default bar; banking/insurance/HFC and rights-issue exceptions.",
+    "study": "Without prejudice to the provisions contained in this Act, a company shall unless otherwise prescribed, make investment through not more than two layers of investment companies. No company shall directly or indirectly (a) give any loan to any person or other body corporate; (b) give any guarantee or provide security in connection with a loan to any other body corporate or person; and (c) acquire by way of subscription, purchase or otherwise, the securities of any other body corporate, exceeding sixty per cent of its paid-up share capital, free reserves and securities premium account or one hundred per cent of its free reserves and securities premium account, whichever is more. Where the aggregate exceeds the limit, prior approval by special resolution is required. No loan shall be given at a rate of interest lower than the prevailing yield of one year, three year, five year or ten year Government security closest to the tenor of the loan. Every company shall disclose in the financial statement the full particulars of loans, guarantees, security and investments. A company which is in default in the repayment of any deposits or in payment of interest thereon shall not give any loan or give any guarantee or provide any security or make an acquisition till such default is subsisting. Exceptions include a loan or guarantee or security or acquisition made by a banking company or an insurance company or a housing finance company in the ordinary course of its business, and acquisition of shares pursuant to a rights issue. Distinct from the director-loan prohibition in section 185. Current-law framing: compute the ceiling; test special resolution; apply layer limit, interest floor, disclosure and deposit-default bar; check exceptions.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The rate of interest cannot be lower than the prescribed yield. Disclosure in the financial statements is required. A defaulting company in deposits cannot use the section until the default is cured. The section has stated exceptions, including lending or investment in the ordinary course by a banking company, housing-finance company or insurance company, and acquisition under a rights issue. It is distinct from the director-loan bar in section 185.",
-        "order": 2
-      }
+      {"heading": "Ceiling", "body": "Aggregate of loans, guarantees, security and acquisitions must not exceed the higher of 60% of paid-up share capital + free reserves + securities premium, or 100% of free reserves + securities premium, without prior special resolution.", "order": 1},
+      {"heading": "Two-Layer Rule", "body": "Investment through not more than two layers of investment companies, subject to prescribed exceptions.", "order": 2},
+      {"heading": "Interest and Disclosure", "body": "Loan interest not below the prescribed Government-security yield; full particulars disclosed in the financial statement.", "order": 3},
+      {"heading": "Deposit-Default Bar and Exceptions", "body": "Company in deposit default cannot use the section until default is cured. Banking, insurance and housing-finance ordinary-course transactions, and rights-issue acquisitions, are excepted.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-186",
-        "title": "Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-186", "section": "Section 186", "title": "Loan and investment by company"}],
     "examples": [
-      {
-        "title": "Loans and investments",
-        "body": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium."
-      }
+      {"title": "Exceeding the ceiling", "body": "A company with paid-up capital, free reserves and securities premium of ₹100 crore proposes inter-corporate loans aggregating ₹70 crore. That exceeds 60% (₹60 crore). A prior special resolution is required under s. 186.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Deposit default", "body": "A company is in default in repayment of deposits. It cannot give a fresh inter-corporate loan under s. 186 until the default is cured.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Does Board approval alone authorise an inter-corporate loan above the s. 186 ceiling?", "analysis": "No. Exceeding the higher of the two percentage limits requires prior approval of the company by a special resolution. Board approval is not a substitute."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-186-distinction",
-        "title": "Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186) and connected legal concept",
-        "left": "Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 174 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-186-trap-1",
-        "trap": "Treating Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-186-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-186-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s186-vs-s185", "title": "Inter-corporate loans/investments (s. 186) vs loan to directors (s. 185)", "left": "Ceilings and special resolution for body-corporate lending/investment", "right": "Prohibition focused on directors and connected persons", "rows": [{"point": "Focus", "left": "Inter-corporate limits", "right": "Director-connected ban"}]}],
+    "misconceptions": [{"id": "ca-s186-trap-1", "trap": "Any inter-corporate loan is allowed if the Board approves it.", "correction": "Above the statutory ceiling, a prior special resolution of the company is required. Deposit-defaulting companies are barred until the default is cured."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 186 require?",
-        "answer": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium."
-      }
+      {"id": "ca-s186-brief", "draftingCategory": "brief", "question": "How should a Section 186 problem be analysed?", "answer": "I. Compute the ceiling. II. Test special resolution if exceeded. III. Apply layer, interest, disclosure and deposit-default rules. IV. Check exceptions. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s186-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Ceiling calculation; resolution status; exceptions; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 186 — Meetings of Board and Its Powers provision (Companies Act s. 186)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "Aberdeen Railway Co. v. Blaikie Bros.",
-        "citation": "(1854) 1 Macq 461",
-        "point": "May a director deal with the company when personally interested in the contract?"
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-187",
-      "ca-s-185",
-      "ca-s-188"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 186", "Connected: Sections 185, 187"],
+    "examTips": ["Ceiling = higher of 60% or 100% formula.", "Special resolution to exceed.", "Two-layer investment-company limit.", "Distinct from s. 185 director-loan ban."],
+    "revisionPoints": ["Ceiling", "Two-layer rule", "Interest and disclosure", "Deposit-default bar and exceptions"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-185", "company-ca-s-187"],
+    "illustrations": ["illustration:india:company-ca-s-186-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-186",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium.",
-      "legalPrinciple": "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium.",
-      "statutoryFramework": "Companies Act, 2013, section 186.",
-      "essentialIngredients": [
-        "Loans and investments",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "The rate of interest cannot be lower than the prescribed yield. Disclosure in the financial statements is required. A defaulting company in deposits cannot use the section until the default is cured. The section has stated exceptions, including lending or investment in the ordinary course by a banking company, housing-finance company or insurance company, and acquisition under a rights issue. It is distinct from the director-loan bar in section 185.",
-      "examples": [
-        "Loans and investments"
-      ],
-      "keyTakeaways": [
-        "A company may make investments through not more than two layers of investment companies, and needs a special resolution to give a loan, guarantee, security or make an acquisition beyond the higher of sixty per cent of paid-up capital, free reserves and securities premium, or one hundred per cent of free reserves and securities premium."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 186",
-          "citation": "Statutory loan and investment ceiling",
-          "point": "A company may not give a loan, guarantee or security, or acquire securities, beyond the ceilings and approvals in section 186. This entry is a statutory pointer, not a judgment."
-        },
-        {
-          "name": "Aberdeen Railway Co. v. Blaikie Bros.",
-          "citation": "(1854) 1 Macq 461",
-          "point": "May a director deal with the company when personally interested in the contract?",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from codepackr-law. Not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the s. 186 ceiling and special-resolution rule.", "Explain the two-layer limit and key exceptions."],
+      "definition": "Section 186 caps inter-corporate loans, guarantees, security and acquisitions at the higher of two percentage formulae, requires special resolution to exceed, limits investment layers, and imposes interest, disclosure and deposit-default conditions.",
+      "legalPrinciple": "Inter-corporate deployment of company resources is controlled by quantitative ceilings and member approval above those ceilings.",
+      "statutoryFramework": "Companies Act, 2013, Section 186.",
+      "essentialIngredients": ["Ceiling: higher of 60% or 100% formula", "Special resolution to exceed", "Not more than two layers of investment companies", "Minimum interest yield; financial-statement disclosure", "Deposit-default bar; stated exceptions"],
+      "detailedExplanation": "Section 186 is the primary inter-corporate loan and investment control, distinct from the director-focused ban in s. 185.",
+      "examples": ["Exceeding the ceiling", "Deposit default"],
+      "problemApplication": "Compute ceiling; test resolution; apply conditions and exceptions.",
+      "keyTakeaways": ["60%/100% ceiling.", "Special resolution above ceiling.", "Two-layer rule.", "Not the same as s. 185."],
+      "authoritativeSources": ["Companies Act, 2013, Section 186"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Inter-corporate loans/investments (s. 186) vs loan to directors (s. 185)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Ceiling; special resolution; conclude.", "sixteenMark": "Introduction; ceiling; layers; conditions; exceptions; vs s. 185; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:45:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s186-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-186", "inter-corporate-loans"]
 }
