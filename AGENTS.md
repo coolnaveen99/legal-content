@@ -95,3 +95,16 @@ The authoritative execution control is `docs/WORK-CONTROL-MASTER-2026-10-08.md`.
 ## 2026-10-09 roadmap and core-content policy
 
 Follow `docs/WORK-CONTROL-MASTER-2026-10-08.md` and `docs/SPRINT-MEETING-2026-10-09-ROADMAP-AND-YIELD-POLICY.md`. The Work Control Master remains the sole work-selection/ownership authority. Preserve the existing structure, topic-level claims, schemas, evidence, and lifecycle. Every registered provision receives its required core depth regardless of yield classification. Staged publication is allowed only after applicable minimum legal/source, content-quality, technical and publication gates pass. Continue current-law verification and deploy supported corrections promptly. After required verification and integrated validation/E2E pass, proceed to section-wise judgments and then Supreme Court coverage. The separate High-Yield Study Guide is final-stage supplementary work. Do not weaken mandatory gates or rush reviewers.
+
+
+## Official PDF retrieval and manual-review gate — P0
+
+The official-PDF validator's technical outcome is separate from legal-source verification. Follow the current Work Control Master, validator, tests, and `docs/PDF-MANUAL-REVIEW-TRIAGE-2026-10-09.md`.
+
+- Use `PASS`, `MANUAL_REVIEW_REQUIRED`, and `FAIL` according to the evidence. Bounded retries may classify transient failures as retryable before exhaustion.
+- If unresolved manual-review items remain, report the aggregate as `PASS_WITH_MANUAL_REVIEW_REQUIRED (N pending)`; never call this an unqualified PDF-validation pass.
+- A technical/manual-review status must never set legal-source metadata to verified, satisfy statutory/case-law verification or sign-off, authorize publication, or hide unrelated validation failures.
+- Keep each pending item visible with its exact URL/source identity, attempt evidence, response details, reviewer/date, document identity, checksum where bytes exist, page count, OCR/legibility, disposition, owner and next action.
+- Alternate copies or indexed text may support source-identity triage but do not prove byte identity with an inaccessible original URL. Do not close a checksum-based review without the actual reviewed document or an explicitly approved authoritative replacement and auditable evidence.
+- Preserve checksum-based closure safeguards; do not weaken the validator to force a green result. Keep legal verification/publication blocked while required reviews remain pending.
+- Test technical outcomes and report focused test results separately from the repository-wide status. Do not claim the overall workflow passes while unrelated validators fail.
