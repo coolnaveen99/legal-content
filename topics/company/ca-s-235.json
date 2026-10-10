@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-235",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 235 (Power to acquire shares of dissenting shareholders)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 235 (Power to acquire shares of shareholders dissenting from scheme or contract approved by majority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-    "glance": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-    "study": "Companies Act, 2013 — Section 235 (Power to acquire shares of dissenting shareholders). Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 235 provides that where a scheme or contract involving the transfer of shares or any class of shares in a company to another company has been approved by the holders of not less than nine-tenths in value of the shares whose transfer is involved (other than shares already held by the transferee or its nominee/subsidiary) within the prescribed time, the transferee company may give notice to the dissenting shareholders to acquire their shares. A dissentient may apply to the Tribunal. If no order is made against the acquisition, the transferee is bound and entitled to acquire on the terms of the scheme. This is the statutory squeeze-out route; section 236 is the separate minority-purchase route at the 90% holding threshold.",
+    "glance": "Scheme/contract for share transfer approved by ≥9/10 in value within time → transferee may notice dissentients to acquire; dissentient may apply to Tribunal; if no adverse order, acquire on scheme terms; squeeze-out route (distinct from s. 236).",
+    "study": "Where a scheme or contract involving the transfer of shares or any class of shares in a company to another company has, within the time prescribed, been approved by the holders of not less than nine-tenths in value of the shares whose transfer is involved (other than shares already held at the date of the offer by the transferee or its nominee or subsidiary), the transferee company may give notice to any dissenting shareholder that it desires to acquire his shares. Current-law framing: confirm scheme/contract for transfer of shares; achieve nine-tenths in value approval within time (excluding shares already held by transferee side); serve notice on dissentients; dissentient may apply to Tribunal; absent an order against acquisition, transferee acquires on scheme terms. Distinguish s. 236 (acquirer already holding 90%+ notifies to buy remaining equity).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "A dissentient may apply to the Tribunal. If no order is made against the acquisition, the transferee is bound to acquire on the terms of the scheme. The section is the squeeze-out route. Section 236 is the minority-purchase route.",
-        "order": 2
-      }
+      {"heading": "Threshold", "body": "Scheme or contract for transfer of shares approved by holders of not less than nine-tenths in value within the prescribed time (excluding shares already held by transferee/nominee/subsidiary).", "order": 1},
+      {"heading": "Notice", "body": "Transferee may give notice to dissenting shareholders to acquire their shares.", "order": 2},
+      {"heading": "Tribunal Application", "body": "Dissentient may apply to the Tribunal; if no order is made against the acquisition, transferee is bound and entitled to acquire on the scheme terms.", "order": 3},
+      {"heading": "Relationship to s. 236", "body": "s. 235 is the squeeze-out on a scheme/contract with 9/10 approval; s. 236 is purchase of minority where acquirer already holds 90%+ of issued equity.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-235",
-        "title": "Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-235", "section": "Section 235", "title": "Power to acquire shares of shareholders dissenting from scheme or contract approved by majority"}],
     "examples": [
-      {
-        "title": "Squeeze-out of dissentients",
-        "body": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares."
-      }
+      {"title": "Squeeze-out after 9/10 approval", "body": "A takeover scheme is approved by holders of 92% in value of the shares to be transferred within the prescribed time. The transferee serves notice under s. 235 on the remaining dissentients to acquire their shares on the scheme terms.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Dissentient applies to Tribunal", "body": "A dissentient challenges the acquisition notice under s. 235 before the Tribunal. If the Tribunal makes no order against the acquisition, the transferee is entitled and bound to acquire on the scheme terms.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is s. 235 available without any scheme or contract for transfer of shares?", "analysis": "No. Section 235 is triggered by a scheme or contract involving the transfer of shares that has been approved by nine-tenths in value. It is not a free-standing buyout power independent of such a scheme or contract."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-235-distinction",
-        "title": "Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235) and connected legal concept",
-        "left": "Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235)",
-        "right": "Companies Act s. 230 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-235-trap-1",
-        "trap": "Treating Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-235-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-235-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s235-vs-s236", "title": "Squeeze-out of dissentients (s. 235) vs purchase of minority (s. 236)", "left": "Scheme/contract approved by 9/10 in value; notice to acquire dissentients", "right": "Acquirer already holds 90%+ of issued equity; notify company; minority may also require buy", "rows": [{"point": "Focus", "left": "Scheme-based squeeze-out", "right": "90% holding-based minority purchase"}]}],
+    "misconceptions": [{"id": "ca-s235-trap-1", "trap": "Any majority shareholder can force out the minority under s. 235 without a scheme.", "correction": "Section 235 requires a scheme or contract for transfer of shares approved by nine-tenths in value within the prescribed time. It is not a general majority buyout power."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 235?",
-        "answer": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares."
-      }
+      {"id": "ca-s235-brief", "draftingCategory": "brief", "question": "How should a Section 235 problem be analysed?", "answer": "I. Confirm scheme/contract and 9/10 approval within time. II. Notice to dissentients. III. Tribunal application path. IV. Distinguish s. 236. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s235-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Scheme; value approval; notice; Tribunal issues; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 235 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 235)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-236",
-      "ca-s-234",
-      "ca-s-237"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 235", "Connected: Section 236"],
+    "examTips": ["9/10 in value approval of scheme/contract.", "Notice to dissentients.", "Tribunal application by dissentient.", "Distinct from s. 236 minority purchase."],
+    "revisionPoints": ["Threshold", "Notice", "Tribunal application", "Relationship to s. 236"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-236", "company-ca-s-230"],
+    "illustrations": ["illustration:india:company-ca-s-235-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-235",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-      "legalPrinciple": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-      "statutoryFramework": "Companies Act, 2013, section 235.",
-      "essentialIngredients": [
-        "Squeeze-out of dissentients"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 235 (Power to acquire shares of dissenting shareholders). Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Squeeze-out of dissentients"
-      ],
-      "keyTakeaways": [
-        "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 235",
-          "citation": "Companies Act, 2013, section 235",
-          "point": "Where a scheme or contract involving the transfer of shares has been approved by holders of not less than nine-tenths in value within the prescribed time, the transferee may give notice to acquire the dissenting shares.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the squeeze-out process under s. 235.", "Distinguish it from s. 236 minority purchase."],
+      "definition": "Section 235 allows a transferee, after a scheme or contract for share transfer is approved by nine-tenths in value within time, to give notice to acquire dissenting shares, subject to the dissentient’s right to apply to the Tribunal.",
+      "legalPrinciple": "Once a qualifying majority accepts a share-transfer scheme, the law permits compulsory acquisition of dissentients on the same terms, subject to Tribunal oversight.",
+      "statutoryFramework": "Companies Act, 2013, Section 235.",
+      "essentialIngredients": ["Scheme or contract for transfer of shares", "Approval by ≥9/10 in value within prescribed time", "Notice to dissenting shareholders", "Dissentient may apply to Tribunal; acquisition on scheme terms if no adverse order"],
+      "detailedExplanation": "Section 235 is the classic statutory squeeze-out following a majority-approved share scheme.",
+      "examples": ["Squeeze-out after 9/10 approval", "Dissentient applies to Tribunal"],
+      "problemApplication": "Confirm scheme and threshold; serve notice; address Tribunal path.",
+      "keyTakeaways": ["9/10 scheme approval.", "Notice to dissentients.", "Tribunal oversight."],
+      "authoritativeSources": ["Companies Act, 2013, Section 235"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Squeeze-out of dissentients (s. 235) vs purchase of minority (s. 236)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Threshold; notice; Tribunal; conclude.", "sixteenMark": "Introduction; threshold; notice; Tribunal; vs s. 236; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T09:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s235-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T09:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-235", "squeeze-out"]
 }

@@ -2,241 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-236",
-  "version": 1,
-  "status": "review",
+  "version": 2,
+  "status": "verification_in_progress",
   "title": "Companies Act, 2013 — Section 236 (Purchase of minority shareholding)",
   "jurisdiction": "India",
   "content": {
-    "overview": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-    "glance": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-    "study": "Companies Act, 2013 — Section 236 (Purchase of minority shareholding). An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 236 provides that in the event of an acquirer, or a person acting in concert with such acquirer, becoming registered holder of ninety per cent or more of the issued equity share capital of a company, or in the event of any person or group of persons becoming ninety per cent majority or holding ninety per cent of the issued equity share capital by virtue of an amalgamation, share exchange, conversion of securities or for any other reason, such acquirer or person or group shall notify the company of their intention to buy the remaining equity shares. The minority shareholders may also offer to sell. The price is determined by a registered valuer in accordance with prescribed rules. The amount is deposited in a separate bank account. The section is a takeover-completion device for the residual minority; it is not an oppression remedy under sections 241–242.",
+    "glance": "Acquirer (with PACs) holds ≥90% of issued equity → must notify company of intention to buy remaining equity; minority may also require buy; price by registered valuer; deposit in separate account; distinct from s. 235 squeeze-out and from oppression.",
+    "study": "Where an acquirer or persons acting in concert become the registered holders of ninety per cent or more of the issued equity share capital of a company, or where any person or group becomes a ninety per cent majority by amalgamation, share exchange, conversion or otherwise, such person shall notify the company of the intention to buy the remaining equity shares. Minority shareholders of the company may also offer to sell their shares. The price shall be determined by a registered valuer. Current-law framing: confirm 90%+ holding of issued equity (with PACs as applicable); notification of intention to buy remaining equity; minority may require purchase; registered-valuer price; deposit mechanism. Distinguish s. 235 (scheme-based squeeze-out after 9/10 approval) and ss. 241–242 (oppression and mismanagement).",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The minority may also require the acquirer to buy. The price is determined by a registered valuer. The amount is credited to a separate bank account. The section is a takeover-completion device, not an oppression remedy.",
-        "order": 2
-      }
+      {"heading": "Trigger", "body": "Acquirer (with persons acting in concert) holds 90% or more of issued equity share capital, or becomes 90% majority by amalgamation, share exchange, conversion or other reason.", "order": 1},
+      {"heading": "Notification and Minority Right", "body": "Acquirer must notify the company of intention to buy remaining equity; minority may also offer/require sale to the acquirer.", "order": 2},
+      {"heading": "Price and Deposit", "body": "Price determined by a registered valuer as prescribed; amount credited to a separate bank account.", "order": 3},
+      {"heading": "Character", "body": "Takeover-completion device for residual minority; not an oppression remedy.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-236",
-        "title": "Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-236", "section": "Section 236", "title": "Purchase of minority shareholding"}],
     "examples": [
-      {
-        "title": "Purchase of minority shareholding",
-        "body": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares."
-      }
+      {"title": "90% acquirer notifies", "body": "After a series of purchases, an acquirer with persons acting in concert holds 91% of the issued equity. Under s. 236 the acquirer must notify the company of the intention to buy the remaining equity shares at a registered-valuer price.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Minority requires buy", "body": "A residual minority shareholder, after the acquirer has crossed 90%, requires the acquirer to purchase the minority shares under s. 236 at the valuer-determined price.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is s. 236 the same as oppression relief under s. 241?", "analysis": "No. Section 236 is a statutory mechanism to complete a near-total equity holding by purchase of the residual minority at a registered-valuer price. Sections 241–242 address oppression and mismanagement with different standing, grounds and remedies."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-236-distinction",
-        "title": "Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236) and connected legal concept",
-        "left": "Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236)",
-        "right": "Companies Act s. 230 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-236-trap-1",
-        "trap": "Treating Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-236-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-236-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s236-vs-s235", "title": "Purchase of minority (s. 236) vs squeeze-out of dissentients (s. 235)", "left": "Acquirer already holds 90%+ of issued equity; notify and buy residual; minority may require buy", "right": "Scheme/contract approved by 9/10 in value; notice to acquire dissentients", "rows": [{"point": "Focus", "left": "90% holding-based completion", "right": "Scheme-based squeeze-out"}]}],
+    "misconceptions": [{"id": "ca-s236-trap-1", "trap": "Section 236 allows any majority to force out the minority at any price the majority chooses.", "correction": "Section 236 is triggered at the 90% issued-equity threshold. Price is determined by a registered valuer under the prescribed rules, not by unilateral majority fiat."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 236?",
-        "answer": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares."
-      }
+      {"id": "ca-s236-brief", "draftingCategory": "brief", "question": "How should a Section 236 problem be analysed?", "answer": "I. Confirm 90%+ holding (with PACs). II. Notification and minority right to require buy. III. Registered-valuer price and deposit. IV. Distinguish s. 235 and oppression. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s236-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Holding facts; notification; valuation; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 236 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 236)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-237",
-      "ca-s-235",
-      "ca-s-238"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 236", "Connected: Section 235; Sections 241–242"],
+    "examTips": ["90% of issued equity (with PACs).", "Notify intention to buy remaining.", "Minority may also require buy.", "Registered-valuer price.", "Not oppression."],
+    "revisionPoints": ["Trigger", "Notification and minority right", "Price and deposit", "Character"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-235", "company-ca-s-241"],
+    "illustrations": ["illustration:india:company-ca-s-236-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-236",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-      "legalPrinciple": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-      "statutoryFramework": "Companies Act, 2013, section 236.",
-      "essentialIngredients": [
-        "Purchase of minority shareholding"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 236 (Purchase of minority shareholding). An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
-      "examples": [
-        "Purchase of minority shareholding"
-      ],
-      "keyTakeaways": [
-        "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 236",
-          "citation": "Companies Act, 2013, section 236",
-          "point": "An acquirer who, with persons acting in concert, holds ninety per cent or more of the issued equity capital shall notify the company of the intention to buy the remaining equity shares.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State when minority shareholding may be purchased under s. 236.", "Explain valuation and the distinction from s. 235 and oppression."],
+      "definition": "Section 236 requires an acquirer who (with persons acting in concert) holds ninety per cent or more of the issued equity share capital to notify the company of the intention to buy the remaining equity shares at a registered-valuer price; the minority may also require the purchase.",
+      "legalPrinciple": "Once equity ownership is concentrated at or above ninety per cent, residual minority interests can be completed by a statutory purchase at an independent valuation.",
+      "statutoryFramework": "Companies Act, 2013, Section 236.",
+      "essentialIngredients": ["90%+ of issued equity (acquirer with PACs or by amalgamation/exchange/conversion)", "Notification of intention to buy remaining equity", "Minority may require purchase", "Price by registered valuer; deposit in separate account"],
+      "detailedExplanation": "Section 236 is the residual-minority purchase rule after concentration of equity ownership.",
+      "examples": ["90% acquirer notifies", "Minority requires buy"],
+      "problemApplication": "Confirm threshold; notify; value; complete purchase.",
+      "keyTakeaways": ["90% threshold.", "Notify and buy residual.", "Valuer price."],
+      "authoritativeSources": ["Companies Act, 2013, Section 236"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; valuation rules are prescribed separately; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Purchase of minority (s. 236) vs squeeze-out of dissentients (s. 235)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Trigger; process; price; conclude.", "sixteenMark": "Introduction; trigger; notification; price; vs s. 235/oppression; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T09:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s236-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T09:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-236", "minority-purchase"]
 }

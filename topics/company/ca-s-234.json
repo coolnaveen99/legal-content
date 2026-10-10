@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-234",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 234 (Merger or amalgamation with a foreign company)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 234 (Merger or amalgamation of company with foreign company)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-    "glance": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-    "study": "Companies Act, 2013 — Section 234 (Merger or amalgamation with a foreign company). A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 234 provides for cross-border mergers: a foreign company may merge into a company registered under this Act (inbound), and a company registered under this Act may merge into a foreign company situated in a jurisdiction notified by the Central Government (outbound), subject to prior approval of the Reserve Bank of India and the conditions prescribed. The scheme otherwise follows the framework of sections 230 to 232. Only notified jurisdictions are eligible for an outbound merger. Valuation and creditor protection remain applicable.",
+    "glance": "Cross-border merger: foreign → Indian (inbound) or Indian → foreign in notified jurisdiction (outbound); RBI prior approval; conditions prescribed; ss. 230–232 framework otherwise applies.",
+    "study": "A foreign company may merge or amalgamate with a company registered under this Act, and a company registered under this Act may merge or amalgamate with a foreign company incorporated in a jurisdiction notified by the Central Government, with prior approval of the Reserve Bank of India and subject to such other conditions as may be prescribed. Current-law framing: identify inbound or outbound structure; for outbound, confirm the foreign jurisdiction is notified; obtain RBI prior approval; apply prescribed conditions; otherwise follow ss. 230–232 process (meetings, majority, Tribunal sanction, valuation and creditor protection). Distinct from purely domestic s. 232 mergers and from fast-track s. 233.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The scheme otherwise follows sections 230 to 232. Only notified jurisdictions are eligible for an outbound merger. Valuation and creditor protection remain.",
-        "order": 2
-      }
+      {"heading": "Inbound", "body": "Foreign company may merge into a company registered under the Act.", "order": 1},
+      {"heading": "Outbound", "body": "Indian company may merge into a foreign company only if that foreign company is in a jurisdiction notified by the Central Government.", "order": 2},
+      {"heading": "Approvals", "body": "Prior approval of the Reserve Bank of India; other conditions as prescribed.", "order": 3},
+      {"heading": "Process Overlay", "body": "Scheme otherwise follows sections 230 to 232; valuation and creditor protection remain.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-234",
-        "title": "Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-234", "section": "Section 234", "title": "Merger or amalgamation of company with foreign company"}],
     "examples": [
-      {
-        "title": "Cross-border merger",
-        "body": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed."
-      }
+      {"title": "Inbound merger", "body": "A foreign company merges into an Indian company under s. 234 with RBI prior approval. The scheme is processed under the ss. 230–232 framework with the additional cross-border conditions.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Outbound only to notified jurisdictions", "body": "An Indian company proposes to merge into a foreign company in a jurisdiction that has not been notified. Section 234 does not permit outbound merger into non-notified jurisdictions.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Can an Indian company merge into any foreign company under s. 234 without more?", "analysis": "No. Outbound merger is limited to foreign companies in jurisdictions notified by the Central Government, and requires prior RBI approval and prescribed conditions. The domestic scheme process under ss. 230–232 still applies."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-234-distinction",
-        "title": "Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234) and connected legal concept",
-        "left": "Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234)",
-        "right": "Companies Act s. 230 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 231 — Compromises, Arrangements and Amalgamations provision; Companies Act s. 232 — Compromises, Arrangements and Amalgamations provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-234-trap-1",
-        "trap": "Treating Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-234-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-234-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s234-vs-s232", "title": "Cross-border merger (s. 234) vs domestic merger (s. 232)", "left": "Foreign company involved; RBI approval; outbound only to notified jurisdictions", "right": "Domestic companies; Tribunal process under s. 232 without cross-border RBI/notification rules", "rows": [{"point": "Focus", "left": "Cross-border", "right": "Domestic"}]}],
+    "misconceptions": [{"id": "ca-s234-trap-1", "trap": "Any cross-border merger can proceed like a domestic s. 232 scheme without RBI involvement.", "correction": "Section 234 requires prior RBI approval and, for outbound mergers, a notified jurisdiction, in addition to the ss. 230–232 framework."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 234?",
-        "answer": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed."
-      }
+      {"id": "ca-s234-brief", "draftingCategory": "brief", "question": "How should a Section 234 problem be analysed?", "answer": "I. Identify inbound or outbound. II. For outbound, check notified jurisdiction. III. RBI approval and prescribed conditions. IV. Apply ss. 230–232 overlay. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s234-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Structure; jurisdiction; RBI status; scheme process; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 234 — Compromises, Arrangements and Amalgamations provision (Companies Act s. 234)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-235",
-      "ca-s-233",
-      "ca-s-236"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 234", "Connected: Sections 230, 232; FEMA/RBI conditions"],
+    "examTips": ["Inbound and outbound paths.", "Outbound: notified jurisdiction only.", "RBI prior approval.", "ss. 230–232 still apply."],
+    "revisionPoints": ["Inbound", "Outbound", "Approvals", "Process overlay"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-232", "company-ca-s-230"],
+    "illustrations": ["illustration:india:company-ca-s-234-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-234",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-      "legalPrinciple": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-      "statutoryFramework": "Companies Act, 2013, section 234.",
-      "essentialIngredients": [
-        "Cross-border merger"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 234 (Merger or amalgamation with a foreign company). A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "Cross-border merger"
-      ],
-      "keyTakeaways": [
-        "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 234",
-          "citation": "Companies Act, 2013, section 234",
-          "point": "A foreign company may merge into an Indian company, and an Indian company into a foreign company of a notified jurisdiction, with Reserve Bank approval and on the conditions prescribed.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the inbound and outbound cross-border merger rules under s. 234.", "Explain RBI approval and notified-jurisdiction limits."],
+      "definition": "Section 234 permits merger of a foreign company into an Indian company, and of an Indian company into a foreign company in a notified jurisdiction, with prior RBI approval and prescribed conditions, otherwise under the ss. 230–232 framework.",
+      "legalPrinciple": "Cross-border mergers are channelled through the domestic scheme process with additional exchange-control and jurisdictional gates.",
+      "statutoryFramework": "Companies Act, 2013, Section 234.",
+      "essentialIngredients": ["Inbound or outbound structure", "Outbound only to notified jurisdiction", "Prior RBI approval", "Prescribed conditions; ss. 230–232 process"],
+      "detailedExplanation": "Section 234 is the cross-border overlay on the merger chapter.",
+      "examples": ["Inbound merger", "Outbound only to notified jurisdictions"],
+      "problemApplication": "Map direction; check jurisdiction and RBI; apply scheme process.",
+      "keyTakeaways": ["Inbound and outbound.", "Notified jurisdiction for outbound.", "RBI approval."],
+      "authoritativeSources": ["Companies Act, 2013, Section 234"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; notified jurisdictions and RBI conditions are in rules/notifications; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Cross-border merger (s. 234) vs domestic merger (s. 232)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Inbound/outbound; RBI; conclude.", "sixteenMark": "Introduction; inbound; outbound; approvals; process; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T09:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s234-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T09:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-234", "cross-border-merger"]
 }
