@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-174",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 174 (Quorum for board meetings)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 174 (Quorum for meetings of Board)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
-    "glance": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
-    "study": "Companies Act, 2013 — Section 174 (Quorum for board meetings). Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+    "overview": "Section 174 provides that the quorum for a meeting of the Board of Directors of a company shall be one-third of its total strength or two directors, whichever is higher, and the participation of the directors by video conferencing or other audio-visual means shall also be counted for the purposes of quorum under this section. Interested directors are not counted for quorum on the item in which they are interested. If the number of continuing directors is reduced below the quorum, the continuing directors may act only for the purpose of increasing the number of directors to that fixed for the quorum, or of summoning a general meeting of the company.",
+    "glance": "Quorum = higher of one-third of total strength or two directors; video participation counts where permitted; interested directors excluded from quorum on their item; continuing directors below quorum may only fill numbers or call a GM.",
+    "study": "The quorum for a meeting of the Board of Directors of a company shall be one-third of its total strength or two directors, whichever is higher, and the participation of the directors by video conferencing or by other audio-visual means shall also be counted for the purposes of quorum under this sub-section. Where at any time the number of interested directors exceeds or is equal to two-thirds of the total strength of the Board of Directors, the number of directors who are not interested directors and present at the meeting, being not less than two, shall be the quorum during such time. If the number of continuing directors is reduced below the quorum fixed by the Act or the articles, the continuing directors may act for the purpose of increasing the number of directors to that fixed for the quorum, or of summoning a general meeting of the company, and for no other purpose. Current-law framing: compute one-third vs two; exclude interested directors on the item; apply the reduced-board rule if numbers fall below quorum.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "Interested directors are not counted for quorum on the item in which they are interested. If the number of continuing directors falls below quorum, they may act only to increase the number or to summon a general meeting. Participation by video counts towards quorum where the rules allow the item to be dealt with by video.",
-        "order": 2
-      }
+      {"heading": "Basic Quorum", "body": "One-third of total strength or two directors, whichever is higher.", "order": 1},
+      {"heading": "Video Participation", "body": "Directors participating by video conferencing or other audio-visual means count toward quorum where the rules allow the item to be dealt with that way.", "order": 2},
+      {"heading": "Interested Directors", "body": "An interested director is not counted for quorum on the matter in which he is interested. If interested directors are two-thirds or more of total strength, quorum is the non-interested directors present, being not less than two.", "order": 3},
+      {"heading": "Below Quorum", "body": "Continuing directors reduced below quorum may act only to increase numbers to the quorum figure or to summon a general meeting.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-174",
-        "title": "Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-174", "section": "Section 174", "title": "Quorum for meetings of Board"}],
     "examples": [
-      {
-        "title": "Board quorum",
-        "body": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher."
-      }
+      {"title": "Six-director board", "body": "A board of six directors needs the higher of one-third (two) or two — so two directors form quorum, subject to interest exclusions.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Interested majority", "body": "On a related-party item, four of six directors are interested. Quorum for that item is the non-interested directors present, being not less than two.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Can a single director validly hold a board meeting if articles say so?", "analysis": "No. Section 174 sets a statutory floor of two directors (or one-third if higher). Articles cannot reduce the statutory quorum below that floor."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-174-distinction",
-        "title": "Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174) and connected legal concept",
-        "left": "Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174)",
-        "right": "Companies Act s. 173 — Meetings of Board and Its Powers provision; Companies Act s. 175 — Meetings of Board and Its Powers provision; Companies Act s. 176 — Meetings of Board and Its Powers provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-174-trap-1",
-        "trap": "Treating Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-174-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-174-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s174-vs-s173", "title": "Board quorum (s. 174) vs board meetings (s. 173)", "left": "How many directors must be present", "right": "How often the board must meet and notice rules", "rows": [{"point": "Focus", "left": "Quorum", "right": "Frequency and notice"}]}],
+    "misconceptions": [{"id": "ca-s174-trap-1", "trap": "Interested directors still count toward the overall meeting quorum for every item.", "correction": "On the item in which a director is interested, that director is not counted for quorum."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What does section 174 require?",
-        "answer": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher."
-      }
+      {"id": "ca-s174-brief", "draftingCategory": "brief", "question": "How should a Section 174 problem be analysed?", "answer": "I. Compute one-third vs two. II. Apply interest exclusions. III. Check video participation if used. IV. Apply reduced-board rule if relevant. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s174-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Board strength; attendance; interest facts; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 174 — Meetings of Board and Its Powers provision (Companies Act s. 174)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
-    ],
-    "revisionPoints": [
-      "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-175",
-      "ca-s-173",
-      "ca-s-176"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 174", "Connected: Sections 173, 175, 184"],
+    "examTips": ["Higher of 1/3 or 2.", "Interested directors out of quorum on their item.", "Below quorum → only fill numbers or call GM."],
+    "revisionPoints": ["Basic quorum", "Video participation", "Interested directors", "Below quorum"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-173", "company-ca-s-175"],
+    "illustrations": ["illustration:india:company-ca-s-174-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-174",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
-      "legalPrinciple": "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
-      "statutoryFramework": "Companies Act, 2013, section 174.",
-      "essentialIngredients": [
-        "Board quorum",
-        "Statutory conditions and exceptions",
-        "Consequence of breach or omission"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 174 (Quorum for board meetings). Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
-      "examples": [
-        "Board quorum"
-      ],
-      "keyTakeaways": [
-        "Quorum for a board meeting is one-third of the total strength or two directors, whichever is higher."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Corporate Law Reporter / India Code structure checked for this batch; commencement to be re-confirmed",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 174",
-          "citation": "Statutory quorum for board meetings",
-          "point": "The quorum for a board meeting is one-third of the total strength or two directors, whichever is higher. An interested director is not counted for quorum on the matter in which he is interested. This is a statutory pointer, not a judgment."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b2",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the board quorum rule under s. 174.", "Explain interest exclusions and the reduced-board limitation."],
+      "definition": "Section 174 fixes board quorum as the higher of one-third of total strength or two directors, with rules for video participation, interested directors, and boards reduced below quorum.",
+      "legalPrinciple": "Board decisions require a minimum presence so that collective deliberation is real, subject to interest-based exclusions.",
+      "statutoryFramework": "Companies Act, 2013, Section 174.",
+      "essentialIngredients": ["Higher of one-third of total strength or two directors", "Video participation counts where permitted", "Interested directors not counted on their item", "Below quorum: only increase numbers or summon GM"],
+      "detailedExplanation": "Section 174 is the quorum companion to the meeting-frequency rules in s. 173.",
+      "examples": ["Six-director board", "Interested majority"],
+      "problemApplication": "Compute quorum; apply interest rules; test validity of the meeting.",
+      "keyTakeaways": ["1/3 or 2, whichever higher.", "Interest exclusions.", "Limited powers when below quorum."],
+      "authoritativeSources": ["Companies Act, 2013, Section 174"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Board quorum (s. 174) vs board meetings (s. 173)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Quorum formula; interest; conclude.", "sixteenMark": "Introduction; formula; video; interest; below quorum; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T06:10:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s174-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T06:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-174", "board-quorum"]
 }
