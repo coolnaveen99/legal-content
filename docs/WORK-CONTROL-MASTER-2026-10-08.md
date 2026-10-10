@@ -222,3 +222,8 @@ This section supplements—not replaces—the lifecycle and ownership controls a
 - The optional High-Yield Study Guide is final-stage supplementary learning material. It cannot replace, shorten, prioritize, or gate the core legal library.
 - Preserve the existing lifecycle, topic IDs, schemas, ownership controls, source hierarchy, SEO/production gates, reopening triggers, and evidence requirements. AI/provider work remains subject to existing later-stage controls.
 - Reviewer fatigue is a quality risk: use manageable non-overlapping batches, allow unresolved items to remain blocked/source-check-required, and never trade legal accuracy for a quota.
+
+
+## Meeting and legacy-work alignment procedures
+
+Use `docs/LEGACY-WORK-ALIGNMENT-AUDIT.md` to reconcile legacy completed/in-progress/blocked/unstarted work without replacing this Work Control Master or creating a competing queue. Use `docs/SPRINT-MEETING-INSTRUCTIONS.md` as the mandatory reusable facilitator runbook for roadmap/sprint meetings. Meeting minutes record decisions and evidence; they do not independently select work or override this master. Preserve current lifecycle, ownership, validation and sign-off gates.
