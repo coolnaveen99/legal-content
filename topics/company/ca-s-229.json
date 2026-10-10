@@ -2,243 +2,75 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-229",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 229 (Penalty for furnishing false statement)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 229 (Penalty for furnishing false statement, mutilation, destruction of documents)",
   "jurisdiction": "India",
   "content": {
-    "overview": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-    "glance": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-    "study": "Companies Act, 2013 — Section 229 (Penalty for furnishing false statement). A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 229 provides that where a person is required to answer any question put to him or furnish any information or produce any book or paper under this Chapter, and he makes a statement which is false in any material particular knowing it to be false, or suppresses any material fact, or mutilates, destroys, falsifies or secretes any book or paper, he shall be liable to the punishment provided in the section. The provision is the investigation-specific false-statement and document-interference offence. Related general false-statement and fraud provisions under the Act (including sections 447 and 448) may also apply on appropriate facts.",
+    "glance": "False statement knowing it to be false, or suppression of material fact, or mutilation/destruction/falsification/secretion of books in connection with Chapter XIV examination or production → punishable under s. 229; distinct from general fraud (s. 447) and false statement (s. 448) routes.",
+    "study": "Where a person who is required to answer any question put to him or furnish any information or produce any book or paper in the course of inspection, inquiry or investigation under this Chapter makes a statement which is false in any material particular knowing it to be false, or omits any material fact knowing it to be material, or mutilates, destroys, falsifies or secretes or is privy to the mutilation, destruction, falsification or secretion of any book or paper, he shall be punishable with the imprisonment and fine the section provides. Current-law framing: identify the duty to answer, furnish or produce under the Chapter; establish false statement with knowledge, or suppression of material fact with knowledge, or interference with books; apply the section’s penalty. Cross-refer ss. 447 and 448 where the facts also engage general fraud or false-statement offences.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The section is the inspection-specific false-statement offence. A false statement in a return can also be deemed fraud under section 448.",
-        "order": 2
-      }
+      {"heading": "Trigger", "body": "Person required under Chapter XIV to answer a question, furnish information, or produce a book or paper.", "order": 1},
+      {"heading": "Conduct", "body": "Makes a statement false in a material particular knowing it to be false; or suppresses a material fact knowing it to be material; or mutilates, destroys, falsifies or secretes (or is privy to such acts regarding) any book or paper.", "order": 2},
+      {"heading": "Penalty", "body": "Punishable as the section provides (imprisonment and fine as stated in the Act).", "order": 3},
+      {"heading": "Related Offences", "body": "General false-statement (s. 448) and fraud (s. 447) provisions may also apply on appropriate facts; s. 229 is the Chapter XIV-specific route.", "order": 4}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-229",
-        "title": "Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-229", "section": "Section 229", "title": "Penalty for furnishing false statement, mutilation, destruction of documents"}],
     "examples": [
-      {
-        "title": "False statement to inspectors",
-        "body": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides."
-      }
+      {"title": "False answer to inspector", "body": "During a s. 217 examination a director knowingly states that no related-party transfers occurred when large transfers are documented. Section 229 applies to the false statement made under the Chapter.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Destruction of books", "body": "An officer destroys statutory registers after notice of investigation. Section 229 covers mutilation, destruction, falsification or secretion of books in connection with the investigation process.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "Is an innocent mistake in an answer to an inspector automatically an offence under s. 229?", "analysis": "Section 229 targets a statement that is false in a material particular knowing it to be false, or suppression of a material fact knowing it to be material, or intentional interference with books. An honest mistake without knowledge of falsity is not the same as the knowing false-statement ingredient."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-229-distinction",
-        "title": "Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229) and connected legal concept",
-        "left": "Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 208 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-229-trap-1",
-        "trap": "Treating Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-229-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-229-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s229-vs-s448", "title": "False statement in investigation (s. 229) vs general false statement (s. 448)", "left": "False statement, suppression or document interference in the course of Chapter XIV inspection/inquiry/investigation", "right": "General false statement in any return, report, certificate, financial statement or other document under the Act", "rows": [{"point": "Focus", "left": "Investigation-context offence", "right": "General document offence"}]}],
+    "misconceptions": [{"id": "ca-s229-trap-1", "trap": "Any incomplete answer to an inspector is automatically fraud under s. 447.", "correction": "Section 229 is the Chapter XIV-specific false-statement and document-interference offence with its own ingredients (including knowledge of falsity). Section 447 fraud has separate ingredients. Both may apply on appropriate facts, but they are not automatic substitutes."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 229?",
-        "answer": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides."
-      }
+      {"id": "ca-s229-brief", "draftingCategory": "brief", "question": "How should a Section 229 problem be analysed?", "answer": "I. Confirm duty under Chapter XIV. II. Test false statement with knowledge / suppression / document interference. III. Apply penalty. IV. Note ss. 447/448 if relevant. V. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s229-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Duty facts; falsity and knowledge; document acts; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 229 — Inspection, Inquiry and Investigation provision (Companies Act s. 229)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
-    ],
-    "revisionPoints": [
-      "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-230",
-      "ca-s-228",
-      "ca-s-231"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 229", "Connected: Sections 217, 447, 448"],
+    "examTips": ["Knowing false statement or material suppression.", "Or mutilation/destruction/falsification/secretion of books.", "Chapter XIV context.", "Distinct from general s. 448 / fraud s. 447."],
+    "revisionPoints": ["Trigger", "Conduct", "Penalty", "Related offences"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-217", "company-ca-s-447", "company-ca-s-448"],
+    "illustrations": ["illustration:india:company-ca-s-229-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-229",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-      "legalPrinciple": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-      "statutoryFramework": "Companies Act, 2013, section 229.",
-      "essentialIngredients": [
-        "False statement to inspectors"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 229 (Penalty for furnishing false statement). A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "False statement to inspectors"
-      ],
-      "keyTakeaways": [
-        "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "India Code arrangement of sections; omission dates for ss 93, 194 and 195 checked 2026-10-09",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 229",
-          "citation": "Companies Act, 2013, section 229",
-          "point": "A person who furnishes false information or suppresses material information in connection with an inspection or investigation is punishable as the section provides.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b3",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the ingredients of the s. 229 offence.", "Distinguish it from general false-statement and fraud provisions."],
+      "definition": "Section 229 punishes a person required under Chapter XIV to answer, furnish information or produce books who knowingly makes a materially false statement, suppresses a material fact, or mutilates, destroys, falsifies or secretes books or papers.",
+      "legalPrinciple": "Integrity of the investigation process is protected by specific criminal liability for knowing falsehood and interference with documentary evidence.",
+      "statutoryFramework": "Companies Act, 2013, Section 229.",
+      "essentialIngredients": ["Duty to answer, furnish or produce under Chapter XIV", "False statement knowing it to be false, or suppression of material fact, or interference with books", "Penalty as the section provides"],
+      "detailedExplanation": "Section 229 is the investigation-chapter false-statement and document-interference offence.",
+      "examples": ["False answer to inspector", "Destruction of books"],
+      "problemApplication": "Confirm duty; test knowledge and conduct; apply penalty; cross-refer general offences if needed.",
+      "keyTakeaways": ["Knowing falsity or suppression.", "Or book interference.", "Chapter XIV-specific."],
+      "authoritativeSources": ["Companies Act, 2013, Section 229"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; exact imprisonment/fine figures follow the Act as amended; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["False statement in investigation (s. 229) vs general false statement (s. 448)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Ingredients; penalty; conclude.", "sixteenMark": "Introduction; trigger; conduct; penalty; vs ss. 447/448; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T08:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s229-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T08:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-229", "false-statement"]
 }

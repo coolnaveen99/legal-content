@@ -2,241 +2,74 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-227",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 227 (Legal advisers and bankers not to disclose certain matters)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 227 (Legal advisers and bankers not to disclose certain information)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-    "glance": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-    "study": "Companies Act, 2013 — Section 227 (Legal advisers and bankers not to disclose certain matters). Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
+    "overview": "Section 227 provides that nothing in this Chapter shall require the disclosure by a legal adviser of any privileged communication made to him in that capacity, except as respects the name and address of his client, or by a banker of any information as to the affairs of any of his customers other than the company or other body corporate under investigation. The privilege is limited: it does not allow withholding of the company’s own records, and it is not a general right of silence for company officers.",
+    "glance": "Legal adviser need not disclose privileged communications (except client name and address); banker need not disclose affairs of customers other than the company under investigation; limited privilege — not a shield for company officers or company records.",
+    "study": "Nothing in this Chapter shall require the disclosure to the Tribunal or to the Central Government or to the Registrar or to an inspector appointed by the Central Government—(a) by a legal adviser, of any privileged communication made to him in that capacity, except as respects the name and address of his client; or (b) by a banker of any company or other body corporate, of any information as to the affairs of any of his customers other than such company or body corporate. Current-law framing: identify the claimant of privilege (legal adviser or banker); apply the limited exceptions (client name/address; company under investigation is not protected as a ‘other customer’); reject any attempt to use the section as a general officers’ silence right or to withhold the company’s own books.",
     "sections": [
-      {
-        "heading": "Rule",
-        "body": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-        "order": 1
-      },
-      {
-        "heading": "Explanation",
-        "body": "The privilege is limited. It is not a ground to withhold the company's own records. The section preserves professional confidence, not a general right of silence for officers.",
-        "order": 2
-      }
+      {"heading": "Legal Adviser", "body": "Need not disclose privileged communications made to him in that capacity, except the name and address of the client.", "order": 1},
+      {"heading": "Banker", "body": "Need not disclose information as to the affairs of any customer other than the company or body corporate under investigation.", "order": 2},
+      {"heading": "Limits", "body": "Does not protect the company’s own records; not a general right of silence for officers; privilege is limited to the professional confidence stated.", "order": 3}
     ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-227",
-        "title": "Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
-      }
-    ],
+    "provisions": [{"actId": "companies-act-2013", "actName": "Companies Act, 2013", "provisionId": "ca-s-227", "section": "Section 227", "title": "Legal advisers and bankers not to disclose certain information"}],
     "examples": [
-      {
-        "title": "Limited privilege",
-        "body": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company."
-      }
+      {"title": "Privileged legal advice", "body": "An inspector demands that the company’s external counsel disclose the content of legal advice given to the board. Under s. 227 the legal adviser need not disclose that privileged communication, except the client’s name and address.", "kind": "hypothetical", "inventedCase": false},
+      {"title": "Banker’s other customers", "body": "The company’s bank is asked for details of another customer’s accounts unconnected with the company under investigation. Section 227 does not require the banker to disclose those other customers’ affairs.", "kind": "hypothetical", "inventedCase": false}
     ],
     "hypotheticals": [
-      {
-        "question": "Whether relief under Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
-      }
+      {"question": "May a director refuse to answer the inspector by citing s. 227 privilege?", "analysis": "No. Section 227 protects legal advisers’ privileged communications and bankers’ other customers. It is not a general right of silence for company officers. Officers remain under the duties and powers in ss. 217 and related provisions."}
     ],
-    "distinctions": [
-      {
-        "id": "ca-s-227-distinction",
-        "title": "Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227) and connected legal concept",
-        "left": "Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227)",
-        "right": "Companies Act s. 206 — Inspection, Inquiry and Investigation provision; Companies Act s. 207 — Inspection, Inquiry and Investigation provision; Companies Act s. 208 — Inspection, Inquiry and Investigation provision",
-        "rows": [
-          {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-227-trap-1",
-        "trap": "Treating Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-227-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-227-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "distinctions": [{"id": "ca-s227-vs-s217", "title": "Privilege for legal advisers/bankers (s. 227) vs powers of inspectors (s. 217)", "left": "Limited non-disclosure for legal advisers and bankers", "right": "Inspector’s civil-court powers and duty of officers to assist", "rows": [{"point": "Focus", "left": "Professional privilege limit", "right": "Compulsion and assistance"}]}],
+    "misconceptions": [{"id": "ca-s227-trap-1", "trap": "Section 227 allows any officer to refuse to produce company books by claiming privilege.", "correction": "Section 227 is limited to legal advisers’ privileged communications (except client name/address) and bankers’ information about other customers. It does not authorise withholding of the company’s own records or a general officers’ silence."}],
+    "cases": [],
     "questionsAndAnswers": [
-      {
-        "question": "What is the current position on section 227?",
-        "answer": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company."
-      }
+      {"id": "ca-s227-brief", "draftingCategory": "brief", "question": "How should a Section 227 problem be analysed?", "answer": "I. Identify claimant (legal adviser / banker). II. Apply limited privilege. III. Exclude company records and officers’ general silence. IV. Conclude.", "explanation": "IRAC."},
+      {"id": "ca-s227-sub", "draftingCategory": "submissions", "question": "What should submissions contain?", "answer": "Role of claimant; nature of communication; privilege scope; precise relief.", "explanation": "Submissions."}
     ],
-    "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 227 — Inspection, Inquiry and Investigation provision (Companies Act s. 227)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
-    ],
-    "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
-    ],
-    "revisionPoints": [
-      "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-228",
-      "ca-s-226",
-      "ca-s-229"
-    ],
-    "illustrations": [],
+    "bareActPointers": ["Companies Act, 2013 — Section 227", "Connected: Section 217"],
+    "examTips": ["Legal adviser: privileged communication (except name/address).", "Banker: other customers only — not the company under investigation.", "Not a general officers’ privilege."],
+    "revisionPoints": ["Legal adviser", "Banker", "Limits"],
+    "relatedJudgments": [],
+    "relatedTopics": ["company-ca-s-217"],
+    "illustrations": ["illustration:india:company-ca-s-227-example"],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-227",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-      "legalPrinciple": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-      "statutoryFramework": "Companies Act, 2013, section 227.",
-      "essentialIngredients": [
-        "Limited privilege"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 227 (Legal advisers and bankers not to disclose certain matters). Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company. Apply only the conditions, approvals, filings and penalties stated in the section. A rule made under the Act cannot contradict the section. Not a verified closure.",
-      "examples": [
-        "Limited privilege"
-      ],
-      "keyTakeaways": [
-        "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 227",
-          "citation": "Companies Act, 2013, section 227",
-          "point": "Nothing in the investigation chapter requires a legal adviser to disclose a privileged communication, except as to the name and address of the client, or a banker to disclose the affairs of a customer other than the company.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
+      "learningObjectives": ["State the limited privilege for legal advisers and bankers under s. 227.", "Explain what the section does not protect."],
+      "definition": "Section 227 provides that nothing in Chapter XIV requires a legal adviser to disclose privileged communications (except client name and address) or a banker to disclose the affairs of customers other than the company under investigation.",
+      "legalPrinciple": "Professional legal privilege and bankers’ duty to other customers are preserved in a limited form so that investigation powers do not erase core professional confidences.",
+      "statutoryFramework": "Companies Act, 2013, Section 227.",
+      "essentialIngredients": ["Legal adviser: privileged communication protected except name/address", "Banker: other customers protected; company under investigation not", "Does not shield company records or general officer silence"],
+      "detailedExplanation": "Section 227 is a narrow privilege carve-out within the investigation chapter.",
+      "examples": ["Privileged legal advice", "Banker’s other customers"],
+      "problemApplication": "Identify role; apply limited privilege; reject overreach.",
+      "keyTakeaways": ["Limited legal privilege.", "Banker: other customers only.", "Not for officers generally."],
+      "authoritativeSources": ["Companies Act, 2013, Section 227"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Section-text level; case-law verification separate; no new citations invented.", "date": "2026-10-10"},
+      "distinctions": ["Privilege for legal advisers/bankers (s. 227) vs powers of inspectors (s. 217)"],
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {"tenMark": "Privilege scope; limits; conclude.", "sixteenMark": "Introduction; legal adviser; banker; limits; vs s. 217; application; conclusion."},
+      "lastBotRunAt": "2026-10-10T08:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": ["No invented citations", "Preserve legacy IDs", "Case-law verification separate", "Coverage substantive-topic-specific-v1"],
+      "sourceFingerprint": "ca-s227-2026-10-10",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "sources": [],
+  "updatedAt": "2026-10-10T08:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+  "tags": ["company", "companies-act-2013", "section-227", "privilege"]
 }
