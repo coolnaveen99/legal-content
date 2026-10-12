@@ -90,3 +90,29 @@ The six original target URLs were already recorded as blocked or transiently ina
 A reviewer with access to the original official URLs must open/download each original document (or document an approved authoritative replacement), record the actual reviewed file's checksum, page count, OCR/legibility, source identity, reviewer and date, and attach evidence. After that, re-run the PDF validator so its checksum-based preservation rule can determine whether a closure is retained. Keep all six queue entries pending until that evidence exists.
 
 **Gate statement:** This triage is evidence discovery only. It does not close any of the six manual-review items, statutory verification, case-law verification, or publication gates.
+
+
+## Follow-up recheck — 2026-10-12
+
+This follow-up records a fresh retrieval attempt through the available web document viewer. It does not replace the original CI evidence and does not close any manual-review item.
+
+| Source | Recheck observation | Disposition |
+|---|---|---|
+| Private-company exemptions (MCA PDF) | Exact original URL again returned HTTP 403 Forbidden. | Pending; no original PDF bytes or checksum. |
+| 2016 Rule 17(2) amendment (India Code upload URL) | Exact query URL returned a viewer cache-miss/access failure. | Pending; no original PDF bytes or checksum. |
+| 2018 Rule 18 amendment (MCA PDF) | Exact original URL was reported inaccessible through the viewer. | Pending; no original PDF bytes or checksum. |
+| 2022 G.S.R. 279(E) (eGazette PDF) | Exact original URL timed out in the viewer. | Pending; no original PDF bytes or checksum. |
+| 2025 G.S.R. 358(E) (eGazette PDF) | Exact original URL returned HTTP 502 Bad Gateway. | Pending; no original PDF bytes or checksum. |
+| Companies Act, 2013 (MCA PDF) | Exact original URL again returned HTTP 403 Forbidden. | Pending; no original PDF bytes or checksum. |
+
+### Official-hosted replacement check: Companies Act, 2013
+
+- **Official record page:** https://nclat.nic.in/acts-rules/companies-act-2013
+- **Linked PDF:** https://nclat.nic.in/sites/default/files/2022-04/the-companies-act-2013.pdf
+- The NCLAT page identifies the document as “The companies act 2013” and links a 2.04 MB PDF. The PDF viewer parsed 294 pages; the opening text identifies “THE COMPANIES ACT, 2013 (NO. 18 OF 2013)” and gives the enactment date as 29 August 2013. The NCLAT page is hosted on the official NCLAT domain and identifies NIC as the host/developer.
+- **Technical limitation:** The viewer exposes extracted PDF text and page count but not the downloaded file bytes or a SHA-256 checksum in this environment. A direct binary download attempt was unsuccessful. This is useful official-hosted identity evidence, but it does not meet the repository's checksum-based closure rule.
+- **Disposition:** The Companies Act item remains PENDING until a reviewer records the checksum of the actual reviewed replacement file, reviewer/date, page count, OCR/legibility notes, identity check and evidence in the queue. Do not infer current-law completeness from this 2013 enactment copy alone; amendment/current-law reconciliation is a separate legal gate.
+
+### Follow-up result
+
+The six original URLs remain unreviewable at the byte/checksum level in this environment. The NCLAT-hosted Act copy is a credible official-hosted replacement candidate, but this pass cannot record a checksum or claim a human review. Therefore the queue remains at **6 pending**, with `legalVerificationAuthorized=false` and `publicationAuthorized=false`. No legal verification status was changed.
