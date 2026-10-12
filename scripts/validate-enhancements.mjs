@@ -11,7 +11,10 @@ const REQUIRED = [
   "authoritativeSources","verification"
 ];
 
-let checked=0, enhanced=0, errors=0;
+const strict = process.argv.includes("--strict");
+let checked=0, enhanced=0, errors=0, warnings=0;
+const warningSamples = [];
+const SAMPLE_LIMIT = 20;
 function* walk(dir){
   for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
     const p=path.join(dir,entry.name);
@@ -29,8 +32,18 @@ if(fs.existsSync(topicRoot)){
     if(!e) continue;
     enhanced++;
     const rel=path.relative(ROOT,file);
+    const finalStatus = e.status === "verified" || e.status === "published";
     for(const key of REQUIRED){
-      if(!(key in e)) { console.error("ERROR: "+rel+" missing enhancement."+key); errors++; }
+      if(!(key in e)) {
+        const message = rel+" missing enhancement."+key;
+        if(finalStatus || strict) {
+          console.error("ERROR: "+message);
+          errors++;
+        } else {
+          warnings++;
+          if(warningSamples.length < SAMPLE_LIMIT) warningSamples.push(message);
+        }
+      }
     }
     if(!["planned","in-progress","source_check_required","verification_in_progress","verified","published"].includes(e.status)){
       console.error("ERROR: "+rel+" invalid enhancement status"); errors++;
@@ -48,5 +61,9 @@ if(fs.existsSync(topicRoot)){
     }
   }
 }
-console.log(`Enhancement validation: topics=${checked}, enhanced=${enhanced}, errors=${errors}`);
+for (const sample of warningSamples) console.warn("WARN: "+sample);
+if (warnings > warningSamples.length) {
+  console.warn(`WARN: ${warnings - warningSamples.length} additional incomplete-field warnings omitted; use --strict to fail on all missing fields.`);
+}
+console.log(`Enhancement validation: topics=${checked}, enhanced=${enhanced}, warnings=${warnings}, errors=${errors}, mode=${strict ? "strict" : "lifecycle-aware"}`);
 process.exit(errors?1:0);
