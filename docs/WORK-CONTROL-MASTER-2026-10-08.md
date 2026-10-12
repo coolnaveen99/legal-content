@@ -227,3 +227,14 @@ This section supplements—not replaces—the lifecycle and ownership controls a
 ## Meeting and legacy-work alignment procedures
 
 Use `docs/LEGACY-WORK-ALIGNMENT-AUDIT.md` to reconcile legacy completed/in-progress/blocked/unstarted work without replacing this Work Control Master or creating a competing queue. Use `docs/SPRINT-MEETING-INSTRUCTIONS.md` as the mandatory reusable facilitator runbook for roadmap/sprint meetings. Meeting minutes record decisions and evidence; they do not independently select work or override this master. Preserve current lifecycle, ownership, validation and sign-off gates.
+
+## Official PDF manual-review follow-up — 2026-10-12
+
+Existing claim: issue #40 continuation, alternate-source triage only. This is an evidence update within the existing claim, not a new or overlapping work claim.
+
+- **Latest `main` evidence commit:** `9b5713fad642f367e6b628027d9245fb78e87a61` — recheck evidence added to `docs/PDF-MANUAL-REVIEW-TRIAGE-2026-10-09.md`.
+- **Observed on recheck:** MCA original URLs returned 403; the 2016 India Code query URL was inaccessible/cache-missed; the 2018 MCA PDF was inaccessible; the 2022 eGazette PDF timed out; the 2025 eGazette PDF returned 502.
+- **Official replacement candidate:** NCLAT's official Acts & Rules page links a 2.04 MB Companies Act, 2013 PDF. The viewer parsed 294 pages and extracted the title/Act number and 29 August 2013 enactment date. The environment did not expose the file bytes/SHA-256, and a binary download attempt failed.
+- **Current status:** IN_PROGRESS / BLOCKED on document-byte/checksum evidence; all six queue entries remain pending. Do not set reviewer/date, close a review, change legal-verification state, or authorize publication without the required evidence.
+- **Validation:** Documentation-only update. No application code changed; do not represent this as a new validator/test run. Previously recorded `npm run validate` and `npm run test:pdf-validation` passed in run `37960811839`, while the full workflow remained blocked by 4,299 missing-field errors across 3,678 topics in `validate:enhancements`.
+- **Next action:** Obtain the actual file bytes for each original URL or an explicitly accepted authoritative replacement, calculate SHA-256, record reviewer/date, identity and legibility/OCR evidence, then update the queue and rerun the validator. Until then, keep `pendingCount=6`, `legalVerificationAuthorized=false`, and `publicationAuthorized=false`.
