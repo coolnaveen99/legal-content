@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-08T17:40:26.619Z",
+  "generatedAt": "2026-10-12T07:24:31.312Z",
   "scope": {
-    "migratedTopics": 3337
+    "migratedTopics": 3013
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,15 +12,15 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 3337,
-    "topicsWithFindings": 2220,
-    "totalFindings": 3705,
-    "highSeverity": 2844,
-    "mediumSeverity": 861
+    "topicsAudited": 3013,
+    "topicsWithFindings": 2140,
+    "totalFindings": 3629,
+    "highSeverity": 2764,
+    "mediumSeverity": 865
   },
   "byType": {
-    "provenance": 1757,
-    "workflow-status": 91,
+    "provenance": 1677,
+    "workflow-status": 95,
     "transition-law": 1071,
     "temporal-status": 716,
     "case-metadata": 18,
@@ -23611,12 +23611,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-100.json",
+      "id": "topic:india:company-ca-s-100",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-101.json",
       "id": "topic:india:company-ca-s-101",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/company/ca-s-101.json",
+      "id": "topic:india:company-ca-s-101",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -23629,12 +23647,30 @@
       "evidence": ""
     },
     {
+      "path": "topics/company/ca-s-102.json",
+      "id": "topic:india:company-ca-s-102",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
+      "evidence": ""
+    },
+    {
       "path": "topics/company/ca-s-103.json",
       "id": "topic:india:company-ca-s-103",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
       "message": "No canonical source attached.",
+      "evidence": ""
+    },
+    {
+      "path": "topics/company/ca-s-103.json",
+      "id": "topic:india:company-ca-s-103",
+      "subject": "company",
+      "type": "workflow-status",
+      "severity": "medium",
+      "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -24061,143 +24097,8 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-150.json",
-      "id": "topic:india:company-ca-s-150",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-151.json",
-      "id": "topic:india:company-ca-s-151",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-152.json",
-      "id": "topic:india:company-ca-s-152",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-153.json",
-      "id": "topic:india:company-ca-s-153",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-154.json",
-      "id": "topic:india:company-ca-s-154",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-155.json",
-      "id": "topic:india:company-ca-s-155",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-156.json",
-      "id": "topic:india:company-ca-s-156",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-157.json",
-      "id": "topic:india:company-ca-s-157",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-158.json",
-      "id": "topic:india:company-ca-s-158",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-159.json",
-      "id": "topic:india:company-ca-s-159",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-160.json",
-      "id": "topic:india:company-ca-s-160",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-161.json",
-      "id": "topic:india:company-ca-s-161",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-162.json",
-      "id": "topic:india:company-ca-s-162",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-163.json",
-      "id": "topic:india:company-ca-s-163",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-164.json",
       "id": "topic:india:company-ca-s-164",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-165.json",
-      "id": "topic:india:company-ca-s-165",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -24214,33 +24115,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-167.json",
-      "id": "topic:india:company-ca-s-167",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-168.json",
-      "id": "topic:india:company-ca-s-168",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-169.json",
-      "id": "topic:india:company-ca-s-169",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-17.json",
       "id": "topic:india:company-ca-s-17",
       "subject": "company",
@@ -24259,62 +24133,8 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-170.json",
-      "id": "topic:india:company-ca-s-170",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-171.json",
-      "id": "topic:india:company-ca-s-171",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-172.json",
-      "id": "topic:india:company-ca-s-172",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-173.json",
       "id": "topic:india:company-ca-s-173",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-174.json",
-      "id": "topic:india:company-ca-s-174",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-175.json",
-      "id": "topic:india:company-ca-s-175",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-176.json",
-      "id": "topic:india:company-ca-s-176",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -24331,24 +24151,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-178.json",
-      "id": "topic:india:company-ca-s-178",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-179.json",
-      "id": "topic:india:company-ca-s-179",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-18.json",
       "id": "topic:india:company-ca-s-18",
       "subject": "company",
@@ -24364,78 +24166,6 @@
       "type": "workflow-status",
       "severity": "medium",
       "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-180.json",
-      "id": "topic:india:company-ca-s-180",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-181.json",
-      "id": "topic:india:company-ca-s-181",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-182.json",
-      "id": "topic:india:company-ca-s-182",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-183.json",
-      "id": "topic:india:company-ca-s-183",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-184.json",
-      "id": "topic:india:company-ca-s-184",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-185.json",
-      "id": "topic:india:company-ca-s-185",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-186.json",
-      "id": "topic:india:company-ca-s-186",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-187.json",
-      "id": "topic:india:company-ca-s-187",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
       "evidence": ""
     },
     {
@@ -24448,15 +24178,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-189.json",
-      "id": "topic:india:company-ca-s-189",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-19.json",
       "id": "topic:india:company-ca-s-19",
       "subject": "company",
@@ -24472,42 +24193,6 @@
       "type": "workflow-status",
       "severity": "medium",
       "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-190.json",
-      "id": "topic:india:company-ca-s-190",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-191.json",
-      "id": "topic:india:company-ca-s-191",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-192.json",
-      "id": "topic:india:company-ca-s-192",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-193.json",
-      "id": "topic:india:company-ca-s-193",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
       "evidence": ""
     },
     {
@@ -24531,33 +24216,6 @@
     {
       "path": "topics/company/ca-s-196.json",
       "id": "topic:india:company-ca-s-196",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-197.json",
-      "id": "topic:india:company-ca-s-197",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-198.json",
-      "id": "topic:india:company-ca-s-198",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-199.json",
-      "id": "topic:india:company-ca-s-199",
       "subject": "company",
       "type": "provenance",
       "severity": "high",
@@ -24592,96 +24250,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-200.json",
-      "id": "topic:india:company-ca-s-200",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-201.json",
-      "id": "topic:india:company-ca-s-201",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-202.json",
-      "id": "topic:india:company-ca-s-202",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-203.json",
-      "id": "topic:india:company-ca-s-203",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-204.json",
-      "id": "topic:india:company-ca-s-204",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-205.json",
-      "id": "topic:india:company-ca-s-205",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-206.json",
-      "id": "topic:india:company-ca-s-206",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-207.json",
-      "id": "topic:india:company-ca-s-207",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-208.json",
-      "id": "topic:india:company-ca-s-208",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-209.json",
-      "id": "topic:india:company-ca-s-209",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-21.json",
       "id": "topic:india:company-ca-s-21",
       "subject": "company",
@@ -24700,96 +24268,6 @@
       "evidence": ""
     },
     {
-      "path": "topics/company/ca-s-210.json",
-      "id": "topic:india:company-ca-s-210",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-211.json",
-      "id": "topic:india:company-ca-s-211",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-212.json",
-      "id": "topic:india:company-ca-s-212",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-213.json",
-      "id": "topic:india:company-ca-s-213",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-214.json",
-      "id": "topic:india:company-ca-s-214",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-215.json",
-      "id": "topic:india:company-ca-s-215",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-216.json",
-      "id": "topic:india:company-ca-s-216",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-217.json",
-      "id": "topic:india:company-ca-s-217",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-218.json",
-      "id": "topic:india:company-ca-s-218",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-219.json",
-      "id": "topic:india:company-ca-s-219",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
       "path": "topics/company/ca-s-22.json",
       "id": "topic:india:company-ca-s-22",
       "subject": "company",
@@ -24805,168 +24283,6 @@
       "type": "workflow-status",
       "severity": "medium",
       "message": "Migrated topic has status verification_in_progress; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-220.json",
-      "id": "topic:india:company-ca-s-220",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-221.json",
-      "id": "topic:india:company-ca-s-221",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-222.json",
-      "id": "topic:india:company-ca-s-222",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-223.json",
-      "id": "topic:india:company-ca-s-223",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-224.json",
-      "id": "topic:india:company-ca-s-224",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-225.json",
-      "id": "topic:india:company-ca-s-225",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-226.json",
-      "id": "topic:india:company-ca-s-226",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-227.json",
-      "id": "topic:india:company-ca-s-227",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-228.json",
-      "id": "topic:india:company-ca-s-228",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-229.json",
-      "id": "topic:india:company-ca-s-229",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-230.json",
-      "id": "topic:india:company-ca-s-230",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-231.json",
-      "id": "topic:india:company-ca-s-231",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-232.json",
-      "id": "topic:india:company-ca-s-232",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-233.json",
-      "id": "topic:india:company-ca-s-233",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-234.json",
-      "id": "topic:india:company-ca-s-234",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-235.json",
-      "id": "topic:india:company-ca-s-235",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-236.json",
-      "id": "topic:india:company-ca-s-236",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/company/ca-s-237.json",
-      "id": "topic:india:company-ca-s-237",
-      "subject": "company",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
       "evidence": ""
     },
     {
@@ -28566,7 +27882,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -28575,7 +27891,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {
@@ -28584,7 +27900,7 @@
       "subject": "contract",
       "type": "workflow-status",
       "severity": "medium",
-      "message": "Migrated topic has status source_check_required; review status is expected until legal verification.",
+      "message": "Migrated topic has status verified; review status is expected until legal verification.",
       "evidence": ""
     },
     {

@@ -1,22 +1,20 @@
 {
   "schemaVersion": "v1",
   "gate": "FV-013",
-  "snapshotId": "content-unknown",
+  "snapshotId": "content-63f6e8662451",
   "repository": "coolnaveen99/legal-content",
-  "contentRef": null,
-  "gitSha": null,
+  "contentRef": "main@63f6e8662451882f68e4f7a27dc538cb87dde981",
+  "gitSha": "63f6e8662451882f68e4f7a27dc538cb87dde981",
   "branch": "main",
   "manifest": {
     "path": "manifests/content-manifest.json",
-    "generatedAt": "2026-10-09T06:51:43.908Z",
-    "sha256": "ac06d80488a9f01869b4f8b52cd65873b86233523dc3b207108a3751bf70485f",
-    "entityCount": 4692
+    "generatedAt": "2026-10-12T07:24:41.591Z",
+    "sha256": "cf405e8792b8c4dc2630ee0d36e2c39be9e48b7d3c5c525e072df8d4df508714",
+    "entityCount": 5365
   },
-  "createdAt": "2026-10-09T06:54:35.262Z",
+  "createdAt": "2026-10-12T07:24:43.015Z",
   "rollbackRule": "Rollback by changing the consumer contentRef to the previous known-good git SHA; never rewrite published history.",
-  "status": "FAIL",
-  "errors": [
-    "Unable to determine repository commit SHA"
-  ],
+  "status": "PASS",
+  "errors": [],
   "warnings": []
 }
