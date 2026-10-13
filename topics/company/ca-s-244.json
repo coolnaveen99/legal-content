@@ -2,270 +2,195 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:company-ca-s-244",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 244 (Right to apply)",
+  "version": 2,
+  "status": "verification_in_progress",
+  "title": "Companies Act, 2013 — Section 244 (Right to apply under section 241)",
   "jurisdiction": "India",
   "content": {
-    "overview": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
-    "glance": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
-    "study": "Companies Act, 2013 — Section 244 (Right to apply). An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+    "overview": "Section 244 fixes who may apply to the Tribunal under section 241. In the case of a company having a share capital, the application may be made by not less than one hundred members or not less than one-tenth of the total number of members, whichever is less, or by any member or members holding not less than one-tenth of the issued share capital of the company. In the case of a company not having a share capital, the application may be made by not less than one-fifth of the total number of members. The Tribunal may, on an application, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241.",
+    "glance": "s. 241 standing: share-capital co — ≥100 members or ≥1/10 of members (whichever less), or members holding ≥1/10 of issued share capital; no share capital — ≥1/5 of members; Tribunal may waive.",
+    "study": "The following members of a company shall have the right to apply under section 241, namely: (a) in the case of a company having a share capital, not less than one hundred members of the company or not less than one-tenth of the total number of its members, whichever is less, or any member or members holding not less than one-tenth of the issued share capital of the company, provided that the applicant or applicants have paid all calls and other sums due on their shares; (b) in the case of a company not having a share capital, not less than one-fifth of the total number of its members. The Tribunal may, on an application made to it in this behalf, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241. Current-law framing: confirm company type (share capital or not); compute numerical or capital threshold; check calls paid where capital threshold is used; seek waiver if below threshold. Class-action standing under s. 245 has its own prescribed thresholds and is distinct.",
     "sections": [
       {
-        "heading": "Rule",
-        "body": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
+        "heading": "Share-Capital Company",
+        "body": "Not less than 100 members or not less than one-tenth of total members, whichever is less; or any member(s) holding not less than one-tenth of issued share capital (calls and other sums due must be paid).",
         "order": 1
       },
       {
-        "heading": "Explanation",
-        "body": "For a company without share capital the threshold is one-fifth of the members. The same numerical idea, with depositor thresholds, applies to a class action under section 245 as the section states. Waiver is discretionary and must be sought.",
+        "heading": "Company Without Share Capital",
+        "body": "Not less than one-fifth of the total number of members.",
         "order": 2
+      },
+      {
+        "heading": "Waiver",
+        "body": "Tribunal may waive all or any of the requirements so as to enable members to apply under s. 241.",
+        "order": 3
+      },
+      {
+        "heading": "Relationship to Class Action",
+        "body": "Standing for s. 241 is fixed here. Class-action standing under s. 245 is separate and prescribed by rules.",
+        "order": 4
       }
     ],
     "provisions": [
       {
-        "actId": "company",
-        "actName": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-        "provisionId": "company-ca-s-244",
-        "title": "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244)"
-      },
-      {
-        "actId": "bsa",
-        "actName": "Bharatiya Sakshya Adhiniyam, 2023",
-        "provisionId": "bsa-s-63",
-        "section": "s. 63",
-        "title": "Electronic records where applicable"
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-244",
+        "section": "Section 244",
+        "title": "Right to apply under section 241"
       }
     ],
     "examples": [
       {
-        "title": "Who may apply under sections 241 and 245",
-        "body": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement."
+        "title": "Capital threshold",
+        "body": "Three members together hold 12% of issued share capital and have paid all calls. They have standing under s. 244 to apply under s. 241 without needing 100 members.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Waiver",
+        "body": "A single minority member holds 3% and seeks to apply under s. 241. The Tribunal may, on application, waive the numerical and capital requirements under s. 244.",
+        "kind": "hypothetical",
+        "inventedCase": false
       }
     ],
     "hypotheticals": [
       {
-        "question": "Whether relief under Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244) is maintainable and what order should the competent forum pass.",
-        "analysis": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy."
+        "question": "Can one member with 2% of capital always apply under s. 241?",
+        "analysis": "Not as of right. Section 244 requires either the numerical threshold or not less than one-tenth of issued share capital. Below that, the member must obtain a Tribunal waiver under s. 244."
       }
     ],
     "distinctions": [
       {
-        "id": "ca-s-244-distinction",
-        "title": "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244) and connected legal concept",
-        "left": "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244)",
-        "right": "Companies Act s. 243 — Prevention of Oppression and Mismanagement provision; Companies Act s. 246 — Prevention of Oppression and Mismanagement provision",
+        "id": "ca-s244-vs-s241",
+        "title": "Right to apply (s. 244) vs application for relief (s. 241)",
+        "left": "Who may apply — numerical and capital thresholds; waiver",
+        "right": "Grounds — oppression, prejudice, material change",
         "rows": [
           {
-            "point": "Source",
-            "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-            "right": "Connected statute, doctrine or procedural route"
-          },
-          {
-            "point": "Trigger",
-            "left": "Its own mandatory ingredients",
-            "right": "Different facts or conditions"
-          },
-          {
-            "point": "Consequence",
-            "left": "Specific relief or legal result",
-            "right": "Do not import this topic's consequence automatically"
+            "point": "Focus",
+            "left": "Standing",
+            "right": "Cause of action"
           }
         ]
       }
     ],
     "misconceptions": [
       {
-        "id": "ca-s-244-trap-1",
-        "trap": "Treating Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244) as a heading-only topic.",
-        "correction": "A complete answer must state provenance, ingredients, evidence, forum, limitation, authority and relief."
-      },
-      {
-        "id": "ca-s-244-trap-2",
-        "trap": "Using a generic legal rule without naming the governing statute.",
-        "correction": "Always identify the named enactment or constitutional source: Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies."
-      },
-      {
-        "id": "ca-s-244-trap-3",
-        "trap": "Treating a relevant electronic record as automatically proved.",
-        "correction": "Relevance, admissibility, foundation, burden and weight remain separate questions under the BSA route."
+        "id": "ca-s244-trap-1",
+        "trap": "Any single shareholder can always file under s. 241 without more.",
+        "correction": "Section 244 imposes numerical or capital thresholds. Below threshold, the applicant must obtain a Tribunal waiver."
       }
     ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "A properly incorporated company was challenged as indistinct from its controlling shareholder.",
-        "issue": "What is the legal effect of incorporation?",
-        "ratioDecidendi": "A registered company is a legal person separate from its members, even when control and ownership are concentrated.",
-        "holding": "The company's separate personality was affirmed.",
-        "relevance": "Use for Companies Act s. 9 and corporate personality.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      },
-      {
-        "name": "Foss v. Harbottle",
-        "year": 1843,
-        "citation": "(1843) 2 Hare 461",
-        "court": "Court of Chancery",
-        "facts": "Shareholders sought relief for alleged wrongs to the company.",
-        "issue": "Who may sue for a wrong done to the company and when may exceptions apply?",
-        "ratioDecidendi": "The company is the proper plaintiff for corporate wrongs, subject to recognised exceptions such as fraud on the minority and ultra vires acts.",
-        "holding": "The proper-plaintiff and majority-rule principles were established.",
-        "relevance": "Use with oppression, mismanagement and class-action analysis.",
-        "judgmentId": "judgment:india:foss-v-harbottle-1843"
-      },
-      {
-        "name": "Needle Industries (India) Ltd. v. Needle Industries Newey (India) Holding Ltd.",
-        "year": 1981,
-        "citation": "(1981) 3 SCC 333",
-        "court": "Supreme Court of India",
-        "facts": "The Court examined share issue powers and alleged oppression.",
-        "issue": "When does a corporate action become oppressive or invalid?",
-        "ratioDecidendi": "The Court examines purpose, fairness, statutory power and resulting prejudice rather than treating every irregularity as oppression.",
-        "holding": "The corporate action was assessed under the statutory and equitable framework.",
-        "relevance": "Use for share allotment and oppression claims.",
-        "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
-      },
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "year": 1997,
-        "citation": "(1997) 1 SCC 579",
-        "court": "Supreme Court of India",
-        "facts": "The Court reviewed a scheme of arrangement sanctioned by the company court.",
-        "issue": "What is the court's role in sanctioning a corporate scheme?",
-        "ratioDecidendi": "The court must ensure statutory compliance, class fairness, informed approval and absence of illegality, but does not substitute its commercial judgment for the company's decision.",
-        "holding": "The principles governing scheme sanction were stated.",
-        "relevance": "Use for corporate arrangements and tribunal scrutiny.",
-        "judgmentId": "judgment:india:miheer-h-mafatlal-v-mafatlal-industries-ltd-1997"
-      }
-    ],
+    "cases": [],
     "questionsAndAnswers": [
       {
-        "question": "What is the current position on section 244?",
-        "answer": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement."
+        "id": "ca-s244-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 244 problem be analysed?",
+        "answer": "I. Confirm company type. II. Compute numerical or capital threshold. III. Check calls paid if capital path. IV. Seek waiver if needed. V. Conclude.",
+        "explanation": "IRAC."
+      },
+      {
+        "id": "ca-s244-sub",
+        "draftingCategory": "submissions",
+        "question": "What should submissions contain?",
+        "answer": "Membership facts; threshold calculation; waiver if sought; precise relief.",
+        "explanation": "Submissions."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
+      "Companies Act, 2013 — Section 244",
+      "Connected: Sections 241, 245"
     ],
     "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the IBC route."
+      "100 or 1/10 members (whichever less), or 1/10 issued capital.",
+      "No share capital: 1/5 of members.",
+      "Tribunal may waive.",
+      "Distinct from s. 245 class-action thresholds."
     ],
     "revisionPoints": [
-      "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement."
+      "Share-capital company",
+      "Company without share capital",
+      "Waiver",
+      "Relationship to class action"
     ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
-      }
-    ],
+    "relatedJudgments": [],
     "relatedTopics": [
-      "ca-s-245",
-      "ca-s-243",
-      "ca-s-246"
+      "company-ca-s-241",
+      "company-ca-s-245"
     ],
     "illustrations": [],
     "legacySubjectSlug": "company",
     "legacyTopicId": "ca-s-244",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
     "enhancement": {
       "version": "2",
       "status": "verification_in_progress",
       "coverage": "substantive-topic-specific-v1",
-      "definition": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
-      "legalPrinciple": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
-      "statutoryFramework": "Companies Act, 2013, section 244.",
+      "learningObjectives": [
+        "State the standing thresholds under s. 244.",
+        "Explain the Tribunal's waiver power."
+      ],
+      "definition": "Section 244 prescribes the numerical and share-capital thresholds for members to apply under section 241, and empowers the Tribunal to waive those requirements.",
+      "legalPrinciple": "Oppression and mismanagement applications require a minimum collective stake so that the Tribunal is not flooded by isolated grievances, subject to a fairness waiver.",
+      "statutoryFramework": "Companies Act, 2013, Section 244.",
       "essentialIngredients": [
-        "Who may apply under sections 241 and 245"
+        "Share-capital co: ≥100 or ≥1/10 members (whichever less), or ≥1/10 issued capital with calls paid",
+        "No share capital: ≥1/5 of members",
+        "Tribunal may waive requirements"
       ],
-      "detailedExplanation": "Companies Act, 2013 — Section 244 (Right to apply). An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement. The section applies only to the persons, companies, and transactions it names. A filing, approval, or penalty arises only where the section or a rule under it says so. It does not create a power that is reserved to another section or to the Tribunal. Not a verified closure.",
+      "detailedExplanation": "Section 244 is the standing gate for s. 241 applications.",
       "examples": [
-        "Who may apply under sections 241 and 245"
+        "Capital threshold",
+        "Waiver"
       ],
+      "problemApplication": "Compute threshold; apply or seek waiver.",
       "keyTakeaways": [
-        "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement."
+        "Numerical or capital threshold.",
+        "Waiver available.",
+        "Not class-action standing."
       ],
       "authoritativeSources": [
-        "Companies Act, 2013",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 244",
-          "citation": "Companies Act, 2013, section 244",
-          "point": "An application under section 241 may be made by one hundred members or one-tenth of the total number, whichever is less, or by members holding not less than one-tenth of the issued share capital, and the Tribunal may waive the requirement.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09-b4",
-      "rules": [
-        "No invented citations",
-        "Not marked verified"
+        "Companies Act, 2013, Section 244"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section-text level; case-law verification separate; no new citations invented.",
+        "date": "2026-10-13"
       },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      },
-      "learningObjectives": [
-        "State the rule recorded for Companies Act, 2013 — Section 244 (Right to apply).",
-        "Separate the recorded rule, conditions, exceptions and application."
-      ],
       "distinctions": [
-        {
-          "id": "ca-s-244-distinction",
-          "title": "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244) and connected legal concept",
-          "left": "Companies Act s. 244 — Prevention of Oppression and Mismanagement provision (Companies Act s. 244)",
-          "right": "Companies Act s. 243 — Prevention of Oppression and Mismanagement provision; Companies Act s. 246 — Prevention of Oppression and Mismanagement provision",
-          "rows": [
-            {
-              "point": "Source",
-              "left": "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-              "right": "Connected statute, doctrine or procedural route"
-            },
-            {
-              "point": "Trigger",
-              "left": "Its own mandatory ingredients",
-              "right": "Different facts or conditions"
-            },
-            {
-              "point": "Consequence",
-              "left": "Specific relief or legal result",
-              "right": "Do not import this topic's consequence automatically"
-            }
-          ]
-        }
+        "Right to apply (s. 244) vs application for relief (s. 241)"
       ],
-      "problemApplication": "1. Identify the issue and forum. 2. State the governing rule. 3. Apply every ingredient to the facts. 4. Test evidence and burden, including BSA s. 63 where relevant. 5. Answer the defence and formulate the exact remedy.",
-      "examAnswerStructure": "Identify the governing rule, ingredients, exceptions, forum or procedure, application to proved facts, authorities already recorded, and conclusion. Topic-specific legal verification remains required."
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "verification_required",
+      "examAnswerStructure": {
+        "tenMark": "Thresholds; waiver; conclude.",
+        "sixteenMark": "Introduction; share-capital; no capital; waiver; vs s. 245; application; conclusion."
+      },
+      "lastBotRunAt": "2026-10-13T16:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate",
+        "Coverage substantive-topic-specific-v1"
+      ],
+      "sourceFingerprint": "ca-s244-2026-10-13",
+      "exampleQuality": "topic-specific-v1"
     },
-    "caseLawGate": "standard-citations-added-not-locked"
+    "caseLawGate": "verification_required"
   },
   "sources": [],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "updatedAt": "2026-10-13T16:20:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
+    "company",
+    "companies-act-2013",
+    "section-244",
+    "right-to-apply"
   ]
 }
