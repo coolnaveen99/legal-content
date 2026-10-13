@@ -56,19 +56,30 @@ Evidence/commit:
 If any field cannot be established, STOP.
 
 
+## Company Law s. 108–109 focused remediation — 2026-10-13
+
+Subject: Company Law  
+Topic/section range: ca-s-108 and ca-s-109 only  
+Current main commit at claim: d1eb75da2531bf2326bfc010d9cd2b0667c0782a  
+Current status: IN_PROGRESS — not COMPLETE_LOCKED  
+Current owner: current-assistant-company-s108-s109  
+Latest evidence: docs/COMPANY-LAW-S108-S109-REMEDIATION-2026-10-13.md  
+Missing gate: authoritative PDF/source checksum, full Rule 20/exemption reconciliation (s. 108), case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
+Planned change: section-specific enhancement only; remove unrelated BSA/cases; align to official s. 108 and s. 109 text; do not mark verified/published  
+Validation: focused structural alignment to official text; no repository-wide validator run claimed  
+Evidence/commit: canonical topics `d8b1c0a3262f3203d6e5df912852589f7930996f`
+
+---
+
 ## Company Law s. 107 focused remediation — 2026-10-13
 
 Subject: Company Law  
 Topic/section range: ca-s-107 only  
-Current main commit at claim: 86deec1e68d89df264162d4f3d24a2c2d216e220  
 Current status: IN_PROGRESS — not COMPLETE_LOCKED  
 Current owner: current-assistant-company-s107  
 Latest evidence: docs/COMPANY-LAW-S107-REMEDIATION-2026-10-13.md  
-Missing gate: authoritative PDF/source checksum, full rule/exemption reconciliation, case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
-Planned change: section-specific enhancement only; remove unrelated BSA/cases; align to official s. 107 text; do not mark verified/published  
-Validation: focused structural alignment to official text; no repository-wide validator run claimed  
 Evidence/commit: canonical topic `46dafbc05fa3234f162bbd2f7c6996470d89688b`
 
 ---
 
-*(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes. This update records the s. 107 pass only.)*
+*(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes.)*
