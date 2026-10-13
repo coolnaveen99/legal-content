@@ -7,19 +7,28 @@
   "title": "Companies Act, 2013 — Section 114 (Ordinary and special resolutions)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 114 defines an ordinary resolution as a resolution passed by a simple majority of the votes cast. A special resolution needs votes in favour of not less than three times the votes cast against it, and the notice must specify the intention to propose it as a special resolution.",
-    "glance": "An ordinary resolution needs a simple majority of votes cast. A special resolution needs not less than three times the votes cast against it, and notice specifying the intention.",
-    "study": "## Statutory rule\nSection 114(1) says a resolution is an ordinary resolution if the notice required under the Act has been duly given and it is passed by a simple majority of the members voting, in person or by proxy where allowed.\n\nSection 114(2) says a resolution is a special resolution if the notice specified the intention to propose it as a special resolution, and the votes cast in favour are not less than three times the number of votes cast against it.\n\n## Answer structure\nCount votes cast, not members on the register. A special resolution also needs the intention in the notice. Not a verified closure.",
+    "overview": "Section 114 distinguishes ordinary resolutions from special resolutions by both notice and voting requirements.",
+    "glance": "Ordinary: valid votes in favour exceed votes against. Special: notice must specify the intention and votes in favour must be at least three times votes against.",
+    "study": "## Statutory framework\n\nSection 114 of the Companies Act, 2013 sets the voting test for ordinary and special resolutions. Read it with the meeting-notice requirements in section 101, explanatory statements under section 102 where applicable, and filing duties under section 117.\n\n## Ordinary resolution — section 114(1)\n\nThe notice required by the Act must have been duly given. Votes in favour must exceed votes against among members entitled to vote and voting. Do not calculate the majority from the total number of members on the register.\n\n## Special resolution — section 114(2)\n\nThe notice or other intimation given to members must specify the intention to propose the resolution as a special resolution; the notice required by the Act must be duly given; and votes in favour must be not less than three times the votes against. These conditions are cumulative. A strong vote cannot cure a defective notice.\n\n## Worked example\n\n100 valid votes for and 40 against meets the ordinary voting test but not the special-resolution ratio. 120 votes for and 40 against meets the 3:1 ratio exactly, provided the notice requirements and all other statutory requirements are satisfied.\n\n## Exam checklist\n\nIdentify the resolution and enabling provision; check notice and any explanatory statement; identify valid votes for and against; apply the correct threshold; and check whether section 117 filing is required.",
     "sections": [
       {
-        "heading": "Rule",
-        "body": "An ordinary resolution needs a simple majority of votes cast. A special resolution needs not less than three times the votes cast against it, and notice specifying the intention.",
-        "order": 1
+        "id": "ca-s-114-ordinary",
+        "title": "Ordinary resolution — s. 114(1)",
+        "order": 1,
+        "content": [
+          "The notice required by the Act must be duly given and valid votes in favour must exceed votes against among members entitled to vote and voting.",
+          "The comparison is between votes cast for and against, not the total number of members on the register."
+        ]
       },
       {
-        "heading": "Explanation",
-        "body": "Votes cast means votes in favour and against; abstentions do not enter the fraction. A special resolution must be identified as such in the notice. Many Act powers, including alteration of articles and reduction of capital, are reserved to a special resolution. Filing of stated resolutions is section 117.",
-        "order": 2
+        "id": "ca-s-114-special",
+        "title": "Special resolution — s. 114(2)",
+        "order": 2,
+        "content": [
+          "The notice or other intimation must specify the intention to propose the resolution as a special resolution.",
+          "Votes in favour must be at least three times votes against, in addition to compliance with the notice requirements.",
+          "A numerical majority cannot cure a missing special-resolution notice statement."
+        ]
       }
     ],
     "provisions": [
@@ -39,8 +48,16 @@
     ],
     "examples": [
       {
-        "title": "Ordinary and special resolutions",
-        "body": "An ordinary resolution needs a simple majority of votes cast. A special resolution needs not less than three times the votes cast against it, and notice specifying the intention."
+        "id": "s114-example-1",
+        "title": "Ordinary threshold only",
+        "description": "100 votes for and 40 against meets the ordinary voting test but fails the special-resolution ratio.",
+        "illustrationType": "practical"
+      },
+      {
+        "id": "s114-example-2",
+        "title": "Special-resolution ratio",
+        "description": "120 votes for and 40 against meets the 3:1 ratio, assuming valid notice and all other statutory conditions.",
+        "illustrationType": "practical"
       }
     ],
     "hypotheticals": [
@@ -143,22 +160,24 @@
     ],
     "questionsAndAnswers": [
       {
-        "question": "What does section 114 require?",
-        "answer": "An ordinary resolution needs a simple majority of votes cast. A special resolution needs not less than three times the votes cast against it, and notice specifying the intention."
+        "id": "s114-q1",
+        "draftingCategory": "brief",
+        "question": "Distinguish ordinary and special resolutions under section 114.",
+        "answer": "An ordinary resolution requires valid votes in favour to exceed votes against among members entitled to vote and voting, after due notice. A special resolution additionally requires that the notice or other intimation specify the intention to propose it as a special resolution and that votes in favour are at least three times votes against. The notice and voting tests are cumulative."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 114 — Management and Administration provision (Companies Act s. 114)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
+      "Companies Act, 2013, s. 114(1)–(2)",
+      "Companies Act, 2013, ss. 101–102 and 117"
     ],
     "examTips": [
-      "Name the section.",
-      "State the rule, then the exception.",
-      "Do not treat an omitted provision as current law."
+      "State both the notice and voting tests for a special resolution.",
+      "Use a numerical example and distinguish votes cast from total membership."
     ],
     "revisionPoints": [
-      "An ordinary resolution needs a simple majority of votes cast. A special resolution needs not less than three times the votes cast against it, and notice specifying the intention."
+      "Ordinary: votes in favour exceed votes against.",
+      "Special: intention stated in notice and votes in favour are at least three times votes against.",
+      "Notice compliance and voting threshold are cumulative."
     ],
     "relatedJudgments": [
       {
@@ -265,7 +284,7 @@
     "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [],
-  "updatedAt": "2026-10-10T02:15:00.000Z",
+  "updatedAt": "2026-10-13",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
