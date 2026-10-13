@@ -250,3 +250,8 @@ Change: corrected all three subsections, made examples/hypotheticals provision-s
 Evidence: canonical topic `f8466ebb876ad848f290ab536261d4bc2b477448`; illustration `9c9edc4519ce9b4f8056f18e52b9da6c8477655`; inventory `919982652a3c04f989a2b45edb44cbf7141b1594`; remediation note `71b8a9efb73f4373aa162e70c931f920c1d9c6d5`; app mirror `06d03fe92f03ec67fa4626e44963a7947ba3de91`.
 
 Status remains `review` / `SOURCE_CHECK_REQUIRED`. No verified/published flag was set. Remaining gates: authoritative binary/source review and current-law reconciliation, independent case-law review, full validation, SEO, production and legal sign-off. App deployment check was pending at the time of the app commit; recheck CI/deployment before claiming it is live.
+
+## Section 106 integration status update — 2026-10-13
+
+Focused JSON/TS-object checks passed for the canonical section 106 record and app mirror content. The app's `illustrationType` was corrected to the supported `practical` value in commit `e7fcaa4da1839bdc174f230dc463ee7c674b2626`; however, its Vercel deployment `dpl_5fQhcC4DFVBG8DEvyxmcfdCxURxR` ended in `ERROR` (`lint_or_type_error`, build exit 2). Vercel build-event/log access is denied to the connected scope (403), so exact diagnostics are unavailable. Do not claim the updated app mirror is live. Keep app integration open and request/retrieve exact compiler diagnostics through an authorized log path before making speculative changes.
+Canonical and illustration commits remain on `main`; topic status stays `review` / `SOURCE_CHECK_REQUIRED`, and legal verification/publication remain unauthorized.
