@@ -116,3 +116,30 @@ This follow-up records a fresh retrieval attempt through the available web docum
 ### Follow-up result
 
 The six original URLs remain unreviewable at the byte/checksum level in this environment. The NCLAT-hosted Act copy is a credible official-hosted replacement candidate, but this pass cannot record a checksum or claim a human review. Therefore the queue remains at **6 pending**, with `legalVerificationAuthorized=false` and `publicationAuthorized=false`. No legal verification status was changed.
+
+
+## Recheck — 2026-10-13
+
+Fresh validator run in this environment:
+
+- Status: `PASS WITH MANUAL REVIEW REQUIRED`
+- Pending: 6
+- Legal verification authorized: false
+- Publication authorized: false
+
+Current target results:
+
+- MCA private-company exemptions PDF: HTTP 403 HTML. `MANUAL_REVIEW_REQUIRED`.
+- 2016 India Code rules URL: timeout. `MANUAL_REVIEW_REQUIRED`.
+- 2018 MCA rules PDF: HTTP 403 HTML. `MANUAL_REVIEW_REQUIRED`.
+- 2022 and 2025 eGazette URLs: validator fetch failed in this environment (certificate path). A separate curl request returned HTTP 404 HTML. That is not treated as a closed review or as legal verification.
+- MCA Companies Act PDF: HTTP 403 HTML. `MANUAL_REVIEW_REQUIRED`.
+
+Alternate official-hosted copy inspected, not a closure of the MCA target:
+
+- URL: https://nclat.nic.in/sites/default/files/2022-04/the-companies-act-2013.pdf
+- HTTP 200, `%PDF-1.4`, 2,140,264 bytes
+- SHA-256: `ac1a0f48a071edec253997a48c136873fa55fea5a9a4d5b1d7bab2f9e117c4bc`
+- This does not prove byte identity with the inaccessible MCA URL, so the MCA queue item stays pending.
+
+No reviewer closure was recorded. No source was marked verified. Publication remains unauthorized.
