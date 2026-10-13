@@ -7,19 +7,27 @@
   "title": "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 116 treats a resolution passed at an adjourned meeting as passed on the date on which it was in fact passed, and not on any earlier date.",
-    "glance": "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed, not on an earlier date.",
-    "study": "## Statutory rule\nSection 116 provides that where a resolution is passed at an adjourned meeting of a company, the holders of any class of shares, the board, or the creditors, the resolution shall, for all purposes, be treated as having been passed on the date on which it was in fact passed, and shall not be deemed to have been passed on any earlier date.\n\n## Answer structure\nUse the date of the adjourned meeting for filings and for any time that runs from the resolution. Not a verified closure.",
+    "overview": "Section 116 fixes the date of a resolution passed at an adjourned meeting as the date on which it was actually passed.",
+    "glance": "A resolution passed at an adjourned meeting is treated as passed on its actual date, not an earlier date.",
+    "study": "## Statutory rule\n\nSection 116 provides that a resolution passed at an adjourned meeting of a company, holders of a class of shares, or the Board of Directors is treated for all purposes as passed on the date on which it was in fact passed. It is not backdated to the earlier meeting date.\n\n## Practical significance\n\nThe actual passing date may determine when a connected statutory filing period begins or when a corporate record must be updated. Where section 117 applies, calculate the filing period from the legally relevant passing date and check the current filing rules.\n\n## Limits\n\nSection 116 is a date rule. It does not validate a resolution that lacked notice, quorum, authority or the required voting majority, and it does not independently extend a filing deadline.\n\n## Example\n\nA meeting is adjourned on 10 June without passing a resolution. The resolution is passed at the adjourned meeting on 24 June. Section 116 treats 24 June as the date of passage.",
     "sections": [
       {
-        "heading": "Rule",
-        "body": "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed, not on an earlier date.",
-        "order": 1
+        "id": "s116-covered-meetings",
+        "title": "Meetings covered",
+        "order": 1,
+        "content": [
+          "The section covers an adjourned meeting of a company, holders of a class of shares, and the Board of Directors.",
+          "The resolution's actual passing date controls."
+        ]
       },
       {
-        "heading": "Explanation",
-        "body": "The section fixes the date for filing and for the running of any period that depends on the passing of the resolution. It does not validate a resolution passed without the required majority.",
-        "order": 2
+        "id": "s116-date",
+        "title": "Date and connected filings",
+        "order": 2,
+        "content": [
+          "Use the date on which the resolution was in fact passed, not the original meeting date.",
+          "Check any connected filing obligation under section 117 and applicable rules separately."
+        ]
       }
     ],
     "provisions": [
@@ -39,8 +47,16 @@
     ],
     "examples": [
       {
-        "title": "Adjourned meeting",
-        "body": "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed, not on an earlier date."
+        "id": "s116-example-1",
+        "title": "Actual date",
+        "description": "A meeting is adjourned on 10 June and a resolution is passed on 24 June at the adjourned meeting. The passing date under section 116 is 24 June.",
+        "illustrationType": "practical"
+      },
+      {
+        "id": "s116-example-2",
+        "title": "Validity defect",
+        "description": "A resolution passed on the adjourned date does not receive the required majority. Section 116 fixes the date but does not cure the voting defect.",
+        "illustrationType": "fail-scenario"
       }
     ],
     "hypotheticals": [
@@ -143,22 +159,24 @@
     ],
     "questionsAndAnswers": [
       {
-        "question": "What is the current position on section 116?",
-        "answer": "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed, not on an earlier date."
+        "id": "s116-q1",
+        "draftingCategory": "brief",
+        "question": "What is the effect of section 116?",
+        "answer": "A resolution passed at an adjourned meeting of a company, holders of a class of shares, or the Board is treated as passed on the date it was actually passed, not an earlier date. This may affect connected filing periods, but does not cure independent defects in notice, quorum, authority or voting."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013, rules, tribunal procedure and principles of corporate personality, fiduciary governance and shareholder remedies",
-      "Companies Act s. 116 — Management and Administration provision (Companies Act s. 116)",
-      "BSA s. 63 and ss. 104, 109 where relevant"
+      "Companies Act, 2013, s. 116",
+      "Companies Act, 2013, s. 117"
     ],
     "examTips": [
-      "Name the section.",
-      "If the section is omitted, say so and name the current law.",
-      "Separate penalty defaults from fraud."
+      "State the actual passing date and distinguish it from the original meeting date.",
+      "Explain that the section does not cure other validity defects."
     ],
     "revisionPoints": [
-      "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed, not on an earlier date."
+      "Section 116 is a date-of-passage rule.",
+      "The resolution is not backdated to the original meeting.",
+      "Connected filing deadlines must be checked separately."
     ],
     "relatedJudgments": [
       {
@@ -263,7 +281,7 @@
     "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [],
-  "updatedAt": "2026-10-10T02:15:00.000Z",
+  "updatedAt": "2026-10-13",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
