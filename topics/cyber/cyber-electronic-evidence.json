@@ -1,15 +1,15 @@
 {
   "schemaVersion": "v1",
   "entityType": "topic",
-  "id": "topic:india:cyber-cyber-electronic-evidence",
+  "id": "topic:india:cyber-electronic-evidence",
   "version": 2,
   "status": "verification_in_progress",
-  "title": "Electronic Evidence — BSA 2023 and IT Act Interface",
+  "title": "Electronic Evidence \u2014 BSA 2023 and IT Act Interface",
   "jurisdiction": "India",
   "content": {
     "overview": "Electronic records are admissible and proved under the Bharatiya Sakshya Adhiniyam, 2023. Section 63 BSA (corresponding to the former Evidence Act s. 65B framework) governs admissibility of electronic records, typically requiring a certificate as to the manner of production and device particulars where the statute so provides. The IT Act gives legal recognition to electronic records and digital signatures; proof of those records in court follows the BSA path. Admissibility is distinct from weight and from substantive liability under the IT Act.",
     "glance": "Ask: (1) Is the item an electronic record? (2) BSA s. 63 certificate/conditions met? (3) Relevance and authenticity separate from admissibility? (4) IT Act recognition vs BSA proof?",
-    "study": "Never treat a printout or log as automatically proved. Separate relevance, admissibility (BSA), authenticity and weight. IT Act recognition does not bypass BSA proof rules.\n\nNo new case invented. Anvar/Arjun Panditrao line is a verification item for the certificate requirement — not expanded as invented holdings here.",
+    "study": "Never treat a printout or log as automatically proved. Separate relevance, admissibility (BSA), authenticity and weight. IT Act recognition does not bypass BSA proof rules.\n\nNo new case invented. Anvar/Arjun Panditrao line is a verification item for the certificate requirement \u2014 not expanded as invented holdings here.",
     "sections": [
       {
         "heading": "Electronic record recognition",
@@ -18,7 +18,7 @@
       },
       {
         "heading": "BSA proof path",
-        "body": "BSA 2023 governs how electronic records are admitted and proved in evidence; s. 63 is the primary electronic-record provision — verify current certificate requirements from the official text.",
+        "body": "BSA 2023 governs how electronic records are admitted and proved in evidence; s. 63 is the primary electronic-record provision \u2014 verify current certificate requirements from the official text.",
         "order": 2
       },
       {
@@ -49,14 +49,14 @@
         "actId": "ita",
         "actName": "Information Technology Act, 2000",
         "provisionId": "ita-erec",
-        "section": "ss. 4–5",
+        "section": "ss. 4\u20135",
         "title": "Legal recognition of electronic records and signatures"
       }
     ],
     "examples": [
       {
         "title": "Server log",
-        "body": "Prosecution tenders a server log of unauthorised access — BSA s. 63 conditions and any required certificate must be addressed before the log is treated as proved electronic evidence.",
+        "body": "Prosecution tenders a server log of unauthorised access \u2014 BSA s. 63 conditions and any required certificate must be addressed before the log is treated as proved electronic evidence.",
         "kind": "hypothetical",
         "inventedCase": false
       }
@@ -108,7 +108,7 @@
     ],
     "bareActPointers": [
       "BSA 2023 s. 63",
-      "IT Act 2000 ss. 4–5"
+      "IT Act 2000 ss. 4\u20135"
     ],
     "examTips": [
       "Separate recognition from proof.",
@@ -117,7 +117,7 @@
     "revisionPoints": [
       "BSA s. 63",
       "Certificate",
-      "Admissibility ≠ weight"
+      "Admissibility \u2260 weight"
     ],
     "relatedJudgments": [],
     "relatedTopics": [
@@ -138,7 +138,7 @@
       ],
       "definition": "Electronic records are recognised under the IT Act and proved under BSA 2023, especially s. 63, with certificate conditions where required.",
       "legalPrinciple": "Statutory mode of proof for electronic records distinct from substantive cyber liability.",
-      "statutoryFramework": "BSA 2023 s. 63; IT Act 2000 ss. 4–5.",
+      "statutoryFramework": "BSA 2023 s. 63; IT Act 2000 ss. 4\u20135.",
       "essentialIngredients": [
         "Electronic record",
         "BSA conditions",
@@ -153,8 +153,8 @@
         "Recognition vs proof"
       ],
       "caseLawNotes": "No cases invented; certificate jurisprudence on verification gate.",
-      "tenMarkStructure": "Recognition → BSA → certificate → weight.",
-      "sixteenMarkStructure": "Recognition → BSA → certificate → weight → method → conclusion.",
+      "tenMarkStructure": "Recognition \u2192 BSA \u2192 certificate \u2192 weight.",
+      "sixteenMarkStructure": "Recognition \u2192 BSA \u2192 certificate \u2192 weight \u2192 method \u2192 conclusion.",
       "keyTakeaways": [
         "BSA controls proof",
         "Certificate matters"
@@ -167,7 +167,7 @@
       "lastVerifiedAt": null,
       "verificationNotes": "Substantive remediation 2026-10-08.",
       "caseLaw": [],
-      "examAnswerStructure": "Issue → governing rule → statutory elements → fact application → evidence → defence/exception → conclusion.",
+      "examAnswerStructure": "Issue \u2192 governing rule \u2192 statutory elements \u2192 fact application \u2192 evidence \u2192 defence/exception \u2192 conclusion.",
       "verification": {
         "lastVerifiedAt": null,
         "verifiedBy": null,
@@ -175,13 +175,16 @@
           "Substantive enhancement complete; legal verification/publication remains a separate gate."
         ]
       }
-    }
+    },
+    "canonicalIdAliases": [
+      "topic:india:cyber-cyber-electronic-evidence"
+    ]
   },
   "sources": [
     {
       "kind": "statute",
       "label": "BSA 2023 / IT Act 2000",
-      "citation": "s. 63 / ss. 4–5",
+      "citation": "s. 63 / ss. 4\u20135",
       "url": null,
       "notes": "Framework; no case holdings invented."
     }
