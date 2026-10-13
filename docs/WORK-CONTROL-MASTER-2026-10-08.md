@@ -238,3 +238,15 @@ Existing claim: issue #40 continuation, alternate-source triage only. This is an
 - **Current status:** IN_PROGRESS / BLOCKED on document-byte/checksum evidence; all six queue entries remain pending. Do not set reviewer/date, close a review, change legal-verification state, or authorize publication without the required evidence.
 - **Validation:** Documentation-only update. No application code changed; do not represent this as a new validator/test run. Previously recorded `npm run validate` and `npm run test:pdf-validation` passed in run `37960811839`, while the full workflow remained blocked by 4,299 missing-field errors across 3,678 topics in `validate:enhancements`.
 - **Next action:** Obtain the actual file bytes for each original URL or an explicitly accepted authoritative replacement, calculate SHA-256, record reviewer/date, identity and legibility/OCR evidence, then update the queue and rerun the validator. Until then, keep `pendingCount=6`, `legalVerificationAuthorized=false`, and `publicationAuthorized=false`.
+
+## Company Law section 106 focused remediation — 2026-10-13
+
+Scope: `topics/company/ca-s-106.json`, its two linked educational illustrations, and the app mirror `src/data/topics/company/ca-s-106.ts` only. This is a focused correction within the existing sections 106–109 remediation record, not a subject closure.
+
+Finding: the previous section 106 record misstated subsection (2) as a public-company-only restriction, omitted subsection (3)'s multi-vote rule from the explanation, and carried unrelated BSA material and unrelated corporate-law judgments into a provision-specific topic.
+
+Change: corrected all three subsections, made examples/hypotheticals provision-specific, removed unrelated case material, corrected the statutory label and linked the existing India Code Act source record. The official MCA-hosted Act text was located through indexed search content and section 106 wording checked; PDF bytes/checksum were not obtained.
+
+Evidence: canonical topic `f8466ebb876ad848f290ab536261d4bc2b477448`; illustration `9c9edc4519ce9b4f8056f18e52b9da6c8477655`; inventory `919982652a3c04f989a2b45edb44cbf7141b1594`; remediation note `71b8a9efb73f4373aa162e70c931f920c1d9c6d5`; app mirror `06d03fe92f03ec67fa4626e44963a7947ba3de91`.
+
+Status remains `review` / `SOURCE_CHECK_REQUIRED`. No verified/published flag was set. Remaining gates: authoritative binary/source review and current-law reconciliation, independent case-law review, full validation, SEO, production and legal sign-off. App deployment check was pending at the time of the app commit; recheck CI/deployment before claiming it is live.
