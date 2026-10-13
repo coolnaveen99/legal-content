@@ -56,17 +56,26 @@ Evidence/commit:
 If any field cannot be established, STOP.
 
 
+## Company Law s. 110 focused remediation — 2026-10-13
+
+Subject: Company Law  
+Topic/section range: ca-s-110 only  
+Current main commit at claim: 061f38ab7b77ab501139b8bee019eb16bb4f948b  
+Current status: IN_PROGRESS — not COMPLETE_LOCKED  
+Current owner: current-assistant-company-s110  
+Latest evidence: docs/COMPANY-LAW-S110-REMEDIATION-2026-10-13.md  
+Missing gate: authoritative PDF/source checksum, full Rule 22/notification reconciliation, case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
+Evidence/commit: canonical topic `809d126198ad886c57f626c3d915e39c40723f2e`
+
+---
+
 ## Company Law s. 108–109 focused remediation — 2026-10-13
 
 Subject: Company Law  
 Topic/section range: ca-s-108 and ca-s-109 only  
-Current main commit at claim: d1eb75da2531bf2326bfc010d9cd2b0667c0782a  
 Current status: IN_PROGRESS — not COMPLETE_LOCKED  
 Current owner: current-assistant-company-s108-s109  
 Latest evidence: docs/COMPANY-LAW-S108-S109-REMEDIATION-2026-10-13.md  
-Missing gate: authoritative PDF/source checksum, full Rule 20/exemption reconciliation (s. 108), case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
-Planned change: section-specific enhancement only; remove unrelated BSA/cases; align to official s. 108 and s. 109 text; do not mark verified/published  
-Validation: focused structural alignment to official text; no repository-wide validator run claimed  
 Evidence/commit: canonical topics `d8b1c0a3262f3203d6e5df912852589f7930996f`
 
 ---
