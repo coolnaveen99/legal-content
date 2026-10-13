@@ -12,3 +12,10 @@ Section 106 was rechecked against the section text exposed by the official MCA-h
 Evidence commits: canonical topic `f8466ebb876ad848f290ab536261d4bc2b477448`; illustration correction `9c9edc4519ce9b4f8056f18e52b9da6c8477655`; inventory update `919982652a3c04f989a2b45edb44cbf7141b1594`; app mirror `06d03fe92f03ec67fa4626e44963a7947ba3de91`.
 
 Validation boundary: focused source inspection and field-level JSON/TS structure checks only. The official PDF bytes/checksum were not obtained; current-law consolidation and case-law verification remain open. No status was changed to verified or published. Full legal-content validation and production deployment must still pass.
+
+
+## App integration check — 2026-10-13
+
+The canonical section 106 JSON and app mirror passed focused structural checks: three subsections present; subsection (2) not narrowed to public companies; unrelated BSA reference and unrelated cases removed; source ID attached; topic remains `review` / `SOURCE_CHECK_REQUIRED`. The app mirror's illustration type was corrected from unsupported `educational` to the declared `practical` union value in commit `e7fcaa4da1839bdc174f230dc463ee7c674b2626`.
+
+The resulting Vercel production-target deployment `dpl_5fQhcC4DFVBG8DEvyxmcfdCxURxR` nevertheless ended in `ERROR` (`lint_or_type_error`; `npm run build` exited 2). The connected Vercel API allows deployment metadata but denies build-event/log access for the selected team scope (403). Exact compiler diagnostics are therefore not available in this pass. Do not claim the updated app mirror is deployed; the section 106 canonical content correction is committed, while app integration remains blocked pending exact build diagnostics and a passing build.
