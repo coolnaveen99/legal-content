@@ -1,5 +1,21 @@
 # Work Control Master — Legal Content
 
+## Company Law s. 57 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — punishment for personation of shareholder  
+Topic/section range: `topics/company/ca-s-57.json` only  
+Current main topic blob SHA (before): `d8534771f07b213b72a206df8d6857c6401b8639`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s57-reverse`  
+Latest evidence: India Code PDF A2013-18 section 57 text; deceitful personation as owner of security/interest/share warrant/coupon; obtain or attempt; money due; imprisonment 1–3 years and fine ₹1–5 lakh  
+Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
+Planned change: source-supported additive correction only; preserve review status  
+Validation: focused statutory alignment to official text  
+Evidence/commit: section 57 correction committed as `dcf3a21c563d416b507a780b31d743ce20dbd4c9`. Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
+
+---
+
 ## Company Law s. 58 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
@@ -130,5 +146,6 @@ If any field cannot be established, STOP.
 - s.61: committed `78d33217591f433e429f6a37fc9aa5cb71ade856`.
 - s.60: committed — source-aligned to India Code PDF; status remains review.
 - s.59: committed — source-aligned to India Code PDF; status remains review.
-- s.58: this entry — source-aligned to India Code PDF; status remains review.
+- s.58: committed — source-aligned to India Code PDF; status remains review.
+- s.57: this entry — source-aligned to India Code PDF; status remains review.
 - Producer Company ranges 378A–378X: enhancement completed earlier; not COMPLETE_LOCKED.
