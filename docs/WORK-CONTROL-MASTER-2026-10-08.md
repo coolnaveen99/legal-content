@@ -520,4 +520,4 @@ Latest evidence: topic-specific content commits `12e852c19c` and `453d257ec1` al
 Missing gate: include the special procedure where an OPC has only one director: the director's resolution is entered in the section 118 minutes-book, signed and dated, and the date is deemed the Board-meeting date for purposes of the Act  
 Planned change: add subsection (4) accurately, preserve existing section 122 content and `review` status, and keep the legal-verification gate open  
 Validation: JSON parse, targeted subsection (4) assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text was checked for subsection (4); no case-law or legal sign-off is claimed.
+Evidence/commit: subsection (4) completeness correction committed as `1e166f521024a2a9c0c7afa2110fbd492463ad6a`. JSON parse and focused assertions passed; the sole-director Board-resolution minute-book procedure is now represented. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
