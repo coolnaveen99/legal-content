@@ -115,3 +115,7 @@ The official-PDF validator's technical outcome is separate from legal-source ver
 - For cross-repository legacy status reconciliation, follow `docs/LEGACY-WORK-ALIGNMENT-AUDIT.md`; preserve valid completed work and do not create a competing master queue.
 - For every roadmap/sprint meeting, read and follow `docs/SPRINT-MEETING-INSTRUCTIONS.md`. Record evidence, actual participants, decisions, dissent, blockers and non-overlapping action ownership. Do not invent consensus or metrics.
 - The Work Control Master remains the sole work-selection/ownership authority. Meeting records and historical reports are evidence, not independent task selectors.
+
+## 2026-10-14 PDF gate decision
+
+The PDF retrieval/manual-review queue is a technical diagnostic, not a universal prerequisite for legal verification. For each proposition, use direct authoritative evidence where accessible (official Gazette/legislation text, official HTML/text, or an approved official-hosted copy) and record the instrument identity, relevant provision, URL, review date, reviewer identity/role, and limitations. An accepted alternative can close the claim-level legal-source check without closing the original PDF technical item or proving byte identity. If evidence is insufficient, keep only the affected claim `SOURCE_CHECK_REQUIRED`/`BLOCKED`. Preserve the six pending queue entries, checksum-based closure safeguards, and `test:pdf-validation`; do not mark the queue passed or authorize publication based on this policy change.
