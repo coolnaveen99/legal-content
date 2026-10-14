@@ -726,4 +726,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: preserve statutory caps and notice requirements, and avoid treating closure as a substitute for other register duties  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 91 completeness correction committed as `43772cd13401a36d48093f22649a4078eeb39be4`. JSON parse and focused assertions passed; 45-day annual aggregate, 30-day single closure, notice/SEBI exception and ₹5,000/day penalty capped at ₹1,00,000 are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 90 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-90.json` only  
+Current main topic blob SHA: `34090b327a6654a63cca72a42d76bc835b6fbd22`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s90-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; inspect current significant-beneficial-owner declaration/investigation framework and its amended penalty language against official Act text and Rules  
+Missing gate: reconcile the statutory thresholds, declaration/reporting, Registrar filings, investigation powers, non-enforceability and current penalties without conflating section 89 beneficial-interest declarations with section 90 SBO obligations  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
