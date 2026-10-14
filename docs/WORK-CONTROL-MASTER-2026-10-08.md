@@ -1252,3 +1252,18 @@ Missing gate: distinguish refusal appeals under section 58 from rectification un
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 58 correction committed as `e53ee30a0b68803f07223f224842c61fb261a0f5`. JSON parse and focused assertions passed; private/public refusal appeal periods and no-notice alternatives are recorded. Current subsection (6) penalty and full source/case-law verification remain open; topic status remains `verification_in_progress`.
+
+
+## Company Law s. 57 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — rectification of register on transfer of securities  
+Topic/section range: `topics/company/ca-s-57.json` only  
+Current main topic blob SHA: `df03537c4ece58deaebdd7b1cdc091adebd08a52`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s57-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify transfer mechanics, transferee liability and interaction with section 56/58/59 against current text  
+Missing gate: distinguish rectification of register from transfer registration and avoid assuming a general limitation period not in the section  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
