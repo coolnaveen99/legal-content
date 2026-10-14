@@ -1071,4 +1071,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish section 70 restrictions from section 68 buy-back conditions and avoid adding unstated look-back periods  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 70 correction committed as `079a600c8f4bbe22ddd36bf4a2650282f7c733ff`. JSON parse and focused assertions passed; specified defaults, the cure-plus-three-year period and separate section 70(2) compliance bar are recorded; unrelated case-law/BSA boilerplate was removed. Topic status remains `review`; legal sign-off remains open.
+
+
+## Company Law s. 69 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — capital redemption reserve transfer rule  
+Topic/section range: `topics/company/ca-s-69.json` only  
+Current main topic blob SHA: `7040408b02f00f7b41704a2837bd04b630c2b86a`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s69-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the nominal-value transfer trigger, disclosure requirement and permitted use of the reserve against the current text  
+Missing gate: distinguish transfer from free reserves/securities premium on buy-back from other capital-redemption events; avoid suggesting the reserve is freely distributable  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
