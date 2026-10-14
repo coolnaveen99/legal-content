@@ -1131,4 +1131,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: distinguish capital reduction from buy-back and schemes; preserve creditor protection and statutory prohibitions on arrears  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 66 correction committed as `22d94940dec63f5aeaf0b6a9fedb7c4047e1680b`. JSON parse and focused assertions passed; corrected the false claim that unpaid-capital liability cannot be extinguished, and added the permitted forms, creditor protections and NCLT process. Topic status remains `review`; exact rules/forms/deadline and legal verification remain open.
+
+
+## Company Law s. 65 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — unlimited liability in limited company  
+Topic/section range: `topics/company/ca-s-65.json` only  
+Current main topic blob SHA: `43d9cbab6cc4eeeac22f298833e7a281ed4c1c9f`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s65-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify unanimous member consent, registration/notice, effective-date boundary, and limits on alteration against section 65 and current rules  
+Missing gate: distinguish unlimited-liability conversion from share-capital reduction and preserve member/creditor protections  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
