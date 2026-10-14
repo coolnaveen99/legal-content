@@ -56,6 +56,18 @@ Evidence/commit:
 If any field cannot be established, STOP.
 
 
+## Company Law s. 378I–378L Producer Company remediation — 2026-10-14
+
+Subject: Company Law  
+Topic/section range: ca-s-378i, ca-s-378j, ca-s-378k, ca-s-378l  
+Current status: ENHANCEMENT completed for this range — not COMPLETE_LOCKED  
+Current owner: current-assistant-company-s378i-s378l  
+Latest evidence: commits bde9f1d, 2dc75cc, 7cc80b6, 6f677d8  
+Missing gate: authoritative PDF/source checksum, case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
+Evidence/commit: titles corrected (378I Amendment of articles; 378J Option for inter-State co-ops; 378K Effect of incorporation; 378L Vesting); Salomon/Foss/BSA boilerplate removed
+
+---
+
 ## Company Law s. 378F–378H Producer Company remediation — 2026-10-14
 
 Subject: Company Law  
@@ -127,9 +139,6 @@ Evidence/commit: canonical topic `46dafbc05fa3234f162bbd2f7c6996470d89688b`
 
 ---
 
-*(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes.)*
-
-
 ## Company Law s. 138 JSON integrity regression — 2026-10-14
 
 Subject: Company Law  
@@ -142,3 +151,7 @@ Missing gate: valid JSON and passing canonical parity/integrity validation; stat
 Planned change: repair only the malformed JSON string delimiter in the `tags` array, preserving all topic data and `SOURCE_CHECK_REQUIRED` status  
 Validation: JSON parse plus fresh repository CI and parity gate  
 Evidence/commit: JSON syntax repaired in commit `5e0127bcdd4a86fe389e68d57193bb7f7fdc38d9`; `JSON.parse` passes on the updated topic. Fresh repository parity/integrity CI remains pending. Do not mark legal verification or topic completion.
+
+---
+
+*(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes.)*
