@@ -120,3 +120,20 @@ The 2026-10-09 roadmap sequencing is being followed in the sense that later stag
 **Rationale:** Pure identity-metadata restoration matching the established filename/subject convention used by all other topics. Aligns with the existing WCM metadata-repair claim for the five arbitration records; company 241/242 had no conflicting claim. No legal content invented. Mediation source blocker and PDF queue remain unchanged.
 
 **Remaining:** Strict mode still fails on constitution missing enhancement fields (expected, not in scope of this metadata fix). CI should now pass the enhancements step on next push.
+
+---
+
+## Post-audit remediation 2 (2026-10-14 ~14:55 IST)
+
+**Action taken:** Restored missing `content.legacyTopicId` and `content.legacySubjectSlug` on the 75 additional topics that caused `verify:fv011` to fail with “missing migrated identity”.
+
+**Subjects affected:** land (30), taxation (26), labour (15), ethics (4).
+
+**Validation after fix (local):**
+- `npm run verify:fv011` → exit 0
+- `npm run validate` → errors=0
+- `npm run validate:enhancements` → errors=0
+
+**Rationale:** Pure identity-metadata restoration. No statutory text, cases, status, relationships or provenance altered. Unblocks the next CI gate after the enhancements step.
+
+**Remaining CI gates:** verify:fv012 and later may still fail; not executed as blocking in this step. Strict enhancement mode remains open on constitution fields.
