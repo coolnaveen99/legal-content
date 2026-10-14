@@ -831,4 +831,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish appointment intimation from creation, modification or satisfaction filings and avoid invented deadlines/penalties  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 84 completeness correction committed as `a17992400bbb04891b753783ab43a30d65bdcc79`. JSON parse and focused assertions passed; appointment notice within thirty days, copy of order/instrument, Registrar recording and cessation notice are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 83 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-83.json` only  
+Current main topic blob SHA: `8d8266227e685dea6feaa9b2a7af2c78d8c0181e`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s83-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify Registrar's evidence threshold for satisfaction/release entries and thirty-day notice to affected parties  
+Missing gate: distinguish partial satisfaction/release from full satisfaction and avoid implying that the Registrar must rely only on company intimation  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
