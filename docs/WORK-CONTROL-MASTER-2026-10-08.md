@@ -636,4 +636,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: identify any omitted conditions or safeguards without broadening the Tribunal's power or inventing an applicant category  
 Planned change: make only source-supported correction; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 98 scope correction committed as `800860bd84407fa6801d6c7b3e02b6471fcffd9f`. JSON parse and focused assertions passed; the power is correctly limited to impracticable company meetings other than AGMs, eligible applicants, ancillary directions and deemed-validity effect are stated, and unrelated boilerplate is removed. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 97 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-97.json` only  
+Current main topic blob SHA: `962618c39b6c20430ed2090b0780a91eba4c0959`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s97-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; inspect Tribunal's power to call an AGM, application route, default threshold and order effect against official text  
+Missing gate: confirm statutory trigger and who may apply without broadening the remedy or inventing a period  
+Planned change: make only source-supported correction; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
