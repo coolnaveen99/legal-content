@@ -385,4 +385,19 @@ Latest evidence: section 378ZI requires a general reserve each financial year; w
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve the annual reserve duty and patronage-based contribution rule  
 Planned change: exact-topic cleanup only; no invented reserve percentage or financial rule  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZI cleanup committed as `8009d3a80cec4fc7b17540a905727dd5a8b6804a`. JSON parse and targeted contamination scan passed; annual reserve duty and patronage-based contribution are separated and unrelated cases removed. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZH reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zh.json` only  
+Current main topic blob SHA: `ffcec70488a3ed5d8884a1a623621df6c2714ac6`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zh-reverse`  
+Latest evidence: section 378ZH allows donation/subscription by special resolution for specified social/economic welfare or mutual-assistance purposes, with a three-per-cent net-profit cap and prohibition on political contributions/facilities  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve purpose restrictions, cap and political-contribution prohibition  
+Planned change: exact-topic cleanup only; no invented exceptions or broader donation powers  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
