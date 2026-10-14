@@ -128,3 +128,17 @@ Evidence/commit: canonical topic `46dafbc05fa3234f162bbd2f7c6996470d89688b`
 ---
 
 *(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes.)*
+
+
+## Company Law s. 138 JSON integrity regression — 2026-10-14
+
+Subject: Company Law  
+Topic/section range: `topics/company/ca-s-138.json` — JSON syntax repair only; no substantive legal-content change  
+Current main commit at claim: `f04aa1bfe4fa109007d4b0a9fc941f131c691f53`  
+Current status: review / SOURCE_CHECK_REQUIRED; not legally verified  
+Current owner: `current-assistant-ci-integrity-fix` (syntax-only regression)  
+Latest evidence: CI run `38508727683` failed `parity:legal-content-full` because the topic JSON contains malformed `tags` syntax; latest topic-specific commit `8a65999779805e8ef372f3c0bf2e031bfe5b577c`  
+Missing gate: valid JSON and passing canonical parity/integrity validation; statutory and case-law verification remain open  
+Planned change: repair only the malformed JSON string delimiter in the `tags` array, preserving all topic data and `SOURCE_CHECK_REQUIRED` status  
+Validation: JSON parse plus fresh repository CI and parity gate  
+Evidence/commit: claim recorded before editing; repair and validation evidence to be recorded after change. Do not mark legal verification or topic completion.
