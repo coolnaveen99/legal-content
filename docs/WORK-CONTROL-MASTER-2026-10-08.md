@@ -1371,4 +1371,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish acceptance of uncalled capital from calls due on shares and from the proportional-dividend rule in section 51  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 50 cleanup committed as `bc5eaf9e275563f109be95619f559f8296d7a61b`. JSON parse and focused assertions passed; articles authority and the no-voting rule until the amount becomes presently payable are explicit. Topic remains `verification_in_progress`; official source verification remains open.
+
+
+## Company Law s. 49 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — calls on shares of same class to be uniform  
+Topic/section range: `topics/company/ca-s-49.json` only  
+Current main topic blob SHA: `427cfbe71c388ed570076b07b9aa98e4b9368d94`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s49-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ce0655bfe9, ac7fbe5122; verify calls on same class, same-time payment terms and articles-based exception against current text  
+Missing gate: distinguish company calls from voluntary advance payment under section 50 and dividend proportion under section 51  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
