@@ -1341,4 +1341,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish mandatory write-offs from permitted applications and verify special exceptions for prescribed company classes  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 52 cleanup committed as `241b735985b595e175be2b0031dadebfb57dcc29`. JSON parse and focused assertions passed; restricted uses and subsection (3) class/accounting conditions are flagged; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; current subsection (3) rule details remain open.
+
+
+## Company Law s. 51 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — calls on shares of same class to be uniform  
+Topic/section range: `topics/company/ca-s-51.json` only  
+Current main topic blob SHA: `a1f7ed5a8ca31cc79bc8788217b15002d3f4c923`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s51-reverse`  
+Latest evidence: latest topic commits: 2d95a76d45, 3f7adf931a, cef238ab7b, ac7fbe5122; verify same-class call uniformity, permitted class distinctions and articles/issue-term exceptions against current text  
+Missing gate: distinguish calls on shares from issue price/discount and ensure exceptions are not broadened beyond the section  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
