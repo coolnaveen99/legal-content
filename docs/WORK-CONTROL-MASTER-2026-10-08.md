@@ -236,3 +236,18 @@ Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic c
 Planned change: section-scoped cleanup only; no invented cases or procedural detail  
 Validation: JSON parse, focused contamination assertions, repository integrity/verification gates  
 Evidence/commit: Section 378ZS cleanup committed as `57e19ba090e9646f20e3535f9c8a7f836200e905`. JSON parse and targeted contamination scan passed; section identity/status preserved and generic corporate cases/other-subject material removed. Section 378ZT cleanup committed as `2c41f8514d3971acbc6235be05da50fe9d21417e`; repository validation run `38510027532` failed at the existing corpus-wide FV-011 gate. Full repository validation is blocked; current-law case review and publication gates remain open.
+
+
+## Company Law s. 378ZR reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zr.json` only  
+Current main topic blob SHA: `fefe2959e2fe777c0925f6271292edc0e5fb8d21`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zr-reverse`  
+Latest evidence: official Companies Act text identifies section 378ZR as application of provisions relating to private companies to Producer Companies, subject to the Chapter's limitations and conflicts  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific tribunal hypotheticals; preserve the section's conflict qualification and review status  
+Planned change: exact-topic cleanup only; do not infer that all private-company provisions apply without the section's qualification  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
