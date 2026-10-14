@@ -1347,13 +1347,28 @@ Evidence/commit: section 52 cleanup committed as `241b735985b595e175be2b0031dade
 ## Company Law s. 51 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
-Enhancement: Final Content Quality Pass — calls on shares of same class to be uniform  
+Enhancement: Final Content Quality Pass — payment of dividend in proportion to amount paid-up  
 Topic/section range: `topics/company/ca-s-51.json` only  
 Current main topic blob SHA: `a1f7ed5a8ca31cc79bc8788217b15002d3f4c923`  
 Current status: `verification_in_progress`; legal-source verification not closed  
 Current owner: `current-assistant-company-s51-reverse`  
-Latest evidence: latest topic commits: 2d95a76d45, 3f7adf931a, cef238ab7b, ac7fbe5122; verify same-class call uniformity, permitted class distinctions and articles/issue-term exceptions against current text  
-Missing gate: distinguish calls on shares from issue price/discount and ensure exceptions are not broadened beyond the section  
+Latest evidence: latest topic commits: 2d95a76d45, 3f7adf931a, cef238ab7b, ac7fbe5122; verify articles authorisation and proportional dividend based on amount paid-up under section 51  
+Missing gate: distinguish optional proportional-dividend rule from any general rule on dividend distribution  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 51 cleanup committed as `1897c471214477653981ff0330cc3b45e81e1a0d`. JSON parse and focused assertions passed; the articles-authorisation trigger and paid-up amount calculation are explicit; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
+
+
+## Company Law s. 50 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — acceptance of uncalled share capital not yet called  
+Topic/section range: `topics/company/ca-s-50.json` only  
+Current main topic blob SHA: `421612a5d9cf986d615a2dcd40481cf2f8f12d8e`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s50-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify authority, advance payment treatment, interest and dividend entitlement under section 50 and current rules  
+Missing gate: distinguish acceptance of uncalled capital from calls due on shares and from the proportional-dividend rule in section 51  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
