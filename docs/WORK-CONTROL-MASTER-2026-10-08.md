@@ -235,4 +235,4 @@ Latest evidence: no section-specific remediation claim or open PR found; officia
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific remedy hypotheticals; preserve verified statutory requirements and review status  
 Planned change: section-scoped cleanup only; no invented cases or procedural detail  
 Validation: JSON parse, focused contamination assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation; section 378ZT validation pending and corpus-wide FV-011 remains a known blocker.
+Evidence/commit: Section 378ZS cleanup committed as `57e19ba090e9646f20e3535f9c8a7f836200e905`. JSON parse and targeted contamination scan passed; section identity/status preserved and generic corporate cases/other-subject material removed. Section 378ZT cleanup committed as `2c41f8514d3971acbc6235be05da50fe9d21417e`; repository validation run `38510027532` failed at the existing corpus-wide FV-011 gate. Full repository validation is blocked; current-law case review and publication gates remain open.
