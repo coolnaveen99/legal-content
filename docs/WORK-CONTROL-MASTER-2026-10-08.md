@@ -1461,4 +1461,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish share transferability from transfer registration requirements and restrictions in other provisions  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 44 cleanup committed as `24f54d392829d12b50b886911295414777730573`. JSON parse and focused assertions passed; movable-property/transferability rule retained and unrelated case boilerplate removed. Topic remains `verification_in_progress`; official source verification remains open.
+
+
+## Company Law s. 43 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — kinds of share capital  
+Topic/section range: `topics/company/ca-s-43.json` only  
+Current main topic blob SHA: `c6f4c95d1fac68ad5eaf66c0368e1a143ade7766`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s43-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 2a9aefcfc5; verify equity classes/voting or differential rights, preference capital and prescribed conditions/exception for prescribed company classes  
+Missing gate: distinguish share-capital classes from voting entitlements and current class-specific rules  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
