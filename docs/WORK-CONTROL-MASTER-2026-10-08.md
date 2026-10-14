@@ -1191,4 +1191,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f
 Missing gate: separate pro-rata rights issue from preferential allotment/private placement and verify current forms, valuation and offer periods  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 62 enhancement committed as `9657408737a42f30cdb562eb52bf2317de940446`. JSON parse and focused assertions passed; rights issue, renunciation, alternative routes and section 42 distinction are documented. Private-company shortened-period consent and current rule/valuation details remain open; topic status remains `verification_in_progress`.
+
+
+## Company Law s. 61 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — power of limited company to alter share capital  
+Topic/section range: `topics/company/ca-s-61.json` only  
+Current main topic blob SHA: `3b1e8f42ce613028fe5ba1494141e57507d609b1`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s61-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify permitted alterations, articles/ordinary-resolution authority, class-rights consequences and section 64 notice linkage against current text  
+Missing gate: distinguish alteration of authorised share capital from allotment/further issue and from reduction/buy-back  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
