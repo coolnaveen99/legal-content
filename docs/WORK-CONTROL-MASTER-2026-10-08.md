@@ -861,4 +861,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: preserve the distinction between the company's duty, Registrar process and the section 83 power to act without company intimation  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 82 completeness correction committed as `cbf763f4e224c0414fa7924c10e99a08a4771d48`. JSON parse and focused assertions passed; thirty-day/300-day periods, charge-holder show-cause notice, signed-intimation exception and section 83 distinction are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 81 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-81.json` only  
+Current main topic blob SHA: `5c5c4fadd9ee3fa5abfd539efb44d09d96f04647`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s81-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify Registrar's register of charges, required particulars, registration certificates, inspection and prescribed fees against official text  
+Missing gate: distinguish Registrar's register from company's internal register under section 85 and company filing duty under section 77  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
