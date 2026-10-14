@@ -621,4 +621,19 @@ Latest evidence: topic study currently says only that a penalty applies; officia
 Missing gate: state the actual penalty structure and covered triggers (sections 96–98 and Tribunal directions), without adding a cap absent from the text  
 Planned change: targeted penalty completeness correction; preserve review status and existing case references only if independently relevant  
 Validation: JSON parse, focused trigger/penalty assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text checked; legal sign-off is not claimed.
+Evidence/commit: section 99 penalty and contamination correction committed as `fd087e6635355383952694acec712c7d8f5e22c5`. JSON parse and focused assertions passed; the ₹1,00,000 base fine, ₹5,000/day continuing fine, specified triggers and responsible parties are recorded. Unrelated corporate case-law/BSA boilerplate was removed. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 98 reverse-order completeness — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-98.json` only  
+Current main topic blob SHA: `f7e58f3d79d5769560df5ba374bf0822f981a369`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s98-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the Tribunal's application threshold, who may apply, directions and deemed-validity effect against the official statutory text  
+Missing gate: identify any omitted conditions or safeguards without broadening the Tribunal's power or inventing an applicant category  
+Planned change: make only source-supported correction; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
