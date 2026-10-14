@@ -206,3 +206,18 @@ Missing gate: remove unrelated Companies Act s. 366 boilerplate, unrelated BSA s
 Planned change: section-scoped cleanup only; preserve `review` status and do not invent rules, cases, notifications, or closure  
 Validation: JSON parse, focused contamination assertions, relevant repository integrity checks if available  
 Evidence/commit: syntax and contamination assertions passed in the editing workflow; remediation committed as `65afd0768864aca895b85908fb5d3984b0a6cbee`. JSON parses, section identity/status preserved, and a targeted recursive scan found zero remaining references to the unrelated s. 366–368 boilerplate, BSA, or unrelated generic cases. Repository-wide validation, rule-by-rule current-law verification, case-law review, and publication gates remain open; no legal sign-off or publication claim.
+
+
+## Company Law s. 378ZT reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zt.json` only  
+Current main topic blob SHA: `b9b93778333b920db7d9824b206a6aa5d7493e3f`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zt-reverse`  
+Latest evidence: no section-specific remediation claim or open PR found; official Companies Act text identifies section 378ZT as power to modify the Act in its application to Producer Companies  
+Missing gate: remove unrelated Companies Act s. 366–368 boilerplate, unrelated BSA material, and generic corporate judgments/hypotheticals; retain only section-scoped explanation of the notification power and preserve review status  
+Planned change: exact-topic cleanup only; no invented notification or modification; do not mark legally verified  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation. The Section 378ZU change is committed as `65afd076`; both repository validation workflows fail at the existing corpus-wide FV-011 gate, so no repository-wide pass is claimed.
