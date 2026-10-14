@@ -1281,4 +1281,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9
 Missing gate: distinguish transfer from transmission, public-company free transferability and appeal under section 58; ensure current penalty amendments are used  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 56 correction committed as `d5b87ac72e791dd21305b2794c36d806bbb66dd6`. JSON parse and focused assertions passed; transfer/transmission distinction, 60-day instrument rule, partly-paid notice, certificate-delivery periods and legal-representative provision are stated. Current penalty wording and detailed rule-level exceptions remain open; topic status remains `verification_in_progress`.
+
+
+## Company Law s. 55 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — issue and redemption of preference shares  
+Topic/section range: `topics/company/ca-s-55.json` only  
+Current main topic blob SHA: `5b39b445b2a430541431128cee0acd3e6bfd5627`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s55-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify redeemability period, dividend/funding restrictions, redemption from profits/new issue, capital redemption reserve and non-compliance consequences against current Act/rules  
+Missing gate: distinguish preference-share redemption from section 69 buy-back reserve transfer and avoid unsupported redemption deadlines  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
