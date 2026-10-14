@@ -1,18 +1,21 @@
 # Work Control Master — Legal Content
 
-## Company Law s. 49–51 reverse-order verification — 2026-10-14
+## Company Law reverse-order verification — progress 2026-10-14
 
-- **s.51**: committed `c8d041cd195f2a74df30f979720934fded95e28b` — proportional dividend if articles authorise. Status: review.
-- **s.50**: committed `a618b2edfc412922247262158a8ee582fe805d02` — accept unpaid capital in advance; no voting until called up. Status: review.
-- **s.49**: committed `205a410e33ab98762fae13385d0fbe46e203b11d` — uniform calls; Explanation on class. Status: review.
+### Completed this session (status: review / SOURCE_CHECK_REQUIRED)
 
----
+| Section | Topic | Commit (approx) |
+|---------|-------|-----------------|
+| s.63 | Bonus shares | earlier |
+| s.62 | Further issue | in progress / evidence pending |
+| s.61–s.49 | Alter capital → uniform calls | multiple commits this session |
+| **s.48** | Variation of shareholders’ rights | `81d343453dc8cbb3610baaa30d6944b3158f2a5a` |
 
-## Company Law s. 52–61 reverse-order verification — 2026-10-14 (summary)
+### s.48 key alignment
+3/4 written consent or class SR; memo/articles or not prohibited by terms of issue; other-class 3/4 proviso; ≥10% dissenters’ 21-day Tribunal application; variation ineffective until confirmed; 30-day filing of order.
 
-- s.52–61: source-aligned earlier this session. Status: review.
-- s.62: in progress / evidence pending.
-- s.63: committed earlier. Status: review.
+### Next
+s.47 (Voting rights), s.46 (Certificate of shares), and continuing downward.
 
 ---
 
@@ -32,7 +35,7 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Active reverse-order Company Law verification continues (next: s. 48 or finish s. 62).
+Active reverse-order Company Law verification continues from s. 47 downward. s. 62 evidence still pending.
 
 ## Work claim record
 Subject:
