@@ -1,10 +1,10 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 8 — Judgment & Case-Law Deep Verification",
-  "generatedAt": "2026-10-14T09:37:09.575Z",
+  "generatedAt": "2026-10-14T09:43:06.373Z",
   "scope": {
-    "migratedTopics": 2108,
-    "caseRecords": 5824
+    "migratedTopics": 2107,
+    "caseRecords": 5821
   },
   "policy": [
     "Validates judgment metadata and case-analysis completeness against authoritative sources before publication.",
@@ -12,12 +12,12 @@
     "No topic is promoted to verified or published by this audit."
   ],
   "summary": {
-    "caseRecords": 5824,
-    "topicsWithCases": 2108,
-    "topicsWithFindings": 2086,
-    "totalFindings": 11080,
+    "caseRecords": 5821,
+    "topicsWithCases": 2107,
+    "topicsWithFindings": 2085,
+    "totalFindings": 11077,
     "highSeverity": 14,
-    "mediumSeverity": 11066
+    "mediumSeverity": 11063
   },
   "byType": {
     "missing-court": 1113,
@@ -25,7 +25,7 @@
     "missing-citation": 18,
     "implausible-year": 13,
     "known-case-metadata-risk": 1,
-    "duplicate-case-record": 5565
+    "duplicate-case-record": 5562
   },
   "findings": [
     {
@@ -44157,14 +44157,6 @@
       "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
     },
     {
-      "path": "topics/arbitration/aca-s-2.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "vidya drolia v. durga trading corporation|(2021) 2 scc 1"
-    },
-    {
       "path": "topics/arbitration/adr-governing-law.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -44461,14 +44453,6 @@
       "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
     },
     {
-      "path": "topics/arbitration/aca-s-2.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "perkins eastman architects dpc v. hscc (india) ltd.|(2020) 20 scc 760"
-    },
-    {
       "path": "topics/arbitration/adr-governing-law.json",
       "topic": "",
       "type": "duplicate-case-record",
@@ -44758,14 +44742,6 @@
     },
     {
       "path": "topics/arbitration/aca-s-1.json",
-      "topic": "",
-      "type": "duplicate-case-record",
-      "severity": "medium",
-      "message": "Same case name/citation appears in multiple migrated topic records; verify consistency before publication.",
-      "evidence": "afcons infrastructure ltd. v. cherian varkey construction co. (p) ltd.|(2010) 8 scc 24"
-    },
-    {
-      "path": "topics/arbitration/aca-s-2.json",
       "topic": "",
       "type": "duplicate-case-record",
       "severity": "medium",
