@@ -1,10 +1,10 @@
 # FV-013 Release Snapshot
 
-Snapshot: **content-5e75d7e9f891**
+Snapshot: **content-b827928a9b7b**
 Status: **PASS**
-Git SHA: 5e75d7e9f89125e2a6753dd298d3c16f1fa6b2c3
-Manifest SHA-256: f39cadd87ba8a10a79987ce6b2e2a72f3a78b011199601d0ce0e30a6680d633c
-Manifest generatedAt: 2026-10-14T10:13:52.637Z
+Git SHA: b827928a9b7bbfc4a35ea21341990d82398dbb5b
+Manifest SHA-256: 6564735c92b930cbc43d4f42b24e23ac056f34269bf9cedaf02b79be7cad1e85
+Manifest generatedAt: 2026-10-14T10:53:27.904Z
 Entity count: 9020
 
 ## Rollback contract
