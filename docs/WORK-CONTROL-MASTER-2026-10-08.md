@@ -325,4 +325,19 @@ Latest evidence: official Companies Act text identifies section 378ZM as penalti
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic relief hypotheticals; preserve exact offence conditions and penalties as stated  
 Planned change: section-specific cleanup only; no added penalties or unverified offence elements  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZM cleanup committed as `61cea2a65be8953c91b7dfbf94faaa7c72d673d9`. JSON parse and targeted contamination scan passed; section identity/status preserved, generic cases removed, and each penalty is tied to the corresponding subsection. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZL reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zl.json` only  
+Current main topic blob SHA: `08f5ddc88258045f214f8540afdf5976a41879d6`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zl-reverse`  
+Latest evidence: official Companies Act text sets out rules for reserves, investments, investment limits, special resolution/Central Government approval exceptions, disposal of investments and a member-inspectable register  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic remedies; preserve the section's investment caps, approval exceptions and register requirements  
+Planned change: exact-topic cleanup only; no unsupported financial or governance rules  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
