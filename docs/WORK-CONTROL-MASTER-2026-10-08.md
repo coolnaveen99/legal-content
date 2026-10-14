@@ -1,26 +1,25 @@
 # Work Control Master — Legal Content
 
-## Company Law s. 54 reverse-order verification — 2026-10-14
+## Company Law s. 53 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
-Enhancement: Final Content Quality Pass — issue of sweat equity shares  
-Topic/section range: `topics/company/ca-s-54.json` only  
-Current main topic blob SHA (before): `9ddde779eeab01a48c3ec815dc2681e2571b8c35`  
+Enhancement: Final Content Quality Pass — prohibition on issue of shares at a discount  
+Topic/section range: `topics/company/ca-s-53.json` only  
+Current main topic blob SHA (before): `174c0987003d4aaafc84a137060b723b56499f56`  
 Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s54-reverse`  
-Latest evidence: India Code PDF A2013-18 section 54; special resolution (a)–(b); listed SEBI / unlisted prescribed rules (d); clause (c) omitted w.e.f. 7-5-2018; pari passu ranking (s. 54(2)); definition s. 2(88)  
+Current owner: `current-assistant-company-s53-reverse`  
+Latest evidence: India Code PDF A2013-18 section 53; s. 53(1) prohibition except s. 54; s. 53(2) voidness; s. 53(2A) RBI debt-conversion exception; s. 53(3) penalty (amount raised or ₹5 lakh, whichever less) + refund with 12% p.a. interest  
 Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Evidence/commit: section 54 correction committed as `910d7eb49d6a18438b7c1d1ab9addd211d456ed3`. Status remains `review` / SOURCE_CHECK_REQUIRED.
+Evidence/commit: section 53 correction committed as `33dd2be2f7dbfac4286b535b78aa6b6c628ea835`. Status remains `review` / SOURCE_CHECK_REQUIRED.
 
 ---
 
-## Company Law s. 55–61 reverse-order verification — 2026-10-14 (summary)
+## Company Law s. 54–61 reverse-order verification — 2026-10-14 (summary)
 
+- s.54: committed `910d7eb49d6a18438b7c1d1ab9addd211d456ed3` — sweat equity; clause (c) omitted. Status: review.
 - s.55: committed `5e1f39a07b8281fafc09e1acc94fe023ed1231a3` — preference shares. Status: review.
 - s.56: committed `521b98e825b6d5148f2f19456e331a4a31a52aaf` — transfer and transmission. Status: review.
-- s.57: committed `dcf3a21c563d416b507a780b31d743ce20dbd4c9` — personation. Status: review.
-- s.58: committed `1b0036c5e9088e0cdca40077ee03683e68887729` — refusal of registration. Status: review.
-- s.59–61: source-aligned earlier. Status: review.
+- s.57–61: source-aligned earlier. Status: review.
 - s.62: in progress / evidence pending.
 - s.63: committed earlier. Status: review.
 
@@ -42,7 +41,7 @@ Evidence/commit: section 54 correction committed as `910d7eb49d6a18438b7c1d1ab9a
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Active reverse-order Company Law verification continues from the most recent completed section (next: s. 53 or finish s. 62).
+Active reverse-order Company Law verification continues from the most recent completed section (next: s. 52 or finish s. 62).
 
 ## Work claim record
 Subject:
