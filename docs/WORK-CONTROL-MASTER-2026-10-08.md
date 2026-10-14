@@ -1296,4 +1296,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish preference-share redemption from section 69 buy-back reserve transfer and avoid unsupported redemption deadlines  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 55 correction committed as `1163e2e1036f5cf5b3e1aeb0f672294dd12b7e9b`. JSON parse and focused assertions passed; infrastructure period caveat, permitted funding, CRR/premium rules and subsection (3) consent/Tribunal route are covered. Topic status remains `verification_in_progress`; prescribed infrastructure rules remain open.
+
+
+## Company Law s. 54 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — issue of sweat equity shares  
+Topic/section range: `topics/company/ca-s-54.json` only  
+Current main topic blob SHA: `30e73bf81d7ea728d00a9eeaad601d0c7924790b`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s54-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify special-resolution conditions, eligible directors/employees, valuation, lock-in, accounting treatment and current rules  
+Missing gate: distinguish sweat equity from employee stock options, bonus shares and prohibited issue at discount; verify current valuation/lock-in requirements  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
