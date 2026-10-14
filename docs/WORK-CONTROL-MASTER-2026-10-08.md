@@ -355,4 +355,19 @@ Latest evidence: section 378ZK concerns loans and advances to Members and includ
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic remedies; preserve the section's exact loan/advance restrictions and approval proviso  
 Planned change: exact-topic cleanup only; do not generalize exceptions or invent loan limits  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZK cleanup committed as `5063fe966ead1d6057cb01adc91150cc983264f3`. JSON parse and targeted contamination scan passed; credit facilities and loans/advances are distinguished and the director/relative approval proviso is preserved. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZJ reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zj.json` only  
+Current main topic blob SHA: `2d02dbe04a1ce8774f2240f4fa68faf365efb4dd`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zj-reverse`  
+Latest evidence: section 378ZJ permits issue of bonus shares upon Board recommendation and general-meeting resolution by capitalizing amounts from the general reserves in section 378ZI, proportionately to Members' shares on the issue date  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve Board recommendation, resolution, source reserve and proportionality requirements  
+Planned change: exact-topic cleanup only; no invented share-capital rules  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
