@@ -1251,4 +1251,4 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9
 Missing gate: distinguish refusal appeals under section 58 from rectification under section 59 and use current penalty provisions  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 58 correction committed as `e53ee30a0b68803f07223f224842c61fb261a0f5`. JSON parse and focused assertions passed; private/public refusal appeal periods and no-notice alternatives are recorded. Current subsection (6) penalty and full source/case-law verification remain open; topic status remains `verification_in_progress`.
