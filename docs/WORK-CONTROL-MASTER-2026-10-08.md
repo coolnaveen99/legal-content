@@ -251,3 +251,18 @@ Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic c
 Planned change: exact-topic cleanup only; do not infer that all private-company provisions apply without the section's qualification  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: Section 378ZR cleanup committed as `becc192930618c41b76a87ea78378d74d7bd0f23`. JSON parse and targeted contamination scan passed; section identity/status preserved and unrelated boilerplate/case-law material removed. Repository-wide validation, current-law review and publication gates remain open.
+
+
+## Company Law s. 378ZQ reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zq.json` only  
+Current main topic blob SHA: `d065b16293e78b90f2adca1374cd075ca0cf98b1`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zq-reverse`  
+Latest evidence: official Companies Act text identifies section 378ZQ as the provision giving Chapter XXIA effect notwithstanding inconsistent provisions elsewhere  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific tribunal hypotheticals; preserve the statute's inconsistency qualification  
+Planned change: exact-topic cleanup only; no invented case law or broad assertion that all other laws are displaced  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
