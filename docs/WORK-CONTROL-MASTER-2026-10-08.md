@@ -1432,3 +1432,18 @@ Missing gate: distinguish evidence-of-title effect from conclusiveness of every 
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 46 correction committed as `3a795bb7fbfb00bda316c01011dcad9a192fa7d2`. JSON parse and focused assertions passed; prima facie title evidence, duplicate safeguards and amended fraudulent-duplicate penalty are stated; unrelated case boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
+
+
+## Company Law s. 45 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — numbering of shares  
+Topic/section range: `topics/company/ca-s-45.json` only  
+Current main topic blob SHA: `6ab3be43b0abf19dfca78b4ae61c103f0519f46d`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s45-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify distinctive-number rule and depository exception against current text and rules  
+Missing gate: do not apply physical-share numbering requirement to dematerialised holdings where the statutory exception applies  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
