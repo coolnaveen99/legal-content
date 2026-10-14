@@ -9,22 +9,32 @@
   "content": {
     "overview": "Section 61 allows a limited company having a share capital, if so authorised by its articles, to alter its memorandum to increase authorised capital; consolidate and divide shares; convert fully paid shares into stock and reconvert; sub-divide shares; or cancel unissued shares. Certain alterations (e.g. consolidation or division that results in a change in voting percentage of shareholders) require Tribunal approval. Cancellation of unissued shares does not amount to a reduction of share capital under the Act.",
     "glance": "Articles-authorised alteration of capital: increase; consolidate/divide; convert to/from stock; sub-divide; cancel unissued; Tribunal approval where voting percentage changes; cancel ≠ reduction.",
-    "study": "A limited company having a share capital may, if so authorised by its articles, alter its memorandum in its general meeting to: increase its authorised share capital by such amount as it thinks expedient; consolidate and divide all or any of its share capital into shares of a larger amount than its existing shares; convert all or any of its fully paid-up shares into stock, and reconvert that stock into fully paid-up shares of any denomination; sub-divide its shares into shares of smaller amount than is fixed by the memorandum; or cancel shares which have not been taken or agreed to be taken and diminish the amount of its share capital by the amount of the shares so cancelled. Where consolidation or division results in a change in the voting percentage of shareholders, the alteration requires approval of the Tribunal. Cancellation under this section does not amount to a reduction of share capital within the meaning of the Act. Current-law framing: check articles authority; identify type of alteration; test Tribunal approval if voting percentage changes; note cancel ≠ reduction.",
+    "study": "Companies Act, 2013 — Section 61 (Power of limited company to alter its share capital). A limited company having share capital may, if authorised by its articles, alter its memorandum in general meeting to: (i) increase authorised share capital; (ii) consolidate and divide shares into shares of a larger amount; (iii) convert fully paid shares into stock and reconvert stock into fully paid shares of any denomination; (iv) sub-divide shares into shares of a smaller amount; or (v) cancel shares not taken or agreed to be taken and reduce the share capital by the amount cancelled. Where consolidation or division results in a change in voting percentage of shareholders, Tribunal approval is required. Cancellation of unissued shares under section 61 does not itself amount to reduction of share capital. A notice under section 64 may be required for specified alterations; check the separate filing trigger and deadline.",
     "sections": [
       {
-        "heading": "Authorised Alterations",
-        "body": "Increase authorised capital; consolidate and divide; convert fully paid shares into stock and reconvert; sub-divide; cancel unissued shares — if articles authorise.",
+        "heading": "Authority and general meeting",
+        "body": "A limited company having share capital may exercise section 61 only if authorised by its articles and by altering its memorandum in general meeting.",
         "order": 1
       },
       {
-        "heading": "Tribunal Approval",
-        "body": "Consolidation or division that changes the voting percentage of shareholders requires Tribunal approval.",
+        "heading": "Permitted alterations",
+        "body": "The listed alterations are: increase authorised share capital; consolidate and divide shares into larger-denomination shares; convert fully paid shares into stock and reconvert; sub-divide shares into smaller-denomination shares; or cancel shares not taken or agreed to be taken and reduce capital by the amount cancelled.",
         "order": 2
       },
       {
-        "heading": "Cancel Not Reduction",
-        "body": "Cancellation of unissued shares under s. 61 does not amount to a reduction of share capital under the Act.",
+        "heading": "Tribunal approval",
+        "body": "Consolidation or division that results in a change in voting percentage of shareholders requires Tribunal approval.",
         "order": 3
+      },
+      {
+        "heading": "Cancellation is not reduction",
+        "body": "Cancellation of shares not taken or agreed to be taken under section 61 does not itself amount to reduction of share capital under the Act.",
+        "order": 4
+      },
+      {
+        "heading": "Separate filing duty",
+        "body": "For events specified in section 64, the company must separately file the prescribed notice with the Registrar within 30 days. Check whether the particular alteration falls within section 64(1).",
+        "order": 5
       }
     ],
     "provisions": [
@@ -59,14 +69,19 @@
     "distinctions": [
       {
         "id": "ca-s61-vs-s66",
-        "title": "Alteration of capital (s. 61) vs reduction of capital (s. 66)",
-        "left": "Articles-based structural changes including cancel of unissued",
-        "right": "Court/Tribunal-supervised reduction of issued capital",
+        "title": "Alteration of capital and reduction of capital",
+        "left": "Section 61 covers specified structural alterations, including cancellation of shares not taken or agreed to be taken.",
+        "right": "Section 66 covers capital reduction by special resolution and NCLT confirmation.",
         "rows": [
           {
-            "point": "Focus",
-            "left": "Authorised/structural alteration",
-            "right": "Reduction of capital"
+            "point": "Authority",
+            "left": "Articles and general meeting; Tribunal for voting-percentage change",
+            "right": "Special resolution and NCLT confirmation"
+          },
+          {
+            "point": "Cancellation",
+            "left": "Unissued/unagreed shares; not a reduction",
+            "right": "Reduction of share capital under section 66"
           }
         ]
       }
@@ -78,56 +93,44 @@
         "correction": "Tribunal approval is required only where consolidation or division results in a change in voting percentage of shareholders."
       }
     ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
+    "cases": [],
     "questionsAndAnswers": [
       {
-        "id": "ca-s61-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 61 problem be analysed?",
-        "answer": "I. Check articles. II. Identify type of alteration. III. Test voting-percentage change for Tribunal. IV. Note cancel ≠ reduction. V. Conclude.",
-        "explanation": "IRAC."
+        "question": "Which capital alterations may a limited company make under section 61?",
+        "answer": "Increase authorised capital; consolidate/divide; convert fully paid shares into stock and reconvert; sub-divide; or cancel shares not taken or agreed to be taken."
       },
       {
-        "id": "ca-s61-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Articles; resolution; type of alteration; voting impact if any; precise relief.",
-        "explanation": "Submissions."
+        "question": "When does section 61 require Tribunal approval?",
+        "answer": "Where consolidation or division results in a change in voting percentage of shareholders."
+      },
+      {
+        "question": "Does cancellation of unissued shares under section 61 count as reduction?",
+        "answer": "No. Section 61 expressly distinguishes this cancellation from a reduction of share capital."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013 — Section 61",
-      "Connected: Sections 13, 64, 66"
+      "Companies Act, 2013, section 61 — Power of limited company to alter its share capital",
+      "Companies Act, 2013, section 64 — Notice to Registrar for specified alterations",
+      "Companies Act, 2013, section 66 — Reduction of share capital"
     ],
     "examTips": [
-      "List the five types of alteration.",
-      "Tribunal only if voting percentage changes.",
-      "Cancel of unissued ≠ reduction."
+      "Check articles and general-meeting action.",
+      "List the permitted alteration accurately.",
+      "Test voting-percentage change for Tribunal approval.",
+      "Distinguish cancellation of unissued shares from section 66 reduction; check section 64 filing."
     ],
     "revisionPoints": [
-      "Authorised alterations",
-      "Tribunal approval trigger",
-      "Cancel not reduction"
+      "Section 61 requires authority in the articles and action in general meeting.",
+      "Five categories of alteration are listed in the section.",
+      "Tribunal approval is required for consolidation/division that changes voting percentages.",
+      "Cancellation of shares not taken or agreed to be taken is not a section 66 reduction.",
+      "Check the separate section 64 notice duty."
     ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
+    "relatedJudgments": [],
     "relatedTopics": [
-      "company-ca-s-64",
-      "company-ca-s-66"
+      "ca-s-64",
+      "ca-s-66",
+      "ca-s-62"
     ],
     "illustrations": [],
     "legacySubjectSlug": "company",
@@ -142,26 +145,28 @@
         "State when Tribunal approval is required.",
         "Distinguish cancellation from reduction."
       ],
-      "definition": "Section 61 enables a limited company, if authorised by its articles, to alter its share capital by increase, consolidation/division, conversion to/from stock, sub-division, or cancellation of unissued shares, with Tribunal approval where voting percentages change.",
-      "legalPrinciple": "Structural capital changes short of reduction are largely articles- and shareholder-driven, with Tribunal oversight only where voting power is affected.",
-      "statutoryFramework": "Companies Act, 2013, Section 61.",
+      "definition": "Section 61 allows a limited company having a share capital, if so authorised by its articles, to alter its memorandum to increase authorised capital; consolidate and divide shares; convert fully paid shares into stock and reconvert; sub-divide shares; or cancel unissued shares. Certain alterations (e.g. consolidation or division that results in a change in voting percentage of shareholders) require Tribunal approval. Cancellation of unissued shares does not amount to a reduction of share capital under the Act.",
+      "legalPrinciple": "Section 61 allows a limited company having a share capital, if so authorised by its articles, to alter its memorandum to increase authorised capital; consolidate and divide shares; convert fully paid shares into stock and reconvert; sub-divide shares; or cancel unissued shares. Certain alterations (e.g. consolidation or division that results in a change in voting percentage of shareholders) require Tribunal approval. Cancellation of unissued shares does not amount to a reduction of share capital under the Act.",
+      "statutoryFramework": "Companies Act, 2013, section 61, read with sections 64 and 66.",
       "essentialIngredients": [
-        "Articles authorise",
-        "One of the listed alterations",
+        "Articles authorise and general meeting alters memorandum",
+        "One of the five listed alteration types",
         "Tribunal approval if consolidation/division changes voting percentage",
-        "Cancel of unissued does not equal reduction"
+        "Cancellation of unissued shares is not reduction",
+        "Separate section 64 notice where triggered"
       ],
-      "detailedExplanation": "Section 61 is the main statutory gateway for non-reduction capital alterations.",
+      "detailedExplanation": "Companies Act, 2013 — Section 61 (Power of limited company to alter its share capital). A limited company having share capital may, if authorised by its articles, alter its memorandum in general meeting to: (i) increase authorised share capital; (ii) consolidate and divide shares into shares of a larger amount; (iii) convert fully paid shares into stock and reconvert stock into fully paid shares of any denomination; (iv) sub-divide shares into shares of a smaller amount; or (v) cancel shares not taken or agreed to be taken and reduce the share capital by the amount cancelled. Where consolidation or division results in a change in voting percentage of shareholders, Tribunal approval is required. Cancellation of unissued shares under section 61 does not itself amount to reduction of share capital. A notice under section 64 may be required for specified alterations; check the separate filing trigger and deadline.",
       "examples": [
-        "Increase of authorised capital",
-        "Consolidation affecting voting"
+        "Articles authorise. The company in general meeting increases authorised capital. Section 61 is applied; no Tribunal approval needed for a pure increase.",
+        "Consolidation of shares would change voting percentages of shareholders. Tribunal approval is required under s. 61."
       ],
-      "problemApplication": "Check articles; classify alteration; test voting impact.",
+      "problemApplication": "Confirm articles authority, classify the alteration, test voting-percentage change, distinguish cancellation from reduction and check section 64 notice.",
       "keyTakeaways": [
-        "Articles required.",
-        "Five types of alteration.",
-        "Tribunal only for voting-percentage change.",
-        "Cancel ≠ reduction."
+        "Section 61 requires authority in the articles and action in general meeting.",
+        "Five categories of alteration are listed in the section.",
+        "Tribunal approval is required for consolidation/division that changes voting percentages.",
+        "Cancellation of shares not taken or agreed to be taken is not a section 66 reduction.",
+        "Check the separate section 64 notice duty."
       ],
       "authoritativeSources": [
         "Companies Act, 2013, Section 61",
@@ -169,28 +174,34 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "The listed alteration types and Tribunal trigger are recorded against the official Act text. Current filing details under section 64 and official PDF byte-level verification remain open.",
+        "date": "2026-10-14"
       },
       "distinctions": [
-        "Alteration of capital (s. 61) vs reduction of capital (s. 66)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
         {
-          "name": "Companies Act, 2013, section 61",
-          "citation": "Companies Act, 2013, section 61",
-          "point": "Section 61 allows a limited company having a share capital, if so authorised by its articles, to alter its memorandum to increase authorised capital; consolidate and divide shares; convert fully paid shares into stock and reconvert; sub-divide shares; or cancel unissued shares. Certain alterations (e.g. consolidation or division that results in a change in voting percentage of shareholders) require Tribunal approval. Cancellation of unissued shares does not amount to a reduction of share capital under the Act.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+          "id": "ca-s61-vs-s66",
+          "title": "Alteration of capital and reduction of capital",
+          "left": "Section 61 covers specified structural alterations, including cancellation of shares not taken or agreed to be taken.",
+          "right": "Section 66 covers capital reduction by special resolution and NCLT confirmation.",
+          "rows": [
+            {
+              "point": "Authority",
+              "left": "Articles and general meeting; Tribunal for voting-percentage change",
+              "right": "Special resolution and NCLT confirmation"
+            },
+            {
+              "point": "Cancellation",
+              "left": "Unissued/unagreed shares; not a reduction",
+              "right": "Reduction of share capital under section 66"
+            }
+          ]
         }
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Types; Tribunal trigger; cancel ≠ reduction; conclude.",
-        "sixteenMark": "Introduction; types; Tribunal; cancel vs reduction; application; conclusion."
-      },
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "section-specific-case-law-review-open",
+      "examAnswerStructure": "State authority and general-meeting requirement; list the relevant alteration; apply Tribunal trigger; distinguish section 66 reduction; address section 64 filing if applicable.",
       "lastBotRunAt": "2026-10-09T19:05:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
@@ -214,7 +225,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
