@@ -741,4 +741,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: reconcile the statutory thresholds, declaration/reporting, Registrar filings, investigation powers, non-enforceability and current penalties without conflating section 89 beneficial-interest declarations with section 90 SBO obligations  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 90 completeness correction committed as `0af3d827a68216f86bb0063334d23a61291cf4e2`. JSON parse and focused assertions passed; the 10% SBO test/rules reference, register/return/identification duties, current subsection (11) penalties and subsection (12) section 447 cross-reference are stated. Topic status remains `review`; official PDF checksum/byte-level review and legal sign-off remain open.
+
+
+## Company Law s. 89 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-89.json` only  
+Current main topic blob SHA: `2c47ba7d28a5d06f08a60ccc5c1b7f07d1d6d993`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s89-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify registered-holder/beneficial-owner declarations, company register/filing duties, deadlines and current penalty wording against official text  
+Missing gate: distinguish section 89 from the section 90 SBO regime and avoid using superseded penalty language  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
