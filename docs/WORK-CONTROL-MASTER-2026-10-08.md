@@ -1056,4 +1056,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: avoid presenting historical general reserve requirements as universal current obligations; distinguish listed/unlisted company rules and exempt categories  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 71 scope cleanup committed as `8d21838c41456d7cf74367a6a1052ce0c87283dc`. JSON parse and focused assertions passed; irrelevant cases were removed and redemption-reserve requirements are explicitly tied to current rules, categories, exemptions and issue date. Topic status remains `review`; rule-level and legal verification remain open.
+
+
+## Company Law s. 70 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — prohibition on buy-back in certain circumstances  
+Topic/section range: `topics/company/ca-s-70.json` only  
+Current main topic blob SHA: `e6958cedaccde46b0fc4337776c42764eb54d147`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s70-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify section 70's insolvency/repayment-default triggers, period, and statutory exceptions against current text  
+Missing gate: distinguish section 70 restrictions from section 68 buy-back conditions and avoid adding unstated look-back periods  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
