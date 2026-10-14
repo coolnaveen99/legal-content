@@ -78,39 +78,16 @@
         "correction": "Section 44 links transfer to the manner provided by the articles; statutory transfer rules still apply."
       }
     ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
+    "cases": [],
     "questionsAndAnswers": [
       {
-        "id": "ca-s44-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 44 problem be analysed?",
-        "answer": "I. Identify the interest. II. Apply movable-property characterisation. III. Apply articles and statutory transfer rules. IV. Conclude on effectiveness.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s44-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Nature of interest; articles/transfer procedure; any restrictions; precise relief.",
-        "explanation": "Submissions."
+        "question": "Does section 44 make every share transfer automatically effective against the company?",
+        "answer": "No. It characterises shares, debentures and member interests as movable property; transferability still follows the articles and the statutory transfer framework."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013 — Section 44",
-      "Connected: Sections 43, 56"
+      "Companies Act, 2013, section 44 — Nature of shares or debentures",
+      "Companies Act, 2013, section 56 — Transfer and transmission of securities"
     ],
     "examTips": [
       "State movable property + transfer per articles.",
@@ -121,9 +98,7 @@
       "Transferability per articles",
       "Restrictions survive"
     ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
+    "relatedJudgments": [],
     "relatedTopics": [
       "company-ca-s-43",
       "company-ca-s-56"
@@ -149,16 +124,16 @@
         "Movable property",
         "Transferable in manner provided by articles"
       ],
-      "detailedExplanation": "Section 44 is a short characterisation provision foundational to transfer analysis.",
+      "detailedExplanation": "The shares or debentures or other interest of any member in a company are movable property transferable in the manner provided by the articles of the company. The section establishes legal character (movable property) and points transfer procedure to the articles, read with the Act’s transfer provisions. It does not erase valid statutory, contractual or articles-based restrictions on transfer. Current-law framing: identify the interest; treat it as movable property; apply articles and statutory transfer rules for effectiveness against the company.",
       "examples": [
         "Share as movable property",
         "Debenture"
       ],
       "problemApplication": "Separate nature from procedure; apply articles and Act.",
       "keyTakeaways": [
-        "Movable property.",
-        "Transfer per articles.",
-        "Restrictions not erased."
+        "Movable property",
+        "Transferability per articles",
+        "Restrictions survive"
       ],
       "authoritativeSources": [
         "Companies Act, 2013, Section 44",
@@ -166,24 +141,28 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Core statutory rule retained; official PDF byte-level verification remains open.",
+        "date": "2026-10-14"
       },
       "distinctions": [
-        "Nature of shares (s. 44) vs transfer and transmission (s. 56)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
         {
-          "name": "Companies Act, 2013, section 44",
-          "citation": "Companies Act, 2013, section 44",
-          "point": "Section 44 provides that the shares, debentures or other interest of any member in a company shall be movable property transferable in the manner provided by the articles of the company.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+          "id": "ca-s44-vs-s56",
+          "title": "Nature of shares (s. 44) vs transfer and transmission (s. 56)",
+          "left": "Legal character and articles-based transferability",
+          "right": "Instrument of transfer, delivery and registration procedure",
+          "rows": [
+            {
+              "point": "Focus",
+              "left": "Property character",
+              "right": "Transfer mechanics"
+            }
+          ]
         }
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "section-specific-case-law-review-open",
       "examAnswerStructure": {
         "tenMark": "Movable property; transfer per articles; conclude.",
         "sixteenMark": "Introduction; character; transferability; restrictions; vs s. 56; application; conclusion."
@@ -211,7 +190,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
