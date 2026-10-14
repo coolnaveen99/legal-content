@@ -430,4 +430,19 @@ Latest evidence: official Companies Act text requires every Producer Company to 
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve auditor qualification and articles-based interval/manner  
 Planned change: exact-topic cleanup only; no invented audit frequency or scope  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZF cleanup committed as `b0987c77feba650c874af49a63afac73b1afe2d2`. JSON parse and targeted contamination scan passed; mandatory internal audit, articles-based interval/manner and auditor qualification are stated without inventing a universal frequency. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZE reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378ze.json` only  
+Current main topic blob SHA: `abf9f7c2d0940b31b206a2aa607c1cf5d252d5e4`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378ze-reverse`  
+Latest evidence: section 378ZE requires proper books of account at the registered office covering specified receipts/expenditure, sales/purchases, instruments of liability, assets/liabilities and cost particulars for relevant production/manufacturing businesses; financial statements are prepared as far as may be under section 129  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the specified books and section 129 relationship  
+Planned change: exact-topic cleanup only; do not invent accounting records or periods  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
