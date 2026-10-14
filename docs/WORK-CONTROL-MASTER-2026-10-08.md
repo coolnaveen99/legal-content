@@ -4,18 +4,20 @@
 
 ### Completed this session (status: review / SOURCE_CHECK_REQUIRED)
 
-| Section | Topic | Commit (approx) |
-|---------|-------|-----------------|
-| s.63 | Bonus shares | earlier |
-| s.62 | Further issue | in progress / evidence pending |
-| s.61–s.49 | Alter capital → uniform calls | multiple commits this session |
-| **s.48** | Variation of shareholders’ rights | `81d343453dc8cbb3610baaa30d6944b3158f2a5a` |
+**Share capital chapter (reverse order):**
 
-### s.48 key alignment
-3/4 written consent or class SR; memo/articles or not prohibited by terms of issue; other-class 3/4 proviso; ≥10% dissenters’ 21-day Tribunal application; variation ineffective until confirmed; 30-day filing of order.
+| Range | Status |
+|-------|--------|
+| s.63 | Done (review) |
+| s.62 | In progress / evidence pending |
+| **s.61 → s.46** | **Done (review)** — multiple direct main commits this session |
+
+### Latest commits this batch
+- s.47 Voting rights: `14d225cae15bde3f4baee802b104f4f77f6b5081`
+- s.46 Certificate of shares: `89d371b93ca1c161a86622a68b060c20aaaacf3f`
 
 ### Next
-s.47 (Voting rights), s.46 (Certificate of shares), and continuing downward.
+s.45 (Numbering of shares), s.44, s.43, then earlier chapters.
 
 ---
 
@@ -35,7 +37,7 @@ s.47 (Voting rights), s.46 (Certificate of shares), and continuing downward.
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Active reverse-order Company Law verification continues from s. 47 downward. s. 62 evidence still pending.
+Active reverse-order Company Law verification continues from s. 45 downward. s. 62 evidence still pending.
 
 ## Work claim record
 Subject:
