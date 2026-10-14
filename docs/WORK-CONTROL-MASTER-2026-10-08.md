@@ -460,4 +460,19 @@ Latest evidence: official Companies Act text sets restrictions on share transfer
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve each exception, nomination timing, nominee non-producer proviso and notice/hearing safeguard  
 Planned change: exact-topic cleanup only; no invented transferability rules  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZD cleanup committed as `37786c703268d2a842031e0cdaf0abd1ced2fe4d`. JSON parse and targeted contamination scan passed; transfer restrictions, nomination, nominee/non-producer rule and notice/hearing safeguard are preserved. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZC reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zc.json` only  
+Current main topic blob SHA: `215181c27d0dc3fcad968b4ec0d598e67e29982b`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zc-reverse`  
+Latest evidence: official Companies Act text permits special rights for active Members if provided by the articles; instruments issued for those rights are transferable to another active Member after Board approval, and “special right” is defined by reference to produce-related rights conferred by the Board  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve articles condition, active-Member status, Board approval and statutory definition  
+Planned change: exact-topic cleanup only; no invented rights beyond the section's definition  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
