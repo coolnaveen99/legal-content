@@ -370,4 +370,19 @@ Latest evidence: section 378ZJ permits issue of bonus shares upon Board recommen
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve Board recommendation, resolution, source reserve and proportionality requirements  
 Planned change: exact-topic cleanup only; no invented share-capital rules  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZJ cleanup committed as `ab7761a53f8e6630a1a6dc7a823ad7093aeb58fb`. JSON parse and targeted contamination scan passed; Board recommendation, general-meeting resolution, reserve source and issue-date proportionality are separated. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZI reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zi.json` only  
+Current main topic blob SHA: `ae438d0b9c94442a2479640b33ba43b47ae6569b`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zi-reverse`  
+Latest evidence: section 378ZI requires a general reserve each financial year; where funds are insufficient to maintain article-specified reserves, contribution is shared among Members in proportion to patronage in that year's business  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve the annual reserve duty and patronage-based contribution rule  
+Planned change: exact-topic cleanup only; no invented reserve percentage or financial rule  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
