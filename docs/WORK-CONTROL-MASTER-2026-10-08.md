@@ -56,6 +56,19 @@ Evidence/commit:
 If any field cannot be established, STOP.
 
 
+## Company Law s. 378A–378E Producer Company remediation — 2026-10-14
+
+Subject: Company Law  
+Topic/section range: ca-s-378a, ca-s-378b, ca-s-378c, ca-s-378d, ca-s-378e  
+Current main commit at claim: 6d91d14424656152b70f3611b80675cb75ef5c73 (post Chapter XXI close)  
+Current status: ENHANCEMENT completed for this range — not COMPLETE_LOCKED  
+Current owner: current-assistant-company-s378a-s378e  
+Latest evidence: commits 20ccd61, dec53ef, e59bde0, 44baba8, f9ee55b  
+Missing gate: authoritative PDF/source checksum, case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
+Evidence/commit: canonical topics updated on main 2026-10-14; titles for 378D/378E corrected to statutory headings; Salomon/Foss/BSA boilerplate removed
+
+---
+
 ## Company Law s. 111–113 focused remediation — 2026-10-13
 
 Subject: Company Law  
