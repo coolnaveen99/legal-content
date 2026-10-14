@@ -906,4 +906,4 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: state the precise incorporation/reference rule without suggesting that section 79 creates an independent charge-registration system  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 79 scope correction committed as `19dcbec1979d3647414de62b2b84ebf071b2d9fd`. JSON parse and focused assertions passed; section 77 is applied so far as may be to charged-property acquisition and registered-charge modification. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
