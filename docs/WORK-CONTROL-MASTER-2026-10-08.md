@@ -490,4 +490,19 @@ Latest evidence: official Companies Act text states that a Producer Company's sh
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the equity-only rule and patronage qualification  
 Planned change: exact-topic cleanup only; do not invent share classes or fixed patronage ratios  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZB cleanup committed as `c1581551796185e8a82275ca96e4b2ebd537456f`. JSON parse and targeted contamination scan passed; equity-only share capital and the separate qualified patronage principle are preserved. Existing `verification_in_progress` status remains unchanged. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZA reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378za.json` only  
+Current main topic blob SHA: `5fb196d9c4c9026d4be9a7303138dd7d78f2cd0d`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378za-reverse`  
+Latest evidence: official Companies Act text contains the annual general meeting requirements for Producer Companies, including meeting notice, quorum, filings and Board-report information  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the section's meeting timing, notice, quorum, Board report, member requisition and filing requirements without inventing extensions or deadlines  
+Planned change: exact-topic cleanup only after inspecting the section's current text and official source  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
