@@ -966,4 +966,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish section 76 eligibility from section 73 general deposit rules and the separate section 76A offence/penalty  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 76 completeness correction committed as `b43183c137912aeeb177ec32633a0aee2cc193f1`. JSON parse and focused assertions passed; eligibility thresholds, prior resolution/Registrar filing and section 76A distinction are stated. Topic status remains `review`; official PDF checksum/byte-level review and rule-level verification remain open.
+
+
+## Company Law s. 75 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-75.json` only  
+Current main topic blob SHA: `78b2a9bc6d92f61b07ba82e3dc1fda6bdedd8e92`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s75-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify section 74 repayment failure, fraudulent intent/purpose, responsible-officer liability and loss/damages scope against official text  
+Missing gate: distinguish personal civil liability under section 75 from the criminal penalty in section 76A and general fraud provision section 447  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
