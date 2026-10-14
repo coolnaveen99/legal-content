@@ -580,4 +580,19 @@ Latest evidence: latest topic commits: 85166107ce, 14e6e57837, 627518fc8e, 54c56
 Missing gate: confirm current statutory requirements and any amended penalty language; do not infer that minutes are conclusive evidence or invent meeting-record duties  
 Planned change: make only source-supported corrections and preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 118 completeness correction committed as `fb31a327e50f3c7145b06f792930b84d1af04e1d`. JSON parse and focused assertions passed; evidentiary presumption, publication restriction, default penalties and tampering punishment are represented. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 117 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-117.json` only  
+Current main topic blob SHA: `f5c4fcb6aa8e73d8bb54d6160c6d703cb9a695bc`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s117-reverse`  
+Latest evidence: latest topic commits: 3bec4ea9be, 70c8437aa1, 627518fc8e, 54c56c7ef2; verify filing scope, deadline, exceptions and current penalty against the official Companies Act text and applicable rules  
+Missing gate: identify any concrete omission without inventing a deadline, fee, or penalty  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
