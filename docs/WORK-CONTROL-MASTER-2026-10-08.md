@@ -681,4 +681,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: ensure the topic does not overstate evidentiary effect beyond matters required or authorized to be inserted in the registers/returns  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 95 scope correction committed as `e1f21d688f7ddd76ed8bd8c0db8ad591101eb5b4`. JSON parse and focused assertions passed; prima facie effect is distinguished from conclusive proof and unrelated case-law/BSA boilerplate was removed. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 94 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-94.json` only  
+Current main topic blob SHA: `aa7bccbd0f15bef2200dae21a45db00479a73558`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s94-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify where registers/returns are kept, inspection rights, annual-meeting availability, electronic form and current penalty against official text  
+Missing gate: ensure the topic states the exact entitlement, timing and remedy without conflating member and public inspection rights  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
