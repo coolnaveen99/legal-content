@@ -1206,4 +1206,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish alteration of authorised share capital from allotment/further issue and from reduction/buy-back  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 61 cleanup committed as `8d22b0447ebd43d983c782b4e680a47b18781ad5`. JSON parse and focused assertions passed; alteration types, Tribunal trigger, cancellation/reduction distinction and section 64 notice linkage are explicit. Topic status remains `verification_in_progress`; full legal/source verification remains open.
+
+
+## Company Law s. 60 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — certificate of registration of alteration of share capital  
+Topic/section range: `topics/company/ca-s-60.json` only  
+Current main topic blob SHA: `c0295f199f90653a2a258a8b506890f4a858775d`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s60-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify increase beyond registered capital, Registrar notice/recording and certificate effect against current text and section 64 procedure  
+Missing gate: distinguish the certificate/recording mechanism from the underlying alteration power and subsequent notice duty  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
