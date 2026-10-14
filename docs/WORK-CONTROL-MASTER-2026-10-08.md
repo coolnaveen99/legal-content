@@ -1176,4 +1176,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: ensure bonus shares are fully paid and not issued in lieu of dividend; check current rule/form and capitalisation source restrictions  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 63 correction committed as `dfc17bda33a1dd6d5a514f1d4606f7d3ab1a7003`. JSON parse and focused assertions passed; permitted sources, revaluation-reserve exclusion, approval/default conditions and no-bonus-in-lieu-of-dividend rule are stated. Topic status remains `review`; current rule-level verification remains open.
+
+
+## Company Law s. 62 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — further issue of share capital  
+Topic/section range: `topics/company/ca-s-62.json` only  
+Current main topic blob SHA: `b2bc3a825e89ef05139400cdebbb8a80ba3ed464`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s62-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f018c6; verify rights offer, notice/renunciation period, private placement/preferential issue routes, employee stock option exception and current penalty/valuation rules  
+Missing gate: separate pro-rata rights issue from preferential allotment/private placement and verify current forms, valuation and offer periods  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
