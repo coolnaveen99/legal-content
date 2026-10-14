@@ -1446,4 +1446,4 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: do not apply physical-share numbering requirement to dematerialised holdings where the statutory exception applies  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 45 cleanup committed as `364e54fd3c546e4a8c3788a14ba1aa3409150ee6`. JSON parse and focused assertions passed; distinctive-number rule and depository-record exception are explicit; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; official source verification remains open.
