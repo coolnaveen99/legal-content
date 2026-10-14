@@ -907,3 +907,18 @@ Missing gate: state the precise incorporation/reference rule without suggesting 
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 79 scope correction committed as `19dcbec1979d3647414de62b2b84ebf071b2d9fd`. JSON parse and focused assertions passed; section 77 is applied so far as may be to charged-property acquisition and registered-charge modification. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 93 omission-status correction — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — omitted-provision status clarity  
+Topic/section range: `topics/company/ca-s-93.json` only  
+Current main topic blob SHA: `b39d6aa1c4901fb6f070635d6af17cd73ca3bdea`  
+Current status: `review`; the provision is omitted and is not an operative filing duty  
+Current owner: `current-assistant-company-s93-omission`  
+Latest evidence: current topic title identifies section 93 as omitted but its study field still carries generic “Not a verified closure” text  
+Missing gate: record the omission instrument/effective date and distinguish historical section 93 from the current section 90 SBO regime  
+Planned change: metadata/content clarity only; do not restore the omitted obligation  
+Validation: JSON parse and assertions for omission instrument/effective date; preserve topic status  
+Evidence/commit: to be recorded after implementation.
