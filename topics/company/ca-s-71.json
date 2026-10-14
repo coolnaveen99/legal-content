@@ -9,7 +9,7 @@
   "content": {
     "overview": "Section 71 regulates issue of debentures, security, the debenture trustee, the debenture redemption reserve where applicable, and remedies on default.",
     "glance": "Section 71 regulates issue of debentures, security, the debenture trustee, the debenture redemption reserve where applicable, and remedies on default.",
-    "study": "A company may issue debentures with an option to convert, subject to the special-resolution and approval conditions in the section. An unsecured debenture issue to the public is constrained; secured debentures generally require creation of a charge and appointment of a debenture trustee. The trustee protects holders and may enforce security. Debentures do not ordinarily carry voting rights. Amounts are to be transferred to a debenture redemption reserve where the section and rules still require it; later rule changes on the reserve must be checked for the issue date. On failure to redeem or pay interest, the Tribunal may order redemption and, in a qualifying case, direct commencement of the insolvency process as the section provides. A contract to subscribe is specifically enforceable.",
+    "study": "Companies Act, 2013 — Section 71 (Debentures). Section 71 addresses convertible debentures, restrictions on voting rights, secured debentures and trustees, remedies for failure to redeem debentures or pay interest, and specific enforcement of a contract to take up and pay for debentures. Any debenture redemption reserve requirement must be determined from the current Act and applicable rules, including the company/instrument category, exemptions and issue date; do not assume a universal percentage. Current rule-level and case-law review remains open.",
     "sections": [
       {
         "heading": "Ingredient 1",
@@ -44,9 +44,10 @@
     ],
     "provisions": [
       {
-        "act": "Companies Act, 2013",
-        "section": "71",
-        "note": "Debentures"
+        "actId": "company",
+        "actName": "Companies Act, 2013",
+        "provisionId": "company-ca-s-71",
+        "title": "Companies Act, 2013 — Section 71: Debentures"
       }
     ],
     "examples": [
@@ -61,9 +62,12 @@
     ],
     "hypotheticals": [
       {
-        "facts": "A plain debenture holder does not vote as a member merely by holding the debenture.",
-        "issue": "Debentures",
-        "analysis": "Section 71 regulates issue of debentures, security, the debenture trustee, the debenture redemption reserve where applicable, and remedies on default."
+        "question": "Must every company maintain a debenture redemption reserve at the same percentage?",
+        "analysis": "No universal percentage should be assumed. Check the current applicable rules, company and instrument category, exemptions and issue date."
+      },
+      {
+        "question": "A company fails to redeem debentures at maturity. What must be analysed?",
+        "analysis": "Establish the maturity/default facts and apply the precise Tribunal powers and conditions in the current text of section 71."
       }
     ],
     "distinctions": [
@@ -71,8 +75,14 @@
     ],
     "misconceptions": [
       {
-        "trap": "Generic chapter summary is enough.",
-        "correction": "Section 71 regulates issue of debentures, security, the debenture trustee, the debenture redemption reserve where applicable, and remedies on default."
+        "id": "ca-s-71-trap-1",
+        "trap": "Assuming every debenture issue has the same redemption-reserve requirement.",
+        "correction": "Determine the requirement under current rules, category and applicable exemptions."
+      },
+      {
+        "id": "ca-s-71-trap-2",
+        "trap": "Treating a debenture holder as a voting member merely because the holder is a creditor.",
+        "correction": "A debenture does not by itself make its holder a member with voting rights."
       }
     ],
     "cases": [],
@@ -126,7 +136,7 @@
         "Redemption reserve and filing duties as prescribed",
         "Remedy before the Tribunal on default"
       ],
-      "detailedExplanation": "A company may issue debentures with an option to convert, subject to the special-resolution and approval conditions in the section. An unsecured debenture issue to the public is constrained; secured debentures generally require creation of a charge and appointment of a debenture trustee. The trustee protects holders and may enforce security. Debentures do not ordinarily carry voting rights. Amounts are to be transferred to a debenture redemption reserve where the section and rules still require it; later rule changes on the reserve must be checked for the issue date. On failure to redeem or pay interest, the Tribunal may order redemption and, in a qualifying case, direct commencement of the insolvency process as the section provides. A contract to subscribe is specifically enforceable.",
+      "detailedExplanation": "Companies Act, 2013 — Section 71 (Debentures). Section 71 addresses convertible debentures, restrictions on voting rights, secured debentures and trustees, remedies for failure to redeem debentures or pay interest, and specific enforcement of a contract to take up and pay for debentures. Any debenture redemption reserve requirement must be determined from the current Act and applicable rules, including the company/instrument category, exemptions and issue date; do not assume a universal percentage. Current rule-level and case-law review remains open.",
       "examples": [
         "Voting",
         "Default"
@@ -147,13 +157,7 @@
         "A debenture is a debt instrument under s. 71. A share is part of capital under ss 43-44. A deposit under ss 73-76 is a different acceptance-of-money regime."
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 71",
-          "citation": "Statutory debenture rule",
-          "point": "A debenture is a document evidencing a debt. A secured debenture creates a charge that must also be registered under the charge chapter. This entry is a statutory pointer, not a judgment."
-        }
-      ],
+      "caseLaw": [],
       "caseLawGate": "standard-citations-added-not-locked",
       "examAnswerStructure": {
         "tenMark": "Section, rule, exception, conclusion.",
@@ -170,9 +174,9 @@
       "sourceFingerprint": "ca-s-71-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Current rule-level requirements/exemptions, amendment dates, official PDF byte-level review and case-law verification remain open; do not mark verified.",
+        "date": "2026-10-14"
       },
       "indiaCode": {
         "act": "Companies Act, 2013 (Act 18 of 2013)",
@@ -185,7 +189,7 @@
     "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
