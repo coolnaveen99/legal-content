@@ -1326,4 +1326,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish prohibited discount issue from section 54 sweat equity and other lawful issue pricing/consideration routes  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 53 correction committed as `361b8457f973f840d36d2ef0185465433c90abfc`. JSON parse and focused assertions passed; both statutory exceptions, voidness, current penalty cap and refund with 12% annual interest are recorded. Topic remains `verification_in_progress`; official PDF byte-level review remains open.
+
+
+## Company Law s. 52 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — application of securities premium account  
+Topic/section range: `topics/company/ca-s-52.json` only  
+Current main topic blob SHA: `c3fdf340de1f4e772386c63e71ff616bbe1df5c0`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s52-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify mandatory uses of premium, permitted uses, class-of-company exceptions, bonus-share/revaluation restrictions and current rules  
+Missing gate: distinguish mandatory write-offs from permitted applications and verify special exceptions for prescribed company classes  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
