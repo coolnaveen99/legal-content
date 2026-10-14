@@ -1041,4 +1041,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish nomination from testamentary succession and avoid asserting that nomination conclusively determines beneficial ownership absent authority  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 72 nomination-scope cleanup committed as `dd35d6c1e29a30bffbd289170706b95ef1be6449`. JSON parse and focused assertions passed; unrelated cases/BSA boilerplate was removed, nomination formalities and minor/joint-holder issues are covered, and succession/beneficial-ownership conclusions remain gated on binding authority. Topic status remains `review`; rule-level and judgment verification remain open.
+
+
+## Company Law s. 71 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — debenture redemption reserve statutory completeness  
+Topic/section range: `topics/company/ca-s-71.json` only  
+Current main topic blob SHA: `917a492e54fe7d75dfafbc5808c23ff78109e484`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s71-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify current applicability/thresholds for debenture redemption reserve, eligible instruments, exemptions and investments against amended Act and rules  
+Missing gate: avoid presenting historical general reserve requirements as universal current obligations; distinguish listed/unlisted company rules and exempt categories  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
