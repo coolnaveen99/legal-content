@@ -756,4 +756,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish section 89 from the section 90 SBO regime and avoid using superseded penalty language  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 89 completeness correction committed as `5817d58f668aa2214f442889b83b73f3e3fa4509`. JSON parse and focused assertions passed; thirty-day declarations/changes and company filing, non-enforceability and dividend provisions are now stated. Topic status remains `review`; subsection (7) penalty amendment treatment and official PDF checksum review remain open.
+
+
+## Company Law s. 88 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-88.json` only  
+Current main topic blob SHA: `f2c9f496b335ed317da142f57e90d672577e600b`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s88-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify register categories, prescribed maintenance, foreign register and inspection links, and current penalty treatment against the Act/rules  
+Missing gate: correct any conflation between section 88 registers, section 89 declarations and section 90 SBO register without inventing entries or filing periods  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
