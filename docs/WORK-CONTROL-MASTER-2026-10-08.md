@@ -1416,4 +1416,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish voting rights from class-rights variation under section 48 and dividend proportion under section 51  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 47 correction committed as `02d5f41ff91a878d02698484e8f915c45ebf2ce6`. JSON parse and focused assertions passed; equity poll voting, preference-share limits and the two-year dividend-arrears trigger are stated. Topic remains `verification_in_progress`; official source verification remains open.
+
+
+## Company Law s. 46 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — share certificates and duplicate certificates  
+Topic/section range: `topics/company/ca-s-46.json` only  
+Current main topic blob SHA: `be1959bae1daad45e7ecfc5f9f55c539799c8472`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s46-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify evidence-of-title effect, certificate issuance deadlines, duplicate-certificate safeguards and current fraud penalty under section 46(5)  
+Missing gate: distinguish evidence-of-title effect from conclusiveness of every underlying ownership dispute; verify duplicate issue conditions and current penalty  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
