@@ -711,4 +711,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: ensure the topic uses current penalty language and does not retain superseded fine/imprisonment provisions  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 92 current-penalty correction committed as `697c167eed45f6441bdf0220f188ab2ca0a13091`. JSON parse and focused assertions passed; current company/officer non-filing penalties, caps, certification penalty and no-AGM deadline are recorded. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 91 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-91.json` only  
+Current main topic blob SHA: `81ad5bd61a681043c4a104e8305e4977b20b2f81`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s91-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify closure period, aggregate annual limit, notice and any current penalty against official text and applicable rules  
+Missing gate: preserve statutory caps and notice requirements, and avoid treating closure as a substitute for other register duties  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
