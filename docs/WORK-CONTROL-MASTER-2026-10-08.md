@@ -221,3 +221,18 @@ Missing gate: remove unrelated Companies Act s. 366–368 boilerplate, unrelated
 Planned change: exact-topic cleanup only; no invented notification or modification; do not mark legally verified  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: Section 378ZU remediation committed as `65afd0768864aca895b85908fb5d3984b0a6cbee`; Section 378ZT remediation committed as `2c41f8514d3971acbc6235be05da50fe9d21417e`. Both files parse as JSON; targeted recursive scans found zero remaining references to unrelated s. 366–368 boilerplate, BSA, or generic corporate cases. Section 378ZU repository validation run `38509949582` and full validation run `38509949584` both failed at the existing corpus-wide FV-011 gate; this is not a pass and no legal verification or publication claim is made. Section 378ZT repository-wide validation is pending.
+
+
+## Company Law s. 378ZS reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zs.json` only  
+Current main topic blob SHA: `ce86b426fb86fd534abd329ec54125e938534bfe`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zs-reverse`  
+Latest evidence: no section-specific remediation claim or open PR found; official Companies Act text identifies s. 378ZS as re-conversion of a Producer Company to an inter-State co-operative society and sets out application, voting/creditor and Tribunal requirements  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific remedy hypotheticals; preserve verified statutory requirements and review status  
+Planned change: section-scoped cleanup only; no invented cases or procedural detail  
+Validation: JSON parse, focused contamination assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation; section 378ZT validation pending and corpus-wide FV-011 remains a known blocker.
