@@ -1266,4 +1266,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish personation of an existing security owner under section 57 from fictitious-name applications under section 38  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 57 review has begun; current topic states deceitful personation, successful/attempted acquisition or receipt of money, and the 1–3 year imprisonment/₹1–5 lakh fine range. Next edit will remove unrelated case/drafting boilerplate; topic remains `verification_in_progress`.
+Evidence/commit: section 57 cleanup committed as `32c4d94f1a08c5ca17655ab713f432112a5e2745`. JSON parse and focused assertions passed; offence elements and statutory punishment range are stated, unrelated case/drafting boilerplate removed, and section 38 is distinguished. Topic remains `verification_in_progress`; official PDF and case-law verification remain open.
+
+
+## Company Law s. 56 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — transfer and transmission of securities  
+Topic/section range: `topics/company/ca-s-56.json` only  
+Current main topic blob SHA: `d1329e5486e6657fb788617d7fcbcf8e5d617a35`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s56-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9f3abf; verify instrument/form and 60-day delivery rule, partly-paid transfer notice, certificate-delivery deadlines, demat exception, legal-representative transfer and current penalties  
+Missing gate: distinguish transfer from transmission, public-company free transferability and appeal under section 58; ensure current penalty amendments are used  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
