@@ -1311,4 +1311,4 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish sweat equity from employee stock options, bonus shares and prohibited issue at discount; verify current valuation/lock-in requirements  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 54 cleanup committed as `5bda64fa96f8f0616bae173c75bbdefe9065fc49`. JSON parse and focused assertions passed; qualifying purpose, recipient, resolution particulars, one-year condition and rule-level review gates are explicit. Topic remains `verification_in_progress`; current valuation/limit/lock-in rules remain open.
