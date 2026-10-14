@@ -445,4 +445,19 @@ Latest evidence: section 378ZE requires proper books of account at the registere
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the specified books and section 129 relationship  
 Planned change: exact-topic cleanup only; do not invent accounting records or periods  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZE cleanup committed as `a091f510492cf00cd8dbcef6ee78ca4099b2e6b1`. JSON parse and targeted contamination scan passed; statutory record categories and section 129 financial-statement relationship are preserved. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZD reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zd.json` only  
+Current main topic blob SHA: `71ed1c5d0b813cfe7f1b7daf2341f6cac900898f`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zd-reverse`  
+Latest evidence: official Companies Act text sets restrictions on share transfer, transfer to active Members with prior Board approval, nomination within three months, nominee rights on death, and surrender on specified loss of qualification subject to notice/hearing  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve each exception, nomination timing, nominee non-producer proviso and notice/hearing safeguard  
+Planned change: exact-topic cleanup only; no invented transferability rules  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
