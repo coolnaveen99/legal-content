@@ -1116,4 +1116,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: distinguish financial assistance restrictions from section 68 buy-back and avoid treating all private-company assistance as prohibited  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 67 scope cleanup committed as `d695e3a8229a887ff582ad8c23377684bb550ccb`. JSON parse and focused assertions passed; generic case-law/BSA boilerplate was removed, and exceptions/private-company notifications are explicitly gated on their precise conditions. Topic status remains `review`; official subsection and notification verification remain open.
+
+
+## Company Law s. 66 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — reduction of share capital  
+Topic/section range: `topics/company/ca-s-66.json` only  
+Current main topic blob SHA: `beb67155a53c761a0a7d6a653dad57b979d495d5`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s66-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify special-resolution trigger, Tribunal confirmation, creditor protection, accounting treatment, auditor certificate, notice/objections and restrictions against current text/rules  
+Missing gate: distinguish capital reduction from buy-back and schemes; preserve creditor protection and statutory prohibitions on arrears  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
