@@ -607,3 +607,18 @@ Evidence/commit: section 117 current-penalty correction committed as `2bfbcf7606
 **Skipped as already enhanced/owned:** `378ZA` (existing `company-bulk-remediation-2026-10-14-s378za` owner/content pass), `378Z` and `378Y` (recent section-specific commits), and sections `378` and `377` (recent `373–378` remediation). Existing ownership/verification claims for `378X` through `378A` were respected.
 
 **Validation status:** every changed JSON topic passed JSON parsing and focused assertions in the editing workflow; topic statuses were preserved as `review` or `verification_in_progress`. Latest repository runs on head `5780416b3c1918ed52db2f15f7c13e87a761751d` failed at the corpus-wide FV-011 gate: [validate-content run](https://github.com/coolnaveen99/legal-content/actions/runs/38511110264) and [Validate legal content run](https://github.com/coolnaveen99/legal-content/actions/runs/38511110243). Do not mark these topics legally verified, publication-ready, or `COMPLETE_LOCKED`; investigate FV-011 before claiming repository-wide validation.
+
+
+## Company Law s. 99 reverse-order penalty completeness — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory penalty completeness  
+Topic/section range: `topics/company/ca-s-99.json` only  
+Current main topic blob SHA: `2f11548afc3c48b6d9d2176938ff38b2fa701717`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s99-reverse`  
+Latest evidence: topic study currently says only that a penalty applies; official MCA consolidated text states a fine up to ₹1,00,000 and, for continuing default, a further fine up to ₹5,000 per day  
+Missing gate: state the actual penalty structure and covered triggers (sections 96–98 and Tribunal directions), without adding a cap absent from the text  
+Planned change: targeted penalty completeness correction; preserve review status and existing case references only if independently relevant  
+Validation: JSON parse, focused trigger/penalty assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text checked; legal sign-off is not claimed.
