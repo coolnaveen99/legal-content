@@ -250,4 +250,4 @@ Latest evidence: official Companies Act text identifies section 378ZR as applica
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific tribunal hypotheticals; preserve the section's conflict qualification and review status  
 Planned change: exact-topic cleanup only; do not infer that all private-company provisions apply without the section's qualification  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: Section 378ZR cleanup committed as `becc192930618c41b76a87ea78378d74d7bd0f23`. JSON parse and targeted contamination scan passed; section identity/status preserved and unrelated boilerplate/case-law material removed. Repository-wide validation, current-law review and publication gates remain open.
