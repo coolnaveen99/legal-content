@@ -415,4 +415,19 @@ Latest evidence: section 378ZG requires an auditor to report on specified additi
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve each additional audit-reporting item and the without-prejudice relationship to section 143  
 Planned change: exact-topic cleanup only; do not add audit duties not stated in the section  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZG cleanup committed as `282626bdd67e2329e615a90eda1cb58aec592206`. JSON parse and targeted contamination scan passed; all listed audit-reporting matters and the section 143 relationship are preserved. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZF reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zf.json` only  
+Current main topic blob SHA: `f735236d7ca8b097a4a4bdeb94aba8e527511137`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zf-reverse`  
+Latest evidence: official Companies Act text requires every Producer Company to have internal audit of accounts at intervals and in the manner specified in its articles, by a chartered accountant as defined in the Chartered Accountants Act  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve auditor qualification and articles-based interval/manner  
+Planned change: exact-topic cleanup only; no invented audit frequency or scope  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
