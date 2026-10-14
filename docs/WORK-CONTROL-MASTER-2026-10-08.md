@@ -981,4 +981,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish personal civil liability under section 75 from the criminal penalty in section 76A and general fraud provision section 447  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 75 scope correction committed as `4e49241e3e44284fe2d6616933cd35bf808a7129`. JSON parse and focused assertions passed; non-repayment, fraudulent intent, responsible-officer scope and personal damages liability are stated; unrelated case-law/BSA boilerplate was removed. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 74 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-74.json` only  
+Current main topic blob SHA: `562e3560c8d430212f2f0741f174dfe3d93fba50`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s74-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify transitional repayment deadline, Tribunal extension, penalty and applicability to legacy deposits against current text  
+Missing gate: do not imply section 74 governs all current deposits; distinguish deposits accepted before commencement from the current sections 73/76 regime  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
