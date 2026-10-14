@@ -1086,4 +1086,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish transfer from free reserves/securities premium on buy-back from other capital-redemption events; avoid suggesting the reserve is freely distributable  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 69 correction committed as `19d72ca63d5028b4c29869cf199ee02a9dcaaf39`. JSON parse and focused assertions passed; the buy-back trigger, nominal-value transfer, balance-sheet disclosure and permitted use are stated, and preference-share redemption is separated under section 55. Topic status remains `review`; full legal/source verification remains open.
+
+
+## Company Law s. 68 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — buy-back power and statutory conditions  
+Topic/section range: `topics/company/ca-s-68.json` only  
+Current main topic blob SHA: `f3684439b5a237cf2218dc2bd9dfa61f1835fabd`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s68-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify funding sources, authorisation, limits, debt-equity ratio, fully paid shares, cooling period, declaration of solvency, extinguishment and filing deadlines against current Act/rules  
+Missing gate: separate section 68 general conditions from additional section 70 prohibitions and current SEBI rules for listed companies  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
