@@ -1431,4 +1431,4 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish evidence-of-title effect from conclusiveness of every underlying ownership dispute; verify duplicate issue conditions and current penalty  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 46 correction committed as `3a795bb7fbfb00bda316c01011dcad9a192fa7d2`. JSON parse and focused assertions passed; prima facie title evidence, duplicate safeguards and amended fraudulent-duplicate penalty are stated; unrelated case boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
