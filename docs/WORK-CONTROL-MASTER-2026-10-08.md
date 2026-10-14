@@ -666,4 +666,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: correct any outdated or omitted timing/place/exception details without inventing a universal rule  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 96 completeness correction committed as `6bbb31f4eb882cce17dfe4374039b03c6db6e6c5`. JSON parse and focused assertions passed; first-AGM exception, three-month extension cap, time/place requirements and unlisted-company consent exception are stated. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 95 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-95.json` only  
+Current main topic blob SHA: `2cdb652ea0e783a99165bc54946518591859793b`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s95-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the exact registers/returns covered and their evidentiary effect against the official statutory text  
+Missing gate: ensure the topic does not overstate evidentiary effect beyond matters required or authorized to be inserted in the registers/returns  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
