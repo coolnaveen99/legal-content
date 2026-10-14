@@ -1212,13 +1212,28 @@ Evidence/commit: section 61 cleanup committed as `8d22b0447ebd43d983c782b4e680a4
 ## Company Law s. 60 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
-Enhancement: Final Content Quality Pass — certificate of registration of alteration of share capital  
+Enhancement: Final Content Quality Pass — publication of authorised, subscribed and paid-up capital  
 Topic/section range: `topics/company/ca-s-60.json` only  
 Current main topic blob SHA: `c0295f199f90653a2a258a8b506890f4a858775d`  
 Current status: `verification_in_progress`; legal-source verification not closed  
 Current owner: `current-assistant-company-s60-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify increase beyond registered capital, Registrar notice/recording and certificate effect against current text and section 64 procedure  
-Missing gate: distinguish the certificate/recording mechanism from the underlying alteration power and subsequent notice duty  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify the equal-prominence requirement when authorised capital is stated in specified company communications  
+Missing gate: confirm any separate penalty consequence from current authoritative text; distinguish disclosure from section 61 alteration  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 60 disclosure cleanup committed as `d836e3cab9e627ac9090ae87d3da8e25ecbd4fcd`. JSON parse and focused assertions passed; the trigger, both required capital figures and equal-prominence rule are explicit; unrelated case-law and generic drafting boilerplate removed. Topic remains `verification_in_progress`; separate penalty and full source verification remain open.
+
+
+## Company Law s. 59 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — rectification of register of members  
+Topic/section range: `topics/company/ca-s-59.json` only  
+Current main topic blob SHA: `eeadc5de26dbe2ab37ae34d16d48f305ccaea1bf`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s59-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify who may apply, grounds for rectification, Tribunal jurisdiction, limitation and register/beneficial-interest distinctions against current text  
+Missing gate: distinguish register rectification from nomination, transfer, transmission and beneficial-ownership disputes; avoid unsupported forum/limitation boilerplate  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
