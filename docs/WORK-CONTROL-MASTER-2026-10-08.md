@@ -891,4 +891,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: avoid expanding deemed notice beyond charges registered under section 77 or shifting the date from registration  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 80 scope correction committed as `35e40f59c8b952d893684154a47a69767cd628bc`. JSON parse and focused assertions passed; deemed notice is tied to section 77 registration and the registration date. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 79 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-79.json` only  
+Current main topic blob SHA: `6442ed4afd975656e6faeb7a71180a35d5b85b6d`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s79-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify which section 77 requirements apply to charges created by foreign companies and acquisition of property subject to charge  
+Missing gate: state the precise incorporation/reference rule without suggesting that section 79 creates an independent charge-registration system  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
