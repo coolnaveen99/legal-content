@@ -310,4 +310,19 @@ Latest evidence: section 378ZN concerns amalgamation, merger or division to form
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases, while preserving the full section-specific process and thresholds  
 Planned change: exact-topic cleanup only after checking the official statutory text; do not simplify away procedural requirements  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZN cleanup committed as `c447e6fc9c6814ad58f3e58c1a23c43f8d827b27`. JSON parse and targeted contamination scan passed; generic corporate case boilerplate removed. The summary explicitly leaves remaining statutory sub-sections and full current-law verification open rather than asserting completeness. Repository-wide validation and case-law/publication gates remain open.
+
+
+## Company Law s. 378ZM reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zm.json` only  
+Current main topic blob SHA: `dd0f2b2368a15d07658f34b9b0bc4c8427b9fcc3`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zm-reverse`  
+Latest evidence: official Companies Act text identifies section 378ZM as penalties for specified contraventions involving unauthorized use of the words “Producer Company Limited”, wilful failure to furnish information, and specified director/officer defaults  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic relief hypotheticals; preserve exact offence conditions and penalties as stated  
+Planned change: section-specific cleanup only; no added penalties or unverified offence elements  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
