@@ -56,6 +56,18 @@ Evidence/commit:
 If any field cannot be established, STOP.
 
 
+## Company Law s. 378F–378H Producer Company remediation — 2026-10-14
+
+Subject: Company Law  
+Topic/section range: ca-s-378f, ca-s-378g, ca-s-378h  
+Current status: ENHANCEMENT completed for this range — not COMPLETE_LOCKED  
+Current owner: current-assistant-company-s378f-s378h  
+Latest evidence: commits 4b04f29, 23a93c3, f04aa1b  
+Missing gate: authoritative PDF/source checksum, case-law review, repository-wide validation, app mirror if required, SEO, production, legal sign-off  
+Evidence/commit: titles corrected (378F Memorandum; 378G Articles; 378H Amendment of memorandum); Salomon/Foss/BSA boilerplate removed
+
+---
+
 ## Company Law s. 378A–378E Producer Company remediation — 2026-10-14
 
 Subject: Company Law  
