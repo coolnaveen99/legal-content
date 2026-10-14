@@ -73,34 +73,15 @@
         "correction": "Section 50 denies voting rights on amounts paid in advance until they become presently payable."
       }
     ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
+    "cases": [],
     "questionsAndAnswers": [
       {
-        "id": "ca-s50-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 50 problem be analysed?",
-        "answer": "I. Check articles authorisation. II. Identify payment in advance of calls. III. Apply no-voting rule until presently payable. IV. Conclude.",
-        "explanation": "IRAC."
+        "question": "Can a company accept unpaid share capital before a call is made?",
+        "answer": "Yes, if its articles authorise acceptance of the whole or part of the unpaid amount."
       },
       {
-        "id": "ca-s50-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Articles; payment facts; voting claim if any; precise relief.",
-        "explanation": "Submissions."
+        "question": "Does the advance payment immediately give voting rights?",
+        "answer": "No. The member has no voting rights in respect of the amount paid until it becomes presently payable."
       }
     ],
     "bareActPointers": [
@@ -108,15 +89,21 @@
       "Connected: Sections 49, 47"
     ],
     "examTips": [
-      "Articles must authorise acceptance.",
-      "No voting on advance payments until presently payable."
+      "Check whether the articles authorise acceptance of uncalled capital.",
+      "Identify the unpaid amount accepted before it was called.",
+      "Apply the express voting restriction until the amount becomes presently payable."
     ],
     "revisionPoints": [
-      "Power to accept (if articles allow)",
-      "No voting until presently payable"
+      "Acceptance requires articles authority.",
+      "The company may accept all or part of unpaid share capital before a call.",
+      "No voting rights attach to that amount until it becomes presently payable."
     ],
     "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      {
+        "name": "No section-specific judgment recorded",
+        "citation": "",
+        "point": "No judgment is asserted here as interpreting section 50. Case-law verification remains open."
+      }
     ],
     "relatedTopics": [
       "company-ca-s-49",
@@ -142,15 +129,16 @@
         "Member pays whole or part of unpaid amount not yet called",
         "No voting rights on that amount until presently payable"
       ],
-      "detailedExplanation": "Section 50 coordinates capital receipt with voting discipline under s. 47.",
+      "detailedExplanation": "A company may, if so authorised by its articles, accept from any member the whole or a part of the amount remaining unpaid on any shares held by him, although no part of that amount has been called up. A member of the company limited by shares shall not be entitled to any voting rights in respect of the amount paid by him under this section until that amount has become presently payable. Current-law framing: check articles authorisation; identify voluntary payment in advance of calls; deny voting rights on that sum until it is presently payable.",
       "examples": [
-        "Payment in advance",
-        "No articles authority"
+        "Articles authorise acceptance of unpaid capital. A member pays the remaining unpaid amount on partly paid shares before any call. Section 50 applies; no extra voting rights until the amount is presently payable.",
+        "Articles are silent on accepting unpaid capital in advance. The company cannot rely on s. 50 without articles authorisation."
       ],
-      "problemApplication": "Check articles; identify advance payment; apply voting bar.",
+      "problemApplication": "Check articles authority and whether the amount was not yet called; if accepted under section 50, apply the no-voting rule until presently payable.",
       "keyTakeaways": [
-        "Articles required.",
-        "No voting on advance payments until presently payable."
+        "Acceptance requires articles authority.",
+        "The company may accept all or part of unpaid share capital before a call.",
+        "No voting rights attach to that amount until it becomes presently payable."
       ],
       "authoritativeSources": [
         "Companies Act, 2013, Section 50",
@@ -158,28 +146,17 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 50's articles-authorisation and no-voting rule retained; official PDF byte-level and broader legal verification remain open.",
+        "date": "2026-10-14"
       },
       "distinctions": [
         "Acceptance of unpaid capital (s. 50) vs uniform calls (s. 49)"
       ],
       "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 50",
-          "citation": "Companies Act, 2013, section 50",
-          "point": "Section 50 permits a company, if authorised by its articles, to accept from any member the whole or a part of the amount remaining unpaid on any shares held by him, although no part of that amount has been called up. The member is not entitled to any voting rights in respect of the moneys so paid until that amount becomes presently payable.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Power; no voting; conclude.",
-        "sixteenMark": "Introduction; articles; acceptance; voting bar; vs s. 49; application; conclusion."
-      },
+      "caseLaw": [],
+      "caseLawGate": "section-specific-case-law-review-open",
+      "examAnswerStructure": "State articles authority; identify advance payment of uncalled capital; apply the voting restriction.",
       "lastBotRunAt": "2026-10-09T19:05:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
@@ -203,7 +180,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
