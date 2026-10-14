@@ -191,3 +191,18 @@ Evidence/commit: JSON syntax repaired in commit `5e0127bcdd4a86fe389e68d57193bb7
 ---
 
 *(Prior claims for Company Law batches, s. 100–106, and other subjects remain on record in git history of this file and in their dedicated remediation notes.)*
+
+
+## Company Law s. 378ZU reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zu.json` only  
+Current main commit at claim: latest `legal-content/main` topic state; topic blob SHA `e4d4c1c97fda11299a9aaa318b875f771be2d7cb`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zu-reverse`  
+Latest evidence: no recent section-specific remediation commit or open PR found; official Companies Act source identifies s. 378ZU as “Power to make rules” and the Central Government's rule-making power for Chapter XXIA  
+Missing gate: remove unrelated Companies Act s. 366 boilerplate, unrelated BSA s. 63, irrelevant general corporate judgments, and generic tribunal/relief hypotheticals; then validate JSON/schema and record source-verification status separately  
+Planned change: section-scoped cleanup only; preserve `review` status and do not invent rules, cases, notifications, or closure  
+Validation: JSON parse, focused contamination assertions, relevant repository integrity checks if available  
+Evidence/commit: to be recorded after implementation and validation; no legal sign-off or publication claim.
