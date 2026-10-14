@@ -651,4 +651,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: confirm statutory trigger and who may apply without broadening the remedy or inventing a period  
 Planned change: make only source-supported correction; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 97 scope correction committed as `5456926ae305a86c4919d7c6e6725804eb83f9c0`. JSON parse and focused assertions passed; AGM-default trigger, Member application, Tribunal directions and deemed-validity effect are stated, and unrelated cases removed. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 96 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-96.json` only  
+Current main topic blob SHA: `59d2fb3c729a43a32392d2428f579ca984428131`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s96-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify AGM timing, first AGM exception, Registrar extension, time/place rules, unlisted-company consent proviso and statutory consequences against current official text  
+Missing gate: correct any outdated or omitted timing/place/exception details without inventing a universal rule  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
