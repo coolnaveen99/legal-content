@@ -1,5 +1,21 @@
 # Work Control Master — Legal Content
 
+## Company Law s. 56 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — transfer and transmission of securities  
+Topic/section range: `topics/company/ca-s-56.json` only  
+Current main topic blob SHA (before): `aa0e506fc42ecd04cde68ef8f47c603df387ff19`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s56-reverse`  
+Latest evidence: India Code PDF A2013-18 section 56 text; s. 56(1) instrument + depository exception; s. 56(2) transmission by operation of law; s. 56(3) partly-paid transferor-alone notice; s. 56(4) certificate delivery timelines; s. 56(5) legal representative; s. 56(6) penalty ₹50,000; s. 56(7) depository fraud under s. 447  
+Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
+Planned change: source-supported additive correction only; preserve review status  
+Validation: focused statutory alignment to official text  
+Evidence/commit: section 56 correction committed as `521b98e825b6d5148f2f19456e331a4a31a52aaf`. Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
+
+---
+
 ## Company Law s. 57 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
@@ -8,75 +24,18 @@ Topic/section range: `topics/company/ca-s-57.json` only
 Current main topic blob SHA (before): `d8534771f07b213b72a206df8d6857c6401b8639`  
 Current status: `review`; legal-source verification not closed  
 Current owner: `current-assistant-company-s57-reverse`  
-Latest evidence: India Code PDF A2013-18 section 57 text; deceitful personation as owner of security/interest/share warrant/coupon; obtain or attempt; money due; imprisonment 1–3 years and fine ₹1–5 lakh  
+Latest evidence: India Code PDF A2013-18 section 57 text; deceitful personation as owner; obtain or attempt; money due; imprisonment 1–3 years and fine ₹1–5 lakh  
 Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Planned change: source-supported additive correction only; preserve review status  
-Validation: focused statutory alignment to official text  
-Evidence/commit: section 57 correction committed as `dcf3a21c563d416b507a780b31d743ce20dbd4c9`. Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
+Evidence/commit: section 57 correction committed as `dcf3a21c563d416b507a780b31d743ce20dbd4c9`. Topic status remains `review` / SOURCE_CHECK_REQUIRED.
 
 ---
 
-## Company Law s. 58 reverse-order verification — 2026-10-14
+## Company Law s. 58–61 reverse-order verification — 2026-10-14 (summary)
 
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — refusal of registration and appeal against refusal  
-Topic/section range: `topics/company/ca-s-58.json` only  
-Current main topic blob SHA (before): `21a78ef7e0c26b6fe16e70f3e671c86e6b606b80`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s58-reverse`  
-Latest evidence: India Code PDF A2013-18 section 58 text; s. 58(1) private-company notice with reasons within 30 days; s. 58(2) public free transferability + contract proviso; s. 58(3)–(4) distinct appeal periods; s. 58(5) Tribunal 10-day registration / rectification + damages; s. 58(6) penalty for contravention  
-Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Planned change: source-supported additive correction only; preserve review status  
-Validation: focused statutory alignment to official text  
-Evidence/commit: section 58 correction committed as `1b0036c5e9088e0cdca40077ee03683e68887729`. Overview, study, sections, examples, distinctions and exam structures aligned to s. 58(1)–(6). Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
-
----
-
-## Company Law s. 59 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — rectification of register of members  
-Topic/section range: `topics/company/ca-s-59.json` only  
-Current main topic blob SHA (before): `d83d629957c9158a38b19e35b78dad29475a7c1e`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s59-reverse`  
-Latest evidence: India Code PDF A2013-18 section 59 text; s. 59(1) grounds and standing + foreign court option; s. 59(2) 10-day registration / rectification of depository or register + damages; s. 59(3) transfer and voting rights preserved unless suspended; s. 59(4) set-right for SCRA/SEBI/Act contraventions  
-Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Planned change: source-supported additive correction only; preserve review status  
-Validation: focused statutory alignment to official text  
-Evidence/commit: section 59 correction committed as `5f4ce27e113928519f95542c5e2c319a3c68e1e9`. Overview, study, sections, examples, distinctions and exam structures aligned to s. 59(1)–(4). Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
-
----
-
-## Company Law s. 60 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — publication of authorised, subscribed and paid-up capital  
-Topic/section range: `topics/company/ca-s-60.json` only  
-Current main topic blob SHA (before): `d4120dcf4623b12027dcfcb8ee36890ec1ae5864`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s60-reverse`  
-Latest evidence: India Code PDF A2013-18 section 60 text; s. 60(1) disclosure rule (equal prominence / conspicuous characters for subscribed and paid-up when authorised is stated); s. 60(2) fixed penalties (company ₹10,000; officer ₹5,000 per default)  
-Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Planned change: source-supported additive correction only; preserve review status  
-Validation: focused statutory alignment to official text  
-Evidence/commit: section 60 correction committed. Overview, study, sections, examples, distinctions and exam structures aligned to statutory text; explicit s. 60(2) penalty amounts added. Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
-
----
-
-## Company Law s. 61 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — power of limited company to alter its share capital  
-Topic/section range: `topics/company/ca-s-61.json` only  
-Current main topic blob SHA (before): `9ba7be9e2c3ef631e1d8a51b3172d12a6fc50947`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s61-reverse`  
-Latest evidence: India Code PDF A2013-18 section 61 text; five clauses (a)–(e), Tribunal proviso to (b), sub-division proportion rule in (d), cancel-not-reduction in (2)  
-Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
-Planned change: source-supported additive correction only; preserve review status  
-Validation: focused statutory alignment to official text  
-Evidence/commit: section 61 correction committed as `78d33217591f433e429f6a37fc9aa5cb71ade856`. Overview, study, sections, examples, distinctions and exam structures aligned to statutory clauses; explicit s.61(1)(d) paid/unpaid proportion rule added; Tribunal proviso scoped correctly. Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
+- s.58: committed `1b0036c5e9088e0cdca40077ee03683e68887729` — notice with reasons, free transferability, appeal periods, Tribunal powers, penalty. Status: review.
+- s.59: committed `5f4ce27e113928519f95542c5e2c319a3c68e1e9` — rectification grounds, 10-day registration, transfer/voting rights, s.59(4) set-right. Status: review.
+- s.60: committed — equal prominence of subscribed/paid-up; penalties company ₹10k / officer ₹5k. Status: review.
+- s.61: committed `78d33217591f433e429f6a37fc9aa5cb71ade856` — five clauses, Tribunal proviso, sub-division proportion, cancel ≠ reduction. Status: review.
 
 ---
 
@@ -85,7 +44,7 @@ Evidence/commit: section 61 correction committed as `78d33217591f433e429f6a37fc9
 - Subject/enhancement: Arbitration and ADR / E-03-Arbitration.
 - Exact range: uncitral-model-law; official UNCITRAL overview source record.
 - Status/owner: review/source_check_required; current-assistant-uncitral-model-law-scope-review.
-- Evidence/result: local overview repair implemented and validated. Review/source-check-required statuses remain open. No commit/push or publication recorded in this control entry for the local work.
+- Evidence/result: local overview repair implemented and validated. Review/source-check-required statuses remain open.
 
 ## 2026-10-14 Mediation Act sections 4-6 source-review blocker
 
@@ -143,9 +102,5 @@ If any field cannot be established, STOP.
 
 - s.63: committed `dfc17bda33a1dd6d5a514f1d4606f7d3ab1a7003` — bonus shares rules aligned; status remains review.
 - s.62: in progress / evidence pending full record.
-- s.61: committed `78d33217591f433e429f6a37fc9aa5cb71ade856`.
-- s.60: committed — source-aligned to India Code PDF; status remains review.
-- s.59: committed — source-aligned to India Code PDF; status remains review.
-- s.58: committed — source-aligned to India Code PDF; status remains review.
-- s.57: this entry — source-aligned to India Code PDF; status remains review.
+- s.61–s.56: source-aligned 2026-10-14; status remains review.
 - Producer Company ranges 378A–378X: enhancement completed earlier; not COMPLETE_LOCKED.
