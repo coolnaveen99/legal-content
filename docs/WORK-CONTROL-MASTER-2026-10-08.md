@@ -265,4 +265,19 @@ Latest evidence: official Companies Act text identifies section 378ZQ as the pro
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and non-specific tribunal hypotheticals; preserve the statute's inconsistency qualification  
 Planned change: exact-topic cleanup only; no invented case law or broad assertion that all other laws are displaced  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZQ cleanup committed as `4e0d0de6d72a45ba4ddbf480992ee75863c5f3df`. JSON parse and targeted contamination scan passed; section identity/status preserved and unrelated boilerplate/case-law material removed. Repository-wide validation and legal/publication gates remain open.
+
+
+## Company Law s. 378ZP reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zp.json` only  
+Current main topic blob SHA: `bc097ca0d87c3545e32308613f5969b8159ddad0`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zp-reverse`  
+Latest evidence: official Companies Act text identifies section 378ZP as strike-off of a Producer Company's name and includes notice, opportunity to represent, appeal and effect provisions  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic remedy hypotheticals; preserve section-specific grounds and safeguards  
+Planned change: exact-topic cleanup only; do not omit statutory notice/appeal safeguards or infer a strike-off outcome without the section's conditions  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
