@@ -9,27 +9,32 @@
   "content": {
     "overview": "Section 55 restricts a company limited by shares from issuing irredeemable preference shares. Preference shares must be redeemable within a period not exceeding twenty years from the date of issue (with a longer period permitted for infrastructure projects as prescribed). Redemption must be out of profits available for dividend or out of the proceeds of a fresh issue, and fully paid-up shares only may be redeemed. A capital redemption reserve is required where redemption is out of profits.",
     "glance": "No irredeemable preference shares; redeem within 20 years (infrastructure exception); redeem only fully paid shares out of profits or fresh issue; capital redemption reserve when out of profits.",
-    "study": "A company limited by shares cannot issue any preference shares which are irredeemable. Preference shares must be liable to be redeemed within a period not exceeding twenty years from the date of their issue; for infrastructure projects a longer period not exceeding thirty years may be prescribed with conditions. Preference shares may be redeemed only out of the profits of the company which would otherwise be available for dividend or out of the proceeds of a fresh issue of shares made for the purposes of redemption; only fully paid-up shares may be redeemed. Where shares are redeemed out of profits, a sum equal to the nominal amount of the shares redeemed must be transferred to a capital redemption reserve account. Current-law framing: confirm no irredeemable issue; check redemption period, source of funds and CRR if applicable.",
+    "study": "Companies Act, 2013 — Section 55 (Issue and redemption of preference shares). A company limited by shares must not issue irredeemable preference shares. Preference shares ordinarily must be redeemable within 20 years of issue; a company engaged in infrastructure projects may use a longer prescribed period not exceeding 30 years, subject to prescribed annual redemption requirements and the preference shareholders' option. Only fully paid-up preference shares may be redeemed, and redemption must be funded from profits otherwise available for dividend or proceeds of a fresh issue made for redemption. Where redemption is funded from profits, a sum equal to the nominal amount redeemed must be transferred to the capital redemption reserve. Any premium payable on redemption must be provided from profits or the securities premium account as permitted by the section. If the company cannot redeem or pay dividend in accordance with the terms, subsection (3) provides a route involving consent of holders of three-fourths in value and Tribunal approval to issue further redeemable preference shares for the amount due, without prejudice to the rights of holders who do not consent. Verify current prescribed infrastructure rules and the terms of issue.",
     "sections": [
       {
-        "heading": "No Irredeemable Preference Shares",
-        "body": "A company limited by shares shall not issue irredeemable preference shares.",
+        "heading": "No irredeemable preference shares and ordinary period",
+        "body": "A company limited by shares must not issue irredeemable preference shares. Preference shares ordinarily must be redeemable within 20 years from issue.",
         "order": 1
       },
       {
-        "heading": "Redemption Period",
-        "body": "Preference shares must be redeemable within twenty years of issue; infrastructure projects may have a longer prescribed period up to thirty years.",
+        "heading": "Infrastructure exception",
+        "body": "For a company engaged in infrastructure projects, a longer prescribed period not exceeding 30 years may apply, subject to prescribed annual redemption requirements and the preference shareholders' option. Verify the current rule for the precise schedule and conditions.",
         "order": 2
       },
       {
-        "heading": "Source of Redemption",
-        "body": "Redemption only out of profits available for dividend or proceeds of a fresh issue; only fully paid-up shares may be redeemed.",
+        "heading": "Permitted source and fully paid status",
+        "body": "Only fully paid-up preference shares may be redeemed. Redemption must be out of profits otherwise available for dividend or proceeds of a fresh issue made for redemption.",
         "order": 3
       },
       {
-        "heading": "Capital Redemption Reserve",
-        "body": "Where redemption is out of profits, a sum equal to the nominal amount redeemed must be transferred to the capital redemption reserve account.",
+        "heading": "Capital redemption reserve and premium",
+        "body": "Where redemption is out of profits, transfer a sum equal to the nominal amount redeemed to the capital redemption reserve account. Any premium payable on redemption must be provided from profits or the securities premium account as permitted by section 55.",
         "order": 4
+      },
+      {
+        "heading": "Inability to redeem",
+        "body": "Where the company cannot redeem preference shares or pay dividend in accordance with the terms, subsection (3) provides a route, subject to consent of holders of three-fourths in value and Tribunal approval, for issuing further redeemable preference shares for the amount due. Apply the statutory conditions and preserve the rights of non-consenting holders.",
+        "order": 5
       }
     ],
     "provisions": [
@@ -57,21 +62,30 @@
     ],
     "hypotheticals": [
       {
-        "question": "Can preference shares be perpetual under the 2013 Act?",
-        "analysis": "No. Section 55 bans irredeemable preference shares and requires redemption within the statutory period."
+        "question": "A company redeems preference shares out of profits. What reserve transfer is required?",
+        "analysis": "A sum equal to the nominal amount of the shares redeemed must be transferred to the capital redemption reserve account."
+      },
+      {
+        "question": "A company cannot redeem preference shares on the due date. Can it automatically extend the redemption date?",
+        "analysis": "No automatic extension should be assumed. Analyse subsection (3), including consent of holders of three-fourths in value and Tribunal approval, and verify all statutory conditions."
       }
     ],
     "distinctions": [
       {
-        "id": "ca-s55-vs-s43",
-        "title": "Redeemable preference (s. 55) vs kinds of capital (s. 43)",
-        "left": "Issue and redemption rules for preference shares",
-        "right": "Classification of equity vs preference",
+        "id": "ca-s55-vs-s69",
+        "title": "Preference-share redemption and buy-back reserve",
+        "left": "Section 55 governs preference-share redemption and its funding/CRR requirements.",
+        "right": "Section 69 concerns a capital-redemption-reserve transfer when buy-back is funded from free reserves or securities premium.",
         "rows": [
           {
-            "point": "Focus",
-            "left": "Redeemability and funding",
-            "right": "Capital type"
+            "point": "Trigger",
+            "left": "Redemption of preference shares",
+            "right": "Buy-back of own shares from specified sources"
+          },
+          {
+            "point": "Reserve",
+            "left": "Nominal amount redeemed out of profits",
+            "right": "Nominal value of shares bought back under section 69"
           }
         ]
       }
@@ -79,61 +93,70 @@
     "misconceptions": [
       {
         "id": "ca-s55-trap-1",
-        "trap": "Preference shares can be made irredeemable by special resolution.",
-        "correction": "Section 55 prohibits issue of irredeemable preference shares by a company limited by shares."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s55-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 55 problem be analysed?",
-        "answer": "I. Confirm company limited by shares. II. Check redeemability and period. III. Test source of funds and CRR. IV. Conclude.",
-        "explanation": "IRAC."
+        "trap": "Assuming special resolution can authorise irredeemable preference shares.",
+        "correction": "Section 55 prohibits irredeemable preference shares."
       },
       {
-        "id": "ca-s55-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Issue terms; redemption period; funding source; CRR; precise relief.",
-        "explanation": "Submissions."
+        "id": "ca-s55-trap-2",
+        "trap": "Redeeming partly paid preference shares or using any funding source.",
+        "correction": "Only fully paid-up shares may be redeemed, and funding must come from profits available for dividend or a fresh issue for redemption."
+      },
+      {
+        "id": "ca-s55-trap-3",
+        "trap": "Omitting the premium and capital-redemption-reserve requirements.",
+        "correction": "Apply the section's separate premium funding rule and transfer nominal value to CRR where redemption is out of profits."
+      },
+      {
+        "id": "ca-s55-trap-4",
+        "trap": "Treating the infrastructure exception as an unrestricted 30-year period.",
+        "correction": "The longer period is prescribed, capped at 30 years and subject to prescribed annual redemption requirements."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "question": "What is the ordinary maximum redemption period?",
+        "answer": "Twenty years from issue; an infrastructure-project exception may allow a prescribed longer period not exceeding 30 years, subject to conditions."
+      },
+      {
+        "question": "When is a capital redemption reserve required?",
+        "answer": "When preference shares are redeemed out of profits, a sum equal to the nominal amount redeemed must be transferred to CRR."
+      },
+      {
+        "question": "What happens if the company cannot redeem under the terms?",
+        "answer": "Subsection (3) provides a conditional route involving consent of holders of three-fourths in value and Tribunal approval for a further issue of redeemable preference shares."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013 — Section 55",
-      "Connected: Sections 43, 52"
+      "Companies Act, 2013, section 55 — Issue and redemption of preference shares",
+      "Companies Act, 2013, section 69 — Capital redemption reserve for specified buy-back transactions (distinct trigger)",
+      "Companies Act, 2013, section 52 — Application of securities premium account"
     ],
     "examTips": [
-      "No irredeemable preference shares.",
-      "20-year rule; infrastructure exception.",
-      "CRR when redeeming out of profits."
+      "Check redeemability and the 20-year/qualified infrastructure period.",
+      "Verify fully paid status and permitted funding source.",
+      "Address CRR and redemption premium separately.",
+      "For inability to redeem, apply subsection (3) consent and Tribunal requirements."
     ],
     "revisionPoints": [
-      "No irredeemable preference shares",
-      "Redemption period",
-      "Source of redemption",
-      "Capital redemption reserve"
+      "No irredeemable preference shares.",
+      "Ordinary redemption period: 20 years; qualified infrastructure exception up to 30 years under prescribed conditions.",
+      "Only fully paid shares; redemption from profits available for dividend or fresh issue.",
+      "CRR transfer equals nominal amount redeemed when funded from profits.",
+      "Premium has a separate permitted funding rule.",
+      "Subsection (3) requires three-fourths-in-value consent and Tribunal approval for the further-issue route."
     ],
     "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
+      {
+        "name": "No section-specific judgment recorded",
+        "citation": "",
+        "point": "No judgment is asserted here as interpreting section 55. Case-law verification remains open."
+      }
     ],
     "relatedTopics": [
-      "company-ca-s-43",
-      "company-ca-s-52"
+      "ca-s-43",
+      "ca-s-52",
+      "ca-s-69"
     ],
     "illustrations": [],
     "legacySubjectSlug": "company",
@@ -147,25 +170,30 @@
         "State the ban on irredeemable preference shares.",
         "Explain redemption period, funding and CRR rules."
       ],
-      "definition": "Section 55 prohibits irredeemable preference shares and regulates the period, funding and reserves for redemption of preference shares.",
-      "legalPrinciple": "Preference capital must be time-limited and redeemed from permitted sources with capital maintenance through CRR where profits are used.",
-      "statutoryFramework": "Companies Act, 2013, Section 55.",
+      "definition": "Section 55 restricts a company limited by shares from issuing irredeemable preference shares. Preference shares must be redeemable within a period not exceeding twenty years from the date of issue (with a longer period permitted for infrastructure projects as prescribed). Redemption must be out of profits available for dividend or out of the proceeds of a fresh issue, and fully paid-up shares only may be redeemed. A capital redemption reserve is required where redemption is out of profits.",
+      "legalPrinciple": "Section 55 restricts a company limited by shares from issuing irredeemable preference shares. Preference shares must be redeemable within a period not exceeding twenty years from the date of issue (with a longer period permitted for infrastructure projects as prescribed). Redemption must be out of profits available for dividend or out of the proceeds of a fresh issue, and fully paid-up shares only may be redeemed. A capital redemption reserve is required where redemption is out of profits.",
+      "statutoryFramework": "Companies Act, 2013, section 55, read with prescribed infrastructure rules and relevant reserve provisions.",
       "essentialIngredients": [
         "No irredeemable preference shares",
-        "Redeemable within 20 years (or prescribed longer for infrastructure)",
-        "Redeem fully paid shares only out of profits or fresh issue",
-        "CRR when out of profits"
+        "Ordinary 20-year limit and qualified infrastructure exception",
+        "Fully paid shares",
+        "Permitted redemption funding",
+        "CRR and premium funding",
+        "Subsection (3) consent and Tribunal route where unable to redeem"
       ],
-      "detailedExplanation": "Section 55 is a core capital-maintenance rule for preference capital.",
+      "detailedExplanation": "Companies Act, 2013 — Section 55 (Issue and redemption of preference shares). A company limited by shares must not issue irredeemable preference shares. Preference shares ordinarily must be redeemable within 20 years of issue; a company engaged in infrastructure projects may use a longer prescribed period not exceeding 30 years, subject to prescribed annual redemption requirements and the preference shareholders' option. Only fully paid-up preference shares may be redeemed, and redemption must be funded from profits otherwise available for dividend or proceeds of a fresh issue made for redemption. Where redemption is funded from profits, a sum equal to the nominal amount redeemed must be transferred to the capital redemption reserve. Any premium payable on redemption must be provided from profits or the securities premium account as permitted by the section. If the company cannot redeem or pay dividend in accordance with the terms, subsection (3) provides a route involving consent of holders of three-fourths in value and Tribunal approval to issue further redeemable preference shares for the amount due, without prejudice to the rights of holders who do not consent. Verify current prescribed infrastructure rules and the terms of issue.",
       "examples": [
-        "Valid redeemable issue",
-        "Irredeemable attempt"
+        "A sum equal to the nominal amount of the shares redeemed must be transferred to the capital redemption reserve account.",
+        "No automatic extension should be assumed. Analyse subsection (3), including consent of holders of three-fourths in value and Tribunal approval, and verify all statutory conditions."
       ],
-      "problemApplication": "Check redeemability, period, funding and CRR.",
+      "problemApplication": "Check issue terms, redeemability period, infrastructure status, fully paid status, permitted funding and reserve/premium requirements; if defaulted, test subsection (3) conditions.",
       "keyTakeaways": [
-        "No perpetual preference shares.",
-        "20-year default period.",
-        "CRR protects capital when redeeming from profits."
+        "No irredeemable preference shares.",
+        "Ordinary redemption period: 20 years; qualified infrastructure exception up to 30 years under prescribed conditions.",
+        "Only fully paid shares; redemption from profits available for dividend or fresh issue.",
+        "CRR transfer equals nominal amount redeemed when funded from profits.",
+        "Premium has a separate permitted funding rule.",
+        "Subsection (3) requires three-fourths-in-value consent and Tribunal approval for the further-issue route."
       ],
       "authoritativeSources": [
         "Companies Act, 2013, Section 55",
@@ -173,28 +201,34 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Core section 55 redemption, CRR, premium and subsection (3) structure recorded. Current prescribed infrastructure redemption schedule, rule details and official PDF byte-level/case-law review remain open.",
+        "date": "2026-10-14"
       },
       "distinctions": [
-        "Redeemable preference (s. 55) vs kinds of capital (s. 43)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
         {
-          "name": "Companies Act, 2013, section 55",
-          "citation": "Companies Act, 2013, section 55",
-          "point": "Section 55 restricts a company limited by shares from issuing irredeemable preference shares. Preference shares must be redeemable within a period not exceeding twenty years from the date of issue (with a longer period permitted for infrastructure projects as prescribed). Redemption must be out of profits available for dividend or out of the proceeds of a fresh issue, and fully paid-up shares only may be redeemed. A capital redemption reserve is required where redemption is out of profits.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+          "id": "ca-s55-vs-s69",
+          "title": "Preference-share redemption and buy-back reserve",
+          "left": "Section 55 governs preference-share redemption and its funding/CRR requirements.",
+          "right": "Section 69 concerns a capital-redemption-reserve transfer when buy-back is funded from free reserves or securities premium.",
+          "rows": [
+            {
+              "point": "Trigger",
+              "left": "Redemption of preference shares",
+              "right": "Buy-back of own shares from specified sources"
+            },
+            {
+              "point": "Reserve",
+              "left": "Nominal amount redeemed out of profits",
+              "right": "Nominal value of shares bought back under section 69"
+            }
+          ]
         }
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Ban; period; funding; CRR; conclude.",
-        "sixteenMark": "Introduction; ban; period; funding; CRR; application; conclusion."
-      },
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "section-specific-case-law-review-open",
+      "examAnswerStructure": "State the prohibition and period; analyse infrastructure exception if relevant; check full payment/source; state CRR/premium rules; address subsection (3) only if redemption failure arises.",
       "lastBotRunAt": "2026-10-09T19:05:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
@@ -218,7 +252,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
