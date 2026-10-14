@@ -535,4 +535,19 @@ Latest evidence: current topic describes the listed-public-company AGM report an
 Missing gate: record the penalty amounts and continuing-default caps stated in the current MCA consolidated Act text, without changing the topic to verified  
 Planned change: add precise subsection (3) penalty summary and preserve the existing source/current-law review gate  
 Validation: JSON parse, focused penalty assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text was checked for subsection (3); PDF checksum/byte-level review and legal sign-off are not claimed.
+Evidence/commit: subsection (3) penalty completeness correction committed as `0b390de299aad7a15fde2e3014a96071bc13a97b`. JSON parse and focused assertions passed; company and officer penalties, daily amounts and separate caps are now recorded. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 120 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-120.json` only  
+Current main topic blob SHA: `924a3e7a0089425efcf1f36afacfd7405731968b`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s120-reverse`  
+Latest evidence: latest topic commits: b33ad3db06, 040e7b3c93, 627518fc8e, 54c56c7ef2; review the complete current topic against section 120 and the applicable prescribed rules before deciding whether a correction is needed  
+Missing gate: confirm the electronic-form record/inspection/copy rule and its prescribed manner without inventing additional requirements  
+Planned change: only make a correction if the official statutory text identifies a concrete omission; preserve review status and source provenance  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
