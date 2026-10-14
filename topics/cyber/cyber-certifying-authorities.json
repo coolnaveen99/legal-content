@@ -4,30 +4,30 @@
   "id": "topic:india:cyber-certifying-authorities",
   "version": 2,
   "status": "verification_in_progress",
-  "title": "Cyber Law \u2014 Certifying Authorities, Controller and Subscriber Duties",
+  "title": "Cyber Law — Certifying Authorities, Controller and Subscriber Duties",
   "jurisdiction": "India",
   "content": {
     "overview": "The Information Technology Act, 2000 creates the regulatory framework for Certifying Authorities and the Controller of Certifying Authorities and imposes duties on subscribers of electronic signature certificates. The framework covers appointment and functions of the Controller, recognition/licensing and supervision of Certifying Authorities, issuance and lifecycle of electronic signature certificates, and subscriber acceptance and private-key control.",
-    "glance": "IT Act Chapter VI regulates the Controller and Certifying Authorities; Chapters VII\u2013VIII regulate electronic signature certificates and subscriber duties.",
-    "study": "The topic should be read principally through IT Act sections 17\u201342 and the applicable Certifying Authorities Rules. Sections 17\u201320 establish the Controller and core regulatory functions; sections 21\u201334 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35\u201339 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40\u201342 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
+    "glance": "IT Act Chapter VI regulates the Controller and Certifying Authorities; Chapters VII–VIII regulate electronic signature certificates and subscriber duties.",
+    "study": "The topic should be read principally through IT Act sections 17–42 and the applicable Certifying Authorities Rules. Sections 17–20 establish the Controller and core regulatory functions; sections 21–34 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35–39 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40–42 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
     "sections": [
       {
-        "heading": "Controller and Regulatory Architecture \u2014 ss. 17\u201320",
+        "heading": "Controller and Regulatory Architecture — ss. 17–20",
         "body": "Section 17 provides for appointment of the Controller and other officers. Section 18 sets out regulatory functions including supervision of Certifying Authorities, standards, certificate form/content, audit arrangements, subscriber dealings and disclosure records. Section 19 permits recognition of foreign Certifying Authorities subject to conditions and prior Central Government approval. Section 20 concerns the Controller's role as repository for specified certificate information.",
         "order": 1
       },
       {
-        "heading": "Licensing, Investigation and Certifying Authority Compliance \u2014 ss. 21\u201334",
+        "heading": "Licensing, Investigation and Certifying Authority Compliance — ss. 21–34",
         "body": "The licensing and supervisory framework covers licence requirements and procedure, suspension/revocation, notice and disclosure obligations, investigation/access powers, prescribed procedures and surrender/display/compliance requirements. A Certifying Authority must operate within the Act, rules, regulations, licence conditions and applicable security/certification requirements.",
         "order": 2
       },
       {
-        "heading": "Electronic Signature Certificates \u2014 ss. 35\u201339",
+        "heading": "Electronic Signature Certificates — ss. 35–39",
         "body": "A person may apply for an electronic signature certificate. The Certifying Authority considers the certification practice statement and required enquiries, and its issuance representations concern statutory compliance, publication/availability, the subscriber's key pair, accuracy and reliability. Certificates may be suspended or revoked on statutory grounds, with applicable hearing and communication requirements; suspension/revocation notices are published in the specified repository.",
         "order": 3
       },
       {
-        "heading": "Subscriber Duties \u2014 ss. 40\u201342",
+        "heading": "Subscriber Duties — ss. 40–42",
         "body": "Subscribers generate the relevant key pair using the prescribed security procedure, perform prescribed duties for electronic signature certificates, accept certificates through publication/authorisation or other approval, and certify the truth of material representations. Every subscriber must exercise reasonable care over the private key and promptly notify the Certifying Authority if it is compromised; liability continues until the required notification.",
         "order": 4
       },
@@ -42,7 +42,7 @@
         "actId": "information-technology-act-2000",
         "actName": "Information Technology Act, 2000",
         "provisionId": "it-s-17-42",
-        "section": "Sections 17\u201342",
+        "section": "Sections 17–42",
         "title": "Controller, Certifying Authorities, electronic signature certificates and subscriber duties"
       },
       {
@@ -75,14 +75,14 @@
     "hypotheticals": [
       {
         "question": "How should a dispute involving a Certifying Authority or subscriber be analysed?",
-        "analysis": "1. Identify the certificate, parties and lifecycle event. 2. Map the facts to ss. 17\u201342 and applicable rules. 3. Check licence, issuance, representations, suspension/revocation and subscriber duties. 4. Test the evidence and attribution separately. 5. State the statutory consequence and forum."
+        "analysis": "1. Identify the certificate, parties and lifecycle event. 2. Map the facts to ss. 17–42 and applicable rules. 3. Check licence, issuance, representations, suspension/revocation and subscriber duties. 4. Test the evidence and attribution separately. 5. State the statutory consequence and forum."
       }
     ],
     "distinctions": [
       {
         "id": "cyber-ca-vs-cybercrime",
         "title": "Certifying Authority regulation vs cyber-crime provisions",
-        "left": "IT Act ss. 17\u201342 regulate the certification infrastructure and certificate lifecycle.",
+        "left": "IT Act ss. 17–42 regulate the certification infrastructure and certificate lifecycle.",
         "right": "IT Act offence/penalty provisions address separate prohibited conduct.",
         "rows": [
           {
@@ -171,7 +171,7 @@
         "id": "cyber-ca-brief",
         "draftingCategory": "brief",
         "question": "How should a Certifying Authority/subscriber dispute be argued?",
-        "answer": "I. Identify certificate and parties. II. State the relevant IT Act ss. 17\u201342 and applicable rules. III. Apply issuance, certificate-status and subscriber-duty requirements. IV. Address evidence and attribution separately. V. Conclude on the statutory consequence.",
+        "answer": "I. Identify certificate and parties. II. State the relevant IT Act ss. 17–42 and applicable rules. III. Apply issuance, certificate-status and subscriber-duty requirements. IV. Address evidence and attribution separately. V. Conclude on the statutory consequence.",
         "explanation": "IRAC."
       },
       {
@@ -179,14 +179,14 @@
         "draftingCategory": "exam",
         "question": "What are the key duties of a subscriber?",
         "answer": "Generate the key pair under the prescribed procedure; comply with prescribed electronic-signature duties; accept the certificate only with the statutory representations; exercise reasonable care over the private key; and promptly notify the Certifying Authority of compromise.",
-        "explanation": "Sections 40\u201342."
+        "explanation": "Sections 40–42."
       }
     ],
     "bareActPointers": [
-      "IT Act, 2000 \u2014 ss. 17\u201320: Controller and regulatory architecture",
-      "IT Act, 2000 \u2014 ss. 21\u201334: licensing, supervision, investigation, procedure and disclosure",
-      "IT Act, 2000 \u2014 ss. 35\u201339: electronic signature certificate lifecycle",
-      "IT Act, 2000 \u2014 ss. 40\u201342: subscriber duties and private-key control",
+      "IT Act, 2000 — ss. 17–20: Controller and regulatory architecture",
+      "IT Act, 2000 — ss. 21–34: licensing, supervision, investigation, procedure and disclosure",
+      "IT Act, 2000 — ss. 35–39: electronic signature certificate lifecycle",
+      "IT Act, 2000 — ss. 40–42: subscriber duties and private-key control",
       "Information Technology (Certifying Authorities) Rules, 2000"
     ],
     "examTips": [
@@ -197,12 +197,12 @@
       "Do not cite struck-down section 66A as current law."
     ],
     "revisionPoints": [
-      "Controller under ss. 17\u201318",
+      "Controller under ss. 17–18",
       "Foreign CA recognition under s. 19",
       "CA licensing/supervision framework",
-      "Certificate issuance and representations under ss. 35\u201336",
-      "Suspension/revocation under ss. 37\u201339",
-      "Subscriber duties under ss. 40\u201342"
+      "Certificate issuance and representations under ss. 35–36",
+      "Suspension/revocation under ss. 37–39",
+      "Subscriber duties under ss. 40–42"
     ],
     "relatedJudgments": [
       "judgment:india:shreya-singhal-v-union-of-india-2015",
@@ -225,7 +225,7 @@
       ],
       "definition": "The Information Technology Act, 2000 creates the regulatory framework for Certifying Authorities and the Controller of Certifying Authorities and imposes duties on subscribers of electronic signature certificates. The framework covers appointment and functions of the Controller, recognition/licensing and supervision of Certifying Authorities, issuance and lifecycle of electronic signature certificates, and subscriber acceptance and private-key control.",
       "legalPrinciple": "The IT Act creates a regulated trust framework for electronic signatures: the Controller supervises the certification ecosystem, Certifying Authorities issue and manage certificates under statutory controls, and subscribers bear defined duties concerning acceptance and private-key security.",
-      "statutoryFramework": "Information Technology Act, 2000, ss. 17\u201342; Information Technology (Certifying Authorities) Rules, 2000 and applicable amendments.",
+      "statutoryFramework": "Information Technology Act, 2000, ss. 17–42; Information Technology (Certifying Authorities) Rules, 2000 and applicable amendments.",
       "essentialIngredients": [
         "Identify the relevant IT Act section and certificate lifecycle event",
         "Identify the Certifying Authority and applicable licence/rule framework",
@@ -233,7 +233,7 @@
         "Apply subscriber acceptance and private-key duties",
         "Separate statutory compliance from electronic-evidence proof"
       ],
-      "detailedExplanation": "The topic should be read principally through IT Act sections 17\u201342 and the applicable Certifying Authorities Rules. Sections 17\u201320 establish the Controller and core regulatory functions; sections 21\u201334 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35\u201339 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40\u201342 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
+      "detailedExplanation": "The topic should be read principally through IT Act sections 17–42 and the applicable Certifying Authorities Rules. Sections 17–20 establish the Controller and core regulatory functions; sections 21–34 address licensing, supervision, investigation, procedures and disclosure by Certifying Authorities; sections 35–39 govern issuance, representations, suspension, revocation and notice concerning electronic signature certificates; sections 40–42 govern subscriber key generation, acceptance and private-key control. The current Act uses electronic-signature terminology after the 2008 amendment. Apply the exact section and applicable rules to the facts.",
       "examples": [
         "A subscriber applies to a licensed Certifying Authority with the required particulars. The Authority follows the statutory application, enquiry and certification-practice requirements before issuing the certificate.",
         "A subscriber discovers that the private key corresponding to a certificate may have been compromised. Section 42 requires prompt communication to the Certifying Authority; the subscriber remains liable under the statutory rule until notification.",
@@ -247,12 +247,12 @@
         "Certificate regulation and evidentiary admissibility are distinct questions."
       ],
       "authoritativeSources": [
-        "MeitY \u2014 Information Technology Act, 2000",
+        "MeitY — Information Technology Act, 2000",
         "Information Technology (Certifying Authorities) Rules, 2000"
       ],
       "verification": {
         "status": "SOURCE_CHECKED",
-        "note": "Sections 17\u201342 checked against current MeitY IT Act material on 2026-10-08; case-law gate remains separate.",
+        "note": "Sections 17–42 checked against current MeitY IT Act material on 2026-10-08; case-law gate remains separate.",
         "date": "2026-10-08"
       },
       "distinctions": [
@@ -261,14 +261,14 @@
       ],
       "distinctionsGate": "drawn",
       "caseLaw": [
-        "Shreya Singhal v. Union of India \u2014 historical status of s.66A",
-        "Anvar P.V. v. P.K. Basheer \u2014 electronic evidence proof",
-        "K.S. Puttaswamy v. Union of India \u2014 constitutional privacy"
+        "Shreya Singhal v. Union of India — historical status of s.66A",
+        "Anvar P.V. v. P.K. Basheer — electronic evidence proof",
+        "K.S. Puttaswamy v. Union of India — constitutional privacy"
       ],
       "caseLawGate": "verification_required",
       "examAnswerStructure": {
         "tenMark": "Architecture; CA lifecycle; subscriber duties; conclusion.",
-        "sixteenMark": "Introduction; ss.17\u201320; ss.21\u201334; ss.35\u201339; ss.40\u201342; evidence distinction; application; conclusion."
+        "sixteenMark": "Introduction; ss.17–20; ss.21–34; ss.35–39; ss.40–42; evidence distinction; application; conclusion."
       },
       "lastBotRunAt": "2026-10-08T00:00:00.000Z",
       "bot": "manual-quality-remediation",
