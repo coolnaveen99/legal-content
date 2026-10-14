@@ -1447,3 +1447,18 @@ Missing gate: do not apply physical-share numbering requirement to dematerialise
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 45 cleanup committed as `364e54fd3c546e4a8c3788a14ba1aa3409150ee6`. JSON parse and focused assertions passed; distinctive-number rule and depository-record exception are explicit; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; official source verification remains open.
+
+
+## Company Law s. 44 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — nature of shares and transferability  
+Topic/section range: `topics/company/ca-s-44.json` only  
+Current main topic blob SHA: `98422dbc927360fc266de4a22b8fb910c43b2468`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s44-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify movable-property characterization, transferability subject to articles and dematerialised form against current text  
+Missing gate: distinguish share transferability from transfer registration requirements and restrictions in other provisions  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
