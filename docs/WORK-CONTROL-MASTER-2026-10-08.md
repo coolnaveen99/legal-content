@@ -816,4 +816,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish charge-register maintenance from charge registration/filing and avoid importing outdated penalties  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 85 completeness correction committed as `774a20bd913ddbe24ca07171a5b71d66458f5e13`. JSON parse and focused assertions passed; register, charge-instrument copies, inspection rights and section 77 distinction are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 84 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-84.json` only  
+Current main topic blob SHA: `e7a5631a76cdd5eb5d823546f6900681043d56cf`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s84-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify notice/filing duty after appointment of receiver or manager, time limits and relevant charges against official text  
+Missing gate: distinguish appointment intimation from creation, modification or satisfaction filings and avoid invented deadlines/penalties  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
