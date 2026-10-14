@@ -786,4 +786,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: preserve the section's accidental/inadvertent/sufficient-cause or non-prejudice criteria; do not imply an unrestricted power to rectify charges  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 87 scope correction committed as `387bd8f0f1222e133953f2bee4d4e749afa67ed4`. JSON parse and focused assertions passed; specified charge-related omissions, applicant standing and statutory grounds are stated. Topic status remains `review`; official PDF checksum/byte-level review and legal sign-off remain open.
+
+
+## Company Law s. 86 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-86.json` only  
+Current main topic blob SHA: `3d19c0d60bef8b0f1ea6232db99df21246dc8ea0`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s86-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the amended chapter-wide penalty and the separate false-information offence under section 77/section 447 cross-reference  
+Missing gate: do not retain superseded imprisonment/fine wording for the general chapter default; preserve the separate wilful-false-information route  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
