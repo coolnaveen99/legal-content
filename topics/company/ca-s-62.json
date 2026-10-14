@@ -7,24 +7,39 @@
   "title": "Companies Act, 2013 — Section 62 (Further Issue of Share Capital)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 62 governs further issue of share capital. Where a company with a share capital proposes to increase subscribed capital by issue of further shares, such shares must be offered to existing equity shareholders in proportion to their paid-up share capital (rights issue), subject to the right to renounce. Alternative routes include issue to employees under ESOP or to any persons (preferential basis) if authorised by special resolution, on conditions prescribed. Time limits and notice requirements apply to the rights offer.",
-    "glance": "Further shares: first offer to existing equity holders pro rata (rights issue with renunciation); or ESOP; or preferential issue on special resolution and prescribed conditions.",
-    "study": "Where at any time a company having a share capital proposes to increase its subscribed capital by the issue of further shares, such shares shall be offered to persons who, at the date of the offer, are holders of equity shares of the company in proportion, as nearly as circumstances admit, to the paid-up share capital on those shares by sending a letter of offer subject to prescribed conditions; the offer must state the number of shares offered and limit the time (not less than fifteen days and not exceeding thirty days) within which the offer if not accepted will be deemed declined; unless the articles otherwise provide, the offer includes a right of renunciation. Notwithstanding the rights route, further shares may be offered to employees under a scheme of employees’ stock option subject to special resolution, or to any persons (whether or not including existing shareholders or employees) if authorised by special resolution, either for cash or for consideration other than cash, subject to prescribed conditions including valuation. Current-law framing: identify proposed further issue; apply rights offer as default; or map ESOP/preferential special-resolution routes and conditions.",
+    "overview": "Section 62 governs further issue of share capital: a pro-rata rights offer to existing equity holders is the default, with statutory routes for ESOPs, preferential issues and certain conversion terms.",
+    "glance": "Section 62 governs further issue of share capital: a pro-rata rights offer to existing equity holders is the default, with statutory routes for ESOPs, preferential issues and certain conversion terms.",
+    "study": "Companies Act, 2013 — Section 62 (Further issue of share capital). When a company with share capital proposes to increase subscribed capital by issuing further shares, the default under section 62(1)(a) is an offer to existing equity shareholders in proportion, as nearly as circumstances admit, to paid-up share capital on their shares. The letter of offer must state the number offered and the statutory acceptance period (ordinarily 15–30 days); unless the articles provide otherwise, the offer includes a right of renunciation. After rejection or expiry, the Board may dispose of the shares in a manner not disadvantageous to shareholders and the company. Alternative routes include an ESOP under section 62(1)(b), subject to special resolution, and an issue to any persons under section 62(1)(c), subject to special resolution and prescribed conditions including valuation. Check any private-company rule permitting a shorter rights-offer period only where its exact consent conditions are met. Section 62 also addresses conversion of loans/debentures into shares where the terms were approved by special resolution before issue, and Government-directed conversion in the circumstances stated in subsections (4)–(6). Section 42 private placement and section 23 issue modes may also apply depending on the transaction. This topic remains under rule-level and case-law review.",
     "sections": [
       {
-        "heading": "Rights Issue (Default)",
-        "body": "Further shares offered to existing equity holders in proportion to paid-up capital; letter of offer with 15–30 day window; renunciation unless articles exclude.",
+        "heading": "Rights issue — default route",
+        "body": "Further shares are offered to existing equity holders pro rata to paid-up capital as nearly as circumstances admit. The letter of offer states the number offered and the statutory acceptance period, ordinarily 15–30 days. Unless the articles otherwise provide, the offer includes a right of renunciation.",
         "order": 1
       },
       {
-        "heading": "ESOP Route",
-        "body": "Offer to employees under ESOP scheme with special resolution and prescribed conditions.",
+        "heading": "Disposition of declined/unaccepted shares",
+        "body": "After the offer is declined or expires, the Board may dispose of the shares in a manner not disadvantageous to the shareholders and the company. Apply the statutory condition to the actual allotment.",
         "order": 2
       },
       {
-        "heading": "Preferential Issue",
-        "body": "Offer to any persons on special resolution, for cash or non-cash consideration, subject to prescribed conditions including valuation.",
+        "heading": "Employee stock option route",
+        "body": "Further shares may be offered to employees under an employees' stock option scheme authorised by special resolution, subject to applicable rules.",
         "order": 3
+      },
+      {
+        "heading": "Preferential issue",
+        "body": "Further shares may be offered to any persons, whether or not including existing shareholders or employees, if authorised by special resolution and the prescribed conditions are met, including valuation where required. Private-placement requirements may also apply.",
+        "order": 4
+      },
+      {
+        "heading": "Conversion and Government-directed issue",
+        "body": "Section 62 includes separate provisions for conversion of loans/debentures into shares where the terms were approved by special resolution before issue, and for Government-directed conversion in the circumstances and subject to the procedure in subsections (4)–(6).",
+        "order": 5
+      },
+      {
+        "heading": "Private-company shorter period and connected routes",
+        "body": "Do not assume the ordinary rights-offer period can be shortened automatically. Check the current private-company rule and its exact consent conditions. Distinguish section 62 further issue from section 42 private placement and the issue modes in section 23.",
+        "order": 6
       }
     ],
     "provisions": [
@@ -52,21 +67,30 @@
     ],
     "hypotheticals": [
       {
-        "question": "Can the company issue further shares only to outsiders without a special resolution?",
-        "analysis": "No. The default is a rights offer to existing equity holders. Preferential issue to others requires a special resolution and prescribed conditions under s. 62."
+        "question": "A company wants to allot further shares to a strategic investor rather than first offering them pro rata to existing equity holders. What route must be analysed?",
+        "analysis": "The default is a rights offer under section 62(1)(a). An issue to other persons requires the special-resolution and prescribed conditions under section 62(1)(c), including valuation where required; section 42 private-placement requirements may also apply."
+      },
+      {
+        "question": "A company wants to use a shorter rights-offer period in a private company. Can it simply set a shorter deadline?",
+        "analysis": "No. Verify the current private-company rule and satisfy its exact written/electronic consent conditions before using a shorter period."
       }
     ],
     "distinctions": [
       {
         "id": "ca-s62-vs-s42",
-        "title": "Further issue (s. 62) vs private placement (s. 42)",
-        "left": "Rights / ESOP / preferential further issue framework",
-        "right": "Private placement of securities to identified persons",
+        "title": "Further issue and private placement",
+        "left": "Section 62 governs rights, ESOP and preferential further-issue routes.",
+        "right": "Section 42 governs the separate private-placement procedure where applicable.",
         "rows": [
           {
             "point": "Focus",
-            "left": "Increase of subscribed capital routes",
-            "right": "Private placement procedure"
+            "left": "Shareholder pre-emption and permitted further-issue routes",
+            "right": "Offer/invitation to identified persons and private-placement compliance"
+          },
+          {
+            "point": "Approval",
+            "left": "Depends on the section 62 route",
+            "right": "Apply section 42 and applicable rules"
           }
         ]
       }
@@ -74,8 +98,18 @@
     "misconceptions": [
       {
         "id": "ca-s62-trap-1",
-        "trap": "Board can always issue further shares to anyone without shareholder approval.",
-        "correction": "Default is rights issue to existing equity holders; ESOP and preferential routes need special resolution (and prescribed conditions)."
+        "trap": "Assuming the Board can always issue further shares to any person without shareholder approval.",
+        "correction": "The default is a pro-rata rights offer; ESOP and preferential routes require the relevant special resolution and prescribed conditions."
+      },
+      {
+        "id": "ca-s62-trap-2",
+        "trap": "Assuming renunciation is always excluded or always unconditional.",
+        "correction": "Unless the articles otherwise provide, the rights offer includes renunciation; apply the articles and applicable rules."
+      },
+      {
+        "id": "ca-s62-trap-3",
+        "trap": "Treating section 62 preferential issue and section 42 private placement as interchangeable.",
+        "correction": "Apply the separate requirements of each provision where the transaction engages them."
       }
     ],
     "cases": [
@@ -84,50 +118,50 @@
         "year": 1981,
         "citation": "(1981) 3 SCC 333",
         "court": "Supreme Court of India",
-        "facts": "Share issue powers and alleged oppression examined.",
-        "issue": "When does a share issue become oppressive or invalid?",
-        "ratioDecidendi": "Court examines purpose, fairness, statutory power and resulting prejudice.",
-        "holding": "Corporate action assessed under statutory and equitable framework.",
-        "relevance": "Already in file; relevant to share issue fairness.",
+        "facts": "The Court examined a share issue and allegations of oppression.",
+        "issue": "Whether the share issue was legally valid and oppressive.",
+        "ratioDecidendi": "The validity and fairness of a share issue are assessed by reference to statutory power, purpose and the facts; dilution alone does not establish oppression.",
+        "holding": "The Court assessed the share issue within the statutory and equitable framework.",
+        "relevance": "Relevant context for share-issue purpose and oppression, not a substitute for section 62's text.",
         "judgmentId": "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
       }
     ],
     "questionsAndAnswers": [
       {
-        "id": "ca-s62-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 62 problem be analysed?",
-        "answer": "I. Identify proposed further issue. II. Apply rights default or ESOP/preferential special-resolution route. III. Check notice period and conditions. IV. Conclude.",
-        "explanation": "IRAC."
+        "question": "What is the default route for further issue of shares?",
+        "answer": "A pro-rata offer to existing equity shareholders under section 62(1)(a), subject to the statutory period, renunciation and disposal provisions."
       },
       {
-        "id": "ca-s62-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Issue proposal; route chosen; resolution/conditions; precise relief.",
-        "explanation": "Submissions."
+        "question": "Does a preferential issue require only a Board decision?",
+        "answer": "No. Section 62(1)(c) requires a special resolution and prescribed conditions, including valuation where required."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013 — Section 62",
-      "Connected: Sections 42, 23, 42"
+      "Companies Act, 2013, section 62 — Further issue of share capital",
+      "Companies Act, 2013, section 42 — Private placement",
+      "Companies Act, 2013, section 23 — Public offer and private placement",
+      "Companies (Share Capital and Debentures) Rules, 2014, as amended"
     ],
     "examTips": [
-      "Default = rights issue pro rata.",
-      "ESOP and preferential need special resolution.",
-      "15–30 day offer window for rights."
+      "Identify the route: rights, ESOP, preferential, conversion or Government-directed issue.",
+      "For rights issues, check pro-rata entitlement, offer period, renunciation and disposal of declined shares.",
+      "For ESOP/preferential issues, verify special resolution and current rule/valuation conditions.",
+      "Check whether section 42 private placement and section 23 also apply."
     ],
     "revisionPoints": [
-      "Rights issue (default)",
-      "ESOP route",
-      "Preferential issue"
+      "Rights offer to existing equity holders is the default under section 62(1)(a).",
+      "The rights offer ordinarily gives 15–30 days and includes renunciation unless the articles provide otherwise.",
+      "ESOP and preferential routes require special resolution and prescribed conditions.",
+      "A private-company shorter period depends on exact current rule/consent conditions.",
+      "Conversion and Government-directed issues are separate statutory routes."
     ],
     "relatedJudgments": [
       "judgment:india:needle-industries-india-ltd-v-needle-industries-newey-india-holding-ltd-1981"
     ],
     "relatedTopics": [
       "company-ca-s-42",
-      "company-ca-s-23"
+      "company-ca-s-23",
+      "company-ca-s-63"
     ],
     "illustrations": [],
     "legacySubjectSlug": "company",
@@ -141,25 +175,30 @@
         "State the rights-issue default under s. 62.",
         "Explain ESOP and preferential alternative routes."
       ],
-      "definition": "Section 62 requires further shares to be offered first to existing equity holders pro rata (rights issue), with alternative ESOP and preferential routes on special resolution and prescribed conditions.",
-      "legalPrinciple": "Existing equity holders have a statutory pre-emptive opportunity unless a special-resolution alternative route is validly used.",
-      "statutoryFramework": "Companies Act, 2013, Section 62.",
+      "definition": "Section 62 governs further issue of share capital: a pro-rata rights offer to existing equity holders is the default, with statutory routes for ESOPs, preferential issues and certain conversion terms.",
+      "legalPrinciple": "Existing equity holders receive the statutory pre-emptive opportunity by default; ESOP, preferential, conversion and Government-directed routes must satisfy their separate conditions.",
+      "statutoryFramework": "Companies Act, 2013, section 62, read with sections 23 and 42 and applicable rules.",
       "essentialIngredients": [
         "Proposal to increase subscribed capital by further shares",
-        "Default: pro rata offer to existing equity holders with 15–30 day window and renunciation",
-        "Or ESOP with special resolution",
-        "Or preferential issue with special resolution and prescribed conditions"
+        "Rights offer pro rata and statutory period/renunciation",
+        "Board disposal of declined/expired offers under statutory standard",
+        "ESOP route with special resolution",
+        "Preferential issue with special resolution and prescribed conditions/valuation",
+        "Loan/debenture conversion and Government-directed routes where relevant",
+        "Private-company shorter-period rule only if conditions are met"
       ],
-      "detailedExplanation": "Section 62 balances pre-emptive rights of existing shareholders with flexibility for ESOP and preferential capital raising.",
+      "detailedExplanation": "Companies Act, 2013 — Section 62 (Further issue of share capital). When a company with share capital proposes to increase subscribed capital by issuing further shares, the default under section 62(1)(a) is an offer to existing equity shareholders in proportion, as nearly as circumstances admit, to paid-up share capital on their shares. The letter of offer must state the number offered and the statutory acceptance period (ordinarily 15–30 days); unless the articles provide otherwise, the offer includes a right of renunciation. After rejection or expiry, the Board may dispose of the shares in a manner not disadvantageous to shareholders and the company. Alternative routes include an ESOP under section 62(1)(b), subject to special resolution, and an issue to any persons under section 62(1)(c), subject to special resolution and prescribed conditions including valuation. Check any private-company rule permitting a shorter rights-offer period only where its exact consent conditions are met. Section 62 also addresses conversion of loans/debentures into shares where the terms were approved by special resolution before issue, and Government-directed conversion in the circumstances stated in subsections (4)–(6). Section 42 private placement and section 23 issue modes may also apply depending on the transaction. This topic remains under rule-level and case-law review.",
       "examples": [
-        "Rights offer",
-        "Preferential issue"
+        "The default is a rights offer under section 62(1)(a). An issue to other persons requires the special-resolution and prescribed conditions under section 62(1)(c), including valuation where required; section 42 private-placement requirements may also apply.",
+        "No. Verify the current private-company rule and satisfy its exact written/electronic consent conditions before using a shorter period."
       ],
-      "problemApplication": "Map proposed issue to rights, ESOP or preferential route; test compliance.",
+      "problemApplication": "Classify the proposed issue route, apply the rights default or relevant statutory alternative, verify approval/valuation/offer period and applicable private-placement requirements.",
       "keyTakeaways": [
-        "Rights issue is the default.",
-        "ESOP and preferential need special resolution.",
-        "Offer window 15–30 days for rights."
+        "Rights offer to existing equity holders is the default under section 62(1)(a).",
+        "The rights offer ordinarily gives 15–30 days and includes renunciation unless the articles provide otherwise.",
+        "ESOP and preferential routes require special resolution and prescribed conditions.",
+        "A private-company shorter period depends on exact current rule/consent conditions.",
+        "Conversion and Government-directed issues are separate statutory routes."
       ],
       "authoritativeSources": [
         "Companies Act, 2013, Section 62",
@@ -167,26 +206,34 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Core section 62 routes and rights-offer conditions have been clarified. Current private-company shortened-period consent conditions, current valuation/filing rules, official PDF byte-level review and primary-report case-law verification remain open.",
+        "date": "2026-10-14"
       },
       "distinctions": [
-        "Further issue (s. 62) vs private placement (s. 42)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
         {
-          "name": "Needle Industries (India) Ltd v Needle Industries Newey (India) Holding Ltd",
-          "citation": "(1981) 3 SCC 333",
-          "point": "A rights issue that dilutes an existing member can be oppression if it is burdensome, harsh and wrongful. A rights issue made for a proper purpose and in accordance with section 62 is not oppression merely because a member cannot subscribe."
+          "id": "ca-s62-vs-s42",
+          "title": "Further issue and private placement",
+          "left": "Section 62 governs rights, ESOP and preferential further-issue routes.",
+          "right": "Section 42 governs the separate private-placement procedure where applicable.",
+          "rows": [
+            {
+              "point": "Focus",
+              "left": "Shareholder pre-emption and permitted further-issue routes",
+              "right": "Offer/invitation to identified persons and private-placement compliance"
+            },
+            {
+              "point": "Approval",
+              "left": "Depends on the section 62 route",
+              "right": "Apply section 42 and applicable rules"
+            }
+          ]
         }
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Rights default; alternatives; conclude.",
-        "sixteenMark": "Introduction; rights; ESOP; preferential; application; conclusion."
-      },
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "case-law-relevance-and-primary-report-verification-open",
+      "examAnswerStructure": "Identify proposed further issue; state rights-offer default and conditions; analyse ESOP/preferential/conversion alternative if chosen; check section 42 and current rules; conclude.",
       "lastBotRunAt": "2026-10-09T19:05:00.000Z",
       "bot": "manual-quality-remediation",
       "rules": [
@@ -210,7 +257,7 @@
   "sources": [
     "source:india:india-code-companies-act-2013"
   ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
