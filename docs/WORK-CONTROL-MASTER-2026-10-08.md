@@ -846,4 +846,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish partial satisfaction/release from full satisfaction and avoid implying that the Registrar must rely only on company intimation  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 83 completeness correction committed as `95d4f6538dc228c39a644935e4cea3d155f2b6b0`. JSON parse and focused assertions passed; evidence threshold, partial satisfaction/release, no-company-intimation power and thirty-day notice are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 82 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-82.json` only  
+Current main topic blob SHA: `b7de295b4a04a9c9b3bccd2ee0502c09b1c1a393`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s82-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify thirty-day satisfaction intimation, optional extension up to 300 days, charge-holder show-cause notice, exceptions and Registrar entries against current official text  
+Missing gate: preserve the distinction between the company's duty, Registrar process and the section 83 power to act without company intimation  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
