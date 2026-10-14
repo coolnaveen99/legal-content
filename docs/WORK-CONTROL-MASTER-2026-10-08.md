@@ -400,4 +400,19 @@ Latest evidence: section 378ZH allows donation/subscription by special resolutio
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve purpose restrictions, cap and political-contribution prohibition  
 Planned change: exact-topic cleanup only; no invented exceptions or broader donation powers  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZH cleanup committed as `5e75d590c7b8867373f8fd0a1656cb57a93e166c`. JSON parse and targeted contamination scan passed; permitted purposes, special resolution, preceding-year profit cap and political-purpose prohibition are separated. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZG reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zg.json` only  
+Current main topic blob SHA: `6874c362376a3b4b33f7dcb5f67170b1da36a4ae`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zg-reverse`  
+Latest evidence: section 378ZG requires an auditor to report on specified additional matters, including debts/bad debts, cash and securities, assets/liabilities, contrary transactions, director loans, donations/subscriptions and other necessary matters  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate judgments; preserve each additional audit-reporting item and the without-prejudice relationship to section 143  
+Planned change: exact-topic cleanup only; do not add audit duties not stated in the section  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
