@@ -1,5 +1,21 @@
 # Work Control Master — Legal Content
 
+## Company Law s. 58 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — refusal of registration and appeal against refusal  
+Topic/section range: `topics/company/ca-s-58.json` only  
+Current main topic blob SHA (before): `21a78ef7e0c26b6fe16e70f3e671c86e6b606b80`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s58-reverse`  
+Latest evidence: India Code PDF A2013-18 section 58 text; s. 58(1) private-company notice with reasons within 30 days; s. 58(2) public free transferability + contract proviso; s. 58(3)–(4) distinct appeal periods; s. 58(5) Tribunal 10-day registration / rectification + damages; s. 58(6) penalty for contravention  
+Missing gate: case-law review, full repository validation, SEO, production, human legal sign-off  
+Planned change: source-supported additive correction only; preserve review status  
+Validation: focused statutory alignment to official text  
+Evidence/commit: section 58 correction committed as `1b0036c5e9088e0cdca40077ee03683e68887729`. Overview, study, sections, examples, distinctions and exam structures aligned to s. 58(1)–(6). Topic status remains `review` / SOURCE_CHECK_REQUIRED. No case-law or publication claim.
+
+---
+
 ## Company Law s. 59 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
@@ -113,5 +129,6 @@ If any field cannot be established, STOP.
 - s.62: in progress / evidence pending full record.
 - s.61: committed `78d33217591f433e429f6a37fc9aa5cb71ade856`.
 - s.60: committed — source-aligned to India Code PDF; status remains review.
-- s.59: this entry — source-aligned to India Code PDF; status remains review.
+- s.59: committed — source-aligned to India Code PDF; status remains review.
+- s.58: this entry — source-aligned to India Code PDF; status remains review.
 - Producer Company ranges 378A–378X: enhancement completed earlier; not COMPLETE_LOCKED.
