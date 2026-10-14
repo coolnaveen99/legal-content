@@ -951,4 +951,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: preserve the transitional rules for charges created before/after amendment commencement and do not treat charge-holder filing under section 78 as the company's normal route  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 77 correction committed as `e7a1f7a65b90727f9c30b1f569de27904cacc243`. JSON parse and focused assertions passed; the thirty-day duty, sixty-day Registrar allowance, section 87 extension path, certificate effect and preserved repayment obligation are stated. Transitional treatment of older charges remains open.
+
+
+## Company Law s. 76 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-76.json` only  
+Current main topic blob SHA: `567b5d87ba9e8b997c73d25e600fc87845c757df`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s76-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify eligible public-company class, deposit invitation/advertisement requirements, net-worth/profit thresholds, limits, default restrictions and rules against official text  
+Missing gate: distinguish section 76 eligibility from section 73 general deposit rules and the separate section 76A offence/penalty  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
