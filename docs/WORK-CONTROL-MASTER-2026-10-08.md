@@ -1386,4 +1386,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ce0655bfe9, ac7fb
 Missing gate: distinguish company calls from voluntary advance payment under section 50 and dividend proportion under section 51  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 49 cleanup committed as `70220a8f2f28eab9b6804807b092595fd29a7fb`. JSON parse and focused assertions passed; the uniformity requirement and distinctions from sections 50–51 are explicit; generic boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
+
+
+## Company Law s. 48 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — variation of shareholders' rights  
+Topic/section range: `topics/company/ca-s-48.json` only  
+Current main topic blob SHA: `6691bd28aa6f07331aaba56755bf439ea796096a`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s48-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 2a9aefcfc5; verify consent threshold, special resolution/class resolution, articles restrictions, dissenting-holder application window and current filing procedure  
+Missing gate: distinguish class-rights variation from ordinary alteration of articles or share capital and verify statutory timelines/thresholds  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
