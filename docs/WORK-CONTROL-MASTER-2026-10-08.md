@@ -595,4 +595,4 @@ Latest evidence: latest topic commits: 3bec4ea9be, 70c8437aa1, 627518fc8e, 54c56
 Missing gate: identify any concrete omission without inventing a deadline, fee, or penalty  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 117 current-penalty correction committed as `2bfbcf7606bc077a9fd9ef4586922de6a8d4501e`. JSON parse and focused assertions passed; current company/officer penalties and separate continuing-default caps are recorded. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
