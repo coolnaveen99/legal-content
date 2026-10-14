@@ -1146,4 +1146,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish unlimited-liability conversion from share-capital reduction and preserve member/creditor protections  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 65 correction committed as `9fdf3128cd234a0a56157c3901c4daf78d889ebc`. JSON parse and focused assertions passed; both statutory options and the winding-up-only callability rule are explicit, and template boilerplate was removed. Topic status remains `review`; legal/source verification remains open.
+
+
+## Company Law s. 64 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — notice to Registrar for alteration of share capital  
+Topic/section range: `topics/company/ca-s-64.json` only  
+Current main topic blob SHA: `65c2556888fe9a6513c6f4167a713e97900edb50`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s64-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 10b135d14c, cc15b04eea, 45fb1da636; verify covered alterations, filing deadline, altered memorandum and current penalty/cap against amended subsection (2)  
+Missing gate: distinguish section 64 filing events from other share-capital events and use the current penalty introduced by amendments  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
