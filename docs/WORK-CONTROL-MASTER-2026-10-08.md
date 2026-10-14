@@ -921,4 +921,19 @@ Latest evidence: current topic title identifies section 93 as omitted but its st
 Missing gate: record the omission instrument/effective date and distinguish historical section 93 from the current section 90 SBO regime  
 Planned change: metadata/content clarity only; do not restore the omitted obligation  
 Validation: JSON parse and assertions for omission instrument/effective date; preserve topic status  
-Evidence/commit: to be recorded after implementation.
+Evidence/commit: omission-status correction committed as `ee5fbba08761c559b5cb381dfe331eed45f36fd9`. JSON parse and focused assertions passed; section 93's omission instrument/effective date and distinction from current section 90 reporting are stated. Topic remains `review` as a historical status note; official Gazette byte-level review remains open.
+
+
+## Company Law s. 78 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-78.json` only  
+Current main topic blob SHA: `87c4894e84ad870f2f5d11ffbac5c2d9baae42b3`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s78-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify charge-holder fallback application, notice to company, Registrar's decision period, sufficient-cause response and fees against current official text  
+Missing gate: preserve the company's primary filing duty under section 77 and the charge-holder fallback without inventing an unrestricted right to late registration  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
