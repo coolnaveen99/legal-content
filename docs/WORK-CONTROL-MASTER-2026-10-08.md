@@ -550,4 +550,19 @@ Latest evidence: latest topic commits: b33ad3db06, 040e7b3c93, 627518fc8e, 54c56
 Missing gate: confirm the electronic-form record/inspection/copy rule and its prescribed manner without inventing additional requirements  
 Planned change: only make a correction if the official statutory text identifies a concrete omission; preserve review status and source provenance  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 120 scope correction committed as `800a9347357dea39c081b07bb57a185402ef822d`. JSON parse and focused assertions passed; electronic maintenance, inspection and copies are now separately stated. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 119 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-119.json` only  
+Current main topic blob SHA: `ff19989234906ce884cad5babbbafe9af49f17e8`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s119-reverse`  
+Latest evidence: latest topic commits: 73fcb64527, a7d9ab63c9, 627518fc8e, 54c56c7ef2; verify the current inspection right, request procedure, time and copy/fee provisions against the official statutory text before editing  
+Missing gate: confirm any statutory details omitted from the existing topic without broadening who may inspect or inventing fees/deadlines  
+Planned change: make only a source-supported correction; preserve review status and provenance  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
