@@ -1101,4 +1101,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: separate section 68 general conditions from additional section 70 prohibitions and current SEBI rules for listed companies  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 68 enhancement committed as `e048c8ca2ed3a22324f85b55cf3dc336a58e075f`. JSON parse and focused assertions passed; funding, resolution threshold, caps, debt-equity ratio, process and section 70 interaction are covered. Exact current deadlines/forms and SEBI rules remain pending verification; topic remains `review`.
+
+
+## Company Law s. 67 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — restrictions on purchase of own shares/financial assistance  
+Topic/section range: `topics/company/ca-s-67.json` only  
+Current main topic blob SHA: `28c164a42395b70bab280eaff53ffe1e34c47dd8`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s67-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify the scope of prohibition, public-company subsidiary application, exceptions and relationship to employee-benefit schemes under current text/rules  
+Missing gate: distinguish financial assistance restrictions from section 68 buy-back and avoid treating all private-company assistance as prohibited  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
