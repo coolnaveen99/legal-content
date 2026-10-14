@@ -1312,3 +1312,18 @@ Missing gate: distinguish sweat equity from employee stock options, bonus shares
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 54 cleanup committed as `5bda64fa96f8f0616bae173c75bbdefe9065fc49`. JSON parse and focused assertions passed; qualifying purpose, recipient, resolution particulars, one-year condition and rule-level review gates are explicit. Topic remains `verification_in_progress`; current valuation/limit/lock-in rules remain open.
+
+
+## Company Law s. 53 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — prohibition on issue of shares at discount  
+Topic/section range: `topics/company/ca-s-53.json` only  
+Current main topic blob SHA: `93ff56107db0c90dbc49e104a85be18e327dd403`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s53-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify general prohibition, statutory exceptions, issue-at-discount treatment and current penalty against amended Act/rules  
+Missing gate: distinguish prohibited discount issue from section 54 sweat equity and other lawful issue pricing/consideration routes  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
