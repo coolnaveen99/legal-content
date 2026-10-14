@@ -1,189 +1,207 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-172",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 \u2014 Section 172 (Punishment)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 172 is the residual penalty provision for Chapter XI (Appointment and Qualifications of Directors). If a company contravenes any of the provisions of this Chapter and no specific penalty or punishment is provided elsewhere, the company and every officer of the company who is in default are liable to a penalty as specified in the section.",
-    "glance": "Residual penalty for Chapter XI contraventions where no specific penalty is provided; company and every officer in default are liable.",
-    "study": "If a company contravenes any of the provisions of this Chapter and for which no specific punishment is provided therein, the company and every officer of the company who is in default shall be liable to a penalty as provided in the section (as in force). Where a provision of the Chapter has its own specific penalty (for example section 159 for certain DIN defaults), that specific penalty applies and section 172 is not used as a substitute. Current-law framing: identify the Chapter XI provision breached; check whether a specific penalty exists; if not, apply s. 172 to company and officers in default.",
-    "sections": [
-      {
-        "heading": "Scope",
-        "body": "Applies to contraventions of Chapter XI (Appointment and Qualifications of Directors) for which no specific penalty is provided.",
-        "order": 1
-      },
-      {
-        "heading": "Who Is Liable",
-        "body": "The company and every officer of the company who is in default.",
-        "order": 2
-      },
-      {
-        "heading": "Residual Character",
-        "body": "Where a section in the Chapter has its own penalty, that penalty governs; s. 172 fills the gap only when none is provided.",
-        "order": 3
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-172",
-        "section": "Section 172",
-        "title": "Punishment"
-      }
-    ],
-    "examples": [
-      {
-        "title": "No specific penalty",
-        "body": "A Chapter XI duty is breached and the particular section states no penalty of its own. Section 172 supplies the residual penalty for the company and officers in default.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Specific penalty exists",
-        "body": "A DIN default falls under section 159. The specific penalty in s. 159 applies; s. 172 is not used in place of it.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Does s. 172 override a specific penalty in another section of the same Chapter?",
-        "analysis": "No. Section 172 applies only where no specific punishment is provided for the contravention. Specific penalties take priority."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s172-vs-s159",
-        "title": "Residual Chapter penalty (s. 172) vs specific DIN penalty (s. 159)",
-        "left": "Gap-filler for Chapter XI where no specific penalty exists",
-        "right": "Specific penalty for defaults under ss. 152, 155 and 156",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Residual",
-            "right": "Specific"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s172-trap-1",
-        "trap": "Section 172 is the only penalty provision for all director-related breaches.",
-        "correction": "Many sections have their own penalties. Section 172 is residual and applies only when no specific penalty is provided."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s172-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 172 problem be analysed?",
-        "answer": "I. Identify Chapter XI provision breached. II. Check for a specific penalty. III. If none, apply s. 172 to company and officers in default. IV. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s172-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Provision breached; absence of specific penalty; defaulting officers; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 \u2014 Section 172",
-      "Connected: Chapter XI generally; Section 159"
-    ],
-    "examTips": [
-      "Residual only \u2014 check for specific penalty first.",
-      "Company and every officer in default.",
-      "Chapter XI scope."
-    ],
-    "revisionPoints": [
-      "Scope",
-      "Who is liable",
-      "Residual character"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-159",
-      "company-ca-s-170"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-172",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the residual penalty rule under s. 172.",
-        "Distinguish it from specific Chapter penalties."
-      ],
-      "definition": "Section 172 penalises the company and every officer in default for Chapter XI contraventions where no specific penalty is provided.",
-      "legalPrinciple": "Gaps in the Chapter's enforcement scheme are closed by a residual penalty so that no contravention is left unsanctioned merely for want of a specific fine.",
-      "statutoryFramework": "Companies Act, 2013, Section 172.",
-      "essentialIngredients": [
-        "Contravention of a Chapter XI provision",
-        "No specific penalty provided for that contravention",
-        "Liability of company and every officer in default"
-      ],
-      "detailedExplanation": "Section 172 is the residual enforcement provision for the directors chapter.",
-      "examples": [
-        "No specific penalty",
-        "Specific penalty exists"
-      ],
-      "problemApplication": "Map breach; check specific penalty; apply residual if needed.",
-      "keyTakeaways": [
-        "Residual only.",
-        "Company + officers in default.",
-        "Specific penalties take priority."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 172"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; penalty quantum not invented; case-law verification separate.",
-        "date": "2026-10-10"
-      },
-      "distinctions": [
-        "Residual Chapter penalty (s. 172) vs specific DIN penalty (s. 159)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Residual rule; who liable; conclude.",
-        "sixteenMark": "Introduction; scope; residual character; vs specific penalties; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-10T06:00:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s172-2026-10-10",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-10T06:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-172",
-    "chapter-xi-penalty"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-172",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 172 (Punishment)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 172 is the residual penalty provision for Chapter XI (Appointment and Qualifications of Directors). If a company contravenes any of the provisions of this Chapter and no specific penalty or punishment is provided elsewhere, the company and every officer of the company who is in default are liable to a penalty as specified in the section.",
+                    "glance":  "Residual penalty for Chapter XI contraventions where no specific penalty is provided; company and every officer in default are liable.",
+                    "study":  "If a company contravenes any of the provisions of this Chapter and for which no specific punishment is provided therein, the company and every officer of the company who is in default shall be liable to a penalty as provided in the section (as in force). Where a provision of the Chapter has its own specific penalty (for example section 159 for certain DIN defaults), that specific penalty applies and section 172 is not used as a substitute. Current-law framing: identify the Chapter XI provision breached; check whether a specific penalty exists; if not, apply s. 172 to company and officers in default.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Scope",
+                                         "body":  "Applies to contraventions of Chapter XI (Appointment and Qualifications of Directors) for which no specific penalty is provided.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Who Is Liable",
+                                         "body":  "The company and every officer of the company who is in default.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Residual Character",
+                                         "body":  "Where a section in the Chapter has its own penalty, that penalty governs; s. 172 fills the gap only when none is provided.",
+                                         "order":  3
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-172",
+                                           "section":  "Section 172",
+                                           "title":  "Punishment"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "No specific penalty",
+                                         "body":  "A Chapter XI duty is breached and the particular section states no penalty of its own. Section 172 supplies the residual penalty for the company and officers in default.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Specific penalty exists",
+                                         "body":  "A DIN default falls under section 159. The specific penalty in s. 159 applies; s. 172 is not used in place of it.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Does s. 172 override a specific penalty in another section of the same Chapter?",
+                                              "analysis":  "No. Section 172 applies only where no specific punishment is provided for the contravention. Specific penalties take priority."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s172-vs-s159",
+                                             "title":  "Residual Chapter penalty (s. 172) vs specific DIN penalty (s. 159)",
+                                             "left":  "Gap-filler for Chapter XI where no specific penalty exists",
+                                             "right":  "Specific penalty for defaults under ss. 152, 155 and 156",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Residual",
+                                                              "right":  "Specific"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s172-trap-1",
+                                               "trap":  "Section 172 is the only penalty provision for all director-related breaches.",
+                                               "correction":  "Many sections have their own penalties. Section 172 is residual and applies only when no specific penalty is provided."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s172-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 172 problem be analysed?",
+                                                    "answer":  "I. Identify Chapter XI provision breached. II. Check for a specific penalty. III. If none, apply s. 172 to company and officers in default. IV. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s172-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Provision breached; absence of specific penalty; defaulting officers; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 172",
+                                            "Connected: Chapter XI generally; Section 159"
+                                        ],
+                    "examTips":  [
+                                     "Residual only — check for specific penalty first.",
+                                     "Company and every officer in default.",
+                                     "Chapter XI scope."
+                                 ],
+                    "revisionPoints":  [
+                                           "Scope",
+                                           "Who is liable",
+                                           "Residual character"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-159",
+                                          "company-ca-s-170"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-172",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 172 (Punishment).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 172 is the residual penalty provision for Chapter XI (Appointment and Qualifications of Directors). If a company contravenes any of the provisions of this Chapter and no specific penalty or punishment is provided elsewhere, the company and every officer of the company who is in default are liable to a penalty as specified in the section.",
+                                        "legalPrinciple":  "Residual penalty for Chapter XI contraventions where no specific penalty is provided; company and every officer in default are liable.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 172 (Punishment)",
+                                        "essentialIngredients":  [
+                                                                     "Scope",
+                                                                     "Who Is Liable",
+                                                                     "Residual Character"
+                                                                 ],
+                                        "detailedExplanation":  "If a company contravenes any of the provisions of this Chapter and for which no specific punishment is provided therein, the company and every officer of the company who is in default shall be liable to a penalty as provided in the section (as in force). Where a provision of the Chapter has its own specific penalty (for example section 159 for certain DIN defaults), that specific penalty applies and section 172 is not used as a substitute. Current-law framing: identify the Chapter XI provision breached; check whether a specific penalty exists; if not, apply s. 172 to company and officers in default.",
+                                        "examples":  [
+                                                         "A Chapter XI duty is breached and the particular section states no penalty of its own. Section 172 supplies the residual penalty for the company and officers in default.",
+                                                         "A DIN default falls under section 159. The specific penalty in s. 159 applies; s. 172 is not used in place of it."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Residual penalty for Chapter XI contraventions where no specific penalty is provided; company and every officer in default are liable.",
+                                                             "Section 172 is the residual penalty provision for Chapter XI (Appointment and Qualifications of Directors). If a company contravenes any of the provisions of this Chapter and no specific penalty or punishment is provided elsewhere, the company and every officer of the company who is in default are liable to a penalty as specified in the section."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 172 (Punishment)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-10T06:00:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s172-2026-10-10",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-10T06:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-172",
+                 "chapter-xi-penalty"
+             ]
 }

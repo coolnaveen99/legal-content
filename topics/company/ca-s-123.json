@@ -1,64 +1,180 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-123",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 123 (Declaration of dividend)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Dividend shall be declared or paid by a company for any financial year only out of the profits of the company for that year arrived at after providing for depreciation, or out of profits of any previous financial year or years arrived at after providing for depreciation and remaining undistributed, or out of both, or out of money provided by the Central Government or a State Government for the payment of dividend in pursuance of a guarantee, subject to the conditions in section 123 and the applicable rules. Dividend, including interim dividend, is to be deposited in a separate scheduled-bank account within five days of declaration and paid within thirty days subject to section 127.",
-    "glance": "Dividend only out of profits after depreciation (or Government money for that purpose), with deposit within five days and payment within thirty days subject to section 127.",
-    "study": "## Section 123 — Declaration of dividend\n\n**Source rule.** Dividend may be declared or paid only out of profits for that year after providing for depreciation, or out of previous years' profits after depreciation remaining undistributed, or out of both, or out of money provided by the Central or a State Government for payment of dividend. Depreciation under Schedule II must be provided. Dividend cannot be declared from unrealised gains or revaluation reserves. A company in default of deposits cannot declare dividend during the default.\n\n**Interim dividend.** May be declared from surplus in the profit and loss account or from current-year profits, subject to the section.\n\n**Deposit and payment.** Dividend, including interim dividend, is to be deposited in a scheduled bank in a separate account within five days of declaration. It must be paid or the warrant posted within thirty days under section 127, failing which the company and directors face consequences, with the exceptions in section 127.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Source of dividend", "body": "Profits after depreciation (current or previous years or both), or Government money provided for that purpose. Not from unrealised or revaluation items.", "order": 1},
-      {"heading": "Deposit and payment", "body": "Separate scheduled-bank account within five days of declaration; payment within thirty days subject to section 127.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-123", "title": "Companies Act, 2013 — Section 123 (Declaration of dividend)"}],
-    "examples": [{"title": "Revaluation", "body": "An upward revaluation is not a fund for dividend. Educational illustration."}, {"title": "Five-day account", "body": "Declared dividend must move to a separate scheduled-bank account within five days. Educational illustration."}],
-    "hypotheticals": [{"question": "Can interim dividend be paid from previous-year losses if the current quarter is profitable?", "analysis": "Interim dividend must fit the source rules in section 123, including the current-profit and no-loss conditions stated in the section. A loss in the preceding quarter may restrict the rate as the section provides."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-123-trap-1", "trap": "Declaring dividend from revaluation reserves or unrealised gains.", "correction": "Section 123 does not permit declaration from unrealised gains or revaluation reserves."}, {"id": "ca-s-123-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within section 123, Schedule II depreciation, and sections 124–127."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "Out of what may a company declare dividend under section 123?", "answer": "Out of profits for the year after depreciation, or previous years' profits after depreciation remaining undistributed, or both, or out of Government money provided for that purpose, subject to the section and rules."}],
-    "bareActPointers": ["Companies Act, 2013, section 123", "Companies Act, 2013, sections 124–127"],
-    "examTips": ["Open with the source rule and depreciation.", "State the five-day deposit and thirty-day payment."],
-    "revisionPoints": ["Source: profits after depreciation or Government money.", "Deposit within five days; pay within thirty days (s. 127)."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-124", "ca-s-125", "ca-s-127"],
-    "illustrations": ["illustration:india:company-ca-s-123-profits", "illustration:india:company-ca-s-123-no-depreciation"],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-123",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Dividend only out of profits after depreciation or Government money, with deposit and payment timelines.",
-      "legalPrinciple": "Section 123 is the source rule for dividend; depreciation must be provided; deposit within five days; payment within thirty days subject to section 127.",
-      "statutoryFramework": ["Companies Act, 2013, section 123"],
-      "essentialIngredients": ["Source of profits after depreciation or Government money", "No declaration from unrealised or revaluation items", "Deposit within five days", "Payment within thirty days subject to section 127"],
-      "detailedExplanation": "Section 123 controls the source, deposit and payment framework for dividends.",
-      "examples": [],
-      "keyTakeaways": ["Profits after depreciation only (or Government money).", "Five-day deposit; thirty-day payment."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:00:00.000Z",
-      "bot": "current-assistant-company-batch-116-125",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the source and timeline rules for dividend under section 123."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-123",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 123 (Declaration of dividend)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Dividend shall be declared or paid by a company for any financial year only out of the profits of the company for that year arrived at after providing for depreciation, or out of profits of any previous financial year or years arrived at after providing for depreciation and remaining undistributed, or out of both, or out of money provided by the Central Government or a State Government for the payment of dividend in pursuance of a guarantee, subject to the conditions in section 123 and the applicable rules. Dividend, including interim dividend, is to be deposited in a separate scheduled-bank account within five days of declaration and paid within thirty days subject to section 127.",
+                    "glance":  "Dividend only out of profits after depreciation (or Government money for that purpose), with deposit within five days and payment within thirty days subject to section 127.",
+                    "study":  "## Section 123 — Declaration of dividend\n\n**Source rule.** Dividend may be declared or paid only out of profits for that year after providing for depreciation, or out of previous years\u0027 profits after depreciation remaining undistributed, or out of both, or out of money provided by the Central or a State Government for payment of dividend. Depreciation under Schedule II must be provided. Dividend cannot be declared from unrealised gains or revaluation reserves. A company in default of deposits cannot declare dividend during the default.\n\n**Interim dividend.** May be declared from surplus in the profit and loss account or from current-year profits, subject to the section.\n\n**Deposit and payment.** Dividend, including interim dividend, is to be deposited in a scheduled bank in a separate account within five days of declaration. It must be paid or the warrant posted within thirty days under section 127, failing which the company and directors face consequences, with the exceptions in section 127.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Source of dividend",
+                                         "body":  "Profits after depreciation (current or previous years or both), or Government money provided for that purpose. Not from unrealised or revaluation items.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Deposit and payment",
+                                         "body":  "Separate scheduled-bank account within five days of declaration; payment within thirty days subject to section 127.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-123",
+                                           "title":  "Companies Act, 2013 — Section 123 (Declaration of dividend)"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Revaluation",
+                                         "body":  "An upward revaluation is not a fund for dividend. Educational illustration."
+                                     },
+                                     {
+                                         "title":  "Five-day account",
+                                         "body":  "Declared dividend must move to a separate scheduled-bank account within five days. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can interim dividend be paid from previous-year losses if the current quarter is profitable?",
+                                              "analysis":  "Interim dividend must fit the source rules in section 123, including the current-profit and no-loss conditions stated in the section. A loss in the preceding quarter may restrict the rate as the section provides."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-123-trap-1",
+                                               "trap":  "Declaring dividend from revaluation reserves or unrealised gains.",
+                                               "correction":  "Section 123 does not permit declaration from unrealised gains or revaluation reserves."
+                                           },
+                                           {
+                                               "id":  "ca-s-123-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within section 123, Schedule II depreciation, and sections 124–127."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "Out of what may a company declare dividend under section 123?",
+                                                    "answer":  "Out of profits for the year after depreciation, or previous years\u0027 profits after depreciation remaining undistributed, or both, or out of Government money provided for that purpose, subject to the section and rules."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 123",
+                                            "Companies Act, 2013, sections 124–127"
+                                        ],
+                    "examTips":  [
+                                     "Open with the source rule and depreciation.",
+                                     "State the five-day deposit and thirty-day payment."
+                                 ],
+                    "revisionPoints":  [
+                                           "Source: profits after depreciation or Government money.",
+                                           "Deposit within five days; pay within thirty days (s. 127)."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-124",
+                                          "ca-s-125",
+                                          "ca-s-127"
+                                      ],
+                    "illustrations":  [
+                                          "illustration:india:company-ca-s-123-profits",
+                                          "illustration:india:company-ca-s-123-no-depreciation"
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-123",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "Dividend shall be declared or paid by a company for any financial year only out of the profits of the company for that year arrived at after providing for depreciation, or out of profits of any previous financial year or years arrived at after providing for depreciation and remaining undistributed, or out of both, or out of money provided by the Central Government or a State Government for the payment of dividend in pursuance of a guarantee, subject to the conditions in section 123 and the applicable rules. Dividend, including interim dividend, is to be deposited in a separate scheduled-bank account within five days of declaration and paid within thirty days subject to section 127.",
+                                        "legalPrinciple":  "Dividend only out of profits after depreciation (or Government money for that purpose), with deposit within five days and payment within thirty days subject to section 127.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 123 (Declaration of dividend)",
+                                        "essentialIngredients":  [
+                                                                     "Source of dividend",
+                                                                     "Deposit and payment"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 123 — Declaration of dividend\n\n**Source rule.** Dividend may be declared or paid only out of profits for that year after providing for depreciation, or out of previous years\u0027 profits after depreciation remaining undistributed, or out of both, or out of money provided by the Central or a State Government for payment of dividend. Depreciation under Schedule II must be provided. Dividend cannot be declared from unrealised gains or revaluation reserves. A company in default of deposits cannot declare dividend during the default.\n\n**Interim dividend.** May be declared from surplus in the profit and loss account or from current-year profits, subject to the section.\n\n**Deposit and payment.** Dividend, including interim dividend, is to be deposited in a scheduled bank in a separate account within five days of declaration. It must be paid or the warrant posted within thirty days under section 127, failing which the company and directors face consequences, with the exceptions in section 127.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "An upward revaluation is not a fund for dividend. Educational illustration.",
+                                                         "Declared dividend must move to a separate scheduled-bank account within five days. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Dividend only out of profits after depreciation (or Government money for that purpose), with deposit within five days and payment within thirty days subject to section 127.",
+                                                             "Dividend shall be declared or paid by a company for any financial year only out of the profits of the company for that year arrived at after providing for depreciation, or out of profits of any previous financial year or years arrived at after providing for depreciation and remaining undistributed, or out of both, or out of money provided by the Central Government or a State Government for the payment of dividend in pursuance of a guarantee, subject to the conditions in section 123 and the applicable rules. Dividend, including interim dividend, is to be deposited in a separate scheduled-bank account within five days of declaration and paid within thirty days subject to section 127."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:00:00.000Z",
+                                        "bot":  "current-assistant-company-batch-116-125",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 123 (Declaration of dividend).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 123 (Declaration of dividend)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

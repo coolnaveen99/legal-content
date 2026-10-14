@@ -1,239 +1,235 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-14",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 14 (Alteration of Articles)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 14 allows a company to alter its articles by special resolution, subject to the provisions of the Act and the conditions contained in the memorandum. Entrenchment provisions have additional requirements. A copy of the altered articles must be filed with the Registrar.",
-    "glance": "State that articles may be altered by special resolution; note the limits of the Act and memorandum; mention entrenchment and filing.",
-    "study": "Subject to the provisions of the Act and the conditions in the memorandum, a company may, by special resolution, alter its articles. The alteration is valid as if originally contained in the articles. Where the articles contain entrenchment provisions, those provisions may be amended only in the manner specified for entrenchment (typically a more stringent procedure). A copy of every special resolution altering the articles, and of the altered articles, must be filed with the Registrar. Articles cannot authorise what the Act forbids or contradict the memorandum. Current-law framing: ground the analysis in s. 14 and distinguish s. 13 (memorandum alteration).",
-    "sections": [
-      {
-        "heading": "Special Resolution",
-        "body": "Articles may be altered by special resolution of the company.",
-        "order": 1
-      },
-      {
-        "heading": "Limits — Act and Memorandum",
-        "body": "Alteration is subject to the Act and the conditions in the memorandum; articles cannot override either.",
-        "order": 2
-      },
-      {
-        "heading": "Entrenchment",
-        "body": "Entrenchment provisions require the more stringent procedure specified for their amendment.",
-        "order": 3
-      },
-      {
-        "heading": "Filing",
-        "body": "A copy of the special resolution and of the altered articles must be filed with the Registrar.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-14",
-        "section": "Section 14",
-        "title": "Alteration of articles"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Valid articles alteration",
-        "body": "A company passes a special resolution to change its board-meeting quorum rules in the articles and files the altered articles. Section 14 is complied with.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Conflict with memorandum",
-        "body": "An altered article purports to expand objects beyond the memorandum. The alteration is ineffective to the extent of the conflict; s. 13 is the route for object change.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Can articles be altered by board resolution alone?",
-        "analysis": "No. Section 14 requires a special resolution of the company."
-      },
-      {
-        "question": "Can an article override a memorandum clause?",
-        "analysis": "No. Alteration under s. 14 is subject to the memorandum; conflict is resolved in favour of the memorandum."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s14-vs-s13",
-        "title": "Alteration of articles (s. 14) vs memorandum (s. 13)",
-        "left": "Internal regulations; special resolution; subject to Act and memo",
-        "right": "Charter change; special resolution plus often CG/RD approval",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Management rules",
-            "right": "Name, objects, State of office"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s14-trap-1",
-        "trap": "Articles can be freely rewritten without regard to the memorandum.",
-        "correction": "Section 14 expressly subjects alteration to the Act and the memorandum."
-      },
-      {
-        "id": "ca-s14-trap-2",
-        "trap": "Entrenchment can be removed by ordinary special resolution without more.",
-        "correction": "Entrenchment provisions may be amended only in the manner specified for entrenchment."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; articles regulate the internal life of the incorporated person.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s14-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 14 problem be analysed?",
-        "answer": "I. Confirm special resolution. II. Test against Act and memorandum. III. Check entrenchment if relevant. IV. Confirm filing. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s14-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Resolution status; conflict with Act/memo if any; entrenchment; filing; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 14",
-      "Connected: Sections 5, 10, 13"
-    ],
-    "examTips": [
-      "State special resolution clearly.",
-      "Always check Act and memorandum limits.",
-      "Flag entrenchment if present."
-    ],
-    "revisionPoints": [
-      "Special resolution",
-      "Limits — Act and memorandum",
-      "Entrenchment",
-      "Filing"
-    ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
-    "relatedTopics": [
-      "company-ca-s-5",
-      "company-ca-s-13",
-      "company-ca-s-10"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-14",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State how articles may be altered under s. 14.",
-        "Explain the limits of the Act and memorandum.",
-        "Describe entrenchment and filing requirements."
-      ],
-      "definition": "Section 14 allows alteration of articles by special resolution subject to the Act and the memorandum, with filing of the altered articles.",
-      "legalPrinciple": "Articles are alterable by special resolution but cannot override the Act or the memorandum.",
-      "statutoryFramework": "Companies Act, 2013, Section 14.",
-      "essentialIngredients": [
-        "Special resolution",
-        "Consistency with Act and memorandum",
-        "Entrenchment procedure if applicable",
-        "Filing with Registrar"
-      ],
-      "detailedExplanation": "Section 14 is the primary route for changing the company’s internal regulations after incorporation.",
-      "examples": [
-        "Valid articles alteration",
-        "Conflict with memorandum"
-      ],
-      "problemApplication": "Check resolution; test against Act and memo; apply entrenchment rules if any; confirm filing.",
-      "keyTakeaways": [
-        "Special resolution required.",
-        "Subject to Act and memorandum.",
-        "Entrenchment has stricter rules."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 14",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "distinctions": [
-        "Alteration of articles (s. 14) vs memorandum (s. 13)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Allen v Gold Reefs of West Africa Ltd",
-          "citation": "[1900] 1 Ch 656",
-          "point": "An alteration of articles must be bona fide for the benefit of the company as a whole. Section 14 requires a special resolution. The statutory power does not authorise an alteration that is a fraud on the minority."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Special resolution; limits; filing; conclude.",
-        "sixteenMark": "Introduction; power to alter; limits; entrenchment; filing; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-09T19:05:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s14-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-14",
-    "alteration-of-articles"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-14",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 14 (Alteration of Articles)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 14 allows a company to alter its articles by special resolution, subject to the provisions of the Act and the conditions contained in the memorandum. Entrenchment provisions have additional requirements. A copy of the altered articles must be filed with the Registrar.",
+                    "glance":  "State that articles may be altered by special resolution; note the limits of the Act and memorandum; mention entrenchment and filing.",
+                    "study":  "Subject to the provisions of the Act and the conditions in the memorandum, a company may, by special resolution, alter its articles. The alteration is valid as if originally contained in the articles. Where the articles contain entrenchment provisions, those provisions may be amended only in the manner specified for entrenchment (typically a more stringent procedure). A copy of every special resolution altering the articles, and of the altered articles, must be filed with the Registrar. Articles cannot authorise what the Act forbids or contradict the memorandum. Current-law framing: ground the analysis in s. 14 and distinguish s. 13 (memorandum alteration).",
+                    "sections":  [
+                                     {
+                                         "heading":  "Special Resolution",
+                                         "body":  "Articles may be altered by special resolution of the company.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Limits — Act and Memorandum",
+                                         "body":  "Alteration is subject to the Act and the conditions in the memorandum; articles cannot override either.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Entrenchment",
+                                         "body":  "Entrenchment provisions require the more stringent procedure specified for their amendment.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Filing",
+                                         "body":  "A copy of the special resolution and of the altered articles must be filed with the Registrar.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-14",
+                                           "section":  "Section 14",
+                                           "title":  "Alteration of articles"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Valid articles alteration",
+                                         "body":  "A company passes a special resolution to change its board-meeting quorum rules in the articles and files the altered articles. Section 14 is complied with.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Conflict with memorandum",
+                                         "body":  "An altered article purports to expand objects beyond the memorandum. The alteration is ineffective to the extent of the conflict; s. 13 is the route for object change.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can articles be altered by board resolution alone?",
+                                              "analysis":  "No. Section 14 requires a special resolution of the company."
+                                          },
+                                          {
+                                              "question":  "Can an article override a memorandum clause?",
+                                              "analysis":  "No. Alteration under s. 14 is subject to the memorandum; conflict is resolved in favour of the memorandum."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s14-vs-s13",
+                                             "title":  "Alteration of articles (s. 14) vs memorandum (s. 13)",
+                                             "left":  "Internal regulations; special resolution; subject to Act and memo",
+                                             "right":  "Charter change; special resolution plus often CG/RD approval",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Management rules",
+                                                              "right":  "Name, objects, State of office"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s14-trap-1",
+                                               "trap":  "Articles can be freely rewritten without regard to the memorandum.",
+                                               "correction":  "Section 14 expressly subjects alteration to the Act and the memorandum."
+                                           },
+                                           {
+                                               "id":  "ca-s14-trap-2",
+                                               "trap":  "Entrenchment can be removed by ordinary special resolution without more.",
+                                               "correction":  "Entrenchment provisions may be amended only in the manner specified for entrenchment."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s14-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 14 problem be analysed?",
+                                                    "answer":  "I. Confirm special resolution. II. Test against Act and memorandum. III. Check entrenchment if relevant. IV. Confirm filing. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s14-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Resolution status; conflict with Act/memo if any; entrenchment; filing; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 14",
+                                            "Connected: Sections 5, 10, 13"
+                                        ],
+                    "examTips":  [
+                                     "State special resolution clearly.",
+                                     "Always check Act and memorandum limits.",
+                                     "Flag entrenchment if present."
+                                 ],
+                    "revisionPoints":  [
+                                           "Special resolution",
+                                           "Limits — Act and memorandum",
+                                           "Entrenchment",
+                                           "Filing"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-5",
+                                          "company-ca-s-13",
+                                          "company-ca-s-10"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-14",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 14 (Alteration of Articles).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 14 allows a company to alter its articles by special resolution, subject to the provisions of the Act and the conditions contained in the memorandum. Entrenchment provisions have additional requirements. A copy of the altered articles must be filed with the Registrar.",
+                                        "legalPrinciple":  "State that articles may be altered by special resolution; note the limits of the Act and memorandum; mention entrenchment and filing.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 14 (Alteration of Articles)",
+                                        "essentialIngredients":  [
+                                                                     "Special Resolution",
+                                                                     "Limits — Act and Memorandum",
+                                                                     "Entrenchment",
+                                                                     "Filing"
+                                                                 ],
+                                        "detailedExplanation":  "Subject to the provisions of the Act and the conditions in the memorandum, a company may, by special resolution, alter its articles. The alteration is valid as if originally contained in the articles. Where the articles contain entrenchment provisions, those provisions may be amended only in the manner specified for entrenchment (typically a more stringent procedure). A copy of every special resolution altering the articles, and of the altered articles, must be filed with the Registrar. Articles cannot authorise what the Act forbids or contradict the memorandum. Current-law framing: ground the analysis in s. 14 and distinguish s. 13 (memorandum alteration).",
+                                        "examples":  [
+                                                         "A company passes a special resolution to change its board-meeting quorum rules in the articles and files the altered articles. Section 14 is complied with.",
+                                                         "An altered article purports to expand objects beyond the memorandum. The alteration is ineffective to the extent of the conflict; s. 13 is the route for object change."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "State that articles may be altered by special resolution; note the limits of the Act and memorandum; mention entrenchment and filing.",
+                                                             "Section 14 allows a company to alter its articles by special resolution, subject to the provisions of the Act and the conditions contained in the memorandum. Entrenchment provisions have additional requirements. A copy of the altered articles must be filed with the Registrar."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 14 (Alteration of Articles)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Allen v Gold Reefs of West Africa Ltd",
+                                                            "citation":  "[1900] 1 Ch 656",
+                                                            "point":  "An alteration of articles must be bona fide for the benefit of the company as a whole. Section 14 requires a special resolution. The statutory power does not authorise an alteration that is a fraud on the minority."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:05:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s14-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-14",
+                 "alteration-of-articles"
+             ]
 }

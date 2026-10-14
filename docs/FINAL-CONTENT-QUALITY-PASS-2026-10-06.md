@@ -7,25 +7,25 @@ Evidence-conservative editorial audit for QUAL-001 through QUAL-011. This audit 
 | Metric | Count |
 |---|---:|
 | Topics with enhancement objects | 3678 |
-| Scaffold-level enhancements | 1373 |
-| Substantive enhancements | 2305 |
+| Scaffold-level enhancements | 874 |
+| Substantive enhancements | 2804 |
 | Verified/published enhancement statuses | 27 |
-| Total findings | 13255 |
+| Total findings | 12470 |
 
 ## QUAL gate summary
 
 | Gate | Findings | Result |
 |---|---:|---|
-| QUAL-001 | 404 | OPEN — remediation required |
-| QUAL-002 | 1649 | OPEN — remediation required |
+| QUAL-001 | 627 | OPEN — remediation required |
+| QUAL-002 | 1244 | OPEN — remediation required |
 | QUAL-003 | 1 | OPEN — remediation required |
 | QUAL-004 | 263 | OPEN — remediation required |
-| QUAL-005 | 2348 | OPEN — remediation required |
-| QUAL-006 | 345 | OPEN — remediation required |
+| QUAL-005 | 2018 | OPEN — remediation required |
+| QUAL-006 | 542 | OPEN — remediation required |
 | QUAL-007 | 3673 | OPEN — remediation required |
 | QUAL-008 | 1830 | OPEN — remediation required |
-| QUAL-009 | 2524 | OPEN — remediation required |
-| QUAL-010 | 218 | OPEN — remediation required |
+| QUAL-009 | 2030 | OPEN — remediation required |
+| QUAL-010 | 242 | OPEN — remediation required |
 | QUAL-011 | 0 | PASS |
 
 ## Decision

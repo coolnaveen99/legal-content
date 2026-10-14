@@ -1,189 +1,207 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-198",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 \u2014 Section 198 (Calculation of profits)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 198 prescribes the method of computing net profits of a company in any financial year for the purposes of section 197 (managerial remuneration) and is also used for corporate social responsibility under section 135. Credits are brought in as the section directs; specified items (including premiums on shares or debentures, profits on sale of forfeited shares, and certain unrealised gains) are excluded; and stated deductions (including usual working charges, directors\u2019 remuneration, bonus, interest, repairs, depreciation, and tax on profits) are allowed or disallowed as listed.",
-    "glance": "Statutory profit base for s. 197 remuneration and s. 135 CSR: prescribed credits in; specified items out; listed deductions applied; not ordinary accounting profit without adjustment.",
-    "study": "In computing the net profits of a company in any financial year for the purpose of section 197, credit shall be given for the sums specified and credit shall not be given for the sums specified (including premiums on shares or debentures issued, profits on sales of forfeited shares, and profits of a capital nature including profits from the sale of the undertaking or any part thereof). In making the computation, certain sums are deducted (including usual working charges, directors\u2019 remuneration, bonus or commission paid to staff, tax on profits, interest on debentures and loans, repairs, and depreciation to the extent specified). Certain other sums are not to be deducted (including income-tax paid, compensation or damages paid voluntarily, and loss of a capital nature). The same computation is used for the net-profit base relevant to section 135 CSR. Current-law framing: start from the financial-year results; apply s. 198 credits, exclusions and deductions; use the resulting figure for s. 197 ceilings and, where applicable, s. 135.",
-    "sections": [
-      {
-        "heading": "Purpose",
-        "body": "Net profits for managerial remuneration under s. 197 and for CSR under s. 135 are computed under this section.",
-        "order": 1
-      },
-      {
-        "heading": "Credits and Exclusions",
-        "body": "Prescribed credits are brought in; premiums on shares/debentures, profits on forfeited shares, and certain capital/unrealised items are not credited as the section directs.",
-        "order": 2
-      },
-      {
-        "heading": "Deductions",
-        "body": "Listed working charges, remuneration, interest, repairs, depreciation and tax items are deducted or not deducted as the section specifies.",
-        "order": 3
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-198",
-        "section": "Section 198",
-        "title": "Calculation of profits"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Premium on shares excluded",
-        "body": "A company earns a large premium on a fresh issue of shares. Under s. 198 that premium is not brought into the net-profit computation used for managerial remuneration.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Shared base for CSR",
-        "body": "The same s. 198 net-profit figure that supports the s. 197 remuneration ceiling is also the profit base relevant to the company\u2019s CSR obligation under s. 135.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "May the Board use ordinary book profit without s. 198 adjustments for the 11% remuneration ceiling?",
-        "analysis": "No. Section 197 expressly requires net profits to be computed in the manner laid down in section 198. Book profit without the statutory adjustments is not the correct base."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s198-vs-s197",
-        "title": "Calculation of profits (s. 198) vs managerial remuneration (s. 197)",
-        "left": "How net profits are computed",
-        "right": "Percentage ceilings applied to that figure",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Computation",
-            "right": "Ceiling application"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s198-trap-1",
-        "trap": "Any profit figure from the audited accounts can be used for the 11% ceiling without further adjustment.",
-        "correction": "Section 198 mandates specific credits, exclusions and deductions. The s. 197 ceiling is applied to the figure so computed, not to unadjusted book profit."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s198-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 198 problem be analysed?",
-        "answer": "I. Identify the purpose (s. 197 or s. 135). II. Apply credits and exclusions. III. Apply listed deductions. IV. State the resulting net-profit figure. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s198-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Computation steps; exclusions; deductions; resulting figure; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 \u2014 Section 198",
-      "Connected: Sections 197, 135"
-    ],
-    "examTips": [
-      "s. 198 is the profit engine for s. 197 and s. 135.",
-      "Premiums and certain capital items excluded.",
-      "Do not use unadjusted book profit for the 11% ceiling."
-    ],
-    "revisionPoints": [
-      "Purpose",
-      "Credits and exclusions",
-      "Deductions"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-197",
-      "company-ca-s-135"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-198",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the role of s. 198 in computing net profits.",
-        "Identify key exclusions and the link to ss. 197 and 135."
-      ],
-      "definition": "Section 198 prescribes the statutory method of computing net profits for managerial remuneration under s. 197 and for CSR under s. 135.",
-      "legalPrinciple": "Managerial pay and CSR obligations are measured against a standardised profit base, not raw accounting profit.",
-      "statutoryFramework": "Companies Act, 2013, Section 198.",
-      "essentialIngredients": [
-        "Net profits for s. 197 and s. 135",
-        "Prescribed credits and exclusions",
-        "Listed deductions applied as directed"
-      ],
-      "detailedExplanation": "Section 198 is the computational foundation for remuneration ceilings and CSR.",
-      "examples": [
-        "Premium on shares excluded",
-        "Shared base for CSR"
-      ],
-      "problemApplication": "Adjust book results per s. 198; feed the figure into s. 197 or s. 135.",
-      "keyTakeaways": [
-        "Statutory profit base.",
-        "Exclusions matter.",
-        "Used by both s. 197 and s. 135."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 198"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; full credit/deduction list is detailed in the Act; case-law verification separate; no new citations invented.",
-        "date": "2026-10-10"
-      },
-      "distinctions": [
-        "Calculation of profits (s. 198) vs managerial remuneration (s. 197)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Purpose; key adjustments; conclude.",
-        "sixteenMark": "Introduction; credits; exclusions; deductions; link to ss. 197/135; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-10T07:10:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s198-2026-10-10",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-10T07:10:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-198",
-    "calculation-of-profits"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-198",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 198 (Calculation of profits)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 198 prescribes the method of computing net profits of a company in any financial year for the purposes of section 197 (managerial remuneration) and is also used for corporate social responsibility under section 135. Credits are brought in as the section directs; specified items (including premiums on shares or debentures, profits on sale of forfeited shares, and certain unrealised gains) are excluded; and stated deductions (including usual working charges, directors’ remuneration, bonus, interest, repairs, depreciation, and tax on profits) are allowed or disallowed as listed.",
+                    "glance":  "Statutory profit base for s. 197 remuneration and s. 135 CSR: prescribed credits in; specified items out; listed deductions applied; not ordinary accounting profit without adjustment.",
+                    "study":  "In computing the net profits of a company in any financial year for the purpose of section 197, credit shall be given for the sums specified and credit shall not be given for the sums specified (including premiums on shares or debentures issued, profits on sales of forfeited shares, and profits of a capital nature including profits from the sale of the undertaking or any part thereof). In making the computation, certain sums are deducted (including usual working charges, directors’ remuneration, bonus or commission paid to staff, tax on profits, interest on debentures and loans, repairs, and depreciation to the extent specified). Certain other sums are not to be deducted (including income-tax paid, compensation or damages paid voluntarily, and loss of a capital nature). The same computation is used for the net-profit base relevant to section 135 CSR. Current-law framing: start from the financial-year results; apply s. 198 credits, exclusions and deductions; use the resulting figure for s. 197 ceilings and, where applicable, s. 135.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Purpose",
+                                         "body":  "Net profits for managerial remuneration under s. 197 and for CSR under s. 135 are computed under this section.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Credits and Exclusions",
+                                         "body":  "Prescribed credits are brought in; premiums on shares/debentures, profits on forfeited shares, and certain capital/unrealised items are not credited as the section directs.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Deductions",
+                                         "body":  "Listed working charges, remuneration, interest, repairs, depreciation and tax items are deducted or not deducted as the section specifies.",
+                                         "order":  3
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-198",
+                                           "section":  "Section 198",
+                                           "title":  "Calculation of profits"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Premium on shares excluded",
+                                         "body":  "A company earns a large premium on a fresh issue of shares. Under s. 198 that premium is not brought into the net-profit computation used for managerial remuneration.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Shared base for CSR",
+                                         "body":  "The same s. 198 net-profit figure that supports the s. 197 remuneration ceiling is also the profit base relevant to the company’s CSR obligation under s. 135.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "May the Board use ordinary book profit without s. 198 adjustments for the 11% remuneration ceiling?",
+                                              "analysis":  "No. Section 197 expressly requires net profits to be computed in the manner laid down in section 198. Book profit without the statutory adjustments is not the correct base."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s198-vs-s197",
+                                             "title":  "Calculation of profits (s. 198) vs managerial remuneration (s. 197)",
+                                             "left":  "How net profits are computed",
+                                             "right":  "Percentage ceilings applied to that figure",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Computation",
+                                                              "right":  "Ceiling application"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s198-trap-1",
+                                               "trap":  "Any profit figure from the audited accounts can be used for the 11% ceiling without further adjustment.",
+                                               "correction":  "Section 198 mandates specific credits, exclusions and deductions. The s. 197 ceiling is applied to the figure so computed, not to unadjusted book profit."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s198-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 198 problem be analysed?",
+                                                    "answer":  "I. Identify the purpose (s. 197 or s. 135). II. Apply credits and exclusions. III. Apply listed deductions. IV. State the resulting net-profit figure. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s198-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Computation steps; exclusions; deductions; resulting figure; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 198",
+                                            "Connected: Sections 197, 135"
+                                        ],
+                    "examTips":  [
+                                     "s. 198 is the profit engine for s. 197 and s. 135.",
+                                     "Premiums and certain capital items excluded.",
+                                     "Do not use unadjusted book profit for the 11% ceiling."
+                                 ],
+                    "revisionPoints":  [
+                                           "Purpose",
+                                           "Credits and exclusions",
+                                           "Deductions"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-197",
+                                          "company-ca-s-135"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-198",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 198 (Calculation of profits).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 198 prescribes the method of computing net profits of a company in any financial year for the purposes of section 197 (managerial remuneration) and is also used for corporate social responsibility under section 135. Credits are brought in as the section directs; specified items (including premiums on shares or debentures, profits on sale of forfeited shares, and certain unrealised gains) are excluded; and stated deductions (including usual working charges, directors’ remuneration, bonus, interest, repairs, depreciation, and tax on profits) are allowed or disallowed as listed.",
+                                        "legalPrinciple":  "Statutory profit base for s. 197 remuneration and s. 135 CSR: prescribed credits in; specified items out; listed deductions applied; not ordinary accounting profit without adjustment.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 198 (Calculation of profits)",
+                                        "essentialIngredients":  [
+                                                                     "Purpose",
+                                                                     "Credits and Exclusions",
+                                                                     "Deductions"
+                                                                 ],
+                                        "detailedExplanation":  "In computing the net profits of a company in any financial year for the purpose of section 197, credit shall be given for the sums specified and credit shall not be given for the sums specified (including premiums on shares or debentures issued, profits on sales of forfeited shares, and profits of a capital nature including profits from the sale of the undertaking or any part thereof). In making the computation, certain sums are deducted (including usual working charges, directors’ remuneration, bonus or commission paid to staff, tax on profits, interest on debentures and loans, repairs, and depreciation to the extent specified). Certain other sums are not to be deducted (including income-tax paid, compensation or damages paid voluntarily, and loss of a capital nature). The same computation is used for the net-profit base relevant to section 135 CSR. Current-law framing: start from the financial-year results; apply s. 198 credits, exclusions and deductions; use the resulting figure for s. 197 ceilings and, where applicable, s. 135.",
+                                        "examples":  [
+                                                         "A company earns a large premium on a fresh issue of shares. Under s. 198 that premium is not brought into the net-profit computation used for managerial remuneration.",
+                                                         "The same s. 198 net-profit figure that supports the s. 197 remuneration ceiling is also the profit base relevant to the company’s CSR obligation under s. 135."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Statutory profit base for s. 197 remuneration and s. 135 CSR: prescribed credits in; specified items out; listed deductions applied; not ordinary accounting profit without adjustment.",
+                                                             "Section 198 prescribes the method of computing net profits of a company in any financial year for the purposes of section 197 (managerial remuneration) and is also used for corporate social responsibility under section 135. Credits are brought in as the section directs; specified items (including premiums on shares or debentures, profits on sale of forfeited shares, and certain unrealised gains) are excluded; and stated deductions (including usual working charges, directors’ remuneration, bonus, interest, repairs, depreciation, and tax on profits) are allowed or disallowed as listed."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 198 (Calculation of profits)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-10T07:10:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s198-2026-10-10",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-10T07:10:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-198",
+                 "calculation-of-profits"
+             ]
 }

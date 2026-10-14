@@ -1,64 +1,174 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-133",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 133 (Central Government to prescribe accounting standards)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "The Central Government may prescribe the standards of accounting or any addendum thereto, as recommended by the Institute of Chartered Accountants of India, constituted under section 3 of the Chartered Accountants Act, 1949, in consultation with and after examination of the recommendations made by the National Financial Reporting Authority.",
-    "glance": "Central Government prescribes accounting standards on ICAI recommendation after NFRA examination and consultation.",
-    "study": "## Section 133 — Central Government to prescribe accounting standards\n\n**Who notifies.** The Central Government may prescribe the standards of accounting or any addendum.\n\n**Process.** As recommended by ICAI, in consultation with and after examination of the recommendations made by NFRA.\n\n**Link to section 129.** Financial statements must comply with the standards so notified. Deviation must be disclosed with reasons and financial effect.\n\nDo not say the Institute or NFRA notifies the standards — the notifying authority is the Central Government.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Prescribing authority", "body": "Central Government prescribes accounting standards.", "order": 1},
-      {"heading": "Recommendation chain", "body": "ICAI recommends; NFRA examines; Central Government notifies.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-133", "title": "Companies Act, 2013 — Section 133"}],
-    "examples": [{"title": "Compliance", "body": "Financial statements under section 129 must comply with standards notified under section 133. Educational illustration."}],
-    "hypotheticals": [{"question": "Who notifies accounting standards under the Companies Act?", "analysis": "The Central Government, on ICAI recommendation after NFRA consultation and examination under section 133."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-133-trap-1", "trap": "Saying ICAI or NFRA notifies the standards.", "correction": "Central Government notifies; ICAI recommends; NFRA examines."}, {"id": "ca-s-133-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within sections 133, 132 and 129."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What does section 133 provide?", "answer": "The Central Government may prescribe accounting standards as recommended by ICAI, in consultation with and after examination of NFRA recommendations."}],
-    "bareActPointers": ["Companies Act, 2013, section 133", "Companies Act, 2013, sections 132 and 129"],
-    "examTips": ["Name the Central Government as notifying authority.", "Link compliance to section 129."],
-    "revisionPoints": ["CG prescribes.", "ICAI recommends; NFRA examines.", "s. 129 compliance."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-132", "ca-s-129"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-133",
-    "migrationNote": "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Central Government prescribes accounting standards on the statutory recommendation path.",
-      "legalPrinciple": "Section 133 is the notification power for accounting standards.",
-      "statutoryFramework": ["Companies Act, 2013, section 133"],
-      "essentialIngredients": ["CG prescription", "ICAI recommendation", "NFRA consultation/examination"],
-      "detailedExplanation": "Section 133 is the standards-notification provision.",
-      "examples": [],
-      "keyTakeaways": ["CG notifies.", "ICAI and NFRA in the chain.", "s. 129 compliance."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T15:30:00.000Z",
-      "bot": "current-assistant-company-bulk-loop",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State who prescribes accounting standards under section 133."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T15:30:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-133",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 133 (Central Government to prescribe accounting standards)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "The Central Government may prescribe the standards of accounting or any addendum thereto, as recommended by the Institute of Chartered Accountants of India, constituted under section 3 of the Chartered Accountants Act, 1949, in consultation with and after examination of the recommendations made by the National Financial Reporting Authority.",
+                    "glance":  "Central Government prescribes accounting standards on ICAI recommendation after NFRA examination and consultation.",
+                    "study":  "## Section 133 — Central Government to prescribe accounting standards\n\n**Who notifies.** The Central Government may prescribe the standards of accounting or any addendum.\n\n**Process.** As recommended by ICAI, in consultation with and after examination of the recommendations made by NFRA.\n\n**Link to section 129.** Financial statements must comply with the standards so notified. Deviation must be disclosed with reasons and financial effect.\n\nDo not say the Institute or NFRA notifies the standards — the notifying authority is the Central Government.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Prescribing authority",
+                                         "body":  "Central Government prescribes accounting standards.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Recommendation chain",
+                                         "body":  "ICAI recommends; NFRA examines; Central Government notifies.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-133",
+                                           "title":  "Companies Act, 2013 — Section 133"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Compliance",
+                                         "body":  "Financial statements under section 129 must comply with standards notified under section 133. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Who notifies accounting standards under the Companies Act?",
+                                              "analysis":  "The Central Government, on ICAI recommendation after NFRA consultation and examination under section 133."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-133-trap-1",
+                                               "trap":  "Saying ICAI or NFRA notifies the standards.",
+                                               "correction":  "Central Government notifies; ICAI recommends; NFRA examines."
+                                           },
+                                           {
+                                               "id":  "ca-s-133-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within sections 133, 132 and 129."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What does section 133 provide?",
+                                                    "answer":  "The Central Government may prescribe accounting standards as recommended by ICAI, in consultation with and after examination of NFRA recommendations."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 133",
+                                            "Companies Act, 2013, sections 132 and 129"
+                                        ],
+                    "examTips":  [
+                                     "Name the Central Government as notifying authority.",
+                                     "Link compliance to section 129."
+                                 ],
+                    "revisionPoints":  [
+                                           "CG prescribes.",
+                                           "ICAI recommends; NFRA examines.",
+                                           "s. 129 compliance."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-132",
+                                          "ca-s-129"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-133",
+                    "migrationNote":  "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "The Central Government may prescribe the standards of accounting or any addendum thereto, as recommended by the Institute of Chartered Accountants of India, constituted under section 3 of the Chartered Accountants Act, 1949, in consultation with and after examination of the recommendations made by the National Financial Reporting Authority.",
+                                        "legalPrinciple":  "Central Government prescribes accounting standards on ICAI recommendation after NFRA examination and consultation.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 133 (Central Government to prescribe accounting standards)",
+                                        "essentialIngredients":  [
+                                                                     "Prescribing authority",
+                                                                     "Recommendation chain"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 133 — Central Government to prescribe accounting standards\n\n**Who notifies.** The Central Government may prescribe the standards of accounting or any addendum.\n\n**Process.** As recommended by ICAI, in consultation with and after examination of the recommendations made by NFRA.\n\n**Link to section 129.** Financial statements must comply with the standards so notified. Deviation must be disclosed with reasons and financial effect.\n\nDo not say the Institute or NFRA notifies the standards — the notifying authority is the Central Government.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Financial statements under section 129 must comply with standards notified under section 133. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Central Government prescribes accounting standards on ICAI recommendation after NFRA examination and consultation.",
+                                                             "The Central Government may prescribe the standards of accounting or any addendum thereto, as recommended by the Institute of Chartered Accountants of India, constituted under section 3 of the Chartered Accountants Act, 1949, in consultation with and after examination of the recommendations made by the National Financial Reporting Authority."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T15:30:00.000Z",
+                                        "bot":  "current-assistant-company-bulk-loop",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 133 (Central Government to prescribe accounting standards).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 133 (Central Government to prescribe accounting standards)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T15:30:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

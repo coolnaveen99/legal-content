@@ -1,129 +1,168 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-378d",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 378D (Membership and voting rights of Members of Producer Company)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Voting rights in a Producer Company depend on membership composition: single vote per Member where membership is solely individual or mixed; participation-based (or shareholding in the first year) where membership consists only of Producer Institutions. Articles may set retention conditions and restrict voting to active Members. Conflict-of-interest persons cannot become or remain Members.",
-    "glance": "One-member-one-vote for individuals/mixed; participation-based for Producer Institutions only; conflict-of-interest bar.",
-    "study": "Section 378D(1) fixes voting rights according to the composition of membership. Articles may provide conditions for continued membership and the manner of exercise of voting rights, and may restrict voting to active Members. No person with a business interest conflicting with the Producer Company may become a Member; a Member who acquires such an interest ceases to be a Member and is removed in accordance with the articles.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "Voting rights are single-vote for individual or mixed membership and participation-based for Producer Institutions only; conflict-of-interest bars membership.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-378d",
-        "section": "Section 378D",
-        "title": "Membership and voting rights of Members of Producer Company"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 378D",
-        "body": "In an individual-only Producer Company each Member has one vote irrespective of shareholding or patronage.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 378D?",
-        "analysis": "It determines voting rights by membership composition and excludes persons with conflicting business interests."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s378d-vs",
-        "title": "s. 378D",
-        "left": "s. 378D",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Membership and voting rights",
-            "right": "Benefits to Members (s. 378E)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s378d-t1",
-        "trap": "Assuming shareholding always determines voting power.",
-        "correction": "For individual or mixed membership, voting is one Member one vote; shareholding is irrelevant."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s378d-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 378D be analysed?",
-        "answer": "I. Identify membership composition. II. Apply the corresponding voting rule and conflict bar. III. Conclude.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 378D"
-    ],
-    "examTips": [
-      "Name s. 378D: Membership and voting rights."
-    ],
-    "revisionPoints": [
-      "Membership and voting rights of Members of Producer Company"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-378c",
-      "ca-s-378e"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-378d",
-    "migrationNote": "Remediated 2026-10-14 — corrected title (was wrongly labelled memorandum); stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Voting rights and membership conditions for a Producer Company.",
-      "legalPrinciple": "Voting rights follow membership composition; conflict-of-interest persons are barred from membership.",
-      "statutoryFramework": "Companies Act, 2013, section 378D (inserted by Companies (Amendment) Act, 2020, w.e.f. 11-2-2021).",
-      "essentialIngredients": [
-        "Membership and voting rights"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T09:45:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s378d",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T09:45:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "producer-company",
-    "membership",
-    "voting"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-378d",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 378D (Membership and voting rights of Members of Producer Company)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Voting rights in a Producer Company depend on membership composition: single vote per Member where membership is solely individual or mixed; participation-based (or shareholding in the first year) where membership consists only of Producer Institutions. Articles may set retention conditions and restrict voting to active Members. Conflict-of-interest persons cannot become or remain Members.",
+                    "glance":  "One-member-one-vote for individuals/mixed; participation-based for Producer Institutions only; conflict-of-interest bar.",
+                    "study":  "Section 378D(1) fixes voting rights according to the composition of membership. Articles may provide conditions for continued membership and the manner of exercise of voting rights, and may restrict voting to active Members. No person with a business interest conflicting with the Producer Company may become a Member; a Member who acquires such an interest ceases to be a Member and is removed in accordance with the articles.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "Voting rights are single-vote for individual or mixed membership and participation-based for Producer Institutions only; conflict-of-interest bars membership.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-378d",
+                                           "section":  "Section 378D",
+                                           "title":  "Membership and voting rights of Members of Producer Company"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 378D",
+                                         "body":  "In an individual-only Producer Company each Member has one vote irrespective of shareholding or patronage.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 378D?",
+                                              "analysis":  "It determines voting rights by membership composition and excludes persons with conflicting business interests."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s378d-vs",
+                                             "title":  "s. 378D",
+                                             "left":  "s. 378D",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Membership and voting rights",
+                                                              "right":  "Benefits to Members (s. 378E)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s378d-t1",
+                                               "trap":  "Assuming shareholding always determines voting power.",
+                                               "correction":  "For individual or mixed membership, voting is one Member one vote; shareholding is irrelevant."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s378d-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 378D be analysed?",
+                                                    "answer":  "I. Identify membership composition. II. Apply the corresponding voting rule and conflict bar. III. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 378D"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 378D: Membership and voting rights."
+                                 ],
+                    "revisionPoints":  [
+                                           "Membership and voting rights of Members of Producer Company"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-378c",
+                                          "ca-s-378e"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-378d",
+                    "migrationNote":  "Remediated 2026-10-14 — corrected title (was wrongly labelled memorandum); stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "Voting rights in a Producer Company depend on membership composition: single vote per Member where membership is solely individual or mixed; participation-based (or shareholding in the first year) where membership consists only of Producer Institutions. Articles may set retention conditions and restrict voting to active Members. Conflict-of-interest persons cannot become or remain Members.",
+                                        "legalPrinciple":  "One-member-one-vote for individuals/mixed; participation-based for Producer Institutions only; conflict-of-interest bar.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 378D (Membership and voting rights of Members of Producer Company)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T09:45:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s378d",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 378D(1) fixes voting rights according to the composition of membership. Articles may provide conditions for continued membership and the manner of exercise of voting rights, and may restrict voting to active Members. No person with a business interest conflicting with the Producer Company may become a Member; a Member who acquires such an interest ceases to be a Member and is removed in accordance with the articles.",
+                                        "examples":  [
+                                                         "In an individual-only Producer Company each Member has one vote irrespective of shareholding or patronage."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "One-member-one-vote for individuals/mixed; participation-based for Producer Institutions only; conflict-of-interest bar.",
+                                                             "Voting rights in a Producer Company depend on membership composition: single vote per Member where membership is solely individual or mixed; participation-based (or shareholding in the first year) where membership consists only of Producer Institutions. Articles may set retention conditions and restrict voting to active Members. Conflict-of-interest persons cannot become or remain Members."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 378D (Membership and voting rights of Members of Producer Company).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 378D (Membership and voting rights of Members of Producer Company)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T09:45:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "producer-company",
+                 "membership",
+                 "voting"
+             ]
 }

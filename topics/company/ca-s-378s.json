@@ -1,128 +1,167 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-378s",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 378S (Matters to be transacted at general meeting)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "The Board of Directors of a Producer Company shall exercise the following powers on behalf of that Company only by means of resolutions passed at the annual general meeting of its Members: (a) approval of budget and adoption of annual accounts; (b) approval of patronage bonus; (c) issue of bonus shares; (d) declaration of limited return and decision on the distribution of patronage; (e) specification of the conditions and limits of loans that may be given by the Board to any director; and (f) approval of any transaction of a nature reserved in the articles for approval by the Members.",
-    "glance": "Budget, annual accounts, patronage bonus, bonus shares, limited return/patronage distribution, director-loan limits and article-reserved matters require AGM resolution.",
-    "study": "Section 378S reserves specified important matters for resolution at the annual general meeting. The Board cannot decide these matters on its own; it must act only by means of AGM resolutions. This complements the residual Board powers in section 378R.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "The six categories of matter listed in s. 378S may be exercised by the Board only through AGM resolutions of the Members.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-378s",
-        "section": "Section 378S",
-        "title": "Matters to be transacted at general meeting"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 378S",
-        "body": "Approval of the annual accounts and of patronage bonus must be obtained by AGM resolution under s. 378S(a) and (b).",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 378S?",
-        "analysis": "It reserves specified matters for AGM resolution so that the Board cannot decide them alone."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s378s-vs",
-        "title": "s. 378S",
-        "left": "s. 378S",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Matters reserved for AGM",
-            "right": "Residual Board powers (s. 378R)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s378s-t1",
-        "trap": "Assuming the Board may approve the annual accounts without an AGM resolution.",
-        "correction": "s. 378S requires AGM resolution for approval of budget and adoption of annual accounts."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s378s-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 378S be analysed?",
-        "answer": "I. Identify the proposed Board action. II. Check whether it falls within s. 378S(a)–(f). III. Require AGM resolution if it does.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 378S"
-    ],
-    "examTips": [
-      "Name s. 378S: Matters to be transacted at general meeting."
-    ],
-    "revisionPoints": [
-      "Matters reserved for AGM — budget, accounts, patronage, bonus shares, limited return, director loans, article-reserved items"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-378r",
-      "ca-s-378t"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-378s",
-    "migrationNote": "Remediated 2026-10-14 — corrected title (was wrongly labelled share capital); stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Matters that the Board may exercise only by AGM resolution of the Members.",
-      "legalPrinciple": "The six categories listed in s. 378S may be exercised by the Board only through AGM resolutions.",
-      "statutoryFramework": "Companies Act, 2013, section 378S (inserted by Companies (Amendment) Act, 2020, w.e.f. 11-2-2021).",
-      "essentialIngredients": [
-        "Matters to be transacted at general meeting"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T11:00:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s378s",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T11:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "producer-company",
-    "general-meeting"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-378s",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 378S (Matters to be transacted at general meeting)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "The Board of Directors of a Producer Company shall exercise the following powers on behalf of that Company only by means of resolutions passed at the annual general meeting of its Members: (a) approval of budget and adoption of annual accounts; (b) approval of patronage bonus; (c) issue of bonus shares; (d) declaration of limited return and decision on the distribution of patronage; (e) specification of the conditions and limits of loans that may be given by the Board to any director; and (f) approval of any transaction of a nature reserved in the articles for approval by the Members.",
+                    "glance":  "Budget, annual accounts, patronage bonus, bonus shares, limited return/patronage distribution, director-loan limits and article-reserved matters require AGM resolution.",
+                    "study":  "Section 378S reserves specified important matters for resolution at the annual general meeting. The Board cannot decide these matters on its own; it must act only by means of AGM resolutions. This complements the residual Board powers in section 378R.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "The six categories of matter listed in s. 378S may be exercised by the Board only through AGM resolutions of the Members.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-378s",
+                                           "section":  "Section 378S",
+                                           "title":  "Matters to be transacted at general meeting"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 378S",
+                                         "body":  "Approval of the annual accounts and of patronage bonus must be obtained by AGM resolution under s. 378S(a) and (b).",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 378S?",
+                                              "analysis":  "It reserves specified matters for AGM resolution so that the Board cannot decide them alone."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s378s-vs",
+                                             "title":  "s. 378S",
+                                             "left":  "s. 378S",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Matters reserved for AGM",
+                                                              "right":  "Residual Board powers (s. 378R)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s378s-t1",
+                                               "trap":  "Assuming the Board may approve the annual accounts without an AGM resolution.",
+                                               "correction":  "s. 378S requires AGM resolution for approval of budget and adoption of annual accounts."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s378s-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 378S be analysed?",
+                                                    "answer":  "I. Identify the proposed Board action. II. Check whether it falls within s. 378S(a)–(f). III. Require AGM resolution if it does.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 378S"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 378S: Matters to be transacted at general meeting."
+                                 ],
+                    "revisionPoints":  [
+                                           "Matters reserved for AGM — budget, accounts, patronage, bonus shares, limited return, director loans, article-reserved items"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-378r",
+                                          "ca-s-378t"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-378s",
+                    "migrationNote":  "Remediated 2026-10-14 — corrected title (was wrongly labelled share capital); stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "The Board of Directors of a Producer Company shall exercise the following powers on behalf of that Company only by means of resolutions passed at the annual general meeting of its Members: (a) approval of budget and adoption of annual accounts; (b) approval of patronage bonus; (c) issue of bonus shares; (d) declaration of limited return and decision on the distribution of patronage; (e) specification of the conditions and limits of loans that may be given by the Board to any director; and (f) approval of any transaction of a nature reserved in the articles for approval by the Members.",
+                                        "legalPrinciple":  "Budget, annual accounts, patronage bonus, bonus shares, limited return/patronage distribution, director-loan limits and article-reserved matters require AGM resolution.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 378S (Matters to be transacted at general meeting)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T11:00:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s378s",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 378S reserves specified important matters for resolution at the annual general meeting. The Board cannot decide these matters on its own; it must act only by means of AGM resolutions. This complements the residual Board powers in section 378R.",
+                                        "examples":  [
+                                                         "Approval of the annual accounts and of patronage bonus must be obtained by AGM resolution under s. 378S(a) and (b)."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Budget, annual accounts, patronage bonus, bonus shares, limited return/patronage distribution, director-loan limits and article-reserved matters require AGM resolution.",
+                                                             "The Board of Directors of a Producer Company shall exercise the following powers on behalf of that Company only by means of resolutions passed at the annual general meeting of its Members: (a) approval of budget and adoption of annual accounts; (b) approval of patronage bonus; (c) issue of bonus shares; (d) declaration of limited return and decision on the distribution of patronage; (e) specification of the conditions and limits of loans that may be given by the Board to any director; and (f) approval of any transaction of a nature reserved in the articles for approval by the Members."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 378S (Matters to be transacted at general meeting).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 378S (Matters to be transacted at general meeting)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T11:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "producer-company",
+                 "general-meeting"
+             ]
 }

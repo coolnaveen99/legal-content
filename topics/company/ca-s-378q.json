@@ -1,129 +1,168 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-378q",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 378Q (Vacation of office by directors)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "The office of a director of a Producer Company becomes vacant if: (a) he is convicted of an offence involving moral turpitude and sentenced to imprisonment for not less than six months; (b) the Producer Company has defaulted in repayment of advances or loans for ninety days; (c) he has defaulted in repayment of advances or loans taken from the Producer Company; (d) the Producer Company has not filed annual accounts and annual return for any continuous three financial years, or has failed to repay deposit, withheld price, patronage bonus or interest, or pay dividend, and such failure continues for one year or more; (e) default is made in holding election for the office of director; or (f) the AGM or EGM is not called in accordance with the Act (except due to natural calamity or such other reason). The same grounds apply, so far as may be, to a director of a Producer Institution that is a member of a Producer Company.",
-    "glance": "Listed grounds cause automatic vacation of a Producer Company directorship, including conviction, loan defaults and statutory filing/meeting defaults.",
-    "study": "Section 378Q enumerates the events that cause the office of a director of a Producer Company to become vacant. The grounds cover personal criminal conviction, company and personal loan defaults, continuous failure to file accounts/returns or to pay certain dues, failure to hold director elections, and failure to call general meetings (subject to the natural-calamity exception). Sub-section (2) extends the same rules, so far as may be, to directors of Producer Institutions that are members.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "The office of a director becomes vacant on any of the grounds listed in s. 378Q(1)(a)–(f); the same applies, so far as may be, to directors of member Producer Institutions.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-378q",
-        "section": "Section 378Q",
-        "title": "Vacation of office by directors"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 378Q",
-        "body": "A director convicted of an offence involving moral turpitude and sentenced to six months’ imprisonment automatically vacates office under s. 378Q(1)(a).",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 378Q?",
-        "analysis": "It lists the events that cause automatic vacation of a Producer Company directorship."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s378q-vs",
-        "title": "s. 378Q",
-        "left": "s. 378Q",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Vacation of office",
-            "right": "Appointment of directors (s. 378P) or liability of directors (s. 378T)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s378q-t1",
-        "trap": "Confusing this section with powers and functions of the Board.",
-        "correction": "s. 378Q is vacation of office; Board powers are in s. 378R."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s378q-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 378Q be analysed?",
-        "answer": "I. Identify the alleged ground. II. Match it to s. 378Q(1)(a)–(f). III. Conclude on vacation.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 378Q"
-    ],
-    "examTips": [
-      "Name s. 378Q: Vacation of office by directors."
-    ],
-    "revisionPoints": [
-      "Vacation of office — conviction, loan defaults, filing/payment defaults, election/meeting defaults"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-378p",
-      "ca-s-378t"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-378q",
-    "migrationNote": "Remediated 2026-10-14 — corrected title (was wrongly labelled powers and functions of the board); stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Grounds on which the office of a director of a Producer Company becomes vacant.",
-      "legalPrinciple": "The office of a director becomes vacant on any of the grounds listed in s. 378Q(1)(a)–(f).",
-      "statutoryFramework": "Companies Act, 2013, section 378Q (inserted by Companies (Amendment) Act, 2020, w.e.f. 11-2-2021).",
-      "essentialIngredients": [
-        "Vacation of office by directors"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T10:50:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s378q",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T10:50:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "producer-company",
-    "directors",
-    "vacation"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-378q",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 378Q (Vacation of office by directors)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "The office of a director of a Producer Company becomes vacant if: (a) he is convicted of an offence involving moral turpitude and sentenced to imprisonment for not less than six months; (b) the Producer Company has defaulted in repayment of advances or loans for ninety days; (c) he has defaulted in repayment of advances or loans taken from the Producer Company; (d) the Producer Company has not filed annual accounts and annual return for any continuous three financial years, or has failed to repay deposit, withheld price, patronage bonus or interest, or pay dividend, and such failure continues for one year or more; (e) default is made in holding election for the office of director; or (f) the AGM or EGM is not called in accordance with the Act (except due to natural calamity or such other reason). The same grounds apply, so far as may be, to a director of a Producer Institution that is a member of a Producer Company.",
+                    "glance":  "Listed grounds cause automatic vacation of a Producer Company directorship, including conviction, loan defaults and statutory filing/meeting defaults.",
+                    "study":  "Section 378Q enumerates the events that cause the office of a director of a Producer Company to become vacant. The grounds cover personal criminal conviction, company and personal loan defaults, continuous failure to file accounts/returns or to pay certain dues, failure to hold director elections, and failure to call general meetings (subject to the natural-calamity exception). Sub-section (2) extends the same rules, so far as may be, to directors of Producer Institutions that are members.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "The office of a director becomes vacant on any of the grounds listed in s. 378Q(1)(a)–(f); the same applies, so far as may be, to directors of member Producer Institutions.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-378q",
+                                           "section":  "Section 378Q",
+                                           "title":  "Vacation of office by directors"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 378Q",
+                                         "body":  "A director convicted of an offence involving moral turpitude and sentenced to six months’ imprisonment automatically vacates office under s. 378Q(1)(a).",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 378Q?",
+                                              "analysis":  "It lists the events that cause automatic vacation of a Producer Company directorship."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s378q-vs",
+                                             "title":  "s. 378Q",
+                                             "left":  "s. 378Q",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Vacation of office",
+                                                              "right":  "Appointment of directors (s. 378P) or liability of directors (s. 378T)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s378q-t1",
+                                               "trap":  "Confusing this section with powers and functions of the Board.",
+                                               "correction":  "s. 378Q is vacation of office; Board powers are in s. 378R."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s378q-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 378Q be analysed?",
+                                                    "answer":  "I. Identify the alleged ground. II. Match it to s. 378Q(1)(a)–(f). III. Conclude on vacation.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 378Q"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 378Q: Vacation of office by directors."
+                                 ],
+                    "revisionPoints":  [
+                                           "Vacation of office — conviction, loan defaults, filing/payment defaults, election/meeting defaults"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-378p",
+                                          "ca-s-378t"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-378q",
+                    "migrationNote":  "Remediated 2026-10-14 — corrected title (was wrongly labelled powers and functions of the board); stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "The office of a director of a Producer Company becomes vacant if: (a) he is convicted of an offence involving moral turpitude and sentenced to imprisonment for not less than six months; (b) the Producer Company has defaulted in repayment of advances or loans for ninety days; (c) he has defaulted in repayment of advances or loans taken from the Producer Company; (d) the Producer Company has not filed annual accounts and annual return for any continuous three financial years, or has failed to repay deposit, withheld price, patronage bonus or interest, or pay dividend, and such failure continues for one year or more; (e) default is made in holding election for the office of director; or (f) the AGM or EGM is not called in accordance with the Act (except due to natural calamity or such other reason). The same grounds apply, so far as may be, to a director of a Producer Institution that is a member of a Producer Company.",
+                                        "legalPrinciple":  "Listed grounds cause automatic vacation of a Producer Company directorship, including conviction, loan defaults and statutory filing/meeting defaults.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 378Q (Vacation of office by directors)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T10:50:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s378q",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 378Q enumerates the events that cause the office of a director of a Producer Company to become vacant. The grounds cover personal criminal conviction, company and personal loan defaults, continuous failure to file accounts/returns or to pay certain dues, failure to hold director elections, and failure to call general meetings (subject to the natural-calamity exception). Sub-section (2) extends the same rules, so far as may be, to directors of Producer Institutions that are members.",
+                                        "examples":  [
+                                                         "A director convicted of an offence involving moral turpitude and sentenced to six months’ imprisonment automatically vacates office under s. 378Q(1)(a)."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Listed grounds cause automatic vacation of a Producer Company directorship, including conviction, loan defaults and statutory filing/meeting defaults.",
+                                                             "The office of a director of a Producer Company becomes vacant if: (a) he is convicted of an offence involving moral turpitude and sentenced to imprisonment for not less than six months; (b) the Producer Company has defaulted in repayment of advances or loans for ninety days; (c) he has defaulted in repayment of advances or loans taken from the Producer Company; (d) the Producer Company has not filed annual accounts and annual return for any continuous three financial years, or has failed to repay deposit, withheld price, patronage bonus or interest, or pay dividend, and such failure continues for one year or more; (e) default is made in holding election for the office of director; or (f) the AGM or EGM is not called in accordance with the Act (except due to natural calamity or such other reason). The same grounds apply, so far as may be, to a director of a Producer Institution that is a member of a Producer Company."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 378Q (Vacation of office by directors).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 378Q (Vacation of office by directors)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T10:50:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "producer-company",
+                 "directors",
+                 "vacation"
+             ]
 }

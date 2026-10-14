@@ -1,219 +1,216 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-15",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 15 (Alteration of Memorandum or Articles to Be Noted in Every Copy)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine.",
-    "glance": "State the duty to note alterations in every copy of the memorandum or articles issued after the alteration; note the penalty for default.",
-    "study": "Where an alteration is made in the memorandum or articles, every copy of the memorandum or articles issued after the date of the alteration must be in accordance with the alteration. A company that issues a copy which is not so in accordance is liable to a fine. The provision ensures that members and third parties who receive copies of the constitutional documents see the current text. Current-law framing: ground the analysis in s. 15 and link to the alteration powers under ss. 13 and 14.",
-    "sections": [
-      {
-        "heading": "Duty to Embody Alterations",
-        "body": "Every copy of the memorandum or articles issued after an alteration must include that alteration.",
-        "order": 1
-      },
-      {
-        "heading": "Penalty",
-        "body": "Issuing a non-updated copy attracts a fine as prescribed.",
-        "order": 2
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-15",
-        "section": "Section 15",
-        "title": "Alteration of memorandum or articles to be noted in every copy"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Updated copy issued",
-        "body": "After an objects alteration under s. 13, the company issues only copies that include the new objects. Section 15 is complied with.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Stale copy issued",
-        "body": "The company issues a copy of the articles that omits a recent special-resolution alteration. Section 15 is breached and a fine may follow.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Must old copies held by members be recalled?",
-        "analysis": "Section 15 regulates copies issued after the alteration; it does not by itself require recall of every prior copy, but new issues must be current."
-      },
-      {
-        "question": "Does s. 15 apply to both memorandum and articles?",
-        "analysis": "Yes. It covers every copy of the memorandum or articles issued after the alteration."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s15-vs-alteration-power",
-        "title": "s. 15 (noting alterations) vs ss. 13–14 (power to alter)",
-        "left": "Duty to issue updated copies",
-        "right": "Power and procedure to make the alteration",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Post-alteration document integrity",
-            "right": "How the constitution is changed"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s15-trap-1",
-        "trap": "Alteration is complete once the special resolution is passed; copies need not be updated.",
-        "correction": "Section 15 requires every subsequently issued copy to embody the alteration."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s15-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 15 problem be analysed?",
-        "answer": "I. Identify the alteration and its date. II. Check whether copies issued after that date embody the alteration. III. State the penalty if not. IV. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s15-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Alteration date; copies issued; whether updated; penalty exposure; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 15",
-      "Connected: Sections 13, 14"
-    ],
-    "examTips": [
-      "Link s. 15 to the alteration under ss. 13 or 14.",
-      "State the duty and the fine."
-    ],
-    "revisionPoints": [
-      "Duty to embody alterations in issued copies",
-      "Penalty for default"
-    ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
-    "relatedTopics": [
-      "company-ca-s-13",
-      "company-ca-s-14"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-15",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the duty under s. 15 to note alterations in issued copies.",
-        "Explain the consequence of issuing a stale copy."
-      ],
-      "definition": "Section 15 requires every copy of the memorandum or articles issued after an alteration to embody that alteration.",
-      "legalPrinciple": "Constitutional documents issued after alteration must reflect the current text; failure attracts a fine.",
-      "statutoryFramework": "Companies Act, 2013, Section 15.",
-      "essentialIngredients": [
-        "Alteration made",
-        "Copy issued after alteration",
-        "Copy must embody the alteration"
-      ],
-      "detailedExplanation": "Section 15 protects the integrity of constitutional documents in circulation.",
-      "examples": [
-        "Updated copy issued",
-        "Stale copy issued"
-      ],
-      "problemApplication": "Check issue date against alteration date; test whether the copy is current.",
-      "keyTakeaways": [
-        "Post-alteration copies must be updated.",
-        "Default attracts fine."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 15",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "distinctions": [
-        "s. 15 (noting alterations) vs ss. 13–14 (power to alter)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 15",
-          "citation": "Companies Act, 2013, section 15",
-          "point": "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Duty; penalty; conclude.",
-        "sixteenMark": "Introduction; duty; link to alteration; penalty; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-09T19:05:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s15-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-15",
-    "alteration-noted-in-copies"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-15",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 15 (Alteration of Memorandum or Articles to Be Noted in Every Copy)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine.",
+                    "glance":  "State the duty to note alterations in every copy of the memorandum or articles issued after the alteration; note the penalty for default.",
+                    "study":  "Where an alteration is made in the memorandum or articles, every copy of the memorandum or articles issued after the date of the alteration must be in accordance with the alteration. A company that issues a copy which is not so in accordance is liable to a fine. The provision ensures that members and third parties who receive copies of the constitutional documents see the current text. Current-law framing: ground the analysis in s. 15 and link to the alteration powers under ss. 13 and 14.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Duty to Embody Alterations",
+                                         "body":  "Every copy of the memorandum or articles issued after an alteration must include that alteration.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Penalty",
+                                         "body":  "Issuing a non-updated copy attracts a fine as prescribed.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-15",
+                                           "section":  "Section 15",
+                                           "title":  "Alteration of memorandum or articles to be noted in every copy"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Updated copy issued",
+                                         "body":  "After an objects alteration under s. 13, the company issues only copies that include the new objects. Section 15 is complied with.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Stale copy issued",
+                                         "body":  "The company issues a copy of the articles that omits a recent special-resolution alteration. Section 15 is breached and a fine may follow.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must old copies held by members be recalled?",
+                                              "analysis":  "Section 15 regulates copies issued after the alteration; it does not by itself require recall of every prior copy, but new issues must be current."
+                                          },
+                                          {
+                                              "question":  "Does s. 15 apply to both memorandum and articles?",
+                                              "analysis":  "Yes. It covers every copy of the memorandum or articles issued after the alteration."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s15-vs-alteration-power",
+                                             "title":  "s. 15 (noting alterations) vs ss. 13–14 (power to alter)",
+                                             "left":  "Duty to issue updated copies",
+                                             "right":  "Power and procedure to make the alteration",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Post-alteration document integrity",
+                                                              "right":  "How the constitution is changed"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s15-trap-1",
+                                               "trap":  "Alteration is complete once the special resolution is passed; copies need not be updated.",
+                                               "correction":  "Section 15 requires every subsequently issued copy to embody the alteration."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s15-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 15 problem be analysed?",
+                                                    "answer":  "I. Identify the alteration and its date. II. Check whether copies issued after that date embody the alteration. III. State the penalty if not. IV. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s15-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Alteration date; copies issued; whether updated; penalty exposure; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 15",
+                                            "Connected: Sections 13, 14"
+                                        ],
+                    "examTips":  [
+                                     "Link s. 15 to the alteration under ss. 13 or 14.",
+                                     "State the duty and the fine."
+                                 ],
+                    "revisionPoints":  [
+                                           "Duty to embody alterations in issued copies",
+                                           "Penalty for default"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-13",
+                                          "company-ca-s-14"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-15",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 15 (Alteration of Memorandum or Articles to Be Noted in Every Copy).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine.",
+                                        "legalPrinciple":  "State the duty to note alterations in every copy of the memorandum or articles issued after the alteration; note the penalty for default.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 15 (Alteration of Memorandum or Articles to Be Noted in Every Copy)",
+                                        "essentialIngredients":  [
+                                                                     "Duty to Embody Alterations",
+                                                                     "Penalty"
+                                                                 ],
+                                        "detailedExplanation":  "Where an alteration is made in the memorandum or articles, every copy of the memorandum or articles issued after the date of the alteration must be in accordance with the alteration. A company that issues a copy which is not so in accordance is liable to a fine. The provision ensures that members and third parties who receive copies of the constitutional documents see the current text. Current-law framing: ground the analysis in s. 15 and link to the alteration powers under ss. 13 and 14.",
+                                        "examples":  [
+                                                         "After an objects alteration under s. 13, the company issues only copies that include the new objects. Section 15 is complied with.",
+                                                         "The company issues a copy of the articles that omits a recent special-resolution alteration. Section 15 is breached and a fine may follow."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "State the duty to note alterations in every copy of the memorandum or articles issued after the alteration; note the penalty for default.",
+                                                             "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 15 (Alteration of Memorandum or Articles to Be Noted in Every Copy)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Companies Act, 2013, section 15",
+                                                            "citation":  "Companies Act, 2013, section 15",
+                                                            "point":  "Section 15 requires that every copy of the memorandum or articles issued after an alteration must include the alteration. Issuing a copy that does not embody the alteration is an offence punishable with fine.",
+                                                            "kind":  "statutory-pointer",
+                                                            "note":  "Statutory pointer taken from the topic\u0027s operative rule. Not a judgment and not a primary-report verification."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:05:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s15-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-15",
+                 "alteration-noted-in-copies"
+             ]
 }

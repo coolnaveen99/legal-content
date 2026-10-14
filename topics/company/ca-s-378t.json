@@ -1,129 +1,168 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-378t",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 378T (Liability of directors)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "When the directors vote for a resolution, or approve by any other means, anything done in contravention of the provisions of this Act or any other law for the time being in force or the articles, they shall be jointly and severally liable to make good any loss or damage suffered by the Producer Company. Without prejudice to that, the Producer Company may recover from a director an amount equal to any profit the director made as a result of the contravention, or an amount equal to the loss or damage the company incurred. The liability under this section is in addition to and not in derogation of any other liability under this Act or any other law.",
-    "glance": "Directors who approve a contravention are jointly and severally liable for loss or damage; the company may also recover profits made or losses caused; liability is additional.",
-    "study": "Section 378T imposes joint and several liability on directors who vote for or otherwise approve a contravention of the Act, any other law, or the articles. The company may recover both the director’s profit from the contravention and the company’s own loss. The section is expressly additional to other liabilities.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "Directors who approve a contravention are jointly and severally liable to make good loss or damage; the company may recover profits and losses; liability is additional to other statutory liability.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-378t",
-        "section": "Section 378T",
-        "title": "Liability of directors"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 378T",
-        "body": "Directors who vote for a resolution that contravenes the Act and causes loss to the Producer Company are jointly and severally liable to make good that loss under s. 378T(1).",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 378T?",
-        "analysis": "It imposes joint and several liability on directors who approve a contravention, with recovery of profits and losses, additional to other liabilities."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s378t-vs",
-        "title": "s. 378T",
-        "left": "s. 378T",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Liability of directors for approved contraventions",
-            "right": "Vacation of office (s. 378Q) or Board powers (s. 378R)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s378t-t1",
-        "trap": "Treating this section as a share-transfer rule.",
-        "correction": "s. 378T is Liability of directors; transferability of shares is a different provision."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s378t-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 378T be analysed?",
-        "answer": "I. Identify the approved act and the contravention. II. Apply joint and several liability and recovery of profit/loss. III. Note that liability is additional.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 378T"
-    ],
-    "examTips": [
-      "Name s. 378T: Liability of directors."
-    ],
-    "revisionPoints": [
-      "Liability of directors — joint and several for approved contraventions; recovery of profit and loss; additional liability"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-378q",
-      "ca-s-378r"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-378t",
-    "migrationNote": "Remediated 2026-10-14 — corrected title (was wrongly labelled transferability of shares); stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Joint and several liability of directors who approve a contravention of the Act, other law or the articles.",
-      "legalPrinciple": "Directors who approve a contravention are jointly and severally liable to make good loss or damage; the company may recover profits and losses; liability is additional.",
-      "statutoryFramework": "Companies Act, 2013, section 378T (inserted by Companies (Amendment) Act, 2020, w.e.f. 11-2-2021).",
-      "essentialIngredients": [
-        "Liability of directors"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T11:05:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s378t",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T11:05:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "producer-company",
-    "directors",
-    "liability"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-378t",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 378T (Liability of directors)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "When the directors vote for a resolution, or approve by any other means, anything done in contravention of the provisions of this Act or any other law for the time being in force or the articles, they shall be jointly and severally liable to make good any loss or damage suffered by the Producer Company. Without prejudice to that, the Producer Company may recover from a director an amount equal to any profit the director made as a result of the contravention, or an amount equal to the loss or damage the company incurred. The liability under this section is in addition to and not in derogation of any other liability under this Act or any other law.",
+                    "glance":  "Directors who approve a contravention are jointly and severally liable for loss or damage; the company may also recover profits made or losses caused; liability is additional.",
+                    "study":  "Section 378T imposes joint and several liability on directors who vote for or otherwise approve a contravention of the Act, any other law, or the articles. The company may recover both the director’s profit from the contravention and the company’s own loss. The section is expressly additional to other liabilities.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "Directors who approve a contravention are jointly and severally liable to make good loss or damage; the company may recover profits and losses; liability is additional to other statutory liability.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-378t",
+                                           "section":  "Section 378T",
+                                           "title":  "Liability of directors"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 378T",
+                                         "body":  "Directors who vote for a resolution that contravenes the Act and causes loss to the Producer Company are jointly and severally liable to make good that loss under s. 378T(1).",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 378T?",
+                                              "analysis":  "It imposes joint and several liability on directors who approve a contravention, with recovery of profits and losses, additional to other liabilities."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s378t-vs",
+                                             "title":  "s. 378T",
+                                             "left":  "s. 378T",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Liability of directors for approved contraventions",
+                                                              "right":  "Vacation of office (s. 378Q) or Board powers (s. 378R)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s378t-t1",
+                                               "trap":  "Treating this section as a share-transfer rule.",
+                                               "correction":  "s. 378T is Liability of directors; transferability of shares is a different provision."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s378t-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 378T be analysed?",
+                                                    "answer":  "I. Identify the approved act and the contravention. II. Apply joint and several liability and recovery of profit/loss. III. Note that liability is additional.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 378T"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 378T: Liability of directors."
+                                 ],
+                    "revisionPoints":  [
+                                           "Liability of directors — joint and several for approved contraventions; recovery of profit and loss; additional liability"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-378q",
+                                          "ca-s-378r"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-378t",
+                    "migrationNote":  "Remediated 2026-10-14 — corrected title (was wrongly labelled transferability of shares); stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "When the directors vote for a resolution, or approve by any other means, anything done in contravention of the provisions of this Act or any other law for the time being in force or the articles, they shall be jointly and severally liable to make good any loss or damage suffered by the Producer Company. Without prejudice to that, the Producer Company may recover from a director an amount equal to any profit the director made as a result of the contravention, or an amount equal to the loss or damage the company incurred. The liability under this section is in addition to and not in derogation of any other liability under this Act or any other law.",
+                                        "legalPrinciple":  "Directors who approve a contravention are jointly and severally liable for loss or damage; the company may also recover profits made or losses caused; liability is additional.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 378T (Liability of directors)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T11:05:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s378t",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 378T imposes joint and several liability on directors who vote for or otherwise approve a contravention of the Act, any other law, or the articles. The company may recover both the director’s profit from the contravention and the company’s own loss. The section is expressly additional to other liabilities.",
+                                        "examples":  [
+                                                         "Directors who vote for a resolution that contravenes the Act and causes loss to the Producer Company are jointly and severally liable to make good that loss under s. 378T(1)."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Directors who approve a contravention are jointly and severally liable for loss or damage; the company may also recover profits made or losses caused; liability is additional.",
+                                                             "When the directors vote for a resolution, or approve by any other means, anything done in contravention of the provisions of this Act or any other law for the time being in force or the articles, they shall be jointly and severally liable to make good any loss or damage suffered by the Producer Company. Without prejudice to that, the Producer Company may recover from a director an amount equal to any profit the director made as a result of the contravention, or an amount equal to the loss or damage the company incurred. The liability under this section is in addition to and not in derogation of any other liability under this Act or any other law."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 378T (Liability of directors).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 378T (Liability of directors)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T11:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "producer-company",
+                 "directors",
+                 "liability"
+             ]
 }

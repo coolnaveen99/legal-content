@@ -1,64 +1,174 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-141",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 141 (Eligibility, qualifications and disqualifications of auditors)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "A person shall be eligible for appointment as an auditor of a company only if he is a chartered accountant. A firm including a limited liability partnership of which majority of partners practising in India are qualified for appointment as aforesaid may be appointed by its firm name to be auditor of a company. Section 141(3) sets out disqualifications including a body corporate other than an LLP, an officer or employee of the company, a person indebted beyond the prescribed amount, and other specified relationships and security holdings.",
-    "glance": "Only a chartered accountant (or a firm with a majority of CA partners practising in India) may be appointed auditor, subject to the disqualifications in section 141(3).",
-    "study": "## Section 141 — Eligibility and disqualifications\n\n**Eligibility.** A person is eligible only if he is a chartered accountant. A firm (including an LLP) whose majority of partners practising in India are so qualified may be appointed by firm name.\n\n**Disqualifications (subsection (3)).** Include among others: body corporate other than an LLP; officer or employee of the company; partner or employee of an officer or employee; person indebted to the company or related companies beyond the prescribed amount; person who has given a guarantee for such indebtedness; person holding security of or interest in the company as the section describes; person in full-time employment elsewhere; and holding appointment in more than the prescribed number of companies.\n\n**Effect.** Appointment in contravention is void; a disqualification arising after appointment vacates the office.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Eligibility", "body": "Chartered accountant, or firm with majority of CA partners practising in India.", "order": 1},
-      {"heading": "Disqualifications", "body": "Body corporate (other than LLP), officer/employee, indebtedness, security interest, and other subsection (3) bars.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-141", "title": "Companies Act, 2013 — Section 141"}],
-    "examples": [{"title": "Officer disqualified", "body": "An employee of the company cannot be appointed its auditor under section 141(3). Educational illustration."}],
-    "hypotheticals": [{"question": "Can a body corporate be appointed auditor?", "analysis": "A body corporate other than an LLP is disqualified. An LLP whose majority of partners practising in India are chartered accountants may be appointed by firm name."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-141-trap-1", "trap": "Assuming any professional can be company auditor.", "correction": "Only a chartered accountant (or qualifying firm) is eligible, subject to subsection (3) disqualifications."}, {"id": "ca-s-141-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within section 141."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "Who is eligible to be appointed auditor under section 141?", "answer": "A chartered accountant, or a firm (including LLP) whose majority of partners practising in India are chartered accountants, subject to the disqualifications in subsection (3)."}],
-    "bareActPointers": ["Companies Act, 2013, section 141"],
-    "examTips": ["State CA eligibility and firm-name appointment.", "List key subsection (3) disqualifications."],
-    "revisionPoints": ["CA or qualifying firm only.", "Subsection (3) disqualifications.", "Void appointment / vacation on later disqualification."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-139", "ca-s-140", "ca-s-144"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-141",
-    "migrationNote": "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Only a chartered accountant or qualifying firm may be auditor, subject to disqualifications.",
-      "legalPrinciple": "Section 141 sets eligibility and disqualifications for company auditors.",
-      "statutoryFramework": ["Companies Act, 2013, section 141"],
-      "essentialIngredients": ["Chartered accountant qualification", "Firm majority CA partners", "No subsection (3) disqualification"],
-      "detailedExplanation": "Section 141 is the eligibility and independence gateway for auditors.",
-      "examples": [],
-      "keyTakeaways": ["CA eligibility.", "Subsection (3) bars.", "Void if in contravention."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T15:00:00.000Z",
-      "bot": "current-assistant-company-bulk-128-150",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State eligibility and disqualifications under section 141."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T15:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-141",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 141 (Eligibility, qualifications and disqualifications of auditors)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "A person shall be eligible for appointment as an auditor of a company only if he is a chartered accountant. A firm including a limited liability partnership of which majority of partners practising in India are qualified for appointment as aforesaid may be appointed by its firm name to be auditor of a company. Section 141(3) sets out disqualifications including a body corporate other than an LLP, an officer or employee of the company, a person indebted beyond the prescribed amount, and other specified relationships and security holdings.",
+                    "glance":  "Only a chartered accountant (or a firm with a majority of CA partners practising in India) may be appointed auditor, subject to the disqualifications in section 141(3).",
+                    "study":  "## Section 141 — Eligibility and disqualifications\n\n**Eligibility.** A person is eligible only if he is a chartered accountant. A firm (including an LLP) whose majority of partners practising in India are so qualified may be appointed by firm name.\n\n**Disqualifications (subsection (3)).** Include among others: body corporate other than an LLP; officer or employee of the company; partner or employee of an officer or employee; person indebted to the company or related companies beyond the prescribed amount; person who has given a guarantee for such indebtedness; person holding security of or interest in the company as the section describes; person in full-time employment elsewhere; and holding appointment in more than the prescribed number of companies.\n\n**Effect.** Appointment in contravention is void; a disqualification arising after appointment vacates the office.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Eligibility",
+                                         "body":  "Chartered accountant, or firm with majority of CA partners practising in India.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Disqualifications",
+                                         "body":  "Body corporate (other than LLP), officer/employee, indebtedness, security interest, and other subsection (3) bars.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-141",
+                                           "title":  "Companies Act, 2013 — Section 141"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Officer disqualified",
+                                         "body":  "An employee of the company cannot be appointed its auditor under section 141(3). Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can a body corporate be appointed auditor?",
+                                              "analysis":  "A body corporate other than an LLP is disqualified. An LLP whose majority of partners practising in India are chartered accountants may be appointed by firm name."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-141-trap-1",
+                                               "trap":  "Assuming any professional can be company auditor.",
+                                               "correction":  "Only a chartered accountant (or qualifying firm) is eligible, subject to subsection (3) disqualifications."
+                                           },
+                                           {
+                                               "id":  "ca-s-141-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within section 141."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "Who is eligible to be appointed auditor under section 141?",
+                                                    "answer":  "A chartered accountant, or a firm (including LLP) whose majority of partners practising in India are chartered accountants, subject to the disqualifications in subsection (3)."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 141"
+                                        ],
+                    "examTips":  [
+                                     "State CA eligibility and firm-name appointment.",
+                                     "List key subsection (3) disqualifications."
+                                 ],
+                    "revisionPoints":  [
+                                           "CA or qualifying firm only.",
+                                           "Subsection (3) disqualifications.",
+                                           "Void appointment / vacation on later disqualification."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-139",
+                                          "ca-s-140",
+                                          "ca-s-144"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-141",
+                    "migrationNote":  "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "A person shall be eligible for appointment as an auditor of a company only if he is a chartered accountant. A firm including a limited liability partnership of which majority of partners practising in India are qualified for appointment as aforesaid may be appointed by its firm name to be auditor of a company. Section 141(3) sets out disqualifications including a body corporate other than an LLP, an officer or employee of the company, a person indebted beyond the prescribed amount, and other specified relationships and security holdings.",
+                                        "legalPrinciple":  "Only a chartered accountant (or a firm with a majority of CA partners practising in India) may be appointed auditor, subject to the disqualifications in section 141(3).",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 141 (Eligibility, qualifications and disqualifications of auditors)",
+                                        "essentialIngredients":  [
+                                                                     "Eligibility",
+                                                                     "Disqualifications"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 141 — Eligibility and disqualifications\n\n**Eligibility.** A person is eligible only if he is a chartered accountant. A firm (including an LLP) whose majority of partners practising in India are so qualified may be appointed by firm name.\n\n**Disqualifications (subsection (3)).** Include among others: body corporate other than an LLP; officer or employee of the company; partner or employee of an officer or employee; person indebted to the company or related companies beyond the prescribed amount; person who has given a guarantee for such indebtedness; person holding security of or interest in the company as the section describes; person in full-time employment elsewhere; and holding appointment in more than the prescribed number of companies.\n\n**Effect.** Appointment in contravention is void; a disqualification arising after appointment vacates the office.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "An employee of the company cannot be appointed its auditor under section 141(3). Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Only a chartered accountant (or a firm with a majority of CA partners practising in India) may be appointed auditor, subject to the disqualifications in section 141(3).",
+                                                             "A person shall be eligible for appointment as an auditor of a company only if he is a chartered accountant. A firm including a limited liability partnership of which majority of partners practising in India are qualified for appointment as aforesaid may be appointed by its firm name to be auditor of a company. Section 141(3) sets out disqualifications including a body corporate other than an LLP, an officer or employee of the company, a person indebted beyond the prescribed amount, and other specified relationships and security holdings."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T15:00:00.000Z",
+                                        "bot":  "current-assistant-company-bulk-128-150",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 141 (Eligibility, qualifications and disqualifications of auditors).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 141 (Eligibility, qualifications and disqualifications of auditors)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T15:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

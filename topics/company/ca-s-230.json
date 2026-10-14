@@ -1,226 +1,234 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-230",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 \u2014 Section 230 (Power to compromise or make arrangements with creditors and members)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 230 empowers the Tribunal, on application by the company, any creditor or member, or the liquidator (if the company is being wound up), to order a meeting of creditors or class of creditors, or of members or class of members, and to sanction a compromise or arrangement if approved by a majority of persons representing three-fourths in value of the creditors or members voting, and if the Tribunal is satisfied as to fairness and statutory compliance. The notice must disclose the effect on creditors, members, promoters and directors and any material interest. Persons holding not less than 5% of the shareholding or 5% of the outstanding debt may object. The sanctioned order binds and is filed with the Registrar. Listed companies also face SEBI and exchange conditions, which are additional, not a replacement of s. 230.",
-    "glance": "Tribunal may order meeting and sanction compromise/arrangement: majority in number representing 3/4 in value; disclosure of effect and interests; 5% objection threshold; order binds on filing; SEBI conditions additional for listed cos.",
-    "study": "Where a compromise or arrangement is proposed between a company and its creditors or any class of them, or between the company and its members or any class of them, an application may be made to the Tribunal by the company, any creditor or member, or the liquidator. The Tribunal may order a meeting. The compromise or arrangement shall be binding if agreed to by a majority of persons representing three-fourths in value of the creditors or members (or class) present and voting, and if sanctioned by the Tribunal. Current-law framing: identify applicant; obtain meeting order; ensure notice discloses effects and material interests; achieve majority + three-fourths in value; address objections by 5% holders; Tribunal sanction on fairness and legality; file order with Registrar. Distinct from merger/amalgamation under s. 232 and fast-track under s. 233.",
-    "sections": [
-      {
-        "heading": "Application and Meeting",
-        "body": "Application by company, creditor, member, or liquidator; Tribunal may order meeting of creditors or members (or class).",
-        "order": 1
-      },
-      {
-        "heading": "Disclosure",
-        "body": "Notice must disclose effect on creditors, members, promoters and directors, and any material interest of directors/promoters/managers.",
-        "order": 2
-      },
-      {
-        "heading": "Majority",
-        "body": "Majority of persons representing three-fourths in value of creditors or members (or class) present and voting.",
-        "order": 3
-      },
-      {
-        "heading": "Objection and Sanction",
-        "body": "Objection by persons holding not less than 5% shareholding or 5% outstanding debt; Tribunal sanctions if statutory compliance and fairness satisfied; order binds on filing with Registrar.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-230",
-        "section": "Section 230",
-        "title": "Power to compromise or make arrangements with creditors and members"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Value test",
-        "body": "A scheme is approved by a headcount majority of creditors but they represent only half the value of debt voting. Section 230 requires majority of persons representing three-fourths in value \u2014 the value test fails.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Disclosure of director interest",
-        "body": "A scheme notice omits that a director has a substantial interest in the counterparty. Section 230 requires disclosure of material interests; defective disclosure can defeat sanction.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Is a simple majority of members enough to approve a s. 230 scheme?",
-        "analysis": "No. The statute requires a majority of persons representing three-fourths in value of those voting in the class. Headcount alone is not enough."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s230-vs-s232",
-        "title": "Compromise/arrangement (s. 230) vs merger/amalgamation (s. 232)",
-        "left": "General power to compromise or arrange with creditors or members",
-        "right": "Additional requirements where the scheme is a merger or amalgamation (valuation, RD/OL reports, dissolution without winding up)",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Compromise or arrangement",
-            "right": "Merger/amalgamation scheme"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s230-trap-1",
-        "trap": "The Tribunal rewrites the commercial terms of a scheme if it disagrees with the majority.",
-        "correction": "The Tribunal checks statutory compliance, class fairness, informed approval and absence of illegality. It does not substitute its own commercial bargain for the statutory majority (Miheer Mafatlal principle)."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s230-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 230 problem be analysed?",
-        "answer": "I. Identify applicant and class. II. Meeting and disclosure. III. Majority + 3/4 value. IV. Objections and Tribunal sanction. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s230-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Scheme terms; class composition; voting; disclosure; fairness; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 \u2014 Section 230",
-      "Connected: Sections 231, 232, 233"
-    ],
-    "examTips": [
-      "Majority + three-fourths in value.",
-      "Disclosure of effect and interests.",
-      "5% objection threshold.",
-      "Tribunal: legality and fairness, not commercial rewrite.",
-      "SEBI conditions additional for listed cos."
-    ],
-    "revisionPoints": [
-      "Application and meeting",
-      "Disclosure",
-      "Majority",
-      "Objection and sanction"
-    ],
-    "relatedJudgments": [
-      {
-        "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-        "citation": "(1997) 1 SCC 579",
-        "point": "Tribunal checks statutory compliance and fairness; does not substitute its commercial bargain for the statutory majority."
-      },
-      {
-        "name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.",
-        "citation": "(1995) 1 SCC 499",
-        "point": "Scope of court scrutiny of a scheme of amalgamation."
-      }
-    ],
-    "relatedTopics": [
-      "company-ca-s-231",
-      "company-ca-s-232",
-      "company-ca-s-233"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-230",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate. Miheer Mafatlal and Hindustan Lever retained as mirrored-standard citations only.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the process and majority for a s. 230 compromise or arrangement.",
-        "Explain Tribunal scrutiny limits and disclosure duties."
-      ],
-      "definition": "Section 230 allows the Tribunal to order a meeting and sanction a compromise or arrangement with creditors or members if approved by a majority representing three-fourths in value and if fairness and statutory compliance are satisfied.",
-      "legalPrinciple": "Creditor and member compromises bind the class when the statutory majority approves and the Tribunal is satisfied that the scheme is fair and lawful.",
-      "statutoryFramework": "Companies Act, 2013, Section 230.",
-      "essentialIngredients": [
-        "Application by company/creditor/member/liquidator",
-        "Tribunal-ordered meeting",
-        "Disclosure of effects and material interests",
-        "Majority representing three-fourths in value",
-        "Tribunal sanction; order filed with Registrar"
-      ],
-      "detailedExplanation": "Section 230 is the primary compromise and arrangement power under Chapter XV.",
-      "examples": [
-        "Value test",
-        "Disclosure of director interest"
-      ],
-      "problemApplication": "Map class; check disclosure and vote; seek sanction.",
-      "keyTakeaways": [
-        "3/4 in value.",
-        "Disclosure mandatory.",
-        "Tribunal: fairness, not rewrite."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 230"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; Miheer/Hindustan Lever mirrored only; case-law verification separate; no new citations invented.",
-        "date": "2026-10-10"
-      },
-      "distinctions": [
-        "Compromise/arrangement (s. 230) vs merger/amalgamation (s. 232)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
-          "citation": "(1997) 1 SCC 579",
-          "point": "Tribunal checks statutory compliance and fairness; does not substitute commercial bargain.",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from prior scaffold. Not a primary-report verification."
-        },
-        {
-          "name": "Hindustan Lever Employees' Union v. Hindustan Lever Ltd.",
-          "citation": "(1995) 1 SCC 499",
-          "point": "Scope of court scrutiny of amalgamation scheme.",
-          "kind": "mirrored-standard-citation",
-          "note": "Mirrored from prior scaffold. Not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Process; majority; sanction; conclude.",
-        "sixteenMark": "Introduction; application; disclosure; majority; objections; Tribunal role; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-10T08:35:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s230-2026-10-10",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-10T08:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-230",
-    "compromise-arrangement"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-230",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 230 (Power to compromise or make arrangements with creditors and members)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 230 empowers the Tribunal, on application by the company, any creditor or member, or the liquidator (if the company is being wound up), to order a meeting of creditors or class of creditors, or of members or class of members, and to sanction a compromise or arrangement if approved by a majority of persons representing three-fourths in value of the creditors or members voting, and if the Tribunal is satisfied as to fairness and statutory compliance. The notice must disclose the effect on creditors, members, promoters and directors and any material interest. Persons holding not less than 5% of the shareholding or 5% of the outstanding debt may object. The sanctioned order binds and is filed with the Registrar. Listed companies also face SEBI and exchange conditions, which are additional, not a replacement of s. 230.",
+                    "glance":  "Tribunal may order meeting and sanction compromise/arrangement: majority in number representing 3/4 in value; disclosure of effect and interests; 5% objection threshold; order binds on filing; SEBI conditions additional for listed cos.",
+                    "study":  "Where a compromise or arrangement is proposed between a company and its creditors or any class of them, or between the company and its members or any class of them, an application may be made to the Tribunal by the company, any creditor or member, or the liquidator. The Tribunal may order a meeting. The compromise or arrangement shall be binding if agreed to by a majority of persons representing three-fourths in value of the creditors or members (or class) present and voting, and if sanctioned by the Tribunal. Current-law framing: identify applicant; obtain meeting order; ensure notice discloses effects and material interests; achieve majority + three-fourths in value; address objections by 5% holders; Tribunal sanction on fairness and legality; file order with Registrar. Distinct from merger/amalgamation under s. 232 and fast-track under s. 233.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Application and Meeting",
+                                         "body":  "Application by company, creditor, member, or liquidator; Tribunal may order meeting of creditors or members (or class).",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Disclosure",
+                                         "body":  "Notice must disclose effect on creditors, members, promoters and directors, and any material interest of directors/promoters/managers.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Majority",
+                                         "body":  "Majority of persons representing three-fourths in value of creditors or members (or class) present and voting.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Objection and Sanction",
+                                         "body":  "Objection by persons holding not less than 5% shareholding or 5% outstanding debt; Tribunal sanctions if statutory compliance and fairness satisfied; order binds on filing with Registrar.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-230",
+                                           "section":  "Section 230",
+                                           "title":  "Power to compromise or make arrangements with creditors and members"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Value test",
+                                         "body":  "A scheme is approved by a headcount majority of creditors but they represent only half the value of debt voting. Section 230 requires majority of persons representing three-fourths in value — the value test fails.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Disclosure of director interest",
+                                         "body":  "A scheme notice omits that a director has a substantial interest in the counterparty. Section 230 requires disclosure of material interests; defective disclosure can defeat sanction.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Is a simple majority of members enough to approve a s. 230 scheme?",
+                                              "analysis":  "No. The statute requires a majority of persons representing three-fourths in value of those voting in the class. Headcount alone is not enough."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s230-vs-s232",
+                                             "title":  "Compromise/arrangement (s. 230) vs merger/amalgamation (s. 232)",
+                                             "left":  "General power to compromise or arrange with creditors or members",
+                                             "right":  "Additional requirements where the scheme is a merger or amalgamation (valuation, RD/OL reports, dissolution without winding up)",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Compromise or arrangement",
+                                                              "right":  "Merger/amalgamation scheme"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s230-trap-1",
+                                               "trap":  "The Tribunal rewrites the commercial terms of a scheme if it disagrees with the majority.",
+                                               "correction":  "The Tribunal checks statutory compliance, class fairness, informed approval and absence of illegality. It does not substitute its own commercial bargain for the statutory majority (Miheer Mafatlal principle)."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s230-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 230 problem be analysed?",
+                                                    "answer":  "I. Identify applicant and class. II. Meeting and disclosure. III. Majority + 3/4 value. IV. Objections and Tribunal sanction. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s230-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Scheme terms; class composition; voting; disclosure; fairness; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 230",
+                                            "Connected: Sections 231, 232, 233"
+                                        ],
+                    "examTips":  [
+                                     "Majority + three-fourths in value.",
+                                     "Disclosure of effect and interests.",
+                                     "5% objection threshold.",
+                                     "Tribunal: legality and fairness, not commercial rewrite.",
+                                     "SEBI conditions additional for listed cos."
+                                 ],
+                    "revisionPoints":  [
+                                           "Application and meeting",
+                                           "Disclosure",
+                                           "Majority",
+                                           "Objection and sanction"
+                                       ],
+                    "relatedJudgments":  [
+                                             {
+                                                 "name":  "Hindustan Lever Employees\u0027 Union v. Hindustan Lever Ltd.",
+                                                 "citation":  "(1995) 1 SCC 499",
+                                                 "point":  "Scope of court scrutiny of a scheme of amalgamation."
+                                             }
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-231",
+                                          "company-ca-s-232",
+                                          "company-ca-s-233"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-230",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate. Miheer Mafatlal and Hindustan Lever retained as mirrored-standard citations only.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 230 (Power to compromise or make arrangements with creditors and members).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 230 empowers the Tribunal, on application by the company, any creditor or member, or the liquidator (if the company is being wound up), to order a meeting of creditors or class of creditors, or of members or class of members, and to sanction a compromise or arrangement if approved by a majority of persons representing three-fourths in value of the creditors or members voting, and if the Tribunal is satisfied as to fairness and statutory compliance. The notice must disclose the effect on creditors, members, promoters and directors and any material interest. Persons holding not less than 5% of the shareholding or 5% of the outstanding debt may object. The sanctioned order binds and is filed with the Registrar. Listed companies also face SEBI and exchange conditions, which are additional, not a replacement of s. 230.",
+                                        "legalPrinciple":  "Tribunal may order meeting and sanction compromise/arrangement: majority in number representing 3/4 in value; disclosure of effect and interests; 5% objection threshold; order binds on filing; SEBI conditions additional for listed cos.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 230 (Power to compromise or make arrangements with creditors and members)",
+                                        "essentialIngredients":  [
+                                                                     "Application and Meeting",
+                                                                     "Disclosure",
+                                                                     "Majority",
+                                                                     "Objection and Sanction"
+                                                                 ],
+                                        "detailedExplanation":  "Where a compromise or arrangement is proposed between a company and its creditors or any class of them, or between the company and its members or any class of them, an application may be made to the Tribunal by the company, any creditor or member, or the liquidator. The Tribunal may order a meeting. The compromise or arrangement shall be binding if agreed to by a majority of persons representing three-fourths in value of the creditors or members (or class) present and voting, and if sanctioned by the Tribunal. Current-law framing: identify applicant; obtain meeting order; ensure notice discloses effects and material interests; achieve majority + three-fourths in value; address objections by 5% holders; Tribunal sanction on fairness and legality; file order with Registrar. Distinct from merger/amalgamation under s. 232 and fast-track under s. 233.",
+                                        "examples":  [
+                                                         "A scheme is approved by a headcount majority of creditors but they represent only half the value of debt voting. Section 230 requires majority of persons representing three-fourths in value — the value test fails.",
+                                                         "A scheme notice omits that a director has a substantial interest in the counterparty. Section 230 requires disclosure of material interests; defective disclosure can defeat sanction."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Tribunal may order meeting and sanction compromise/arrangement: majority in number representing 3/4 in value; disclosure of effect and interests; 5% objection threshold; order binds on filing; SEBI conditions additional for listed cos.",
+                                                             "Section 230 empowers the Tribunal, on application by the company, any creditor or member, or the liquidator (if the company is being wound up), to order a meeting of creditors or class of creditors, or of members or class of members, and to sanction a compromise or arrangement if approved by a majority of persons representing three-fourths in value of the creditors or members voting, and if the Tribunal is satisfied as to fairness and statutory compliance. The notice must disclose the effect on creditors, members, promoters and directors and any material interest. Persons holding not less than 5% of the shareholding or 5% of the outstanding debt may object. The sanctioned order binds and is filed with the Registrar. Listed companies also face SEBI and exchange conditions, which are additional, not a replacement of s. 230."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 230 (Power to compromise or make arrangements with creditors and members)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Miheer H. Mafatlal v. Mafatlal Industries Ltd.",
+                                                            "citation":  "(1997) 1 SCC 579",
+                                                            "point":  "Tribunal checks statutory compliance and fairness; does not substitute commercial bargain.",
+                                                            "kind":  "mirrored-standard-citation",
+                                                            "note":  "Mirrored from prior scaffold. Not a primary-report verification."
+                                                        },
+                                                        {
+                                                            "name":  "Hindustan Lever Employees\u0027 Union v. Hindustan Lever Ltd.",
+                                                            "citation":  "(1995) 1 SCC 499",
+                                                            "point":  "Scope of court scrutiny of amalgamation scheme.",
+                                                            "kind":  "mirrored-standard-citation",
+                                                            "note":  "Mirrored from prior scaffold. Not a primary-report verification."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-10T08:35:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s230-2026-10-10",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-10T08:35:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-230",
+                 "compromise-arrangement"
+             ]
 }

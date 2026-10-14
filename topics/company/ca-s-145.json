@@ -1,64 +1,174 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-145",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 145 (Auditor to sign audit reports, etc.)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "The person appointed as an auditor of the company shall sign the auditor's report or sign or certify any other document of the company required by law to be signed or certified by the auditor, and the qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company mentioned in the auditor's report shall be read before the company in general meeting and shall be open to inspection by any member of the company. Those qualifications, observations or comments shall be stated in thick type or in italics.",
-    "glance": "The auditor must sign the report; adverse qualifications, observations or comments are read at the general meeting, open to inspection, and printed in thick type or italics.",
-    "study": "## Section 145 — Auditor to sign audit reports\n\n**Signature.** The appointed auditor signs the auditor's report (and any other document required by law to be signed or certified by the auditor), in accordance with section 141(2) for firm appointments.\n\n**Adverse matter.** Qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company must be:\n- read before the company in general meeting;\n- open to inspection by any member; and\n- stated in thick type or in italics.\n\nSigning is the formal act; content duties of the auditor are in section 143.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Signature", "body": "Auditor signs the report and any other document required to be signed or certified by the auditor.", "order": 1},
-      {"heading": "Adverse qualifications", "body": "Read at general meeting, open to inspection, and printed in thick type or italics.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-145", "title": "Companies Act, 2013 — Section 145"}],
-    "examples": [{"title": "Adverse qualification", "body": "Auditor signs the report; an adverse qualification is printed in thick type or italics and is read at the AGM. Educational illustration."}],
-    "hypotheticals": [{"question": "Must every observation in the audit report be read at the general meeting?", "analysis": "Section 145 requires reading of qualifications, observations or comments that have any adverse effect on the functioning of the company. Not every observation necessarily falls in that category."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-145-trap-1", "trap": "Treating signing as the only duty of the auditor.", "correction": "Signing is formal; content and reporting duties are primarily in section 143."}, {"id": "ca-s-145-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within sections 145, 143 and 141."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What does section 145 require?", "answer": "The auditor must sign the report; adverse qualifications, observations or comments must be read at the general meeting, open to inspection, and stated in thick type or italics."}],
-    "bareActPointers": ["Companies Act, 2013, section 145", "Companies Act, 2013, sections 141 and 143"],
-    "examTips": ["Separate signature from content duties (s. 143).", "State thick type/italics and reading at the meeting."],
-    "revisionPoints": ["Auditor signs the report.", "Adverse matter: read, inspectable, thick type or italics."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-143", "ca-s-141", "ca-s-146"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-145",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Auditor signs the report; adverse qualifications are highlighted and read at the meeting.",
-      "legalPrinciple": "Signature is mandatory; adverse matter is read, open to inspection, and printed in thick type or italics.",
-      "statutoryFramework": ["Companies Act, 2013, section 145"],
-      "essentialIngredients": ["Signature by appointed auditor", "Adverse qualifications read and highlighted"],
-      "detailedExplanation": "Section 145 is the signature and adverse-qualification presentation rule.",
-      "examples": [],
-      "keyTakeaways": ["Sign the report.", "Adverse matter in thick type/italics and read at GM."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:15:00.000Z",
-      "bot": "current-assistant-company-batch-126-145",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the signature and adverse-qualification rules under section 145."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:15:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-145",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 145 (Auditor to sign audit reports, etc.)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "The person appointed as an auditor of the company shall sign the auditor\u0027s report or sign or certify any other document of the company required by law to be signed or certified by the auditor, and the qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company mentioned in the auditor\u0027s report shall be read before the company in general meeting and shall be open to inspection by any member of the company. Those qualifications, observations or comments shall be stated in thick type or in italics.",
+                    "glance":  "The auditor must sign the report; adverse qualifications, observations or comments are read at the general meeting, open to inspection, and printed in thick type or italics.",
+                    "study":  "## Section 145 — Auditor to sign audit reports\n\n**Signature.** The appointed auditor signs the auditor\u0027s report (and any other document required by law to be signed or certified by the auditor), in accordance with section 141(2) for firm appointments.\n\n**Adverse matter.** Qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company must be:\n- read before the company in general meeting;\n- open to inspection by any member; and\n- stated in thick type or in italics.\n\nSigning is the formal act; content duties of the auditor are in section 143.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Signature",
+                                         "body":  "Auditor signs the report and any other document required to be signed or certified by the auditor.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Adverse qualifications",
+                                         "body":  "Read at general meeting, open to inspection, and printed in thick type or italics.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-145",
+                                           "title":  "Companies Act, 2013 — Section 145"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Adverse qualification",
+                                         "body":  "Auditor signs the report; an adverse qualification is printed in thick type or italics and is read at the AGM. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must every observation in the audit report be read at the general meeting?",
+                                              "analysis":  "Section 145 requires reading of qualifications, observations or comments that have any adverse effect on the functioning of the company. Not every observation necessarily falls in that category."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-145-trap-1",
+                                               "trap":  "Treating signing as the only duty of the auditor.",
+                                               "correction":  "Signing is formal; content and reporting duties are primarily in section 143."
+                                           },
+                                           {
+                                               "id":  "ca-s-145-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within sections 145, 143 and 141."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What does section 145 require?",
+                                                    "answer":  "The auditor must sign the report; adverse qualifications, observations or comments must be read at the general meeting, open to inspection, and stated in thick type or italics."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 145",
+                                            "Companies Act, 2013, sections 141 and 143"
+                                        ],
+                    "examTips":  [
+                                     "Separate signature from content duties (s. 143).",
+                                     "State thick type/italics and reading at the meeting."
+                                 ],
+                    "revisionPoints":  [
+                                           "Auditor signs the report.",
+                                           "Adverse matter: read, inspectable, thick type or italics."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-143",
+                                          "ca-s-141",
+                                          "ca-s-146"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-145",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "The person appointed as an auditor of the company shall sign the auditor\u0027s report or sign or certify any other document of the company required by law to be signed or certified by the auditor, and the qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company mentioned in the auditor\u0027s report shall be read before the company in general meeting and shall be open to inspection by any member of the company. Those qualifications, observations or comments shall be stated in thick type or in italics.",
+                                        "legalPrinciple":  "The auditor must sign the report; adverse qualifications, observations or comments are read at the general meeting, open to inspection, and printed in thick type or italics.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 145 (Auditor to sign audit reports, etc.)",
+                                        "essentialIngredients":  [
+                                                                     "Signature",
+                                                                     "Adverse qualifications"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 145 — Auditor to sign audit reports\n\n**Signature.** The appointed auditor signs the auditor\u0027s report (and any other document required by law to be signed or certified by the auditor), in accordance with section 141(2) for firm appointments.\n\n**Adverse matter.** Qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company must be:\n- read before the company in general meeting;\n- open to inspection by any member; and\n- stated in thick type or in italics.\n\nSigning is the formal act; content duties of the auditor are in section 143.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Auditor signs the report; an adverse qualification is printed in thick type or italics and is read at the AGM. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "The auditor must sign the report; adverse qualifications, observations or comments are read at the general meeting, open to inspection, and printed in thick type or italics.",
+                                                             "The person appointed as an auditor of the company shall sign the auditor\u0027s report or sign or certify any other document of the company required by law to be signed or certified by the auditor, and the qualifications, observations or comments on financial transactions or matters which have any adverse effect on the functioning of the company mentioned in the auditor\u0027s report shall be read before the company in general meeting and shall be open to inspection by any member of the company. Those qualifications, observations or comments shall be stated in thick type or in italics."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:15:00.000Z",
+                                        "bot":  "current-assistant-company-batch-126-145",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 145 (Auditor to sign audit reports, etc.).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 145 (Auditor to sign audit reports, etc.)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:15:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

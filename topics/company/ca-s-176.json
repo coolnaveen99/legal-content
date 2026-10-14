@@ -1,190 +1,207 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-176",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 \u2014 Section 176 (Defects in appointment of directors not to invalidate actions taken)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 176 provides that no act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles: provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated.",
-    "glance": "Acts of a person as director remain valid despite later discovery of defective or terminated appointment; protection stops once the company has notice of the invalidity or termination; does not validate ultra vires acts.",
-    "study": "No act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles of the company: Provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated. The section protects bona fide third-party reliance and internal acts taken before knowledge of the defect. It does not validate an act that is itself beyond the company\u2019s powers, and it does not protect continued acting after notice of invalidity or termination. Current-law framing: identify the act; test whether appointment defect was only afterwards discovered; check whether the company already had notice; exclude ultra vires acts.",
-    "sections": [
-      {
-        "heading": "Protection",
-        "body": "Acts done by a person as director are not invalid merely because it is afterwards discovered that the appointment was defective, disqualified, or terminated under the Act or articles.",
-        "order": 1
-      },
-      {
-        "heading": "Cut-Off",
-        "body": "Protection does not extend to acts done after the company has notice that the appointment is invalid or has terminated.",
-        "order": 2
-      },
-      {
-        "heading": "Limits",
-        "body": "The section does not validate ultra vires acts of the company, nor does it cure knowing continuation in office after notice of defect.",
-        "order": 3
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-176",
-        "section": "Section 176",
-        "title": "Defects in appointment of directors not to invalidate actions taken"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Afterwards discovered defect",
-        "body": "A director\u2019s appointment later turns out to have lacked a formal consent filing. Board resolutions he participated in before discovery remain valid under s. 176.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Acts after notice",
-        "body": "The company learns that a director\u2019s appointment terminated under s. 167. Acts he purports to do after that notice are not protected by s. 176.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Does s. 176 validate a contract that is beyond the company\u2019s objects?",
-        "analysis": "No. Section 176 addresses defects in the director\u2019s appointment, not the company\u2019s capacity. An ultra vires act remains invalid for that separate reason."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s176-vs-s167",
-        "title": "Defects not invalidating acts (s. 176) vs vacation of office (s. 167)",
-        "left": "Protects past acts despite later-discovered appointment defects",
-        "right": "Automatic vacation of office on statutory grounds going forward",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Validity of past acts",
-            "right": "Status of the office"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s176-trap-1",
-        "trap": "A defective appointment is permanently cured for all future acts.",
-        "correction": "Protection ends once the company has notice of the invalidity or termination; future acts after notice are not validated."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s176-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 176 problem be analysed?",
-        "answer": "I. Identify the act and timing. II. Test afterwards-discovered defect. III. Check company notice. IV. Exclude ultra vires. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s176-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Appointment facts; discovery timeline; notice; nature of the act; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 \u2014 Section 176",
-      "Connected: Sections 152, 167"
-    ],
-    "examTips": [
-      "Protects acts before discovery of defect.",
-      "Stops after company notice.",
-      "Does not cure ultra vires acts."
-    ],
-    "revisionPoints": [
-      "Protection",
-      "Cut-off",
-      "Limits"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-152",
-      "company-ca-s-167"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-176",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the validation rule under s. 176.",
-        "Explain the notice cut-off and ultra vires limit."
-      ],
-      "definition": "Section 176 provides that acts done by a person as director are not invalid merely because the appointment is afterwards found defective or terminated, unless done after the company has notice of the defect or termination.",
-      "legalPrinciple": "Commercial certainty for past Board acts is preserved without licensing known de facto continuation after notice of invalidity.",
-      "statutoryFramework": "Companies Act, 2013, Section 176.",
-      "essentialIngredients": [
-        "Act done by a person as director",
-        "Afterwards discovered defect, disqualification or termination",
-        "Protection until company notice",
-        "No validation of post-notice or ultra vires acts"
-      ],
-      "detailedExplanation": "Section 176 is a de facto-director validation rule with a clear notice cut-off.",
-      "examples": [
-        "Afterwards discovered defect",
-        "Acts after notice"
-      ],
-      "problemApplication": "Timeline the act vs discovery and notice; apply the cut-off.",
-      "keyTakeaways": [
-        "Afterwards-discovered defects do not void past acts.",
-        "Notice ends protection.",
-        "Ultra vires remains ultra vires."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 176"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-10"
-      },
-      "distinctions": [
-        "Defects not invalidating acts (s. 176) vs vacation of office (s. 167)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Protection; cut-off; conclude.",
-        "sixteenMark": "Introduction; protection; notice; limits; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-10T06:10:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s176-2026-10-10",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-10T06:10:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-176",
-    "defects-in-appointment"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-176",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 176 (Defects in appointment of directors not to invalidate actions taken)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 176 provides that no act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles: provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated.",
+                    "glance":  "Acts of a person as director remain valid despite later discovery of defective or terminated appointment; protection stops once the company has notice of the invalidity or termination; does not validate ultra vires acts.",
+                    "study":  "No act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles of the company: Provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated. The section protects bona fide third-party reliance and internal acts taken before knowledge of the defect. It does not validate an act that is itself beyond the company’s powers, and it does not protect continued acting after notice of invalidity or termination. Current-law framing: identify the act; test whether appointment defect was only afterwards discovered; check whether the company already had notice; exclude ultra vires acts.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Protection",
+                                         "body":  "Acts done by a person as director are not invalid merely because it is afterwards discovered that the appointment was defective, disqualified, or terminated under the Act or articles.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Cut-Off",
+                                         "body":  "Protection does not extend to acts done after the company has notice that the appointment is invalid or has terminated.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Limits",
+                                         "body":  "The section does not validate ultra vires acts of the company, nor does it cure knowing continuation in office after notice of defect.",
+                                         "order":  3
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-176",
+                                           "section":  "Section 176",
+                                           "title":  "Defects in appointment of directors not to invalidate actions taken"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Afterwards discovered defect",
+                                         "body":  "A director’s appointment later turns out to have lacked a formal consent filing. Board resolutions he participated in before discovery remain valid under s. 176.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Acts after notice",
+                                         "body":  "The company learns that a director’s appointment terminated under s. 167. Acts he purports to do after that notice are not protected by s. 176.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Does s. 176 validate a contract that is beyond the company’s objects?",
+                                              "analysis":  "No. Section 176 addresses defects in the director’s appointment, not the company’s capacity. An ultra vires act remains invalid for that separate reason."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s176-vs-s167",
+                                             "title":  "Defects not invalidating acts (s. 176) vs vacation of office (s. 167)",
+                                             "left":  "Protects past acts despite later-discovered appointment defects",
+                                             "right":  "Automatic vacation of office on statutory grounds going forward",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Validity of past acts",
+                                                              "right":  "Status of the office"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s176-trap-1",
+                                               "trap":  "A defective appointment is permanently cured for all future acts.",
+                                               "correction":  "Protection ends once the company has notice of the invalidity or termination; future acts after notice are not validated."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s176-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 176 problem be analysed?",
+                                                    "answer":  "I. Identify the act and timing. II. Test afterwards-discovered defect. III. Check company notice. IV. Exclude ultra vires. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s176-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Appointment facts; discovery timeline; notice; nature of the act; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 176",
+                                            "Connected: Sections 152, 167"
+                                        ],
+                    "examTips":  [
+                                     "Protects acts before discovery of defect.",
+                                     "Stops after company notice.",
+                                     "Does not cure ultra vires acts."
+                                 ],
+                    "revisionPoints":  [
+                                           "Protection",
+                                           "Cut-off",
+                                           "Limits"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-152",
+                                          "company-ca-s-167"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-176",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 176 (Defects in appointment of directors not to invalidate actions taken).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 176 provides that no act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles: provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated.",
+                                        "legalPrinciple":  "Acts of a person as director remain valid despite later discovery of defective or terminated appointment; protection stops once the company has notice of the invalidity or termination; does not validate ultra vires acts.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 176 (Defects in appointment of directors not to invalidate actions taken)",
+                                        "essentialIngredients":  [
+                                                                     "Protection",
+                                                                     "Cut-Off",
+                                                                     "Limits"
+                                                                 ],
+                                        "detailedExplanation":  "No act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles of the company: Provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated. The section protects bona fide third-party reliance and internal acts taken before knowledge of the defect. It does not validate an act that is itself beyond the company’s powers, and it does not protect continued acting after notice of invalidity or termination. Current-law framing: identify the act; test whether appointment defect was only afterwards discovered; check whether the company already had notice; exclude ultra vires acts.",
+                                        "examples":  [
+                                                         "A director’s appointment later turns out to have lacked a formal consent filing. Board resolutions he participated in before discovery remain valid under s. 176.",
+                                                         "The company learns that a director’s appointment terminated under s. 167. Acts he purports to do after that notice are not protected by s. 176."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Acts of a person as director remain valid despite later discovery of defective or terminated appointment; protection stops once the company has notice of the invalidity or termination; does not validate ultra vires acts.",
+                                                             "Section 176 provides that no act done by a person as a director shall be deemed to be invalid, notwithstanding that it was afterwards discovered that his appointment was invalid by reason of any defect or disqualification or had terminated by virtue of any provision contained in this Act or in the articles: provided that nothing in this section shall be deemed to give validity to any act done by the director after his appointment has been noticed by the company to be invalid or to have terminated."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 176 (Defects in appointment of directors not to invalidate actions taken)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-10T06:10:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s176-2026-10-10",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-10T06:10:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-176",
+                 "defects-in-appointment"
+             ]
 }

@@ -1,235 +1,231 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-32",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 32 (Red Herring Prospectus)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details.",
-    "glance": "Red herring prospectus before the full prospectus; file at least three days before offer opens; same obligations as a prospectus; highlight variations in the final prospectus.",
-    "study": "A red herring prospectus is a prospectus that does not include complete particulars of the quantum or price of the securities. A company proposing an offer of securities may issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days before the opening of the subscription list and the offer. Upon closing of the offer of securities, the prospectus stating the total capital raised (whether by way of debt or share capital), the closing price of the securities and other prescribed details must be filed with the Registrar and SEBI. Any variation between the red herring prospectus and the prospectus must be highlighted as variations. The obligations under the Act as are applicable to a prospectus apply to a red herring prospectus. Current-law framing: identify use of a red herring; check the three-day filing rule; apply prospectus obligations; require highlighted variations and post-offer filing.",
-    "sections": [
-      {
-        "heading": "Meaning and Purpose",
-        "body": "A red herring prospectus omits complete quantum or price particulars and is used before the final prospectus to test the market.",
-        "order": 1
-      },
-      {
-        "heading": "Filing Before Offer",
-        "body": "It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer.",
-        "order": 2
-      },
-      {
-        "heading": "Prospectus Obligations",
-        "body": "Obligations applicable to a prospectus apply to a red herring prospectus; variations in the final prospectus must be highlighted.",
-        "order": 3
-      },
-      {
-        "heading": "Post-Offer Filing",
-        "body": "After the offer closes, a prospectus stating total capital raised, closing price and prescribed details must be filed with the Registrar and SEBI.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-32",
-        "section": "Section 32",
-        "title": "Red herring prospectus"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Compliant red herring",
-        "body": "A company files a red herring prospectus with the ROC at least three days before the offer opens, then files the final prospectus highlighting variations and post-offer capital details.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Late filing",
-        "body": "A red herring is filed only one day before the subscription list opens. Section 32’s three-day rule is breached.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Is a red herring free of prospectus liability?",
-        "analysis": "No. Obligations applicable to a prospectus apply to a red herring prospectus under s. 32."
-      },
-      {
-        "question": "Must price be fixed in the red herring?",
-        "analysis": "No. By definition it does not include complete particulars of quantum or price; those appear in the final prospectus."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s32-vs-s31",
-        "title": "Red herring (s. 32) vs shelf prospectus (s. 31)",
-        "left": "Pre-final prospectus for a single offer process, without complete price/quantum",
-        "right": "Multi-issue prospectus over a validity period with information memoranda",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Book-building / price discovery stage",
-            "right": "Repeated offers under one shelf"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s32-trap-1",
-        "trap": "A red herring is only a marketing document with no legal obligations.",
-        "correction": "Section 32 applies prospectus obligations to the red herring and requires highlighted variations in the final prospectus."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; background only.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s32-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 32 problem be analysed?",
-        "answer": "I. Identify red herring use. II. Check three-day ROC filing. III. Apply prospectus obligations. IV. Check variations and post-offer filing. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s32-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Red herring status; filing timeline; obligations; variations; post-offer filing; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 32",
-      "Connected: Sections 26, 31"
-    ],
-    "examTips": [
-      "State the three-day filing rule.",
-      "Emphasise that prospectus obligations apply.",
-      "Note highlighted variations and post-offer filing."
-    ],
-    "revisionPoints": [
-      "Meaning and purpose",
-      "Filing before offer",
-      "Prospectus obligations",
-      "Post-offer filing"
-    ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
-    "relatedTopics": [
-      "company-ca-s-26",
-      "company-ca-s-31"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-32",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "Explain the role of a red herring prospectus.",
-        "State the three-day filing requirement.",
-        "Apply prospectus obligations and post-offer filing rules."
-      ],
-      "definition": "Section 32 permits a red herring prospectus (without complete quantum or price) to be issued before the final prospectus, subject to filing and prospectus obligations.",
-      "legalPrinciple": "A red herring is a regulated pre-final prospectus document, not a liability-free marketing pamphlet.",
-      "statutoryFramework": "Companies Act, 2013, Section 32.",
-      "essentialIngredients": [
-        "Red herring before final prospectus",
-        "Filed at least three days before offer opens",
-        "Prospectus obligations apply",
-        "Variations highlighted; post-offer filing"
-      ],
-      "detailedExplanation": "Section 32 supports book-building and price discovery while keeping disclosure discipline.",
-      "examples": [
-        "Compliant red herring",
-        "Late filing"
-      ],
-      "problemApplication": "Check timing of filing; apply obligations; verify final prospectus variations and post-offer details.",
-      "keyTakeaways": [
-        "Three-day ROC filing before offer opens.",
-        "Prospectus obligations apply.",
-        "Highlight variations; file post-offer capital details."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 32",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "distinctions": [
-        "Red herring (s. 32) vs shelf prospectus (s. 31)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 32",
-          "citation": "Companies Act, 2013, section 32",
-          "point": "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Meaning; three-day filing; obligations; conclude.",
-        "sixteenMark": "Introduction; meaning; filing; obligations; variations; post-offer; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-09T19:05:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s32-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-32",
-    "red-herring-prospectus"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-32",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 32 (Red Herring Prospectus)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details.",
+                    "glance":  "Red herring prospectus before the full prospectus; file at least three days before offer opens; same obligations as a prospectus; highlight variations in the final prospectus.",
+                    "study":  "A red herring prospectus is a prospectus that does not include complete particulars of the quantum or price of the securities. A company proposing an offer of securities may issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days before the opening of the subscription list and the offer. Upon closing of the offer of securities, the prospectus stating the total capital raised (whether by way of debt or share capital), the closing price of the securities and other prescribed details must be filed with the Registrar and SEBI. Any variation between the red herring prospectus and the prospectus must be highlighted as variations. The obligations under the Act as are applicable to a prospectus apply to a red herring prospectus. Current-law framing: identify use of a red herring; check the three-day filing rule; apply prospectus obligations; require highlighted variations and post-offer filing.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Meaning and Purpose",
+                                         "body":  "A red herring prospectus omits complete quantum or price particulars and is used before the final prospectus to test the market.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Filing Before Offer",
+                                         "body":  "It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Prospectus Obligations",
+                                         "body":  "Obligations applicable to a prospectus apply to a red herring prospectus; variations in the final prospectus must be highlighted.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Post-Offer Filing",
+                                         "body":  "After the offer closes, a prospectus stating total capital raised, closing price and prescribed details must be filed with the Registrar and SEBI.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-32",
+                                           "section":  "Section 32",
+                                           "title":  "Red herring prospectus"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Compliant red herring",
+                                         "body":  "A company files a red herring prospectus with the ROC at least three days before the offer opens, then files the final prospectus highlighting variations and post-offer capital details.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Late filing",
+                                         "body":  "A red herring is filed only one day before the subscription list opens. Section 32’s three-day rule is breached.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Is a red herring free of prospectus liability?",
+                                              "analysis":  "No. Obligations applicable to a prospectus apply to a red herring prospectus under s. 32."
+                                          },
+                                          {
+                                              "question":  "Must price be fixed in the red herring?",
+                                              "analysis":  "No. By definition it does not include complete particulars of quantum or price; those appear in the final prospectus."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s32-vs-s31",
+                                             "title":  "Red herring (s. 32) vs shelf prospectus (s. 31)",
+                                             "left":  "Pre-final prospectus for a single offer process, without complete price/quantum",
+                                             "right":  "Multi-issue prospectus over a validity period with information memoranda",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Book-building / price discovery stage",
+                                                              "right":  "Repeated offers under one shelf"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s32-trap-1",
+                                               "trap":  "A red herring is only a marketing document with no legal obligations.",
+                                               "correction":  "Section 32 applies prospectus obligations to the red herring and requires highlighted variations in the final prospectus."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s32-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 32 problem be analysed?",
+                                                    "answer":  "I. Identify red herring use. II. Check three-day ROC filing. III. Apply prospectus obligations. IV. Check variations and post-offer filing. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s32-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Red herring status; filing timeline; obligations; variations; post-offer filing; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 32",
+                                            "Connected: Sections 26, 31"
+                                        ],
+                    "examTips":  [
+                                     "State the three-day filing rule.",
+                                     "Emphasise that prospectus obligations apply.",
+                                     "Note highlighted variations and post-offer filing."
+                                 ],
+                    "revisionPoints":  [
+                                           "Meaning and purpose",
+                                           "Filing before offer",
+                                           "Prospectus obligations",
+                                           "Post-offer filing"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-26",
+                                          "company-ca-s-31"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-32",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 32 (Red Herring Prospectus).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details.",
+                                        "legalPrinciple":  "Red herring prospectus before the full prospectus; file at least three days before offer opens; same obligations as a prospectus; highlight variations in the final prospectus.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 32 (Red Herring Prospectus)",
+                                        "essentialIngredients":  [
+                                                                     "Meaning and Purpose",
+                                                                     "Filing Before Offer",
+                                                                     "Prospectus Obligations",
+                                                                     "Post-Offer Filing"
+                                                                 ],
+                                        "detailedExplanation":  "A red herring prospectus is a prospectus that does not include complete particulars of the quantum or price of the securities. A company proposing an offer of securities may issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days before the opening of the subscription list and the offer. Upon closing of the offer of securities, the prospectus stating the total capital raised (whether by way of debt or share capital), the closing price of the securities and other prescribed details must be filed with the Registrar and SEBI. Any variation between the red herring prospectus and the prospectus must be highlighted as variations. The obligations under the Act as are applicable to a prospectus apply to a red herring prospectus. Current-law framing: identify use of a red herring; check the three-day filing rule; apply prospectus obligations; require highlighted variations and post-offer filing.",
+                                        "examples":  [
+                                                         "A company files a red herring prospectus with the ROC at least three days before the offer opens, then files the final prospectus highlighting variations and post-offer capital details.",
+                                                         "A red herring is filed only one day before the subscription list opens. Section 32’s three-day rule is breached."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Red herring prospectus before the full prospectus; file at least three days before offer opens; same obligations as a prospectus; highlight variations in the final prospectus.",
+                                                             "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 32 (Red Herring Prospectus)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Companies Act, 2013, section 32",
+                                                            "citation":  "Companies Act, 2013, section 32",
+                                                            "point":  "Section 32 allows a company proposing to make an offer of securities to issue a red herring prospectus prior to the issue of a prospectus. It must be filed with the Registrar at least three days prior to the opening of the subscription list and the offer, carries the obligations of a prospectus, and requires variations between the red herring and the final prospectus to be highlighted. After the offer closes, the final prospectus must state the total capital raised and other prescribed details.",
+                                                            "kind":  "statutory-pointer",
+                                                            "note":  "Statutory pointer taken from the topic\u0027s operative rule. Not a judgment and not a primary-report verification."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:05:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s32-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-32",
+                 "red-herring-prospectus"
+             ]
 }

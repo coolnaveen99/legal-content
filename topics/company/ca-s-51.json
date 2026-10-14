@@ -1,186 +1,211 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-51",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up.",
-    "glance": "If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up.",
-    "study": "Companies Act, 2013 — Section 51 (Payment of dividend in proportion to amount paid-up). If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up. The rule is optional and articles-driven; it does not automatically require reduced dividend on every partly paid share. Apply the company's articles and the general dividend provisions to the actual distribution.",
-    "sections": [
-      {
-        "heading": "Articles Authority",
-        "body": "Proportional dividend is available only if the articles authorise it.",
-        "order": 1
-      },
-      {
-        "heading": "Proportion to Paid-Up",
-        "body": "Where some shares have a larger amount paid up than others, dividend may be paid in proportion to the amount paid-up on each share.",
-        "order": 2
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-51",
-        "section": "Section 51",
-        "title": "Payment of dividend in proportion to amount paid-up"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Proportional dividend",
-        "body": "Articles authorise proportional dividend. Shares with ₹50 paid-up receive half the dividend per share of fully paid ₹100 shares. Section 51 is applied.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "No articles authority",
-        "body": "Articles are silent. The company cannot rely on s. 51 to pay dividend only in proportion to paid-up amounts without articles authorisation.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Must dividends always be proportional to paid-up capital?",
-        "analysis": "Only if the articles authorise it under s. 51. Otherwise the company’s dividend distribution follows the articles and general dividend rules."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s51-vs-s50",
-        "title": "Proportional dividend (s. 51) vs acceptance of unpaid capital (s. 50)",
-        "left": "How dividend is calculated on partly paid shares",
-        "right": "Power to accept uncalled capital in advance",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Dividend distribution",
-            "right": "Capital receipt"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s51-trap-1",
-        "trap": "Partly paid shareholders always get reduced dividend by force of statute alone.",
-        "correction": "Section 51 applies only if the articles authorise proportional dividend."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "question": "Must dividends always be proportional to paid-up amounts?",
-        "answer": "No. Section 51 permits proportional dividend only where the articles authorise it."
-      },
-      {
-        "question": "What determines the proportion under section 51?",
-        "answer": "The amount paid-up on each share, where the articles authorise proportional dividend."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013, section 51 — Payment of dividend in proportion to amount paid-up",
-      "Companies Act, 2013, section 123 — Declaration of dividend"
-    ],
-    "examTips": [
-      "Check articles authorisation first.",
-      "Compare amounts paid-up on the relevant shares.",
-      "Apply the general dividend rules as well as section 51."
-    ],
-    "revisionPoints": [
-      "Proportional dividend is optional and requires articles authority.",
-      "The proportion is based on amount paid-up on each share.",
-      "Section 51 does not itself mandate reduced dividends on all partly paid shares."
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-50",
-      "company-ca-s-123"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-51",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State when proportional dividend is permitted under s. 51.",
-        "Link the rule to articles authorisation."
-      ],
-      "definition": "If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up.",
-      "legalPrinciple": "If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up.",
-      "statutoryFramework": "Companies Act, 2013, section 51, read with the company's articles and section 123.",
-      "essentialIngredients": [
-        "Articles authorise proportional dividend",
-        "Different amounts paid-up on shares",
-        "Dividend proportion follows amounts paid-up"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 51 (Payment of dividend in proportion to amount paid-up). If the articles authorise it, a company may pay dividends in proportion to the amount paid-up on each share where different shares have different amounts paid-up. The rule is optional and articles-driven; it does not automatically require reduced dividend on every partly paid share. Apply the company's articles and the general dividend provisions to the actual distribution.",
-      "examples": [
-        "Articles authorise proportional dividend. Shares with ₹50 paid-up receive half the dividend per share of fully paid ₹100 shares. Section 51 is applied.",
-        "Articles are silent. The company cannot rely on s. 51 to pay dividend only in proportion to paid-up amounts without articles authorisation."
-      ],
-      "problemApplication": "Check articles authority, compare paid-up amounts and calculate the dividend proportion; then apply the general dividend provisions.",
-      "keyTakeaways": [
-        "Proportional dividend is optional and requires articles authority.",
-        "The proportion is based on amount paid-up on each share.",
-        "Section 51 does not itself mandate reduced dividends on all partly paid shares."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 51",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Core articles-authorisation and paid-up-amount rule retained; official PDF byte-level and broader current-law verification remain open.",
-        "date": "2026-10-14"
-      },
-      "distinctions": [
-        "Proportional dividend (s. 51) vs acceptance of unpaid capital (s. 50)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-law-review-open",
-      "examAnswerStructure": "State section 51; identify articles authority; compare paid-up amounts; apply proportional calculation and relevant dividend rules.",
-      "lastBotRunAt": "2026-10-09T19:20:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s51-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-14T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-51",
-    "proportional-dividend"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-51",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others.",
+                    "glance":  "If articles authorise, dividends may be paid in proportion to the amount paid-up on each share where paid-up amounts differ.",
+                    "study":  "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up). Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Articles Authority",
+                                         "body":  "Proportional dividend is available only if the articles authorise it.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Proportion to Paid-Up",
+                                         "body":  "Where some shares have a larger amount paid up than others, dividend may be paid in proportion to the amount paid-up on each share.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-51",
+                                           "section":  "Section 51",
+                                           "title":  "Payment of dividend in proportion to amount paid-up"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Proportional dividend",
+                                         "body":  "Articles authorise proportional dividend. Shares with ₹50 paid-up receive half the dividend per share of fully paid ₹100 shares. Section 51 is applied.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "No articles authority",
+                                         "body":  "Articles are silent. The company cannot rely on s. 51 to pay dividend only in proportion to paid-up amounts without articles authorisation.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must dividends always be proportional to paid-up capital?",
+                                              "analysis":  "Only if the articles authorise it under s. 51. Otherwise the company’s dividend distribution follows the articles and general dividend rules."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s51-vs-s50",
+                                             "title":  "Proportional dividend (s. 51) vs acceptance of unpaid capital (s. 50)",
+                                             "left":  "How dividend is calculated on partly paid shares",
+                                             "right":  "Power to accept uncalled capital in advance",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Dividend distribution",
+                                                              "right":  "Capital receipt"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s51-trap-1",
+                                               "trap":  "Partly paid shareholders always get reduced dividend by force of statute alone.",
+                                               "correction":  "Section 51 applies only if the articles authorise proportional dividend."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s51-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 51 problem be analysed?",
+                                                    "answer":  "I. Check articles. II. Compare paid-up amounts. III. Apply proportional rule if authorised. IV. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s51-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Articles; paid-up amounts; dividend calculation; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 51",
+                                            "Connected: Sections 50, 123"
+                                        ],
+                    "examTips":  [
+                                     "Articles authorisation is essential.",
+                                     "Proportion is to amount paid-up, not nominal value alone."
+                                 ],
+                    "revisionPoints":  [
+                                           "Articles authority",
+                                           "Proportion to paid-up"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-50"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-51",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others.",
+                                        "legalPrinciple":  "If articles authorise, dividends may be paid in proportion to the amount paid-up on each share where paid-up amounts differ.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up)",
+                                        "essentialIngredients":  [
+                                                                     "Articles Authority",
+                                                                     "Proportion to Paid-Up"
+                                                                 ],
+                                        "detailedExplanation":  "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up). Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others. State the trigger, the person who must comply, and the consequence in the section. A related section is a cross-reference, not a substitute for this rule. Not a verified closure.",
+                                        "examples":  [
+                                                         "Articles authorise proportional dividend. Shares with ₹50 paid-up receive half the dividend per share of fully paid ₹100 shares. Section 51 is applied.",
+                                                         "Articles are silent. The company cannot rely on s. 51 to pay dividend only in proportion to paid-up amounts without articles authorisation."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "If articles authorise, dividends may be paid in proportion to the amount paid-up on each share where paid-up amounts differ.",
+                                                             "Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 51 (Payment of Dividend in Proportion to Amount Paid-Up)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Companies Act, 2013, section 51",
+                                                            "citation":  "Companies Act, 2013, section 51",
+                                                            "point":  "Section 51 provides that a company may, if so authorised by its articles, pay dividends in proportion to the amount paid-up on each share where a larger amount is paid up on some shares than on others.",
+                                                            "kind":  "statutory-pointer",
+                                                            "note":  "Statutory pointer taken from the topic\u0027s operative rule. Not a judgment and not a primary-report verification."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:20:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s51-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:20:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-51",
+                 "proportional-dividend"
+             ]
 }

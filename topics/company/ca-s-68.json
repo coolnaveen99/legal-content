@@ -1,250 +1,246 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-68",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
-    "glance": "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
-    "study": "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities). Buy-back may be funded from free reserves, the securities premium account or proceeds of an issue of other shares or specified securities, but not proceeds of an earlier issue of the same kind. The articles must authorise the buy-back. A special resolution is generally required; the statutory exception permits a Board resolution for a buy-back within the 10% band specified in section 68(2). The aggregate buy-back limit is 25% of paid-up capital and free reserves, with a separate 25% of paid-up equity capital limit for equity shares in a financial year. Securities must be fully paid, and the post-buy-back debt-equity ratio must not exceed 2:1 unless a notified exception applies. Section 68 also prescribes solvency declaration, completion, extinguishment, restrictions on further issue, records and returns. Listed companies must comply with applicable SEBI regulations. Section 70 imposes additional prohibitions, including the three-year post-cure rule for specified defaults and compliance with sections 92, 123, 127 and 129. Check the current Act, rules and applicable listed-company regulations before relying on procedural deadlines or exceptions.",
-    "sections": [
-      {
-        "heading": "Authority and funding sources",
-        "body": "The articles must authorise the buy-back. Permitted sources are free reserves, the securities premium account or proceeds of an issue of other shares or specified securities. Proceeds of an earlier issue of the same kind of shares or securities cannot fund the buy-back.",
-        "order": 1
-      },
-      {
-        "heading": "Resolution and quantitative limits",
-        "body": "A special resolution is generally required. The section's exception permits a Board resolution for a buy-back within the specified 10% band. The aggregate cap is 25% of paid-up capital and free reserves; buy-back of equity shares is separately capped at 25% of paid-up equity capital in a financial year.",
-        "order": 2
-      },
-      {
-        "heading": "Fully paid securities and debt-equity ratio",
-        "body": "The shares or other specified securities must be fully paid. The post-buy-back debt-equity ratio must not exceed 2:1 unless the Central Government has prescribed an exception for a class of companies.",
-        "order": 3
-      },
-      {
-        "heading": "Solvency, completion and extinguishment",
-        "body": "Section 68 prescribes a declaration of solvency and process requirements. The buy-back must be completed within the statutory period and the bought-back securities extinguished/destroyed within the prescribed period. Verify the current statutory text and rules for exact filing, timing and dematerialised-security requirements.",
-        "order": 4
-      },
-      {
-        "heading": "Further issue, records and return",
-        "body": "Section 68 restricts further issue of the same kind of shares or specified securities after buy-back, subject to statutory exceptions, and requires prescribed records and a return within the statutory deadline. Verify current rule/SEBI requirements for the particular company and transaction.",
-        "order": 5
-      },
-      {
-        "heading": "Additional prohibition under section 70",
-        "body": "Section 70 applies additional prohibitions: specified indirect purchase routes, certain repayment/dividend/loan defaults unless cured and three years have elapsed, and non-compliance with sections 92, 123, 127 and 129.",
-        "order": 6
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "company",
-        "actName": "Companies Act, 2013",
-        "provisionId": "company-ca-s-68",
-        "title": "Companies Act, 2013 — Section 68: Power of company to purchase its own securities"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Same-kind proceeds",
-        "body": "Buy-back of equity funded by a fresh equity issue is not a permitted source."
-      },
-      {
-        "title": "Default bar",
-        "body": "An uncured deposit default attracts the s. 70 prohibition."
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "A company proposes to fund a buy-back using proceeds of a fresh issue of the same kind of shares. Is that a permitted source?",
-        "analysis": "No. Section 68 excludes proceeds of an earlier issue of the same kind of shares or specified securities."
-      },
-      {
-        "question": "A company meets section 68's resolution and funding requirements but has not complied with section 129. Can it proceed?",
-        "analysis": "Section 70(2) separately bars buy-back where the company has not complied with section 129. Section 68 compliance does not remove section 70 prohibitions."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s-68-distinction",
-        "title": "Section 68 buy-back power and section 70 prohibitions",
-        "left": "Section 68 states the general power, funding sources and procedural/quantitative conditions.",
-        "right": "Section 70 imposes additional bars that can prohibit a buy-back despite section 68 compliance.",
-        "rows": [
-          {
-            "point": "Purpose",
-            "left": "Authority and conditions",
-            "right": "Additional prohibitions"
-          },
-          {
-            "point": "Examples",
-            "left": "Funding source, caps, resolution and solvency",
-            "right": "Specified defaults, indirect routes and compliance with sections 92, 123, 127 and 129"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s-68-trap-1",
-        "trap": "Treating the 25% aggregate cap and the equity-share financial-year cap as the same test.",
-        "correction": "Apply the aggregate paid-up capital/free-reserves cap and the separate equity-share cap independently."
-      },
-      {
-        "id": "ca-s-68-trap-2",
-        "trap": "Assuming a Board resolution is sufficient for every buy-back.",
-        "correction": "A special resolution is generally required; the Board-resolution exception applies only within the statutory 10% band."
-      },
-      {
-        "id": "ca-s-68-trap-3",
-        "trap": "Checking section 68 alone and ignoring section 70.",
-        "correction": "Section 70 adds prohibitions, including the three-year post-cure rule and section 92/123/127/129 compliance."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "question": "Can a company hold bought-back shares as treasury stock?",
-        "answer": "No. The buy-back scheme requires extinguishment and physical destruction or demat equivalent within the prescribed period, not a treasury holding."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013, section 68 — Power of company to purchase its own securities",
-      "Companies Act, 2013, section 69 — Capital redemption reserve transfer",
-      "Companies Act, 2013, section 70 — Prohibition for buy-back in certain circumstances",
-      "Applicable SEBI buy-back regulations for listed companies"
-    ],
-    "examTips": [
-      "Check articles, source of funds and the same-kind issue restriction.",
-      "Apply the aggregate and equity-share caps separately.",
-      "Confirm resolution type, fully paid status and debt-equity ratio.",
-      "Check solvency, completion, extinguishment, further issue and filing rules.",
-      "Apply section 70 independently and check SEBI rules for listed companies."
-    ],
-    "revisionPoints": [
-      "Buy-back needs authority in the articles and a permitted funding source.",
-      "Apply the 25% aggregate cap and the separate 25% equity-share financial-year cap.",
-      "Board resolution is available only within the statutory 10% band; otherwise special resolution generally applies.",
-      "Fully paid securities, solvency, completion, extinguishment and filing requirements apply.",
-      "Section 70 imposes additional prohibitions."
-    ],
-    "relatedJudgments": [
-      {
-        "name": "No section-specific judgment recorded",
-        "citation": "",
-        "point": "No judgment is asserted here as interpreting section 68. Case-law verification remains open."
-      }
-    ],
-    "relatedTopics": [
-      "ca-s-69",
-      "ca-s-70",
-      "ca-s-66"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-68",
-    "migrationNote": "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met."
-      ],
-      "definition": "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
-      "legalPrinciple": "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
-      "statutoryFramework": "Companies Act, 2013, section 68, read with sections 69–70 and applicable rules/SEBI regulations.",
-      "essentialIngredients": [
-        "Articles authorise buy-back",
-        "Permitted funding source and same-kind issue restriction",
-        "Resolution type and 10% Board exception",
-        "Aggregate and equity-share caps",
-        "Fully paid securities and post-buy-back debt-equity ratio",
-        "Solvency declaration and prescribed process",
-        "Completion, extinguishment, further issue and return requirements",
-        "Separate section 70 restrictions"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities). Buy-back may be funded from free reserves, the securities premium account or proceeds of an issue of other shares or specified securities, but not proceeds of an earlier issue of the same kind. The articles must authorise the buy-back. A special resolution is generally required; the statutory exception permits a Board resolution for a buy-back within the 10% band specified in section 68(2). The aggregate buy-back limit is 25% of paid-up capital and free reserves, with a separate 25% of paid-up equity capital limit for equity shares in a financial year. Securities must be fully paid, and the post-buy-back debt-equity ratio must not exceed 2:1 unless a notified exception applies. Section 68 also prescribes solvency declaration, completion, extinguishment, restrictions on further issue, records and returns. Listed companies must comply with applicable SEBI regulations. Section 70 imposes additional prohibitions, including the three-year post-cure rule for specified defaults and compliance with sections 92, 123, 127 and 129. Check the current Act, rules and applicable listed-company regulations before relying on procedural deadlines or exceptions.",
-      "examples": [
-        "No. Section 68 excludes proceeds of an earlier issue of the same kind of shares or specified securities.",
-        "Section 70(2) separately bars buy-back where the company has not complied with section 129. Section 68 compliance does not remove section 70 prohibitions."
-      ],
-      "problemApplication": "Identify company/listing status and instrument; check articles, source, limits, resolution, paid-up status and debt-equity ratio; verify process requirements and applicable SEBI rules; separately test section 70.",
-      "keyTakeaways": [
-        "Buy-back needs authority in the articles and a permitted funding source.",
-        "Apply the 25% aggregate cap and the separate 25% equity-share financial-year cap.",
-        "Board resolution is available only within the statutory 10% band; otherwise special resolution generally applies.",
-        "Fully paid securities, solvency, completion, extinguishment and filing requirements apply.",
-        "Section 70 imposes additional prohibitions."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013",
-        "MCA/India Code text to be re-checked for the exact commencement date",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "distinctions": [
-        {
-          "id": "ca-s-68-distinction",
-          "title": "Section 68 buy-back power and section 70 prohibitions",
-          "left": "Section 68 states the general power, funding sources and procedural/quantitative conditions.",
-          "right": "Section 70 imposes additional bars that can prohibit a buy-back despite section 68 compliance.",
-          "rows": [
-            {
-              "point": "Purpose",
-              "left": "Authority and conditions",
-              "right": "Additional prohibitions"
-            },
-            {
-              "point": "Examples",
-              "left": "Funding source, caps, resolution and solvency",
-              "right": "Specified defaults, indirect routes and compliance with sections 92, 123, 127 and 129"
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-law-review-open",
-      "examAnswerStructure": "State section 68 power; test authority and funding; apply each cap and resolution threshold; check fully paid status, ratio and process requirements; then apply section 70 and listed-company regulations.",
-      "lastBotRunAt": "2026-10-09T20:30:00.000Z",
-      "bot": "company-closure-batch-2026-10-09",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Not marked verified"
-      ],
-      "sourceFingerprint": "ca-s-68-2026-10-09",
-      "exampleQuality": "topic-specific-v1",
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Core funding, resolution, cap and solvency structure retained and expanded. Exact current deadlines, further-issue exceptions, prescribed forms and SEBI rule requirements require official rule-level verification; official PDF byte-level and case-law review remain open.",
-        "date": "2026-10-14"
-      },
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "legacy-migration",
-    "review-required",
-    "company"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-68",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
+                    "glance":  "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
+                    "study":  "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities). Buy-back may be funded from free reserves, the securities premium account or proceeds of an issue of other shares or specified securities, but not proceeds of an earlier issue of the same kind. The articles must authorise the buy-back. A special resolution is generally required; the statutory exception permits a Board resolution for a buy-back within the 10% band specified in section 68(2). The aggregate buy-back limit is 25% of paid-up capital and free reserves, with a separate 25% of paid-up equity capital limit for equity shares in a financial year. Securities must be fully paid, and the post-buy-back debt-equity ratio must not exceed 2:1 unless a notified exception applies. Section 68 also prescribes solvency declaration, completion, extinguishment, restrictions on further issue, records and returns. Listed companies must comply with applicable SEBI regulations. Section 70 imposes additional prohibitions, including the three-year post-cure rule for specified defaults and compliance with sections 92, 123, 127 and 129. Check the current Act, rules and applicable listed-company regulations before relying on procedural deadlines or exceptions.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Authority and funding sources",
+                                         "body":  "The articles must authorise the buy-back. Permitted sources are free reserves, the securities premium account or proceeds of an issue of other shares or specified securities. Proceeds of an earlier issue of the same kind of shares or securities cannot fund the buy-back.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Resolution and quantitative limits",
+                                         "body":  "A special resolution is generally required. The section\u0027s exception permits a Board resolution for a buy-back within the specified 10% band. The aggregate cap is 25% of paid-up capital and free reserves; buy-back of equity shares is separately capped at 25% of paid-up equity capital in a financial year.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Fully paid securities and debt-equity ratio",
+                                         "body":  "The shares or other specified securities must be fully paid. The post-buy-back debt-equity ratio must not exceed 2:1 unless the Central Government has prescribed an exception for a class of companies.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Solvency, completion and extinguishment",
+                                         "body":  "Section 68 prescribes a declaration of solvency and process requirements. The buy-back must be completed within the statutory period and the bought-back securities extinguished/destroyed within the prescribed period. Verify the current statutory text and rules for exact filing, timing and dematerialised-security requirements.",
+                                         "order":  4
+                                     },
+                                     {
+                                         "heading":  "Further issue, records and return",
+                                         "body":  "Section 68 restricts further issue of the same kind of shares or specified securities after buy-back, subject to statutory exceptions, and requires prescribed records and a return within the statutory deadline. Verify current rule/SEBI requirements for the particular company and transaction.",
+                                         "order":  5
+                                     },
+                                     {
+                                         "heading":  "Additional prohibition under section 70",
+                                         "body":  "Section 70 applies additional prohibitions: specified indirect purchase routes, certain repayment/dividend/loan defaults unless cured and three years have elapsed, and non-compliance with sections 92, 123, 127 and 129.",
+                                         "order":  6
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-68",
+                                           "title":  "Companies Act, 2013 — Section 68: Power of company to purchase its own securities"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Same-kind proceeds",
+                                         "body":  "Buy-back of equity funded by a fresh equity issue is not a permitted source."
+                                     },
+                                     {
+                                         "title":  "Default bar",
+                                         "body":  "An uncured deposit default attracts the s. 70 prohibition."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "A company proposes to fund a buy-back using proceeds of a fresh issue of the same kind of shares. Is that a permitted source?",
+                                              "analysis":  "No. Section 68 excludes proceeds of an earlier issue of the same kind of shares or specified securities."
+                                          },
+                                          {
+                                              "question":  "A company meets section 68\u0027s resolution and funding requirements but has not complied with section 129. Can it proceed?",
+                                              "analysis":  "Section 70(2) separately bars buy-back where the company has not complied with section 129. Section 68 compliance does not remove section 70 prohibitions."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s-68-distinction",
+                                             "title":  "Section 68 buy-back power and section 70 prohibitions",
+                                             "left":  "Section 68 states the general power, funding sources and procedural/quantitative conditions.",
+                                             "right":  "Section 70 imposes additional bars that can prohibit a buy-back despite section 68 compliance.",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Purpose",
+                                                              "left":  "Authority and conditions",
+                                                              "right":  "Additional prohibitions"
+                                                          },
+                                                          {
+                                                              "point":  "Examples",
+                                                              "left":  "Funding source, caps, resolution and solvency",
+                                                              "right":  "Specified defaults, indirect routes and compliance with sections 92, 123, 127 and 129"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-68-trap-1",
+                                               "trap":  "Treating the 25% aggregate cap and the equity-share financial-year cap as the same test.",
+                                               "correction":  "Apply the aggregate paid-up capital/free-reserves cap and the separate equity-share cap independently."
+                                           },
+                                           {
+                                               "id":  "ca-s-68-trap-2",
+                                               "trap":  "Assuming a Board resolution is sufficient for every buy-back.",
+                                               "correction":  "A special resolution is generally required; the Board-resolution exception applies only within the statutory 10% band."
+                                           },
+                                           {
+                                               "id":  "ca-s-68-trap-3",
+                                               "trap":  "Checking section 68 alone and ignoring section 70.",
+                                               "correction":  "Section 70 adds prohibitions, including the three-year post-cure rule and section 92/123/127/129 compliance."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "Can a company hold bought-back shares as treasury stock?",
+                                                    "answer":  "No. The buy-back scheme requires extinguishment and physical destruction or demat equivalent within the prescribed period, not a treasury holding."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 68 — Power of company to purchase its own securities",
+                                            "Companies Act, 2013, section 69 — Capital redemption reserve transfer",
+                                            "Companies Act, 2013, section 70 — Prohibition for buy-back in certain circumstances",
+                                            "Applicable SEBI buy-back regulations for listed companies"
+                                        ],
+                    "examTips":  [
+                                     "Check articles, source of funds and the same-kind issue restriction.",
+                                     "Apply the aggregate and equity-share caps separately.",
+                                     "Confirm resolution type, fully paid status and debt-equity ratio.",
+                                     "Check solvency, completion, extinguishment, further issue and filing rules.",
+                                     "Apply section 70 independently and check SEBI rules for listed companies."
+                                 ],
+                    "revisionPoints":  [
+                                           "Buy-back needs authority in the articles and a permitted funding source.",
+                                           "Apply the 25% aggregate cap and the separate 25% equity-share financial-year cap.",
+                                           "Board resolution is available only within the statutory 10% band; otherwise special resolution generally applies.",
+                                           "Fully paid securities, solvency, completion, extinguishment and filing requirements apply.",
+                                           "Section 70 imposes additional prohibitions."
+                                       ],
+                    "relatedJudgments":  [
+                                             {
+                                                 "name":  "No section-specific judgment recorded",
+                                                 "citation":  "",
+                                                 "point":  "No judgment is asserted here as interpreting section 68. Case-law verification remains open."
+                                             }
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-69",
+                                          "ca-s-70",
+                                          "ca-s-66"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-68",
+                    "migrationNote":  "Imported from the codepackr-law legacy topic catalog. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 68 (Power of company to purchase its own securities).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
+                                        "legalPrinciple":  "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 68 (Power of company to purchase its own securities)",
+                                        "essentialIngredients":  [
+                                                                     "Authority and funding sources",
+                                                                     "Resolution and quantitative limits",
+                                                                     "Fully paid securities and debt-equity ratio",
+                                                                     "Solvency, completion and extinguishment",
+                                                                     "Further issue, records and return",
+                                                                     "Additional prohibition under section 70"
+                                                                 ],
+                                        "detailedExplanation":  "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities). Buy-back may be funded from free reserves, the securities premium account or proceeds of an issue of other shares or specified securities, but not proceeds of an earlier issue of the same kind. The articles must authorise the buy-back. A special resolution is generally required; the statutory exception permits a Board resolution for a buy-back within the 10% band specified in section 68(2). The aggregate buy-back limit is 25% of paid-up capital and free reserves, with a separate 25% of paid-up equity capital limit for equity shares in a financial year. Securities must be fully paid, and the post-buy-back debt-equity ratio must not exceed 2:1 unless a notified exception applies. Section 68 also prescribes solvency declaration, completion, extinguishment, restrictions on further issue, records and returns. Listed companies must comply with applicable SEBI regulations. Section 70 imposes additional prohibitions, including the three-year post-cure rule for specified defaults and compliance with sections 92, 123, 127 and 129. Check the current Act, rules and applicable listed-company regulations before relying on procedural deadlines or exceptions.",
+                                        "examples":  [
+                                                         "Buy-back of equity funded by a fresh equity issue is not a permitted source.",
+                                                         "An uncured deposit default attracts the s. 70 prohibition."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met.",
+                                                             "Section 68 allows buy-back of own shares or specified securities if articles authorise it and the source, cap, solvency and process conditions are met."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 68 (Power of company to purchase its own securities)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-law-review-open",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T20:30:00.000Z",
+                                        "bot":  "company-closure-batch-2026-10-09",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Not marked verified"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s-68-2026-10-09",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T00:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

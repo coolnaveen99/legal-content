@@ -1,64 +1,175 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-136",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 136 (Right of member to copies of audited financial statement)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "A copy of the financial statements, including consolidated financial statements if any, auditor's report and every other document required by law to be annexed or attached to the financial statements, which are to be laid before a company in its general meeting, shall be sent to every member of the company, to every trustee for the debenture-holder of any debentures issued by the company, and to all persons other than such member or trustee being the person so entitled, not less than twenty-one days before the date of the meeting.",
-    "glance": "Financial statements, auditor's report and annexed documents must be sent to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.",
-    "study": "## Section 136 — Right of member to copies of audited financial statement\n\n**Circulation.** A copy of the financial statements (including consolidated), auditor's report and every other document required to be annexed or attached, which are to be laid before the company in general meeting, must be sent to:\n- every member;\n- every trustee for the debenture-holders; and\n- all other persons so entitled,\nnot less than twenty-one days before the date of the meeting.\n\n**Provisos.** A shorter period may be agreed; a listed company may send a statement containing the salient features in the prescribed form.\n\n**Inspection.** A copy is kept at the registered office for inspection during business hours.\n\nStatements are laid under section 129 and filed under section 137.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Circulation", "body": "Send to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.", "order": 1},
-      {"heading": "Provisos and inspection", "body": "Shorter period if agreed; listed company may use prescribed salient-features statement; copy at registered office for inspection.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-136", "title": "Companies Act, 2013 — Section 136"}],
-    "examples": [{"title": "Twenty-one days", "body": "Company sends financial statements and auditor's report to all members at least twenty-one days before the AGM. Educational illustration."}],
-    "hypotheticals": [{"question": "Can a listed company send only salient features instead of the full statements?", "analysis": "The provisos allow a listed company to send a statement containing the salient features in the prescribed form, subject to the section."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-136-trap-1", "trap": "Confusing circulation (s. 136) with filing with the Registrar (s. 137).", "correction": "Section 136 is circulation to members and others; section 137 is filing with the Registrar after the AGM."}, {"id": "ca-s-136-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within sections 136, 129 and 137."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What does section 136 require?", "answer": "A copy of the financial statements, auditor's report and annexed documents must be sent to every member, debenture trustee and other entitled person not less than twenty-one days before the meeting."}],
-    "bareActPointers": ["Companies Act, 2013, section 136", "Companies Act, 2013, sections 129 and 137"],
-    "examTips": ["State the twenty-one day period and the recipients.", "Mention listed-company salient-features proviso."],
-    "revisionPoints": ["Twenty-one days before the meeting.", "Members, debenture trustees, other entitled persons.", "Filing is section 137."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-129", "ca-s-137", "ca-s-134"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-136",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Members and other entitled persons receive copies of audited financial statements not less than twenty-one days before the meeting.",
-      "legalPrinciple": "Section 136 is the circulation duty for financial statements and related documents.",
-      "statutoryFramework": ["Companies Act, 2013, section 136"],
-      "essentialIngredients": ["Financial statements and auditor's report", "Send to members and entitled persons", "Not less than twenty-one days before the meeting"],
-      "detailedExplanation": "Section 136 governs pre-meeting circulation of financial statements.",
-      "examples": [],
-      "keyTakeaways": ["Twenty-one days.", "Members and debenture trustees.", "Distinguish from s. 137 filing."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:30:00.000Z",
-      "bot": "current-assistant-company-batch-128-144",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the circulation rule under section 136."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:30:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-136",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 136 (Right of member to copies of audited financial statement)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "A copy of the financial statements, including consolidated financial statements if any, auditor\u0027s report and every other document required by law to be annexed or attached to the financial statements, which are to be laid before a company in its general meeting, shall be sent to every member of the company, to every trustee for the debenture-holder of any debentures issued by the company, and to all persons other than such member or trustee being the person so entitled, not less than twenty-one days before the date of the meeting.",
+                    "glance":  "Financial statements, auditor\u0027s report and annexed documents must be sent to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.",
+                    "study":  "## Section 136 — Right of member to copies of audited financial statement\n\n**Circulation.** A copy of the financial statements (including consolidated), auditor\u0027s report and every other document required to be annexed or attached, which are to be laid before the company in general meeting, must be sent to:\n- every member;\n- every trustee for the debenture-holders; and\n- all other persons so entitled,\nnot less than twenty-one days before the date of the meeting.\n\n**Provisos.** A shorter period may be agreed; a listed company may send a statement containing the salient features in the prescribed form.\n\n**Inspection.** A copy is kept at the registered office for inspection during business hours.\n\nStatements are laid under section 129 and filed under section 137.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Circulation",
+                                         "body":  "Send to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Provisos and inspection",
+                                         "body":  "Shorter period if agreed; listed company may use prescribed salient-features statement; copy at registered office for inspection.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-136",
+                                           "title":  "Companies Act, 2013 — Section 136"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Twenty-one days",
+                                         "body":  "Company sends financial statements and auditor\u0027s report to all members at least twenty-one days before the AGM. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can a listed company send only salient features instead of the full statements?",
+                                              "analysis":  "The provisos allow a listed company to send a statement containing the salient features in the prescribed form, subject to the section."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-136-trap-1",
+                                               "trap":  "Confusing circulation (s. 136) with filing with the Registrar (s. 137).",
+                                               "correction":  "Section 136 is circulation to members and others; section 137 is filing with the Registrar after the AGM."
+                                           },
+                                           {
+                                               "id":  "ca-s-136-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within sections 136, 129 and 137."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What does section 136 require?",
+                                                    "answer":  "A copy of the financial statements, auditor\u0027s report and annexed documents must be sent to every member, debenture trustee and other entitled person not less than twenty-one days before the meeting."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 136",
+                                            "Companies Act, 2013, sections 129 and 137"
+                                        ],
+                    "examTips":  [
+                                     "State the twenty-one day period and the recipients.",
+                                     "Mention listed-company salient-features proviso."
+                                 ],
+                    "revisionPoints":  [
+                                           "Twenty-one days before the meeting.",
+                                           "Members, debenture trustees, other entitled persons.",
+                                           "Filing is section 137."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-129",
+                                          "ca-s-137",
+                                          "ca-s-134"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-136",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "A copy of the financial statements, including consolidated financial statements if any, auditor\u0027s report and every other document required by law to be annexed or attached to the financial statements, which are to be laid before a company in its general meeting, shall be sent to every member of the company, to every trustee for the debenture-holder of any debentures issued by the company, and to all persons other than such member or trustee being the person so entitled, not less than twenty-one days before the date of the meeting.",
+                                        "legalPrinciple":  "Financial statements, auditor\u0027s report and annexed documents must be sent to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 136 (Right of member to copies of audited financial statement)",
+                                        "essentialIngredients":  [
+                                                                     "Circulation",
+                                                                     "Provisos and inspection"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 136 — Right of member to copies of audited financial statement\n\n**Circulation.** A copy of the financial statements (including consolidated), auditor\u0027s report and every other document required to be annexed or attached, which are to be laid before the company in general meeting, must be sent to:\n- every member;\n- every trustee for the debenture-holders; and\n- all other persons so entitled,\nnot less than twenty-one days before the date of the meeting.\n\n**Provisos.** A shorter period may be agreed; a listed company may send a statement containing the salient features in the prescribed form.\n\n**Inspection.** A copy is kept at the registered office for inspection during business hours.\n\nStatements are laid under section 129 and filed under section 137.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Company sends financial statements and auditor\u0027s report to all members at least twenty-one days before the AGM. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Financial statements, auditor\u0027s report and annexed documents must be sent to members, debenture trustees and other entitled persons not less than twenty-one days before the meeting.",
+                                                             "A copy of the financial statements, including consolidated financial statements if any, auditor\u0027s report and every other document required by law to be annexed or attached to the financial statements, which are to be laid before a company in its general meeting, shall be sent to every member of the company, to every trustee for the debenture-holder of any debentures issued by the company, and to all persons other than such member or trustee being the person so entitled, not less than twenty-one days before the date of the meeting."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:30:00.000Z",
+                                        "bot":  "current-assistant-company-batch-128-144",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 136 (Right of member to copies of audited financial statement).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 136 (Right of member to copies of audited financial statement)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:30:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

@@ -1,4 +1,62 @@
 # Work Control Master — Legal Content
+
+## 2026-10-14 UNCITRAL Model Law source-backed scope repair claim
+
+- Subject/enhancement: Arbitration and ADR / E-03-Arbitration.
+- Exact range: uncitral-model-law; official UNCITRAL overview source record.
+- Current remote main: ca5ad4027d702f687816dc1007fb1737a833ce98, rechecked unchanged after this batch; latest topic commits fb4fe84eddfbb5e40067edb330c59927a8a6383e and 8cd817cdcf11089a3bcaefe3833d21b5e65bebd8. Local snapshot has no Git metadata.
+- Status/owner: review/source_check_required; current-assistant-uncitral-model-law-scope-review. No open UNCITRAL PR found; prior board entry is status normalization, not source-backed substantive closure.
+- Reopening trigger/missing gate: false governing-statute description, unrelated BSA provision boilerplate and repeated generic answers. Existing cases and relationship identities are preserved, not newly verified.
+- Source evidence: official UNCITRAL overview and enactment-status HTML pages retrieved 2026-10-14; overview identifies 1985 text, 2006 amendments, reform objective and coverage. Status page lists India 1996 as legislation based on or influenced by the Model Law.
+- Planned change: replace generated scope assertions throughout the topic with a source-grounded overview; distinguish model legislation from national enactments and institutional rules; preserve case arrays but expressly keep CASE_VERIFY open.
+- Validation: JSON, no residual BSA/Mediation Act/LSAA governing assertions, distinct answer points/applications, exact case/identity/relationship preservation hashes, manifest refresh and canonical validation.
+- Evidence/result: local overview repair implemented and validated. Exact SHA-256 comparisons of serialized case arrays, topic identity and existing relationship lists passed. Four ten-mark and five sixteen-mark points and applications are individually distinct. Review/source-check-required statuses and explicit case-law gate remain open. validate:schemas, manifest:refresh, validate:manifest and validate passed: 9,019 entities, zero errors/warnings, zero missing/type-mismatched/reciprocal relationship gaps. Editor diagnostics show no errors. Initial broad contamination assertion also matched the audit note describing removal of BSA boilerplate; the instructional-content check excludes only verification notes and separately asserts verification statuses. This is an overview repair, not full article-by-article/current-law or subject completion. No commit/push or publication.
+
+## 2026-10-14 Arbitration subject-wide read-only quality triage
+
+- Scope: all 160 local JSON topic records in topics/arbitration; no ownership or substantive changes beyond the separately claimed UNCITRAL batch.
+- Measured after the UNCITRAL repair: 142 top-level review records; 147 enhancement source_check_required records; 101 records with repeated point text in array-form tenMark/sixteenMark answers; 40 records containing the exact BSA s. 104 boilerplate string; 105 records with empty top-level source arrays.
+- Additional indicator: 22 records have nested SOURCE_VERIFIED with the exact generated verifier byline "India Code / repository substantive enhancement pass". This is a provenance-review indicator, not a determination that all 22 are false or permission to overwrite verified work.
+- Counts overlap and must not be added together as a task total. The scan checks exact strings/array forms, not exhaustive legal correctness; non-array answer structures require separate review. Existing case text may itself contain BSA references where legally relevant.
+- Initial scanner assumed array-form answers and failed on an existing non-array shape; rerun used Array.isArray guards and completed. No affected content was changed by the scanner.
+- Disposition: earlier zero-missing-enhancement counts cannot establish subject completion. Continue exact-topic ownership/source-backed review before substantive edits. Mediation sections 4-6 remain source-blocked. Article-level/current-law, existing-case, independent PDF manual review, integration/E2E, production and human legal-sign-off gates are not closed by canonical validation.
+
+## 2026-10-14 Mediation Act sections 4-6 source-review blocker
+
+- Subject/range: Arbitration and ADR / E-03-Arbitration; med-s-4, med-s-5, med-s-6.
+- Owner: current-assistant-mediation-s4-s6-source-triage; no substantive rewrite started.
+- Current status: review/source_check_required, nested SOURCE_CHECK_REQUIRED. Generic repeated answer scaffolding and unrelated Income-tax source links remain unresolved defects, not evidence of completion.
+- Missing gate: retrieve and review the actual enacted text, applicable commencement notifications and subsequent changes before correcting or enhancing propositions. In particular, do not infer a general mandatory pre-litigation rule from the present section 5 summary.
+- Retrieval evidence: India Code PDF requests to www.indiacode.nic.in and indiacode.nic.in returned HTTP 403; Ministry/Legislative Department Act pages also returned HTTP 403. NALSA mediation resources retrieved did not supply the Act or commencement material needed for this range.
+- Disposition: BLOCKED for source-backed substantive editing; existing statutory wording preserved and no verification promotion made. Prior field-presence counts do not close this gate.
+- Next action: obtain an accessible authoritative enacted Act and applicable Gazette notifications, or an auditable approved official copy, then resume VERIFY -> CORRECT -> STRUCTURE -> ENHANCE. Current-law and case-law review remain separate; do not publish as verified law.
+
+## 2026-10-14 Lok Adalat sections 20-21 statutory-content claim
+
+- Subject/enhancement: Arbitration and ADR / E-03-Arbitration.
+- Exact range: lsaa-s-20, lsaa-s-21 and their NALSA statutory source record.
+- Current remote main inspected: ca5ad4027d702f687816dc1007fb1737a833ce98; latest path commits fb4fe84eddfbb5e40067edb330c59927a8a6383e. Local snapshot has no Git metadata.
+- Current status: review / source_check_required; earlier generic answer scaffolding is not substantive completion.
+- Owner: current-assistant-lok-adalat-s20-s21-statutory-review. No overlapping local claim found; the earlier metadata-only repair is complete. Latest Arbitration PR search found no open Arbitration PR.
+- Missing gate: source-backed statutory explanation, meaningful distinctions and non-repeated answers; incorrect Income-tax source links.
+- Planned change: use the English Act PDF linked from NALSA's legislation page, pages 12-13, to explain sections 20(1)-(7) and 21(1)-(2); add an accurately scoped source record; preserve IDs and review states.
+- Source evidence: NALSA PDF SHA-256 3aae5d5c9f8c2ad100c0553c351af559e35fb36c3fc68a921fd1e64dd4a9318f; 19 pages. India Code retrieval returned HTTP 403; NALSA is recorded as the actual reviewed source, not as byte-identical replacement for India Code. Text extraction had font-encoding warnings; no quotation or exhaustive current-law/PDF-manual-review closure is claimed.
+- Validation: section-specific assertions, unique answer-point checks, schema validation, manifest refresh/check and full canonical validation.
+- Evidence/result: local statutory-content batch implemented. Focused checks passed for distinct answer points/applications, examples, section-specific consequences, source links and preserved review status. validate:schemas, manifest:refresh, validate:manifest and validate passed: 9,018 entities, zero errors/warnings. One initial assertion expected an unabbreviated subsection reference and was corrected to match the valid abbreviated reference. Source review remains limited; PDF manual review and all later gates remain open. No Git commit, push, publication or legal sign-off.
+
+## 2026-10-14 Arbitration verification-metadata repair claim
+
+- Subject/enhancement: Arbitration and ADR / E-03-Arbitration.
+- Exact range: lsaa-s-20, lsaa-s-21, med-s-4, med-s-5, med-s-6; enhancement verification metadata only.
+- Current remote main: `ca5ad4027d702f687816dc1007fb1737a833ce98`; local snapshot has no Git metadata.
+- Current status: five local review-stage topics, enhancement status source_check_required, but nested verification incorrectly copied as SOURCE_VERIFIED.
+- Owner: current-assistant-arbitration-verification-metadata-repair.
+- Latest evidence: local 21-record batch; current remote med-s-4 has no enhancement object. Recent Arbitration commits concern catalog/relationship fixes; no open Arbitration PR or overlapping claim found in this control.
+- Reopening trigger/missing gate: verified local template-copy defect, not a new legal determination. Five records, not the three reported in the earlier batch.
+- Planned change: remove inherited verification date/byline and set nested verification to SOURCE_CHECK_REQUIRED; preserve all statutory text, identifiers, sources and top-level review status.
+- Validation: focused five-record assertions, schema validation, manifest refresh/check and full canonical validation.
+- Evidence/commit: five focused metadata assertions passed; validate:schemas, manifest:refresh, validate:manifest and validate passed locally (9,017 entities, zero errors/warnings). Local metadata repair complete; statutory verification, substantive enhancement review and publication remain open. No commit or push performed.
+
 **Effective:** 2026-10-09  
 **Status:** AUTHORITATIVE / ACTIVE
 
@@ -1189,336 +1247,6 @@ Current status: `verification_in_progress`; legal-source verification not closed
 Current owner: `current-assistant-company-s62-reverse`  
 Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f018c6; verify rights offer, notice/renunciation period, private placement/preferential issue routes, employee stock option exception and current penalty/valuation rules  
 Missing gate: separate pro-rata rights issue from preferential allotment/private placement and verify current forms, valuation and offer periods  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 62 enhancement committed as `9657408737a42f30cdb562eb52bf2317de940446`. JSON parse and focused assertions passed; rights issue, renunciation, alternative routes and section 42 distinction are documented. Private-company shortened-period consent and current rule/valuation details remain open; topic status remains `verification_in_progress`.
-
-
-## Company Law s. 61 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — power of limited company to alter share capital  
-Topic/section range: `topics/company/ca-s-61.json` only  
-Current main topic blob SHA: `3b1e8f42ce613028fe5ba1494141e57507d609b1`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s61-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify permitted alterations, articles/ordinary-resolution authority, class-rights consequences and section 64 notice linkage against current text  
-Missing gate: distinguish alteration of authorised share capital from allotment/further issue and from reduction/buy-back  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 61 cleanup committed as `8d22b0447ebd43d983c782b4e680a47b18781ad5`. JSON parse and focused assertions passed; alteration types, Tribunal trigger, cancellation/reduction distinction and section 64 notice linkage are explicit. Topic status remains `verification_in_progress`; full legal/source verification remains open.
-
-
-## Company Law s. 60 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — publication of authorised, subscribed and paid-up capital  
-Topic/section range: `topics/company/ca-s-60.json` only  
-Current main topic blob SHA: `c0295f199f90653a2a258a8b506890f4a858775d`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s60-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify the equal-prominence requirement when authorised capital is stated in specified company communications  
-Missing gate: confirm any separate penalty consequence from current authoritative text; distinguish disclosure from section 61 alteration  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 60 disclosure cleanup committed as `d836e3cab9e627ac9090ae87d3da8e25ecbd4fcd`. JSON parse and focused assertions passed; the trigger, both required capital figures and equal-prominence rule are explicit; unrelated case-law and generic drafting boilerplate removed. Topic remains `verification_in_progress`; separate penalty and full source verification remain open.
-
-
-## Company Law s. 59 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — rectification of register of members  
-Topic/section range: `topics/company/ca-s-59.json` only  
-Current main topic blob SHA: `eeadc5de26dbe2ab37ae34d16d48f305ccaea1bf`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s59-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify who may apply, grounds for rectification, Tribunal jurisdiction, limitation and register/beneficial-interest distinctions against current text  
-Missing gate: distinguish register rectification from nomination, transfer, transmission and beneficial-ownership disputes; avoid unsupported forum/limitation boilerplate  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 59 correction committed as `a52c1305b5f722a969e92ec65709a97fc428683b`. JSON parse and focused assertions passed; current subsection routes, ten-day order compliance, transfer/voting rule and omission of former subsection (5) penalty are stated. Topic status remains `verification_in_progress`; official source and case-law review remain open.
-
-
-## Company Law s. 58 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — refusal of registration and appeal  
-Topic/section range: `topics/company/ca-s-58.json` only  
-Current main topic blob SHA: `7750b6dfea4423fc0327005b5269c0d719d8e725`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s58-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9f3abf; verify private/public company timelines, appeal periods, Tribunal orders, damages and current penalty language against amended Act  
-Missing gate: distinguish refusal appeals under section 58 from rectification under section 59 and use current penalty provisions  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 58 correction committed as `e53ee30a0b68803f07223f224842c61fb261a0f5`. JSON parse and focused assertions passed; private/public refusal appeal periods and no-notice alternatives are recorded. Current subsection (6) penalty and full source/case-law verification remain open; topic status remains `verification_in_progress`.
-
-
-## Company Law s. 57 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — punishment for personation of shareholder  
-Topic/section range: `topics/company/ca-s-57.json` only  
-Current main topic blob SHA: `df03537c4ece58deaebdd7b1cdc091adebd08a52`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s57-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify deceitful personation, object/attempt elements and the current imprisonment/fine range against section 57  
-Missing gate: distinguish personation of an existing security owner under section 57 from fictitious-name applications under section 38  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 57 cleanup committed as `32c4d94f1a08c5ca17655ab713f432112a5e2745`. JSON parse and focused assertions passed; offence elements and statutory punishment range are stated, unrelated case/drafting boilerplate removed, and section 38 is distinguished. Topic remains `verification_in_progress`; official PDF and case-law verification remain open.
-
-
-## Company Law s. 56 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — transfer and transmission of securities  
-Topic/section range: `topics/company/ca-s-56.json` only  
-Current main topic blob SHA: `d1329e5486e6657fb788617d7fcbcf8e5d617a35`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s56-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9f3abf; verify instrument/form and 60-day delivery rule, partly-paid transfer notice, certificate-delivery deadlines, demat exception, legal-representative transfer and current penalties  
-Missing gate: distinguish transfer from transmission, public-company free transferability and appeal under section 58; ensure current penalty amendments are used  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 56 correction committed as `d5b87ac72e791dd21305b2794c36d806bbb66dd6`. JSON parse and focused assertions passed; transfer/transmission distinction, 60-day instrument rule, partly-paid notice, certificate-delivery periods and legal-representative provision are stated. Current penalty wording and detailed rule-level exceptions remain open; topic status remains `verification_in_progress`.
-
-
-## Company Law s. 55 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — issue and redemption of preference shares  
-Topic/section range: `topics/company/ca-s-55.json` only  
-Current main topic blob SHA: `5b39b445b2a430541431128cee0acd3e6bfd5627`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s55-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify redeemability period, dividend/funding restrictions, redemption from profits/new issue, capital redemption reserve and non-compliance consequences against current Act/rules  
-Missing gate: distinguish preference-share redemption from section 69 buy-back reserve transfer and avoid unsupported redemption deadlines  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 55 correction committed as `1163e2e1036f5cf5b3e1aeb0f672294dd12b7e9b`. JSON parse and focused assertions passed; infrastructure period caveat, permitted funding, CRR/premium rules and subsection (3) consent/Tribunal route are covered. Topic status remains `verification_in_progress`; prescribed infrastructure rules remain open.
-
-
-## Company Law s. 54 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — issue of sweat equity shares  
-Topic/section range: `topics/company/ca-s-54.json` only  
-Current main topic blob SHA: `30e73bf81d7ea728d00a9eeaad601d0c7924790b`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s54-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify special-resolution conditions, eligible directors/employees, valuation, lock-in, accounting treatment and current rules  
-Missing gate: distinguish sweat equity from employee stock options, bonus shares and prohibited issue at discount; verify current valuation/lock-in requirements  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 54 cleanup committed as `5bda64fa96f8f0616bae173c75bbdefe9065fc49`. JSON parse and focused assertions passed; qualifying purpose, recipient, resolution particulars, one-year condition and rule-level review gates are explicit. Topic remains `verification_in_progress`; current valuation/limit/lock-in rules remain open.
-
-
-## Company Law s. 53 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — prohibition on issue of shares at discount  
-Topic/section range: `topics/company/ca-s-53.json` only  
-Current main topic blob SHA: `93ff56107db0c90dbc49e104a85be18e327dd403`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s53-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify general prohibition, statutory exceptions, issue-at-discount treatment and current penalty against amended Act/rules  
-Missing gate: distinguish prohibited discount issue from section 54 sweat equity and other lawful issue pricing/consideration routes  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 53 correction committed as `361b8457f973f840d36d2ef0185465433c90abfc`. JSON parse and focused assertions passed; both statutory exceptions, voidness, current penalty cap and refund with 12% annual interest are recorded. Topic remains `verification_in_progress`; official PDF byte-level review remains open.
-
-
-## Company Law s. 52 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — application of securities premium account  
-Topic/section range: `topics/company/ca-s-52.json` only  
-Current main topic blob SHA: `c3fdf340de1f4e772386c63e71ff616bbe1df5c0`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s52-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify mandatory uses of premium, permitted uses, class-of-company exceptions, bonus-share/revaluation restrictions and current rules  
-Missing gate: distinguish mandatory write-offs from permitted applications and verify special exceptions for prescribed company classes  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 52 cleanup committed as `241b735985b595e175be2b0031dadebfb57dcc29`. JSON parse and focused assertions passed; restricted uses and subsection (3) class/accounting conditions are flagged; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; current subsection (3) rule details remain open.
-
-
-## Company Law s. 51 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — payment of dividend in proportion to amount paid-up  
-Topic/section range: `topics/company/ca-s-51.json` only  
-Current main topic blob SHA: `a1f7ed5a8ca31cc79bc8788217b15002d3f4c923`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s51-reverse`  
-Latest evidence: latest topic commits: 2d95a76d45, 3f7adf931a, cef238ab7b, ac7fbe5122; verify articles authorisation and proportional dividend based on amount paid-up under section 51  
-Missing gate: distinguish optional proportional-dividend rule from any general rule on dividend distribution  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 51 cleanup committed as `1897c471214477653981ff0330cc3b45e81e1a0d`. JSON parse and focused assertions passed; the articles-authorisation trigger and paid-up amount calculation are explicit; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
-
-
-## Company Law s. 50 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — acceptance of uncalled share capital not yet called  
-Topic/section range: `topics/company/ca-s-50.json` only  
-Current main topic blob SHA: `421612a5d9cf986d615a2dcd40481cf2f8f12d8e`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s50-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify authority, advance payment treatment, interest and dividend entitlement under section 50 and current rules  
-Missing gate: distinguish acceptance of uncalled capital from calls due on shares and from the proportional-dividend rule in section 51  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 50 cleanup committed as `bc5eaf9e275563f109be95619f559f8296d7a61b`. JSON parse and focused assertions passed; articles authority and the no-voting rule until the amount becomes presently payable are explicit. Topic remains `verification_in_progress`; official source verification remains open.
-
-
-## Company Law s. 49 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — calls on shares of same class to be uniform  
-Topic/section range: `topics/company/ca-s-49.json` only  
-Current main topic blob SHA: `427cfbe71c388ed570076b07b9aa98e4b9368d94`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s49-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ce0655bfe9, ac7fbe5122; verify calls on same class, same-time payment terms and articles-based exception against current text  
-Missing gate: distinguish company calls from voluntary advance payment under section 50 and dividend proportion under section 51  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 49 cleanup committed as `70220a8f2f28eab9b6804807b092595fd29a7fb`. JSON parse and focused assertions passed; the uniformity requirement and distinctions from sections 50–51 are explicit; generic boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
-
-
-## Company Law s. 48 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — variation of shareholders' rights  
-Topic/section range: `topics/company/ca-s-48.json` only  
-Current main topic blob SHA: `6691bd28aa6f07331aaba56755bf439ea796096a`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s48-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 2a9aefcfc5; verify consent threshold, special resolution/class resolution, articles restrictions, dissenting-holder application window and current filing procedure  
-Missing gate: distinguish class-rights variation from ordinary alteration of articles or share capital and verify statutory timelines/thresholds  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 48 correction committed as `a22b850eb08519d9dbf9c3ef9ae621fcdd68df2a`. JSON parse and focused assertions passed; other-class consent, 21-day application window, 30-day Registrar filing and subsection (5) penalty are stated. Topic remains `verification_in_progress`; full source/case-law verification remains open.
-
-
-## Company Law s. 47 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — voting rights  
-Topic/section range: `topics/company/ca-s-47.json` only  
-Current main topic blob SHA: `77e178327ea1219c8ad2444d9ee880d54bc27c02`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s47-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify equity voting by paid-up share capital, preference-share rights and electronic voting/meeting exceptions against current text/rules  
-Missing gate: distinguish voting rights from class-rights variation under section 48 and dividend proportion under section 51  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 47 correction committed as `02d5f41ff91a878d02698484e8f915c45ebf2ce6`. JSON parse and focused assertions passed; equity poll voting, preference-share limits and the two-year dividend-arrears trigger are stated. Topic remains `verification_in_progress`; official source verification remains open.
-
-
-## Company Law s. 46 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — share certificates and duplicate certificates  
-Topic/section range: `topics/company/ca-s-46.json` only  
-Current main topic blob SHA: `be1959bae1daad45e7ecfc5f9f55c539799c8472`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s46-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify evidence-of-title effect, certificate issuance deadlines, duplicate-certificate safeguards and current fraud penalty under section 46(5)  
-Missing gate: distinguish evidence-of-title effect from conclusiveness of every underlying ownership dispute; verify duplicate issue conditions and current penalty  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 46 correction committed as `3a795bb7fbfb00bda316c01011dcad9a192fa7d2`. JSON parse and focused assertions passed; prima facie title evidence, duplicate safeguards and amended fraudulent-duplicate penalty are stated; unrelated case boilerplate removed. Topic remains `verification_in_progress`; full source verification remains open.
-
-
-## Company Law s. 45 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — numbering of shares  
-Topic/section range: `topics/company/ca-s-45.json` only  
-Current main topic blob SHA: `6ab3be43b0abf19dfca78b4ae61c103f0519f46d`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s45-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify distinctive-number rule and depository exception against current text and rules  
-Missing gate: do not apply physical-share numbering requirement to dematerialised holdings where the statutory exception applies  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 45 cleanup committed as `364e54fd3c546e4a8c3788a14ba1aa3409150ee6`. JSON parse and focused assertions passed; distinctive-number rule and depository-record exception are explicit; unrelated case/drafting boilerplate removed. Topic remains `verification_in_progress`; official source verification remains open.
-
-
-## Company Law s. 44 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — nature of shares and transferability  
-Topic/section range: `topics/company/ca-s-44.json` only  
-Current main topic blob SHA: `98422dbc927360fc266de4a22b8fb910c43b2468`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s44-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify movable-property characterization, transferability subject to articles and dematerialised form against current text  
-Missing gate: distinguish share transferability from transfer registration requirements and restrictions in other provisions  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 44 cleanup committed as `24f54d392829d12b50b886911295414777730573`. JSON parse and focused assertions passed; movable-property/transferability rule retained and unrelated case boilerplate removed. Topic remains `verification_in_progress`; official source verification remains open.
-
-
-## Company Law s. 43 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — kinds of share capital  
-Topic/section range: `topics/company/ca-s-43.json` only  
-Current main topic blob SHA: `c6f4c95d1fac68ad5eaf66c0368e1a143ade7766`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s43-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 2a9aefcfc5; verify equity classes/voting or differential rights, preference capital and prescribed conditions/exception for prescribed company classes  
-Missing gate: distinguish share-capital classes from voting entitlements and current class-specific rules  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 43 cleanup committed as `1f807ce525328af29f7342269a9241282a2350b3`. JSON parse and focused assertions passed; equity/preference classification and differential-rights caveat retained; unverified case citations removed. Topic remains `verification_in_progress`; official source/case-law review remains open.
-
-
-## Company Law s. 42 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — private placement  
-Topic/section range: `topics/company/ca-s-42.json` only  
-Current main topic blob SHA: `5a45f6603cb95e7bb6b139545c6f2704c294227b`  
-Current status: `verification_in_progress`; legal-source verification not closed  
-Current owner: `current-assistant-company-s42-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f018c6; verify identified-person limit, offer-cum-application, separate bank account, allotment timeline, return of allotment, prohibited public advertising and current penalties under amended Act/rules  
-Missing gate: distinguish private placement from rights/preferential issues and ensure current monetary thresholds and time periods are used  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 42 correction committed as `01f5c82f5687ba49a43086f5de86fed63ee9cc6d`. JSON parse and focused assertions passed; person-limit, no-solicitation, own-account payment, no-use, allotment/refund/interest, return deadline and current penalty are recorded. Topic remains `verification_in_progress`; current rule exceptions and primary-report case-law review remain open.
-
-
-## Company Law s. 41 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — global depository receipts  
-Topic/section range: `topics/company/ca-s-41.json` only  
-Current main topic blob SHA: `e021b99ada8d1d061de57918aa122bc8ad286f17`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s41-reverse`  
-Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify prescribed issue procedure, eligible issuer, foreign depository/underlying shares, voting/dividend rights and current rules  
-Missing gate: distinguish GDR issuance under section 41 from private placement and other securities issue routes; avoid treating GDR holder as registered shareholder without statutory/contractual analysis  
-Planned change: source-supported correction only; preserve review status  
-Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: section 41 cleanup committed as `c18321c886a318756b7e1b1b6efe3f2cc2d88379`. JSON parse and focused assertions passed; special-resolution route and prescribed conditions are explicit; unrelated case-law/BSA boilerplate removed. Topic remains `review`; current GDR rules and official source verification remain open.
-
-
-## Company Law s. 40 reverse-order verification — 2026-10-14
-
-Subject: Company Law  
-Enhancement: Final Content Quality Pass — securities to be dealt with in stock exchanges  
-Topic/section range: `topics/company/ca-s-40.json` only  
-Current main topic blob SHA: `738f98c23ba1a3d5f3c2f6f49be4a4efb007aa7e`  
-Current status: `review`; legal-source verification not closed  
-Current owner: `current-assistant-company-s40-reverse`  
-Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify recognised-stock-exchange permission, application money, separate bank account, refund timelines and current penalty under amended Act/rules  
-Missing gate: distinguish public-offer obligations from GDRs under section 41 and private placement under section 42  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.

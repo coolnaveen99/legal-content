@@ -1,64 +1,175 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-130",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 130 (Re-opening of accounts on court's or Tribunal's orders)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "A company shall not re-open its books of account and shall not recast its financial statements unless an application in this regard is made by the Central Government, the Income-tax authorities, the Securities and Exchange Board, any other statutory regulatory body or authority or any person concerned and an order is made by a court of competent jurisdiction or the Tribunal to the effect that the relevant earlier accounts were prepared in a fraudulent manner or the affairs of the company were mismanaged during the relevant period casting a doubt on the reliability of financial statements.",
-    "glance": "Re-opening of books or recasting of financial statements requires an order of a court or the Tribunal on the statutory grounds; voluntary board restatement is not enough under this section.",
-    "study": "## Section 130 — Re-opening of accounts\n\n**No voluntary re-opening under this section.** Books of account shall not be re-opened and financial statements shall not be recast unless:\n1. an application is made by the Central Government, Income-tax authorities, SEBI, any other statutory regulatory body or authority, or any person concerned; and\n2. a court of competent jurisdiction or the Tribunal orders that the earlier accounts were prepared in a fraudulent manner, or the affairs were mismanaged during the relevant period casting doubt on reliability.\n\nThe order states the period for which books are re-opened and gives notice to the relevant authorities.\n\n**Distinguish section 131.** Voluntary revision of financial statements or Board's report (for non-compliance with section 129 or 134) is under section 131, after Tribunal approval.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Order required", "body": "Court or Tribunal order on application by specified authorities or person concerned.", "order": 1},
-      {"heading": "Grounds", "body": "Accounts prepared in a fraudulent manner, or mismanagement casting doubt on reliability.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-130", "title": "Companies Act, 2013 — Section 130"}],
-    "examples": [{"title": "No board-only re-opening", "body": "Board cannot unilaterally re-open books under section 130; a court or Tribunal order on the stated grounds is required. Educational illustration."}],
-    "hypotheticals": [{"question": "Can the board re-open accounts under section 130 without a court or Tribunal order?", "analysis": "No. Section 130 requires an order of a court or the Tribunal on the statutory grounds. Voluntary revision is a different route under section 131."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-130-trap-1", "trap": "Treating board restatement as sufficient under section 130.", "correction": "Section 130 requires a court or Tribunal order on the stated grounds. Section 131 is the voluntary revision route."}, {"id": "ca-s-130-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within sections 130 and 131."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "When may a company re-open its books under section 130?", "answer": "Only on an order of a court or the Tribunal, on application by the specified authorities or person concerned, where accounts were prepared fraudulently or affairs were mismanaged casting doubt on reliability."}],
-    "bareActPointers": ["Companies Act, 2013, section 130", "Companies Act, 2013, section 131"],
-    "examTips": ["Distinguish re-opening (s. 130) from voluntary revision (s. 131).", "State the order requirement and the two grounds."],
-    "revisionPoints": ["Court/Tribunal order required.", "Fraudulent accounts or mismanagement grounds.", "Section 131 is voluntary revision."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-129", "ca-s-131", "ca-s-128"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-130",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Re-opening of accounts requires a court or Tribunal order on the statutory grounds.",
-      "legalPrinciple": "No re-opening or recasting without court/Tribunal order on fraud or mismanagement grounds.",
-      "statutoryFramework": ["Companies Act, 2013, section 130"],
-      "essentialIngredients": ["Application by specified person", "Court or Tribunal order", "Fraudulent accounts or mismanagement grounds"],
-      "detailedExplanation": "Section 130 is the court/Tribunal-ordered re-opening provision.",
-      "examples": [],
-      "keyTakeaways": ["Order required.", "Two grounds.", "Distinguish s. 131."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:30:00.000Z",
-      "bot": "current-assistant-company-batch-128-144",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the re-opening rule under section 130."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:30:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-130",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 130 (Re-opening of accounts on court\u0027s or Tribunal\u0027s orders)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "A company shall not re-open its books of account and shall not recast its financial statements unless an application in this regard is made by the Central Government, the Income-tax authorities, the Securities and Exchange Board, any other statutory regulatory body or authority or any person concerned and an order is made by a court of competent jurisdiction or the Tribunal to the effect that the relevant earlier accounts were prepared in a fraudulent manner or the affairs of the company were mismanaged during the relevant period casting a doubt on the reliability of financial statements.",
+                    "glance":  "Re-opening of books or recasting of financial statements requires an order of a court or the Tribunal on the statutory grounds; voluntary board restatement is not enough under this section.",
+                    "study":  "## Section 130 — Re-opening of accounts\n\n**No voluntary re-opening under this section.** Books of account shall not be re-opened and financial statements shall not be recast unless:\n1. an application is made by the Central Government, Income-tax authorities, SEBI, any other statutory regulatory body or authority, or any person concerned; and\n2. a court of competent jurisdiction or the Tribunal orders that the earlier accounts were prepared in a fraudulent manner, or the affairs were mismanaged during the relevant period casting doubt on reliability.\n\nThe order states the period for which books are re-opened and gives notice to the relevant authorities.\n\n**Distinguish section 131.** Voluntary revision of financial statements or Board\u0027s report (for non-compliance with section 129 or 134) is under section 131, after Tribunal approval.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Order required",
+                                         "body":  "Court or Tribunal order on application by specified authorities or person concerned.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Grounds",
+                                         "body":  "Accounts prepared in a fraudulent manner, or mismanagement casting doubt on reliability.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-130",
+                                           "title":  "Companies Act, 2013 — Section 130"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "No board-only re-opening",
+                                         "body":  "Board cannot unilaterally re-open books under section 130; a court or Tribunal order on the stated grounds is required. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can the board re-open accounts under section 130 without a court or Tribunal order?",
+                                              "analysis":  "No. Section 130 requires an order of a court or the Tribunal on the statutory grounds. Voluntary revision is a different route under section 131."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-130-trap-1",
+                                               "trap":  "Treating board restatement as sufficient under section 130.",
+                                               "correction":  "Section 130 requires a court or Tribunal order on the stated grounds. Section 131 is the voluntary revision route."
+                                           },
+                                           {
+                                               "id":  "ca-s-130-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within sections 130 and 131."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "When may a company re-open its books under section 130?",
+                                                    "answer":  "Only on an order of a court or the Tribunal, on application by the specified authorities or person concerned, where accounts were prepared fraudulently or affairs were mismanaged casting doubt on reliability."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 130",
+                                            "Companies Act, 2013, section 131"
+                                        ],
+                    "examTips":  [
+                                     "Distinguish re-opening (s. 130) from voluntary revision (s. 131).",
+                                     "State the order requirement and the two grounds."
+                                 ],
+                    "revisionPoints":  [
+                                           "Court/Tribunal order required.",
+                                           "Fraudulent accounts or mismanagement grounds.",
+                                           "Section 131 is voluntary revision."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-129",
+                                          "ca-s-131",
+                                          "ca-s-128"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-130",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "A company shall not re-open its books of account and shall not recast its financial statements unless an application in this regard is made by the Central Government, the Income-tax authorities, the Securities and Exchange Board, any other statutory regulatory body or authority or any person concerned and an order is made by a court of competent jurisdiction or the Tribunal to the effect that the relevant earlier accounts were prepared in a fraudulent manner or the affairs of the company were mismanaged during the relevant period casting a doubt on the reliability of financial statements.",
+                                        "legalPrinciple":  "Re-opening of books or recasting of financial statements requires an order of a court or the Tribunal on the statutory grounds; voluntary board restatement is not enough under this section.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 130 (Re-opening of accounts on court\u0027s or Tribunal\u0027s orders)",
+                                        "essentialIngredients":  [
+                                                                     "Order required",
+                                                                     "Grounds"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 130 — Re-opening of accounts\n\n**No voluntary re-opening under this section.** Books of account shall not be re-opened and financial statements shall not be recast unless:\n1. an application is made by the Central Government, Income-tax authorities, SEBI, any other statutory regulatory body or authority, or any person concerned; and\n2. a court of competent jurisdiction or the Tribunal orders that the earlier accounts were prepared in a fraudulent manner, or the affairs were mismanaged during the relevant period casting doubt on reliability.\n\nThe order states the period for which books are re-opened and gives notice to the relevant authorities.\n\n**Distinguish section 131.** Voluntary revision of financial statements or Board\u0027s report (for non-compliance with section 129 or 134) is under section 131, after Tribunal approval.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Board cannot unilaterally re-open books under section 130; a court or Tribunal order on the stated grounds is required. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Re-opening of books or recasting of financial statements requires an order of a court or the Tribunal on the statutory grounds; voluntary board restatement is not enough under this section.",
+                                                             "A company shall not re-open its books of account and shall not recast its financial statements unless an application in this regard is made by the Central Government, the Income-tax authorities, the Securities and Exchange Board, any other statutory regulatory body or authority or any person concerned and an order is made by a court of competent jurisdiction or the Tribunal to the effect that the relevant earlier accounts were prepared in a fraudulent manner or the affairs of the company were mismanaged during the relevant period casting a doubt on the reliability of financial statements."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:30:00.000Z",
+                                        "bot":  "current-assistant-company-batch-128-144",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 130 (Re-opening of accounts on court\u0027s or Tribunal\u0027s orders).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 130 (Re-opening of accounts on court\u0027s or Tribunal\u0027s orders)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:30:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

@@ -1,129 +1,168 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-378k",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 378K (Effect of incorporation of Producer Company)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Every shareholder of the inter-State co-operative society immediately before the date of registration of the Producer Company (the date of transformation) shall be deemed to be registered on and from that date as a shareholder of the Producer Company to the extent of the face value of the shares held by such shareholder.",
-    "glance": "On the date of transformation, existing shareholders of the inter-State co-operative society become shareholders of the Producer Company to the face value of their shares.",
-    "study": "Section 378K effects continuity of membership on conversion under section 378J. The date of registration is the date of transformation. Each pre-existing shareholder is deemed a shareholder of the Producer Company to the face value of the shares held. Asset and liability vesting is governed by section 378L, not by this section.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "On the date of transformation, every shareholder of the inter-State co-operative society is deemed a shareholder of the Producer Company to the face value of the shares held.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-378k",
-        "section": "Section 378K",
-        "title": "Effect of incorporation of Producer Company"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 378K",
-        "body": "A member holding shares of face value ₹1,000 in the inter-State co-operative society becomes a shareholder of the Producer Company for ₹1,000 on the date of transformation.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 378K?",
-        "analysis": "It ensures continuity of shareholding on conversion from an inter-State co-operative society to a Producer Company."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s378k-vs",
-        "title": "s. 378K",
-        "left": "s. 378K",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Continuity of shareholding",
-            "right": "Vesting of assets and liabilities (s. 378L)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s378k-t1",
-        "trap": "Assuming s. 378K itself transfers assets.",
-        "correction": "s. 378K deals only with shareholding continuity; vesting is under s. 378L."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s378k-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 378K be analysed?",
-        "answer": "I. Identify the date of transformation. II. Apply deemed shareholding to face value. III. Conclude.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 378K"
-    ],
-    "examTips": [
-      "Name s. 378K: Effect of incorporation (shareholding continuity)."
-    ],
-    "revisionPoints": [
-      "Effect of incorporation — deemed shareholding on transformation"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-378j",
-      "ca-s-378l"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-378k",
-    "migrationNote": "Remediated 2026-10-14 — stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Deemed continuity of shareholding on conversion to a Producer Company.",
-      "legalPrinciple": "On the date of transformation, every shareholder of the inter-State co-operative society is deemed a shareholder of the Producer Company to the face value of the shares held.",
-      "statutoryFramework": "Companies Act, 2013, section 378K (inserted by Companies (Amendment) Act, 2020, w.e.f. 11-2-2021).",
-      "essentialIngredients": [
-        "Effect of incorporation"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T10:20:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s378k",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T10:20:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "producer-company",
-    "conversion",
-    "shareholding"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-378k",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 378K (Effect of incorporation of Producer Company)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Every shareholder of the inter-State co-operative society immediately before the date of registration of the Producer Company (the date of transformation) shall be deemed to be registered on and from that date as a shareholder of the Producer Company to the extent of the face value of the shares held by such shareholder.",
+                    "glance":  "On the date of transformation, existing shareholders of the inter-State co-operative society become shareholders of the Producer Company to the face value of their shares.",
+                    "study":  "Section 378K effects continuity of membership on conversion under section 378J. The date of registration is the date of transformation. Each pre-existing shareholder is deemed a shareholder of the Producer Company to the face value of the shares held. Asset and liability vesting is governed by section 378L, not by this section.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "On the date of transformation, every shareholder of the inter-State co-operative society is deemed a shareholder of the Producer Company to the face value of the shares held.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-378k",
+                                           "section":  "Section 378K",
+                                           "title":  "Effect of incorporation of Producer Company"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 378K",
+                                         "body":  "A member holding shares of face value ₹1,000 in the inter-State co-operative society becomes a shareholder of the Producer Company for ₹1,000 on the date of transformation.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 378K?",
+                                              "analysis":  "It ensures continuity of shareholding on conversion from an inter-State co-operative society to a Producer Company."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s378k-vs",
+                                             "title":  "s. 378K",
+                                             "left":  "s. 378K",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Continuity of shareholding",
+                                                              "right":  "Vesting of assets and liabilities (s. 378L)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s378k-t1",
+                                               "trap":  "Assuming s. 378K itself transfers assets.",
+                                               "correction":  "s. 378K deals only with shareholding continuity; vesting is under s. 378L."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s378k-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 378K be analysed?",
+                                                    "answer":  "I. Identify the date of transformation. II. Apply deemed shareholding to face value. III. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 378K"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 378K: Effect of incorporation (shareholding continuity)."
+                                 ],
+                    "revisionPoints":  [
+                                           "Effect of incorporation — deemed shareholding on transformation"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-378j",
+                                          "ca-s-378l"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-378k",
+                    "migrationNote":  "Remediated 2026-10-14 — stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "Every shareholder of the inter-State co-operative society immediately before the date of registration of the Producer Company (the date of transformation) shall be deemed to be registered on and from that date as a shareholder of the Producer Company to the extent of the face value of the shares held by such shareholder.",
+                                        "legalPrinciple":  "On the date of transformation, existing shareholders of the inter-State co-operative society become shareholders of the Producer Company to the face value of their shares.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 378K (Effect of incorporation of Producer Company)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T10:20:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s378k",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 378K effects continuity of membership on conversion under section 378J. The date of registration is the date of transformation. Each pre-existing shareholder is deemed a shareholder of the Producer Company to the face value of the shares held. Asset and liability vesting is governed by section 378L, not by this section.",
+                                        "examples":  [
+                                                         "A member holding shares of face value ₹1,000 in the inter-State co-operative society becomes a shareholder of the Producer Company for ₹1,000 on the date of transformation."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "On the date of transformation, existing shareholders of the inter-State co-operative society become shareholders of the Producer Company to the face value of their shares.",
+                                                             "Every shareholder of the inter-State co-operative society immediately before the date of registration of the Producer Company (the date of transformation) shall be deemed to be registered on and from that date as a shareholder of the Producer Company to the extent of the face value of the shares held by such shareholder."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 378K (Effect of incorporation of Producer Company).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 378K (Effect of incorporation of Producer Company)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T10:20:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "producer-company",
+                 "conversion",
+                 "shareholding"
+             ]
 }

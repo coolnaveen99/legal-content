@@ -1,129 +1,168 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-383",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 383 (Service on foreign company)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Any process, notice or other document required to be served on a foreign company shall be deemed to be sufficiently served if addressed to any person whose name and address have been delivered to the Registrar under section 380 and left at, or sent by post to, the address which has been so delivered, or by electronic mode.",
-    "glance": "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address (or by electronic mode).",
-    "study": "Section 383 provides the statutory mode of service on a foreign company. Service is deemed sufficient when the process, notice or document is addressed to a person whose name and address were delivered under section 380 and is left at or posted to that address, or is served by electronic mode. Service on that authorised person is service on the company; it does not require service abroad.",
-    "sections": [
-      {
-        "heading": "Rule",
-        "body": "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address, or by electronic mode.",
-        "order": 1
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-383",
-        "section": "Section 383",
-        "title": "Service on foreign company"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Illustration — s. 383",
-        "body": "A notice is posted to the person named in the s. 380 filing as authorised to accept service; under s. 383 the notice is deemed sufficiently served on the foreign company.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "What is the core effect of s. 383?",
-        "analysis": "It deems service on the authorised person named under s. 380 (at the delivered address or by electronic mode) to be sufficient service on the foreign company."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s383-vs",
-        "title": "s. 383",
-        "left": "s. 383",
-        "right": "Related provision",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Service on foreign company",
-            "right": "Documents delivered under s. 380 (authorised person)"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s383-t1",
-        "trap": "Assuming service must be effected at the foreign company's overseas registered office.",
-        "correction": "s. 383 allows service on the authorised person at the address delivered under s. 380, or by electronic mode."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s383-q",
-        "draftingCategory": "brief",
-        "question": "How should s. 383 be analysed?",
-        "answer": "I. Identify the authorised person under s. 380. II. Check address or electronic mode. III. Conclude service is deemed sufficient.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 383"
-    ],
-    "examTips": [
-      "Name s. 383: Service on foreign company."
-    ],
-    "revisionPoints": [
-      "Service on foreign company — authorised person under s. 380 at delivered address or by electronic mode"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-380",
-      "ca-s-384"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-383",
-    "migrationNote": "Remediated 2026-10-14 — stripped generic boilerplate; provision-specific content.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Deemed sufficient service on a foreign company via the s. 380 authorised person.",
-      "legalPrinciple": "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address, or by electronic mode.",
-      "statutoryFramework": "Companies Act, 2013, section 383 (Chapter XXII).",
-      "essentialIngredients": [
-        "Service on foreign company"
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013"
-      ],
-      "caseLaw": [],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "lastBotRunAt": "2026-10-14T12:40:00.000Z",
-      "bot": "company-bulk-remediation-2026-10-14-s383",
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Aligned to statutory text. Not verified/published.",
-        "date": "2026-10-14"
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-14T12:40:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "review-required",
-    "foreign-company",
-    "chapter-xxii",
-    "service"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-383",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 383 (Service on foreign company)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Any process, notice or other document required to be served on a foreign company shall be deemed to be sufficiently served if addressed to any person whose name and address have been delivered to the Registrar under section 380 and left at, or sent by post to, the address which has been so delivered, or by electronic mode.",
+                    "glance":  "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address (or by electronic mode).",
+                    "study":  "Section 383 provides the statutory mode of service on a foreign company. Service is deemed sufficient when the process, notice or document is addressed to a person whose name and address were delivered under section 380 and is left at or posted to that address, or is served by electronic mode. Service on that authorised person is service on the company; it does not require service abroad.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Rule",
+                                         "body":  "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address, or by electronic mode.",
+                                         "order":  1
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-383",
+                                           "section":  "Section 383",
+                                           "title":  "Service on foreign company"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Illustration — s. 383",
+                                         "body":  "A notice is posted to the person named in the s. 380 filing as authorised to accept service; under s. 383 the notice is deemed sufficiently served on the foreign company.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "What is the core effect of s. 383?",
+                                              "analysis":  "It deems service on the authorised person named under s. 380 (at the delivered address or by electronic mode) to be sufficient service on the foreign company."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s383-vs",
+                                             "title":  "s. 383",
+                                             "left":  "s. 383",
+                                             "right":  "Related provision",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Service on foreign company",
+                                                              "right":  "Documents delivered under s. 380 (authorised person)"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s383-t1",
+                                               "trap":  "Assuming service must be effected at the foreign company\u0027s overseas registered office.",
+                                               "correction":  "s. 383 allows service on the authorised person at the address delivered under s. 380, or by electronic mode."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s383-q",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should s. 383 be analysed?",
+                                                    "answer":  "I. Identify the authorised person under s. 380. II. Check address or electronic mode. III. Conclude service is deemed sufficient.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 383"
+                                        ],
+                    "examTips":  [
+                                     "Name s. 383: Service on foreign company."
+                                 ],
+                    "revisionPoints":  [
+                                           "Service on foreign company — authorised person under s. 380 at delivered address or by electronic mode"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-380",
+                                          "ca-s-384"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-383",
+                    "migrationNote":  "Remediated 2026-10-14 — stripped generic boilerplate; provision-specific content.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "Any process, notice or other document required to be served on a foreign company shall be deemed to be sufficiently served if addressed to any person whose name and address have been delivered to the Registrar under section 380 and left at, or sent by post to, the address which has been so delivered, or by electronic mode.",
+                                        "legalPrinciple":  "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address (or by electronic mode).",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 383 (Service on foreign company)",
+                                        "essentialIngredients":  [
+                                                                     "Rule"
+                                                                 ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "lastBotRunAt":  "2026-10-14T12:40:00.000Z",
+                                        "bot":  "company-bulk-remediation-2026-10-14-s383",
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "detailedExplanation":  "Section 383 provides the statutory mode of service on a foreign company. Service is deemed sufficient when the process, notice or document is addressed to a person whose name and address were delivered under section 380 and is left at or posted to that address, or is served by electronic mode. Service on that authorised person is service on the company; it does not require service abroad.",
+                                        "examples":  [
+                                                         "A notice is posted to the person named in the s. 380 filing as authorised to accept service; under s. 383 the notice is deemed sufficiently served on the foreign company."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Service on a foreign company is sufficient if addressed to the s. 380 authorised person at the delivered address (or by electronic mode).",
+                                                             "Any process, notice or other document required to be served on a foreign company shall be deemed to be sufficiently served if addressed to any person whose name and address have been delivered to the Registrar under section 380 and left at, or sent by post to, the address which has been so delivered, or by electronic mode."
+                                                         ],
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 383 (Service on foreign company).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 383 (Service on foreign company)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-14T12:40:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "review-required",
+                 "foreign-company",
+                 "chapter-xxii",
+                 "service"
+             ]
 }

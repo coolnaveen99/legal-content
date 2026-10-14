@@ -1,64 +1,174 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-146",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 146 (Auditors to attend general meeting)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "All notices of, and other communications relating to, any general meeting shall be forwarded to the auditor of the company, and the auditor shall, unless otherwise exempted by the company, attend either by himself or through his authorised representative, who shall also be qualified to be an auditor, any general meeting and shall have right to be heard at such meeting on any part of the business which concerns him as the auditor.",
-    "glance": "Auditor receives notice of every general meeting, attends unless exempted, and has a right to be heard on business concerning him as auditor.",
-    "study": "## Section 146 — Auditors to attend general meeting\n\n**Notice.** All notices and other communications relating to any general meeting must be forwarded to the auditor.\n\n**Attendance.** The auditor shall attend, either personally or through an authorised representative who is also qualified to be an auditor, unless the company exempts him.\n\n**Right to be heard.** On any part of the business which concerns him as auditor. The right is to be heard, not to vote.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Notice and attendance", "body": "Notice to auditor; attend unless exempted (personally or by qualified authorised representative).", "order": 1},
-      {"heading": "Right to be heard", "body": "On business concerning him as auditor; not a right to vote.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-146", "title": "Companies Act, 2013 — Section 146"}],
-    "examples": [{"title": "Auditor at AGM", "body": "Company forwards AGM notice to the auditor, who attends and is heard on the audit report. Educational illustration."}],
-    "hypotheticals": [{"question": "Must the auditor vote at the general meeting?", "analysis": "No. Section 146 gives a right to be heard on business concerning him as auditor, not a right to vote."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-146-trap-1", "trap": "Treating the auditor as a voting member at the general meeting.", "correction": "Section 146 confers attendance and a right to be heard, not a vote."}, {"id": "ca-s-146-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within section 146."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What does section 146 require?", "answer": "Notice of general meetings to the auditor; attendance unless exempted; right to be heard on business concerning him as auditor."}],
-    "bareActPointers": ["Companies Act, 2013, section 146"],
-    "examTips": ["State notice, attendance and right to be heard.", "Note exemption and authorised representative."],
-    "revisionPoints": ["Notice to auditor.", "Attend unless exempted.", "Heard, not vote."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-139", "ca-s-143", "ca-s-147"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-146",
-    "migrationNote": "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Auditor receives notice, attends unless exempted, and may be heard on relevant business.",
-      "legalPrinciple": "Section 146 ensures auditor presence and voice at general meetings.",
-      "statutoryFramework": ["Companies Act, 2013, section 146"],
-      "essentialIngredients": ["Notice to auditor", "Attendance unless exempted", "Right to be heard"],
-      "detailedExplanation": "Section 146 is the auditor attendance and hearing provision.",
-      "examples": [],
-      "keyTakeaways": ["Notice.", "Attend unless exempted.", "Heard on auditor business."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T16:00:00.000Z",
-      "bot": "current-assistant-company-bulk-146-160",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the auditor attendance rule under section 146."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T16:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-146",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 146 (Auditors to attend general meeting)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "All notices of, and other communications relating to, any general meeting shall be forwarded to the auditor of the company, and the auditor shall, unless otherwise exempted by the company, attend either by himself or through his authorised representative, who shall also be qualified to be an auditor, any general meeting and shall have right to be heard at such meeting on any part of the business which concerns him as the auditor.",
+                    "glance":  "Auditor receives notice of every general meeting, attends unless exempted, and has a right to be heard on business concerning him as auditor.",
+                    "study":  "## Section 146 — Auditors to attend general meeting\n\n**Notice.** All notices and other communications relating to any general meeting must be forwarded to the auditor.\n\n**Attendance.** The auditor shall attend, either personally or through an authorised representative who is also qualified to be an auditor, unless the company exempts him.\n\n**Right to be heard.** On any part of the business which concerns him as auditor. The right is to be heard, not to vote.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Notice and attendance",
+                                         "body":  "Notice to auditor; attend unless exempted (personally or by qualified authorised representative).",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Right to be heard",
+                                         "body":  "On business concerning him as auditor; not a right to vote.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-146",
+                                           "title":  "Companies Act, 2013 — Section 146"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Auditor at AGM",
+                                         "body":  "Company forwards AGM notice to the auditor, who attends and is heard on the audit report. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must the auditor vote at the general meeting?",
+                                              "analysis":  "No. Section 146 gives a right to be heard on business concerning him as auditor, not a right to vote."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-146-trap-1",
+                                               "trap":  "Treating the auditor as a voting member at the general meeting.",
+                                               "correction":  "Section 146 confers attendance and a right to be heard, not a vote."
+                                           },
+                                           {
+                                               "id":  "ca-s-146-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within section 146."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What does section 146 require?",
+                                                    "answer":  "Notice of general meetings to the auditor; attendance unless exempted; right to be heard on business concerning him as auditor."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 146"
+                                        ],
+                    "examTips":  [
+                                     "State notice, attendance and right to be heard.",
+                                     "Note exemption and authorised representative."
+                                 ],
+                    "revisionPoints":  [
+                                           "Notice to auditor.",
+                                           "Attend unless exempted.",
+                                           "Heard, not vote."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-139",
+                                          "ca-s-143",
+                                          "ca-s-147"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-146",
+                    "migrationNote":  "Bulk remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "All notices of, and other communications relating to, any general meeting shall be forwarded to the auditor of the company, and the auditor shall, unless otherwise exempted by the company, attend either by himself or through his authorised representative, who shall also be qualified to be an auditor, any general meeting and shall have right to be heard at such meeting on any part of the business which concerns him as the auditor.",
+                                        "legalPrinciple":  "Auditor receives notice of every general meeting, attends unless exempted, and has a right to be heard on business concerning him as auditor.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 146 (Auditors to attend general meeting)",
+                                        "essentialIngredients":  [
+                                                                     "Notice and attendance",
+                                                                     "Right to be heard"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 146 — Auditors to attend general meeting\n\n**Notice.** All notices and other communications relating to any general meeting must be forwarded to the auditor.\n\n**Attendance.** The auditor shall attend, either personally or through an authorised representative who is also qualified to be an auditor, unless the company exempts him.\n\n**Right to be heard.** On any part of the business which concerns him as auditor. The right is to be heard, not to vote.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Company forwards AGM notice to the auditor, who attends and is heard on the audit report. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Auditor receives notice of every general meeting, attends unless exempted, and has a right to be heard on business concerning him as auditor.",
+                                                             "All notices of, and other communications relating to, any general meeting shall be forwarded to the auditor of the company, and the auditor shall, unless otherwise exempted by the company, attend either by himself or through his authorised representative, who shall also be qualified to be an auditor, any general meeting and shall have right to be heard at such meeting on any part of the business which concerns him as the auditor."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T16:00:00.000Z",
+                                        "bot":  "current-assistant-company-bulk-146-160",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 146 (Auditors to attend general meeting).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 146 (Auditors to attend general meeting)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T16:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

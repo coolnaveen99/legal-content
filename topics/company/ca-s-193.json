@@ -1,198 +1,215 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-193",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 \u2014 Section 193 (Contract by One Person Company)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 193 provides that where a One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every such contract within a period of fifteen days of the date of approval by the Board. The section does not apply to contracts entered into by the company in the ordinary course of its business.",
-    "glance": "OPC contract with sole member who is also director: terms in writing, or in a memorandum, or recorded in minutes of next Board meeting; inform ROC within 15 days of Board approval; ordinary-course contracts excepted.",
-    "study": "Where One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every contract entered into by the company and recorded in the minutes of the meeting of its Board of Directors under this section within a period of fifteen days of the date of approval by the Board of Directors. Nothing in this section shall apply to contracts entered into by the company in the ordinary course of its business. Current-law framing: confirm OPC limited by shares; sole member who is also director; non-ordinary-course contract; require writing, memorandum or next Board minutes; file with ROC within 15 days of Board approval.",
-    "sections": [
-      {
-        "heading": "Scope",
-        "body": "One Person Company limited by shares contracting with its sole member who is also a director, other than in the ordinary course of business.",
-        "order": 1
-      },
-      {
-        "heading": "Form of Terms",
-        "body": "Contract in writing, or terms in a memorandum, or recorded in the minutes of the next Board meeting after the contract is entered into.",
-        "order": 2
-      },
-      {
-        "heading": "ROC Intimation",
-        "body": "Company informs the Registrar of every such contract recorded in Board minutes within fifteen days of Board approval.",
-        "order": 3
-      },
-      {
-        "heading": "Ordinary-Course Exception",
-        "body": "Contracts in the ordinary course of the company\u2019s business are outside the section.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-193",
-        "section": "Section 193",
-        "title": "Contract by One Person Company"
-      }
-    ],
-    "examples": [
-      {
-        "title": "OPC self-dealing recorded in minutes",
-        "body": "An OPC\u2019s sole member-director sells equipment to the company outside the ordinary course. The terms are not in a signed contract but are recorded in the minutes of the next Board meeting, and the ROC is informed within 15 days. Section 193 is satisfied.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Ordinary-course supply",
-        "body": "The same OPC regularly buys stationery from a shop owned by the sole member in the ordinary course at market rates. Section 193 does not apply to ordinary-course contracts.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Must every OPC contract with its sole member be filed with the ROC?",
-        "analysis": "Only contracts that fall within s. 193 (sole member who is also director; not ordinary course) and that are recorded under the section need to be intimated to the Registrar within fifteen days of Board approval. Ordinary-course contracts are outside the section."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s193-vs-s184",
-        "title": "OPC contract with sole member (s. 193) vs disclosure of interest (s. 184)",
-        "left": "Form and ROC intimation for OPC self-dealing contracts",
-        "right": "General director interest disclosure and non-participation",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "OPC record-keeping",
-            "right": "All-company disclosure"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s193-trap-1",
-        "trap": "OPC contracts with the sole member never need any formal record because there is only one person.",
-        "correction": "Section 193 specifically requires writing, a memorandum, or recording in the next Board minutes (except ordinary-course contracts), plus ROC intimation where the section applies."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s193-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 193 problem be analysed?",
-        "answer": "I. Confirm OPC and sole member-director. II. Test ordinary-course exception. III. Require writing/memorandum/minutes. IV. Check 15-day ROC intimation. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s193-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "OPC facts; contract nature; form of record; ROC filing; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 \u2014 Section 193",
-      "Connected: Sections 2(62), 184"
-    ],
-    "examTips": [
-      "OPC + sole member who is also director.",
-      "Writing, memorandum, or next Board minutes.",
-      "ROC within 15 days of Board approval.",
-      "Ordinary-course contracts excepted."
-    ],
-    "revisionPoints": [
-      "Scope",
-      "Form of terms",
-      "ROC intimation",
-      "Ordinary-course exception"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-2",
-      "company-ca-s-184"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-193",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the OPC self-contract recording rules under s. 193.",
-        "Explain the ordinary-course exception and ROC intimation."
-      ],
-      "definition": "Section 193 requires an OPC limited by shares that contracts with its sole member-director (outside the ordinary course) to record the terms in writing, a memorandum, or the next Board minutes, and to inform the Registrar within fifteen days of Board approval.",
-      "legalPrinciple": "Even a one-person company must leave an auditable trail of non-ordinary self-dealing between the company and its sole member-director.",
-      "statutoryFramework": "Companies Act, 2013, Section 193.",
-      "essentialIngredients": [
-        "OPC limited by shares",
-        "Contract with sole member who is also director",
-        "Not ordinary course",
-        "Terms in writing, memorandum or next Board minutes",
-        "ROC intimation within 15 days of Board approval"
-      ],
-      "detailedExplanation": "Section 193 is a specialised transparency rule for One Person Companies.",
-      "examples": [
-        "OPC self-dealing recorded in minutes",
-        "Ordinary-course supply"
-      ],
-      "problemApplication": "Confirm OPC and parties; test ordinary course; check form and ROC filing.",
-      "keyTakeaways": [
-        "Record the terms.",
-        "ROC in 15 days.",
-        "Ordinary course excepted."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 193"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-10"
-      },
-      "distinctions": [
-        "OPC contract with sole member (s. 193) vs disclosure of interest (s. 184)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Scope; form; ROC; conclude.",
-        "sixteenMark": "Introduction; scope; form; ROC; ordinary-course exception; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-10T07:00:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s193-2026-10-10",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-10T07:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-193",
-    "one-person-company"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-193",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 193 (Contract by One Person Company)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 193 provides that where a One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every such contract within a period of fifteen days of the date of approval by the Board. The section does not apply to contracts entered into by the company in the ordinary course of its business.",
+                    "glance":  "OPC contract with sole member who is also director: terms in writing, or in a memorandum, or recorded in minutes of next Board meeting; inform ROC within 15 days of Board approval; ordinary-course contracts excepted.",
+                    "study":  "Where One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every contract entered into by the company and recorded in the minutes of the meeting of its Board of Directors under this section within a period of fifteen days of the date of approval by the Board of Directors. Nothing in this section shall apply to contracts entered into by the company in the ordinary course of its business. Current-law framing: confirm OPC limited by shares; sole member who is also director; non-ordinary-course contract; require writing, memorandum or next Board minutes; file with ROC within 15 days of Board approval.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Scope",
+                                         "body":  "One Person Company limited by shares contracting with its sole member who is also a director, other than in the ordinary course of business.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Form of Terms",
+                                         "body":  "Contract in writing, or terms in a memorandum, or recorded in the minutes of the next Board meeting after the contract is entered into.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "ROC Intimation",
+                                         "body":  "Company informs the Registrar of every such contract recorded in Board minutes within fifteen days of Board approval.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Ordinary-Course Exception",
+                                         "body":  "Contracts in the ordinary course of the company’s business are outside the section.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-193",
+                                           "section":  "Section 193",
+                                           "title":  "Contract by One Person Company"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "OPC self-dealing recorded in minutes",
+                                         "body":  "An OPC’s sole member-director sells equipment to the company outside the ordinary course. The terms are not in a signed contract but are recorded in the minutes of the next Board meeting, and the ROC is informed within 15 days. Section 193 is satisfied.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Ordinary-course supply",
+                                         "body":  "The same OPC regularly buys stationery from a shop owned by the sole member in the ordinary course at market rates. Section 193 does not apply to ordinary-course contracts.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must every OPC contract with its sole member be filed with the ROC?",
+                                              "analysis":  "Only contracts that fall within s. 193 (sole member who is also director; not ordinary course) and that are recorded under the section need to be intimated to the Registrar within fifteen days of Board approval. Ordinary-course contracts are outside the section."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s193-vs-s184",
+                                             "title":  "OPC contract with sole member (s. 193) vs disclosure of interest (s. 184)",
+                                             "left":  "Form and ROC intimation for OPC self-dealing contracts",
+                                             "right":  "General director interest disclosure and non-participation",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "OPC record-keeping",
+                                                              "right":  "All-company disclosure"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s193-trap-1",
+                                               "trap":  "OPC contracts with the sole member never need any formal record because there is only one person.",
+                                               "correction":  "Section 193 specifically requires writing, a memorandum, or recording in the next Board minutes (except ordinary-course contracts), plus ROC intimation where the section applies."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s193-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 193 problem be analysed?",
+                                                    "answer":  "I. Confirm OPC and sole member-director. II. Test ordinary-course exception. III. Require writing/memorandum/minutes. IV. Check 15-day ROC intimation. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s193-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "OPC facts; contract nature; form of record; ROC filing; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 193",
+                                            "Connected: Sections 2(62), 184"
+                                        ],
+                    "examTips":  [
+                                     "OPC + sole member who is also director.",
+                                     "Writing, memorandum, or next Board minutes.",
+                                     "ROC within 15 days of Board approval.",
+                                     "Ordinary-course contracts excepted."
+                                 ],
+                    "revisionPoints":  [
+                                           "Scope",
+                                           "Form of terms",
+                                           "ROC intimation",
+                                           "Ordinary-course exception"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-2",
+                                          "company-ca-s-184"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-193",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 193 (Contract by One Person Company).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 193 provides that where a One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every such contract within a period of fifteen days of the date of approval by the Board. The section does not apply to contracts entered into by the company in the ordinary course of its business.",
+                                        "legalPrinciple":  "OPC contract with sole member who is also director: terms in writing, or in a memorandum, or recorded in minutes of next Board meeting; inform ROC within 15 days of Board approval; ordinary-course contracts excepted.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 193 (Contract by One Person Company)",
+                                        "essentialIngredients":  [
+                                                                     "Scope",
+                                                                     "Form of Terms",
+                                                                     "ROC Intimation",
+                                                                     "Ordinary-Course Exception"
+                                                                 ],
+                                        "detailedExplanation":  "Where One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every contract entered into by the company and recorded in the minutes of the meeting of its Board of Directors under this section within a period of fifteen days of the date of approval by the Board of Directors. Nothing in this section shall apply to contracts entered into by the company in the ordinary course of its business. Current-law framing: confirm OPC limited by shares; sole member who is also director; non-ordinary-course contract; require writing, memorandum or next Board minutes; file with ROC within 15 days of Board approval.",
+                                        "examples":  [
+                                                         "An OPC’s sole member-director sells equipment to the company outside the ordinary course. The terms are not in a signed contract but are recorded in the minutes of the next Board meeting, and the ROC is informed within 15 days. Section 193 is satisfied.",
+                                                         "The same OPC regularly buys stationery from a shop owned by the sole member in the ordinary course at market rates. Section 193 does not apply to ordinary-course contracts."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "OPC contract with sole member who is also director: terms in writing, or in a memorandum, or recorded in minutes of next Board meeting; inform ROC within 15 days of Board approval; ordinary-course contracts excepted.",
+                                                             "Section 193 provides that where a One Person Company limited by shares enters into a contract with the sole member of the company who is also its director, the company shall, unless the contract is in writing, ensure that the terms of the contract or offer are contained in a memorandum or are recorded in the minutes of the first meeting of the Board of Directors of the company held next after entering into the contract. The company shall inform the Registrar about every such contract within a period of fifteen days of the date of approval by the Board. The section does not apply to contracts entered into by the company in the ordinary course of its business."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 193 (Contract by One Person Company)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-10T07:00:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s193-2026-10-10",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-10T07:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-193",
+                 "one-person-company"
+             ]
 }

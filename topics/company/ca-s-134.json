@@ -1,64 +1,175 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-134",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 134 (Financial statement, Board's report, etc.)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "The financial statement, including consolidated financial statement if any, shall be approved by the Board of Directors before they are signed on behalf of the Board by the chairperson of the company where he is authorised by the Board or by two directors out of which one shall be managing director if any, and the Chief Executive Officer, the Chief Financial Officer and the company secretary of the company, wherever they are appointed, or in the case of a One Person Company, only by one director, for submission to the auditor for his report thereon. The Board's report shall be attached to statements laid before a company in general meeting and shall include the directors' responsibility statement and the other matters specified in section 134.",
-    "glance": "Board approves and signs financial statements; Board's report with directors' responsibility statement is attached to statements laid before the company.",
-    "study": "## Section 134 — Financial statement, Board's report\n\n**Approval and signature.** Financial statements (including consolidated) are approved by the Board before signature. Signatories: chairperson if authorised, or two directors (one managing director if any), and the CEO, CFO and company secretary wherever appointed; OPC: one director only.\n\n**Board's report.** Attached to statements laid before the company in general meeting. Includes the directors' responsibility statement (section 134(5)) and the other items listed in section 134(3) (meetings, related-party contracts, state of affairs, reserves, dividends, material changes, energy conservation, risk management, CSR particulars where section 135 applies, and other prescribed matters).\n\n**Directors' responsibility statement.** Covers applicable accounting standards, consistent policies, reasonable prudence, adequate accounting records, and preparation on a going-concern basis.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Approval and signature", "body": "Board approval before signature by the prescribed signatories; OPC exception for one director.", "order": 1},
-      {"heading": "Board's report and responsibility statement", "body": "Report attached to statements; directors' responsibility statement and other listed items under section 134(3).", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-134", "title": "Companies Act, 2013 — Section 134"}],
-    "examples": [{"title": "Responsibility statement", "body": "Board's report includes the directors' responsibility statement covering standards, policies, prudence, records and going concern. Educational illustration."}],
-    "hypotheticals": [{"question": "Must the Board's report include CSR particulars?", "analysis": "Where section 135 applies, the Board's report includes the CSR particulars the section requires."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-134-trap-1", "trap": "Treating financial-statement approval as the only duty under section 134.", "correction": "Section 134 also requires the Board's report with the directors' responsibility statement and listed items."}, {"id": "ca-s-134-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within section 134 and related sections 129 and 135."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What does section 134 require?", "answer": "Board approval and prescribed signature of financial statements; Board's report with directors' responsibility statement and other listed items attached to statements laid before the company."}],
-    "bareActPointers": ["Companies Act, 2013, section 134", "Companies Act, 2013, sections 129 and 135"],
-    "examTips": ["Name the signatories and the responsibility statement.", "List key Board's report items."],
-    "revisionPoints": ["Board approval and signature.", "Responsibility statement.", "Report attached to statements at GM."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-129", "ca-s-135", "ca-s-137"],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-134",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "Board approves and signs financial statements; Board's report with responsibility statement is attached.",
-      "legalPrinciple": "Section 134 governs approval, signature and the Board's report content.",
-      "statutoryFramework": ["Companies Act, 2013, section 134"],
-      "essentialIngredients": ["Board approval", "Prescribed signature", "Board's report", "Directors' responsibility statement"],
-      "detailedExplanation": "Section 134 is the Board approval, signature and report framework.",
-      "examples": [],
-      "keyTakeaways": ["Board approval and signature.", "Responsibility statement.", "Report items under s. 134(3)."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:30:00.000Z",
-      "bot": "current-assistant-company-batch-128-144",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the Board report and signature rules under section 134."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:30:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-134",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 134 (Financial statement, Board\u0027s report, etc.)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "The financial statement, including consolidated financial statement if any, shall be approved by the Board of Directors before they are signed on behalf of the Board by the chairperson of the company where he is authorised by the Board or by two directors out of which one shall be managing director if any, and the Chief Executive Officer, the Chief Financial Officer and the company secretary of the company, wherever they are appointed, or in the case of a One Person Company, only by one director, for submission to the auditor for his report thereon. The Board\u0027s report shall be attached to statements laid before a company in general meeting and shall include the directors\u0027 responsibility statement and the other matters specified in section 134.",
+                    "glance":  "Board approves and signs financial statements; Board\u0027s report with directors\u0027 responsibility statement is attached to statements laid before the company.",
+                    "study":  "## Section 134 — Financial statement, Board\u0027s report\n\n**Approval and signature.** Financial statements (including consolidated) are approved by the Board before signature. Signatories: chairperson if authorised, or two directors (one managing director if any), and the CEO, CFO and company secretary wherever appointed; OPC: one director only.\n\n**Board\u0027s report.** Attached to statements laid before the company in general meeting. Includes the directors\u0027 responsibility statement (section 134(5)) and the other items listed in section 134(3) (meetings, related-party contracts, state of affairs, reserves, dividends, material changes, energy conservation, risk management, CSR particulars where section 135 applies, and other prescribed matters).\n\n**Directors\u0027 responsibility statement.** Covers applicable accounting standards, consistent policies, reasonable prudence, adequate accounting records, and preparation on a going-concern basis.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Approval and signature",
+                                         "body":  "Board approval before signature by the prescribed signatories; OPC exception for one director.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Board\u0027s report and responsibility statement",
+                                         "body":  "Report attached to statements; directors\u0027 responsibility statement and other listed items under section 134(3).",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-134",
+                                           "title":  "Companies Act, 2013 — Section 134"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Responsibility statement",
+                                         "body":  "Board\u0027s report includes the directors\u0027 responsibility statement covering standards, policies, prudence, records and going concern. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Must the Board\u0027s report include CSR particulars?",
+                                              "analysis":  "Where section 135 applies, the Board\u0027s report includes the CSR particulars the section requires."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-134-trap-1",
+                                               "trap":  "Treating financial-statement approval as the only duty under section 134.",
+                                               "correction":  "Section 134 also requires the Board\u0027s report with the directors\u0027 responsibility statement and listed items."
+                                           },
+                                           {
+                                               "id":  "ca-s-134-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within section 134 and related sections 129 and 135."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What does section 134 require?",
+                                                    "answer":  "Board approval and prescribed signature of financial statements; Board\u0027s report with directors\u0027 responsibility statement and other listed items attached to statements laid before the company."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 134",
+                                            "Companies Act, 2013, sections 129 and 135"
+                                        ],
+                    "examTips":  [
+                                     "Name the signatories and the responsibility statement.",
+                                     "List key Board\u0027s report items."
+                                 ],
+                    "revisionPoints":  [
+                                           "Board approval and signature.",
+                                           "Responsibility statement.",
+                                           "Report attached to statements at GM."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-129",
+                                          "ca-s-135",
+                                          "ca-s-137"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-134",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "The financial statement, including consolidated financial statement if any, shall be approved by the Board of Directors before they are signed on behalf of the Board by the chairperson of the company where he is authorised by the Board or by two directors out of which one shall be managing director if any, and the Chief Executive Officer, the Chief Financial Officer and the company secretary of the company, wherever they are appointed, or in the case of a One Person Company, only by one director, for submission to the auditor for his report thereon. The Board\u0027s report shall be attached to statements laid before a company in general meeting and shall include the directors\u0027 responsibility statement and the other matters specified in section 134.",
+                                        "legalPrinciple":  "Board approves and signs financial statements; Board\u0027s report with directors\u0027 responsibility statement is attached to statements laid before the company.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 134 (Financial statement, Board\u0027s report, etc.)",
+                                        "essentialIngredients":  [
+                                                                     "Approval and signature",
+                                                                     "Board\u0027s report and responsibility statement"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 134 — Financial statement, Board\u0027s report\n\n**Approval and signature.** Financial statements (including consolidated) are approved by the Board before signature. Signatories: chairperson if authorised, or two directors (one managing director if any), and the CEO, CFO and company secretary wherever appointed; OPC: one director only.\n\n**Board\u0027s report.** Attached to statements laid before the company in general meeting. Includes the directors\u0027 responsibility statement (section 134(5)) and the other items listed in section 134(3) (meetings, related-party contracts, state of affairs, reserves, dividends, material changes, energy conservation, risk management, CSR particulars where section 135 applies, and other prescribed matters).\n\n**Directors\u0027 responsibility statement.** Covers applicable accounting standards, consistent policies, reasonable prudence, adequate accounting records, and preparation on a going-concern basis.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Board\u0027s report includes the directors\u0027 responsibility statement covering standards, policies, prudence, records and going concern. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "Board approves and signs financial statements; Board\u0027s report with directors\u0027 responsibility statement is attached to statements laid before the company.",
+                                                             "The financial statement, including consolidated financial statement if any, shall be approved by the Board of Directors before they are signed on behalf of the Board by the chairperson of the company where he is authorised by the Board or by two directors out of which one shall be managing director if any, and the Chief Executive Officer, the Chief Financial Officer and the company secretary of the company, wherever they are appointed, or in the case of a One Person Company, only by one director, for submission to the auditor for his report thereon. The Board\u0027s report shall be attached to statements laid before a company in general meeting and shall include the directors\u0027 responsibility statement and the other matters specified in section 134."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:30:00.000Z",
+                                        "bot":  "current-assistant-company-batch-128-144",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 134 (Financial statement, Board\u0027s report, etc.).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 134 (Financial statement, Board\u0027s report, etc.)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:30:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

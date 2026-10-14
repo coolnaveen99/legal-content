@@ -1,241 +1,237 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-13",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 13 (Alteration of Memorandum)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar.",
-    "glance": "State the special-resolution requirement; list name, objects and State-of-office alterations; note Central Government / Regional Director approval routes and filing.",
-    "study": "The memorandum may be altered only in the manner provided in the Act. Section 13 covers (a) change of name (with Central Government approval where required, and subject to name-availability rules), (b) alteration of objects, and (c) change of the registered-office State (special resolution and Regional Director approval in the prescribed cases). The company must file the altered memorandum and comply with notice and registration requirements. Until the Registrar registers the alteration, it does not take full effect for certain purposes. Current-law framing: ground the analysis in s. 13 and link to s. 4 (contents of memorandum) and s. 12 (registered office).",
-    "sections": [
-      {
-        "heading": "Change of Name",
-        "body": "Name may be changed by special resolution and, where required, Central Government approval; the new name must comply with name rules.",
-        "order": 1
-      },
-      {
-        "heading": "Alteration of Objects",
-        "body": "Objects may be altered by special resolution; the altered memorandum must be filed with the Registrar.",
-        "order": 2
-      },
-      {
-        "heading": "Change of Registered-Office State",
-        "body": "Shifting the registered office from one State to another requires special resolution and Regional Director approval as prescribed, with filing of the altered memorandum.",
-        "order": 3
-      },
-      {
-        "heading": "Filing and Effect",
-        "body": "The altered memorandum must be filed; registration by the Registrar is required for the alteration to take full effect.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-13",
-        "section": "Section 13",
-        "title": "Alteration of memorandum"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Object change",
-        "body": "A company passes a special resolution to expand its objects and files the altered memorandum under s. 13. On registration, the alteration is effective.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "State shift without RD approval",
-        "body": "A company shifts its registered office to another State without obtaining the prescribed Regional Director approval. The alteration is incomplete under s. 13.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Can the memorandum be altered by ordinary resolution?",
-        "analysis": "No. Section 13 requires a special resolution for the alterations it covers, plus prescribed approvals where applicable."
-      },
-      {
-        "question": "When does a name change take effect?",
-        "analysis": "After compliance with the special resolution, any required Central Government approval, and registration of the altered memorandum by the Registrar."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s13-memo-vs-articles",
-        "title": "Alteration of memorandum (s. 13) vs articles (s. 14)",
-        "left": "Charter: name, objects, State of office",
-        "right": "Internal regulations",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Often needs CG/RD approval",
-            "right": "Special resolution subject to Act and memo"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s13-trap-1",
-        "trap": "Any board resolution can alter the memorandum.",
-        "correction": "Section 13 requires a special resolution of the company and prescribed approvals."
-      },
-      {
-        "id": "ca-s13-trap-2",
-        "trap": "Filing alone completes a State change of registered office.",
-        "correction": "Regional Director approval is required in the prescribed cases before the shift is effective."
-      }
-    ],
-    "cases": [
-      {
-        "name": "Salomon v. A. Salomon & Co. Ltd.",
-        "year": 1897,
-        "citation": "[1897] AC 22",
-        "court": "House of Lords",
-        "facts": "Properly incorporated company challenged as indistinct from controller.",
-        "issue": "Effect of incorporation?",
-        "ratioDecidendi": "Registered company is a separate legal person.",
-        "holding": "Separate personality affirmed.",
-        "relevance": "Already in file; the memorandum defines the person created on registration.",
-        "judgmentId": "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-      }
-    ],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s13-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 13 problem be analysed?",
-        "answer": "I. Identify the type of alteration (name / objects / State). II. State special resolution and approval requirements. III. Check filing and registration. IV. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s13-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Type of alteration; resolution; approvals; filing status; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 13",
-      "Connected: Sections 4, 12, 14"
-    ],
-    "examTips": [
-      "Map the alteration type to the correct approval route.",
-      "Always state special resolution.",
-      "Note filing and registration for effect."
-    ],
-    "revisionPoints": [
-      "Change of name",
-      "Alteration of objects",
-      "Change of registered-office State",
-      "Filing and effect"
-    ],
-    "relatedJudgments": [
-      "judgment:india:salomon-v-a-salomon-and-co-ltd-1897"
-    ],
-    "relatedTopics": [
-      "company-ca-s-4",
-      "company-ca-s-12",
-      "company-ca-s-14"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-13",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the routes for altering the memorandum under s. 13.",
-        "Distinguish name, objects and State-of-office alterations.",
-        "Explain filing and effect."
-      ],
-      "definition": "Section 13 regulates alteration of the memorandum by special resolution, prescribed approvals and filing.",
-      "legalPrinciple": "The memorandum may be altered only in the manner provided by the Act; special resolution and approvals are mandatory for the covered changes.",
-      "statutoryFramework": "Companies Act, 2013, Section 13.",
-      "essentialIngredients": [
-        "Special resolution",
-        "Prescribed approval where required",
-        "Filing of altered memorandum",
-        "Registration by Registrar"
-      ],
-      "detailedExplanation": "Section 13 is the primary gateway for changing the company’s charter after incorporation.",
-      "examples": [
-        "Object change",
-        "State shift without RD approval"
-      ],
-      "problemApplication": "Classify the alteration; apply the matching approval path; check filing.",
-      "keyTakeaways": [
-        "Special resolution required.",
-        "Name, objects and State each have specific routes.",
-        "Filing and registration complete the alteration."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 13",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
-      },
-      "distinctions": [
-        "Alteration of memorandum (s. 13) vs articles (s. 14)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
-        {
-          "name": "Companies Act, 2013, section 13",
-          "citation": "Companies Act, 2013, section 13",
-          "point": "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
-        }
-      ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Type of alteration; special resolution; approval; filing; conclude.",
-        "sixteenMark": "Introduction; name; objects; State change; filing and effect; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-09T19:05:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s13-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-09T19:05:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-13",
-    "alteration-of-memorandum"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-13",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 13 (Alteration of Memorandum)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar.",
+                    "glance":  "State the special-resolution requirement; list name, objects and State-of-office alterations; note Central Government / Regional Director approval routes and filing.",
+                    "study":  "The memorandum may be altered only in the manner provided in the Act. Section 13 covers (a) change of name (with Central Government approval where required, and subject to name-availability rules), (b) alteration of objects, and (c) change of the registered-office State (special resolution and Regional Director approval in the prescribed cases). The company must file the altered memorandum and comply with notice and registration requirements. Until the Registrar registers the alteration, it does not take full effect for certain purposes. Current-law framing: ground the analysis in s. 13 and link to s. 4 (contents of memorandum) and s. 12 (registered office).",
+                    "sections":  [
+                                     {
+                                         "heading":  "Change of Name",
+                                         "body":  "Name may be changed by special resolution and, where required, Central Government approval; the new name must comply with name rules.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Alteration of Objects",
+                                         "body":  "Objects may be altered by special resolution; the altered memorandum must be filed with the Registrar.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Change of Registered-Office State",
+                                         "body":  "Shifting the registered office from one State to another requires special resolution and Regional Director approval as prescribed, with filing of the altered memorandum.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Filing and Effect",
+                                         "body":  "The altered memorandum must be filed; registration by the Registrar is required for the alteration to take full effect.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-13",
+                                           "section":  "Section 13",
+                                           "title":  "Alteration of memorandum"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Object change",
+                                         "body":  "A company passes a special resolution to expand its objects and files the altered memorandum under s. 13. On registration, the alteration is effective.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "State shift without RD approval",
+                                         "body":  "A company shifts its registered office to another State without obtaining the prescribed Regional Director approval. The alteration is incomplete under s. 13.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can the memorandum be altered by ordinary resolution?",
+                                              "analysis":  "No. Section 13 requires a special resolution for the alterations it covers, plus prescribed approvals where applicable."
+                                          },
+                                          {
+                                              "question":  "When does a name change take effect?",
+                                              "analysis":  "After compliance with the special resolution, any required Central Government approval, and registration of the altered memorandum by the Registrar."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s13-memo-vs-articles",
+                                             "title":  "Alteration of memorandum (s. 13) vs articles (s. 14)",
+                                             "left":  "Charter: name, objects, State of office",
+                                             "right":  "Internal regulations",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Often needs CG/RD approval",
+                                                              "right":  "Special resolution subject to Act and memo"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s13-trap-1",
+                                               "trap":  "Any board resolution can alter the memorandum.",
+                                               "correction":  "Section 13 requires a special resolution of the company and prescribed approvals."
+                                           },
+                                           {
+                                               "id":  "ca-s13-trap-2",
+                                               "trap":  "Filing alone completes a State change of registered office.",
+                                               "correction":  "Regional Director approval is required in the prescribed cases before the shift is effective."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s13-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 13 problem be analysed?",
+                                                    "answer":  "I. Identify the type of alteration (name / objects / State). II. State special resolution and approval requirements. III. Check filing and registration. IV. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s13-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Type of alteration; resolution; approvals; filing status; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 13",
+                                            "Connected: Sections 4, 12, 14"
+                                        ],
+                    "examTips":  [
+                                     "Map the alteration type to the correct approval route.",
+                                     "Always state special resolution.",
+                                     "Note filing and registration for effect."
+                                 ],
+                    "revisionPoints":  [
+                                           "Change of name",
+                                           "Alteration of objects",
+                                           "Change of registered-office State",
+                                           "Filing and effect"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-4",
+                                          "company-ca-s-12",
+                                          "company-ca-s-14"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-13",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 13 (Alteration of Memorandum).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar.",
+                                        "legalPrinciple":  "State the special-resolution requirement; list name, objects and State-of-office alterations; note Central Government / Regional Director approval routes and filing.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 13 (Alteration of Memorandum)",
+                                        "essentialIngredients":  [
+                                                                     "Change of Name",
+                                                                     "Alteration of Objects",
+                                                                     "Change of Registered-Office State",
+                                                                     "Filing and Effect"
+                                                                 ],
+                                        "detailedExplanation":  "The memorandum may be altered only in the manner provided in the Act. Section 13 covers (a) change of name (with Central Government approval where required, and subject to name-availability rules), (b) alteration of objects, and (c) change of the registered-office State (special resolution and Regional Director approval in the prescribed cases). The company must file the altered memorandum and comply with notice and registration requirements. Until the Registrar registers the alteration, it does not take full effect for certain purposes. Current-law framing: ground the analysis in s. 13 and link to s. 4 (contents of memorandum) and s. 12 (registered office).",
+                                        "examples":  [
+                                                         "A company passes a special resolution to expand its objects and files the altered memorandum under s. 13. On registration, the alteration is effective.",
+                                                         "A company shifts its registered office to another State without obtaining the prescribed Regional Director approval. The alteration is incomplete under s. 13."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "State the special-resolution requirement; list name, objects and State-of-office alterations; note Central Government / Regional Director approval routes and filing.",
+                                                             "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 13 (Alteration of Memorandum)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Companies Act, 2013, section 13",
+                                                            "citation":  "Companies Act, 2013, section 13",
+                                                            "point":  "Section 13 regulates alteration of the memorandum of association: change of name, change of objects, and change of the State of the registered office. Alteration generally requires a special resolution, prescribed approvals where applicable, and filing of the altered memorandum with the Registrar.",
+                                                            "kind":  "statutory-pointer",
+                                                            "note":  "Statutory pointer taken from the topic\u0027s operative rule. Not a judgment and not a primary-report verification."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:05:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s13-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-13",
+                 "alteration-of-memorandum"
+             ]
 }

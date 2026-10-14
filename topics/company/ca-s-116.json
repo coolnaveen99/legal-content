@@ -1,64 +1,181 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-116",
-  "version": 1,
-  "status": "review",
-  "title": "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Where a resolution is passed at an adjourned meeting of a company, or of holders of any class of shares, or of the Board of Directors, the resolution shall for all purposes be treated as having been passed on the date on which it was in fact passed, and shall not be deemed to have been passed on any earlier date.",
-    "glance": "A resolution passed at an adjourned meeting is treated as passed on its actual date, not an earlier date.",
-    "study": "## Section 116 — Resolutions passed at adjourned meeting\n\nSection 116 covers an adjourned meeting of a company, holders of a class of shares, or the Board. The resolution is treated as passed on the date it was in fact passed — not backdated to the original meeting.\n\nThe actual passing date may determine when a connected filing period under section 117 begins. Section 116 is a date rule only; it does not validate a resolution that lacked notice, quorum, authority or the required majority.\n\n**Example.** A meeting is adjourned on 10 June without passing a resolution. The resolution is passed at the adjourned meeting on 24 June. Section 116 treats 24 June as the date of passage.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
-    "sections": [
-      {"heading": "Meetings covered", "body": "Adjourned meeting of a company, holders of a class of shares, or the Board of Directors.", "order": 1},
-      {"heading": "Date rule", "body": "The resolution is treated as passed on the date it was in fact passed, not an earlier date. Connected filing periods must be checked separately under section 117.", "order": 2}
-    ],
-    "provisions": [{"actId": "company", "actName": "Companies Act, 2013", "provisionId": "company-ca-s-116", "title": "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)"}],
-    "examples": [{"title": "Actual date", "body": "Meeting adjourned 10 June; resolution passed 24 June. Passing date under section 116 is 24 June. Educational illustration."}, {"title": "Validity defect", "body": "Section 116 fixes the date but does not cure a voting or quorum defect. Educational illustration."}],
-    "hypotheticals": [{"question": "Does section 116 cure a resolution that lacked the required majority at the adjourned meeting?", "analysis": "No. Section 116 is only a date-of-passage rule. It does not cure defects in notice, quorum, authority or voting."}],
-    "distinctions": [],
-    "misconceptions": [{"id": "ca-s-116-trap-1", "trap": "Backdating a resolution to the original meeting date.", "correction": "The resolution is treated as passed on the date it was in fact passed."}, {"id": "ca-s-116-trap-2", "trap": "Importing unrelated BSA or generic corporate cases into this topic.", "correction": "Keep the answer within section 116 and any connected filing provision such as section 117."}],
-    "cases": [],
-    "questionsAndAnswers": [{"question": "What is the effect of section 116?", "answer": "A resolution passed at an adjourned meeting of a company, class of shareholders, or the Board is treated as passed on the date it was actually passed, not an earlier date. It does not cure independent validity defects."}],
-    "bareActPointers": ["Companies Act, 2013, section 116", "Companies Act, 2013, section 117"],
-    "examTips": ["State the actual passing date and distinguish it from the original meeting date.", "Explain that the section does not cure other validity defects."],
-    "revisionPoints": ["Date-of-passage rule only.", "Not backdated to the original meeting.", "Connected filing deadlines checked separately."],
-    "relatedJudgments": [],
-    "relatedTopics": ["ca-s-117", "ca-s-115", "ca-s-118"],
-    "illustrations": ["illustration:india:company-ca-s-116-date", "illustration:india:company-ca-s-116-not-original"],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-116",
-    "migrationNote": "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "definition": "A resolution passed at an adjourned meeting is treated as passed on the date it was in fact passed.",
-      "legalPrinciple": "The resolution is not deemed passed on any earlier date.",
-      "statutoryFramework": ["Companies Act, 2013, section 116"],
-      "essentialIngredients": ["Adjourned meeting of company, class or Board", "Resolution in fact passed on a later date"],
-      "detailedExplanation": "Section 116 fixes the legal date of passage for resolutions at adjourned meetings. It does not cure validity defects.",
-      "examples": [],
-      "keyTakeaways": ["Actual passing date controls.", "Does not cure quorum or voting defects."],
-      "authoritativeSources": ["Companies Act, 2013 (Act No. 18 of 2013); India Code: https://www.indiacode.nic.in/handle/123456789/2114", "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"],
-      "caseLaw": [],
-      "caseLawGate": "section-specific-case-review-pending",
-      "lastBotRunAt": "2026-10-13T14:00:00.000Z",
-      "bot": "current-assistant-company-batch-116-125",
-      "rules": ["No invented citations", "Not marked verified"],
-      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "Statutory wording aligned to secondary official-text restatements. PDF checksum not completed; do not mark verified.", "date": "2026-10-13"},
-      "indiaCode": {"act": "Companies Act, 2013 (Act 18 of 2013)", "handle": "https://www.indiacode.nic.in/handle/123456789/2114", "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf", "sectionDeepLink": null, "note": "Not verified at byte level."},
-      "learningObjectives": ["State the date-of-passage rule under section 116."],
-      "distinctions": [],
-      "problemApplication": [],
-      "examAnswerStructure": "State the section, operative rule and any statutory consequence. Do not treat as verified until source review is complete."
-    },
-    "caseLawGate": "section-specific-case-review-pending"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T14:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": ["legacy-migration", "review-required", "company"]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-116",
+    "version":  1,
+    "status":  "review",
+    "title":  "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Where a resolution is passed at an adjourned meeting of a company, or of holders of any class of shares, or of the Board of Directors, the resolution shall for all purposes be treated as having been passed on the date on which it was in fact passed, and shall not be deemed to have been passed on any earlier date.",
+                    "glance":  "A resolution passed at an adjourned meeting is treated as passed on its actual date, not an earlier date.",
+                    "study":  "## Section 116 — Resolutions passed at adjourned meeting\n\nSection 116 covers an adjourned meeting of a company, holders of a class of shares, or the Board. The resolution is treated as passed on the date it was in fact passed — not backdated to the original meeting.\n\nThe actual passing date may determine when a connected filing period under section 117 begins. Section 116 is a date rule only; it does not validate a resolution that lacked notice, quorum, authority or the required majority.\n\n**Example.** A meeting is adjourned on 10 June without passing a resolution. The resolution is passed at the adjourned meeting on 24 June. Section 116 treats 24 June as the date of passage.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Meetings covered",
+                                         "body":  "Adjourned meeting of a company, holders of a class of shares, or the Board of Directors.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Date rule",
+                                         "body":  "The resolution is treated as passed on the date it was in fact passed, not an earlier date. Connected filing periods must be checked separately under section 117.",
+                                         "order":  2
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "company",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "company-ca-s-116",
+                                           "title":  "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Actual date",
+                                         "body":  "Meeting adjourned 10 June; resolution passed 24 June. Passing date under section 116 is 24 June. Educational illustration."
+                                     },
+                                     {
+                                         "title":  "Validity defect",
+                                         "body":  "Section 116 fixes the date but does not cure a voting or quorum defect. Educational illustration."
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Does section 116 cure a resolution that lacked the required majority at the adjourned meeting?",
+                                              "analysis":  "No. Section 116 is only a date-of-passage rule. It does not cure defects in notice, quorum, authority or voting."
+                                          }
+                                      ],
+                    "distinctions":  [
+
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s-116-trap-1",
+                                               "trap":  "Backdating a resolution to the original meeting date.",
+                                               "correction":  "The resolution is treated as passed on the date it was in fact passed."
+                                           },
+                                           {
+                                               "id":  "ca-s-116-trap-2",
+                                               "trap":  "Importing unrelated BSA or generic corporate cases into this topic.",
+                                               "correction":  "Keep the answer within section 116 and any connected filing provision such as section 117."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "question":  "What is the effect of section 116?",
+                                                    "answer":  "A resolution passed at an adjourned meeting of a company, class of shareholders, or the Board is treated as passed on the date it was actually passed, not an earlier date. It does not cure independent validity defects."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013, section 116",
+                                            "Companies Act, 2013, section 117"
+                                        ],
+                    "examTips":  [
+                                     "State the actual passing date and distinguish it from the original meeting date.",
+                                     "Explain that the section does not cure other validity defects."
+                                 ],
+                    "revisionPoints":  [
+                                           "Date-of-passage rule only.",
+                                           "Not backdated to the original meeting.",
+                                           "Connected filing deadlines checked separately."
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "ca-s-117",
+                                          "ca-s-115",
+                                          "ca-s-118"
+                                      ],
+                    "illustrations":  [
+                                          "illustration:india:company-ca-s-116-date",
+                                          "illustration:india:company-ca-s-116-not-original"
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-116",
+                    "migrationNote":  "Batch remediation 2026-10-13. Status is review until authoritative provenance and current-law verification are completed.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "definition":  "Where a resolution is passed at an adjourned meeting of a company, or of holders of any class of shares, or of the Board of Directors, the resolution shall for all purposes be treated as having been passed on the date on which it was in fact passed, and shall not be deemed to have been passed on any earlier date.",
+                                        "legalPrinciple":  "A resolution passed at an adjourned meeting is treated as passed on its actual date, not an earlier date.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)",
+                                        "essentialIngredients":  [
+                                                                     "Meetings covered",
+                                                                     "Date rule"
+                                                                 ],
+                                        "detailedExplanation":  "## Section 116 — Resolutions passed at adjourned meeting\n\nSection 116 covers an adjourned meeting of a company, holders of a class of shares, or the Board. The resolution is treated as passed on the date it was in fact passed — not backdated to the original meeting.\n\nThe actual passing date may determine when a connected filing period under section 117 begins. Section 116 is a date rule only; it does not validate a resolution that lacked notice, quorum, authority or the required majority.\n\n**Example.** A meeting is adjourned on 10 June without passing a resolution. The resolution is passed at the adjourned meeting on 24 June. Section 116 treats 24 June as the date of passage.\n\nThis note is a focused study aid; the topic remains under source and current-law review.",
+                                        "examples":  [
+                                                         "Meeting adjourned 10 June; resolution passed 24 June. Passing date under section 116 is 24 June. Educational illustration.",
+                                                         "Section 116 fixes the date but does not cure a voting or quorum defect. Educational illustration."
+                                                     ],
+                                        "keyTakeaways":  [
+                                                             "A resolution passed at an adjourned meeting is treated as passed on its actual date, not an earlier date.",
+                                                             "Where a resolution is passed at an adjourned meeting of a company, or of holders of any class of shares, or of the Board of Directors, the resolution shall for all purposes be treated as having been passed on the date on which it was in fact passed, and shall not be deemed to have been passed on any earlier date."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "section-specific-case-review-pending",
+                                        "lastBotRunAt":  "2026-10-13T14:00:00.000Z",
+                                        "bot":  "current-assistant-company-batch-116-125",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Not marked verified"
+                                                  ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Not verified at byte level."
+                                                      },
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 116 (Resolutions passed at adjourned meeting)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open."
+                                    },
+                    "caseLawGate":  "section-specific-case-review-pending"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T14:00:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "legacy-migration",
+                 "review-required",
+                 "company"
+             ]
 }

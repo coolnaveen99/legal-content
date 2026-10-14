@@ -1,196 +1,215 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-244",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 244 (Right to apply under section 241)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 244 fixes who may apply to the Tribunal under section 241. In the case of a company having a share capital, the application may be made by not less than one hundred members or not less than one-tenth of the total number of members, whichever is less, or by any member or members holding not less than one-tenth of the issued share capital of the company. In the case of a company not having a share capital, the application may be made by not less than one-fifth of the total number of members. The Tribunal may, on an application, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241.",
-    "glance": "s. 241 standing: share-capital co — ≥100 members or ≥1/10 of members (whichever less), or members holding ≥1/10 of issued share capital; no share capital — ≥1/5 of members; Tribunal may waive.",
-    "study": "The following members of a company shall have the right to apply under section 241, namely: (a) in the case of a company having a share capital, not less than one hundred members of the company or not less than one-tenth of the total number of its members, whichever is less, or any member or members holding not less than one-tenth of the issued share capital of the company, provided that the applicant or applicants have paid all calls and other sums due on their shares; (b) in the case of a company not having a share capital, not less than one-fifth of the total number of its members. The Tribunal may, on an application made to it in this behalf, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241. Current-law framing: confirm company type (share capital or not); compute numerical or capital threshold; check calls paid where capital threshold is used; seek waiver if below threshold. Class-action standing under s. 245 has its own prescribed thresholds and is distinct.",
-    "sections": [
-      {
-        "heading": "Share-Capital Company",
-        "body": "Not less than 100 members or not less than one-tenth of total members, whichever is less; or any member(s) holding not less than one-tenth of issued share capital (calls and other sums due must be paid).",
-        "order": 1
-      },
-      {
-        "heading": "Company Without Share Capital",
-        "body": "Not less than one-fifth of the total number of members.",
-        "order": 2
-      },
-      {
-        "heading": "Waiver",
-        "body": "Tribunal may waive all or any of the requirements so as to enable members to apply under s. 241.",
-        "order": 3
-      },
-      {
-        "heading": "Relationship to Class Action",
-        "body": "Standing for s. 241 is fixed here. Class-action standing under s. 245 is separate and prescribed by rules.",
-        "order": 4
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-244",
-        "section": "Section 244",
-        "title": "Right to apply under section 241"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Capital threshold",
-        "body": "Three members together hold 12% of issued share capital and have paid all calls. They have standing under s. 244 to apply under s. 241 without needing 100 members.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Waiver",
-        "body": "A single minority member holds 3% and seeks to apply under s. 241. The Tribunal may, on application, waive the numerical and capital requirements under s. 244.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Can one member with 2% of capital always apply under s. 241?",
-        "analysis": "Not as of right. Section 244 requires either the numerical threshold or not less than one-tenth of issued share capital. Below that, the member must obtain a Tribunal waiver under s. 244."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s244-vs-s241",
-        "title": "Right to apply (s. 244) vs application for relief (s. 241)",
-        "left": "Who may apply — numerical and capital thresholds; waiver",
-        "right": "Grounds — oppression, prejudice, material change",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Standing",
-            "right": "Cause of action"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s244-trap-1",
-        "trap": "Any single shareholder can always file under s. 241 without more.",
-        "correction": "Section 244 imposes numerical or capital thresholds. Below threshold, the applicant must obtain a Tribunal waiver."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s244-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 244 problem be analysed?",
-        "answer": "I. Confirm company type. II. Compute numerical or capital threshold. III. Check calls paid if capital path. IV. Seek waiver if needed. V. Conclude.",
-        "explanation": "IRAC."
-      },
-      {
-        "id": "ca-s244-sub",
-        "draftingCategory": "submissions",
-        "question": "What should submissions contain?",
-        "answer": "Membership facts; threshold calculation; waiver if sought; precise relief.",
-        "explanation": "Submissions."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 244",
-      "Connected: Sections 241, 245"
-    ],
-    "examTips": [
-      "100 or 1/10 members (whichever less), or 1/10 issued capital.",
-      "No share capital: 1/5 of members.",
-      "Tribunal may waive.",
-      "Distinct from s. 245 class-action thresholds."
-    ],
-    "revisionPoints": [
-      "Share-capital company",
-      "Company without share capital",
-      "Waiver",
-      "Relationship to class action"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-241",
-      "company-ca-s-245"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-244",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the standing thresholds under s. 244.",
-        "Explain the Tribunal's waiver power."
-      ],
-      "definition": "Section 244 prescribes the numerical and share-capital thresholds for members to apply under section 241, and empowers the Tribunal to waive those requirements.",
-      "legalPrinciple": "Oppression and mismanagement applications require a minimum collective stake so that the Tribunal is not flooded by isolated grievances, subject to a fairness waiver.",
-      "statutoryFramework": "Companies Act, 2013, Section 244.",
-      "essentialIngredients": [
-        "Share-capital co: ≥100 or ≥1/10 members (whichever less), or ≥1/10 issued capital with calls paid",
-        "No share capital: ≥1/5 of members",
-        "Tribunal may waive requirements"
-      ],
-      "detailedExplanation": "Section 244 is the standing gate for s. 241 applications.",
-      "examples": [
-        "Capital threshold",
-        "Waiver"
-      ],
-      "problemApplication": "Compute threshold; apply or seek waiver.",
-      "keyTakeaways": [
-        "Numerical or capital threshold.",
-        "Waiver available.",
-        "Not class-action standing."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 244"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; case-law verification separate; no new citations invented.",
-        "date": "2026-10-13"
-      },
-      "distinctions": [
-        "Right to apply (s. 244) vs application for relief (s. 241)"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Thresholds; waiver; conclude.",
-        "sixteenMark": "Introduction; share-capital; no capital; waiver; vs s. 245; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-13T16:20:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s244-2026-10-13",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T16:20:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-244",
-    "right-to-apply"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-244",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 244 (Right to apply under section 241)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 244 fixes who may apply to the Tribunal under section 241. In the case of a company having a share capital, the application may be made by not less than one hundred members or not less than one-tenth of the total number of members, whichever is less, or by any member or members holding not less than one-tenth of the issued share capital of the company. In the case of a company not having a share capital, the application may be made by not less than one-fifth of the total number of members. The Tribunal may, on an application, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241.",
+                    "glance":  "s. 241 standing: share-capital co — ≥100 members or ≥1/10 of members (whichever less), or members holding ≥1/10 of issued share capital; no share capital — ≥1/5 of members; Tribunal may waive.",
+                    "study":  "The following members of a company shall have the right to apply under section 241, namely: (a) in the case of a company having a share capital, not less than one hundred members of the company or not less than one-tenth of the total number of its members, whichever is less, or any member or members holding not less than one-tenth of the issued share capital of the company, provided that the applicant or applicants have paid all calls and other sums due on their shares; (b) in the case of a company not having a share capital, not less than one-fifth of the total number of its members. The Tribunal may, on an application made to it in this behalf, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241. Current-law framing: confirm company type (share capital or not); compute numerical or capital threshold; check calls paid where capital threshold is used; seek waiver if below threshold. Class-action standing under s. 245 has its own prescribed thresholds and is distinct.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Share-Capital Company",
+                                         "body":  "Not less than 100 members or not less than one-tenth of total members, whichever is less; or any member(s) holding not less than one-tenth of issued share capital (calls and other sums due must be paid).",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Company Without Share Capital",
+                                         "body":  "Not less than one-fifth of the total number of members.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Waiver",
+                                         "body":  "Tribunal may waive all or any of the requirements so as to enable members to apply under s. 241.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Relationship to Class Action",
+                                         "body":  "Standing for s. 241 is fixed here. Class-action standing under s. 245 is separate and prescribed by rules.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-244",
+                                           "section":  "Section 244",
+                                           "title":  "Right to apply under section 241"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Capital threshold",
+                                         "body":  "Three members together hold 12% of issued share capital and have paid all calls. They have standing under s. 244 to apply under s. 241 without needing 100 members.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Waiver",
+                                         "body":  "A single minority member holds 3% and seeks to apply under s. 241. The Tribunal may, on application, waive the numerical and capital requirements under s. 244.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Can one member with 2% of capital always apply under s. 241?",
+                                              "analysis":  "Not as of right. Section 244 requires either the numerical threshold or not less than one-tenth of issued share capital. Below that, the member must obtain a Tribunal waiver under s. 244."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s244-vs-s241",
+                                             "title":  "Right to apply (s. 244) vs application for relief (s. 241)",
+                                             "left":  "Who may apply — numerical and capital thresholds; waiver",
+                                             "right":  "Grounds — oppression, prejudice, material change",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Standing",
+                                                              "right":  "Cause of action"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s244-trap-1",
+                                               "trap":  "Any single shareholder can always file under s. 241 without more.",
+                                               "correction":  "Section 244 imposes numerical or capital thresholds. Below threshold, the applicant must obtain a Tribunal waiver."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s244-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 244 problem be analysed?",
+                                                    "answer":  "I. Confirm company type. II. Compute numerical or capital threshold. III. Check calls paid if capital path. IV. Seek waiver if needed. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s244-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Membership facts; threshold calculation; waiver if sought; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 244",
+                                            "Connected: Sections 241, 245"
+                                        ],
+                    "examTips":  [
+                                     "100 or 1/10 members (whichever less), or 1/10 issued capital.",
+                                     "No share capital: 1/5 of members.",
+                                     "Tribunal may waive.",
+                                     "Distinct from s. 245 class-action thresholds."
+                                 ],
+                    "revisionPoints":  [
+                                           "Share-capital company",
+                                           "Company without share capital",
+                                           "Waiver",
+                                           "Relationship to class action"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-241",
+                                          "company-ca-s-245"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-244",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 244 (Right to apply under section 241).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 244 fixes who may apply to the Tribunal under section 241. In the case of a company having a share capital, the application may be made by not less than one hundred members or not less than one-tenth of the total number of members, whichever is less, or by any member or members holding not less than one-tenth of the issued share capital of the company. In the case of a company not having a share capital, the application may be made by not less than one-fifth of the total number of members. The Tribunal may, on an application, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241.",
+                                        "legalPrinciple":  "s. 241 standing: share-capital co — ≥100 members or ≥1/10 of members (whichever less), or members holding ≥1/10 of issued share capital; no share capital — ≥1/5 of members; Tribunal may waive.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 244 (Right to apply under section 241)",
+                                        "essentialIngredients":  [
+                                                                     "Share-Capital Company",
+                                                                     "Company Without Share Capital",
+                                                                     "Waiver",
+                                                                     "Relationship to Class Action"
+                                                                 ],
+                                        "detailedExplanation":  "The following members of a company shall have the right to apply under section 241, namely: (a) in the case of a company having a share capital, not less than one hundred members of the company or not less than one-tenth of the total number of its members, whichever is less, or any member or members holding not less than one-tenth of the issued share capital of the company, provided that the applicant or applicants have paid all calls and other sums due on their shares; (b) in the case of a company not having a share capital, not less than one-fifth of the total number of its members. The Tribunal may, on an application made to it in this behalf, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241. Current-law framing: confirm company type (share capital or not); compute numerical or capital threshold; check calls paid where capital threshold is used; seek waiver if below threshold. Class-action standing under s. 245 has its own prescribed thresholds and is distinct.",
+                                        "examples":  [
+                                                         "Three members together hold 12% of issued share capital and have paid all calls. They have standing under s. 244 to apply under s. 241 without needing 100 members.",
+                                                         "A single minority member holds 3% and seeks to apply under s. 241. The Tribunal may, on application, waive the numerical and capital requirements under s. 244."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "s. 241 standing: share-capital co — ≥100 members or ≥1/10 of members (whichever less), or members holding ≥1/10 of issued share capital; no share capital — ≥1/5 of members; Tribunal may waive.",
+                                                             "Section 244 fixes who may apply to the Tribunal under section 241. In the case of a company having a share capital, the application may be made by not less than one hundred members or not less than one-tenth of the total number of members, whichever is less, or by any member or members holding not less than one-tenth of the issued share capital of the company. In the case of a company not having a share capital, the application may be made by not less than one-fifth of the total number of members. The Tribunal may, on an application, waive all or any of the requirements specified in this section so as to enable the members to apply under section 241."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 244 (Right to apply under section 241)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-13T16:20:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s244-2026-10-13",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T16:20:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-244",
+                 "right-to-apply"
+             ]
 }

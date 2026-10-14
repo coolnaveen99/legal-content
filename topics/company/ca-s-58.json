@@ -1,246 +1,225 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-58",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 58 (Refusal of Registration and Appeal Against Refusal)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions.",
-    "glance": "Private company: notice of refusal within 30 days; public company: generally no refusal of transfer; appeal to Tribunal; Tribunal may direct registration or confirm refusal.",
-    "study": "Companies Act, 2013 — Section 58 (Refusal of registration and appeal against refusal). If a private company refuses to register a transfer or transmission, it must send notice of refusal within 30 days of delivery of the instrument or intimation. The transferor, transferee or person giving intimation may appeal within 30 days of receiving the refusal notice, or within 60 days from delivery of the instrument/intimation if no notice is sent. A public company generally must not refuse registration of transfer; where it does so without sufficient cause, the transferee may appeal within 60 days of refusal, or within 90 days from delivery of the instrument/intimation if no intimation of refusal is received. The Tribunal may direct registration or confirm refusal and give consequential directions, including damages where authorised. Contravention of a Tribunal order is subject to the penalty stated in subsection (6). Apply the current text and any applicable exceptions to the facts.",
-    "sections": [
-      {
-        "heading": "Private company refusal notice",
-        "body": "A private company that refuses transfer or transmission must send notice of refusal within 30 days from delivery of the instrument of transfer or intimation of transmission.",
-        "order": 1
-      },
-      {
-        "heading": "Appeal against private company refusal",
-        "body": "The transferor, transferee or person giving intimation may appeal within 30 days of receipt of the refusal notice, or within 60 days from delivery of the instrument/intimation if no notice is sent.",
-        "order": 2
-      },
-      {
-        "heading": "Public company refusal and appeal",
-        "body": "A public company generally must not refuse registration of transfer. If it refuses without sufficient cause, the transferee may appeal within 60 days of refusal, or within 90 days from delivery of the instrument/intimation where no intimation of refusal is received.",
-        "order": 3
-      },
-      {
-        "heading": "Tribunal powers",
-        "body": "The Tribunal may direct registration of the transfer/transmission or confirm refusal and give incidental or consequential directions, including damages where authorised by the section.",
-        "order": 4
-      },
-      {
-        "heading": "Contravention of Tribunal order",
-        "body": "Subsection (6) provides a criminal penalty for contravention of an order under section 58. Verify the current statutory wording and penalty before applying it to a particular proceeding.",
-        "order": 5
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-58",
-        "section": "Section 58",
-        "title": "Refusal of registration and appeal against refusal"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Private company refusal notice",
-        "body": "A private company refuses a transfer under its articles and sends notice within thirty days. The transferee may appeal to the Tribunal under s. 58.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Public company refusal",
-        "body": "A public company refuses to register a duly completed transfer without statutory ground. Section 58’s general bar on public company refusal is engaged; the aggrieved party may appeal.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "A private company sends a refusal notice 20 days after delivery of the transfer instrument. By when may the transferee appeal?",
-        "analysis": "The appeal period is 30 days from receipt of the refusal notice. If no notice had been sent, the alternative period is 60 days from delivery of the instrument or intimation."
-      },
-      {
-        "question": "A public company refuses transfer and gives no intimation of refusal. What appeal period should be checked?",
-        "analysis": "Section 58(4) provides an appeal period of 90 days from delivery of the instrument or intimation where no intimation of refusal is received."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s58-vs-s59",
-        "title": "Refusal appeal and rectification",
-        "left": "Section 58 challenges refusal to register transfer/transmission and provides appeal timelines.",
-        "right": "Section 59 addresses wrongful entry/omission, default/delay and other rectification grounds.",
-        "rows": [
-          {
-            "point": "Trigger",
-            "left": "Refusal to register",
-            "right": "Register error or statutory contravention"
-          },
-          {
-            "point": "Time",
-            "left": "Specific appeal periods under section 58",
-            "right": "Apply section 59 and procedural rules to the case"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s58-trap-1",
-        "trap": "Using the same appeal period for private and public company refusals.",
-        "correction": "Apply the separate timelines in subsections (3) and (4), including the no-notice/no-intimation alternatives."
-      },
-      {
-        "id": "ca-s58-trap-2",
-        "trap": "Assuming a private company's articles make refusal immune from Tribunal review.",
-        "correction": "A refusal remains subject to the statutory notice and appeal framework."
-      },
-      {
-        "id": "ca-s58-trap-3",
-        "trap": "Treating the public-company non-refusal rule as eliminating all statutory exceptions.",
-        "correction": "Apply the current section text and any applicable statutory exception to the transaction."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "question": "What are the key appeal periods under section 58?",
-        "answer": "Private company: 30 days from refusal notice, or 60 days from delivery if no notice. Public company: 60 days from refusal, or 90 days from delivery if no intimation of refusal."
-      },
-      {
-        "question": "What can the Tribunal order?",
-        "answer": "It may direct registration of the transfer/transmission or confirm refusal and give incidental/consequential directions, including damages where authorised."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013, section 58 — Refusal of registration and appeal against refusal",
-      "Companies Act, 2013, section 56 — Transfer and transmission of securities",
-      "Companies Act, 2013, section 59 — Rectification of register of members"
-    ],
-    "examTips": [
-      "Identify private or public company first.",
-      "State the 30-day refusal notice requirement for private companies.",
-      "Calculate the correct appeal period and no-notice alternative.",
-      "Separate Tribunal orders from penalty for contravening an order."
-    ],
-    "revisionPoints": [
-      "Private refusal notice: 30 days.",
-      "Private appeal: 30 days after notice or 60 days from delivery if no notice.",
-      "Public-company appeal: 60 days after refusal or 90 days from delivery if no intimation.",
-      "Tribunal may direct registration or confirm refusal.",
-      "Check subsection (6) only against current statutory text."
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "ca-s-56",
-      "ca-s-59"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-58",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "State the private company refusal and notice rule.",
-        "Explain the public company bar on refusal.",
-        "Describe the Tribunal appeal and orders."
-      ],
-      "definition": "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions.",
-      "legalPrinciple": "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions.",
-      "statutoryFramework": "Companies Act, 2013, section 58, read with sections 56 and 59.",
-      "essentialIngredients": [
-        "Private-company refusal notice within 30 days",
-        "Private appeal period: 30 days after notice or 60 days from delivery if no notice",
-        "Public-company appeal period: 60 days after refusal or 90 days from delivery if no intimation",
-        "Tribunal registration/refusal and consequential powers",
-        "Current subsection (6) penalty for contravention of order"
-      ],
-      "detailedExplanation": "Companies Act, 2013 — Section 58 (Refusal of registration and appeal against refusal). If a private company refuses to register a transfer or transmission, it must send notice of refusal within 30 days of delivery of the instrument or intimation. The transferor, transferee or person giving intimation may appeal within 30 days of receiving the refusal notice, or within 60 days from delivery of the instrument/intimation if no notice is sent. A public company generally must not refuse registration of transfer; where it does so without sufficient cause, the transferee may appeal within 60 days of refusal, or within 90 days from delivery of the instrument/intimation if no intimation of refusal is received. The Tribunal may direct registration or confirm refusal and give consequential directions, including damages where authorised. Contravention of a Tribunal order is subject to the penalty stated in subsection (6). Apply the current text and any applicable exceptions to the facts.",
-      "examples": [
-        "The appeal period is 30 days from receipt of the refusal notice. If no notice had been sent, the alternative period is 60 days from delivery of the instrument or intimation.",
-        "Section 58(4) provides an appeal period of 90 days from delivery of the instrument or intimation where no intimation of refusal is received."
-      ],
-      "problemApplication": "Classify the company, identify the refusal and notice/intimation dates, calculate the correct appeal period, then state Tribunal powers and the current order-contravention provision.",
-      "keyTakeaways": [
-        "Private refusal notice: 30 days.",
-        "Private appeal: 30 days after notice or 60 days from delivery if no notice.",
-        "Public-company appeal: 60 days after refusal or 90 days from delivery if no intimation.",
-        "Tribunal may direct registration or confirm refusal.",
-        "Check subsection (6) only against current statutory text."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 58",
-        "Companies Act, 2013 (Act 18 of 2013), India Code / MCA consolidated text",
-        "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Private/public appeal timelines and Tribunal powers have been stated. Current subsection (6) penalty wording, any exceptions, official PDF byte-level review and case-law primary-report verification remain open.",
-        "date": "2026-10-14"
-      },
-      "distinctions": [
-        {
-          "id": "ca-s58-vs-s59",
-          "title": "Refusal appeal and rectification",
-          "left": "Section 58 challenges refusal to register transfer/transmission and provides appeal timelines.",
-          "right": "Section 59 addresses wrongful entry/omission, default/delay and other rectification grounds.",
-          "rows": [
-            {
-              "point": "Trigger",
-              "left": "Refusal to register",
-              "right": "Register error or statutory contravention"
-            },
-            {
-              "point": "Time",
-              "left": "Specific appeal periods under section 58",
-              "right": "Apply section 59 and procedural rules to the case"
-            }
-          ]
-        }
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "case-law-primary-report-review-open",
-      "examAnswerStructure": "State private/public company; apply notice duty and applicable appeal period; identify Tribunal powers; distinguish section 59; address subsection (6) only after verifying current text.",
-      "lastBotRunAt": "2026-10-09T19:05:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s58-2026-10-08",
-      "exampleQuality": "topic-specific-v1",
-      "indiaCode": {
-        "act": "Companies Act, 2013 (Act 18 of 2013)",
-        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
-        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
-        "sectionDeepLink": null,
-        "note": "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
-      }
-    },
-    "caseLawGate": "standard-citations-added-not-locked"
-  },
-  "sources": [
-    "source:india:india-code-companies-act-2013"
-  ],
-  "updatedAt": "2026-10-14T00:00:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-58",
-    "refusal-of-registration"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-58",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 58 (Refusal of Registration and Appeal Against Refusal)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions.",
+                    "glance":  "Private company: notice of refusal within 30 days; public company: generally no refusal of transfer; appeal to Tribunal; Tribunal may direct registration or confirm refusal.",
+                    "study":  "If a private company limited by shares refuses, whether in pursuance of any power under its articles or otherwise, to register the transfer of, or the transmission by operation of law of the right to, any securities or interest of a member, it must within thirty days from the date on which the instrument of transfer or the intimation of transmission was delivered to the company, send notice of the refusal to the transferor and the transferee or to the person giving intimation of transmission. Without prejudice to other remedies, the transferor or transferee or the person who gave intimation may appeal to the Tribunal against the refusal within the prescribed period. A public company generally shall not refuse registration of transfer of securities. On appeal, the Tribunal may direct that the transfer or transmission be registered or that the refusal be confirmed, and may give incidental and consequential directions. Current-law framing: identify private vs public company; check notice timeline; apply appeal to Tribunal and possible orders.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Private Company Refusal",
+                                         "body":  "If a private company refuses to register transfer or transmission, it must send notice of refusal within thirty days of delivery of the instrument or intimation.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Public Company",
+                                         "body":  "A public company shall not refuse registration of transfer of securities (subject to the Act).",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Appeal to Tribunal",
+                                         "body":  "Aggrieved transferor, transferee or transmission applicant may appeal to the Tribunal within the prescribed period.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Tribunal Powers",
+                                         "body":  "Tribunal may direct registration or confirm refusal and give incidental and consequential directions including as to costs and damages.",
+                                         "order":  4
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-58",
+                                           "section":  "Section 58",
+                                           "title":  "Refusal of registration and appeal against refusal"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Private company refusal notice",
+                                         "body":  "A private company refuses a transfer under its articles and sends notice within thirty days. The transferee may appeal to the Tribunal under s. 58.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Public company refusal",
+                                         "body":  "A public company refuses to register a duly completed transfer without statutory ground. Section 58’s general bar on public company refusal is engaged; the aggrieved party may appeal.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Does a private company have unlimited power to refuse registration?",
+                                              "analysis":  "It may refuse under its articles or otherwise, but must give notice within thirty days, and the refusal is subject to Tribunal appeal under s. 58."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s58-vs-s56",
+                                             "title":  "Refusal of registration (s. 58) vs transfer procedure (s. 56)",
+                                             "left":  "When registration may be refused and how to challenge",
+                                             "right":  "How transfer/transmission is effected",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Refusal and appeal",
+                                                              "right":  "Instrument and transmission mechanics"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s58-trap-1",
+                                               "trap":  "Public companies may freely refuse transfers like private companies.",
+                                               "correction":  "Section 58 generally prohibits public companies from refusing registration of transfer of securities."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s58-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 58 problem be analysed?",
+                                                    "answer":  "I. Identify private or public company. II. Check refusal and 30-day notice. III. Assess appeal to Tribunal. IV. State possible orders. V. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                },
+                                                {
+                                                    "id":  "ca-s58-sub",
+                                                    "draftingCategory":  "submissions",
+                                                    "question":  "What should submissions contain?",
+                                                    "answer":  "Company type; refusal facts; notice compliance; appeal grounds; precise relief.",
+                                                    "explanation":  "Submissions."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 58",
+                                            "Connected: Sections 56, 59"
+                                        ],
+                    "examTips":  [
+                                     "Private vs public distinction is critical.",
+                                     "30-day notice rule for private company refusal.",
+                                     "Tribunal may direct registration or confirm refusal."
+                                 ],
+                    "revisionPoints":  [
+                                           "Private company refusal + 30-day notice",
+                                           "Public company — generally no refusal",
+                                           "Appeal to Tribunal",
+                                           "Tribunal powers"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-56",
+                                          "company-ca-s-59"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-58",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 58 (Refusal of Registration and Appeal Against Refusal).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions.",
+                                        "legalPrinciple":  "Private company: notice of refusal within 30 days; public company: generally no refusal of transfer; appeal to Tribunal; Tribunal may direct registration or confirm refusal.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 58 (Refusal of Registration and Appeal Against Refusal)",
+                                        "essentialIngredients":  [
+                                                                     "Private Company Refusal",
+                                                                     "Public Company",
+                                                                     "Appeal to Tribunal",
+                                                                     "Tribunal Powers"
+                                                                 ],
+                                        "detailedExplanation":  "If a private company limited by shares refuses, whether in pursuance of any power under its articles or otherwise, to register the transfer of, or the transmission by operation of law of the right to, any securities or interest of a member, it must within thirty days from the date on which the instrument of transfer or the intimation of transmission was delivered to the company, send notice of the refusal to the transferor and the transferee or to the person giving intimation of transmission. Without prejudice to other remedies, the transferor or transferee or the person who gave intimation may appeal to the Tribunal against the refusal within the prescribed period. A public company generally shall not refuse registration of transfer of securities. On appeal, the Tribunal may direct that the transfer or transmission be registered or that the refusal be confirmed, and may give incidental and consequential directions. Current-law framing: identify private vs public company; check notice timeline; apply appeal to Tribunal and possible orders.",
+                                        "examples":  [
+                                                         "A private company refuses a transfer under its articles and sends notice within thirty days. The transferee may appeal to the Tribunal under s. 58.",
+                                                         "A public company refuses to register a duly completed transfer without statutory ground. Section 58’s general bar on public company refusal is engaged; the aggrieved party may appeal."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Private company: notice of refusal within 30 days; public company: generally no refusal of transfer; appeal to Tribunal; Tribunal may direct registration or confirm refusal.",
+                                                             "Section 58 provides that if a private company limited by shares refuses to register a transfer or transmission of shares, it must send notice of refusal to the transferor and transferee (or person giving intimation of transmission) within thirty days of the date on which the instrument or intimation was delivered. Public companies generally may not refuse registration of transfer of securities. Aggrieved persons may appeal to the Tribunal within the prescribed period; the Tribunal may direct registration or confirm refusal and give consequential directions."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 58 (Refusal of Registration and Appeal Against Refusal)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+                                                        {
+                                                            "name":  "Bajaj Auto Ltd v N K Firodia",
+                                                            "citation":  "(1970) 2 SCC 550",
+                                                            "point":  "A refusal to register a transfer must be in the interest of the company and for a reason the articles permit. A blanket refusal is not enough."
+                                                        }
+                                                    ],
+                                        "caseLawGate":  "standard-citations-added-not-locked",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-09T19:05:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s58-2026-10-08",
+                                        "exampleQuality":  "topic-specific-v1",
+                                        "indiaCode":  {
+                                                          "act":  "Companies Act, 2013 (Act 18 of 2013)",
+                                                          "handle":  "https://www.indiacode.nic.in/handle/123456789/2114",
+                                                          "pdf":  "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                                                          "sectionDeepLink":  null,
+                                                          "note":  "Act handle and official PDF attached. Section-level show-data links were not resolved. Not a verified closure."
+                                                      }
+                                    },
+                    "caseLawGate":  "standard-citations-added-not-locked"
+                },
+    "sources":  [
+                    "source:india:india-code-companies-act-2013"
+                ],
+    "updatedAt":  "2026-10-09T19:05:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-58",
+                 "refusal-of-registration"
+             ]
 }

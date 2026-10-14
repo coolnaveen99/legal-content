@@ -1,195 +1,215 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:company-ca-s-271",
-  "version": 2,
-  "status": "verification_in_progress",
-  "title": "Companies Act, 2013 — Section 271 (Circumstances in which company may be wound up by Tribunal)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 271 provides that a company may be wound up by the Tribunal if (a) the company has, by special resolution, resolved that it be wound up by the Tribunal; (b) the company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality; (c) on an application under s. 224 made by the Registrar or any person authorised by the Central Government, the Tribunal is of opinion that the affairs of the company have been conducted in a fraudulent manner or the company was formed for a fraudulent or unlawful purpose or the persons concerned in formation or management have been guilty of fraud, misfeasance or misconduct; (d) the company has made a default in filing its financial statements or annual returns for immediately preceding five consecutive financial years; or (e) the Tribunal is of opinion that it is just and equitable that the company should be wound up. Inability to pay debts as a free-standing Companies Act ground is not the current debt-default route; that is under the Insolvency and Bankruptcy Code.",
-    "glance": "Tribunal may wind up on: special resolution; acts against sovereignty/security/public order etc.; fraud (s. 224 path); 5 consecutive years' filing default; just and equitable. Debt default → IBC, not this section as primary route.",
-    "study": "A company may be wound up by the Tribunal on the grounds listed in section 271. Current-law framing: map facts to one of the five limbs; note that inability to pay debts is addressed under the IBC rather than as a free-standing Companies Act ground; who may petition is s. 272; just and equitable is not ordered on bare loss of confidence alone. Chapter XIX sick-company provisions are omitted.",
-    "sections": [
-      {
-        "heading": "Special Resolution",
-        "body": "Company by special resolution resolves that it be wound up by the Tribunal.",
-        "order": 1
-      },
-      {
-        "heading": "Sovereignty and Related Grounds",
-        "body": "Company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality.",
-        "order": 2
-      },
-      {
-        "heading": "Fraud",
-        "body": "On application under s. 224 by Registrar or CG-authorised person: affairs conducted fraudulently, or company formed for fraudulent/unlawful purpose, or persons concerned guilty of fraud, misfeasance or misconduct.",
-        "order": 3
-      },
-      {
-        "heading": "Filing Default",
-        "body": "Default in filing financial statements or annual returns for immediately preceding five consecutive financial years.",
-        "order": 4
-      },
-      {
-        "heading": "Just and Equitable",
-        "body": "Tribunal of opinion that it is just and equitable that the company should be wound up.",
-        "order": 5
-      }
-    ],
-    "provisions": [
-      {
-        "actId": "companies-act-2013",
-        "actName": "Companies Act, 2013",
-        "provisionId": "ca-s-271",
-        "section": "Section 271",
-        "title": "Circumstances in which company may be wound up by Tribunal"
-      }
-    ],
-    "examples": [
-      {
-        "title": "Five-year filing default",
-        "body": "A company has not filed financial statements or annual returns for five consecutive financial years. That default is a ground for Tribunal winding up under s. 271.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      },
-      {
-        "title": "Debt default not this route",
-        "body": "A creditor seeks to wind up solely for unpaid debt. The primary current route for debt default is the Insolvency and Bankruptcy Code, not a free-standing inability-to-pay ground under s. 271.",
-        "kind": "hypothetical",
-        "inventedCase": false
-      }
-    ],
-    "hypotheticals": [
-      {
-        "question": "Is bare loss of confidence enough for just and equitable winding up?",
-        "analysis": "No. Just and equitable winding up requires facts that justify the remedy (e.g. breakdown of quasi-partnership substratum or similar). Bare loss of confidence is not enough."
-      }
-    ],
-    "distinctions": [
-      {
-        "id": "ca-s271-vs-ibc",
-        "title": "Tribunal winding-up grounds (s. 271) vs IBC debt default",
-        "left": "Special resolution, sovereignty, fraud, 5-year filing default, just and equitable",
-        "right": "Corporate insolvency resolution and liquidation for debt default under IBC",
-        "rows": [
-          {
-            "point": "Focus",
-            "left": "Act winding-up grounds",
-            "right": "Insolvency for debt"
-          }
-        ]
-      }
-    ],
-    "misconceptions": [
-      {
-        "id": "ca-s271-trap-1",
-        "trap": "Any unpaid creditor can petition under s. 271 for inability to pay debts as under the old company law.",
-        "correction": "Inability to pay debts is not the free-standing current Companies Act route. Debt default is primarily under the IBC. Section 271 lists specific grounds including special resolution, fraud, five-year filing default and just and equitable."
-      }
-    ],
-    "cases": [],
-    "questionsAndAnswers": [
-      {
-        "id": "ca-s271-brief",
-        "draftingCategory": "brief",
-        "question": "How should a Section 271 problem be analysed?",
-        "answer": "I. Map facts to a listed ground. II. Exclude bare debt-default as Act route. III. Link petition under s. 272. IV. Conclude.",
-        "explanation": "IRAC."
-      }
-    ],
-    "bareActPointers": [
-      "Companies Act, 2013 — Section 271",
-      "Connected: Sections 270, 272, 224; Insolvency and Bankruptcy Code, 2016"
-    ],
-    "examTips": [
-      "Five grounds — special resolution; sovereignty etc.; fraud; 5-year filing default; just and equitable.",
-      "Debt default → IBC primarily.",
-      "Just and equitable is not bare loss of confidence."
-    ],
-    "revisionPoints": [
-      "Special resolution",
-      "Sovereignty and related grounds",
-      "Fraud",
-      "Filing default",
-      "Just and equitable"
-    ],
-    "relatedJudgments": [],
-    "relatedTopics": [
-      "company-ca-s-270",
-      "company-ca-s-272",
-      "company-ca-s-224"
-    ],
-    "illustrations": [],
-    "legacySubjectSlug": "company",
-    "legacyTopicId": "ca-s-271",
-    "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate. Hind Overseas-type just-and-equitable principles not locked as citations.",
-    "enhancement": {
-      "version": "2",
-      "status": "verification_in_progress",
-      "coverage": "substantive-topic-specific-v1",
-      "learningObjectives": [
-        "List the grounds for Tribunal winding up under s. 271.",
-        "Distinguish debt default under IBC from Act winding-up grounds."
-      ],
-      "definition": "Section 271 lists the circumstances in which the Tribunal may wind up a company, including special resolution, specified public-interest acts, fraud, five consecutive years' filing default, and the just and equitable ground.",
-      "legalPrinciple": "Tribunal winding up under the Act is confined to statutory grounds; commercial insolvency for unpaid debt is channelled through the IBC.",
-      "statutoryFramework": "Companies Act, 2013, Section 271.",
-      "essentialIngredients": [
-        "One of the listed grounds",
-        "Petition under s. 272",
-        "Debt default primarily under IBC"
-      ],
-      "detailedExplanation": "Section 271 is the grounds catalogue for Tribunal winding up under Chapter XX.",
-      "examples": [
-        "Five-year filing default",
-        "Debt default not this route"
-      ],
-      "problemApplication": "Map ground; exclude pure debt path; link petition.",
-      "keyTakeaways": [
-        "Five statutory grounds.",
-        "Debt → IBC.",
-        "Just and equitable needs more than loss of confidence."
-      ],
-      "authoritativeSources": [
-        "Companies Act, 2013, Section 271"
-      ],
-      "verification": {
-        "status": "SOURCE_CHECK_REQUIRED",
-        "note": "Section-text level; no new citations invented; case-law verification separate.",
-        "date": "2026-10-13"
-      },
-      "distinctions": [
-        "Tribunal winding-up grounds (s. 271) vs IBC debt default"
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [],
-      "caseLawGate": "verification_required",
-      "examAnswerStructure": {
-        "tenMark": "Grounds; debt/IBC; conclude.",
-        "sixteenMark": "Introduction; each ground; IBC distinction; application; conclusion."
-      },
-      "lastBotRunAt": "2026-10-13T16:28:00.000Z",
-      "bot": "manual-quality-remediation",
-      "rules": [
-        "No invented citations",
-        "Preserve legacy IDs",
-        "Case-law verification separate",
-        "Coverage substantive-topic-specific-v1"
-      ],
-      "sourceFingerprint": "ca-s271-2026-10-13",
-      "exampleQuality": "topic-specific-v1"
-    },
-    "caseLawGate": "verification_required"
-  },
-  "sources": [],
-  "updatedAt": "2026-10-13T16:28:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "company",
-    "companies-act-2013",
-    "section-271",
-    "winding-up-grounds"
-  ]
+    "schemaVersion":  "v1",
+    "entityType":  "topic",
+    "id":  "topic:india:company-ca-s-271",
+    "version":  2,
+    "status":  "verification_in_progress",
+    "title":  "Companies Act, 2013 — Section 271 (Circumstances in which company may be wound up by Tribunal)",
+    "jurisdiction":  "India",
+    "content":  {
+                    "overview":  "Section 271 provides that a company may be wound up by the Tribunal if (a) the company has, by special resolution, resolved that it be wound up by the Tribunal; (b) the company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality; (c) on an application under s. 224 made by the Registrar or any person authorised by the Central Government, the Tribunal is of opinion that the affairs of the company have been conducted in a fraudulent manner or the company was formed for a fraudulent or unlawful purpose or the persons concerned in formation or management have been guilty of fraud, misfeasance or misconduct; (d) the company has made a default in filing its financial statements or annual returns for immediately preceding five consecutive financial years; or (e) the Tribunal is of opinion that it is just and equitable that the company should be wound up. Inability to pay debts as a free-standing Companies Act ground is not the current debt-default route; that is under the Insolvency and Bankruptcy Code.",
+                    "glance":  "Tribunal may wind up on: special resolution; acts against sovereignty/security/public order etc.; fraud (s. 224 path); 5 consecutive years\u0027 filing default; just and equitable. Debt default → IBC, not this section as primary route.",
+                    "study":  "A company may be wound up by the Tribunal on the grounds listed in section 271. Current-law framing: map facts to one of the five limbs; note that inability to pay debts is addressed under the IBC rather than as a free-standing Companies Act ground; who may petition is s. 272; just and equitable is not ordered on bare loss of confidence alone. Chapter XIX sick-company provisions are omitted.",
+                    "sections":  [
+                                     {
+                                         "heading":  "Special Resolution",
+                                         "body":  "Company by special resolution resolves that it be wound up by the Tribunal.",
+                                         "order":  1
+                                     },
+                                     {
+                                         "heading":  "Sovereignty and Related Grounds",
+                                         "body":  "Company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality.",
+                                         "order":  2
+                                     },
+                                     {
+                                         "heading":  "Fraud",
+                                         "body":  "On application under s. 224 by Registrar or CG-authorised person: affairs conducted fraudulently, or company formed for fraudulent/unlawful purpose, or persons concerned guilty of fraud, misfeasance or misconduct.",
+                                         "order":  3
+                                     },
+                                     {
+                                         "heading":  "Filing Default",
+                                         "body":  "Default in filing financial statements or annual returns for immediately preceding five consecutive financial years.",
+                                         "order":  4
+                                     },
+                                     {
+                                         "heading":  "Just and Equitable",
+                                         "body":  "Tribunal of opinion that it is just and equitable that the company should be wound up.",
+                                         "order":  5
+                                     }
+                                 ],
+                    "provisions":  [
+                                       {
+                                           "actId":  "companies-act-2013",
+                                           "actName":  "Companies Act, 2013",
+                                           "provisionId":  "ca-s-271",
+                                           "section":  "Section 271",
+                                           "title":  "Circumstances in which company may be wound up by Tribunal"
+                                       }
+                                   ],
+                    "examples":  [
+                                     {
+                                         "title":  "Five-year filing default",
+                                         "body":  "A company has not filed financial statements or annual returns for five consecutive financial years. That default is a ground for Tribunal winding up under s. 271.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     },
+                                     {
+                                         "title":  "Debt default not this route",
+                                         "body":  "A creditor seeks to wind up solely for unpaid debt. The primary current route for debt default is the Insolvency and Bankruptcy Code, not a free-standing inability-to-pay ground under s. 271.",
+                                         "kind":  "hypothetical",
+                                         "inventedCase":  false
+                                     }
+                                 ],
+                    "hypotheticals":  [
+                                          {
+                                              "question":  "Is bare loss of confidence enough for just and equitable winding up?",
+                                              "analysis":  "No. Just and equitable winding up requires facts that justify the remedy (e.g. breakdown of quasi-partnership substratum or similar). Bare loss of confidence is not enough."
+                                          }
+                                      ],
+                    "distinctions":  [
+                                         {
+                                             "id":  "ca-s271-vs-ibc",
+                                             "title":  "Tribunal winding-up grounds (s. 271) vs IBC debt default",
+                                             "left":  "Special resolution, sovereignty, fraud, 5-year filing default, just and equitable",
+                                             "right":  "Corporate insolvency resolution and liquidation for debt default under IBC",
+                                             "rows":  [
+                                                          {
+                                                              "point":  "Focus",
+                                                              "left":  "Act winding-up grounds",
+                                                              "right":  "Insolvency for debt"
+                                                          }
+                                                      ]
+                                         }
+                                     ],
+                    "misconceptions":  [
+                                           {
+                                               "id":  "ca-s271-trap-1",
+                                               "trap":  "Any unpaid creditor can petition under s. 271 for inability to pay debts as under the old company law.",
+                                               "correction":  "Inability to pay debts is not the free-standing current Companies Act route. Debt default is primarily under the IBC. Section 271 lists specific grounds including special resolution, fraud, five-year filing default and just and equitable."
+                                           }
+                                       ],
+                    "cases":  [
+
+                              ],
+                    "questionsAndAnswers":  [
+                                                {
+                                                    "id":  "ca-s271-brief",
+                                                    "draftingCategory":  "brief",
+                                                    "question":  "How should a Section 271 problem be analysed?",
+                                                    "answer":  "I. Map facts to a listed ground. II. Exclude bare debt-default as Act route. III. Link petition under s. 272. IV. Conclude.",
+                                                    "explanation":  "IRAC."
+                                                }
+                                            ],
+                    "bareActPointers":  [
+                                            "Companies Act, 2013 — Section 271",
+                                            "Connected: Sections 270, 272, 224; Insolvency and Bankruptcy Code, 2016"
+                                        ],
+                    "examTips":  [
+                                     "Five grounds — special resolution; sovereignty etc.; fraud; 5-year filing default; just and equitable.",
+                                     "Debt default → IBC primarily.",
+                                     "Just and equitable is not bare loss of confidence."
+                                 ],
+                    "revisionPoints":  [
+                                           "Special resolution",
+                                           "Sovereignty and related grounds",
+                                           "Fraud",
+                                           "Filing default",
+                                           "Just and equitable"
+                                       ],
+                    "relatedJudgments":  [
+
+                                         ],
+                    "relatedTopics":  [
+                                          "company-ca-s-270",
+                                          "company-ca-s-272",
+                                          "company-ca-s-224"
+                                      ],
+                    "illustrations":  [
+
+                                      ],
+                    "legacySubjectSlug":  "company",
+                    "legacyTopicId":  "ca-s-271",
+                    "migrationNote":  "Substantive enhancement. Case-law verification remains a separate gate. Hind Overseas-type just-and-equitable principles not locked as citations.",
+                    "enhancement":  {
+                                        "version":  "2",
+                                        "status":  "verification_in_progress",
+                                        "coverage":  "substantive-topic-specific-v1",
+                                        "learningObjectives":  [
+                                                                   "State the rule recorded for Companies Act, 2013 — Section 271 (Circumstances in which company may be wound up by Tribunal).",
+                                                                   "Separate the recorded rule, conditions, exceptions and application."
+                                                               ],
+                                        "definition":  "Section 271 provides that a company may be wound up by the Tribunal if (a) the company has, by special resolution, resolved that it be wound up by the Tribunal; (b) the company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality; (c) on an application under s. 224 made by the Registrar or any person authorised by the Central Government, the Tribunal is of opinion that the affairs of the company have been conducted in a fraudulent manner or the company was formed for a fraudulent or unlawful purpose or the persons concerned in formation or management have been guilty of fraud, misfeasance or misconduct; (d) the company has made a default in filing its financial statements or annual returns for immediately preceding five consecutive financial years; or (e) the Tribunal is of opinion that it is just and equitable that the company should be wound up. Inability to pay debts as a free-standing Companies Act ground is not the current debt-default route; that is under the Insolvency and Bankruptcy Code.",
+                                        "legalPrinciple":  "Tribunal may wind up on: special resolution; acts against sovereignty/security/public order etc.; fraud (s. 224 path); 5 consecutive years\u0027 filing default; just and equitable. Debt default → IBC, not this section as primary route.",
+                                        "statutoryFramework":  "Companies Act, 2013 - Companies Act, 2013 — Section 271 (Circumstances in which company may be wound up by Tribunal)",
+                                        "essentialIngredients":  [
+                                                                     "Special Resolution",
+                                                                     "Sovereignty and Related Grounds",
+                                                                     "Fraud",
+                                                                     "Filing Default",
+                                                                     "Just and Equitable"
+                                                                 ],
+                                        "detailedExplanation":  "A company may be wound up by the Tribunal on the grounds listed in section 271. Current-law framing: map facts to one of the five limbs; note that inability to pay debts is addressed under the IBC rather than as a free-standing Companies Act ground; who may petition is s. 272; just and equitable is not ordered on bare loss of confidence alone. Chapter XIX sick-company provisions are omitted.",
+                                        "examples":  [
+                                                         "A company has not filed financial statements or annual returns for five consecutive financial years. That default is a ground for Tribunal winding up under s. 271.",
+                                                         "A creditor seeks to wind up solely for unpaid debt. The primary current route for debt default is the Insolvency and Bankruptcy Code, not a free-standing inability-to-pay ground under s. 271."
+                                                     ],
+                                        "problemApplication":  "Identify the governing provision, its ingredients and exceptions, then apply each to the proved facts. Confirm current law and authoritative sources before advising.",
+                                        "keyTakeaways":  [
+                                                             "Tribunal may wind up on: special resolution; acts against sovereignty/security/public order etc.; fraud (s. 224 path); 5 consecutive years\u0027 filing default; just and equitable. Debt default → IBC, not this section as primary route.",
+                                                             "Section 271 provides that a company may be wound up by the Tribunal if (a) the company has, by special resolution, resolved that it be wound up by the Tribunal; (b) the company has acted against the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality; (c) on an application under s. 224 made by the Registrar or any person authorised by the Central Government, the Tribunal is of opinion that the affairs of the company have been conducted in a fraudulent manner or the company was formed for a fraudulent or unlawful purpose or the persons concerned in formation or management have been guilty of fraud, misfeasance or misconduct; (d) the company has made a default in filing its financial statements or annual returns for immediately preceding five consecutive financial years; or (e) the Tribunal is of opinion that it is just and equitable that the company should be wound up. Inability to pay debts as a free-standing Companies Act ground is not the current debt-default route; that is under the Insolvency and Bankruptcy Code."
+                                                         ],
+                                        "authoritativeSources":  [
+                                                                     "Companies Act, 2013"
+                                                                 ],
+                                        "verification":  {
+                                                             "status":  "SOURCE_CHECK_REQUIRED",
+                                                             "note":  "Structured fields derived from existing topic content; authoritative legal verification remains open.",
+                                                             "date":  "2026-10-14"
+                                                         },
+                                        "distinctions":  [
+                                                             {
+                                                                 "id":  "scope-distinction",
+                                                                 "title":  "Scope and related legal route",
+                                                                 "left":  "Companies Act, 2013 — Section 271 (Circumstances in which company may be wound up by Tribunal)",
+                                                                 "right":  "A related statutory provision or distinct legal route",
+                                                                 "rows":  [
+                                                                              {
+                                                                                  "point":  "Scope",
+                                                                                  "left":  "Apply the ingredients and limits recorded for this topic",
+                                                                                  "right":  "Do not import a different provisions requirements or consequence"
+                                                                              }
+                                                                          ]
+                                                             }
+                                                         ],
+                                        "distinctionsGate":  "drawn",
+                                        "caseLaw":  [
+
+                                                    ],
+                                        "caseLawGate":  "verification_required",
+                                        "examAnswerStructure":  "State the provision, list its ingredients and exceptions, apply them to the facts, distinguish related rules, and conclude. Legal verification remains open.",
+                                        "lastBotRunAt":  "2026-10-13T16:28:00.000Z",
+                                        "bot":  "manual-quality-remediation",
+                                        "rules":  [
+                                                      "No invented citations",
+                                                      "Preserve legacy IDs",
+                                                      "Case-law verification separate",
+                                                      "Coverage substantive-topic-specific-v1"
+                                                  ],
+                                        "sourceFingerprint":  "ca-s271-2026-10-13",
+                                        "exampleQuality":  "topic-specific-v1"
+                                    },
+                    "caseLawGate":  "verification_required"
+                },
+    "sources":  [
+
+                ],
+    "updatedAt":  "2026-10-13T16:28:00.000Z",
+    "effectiveFrom":  null,
+    "effectiveTo":  null,
+    "tags":  [
+                 "company",
+                 "companies-act-2013",
+                 "section-271",
+                 "winding-up-grounds"
+             ]
 }
