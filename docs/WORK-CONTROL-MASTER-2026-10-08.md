@@ -505,4 +505,4 @@ Latest evidence: official Companies Act text contains the annual general meeting
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the section's meeting timing, notice, quorum, Board report, member requisition and filing requirements without inventing extensions or deadlines  
 Planned change: exact-topic cleanup only after inspecting the section's current text and official source  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
+Disposition: SKIPPED after full-topic inspection — current content already contains provision-specific AGM timing, notice/document, place/time and related-topic coverage; enhancement status is `verification_in_progress`, and the record identifies existing owner/bot `company-bulk-remediation-2026-10-14-s378za`. No topic edit made to avoid duplicating existing work. Remaining gates are authoritative/current-law verification, case-law review if applicable, and repository-wide validation/publication.
