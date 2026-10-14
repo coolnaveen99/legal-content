@@ -1476,4 +1476,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 2a9ae
 Missing gate: distinguish share-capital classes from voting entitlements and current class-specific rules  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 43 cleanup committed as `1f807ce525328af29f7342269a9241282a2350b3`. JSON parse and focused assertions passed; equity/preference classification and differential-rights caveat retained; unverified case citations removed. Topic remains `verification_in_progress`; official source/case-law review remains open.
+
+
+## Company Law s. 42 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — private placement  
+Topic/section range: `topics/company/ca-s-42.json` only  
+Current main topic blob SHA: `5a45f6603cb95e7bb6b139545c6f2704c294227b`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s42-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f018c6; verify identified-person limit, offer-cum-application, separate bank account, allotment timeline, return of allotment, prohibited public advertising and current penalties under amended Act/rules  
+Missing gate: distinguish private placement from rights/preferential issues and ensure current monetary thresholds and time periods are used  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
