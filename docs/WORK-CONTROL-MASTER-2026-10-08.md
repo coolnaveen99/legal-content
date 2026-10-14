@@ -771,4 +771,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: correct any conflation between section 88 registers, section 89 declarations and section 90 SBO register without inventing entries or filing periods  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 88 completeness correction committed as `84d51cd23de743c8547ba9eb1bb7df370e8e5fe8`. JSON parse and focused assertions passed; register categories, index, depository treatment, foreign-register condition and current ₹3,00,000/₹50,000 penalties are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 87 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-87.json` only  
+Current main topic blob SHA: `4375f76e94f8c697e3dced4de82bc9a874f198b3`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s87-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the Central Government's rectification/extension grounds, applicant standing and safeguards against the official section text  
+Missing gate: preserve the section's accidental/inadvertent/sufficient-cause or non-prejudice criteria; do not imply an unrestricted power to rectify charges  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
