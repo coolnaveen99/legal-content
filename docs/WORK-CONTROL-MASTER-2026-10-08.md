@@ -141,4 +141,4 @@ Latest evidence: CI run `38508727683` failed `parity:legal-content-full` because
 Missing gate: valid JSON and passing canonical parity/integrity validation; statutory and case-law verification remain open  
 Planned change: repair only the malformed JSON string delimiter in the `tags` array, preserving all topic data and `SOURCE_CHECK_REQUIRED` status  
 Validation: JSON parse plus fresh repository CI and parity gate  
-Evidence/commit: claim recorded before editing; repair and validation evidence to be recorded after change. Do not mark legal verification or topic completion.
+Evidence/commit: JSON syntax repaired in commit `5e0127bcdd4a86fe389e68d57193bb7f7fdc38d9`; `JSON.parse` passes on the updated topic. Fresh repository parity/integrity CI remains pending. Do not mark legal verification or topic completion.
