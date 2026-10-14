@@ -565,4 +565,19 @@ Latest evidence: latest topic commits: 73fcb64527, a7d9ab63c9, 627518fc8e, 54c56
 Missing gate: confirm any statutory details omitted from the existing topic without broadening who may inspect or inventing fees/deadlines  
 Planned change: make only a source-supported correction; preserve review status and provenance  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 119 completeness correction committed as `07504803a9d6da2fd86ded58ea0ade064f031557`. JSON parse and focused assertions passed; the two-hour daily inspection minimum, seven-working-day copy deadline, penalties and Tribunal remedy are now stated. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 118 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-118.json` only  
+Current main topic blob SHA: `6b2fe47f94edf0d5bd324842b6ee230c30a722c9`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s118-reverse`  
+Latest evidence: latest topic commits: 85166107ce, 14e6e57837, 627518fc8e, 54c56c7ef2; inspect minutes content against section 118's preparation, signing, evidentiary effect, secretarial standards and default/tampering provisions before deciding whether correction is required  
+Missing gate: confirm current statutory requirements and any amended penalty language; do not infer that minutes are conclusive evidence or invent meeting-record duties  
+Planned change: make only source-supported corrections and preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
