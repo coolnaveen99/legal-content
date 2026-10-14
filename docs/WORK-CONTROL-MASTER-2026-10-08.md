@@ -1011,4 +1011,19 @@ Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7ad
 Missing gate: distinguish member deposits under section 73 from eligible-public-company deposits under section 76 and pre-Act deposits under section 74  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 94 access-rule cleanup committed as `b2d17261f6342d28cccb3f1d6c83aee6d2e82ebb`. JSON parse and focused assertions passed; statutory threshold, access/fee distinction, refusal penalty and Central Government remedy retained. The exact prescribed-data exclusion list is explicitly left for rule-level verification. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 93 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — omitted-section/current-law status verification  
+Topic/section range: `topics/company/ca-s-93.json` only  
+Current main topic blob SHA: `c1c3da0734f7d9de1d83b76737c209c9384aa41c`  
+Current status: `review`; historical provision/current-law status needs explicit verification  
+Current owner: `current-assistant-company-s93-reverse`  
+Latest evidence: latest topic commits: ee5fbba087, 627518fc8e, 54c56c7ef2, cc15b04eea; section 93 was omitted by the Companies (Amendment) Act, 2017, effective 9 February 2018; verify the exact amendment and preserve historical context without presenting it as operative law  
+Missing gate: ensure content, topic status and enhancement metadata clearly flag omission and its effective date; no obsolete duty/penalty represented as current  
+Planned change: source-supported status correction only; preserve review status pending legal/source gates  
+Validation: JSON parse, focused status assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
