@@ -1491,4 +1491,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 77c3f
 Missing gate: distinguish private placement from rights/preferential issues and ensure current monetary thresholds and time periods are used  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 42 correction committed as `01f5c82f5687ba49a43086f5de86fed63ee9cc6d`. JSON parse and focused assertions passed; person-limit, no-solicitation, own-account payment, no-use, allotment/refund/interest, return deadline and current penalty are recorded. Topic remains `verification_in_progress`; current rule exceptions and primary-report case-law review remain open.
+
+
+## Company Law s. 41 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — global depository receipts  
+Topic/section range: `topics/company/ca-s-41.json` only  
+Current main topic blob SHA: `e021b99ada8d1d061de57918aa122bc8ad286f17`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s41-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify prescribed issue procedure, eligible issuer, foreign depository/underlying shares, voting/dividend rights and current rules  
+Missing gate: distinguish GDR issuance under section 41 from private placement and other securities issue routes; avoid treating GDR holder as registered shareholder without statutory/contractual analysis  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
