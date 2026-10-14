@@ -106,7 +106,7 @@ Before assigning an action:
 If already merged, actively owned, or COMPLETE_LOCKED, do not reassign it. If blocked, record the blocker and next evidence/action.
 
 ### G. Risks, blockers and release readiness
-For every blocker, record impact, affected scope, owner/role, evidence required and next review trigger. Distinguish technical access failure from source invalidity and from legal verification. A `MANUAL_REVIEW_REQUIRED` PDF outcome does not authorize legal verification or publication. Do not announce release readiness without the applicable evidence and approvals.
+For every blocker, record impact, affected scope, owner/role, evidence required and next review trigger. Distinguish technical access failure from source invalidity and from legal verification. A `MANUAL_REVIEW_REQUIRED` PDF outcome does not itself authorize legal verification or publication; conversely, an inaccessible original PDF alone is not a repository-wide legal-verification gate when the specific proposition is independently verified against direct authoritative evidence and the evidence is recorded. Keep the PDF technical queue visible and preserve its safeguards. Do not announce release readiness without the applicable claim-/subject-level evidence and approvals.
 
 ### H. Read-back and close
 Read decisions and action owners aloud or in chat. Confirm unresolved items, next meeting trigger/date if agreed, recorder and expected meeting record path. Capture dissent and uncertainty. Do not claim all participants acknowledged unless explicitly recorded.
