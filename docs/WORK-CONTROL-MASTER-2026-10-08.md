@@ -996,4 +996,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: do not imply section 74 governs all current deposits; distinguish deposits accepted before commencement from the current sections 73/76 regime  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 74 amendment correction committed as `1603183b2086a6fdfed35ece4d30b61746943650`. JSON parse and focused assertions passed; the three-year amended repayment deadline, three-month Registrar statement, Tribunal extension and section 74(3) consequences are recorded. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 73 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-73.json` only  
+Current main topic blob SHA: `4c1043d349c286c2ebdc5fbc4adbc5017b937708`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s73-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify member/public deposit eligibility, special-resolution/filing requirements, deposit repayment reserve, repayment terms, Tribunal remedy and current penalties against amended Act/rules  
+Missing gate: distinguish member deposits under section 73 from eligible-public-company deposits under section 76 and pre-Act deposits under section 74  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
