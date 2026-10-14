@@ -521,3 +521,18 @@ Missing gate: include the special procedure where an OPC has only one director: 
 Planned change: add subsection (4) accurately, preserve existing section 122 content and `review` status, and keep the legal-verification gate open  
 Validation: JSON parse, targeted subsection (4) assertions, repository integrity/verification gates  
 Evidence/commit: subsection (4) completeness correction committed as `1e166f521024a2a9c0c7afa2110fbd492463ad6a`. JSON parse and focused assertions passed; the sole-director Board-resolution minute-book procedure is now represented. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Company Law s. 121 subsection (3) reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness correction  
+Topic/section range: `topics/company/ca-s-121.json`, subsection (3) penalty only  
+Current main topic blob SHA: `3d112b2625160fd61e5fe2104e1d815da616c3b9`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s121-sub3-reverse`  
+Latest evidence: current topic describes the listed-public-company AGM report and thirty-day filing deadline but leaves the subsection (3) penalty as a generic instruction to check current law  
+Missing gate: record the penalty amounts and continuing-default caps stated in the current MCA consolidated Act text, without changing the topic to verified  
+Planned change: add precise subsection (3) penalty summary and preserve the existing source/current-law review gate  
+Validation: JSON parse, focused penalty assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text was checked for subsection (3); PDF checksum/byte-level review and legal sign-off are not claimed.
