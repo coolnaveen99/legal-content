@@ -1026,4 +1026,19 @@ Latest evidence: latest topic commits: ee5fbba087, 627518fc8e, 54c56c7ef2, cc15b
 Missing gate: ensure content, topic status and enhancement metadata clearly flag omission and its effective date; no obsolete duty/penalty represented as current  
 Planned change: source-supported status correction only; preserve review status pending legal/source gates  
 Validation: JSON parse, focused status assertions, repository integrity/verification gates  
+Evidence/commit: section 93 omission-note cleanup committed as `07cddcc9531e9e0ba31c1af72182ce93d8a33574`. JSON parse and focused assertions passed; the omission and effective date remain explicit, generic exam boilerplate was removed, and section 90 is identified as a distinct regime. Topic status remains `review`; official Gazette/PDF byte-level review and repository-wide validation remain open.
+
+
+## Company Law s. 72 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — nomination and transmission statutory completeness  
+Topic/section range: `topics/company/ca-s-72.json` only  
+Current main topic blob SHA: `66f6413dc2fee8a3bc2d3a5cf0af76de6710efc6`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s72-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify securities/debenture nomination, prescribed form/manner, effect of death and competing claims against current Act/rules  
+Missing gate: distinguish nomination from testamentary succession and avoid asserting that nomination conclusively determines beneficial ownership absent authority  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
