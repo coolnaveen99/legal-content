@@ -876,4 +876,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: distinguish Registrar's register from company's internal register under section 85 and company filing duty under section 77  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 81 scope correction committed as `c653694ab36197aa2caa71454624fc1fabb1247e`. JSON parse and focused assertions passed; Registrar register, prescribed-form maintenance, inspection fees and distinction from company register/section 77 filing are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 80 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-80.json` only  
+Current main topic blob SHA: `10639145025c33619abd7903c41e4063347f9387`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s80-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify the statutory deemed-notice rule and its trigger date against official section 80  
+Missing gate: avoid expanding deemed notice beyond charges registered under section 77 or shifting the date from registration  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
