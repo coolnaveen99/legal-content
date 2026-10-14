@@ -506,3 +506,18 @@ Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generi
 Planned change: exact-topic cleanup only after inspecting the section's current text and official source  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Disposition: SKIPPED after full-topic inspection — current content already contains provision-specific AGM timing, notice/document, place/time and related-topic coverage; enhancement status is `verification_in_progress`, and the record identifies existing owner/bot `company-bulk-remediation-2026-10-14-s378za`. No topic edit made to avoid duplicating existing work. Remaining gates are authoritative/current-law verification, case-law review if applicable, and repository-wide validation/publication.
+
+
+## Company Law s. 122 subsection (4) reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness correction  
+Topic/section range: `topics/company/ca-s-122.json`, subsection (4) only  
+Current main topic blob SHA: `71e2b33d39ff11051386e1ae9622bcc052414c10`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s122-sub4-reverse`  
+Latest evidence: topic-specific content commits `12e852c19c` and `453d257ec1` already corrected subsections (1)–(3), but the current overview/study omit subsection (4)  
+Missing gate: include the special procedure where an OPC has only one director: the director's resolution is entered in the section 118 minutes-book, signed and dated, and the date is deemed the Board-meeting date for purposes of the Act  
+Planned change: add subsection (4) accurately, preserve existing section 122 content and `review` status, and keep the legal-verification gate open  
+Validation: JSON parse, targeted subsection (4) assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after implementation. Official MCA consolidated Act text was checked for subsection (4); no case-law or legal sign-off is claimed.
