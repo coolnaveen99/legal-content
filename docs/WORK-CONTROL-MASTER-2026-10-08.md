@@ -1250,3 +1250,17 @@ Missing gate: separate pro-rata rights issue from preferential allotment/private
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+
+
+## 2026-10-14 decision — PDF retrieval is not a universal legal-verification gate
+
+The original-URL PDF retrieval/manual-review queue is a **technical evidence queue**, not a universal prerequisite for every legal-verification decision.
+
+- Do not require byte identity with an inaccessible original PDF URL where the specific legal proposition can be independently checked against direct, accessible authoritative evidence (for example, official Gazette/legislation text, official HTML/text, or an approved official-hosted copy).
+- For each claim-level check, record the exact topic/proposition, instrument title and number/date, issuing authority, authoritative URL, relevant provision/pages or excerpt, review date, reviewer identity/role, and limitations. Record checksums only for bytes actually obtained and reviewed.
+- An approved alternate official source can support claim-level legal verification without closing the original PDF retrieval item. It does not prove byte identity and must not automatically close that technical queue item.
+- If sufficient authoritative evidence is unavailable, keep the affected claim/topic `SOURCE_CHECK_REQUIRED`/`BLOCKED`; do not infer statutory text or commencement.
+- Keep all pending PDF items visible and preserve PDF validator tests. The queue's pending count alone must not block unrelated claim verification or make the whole repository red; it never authorizes publication and never waives subject-level release gates.
+- Do not change a pending item's outcome, checksum, reviewer closure, `legalVerificationAuthorized`, or `publicationAuthorized` without the evidence and required authority. Current queue remains six pending until individual technical reviews are properly closed.
+
+This policy separates the source-format/access issue from legal correctness; it does not remove legal verification, case verification, human sign-off, or publication controls.
