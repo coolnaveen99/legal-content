@@ -7,51 +7,42 @@
   "title": "Companies Act, 2013 — Section 63 (Issue of bonus shares)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend.",
-    "glance": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend.",
-    "study": "A bonus issue capitalises reserves; it is not a distribution of cash dividend. The company must be authorised by articles, must have made the partly paid shares fully paid if any, must not have defaulted in payment of statutory dues of employees or in debt servicing as stated in the section, and must follow the conditions prescribed. Bonus shares cannot be issued out of revaluation reserves. Once announced on the terms in s. 63, the company cannot withdraw the decision. The issue does not of itself change the relative voting proportions of holders of the same class.",
+    "overview": "A company may issue fully paid-up bonus shares out of free reserves, the securities premium account or the capital redemption reserve, subject to section 63's conditions; reserves created by revaluation of assets cannot be capitalised, and bonus shares cannot be issued in lieu of dividend.",
+    "glance": "A company may issue fully paid-up bonus shares out of free reserves, the securities premium account or the capital redemption reserve, subject to section 63's conditions; reserves created by revaluation of assets cannot be capitalised, and bonus shares cannot be issued in lieu of dividend.",
+    "study": "Companies Act, 2013 — Section 63 (Issue of bonus shares). A company may issue fully paid-up bonus shares to its members out of free reserves, the securities premium account or the capital redemption reserve account; reserves created by revaluation of assets cannot be capitalised for this purpose. Before capitalising profits or reserves, the company must satisfy the statutory conditions: authority in its articles; authorisation at a general meeting on the Board's recommendation; no default in payment of interest or principal in respect of fixed deposits or debt securities; no default in employee statutory dues such as provident-fund contributions, gratuity and bonus; any partly paid-up shares outstanding on the allotment date must be made fully paid; and prescribed conditions must be met. Bonus shares must not be issued in lieu of dividend. Verify applicable rules and any other transaction-specific restrictions before treating an issue as ready.",
     "sections": [
       {
-        "heading": "Ingredient 1",
-        "body": "Authorisation by articles",
+        "heading": "Permitted sources",
+        "body": "Bonus shares may be issued out of free reserves, the securities premium account or the capital redemption reserve account. Reserves created by revaluation of assets must not be capitalised for this purpose.",
         "order": 1
       },
       {
-        "heading": "Ingredient 2",
-        "body": "Source limited to free reserves, securities premium or capital redemption reserve",
+        "heading": "Corporate authority",
+        "body": "The articles must authorise the issue, and the company must authorise it in general meeting on the Board's recommendation.",
         "order": 2
       },
       {
-        "heading": "Ingredient 3",
-        "body": "No issue in lieu of dividend",
+        "heading": "Debt and employee statutory dues",
+        "body": "The company must not have defaulted in payment of interest or principal on fixed deposits or debt securities, or in payment of employee statutory dues such as provident-fund contributions, gratuity and bonus.",
         "order": 3
       },
       {
-        "heading": "Ingredient 4",
-        "body": "Partly paid shares made fully paid",
+        "heading": "Fully paid shares and prescribed conditions",
+        "body": "Any partly paid-up shares outstanding on the date of allotment must be made fully paid-up, and the company must comply with prescribed conditions.",
         "order": 4
       },
       {
-        "heading": "Ingredient 5",
-        "body": "No default of the kinds stated in s. 63",
+        "heading": "No bonus in lieu of dividend",
+        "body": "Bonus shares must not be issued in lieu of dividend.",
         "order": 5
-      },
-      {
-        "heading": "Ingredient 6",
-        "body": "Compliance with prescribed conditions",
-        "order": 6
-      },
-      {
-        "heading": "Rule",
-        "body": "A bonus issue capitalises reserves; it is not a distribution of cash dividend. The company must be authorised by articles, must have made the partly paid shares fully paid if any, must not have defaulted in payment of statutory dues of employees or in debt servicing as stated in the section, and must follow the conditions prescribed. Bonus shares cannot be issued out of revaluation reserves. Once announced on the terms in s. 63, the company cannot withdraw the decision. The issue does not of itself change the relative voting proportions of holders of the same class.",
-        "order": 7
       }
     ],
     "provisions": [
       {
-        "act": "Companies Act, 2013",
-        "section": "63",
-        "note": "Issue of bonus shares"
+        "actId": "company",
+        "actName": "Companies Act, 2013",
+        "provisionId": "company-ca-s-63",
+        "title": "Companies Act, 2013 — Section 63: Issue of bonus shares"
       }
     ],
     "examples": [
@@ -66,49 +57,92 @@
     ],
     "hypotheticals": [
       {
-        "facts": "A resolution declaring bonus shares instead of a cash dividend already recommended is outside s. 63.",
-        "issue": "Issue of bonus shares",
-        "analysis": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend."
+        "question": "A company wants to issue bonus shares by capitalising a reserve created through revaluation of assets. Is that permitted?",
+        "analysis": "No. Section 63 excludes reserves created by revaluation of assets from the permitted sources for a bonus issue."
+      },
+      {
+        "question": "A company has partly paid shares outstanding on the proposed allotment date. What must it do?",
+        "analysis": "The partly paid-up shares outstanding on the date of allotment must be made fully paid-up, in addition to satisfying the other section 63 conditions."
       }
     ],
     "distinctions": [
-      "Bonus issue (s. 63) capitalises reserves. Right issue (s. 62) raises fresh capital. Dividend (s. 123) distributes profits."
+      {
+        "id": "ca-s-63-distinction",
+        "title": "Bonus issue and dividend",
+        "left": "A bonus issue capitalises permitted reserves into fully paid-up shares.",
+        "right": "A dividend is a distribution under the applicable dividend provisions; bonus shares cannot be issued in lieu of dividend.",
+        "rows": [
+          {
+            "point": "Source",
+            "left": "Permitted reserves/accounts",
+            "right": "Distributable profits and applicable dividend rules"
+          },
+          {
+            "point": "Form",
+            "left": "Fully paid-up shares",
+            "right": "Dividend distribution"
+          }
+        ]
+      }
     ],
     "misconceptions": [
       {
-        "trap": "Generic chapter summary is enough.",
-        "correction": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend."
+        "id": "ca-s-63-trap-1",
+        "trap": "Treating any reserve, including a revaluation reserve, as available for bonus shares.",
+        "correction": "Section 63 permits only free reserves, securities premium and capital redemption reserve; revaluation reserves are excluded."
+      },
+      {
+        "id": "ca-s-63-trap-2",
+        "trap": "Treating Board recommendation alone as sufficient approval.",
+        "correction": "The articles must authorise the issue and a general meeting must authorise it on the Board's recommendation."
+      },
+      {
+        "id": "ca-s-63-trap-3",
+        "trap": "Issuing bonus shares while statutory conditions are unmet or in lieu of dividend.",
+        "correction": "Check debt/employee-dues defaults, fully paid status and prescribed conditions; bonus shares cannot be issued in lieu of dividend."
       }
     ],
     "cases": [],
     "questionsAndAnswers": [
       {
-        "question": "May bonus shares be issued from a revaluation reserve?",
-        "answer": "No. Section 63 excludes revaluation reserves."
+        "question": "Which reserves may fund a bonus issue under section 63?",
+        "answer": "Free reserves, the securities premium account and the capital redemption reserve account; reserves created by revaluation of assets are excluded."
+      },
+      {
+        "question": "May bonus shares be issued in lieu of dividend?",
+        "answer": "No. Section 63(3) prohibits bonus shares in lieu of dividend."
       }
     ],
     "bareActPointers": [
-      "Companies Act, 2013, section 63"
+      "Companies Act, 2013, section 63 — Issue of bonus shares",
+      "Companies Act, 2013, section 52 — Application of securities premium account, where relevant",
+      "Companies Act, 2013, section 69 — Capital redemption reserve account, where relevant",
+      "Companies (Share Capital and Debentures) Rules, 2014, as amended"
     ],
     "examTips": [
-      "Open with the section and its operative rule.",
-      "List ingredients, then exceptions.",
-      "Do not cite an omitted section as current procedure."
+      "Identify the permitted capitalisation source and exclude revaluation reserves.",
+      "Check articles and general-meeting authorisation on Board recommendation.",
+      "Check defaults, fully paid status and prescribed conditions.",
+      "State that bonus shares cannot be issued in lieu of dividend."
     ],
     "revisionPoints": [
-      "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend."
+      "Permitted sources: free reserves, securities premium and capital redemption reserve.",
+      "Revaluation reserves are excluded.",
+      "Articles and general-meeting authorisation on Board recommendation are required.",
+      "Check debt/employee-dues defaults and fully paid status.",
+      "Bonus shares cannot be issued in lieu of dividend."
     ],
     "relatedJudgments": [
       {
         "name": "No section-specific judgment recorded",
         "citation": "",
-        "point": "The operative rule is the section. No judgment is stated as the rule."
+        "point": "No judgment is asserted here as interpreting section 63. Case-law verification remains open."
       }
     ],
     "relatedTopics": [
-      "ca-s-64",
       "ca-s-62",
-      "ca-s-65"
+      "ca-s-69",
+      "ca-s-123"
     ],
     "illustrations": [],
     "legacySubjectSlug": "company",
@@ -121,27 +155,30 @@
       "learningObjectives": [
         "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend."
       ],
-      "definition": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend.",
-      "legalPrinciple": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend.",
-      "statutoryFramework": "Companies Act, 2013, Issue of bonus shares.",
+      "definition": "A company may issue fully paid-up bonus shares out of free reserves, the securities premium account or the capital redemption reserve, subject to section 63's conditions; reserves created by revaluation of assets cannot be capitalised, and bonus shares cannot be issued in lieu of dividend.",
+      "legalPrinciple": "A company may issue fully paid-up bonus shares out of free reserves, the securities premium account or the capital redemption reserve, subject to section 63's conditions; reserves created by revaluation of assets cannot be capitalised, and bonus shares cannot be issued in lieu of dividend.",
+      "statutoryFramework": "Companies Act, 2013, section 63, read with applicable rules and related reserve provisions.",
       "essentialIngredients": [
-        "Authorisation by articles",
-        "Source limited to free reserves, securities premium or capital redemption reserve",
-        "No issue in lieu of dividend",
+        "Permitted source and exclusion of revaluation reserve",
+        "Articles authorisation",
+        "General-meeting authorisation on Board recommendation",
+        "No specified debt-service or employee-statutory-dues default",
         "Partly paid shares made fully paid",
-        "No default of the kinds stated in s. 63",
-        "Compliance with prescribed conditions"
+        "Compliance with prescribed conditions",
+        "No bonus in lieu of dividend"
       ],
-      "detailedExplanation": "A bonus issue capitalises reserves; it is not a distribution of cash dividend. The company must be authorised by articles, must have made the partly paid shares fully paid if any, must not have defaulted in payment of statutory dues of employees or in debt servicing as stated in the section, and must follow the conditions prescribed. Bonus shares cannot be issued out of revaluation reserves. Once announced on the terms in s. 63, the company cannot withdraw the decision. The issue does not of itself change the relative voting proportions of holders of the same class.",
+      "detailedExplanation": "Companies Act, 2013 — Section 63 (Issue of bonus shares). A company may issue fully paid-up bonus shares to its members out of free reserves, the securities premium account or the capital redemption reserve account; reserves created by revaluation of assets cannot be capitalised for this purpose. Before capitalising profits or reserves, the company must satisfy the statutory conditions: authority in its articles; authorisation at a general meeting on the Board's recommendation; no default in payment of interest or principal in respect of fixed deposits or debt securities; no default in employee statutory dues such as provident-fund contributions, gratuity and bonus; any partly paid-up shares outstanding on the allotment date must be made fully paid; and prescribed conditions must be met. Bonus shares must not be issued in lieu of dividend. Verify applicable rules and any other transaction-specific restrictions before treating an issue as ready.",
       "examples": [
-        "In lieu of dividend",
-        "Revaluation reserve"
+        "No. Section 63 excludes reserves created by revaluation of assets from the permitted sources for a bonus issue.",
+        "The partly paid-up shares outstanding on the date of allotment must be made fully paid-up, in addition to satisfying the other section 63 conditions."
       ],
-      "problemApplication": "Identify the section, apply each ingredient, state the exception or omission, and conclude.",
+      "problemApplication": "Check source of capitalisation, corporate authority, specified defaults, fully paid status and prescribed conditions; reject any proposal to issue bonus shares in lieu of dividend.",
       "keyTakeaways": [
-        "Authorisation by articles",
-        "Source limited to free reserves, securities premium or capital redemption reserve",
-        "No issue in lieu of dividend"
+        "Permitted sources: free reserves, securities premium and capital redemption reserve.",
+        "Revaluation reserves are excluded.",
+        "Articles and general-meeting authorisation on Board recommendation are required.",
+        "Check debt/employee-dues defaults and fully paid status.",
+        "Bonus shares cannot be issued in lieu of dividend."
       ],
       "authoritativeSources": [
         "Companies Act, 2013",
@@ -150,23 +187,29 @@
         "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf"
       ],
       "distinctions": [
-        "Bonus issue (s. 63) capitalises reserves. Right issue (s. 62) raises fresh capital. Dividend (s. 123) distributes profits."
-      ],
-      "distinctionsGate": "drawn",
-      "caseLaw": [
         {
-          "name": "Companies Act, 2013, section 63",
-          "citation": "Companies Act, 2013, section 63",
-          "point": "Section 63 permits bonus shares only out of free reserves, the securities premium account, or the capital redemption reserve, and not in lieu of dividend.",
-          "kind": "statutory-pointer",
-          "note": "Statutory pointer taken from the topic's operative rule. Not a judgment and not a primary-report verification."
+          "id": "ca-s-63-distinction",
+          "title": "Bonus issue and dividend",
+          "left": "A bonus issue capitalises permitted reserves into fully paid-up shares.",
+          "right": "A dividend is a distribution under the applicable dividend provisions; bonus shares cannot be issued in lieu of dividend.",
+          "rows": [
+            {
+              "point": "Source",
+              "left": "Permitted reserves/accounts",
+              "right": "Distributable profits and applicable dividend rules"
+            },
+            {
+              "point": "Form",
+              "left": "Fully paid-up shares",
+              "right": "Dividend distribution"
+            }
+          ]
         }
       ],
-      "caseLawGate": "standard-citations-added-not-locked",
-      "examAnswerStructure": {
-        "tenMark": "Section, rule, exception, conclusion.",
-        "sixteenMark": "Introduction, ingredients, exception, application, conclusion."
-      },
+      "distinctionsGate": "drawn",
+      "caseLaw": [],
+      "caseLawGate": "section-specific-case-law-review-open",
+      "examAnswerStructure": "State permitted sources and revaluation-reserve exclusion; test articles/general-meeting approval; check debt and employee-dues defaults and fully paid status; conclude with the no-dividend-in-lieu rule.",
       "lastBotRunAt": "2026-10-09T20:30:00.000Z",
       "bot": "company-closure-batch-2026-10-09",
       "rules": [
@@ -178,9 +221,9 @@
       "sourceFingerprint": "ca-s-63-2026-10-09",
       "exampleQuality": "topic-specific-v1",
       "verification": {
-        "status": "SOURCE_CHECKED_CASE_LAW_OPEN",
-        "note": "Template citations removed where they were not the section rule.",
-        "date": "2026-10-09"
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Section 63's sources, revaluation exclusion, authorisation, debt/employee-dues conditions, fully-paid requirement and dividend restriction are recorded against the official Act text. Current rule-level details and official PDF byte-level review remain open.",
+        "date": "2026-10-14"
       },
       "indiaCode": {
         "act": "Companies Act, 2013 (Act 18 of 2013)",
@@ -193,7 +236,7 @@
     "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [],
-  "updatedAt": "2026-10-09T20:30:00.000Z",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
