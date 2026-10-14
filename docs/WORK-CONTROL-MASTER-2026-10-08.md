@@ -1257,13 +1257,13 @@ Evidence/commit: section 58 correction committed as `e53ee30a0b68803f07223f22484
 ## Company Law s. 57 reverse-order verification — 2026-10-14
 
 Subject: Company Law  
-Enhancement: Final Content Quality Pass — rectification of register on transfer of securities  
+Enhancement: Final Content Quality Pass — punishment for personation of shareholder  
 Topic/section range: `topics/company/ca-s-57.json` only  
 Current main topic blob SHA: `df03537c4ece58deaebdd7b1cdc091adebd08a52`  
 Current status: `verification_in_progress`; legal-source verification not closed  
 Current owner: `current-assistant-company-s57-reverse`  
-Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify transfer mechanics, transferee liability and interaction with section 56/58/59 against current text  
-Missing gate: distinguish rectification of register from transfer registration and avoid assuming a general limitation period not in the section  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e504c8; verify deceitful personation, object/attempt elements and the current imprisonment/fine range against section 57  
+Missing gate: distinguish personation of an existing security owner under section 57 from fictitious-name applications under section 38  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
-Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
+Evidence/commit: section 57 review has begun; current topic states deceitful personation, successful/attempted acquisition or receipt of money, and the 1–3 year imprisonment/₹1–5 lakh fine range. Next edit will remove unrelated case/drafting boilerplate; topic remains `verification_in_progress`.
