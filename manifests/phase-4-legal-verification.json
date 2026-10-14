@@ -1,9 +1,9 @@
 {
   "schemaVersion": "v1",
   "phase": "Phase 4 — Legal Proposition & Case-Law Verification",
-  "generatedAt": "2026-10-14T09:47:42.822Z",
+  "generatedAt": "2026-10-14T09:55:57.622Z",
   "scope": {
-    "migratedTopics": 2860
+    "migratedTopics": 2858
   },
   "policy": [
     "This phase flags legal propositions and metadata for authoritative review; it does not certify legal correctness.",
@@ -12,14 +12,14 @@
     "No topic is promoted to verified/published by this audit."
   ],
   "summary": {
-    "topicsAudited": 2860,
-    "topicsWithFindings": 1986,
-    "totalFindings": 3472,
-    "highSeverity": 2610,
+    "topicsAudited": 2858,
+    "topicsWithFindings": 1984,
+    "totalFindings": 3470,
+    "highSeverity": 2608,
     "mediumSeverity": 862
   },
   "byType": {
-    "provenance": 1523,
+    "provenance": 1521,
     "workflow-status": 92,
     "transition-law": 1071,
     "temporal-status": 716,
@@ -127,24 +127,6 @@
       "type": "workflow-status",
       "severity": "medium",
       "message": "Migrated topic has status archived; review status is expected until legal verification.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-29a.json",
-      "id": "topic:india:adr-aca-s-29a",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
-      "evidence": ""
-    },
-    {
-      "path": "topics/arbitration/aca-s-29b.json",
-      "id": "topic:india:adr-aca-s-29b",
-      "subject": "arbitration",
-      "type": "provenance",
-      "severity": "high",
-      "message": "No canonical source attached.",
       "evidence": ""
     },
     {
