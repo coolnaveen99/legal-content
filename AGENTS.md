@@ -106,7 +106,7 @@ The official-PDF validator's technical outcome is separate from legal-source ver
 - A technical/manual-review status must never set legal-source metadata to verified, satisfy statutory/case-law verification or sign-off, authorize publication, or hide unrelated validation failures.
 - Keep each pending item visible with its exact URL/source identity, attempt evidence, response details, reviewer/date, document identity, checksum where bytes exist, page count, OCR/legibility, disposition, owner and next action.
 - Alternate copies or indexed text may support source-identity triage but do not prove byte identity with an inaccessible original URL. Do not close a checksum-based review without the actual reviewed document or an explicitly approved authoritative replacement and auditable evidence.
-- Preserve checksum-based closure safeguards; do not weaken the validator to force a green result. Keep legal verification/publication blocked while required reviews remain pending.
+- Preserve checksum-based closure safeguards; do not weaken the validator to force a green result. Keep the affected claim blocked only where adequate authoritative evidence is still missing. A pending original-PDF retrieval item does not by itself block unrelated claim verification; it does not authorize publication or waive subject-level release gates.
 - Test technical outcomes and report focused test results separately from the repository-wide status. Do not claim the overall workflow passes while unrelated validators fail.
 
 
