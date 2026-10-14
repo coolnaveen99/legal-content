@@ -95,3 +95,28 @@ The 2026-10-09 roadmap sequencing is being followed in the sense that later stag
 
 ---
 *This report is evidence-based. No statutory text, citations, reviewer approvals, or consensus were invented. No deployment or publication was performed.*
+
+---
+
+## Post-audit remediation (2026-10-14 ~14:25 IST)
+
+**Action taken:** Restored missing `content.legacyTopicId` and `content.legacySubjectSlug` on the seven topics that failed non-strict `validate:enhancements` with “lost legacy identity metadata”.
+
+**Files changed (metadata only; no statutory text, cases, status, or relationships altered):**
+- topics/arbitration/lsaa-s-20.json
+- topics/arbitration/lsaa-s-21.json
+- topics/arbitration/med-s-4.json
+- topics/arbitration/med-s-5.json
+- topics/arbitration/med-s-6.json
+- topics/company/ca-s-241.json
+- topics/company/ca-s-242.json
+- manifests/content-manifest.json (sha256 refresh)
+
+**Validation after fix (local):**
+- `npm run validate:enhancements` → errors=0 (warnings=2427 remain on incomplete constitution fields)
+- `npm run validate` → errors=0 warnings=0
+- `npm run manifest:refresh` completed cleanly
+
+**Rationale:** Pure identity-metadata restoration matching the established filename/subject convention used by all other topics. Aligns with the existing WCM metadata-repair claim for the five arbitration records; company 241/242 had no conflicting claim. No legal content invented. Mediation source blocker and PDF queue remain unchanged.
+
+**Remaining:** Strict mode still fails on constitution missing enhancement fields (expected, not in scope of this metadata fix). CI should now pass the enhancements step on next push.
