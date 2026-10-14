@@ -936,4 +936,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: preserve the company's primary filing duty under section 77 and the charge-holder fallback without inventing an unrestricted right to late registration  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 78 fallback correction committed as `dfb8d43602cbde78067ce8c9d7df32779e3eecdb`. JSON parse and focused assertions passed; charge-holder application, notice/sufficient-cause process and fee recovery are stated. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 77 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-77.json` only  
+Current main topic blob SHA: `a7398bf6d23d02a301966b924def546e60248d70`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s77-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify initial thirty-day registration, statutory extension periods/additional fees, charge particulars/instrument, certificate effect and current penalty/cross-references  
+Missing gate: preserve the transitional rules for charges created before/after amendment commencement and do not treat charge-holder filing under section 78 as the company's normal route  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
