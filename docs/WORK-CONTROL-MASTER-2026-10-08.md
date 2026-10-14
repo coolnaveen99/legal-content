@@ -340,4 +340,19 @@ Latest evidence: official Companies Act text sets out rules for reserves, invest
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic remedies; preserve the section's investment caps, approval exceptions and register requirements  
 Planned change: exact-topic cleanup only; no unsupported financial or governance rules  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZL cleanup committed as `09571922aaf9ca58d048f1fe8715c6cb1af0668a`. JSON parse and targeted contamination scan passed; section identity/status preserved and investment limits, approvals and register duties were separated by statutory route. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZK reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zk.json` only  
+Current main topic blob SHA: `f3b017e6c78819fadd95d3ef1c02d7dc8bd67f59`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zk-reverse`  
+Latest evidence: section 378ZK concerns loans and advances to Members and includes a proviso requiring general-meeting Member approval for a loan or advance to a director or the director's relative  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material, generic corporate judgments and generic remedies; preserve the section's exact loan/advance restrictions and approval proviso  
+Planned change: exact-topic cleanup only; do not generalize exceptions or invent loan limits  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
