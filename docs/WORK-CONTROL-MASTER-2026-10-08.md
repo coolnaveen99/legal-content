@@ -475,4 +475,19 @@ Latest evidence: official Companies Act text permits special rights for active M
 Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve articles condition, active-Member status, Board approval and statutory definition  
 Planned change: exact-topic cleanup only; no invented rights beyond the section's definition  
 Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
+Evidence/commit: Section 378ZC cleanup committed as `1b90425b6d957cd5abdc20870132cce69d888c4f`. JSON parse and targeted contamination scan passed; the articles condition, produce-related definition and active-Member/Board approval transfer rules are preserved. Existing `verification_in_progress` status remains unchanged. Repository-wide validation, case-law review and publication gates remain open.
+
+
+## Company Law s. 378ZB reverse-order remediation — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — cross-subject contamination and section-scope correction  
+Topic/section range: `topics/company/ca-s-378zb.json` only  
+Current main topic blob SHA: `5ab12ceaf594ea5a9ed5fcd5be25489b7e076f59`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s378zb-reverse`  
+Latest evidence: official Companies Act text states that a Producer Company's share capital consists of equity shares only and that Members' shares should, as far as may be, be in proportion to the company's patronage  
+Missing gate: remove unrelated s. 366–368 boilerplate, BSA material and generic corporate cases; preserve the equity-only rule and patronage qualification  
+Planned change: exact-topic cleanup only; do not invent share classes or fixed patronage ratios  
+Validation: JSON parse, targeted contamination assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after implementation; corpus-wide FV-011 remains a known blocker.
