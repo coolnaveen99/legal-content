@@ -1236,4 +1236,19 @@ Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 56e6e
 Missing gate: distinguish register rectification from nomination, transfer, transmission and beneficial-ownership disputes; avoid unsupported forum/limitation boilerplate  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 59 correction committed as `a52c1305b5f722a969e92ec65709a97fc428683b`. JSON parse and focused assertions passed; current subsection routes, ten-day order compliance, transfer/voting rule and omission of former subsection (5) penalty are stated. Topic status remains `verification_in_progress`; official source and case-law review remain open.
+
+
+## Company Law s. 58 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — refusal of registration and appeal  
+Topic/section range: `topics/company/ca-s-58.json` only  
+Current main topic blob SHA: `7750b6dfea4423fc0327005b5269c0d719d8e725`  
+Current status: `verification_in_progress`; legal-source verification not closed  
+Current owner: `current-assistant-company-s58-reverse`  
+Latest evidence: latest topic commits: 3f7adf931a, cef238ab7b, ac7fbe5122, 5ace9f3abf; verify private/public company timelines, appeal periods, Tribunal orders, damages and current penalty language against amended Act  
+Missing gate: distinguish refusal appeals under section 58 from rectification under section 59 and use current penalty provisions  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
