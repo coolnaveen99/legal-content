@@ -1507,3 +1507,18 @@ Missing gate: distinguish GDR issuance under section 41 from private placement a
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 41 cleanup committed as `c18321c886a318756b7e1b1b6efe3f2cc2d88379`. JSON parse and focused assertions passed; special-resolution route and prescribed conditions are explicit; unrelated case-law/BSA boilerplate removed. Topic remains `review`; current GDR rules and official source verification remain open.
+
+
+## Company Law s. 40 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — securities to be dealt with in stock exchanges  
+Topic/section range: `topics/company/ca-s-40.json` only  
+Current main topic blob SHA: `738f98c23ba1a3d5f3c2f6f49be4a4efb007aa7e`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s40-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, cc15b04eea, 45fb1da636, 3f7adf931a; verify recognised-stock-exchange permission, application money, separate bank account, refund timelines and current penalty under amended Act/rules  
+Missing gate: distinguish public-offer obligations from GDRs under section 41 and private placement under section 42  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
