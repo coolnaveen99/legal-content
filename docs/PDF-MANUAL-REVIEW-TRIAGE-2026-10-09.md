@@ -143,3 +143,8 @@ Alternate official-hosted copy inspected, not a closure of the MCA target:
 - This does not prove byte identity with the inaccessible MCA URL, so the MCA queue item stays pending.
 
 No reviewer closure was recorded. No source was marked verified. Publication remains unauthorized.
+
+
+## 2026-10-14 process decision — claim verification is separate from PDF retrieval
+
+The original PDF URLs remain technically unresolved; this triage does not close them. The project owner has instructed that inaccessible original PDFs must not be a blanket blocker to all legal verification. A legal/source reviewer may verify an individual proposition from direct authoritative evidence (official Gazette/legislation text, official HTML/text, or an approved official-hosted copy) and record the instrument identity, relevant provision, URL, date, reviewer, and limitations. This supports only the claim-level source check; it does not establish byte identity with the original PDF or close its queue entry. Where adequate authoritative evidence is unavailable, the affected claim stays `SOURCE_CHECK_REQUIRED`/`BLOCKED`. The queue remains six pending; no legal verification or publication authorization is granted by this process decision.
