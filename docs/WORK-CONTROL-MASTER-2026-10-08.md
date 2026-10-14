@@ -596,3 +596,14 @@ Missing gate: identify any concrete omission without inventing a deadline, fee, 
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: section 117 current-penalty correction committed as `2bfbcf7606bc077a9fd9ef4586922de6a8d4501e`. JSON parse and focused assertions passed; current company/officer penalties and separate continuing-default caps are recorded. Topic status remains `review`; official PDF checksum/byte-level review, case-law review and repository-wide validation remain open.
+
+
+## Reverse-order Company Law pass handoff — 2026-10-14
+
+**Selection rule:** work proceeded from the highest Company Law section downward. Each topic was checked against current `main` and recent commits before editing; already enhanced or owned items were skipped rather than duplicated.
+
+**Direct-to-main content corrections made:** `378ZU`, `378ZT`, `378ZS`, `378ZR`, `378ZQ`, `378ZP`, `378ZO`, `378ZN`, `378ZM`, `378ZL`, `378ZK`, `378ZJ`, `378ZI`, `378ZH`, `378ZG`, `378ZF`, `378ZE`, `378ZD`, `378ZC`, `378ZB`, and sections `122`, `121`, `120`, `119`, `118`, `117`. Corrections include section-specific statutory summaries, removal of unrelated corporate-case/BSA boilerplate, subsection 122(4), current penalty structures in sections 117/121, electronic inspection/copy scope in section 120, inspection minimum/deadline/penalties in section 119, and evidentiary/penalty provisions in section 118. See the individual claims above for commit and focused-validation evidence.
+
+**Skipped as already enhanced/owned:** `378ZA` (existing `company-bulk-remediation-2026-10-14-s378za` owner/content pass), `378Z` and `378Y` (recent section-specific commits), and sections `378` and `377` (recent `373–378` remediation). Existing ownership/verification claims for `378X` through `378A` were respected.
+
+**Validation status:** every changed JSON topic passed JSON parsing and focused assertions in the editing workflow; topic statuses were preserved as `review` or `verification_in_progress`. Latest repository runs on head `5780416b3c1918ed52db2f15f7c13e87a761751d` failed at the corpus-wide FV-011 gate: [validate-content run](https://github.com/coolnaveen99/legal-content/actions/runs/38511110264) and [Validate legal content run](https://github.com/coolnaveen99/legal-content/actions/runs/38511110243). Do not mark these topics legally verified, publication-ready, or `COMPLETE_LOCKED`; investigate FV-011 before claiming repository-wide validation.
