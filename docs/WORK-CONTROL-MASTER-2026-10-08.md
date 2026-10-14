@@ -205,4 +205,4 @@ Latest evidence: no recent section-specific remediation commit or open PR found;
 Missing gate: remove unrelated Companies Act s. 366 boilerplate, unrelated BSA s. 63, irrelevant general corporate judgments, and generic tribunal/relief hypotheticals; then validate JSON/schema and record source-verification status separately  
 Planned change: section-scoped cleanup only; preserve `review` status and do not invent rules, cases, notifications, or closure  
 Validation: JSON parse, focused contamination assertions, relevant repository integrity checks if available  
-Evidence/commit: to be recorded after implementation and validation; no legal sign-off or publication claim.
+Evidence/commit: syntax and contamination assertions passed in the editing workflow; remediation committed as `65afd0768864aca895b85908fb5d3984b0a6cbee`. JSON parses, section identity/status preserved, and a targeted recursive scan found zero remaining references to the unrelated s. 366–368 boilerplate, BSA, or unrelated generic cases. Repository-wide validation, rule-by-rule current-law verification, case-law review, and publication gates remain open; no legal sign-off or publication claim.
