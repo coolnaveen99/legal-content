@@ -801,4 +801,19 @@ Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1
 Missing gate: do not retain superseded imprisonment/fine wording for the general chapter default; preserve the separate wilful-false-information route  
 Planned change: source-supported correction only; preserve review status  
 Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
+Evidence/commit: section 86 amendment correction committed as `d4ca2b7399f019238672a3196e0584c5c7bf2eee`. JSON parse and focused assertions passed; current ₹5,00,000/₹50,000 penalties and separate section 447 route are recorded. Topic status remains `review`; legal sign-off and repository-wide validation remain open.
+
+
+## Company Law s. 85 reverse-order verification — 2026-10-14
+
+Subject: Company Law  
+Enhancement: Final Content Quality Pass — statutory completeness verification  
+Topic/section range: `topics/company/ca-s-85.json` only  
+Current main topic blob SHA: `92700a83a9ac0168971838e5806ed6e2e5c1a089`  
+Current status: `review`; legal-source verification not closed  
+Current owner: `current-assistant-company-s85-reverse`  
+Latest evidence: latest topic commits: 627518fc8e, 54c56c7ef2, cc15b04eea, 45fb1da636; verify company's register of charges, inspection rights, instrument retention and current penalty/rectification cross-references  
+Missing gate: distinguish charge-register maintenance from charge registration/filing and avoid importing outdated penalties  
+Planned change: source-supported correction only; preserve review status  
+Validation: JSON parse, focused statutory assertions, repository integrity/verification gates  
 Evidence/commit: to be recorded after inspection; corpus-wide FV-011 remains a known blocker.
