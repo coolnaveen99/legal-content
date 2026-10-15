@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-55",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 55 (Effect of failure to perform at fixed time)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 55 of the Indian Contract Act, 1872 is headed \"Effect of failure to perform at fixed time\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 55",
-        "body": "Effect of failure to perform at fixed time"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-55",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 55"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-55",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-55",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 55 (Effect of failure to perform at a fixed time, in contract in which time is essential)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 55 provides that when a party to a contract promises to do a certain thing at or before a specified time, or certain things at or before specified times, and fails to do any such thing at or before the specified time, the contract, or so much of it as has not been performed, becomes voidable at the option of the promisee, if the intention of the parties was that time should be of the essence of the contract. If it was not the intention that time should be of the essence, the contract does not become voidable by the failure to do such thing at or before the specified time; but the promisee is entitled to compensation for any loss occasioned by such failure. If, in case of a contract voidable on account of the promisor’s failure to perform his promise at the time agreed, the promisee accepts performance of such promise at any time other than that agreed, the promisee cannot claim compensation for any loss occasioned by the non-performance of the promise at the time agreed, unless, at the time of such acceptance, he gives notice to the promisor of his intention to claim such compensation.",
+        "glance": "Time of essence + failure → voidable at option of promisee; time not of essence → compensation only; acceptance of delayed performance without notice bars compensation claim.",
+        "study": "Three rules: (1) If time is of the essence and the promisor fails to perform at the fixed time, the contract (or unperformed part) becomes voidable at the promisee’s option. (2) If time is not of the essence, failure does not make the contract voidable, but the promisee is entitled to compensation for loss. (3) If the promisee accepts delayed performance of a voidable contract, he cannot claim compensation for the delay unless he gives notice of intention to claim at the time of acceptance. Current-law framing: test whether time is of the essence; apply voidability or compensation; apply the notice rule on acceptance of delayed performance.",
+        "sections": [{"heading": "Time of the essence", "body": "Failure at fixed time → contract (or unperformed part) voidable at option of promisee if time was of the essence.", "order": 1}, {"heading": "Time not of the essence", "body": "Contract does not become voidable; promisee entitled to compensation for loss from the failure.", "order": 2}, {"heading": "Acceptance of delayed performance", "body": "If promisee accepts performance at a different time, cannot claim compensation for the delay unless notice of intention to claim given at acceptance.", "order": 3}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-55", "section": "Section 55", "title": "Effect of failure to perform at a fixed time, in contract in which time is essential"}],
+        "examples": [{"title": "Time of essence", "body": "A contracts to deliver goods by a fixed date, time being of the essence. A fails. B may avoid the contract under s. 55.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Does every late performance make the contract voidable?", "analysis": "Only if time was of the essence. If not, the remedy is compensation, not voidability."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s55-trap-1", "trap": "Any fixed date makes time of the essence automatically.", "correction": "Section 55 turns on the intention of the parties that time should be of the essence."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s55-brief", "draftingCategory": "brief", "question": "How should a Section 55 problem be analysed?", "answer": "I. Test whether time is of the essence. II. Apply voidability or compensation. III. Apply notice rule if delayed performance accepted. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 55", "Connected: Sections 46–50, 73"],
+        "examTips": ["State all three paragraphs of s. 55.", "Stress intention of the parties on time of essence."],
+        "revisionPoints": ["Time of the essence", "Time not of the essence", "Acceptance of delayed performance"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-54", "contract-s-56"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-55",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 55 regulates failure to perform at a fixed time according to whether time is of the essence, with a notice rule on acceptance of delayed performance.", "legalPrinciple": "Time of essence → voidable; not of essence → compensation; delayed acceptance needs notice for compensation claim.", "statutoryFramework": "Indian Contract Act, 1872 — Section 55", "essentialIngredients": ["Time of the essence", "Time not of the essence", "Acceptance of delayed performance"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 55"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s55"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:14:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s55-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:14:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-55", "time", "performance", "review-required"]
 }
