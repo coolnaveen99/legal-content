@@ -1,31 +1,23 @@
 # Work Control Master — Legal Content
 
-## Company Law verification — progress 2026-10-15
+## Progress 2026-10-15
 
-### Completed this session (status: review / SOURCE_CHECK_REQUIRED)
-
+### Company Law (Companies Act, 2013) — CLOSED
 | Range | Status |
 |-------|--------|
-| **s.63 → s.23** | **Done (review)** |
-| **s.22 → s.12** | **Done (review)** |
-| **s.10A → s.8** | **Done (review)** |
-| **s.1 → s.7** | **Done (review)** |
-| **s.2** | **Done (review)** — dedicated definitions pass |
+| **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** — continuous coverage including s.2 definitions |
 
-### s.2 definitions pass
-Load-bearing clauses structured against official text: s. 2(20) company; s. 2(68) private company; s. 2(71) public company (including subsidiary-of-public deeming); s. 2(62) OPC; s. 2(46)/(87) holding/subsidiary; s. 2(85) small company (prescribed thresholds); s. 2(51) KMP; s. 2(60) officer in default; s. 2(76) related party; s. 2(31) deposit.
+### Indian Contract Act, 1872 — ACTIVE (new subject)
+| Range | Status |
+|-------|--------|
+| **s.238 → s.237** | **Done (review)** — Agency reverse-order start |
 
-**Commit:** `86be74fc48311325e6e08c8dd39747e6d8014295`
+### Latest Contract commits
+- s.238 Effect on agreement of misrepresentation or fraud by agent: `3975f1046bfaaf556d0f49f6a4c699411bb8c023`
+- s.237 Liability of principal inducing belief that unauthorized acts were authorized: `a9df528de7d2626edeeb8754ef186a617d00a836`
 
-Not a full clause-by-clause digest of every definition in s. 2. Case-law gate open; not COMPLETE_LOCKED.
-
-### Continuous coverage
-**s.1 → s.63** primary source-check coverage is continuous on main.
-
-### Next (not claimed)
-- Case-law verification on SOURCE_CHECK_REQUIRED sections
-- Chapter IV / later sections beyond s.63 only if expressly claimed
-- Other subjects only if expressly claimed under this Master
+### Next
+Continue Contract Act reverse-order: **s.236** (Person falsely contracting as agent not entitled to performance), then s.235 → downward through Agency (ss.182–238). Then Indemnity/Guarantee (ss.124–147), Bailment/Pledge (ss.148–181), general contract (ss.1–75). Skip repealed ss.76–123.
 
 ---
 
@@ -45,18 +37,18 @@ Not a full clause-by-clause digest of every definition in s. 2. Case-law gate op
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-All listed bulk claims closed including dedicated **s.2** definitions pass. No new range claimed.
+**Active subject:** Indian Contract Act, 1872 — reverse-order from s.236 downward. Company Law primary source-check closed for s.1–s.63.
 
 ## Work claim record
-Subject: Company Law (Companies Act, 2013)
-Topic/section range: s.2 (definitions)
-Current main commit: 86be74fc48311325e6e08c8dd39747e6d8014295
+Subject: Indian Contract Act, 1872
+Topic/section range: s.238–s.237 (Agency reverse-order start)
+Current main commit: a9df528de7d2626edeeb8754ef186a617d00a836
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-company-s2-definitions
-Latest evidence: direct main commit structuring load-bearing s. 2 clauses against official India Code text
-Missing gate: full clause-by-clause digest (optional); full case-law verification and final lock
-Planned change: dedicated definitions pass for s.2
+Current owner: current-assistant-contract-reverse
+Latest evidence: s.238 and s.237 expanded from catalog stubs to official India Code text including statutory illustrations
+Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
+Planned change: Contract Act reverse-order source alignment of catalog stubs
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 86be74fc48311325e6e08c8dd39747e6d8014295
+Evidence/commit: 3975f1046bfaaf556d0f49f6a4c699411bb8c023; a9df528de7d2626edeeb8754ef186a617d00a836
 
 If any field cannot be established, STOP.
