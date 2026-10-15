@@ -1,41 +1,165 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-237",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 237 (Liability of principal inducing belief that unauthorized acts were authorized)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 237 of the Indian Contract Act, 1872 is headed \"Liability of principal inducing belief that unauthorized acts were authorized\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 237",
-        "body": "Liability of principal inducing belief that unauthorized acts were authorized"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-237",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 237 (Liability of principal inducing belief that unauthorized acts were authorized)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 237 provides that when an agent has, without authority, done acts or incurred obligations to third persons on behalf of his principal, the principal is bound by such acts or obligations if he has by his words or conduct induced such third persons to believe that such acts and obligations were within the scope of the agent’s authority.",
+        "glance": "Principal bound by agent’s unauthorised acts where principal’s words or conduct induced third persons to believe the acts were authorised.",
+        "study": "When an agent without authority does acts or incurs obligations to third persons on behalf of the principal, the principal is bound if by words or conduct the principal induced those third persons to believe the acts and obligations were within the agent’s authority. Illustration (a): A consigns goods to B with a reserved price; C, ignorant of the instruction, contracts with B below that price — A is bound. Illustration (b): A entrusts B with negotiable instruments endorsed in blank; B sells them contrary to private orders — the sale is good. Current-law framing: identify the unauthorised act; prove the principal’s words or conduct inducing belief of authority; conclude the principal is bound.",
+        "sections": [
+            {
+                "heading": "Unauthorised act by agent",
+                "body": "The agent has done acts or incurred obligations to third persons on behalf of the principal without authority.",
+                "order": 1
+            },
+            {
+                "heading": "Inducement of belief",
+                "body": "The principal is bound if by words or conduct the principal induced the third persons to believe the acts were within the agent’s authority.",
+                "order": 2
+            },
+            {
+                "heading": "Illustrations",
+                "body": "(a) Reserved-price instruction unknown to buyer — principal bound. (b) Blank-endorsed instruments sold contrary to private orders — sale good.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-237",
+                "section": "Section 237",
+                "title": "Liability of principal inducing belief that agent's unauthorized acts were authorized"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Reserved price unknown to buyer",
+                "body": "A consigns goods to B for sale with instructions not to sell under a fixed price. C, ignorant of the instructions, contracts with B below that price. A is bound by the contract.",
+                "kind": "statutory-illustration",
+                "inventedCase": false
+            },
+            {
+                "title": "Blank-endorsed instruments",
+                "body": "A entrusts B with negotiable instruments endorsed in blank. B sells them to C in violation of private orders from A. The sale is good.",
+                "kind": "statutory-illustration",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Is the principal bound whenever the agent exceeds authority?",
+                "analysis": "No. Section 237 requires that the principal’s own words or conduct induced the third person to believe the acts were within authority."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s237-vs-s238",
+                "title": "Principal inducing belief (s. 237) vs agent’s fraud/misrepresentation (s. 238)",
+                "left": "Principal’s conduct inducing belief of authority",
+                "right": "Agent’s own misrepresentation or fraud in course of business",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Apparent authority from principal’s conduct",
+                        "right": "Attribution of agent’s representation"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s237-trap-1",
+                "trap": "Private instructions to the agent always protect the principal against third parties.",
+                "correction": "If the principal’s words or conduct induced belief of authority, the principal is bound even where the agent exceeded private instructions."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s237-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 237 problem be analysed?",
+                "answer": "I. Identify the unauthorised act. II. Prove principal’s words or conduct inducing belief of authority. III. Conclude the principal is bound. IV. Apply illustrations if analogous.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 237",
+            "Connected: Sections 238, 182–238 (Agency)"
+        ],
+        "examTips": [
+            "State the inducement-of-belief test.",
+            "Use the statutory illustrations.",
+            "Distinguish private instructions from apparent authority."
+        ],
+        "revisionPoints": [
+            "Unauthorised act by agent",
+            "Inducement of belief by principal",
+            "Illustrations (a) and (b)"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-238",
+            "contract-s-182"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-237",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 237 binds the principal to an agent’s unauthorised acts where the principal’s words or conduct induced third persons to believe those acts were within the agent’s authority.",
+            "legalPrinciple": "Principal bound by unauthorised acts if principal induced belief of authority.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 237",
+            "essentialIngredients": [
+                "Unauthorised act by agent",
+                "Inducement of belief",
+                "Illustrations"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 237"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 237 including illustrations. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s237-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:32:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s237-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-237",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 237"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-237",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:32:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-237",
+        "agency",
+        "review-required"
+    ]
 }
