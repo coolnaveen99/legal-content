@@ -2,40 +2,156 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-148",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 148 (Bailment, bailor and bailee defined)",
+  "title": "Indian Contract Act, 1872 — Section 148 (Bailment, bailor and bailee defined)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 148 of the Indian Contract Act, 1872 is headed \"Bailment, bailor and bailee defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 148 defines a bailment as the delivery of goods by one person to another for some purpose, upon a contract that they shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them. The person delivering the goods is the bailor; the person to whom they are delivered is the bailee. The Explanation provides that if a person already in possession of the goods of another contracts to hold them as a bailee, he thereby becomes the bailee, and the owner becomes the bailor, although the goods may not have been delivered by way of bailment.",
+    "glance": "Bailment is delivery of goods for a purpose on a contract that they will be returned or disposed of as directed when the purpose is accomplished. Bailor delivers; bailee receives. The Explanation covers constructive bailment where possession already exists and a contract to hold as bailee is made.",
+    "study": "A ‘bailment’ is the delivery of goods by one person to another for some purpose, upon a contract that they shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them. The person delivering the goods is called the ‘bailor’. The person to whom they are delivered is called the ‘bailee’. Explanation.—If a person already in possession of the goods of another contracts to hold them as a bailee, he thereby becomes the bailee, and the owner becomes the bailor of such goods, although they may not have been delivered by way of bailment. Current-law framing: possession (not ownership) passes for a defined purpose with an obligation to return or deal as directed; the Explanation recognises bailment by contract without fresh physical delivery.",
     "sections": [
       {
-        "heading": "Section 148",
-        "body": "Bailment, bailor and bailee defined"
+        "heading": "Definition of bailment",
+        "body": "A ‘bailment’ is the delivery of goods by one person to another for some purpose, upon a contract that they shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them.",
+        "order": 1
+      },
+      {
+        "heading": "Bailor and bailee",
+        "body": "The person delivering the goods is called the ‘bailor’. The person to whom they are delivered is called the ‘bailee’.",
+        "order": 2
+      },
+      {
+        "heading": "Explanation — constructive bailment",
+        "body": "If a person already in possession of the goods of another contracts to hold them as a bailee, he thereby becomes the bailee, and the owner becomes the bailor of such goods, although they may not have been delivered by way of bailment.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Repair of goods",
+        "body": "A delivers a watch to B for repair, on the understanding that it will be returned when repaired. This is a bailment: A is bailor, B is bailee."
+      },
+      {
+        "title": "Constructive bailment under the Explanation",
+        "body": "B is already in possession of A’s goods. B contracts with A to hold them as bailee. B becomes the bailee and A the bailor, even without fresh delivery."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A leaves goods with B for safe custody, agreeing they will be returned on demand. Is this a bailment?",
+        "analysis": "Yes. There is delivery for a purpose (safe custody) upon a contract that the goods will be returned when the purpose is accomplished. A is bailor; B is bailee."
+      },
+      {
+        "question": "B already holds A’s goods and then agrees to hold them as bailee. Does the Explanation apply?",
+        "analysis": "Yes. The Explanation provides that B thereby becomes the bailee and A the bailor, although the goods were not freshly delivered by way of bailment."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-149",
+      "topic:india:contract-s-150",
+      "topic:india:contract-s-151"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-148",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 148"
+      "Indian Contract Act, 1872 — Section 148 and Explanation",
+      "Related provisions: Sections 149–151"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Explanation. This topic remains in review pending remaining legal verification and release gates.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the statutory definition of bailment under Section 148.",
+        "Identify the bailor and the bailee.",
+        "Explain the constructive bailment recognised by the Explanation.",
+        "Distinguish transfer of possession from transfer of ownership."
+      ],
+      "definition": "A bailment is the delivery of goods by one person to another for some purpose, upon a contract that they shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them.",
+      "legalPrinciple": "Bailment transfers possession of goods for a purpose under a contractual obligation to return or dispose of them as directed; ownership remains with the bailor. The Explanation creates a bailment by contract where possession already exists.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 148 and Explanation",
+        "Related provisions: Sections 149–151"
+      ],
+      "essentialIngredients": [
+        "Delivery of goods (or constructive holding under the Explanation)",
+        "For some purpose",
+        "Upon a contract that the goods will be returned or otherwise disposed of according to the bailor’s directions when the purpose is accomplished",
+        "Identification of bailor and bailee"
+      ],
+      "detailedExplanation": "Section 148 defines bailment as the delivery of goods by one person (bailor) to another (bailee) for some purpose, upon a contract that the goods shall, when the purpose is accomplished, be returned or otherwise disposed of according to the directions of the person delivering them. The Explanation provides that if a person already in possession of the goods of another contracts to hold them as a bailee, he becomes the bailee and the owner becomes the bailor, even without a fresh delivery by way of bailment. Bailment concerns possession, not ownership.",
+      "examples": [
+        "Delivery of a watch for repair is a bailment.",
+        "A person already in possession who contracts to hold the goods as bailee becomes bailee under the Explanation."
+      ],
+      "distinctions": [
+        "Bailment transfers possession for a purpose; it does not transfer ownership.",
+        "The Explanation recognises bailment by subsequent contract without fresh physical delivery."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify delivery (or existing possession plus contract under the Explanation).",
+        "Identify the purpose and the contractual obligation to return or dispose as directed.",
+        "Identify bailor and bailee.",
+        "Conclude whether a bailment exists."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 148 definition",
+          "Identify bailor and bailee",
+          "Note the Explanation if relevant",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory definition",
+          "Parties",
+          "Purpose and return obligation",
+          "Explanation",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text and Explanation",
+          "Essential elements",
+          "Possession versus ownership",
+          "Constructive bailment",
+          "Relation to subsequent sections",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailment is delivery of goods for a purpose on a contract of return or disposal as directed.",
+        "Bailor delivers; bailee receives.",
+        "The Explanation creates a bailment by contract where possession already exists.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 text for Section 148 and Explanation checked against multiple consistent sources.",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:15:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-148",
-    "review"
+    "source-check-required"
   ]
 }
