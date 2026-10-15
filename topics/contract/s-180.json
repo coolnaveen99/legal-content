@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-180",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 180 (Suit by bailor or bailee against wrong-doer)",
+  "title": "Indian Contract Act, 1872 — Section 180 (Suit by bailor or bailee against wrong-doer)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 180 of the Indian Contract Act, 1872 is headed \"Suit by bailor or bailee against wrong-doer\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 180 provides that if a third person wrongfully deprives the bailee of the use or possession of the goods bailed, or does them any injury, the bailee is entitled to use such remedies as the owner might have used in the like case if no bailment had been made; and either the bailor or the bailee may bring a suit against a third person for such deprivation or injury.",
+    "glance": "Either the bailor or the bailee may sue a third person who wrongfully deprives the bailee of use or possession or injures the goods; the bailee may use the remedies the owner could have used.",
+    "study": "If a third person wrongfully deprives the bailee of the use or possession of the goods bailed, or does them any injury, the bailee is entitled to use such remedies as the owner might have used in the like case if no bailment had been made; and either the bailor or the bailee may bring a suit against a third person for such deprivation or injury. Current-law framing: concurrent right of action in bailor or bailee against wrong-doers.",
     "sections": [
       {
-        "heading": "Section 180",
-        "body": "Suit by bailor or bailee against wrong-doer"
+        "heading": "Core rule",
+        "body": "If a third person wrongfully deprives the bailee of the use or possession of the goods bailed, or does them any injury, the bailee is entitled to use such remedies as the owner might have used in the like case if no bailment had been made; and either the bailor or the bailee may bring a suit against a third person for such deprivation or injury.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Suit against wrong-doer",
+        "body": "Third person wrongfully takes goods from the bailee. Either the bailor or the bailee may sue under Section 180."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A third person injures the goods in the bailee's possession. Who may sue?",
+        "analysis": "Either the bailor or the bailee may bring a suit under Section 180. The bailee may use the remedies the owner could have used."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-181"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-180",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 180"
+      "Indian Contract Act, 1872 — Section 180"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 180's rule on suits by bailor or bailee against wrong-doers."
+      ],
+      "definition": "If a third person wrongfully deprives the bailee of the use or possession of the goods bailed, or does them any injury, the bailee is entitled to use such remedies as the owner might have used in the like case if no bailment had been made; and either the bailor or the bailee may bring a suit against a third person for such deprivation or injury.",
+      "legalPrinciple": "Either bailor or bailee may sue a third person for wrongful deprivation of use/possession or injury to the goods; bailee may use owner's remedies.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 180"
+      ],
+      "essentialIngredients": [
+        "Third person wrongfully deprives bailee of use or possession or injures the goods",
+        "Bailee may use owner's remedies",
+        "Either bailor or bailee may sue"
+      ],
+      "detailedExplanation": "Section 180 provides that if a third person wrongfully deprives the bailee of the use or possession of the goods bailed, or does them any injury, the bailee is entitled to use such remedies as the owner might have used if no bailment had been made; and either the bailor or the bailee may bring a suit against a third person for such deprivation or injury.",
+      "examples": [
+        "Concurrent right of action in bailor or bailee against a wrong-doer."
+      ],
+      "distinctions": [
+        "Complements Section 181 on apportionment of relief obtained."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify wrongful deprivation or injury by third person.",
+        "Conclude either party may sue."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 180",
+          "Identify wrong",
+          "Conclude who may sue"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Remedies",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 181",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Either bailor or bailee may sue third person for wrongful deprivation or injury.",
+        "Bailee may use the remedies the owner could have used.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 180 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-180",
-    "review"
+    "source-check-required"
   ]
 }

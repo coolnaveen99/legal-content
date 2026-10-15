@@ -2,40 +2,123 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-176",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 176 (Pawnee's right where pawnor makes default)",
+  "title": "Indian Contract Act, 1872 — Section 176 (Pawnee’s right where pawnor makes default)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 176 of the Indian Contract Act, 1872 is headed \"Pawnee's right where pawnor makes default\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 176 provides that if the pawnor makes default in payment of the debt, or performance, at the stipulated time of the promise, in respect of which the goods were pledged, the pawnee may bring a suit against the pawnor upon the debt or promise, and retain the goods pledged as a collateral security; or he may sell the thing pledged, on giving the pawnor reasonable notice of the sale. If the proceeds of such sale are less than the amount due in respect of the debt or promise, the pawnor is still liable to pay the balance. If the proceeds of the sale are greater than the amount so due, the pawnee shall pay over the surplus to the pawnor.",
+    "glance": "On default, pawnee may sue and retain the goods as security, or sell after reasonable notice. Pawnor remains liable for any shortfall; surplus is payable to the pawnor.",
+    "study": "If the pawnor makes default in payment of the debt, or performance, at the stipulated time of the promise, in respect of which the goods were pledged, the pawnee may bring a suit against the pawnor upon the debt or promise, and retain the goods pledged as a collateral security; or he may sell the thing pledged, on giving the pawnor reasonable notice of the sale. If the proceeds of such sale are less than the amount due in respect of the debt or promise, the pawnor is still liable to pay the balance. If the proceeds of the sale are greater than the amount so due, the pawnee shall pay over the surplus to the pawnor. Current-law framing: alternative remedies of suit-plus-retainer or sale after notice; accounting for shortfall or surplus.",
     "sections": [
       {
-        "heading": "Section 176",
-        "body": "Pawnee's right where pawnor makes default"
+        "heading": "Remedies on default",
+        "body": "If the pawnor makes default in payment of the debt, or performance, at the stipulated time of the promise, in respect of which the goods were pledged, the pawnee may bring a suit against the pawnor upon the debt or promise, and retain the goods pledged as a collateral security; or he may sell the thing pledged, on giving the pawnor reasonable notice of the sale.",
+        "order": 1
+      },
+      {
+        "heading": "Shortfall and surplus",
+        "body": "If the proceeds of such sale are less than the amount due in respect of the debt or promise, the pawnor is still liable to pay the balance. If the proceeds of the sale are greater than the amount so due, the pawnee shall pay over the surplus to the pawnor.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Sale after notice",
+        "body": "On default the pawnee sells after reasonable notice. Any surplus is payable to the pawnor; any shortfall remains recoverable from the pawnor under Section 176."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Pawnor defaults. What options does the pawnee have under Section 176?",
+        "analysis": "He may sue on the debt/promise and retain the goods as collateral, or sell after giving reasonable notice. Shortfall remains recoverable; surplus is payable to the pawnor."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-173",
+      "topic:india:contract-s-177"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-176",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 176"
+      "Indian Contract Act, 1872 — Section 176"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 176's remedies on the pawnor's default."
+      ],
+      "definition": "If the pawnor makes default in payment of the debt, or performance, at the stipulated time of the promise, in respect of which the goods were pledged, the pawnee may bring a suit against the pawnor upon the debt or promise, and retain the goods pledged as a collateral security; or he may sell the thing pledged, on giving the pawnor reasonable notice of the sale. If the proceeds of such sale are less than the amount due in respect of the debt or promise, the pawnor is still liable to pay the balance. If the proceeds of the sale are greater than the amount so due, the pawnee shall pay over the surplus to the pawnor.",
+      "legalPrinciple": "On default, pawnee may sue and retain as security or sell after reasonable notice; shortfall recoverable, surplus payable to pawnor.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 176"
+      ],
+      "essentialIngredients": [
+        "Default by pawnor at stipulated time",
+        "Alternative of suit plus retainer or sale after reasonable notice",
+        "Accounting for shortfall or surplus"
+      ],
+      "detailedExplanation": "Section 176 provides that on the pawnor's default the pawnee may either bring a suit on the debt or promise and retain the goods as collateral security, or sell the goods after giving the pawnor reasonable notice of the sale. If the sale proceeds are less than the amount due the pawnor remains liable for the balance; if greater, the surplus is payable to the pawnor.",
+      "examples": [
+        "Sale after notice with accounting for surplus or shortfall."
+      ],
+      "distinctions": [
+        "Alternative remedies; sale requires reasonable notice."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify default.",
+        "Identify the remedy chosen (suit/retainer or sale after notice).",
+        "Apply the accounting rules."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 176",
+          "Identify default and remedy",
+          "Conclude including accounting"
+        ],
+        "tenMark": [
+          "Statutory remedies",
+          "Notice requirement",
+          "Shortfall/surplus",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 177",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "On default: sue and retain, or sell after reasonable notice.",
+        "Shortfall recoverable; surplus payable to pawnor.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 176 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-176",
-    "review"
+    "source-check-required"
   ]
 }

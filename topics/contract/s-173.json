@@ -2,40 +2,117 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-173",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 173 (Pawnee's right of retainer)",
+  "title": "Indian Contract Act, 1872 — Section 173 (Pawnee’s right of retainer)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 173 of the Indian Contract Act, 1872 is headed \"Pawnee's right of retainer\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 173 provides that the pawnee may retain the goods pledged, not only for payment of the debt or the performance of the promise, but for the interest of the debt, and all necessary expenses incurred by him in respect of the possession or for the preservation of the goods pledged.",
+    "glance": "Pawnee may retain the goods for the debt or promise, interest on the debt, and necessary expenses for possession or preservation.",
+    "study": "The pawnee may retain the goods pledged, not only for payment of the debt or the performance of the promise, but for the interest of the debt, and all necessary expenses incurred by him in respect of the possession or for the preservation of the goods pledged. Current-law framing: retainer covers principal, interest and necessary preservation/possession expenses.",
     "sections": [
       {
-        "heading": "Section 173",
-        "body": "Pawnee's right of retainer"
+        "heading": "Core rule",
+        "body": "The pawnee may retain the goods pledged, not only for payment of the debt or the performance of the promise, but for the interest of the debt, and all necessary expenses incurred by him in respect of the possession or for the preservation of the goods pledged.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Retainer for interest and expenses",
+        "body": "Pawnee retains pledged goods not only for the principal debt but also for interest and necessary preservation expenses under Section 173."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "May the pawnee retain the goods for interest and necessary expenses in addition to the debt?",
+        "analysis": "Yes. Section 173 expressly permits retainer for the debt or promise, the interest of the debt, and necessary expenses for possession or preservation."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-172",
+      "topic:india:contract-s-174"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-173",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 173"
+      "Indian Contract Act, 1872 — Section 173"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 173's scope of the pawnee's right of retainer."
+      ],
+      "definition": "The pawnee may retain the goods pledged, not only for payment of the debt or the performance of the promise, but for the interest of the debt, and all necessary expenses incurred by him in respect of the possession or for the preservation of the goods pledged.",
+      "legalPrinciple": "Pawnee's retainer extends to the debt/promise, interest, and necessary expenses for possession or preservation.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 173"
+      ],
+      "essentialIngredients": [
+        "Goods pledged",
+        "Retainer for debt or promise",
+        "Interest of the debt",
+        "Necessary expenses for possession or preservation"
+      ],
+      "detailedExplanation": "Section 173 provides that the pawnee may retain the goods pledged not only for payment of the debt or the performance of the promise, but also for the interest of the debt and all necessary expenses incurred by him in respect of the possession or for the preservation of the goods pledged.",
+      "examples": [
+        "Retainer covers principal, interest and necessary preservation costs."
+      ],
+      "distinctions": [
+        "Section 173 is the affirmative right of retainer; Section 174 limits retention for other debts."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the secured debt/promise.",
+        "Identify interest and necessary expenses.",
+        "Conclude right of retainer under Section 173."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 173",
+          "Identify scope of retainer",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Scope (debt, interest, expenses)",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 174–176",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pawnee may retain for debt/promise, interest and necessary expenses.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 173 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-173",
-    "review"
+    "source-check-required"
   ]
 }

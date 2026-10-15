@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-174",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 174 (Pawnee not to retain for other debt or promise)",
+  "title": "Indian Contract Act, 1872 — Section 174 (Pawnee not to retain for debt or promise other than that for which goods pledged)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 174 of the Indian Contract Act, 1872 is headed \"Pawnee not to retain for other debt or promise\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 174 provides that the pawnee shall not, in the absence of a contract to that effect, retain the goods pledged for any debt or promise other than the debt or promise for which they are pledged; but such contract, in the absence of anything to the contrary, shall be presumed in regard to subsequent advances made by the pawnee.",
+    "glance": "Pawnee cannot retain for other debts or promises absent a contract to that effect; a contract is presumed for subsequent advances unless contrary intention appears.",
+    "study": "The pawnee shall not, in the absence of a contract to that effect, retain the goods pledged for any debt or promise other than the debt or promise for which they are pledged; but such contract, in the absence of anything to the contrary, shall be presumed in regard to subsequent advances made by the pawnee. Current-law framing: general rule against retention for other obligations, with a presumption for subsequent advances.",
     "sections": [
       {
-        "heading": "Section 174",
-        "body": "Pawnee not to retain for other debt or promise"
+        "heading": "Core rule",
+        "body": "The pawnee shall not, in the absence of a contract to that effect, retain the goods pledged for any debt or promise other than the debt or promise for which they are pledged; but such contract, in the absence of anything to the contrary, shall be presumed in regard to subsequent advances made by the pawnee.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Subsequent advances",
+        "body": "Absent anything to the contrary, a contract to retain for subsequent advances by the pawnee is presumed under Section 174."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "May the pawnee retain the goods for a different debt absent an express contract?",
+        "analysis": "No, under Section 174, unless a contract to that effect exists. For subsequent advances a contract is presumed absent contrary intention."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-173"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-174",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 174"
+      "Indian Contract Act, 1872 — Section 174"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 174's limit on retainer and the presumption for subsequent advances."
+      ],
+      "definition": "The pawnee shall not, in the absence of a contract to that effect, retain the goods pledged for any debt or promise other than the debt or promise for which they are pledged; but such contract, in the absence of anything to the contrary, shall be presumed in regard to subsequent advances made by the pawnee.",
+      "legalPrinciple": "No retainer for other debts absent contract; presumption of such contract for subsequent advances.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 174"
+      ],
+      "essentialIngredients": [
+        "Absence of contract for other debts/promises",
+        "Presumption of contract for subsequent advances absent contrary intention"
+      ],
+      "detailedExplanation": "Section 174 provides that the pawnee shall not, in the absence of a contract to that effect, retain the goods for any debt or promise other than that for which they are pledged. However, such a contract shall, in the absence of anything to the contrary, be presumed in regard to subsequent advances made by the pawnee.",
+      "examples": [
+        "Subsequent advances by pawnee are presumed secured by the same goods absent contrary intention."
+      ],
+      "distinctions": [
+        "General prohibition on other debts; special presumption for subsequent advances."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether the debt is the original one or subsequent.",
+        "Check for express contract or contrary intention.",
+        "Conclude retainer rights under Section 174."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 174",
+          "Identify other debt or subsequent advance",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Presumption",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 173",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "No retainer for other debts absent contract.",
+        "Presumption of contract for subsequent advances.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 174 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-174",
-    "review"
+    "source-check-required"
   ]
 }

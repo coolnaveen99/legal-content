@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-177",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 177 (Defaulting pawnor's right to redeem)",
+  "title": "Indian Contract Act, 1872 — Section 177 (Defaulting pawnor’s right to redeem)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 177 of the Indian Contract Act, 1872 is headed \"Defaulting pawnor's right to redeem\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 177 provides that if a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made, and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default.",
+    "glance": "Defaulting pawnor may redeem the goods at any time before actual sale by paying the amount due plus expenses arising from the default.",
+    "study": "If a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made, and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default. Current-law framing: right of redemption survives default until actual sale, subject to payment of default expenses.",
     "sections": [
       {
-        "heading": "Section 177",
-        "body": "Defaulting pawnor's right to redeem"
+        "heading": "Core rule",
+        "body": "If a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made, and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Redemption before sale",
+        "body": "Pawnor defaults but redeems before actual sale by paying the amount due plus expenses from the default under Section 177."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Pawnor defaults but the goods have not yet been sold. May he still redeem?",
+        "analysis": "Yes. Section 177 allows redemption at any time before the actual sale, upon payment of the amount due and any expenses arising from the default."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-176"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-177",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 177"
+      "Indian Contract Act, 1872 — Section 177"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 177's right of the defaulting pawnor to redeem before sale."
+      ],
+      "definition": "If a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made, and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default.",
+      "legalPrinciple": "Defaulting pawnor may redeem before actual sale by paying the amount due plus expenses from the default.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 177"
+      ],
+      "essentialIngredients": [
+        "Default at stipulated time",
+        "Redemption before actual sale",
+        "Payment of amount due plus expenses arising from default"
+      ],
+      "detailedExplanation": "Section 177 provides that a pawnor who defaults at the stipulated time may redeem the goods pledged at any subsequent time before the actual sale of them, but must in that case pay, in addition, any expenses which have arisen from his default.",
+      "examples": [
+        "Redemption possible until actual sale upon payment of amount and default expenses."
+      ],
+      "distinctions": [
+        "Right survives default but ends with actual sale under Section 176."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify default and that sale has not yet occurred.",
+        "Identify amount and default expenses.",
+        "Conclude right to redeem under Section 177."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 177",
+          "Identify pre-sale redemption and payment",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Before actual sale",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 176",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Defaulting pawnor may redeem before actual sale by paying amount due plus default expenses.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 177 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-177",
-    "review"
+    "source-check-required"
   ]
 }

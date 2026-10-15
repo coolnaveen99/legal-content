@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-181",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 181 (Apportionment of relief or compensation obtained by such suits)",
+  "title": "Indian Contract Act, 1872 — Section 181 (Apportionment of relief or compensation obtained by such suits)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 181 of the Indian Contract Act, 1872 is headed \"Apportionment of relief or compensation obtained by such suits\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 181 provides that whatever is obtained by way of relief or compensation in any such suit shall, as between the bailor and the bailee, be dealt with according to their respective interests.",
+    "glance": "Relief or compensation obtained in a suit under Section 180 is, as between the bailor and the bailee, dealt with according to their respective interests.",
+    "study": "Whatever is obtained by way of relief or compensation in any such suit shall, as between the bailor and the bailee, be dealt with according to their respective interests. Current-law framing: internal accounting between bailor and bailee of the fruits of the suit against the wrong-doer.",
     "sections": [
       {
-        "heading": "Section 181",
-        "body": "Apportionment of relief or compensation obtained by such suits"
+        "heading": "Core rule",
+        "body": "Whatever is obtained by way of relief or compensation in any such suit shall, as between the bailor and the bailee, be dealt with according to their respective interests.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Apportionment of compensation",
+        "body": "Compensation recovered in a suit under Section 180 is apportioned between bailor and bailee according to their respective interests under Section 181."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Compensation is recovered in a suit by the bailee against a wrong-doer. How is it dealt with between bailor and bailee?",
+        "analysis": "According to their respective interests, under Section 181."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-180"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-181",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 181"
+      "Indian Contract Act, 1872 — Section 181"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 181's rule on apportionment of relief obtained under Section 180."
+      ],
+      "definition": "Whatever is obtained by way of relief or compensation in any such suit shall, as between the bailor and the bailee, be dealt with according to their respective interests.",
+      "legalPrinciple": "Fruits of a suit under Section 180 are apportioned between bailor and bailee according to their respective interests.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 181"
+      ],
+      "essentialIngredients": [
+        "Relief or compensation obtained in a suit under Section 180",
+        "Dealt with according to respective interests of bailor and bailee"
+      ],
+      "detailedExplanation": "Section 181 provides that whatever is obtained by way of relief or compensation in any such suit (under Section 180) shall, as between the bailor and the bailee, be dealt with according to their respective interests.",
+      "examples": [
+        "Compensation shared according to the parties' interests in the goods."
+      ],
+      "distinctions": [
+        "Internal accounting rule complementary to the right of suit in Section 180."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify relief obtained under Section 180.",
+        "Identify respective interests.",
+        "Conclude apportionment under Section 181."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 181",
+          "Identify relief and interests",
+          "Conclude apportionment"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Respective interests",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 180",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Relief or compensation from suits under Section 180 is apportioned according to respective interests of bailor and bailee.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 181 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-181",
-    "review"
+    "source-check-required"
   ]
 }

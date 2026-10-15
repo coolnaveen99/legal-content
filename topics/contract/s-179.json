@@ -2,40 +2,112 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-179",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 179 (Pledge where pawnor has only a limited interest)",
+  "title": "Indian Contract Act, 1872 — Section 179 (Pledge where pawnor has only a limited interest)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 179 of the Indian Contract Act, 1872 is headed \"Pledge where pawnor has only a limited interest\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 179 provides that where a person pledges goods in which he has only a limited interest, the pledge is valid to the extent of that interest.",
+    "glance": "A pledge of goods in which the pawnor has only a limited interest is valid to the extent of that interest.",
+    "study": "Where a person pledges goods in which he has only a limited interest, the pledge is valid to the extent of that interest. Current-law framing: the pawnee takes only the limited interest that the pawnor had.",
     "sections": [
       {
-        "heading": "Section 179",
-        "body": "Pledge where pawnor has only a limited interest"
+        "heading": "Core rule",
+        "body": "Where a person pledges goods in which he has only a limited interest, the pledge is valid to the extent of that interest.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Limited interest",
+        "body": "Pawnor with only a limited interest pledges the goods. The pledge is valid only to the extent of that limited interest under Section 179."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Pawnor has only a limited interest in the goods. To what extent is the pledge valid?",
+        "analysis": "To the extent of that limited interest, under Section 179."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-172"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-179",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 179"
+      "Indian Contract Act, 1872 — Section 179"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 179's rule on pledges of limited interests."
+      ],
+      "definition": "Where a person pledges goods in which he has only a limited interest, the pledge is valid to the extent of that interest.",
+      "legalPrinciple": "Pledge is valid only to the extent of the limited interest held by the pawnor.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 179"
+      ],
+      "essentialIngredients": [
+        "Pawnor has only a limited interest in the goods",
+        "Pledge valid to the extent of that interest"
+      ],
+      "detailedExplanation": "Section 179 provides that where a person pledges goods in which he has only a limited interest, the pledge is valid to the extent of that interest. The pawnee cannot acquire a greater interest than the pawnor possessed.",
+      "examples": [
+        "Pledge of a limited interest binds only to that extent."
+      ],
+      "distinctions": [
+        "Limits the effect of the pledge to the interest actually held by the pawnor."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the limited interest.",
+        "Conclude the pledge is valid only to that extent."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 179",
+          "Identify limited interest",
+          "Conclude validity to that extent"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Extent of interest",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pledge of limited interest is valid only to the extent of that interest.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 179 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-179",
-    "review"
+    "source-check-required"
   ]
 }

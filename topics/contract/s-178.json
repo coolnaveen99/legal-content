@@ -2,40 +2,117 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-178",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 178 (Pledge by mercantile agent)",
+  "title": "Indian Contract Act, 1872 — Section 178 (Pledge by mercantile agent)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 178 of the Indian Contract Act, 1872 is headed \"Pledge by mercantile agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 178 provides that where a mercantile agent is, with the consent of the owner, in possession of goods or the documents of title to goods, any pledge made by him, when acting in the ordinary course of business of a mercantile agent, shall be as valid as if he were expressly authorised by the owner of the goods to make the same; provided that the pawnee acts in good faith and has not at the time of the pledge notice that the pawnor has not authority to pledge.",
+    "glance": "Pledge by a mercantile agent in possession with the owner's consent, acting in the ordinary course of business, is valid if the pawnee acts in good faith and without notice of lack of authority.",
+    "study": "Where a mercantile agent is, with the consent of the owner, in possession of goods or the documents of title to goods, any pledge made by him, when acting in the ordinary course of business of a mercantile agent, shall be as valid as if he were expressly authorised by the owner of the goods to make the same; provided that the pawnee acts in good faith and has not at the time of the pledge notice that the pawnor has not authority to pledge. Current-law framing: protects good-faith pawnees dealing with mercantile agents in the ordinary course.",
     "sections": [
       {
-        "heading": "Section 178",
-        "body": "Pledge by mercantile agent"
+        "heading": "Core rule",
+        "body": "Where a mercantile agent is, with the consent of the owner, in possession of goods or the documents of title to goods, any pledge made by him, when acting in the ordinary course of business of a mercantile agent, shall be as valid as if he were expressly authorised by the owner of the goods to make the same; provided that the pawnee acts in good faith and has not at the time of the pledge notice that the pawnor has not authority to pledge.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Mercantile agent pledge",
+        "body": "Mercantile agent in possession with consent pledges goods in the ordinary course of business to a good-faith pawnee without notice of lack of authority. The pledge is valid under Section 178."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Mercantile agent pledges goods in the ordinary course to a good-faith pawnee. Is the pledge valid?",
+        "analysis": "Yes, if the agent was in possession with the owner's consent and the pawnee had no notice of lack of authority, under Section 178."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-172",
+      "topic:india:contract-s-178A"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-178",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 178"
+      "Indian Contract Act, 1872 — Section 178"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 178's rule on pledges by mercantile agents."
+      ],
+      "definition": "Where a mercantile agent is, with the consent of the owner, in possession of goods or the documents of title to goods, any pledge made by him, when acting in the ordinary course of business of a mercantile agent, shall be as valid as if he were expressly authorised by the owner of the goods to make the same; provided that the pawnee acts in good faith and has not at the time of the pledge notice that the pawnor has not authority to pledge.",
+      "legalPrinciple": "Pledge by mercantile agent in possession with consent, in ordinary course, is valid against the owner if pawnee acts in good faith without notice of lack of authority.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 178"
+      ],
+      "essentialIngredients": [
+        "Mercantile agent in possession with owner's consent of goods or documents of title",
+        "Pledge in ordinary course of business of a mercantile agent",
+        "Pawnee acts in good faith without notice of lack of authority"
+      ],
+      "detailedExplanation": "Section 178 validates a pledge made by a mercantile agent who is, with the consent of the owner, in possession of goods or documents of title, when acting in the ordinary course of business of a mercantile agent, provided the pawnee acts in good faith and has not at the time of the pledge notice that the pawnor has not authority to pledge. The pledge is as valid as if the agent were expressly authorised.",
+      "examples": [
+        "Good-faith pledge by mercantile agent in ordinary course is binding on the owner."
+      ],
+      "distinctions": [
+        "Specific protection for dealings with mercantile agents; see also Section 178A for voidable contracts."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify mercantile agent and possession with consent.",
+        "Identify ordinary course and good faith/no notice.",
+        "Conclude validity of the pledge."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 178",
+          "Identify conditions",
+          "Conclude validity"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Conditions",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 178A",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pledge by mercantile agent in ordinary course is valid if pawnee is in good faith without notice.",
+        "Requires possession with owner's consent.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 178 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-178",
-    "review"
+    "source-check-required"
   ]
 }

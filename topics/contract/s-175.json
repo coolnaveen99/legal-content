@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-175",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 175 (Pawnee's right as to extraordinary expenses)",
+  "title": "Indian Contract Act, 1872 — Section 175 (Pawnee’s right as to extraordinary expenses incurred)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 175 of the Indian Contract Act, 1872 is headed \"Pawnee's right as to extraordinary expenses\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 175 provides that the pawnee is entitled to receive from the pawnor extraordinary expenses incurred by him for the preservation of the goods pledged.",
+    "glance": "Pawnee is entitled to receive from the pawnor extraordinary expenses incurred for the preservation of the goods pledged.",
+    "study": "The pawnee is entitled to receive from the pawnor extraordinary expenses incurred by him for the preservation of the goods pledged. Current-law framing: right to recover (not merely retain for) extraordinary preservation expenses.",
     "sections": [
       {
-        "heading": "Section 175",
-        "body": "Pawnee's right as to extraordinary expenses"
+        "heading": "Core rule",
+        "body": "The pawnee is entitled to receive from the pawnor extraordinary expenses incurred by him for the preservation of the goods pledged.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Extraordinary preservation costs",
+        "body": "Pawnee incurs extraordinary expenses to preserve the pledged goods. He is entitled to receive them from the pawnor under Section 175."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Pawnee incurs extraordinary expenses to preserve the goods. What is his right?",
+        "analysis": "He is entitled to receive them from the pawnor under Section 175."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-173"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-175",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 175"
+      "Indian Contract Act, 1872 — Section 175"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 175's right to recover extraordinary expenses."
+      ],
+      "definition": "The pawnee is entitled to receive from the pawnor extraordinary expenses incurred by him for the preservation of the goods pledged.",
+      "legalPrinciple": "Pawnee may recover extraordinary preservation expenses from the pawnor.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 175"
+      ],
+      "essentialIngredients": [
+        "Extraordinary expenses",
+        "Incurred for the preservation of the goods pledged"
+      ],
+      "detailedExplanation": "Section 175 provides that the pawnee is entitled to receive from the pawnor extraordinary expenses incurred by him for the preservation of the goods pledged. This is a right to recover the amount, complementary to the retainer rights in Sections 173–174.",
+      "examples": [
+        "Extraordinary costs of preservation are recoverable from the pawnor."
+      ],
+      "distinctions": [
+        "Section 175 is a right to receive payment; Sections 173–174 concern retainer of the goods."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify extraordinary preservation expenses.",
+        "Conclude right to receive them from the pawnor."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 175",
+          "Identify extraordinary expenses",
+          "Conclude entitlement"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Extraordinary nature",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 173–174",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pawnee entitled to recover extraordinary preservation expenses from pawnor.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 175 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-175",
-    "review"
+    "source-check-required"
   ]
 }
