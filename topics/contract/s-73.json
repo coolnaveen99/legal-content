@@ -3,7 +3,7 @@
   "entityType": "topic",
   "id": "topic:india:contract-s-73",
   "version": 2,
-  "status": "verified",
+  "status": "source_check_required",
   "title": "Section 73 ICA — Compensation for loss caused by breach",
   "jurisdiction": "India",
   "content": {
@@ -42,7 +42,7 @@
     ],
     "enhancement": {
       "version": 2,
-      "status": "verified",
+      "status": "source_check_required",
       "coverage": "subject-enhancement",
       "learningObjectives": [
         "State the rule recorded for Section 73 ICA — Compensation for loss caused by breach.",
@@ -76,17 +76,11 @@
         "https://www.indiacode.nic.in/handle/123456789/2187"
       ],
       "verification": {
-        "lastVerifiedAt": "2026-10-06",
-        "verifiedBy": "Final Legal Verification — authoritative statutory source pass",
         "notes": [
-          "Assembled from this topic's migrated overview and sections. Not source-verified. No case law added.",
-          "India Code page opened for this topic: https://www.indiacode.nic.in/handle/123456789/2187",
-          "No new case added: no section-specific eCourts/Supreme Court judgment page was opened for this topic.",
-          "Included in the full 60-topic Contract inventory.",
-          "Enhancement metadata upgraded; no unverified case authority added.",
-          "Statutory framework/source provenance verified against the applicable official India Code Act text.",
-          "No material case authority is present in this topic; case-law gate is not-applicable.",
-          "Migrated substantive content preserved; no unsupported authority added."
+          "Status downgraded from verified because the existing record contains conflicting evidence: it states that the topic was assembled from migrated content and was not source-verified, while other notes claim official statutory verification.",
+          "The India Code URL is recorded as a candidate authoritative source, but it was not independently opened and checked during this pass.",
+          "No section-specific authoritative judgment page was opened; no case-law verification is claimed.",
+          "Do not treat this topic as verified, current-law certified, or publication-cleared until the official statutory text and applicable amendments are checked and the remaining release gates pass."
         ]
       },
       "examAnswerStructure": {
@@ -130,8 +124,8 @@
   "effectiveFrom": "1872-09-01",
   "effectiveTo": null,
   "tags": [
-    "current-law",
     "contract",
-    "subject-complete"
+    "subject-complete",
+    "source-check-required"
   ]
 }
