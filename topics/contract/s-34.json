@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-34",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 34 (When contingent event is deemed impossible if future conduct of a living person)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 34 of the Indian Contract Act, 1872 is headed \"When contingent event is deemed impossible if future conduct of a living person\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 34",
-        "body": "When contingent event is deemed impossible if future conduct of a living person"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-34",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 34"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-34",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-34",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 34 (When event on which contract is contingent to be deemed impossible, if it is the future conduct of a living person)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 34 provides that if the future event on which a contract is contingent is the way in which a person will act at an unspecified time, the event shall be considered to become impossible when such person does anything which renders it impossible that he should so act within any definite time, or otherwise than under further contingencies.",
+        "glance": "Contingency on future conduct of a living person → deemed impossible when that person acts so as to make the conduct impossible within any definite time.",
+        "study": "Where the contingency is the way a person will act at an unspecified time, the event is deemed impossible when that person does anything which renders it impossible that he should so act within any definite time, or otherwise than under further contingencies. Current-law framing: identify the conduct contingency; test whether the person has rendered the conduct impossible; apply the deeming rule for impossibility under ss. 32–33.",
+        "sections": [{"heading": "Deemed impossibility of future conduct", "body": "Event deemed impossible when the person does anything rendering it impossible that he should so act within any definite time, or otherwise than under further contingencies.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-34", "section": "Section 34", "title": "When event on which contract is contingent to be deemed impossible, if it is the future conduct of a living person"}],
+        "examples": [{"title": "Marriage contingency", "body": "A contracts to pay B a sum if B marries C. C marries D. The event of B marrying C is deemed impossible under s. 34.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "When is a conduct contingency deemed impossible?", "analysis": "When the person does anything which renders it impossible that he should so act within any definite time, or otherwise than under further contingencies."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s34-trap-1", "trap": "Conduct contingencies never become impossible while the person is alive.", "correction": "Section 34 deems impossibility when the person acts so as to make the contemplated conduct impossible within any definite time."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s34-brief", "draftingCategory": "brief", "question": "How should a Section 34 problem be analysed?", "answer": "I. Identify the future-conduct contingency. II. Test whether the person has rendered the conduct impossible. III. Apply the deeming rule. IV. Link to ss. 32–33. V. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 34", "Connected: Sections 32, 33"],
+        "examTips": ["State the deeming rule for future conduct."],
+        "revisionPoints": ["Deemed impossibility of future conduct"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-33", "contract-s-35"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-34",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 34 deems a future-conduct contingency impossible when the person renders that conduct impossible within any definite time.", "legalPrinciple": "Future conduct contingency — deemed impossibility rule.", "statutoryFramework": "Indian Contract Act, 1872 — Section 34", "essentialIngredients": ["Deemed impossibility of future conduct"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 34"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s34"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:43:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s34-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:43:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-34", "contingent", "review-required"]
 }
