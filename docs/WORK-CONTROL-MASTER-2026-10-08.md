@@ -5,23 +5,21 @@
 ### Company Law (Companies Act, 2013)
 | Range | Status |
 |-------|--------|
-| **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** — continuous statutory source-check |
-| **Case-law batch 1** | **Done (not locked)** — s.9 personality/veil: Salomon; LIC v Escorts |
-| **Case-law batch 2** | **Done (not locked)** — prospectus s.34–s.35: Derry v Peek |
+| **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** |
+| **Case-law batch 1–2** | **Done (not locked)** — s.9; s.34–s.35 |
 
 ### Indian Contract Act, 1872 — ACTIVE
 | Range | Status |
 |-------|--------|
-| **s.238 → s.231** | **Done (review)** — Agency reverse-order |
+| **s.238 → s.228** | **Done (review)** — Agency reverse-order |
 
 ### Latest Contract commits (this bulk)
-- s.233 Right of person dealing with agent personally liable: `736c001ef930b7655c39dbda703358fb7618aa60`
-- s.232 Performance of contract with agent supposed to be principal: `72892994d0c28c024078437223d2619274cf1ed5`
-- s.231 Rights of parties to contract made by agent not disclosed: `9d8db54968a629025c6425c0949b06704ba6dfb0`
+- s.230 Agent cannot personally enforce/be bound: `62d724ebe794495929b74e6e99e659f3db8fc63d`
+- s.229 Consequences of notice given to agent: `efa25c043ad10c14b05d8165bb2623c6c9f948e1`
+- s.228 Principal not bound when excess not separable: `5576a436ce952e34698d8ad81286b2da1186a368`
 
 ### Next
-- **Active:** Continue Contract Act reverse-order from **s.230** downward (Agency).
-- **Company Law case-law:** further batches remain open; do not COMPLETE_LOCK without primary-report verification.
+Continue Contract Act reverse-order from **s.227** downward (Agency). Company case-law further batches remain open.
 
 ---
 
@@ -41,18 +39,18 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Active subject:** Indian Contract Act, 1872 — reverse-order from s.230 downward. Company Law case-law batches 1–2 recorded; not COMPLETE_LOCKED.
+**Active subject:** Indian Contract Act, 1872 — reverse-order from s.227 downward.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.233–s.231 (Agency reverse-order bulk)
-Current main commit: 9d8db54968a629025c6425c0949b06704ba6dfb0
+Topic/section range: s.230–s.228 (Agency reverse-order bulk)
+Current main commit: 5576a436ce952e34698d8ad81286b2da1186a368
 Current status: review / SOURCE_CHECK_REQUIRED
 Current owner: current-assistant-contract-reverse
-Latest evidence: s.233, s.232, s.231 expanded from catalog stubs to official India Code text including illustrations
-Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
+Latest evidence: s.230, s.229, s.228 expanded from catalog stubs to official India Code text including illustrations/presumptions
+Missing gate: full case-law verification and final lock
 Planned change: Contract Act reverse-order source alignment of catalog stubs
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 736c001ef930b7655c39dbda703358fb7618aa60; 72892994d0c28c024078437223d2619274cf1ed5; 9d8db54968a629025c6425c0949b06704ba6dfb0
+Evidence/commit: 62d724ebe794495929b74e6e99e659f3db8fc63d; efa25c043ad10c14b05d8165bb2623c6c9f948e1; 5576a436ce952e34698d8ad81286b2da1186a368
 
 If any field cannot be established, STOP.
