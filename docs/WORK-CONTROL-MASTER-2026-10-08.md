@@ -71,6 +71,20 @@ The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200
 
 **Status:** Content depth improved for exam-answer consistency. **Not** legally verified, **not** COMPLETE_LOCKED. Source, case-law, integration, SEO, production and human sign-off gates remain open.
 
+
+## Agency content depth batches — 2026-10-15 (continued)
+
+**Batches processed (20-section loops):**
+- ss. 183–218: study text enriched from statutory overview
+- ss. 202–221 (+ residual): examples and hypotheticals added
+- ss. 182–221: distinctions added
+
+**All changes:** derived strictly from existing statutory text already present in the topic files. No new cases, holdings, or invented authorities. Every topic remains `review` / `SOURCE_CHECK_REQUIRED`.
+
+**Evidence:** commits `0246593ac`, `6daa06d24`, `f4b26c496` on legal-content/main.
+
+**Status:** Content depth (exam structures, study, examples, hypotheticals, distinctions) now consistent across Agency ss. 182–238. **Not** legally verified and **not** COMPLETE_LOCKED. Source, case-law, validator, integration, SEO, production and human sign-off gates remain open.
+
 ## Release gate
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
