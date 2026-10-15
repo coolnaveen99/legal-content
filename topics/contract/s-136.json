@@ -2,40 +2,126 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-136",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 136 (Surety not discharged when agreement is made with third person to give time)",
+  "title": "Indian Contract Act, 1872 — Section 136 (Surety not discharged when agreement made with third person to give time to principal debtor)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 136 of the Indian Contract Act, 1872 is headed \"Surety not discharged when agreement is made with third person to give time\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 136 provides that where a contract to give time to the principal debtor is made by the creditor with a third person, and not with the principal debtor, the surety is not discharged. The statutory illustration confirms that a contract with a third person concerning an overdue bill does not discharge the surety.",
+    "glance": "A contract to give time made with a third person (not the principal debtor) does not discharge the surety.",
+    "study": "Where a contract to give time to the principal debtor is made by the creditor with a third person, and not with the principal debtor, the surety is not discharged. Illustration: C, the holder of an overdue bill of exchange drawn by A as surety for B, and accepted by B, contracts with M to give time to B. A is not discharged. Current-law framing: distinguish from Section 135 (contract with the principal debtor itself); the third-person route does not discharge.",
     "sections": [
       {
-        "heading": "Section 136",
-        "body": "Surety not discharged when agreement is made with third person to give time"
+        "heading": "Core rule",
+        "body": "Where a contract to give time to the principal debtor is made by the creditor with a third person, and not with the principal debtor, the surety is not discharged.",
+        "order": 1
+      },
+      {
+        "heading": "Statutory illustration",
+        "body": "C, the holder of an overdue bill of exchange drawn by A as surety for B, and accepted by B, contracts with M to give time to B. A is not discharged.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Time given via third person",
+        "body": "Creditor contracts with a third person to give the principal debtor more time. Under Section 136 the surety is not discharged."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor agrees with a friend of the principal debtor to allow extra time, without contracting with the principal debtor. Is the surety discharged?",
+        "analysis": "No. Section 136 provides that a contract to give time made with a third person (not the principal debtor) does not discharge the surety."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-135",
+      "topic:india:contract-s-137"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 136 Illustration: contract with M to give time on an overdue bill does not discharge surety A."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-136",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 136"
+      "Indian Contract Act, 1872 — Section 136 and Illustration"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 136's rule that a third-person time agreement does not discharge the surety.",
+        "Distinguish from Section 135."
+      ],
+      "definition": "Where a contract to give time to the principal debtor is made by the creditor with a third person, and not with the principal debtor, the surety is not discharged.",
+      "legalPrinciple": "Giving time via a third person does not discharge the surety.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 136"
+      ],
+      "essentialIngredients": [
+        "Contract to give time",
+        "Made with a third person",
+        "Not made with the principal debtor"
+      ],
+      "detailedExplanation": "Section 136 provides that where a contract to give time to the principal debtor is made by the creditor with a third person, and not with the principal debtor, the surety is not discharged. The illustration confirms the result on an overdue bill. This is distinct from Section 135, which discharges where the contract is with the principal debtor itself (absent assent).",
+      "examples": [
+        "Contract with third person to give time does not discharge the surety."
+      ],
+      "distinctions": [
+        "Section 136 (third person) does not discharge; Section 135 (principal debtor) does, unless assent."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the parties to the time agreement.",
+        "If with a third person and not the principal debtor, conclude no discharge under Section 136."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 136",
+          "Identify third-person contract",
+          "Conclude no discharge"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Illustration",
+          "Distinction from s. 135",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Illustration",
+          "Distinctions",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Time agreement with a third person does not discharge the surety.",
+        "Contrast with Section 135.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 136 and illustration aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-136",
-    "review"
+    "source-check-required"
   ]
 }

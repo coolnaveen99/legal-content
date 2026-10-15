@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-144",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 144 (Guarantee until co-surety joins)",
+  "title": "Indian Contract Act, 1872 — Section 144 (Guarantee on contract that creditor shall not act on it until co-surety joins)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 144 of the Indian Contract Act, 1872 is headed \"Guarantee until co-surety joins\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 144 provides that where a person gives a guarantee upon a contract that the creditor shall not act upon it until another person has joined in it as co-surety, the guarantee is not valid if that other person does not join.",
+    "glance": "A guarantee given on the condition that a co-surety will join is not valid if that co-surety does not join.",
+    "study": "Where a person gives a guarantee upon a contract that the creditor shall not act upon it until another person has joined in it as co-surety, the guarantee is not valid if that other person does not join. Current-law framing: the condition precedent of co-surety joining must be fulfilled.",
     "sections": [
       {
-        "heading": "Section 144",
-        "body": "Guarantee until co-surety joins"
+        "heading": "Core rule",
+        "body": "Where a person gives a guarantee upon a contract that the creditor shall not act upon it until another person has joined in it as co-surety, the guarantee is not valid if that other person does not join.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Conditional co-surety",
+        "body": "Surety gives guarantee on condition that another joins as co-surety. If the other does not join, the guarantee is not valid under Section 144."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A guarantees on the express condition that B will also join as co-surety. B never joins. Is A's guarantee valid?",
+        "analysis": "No. Section 144 provides that the guarantee is not valid if the other person does not join."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-144",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 144"
+      "Indian Contract Act, 1872 — Section 144"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 144's rule on conditional co-surety joining."
+      ],
+      "definition": "Where a person gives a guarantee upon a contract that the creditor shall not act upon it until another person has joined in it as co-surety, the guarantee is not valid if that other person does not join.",
+      "legalPrinciple": "A guarantee conditioned on a co-surety joining is invalid if that co-surety does not join.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 144"
+      ],
+      "essentialIngredients": [
+        "Guarantee given on the contract that creditor shall not act until co-surety joins",
+        "Co-surety does not join"
+      ],
+      "detailedExplanation": "Section 144 provides that where a guarantee is given on the condition that the creditor shall not act upon it until another person joins as co-surety, the guarantee is not valid if that other person does not join.",
+      "examples": [
+        "Failure of the contemplated co-surety to join renders the conditional guarantee invalid."
+      ],
+      "distinctions": [
+        "Section 144 is a specific condition precedent for validity of the guarantee."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the condition that a co-surety must join.",
+        "Show non-joinder.",
+        "Conclude the guarantee is not valid."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 144",
+          "Identify condition and non-joinder",
+          "Conclude invalid"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Condition precedent",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Guarantee conditioned on co-surety joining is not valid if the co-surety does not join.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 144 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-144",
-    "review"
+    "source-check-required"
   ]
 }

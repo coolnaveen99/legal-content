@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-137",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 137 (Creditor's forbearance to sue does not discharge surety)",
+  "title": "Indian Contract Act, 1872 — Section 137 (Creditor's forbearance to sue does not discharge surety)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 137 of the Indian Contract Act, 1872 is headed \"Creditor's forbearance to sue does not discharge surety\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 137 provides that mere forbearance on the part of the creditor to sue the principal debtor or to enforce any other remedy against him does not, in the absence of any provision in the guarantee to the contrary, discharge the surety.",
+    "glance": "Mere forbearance to sue or enforce another remedy does not discharge the surety unless the guarantee provides otherwise.",
+    "study": "Mere forbearance on the part of the creditor to sue the principal debtor or to enforce any other remedy against him does not, in the absence of any provision in the guarantee to the contrary, discharge the surety. Distinguish from a binding contract under Section 135. Current-law framing: delay or passive forbearance is not discharge; a contractual promise of time is.",
     "sections": [
       {
-        "heading": "Section 137",
-        "body": "Creditor's forbearance to sue does not discharge surety"
+        "heading": "Core rule",
+        "body": "Mere forbearance on the part of the creditor to sue the principal debtor or to enforce any other remedy against him does not, in the absence of any provision in the guarantee to the contrary, discharge the surety.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Delay in suing",
+        "body": "Creditor delays filing suit against the principal debtor. Under Section 137 the surety is not discharged by that mere forbearance."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor waits a year before suing the principal debtor. Is the surety discharged?",
+        "analysis": "No. Section 137 provides that mere forbearance does not discharge the surety, absent a contrary provision in the guarantee."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-135",
+      "topic:india:contract-s-136"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-137",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 137"
+      "Indian Contract Act, 1872 — Section 137"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 137's rule that mere forbearance does not discharge the surety."
+      ],
+      "definition": "Mere forbearance on the part of the creditor to sue the principal debtor or to enforce any other remedy against him does not, in the absence of any provision in the guarantee to the contrary, discharge the surety.",
+      "legalPrinciple": "Passive forbearance does not discharge; a binding time agreement under Section 135 does.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 137"
+      ],
+      "essentialIngredients": [
+        "Mere forbearance to sue or enforce another remedy",
+        "Absence of contrary provision in the guarantee"
+      ],
+      "detailedExplanation": "Section 137 provides that mere forbearance by the creditor to sue the principal debtor or enforce any other remedy does not discharge the surety, unless the guarantee provides otherwise. This distinguishes passive delay from a binding contract under Section 135.",
+      "examples": [
+        "Delay in suing does not discharge the surety."
+      ],
+      "distinctions": [
+        "Mere forbearance (s. 137) does not discharge; contract of composition/time/non-sue with the principal debtor (s. 135) does, unless assent."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether there is only forbearance or a binding contract under Section 135.",
+        "Conclude accordingly."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 137",
+          "Identify mere forbearance",
+          "Conclude no discharge"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Distinction from s. 135",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinctions",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Mere forbearance does not discharge the surety.",
+        "Unless the guarantee provides otherwise.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 137 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-137",
-    "review"
+    "source-check-required"
   ]
 }

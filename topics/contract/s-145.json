@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-145",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 145 (Implied promise to indemnify surety)",
+  "title": "Indian Contract Act, 1872 — Section 145 (Implied promise to indemnify surety)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 145 of the Indian Contract Act, 1872 is headed \"Implied promise to indemnify surety\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 145 provides that in every contract of guarantee there is an implied promise by the principal debtor to indemnify the surety; and the surety is entitled to recover from the principal debtor whatever sum he has rightfully paid under the guarantee, but no sums which he has paid wrongfully.",
+    "glance": "There is an implied promise by the principal debtor to indemnify the surety for sums rightfully paid under the guarantee.",
+    "study": "In every contract of guarantee there is an implied promise by the principal debtor to indemnify the surety; and the surety is entitled to recover from the principal debtor whatever sum he has rightfully paid under the guarantee, but no sums which he has paid wrongfully. Current-law framing: recovery is limited to sums rightfully paid.",
     "sections": [
       {
-        "heading": "Section 145",
-        "body": "Implied promise to indemnify surety"
+        "heading": "Core rule",
+        "body": "In every contract of guarantee there is an implied promise by the principal debtor to indemnify the surety; and the surety is entitled to recover from the principal debtor whatever sum he has rightfully paid under the guarantee, but no sums which he has paid wrongfully.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Rightful payment",
+        "body": "Surety rightfully pays under the guarantee. Surety may recover that sum from the principal debtor under the implied promise in Section 145."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Surety pays a sum that was not due under the guarantee. Can he recover it from the principal debtor under Section 145?",
+        "analysis": "No. Section 145 entitles recovery only of sums rightfully paid; not sums paid wrongfully."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-140"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-145",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 145"
+      "Indian Contract Act, 1872 — Section 145"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 145's implied indemnity rule."
+      ],
+      "definition": "In every contract of guarantee there is an implied promise by the principal debtor to indemnify the surety; and the surety is entitled to recover from the principal debtor whatever sum he has rightfully paid under the guarantee, but no sums which he has paid wrongfully.",
+      "legalPrinciple": "Implied promise by principal debtor to indemnify surety for sums rightfully paid under the guarantee.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 145"
+      ],
+      "essentialIngredients": [
+        "Contract of guarantee",
+        "Sum rightfully paid by surety under the guarantee"
+      ],
+      "detailedExplanation": "Section 145 implies a promise by the principal debtor to indemnify the surety. The surety may recover from the principal debtor sums rightfully paid under the guarantee, but not sums paid wrongfully.",
+      "examples": [
+        "Rightful payment under the guarantee is recoverable from the principal debtor."
+      ],
+      "distinctions": [
+        "Section 145 is the implied indemnity against the principal debtor; Section 140 is subrogation to the creditor's rights."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm a sum was rightfully paid under the guarantee.",
+        "Conclude recovery from the principal debtor."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 145",
+          "Identify rightful payment",
+          "Conclude recovery"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Rightful vs wrongful",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 140",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Implied promise by principal debtor to indemnify surety for rightfully paid sums.",
+        "Wrongful payments not recoverable under the section.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 145 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-145",
-    "review"
+    "source-check-required"
   ]
 }

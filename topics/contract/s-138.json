@@ -2,40 +2,116 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-138",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 138 (Release of one co-surety does not discharge others)",
+  "title": "Indian Contract Act, 1872 — Section 138 (Release of one co-surety does not discharge others)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 138 of the Indian Contract Act, 1872 is headed \"Release of one co-surety does not discharge others\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 138 provides that where there are co-sureties, a release by the creditor of one of them does not discharge the others; neither does it free the surety so released from his responsibility to the other sureties.",
+    "glance": "Release of one co-surety does not discharge the others, nor free the released surety from responsibility to the remaining co-sureties.",
+    "study": "Where there are co-sureties, a release by the creditor of one of them does not discharge the others; neither does it free the surety so released from his responsibility to the other sureties. Current-law framing: co-surety contribution rights under Sections 146–147 remain relevant between the sureties.",
     "sections": [
       {
-        "heading": "Section 138",
-        "body": "Release of one co-surety does not discharge others"
+        "heading": "Core rule",
+        "body": "Where there are co-sureties, a release by the creditor of one of them does not discharge the others; neither does it free the surety so released from his responsibility to the other sureties.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Release of one co-surety",
+        "body": "Creditor releases one of several co-sureties. The remaining co-sureties stay liable to the creditor, and the released surety remains responsible to the others."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "There are three co-sureties. The creditor releases one. Are the other two discharged?",
+        "analysis": "No. Section 138 provides that release of one co-surety does not discharge the others."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-146",
+      "topic:india:contract-s-147"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-138",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 138"
+      "Indian Contract Act, 1872 — Section 138"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 138's rule on release of one co-surety."
+      ],
+      "definition": "Where there are co-sureties, a release by the creditor of one of them does not discharge the others; neither does it free the surety so released from his responsibility to the other sureties.",
+      "legalPrinciple": "Release of one co-surety leaves the others liable to the creditor and preserves inter-surety responsibility.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 138"
+      ],
+      "essentialIngredients": [
+        "Existence of co-sureties",
+        "Release of one by the creditor"
+      ],
+      "detailedExplanation": "Section 138 provides that release by the creditor of one co-surety does not discharge the others, nor does it free the released surety from responsibility to the remaining co-sureties. Contribution among co-sureties is governed by Sections 146 and 147.",
+      "examples": [
+        "Release of one co-surety leaves the others liable."
+      ],
+      "distinctions": [
+        "Section 138 addresses effect of release on co-sureties; Sections 146–147 address contribution."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify co-sureties and the release.",
+        "Conclude that others remain liable to the creditor."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 138",
+          "Identify release of one",
+          "Conclude others not discharged"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Effect on others",
+          "Inter-surety responsibility",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 146–147",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Release of one co-surety does not discharge the others.",
+        "Released surety remains responsible to the others.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 138 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-138",
-    "review"
+    "source-check-required"
   ]
 }

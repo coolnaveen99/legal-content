@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-147",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 147 (Liability of co-sureties bound in different sums)",
+  "title": "Indian Contract Act, 1872 — Section 147 (Liability of co-sureties bound in different sums)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 147 of the Indian Contract Act, 1872 is headed \"Liability of co-sureties bound in different sums\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 147 provides that co-sureties who are bound in different sums are liable to pay equally as far as the limits of their respective obligations permit.",
+    "glance": "Co-sureties bound in different sums contribute equally up to the limit of each one's obligation.",
+    "study": "Co-sureties who are bound in different sums are liable to pay equally as far as the limits of their respective obligations permit. Current-law framing: equal contribution is applied subject to each co-surety's individual cap.",
     "sections": [
       {
-        "heading": "Section 147",
-        "body": "Liability of co-sureties bound in different sums"
+        "heading": "Core rule",
+        "body": "Co-sureties who are bound in different sums are liable to pay equally as far as the limits of their respective obligations permit.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Different limits",
+        "body": "One co-surety bound for 10,000 and another for 5,000. They contribute equally up to the lower limit, then the higher-bound surety bears the balance within his limit."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Co-sureties bound for different amounts. How is contribution calculated?",
+        "analysis": "Under Section 147 they are liable to pay equally as far as the limits of their respective obligations permit."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-146"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-147",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 147"
+      "Indian Contract Act, 1872 — Section 147"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 147's rule on co-sureties bound in different sums."
+      ],
+      "definition": "Co-sureties who are bound in different sums are liable to pay equally as far as the limits of their respective obligations permit.",
+      "legalPrinciple": "Equal contribution subject to each co-surety's individual limit when bound in different sums.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 147"
+      ],
+      "essentialIngredients": [
+        "Co-sureties bound in different sums",
+        "Equal contribution up to each one's limit"
+      ],
+      "detailedExplanation": "Section 147 provides that co-sureties bound in different sums are liable to pay equally as far as the limits of their respective obligations permit. This qualifies the equal-contribution default of Section 146 where the limits differ.",
+      "examples": [
+        "Different caps: contribute equally within the lower limit, then the higher-bound surety continues within his limit."
+      ],
+      "distinctions": [
+        "Section 147 applies when bound in different sums; Section 146 is the equal-share default."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the different limits.",
+        "Apply equal contribution up to each limit.",
+        "Conclude the shares."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 147",
+          "Identify different sums",
+          "Conclude equal up to limits"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Limits",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 146",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Co-sureties bound in different sums contribute equally up to their respective limits.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 147 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-147",
-    "review"
+    "source-check-required"
   ]
 }

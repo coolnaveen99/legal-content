@@ -2,40 +2,118 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-141",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 141 (Surety's right to benefit of creditor's securities)",
+  "title": "Indian Contract Act, 1872 — Section 141 (Surety's right to benefit of creditor's securities)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 141 of the Indian Contract Act, 1872 is headed \"Surety's right to benefit of creditor's securities\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 141 provides that a surety is entitled to the benefit of every security which the creditor has against the principal debtor at the time when the contract of guarantee is entered into, whether the surety knows of the existence of such security or not; and if the creditor loses, or without the consent of the surety parts with, such security, the surety is discharged to the extent of the value of the security.",
+    "glance": "Surety is entitled to the benefit of securities held by the creditor at the time of the guarantee; loss or parting without consent discharges pro tanto.",
+    "study": "A surety is entitled to the benefit of every security which the creditor has against the principal debtor at the time when the contract of guarantee is entered into, whether the surety knows of the existence of such security or not; and if the creditor loses, or without the consent of the surety parts with, such security, the surety is discharged to the extent of the value of the security. Current-law framing: entitlement is to securities existing at the time of the guarantee; subsequent securities are not automatically included.",
     "sections": [
       {
-        "heading": "Section 141",
-        "body": "Surety's right to benefit of creditor's securities"
+        "heading": "Core rule",
+        "body": "A surety is entitled to the benefit of every security which the creditor has against the principal debtor at the time when the contract of guarantee is entered into, whether the surety knows of the existence of such security or not; and if the creditor loses, or without the consent of the surety parts with, such security, the surety is discharged to the extent of the value of the security.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Loss of existing security",
+        "body": "Creditor holds a security at the time of the guarantee and later loses or parts with it without consent. Surety is discharged to the value of that security."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor parts with a security that existed at the time of the guarantee, without the surety's consent. What is the effect?",
+        "analysis": "Under Section 141 the surety is discharged to the extent of the value of the security."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-139",
+      "topic:india:contract-s-140"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-141",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 141"
+      "Indian Contract Act, 1872 — Section 141"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 141's rule on benefit of securities and pro tanto discharge."
+      ],
+      "definition": "A surety is entitled to the benefit of every security which the creditor has against the principal debtor at the time when the contract of guarantee is entered into, whether the surety knows of the existence of such security or not; and if the creditor loses, or without the consent of the surety parts with, such security, the surety is discharged to the extent of the value of the security.",
+      "legalPrinciple": "Surety is entitled to securities existing at the time of the guarantee; loss or parting without consent discharges to their value.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 141"
+      ],
+      "essentialIngredients": [
+        "Security held by creditor at the time of the guarantee",
+        "Loss or parting without surety's consent",
+        "Discharge to the value of the security"
+      ],
+      "detailedExplanation": "Section 141 entitles the surety to the benefit of every security the creditor held against the principal debtor at the time the guarantee was entered into, whether known to the surety or not. Loss of or parting with such security without consent discharges the surety pro tanto.",
+      "examples": [
+        "Parting with an existing security without consent discharges the surety to its value."
+      ],
+      "distinctions": [
+        "Section 141 is specific to securities existing at the time of the guarantee; Section 139 is the broader impairment rule."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify securities existing at the time of the guarantee.",
+        "Identify loss or parting without consent.",
+        "Conclude pro tanto discharge."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 141",
+          "Identify existing security and loss/parting",
+          "Conclude pro tanto discharge"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Timing of security",
+          "Knowledge irrelevant",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 139",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Surety entitled to benefit of securities existing at the time of the guarantee.",
+        "Loss or parting without consent discharges to the value of the security.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 141 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-141",
-    "review"
+    "source-check-required"
   ]
 }

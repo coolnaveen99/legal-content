@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-143",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 143 (Guarantee obtained by concealment invalid)",
+  "title": "Indian Contract Act, 1872 — Section 143 (Guarantee obtained by concealment invalid)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 143 of the Indian Contract Act, 1872 is headed \"Guarantee obtained by concealment invalid\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 143 provides that any guarantee which the creditor has obtained by means of keeping silence as to material circumstances is invalid.",
+    "glance": "A guarantee obtained by the creditor keeping silence as to material circumstances is invalid.",
+    "study": "Any guarantee which the creditor has obtained by means of keeping silence as to material circumstances is invalid. Current-law framing: silence as to material circumstances by the creditor invalidates the guarantee.",
     "sections": [
       {
-        "heading": "Section 143",
-        "body": "Guarantee obtained by concealment invalid"
+        "heading": "Core rule",
+        "body": "Any guarantee which the creditor has obtained by means of keeping silence as to material circumstances is invalid.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Silence as to material fact",
+        "body": "Creditor keeps silent about a material circumstance when obtaining the guarantee. The guarantee is invalid under Section 143."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor conceals a material circumstance known to him when taking the guarantee. Is it valid?",
+        "analysis": "No. Section 143 provides that a guarantee obtained by keeping silence as to material circumstances is invalid."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-142"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-143",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 143"
+      "Indian Contract Act, 1872 — Section 143"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 143's rule on invalidity for concealment."
+      ],
+      "definition": "Any guarantee which the creditor has obtained by means of keeping silence as to material circumstances is invalid.",
+      "legalPrinciple": "Guarantee obtained by the creditor's silence as to material circumstances is invalid.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 143"
+      ],
+      "essentialIngredients": [
+        "Keeping silence as to material circumstances",
+        "By the creditor"
+      ],
+      "detailedExplanation": "Section 143 renders invalid any guarantee which the creditor has obtained by means of keeping silence as to material circumstances.",
+      "examples": [
+        "Silence as to a material circumstance invalidates the guarantee."
+      ],
+      "distinctions": [
+        "Section 143 concerns concealment/silence; Section 142 concerns active misrepresentation."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the material circumstance kept silent.",
+        "Show the creditor obtained the guarantee thereby.",
+        "Conclude invalidity."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 143",
+          "Identify silence as to material circumstances",
+          "Conclude invalid"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Materiality",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 142",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Guarantee obtained by creditor's silence as to material circumstances is invalid.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 143 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-143",
-    "review"
+    "source-check-required"
   ]
 }

@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-139",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 139 (Discharge of surety by creditor's act or omission impairing eventual remedy)",
+  "title": "Indian Contract Act, 1872 — Section 139 (Discharge of surety by creditor's act or omission impairing surety's eventual remedy)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 139 of the Indian Contract Act, 1872 is headed \"Discharge of surety by creditor's act or omission impairing eventual remedy\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 139 provides that if the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged.",
+    "glance": "Creditor's act or omission that impairs the surety's eventual remedy against the principal debtor discharges the surety.",
+    "study": "If the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged. Current-law framing: the impairment of the surety's remedy is the key.",
     "sections": [
       {
-        "heading": "Section 139",
-        "body": "Discharge of surety by creditor's act or omission impairing eventual remedy"
+        "heading": "Core rule",
+        "body": "If the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Loss of security",
+        "body": "Creditor, without surety's consent, parts with a security held against the principal debtor, impairing the surety's eventual remedy. Surety is discharged to that extent."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor releases a security without the surety's consent, impairing the surety's remedy. Is the surety discharged?",
+        "analysis": "Yes, under Section 139, if the eventual remedy is thereby impaired."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-141"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-139",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 139"
+      "Indian Contract Act, 1872 — Section 139"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 139's rule on discharge where the creditor impairs the surety's eventual remedy."
+      ],
+      "definition": "If the creditor does any act which is inconsistent with the rights of the surety, or omits to do any act which his duty to the surety requires him to do, and the eventual remedy of the surety himself against the principal debtor is thereby impaired, the surety is discharged.",
+      "legalPrinciple": "Impairment of the surety's eventual remedy by the creditor's act or omission discharges the surety.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 139"
+      ],
+      "essentialIngredients": [
+        "Act inconsistent with surety's rights or omission of duty",
+        "Impairment of eventual remedy against the principal debtor"
+      ],
+      "detailedExplanation": "Section 139 discharges the surety where the creditor's act or omission impairs the surety's eventual remedy against the principal debtor. This is closely related to the benefit of securities under Section 141.",
+      "examples": [
+        "Parting with security without consent can discharge the surety under Section 139 / 141."
+      ],
+      "distinctions": [
+        "Section 139 focuses on impairment of the surety's remedy; Section 141 specifically addresses benefit of securities."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the creditor's act or omission.",
+        "Show impairment of the surety's eventual remedy.",
+        "Conclude discharge."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 139",
+          "Identify act/omission and impairment",
+          "Conclude discharge"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Impairment requirement",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 141",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Creditor's act or omission impairing the surety's remedy discharges the surety.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 139 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-139",
-    "review"
+    "source-check-required"
   ]
 }

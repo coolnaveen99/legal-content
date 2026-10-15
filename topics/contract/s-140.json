@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-140",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 140 (Rights of surety on payment or performance)",
+  "title": "Indian Contract Act, 1872 — Section 140 (Rights of surety on payment or performance)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 140 of the Indian Contract Act, 1872 is headed \"Rights of surety on payment or performance\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 140 provides that where a guaranteed debt has become due, or default of the principal debtor to perform a guaranteed duty has taken place, the surety, upon payment or performance of all that he is liable for, is invested with all the rights which the creditor had against the principal debtor.",
+    "glance": "On payment or performance of all the surety is liable for, the surety is subrogated to the creditor's rights against the principal debtor.",
+    "study": "Where a guaranteed debt has become due, or default of the principal debtor to perform a guaranteed duty has taken place, the surety, upon payment or performance of all that he is liable for, is invested with all the rights which the creditor had against the principal debtor. Current-law framing: full payment/performance of the surety's liability triggers subrogation.",
     "sections": [
       {
-        "heading": "Section 140",
-        "body": "Rights of surety on payment or performance"
+        "heading": "Core rule",
+        "body": "Where a guaranteed debt has become due, or default of the principal debtor to perform a guaranteed duty has taken place, the surety, upon payment or performance of all that he is liable for, is invested with all the rights which the creditor had against the principal debtor.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Subrogation after full payment",
+        "body": "Surety pays the full amount for which he is liable after default. Surety is invested with the creditor's rights against the principal debtor."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Surety pays only part of what he is liable for. Does Section 140 fully apply?",
+        "analysis": "Section 140 requires payment or performance of all that the surety is liable for before the surety is invested with all the creditor's rights."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-141",
+      "topic:india:contract-s-145"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-140",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 140"
+      "Indian Contract Act, 1872 — Section 140"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 140's subrogation rule."
+      ],
+      "definition": "Where a guaranteed debt has become due, or default of the principal debtor to perform a guaranteed duty has taken place, the surety, upon payment or performance of all that he is liable for, is invested with all the rights which the creditor had against the principal debtor.",
+      "legalPrinciple": "Full satisfaction by the surety invests the surety with the creditor's rights against the principal debtor (subrogation).",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 140"
+      ],
+      "essentialIngredients": [
+        "Debt due or default in guaranteed duty",
+        "Payment or performance of all the surety is liable for"
+      ],
+      "detailedExplanation": "Section 140 provides for subrogation: once the surety has paid or performed all that he is liable for after the debt is due or default has occurred, the surety steps into the creditor's rights against the principal debtor.",
+      "examples": [
+        "Full payment by surety invests surety with creditor's rights."
+      ],
+      "distinctions": [
+        "Section 140 is subrogation against the principal debtor; Section 141 is benefit of securities; Section 145 is implied indemnity."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm debt due or default.",
+        "Confirm full payment/performance by surety.",
+        "Conclude subrogation."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 140",
+          "Identify full satisfaction",
+          "Conclude subrogation"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Conditions",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 141 and 145",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Surety is subrogated to creditor's rights on full payment or performance.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 140 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-140",
-    "review"
+    "source-check-required"
   ]
 }

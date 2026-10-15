@@ -2,40 +2,117 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-146",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 146 (Co-sureties liable to contribute equally)",
+  "title": "Indian Contract Act, 1872 — Section 146 (Co-sureties liable to contribute equally)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 146 of the Indian Contract Act, 1872 is headed \"Co-sureties liable to contribute equally\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 146 provides that where two or more persons are co-sureties for the same debt or duty, either jointly or severally, and whether under the same or different contracts, and whether with or without the knowledge of each other, the co-sureties, in the absence of any contract to the contrary, are liable, as between themselves, to pay each an equal share of the whole debt, or of that part of it which remains unpaid by the principal debtor.",
+    "glance": "Co-sureties are liable as between themselves to contribute equally, absent a contract to the contrary.",
+    "study": "Where two or more persons are co-sureties for the same debt or duty, either jointly or severally, and whether under the same or different contracts, and whether with or without the knowledge of each other, the co-sureties, in the absence of any contract to the contrary, are liable, as between themselves, to pay each an equal share of the whole debt, or of that part of it which remains unpaid by the principal debtor. Current-law framing: equal contribution is the default; a contrary contract controls.",
     "sections": [
       {
-        "heading": "Section 146",
-        "body": "Co-sureties liable to contribute equally"
+        "heading": "Core rule",
+        "body": "Where two or more persons are co-sureties for the same debt or duty, either jointly or severally, and whether under the same or different contracts, and whether with or without the knowledge of each other, the co-sureties, in the absence of any contract to the contrary, are liable, as between themselves, to pay each an equal share of the whole debt, or of that part of it which remains unpaid by the principal debtor.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Equal contribution",
+        "body": "Two co-sureties for the same debt, no contrary contract. They contribute equally as between themselves to the unpaid balance."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Two co-sureties, no agreement as to shares. Principal debtor pays nothing. How do they contribute inter se?",
+        "analysis": "Under Section 146, in the absence of a contract to the contrary, each pays an equal share of the unpaid debt."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-138",
+      "topic:india:contract-s-147"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-146",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 146"
+      "Indian Contract Act, 1872 — Section 146"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 146's equal contribution rule."
+      ],
+      "definition": "Where two or more persons are co-sureties for the same debt or duty, either jointly or severally, and whether under the same or different contracts, and whether with or without the knowledge of each other, the co-sureties, in the absence of any contract to the contrary, are liable, as between themselves, to pay each an equal share of the whole debt, or of that part of it which remains unpaid by the principal debtor.",
+      "legalPrinciple": "Default rule is equal contribution among co-sureties inter se, absent a contract to the contrary.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 146"
+      ],
+      "essentialIngredients": [
+        "Co-sureties for the same debt or duty",
+        "Absence of contract to the contrary",
+        "Equal share of unpaid amount"
+      ],
+      "detailedExplanation": "Section 146 provides for equal contribution as between co-sureties in the absence of a contract to the contrary, whether they are jointly or severally bound, under the same or different contracts, and whether they know of each other or not.",
+      "examples": [
+        "Two co-sureties contribute equally to the unpaid balance."
+      ],
+      "distinctions": [
+        "Section 146 is equal contribution; Section 147 addresses contribution where bound in different sums."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify co-sureties for the same debt.",
+        "Check for contrary contract.",
+        "Conclude equal shares of the unpaid amount."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 146",
+          "Identify co-sureties and no contrary contract",
+          "Conclude equal contribution"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Scope (joint/several, knowledge)",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 147",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Co-sureties contribute equally inter se absent a contrary contract.",
+        "Applies regardless of joint/several form or mutual knowledge.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 146 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-146",
-    "review"
+    "source-check-required"
   ]
 }

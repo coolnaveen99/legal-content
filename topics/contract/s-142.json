@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-142",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 142 (Guarantee obtained by misrepresentation invalid)",
+  "title": "Indian Contract Act, 1872 — Section 142 (Guarantee obtained by misrepresentation invalid)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 142 of the Indian Contract Act, 1872 is headed \"Guarantee obtained by misrepresentation invalid\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 142 provides that any guarantee which has been obtained by means of misrepresentation made by the creditor, or with his knowledge and assent, concerning a material part of the transaction, is invalid.",
+    "glance": "A guarantee obtained by misrepresentation by the creditor (or with his knowledge and assent) concerning a material part of the transaction is invalid.",
+    "study": "Any guarantee which has been obtained by means of misrepresentation made by the creditor, or with his knowledge and assent, concerning a material part of the transaction, is invalid. Current-law framing: the misrepresentation must concern a material part and be by or with the knowledge and assent of the creditor.",
     "sections": [
       {
-        "heading": "Section 142",
-        "body": "Guarantee obtained by misrepresentation invalid"
+        "heading": "Core rule",
+        "body": "Any guarantee which has been obtained by means of misrepresentation made by the creditor, or with his knowledge and assent, concerning a material part of the transaction, is invalid.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Material misrepresentation by creditor",
+        "body": "Creditor misrepresents a material fact to induce the guarantee. The guarantee is invalid under Section 142."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor knowingly allows a material misrepresentation to be made to the surety. Is the guarantee valid?",
+        "analysis": "No. Section 142 invalidates a guarantee obtained by misrepresentation made by the creditor or with his knowledge and assent concerning a material part."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-143"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-142",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 142"
+      "Indian Contract Act, 1872 — Section 142"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 142's rule on invalidity for misrepresentation."
+      ],
+      "definition": "Any guarantee which has been obtained by means of misrepresentation made by the creditor, or with his knowledge and assent, concerning a material part of the transaction, is invalid.",
+      "legalPrinciple": "Guarantee obtained by material misrepresentation by or with knowledge and assent of the creditor is invalid.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 142"
+      ],
+      "essentialIngredients": [
+        "Misrepresentation concerning a material part",
+        "Made by the creditor or with his knowledge and assent"
+      ],
+      "detailedExplanation": "Section 142 renders invalid any guarantee obtained by misrepresentation made by the creditor, or with his knowledge and assent, concerning a material part of the transaction.",
+      "examples": [
+        "Material misrepresentation by the creditor invalidates the guarantee."
+      ],
+      "distinctions": [
+        "Section 142 concerns misrepresentation; Section 143 concerns concealment/keeping silence as to material circumstances."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the misrepresentation and its materiality.",
+        "Show it was by the creditor or with knowledge and assent.",
+        "Conclude invalidity."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 142",
+          "Identify material misrepresentation by/with creditor",
+          "Conclude invalid"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Materiality",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 143",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Guarantee obtained by material misrepresentation by or with knowledge and assent of the creditor is invalid.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 142 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-142",
-    "review"
+    "source-check-required"
   ]
 }
