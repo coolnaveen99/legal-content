@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-165",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 165 (Bailment by several joint owners)",
+  "title": "Indian Contract Act, 1872 — Section 165 (Bailment by several joint owners)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 165 of the Indian Contract Act, 1872 is headed \"Bailment by several joint owners\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 165 provides that if several joint owners of goods bail them, the bailee may deliver them back to, or according to the directions of, one joint owner without the consent of all, in the absence of any agreement to the contrary.",
+    "glance": "Where several joint owners bail goods, the bailee may, absent a contrary agreement, deliver them back to or according to the directions of one joint owner without the consent of all.",
+    "study": "If several joint owners of goods bail them, the bailee may deliver them back to, or according to the directions of, one joint owner without the consent of all, in the absence of any agreement to the contrary. Current-law framing: protects the bailee who deals with one joint owner in the absence of a contrary agreement.",
     "sections": [
       {
-        "heading": "Section 165",
-        "body": "Bailment by several joint owners"
+        "heading": "Core rule",
+        "body": "If several joint owners of goods bail them, the bailee may deliver them back to, or according to the directions of, one joint owner without the consent of all, in the absence of any agreement to the contrary.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Joint owners",
+        "body": "Several joint owners bail goods. Absent contrary agreement, bailee may return them to one joint owner under Section 165."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Joint owners bail goods. May the bailee return them to one owner without the others' consent?",
+        "analysis": "Yes, in the absence of any agreement to the contrary, under Section 165."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-160"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-165",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 165"
+      "Indian Contract Act, 1872 — Section 165"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 165's rule on bailment by several joint owners."
+      ],
+      "definition": "If several joint owners of goods bail them, the bailee may deliver them back to, or according to the directions of, one joint owner without the consent of all, in the absence of any agreement to the contrary.",
+      "legalPrinciple": "Absent a contrary agreement, bailee may deal with one joint owner for return of goods bailed by several joint owners.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 165"
+      ],
+      "essentialIngredients": [
+        "Several joint owners bail the goods",
+        "Absence of any agreement to the contrary",
+        "Delivery back to or according to directions of one joint owner"
+      ],
+      "detailedExplanation": "Section 165 provides that if several joint owners of goods bail them, the bailee may deliver them back to, or according to the directions of, one joint owner without the consent of all, in the absence of any agreement to the contrary.",
+      "examples": [
+        "Return to one of several joint owners is permitted absent contrary agreement."
+      ],
+      "distinctions": [
+        "Default rule protects the bailee; an agreement to the contrary controls."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify joint ownership and bailment.",
+        "Check for contrary agreement.",
+        "Conclude bailee may deliver to one joint owner."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 165",
+          "Identify joint owners and no contrary agreement",
+          "Conclude delivery to one permitted"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Absence of contrary agreement",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee may return goods to one joint owner absent a contrary agreement.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 165 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-165",
-    "review"
+    "source-check-required"
   ]
 }

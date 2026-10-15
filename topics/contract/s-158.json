@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-158",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 158 (Repayment by bailor of necessary expenses)",
+  "title": "Indian Contract Act, 1872 — Section 158 (Repayment, by bailor, of necessary expenses)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 158 of the Indian Contract Act, 1872 is headed \"Repayment by bailor of necessary expenses\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 158 provides that where, by the conditions of the bailment, the goods are to be kept or to be carried, or to have work done upon them by the bailee for the bailor, and the bailee is to receive no remuneration, the bailor shall repay to the bailee the necessary expenses incurred by him for the purpose of the bailment.",
+    "glance": "In a gratuitous bailment where the bailee keeps, carries or works on the goods without remuneration, the bailor must repay the necessary expenses incurred for the purpose of the bailment.",
+    "study": "Where, by the conditions of the bailment, the goods are to be kept or to be carried, or to have work done upon them by the bailee for the bailor, and the bailee is to receive no remuneration, the bailor shall repay to the bailee the necessary expenses incurred by him for the purpose of the bailment. Current-law framing: applies to gratuitous bailments; expenses must be necessary for the purpose.",
     "sections": [
       {
-        "heading": "Section 158",
-        "body": "Repayment by bailor of necessary expenses"
+        "heading": "Core rule",
+        "body": "Where, by the conditions of the bailment, the goods are to be kept or to be carried, or to have work done upon them by the bailee for the bailor, and the bailee is to receive no remuneration, the bailor shall repay to the bailee the necessary expenses incurred by him for the purpose of the bailment.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Gratuitous safekeeping",
+        "body": "A leaves goods with B without remuneration. B incurs necessary storage expenses. A must repay those expenses under Section 158."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee receives no remuneration and incurs necessary expenses for keeping the goods. Who must repay them?",
+        "analysis": "The bailor, under Section 158."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-148",
+      "topic:india:contract-s-151"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-158",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 158"
+      "Indian Contract Act, 1872 — Section 158"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 158's rule on repayment of necessary expenses in gratuitous bailment."
+      ],
+      "definition": "Where, by the conditions of the bailment, the goods are to be kept or to be carried, or to have work done upon them by the bailee for the bailor, and the bailee is to receive no remuneration, the bailor shall repay to the bailee the necessary expenses incurred by him for the purpose of the bailment.",
+      "legalPrinciple": "In gratuitous bailments for keeping, carrying or work, the bailor must repay necessary expenses incurred by the bailee.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 158"
+      ],
+      "essentialIngredients": [
+        "Goods to be kept, carried or worked upon by bailee for bailor",
+        "Bailee receives no remuneration",
+        "Necessary expenses incurred for the purpose of the bailment"
+      ],
+      "detailedExplanation": "Section 158 requires the bailor to repay necessary expenses incurred by the bailee where the bailment is gratuitous and the goods are to be kept, carried or have work done upon them. It protects the unpaid bailee from bearing necessary costs.",
+      "examples": [
+        "Necessary storage or upkeep costs in a free bailment must be repaid by the bailor."
+      ],
+      "distinctions": [
+        "Applies only where no remuneration is to be received; remunerated bailments are governed by the contract."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm the bailment is gratuitous.",
+        "Identify necessary expenses for the purpose.",
+        "Conclude bailor must repay."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 158",
+          "Identify gratuitous nature and necessary expenses",
+          "Conclude repayment by bailor"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Conditions",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailor must repay necessary expenses in specified gratuitous bailments.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 158 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-158",
-    "review"
+    "source-check-required"
   ]
 }

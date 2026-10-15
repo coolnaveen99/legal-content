@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-161",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 161 (Bailee's responsibility when goods are not duly returned)",
+  "title": "Indian Contract Act, 1872 — Section 161 (Bailee's responsibility when goods are not duly returned)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 161 of the Indian Contract Act, 1872 is headed \"Bailee's responsibility when goods are not duly returned\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 161 provides that if, by the default of the bailee, the goods are not returned, delivered or tendered at the proper time, he is responsible to the bailor for any loss, destruction or deterioration of the goods from that time.",
+    "glance": "If the bailee defaults in returning, delivering or tendering the goods at the proper time, he is responsible for any subsequent loss, destruction or deterioration.",
+    "study": "If, by the default of the bailee, the goods are not returned, delivered or tendered at the proper time, he is responsible to the bailor for any loss, destruction or deterioration of the goods from that time. Current-law framing: default triggers liability from the proper time onward for subsequent loss etc.",
     "sections": [
       {
-        "heading": "Section 161",
-        "body": "Bailee's responsibility when goods are not duly returned"
+        "heading": "Core rule",
+        "body": "If, by the default of the bailee, the goods are not returned, delivered or tendered at the proper time, he is responsible to the bailor for any loss, destruction or deterioration of the goods from that time.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Default in timely return",
+        "body": "Bailee fails to return goods at the proper time. Goods are later destroyed. Bailee is responsible for the loss from the proper time under Section 161."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee defaults in returning the goods at the proper time and they are subsequently lost. Is he liable?",
+        "analysis": "Yes. Section 161 makes him responsible for any loss, destruction or deterioration from that time."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-160"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-161",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 161"
+      "Indian Contract Act, 1872 — Section 161"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 161's rule on liability for default in timely return."
+      ],
+      "definition": "If, by the default of the bailee, the goods are not returned, delivered or tendered at the proper time, he is responsible to the bailor for any loss, destruction or deterioration of the goods from that time.",
+      "legalPrinciple": "Default in timely return makes the bailee responsible for subsequent loss, destruction or deterioration.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 161"
+      ],
+      "essentialIngredients": [
+        "Default of the bailee in returning, delivering or tendering at the proper time",
+        "Subsequent loss, destruction or deterioration"
+      ],
+      "detailedExplanation": "Section 161 provides that if by the default of the bailee the goods are not returned, delivered or tendered at the proper time, he is responsible to the bailor for any loss, destruction or deterioration of the goods from that time.",
+      "examples": [
+        "Failure to return on time followed by loss — bailee liable from the proper time."
+      ],
+      "distinctions": [
+        "Section 161 is the consequence of default under the Section 160 duty."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify default in timely return/delivery/tender.",
+        "Identify subsequent loss etc.",
+        "Conclude liability from the proper time."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 161",
+          "Identify default and subsequent loss",
+          "Conclude liability"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "From that time",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 160",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Default in timely return makes bailee responsible for subsequent loss, destruction or deterioration.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 161 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-161",
-    "review"
+    "source-check-required"
   ]
 }

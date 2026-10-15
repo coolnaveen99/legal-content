@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-163",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 163 (Bailor entitled to increase or profit from goods bailed)",
+  "title": "Indian Contract Act, 1872 — Section 163 (Bailor entitled to increase or profit from goods bailed)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 163 of the Indian Contract Act, 1872 is headed \"Bailor entitled to increase or profit from goods bailed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 163 provides that in the absence of any contract to the contrary, the bailee is bound to deliver to the bailor, or according to his directions, any increase or profit which may have accrued from the goods bailed.",
+    "glance": "Absent a contrary contract, the bailee must deliver to the bailor any increase or profit accruing from the goods bailed.",
+    "study": "In the absence of any contract to the contrary, the bailee is bound to deliver to the bailor, or according to his directions, any increase or profit which may have accrued from the goods bailed. Current-law framing: accretions and profits belong to the bailor unless the contract provides otherwise.",
     "sections": [
       {
-        "heading": "Section 163",
-        "body": "Bailor entitled to increase or profit from goods bailed"
+        "heading": "Core rule",
+        "body": "In the absence of any contract to the contrary, the bailee is bound to deliver to the bailor, or according to his directions, any increase or profit which may have accrued from the goods bailed.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Offspring of bailed animal",
+        "body": "Absent contrary contract, any increase (such as offspring) or profit from bailed goods must be delivered to the bailor under Section 163."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Goods bailed produce an increase. Who is entitled to it absent a contrary contract?",
+        "analysis": "The bailor, under Section 163; the bailee must deliver it according to directions."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-160"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-163",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 163"
+      "Indian Contract Act, 1872 — Section 163"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 163's rule on increase or profit from bailed goods."
+      ],
+      "definition": "In the absence of any contract to the contrary, the bailee is bound to deliver to the bailor, or according to his directions, any increase or profit which may have accrued from the goods bailed.",
+      "legalPrinciple": "Absent a contrary contract, increase or profit from bailed goods belongs to the bailor.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 163"
+      ],
+      "essentialIngredients": [
+        "Absence of any contract to the contrary",
+        "Increase or profit accruing from the goods bailed"
+      ],
+      "detailedExplanation": "Section 163 provides that, in the absence of any contract to the contrary, the bailee is bound to deliver to the bailor, or according to his directions, any increase or profit which may have accrued from the goods bailed.",
+      "examples": [
+        "Offspring or other accretion must be delivered to the bailor unless the contract says otherwise."
+      ],
+      "distinctions": [
+        "Default rule is delivery to bailor; contract may provide otherwise."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify increase or profit.",
+        "Check for contrary contract.",
+        "Conclude delivery to bailor."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 163",
+          "Identify increase/profit and no contrary contract",
+          "Conclude delivery to bailor"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Absence of contrary contract",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee must deliver increase or profit to the bailor absent a contrary contract.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 163 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-163",
-    "review"
+    "source-check-required"
   ]
 }

@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-162",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 162 (Termination of gratuitous bailment by death)",
+  "title": "Indian Contract Act, 1872 — Section 162 (Termination of gratuitous bailment by death)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 162 of the Indian Contract Act, 1872 is headed \"Termination of gratuitous bailment by death\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 162 provides that a gratuitous bailment is terminated by the death either of the bailor or of the bailee.",
+    "glance": "A gratuitous bailment is terminated by the death of either the bailor or the bailee.",
+    "study": "A gratuitous bailment is terminated by the death either of the bailor or of the bailee. Current-law framing: death of either party ends a gratuitous bailment automatically.",
     "sections": [
       {
-        "heading": "Section 162",
-        "body": "Termination of gratuitous bailment by death"
+        "heading": "Core rule",
+        "body": "A gratuitous bailment is terminated by the death either of the bailor or of the bailee.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Death terminates gratuitous bailment",
+        "body": "A gratuitous bailment ends upon the death of the bailor or the bailee under Section 162."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the death of the bailee terminate a gratuitous bailment?",
+        "analysis": "Yes. Section 162 provides that a gratuitous bailment is terminated by the death of either party."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-159"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-162",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 162"
+      "Indian Contract Act, 1872 — Section 162"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 162's rule on termination of gratuitous bailment by death."
+      ],
+      "definition": "A gratuitous bailment is terminated by the death either of the bailor or of the bailee.",
+      "legalPrinciple": "Death of either the bailor or the bailee terminates a gratuitous bailment.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 162"
+      ],
+      "essentialIngredients": [
+        "Gratuitous bailment",
+        "Death of bailor or bailee"
+      ],
+      "detailedExplanation": "Section 162 provides that a gratuitous bailment is terminated by the death either of the bailor or of the bailee. It applies specifically to gratuitous bailments.",
+      "examples": [
+        "Death of either party ends a free bailment."
+      ],
+      "distinctions": [
+        "Specific to gratuitous bailments; other bailments may continue or be governed by contract or succession rules."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm the bailment is gratuitous.",
+        "Identify death of a party.",
+        "Conclude termination."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 162",
+          "Identify gratuitous and death",
+          "Conclude termination"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Scope",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Gratuitous bailment is terminated by death of bailor or bailee.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 162 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-162",
-    "review"
+    "source-check-required"
   ]
 }

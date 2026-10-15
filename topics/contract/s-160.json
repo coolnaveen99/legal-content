@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-160",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 160 (Return of goods bailed on expiration or accomplishment of purpose)",
+  "title": "Indian Contract Act, 1872 — Section 160 (Return of goods bailed, on expiration of time or accomplishment of purpose)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 160 of the Indian Contract Act, 1872 is headed \"Return of goods bailed on expiration or accomplishment of purpose\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 160 provides that it is the duty of the bailee to return, or deliver according to the bailor’s directions, the goods bailed, without demand, as soon as the time for which they were bailed has expired, or the purpose for which they were bailed has been accomplished.",
+    "glance": "Bailee must return or deliver the goods according to the bailor’s directions, without demand, as soon as the time expires or the purpose is accomplished.",
+    "study": "It is the duty of the bailee to return, or deliver according to the bailor’s directions, the goods bailed, without demand, as soon as the time for which they were bailed has expired, or the purpose for which they were bailed has been accomplished. Current-law framing: automatic duty on expiration or accomplishment; no demand required.",
     "sections": [
       {
-        "heading": "Section 160",
-        "body": "Return of goods bailed on expiration or accomplishment of purpose"
+        "heading": "Core rule",
+        "body": "It is the duty of the bailee to return, or deliver according to the bailor’s directions, the goods bailed, without demand, as soon as the time for which they were bailed has expired, or the purpose for which they were bailed has been accomplished.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Expiration of time",
+        "body": "Goods bailed for a fixed period. On expiry, bailee must return them without demand under Section 160."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Purpose of bailment is accomplished. Must the bailee wait for a demand before returning the goods?",
+        "analysis": "No. Section 160 requires return or delivery according to directions without demand as soon as the purpose is accomplished."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-161"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-160",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 160"
+      "Indian Contract Act, 1872 — Section 160"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 160's duty to return goods without demand on expiration or accomplishment."
+      ],
+      "definition": "It is the duty of the bailee to return, or deliver according to the bailor’s directions, the goods bailed, without demand, as soon as the time for which they were bailed has expired, or the purpose for which they were bailed has been accomplished.",
+      "legalPrinciple": "Bailee must return or deliver goods without demand upon expiry of time or accomplishment of purpose.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 160"
+      ],
+      "essentialIngredients": [
+        "Time expired or purpose accomplished",
+        "Duty to return or deliver according to directions without demand"
+      ],
+      "detailedExplanation": "Section 160 imposes a duty on the bailee to return or deliver the goods according to the bailor’s directions, without demand, as soon as the agreed time expires or the purpose is accomplished.",
+      "examples": [
+        "Automatic return duty on expiry or completion."
+      ],
+      "distinctions": [
+        "Section 160 is the affirmative duty; Section 161 addresses liability for default in timely return."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify expiry or accomplishment.",
+        "Conclude duty to return without demand."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 160",
+          "Identify expiry/accomplishment",
+          "Conclude duty without demand"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Without demand",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 161",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee must return goods without demand on expiry or accomplishment of purpose.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 160 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-160",
-    "review"
+    "source-check-required"
   ]
 }

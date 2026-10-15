@@ -2,40 +2,121 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-159",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 159 (Restoration of goods lent gratuitously)",
+  "title": "Indian Contract Act, 1872 — Section 159 (Restoration of goods lent gratuitously)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 159 of the Indian Contract Act, 1872 is headed \"Restoration of goods lent gratuitously\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 159 provides that the lender of a thing for use may at any time require its return, if the loan was gratuitous, even though he lent it for a specified time or purpose. But if, on the faith of such loan made for a specified time or purpose, the borrower has acted in such a manner that the return of the thing lent before the time agreed upon would cause him loss exceeding the benefit actually derived by him from the loan, the lender must, if he compels the return, indemnify the borrower for the amount in which the loss so occasioned exceeds the benefit so derived.",
+    "glance": "Lender of a gratuitous loan may demand return at any time, even if lent for a fixed period or purpose, but must indemnify the borrower for excess loss if early return causes greater loss than benefit derived.",
+    "study": "The lender of a thing for use may at any time require its return, if the loan was gratuitous, even though he lent it for a specified time or purpose. But if, on the faith of such loan made for a specified time or purpose, the borrower has acted in such a manner that the return of the thing lent before the time agreed upon would cause him loss exceeding the benefit actually derived by him from the loan, the lender must, if he compels the return, indemnify the borrower for the amount in which the loss so occasioned exceeds the benefit so derived. Current-law framing: absolute right to demand return of gratuitous loan, tempered by indemnity for excess reliance loss.",
     "sections": [
       {
-        "heading": "Section 159",
-        "body": "Restoration of goods lent gratuitously"
+        "heading": "Right to require return",
+        "body": "The lender of a thing for use may at any time require its return, if the loan was gratuitous, even though he lent it for a specified time or purpose.",
+        "order": 1
+      },
+      {
+        "heading": "Indemnity for excess loss",
+        "body": "But if, on the faith of such loan made for a specified time or purpose, the borrower has acted in such a manner that the return of the thing lent before the time agreed upon would cause him loss exceeding the benefit actually derived by him from the loan, the lender must, if he compels the return, indemnify the borrower for the amount in which the loss so occasioned exceeds the benefit so derived.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Gratuitous loan with reliance",
+        "body": "A lends a machine free for six months. B incurs expenses relying on the period. A demands early return. If loss exceeds benefit, A must indemnify the excess under Section 159."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Lender demands early return of a gratuitous loan after the borrower has acted in reliance. What is the consequence?",
+        "analysis": "Lender may demand return, but must indemnify the borrower for excess loss over benefit derived, under Section 159."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-158",
+      "topic:india:contract-s-162"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-159",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 159"
+      "Indian Contract Act, 1872 — Section 159"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 159's rule on early return of gratuitous loans and the indemnity condition."
+      ],
+      "definition": "The lender of a thing for use may at any time require its return, if the loan was gratuitous, even though he lent it for a specified time or purpose. But if, on the faith of such loan made for a specified time or purpose, the borrower has acted in such a manner that the return of the thing lent before the time agreed upon would cause him loss exceeding the benefit actually derived by him from the loan, the lender must, if he compels the return, indemnify the borrower for the amount in which the loss so occasioned exceeds the benefit so derived.",
+      "legalPrinciple": "Gratuitous lender may demand return at any time but must indemnify excess reliance loss.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 159"
+      ],
+      "essentialIngredients": [
+        "Gratuitous loan for use",
+        "Right to demand return at any time",
+        "Indemnity if early return causes loss exceeding benefit derived"
+      ],
+      "detailedExplanation": "Section 159 allows the lender of a gratuitous loan to require return at any time, even if lent for a specified time or purpose. However, if the borrower has acted in reliance so that early return causes loss exceeding the benefit derived, the lender must indemnify the excess if he compels return.",
+      "examples": [
+        "Early demand of free loan after reliance — indemnity for excess loss."
+      ],
+      "distinctions": [
+        "Applies to gratuitous loans for use; distinct from general return duties under Section 160."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm loan is gratuitous.",
+        "Identify reliance and excess loss.",
+        "Conclude right to demand return subject to indemnity."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 159",
+          "Identify gratuitous nature and reliance",
+          "Conclude right with indemnity"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Indemnity condition",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Gratuitous lender may demand return anytime.",
+        "Must indemnify excess loss from early return if borrower relied.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 159 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-159",
-    "review"
+    "source-check-required"
   ]
 }

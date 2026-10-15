@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-164",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 164 (Bailor's responsibility to bailee)",
+  "title": "Indian Contract Act, 1872 — Section 164 (Bailor's responsibility to bailee)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 164 of the Indian Contract Act, 1872 is headed \"Bailor's responsibility to bailee\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 164 provides that the bailor is responsible to the bailee for any loss which the bailee may sustain by reason that the bailor was not entitled to make the bailment, or to receive back the goods, or to give directions respecting them.",
+    "glance": "Bailor is responsible to the bailee for loss sustained because the bailor was not entitled to make the bailment, receive back the goods, or give directions respecting them.",
+    "study": "The bailor is responsible to the bailee for any loss which the bailee may sustain by reason that the bailor was not entitled to make the bailment, or to receive back the goods, or to give directions respecting them. Current-law framing: protects the bailee who acts on the bailor's apparent authority or title.",
     "sections": [
       {
-        "heading": "Section 164",
-        "body": "Bailor's responsibility to bailee"
+        "heading": "Core rule",
+        "body": "The bailor is responsible to the bailee for any loss which the bailee may sustain by reason that the bailor was not entitled to make the bailment, or to receive back the goods, or to give directions respecting them.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Bailor without title",
+        "body": "Bailor bails goods he is not entitled to bail. Bailee suffers loss as a result. Bailor is responsible under Section 164."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee suffers loss because the bailor was not entitled to make the bailment. Is the bailor responsible?",
+        "analysis": "Yes. Section 164 makes the bailor responsible for such loss."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-148"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-164",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 164"
+      "Indian Contract Act, 1872 — Section 164"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 164's rule on the bailor's responsibility to the bailee."
+      ],
+      "definition": "The bailor is responsible to the bailee for any loss which the bailee may sustain by reason that the bailor was not entitled to make the bailment, or to receive back the goods, or to give directions respecting them.",
+      "legalPrinciple": "Bailor is responsible for loss to the bailee arising from the bailor's lack of entitlement to bail, receive back, or direct.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 164"
+      ],
+      "essentialIngredients": [
+        "Loss sustained by the bailee",
+        "By reason that the bailor was not entitled to make the bailment, receive back the goods, or give directions"
+      ],
+      "detailedExplanation": "Section 164 makes the bailor responsible to the bailee for any loss which the bailee may sustain by reason that the bailor was not entitled to make the bailment, or to receive back the goods, or to give directions respecting them.",
+      "examples": [
+        "Bailor without title causes loss to bailee — bailor responsible."
+      ],
+      "distinctions": [
+        "Protects the bailee against defects in the bailor's title or authority."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the bailee's loss.",
+        "Show it arose because the bailor lacked entitlement.",
+        "Conclude responsibility under Section 164."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 164",
+          "Identify lack of entitlement and loss",
+          "Conclude responsibility"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Scope of entitlement",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailor is responsible for loss to bailee caused by bailor's lack of entitlement to bail, receive or direct.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 164 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-164",
-    "review"
+    "source-check-required"
   ]
 }
