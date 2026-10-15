@@ -46,13 +46,13 @@ No invented legal authority. No destructive shortening. Verify before enhancemen
 ## Work claim record
 Subject: Indian Contract Act, 1872
 Topic/section range: s.128 (surety's liability)
-Current main commit: 5835612bf5e86e413e515d12b193d6d0e213b09e
-Current status: review / SOURCE_CHECK_REQUIRED
+Current main commit at claim: 3968fb82bb192f7545eb585f7100d444384987ac
+Current topic status: review; existing standalone canonical topic is a short catalog stub
 Current owner: current-assistant-contract-s128-forward
-Latest evidence: official India Code section 128 co-extensive liability rule and statutory illustration (bill of exchange) aligned; direct main commit
-Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains); repository-wide validators not run this session
-Planned change: source-aligned substantive content for s.128
-Validation: content aligned to statutory text; no invented citations
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/5835612bf5e86e413e515d12b193d6d0e213b09e
+Latest evidence: official India Code Act PDF opened; Section 128 and its statutory illustration are visible at extracted lines 1479–1483. Recent commits for the exact standalone ICA s.128 topic were checked; no matching recent s.128 topic commit was returned.
+Missing gate: replace the standalone stub with source-aligned substantive explanation, record source evidence, run available topic/schema/manifest/full-catalog validation and keep legal sign-off open.
+Planned change: expand only topics/contract/s-128.json; preserve existing topic identity and the separate combined Sections 126–131 topic.
+Validation: pre-edit topic inspected; status/ownership checked; no case authority to be added without authoritative judgment verification.
+Evidence: https://github.com/coolnaveen99/legal-content/blob/main/topics/contract/s-128.json; official statutory source https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf
 
 If any field cannot be established, STOP.
