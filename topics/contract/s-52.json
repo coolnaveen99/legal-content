@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-52",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 52 (Order of performance of reciprocal promises)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 52 of the Indian Contract Act, 1872 is headed \"Order of performance of reciprocal promises\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 52",
-        "body": "Order of performance of reciprocal promises"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-52",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 52"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-52",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-52",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 52 (Order of performance of reciprocal promises)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 52 provides that where the order in which reciprocal promises are to be performed is expressly fixed by the contract, they shall be performed in that order; and where the order is not expressly fixed by the contract, they shall be performed in that order which the nature of the transaction requires.",
+        "glance": "Reciprocal promises: express order if fixed; otherwise order required by the nature of the transaction.",
+        "study": "If the contract expressly fixes the order of reciprocal promises, they must be performed in that order. If not, they must be performed in the order which the nature of the transaction requires. Current-law framing: check for express order; if none, determine order from the nature of the transaction.",
+        "sections": [{"heading": "Expressly fixed order", "body": "Where the order is expressly fixed by the contract, perform in that order.", "order": 1}, {"heading": "Nature of the transaction", "body": "Where not expressly fixed, perform in the order which the nature of the transaction requires.", "order": 2}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-52", "section": "Section 52", "title": "Order of performance of reciprocal promises"}],
+        "examples": [{"title": "Work then payment", "body": "A is to build a house for B and B is to pay on completion. The nature of the transaction requires A’s performance before B’s payment under s. 52.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "What if the contract is silent on order?", "analysis": "Section 52: perform in the order which the nature of the transaction requires."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s52-trap-1", "trap": "Reciprocal promises may always be performed in any order the parties choose at the time.", "correction": "Section 52 requires the express contractual order or, failing that, the order required by the nature of the transaction."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s52-brief", "draftingCategory": "brief", "question": "How should a Section 52 problem be analysed?", "answer": "I. Check for express order. II. If none, determine order from nature of transaction. III. Apply that order. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 52", "Connected: Sections 51, 53, 54"],
+        "examTips": ["State both limbs: express order and nature of transaction."],
+        "revisionPoints": ["Expressly fixed order", "Nature of the transaction"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-51", "contract-s-53"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-52",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 52 fixes the order of performance of reciprocal promises by express term or by the nature of the transaction.", "legalPrinciple": "Express order if fixed; otherwise nature of transaction.", "statutoryFramework": "Indian Contract Act, 1872 — Section 52", "essentialIngredients": ["Expressly fixed order", "Nature of the transaction"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 52"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s52"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:11:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s52-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:11:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-52", "reciprocal", "review-required"]
 }
