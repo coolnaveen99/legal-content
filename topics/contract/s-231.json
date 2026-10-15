@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-231",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 231 (Rights of parties to contract made by agent not disclosed)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 231 of the Indian Contract Act, 1872 is headed \"Rights of parties to contract made by agent not disclosed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 231",
-        "body": "Rights of parties to contract made by agent not disclosed"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-231",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 231 (Rights of parties to contract made by agent not disclosed)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 231 provides that if an agent makes a contract with a person who neither knows, nor has reason to suspect, that he is an agent, his principal may require the performance of the contract; but the other contracting party has, as against the principal, the same rights as he would have had as against the agent if the agent had been principal. If the principal discloses himself before the contract is completed, the other contracting party may refuse to fulfil the contract if he can show that, had he known who the principal was or that the agent was not a principal, he would not have entered into the contract.",
+        "glance": "Undisclosed principal may enforce; third party has same rights against principal as against agent; pre-completion disclosure may allow refusal.",
+        "study": "Where an agent contracts with a person who neither knows nor has reason to suspect that he is an agent, the principal may require performance of the contract; the other party has against the principal the same rights as against the agent if the agent had been principal. If the principal discloses himself before the contract is completed, the other party may refuse to fulfil if he can show that knowledge of the true principal (or that the agent was not principal) would have led him not to contract. Current-law framing: test knowledge/suspicion of agency; apply principal’s enforcement right and reciprocal rights of the third party; apply the pre-completion disclosure refusal rule where relevant.",
+        "sections": [
+            {
+                "heading": "Undisclosed agency — principal may require performance",
+                "body": "Where the other party neither knows nor has reason to suspect agency, the principal may require performance of the contract.",
+                "order": 1
+            },
+            {
+                "heading": "Third party’s reciprocal rights",
+                "body": "The other contracting party has against the principal the same rights as he would have had against the agent if the agent had been principal.",
+                "order": 2
+            },
+            {
+                "heading": "Disclosure before completion — possible refusal",
+                "body": "If the principal discloses himself before the contract is completed, the other party may refuse to fulfil if knowledge of the principal (or that the agent was not principal) would have led him not to contract.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-231",
+                "section": "Section 231",
+                "title": "Rights of parties to a contract made by agent not disclosed"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Undisclosed principal enforces",
+                "body": "Agent contracts with B who neither knows nor suspects agency. Principal may require performance; B has the same rights against the principal as against the agent.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Can the third party always refuse once the principal is disclosed?",
+                "analysis": "Only if disclosure occurs before the contract is completed and the third party can show that knowledge of the principal (or that the agent was not principal) would have led him not to enter the contract."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s231-vs-s232",
+                "title": "Undisclosed agency rights (s. 231) vs performance subject to equities (s. 232)",
+                "left": "Principal may require performance; reciprocal rights of third party",
+                "right": "Principal’s enforcement subject to agent–third party rights and obligations",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Mutual rights",
+                        "right": "Qualification of enforcement"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s231-trap-1",
+                "trap": "An undisclosed principal can never enforce a contract made by the agent.",
+                "correction": "Section 231 expressly allows the principal to require performance where the other party neither knew nor had reason to suspect agency."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s231-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 231 problem be analysed?",
+                "answer": "I. Test knowledge/suspicion of agency. II. Apply principal’s enforcement and third party’s reciprocal rights. III. Apply pre-completion disclosure refusal if relevant. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 231",
+            "Connected: Sections 232, 230"
+        ],
+        "examTips": [
+            "State both paragraphs of the section.",
+            "Link s. 232 as a qualification of the principal’s right."
+        ],
+        "revisionPoints": [
+            "Undisclosed agency — principal may require performance",
+            "Third party’s reciprocal rights",
+            "Disclosure before completion — possible refusal"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-232",
+            "contract-s-230"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-231",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 231 regulates rights of the undisclosed principal and the other contracting party, including a limited right to refuse on pre-completion disclosure of the principal.",
+            "legalPrinciple": "Undisclosed principal may enforce; third party has reciprocal rights; pre-completion disclosure may allow refusal.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 231",
+            "essentialIngredients": [
+                "Undisclosed agency — principal may require performance",
+                "Third party’s reciprocal rights",
+                "Disclosure before completion — possible refusal"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 231"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 231. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s231-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:42:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s231-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-231",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 231"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-231",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:42:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-231",
+        "agency",
+        "review-required"
+    ]
 }
