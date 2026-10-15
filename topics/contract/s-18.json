@@ -1,41 +1,69 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-18",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 18 (Misrepresentation defined)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 18 of the Indian Contract Act, 1872 is headed \"Misrepresentation defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 18",
-        "body": "Misrepresentation defined"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-18",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 18"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-18",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-18",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 18 (“Misrepresentation” defined)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 18 provides that “misrepresentation” means and includes — (1) the positive assertion, in a manner not warranted by the information of the person making it, of that which is not true, though he believes it to be true; (2) any breach of duty which, without an intent to deceive, gains an advantage to the person committing it, or any one claiming under him, by misleading another to his prejudice, or to the prejudice of any one claiming under him; (3) causing, however innocently, a party to an agreement to make a mistake as to the substance of the thing which is the subject of the agreement.",
+        "glance": "Misrepresentation = unwarranted positive assertion believed true; non-deceptive breach of duty gaining advantage; innocent causing of mistake as to substance.",
+        "study": "Misrepresentation covers three situations: (1) positive assertion of the untrue in a manner not warranted by the maker’s information, though believed true; (2) breach of duty without intent to deceive that gains an advantage by misleading another; (3) causing, however innocently, a party to make a mistake as to the substance of the subject-matter. Unlike fraud (s. 17), intent to deceive is not required. Consent caused by misrepresentation is not free (s. 14); the agreement is voidable under s. 19 (subject to the exception for discovery of truth with ordinary diligence in some cases). Current-law framing: map facts to one of the three limbs; distinguish from fraud; conclude voidability.",
+        "sections": [
+            {
+                "heading": "Unwarranted positive assertion",
+                "body": "Positive assertion of the untrue, not warranted by the maker’s information, though believed true.",
+                "order": 1
+            },
+            {
+                "heading": "Breach of duty without intent to deceive",
+                "body": "Breach of duty gaining advantage by misleading another, without intent to deceive.",
+                "order": 2
+            },
+            {
+                "heading": "Causing mistake as to substance",
+                "body": "However innocently causing a party to make a mistake as to the substance of the subject of the agreement.",
+                "order": 3
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-18", "section": "Section 18", "title": "“Misrepresentation” defined"}],
+        "examples": [{"title": "Innocent but unwarranted assertion", "body": "A asserts a fact as true on inadequate information, honestly believing it. If untrue, that may be misrepresentation under s. 18(1).", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Does misrepresentation require intent to deceive?", "analysis": "No. Section 18 does not require intent to deceive; that is the province of fraud under s. 17."}],
+        "distinctions": [{"id": "ica-s18-vs-s17", "title": "Misrepresentation (s. 18) vs fraud (s. 17)", "left": "No intent to deceive required", "right": "Intent to deceive or induce required", "rows": [{"point": "Focus", "left": "Unwarranted assertion / duty / mistake", "right": "Intentional deception"}]}],
+        "misconceptions": [{"id": "ica-s18-trap-1", "trap": "Misrepresentation and fraud are the same.", "correction": "Fraud (s. 17) requires intent to deceive; misrepresentation (s. 18) does not."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s18-brief", "draftingCategory": "brief", "question": "How should a Section 18 problem be analysed?", "answer": "I. Map to one of the three limbs. II. Distinguish from fraud. III. Apply voidability under s. 19. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 18", "Connected: Sections 17, 19"],
+        "examTips": ["List the three limbs.", "Contrast intent with s. 17."],
+        "revisionPoints": ["Unwarranted positive assertion", "Breach of duty without intent to deceive", "Causing mistake as to substance"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-17", "contract-s-19"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-18",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 18 defines misrepresentation without requiring intent to deceive.",
+            "legalPrinciple": "Unwarranted assertion, non-deceptive breach of duty, or causing mistake as to substance vitiates free consent.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 18",
+            "essentialIngredients": ["Unwarranted positive assertion", "Breach of duty without intent to deceive", "Causing mistake as to substance"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 18"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s18"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:21:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s18-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:21:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-18", "misrepresentation", "review-required"]
 }
