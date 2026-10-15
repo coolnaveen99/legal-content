@@ -11,15 +11,15 @@
 ### Indian Contract Act, 1872 — ACTIVE
 | Range | Status |
 |-------|--------|
-| **s.238 → s.228** | **Done (review)** — Agency reverse-order |
+| **s.238 → s.225** | **Done (review)** — Agency reverse-order |
 
 ### Latest Contract commits (this bulk)
-- s.230 Agent cannot personally enforce/be bound: `62d724ebe794495929b74e6e99e659f3db8fc63d`
-- s.229 Consequences of notice given to agent: `efa25c043ad10c14b05d8165bb2623c6c9f948e1`
-- s.228 Principal not bound when excess not separable: `5576a436ce952e34698d8ad81286b2da1186a368`
+- s.227 Principal how far bound when agent exceeds authority: expanded on main
+- s.226 Enforcement and consequences of agent’s contracts: expanded on main
+- s.225 Compensation to agent for injury caused by principal’s neglect: `608645d38ca692dfde6d33cfe3c219569bbb553b`
 
 ### Next
-Continue Contract Act reverse-order from **s.227** downward (Agency). Company case-law further batches remain open.
+Continue Contract Act reverse-order from **s.224** downward (Agency — indemnity of agent).
 
 ---
 
@@ -39,18 +39,18 @@ Continue Contract Act reverse-order from **s.227** downward (Agency). Company ca
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Active subject:** Indian Contract Act, 1872 — reverse-order from s.227 downward.
+**Active subject:** Indian Contract Act, 1872 — reverse-order from s.224 downward.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.230–s.228 (Agency reverse-order bulk)
-Current main commit: 5576a436ce952e34698d8ad81286b2da1186a368
+Topic/section range: s.227–s.225 (Agency reverse-order bulk)
+Current main commit: 608645d38ca692dfde6d33cfe3c219569bbb553b
 Current status: review / SOURCE_CHECK_REQUIRED
 Current owner: current-assistant-contract-reverse
-Latest evidence: s.230, s.229, s.228 expanded from catalog stubs to official India Code text including illustrations/presumptions
+Latest evidence: s.227, s.226, s.225 expanded from catalog stubs to official India Code text including illustrations
 Missing gate: full case-law verification and final lock
 Planned change: Contract Act reverse-order source alignment of catalog stubs
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 62d724ebe794495929b74e6e99e659f3db8fc63d; efa25c043ad10c14b05d8165bb2623c6c9f948e1; 5576a436ce952e34698d8ad81286b2da1186a368
+Evidence/commit: 608645d38ca692dfde6d33cfe3c219569bbb553b
 
 If any field cannot be established, STOP.
