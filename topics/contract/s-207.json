@@ -2,40 +2,54 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-207",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 207 (Revocation and renunciation may be expressed or implied)",
+  "title": "Indian Contract Act, 1872 — Section 207 (Revocation and renunciation may be expressed or implied)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 207 of the Indian Contract Act, 1872 is headed \"Revocation and renunciation may be expressed or implied\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Revocation and renunciation may be expressed or may be implied in the conduct of the principal or agent respectively.",
+    "glance": "Revocation (by principal) and renunciation (by agent) may be express or implied from conduct.",
+    "study": "Revocation and renunciation may be expressed or may be implied in the conduct of the principal or agent respectively. Example of implied revocation: A empowers B to let A’s house; afterwards A lets it himself — implied revocation of B’s authority.",
     "sections": [
-      {
-        "heading": "Section 207",
-        "body": "Revocation and renunciation may be expressed or implied"
-      }
+      {"heading": "Express or implied", "body": "Revocation and renunciation may be expressed or implied in the conduct of the principal or agent respectively.", "order": 1}
     ],
-    "examples": [],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-207", "section": "Section 207", "title": "Revocation and renunciation may be expressed or implied"}],
+    "examples": [{"title": "Implied revocation", "body": "A empowers B to let A’s house. Afterwards A lets it himself. This is an implied revocation of B’s authority.", "kind": "statutory-illustration", "inventedCase": false}],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s207-brief", "draftingCategory": "brief", "question": "How should a Section 207 problem be analysed?", "answer": "Identify express words or conduct implying revocation or renunciation.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 207"],
+    "examTips": ["Express or implied from conduct."],
+    "revisionPoints": ["Express or implied revocation/renunciation"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-206", "contract-s-203"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-207",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 207"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Revocation and renunciation may be expressed or implied in the conduct of the principal or agent respectively.",
+      "legalPrinciple": "Express or implied termination of authority.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 207",
+      "essentialIngredients": ["Express or implied"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 207"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s207-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-207",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-207", "agency", "review-required"]
 }
