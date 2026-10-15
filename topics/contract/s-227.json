@@ -2,40 +2,158 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-227",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 227 (Principal how far bound when agent exceeds authority)",
+  "title": "Indian Contract Act, 1872 — Section 227 (Principal how far bound, when agent exceeds authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 227 of the Indian Contract Act, 1872 is headed \"Principal how far bound when agent exceeds authority\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 227 provides that when an agent does more than he is authorised to do, and the part within authority can be separated from the part beyond authority, so much only as is within authority is binding as between the agent and the principal.",
+    "glance": "Separable excess of authority → only the authorised part binds as between agent and principal.",
+    "study": "When an does more than authorised, and the authorised part can be separated from the excess, only the authorised part is binding as between agent and principal. Illustration: A, owner of a ship and cargo, authorises B to procure insurance for 4,000 rupees on the ship; B procures a policy for 4,000 rupees on the ship and another for the like sum on the cargo; A is bound to pay the premium for the ship policy, but not for the cargo policy. Contrast s. 228 (inseparable excess — principal not bound to recognise the transaction).",
     "sections": [
       {
-        "heading": "Section 227",
-        "body": "Principal how far bound when agent exceeds authority"
+        "heading": "Excess of authority",
+        "body": "The agent does more than he is authorised to do.",
+        "order": 1
+      },
+      {
+        "heading": "Separability",
+        "body": "The part within authority can be separated from the part beyond authority.",
+        "order": 2
+      },
+      {
+        "heading": "Only authorised part binds",
+        "body": "So much only as is within authority is binding as between the agent and the principal.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-227",
+        "section": "Section 227",
+        "title": "Principal how far bound, when agent exceeds authority"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Statutory illustration — ship and cargo insurance",
+        "body": "A authorises B to insure the ship for 4,000 rupees. B also insures the cargo for 4,000 rupees. A is bound only for the ship premium, not the cargo premium.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "If the excess cannot be separated, does s. 227 apply?",
+        "analysis": "No. Inseparable excess is governed by s. 228 — the principal is not bound to recognise the transaction."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s227-vs-s228",
+        "title": "Separable excess (s. 227) vs inseparable excess (s. 228)",
+        "left": "Only authorised part binds",
+        "right": "Principal not bound to recognise the transaction",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Separability",
+            "right": "Inseparability"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s227-trap-1",
+        "trap": "Any excess by the agent binds the principal to the whole deal.",
+        "correction": "Where the excess is separable, only the authorised part binds under s. 227."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s227-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 227 problem be analysed?",
+        "answer": "I. Identify excess. II. Test separability. III. If separable, only authorised part binds. IV. Distinguish s. 228 if inseparable. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 227",
+      "Connected: Section 228"
+    ],
+    "examTips": [
+      "Always pair with s. 228 on inseparability.",
+      "Use the ship-and-cargo illustration."
+    ],
+    "revisionPoints": [
+      "Excess of authority",
+      "Separability",
+      "Only authorised part binds",
+      "Illustration"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "relatedTopics": [
+      "contract-s-228",
+      "contract-s-226"
+    ],
+    "illustrations": [
+      {
+        "id": "ica-s227-ill",
+        "body": "A, being owner of a ship and cargo, authorizes B to procure an insurance for 4,000 rupees on the ship. B procures a policy for 4,000 rupees on the ship, and another for the like sum on the cargo. A is bound to pay the premium for the policy on the ship, but not the premium for the policy on the cargo."
+      }
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-227",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 227"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 against official text including illustration.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "When an agent exceeds authority and the authorised part is separable, only that part binds as between agent and principal.",
+      "legalPrinciple": "Separable excess → only authorised part binds.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 227",
+      "essentialIngredients": [
+        "Excess of authority",
+        "Separability",
+        "Only authorised part binds"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 227"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 227 including illustration. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s227-s225-bulk"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:45:00.000Z",
+      "bot": "contract-reverse-s227-s225-2026-10-15",
+      "sourceFingerprint": "ica-s227-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      }
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T05:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-227",
-    "review"
+    "agency",
+    "review-required"
   ]
 }
