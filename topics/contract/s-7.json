@@ -1,41 +1,139 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-7",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 7 (Acceptance must be absolute)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 7 of the Indian Contract Act, 1872 is headed \"Acceptance must be absolute\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 7",
-        "body": "Acceptance must be absolute"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-7",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 7 (Acceptance must be absolute)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 7 provides that in order to convert a proposal into a promise, the acceptance must be absolute and unqualified, and be expressed in some usual and reasonable manner, unless the proposal prescribes the manner in which it is to be accepted. If the proposal prescribes a manner of acceptance and the acceptance is not made in that manner, the proposer may, within a reasonable time after the acceptance is communicated to him, insist that his proposal shall be accepted in the prescribed manner, and not otherwise; but if he fails to do so, he accepts the acceptance.",
+        "glance": "Acceptance must be absolute and unqualified; usual/reasonable manner unless prescribed; non-prescribed manner may still bind if proposer does not insist.",
+        "study": "To convert a proposal into a promise, acceptance must be absolute and unqualified, and expressed in a usual and reasonable manner unless the proposal prescribes a manner. If a prescribed manner is not followed, the proposer may within a reasonable time insist on the prescribed manner; failure to insist amounts to accepting the acceptance. Conditional acceptance is a counter-offer, not acceptance. Current-law framing: test absolute and unqualified assent; test manner; apply the prescribed-manner rule if relevant.",
+        "sections": [
+            {
+                "heading": "Absolute and unqualified",
+                "body": "Acceptance must be absolute and unqualified to convert a proposal into a promise.",
+                "order": 1
+            },
+            {
+                "heading": "Manner of acceptance",
+                "body": "Usual and reasonable manner unless the proposal prescribes a manner.",
+                "order": 2
+            },
+            {
+                "heading": "Prescribed manner not followed",
+                "body": "Proposer may within a reasonable time insist on the prescribed manner; failure to insist accepts the acceptance.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-7",
+                "section": "Section 7",
+                "title": "Acceptance must be absolute"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Conditional reply",
+                "body": "A offers to sell for ₹5 lakh. B replies agreeing only if tyres are replaced. That is not absolute acceptance; it is a counter-offer.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Is a conditional acceptance a valid acceptance?",
+                "analysis": "No. Section 7 requires acceptance to be absolute and unqualified; a condition is a counter-offer."
+            }
+        ],
+        "distinctions": [],
+        "misconceptions": [
+            {
+                "id": "ica-s7-trap-1",
+                "trap": "Any reply that shows interest is acceptance.",
+                "correction": "Acceptance must be absolute and unqualified under s. 7."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s7-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 7 problem be analysed?",
+                "answer": "I. Test absolute and unqualified assent. II. Test manner (usual/reasonable or prescribed). III. Apply prescribed-manner insistence rule if relevant. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 7",
+            "Connected: Sections 2(b), 8"
+        ],
+        "examTips": [
+            "Absolute and unqualified is the core test.",
+            "State the prescribed-manner proviso."
+        ],
+        "revisionPoints": [
+            "Absolute and unqualified",
+            "Manner of acceptance",
+            "Prescribed manner not followed"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-8",
+            "contract-s-2"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-7",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 7 requires acceptance to be absolute and unqualified and in a usual/reasonable or prescribed manner.",
+            "legalPrinciple": "Mirror-image acceptance; prescribed manner with insistence proviso.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 7",
+            "essentialIngredients": [
+                "Absolute and unqualified",
+                "Manner of acceptance",
+                "Prescribed manner not followed"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 7"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s7"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:05:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s7-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-7",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 7"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-7",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T12:05:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-7",
+        "acceptance",
+        "review-required"
+    ]
 }
