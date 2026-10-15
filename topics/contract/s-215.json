@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-215",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 215 (Principal's right when agent deals on own account without consent)",
+  "title": "Indian Contract Act, 1872 — Section 215 (Right of principal when agent deals, on his own account, in business of agency without principal’s consent)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 215 of the Indian Contract Act, 1872 is headed \"Principal's right when agent deals on own account without consent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "If an agent deals on his own account in the business of the agency, without first obtaining the consent of his principal and acquainting him with all material circumstances which have come to his own knowledge on the subject, the principal may repudiate the transaction if the case shows either that any material fact has been dishonestly concealed from him by the agent, or that the dealings of the agent have been disadvantageous to him.",
+    "glance": "Own-account dealing without consent and full disclosure → principal may repudiate if dishonest concealment or disadvantageous dealing.",
+    "study": "If an agent deals on his own account in the business of the agency, without first obtaining the consent of his principal and acquainting him with all material circumstances which have come to his own knowledge on the subject, the principal may repudiate the transaction if the case shows either that any material fact has been dishonestly concealed from him by the agent, or that the dealings of the agent have been disadvantageous to him. Connected: s. 216 (claim benefit from undisclosed own-account dealing).",
     "sections": [
-      {
-        "heading": "Section 215",
-        "body": "Principal's right when agent deals on own account without consent"
-      }
+      {"heading": "Own-account dealing without consent and disclosure", "body": "Agent deals on own account without consent and without acquainting principal with all material circumstances.", "order": 1},
+      {"heading": "Grounds for repudiation", "body": "Dishonest concealment of material fact, or dealings disadvantageous to the principal.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-215", "section": "Section 215", "title": "Right of principal when agent deals, on his own account, in business of agency without principal’s consent"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s215-brief", "draftingCategory": "brief", "question": "How should a Section 215 problem be analysed?", "answer": "Show own-account dealing without consent and full disclosure; test dishonest concealment or disadvantage; conclude on repudiation.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 215", "Connected: Section 216"],
+    "examTips": ["Consent + full disclosure; repudiation grounds."],
+    "revisionPoints": ["Own-account without consent/disclosure", "Dishonest concealment or disadvantage"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-216"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-215",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 215"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.221–s.212).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Principal may repudiate agent’s own-account dealing done without consent and full disclosure where there is dishonest concealment or disadvantageous dealing.",
+      "legalPrinciple": "Own-account without consent → repudiation if concealment or disadvantage.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 215",
+      "essentialIngredients": ["Own-account dealing without consent and disclosure", "Grounds for repudiation"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 215"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.221–s.212. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s221-s212"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:55:00.000Z",
+      "bot": "contract-reverse-s221-s212-2026-10-15",
+      "sourceFingerprint": "ica-s215-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T05:55:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-215",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-215", "agency", "review-required"]
 }
