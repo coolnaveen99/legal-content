@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-209",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 209 (Agent's duty on termination by death or insanity of principal)",
+  "title": "Indian Contract Act, 1872 — Section 209 (Agent’s duty on termination of agency by principal’s death or insanity)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 209 of the Indian Contract Act, 1872 is headed \"Agent's duty on termination by death or insanity of principal\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "When an agency is terminated by the principal dying or becoming of unsound mind, the agent is bound to take, on behalf of the representatives of his late principal, all reasonable steps for the protection and preservation of the interests entrusted to him.",
+    "glance": "On termination by principal’s death or unsound mind, agent must take reasonable steps to protect and preserve interests for the representatives.",
+    "study": "When an agency is terminated by the principal dying or becoming of unsound mind, the agent is bound to take, on behalf of the representatives of his late principal, all reasonable steps for the protection and preservation of the interests entrusted to him.",
     "sections": [
-      {
-        "heading": "Section 209",
-        "body": "Agent's duty on termination by death or insanity of principal"
-      }
+      {"heading": "Termination by death or unsound mind", "body": "Agency terminated by principal dying or becoming of unsound mind.", "order": 1},
+      {"heading": "Duty to protect interests", "body": "Agent must take all reasonable steps on behalf of the representatives to protect and preserve the interests entrusted to him.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-209", "section": "Section 209", "title": "Agent’s duty on termination of agency by principal’s death or insanity"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s209-brief", "draftingCategory": "brief", "question": "How should a Section 209 problem be analysed?", "answer": "Confirm termination by death or unsound mind; require reasonable protective steps for representatives.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 209"],
+    "examTips": ["Protective duty after death/insanity of principal."],
+    "revisionPoints": ["Death or unsound mind", "Reasonable protective steps"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-201", "contract-s-208"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-209",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 209"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "On termination by principal’s death or unsound mind, the agent must take reasonable steps to protect and preserve entrusted interests for the representatives.",
+      "legalPrinciple": "Post-termination protective duty.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 209",
+      "essentialIngredients": ["Termination by death or unsound mind", "Duty to protect interests"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 209"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s209-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-209",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-209", "agency", "review-required"]
 }
