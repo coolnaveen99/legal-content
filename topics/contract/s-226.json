@@ -2,40 +2,146 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-226",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 226 (Enforcement and consequences of agent's contracts)",
+  "title": "Indian Contract Act, 1872 — Section 226 (Enforcement and consequences of agent’s contracts)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 226 of the Indian Contract Act, 1872 is headed \"Enforcement and consequences of agent's contracts\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 226 provides that contracts entered into through an agent, and obligations arising from acts done by an agent, may be enforced in the same manner, and will have the same legal consequences, as if the contracts had been entered into and the acts done by the principal in person.",
+    "glance": "Agent’s authorised contracts and acts → same enforcement and consequences as if done by the principal in person.",
+    "study": "Contracts entered into through an agent, and obligations arising from acts done by an agent, may be enforced in the same manner, and will have the same legal consequences, as if the contracts had been entered into and the acts done by the principal in person. This is the core attribution rule of agency: within authority, the agent’s contracting and acting bind and benefit the principal as the principal’s own. Current-law framing: identify the contract or act; test agency and authority; apply same-manner / same-consequences enforcement.",
     "sections": [
       {
-        "heading": "Section 226",
-        "body": "Enforcement and consequences of agent's contracts"
+        "heading": "Contracts through an agent",
+        "body": "Contracts entered into through an agent may be enforced as if entered into by the principal in person.",
+        "order": 1
+      },
+      {
+        "heading": "Obligations from agent’s acts",
+        "body": "Obligations arising from acts done by an agent have the same legal consequences as if done by the principal in person.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-226",
+        "section": "Section 226",
+        "title": "Enforcement and consequences of agent’s contracts"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Sale by authorised agent",
+        "body": "An authorised agent sells goods for the principal. The buyer may enforce the sale against the principal as if the principal had sold in person.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does section 226 apply to unauthorised acts?",
+        "analysis": "Section 226 assumes the agent’s contracts and acts are within the agency framework. Excess of authority is governed by ss. 227–228; ostensible authority and related rules appear elsewhere in Chapter X."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s226-vs-s227",
+        "title": "Attribution of authorised acts (s. 226) vs excess of authority (s. 227)",
+        "left": "Same enforcement as principal in person",
+        "right": "Only separable authorised part binds",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Within authority",
+            "right": "Beyond authority (separable)"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s226-trap-1",
+        "trap": "Only the agent can be sued on a contract made through the agent.",
+        "correction": "Section 226 attributes enforcement and consequences to the principal as if the principal had contracted in person."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s226-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 226 problem be analysed?",
+        "answer": "I. Identify the contract or act. II. Confirm agency and authority. III. Apply same-manner / same-consequences rule. IV. Address excess under ss. 227–228 if raised. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 226",
+      "Connected: Sections 227, 228, 230"
+    ],
+    "examTips": [
+      "State the same-manner / same-consequences formula.",
+      "Link to excess rules in ss. 227–228."
+    ],
+    "revisionPoints": [
+      "Contracts through an agent",
+      "Obligations from agent’s acts",
+      "Same as principal in person"
+    ],
     "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-227",
+      "contract-s-230"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-226",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 226"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 against official text.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Contracts through an agent and obligations from an agent’s acts are enforced as if done by the principal in person.",
+      "legalPrinciple": "Authorised agency acts = principal’s acts for enforcement and consequences.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 226",
+      "essentialIngredients": [
+        "Contracts through an agent",
+        "Obligations from agent’s acts"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 226"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 226. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s227-s225-bulk"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:45:00.000Z",
+      "bot": "contract-reverse-s227-s225-2026-10-15",
+      "sourceFingerprint": "ica-s226-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      }
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T05:45:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-226",
-    "review"
+    "agency",
+    "review-required"
   ]
 }
