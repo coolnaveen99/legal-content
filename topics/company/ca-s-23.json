@@ -1,1 +1,189 @@
-{"schemaVersion":"v1","entityType":"topic","id":"topic:india:company-ca-s-23","version":2,"status":"verification_in_progress","title":"Companies Act, 2013 — Section 23 (Public Offer and Private Placement)","jurisdiction":"India","content":{"overview":"Section 23 sets out the permitted routes by which a public company or a private company may issue securities: public offer, private placement, or rights/bonus issue. Listed companies and companies intending to list must also comply with SEBI law.","glance":"Identify company type; map the issue to public offer, private placement, rights or bonus; apply SEBI overlay where listed or intending to list.","study":"A public company may issue securities by public offer (prospectus), private placement, rights issue or bonus issue. A private company may issue only by private placement, rights issue or bonus issue and must not make a public offer. Where securities are listed or proposed to be listed, SEBI Act and regulations also apply.","sections":[{"heading":"Public Company Routes","body":"A public company may issue securities by public offer, private placement, rights issue or bonus issue in the prescribed manner.","order":1},{"heading":"Private Company Routes","body":"A private company may issue securities only by private placement, rights issue or bonus issue; it cannot make a public offer.","order":2},{"heading":"SEBI Overlay","body":"Listed companies and companies intending to list must also comply with SEBI Act and regulations.","order":3}],"provisions":[{"actId":"companies-act-2013","actName":"Companies Act, 2013","provisionId":"ca-s-23","section":"Section 23","title":"Public offer and private placement"}],"examples":[{"title":"Public company IPO","body":"A public company issues shares to the public through a prospectus. The route is a public offer under s. 23.","kind":"hypothetical","inventedCase":false},{"title":"Private company public offer (invalid)","body":"A private company attempts to offer shares to the public. Section 23 does not permit that.","kind":"hypothetical","inventedCase":false}],"hypotheticals":[{"question":"Can a private company make an IPO?","analysis":"No. Section 23 confines private companies to private placement, rights and bonus."}],"distinctions":[{"id":"ca-s23-public-vs-private","title":"Public vs private company issue routes","left":"Public offer available","right":"No public offer","rows":[{"point":"Focus","left":"May access public markets","right":"Private placement / rights / bonus only"}]}],"misconceptions":[{"id":"ca-s23-trap-1","trap":"Any company may freely make a public offer.","correction":"Only public companies may make a public offer under s. 23."}],"cases":[],"questionsAndAnswers":[{"id":"ca-s23-brief","draftingCategory":"brief","question":"How should a Section 23 problem be analysed?","answer":"I. Identify company type. II. Classify the issue. III. Apply permitted route and SEBI overlay. IV. Conclude.","explanation":"IRAC."}],"bareActPointers":["Companies Act, 2013 — Section 23","Connected: Chapter III; Section 42","SEBI Act where listed"],"examTips":["Start with public vs private company.","Map to a s. 23 route.","Flag SEBI where listing is involved."],"revisionPoints":["Public company routes","Private company routes","SEBI overlay"],"relatedJudgments":[],"relatedTopics":["ca-s-24","ca-s-42","ca-s-26"],"illustrations":[],"legacySubjectSlug":"company","legacyTopicId":"ca-s-23","migrationNote":"Reverse-order residual check 2026-10-14. Chapter III Part I close-out.","enhancement":{"version":"2","status":"verification_in_progress","coverage":"substantive-topic-specific-v1","definition":"Section 23 sets permitted issue routes for public and private companies, with SEBI overlay for listed or intending-to-list companies.","legalPrinciple":"Public company: public offer / private placement / rights / bonus. Private company: private placement / rights / bonus only.","statutoryFramework":"Companies Act, 2013, section 23.","essentialIngredients":["Public Company Routes","Private Company Routes","SEBI Overlay"],"authoritativeSources":["Companies Act, 2013"],"caseLaw":[],"caseLawGate":"section-specific-case-law-review-open","lastBotRunAt":"2026-10-14T14:50:00.000Z","bot":"company-reverse-order-s23-s29-2026-10-14","rules":["No invented citations","Not marked verified"],"verification":{"status":"SOURCE_CHECKED_CASE_LAW_OPEN","note":"Chapter III Part I close-out. No Salomon/Foss/BSA. Not COMPLETE_LOCKED.","date":"2026-10-14"}},"caseLawGate":"section-specific-case-law-review-open"},"sources":["source:india:india-code-companies-act-2013"],"updatedAt":"2026-10-14T14:50:00.000Z","effectiveFrom":null,"effectiveTo":null,"tags":["company","section-23","public-offer","private-placement","review-required"]}
+{
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:company-ca-s-23",
+  "version": 3,
+  "status": "review",
+  "title": "Companies Act, 2013 — Section 23 (Public offer and private placement)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 23 sets the permitted routes for issue of securities. A public company may issue securities (a) to the public through prospectus (public offer) by complying with Part I of Chapter III; or (b) through private placement by complying with Part II; or (c) through a rights issue or a bonus issue in accordance with the Act and, where listed or intending to list, also with the SEBI Act and regulations. A private company may issue securities only by rights issue or bonus issue, or through private placement under Part II. The Explanation provides that public offer includes IPO, FPO, or an offer for sale of securities to the public by an existing shareholder through a prospectus. Sub-sections (3) and (4) address prescribed classes of public companies listing in permissible foreign jurisdictions and Central Government power to exempt such classes from specified provisions.",
+    "glance": "Public company: public offer / private placement / rights / bonus (SEBI if listed). Private company: rights / bonus / private placement only. Public offer includes IPO, FPO and OFS through prospectus.",
+    "study": "Section 23 is the gateway provision for Chapter III.\n\nStatutory test\n1. Public company routes under section 23(1): public offer through prospectus (Part I); private placement (Part II); rights or bonus issue (and SEBI law if listed or intending to list).\n2. Private company routes under section 23(2): rights or bonus issue; private placement (Part II) only — no public offer.\n3. Meaning of public offer (Explanation): IPO or FPO by the company, or offer for sale to the public by an existing shareholder, through issue of a prospectus.\n4. Overseas listing (sub-sections (3)–(4)): prescribed class of public companies may issue prescribed class of securities for listing on permitted stock exchanges in permissible foreign jurisdictions; Central Government may by notification exempt such classes from specified provisions of Chapters III/IV and certain sections, with laying before Parliament.\n\nBoundary\nSection 23 identifies the route; the detailed rules for public offers sit in sections 24–41, and private placement in section 42. Listed or intending-to-list issues attract SEBI overlay in addition to the Companies Act.",
+    "sections": [
+      {
+        "heading": "Public company routes",
+        "body": "A public company may issue securities (a) to public through prospectus (public offer) by complying with Part I; or (b) through private placement by complying with Part II; or (c) through a rights issue or a bonus issue in accordance with the Act and, for listed companies or companies intending to list, also with the SEBI Act and regulations.",
+        "order": 1
+      },
+      {
+        "heading": "Private company routes",
+        "body": "A private company may issue securities only (a) by way of rights issue or bonus issue in accordance with the Act; or (b) through private placement by complying with Part II. It cannot make a public offer.",
+        "order": 2
+      },
+      {
+        "heading": "Meaning of public offer",
+        "body": "For the purposes of Chapter III, public offer includes initial public offer or further public offer of securities to the public by a company, or an offer for sale of securities to the public by an existing shareholder, through issue of a prospectus.",
+        "order": 3
+      },
+      {
+        "heading": "Overseas listing and exemption",
+        "body": "Such class of public companies as may be prescribed may issue such class of securities for listing on permitted stock exchanges in permissible foreign jurisdictions. The Central Government may by notification exempt any such class from specified provisions of Chapter III, Chapter IV, section 89, section 90 or section 127, with laying before both Houses of Parliament.",
+        "order": 4
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "companies-act-2013",
+        "actName": "Companies Act, 2013",
+        "provisionId": "ca-s-23",
+        "section": "Section 23",
+        "title": "Public offer and private placement"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Public company IPO",
+        "body": "A public company issues shares to the public through a prospectus. The route is a public offer under section 23(1)(a).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Private company public offer (invalid)",
+        "body": "A private company attempts to offer shares to the public. Section 23(2) does not permit that route.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      },
+      {
+        "title": "Rights issue by private company",
+        "body": "A private company issues further shares pro rata to existing equity holders. The route is a rights issue under section 23(2)(a).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a private company make an IPO?",
+        "analysis": "No. Section 23(2) confines private companies to rights issue, bonus issue and private placement. Public offer is available only to public companies under section 23(1)(a)."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ca-s23-public-vs-private",
+        "title": "Public vs private company issue routes",
+        "left": "Public company — public offer available",
+        "right": "Private company — no public offer",
+        "rows": [
+          {
+            "point": "Routes",
+            "left": "Public offer / private placement / rights / bonus",
+            "right": "Private placement / rights / bonus only"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ca-s23-trap-1",
+        "trap": "Any company may freely make a public offer.",
+        "correction": "Only a public company may make a public offer under section 23(1)(a)."
+      },
+      {
+        "id": "ca-s23-trap-2",
+        "trap": "Section 23 itself contains all operational conditions for private placement.",
+        "correction": "Section 23 identifies the route; private placement conditions sit in section 42 and the rules."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ca-s23-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 23 problem be analysed?",
+        "answer": "I. Identify company type (public or private). II. Classify the proposed issue. III. Apply the permitted route under section 23(1) or (2) and any SEBI overlay. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Companies Act, 2013 — Section 23",
+      "Connected: Chapter III Part I and Part II; Section 42",
+      "SEBI Act where listed or intending to list"
+    ],
+    "examTips": [
+      "Start with public vs private company.",
+      "Map to a section 23 route.",
+      "Flag SEBI where listing is involved.",
+      "Note the Explanation’s inclusion of offer for sale."
+    ],
+    "revisionPoints": [
+      "Public company routes",
+      "Private company routes",
+      "Public offer includes IPO, FPO and OFS",
+      "Overseas listing class and CG exemption"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "company-ca-s-24",
+      "company-ca-s-42",
+      "company-ca-s-26"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "company",
+    "legacyTopicId": "ca-s-23",
+    "migrationNote": "Reverse-order source alignment 2026-10-15 — official text including Explanation and sub-ss (3)–(4); case-law gate open.",
+    "enhancement": {
+      "version": "3",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 23 sets permitted issue routes for public and private companies, defines public offer for Chapter III, and provides for prescribed overseas listing and Central Government exemption power.",
+      "legalPrinciple": "Public company: public offer / private placement / rights / bonus (SEBI if listed). Private company: rights / bonus / private placement only.",
+      "statutoryFramework": "Companies Act, 2013 — Section 23",
+      "essentialIngredients": [
+        "Public company routes",
+        "Private company routes",
+        "Meaning of public offer",
+        "Overseas listing and exemption"
+      ],
+      "authoritativeSources": [
+        "Companies Act, 2013 (Act 18 of 2013), section 23"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 reverse-order source check against official section 23. Aligned to public/private company routes, Explanation of public offer, and sub-sections (3)–(4). Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-company-s23-26-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:10:00.000Z",
+      "bot": "company-reverse-order-s23-s26-2026-10-15",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ca-s23-2026-10-15",
+      "indiaCode": {
+        "act": "Companies Act, 2013 (Act 18 of 2013)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
+        "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+        "note": "Verified against official text. Not a verified closure."
+      }
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-companies-act-2013"
+  ],
+  "updatedAt": "2026-10-15T05:10:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "company",
+    "companies-act-2013",
+    "section-23",
+    "public-offer",
+    "private-placement",
+    "review-required",
+    "chapter-iii"
+  ]
+}
