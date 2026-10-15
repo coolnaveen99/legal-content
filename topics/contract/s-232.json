@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-232",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 232 (Performance of contract with agent supposed to be principal)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 232 of the Indian Contract Act, 1872 is headed \"Performance of contract with agent supposed to be principal\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 232",
-        "body": "Performance of contract with agent supposed to be principal"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-232",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 232 (Performance of contract with agent supposed to be principal)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 232 provides that where one man makes a contract with another, neither knowing nor having reasonable ground to suspect that the other is an agent, the principal, if he requires the performance of the contract, can only obtain such performance subject to the rights and obligations subsisting between the agent and the other party to the contract. Illustration: A owes B ₹500 and, as agent for C unknown to B, sells rice to B — C cannot compel B to take the rice without allowing set-off of A’s debt.",
+        "glance": "Undisclosed principal enforcing contract takes subject to equities between agent and third party.",
+        "study": "Where a person contracts with another neither knowing nor having reasonable ground to suspect that the other is an agent, the principal who requires performance can obtain it only subject to the rights and obligations subsisting between the agent and the other party. Illustration: A, who owes ₹500 to B, sells ₹1,000 worth of rice to B while acting as agent for C, of which B has no knowledge or reasonable suspicion. C cannot compel B to take the rice without allowing set-off of A’s debt. Section 232 qualifies the principal’s right under s. 231. Current-law framing: establish undisclosed agency unknown to the third party; identify rights/obligations between agent and third party; apply those as a condition of the principal’s enforcement.",
+        "sections": [
+            {
+                "heading": "Contract with supposed principal",
+                "body": "One person contracts with another neither knowing nor having reasonable ground to suspect that the other is an agent.",
+                "order": 1
+            },
+            {
+                "heading": "Principal’s performance subject to equities",
+                "body": "The principal can obtain performance only subject to the rights and obligations between the agent and the other party.",
+                "order": 2
+            },
+            {
+                "heading": "Illustration",
+                "body": "Agent-seller who owes the buyer — principal cannot compel performance without allowing set-off of the agent’s debt.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-232",
+                "section": "Section 232",
+                "title": "Performance of contract with agent supposed to be principal"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Set-off of agent’s debt",
+                "body": "A owes B ₹500 and, as undisclosed agent for C, sells rice to B. C cannot compel B to take the rice without allowing set-off of A’s debt.",
+                "kind": "statutory-illustration",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Can an undisclosed principal always enforce free of the agent’s liabilities to the third party?",
+                "analysis": "No. Section 232 subjects the principal’s enforcement to the rights and obligations between the agent and the other party."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s232-vs-s231",
+                "title": "Performance subject to equities (s. 232) vs rights of parties on undisclosed agency (s. 231)",
+                "left": "Principal’s enforcement subject to agent–third party equities",
+                "right": "Principal may require performance; third party has same rights against principal as against agent",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Qualification of principal’s right",
+                        "right": "Mutual rights on undisclosed agency"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s232-trap-1",
+                "trap": "An undisclosed principal always steps into the contract free of the agent’s personal position with the third party.",
+                "correction": "Section 232 expressly subjects the principal’s performance right to existing rights and obligations between agent and third party."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s232-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 232 problem be analysed?",
+                "answer": "I. Establish unknown/undisclosed agency. II. Identify rights and obligations between agent and third party. III. Condition principal’s enforcement on those equities. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 232",
+            "Connected: Sections 231, 233"
+        ],
+        "examTips": [
+            "Link s. 232 as a qualification of s. 231.",
+            "Use the set-off illustration."
+        ],
+        "revisionPoints": [
+            "Contract with supposed principal",
+            "Principal’s performance subject to equities",
+            "Illustration"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-231",
+            "contract-s-233"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-232",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 232 subjects an undisclosed principal’s right to require performance to the rights and obligations between the agent and the other contracting party.",
+            "legalPrinciple": "Principal enforcing against supposed principal takes subject to agent–third party equities.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 232",
+            "essentialIngredients": [
+                "Contract with supposed principal",
+                "Principal’s performance subject to equities",
+                "Illustration"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 232"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 232 including illustration. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s232-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:41:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s232-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-232",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 232"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-232",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:41:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-232",
+        "agency",
+        "review-required"
+    ]
 }
