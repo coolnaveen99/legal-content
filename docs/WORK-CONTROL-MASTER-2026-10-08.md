@@ -11,26 +11,14 @@
 ### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.16** | **Done (review)** — FORWARD order |
-| **s.238 → s.202** | **Done (review)** — Agency reverse continuous |
+| **s.1 → s.26** | **Done (review)** — FORWARD order |
+| **s.238 → s.202** | **Done (review)** — Agency reverse |
 
-### Agency reverse bulk s.211–s.202 (closed — this claim)
-| Section | Title | Commit |
-|---------|--------|--------|
-| s.211 | Agent’s duty in conducting principal’s business | `3f7bf9da19130babfa6e3d5d67a2248e7a080982` |
-| s.210 | Termination of sub-agent’s authority | `1d5b5b7d719cf0488d9e5b9142a1b6ff57699969` |
-| s.209 | Agent’s duty on principal’s death or insanity | `cc8caf8c15e54ccf2c118f85ad30e5473dd54cd4` |
-| s.208 | When termination of authority takes effect | `2b43ee0658f2e5c4ab5347a47c253521eeb69234` |
-| s.207 | Revocation and renunciation express or implied | `0ec26292b662831f7599715d0f801e5092036f5c` |
-| s.206 | Notice of revocation or renunciation | `4181bc3e6ed8ece4c497974e5afb9861de185b77` |
-| s.205 | Compensation for revocation or renunciation | `23dfd2237e6620660de89c2d55a34414103ca7e5` |
-| s.204 | Revocation where authority partly exercised | `f2aed121df95bf6415086fa1fd711c4bb339d177` |
-| s.203 | When principal may revoke agent’s authority | `b7002d26ac4e6362aff6d46c36bf9dae6ce5f60f` |
-| s.202 | Termination where agent has interest in subject-matter | `ca8d10f7ec2f1734161905934edb4bd96032b9ca` |
+### Forward bulk s.17–s.26 (this claim)
+s.17 Fraud · s.18 Misrepresentation · s.19 Voidability · s.19A Undue influence set-aside · s.20 Bilateral mistake of fact · s.21 Mistake of law · s.22 Unilateral mistake · s.23 Lawful consideration/object (prior) · s.24 Partial unlawfulness · s.25 No consideration exceptions · s.26 Restraint of marriage
 
 ### Next
-**REVERSE Agency:** from **s.201** downward (min 10 sections).
-**FORWARD stream:** from **s.17** (Fraud) if separately claimed (non-overlapping).
+**FORWARD:** from **s.27** (restraint of trade). **REVERSE Agency:** from **s.201** under separate claim.
 
 ---
 
@@ -50,19 +38,18 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Reverse Agency:** closed through **s.202**. Next reverse bulk from **s.201** downward (user: reverse order, min 10 sections).
-**Forward stream:** s.1–s.16 done; may continue from s.17 under separate claim.
+**This stream:** Indian Contract Act **FORWARD from s.27**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.211–s.202 (Agency reverse bulk, 10 sections)
-Current main commit: ca8d10f7ec2f1734161905934edb4bd96032b9ca
+Topic/section range: s.17–s.26 (forward bulk, 10+)
+Current main commit: 58606faab37cdb4718240126a6d5e27616b5e130
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-reverse-s211-s202
-Latest evidence: all ten sections expanded from catalog stubs to official India Code text
+Current owner: current-assistant-contract-forward
+Latest evidence: s.17–s.22, s.19A, s.24–s.26 expanded to official India Code text; s.23 already verified
 Missing gate: full case-law verification and final lock
-Planned change: reverse-order bulk expansion s.211–s.202
+Planned change: forward-order bulk expansion min 10 sections
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: see table above
+Evidence/commit: 452aa611… through 58606faa…
 
 If any field cannot be established, STOP.
