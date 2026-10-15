@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-206",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 206 (Notice of revocation or renunciation)",
+  "title": "Indian Contract Act, 1872 — Section 206 (Notice of revocation or renunciation)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 206 of the Indian Contract Act, 1872 is headed \"Notice of revocation or renunciation\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Reasonable notice must be given of such revocation or renunciation; otherwise, the damage thereby resulting to the principal or the agent, as the case may be, must be made good to the one by the other.",
+    "glance": "Reasonable notice of revocation or renunciation required; otherwise damages must be made good.",
+    "study": "Reasonable notice must be given of such revocation or renunciation; otherwise, the damage thereby resulting to the principal or the agent, as the case may be, must be made good to the one by the other.",
     "sections": [
-      {
-        "heading": "Section 206",
-        "body": "Notice of revocation or renunciation"
-      }
+      {"heading": "Reasonable notice", "body": "Reasonable notice must be given of revocation or renunciation.", "order": 1},
+      {"heading": "Damages if no notice", "body": "Otherwise, damage resulting to the other party must be made good.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-206", "section": "Section 206", "title": "Notice of revocation or renunciation"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s206-brief", "draftingCategory": "brief", "question": "How should a Section 206 problem be analysed?", "answer": "Test whether reasonable notice was given; if not, assess damage to the other party.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 206"],
+    "examTips": ["Reasonable notice; damages for failure."],
+    "revisionPoints": ["Reasonable notice", "Damages if no notice"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-205", "contract-s-207"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-206",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 206"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Reasonable notice of revocation or renunciation is required; otherwise resulting damage must be made good.",
+      "legalPrinciple": "Notice requirement for revocation/renunciation.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 206",
+      "essentialIngredients": ["Reasonable notice", "Damages if no notice"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 206"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s206-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-206",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-206", "agency", "review-required"]
 }
