@@ -11,15 +11,14 @@
 ### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.36** | **Done (review)** — FORWARD order |
+| **s.1 → s.46** | **Done (review)** — FORWARD order |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
-### Forward bulk s.27–s.36 (this claim)
-s.27 Restraint of trade · s.28 Restraint of legal proceedings · s.29 Uncertainty · s.30 Wager · s.31 Contingent contract defined · s.32 Enforcement if event happens · s.33 Enforcement if event does not happen · s.34 Future conduct impossibility · s.35 Fixed-time contingencies · s.36 Impossible events
+### Forward bulk s.37–s.46 (this claim)
+s.37 Obligation of parties (prior verified) · s.38 Refusal to accept offer of performance · s.39 Refusal to perform wholly · s.40 Person by whom promise performed · s.41 Accepting performance from third person · s.42 Devolution of joint liabilities · s.43 Any one of joint promisors may be compelled · s.44 Release of one joint promisor · s.45 Devolution of joint rights · s.46 Time for performance — reasonable time
 
 ### Next
-**FORWARD:** from **s.37** (Obligation of parties to contracts — Chapter IV Performance).
-**REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** from **s.47** (Time and place for performance). **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -39,18 +38,18 @@ s.27 Restraint of trade · s.28 Restraint of legal proceedings · s.29 Uncertain
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD from s.37**.
+**This stream:** Indian Contract Act **FORWARD from s.47**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.27–s.36 (forward bulk, 10 sections)
-Current main commit: 7a1f221d86ddb9096d5ea6f8d1f97f6f0dbbe653
+Topic/section range: s.37–s.46 (forward bulk, 10 sections)
+Current main commit: b07de50253b6e21fe47fd88fd77967ccef229cd1
 Current status: review / SOURCE_CHECK_REQUIRED
 Current owner: current-assistant-contract-forward
-Latest evidence: s.27–s.36 expanded from catalog stubs to official India Code text
+Latest evidence: s.38–s.46 expanded to official India Code text; s.37 already verified
 Missing gate: full case-law verification and final lock
 Planned change: forward-order bulk expansion min 10 sections
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 142d4ec6… through 7a1f221d…
+Evidence/commit: e1ec6cfc… through b07de502…
 
 If any field cannot be established, STOP.
