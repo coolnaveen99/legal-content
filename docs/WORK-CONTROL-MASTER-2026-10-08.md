@@ -4,28 +4,19 @@
 
 ### Completed this session (status: review / SOURCE_CHECK_REQUIRED)
 
-**Prospectus / allotment / share-capital chapter (reverse order):**
-
 | Range | Status |
 |-------|--------|
-| **s.63 → s.62** | **Done (review)** — s.62 evidence closed this session |
-| **s.61 → s.23** | **Done (review)** — Chapter III Part I reverse-order pass complete |
+| **s.63 → s.23** | **Done (review)** — Chapter III Part I + s.62 evidence closed |
+| **s.22 → s.21** | **Done (review)** — Chapter II reverse-order started |
 
 ### Latest commits this batch
-- s.62 Further issue of share capital (evidence close-out): `8a8d017517a91635579f607210c98cda61a9345f`
-- s.23–s.24: already on main (SOURCE_CHECK_REQUIRED)
-- s.25–s.41: batch and individual reverse-order source alignments this session
+- s.21 Authentication of documents, proceedings and contracts: `c2ac4f48556eab9f95341951bbafcc06f005aa84`
+- s.22 Execution of bills of exchange, etc.: `d2a2f2ae0a8c76365e9f4dce62ab75371f82ed80`
+- s.62 evidence close-out: `8a8d017517a91635579f607210c98cda61a9345f`
+- s.23–s.41: earlier reverse-order source alignments this session
 
-### Chapter III Part I + s.62 — closed
-Chapter III Part I (s.23–s.41) reverse-order source alignment is complete. s.62 statutory-text evidence is closed.
-
-All of the above remain **review / SOURCE_CHECK_REQUIRED** (case-law gate open; not COMPLETE_LOCKED).
-
-### Next (not claimed)
-Optional next directions:
-- Case-law verification pass on SOURCE_CHECK_REQUIRED sections
-- Reverse-order into earlier chapters (e.g. Chapter II incorporation / Chapter IV remaining sections beyond s.62–s.63)
-- Other subjects only if expressly claimed under this Master
+### Next
+Continue Chapter II reverse-order downward: **s.20** (Service of documents), then s.19, s.18, … toward incorporation provisions.
 
 ---
 
@@ -45,18 +36,18 @@ Optional next directions:
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Chapter III Part I reverse-order verification is complete (s.61 → s.23). s.62 evidence closed (`8a8d017517a91635579f607210c98cda61a9345f`). No new range claimed.
+Chapter III Part I reverse-order complete. Chapter II reverse-order active from s.20 downward. s.22 and s.21 done (review / SOURCE_CHECK_REQUIRED).
 
 ## Work claim record
 Subject: Company Law (Companies Act, 2013)
-Topic/section range: s.62 (evidence close-out)
-Current main commit: 8a8d017517a91635579f607210c98cda61a9345f
+Topic/section range: s.22 + s.21 (Chapter II reverse-order start)
+Current main commit: c2ac4f48556eab9f95341951bbafcc06f005aa84
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-company-s62-evidence
-Latest evidence: direct main commit aligning s.62 to official India Code text (rights offer period including lesser prescribed days; renunciation; Board disposal; 3-day notice dispatch; ESOP; preferential with registered valuer; conversion/Government-directed sub-ss (3)–(6))
+Current owner: current-assistant-company-ch2-reverse
+Latest evidence: s.22 aligned to sub-ss (1)–(3) including 2015 common-seal amendments; s.21 aligned including 2017 “or employee” amendment
 Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
-Planned change: close s.62 statutory-text evidence gap
+Planned change: Chapter II reverse-order source alignment
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 8a8d017517a91635579f607210c98cda61a9345f
+Evidence/commit: d2a2f2ae0a8c76365e9f4dce62ab75371f82ed80; c2ac4f48556eab9f95341951bbafcc06f005aa84
 
 If any field cannot be established, STOP.
