@@ -8,25 +8,24 @@
 |-------|--------|
 | **s.63 → s.23** | **Done (review)** — Chapter III Part I + s.62 evidence closed |
 | **s.22 → s.12** | **Done (review)** — Chapter II reverse-order bulk |
-| **s.1 → s.7** | **In progress / claimed** — forward bulk from section 1 (Chapter I + incorporation core) |
+| **s.10A → s.8** | **Done (review)** — gap close between s.7 and s.12 |
+| **s.1 → s.7** | **In progress / claimed** — forward bulk (do not overwrite) |
 
-### Forward bulk s.1–s.7 (this claim)
+### Gap closed this claim (s.8–s.10A)
 | Section | Title | Status |
 |---------|--------|--------|
-| s.1 | Short title, extent, commencement and application | Content present — source-check stamp |
-| s.2 | Definitions | Large definitional section — residual |
-| s.3 | Formation of company | Content present — source-check stamp |
-| s.4 | Memorandum | Content present — source-check stamp |
-| s.5 | Articles | Residual |
-| s.6 | Act to override memorandum, articles, etc. | Residual |
-| s.7 | Incorporation of company | Content present — source-check stamp |
+| s.10A | Commencement of business, etc. | Residual confirmed |
+| s.10 | Effect of memorandum and articles | Residual confirmed |
+| s.9 | Effect of registration | Residual confirmed |
+| s.8 | Formation of companies with charitable objects, etc. | Residual confirmed |
 
-### Chapter II closed so far (s.22 → s.12)
-Reverse-order Chapter II from s.22 down through s.12 is done on main.
+### Chapter II continuous coverage
+Reverse-order s.22→s.12 done. Gap s.8–s.10A closed. Forward s.1–s.7 in progress under separate claim.
 
-### Next after this claim
-- Complete residual source-check for s.2, s.5, s.6 within the s.1–s.7 claim
-- Then s.8–s.10A to close the gap between s.7 and s.12
+### Next
+- Do not edit s.1–s.7 while claimed by forward bulk
+- After s.1–s.7 completes, Chapter II is fully covered (s.3–s.22 continuous)
+- Optional: case-law verification pass on SOURCE_CHECK_REQUIRED sections
 
 ---
 
@@ -46,17 +45,17 @@ Reverse-order Chapter II from s.22 down through s.12 is done on main.
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Forward bulk **s.1–s.7** claimed (current-assistant-company-s1-s7-forward). Chapter II reverse s.22→s.12 done. Chapter III Part I + s.62 done.
+Gap **s.8–s.10A** closed by current-assistant-company-gap-s8-s10a. Forward bulk **s.1–s.7** remains claimed (current-assistant-company-s1-s7-forward) — do not overwrite.
 
 ## Work claim record
 Subject: Company Law (Companies Act, 2013)
-Topic/section range: s.1–s.7 (forward bulk from section 1)
+Topic/section range: s.8–s.10A (gap close)
 Current main commit: (this commit)
-Current status: review / SOURCE_CHECK_REQUIRED / IN_PROGRESS
-Current owner: current-assistant-company-s1-s7-forward
-Latest evidence: s.1, s.3, s.4, s.7 already hold substantive official-text-aligned content; formal SOURCE_CHECK stamp and residual close for s.2, s.5, s.6 in progress
-Missing gate: residual stamp for s.2/s.5/s.6; full case-law verification and final lock
-Planned change: forward source-check bulk for incorporation core from s.1
+Current status: review / SOURCE_CHECK_REQUIRED
+Current owner: current-assistant-company-gap-s8-s10a
+Latest evidence: s.10A (180-day declaration + s.12(2) verification; bar; penalty); s.10 (bind as covenants); s.9 (body corporate; perpetual succession); s.8 residual confirmed against official text
+Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
+Planned change: close Chapter II gap between s.7 and s.12
 Validation: content aligned to statutory text; no invented citations
 Evidence/commit: this commit
 
