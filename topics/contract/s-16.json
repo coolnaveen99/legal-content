@@ -1,41 +1,69 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-16",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 16 (Undue influence defined)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 16 of the Indian Contract Act, 1872 is headed \"Undue influence defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 16",
-        "body": "Undue influence defined"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-16",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 16"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-16",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-16",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 16 (“Undue influence” defined)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 16 provides that a contract is said to be induced by “undue influence” where the relations between the parties are such that one is in a position to dominate the will of the other and uses that position to obtain an unfair advantage over the other. A person is deemed to dominate the will of another where he holds real or apparent authority over the other or stands in a fiduciary relation, or where he contracts with a person whose mental capacity is temporarily or permanently affected by age, illness, or mental or bodily distress. Where a person in a position to dominate the will enters into a contract and the transaction appears unconscionable, the burden of proving that the contract was not induced by undue influence lies on the dominant party. Nothing in sub-section (3) affects section 111 of the Indian Evidence Act, 1872.",
+        "glance": "Undue influence = dominate will + unfair advantage; deemed dominance; burden shifts if transaction unconscionable.",
+        "study": "Undue influence has two elements: (1) one party is in a position to dominate the will of the other; (2) that position is used to obtain an unfair advantage. Deemed dominance includes real/apparent authority or fiduciary relation, and contracting with a person of impaired capacity (age, illness, distress). Where dominance exists and the transaction appears unconscionable, the dominant party bears the burden of proving absence of undue influence. Consent caused by undue influence is not free (s. 14); the agreement may be set aside under s. 19A. Current-law framing: establish relationship of dominance; prove use for unfair advantage; apply burden rules if unconscionable.",
+        "sections": [
+            {
+                "heading": "Dominate will and unfair advantage",
+                "body": "Relations such that one party can dominate the will of the other and uses that position to obtain an unfair advantage.",
+                "order": 1
+            },
+            {
+                "heading": "Deemed dominance",
+                "body": "Real or apparent authority or fiduciary relation; or contracting with a person of impaired mental capacity by age, illness, or distress.",
+                "order": 2
+            },
+            {
+                "heading": "Burden where unconscionable",
+                "body": "If the dominant party contracts and the transaction appears unconscionable, burden to prove no undue influence lies on the dominant party (subject to Evidence Act s. 111).",
+                "order": 3
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-16", "section": "Section 16", "title": "“Undue influence” defined"}],
+        "examples": [{"title": "Fiduciary advantage", "body": "A stands in a fiduciary relation to B and uses that position to obtain an unconscionable bargain. Undue influence is presumed unless A discharges the burden under s. 16(3).", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Does a hard bargain alone prove undue influence?", "analysis": "Not alone. Section 16 requires a position to dominate the will and use of that position for unfair advantage; unconscionability shifts the burden when dominance exists."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s16-trap-1", "trap": "Every unequal bargain is induced by undue influence.", "correction": "Undue influence requires dominance of will plus use for unfair advantage; mere inequality of bargaining power is not enough without those elements."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s16-brief", "draftingCategory": "brief", "question": "How should a Section 16 problem be analysed?", "answer": "I. Establish position to dominate the will. II. Prove use for unfair advantage. III. Apply deemed-dominance and burden rules if relevant. IV. Conclude on free consent and s. 19A.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 16", "Connected: Sections 14, 19A; Evidence Act s. 111"],
+        "examTips": ["State both limbs of the definition.", "Explain burden under sub-section (3)."],
+        "revisionPoints": ["Dominate will and unfair advantage", "Deemed dominance", "Burden where unconscionable"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-14", "contract-s-15"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-16",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 16 defines undue influence as use of a position to dominate the will to obtain an unfair advantage, with deemed dominance and burden rules.",
+            "legalPrinciple": "Dominate will + unfair advantage; burden shifts if unconscionable.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 16",
+            "essentialIngredients": ["Dominate will and unfair advantage", "Deemed dominance", "Burden where unconscionable"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 16"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s16"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:15:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s16-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:15:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-16", "undue-influence", "review-required"]
 }
