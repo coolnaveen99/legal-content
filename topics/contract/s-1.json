@@ -1,41 +1,143 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-1",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 1 (Short title, extent and commencement)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 1 of the Indian Contract Act, 1872 is headed \"Short title, extent and commencement\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 1",
-        "body": "Short title, extent and commencement"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-1",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 1 (Short title, extent and commencement)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 1 provides that this Act may be called the Indian Contract Act, 1872. It extends to the whole of India and came into force on the first day of September, 1872. Nothing in the Act affects the provisions of any Statute, Act or Regulation not hereby expressly repealed, nor any usage or custom of trade, nor any incident of any contract, not inconsistent with the provisions of this Act.",
+        "glance": "Short title; extent whole of India; commencement 1 Sept 1872; saving for unrepealed law, trade usage, consistent contract incidents.",
+        "study": "The Act is titled the Indian Contract Act, 1872. It extends to the whole of India and commenced on 1 September 1872. A saving clause preserves unrepealed statutes, trade usage or custom, and incidents of any contract that are not inconsistent with the Act. Current-law framing: state short title, extent and commencement; apply the saving where a usage, custom or unrepealed statute is invoked.",
+        "sections": [
+            {
+                "heading": "Short title",
+                "body": "This Act may be called the Indian Contract Act, 1872.",
+                "order": 1
+            },
+            {
+                "heading": "Extent and commencement",
+                "body": "It extends to the whole of India and came into force on 1 September 1872.",
+                "order": 2
+            },
+            {
+                "heading": "Saving",
+                "body": "Nothing affects unrepealed Statutes/Acts/Regulations, usage or custom of trade, or any incident of a contract not inconsistent with this Act.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-1",
+                "section": "Section 1",
+                "title": "Short title"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Trade usage not inconsistent",
+                "body": "A trade usage consistent with the Act may still operate under the saving in section 1.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Does the Act displace every trade custom?",
+                "analysis": "No. Section 1 saves usage or custom of trade not inconsistent with the Act."
+            }
+        ],
+        "distinctions": [],
+        "misconceptions": [
+            {
+                "id": "ica-s1-trap-1",
+                "trap": "The Contract Act overrides every trade usage.",
+                "correction": "Section 1 expressly saves usage or custom of trade not inconsistent with the Act."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s1-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 1 problem be analysed?",
+                "answer": "I. State short title, extent and commencement. II. Apply the saving if usage, unrepealed statute or contract incident is raised. III. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 1",
+            "Connected: Section 2 (definitions)"
+        ],
+        "examTips": [
+            "State commencement date and extent.",
+            "Mention the saving for trade usage."
+        ],
+        "revisionPoints": [
+            "Short title",
+            "Extent and commencement",
+            "Saving"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-2"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-1",
+        "migrationNote": "Substantive expansion from catalog stub. Forward-order start 2026-10-15. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 1 states the short title, extent, commencement and saving clause of the Indian Contract Act, 1872.",
+            "legalPrinciple": "Act applies throughout India from 1 Sept 1872; saves consistent usage and unrepealed law.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 1",
+            "essentialIngredients": [
+                "Short title",
+                "Extent and commencement",
+                "Saving"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 1"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act forward-order source check against official section 1. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s1"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:55:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s1-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-1",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 1"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-1",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:55:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-1",
+        "preliminary",
+        "review-required"
+    ]
 }
