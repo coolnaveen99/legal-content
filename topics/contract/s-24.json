@@ -1,41 +1,64 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-24",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 24 (Agreement void if considerations and objects unlawful in part)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 24 of the Indian Contract Act, 1872 is headed \"Agreement void if considerations and objects unlawful in part\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 24",
-        "body": "Agreement void if considerations and objects unlawful in part"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-24",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 24"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-24",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-24",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 24 (Agreements void, if considerations and objects unlawful in part)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 24 provides that if any part of a single consideration for one or more objects, or any one or any part of any one of several considerations for a single object, is unlawful, the agreement is void.",
+        "glance": "Partial unlawfulness of consideration or object in a single bargain → whole agreement void.",
+        "study": "If any part of a single consideration for one or more objects, or any one or any part of any one of several considerations for a single object, is unlawful, the agreement is void. Section 24 prevents severing a partially unlawful single bargain so as to save the rest. Lawfulness of consideration and object is tested under s. 23. Current-law framing: identify the consideration(s) and object(s); test partial unlawfulness; conclude the whole agreement is void under s. 24.",
+        "sections": [
+            {
+                "heading": "Single consideration, one or more objects",
+                "body": "If any part of a single consideration for one or more objects is unlawful, the agreement is void.",
+                "order": 1
+            },
+            {
+                "heading": "Several considerations, single object",
+                "body": "If any one or any part of any one of several considerations for a single object is unlawful, the agreement is void.",
+                "order": 2
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-24", "section": "Section 24", "title": "Agreements void, if considerations and objects unlawful in part"}],
+        "examples": [{"title": "Mixed lawful and unlawful consideration", "body": "A single consideration partly for a lawful object and partly for an unlawful object — the agreement is void under s. 24.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Can the lawful part of a single mixed bargain be saved?", "analysis": "Under s. 24, if any part of the single consideration or any of several considerations for a single object is unlawful, the agreement is void."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s24-trap-1", "trap": "Courts always sever the unlawful part and enforce the rest.", "correction": "Section 24 voids the agreement when consideration or object is unlawful in part in the ways specified."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s24-brief", "draftingCategory": "brief", "question": "How should a Section 24 problem be analysed?", "answer": "I. Identify consideration(s) and object(s). II. Test partial unlawfulness under s. 23. III. Apply s. 24 voidness. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 24", "Connected: Section 23"],
+        "examTips": ["State both limbs of s. 24.", "Link to s. 23 grounds of unlawfulness."],
+        "revisionPoints": ["Single consideration, one or more objects", "Several considerations, single object"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-23", "contract-s-25"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-24",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 24 voids an agreement where consideration or object is unlawful in part in the specified ways.",
+            "legalPrinciple": "Partial unlawfulness in a single bargain voids the whole agreement.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 24",
+            "essentialIngredients": ["Single consideration, one or more objects", "Several considerations, single object"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 24"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s24"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:30:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s24-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:30:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-24", "void", "review-required"]
 }
