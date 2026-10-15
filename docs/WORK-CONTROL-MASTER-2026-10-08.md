@@ -6,7 +6,8 @@
 | Range | Status |
 |-------|--------|
 | **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** — continuous statutory source-check |
-| **Case-law batch 1** | **Started** — s.9 personality/veil: Salomon [1897] AC 22; LIC v Escorts (1986) 1 SCC 264 (`29c9ee2ef48f0f5311b9a0e290637a175d33c3f7`). caseLawGate: case-law-batch-1-added-not-locked. Not COMPLETE_LOCKED. |
+| **Case-law batch 1** | **Done (not locked)** — s.9 personality/veil: Salomon [1897] AC 22; LIC v Escorts (1986) 1 SCC 264 (`29c9ee2ef48f0f5311b9a0e290637a175d33c3f7`) |
+| **Case-law batch 2** | **Done (not locked)** — prospectus cluster s.34–s.35: Derry v Peek (1889) 14 App Cas 337 with statute-driven framing (`6c3c68c33c093a4d8fcc81bb81aca0dfcbc14733`; `e1d8fa903bd3c4f93e26df6704079befe621f055`). caseLawGate: case-law-batch-2-prospectus-not-locked. Not COMPLETE_LOCKED. |
 
 ### Indian Contract Act, 1872 — ACTIVE
 | Range | Status |
@@ -14,15 +15,11 @@
 | **s.238 → s.234** | **Done (review)** — Agency reverse-order |
 
 ### Latest Contract commits
-- s.238: `3975f1046bfaaf556d0f49f6a4c699411bb8c023`
-- s.237: `a9df528de7d2626edeeb8754ef186a617d00a836`
-- s.236 Person falsely contracting as agent not entitled to performance: `cda8108d7fb156a00decde1127e84d3989fed7bb`
-- s.235 Liability of pretended agent: `a3b65de5e7f1a1cc505a6ecf4b691eceb09f564f`
-- s.234 Consequence of inducing exclusive liability belief: `da0f61cb712cf34e34f9d608ce9fee6e62ed78e9`
+- s.238–s.234: Agency reverse-order bulk on main (see prior commits)
 
 ### Next
 - **Active:** Continue Contract Act reverse-order from **s.233** downward (Agency).
-- **Company Law case-law:** further batches remain open under separate claim; do not COMPLETE_LOCK without primary-report verification.
+- **Company Law case-law:** further batches (s.62 further issue; oppression/mismanagement; etc.) remain open; do not COMPLETE_LOCK without primary-report verification. Indian SC applications of ss.34–35 remain open.
 
 ---
 
@@ -42,18 +39,18 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Active subject:** Indian Contract Act, 1872 — reverse-order from s.233 downward. Company Law statutory source-check closed; case-law batch 1 on s.9 claimed separately.
+**Active subject:** Indian Contract Act, 1872 — reverse-order from s.233 downward. Company Law case-law batches 1–2 recorded (s.9; s.34–s.35); not COMPLETE_LOCKED.
 
 ## Work claim record
-Subject: Indian Contract Act, 1872
-Topic/section range: s.236–s.234 (Agency reverse-order bulk)
-Current main commit: da0f61cb712cf34e34f9d608ce9fee6e62ed78e9
-Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-reverse
-Latest evidence: s.236, s.235, s.234 expanded from catalog stubs to official India Code text
-Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
-Planned change: Contract Act reverse-order source alignment of catalog stubs
-Validation: content aligned to statutory text; no invented citations
-Evidence/commit: cda8108d7fb156a00decde1127e84d3989fed7bb; a3b65de5e7f1a1cc505a6ecf4b691eceb09f564f; da0f61cb712cf34e34f9d608ce9fee6e62ed78e9
+Subject: Companies Act, 2013 (case-law batch 2 — prospectus)
+Topic/section range: s.34–s.35
+Current main commit: e1d8fa903bd3c4f93e26df6704079befe621f055
+Current status: review / SOURCE_CHECK_REQUIRED / case-law-batch-2-prospectus-not-locked
+Current owner: current-assistant-company-caselaw-batch2-prospectus
+Latest evidence: Derry v Peek (1889) 14 App Cas 337 (HL) added to s.34 and s.35 with clear statute-driven framing; no invented Indian citations; not COMPLETE_LOCKED
+Missing gate: Indian SC primary-report applications of ss.34–35; further case-law batches; final lock
+Planned change: prospectus cluster case-law batch 2
+Validation: no invented citations; foundational HL authority only
+Evidence/commit: 6c3c68c33c093a4d8fcc81bb81aca0dfcbc14733; e1d8fa903bd3c4f93e26df6704079befe621f055
 
 If any field cannot be established, STOP.
