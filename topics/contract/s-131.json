@@ -2,40 +2,172 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-131",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 131 (Revocation of continuing guarantee by surety's death)",
+  "title": "Indian Contract Act, 1872 — Section 131 (Revocation of continuing guarantee by surety's death)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 131 of the Indian Contract Act, 1872 is headed \"Revocation of continuing guarantee by surety's death\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 131 provides that, in the absence of a contract to the contrary, the death of the surety operates as revocation of a continuing guarantee so far as future transactions are concerned. The rule is prospective and is subject to contrary contractual terms. It should not be read as automatically extinguishing liability already attached to transactions covered before the death.",
     "sections": [
       {
-        "heading": "Section 131",
-        "body": "Revocation of continuing guarantee by surety's death"
+        "heading": "Death of surety",
+        "body": "The death of the surety operates as revocation of a continuing guarantee, in the absence of a contract to the contrary.",
+        "order": 1
+      },
+      {
+        "heading": "Future transactions only",
+        "body": "Section 131 expressly limits the effect to future transactions. Identify the date of death and distinguish transactions already covered before death from later transactions.",
+        "order": 2
+      },
+      {
+        "heading": "Contractual qualification",
+        "body": "The words 'in the absence of any contract to the contrary' are material. Read the guarantee for any provision that changes the statutory default before concluding that the guarantee is revoked on death.",
+        "order": 3
+      },
+      {
+        "heading": "Relationship with Section 130",
+        "body": "Section 130 addresses revocation by notice to the creditor; Section 131 addresses the effect of the surety's death. Apply the trigger and timing in the relevant section.",
+        "order": 4
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Recurring supply after death",
+        "body": "A guarantees payment for a series of credit supplies to B. A dies. Unless the contract provides otherwise, Section 131 treats the guarantee as revoked for future transactions; prior transactions must be analysed separately."
+      },
+      {
+        "title": "Pre-death debt remains a separate question",
+        "body": "A surety dies after a covered supply has already been made but before payment falls due. Section 131's future-transaction wording does not itself decide every question about liability already attached; examine the guarantee and governing law."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A surety dies while a continuing guarantee covers recurring future supplies. What is the statutory default?",
+        "analysis": "Under Section 131, absent a contract to the contrary, death revokes the continuing guarantee as to future transactions. Identify the date of death and any contrary contractual term."
+      },
+      {
+        "question": "A covered transaction occurred before the surety's death, but payment is demanded afterwards. Does Section 131 automatically erase that liability?",
+        "analysis": "Section 131 addresses revocation as regards future transactions. It does not itself say that liability already attached to a pre-death transaction is extinguished. Analyse the guarantee and applicable law for that existing liability."
+      },
+      {
+        "question": "The guarantee expressly states that it continues notwithstanding the surety's death. What must be checked?",
+        "analysis": "Section 131 contains the qualification 'in the absence of any contract to the contrary'. Interpret the clause carefully and assess enforceability and effect under the applicable law rather than ignoring the contractual qualification."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-129",
+      "topic:india:contract-s-130",
+      "topic:india:contract-s-126"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-131",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 131"
+      "Indian Contract Act, 1872 — Section 131",
+      "Related provisions: Sections 129–130"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text. This topic remains in review pending remaining legal verification and release gates.",
+    "glance": "Unless the contract provides otherwise, the surety's death revokes a continuing guarantee for future transactions; analyse pre-death transactions separately.",
+    "study": "## Statutory rule\nSection 131 states that the death of the surety operates, in the absence of any contract to the contrary, as revocation of a continuing guarantee so far as regards future transactions.\n\n## Apply the rule\n1. Establish that the undertaking is a continuing guarantee within Section 129.\n2. Identify the surety and establish the date of death.\n3. Read the guarantee for any contract term to the contrary, because Section 131 expressly preserves that qualification.\n4. Separate transactions already covered before death from future transactions after death.\n5. Apply the statutory effect only to the future-transaction scope described in Section 131; do not assume the death automatically releases the estate from liabilities already attached or rewrites the underlying guarantee.\n\n## Example\nA guarantees a customer's recurring credit purchases from a supplier. The surety dies. Unless the guarantee contract provides otherwise, Section 131 treats the continuing guarantee as revoked for future transactions after death. The supplier must separately assess transactions and liabilities already covered before death under the guarantee's terms and applicable law.\n\n## Relationship with Section 130\nSection 130 deals with revocation by notice to the creditor; Section 131 deals with revocation by death, subject to a contract to the contrary. Both concern future transactions, but the triggering event differs.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 131's rule for death of the surety under a continuing guarantee.",
+        "Explain the future-transaction limit and contractual qualification.",
+        "Distinguish pre-death transactions from future transactions.",
+        "Compare revocation by death under Section 131 with notice-based revocation under Section 130."
+      ],
+      "definition": "Section 131 provides that, absent a contract to the contrary, the death of a surety revokes a continuing guarantee as regards future transactions.",
+      "legalPrinciple": "The death-based revocation rule is prospective as to future transactions and applies only in the absence of a contract to the contrary.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 131",
+        "Related provisions: Sections 129–130"
+      ],
+      "essentialIngredients": [
+        "Establish a continuing guarantee",
+        "Identify the surety and date of death",
+        "Check the guarantee for a contract to the contrary",
+        "Classify the transaction as pre-death or future",
+        "Apply the statutory effect only to the future-transaction scope"
+      ],
+      "detailedExplanation": "Section 131 provides that the death of a surety revokes a continuing guarantee, in the absence of a contract to the contrary, so far as future transactions are concerned. The key steps are to establish a continuing guarantee, identify the date of death, examine the contract's terms and distinguish future transactions from those already covered before death. Section 131 does not by itself settle every issue about liabilities already attached to pre-death transactions. Section 130 separately addresses revocation by notice to the creditor.",
+      "examples": [
+        "A continuing guarantee for recurring future supplies is, absent contrary contract, revoked for future transactions when the surety dies.",
+        "A debt arising from a transaction already covered before death must be analysed separately; Section 131's future-transaction rule does not itself erase it."
+      ],
+      "distinctions": [
+        "Section 131 is triggered by death of the surety; Section 130 is triggered by notice from the surety to the creditor.",
+        "Section 131 expressly preserves a contract to the contrary.",
+        "Revocation as to future transactions is different from extinguishing liability already attached to earlier transactions."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm the guarantee is continuing under Section 129.",
+        "Establish the surety's death date.",
+        "Read the contract for any term to the contrary.",
+        "Classify the transactions by whether they were covered before or arise after death.",
+        "State the prospective effect and separately analyse existing liabilities."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 131",
+          "Identify death and continuing guarantee",
+          "Apply contractual qualification",
+          "Separate future and existing transactions",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Continuing-guarantee requirement",
+          "Death and timing",
+          "Contract to the contrary",
+          "Future-transaction limit",
+          "Application and conclusion"
+        ],
+        "sixteenMark": [
+          "Guarantee scope and Section 129",
+          "Date of death",
+          "Contractual terms",
+          "Transaction-by-transaction analysis",
+          "Distinguish Section 130",
+          "Existing liabilities versus future transactions",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Section 131 concerns death of the surety under a continuing guarantee.",
+        "The default applies only in the absence of a contract to the contrary.",
+        "The effect is as to future transactions; existing covered liabilities require separate analysis.",
+        "Section 130 addresses notice-based revocation, a different trigger.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF opened; Section 131 text checked at extracted lines 1504–1506 (PDF page 35).",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-131",
-    "review"
+    "source-check-required"
   ]
 }
