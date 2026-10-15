@@ -2,40 +2,56 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-221",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 221 (Agent's lien on principal's property)",
+  "title": "Indian Contract Act, 1872 — Section 221 (Agent’s lien on principal’s property)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 221 of the Indian Contract Act, 1872 is headed \"Agent's lien on principal's property\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "In the absence of any contract to the contrary, an agent is entitled to retain goods, papers and other property, whether movable or immovable, of the principal received by him, until the amount due to himself for commission, disbursements and services in respect of the same has been paid or accounted for to him.",
+    "glance": "Absent contrary contract, agent may retain principal’s property until commission, disbursements and services for the same are paid or accounted for.",
+    "study": "In the absence of any contract to the contrary, an agent is entitled to retain goods, papers and other property, whether movable or immovable, of the principal received by him, until the amount due to himself for commission, disbursements and services in respect of the same has been paid or accounted for to him. Current-law framing: apply the statutory text; no invented authority.",
     "sections": [
-      {
-        "heading": "Section 221",
-        "body": "Agent's lien on principal's property"
-      }
+      {"heading": "Absence of contract to the contrary", "body": "No contract displacing the lien.", "order": 1},
+      {"heading": "Property of principal received by agent", "body": "Goods, papers and other property (movable or immovable) of the principal received by the agent.", "order": 2},
+      {"heading": "Retain until paid or accounted for", "body": "Retain until commission, disbursements and services in respect of the same have been paid or accounted for.", "order": 3}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-221", "section": "Section 221", "title": "Agent’s lien on principal’s property"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s221-brief", "draftingCategory": "brief", "question": "How should a Section 221 problem be analysed?", "answer": "State the rule; apply ingredients to facts; conclude.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 221"],
+    "examTips": ["Lien until commission, disbursements and services paid or accounted for."],
+    "revisionPoints": ["No contrary contract", "Property received", "Retain until paid or accounted for"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-217", "contract-s-218"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-221",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 221"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.221–s.212).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Agent may retain principal’s property until commission, disbursements and services are paid or accounted for, absent contrary contract.",
+      "legalPrinciple": "Agent’s lien on principal’s property.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 221",
+      "essentialIngredients": ["Absence of contract to the contrary", "Property of principal received by agent", "Retain until paid or accounted for"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 221"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.221–s.212. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s221-s212"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:55:00.000Z",
+      "bot": "contract-reverse-s221-s212-2026-10-15",
+      "sourceFingerprint": "ica-s221-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T05:55:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-221",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-221", "agency", "review-required"]
 }
