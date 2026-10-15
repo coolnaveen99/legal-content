@@ -22,8 +22,17 @@
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Current next step
-**Indian Contract Act Agency chapter (s.182–s.238):** content expansion complete (review / SOURCE_CHECK_REQUIRED). Next gates are section-level authoritative source/current-law/case-law verification, integrated validation, SEO, production and human legal sign-off. Do not restart reverse or claim already-expanded ranges.
-**Next subject/range:** select the next unowned pending subject or remaining Contract topic after full ownership/PR/commit check against current main. No active claim on further Contract sections from this update.
+**Content-depth layer:** Complete across all subjects (0 remaining gaps as of latest scan). All topics remain `review` / `SOURCE_CHECK_REQUIRED` or prior verification states. **Not COMPLETE_LOCKED.**
+
+**Next required gates (in order):**
+1. Section-level authoritative source / current-law verification against official text (no inference).
+2. Case-law verification (only with verifiable authorities; no invention).
+3. Full schema/manifest/validators on latest SHA.
+4. Integrated validation / E2E.
+5. SEO / production / rollback checks.
+6. Human legal sign-off.
+
+No active claim on further content-expansion ranges. Select the next verification batch only after ownership/PR/commit check.
 
 ---
 
