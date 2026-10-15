@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-60",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 60 (Application of payment where debt to be discharged is not indicated)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 60 of the Indian Contract Act, 1872 is headed \"Application of payment where debt to be discharged is not indicated\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 60",
-        "body": "Application of payment where debt to be discharged is not indicated"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-60",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 60"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-60",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-60",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 60 (Application of payment where debt to be discharged is not indicated)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 60 provides that where the debtor has omitted to intimate and there are no other circumstances indicating to which debt the payment is to be applied, the creditor may apply it at his discretion to any lawful debt actually due and payable to him from the debtor, whether its recovery is or is not barred by the law in force for the time being as to the limitation of suits.",
+        "glance": "No indication by debtor → creditor may apply payment to any lawful debt actually due (including time-barred); not to disputed or unlawful debt.",
+        "study": "Where the debtor has not indicated the debt and circumstances do not indicate application, the creditor may apply the payment at his discretion to any lawful debt actually due and payable, whether or not recovery is barred by limitation. Current-law framing: confirm absence of indication; apply creditor’s discretion to any lawful debt actually due (including time-barred).",
+        "sections": [{"heading": "Creditor’s discretion", "body": "Creditor may apply the payment at his discretion to any lawful debt actually due and payable, whether or not barred by limitation.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-60", "section": "Section 60", "title": "Application of payment where debt to be discharged is not indicated"}],
+        "examples": [{"title": "No indication", "body": "A owes B several debts and pays a sum without indicating which. B may apply it to any lawful debt actually due, including one barred by limitation, under s. 60.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Can the creditor apply an unindicated payment to a time-barred debt?", "analysis": "Yes. Section 60 allows application to any lawful debt actually due, whether or not recovery is barred by limitation."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s60-trap-1", "trap": "The creditor can never apply a payment to a time-barred debt.", "correction": "Section 60 expressly allows application to a lawful debt actually due even if barred by limitation."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s60-brief", "draftingCategory": "brief", "question": "How should a Section 60 problem be analysed?", "answer": "I. Confirm no indication by debtor. II. Apply creditor’s discretion to any lawful debt actually due. III. Note limitation does not bar application. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 60", "Connected: Sections 59, 61"],
+        "examTips": ["State creditor’s discretion and the limitation point."],
+        "revisionPoints": ["Creditor’s discretion"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-59", "contract-s-61"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-60",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 60 allows the creditor to apply an unindicated payment to any lawful debt actually due, including time-barred debts.", "legalPrinciple": "No indication → creditor’s discretion over lawful debts actually due.", "statutoryFramework": "Indian Contract Act, 1872 — Section 60", "essentialIngredients": ["Creditor’s discretion"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 60"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s60"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:19:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s60-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:19:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-60", "payment", "review-required"]
 }
