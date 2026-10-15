@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-43",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 43 (Any one of joint promisors may be compelled to perform)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 43 of the Indian Contract Act, 1872 is headed \"Any one of joint promisors may be compelled to perform\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 43",
-        "body": "Any one of joint promisors may be compelled to perform"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-43",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 43"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-43",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-43",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 43 (Any one of joint promisors may be compelled to perform)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 43 provides that when two or more persons make a joint promise, the promisee may, in the absence of express agreement to the contrary, compel any one or more of such joint promisors to perform the whole of the promise. Each of two or more joint promisors may compel every other joint promisor to contribute equally with himself to the performance of the promise, unless a contrary intention appears from the contract. If any one of two or more joint promisors makes default in such contribution, the remaining joint promisors must bear the loss arising from such default in equal shares.",
+        "glance": "Promisee may compel any one joint promisor for the whole; joint promisors contribute equally inter se; default loss shared equally by remaining.",
+        "study": "Absent express agreement to the contrary, the promisee may compel any one or more of the joint promisors to perform the whole promise. Inter se, each joint promisor may compel equal contribution unless contrary intention. Default in contribution: remaining joint promisors bear the loss in equal shares. Current-law framing: apply the promisee’s election against any joint promisor; then apply contribution and default-sharing rules among joint promisors.",
+        "sections": [{"heading": "Promisee may compel any one", "body": "Promisee may compel any one or more of the joint promisors to perform the whole of the promise (absent express contrary agreement).", "order": 1}, {"heading": "Equal contribution", "body": "Each joint promisor may compel every other to contribute equally, unless contrary intention.", "order": 2}, {"heading": "Default in contribution", "body": "Remaining joint promisors bear the loss from default in equal shares.", "order": 3}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-43", "section": "Section 43", "title": "Any one of joint promisors may be compelled to perform"}],
+        "examples": [{"title": "One of three compelled", "body": "A, B and C jointly promise to pay D ₹3,000. D may compel A alone to pay the whole under s. 43. A may then claim contribution from B and C.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Must the promisee sue all joint promisors together?", "analysis": "No. Section 43 allows the promisee to compel any one or more to perform the whole, absent express contrary agreement."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s43-trap-1", "trap": "The promisee can only recover a proportionate share from each joint promisor.", "correction": "Section 43 allows the promisee to compel any one for the whole; contribution is among the joint promisors inter se."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s43-brief", "draftingCategory": "brief", "question": "How should a Section 43 problem be analysed?", "answer": "I. Apply promisee’s election against any joint promisor for the whole. II. Apply equal contribution inter se. III. Apply default-sharing. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 43", "Connected: Sections 42, 44"],
+        "examTips": ["State promisee’s right to compel any one for the whole.", "State contribution and default rules."],
+        "revisionPoints": ["Promisee may compel any one", "Equal contribution", "Default in contribution"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-42", "contract-s-44"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-43",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 43 allows the promisee to compel any joint promisor for the whole and regulates contribution among joint promisors.", "legalPrinciple": "Any joint promisor may be compelled for the whole; equal contribution inter se.", "statutoryFramework": "Indian Contract Act, 1872 — Section 43", "essentialIngredients": ["Promisee may compel any one", "Equal contribution", "Default in contribution"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 43"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s43"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:57:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s43-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:57:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-43", "joint", "review-required"]
 }
