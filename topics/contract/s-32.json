@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-32",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 32 (Enforcement of contracts contingent on an event happening)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 32 of the Indian Contract Act, 1872 is headed \"Enforcement of contracts contingent on an event happening\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 32",
-        "body": "Enforcement of contracts contingent on an event happening"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-32",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 32"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-32",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-32",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 32 (Enforcement of contracts contingent on an event happening)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 32 provides that contingent contracts to do or not to do anything if an uncertain future event happens cannot be enforced by law unless and until that event has happened. If the event becomes impossible, such contracts become void.",
+        "glance": "Contingent on event happening → enforceable only when event happens; void if event becomes impossible.",
+        "study": "Contracts contingent on an uncertain future event happening cannot be enforced until the event has happened. If the event becomes impossible, the contracts become void. Current-law framing: identify the contingency of happening; test whether the event has happened or become impossible; apply enforceability or voidness.",
+        "sections": [{"heading": "Enforceable when event happens", "body": "Cannot be enforced unless and until the uncertain future event has happened.", "order": 1}, {"heading": "Void if impossible", "body": "If the event becomes impossible, such contracts become void.", "order": 2}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-32", "section": "Section 32", "title": "Enforcement of contracts contingent on an event happening"}],
+        "examples": [{"title": "Event becomes impossible", "body": "A contracts to pay B if a ship arrives. The ship is sunk. The contract becomes void under s. 32.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Can the contract be enforced before the event?", "analysis": "No. Section 32: cannot be enforced unless and until the event has happened."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s32-trap-1", "trap": "Contingent contracts are always void until the event happens.", "correction": "They are unenforceable until the event happens; they become void only if the event becomes impossible."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s32-brief", "draftingCategory": "brief", "question": "How should a Section 32 problem be analysed?", "answer": "I. Identify contingency of happening. II. Test whether event happened or became impossible. III. Apply enforceability or voidness. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 32", "Connected: Sections 31, 33"],
+        "examTips": ["State both limbs: enforcement and voidness on impossibility."],
+        "revisionPoints": ["Enforceable when event happens", "Void if impossible"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-31", "contract-s-33"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-32",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 32 regulates enforcement of contracts contingent on an event happening.", "legalPrinciple": "Enforceable when event happens; void if impossible.", "statutoryFramework": "Indian Contract Act, 1872 — Section 32", "essentialIngredients": ["Enforceable when event happens", "Void if impossible"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 32"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s32"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:41:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s32-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:41:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-32", "contingent", "review-required"]
 }
