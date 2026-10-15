@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-2",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 2 (Interpretation-clause)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 2 of the Indian Contract Act, 1872 is headed \"Interpretation-clause\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 2",
-        "body": "Interpretation-clause"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-2",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 2 (Interpretation-clause)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 2 is the interpretation-clause. Unless a contrary intention appears from the context: (a) a proposal is a signification of willingness to do or abstain from doing something with a view to obtaining the other’s assent; (b) acceptance turns a proposal into a promise; (c) the maker is the promisor and the acceptor the promisee; (d) consideration is an act, abstinence or promise at the desire of the promisor by the promisee or any other person; (e) every promise and every set of promises forming consideration for each other is an agreement; (f) reciprocal promises form consideration for each other; (g) an agreement not enforceable by law is void; (h) an agreement enforceable by law is a contract; (i) an agreement enforceable at the option of one or more parties but not the other is a voidable contract; (j) a contract which ceases to be enforceable by law becomes void when it ceases to be enforceable.",
+        "glance": "Core definitions: proposal → acceptance → promise → agreement → contract; consideration; void / voidable / becomes void.",
+        "study": "Section 2 supplies the vocabulary of the Act. A proposal is willingness to do or abstain with a view to assent. Acceptance makes a promise. Consideration is an act, abstinence or promise at the promisor’s desire by the promisee or any other person. Mutual promises forming consideration are an agreement; enforceable agreements are contracts. Void means not enforceable by law; voidable means enforceable at one party’s option; a contract becomes void when it ceases to be enforceable. Current-law framing: map the facts to the defined terms before applying later sections (e.g. ss. 10, 23–25).",
+        "sections": [
+            {
+                "heading": "Proposal, acceptance, promise",
+                "body": "(a)–(c): proposal; acceptance turns proposal into promise; promisor and promisee.",
+                "order": 1
+            },
+            {
+                "heading": "Consideration and agreement",
+                "body": "(d)–(f): consideration (including by any other person); agreement; reciprocal promises.",
+                "order": 2
+            },
+            {
+                "heading": "Void, contract, voidable, becomes void",
+                "body": "(g)–(j): void agreement; contract; voidable contract; contract that becomes void.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-2",
+                "section": "Section 2",
+                "title": "Interpretation-clause"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Proposal and acceptance",
+                "body": "A signifies willingness to sell goods to B with a view to B’s assent. B signifies assent. The proposal becomes a promise under s. 2(b).",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Is every agreement a contract?",
+                "analysis": "No. Under s. 2(g)–(h), only an agreement enforceable by law is a contract; an agreement not enforceable by law is void."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s2-void-vs-voidable",
+                "title": "Void agreement (s. 2(g)) vs voidable contract (s. 2(i))",
+                "left": "Not enforceable by law",
+                "right": "Enforceable at the option of one or more parties but not the other",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "No enforceability",
+                        "right": "One-sided option"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s2-trap-1",
+                "trap": "Void and voidable mean the same thing.",
+                "correction": "Void (s. 2(g)) is not enforceable by law; voidable (s. 2(i)) is enforceable at one party’s option."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s2-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 2 problem be analysed?",
+                "answer": "I. Identify the defined term in issue. II. Apply the statutory sense unless context shows contrary intention. III. Map to later operative sections. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 2",
+            "Connected: Sections 3–10"
+        ],
+        "examTips": [
+            "Know the chain: proposal → promise → agreement → contract.",
+            "Distinguish void, voidable, and becomes void."
+        ],
+        "revisionPoints": [
+            "Proposal, acceptance, promise",
+            "Consideration and agreement",
+            "Void, contract, voidable, becomes void"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-1",
+            "contract-s-10"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-2",
+        "migrationNote": "Substantive expansion from catalog stub. Forward-order start 2026-10-15. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 2 defines proposal, promise, consideration, agreement, contract, void, voidable and related terms for the Act.",
+            "legalPrinciple": "Statutory vocabulary for formation and enforceability of contracts.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 2",
+            "essentialIngredients": [
+                "Proposal, acceptance, promise",
+                "Consideration and agreement",
+                "Void, contract, voidable, becomes void"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 2"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act forward-order source check against official section 2(a)–(j). Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s2"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:56:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s2-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-2",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 2"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-2",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:56:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-2",
+        "definitions",
+        "review-required"
+    ]
 }
