@@ -2,40 +2,117 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-151",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 151 (Care to be taken by bailee)",
+  "title": "Indian Contract Act, 1872 — Section 151 (Care to be taken by bailee)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 151 of the Indian Contract Act, 1872 is headed \"Care to be taken by bailee\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 151 provides that in all cases of bailment the bailee is bound to take as much care of the goods bailed to him as a man of ordinary prudence would, under similar circumstances, take of his own goods of the same bulk, quality and value as the goods bailed.",
+    "glance": "The bailee must take the care that a man of ordinary prudence would take of his own similar goods under similar circumstances.",
+    "study": "In all cases of bailment the bailee is bound to take as much care of the goods bailed to him as a man of ordinary prudence would, under similar circumstances, take of his own goods of the same bulk, quality and value as the goods bailed. Current-law framing: the standard is that of ordinary prudence, not absolute liability; it applies to all bailments.",
     "sections": [
       {
-        "heading": "Section 151",
-        "body": "Care to be taken by bailee"
+        "heading": "Core rule",
+        "body": "In all cases of bailment the bailee is bound to take as much care of the goods bailed to him as a man of ordinary prudence would, under similar circumstances, take of his own goods of the same bulk, quality and value as the goods bailed.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Ordinary prudence",
+        "body": "A bailee storing goods must take the same care a reasonably prudent person would take of his own goods of similar bulk, quality and value under the same circumstances."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the standard of care differ between gratuitous and non-gratuitous bailment?",
+        "analysis": "No. Section 151 applies the ordinary-prudence standard in all cases of bailment."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-150",
+      "topic:india:contract-s-152"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-151",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 151"
+      "Indian Contract Act, 1872 — Section 151"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the standard of care required of a bailee under Section 151."
+      ],
+      "definition": "In all cases of bailment the bailee is bound to take as much care of the goods bailed to him as a man of ordinary prudence would, under similar circumstances, take of his own goods of the same bulk, quality and value as the goods bailed.",
+      "legalPrinciple": "Bailee must take the care of a man of ordinary prudence of his own similar goods under similar circumstances.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 151"
+      ],
+      "essentialIngredients": [
+        "All cases of bailment",
+        "Care of a man of ordinary prudence",
+        "Of his own goods of the same bulk, quality and value under similar circumstances"
+      ],
+      "detailedExplanation": "Section 151 requires the bailee, in every bailment, to take as much care of the goods as a man of ordinary prudence would take of his own goods of the same bulk, quality and value under similar circumstances. The standard is that of ordinary prudence, not insurer-like absolute liability.",
+      "examples": [
+        "Reasonable precautions appropriate to the goods and circumstances satisfy the section."
+      ],
+      "distinctions": [
+        "Section 151 states the affirmative duty of care; Section 152 protects the bailee who has taken that care (absent special contract)."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the circumstances and nature of the goods.",
+        "Apply the ordinary-prudence standard.",
+        "Conclude whether the required care was taken."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 151",
+          "Identify the ordinary-prudence standard",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Standard of care",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 152",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee must take ordinary prudent care of similar goods under similar circumstances.",
+        "Applies to all bailments.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 151 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:20:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-151",
-    "review"
+    "source-check-required"
   ]
 }

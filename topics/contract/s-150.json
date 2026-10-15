@@ -2,40 +2,136 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-150",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 150 (Bailor's duty to disclose faults in goods bailed)",
+  "title": "Indian Contract Act, 1872 — Section 150 (Bailor's duty to disclose faults in goods bailed)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 150 of the Indian Contract Act, 1872 is headed \"Bailor's duty to disclose faults in goods bailed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 150 provides that the bailor is bound to disclose to the bailee faults in the goods bailed of which the bailor is aware and which materially interfere with the use of them or expose the bailee to extraordinary risks; if he does not, he is responsible for damage arising directly from such faults. If the goods are bailed for hire, the bailor is responsible for such damage whether or not he was aware of the faults. Two illustrations are provided.",
+    "glance": "Bailor must disclose known faults that interfere with use or create extraordinary risk; liability for non-disclosure. In bailment for hire, liability exists even if the bailor was unaware of the fault.",
+    "study": "The bailor is bound to disclose to the bailee faults in the goods bailed, of which the bailor is aware, and which materially interfere with the use of them, or expose the bailee to extraordinary risks; and if he does not make such disclosure, he is responsible for damage arising to the bailee directly from such faults. If the goods are bailed for hire, the bailor is responsible for such damage, whether he was or was not aware of the existence of such faults in the goods bailed. Illustrations: (a) vicious horse lent without disclosure; (b) unsafe carriage hired. Current-law framing: knowledge is relevant for gratuitous bailment; for hire the duty is stricter.",
     "sections": [
       {
-        "heading": "Section 150",
-        "body": "Bailor's duty to disclose faults in goods bailed"
+        "heading": "Duty in general",
+        "body": "The bailor is bound to disclose to the bailee faults in the goods bailed, of which the bailor is aware, and which materially interfere with the use of them, or expose the bailee to extraordinary risks; and if he does not make such disclosure, he is responsible for damage arising to the bailee directly from such faults.",
+        "order": 1
+      },
+      {
+        "heading": "Bailment for hire",
+        "body": "If the goods are bailed for hire, the bailor is responsible for such damage, whether he was or was not aware of the existence of such faults in the goods bailed.",
+        "order": 2
+      },
+      {
+        "heading": "Statutory illustrations",
+        "body": "(a) A lends a horse, which he knows to be vicious, to B. He does not disclose the fact that the horse is vicious. The horse runs away. B is thrown and injured. A is responsible to B for damage sustained. (b) A hires a carriage of B. The carriage is unsafe, though B is not aware of it, and A is injured. B is responsible to A for the injury.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Known vicious animal (gratuitous)",
+        "body": "A lends a horse he knows is vicious without disclosing it. The horse injures B. A is liable under the first paragraph of Section 150."
+      },
+      {
+        "title": "Unknown fault in hired goods",
+        "body": "B hires an unsafe carriage from A, who is unaware of the defect. A is still responsible for injury under the second paragraph of Section 150."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A lends goods he knows have a dangerous fault and does not disclose it. Is he liable for resulting damage?",
+        "analysis": "Yes. Section 150 requires disclosure of known faults that interfere with use or create extraordinary risk; non-disclosure makes him responsible for resulting damage."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-148",
+      "topic:india:contract-s-151"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 150 Illustration (a): vicious horse lent without disclosure — bailor liable.",
+      "Section 150 Illustration (b): unsafe carriage hired, bailor unaware — bailor still liable."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-150",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 150"
+      "Indian Contract Act, 1872 — Section 150 and Illustrations"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text and illustrations. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the bailor’s duty to disclose faults under Section 150.",
+        "Distinguish the rule for gratuitous bailment and bailment for hire."
+      ],
+      "definition": "The bailor is bound to disclose to the bailee faults in the goods bailed, of which the bailor is aware, and which materially interfere with the use of them, or expose the bailee to extraordinary risks; and if he does not make such disclosure, he is responsible for damage arising to the bailee directly from such faults. If the goods are bailed for hire, the bailor is responsible for such damage, whether he was or was not aware of the existence of such faults.",
+      "legalPrinciple": "Known dangerous faults must be disclosed; in bailment for hire liability exists even without knowledge.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 150"
+      ],
+      "essentialIngredients": [
+        "Faults of which bailor is aware (general rule)",
+        "Faults that materially interfere with use or expose to extraordinary risk",
+        "Stricter rule where goods are bailed for hire"
+      ],
+      "detailedExplanation": "Section 150 imposes a duty on the bailor to disclose known faults that materially interfere with use or create extraordinary risks. Non-disclosure makes the bailor responsible for resulting damage. Where the goods are bailed for hire, responsibility exists whether or not the bailor knew of the fault. The two illustrations confirm both limbs.",
+      "examples": [
+        "Vicious horse lent without disclosure — liability.",
+        "Unsafe hired carriage, unknown defect — liability."
+      ],
+      "distinctions": [
+        "Gratuitous bailment: knowledge required; bailment for hire: knowledge not required."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the fault and whether it was known.",
+        "Identify whether the bailment is for hire.",
+        "Conclude liability under the appropriate limb of Section 150."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 150",
+          "Identify type of bailment and knowledge",
+          "Conclude liability"
+        ],
+        "tenMark": [
+          "Statutory rule and illustrations",
+          "Distinction",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Illustrations",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Disclose known dangerous faults; liability for non-disclosure.",
+        "In hire, liability even without knowledge.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 150 and illustrations aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:20:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-150",
-    "review"
+    "source-check-required"
   ]
 }

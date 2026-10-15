@@ -2,40 +2,113 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-149",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 149 (Delivery to bailee how made)",
+  "title": "Indian Contract Act, 1872 — Section 149 (Delivery to bailee how made)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 149 of the Indian Contract Act, 1872 is headed \"Delivery to bailee how made\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 149 provides that the delivery to the bailee may be made by doing anything which has the effect of putting the goods in the possession of the intended bailee or of any person authorised to hold them on his behalf.",
+    "glance": "Delivery to the bailee is effected by any act that puts the goods in the possession of the intended bailee or of a person authorised to hold them for him.",
+    "study": "The delivery to the bailee may be made by doing anything which has the effect of putting the goods in the possession of the intended bailee or of any person authorised to hold them on his behalf. Current-law framing: delivery may be actual or constructive; the essential is transfer of possession/control.",
     "sections": [
       {
-        "heading": "Section 149",
-        "body": "Delivery to bailee how made"
+        "heading": "Core rule",
+        "body": "The delivery to the bailee may be made by doing anything which has the effect of putting the goods in the possession of the intended bailee or of any person authorised to hold them on his behalf.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Delivery by key or authorisation",
+        "body": "Handing over the key of a warehouse or authorising a third person to take possession effects delivery under Section 149."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A tells B to take the goods from A’s premises and B does so. Is delivery complete?",
+        "analysis": "Yes. Section 149 provides that delivery may be made by anything that puts the goods in the possession of the intended bailee."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-148",
+      "topic:india:contract-s-150"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-149",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 149"
+      "Indian Contract Act, 1872 — Section 149"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State how delivery to a bailee is effected under Section 149."
+      ],
+      "definition": "The delivery to the bailee may be made by doing anything which has the effect of putting the goods in the possession of the intended bailee or of any person authorised to hold them on his behalf.",
+      "legalPrinciple": "Delivery is completed by any act that transfers possession to the bailee or an authorised holder.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 149"
+      ],
+      "essentialIngredients": [
+        "Act that puts the goods in the possession of the intended bailee or authorised person"
+      ],
+      "detailedExplanation": "Section 149 provides that delivery to the bailee may be made by doing anything which has the effect of putting the goods in the possession of the intended bailee or of any person authorised to hold them on his behalf. Delivery may therefore be actual or constructive.",
+      "examples": [
+        "Handing keys or authorising collection constitutes delivery."
+      ],
+      "distinctions": [
+        "Section 149 concerns the mode of delivery; Section 148 defines bailment itself."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the act that transferred possession.",
+        "Conclude whether delivery under Section 149 is complete."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 149",
+          "Identify the act of delivery",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Modes of delivery",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 148",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Delivery is effected by any act putting the goods in the bailee’s (or authorised person’s) possession.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 149 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:20:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-149",
-    "review"
+    "source-check-required"
   ]
 }

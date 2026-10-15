@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-152",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 152 (Bailee when not liable for loss of thing bailed)",
+  "title": "Indian Contract Act, 1872 — Section 152 (Bailee when not liable for loss, etc., of thing bailed)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 152 of the Indian Contract Act, 1872 is headed \"Bailee when not liable for loss of thing bailed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 152 provides that the bailee, in the absence of any special contract, is not responsible for the loss, destruction or deterioration of the thing bailed, if he has taken the amount of care of it described in Section 151.",
+    "glance": "Absent a special contract, the bailee who has taken the Section 151 care is not liable for loss, destruction or deterioration.",
+    "study": "The bailee, in the absence of any special contract, is not responsible for the loss, destruction or deterioration of the thing bailed, if he has taken the amount of care of it described in section 151. Current-law framing: compliance with the ordinary-prudence standard shields the bailee unless a special contract imposes higher liability.",
     "sections": [
       {
-        "heading": "Section 152",
-        "body": "Bailee when not liable for loss of thing bailed"
+        "heading": "Core rule",
+        "body": "The bailee, in the absence of any special contract, is not responsible for the loss, destruction or deterioration of the thing bailed, if he has taken the amount of care of it described in section 151.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Care taken — no liability",
+        "body": "Bailee takes ordinary prudent care under Section 151 and goods are lost by accident. Absent a special contract, Section 152 shields the bailee."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee took the care required by Section 151. Goods are destroyed by an unavoidable accident. Is he liable?",
+        "analysis": "No, in the absence of any special contract, under Section 152."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-151"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-152",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 152"
+      "Indian Contract Act, 1872 — Section 152"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State when a bailee is not liable for loss under Section 152."
+      ],
+      "definition": "The bailee, in the absence of any special contract, is not responsible for the loss, destruction or deterioration of the thing bailed, if he has taken the amount of care of it described in section 151.",
+      "legalPrinciple": "Compliance with the Section 151 standard of care protects the bailee from liability for loss, destruction or deterioration, absent a special contract.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 152"
+      ],
+      "essentialIngredients": [
+        "Absence of any special contract",
+        "Bailee has taken the care described in Section 151"
+      ],
+      "detailedExplanation": "Section 152 provides that, in the absence of any special contract, the bailee is not responsible for loss, destruction or deterioration of the thing bailed if he has taken the care required by Section 151. A special contract may impose a higher standard or absolute liability.",
+      "examples": [
+        "Ordinary care taken + accidental loss = no liability (absent special contract)."
+      ],
+      "distinctions": [
+        "Section 151 is the duty; Section 152 is the consequence of fulfilling that duty."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm the Section 151 care was taken.",
+        "Confirm absence of special contract.",
+        "Conclude no liability under Section 152."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 152",
+          "Confirm care under s. 151 and no special contract",
+          "Conclude no liability"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Link to s. 151",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 151",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee who takes Section 151 care is not liable for loss etc., absent a special contract.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 152 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:20:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-152",
-    "review"
+    "source-check-required"
   ]
 }
