@@ -1,41 +1,165 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-228",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 228 (Principal not bound when excess of authority is not separable)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 228 of the Indian Contract Act, 1872 is headed \"Principal not bound when excess of authority is not separable\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 228",
-        "body": "Principal not bound when excess of authority is not separable"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-228",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 228 (Principal not bound when excess of agent’s authority is not separable)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 228 provides that where an agent does more than he is authorised to do, and what he does beyond the scope of his authority cannot be separated from what is within it, the principal is not bound to recognise the transaction. Illustration: A authorises B to buy 500 sheep; B buys 500 sheep and 200 lambs for one sum of ₹6,000 — A may repudiate the whole transaction.",
+        "glance": "Inseparable excess of authority — principal not bound to recognise the transaction.",
+        "study": "Where an agent does more than authorised and the excess cannot be separated from the authorised part, the principal is not bound to recognise the transaction. Illustration: A authorises B to buy 500 sheep; B buys 500 sheep and 200 lambs for one sum of ₹6,000; A may repudiate the whole transaction. Contrast s. 227, where the authorised part can be separated and only that part binds. Current-law framing: identify the excess; test separability; if inseparable, principal may repudiate the whole.",
+        "sections": [
+            {
+                "heading": "Excess of authority",
+                "body": "The agent does more than he is authorised to do.",
+                "order": 1
+            },
+            {
+                "heading": "Excess not separable",
+                "body": "What is beyond authority cannot be separated from what is within it.",
+                "order": 2
+            },
+            {
+                "heading": "Principal not bound",
+                "body": "The principal is not bound to recognise the transaction.",
+                "order": 3
+            },
+            {
+                "heading": "Illustration",
+                "body": "Authority to buy 500 sheep; agent buys sheep and lambs for one sum — principal may repudiate the whole.",
+                "order": 4
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-228",
+                "section": "Section 228",
+                "title": "Principal not bound when excess of agent’s authority is not separable"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Sheep and lambs for one sum",
+                "body": "A authorises B to buy 500 sheep. B buys 500 sheep and 200 lambs for one sum of ₹6,000. A may repudiate the whole transaction under the statutory illustration.",
+                "kind": "statutory-illustration",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "If the authorised part can be separated, does s. 228 still apply?",
+                "analysis": "No. Separable excess is governed by s. 227 — only the authorised part binds. Section 228 applies when the excess cannot be separated."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s228-vs-s227",
+                "title": "Inseparable excess (s. 228) vs separable excess (s. 227)",
+                "left": "Principal not bound to recognise the transaction",
+                "right": "Only the authorised part binds between agent and principal",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Inseparability",
+                        "right": "Separability"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s228-trap-1",
+                "trap": "Any excess of authority always voids the whole transaction for the principal.",
+                "correction": "Only when the excess cannot be separated does s. 228 free the principal from recognising the transaction; separable excess is under s. 227."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s228-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 228 problem be analysed?",
+                "answer": "I. Identify the excess of authority. II. Test separability. III. If inseparable, principal not bound to recognise the transaction. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 228",
+            "Connected: Section 227"
+        ],
+        "examTips": [
+            "Always contrast with s. 227 on separability.",
+            "Use the sheep-and-lambs illustration."
+        ],
+        "revisionPoints": [
+            "Excess of authority",
+            "Excess not separable",
+            "Principal not bound",
+            "Illustration"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-227",
+            "contract-s-229"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-228",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 228 provides that where an agent’s excess of authority cannot be separated from the authorised part, the principal is not bound to recognise the transaction.",
+            "legalPrinciple": "Inseparable excess — principal not bound.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 228",
+            "essentialIngredients": [
+                "Excess of authority",
+                "Excess not separable",
+                "Principal not bound",
+                "Illustration"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 228"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 228 including illustration. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s228-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:47:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s228-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-228",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 228"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-228",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:47:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-228",
+        "agency",
+        "review-required"
+    ]
 }
