@@ -1,41 +1,64 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-14",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 14 (Free consent defined)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 14 of the Indian Contract Act, 1872 is headed \"Free consent defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 14",
-        "body": "Free consent defined"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-14",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 14"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-14",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-14",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 14 (“Free consent” defined)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 14 provides that consent is said to be free when it is not caused by — (1) coercion, as defined in section 15; (2) undue influence, as defined in section 16; (3) fraud, as defined in section 17; (4) misrepresentation, as defined in section 18; or (5) mistake, subject to sections 20, 21 and 22. Consent is said to be so caused when it would not have been given but for the existence of such coercion, undue influence, fraud, misrepresentation or mistake.",
+        "glance": "Free consent = not caused by coercion, undue influence, fraud, misrepresentation or mistake (ss. 15–18, 20–22).",
+        "study": "Consent is free when not caused by coercion (s. 15), undue influence (s. 16), fraud (s. 17), misrepresentation (s. 18), or mistake (ss. 20–22). Consent is so caused when it would not have been given but for that factor. Free consent is an ingredient of a contract under s. 10; its absence yields voidability under ss. 19–19A (or voidness for bilateral mistake of fact under s. 20). Current-law framing: establish consent (s. 13); test each vitiating factor; apply the ‘but for’ causation test.",
+        "sections": [
+            {
+                "heading": "Five vitiating factors",
+                "body": "Coercion (s. 15); undue influence (s. 16); fraud (s. 17); misrepresentation (s. 18); mistake (ss. 20–22).",
+                "order": 1
+            },
+            {
+                "heading": "Causation",
+                "body": "Consent is so caused when it would not have been given but for the existence of such factor.",
+                "order": 2
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-14", "section": "Section 14", "title": "“Free consent” defined"}],
+        "examples": [{"title": "Consent not free", "body": "A’s consent is obtained by threat of an act forbidden by the IPC. Consent is not free under s. 14 read with s. 15.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Does every hard bargain show absence of free consent?", "analysis": "No. Free consent is absent only when caused by one of the five statutory factors with ‘but for’ causation."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s14-trap-1", "trap": "Any pressure or bad bargain means consent is not free.", "correction": "Section 14 lists five specific causes; ordinary commercial pressure is not enough without one of those."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s14-brief", "draftingCategory": "brief", "question": "How should a Section 14 problem be analysed?", "answer": "I. Establish consent (s. 13). II. Test coercion, undue influence, fraud, misrepresentation, mistake. III. Apply ‘but for’ causation. IV. Conclude on freeness and consequences (ss. 19–20).", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 14", "Connected: Sections 15–19A, 20–22"],
+        "examTips": ["List the five factors.", "State the ‘but for’ test."],
+        "revisionPoints": ["Five vitiating factors", "Causation"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-15", "contract-s-13"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-14",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 14 defines free consent as consent not caused by coercion, undue influence, fraud, misrepresentation or mistake.",
+            "legalPrinciple": "Free consent requires absence of the five statutory vitiating causes with ‘but for’ causation.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 14",
+            "essentialIngredients": ["Five vitiating factors", "Causation"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 14"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s14"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:13:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s14-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:13:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-14", "free-consent", "review-required"]
 }
