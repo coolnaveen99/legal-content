@@ -1,38 +1,155 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-53",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 53 (Liability of party preventing event on which the contract is to take effect)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 53 provides that when a contract contains reciprocal promises, and one party to the contract prevents the other from performing his promise, the contract becomes voidable at the option of the party so prevented; and he is entitled to compensation from the other party for any loss which he may sustain in consequence of the non-performance of the contract.",
-        "glance": "Prevention of reciprocal performance → contract voidable at option of prevented party; compensation for loss.",
-        "study": "Where reciprocal promises exist and one party prevents the other from performing, the contract becomes voidable at the option of the party so prevented, who is also entitled to compensation for loss from non-performance. Current-law framing: establish reciprocal promises and prevention; apply voidability and compensation.",
-        "sections": [{"heading": "Prevention", "body": "One party prevents the other from performing his reciprocal promise.", "order": 1}, {"heading": "Voidable and compensation", "body": "Contract becomes voidable at the option of the party so prevented; entitlement to compensation for loss from non-performance.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-53", "section": "Section 53", "title": "Liability of party preventing event on which the contract is to take effect"}],
-        "examples": [{"title": "Prevention of performance", "body": "A contracts to do work for B and B is to supply materials. B refuses to supply. A may treat the contract as voidable and claim compensation under s. 53.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does prevention only give a claim for damages without affecting the contract?", "analysis": "No. Section 53 makes the contract voidable at the option of the prevented party, with compensation."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s53-trap-1", "trap": "Prevention only delays performance without voidability.", "correction": "Section 53: the contract becomes voidable at the option of the party so prevented."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s53-brief", "draftingCategory": "brief", "question": "How should a Section 53 problem be analysed?", "answer": "I. Establish reciprocal promises and prevention. II. Apply voidability at option of prevented party. III. Apply compensation. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 53", "Connected: Sections 52, 54, 73"],
-        "examTips": ["State voidability and compensation together."],
-        "revisionPoints": ["Prevention", "Voidable and compensation"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-52", "contract-s-54"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-53",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 53 makes a contract with reciprocal promises voidable when one party prevents the other from performing, with compensation.", "legalPrinciple": "Prevention of reciprocal performance → voidable + compensation.", "statutoryFramework": "Indian Contract Act, 1872 — Section 53", "essentialIngredients": ["Prevention", "Voidable and compensation"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 53"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s53"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:12:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s53-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-53",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 53 (Liability of party preventing event on which the contract is to take effect)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 53 provides that when a contract contains reciprocal promises, and one party to the contract prevents the other from performing his promise, the contract becomes voidable at the option of the party so prevented; and he is entitled to compensation from the other party for any loss which he may sustain in consequence of the non-performance of the contract.",
+    "glance": "Prevention of reciprocal performance → contract voidable at option of prevented party; compensation for loss.",
+    "study": "Where reciprocal promises exist and one party prevents the other from performing, the contract becomes voidable at the option of the party so prevented, who is also entitled to compensation for loss from non-performance. Current-law framing: establish reciprocal promises and prevention; apply voidability and compensation.",
+    "sections": [
+      {
+        "heading": "Prevention",
+        "body": "One party prevents the other from performing his reciprocal promise.",
+        "order": 1
+      },
+      {
+        "heading": "Voidable and compensation",
+        "body": "Contract becomes voidable at the option of the party so prevented; entitlement to compensation for loss from non-performance.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-53",
+        "section": "Section 53",
+        "title": "Liability of party preventing event on which the contract is to take effect"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Prevention of performance",
+        "body": "A contracts to do work for B and B is to supply materials. B refuses to supply. A may treat the contract as voidable and claim compensation under s. 53.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does prevention only give a claim for damages without affecting the contract?",
+        "analysis": "No. Section 53 makes the contract voidable at the option of the prevented party, with compensation."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-53",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s53-trap-1",
+        "trap": "Prevention only delays performance without voidability.",
+        "correction": "Section 53: the contract becomes voidable at the option of the party so prevented."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s53-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 53 problem be analysed?",
+        "answer": "I. Establish reciprocal promises and prevention. II. Apply voidability at option of prevented party. III. Apply compensation. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 53",
+      "Connected: Sections 52, 54, 73"
+    ],
+    "examTips": [
+      "State voidability and compensation together."
+    ],
+    "revisionPoints": [
+      "Prevention",
+      "Voidable and compensation"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-52",
+      "contract-s-54"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-53",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 53 makes a contract with reciprocal promises voidable when one party prevents the other from performing, with compensation.",
+      "legalPrinciple": "Prevention of reciprocal performance → voidable + compensation.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 53",
+      "essentialIngredients": [
+        "Prevention",
+        "Voidable and compensation"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 53"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s53"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:12:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s53-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-53",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 53 provides that when a contract contains reciprocal promises, and one party to the contract prevents the other from performing his promise, the contract becomes voidable at the option of the party so prevented; and he is entitled to compensation from the other party for any loss which he may sustain in consequence of the non-performance of the contract."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:12:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-53", "reciprocal", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:12:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-53",
+    "reciprocal",
+    "review-required"
+  ]
 }

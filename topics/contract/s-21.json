@@ -1,64 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-21",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 21 (Effect of mistakes as to law)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 21 provides that a contract is not voidable because it was caused by a mistake as to any law in force in India; but a mistake as to a law not in force in India has the same effect as a mistake of fact.",
-        "glance": "Mistake as to Indian law does not make the contract voidable; mistake as to foreign law = mistake of fact.",
-        "study": "A contract is not voidable merely because it was caused by a mistake as to any law in force in India. A mistake as to a law not in force in India has the same effect as a mistake of fact (and may engage s. 20 if bilateral and essential). Current-law framing: classify the mistake as Indian law or foreign law; apply the corresponding rule.",
-        "sections": [
-            {
-                "heading": "Mistake as to Indian law",
-                "body": "Contract not voidable because caused by a mistake as to any law in force in India.",
-                "order": 1
-            },
-            {
-                "heading": "Mistake as to foreign law",
-                "body": "Mistake as to a law not in force in India has the same effect as a mistake of fact.",
-                "order": 2
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-21",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 21 (Effect of mistakes as to law)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 21 provides that a contract is not voidable because it was caused by a mistake as to any law in force in India; but a mistake as to a law not in force in India has the same effect as a mistake of fact.",
+    "glance": "Mistake as to Indian law does not make the contract voidable; mistake as to foreign law = mistake of fact.",
+    "study": "A contract is not voidable merely because it was caused by a mistake as to any law in force in India. A mistake as to a law not in force in India has the same effect as a mistake of fact (and may engage s. 20 if bilateral and essential). Current-law framing: classify the mistake as Indian law or foreign law; apply the corresponding rule.",
+    "sections": [
+      {
+        "heading": "Mistake as to Indian law",
+        "body": "Contract not voidable because caused by a mistake as to any law in force in India.",
+        "order": 1
+      },
+      {
+        "heading": "Mistake as to foreign law",
+        "body": "Mistake as to a law not in force in India has the same effect as a mistake of fact.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-21",
+        "section": "Section 21",
+        "title": "Effect of mistakes as to law"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Mistake of Indian statute",
+        "body": "Parties contract under a wrong view of an Indian statute. The contract is not voidable on that ground alone under s. 21.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does every legal mistake void the agreement?",
+        "analysis": "No. Mistake as to Indian law does not make the contract voidable; only mistake as to foreign law is treated as mistake of fact."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-21",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s21-trap-1",
+        "trap": "Ignorantia juris always voids the contract.",
+        "correction": "Section 21: mistake as to Indian law does not make the contract voidable."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s21-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 21 problem be analysed?",
+        "answer": "I. Classify as Indian or foreign law. II. Apply the corresponding rule. III. If foreign law and bilateral essential fact, link to s. 20. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 21",
+      "Connected: Sections 20, 22"
+    ],
+    "examTips": [
+      "Contrast Indian law vs foreign law.",
+      "Link foreign-law mistake to s. 20."
+    ],
+    "revisionPoints": [
+      "Mistake as to Indian law",
+      "Mistake as to foreign law"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-20",
+      "contract-s-22"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-21",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 21 provides that mistake as to Indian law does not make a contract voidable; mistake as to foreign law is treated as mistake of fact.",
+      "legalPrinciple": "Ignorantia juris (Indian law) does not void; foreign law = fact.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 21",
+      "essentialIngredients": [
+        "Mistake as to Indian law",
+        "Mistake as to foreign law"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 21"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s21"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:27:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s21-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-21",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-21", "section": "Section 21", "title": "Effect of mistakes as to law"}],
-        "examples": [{"title": "Mistake of Indian statute", "body": "Parties contract under a wrong view of an Indian statute. The contract is not voidable on that ground alone under s. 21.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does every legal mistake void the agreement?", "analysis": "No. Mistake as to Indian law does not make the contract voidable; only mistake as to foreign law is treated as mistake of fact."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s21-trap-1", "trap": "Ignorantia juris always voids the contract.", "correction": "Section 21: mistake as to Indian law does not make the contract voidable."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s21-brief", "draftingCategory": "brief", "question": "How should a Section 21 problem be analysed?", "answer": "I. Classify as Indian or foreign law. II. Apply the corresponding rule. III. If foreign law and bilateral essential fact, link to s. 20. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 21", "Connected: Sections 20, 22"],
-        "examTips": ["Contrast Indian law vs foreign law.", "Link foreign-law mistake to s. 20."],
-        "revisionPoints": ["Mistake as to Indian law", "Mistake as to foreign law"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-20", "contract-s-22"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-21",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 21 provides that mistake as to Indian law does not make a contract voidable; mistake as to foreign law is treated as mistake of fact.",
-            "legalPrinciple": "Ignorantia juris (Indian law) does not void; foreign law = fact.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 21",
-            "essentialIngredients": ["Mistake as to Indian law", "Mistake as to foreign law"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 21"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s21"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:27:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s21-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 21 provides that a contract is not voidable because it was caused by a mistake as to any law in force in India; but a mistake as to a law not in force in India has the same effect as a mistake of fact."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:27:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-21", "mistake", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:27:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-21",
+    "mistake",
+    "review-required"
+  ]
 }

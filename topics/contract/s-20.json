@@ -1,64 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-20",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 20 (Agreement void where both parties are under mistake as to matter of fact)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 20 provides that where both the parties to an agreement are under a mistake as to a matter of fact essential to the agreement, the agreement is void. An erroneous opinion as to the value of the thing which forms the subject-matter of the agreement is not to be deemed a mistake as to a matter of fact.",
-        "glance": "Bilateral mistake of fact essential to the agreement → void; erroneous opinion as to value is not such a mistake.",
-        "study": "Where both parties are under a mistake as to a matter of fact essential to the agreement, the agreement is void. An erroneous opinion as to the value of the subject-matter is not a mistake as to a matter of fact. Unilateral mistake of fact does not by itself make a contract voidable (s. 22). Mistake of law is governed by s. 21. Current-law framing: identify the shared mistake; test whether it is as to a fact essential to the agreement; exclude mere value opinions; conclude voidness.",
-        "sections": [
-            {
-                "heading": "Bilateral mistake of essential fact",
-                "body": "Both parties under a mistake as to a matter of fact essential to the agreement — agreement void.",
-                "order": 1
-            },
-            {
-                "heading": "Value not a fact mistake",
-                "body": "Erroneous opinion as to the value of the subject-matter is not a mistake as to a matter of fact.",
-                "order": 2
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-20",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 20 (Agreement void where both parties are under mistake as to matter of fact)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 20 provides that where both the parties to an agreement are under a mistake as to a matter of fact essential to the agreement, the agreement is void. An erroneous opinion as to the value of the thing which forms the subject-matter of the agreement is not to be deemed a mistake as to a matter of fact.",
+    "glance": "Bilateral mistake of fact essential to the agreement → void; erroneous opinion as to value is not such a mistake.",
+    "study": "Where both parties are under a mistake as to a matter of fact essential to the agreement, the agreement is void. An erroneous opinion as to the value of the subject-matter is not a mistake as to a matter of fact. Unilateral mistake of fact does not by itself make a contract voidable (s. 22). Mistake of law is governed by s. 21. Current-law framing: identify the shared mistake; test whether it is as to a fact essential to the agreement; exclude mere value opinions; conclude voidness.",
+    "sections": [
+      {
+        "heading": "Bilateral mistake of essential fact",
+        "body": "Both parties under a mistake as to a matter of fact essential to the agreement — agreement void.",
+        "order": 1
+      },
+      {
+        "heading": "Value not a fact mistake",
+        "body": "Erroneous opinion as to the value of the subject-matter is not a mistake as to a matter of fact.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-20",
+        "section": "Section 20",
+        "title": "Agreement void where both parties are under mistake as to matter of fact"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Subject-matter already destroyed",
+        "body": "Both parties contract for a specific thing that, unknown to both, has already ceased to exist. The agreement is void under s. 20.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a bad bargain void the agreement under s. 20?",
+        "analysis": "No. Erroneous opinion as to value is not a mistake as to a matter of fact."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-20",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s20-trap-1",
+        "trap": "Any mistake by either party voids the contract.",
+        "correction": "Section 20 requires both parties under a mistake as to an essential fact; unilateral mistake is under s. 22."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s20-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 20 problem be analysed?",
+        "answer": "I. Identify the shared mistake. II. Test essential fact. III. Exclude value opinions. IV. Conclude voidness.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 20",
+      "Connected: Sections 21, 22"
+    ],
+    "examTips": [
+      "Stress bilateral and essential fact.",
+      "State the value explanation."
+    ],
+    "revisionPoints": [
+      "Bilateral mistake of essential fact",
+      "Value not a fact mistake"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-21",
+      "contract-s-22"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-20",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 20 voids an agreement where both parties are under a mistake as to a fact essential to the agreement.",
+      "legalPrinciple": "Bilateral essential fact mistake → void.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 20",
+      "essentialIngredients": [
+        "Bilateral mistake of essential fact",
+        "Value not a fact mistake"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 20"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s20"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:26:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s20-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-20",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-20", "section": "Section 20", "title": "Agreement void where both parties are under mistake as to matter of fact"}],
-        "examples": [{"title": "Subject-matter already destroyed", "body": "Both parties contract for a specific thing that, unknown to both, has already ceased to exist. The agreement is void under s. 20.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does a bad bargain void the agreement under s. 20?", "analysis": "No. Erroneous opinion as to value is not a mistake as to a matter of fact."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s20-trap-1", "trap": "Any mistake by either party voids the contract.", "correction": "Section 20 requires both parties under a mistake as to an essential fact; unilateral mistake is under s. 22."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s20-brief", "draftingCategory": "brief", "question": "How should a Section 20 problem be analysed?", "answer": "I. Identify the shared mistake. II. Test essential fact. III. Exclude value opinions. IV. Conclude voidness.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 20", "Connected: Sections 21, 22"],
-        "examTips": ["Stress bilateral and essential fact.", "State the value explanation."],
-        "revisionPoints": ["Bilateral mistake of essential fact", "Value not a fact mistake"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-21", "contract-s-22"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-20",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 20 voids an agreement where both parties are under a mistake as to a fact essential to the agreement.",
-            "legalPrinciple": "Bilateral essential fact mistake → void.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 20",
-            "essentialIngredients": ["Bilateral mistake of essential fact", "Value not a fact mistake"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 20"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s20"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:26:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s20-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 20 provides that where both the parties to an agreement are under a mistake as to a matter of fact essential to the agreement, the agreement is void. An erroneous opinion as to the value of the thing which forms the subject-matter of the agreement is not to be deemed a mistake as to a matter of fact."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:26:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-20", "mistake", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:26:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-20",
+    "mistake",
+    "review-required"
+  ]
 }

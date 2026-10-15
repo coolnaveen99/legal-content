@@ -1,69 +1,163 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-28",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 28 (Agreements in restraint of legal proceedings, void)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 28 provides that every agreement — (a) by which any party thereto is restricted absolutely from enforcing his rights under or in respect of any contract, by the usual legal proceedings in the ordinary tribunals, or which limits the time within which he may thus enforce his rights; or (b) which extinguishes the rights of any party thereto, or discharges any party thereto, from any liability, under or in respect of any contract on the expiry of a specified period so as to restrict any party from enforcing his rights, is void to that extent. Exceptions save certain arbitration agreements (referring existing or future disputes to arbitration, and related rules).",
-        "glance": "Absolute restriction on legal proceedings or limiting/extinguishing time to enforce rights → void to that extent; arbitration exceptions.",
-        "study": "Agreements that absolutely restrict a party from enforcing contractual rights by usual legal proceedings, or that limit the time for such enforcement, or that extinguish rights/discharge liability on expiry of a specified period so as to restrict enforcement, are void to that extent. Statutory exceptions preserve agreements to refer existing or future disputes to arbitration. Current-law framing: identify the restriction on legal proceedings or time; apply voidness to that extent; test arbitration exceptions.",
-        "sections": [
-            {
-                "heading": "Absolute restriction on proceedings",
-                "body": "Agreement restricting a party absolutely from enforcing rights by usual legal proceedings in ordinary tribunals — void to that extent.",
-                "order": 1
-            },
-            {
-                "heading": "Limiting or extinguishing time",
-                "body": "Agreement limiting time to enforce rights, or extinguishing rights/discharging liability on expiry of a specified period so as to restrict enforcement — void to that extent.",
-                "order": 2
-            },
-            {
-                "heading": "Arbitration exceptions",
-                "body": "Exceptions save agreements to refer existing or future disputes to arbitration.",
-                "order": 3
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-28",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 28 (Agreements in restraint of legal proceedings, void)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 28 provides that every agreement — (a) by which any party thereto is restricted absolutely from enforcing his rights under or in respect of any contract, by the usual legal proceedings in the ordinary tribunals, or which limits the time within which he may thus enforce his rights; or (b) which extinguishes the rights of any party thereto, or discharges any party thereto, from any liability, under or in respect of any contract on the expiry of a specified period so as to restrict any party from enforcing his rights, is void to that extent. Exceptions save certain arbitration agreements (referring existing or future disputes to arbitration, and related rules).",
+    "glance": "Absolute restriction on legal proceedings or limiting/extinguishing time to enforce rights → void to that extent; arbitration exceptions.",
+    "study": "Agreements that absolutely restrict a party from enforcing contractual rights by usual legal proceedings, or that limit the time for such enforcement, or that extinguish rights/discharge liability on expiry of a specified period so as to restrict enforcement, are void to that extent. Statutory exceptions preserve agreements to refer existing or future disputes to arbitration. Current-law framing: identify the restriction on legal proceedings or time; apply voidness to that extent; test arbitration exceptions.",
+    "sections": [
+      {
+        "heading": "Absolute restriction on proceedings",
+        "body": "Agreement restricting a party absolutely from enforcing rights by usual legal proceedings in ordinary tribunals — void to that extent.",
+        "order": 1
+      },
+      {
+        "heading": "Limiting or extinguishing time",
+        "body": "Agreement limiting time to enforce rights, or extinguishing rights/discharging liability on expiry of a specified period so as to restrict enforcement — void to that extent.",
+        "order": 2
+      },
+      {
+        "heading": "Arbitration exceptions",
+        "body": "Exceptions save agreements to refer existing or future disputes to arbitration.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-28",
+        "section": "Section 28",
+        "title": "Agreements in restraint of legal proceedings, void"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Clause extinguishing rights after short period",
+        "body": "A contract provides that all rights under it extinguish six months after the cause of action, regardless of limitation law. Such a clause may be void to that extent under s. 28.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Are arbitration clauses void under s. 28?",
+        "analysis": "No. Section 28 contains exceptions saving agreements to refer disputes to arbitration."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-28",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s28-trap-1",
+        "trap": "Any clause shortening limitation is always valid as party autonomy.",
+        "correction": "Section 28 voids agreements that limit time to enforce rights or extinguish rights so as to restrict enforcement, subject to arbitration exceptions."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s28-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 28 problem be analysed?",
+        "answer": "I. Identify restriction on proceedings or time. II. Apply voidness to that extent. III. Test arbitration exceptions. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 28",
+      "Connected: Arbitration law"
+    ],
+    "examTips": [
+      "State both limbs (a) and (b).",
+      "Mention arbitration exceptions."
+    ],
+    "revisionPoints": [
+      "Absolute restriction on proceedings",
+      "Limiting or extinguishing time",
+      "Arbitration exceptions"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-27",
+      "contract-s-29"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-28",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 28 voids agreements restraining legal proceedings or limiting/extinguishing enforcement time, subject to arbitration exceptions.",
+      "legalPrinciple": "Restraint of legal proceedings void to that extent; arbitration saved.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 28",
+      "essentialIngredients": [
+        "Absolute restriction on proceedings",
+        "Limiting or extinguishing time",
+        "Arbitration exceptions"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 28"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s28"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:36:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s28-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-28",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-28", "section": "Section 28", "title": "Agreements in restraint of legal proceedings, void"}],
-        "examples": [{"title": "Clause extinguishing rights after short period", "body": "A contract provides that all rights under it extinguish six months after the cause of action, regardless of limitation law. Such a clause may be void to that extent under s. 28.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Are arbitration clauses void under s. 28?", "analysis": "No. Section 28 contains exceptions saving agreements to refer disputes to arbitration."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s28-trap-1", "trap": "Any clause shortening limitation is always valid as party autonomy.", "correction": "Section 28 voids agreements that limit time to enforce rights or extinguish rights so as to restrict enforcement, subject to arbitration exceptions."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s28-brief", "draftingCategory": "brief", "question": "How should a Section 28 problem be analysed?", "answer": "I. Identify restriction on proceedings or time. II. Apply voidness to that extent. III. Test arbitration exceptions. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 28", "Connected: Arbitration law"],
-        "examTips": ["State both limbs (a) and (b).", "Mention arbitration exceptions."],
-        "revisionPoints": ["Absolute restriction on proceedings", "Limiting or extinguishing time", "Arbitration exceptions"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-27", "contract-s-29"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-28",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 28 voids agreements restraining legal proceedings or limiting/extinguishing enforcement time, subject to arbitration exceptions.",
-            "legalPrinciple": "Restraint of legal proceedings void to that extent; arbitration saved.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 28",
-            "essentialIngredients": ["Absolute restriction on proceedings", "Limiting or extinguishing time", "Arbitration exceptions"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 28"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s28"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:36:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s28-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 28 provides that every agreement — (a) by which any party thereto is restricted absolutely from enforcing his rights under or in respect of any contract, by the usual legal proceedings in the ordinary tribunals, or which limits the time within which he may thus enforce his rights; or (b) which extinguishes the rights of any party thereto, or discharges any party thereto, from any liability, under or in respect of any contract on the expiry of a specified period so as to restrict any party from enforcing his rights, is void to that extent. Exceptions save certain arbitration agreements (referring existing or future disputes to arbitration, and related rules)."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:36:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-28", "legal-proceedings", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:36:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-28",
+    "legal-proceedings",
+    "review-required"
+  ]
 }

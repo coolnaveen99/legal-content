@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-67",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 67 (Effect of neglect of promisee to afford promisor reasonable facilities for performance)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 67 provides that if any promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused by such neglect or refusal as to any non-performance caused thereby.",
-        "glance": "Promisee’s neglect/refusal to afford reasonable facilities → promisor excused for non-performance caused thereby.",
-        "study": "If the promisee neglects or refuses to afford the promisor reasonable facilities for performance, the promisor is excused as to any non-performance caused by that neglect or refusal. Current-law framing: identify neglect or refusal of reasonable facilities; link non-performance to that cause; apply excuse under s. 67.",
-        "sections": [{"heading": "Excuse for non-performance", "body": "Promisor is excused by the promisee’s neglect or refusal to afford reasonable facilities as to any non-performance caused thereby.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-67", "section": "Section 67", "title": "Effect of neglect of promisee to afford promisor reasonable facilities for performance"}],
-        "examples": [{"title": "Access refused", "body": "A is to repair B’s house. B refuses A access. A is excused for non-performance caused by that refusal under s. 67.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Is the promisor excused for all non-performance if the promisee fails to cooperate?", "analysis": "Only as to non-performance caused by the neglect or refusal to afford reasonable facilities under s. 67."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s67-trap-1", "trap": "Any difficulty in performance excuses the promisor.", "correction": "Section 67 requires neglect or refusal by the promisee to afford reasonable facilities, causing the non-performance."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s67-brief", "draftingCategory": "brief", "question": "How should a Section 67 problem be analysed?", "answer": "I. Identify neglect/refusal of reasonable facilities. II. Link non-performance to that cause. III. Apply excuse. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 67", "Connected: Sections 37, 53"],
-        "examTips": ["Stress causation: non-performance caused by the neglect or refusal."],
-        "revisionPoints": ["Excuse for non-performance"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-66", "contract-s-68"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-67",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 67 excuses the promisor for non-performance caused by the promisee’s neglect or refusal to afford reasonable facilities.", "legalPrinciple": "Promisee’s failure to afford facilities → promisor excused for resulting non-performance.", "statutoryFramework": "Indian Contract Act, 1872 — Section 67", "essentialIngredients": ["Excuse for non-performance"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 67"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s67"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:32:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s67-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-67",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 67 (Effect of neglect of promisee to afford promisor reasonable facilities for performance)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 67 provides that if any promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused by such neglect or refusal as to any non-performance caused thereby.",
+    "glance": "Promisee’s neglect/refusal to afford reasonable facilities → promisor excused for non-performance caused thereby.",
+    "study": "If the promisee neglects or refuses to afford the promisor reasonable facilities for performance, the promisor is excused as to any non-performance caused by that neglect or refusal. Current-law framing: identify neglect or refusal of reasonable facilities; link non-performance to that cause; apply excuse under s. 67.",
+    "sections": [
+      {
+        "heading": "Excuse for non-performance",
+        "body": "Promisor is excused by the promisee’s neglect or refusal to afford reasonable facilities as to any non-performance caused thereby.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-67",
+        "section": "Section 67",
+        "title": "Effect of neglect of promisee to afford promisor reasonable facilities for performance"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Access refused",
+        "body": "A is to repair B’s house. B refuses A access. A is excused for non-performance caused by that refusal under s. 67.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is the promisor excused for all non-performance if the promisee fails to cooperate?",
+        "analysis": "Only as to non-performance caused by the neglect or refusal to afford reasonable facilities under s. 67."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-67",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s67-trap-1",
+        "trap": "Any difficulty in performance excuses the promisor.",
+        "correction": "Section 67 requires neglect or refusal by the promisee to afford reasonable facilities, causing the non-performance."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s67-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 67 problem be analysed?",
+        "answer": "I. Identify neglect/refusal of reasonable facilities. II. Link non-performance to that cause. III. Apply excuse. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 67",
+      "Connected: Sections 37, 53"
+    ],
+    "examTips": [
+      "Stress causation: non-performance caused by the neglect or refusal."
+    ],
+    "revisionPoints": [
+      "Excuse for non-performance"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-66",
+      "contract-s-68"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-67",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 67 excuses the promisor for non-performance caused by the promisee’s neglect or refusal to afford reasonable facilities.",
+      "legalPrinciple": "Promisee’s failure to afford facilities → promisor excused for resulting non-performance.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 67",
+      "essentialIngredients": [
+        "Excuse for non-performance"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 67"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s67"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:32:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s67-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-67",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 67 provides that if any promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused by such neglect or refusal as to any non-performance caused thereby."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:32:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-67", "performance", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:32:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-67",
+    "performance",
+    "review-required"
+  ]
 }

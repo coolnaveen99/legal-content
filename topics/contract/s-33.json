@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-33",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 33 (Enforcement of contracts contingent on an event not happening)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 33 provides that contingent contracts to do or not to do anything if an uncertain future event does not happen can be enforced when the happening of that event becomes impossible, and not before.",
-        "glance": "Contingent on event not happening → enforceable when happening becomes impossible, not before.",
-        "study": "Contracts contingent on an uncertain future event not happening can be enforced when the happening of that event becomes impossible, and not before. Current-law framing: identify contingency of non-happening; test whether happening has become impossible; apply enforceability only then.",
-        "sections": [{"heading": "Enforceable when happening becomes impossible", "body": "Can be enforced when the happening of the uncertain future event becomes impossible, and not before.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-33", "section": "Section 33", "title": "Enforcement of contracts contingent on an event not happening"}],
-        "examples": [{"title": "Ship does not return", "body": "A agrees to pay B a sum if a certain ship does not return. The ship is sunk. The contract can be enforced when return becomes impossible.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Can the contract be enforced while the event might still happen?", "analysis": "No. Section 33: only when the happening of the event becomes impossible, and not before."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s33-trap-1", "trap": "Contingent on non-happening is enforceable immediately.", "correction": "Enforceable only when happening becomes impossible."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s33-brief", "draftingCategory": "brief", "question": "How should a Section 33 problem be analysed?", "answer": "I. Identify contingency of non-happening. II. Test whether happening has become impossible. III. Apply enforceability. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 33", "Connected: Sections 32, 34"],
-        "examTips": ["Contrast with s. 32 (happening vs not happening)."],
-        "revisionPoints": ["Enforceable when happening becomes impossible"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-32", "contract-s-34"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-33",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 33 regulates enforcement of contracts contingent on an event not happening.", "legalPrinciple": "Enforceable when happening becomes impossible.", "statutoryFramework": "Indian Contract Act, 1872 — Section 33", "essentialIngredients": ["Enforceable when happening becomes impossible"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 33"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s33"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:42:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s33-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-33",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 33 (Enforcement of contracts contingent on an event not happening)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 33 provides that contingent contracts to do or not to do anything if an uncertain future event does not happen can be enforced when the happening of that event becomes impossible, and not before.",
+    "glance": "Contingent on event not happening → enforceable when happening becomes impossible, not before.",
+    "study": "Contracts contingent on an uncertain future event not happening can be enforced when the happening of that event becomes impossible, and not before. Current-law framing: identify contingency of non-happening; test whether happening has become impossible; apply enforceability only then.",
+    "sections": [
+      {
+        "heading": "Enforceable when happening becomes impossible",
+        "body": "Can be enforced when the happening of the uncertain future event becomes impossible, and not before.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-33",
+        "section": "Section 33",
+        "title": "Enforcement of contracts contingent on an event not happening"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Ship does not return",
+        "body": "A agrees to pay B a sum if a certain ship does not return. The ship is sunk. The contract can be enforced when return becomes impossible.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can the contract be enforced while the event might still happen?",
+        "analysis": "No. Section 33: only when the happening of the event becomes impossible, and not before."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-33",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s33-trap-1",
+        "trap": "Contingent on non-happening is enforceable immediately.",
+        "correction": "Enforceable only when happening becomes impossible."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s33-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 33 problem be analysed?",
+        "answer": "I. Identify contingency of non-happening. II. Test whether happening has become impossible. III. Apply enforceability. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 33",
+      "Connected: Sections 32, 34"
+    ],
+    "examTips": [
+      "Contrast with s. 32 (happening vs not happening)."
+    ],
+    "revisionPoints": [
+      "Enforceable when happening becomes impossible"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-32",
+      "contract-s-34"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-33",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 33 regulates enforcement of contracts contingent on an event not happening.",
+      "legalPrinciple": "Enforceable when happening becomes impossible.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 33",
+      "essentialIngredients": [
+        "Enforceable when happening becomes impossible"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 33"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s33"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:42:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s33-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-33",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 33 provides that contingent contracts to do or not to do anything if an uncertain future event does not happen can be enforced when the happening of that event becomes impossible, and not before."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:42:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-33", "contingent", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:42:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-33",
+    "contingent",
+    "review-required"
+  ]
 }

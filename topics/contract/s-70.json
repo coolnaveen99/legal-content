@@ -1,38 +1,155 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-70",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 70 (Obligation of person enjoying benefit of non-gratuitous act)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 70 provides that where a person lawfully does anything for another person, or delivers anything to him, not intending to do so gratuitously, and such other person enjoys the benefit thereof, the latter is bound to make compensation to the former in respect of, or to restore, the thing so done or delivered.",
-        "glance": "Lawful non-gratuitous act or delivery + enjoyment of benefit → compensation or restoration.",
-        "study": "Three conditions: (1) the person lawfully does something for another or delivers something to him; (2) not intending to do so gratuitously; (3) the other person enjoys the benefit. The beneficiary is bound to compensate or restore. Current-law framing: test lawfulness, non-gratuitous intention, and enjoyment of benefit; apply compensation or restoration.",
-        "sections": [{"heading": "Lawful non-gratuitous act", "body": "Person lawfully does anything for another, or delivers anything to him, not intending to do so gratuitously.", "order": 1}, {"heading": "Enjoyment of benefit", "body": "Other person enjoys the benefit thereof — bound to make compensation or to restore the thing so done or delivered.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-70", "section": "Section 70", "title": "Obligation of person enjoying benefit of non-gratuitous act"}],
-        "examples": [{"title": "Non-gratuitous work enjoyed", "body": "A lawfully does work for B, not intending it to be free. B enjoys the benefit. B must compensate A under s. 70.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does a pure gift create a claim under s. 70?", "analysis": "No. Section 70 requires that the act was not intended to be done gratuitously."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s70-trap-1", "trap": "Any benefit conferred on another creates a quasi-contract claim.", "correction": "Section 70 requires a lawful act, non-gratuitous intention, and enjoyment of the benefit."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s70-brief", "draftingCategory": "brief", "question": "How should a Section 70 problem be analysed?", "answer": "I. Test lawfulness. II. Test non-gratuitous intention. III. Test enjoyment of benefit. IV. Apply compensation or restoration. V. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 70", "Connected: Sections 68, 69, 71, 72"],
-        "examTips": ["State all three conditions of s. 70."],
-        "revisionPoints": ["Lawful non-gratuitous act", "Enjoyment of benefit"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-69", "contract-s-71"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-70",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 70 obliges a person who enjoys the benefit of a lawful non-gratuitous act or delivery to compensate or restore.", "legalPrinciple": "Lawful non-gratuitous act + enjoyment → compensation or restoration.", "statutoryFramework": "Indian Contract Act, 1872 — Section 70", "essentialIngredients": ["Lawful non-gratuitous act", "Enjoyment of benefit"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 70"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s70"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:35:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s70-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-70",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 70 (Obligation of person enjoying benefit of non-gratuitous act)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 70 provides that where a person lawfully does anything for another person, or delivers anything to him, not intending to do so gratuitously, and such other person enjoys the benefit thereof, the latter is bound to make compensation to the former in respect of, or to restore, the thing so done or delivered.",
+    "glance": "Lawful non-gratuitous act or delivery + enjoyment of benefit → compensation or restoration.",
+    "study": "Three conditions: (1) the person lawfully does something for another or delivers something to him; (2) not intending to do so gratuitously; (3) the other person enjoys the benefit. The beneficiary is bound to compensate or restore. Current-law framing: test lawfulness, non-gratuitous intention, and enjoyment of benefit; apply compensation or restoration.",
+    "sections": [
+      {
+        "heading": "Lawful non-gratuitous act",
+        "body": "Person lawfully does anything for another, or delivers anything to him, not intending to do so gratuitously.",
+        "order": 1
+      },
+      {
+        "heading": "Enjoyment of benefit",
+        "body": "Other person enjoys the benefit thereof — bound to make compensation or to restore the thing so done or delivered.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-70",
+        "section": "Section 70",
+        "title": "Obligation of person enjoying benefit of non-gratuitous act"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Non-gratuitous work enjoyed",
+        "body": "A lawfully does work for B, not intending it to be free. B enjoys the benefit. B must compensate A under s. 70.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a pure gift create a claim under s. 70?",
+        "analysis": "No. Section 70 requires that the act was not intended to be done gratuitously."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-70",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s70-trap-1",
+        "trap": "Any benefit conferred on another creates a quasi-contract claim.",
+        "correction": "Section 70 requires a lawful act, non-gratuitous intention, and enjoyment of the benefit."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s70-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 70 problem be analysed?",
+        "answer": "I. Test lawfulness. II. Test non-gratuitous intention. III. Test enjoyment of benefit. IV. Apply compensation or restoration. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 70",
+      "Connected: Sections 68, 69, 71, 72"
+    ],
+    "examTips": [
+      "State all three conditions of s. 70."
+    ],
+    "revisionPoints": [
+      "Lawful non-gratuitous act",
+      "Enjoyment of benefit"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-69",
+      "contract-s-71"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-70",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 70 obliges a person who enjoys the benefit of a lawful non-gratuitous act or delivery to compensate or restore.",
+      "legalPrinciple": "Lawful non-gratuitous act + enjoyment → compensation or restoration.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 70",
+      "essentialIngredients": [
+        "Lawful non-gratuitous act",
+        "Enjoyment of benefit"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 70"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s70"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:35:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s70-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-70",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 70 provides that where a person lawfully does anything for another person, or delivers anything to him, not intending to do so gratuitously, and such other person enjoys the benefit thereof, the latter is bound to make compensation to the former in respect of, or to restore, the thing so done or delivered."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:35:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-70", "quasi-contract", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:35:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-70",
+    "quasi-contract",
+    "review-required"
+  ]
 }

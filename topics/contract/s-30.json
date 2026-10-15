@@ -1,69 +1,172 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-30",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 30 (Agreements by way of wager, void)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 30 provides that agreements by way of wager are void; and no suit shall be brought for recovering anything alleged to be won on any wager, or entrusted to any person to abide the result of any game or other uncertain event on which any wager is made. Exception: This section shall not be deemed to render unlawful a subscription or contribution, or agreement to subscribe or contribute, made or entered into for or toward any plate, prize or sum of money, of the value or amount of five hundred rupees or upwards, to be awarded to the winner or winners of any horse-race. Nothing in this section shall be deemed to legalize any transaction connected with horse-racing, to which the provisions of section 294A of the Indian Penal Code (45 of 1860) apply.",
-        "glance": "Wagering agreements void; no suit to recover winnings; limited horse-race prize exception; IPC s. 294A not legalised.",
-        "study": "Agreements by way of wager are void. No suit lies to recover anything alleged to be won on a wager, or entrusted to abide the result of a game or uncertain event on which a wager is made. A limited exception covers certain subscriptions/contributions for horse-race prizes of ₹500 or upwards. Section 30 does not legalise transactions connected with horse-racing to which IPC s. 294A applies. Distinguish from contingent contracts (s. 31). Current-law framing: identify mutual chance of gain/loss on an uncertain event with no other interest; apply voidness and no-suit rule; test the horse-race exception.",
-        "sections": [
-            {
-                "heading": "Wager void",
-                "body": "Agreements by way of wager are void; no suit to recover winnings or stakes.",
-                "order": 1
-            },
-            {
-                "heading": "Horse-race prize exception",
-                "body": "Subscription/contribution for plate, prize or sum of ₹500 or upwards for winner of any horse-race not rendered unlawful by this section.",
-                "order": 2
-            },
-            {
-                "heading": "IPC s. 294A",
-                "body": "Nothing legalises transactions connected with horse-racing to which IPC s. 294A applies.",
-                "order": 3
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-30",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 30 (Agreements by way of wager, void)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 30 provides that agreements by way of wager are void; and no suit shall be brought for recovering anything alleged to be won on any wager, or entrusted to any person to abide the result of any game or other uncertain event on which any wager is made. Exception: This section shall not be deemed to render unlawful a subscription or contribution, or agreement to subscribe or contribute, made or entered into for or toward any plate, prize or sum of money, of the value or amount of five hundred rupees or upwards, to be awarded to the winner or winners of any horse-race. Nothing in this section shall be deemed to legalize any transaction connected with horse-racing, to which the provisions of section 294A of the Indian Penal Code (45 of 1860) apply.",
+    "glance": "Wagering agreements void; no suit to recover winnings; limited horse-race prize exception; IPC s. 294A not legalised.",
+    "study": "Agreements by way of wager are void. No suit lies to recover anything alleged to be won on a wager, or entrusted to abide the result of a game or uncertain event on which a wager is made. A limited exception covers certain subscriptions/contributions for horse-race prizes of ₹500 or upwards. Section 30 does not legalise transactions connected with horse-racing to which IPC s. 294A applies. Distinguish from contingent contracts (s. 31). Current-law framing: identify mutual chance of gain/loss on an uncertain event with no other interest; apply voidness and no-suit rule; test the horse-race exception.",
+    "sections": [
+      {
+        "heading": "Wager void",
+        "body": "Agreements by way of wager are void; no suit to recover winnings or stakes.",
+        "order": 1
+      },
+      {
+        "heading": "Horse-race prize exception",
+        "body": "Subscription/contribution for plate, prize or sum of ₹500 or upwards for winner of any horse-race not rendered unlawful by this section.",
+        "order": 2
+      },
+      {
+        "heading": "IPC s. 294A",
+        "body": "Nothing legalises transactions connected with horse-racing to which IPC s. 294A applies.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-30",
+        "section": "Section 30",
+        "title": "Agreements by way of wager, void"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Bet on match",
+        "body": "A and B agree that if a team wins A pays B ₹10,000 and if it loses B pays A ₹10,000, with no other interest in the match. The agreement is a wager and void under s. 30.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is every contingent contract a wager?",
+        "analysis": "No. Contingent contracts (s. 31) may be valid; wagers are void under s. 30. The distinction turns on collateral commercial interest versus pure stake."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s30-vs-s31",
+        "title": "Wager (s. 30) vs contingent contract (s. 31)",
+        "left": "Void; pure stake on uncertain event",
+        "right": "May be valid; event collateral to genuine contract",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Bet",
+            "right": "Collateral contingency"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s30-trap-1",
+        "trap": "All contracts depending on an uncertain event are wagers.",
+        "correction": "Only agreements by way of wager are void under s. 30; contingent contracts under s. 31 may be enforceable."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s30-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 30 problem be analysed?",
+        "answer": "I. Identify mutual chance of gain/loss on uncertain event. II. Test absence of other interest. III. Apply voidness and no-suit. IV. Test horse-race exception. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 30",
+      "Connected: Sections 31–36"
+    ],
+    "examTips": [
+      "Contrast with contingent contracts.",
+      "State the horse-race exception and IPC caveat."
+    ],
+    "revisionPoints": [
+      "Wager void",
+      "Horse-race prize exception",
+      "IPC s. 294A"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-31",
+      "contract-s-29"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-30",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 30 voids agreements by way of wager and bars suits to recover winnings, with a limited horse-race prize exception.",
+      "legalPrinciple": "Wagers void; contingent contracts distinguished.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 30",
+      "essentialIngredients": [
+        "Wager void",
+        "Horse-race prize exception",
+        "IPC s. 294A"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 30"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s30"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:38:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s30-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-30",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-30", "section": "Section 30", "title": "Agreements by way of wager, void"}],
-        "examples": [{"title": "Bet on match", "body": "A and B agree that if a team wins A pays B ₹10,000 and if it loses B pays A ₹10,000, with no other interest in the match. The agreement is a wager and void under s. 30.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Is every contingent contract a wager?", "analysis": "No. Contingent contracts (s. 31) may be valid; wagers are void under s. 30. The distinction turns on collateral commercial interest versus pure stake."}],
-        "distinctions": [{"id": "ica-s30-vs-s31", "title": "Wager (s. 30) vs contingent contract (s. 31)", "left": "Void; pure stake on uncertain event", "right": "May be valid; event collateral to genuine contract", "rows": [{"point": "Focus", "left": "Bet", "right": "Collateral contingency"}]}],
-        "misconceptions": [{"id": "ica-s30-trap-1", "trap": "All contracts depending on an uncertain event are wagers.", "correction": "Only agreements by way of wager are void under s. 30; contingent contracts under s. 31 may be enforceable."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s30-brief", "draftingCategory": "brief", "question": "How should a Section 30 problem be analysed?", "answer": "I. Identify mutual chance of gain/loss on uncertain event. II. Test absence of other interest. III. Apply voidness and no-suit. IV. Test horse-race exception. V. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 30", "Connected: Sections 31–36"],
-        "examTips": ["Contrast with contingent contracts.", "State the horse-race exception and IPC caveat."],
-        "revisionPoints": ["Wager void", "Horse-race prize exception", "IPC s. 294A"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-31", "contract-s-29"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-30",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 30 voids agreements by way of wager and bars suits to recover winnings, with a limited horse-race prize exception.",
-            "legalPrinciple": "Wagers void; contingent contracts distinguished.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 30",
-            "essentialIngredients": ["Wager void", "Horse-race prize exception", "IPC s. 294A"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 30"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s30"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:38:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s30-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 30 provides that agreements by way of wager are void; and no suit shall be brought for recovering anything alleged to be won on any wager, or entrusted to any person to abide the result of any game or other uncertain event on which any wager is made. Exception: This section shall not be deemed to render unlawful a subscription or contribution, or agreement to subscribe or contribute, made or entered into for or toward any plate, prize or sum of money, of the value or amount of five hundred rupees or upwards, to be awarded to the winner or winners of any horse-race. Nothing in this section shall be deemed to legalize any transaction connected with horse-racing, to which the provisions of section 294A of the Indian Penal Code (45 of 1860) apply."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:38:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-30", "wager", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:38:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-30",
+    "wager",
+    "review-required"
+  ]
 }

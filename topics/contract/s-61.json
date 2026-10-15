@@ -1,38 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-61",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 61 (Application of payment where neither party appropriates)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 61 provides that where neither party makes any appropriation, the payment shall be applied in discharge of the debts in order of time, whether or not they are barred by the law in force for the time being as to the limitation of suits. If the debts are of equal standing, the payment shall be applied in discharge of each proportionably.",
-        "glance": "Neither party appropriates → apply payment in order of time (including time-barred); equal standing → proportionably.",
-        "study": "Where neither the debtor nor the creditor appropriates a payment among several debts, the payment is applied in discharge of the debts in order of time, whether or not barred by limitation. If the debts are of equal standing, the payment is applied proportionably to each. Current-law framing: confirm neither party appropriated; apply chronological order (including time-barred); if equal standing, apply proportionably.",
-        "sections": [{"heading": "Order of time", "body": "Payment applied in discharge of debts in order of time, whether or not barred by limitation.", "order": 1}, {"heading": "Equal standing", "body": "If debts are of equal standing, payment applied in discharge of each proportionably.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-61", "section": "Section 61", "title": "Application of payment where neither party appropriates"}],
-        "examples": [{"title": "Chronological application", "body": "A owes B three debts arising on different dates and pays without appropriation. The payment is applied to the earliest debt first under s. 61.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does limitation affect the order of application under s. 61?", "analysis": "No. Section 61 applies in order of time whether or not the debts are barred by limitation."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s61-trap-1", "trap": "Unappropriated payments are always applied first to the most recent debt.", "correction": "Section 61 applies in order of time — typically the earliest first — and proportionably if equal standing."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s61-brief", "draftingCategory": "brief", "question": "How should a Section 61 problem be analysed?", "answer": "I. Confirm neither party appropriated. II. Apply order of time (including time-barred). III. If equal standing, apply proportionably. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 61", "Connected: Sections 59, 60"],
-        "examTips": ["State chronological order and equal-standing rule.", "Note limitation does not exclude application."],
-        "revisionPoints": ["Order of time", "Equal standing"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-60", "contract-s-62"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-61",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 61 applies unappropriated payments in order of time, or proportionably if debts are of equal standing.", "legalPrinciple": "Neither appropriates → chronological (or proportionate) application.", "statutoryFramework": "Indian Contract Act, 1872 — Section 61", "essentialIngredients": ["Order of time", "Equal standing"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 61"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s61"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:25:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s61-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-61",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 61 (Application of payment where neither party appropriates)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 61 provides that where neither party makes any appropriation, the payment shall be applied in discharge of the debts in order of time, whether or not they are barred by the law in force for the time being as to the limitation of suits. If the debts are of equal standing, the payment shall be applied in discharge of each proportionably.",
+    "glance": "Neither party appropriates → apply payment in order of time (including time-barred); equal standing → proportionably.",
+    "study": "Where neither the debtor nor the creditor appropriates a payment among several debts, the payment is applied in discharge of the debts in order of time, whether or not barred by limitation. If the debts are of equal standing, the payment is applied proportionably to each. Current-law framing: confirm neither party appropriated; apply chronological order (including time-barred); if equal standing, apply proportionably.",
+    "sections": [
+      {
+        "heading": "Order of time",
+        "body": "Payment applied in discharge of debts in order of time, whether or not barred by limitation.",
+        "order": 1
+      },
+      {
+        "heading": "Equal standing",
+        "body": "If debts are of equal standing, payment applied in discharge of each proportionably.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-61",
+        "section": "Section 61",
+        "title": "Application of payment where neither party appropriates"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Chronological application",
+        "body": "A owes B three debts arising on different dates and pays without appropriation. The payment is applied to the earliest debt first under s. 61.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does limitation affect the order of application under s. 61?",
+        "analysis": "No. Section 61 applies in order of time whether or not the debts are barred by limitation."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-61",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s61-trap-1",
+        "trap": "Unappropriated payments are always applied first to the most recent debt.",
+        "correction": "Section 61 applies in order of time — typically the earliest first — and proportionably if equal standing."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s61-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 61 problem be analysed?",
+        "answer": "I. Confirm neither party appropriated. II. Apply order of time (including time-barred). III. If equal standing, apply proportionably. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 61",
+      "Connected: Sections 59, 60"
+    ],
+    "examTips": [
+      "State chronological order and equal-standing rule.",
+      "Note limitation does not exclude application."
+    ],
+    "revisionPoints": [
+      "Order of time",
+      "Equal standing"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-60",
+      "contract-s-62"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-61",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 61 applies unappropriated payments in order of time, or proportionably if debts are of equal standing.",
+      "legalPrinciple": "Neither appropriates → chronological (or proportionate) application.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 61",
+      "essentialIngredients": [
+        "Order of time",
+        "Equal standing"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 61"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s61"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:25:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s61-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-61",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 61 provides that where neither party makes any appropriation, the payment shall be applied in discharge of the debts in order of time, whether or not they are barred by the law in force for the time being as to the limitation of suits. If the debts are of equal standing, the payment shall be applied in discharge of each proportionably."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:25:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-61", "payment", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:25:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-61",
+    "payment",
+    "review-required"
+  ]
 }

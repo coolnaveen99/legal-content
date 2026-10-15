@@ -1,165 +1,184 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-6",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 6 (Revocation how made)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 6 provides that a proposal is revoked — (1) by the communication of notice of revocation by the proposer to the other party; (2) by the lapse of the time prescribed in such proposal for its acceptance, or, if no time is so prescribed, by the lapse of a reasonable time, without communication of the acceptance; (3) by the failure of the acceptor to fulfil a condition precedent to acceptance; or (4) by the death or insanity of the proposer, if the fact of his death or insanity comes to the knowledge of the acceptor before acceptance.",
-        "glance": "Four modes: notice; lapse of prescribed/reasonable time; failure of condition precedent; death/insanity known before acceptance.",
-        "study": "A proposal is revoked by (1) communication of notice of revocation to the other party; (2) lapse of the time prescribed for acceptance, or of a reasonable time if none is prescribed, without communication of acceptance; (3) failure of the acceptor to fulfil a condition precedent to acceptance; or (4) death or insanity of the proposer if that fact comes to the acceptor’s knowledge before acceptance. Timing of communication of revocation is under ss. 3–4; the window for revocation is under s. 5. Current-law framing: identify which mode applies; apply communication rules; conclude whether the proposal still stands.",
-        "sections": [
-            {
-                "heading": "Notice of revocation",
-                "body": "Communication of notice of revocation by the proposer to the other party.",
-                "order": 1
-            },
-            {
-                "heading": "Lapse of time",
-                "body": "Lapse of the time prescribed for acceptance, or of a reasonable time if none is prescribed, without communication of acceptance.",
-                "order": 2
-            },
-            {
-                "heading": "Failure of condition precedent",
-                "body": "Failure of the acceptor to fulfil a condition precedent to acceptance.",
-                "order": 3
-            },
-            {
-                "heading": "Death or insanity of proposer",
-                "body": "Death or insanity of the proposer if the fact comes to the acceptor’s knowledge before acceptance.",
-                "order": 4
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-6",
-                "section": "Section 6",
-                "title": "Revocation how made"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Lapse of reasonable time",
-                "body": "No time is fixed for acceptance. A reasonable time passes without acceptance. The proposal is revoked under s. 6(2).",
-                "kind": "hypothetical",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Does the proposer’s death always revoke the proposal?",
-                "analysis": "Only if the fact of death (or insanity) comes to the acceptor’s knowledge before acceptance — s. 6(4)."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s6-vs-s5",
-                "title": "Modes of revocation (s. 6) vs timing window (s. 5)",
-                "left": "How a proposal is revoked",
-                "right": "Until when revocation is still open",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Modes",
-                        "right": "Cut-off"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s6-trap-1",
-                "trap": "Death of the proposer automatically ends every outstanding proposal even if the offeree never learns of it before accepting.",
-                "correction": "Section 6(4) requires that the fact of death or insanity come to the acceptor’s knowledge before acceptance."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s6-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 6 problem be analysed?",
-                "answer": "I. Identify the mode of revocation. II. Apply communication rules (ss. 3–4) where notice is involved. III. Apply s. 5 for the timing window. IV. Conclude.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 6",
-            "Connected: Sections 4, 5"
-        ],
-        "examTips": [
-            "List all four modes.",
-            "Stress knowledge of death/insanity before acceptance."
-        ],
-        "revisionPoints": [
-            "Notice of revocation",
-            "Lapse of time",
-            "Failure of condition precedent",
-            "Death or insanity of proposer"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-5",
-            "contract-s-4"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-6",
-        "migrationNote": "Substantive expansion from catalog stub. Forward-order 2026-10-15. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 6 lists four statutory modes by which a proposal is revoked.",
-            "legalPrinciple": "Proposal revoked by notice, lapse of time, failure of condition, or death/insanity known before acceptance.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 6",
-            "essentialIngredients": [
-                "Notice of revocation",
-                "Lapse of time",
-                "Failure of condition precedent",
-                "Death or insanity of proposer"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 6"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act forward-order source check against official section 6. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-forward-s6"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:02:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s6-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-6",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 6 (Revocation how made)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 6 provides that a proposal is revoked — (1) by the communication of notice of revocation by the proposer to the other party; (2) by the lapse of the time prescribed in such proposal for its acceptance, or, if no time is so prescribed, by the lapse of a reasonable time, without communication of the acceptance; (3) by the failure of the acceptor to fulfil a condition precedent to acceptance; or (4) by the death or insanity of the proposer, if the fact of his death or insanity comes to the knowledge of the acceptor before acceptance.",
+    "glance": "Four modes: notice; lapse of prescribed/reasonable time; failure of condition precedent; death/insanity known before acceptance.",
+    "study": "A proposal is revoked by (1) communication of notice of revocation to the other party; (2) lapse of the time prescribed for acceptance, or of a reasonable time if none is prescribed, without communication of acceptance; (3) failure of the acceptor to fulfil a condition precedent to acceptance; or (4) death or insanity of the proposer if that fact comes to the acceptor’s knowledge before acceptance. Timing of communication of revocation is under ss. 3–4; the window for revocation is under s. 5. Current-law framing: identify which mode applies; apply communication rules; conclude whether the proposal still stands.",
+    "sections": [
+      {
+        "heading": "Notice of revocation",
+        "body": "Communication of notice of revocation by the proposer to the other party.",
+        "order": 1
+      },
+      {
+        "heading": "Lapse of time",
+        "body": "Lapse of the time prescribed for acceptance, or of a reasonable time if none is prescribed, without communication of acceptance.",
+        "order": 2
+      },
+      {
+        "heading": "Failure of condition precedent",
+        "body": "Failure of the acceptor to fulfil a condition precedent to acceptance.",
+        "order": 3
+      },
+      {
+        "heading": "Death or insanity of proposer",
+        "body": "Death or insanity of the proposer if the fact comes to the acceptor’s knowledge before acceptance.",
+        "order": 4
+      }
     ],
-    "updatedAt": "2026-10-15T12:02:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-6",
-        "revocation",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-6",
+        "section": "Section 6",
+        "title": "Revocation how made"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Lapse of reasonable time",
+        "body": "No time is fixed for acceptance. A reasonable time passes without acceptance. The proposal is revoked under s. 6(2).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the proposer’s death always revoke the proposal?",
+        "analysis": "Only if the fact of death (or insanity) comes to the acceptor’s knowledge before acceptance — s. 6(4)."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s6-vs-s5",
+        "title": "Modes of revocation (s. 6) vs timing window (s. 5)",
+        "left": "How a proposal is revoked",
+        "right": "Until when revocation is still open",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Modes",
+            "right": "Cut-off"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s6-trap-1",
+        "trap": "Death of the proposer automatically ends every outstanding proposal even if the offeree never learns of it before accepting.",
+        "correction": "Section 6(4) requires that the fact of death or insanity come to the acceptor’s knowledge before acceptance."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s6-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 6 problem be analysed?",
+        "answer": "I. Identify the mode of revocation. II. Apply communication rules (ss. 3–4) where notice is involved. III. Apply s. 5 for the timing window. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 6",
+      "Connected: Sections 4, 5"
+    ],
+    "examTips": [
+      "List all four modes.",
+      "Stress knowledge of death/insanity before acceptance."
+    ],
+    "revisionPoints": [
+      "Notice of revocation",
+      "Lapse of time",
+      "Failure of condition precedent",
+      "Death or insanity of proposer"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-5",
+      "contract-s-4"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-6",
+    "migrationNote": "Substantive expansion from catalog stub. Forward-order 2026-10-15. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 6 lists four statutory modes by which a proposal is revoked.",
+      "legalPrinciple": "Proposal revoked by notice, lapse of time, failure of condition, or death/insanity known before acceptance.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 6",
+      "essentialIngredients": [
+        "Notice of revocation",
+        "Lapse of time",
+        "Failure of condition precedent",
+        "Death or insanity of proposer"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 6"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act forward-order source check against official section 6. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s6"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:02:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s6-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-6",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 6 provides that a proposal is revoked — (1) by the communication of notice of revocation by the proposer to the other party; (2) by the lapse of the time prescribed in such proposal for its acceptance, or, if no time is so prescribed, by the lapse of a reasonable time, without communication of the acceptance; (3) by the failure of the acceptor to fulfil a condition precedent to acceptance; or (4) by the death or insanity of the proposer, if the fact of his death or insanity comes to the knowledge of the acceptor before acceptance."
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:02:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-6",
+    "revocation",
+    "review-required"
+  ]
 }

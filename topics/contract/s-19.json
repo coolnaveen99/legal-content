@@ -1,74 +1,179 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-19",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 19 (Voidability of agreements without free consent)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 19 provides that when consent to an agreement is caused by coercion, fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused. A party whose consent was caused by fraud or misrepresentation may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true. Exception: if such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section 17, the contract is not voidable if the party whose consent was so caused had the means of discovering the truth with ordinary diligence. Explanation: a fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable.",
-        "glance": "Coercion/fraud/misrepresentation → voidable at option of victim; may affirm and insist on truth of representation; exception if truth discoverable with ordinary diligence.",
-        "study": "Consent caused by coercion, fraud or misrepresentation makes the agreement voidable at the option of the party whose consent was so caused. That party may rescind or insist on performance as if the representations were true. Exception: misrepresentation or fraudulent silence does not make the contract voidable if the victim had means of discovering the truth with ordinary diligence. Fraud or misrepresentation that did not cause consent does not render the contract voidable. Undue influence is addressed separately in s. 19A. Current-law framing: establish the vitiating cause; apply voidability and the election to affirm; apply the ordinary-diligence exception and the causation explanation.",
-        "sections": [
-            {
-                "heading": "Voidable at option",
-                "body": "Consent caused by coercion, fraud or misrepresentation — agreement voidable at the option of the party whose consent was so caused.",
-                "order": 1
-            },
-            {
-                "heading": "Election to affirm",
-                "body": "Party may insist that the contract be performed and that he be put in the position as if the representations were true.",
-                "order": 2
-            },
-            {
-                "heading": "Ordinary-diligence exception",
-                "body": "Misrepresentation or fraudulent silence — not voidable if the party had means of discovering the truth with ordinary diligence.",
-                "order": 3
-            },
-            {
-                "heading": "Causation",
-                "body": "Fraud or misrepresentation that did not cause consent does not render the contract voidable.",
-                "order": 4
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-19",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 19 (Voidability of agreements without free consent)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 19 provides that when consent to an agreement is caused by coercion, fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused. A party whose consent was caused by fraud or misrepresentation may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true. Exception: if such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section 17, the contract is not voidable if the party whose consent was so caused had the means of discovering the truth with ordinary diligence. Explanation: a fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable.",
+    "glance": "Coercion/fraud/misrepresentation → voidable at option of victim; may affirm and insist on truth of representation; exception if truth discoverable with ordinary diligence.",
+    "study": "Consent caused by coercion, fraud or misrepresentation makes the agreement voidable at the option of the party whose consent was so caused. That party may rescind or insist on performance as if the representations were true. Exception: misrepresentation or fraudulent silence does not make the contract voidable if the victim had means of discovering the truth with ordinary diligence. Fraud or misrepresentation that did not cause consent does not render the contract voidable. Undue influence is addressed separately in s. 19A. Current-law framing: establish the vitiating cause; apply voidability and the election to affirm; apply the ordinary-diligence exception and the causation explanation.",
+    "sections": [
+      {
+        "heading": "Voidable at option",
+        "body": "Consent caused by coercion, fraud or misrepresentation — agreement voidable at the option of the party whose consent was so caused.",
+        "order": 1
+      },
+      {
+        "heading": "Election to affirm",
+        "body": "Party may insist that the contract be performed and that he be put in the position as if the representations were true.",
+        "order": 2
+      },
+      {
+        "heading": "Ordinary-diligence exception",
+        "body": "Misrepresentation or fraudulent silence — not voidable if the party had means of discovering the truth with ordinary diligence.",
+        "order": 3
+      },
+      {
+        "heading": "Causation",
+        "body": "Fraud or misrepresentation that did not cause consent does not render the contract voidable.",
+        "order": 4
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-19",
+        "section": "Section 19",
+        "title": "Voidability of agreements without free consent"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Fraud — election",
+        "body": "A’s consent is caused by B’s fraud. A may avoid the contract or insist on performance as if the representation were true.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does every false statement make the contract voidable under s. 19?",
+        "analysis": "Only if it amounts to coercion, fraud or misrepresentation and caused the consent; the ordinary-diligence exception may also apply."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s19-vs-s19a",
+        "title": "Voidability for coercion/fraud/misrepresentation (s. 19) vs undue influence (s. 19A)",
+        "left": "Voidable; election to affirm with true position",
+        "right": "Power to set aside; court may require restitution on terms",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Coercion, fraud, misrepresentation",
+            "right": "Undue influence"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s19-trap-1",
+        "trap": "A voidable contract is the same as a void agreement.",
+        "correction": "Voidable means enforceable at the option of one party; void means not enforceable by law (s. 2)."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s19-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 19 problem be analysed?",
+        "answer": "I. Establish coercion, fraud or misrepresentation. II. Prove it caused consent. III. Apply voidability and election. IV. Apply ordinary-diligence exception if relevant. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 19",
+      "Connected: Sections 15–18, 19A"
+    ],
+    "examTips": [
+      "State voidability and the election to affirm.",
+      "Mention the ordinary-diligence exception."
+    ],
+    "revisionPoints": [
+      "Voidable at option",
+      "Election to affirm",
+      "Ordinary-diligence exception",
+      "Causation"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-17",
+      "contract-s-18"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-19",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 19 makes agreements caused by coercion, fraud or misrepresentation voidable at the option of the victim, with election and exception rules.",
+      "legalPrinciple": "Vitiated consent → voidable; may affirm; ordinary diligence may bar avoidance for misrepresentation/silence.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 19",
+      "essentialIngredients": [
+        "Voidable at option",
+        "Election to affirm",
+        "Ordinary-diligence exception",
+        "Causation"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 19"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s19"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:22:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s19-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-19",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-19", "section": "Section 19", "title": "Voidability of agreements without free consent"}],
-        "examples": [{"title": "Fraud — election", "body": "A’s consent is caused by B’s fraud. A may avoid the contract or insist on performance as if the representation were true.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does every false statement make the contract voidable under s. 19?", "analysis": "Only if it amounts to coercion, fraud or misrepresentation and caused the consent; the ordinary-diligence exception may also apply."}],
-        "distinctions": [{"id": "ica-s19-vs-s19a", "title": "Voidability for coercion/fraud/misrepresentation (s. 19) vs undue influence (s. 19A)", "left": "Voidable; election to affirm with true position", "right": "Power to set aside; court may require restitution on terms", "rows": [{"point": "Focus", "left": "Coercion, fraud, misrepresentation", "right": "Undue influence"}]}],
-        "misconceptions": [{"id": "ica-s19-trap-1", "trap": "A voidable contract is the same as a void agreement.", "correction": "Voidable means enforceable at the option of one party; void means not enforceable by law (s. 2)."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s19-brief", "draftingCategory": "brief", "question": "How should a Section 19 problem be analysed?", "answer": "I. Establish coercion, fraud or misrepresentation. II. Prove it caused consent. III. Apply voidability and election. IV. Apply ordinary-diligence exception if relevant. V. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 19", "Connected: Sections 15–18, 19A"],
-        "examTips": ["State voidability and the election to affirm.", "Mention the ordinary-diligence exception."],
-        "revisionPoints": ["Voidable at option", "Election to affirm", "Ordinary-diligence exception", "Causation"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-17", "contract-s-18"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-19",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 19 makes agreements caused by coercion, fraud or misrepresentation voidable at the option of the victim, with election and exception rules.",
-            "legalPrinciple": "Vitiated consent → voidable; may affirm; ordinary diligence may bar avoidance for misrepresentation/silence.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 19",
-            "essentialIngredients": ["Voidable at option", "Election to affirm", "Ordinary-diligence exception", "Causation"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 19"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s19"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:22:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s19-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 19 provides that when consent to an agreement is caused by coercion, fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused. A party whose consent was caused by fraud or misrepresentation may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true. Exception: if such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section 17, the contract is not voidable if the party whose consent was so caused had the means of discovering the truth with ordinary diligence. Explanation: a fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:22:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-19", "voidable", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:22:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-19",
+    "voidable",
+    "review-required"
+  ]
 }

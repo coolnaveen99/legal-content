@@ -1,38 +1,155 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-54",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 54 (Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 54 provides that when a contract consists of reciprocal promises, such that one of them cannot be performed, or that its performance cannot be claimed till the other has been performed, and the promisor of the promise last mentioned fails to perform it, such promisor cannot claim the performance of the reciprocal promise, and must make compensation to the other party to the contract for any loss which such other party may sustain by the non-performance of the contract.",
-        "glance": "Default on the promise that should be performed first → cannot claim reciprocal performance; must compensate for loss.",
-        "study": "Where reciprocal promises are ordered so that one cannot be performed (or claimed) until the other has been performed, and the promisor of the prior promise fails to perform, that promisor cannot claim the reciprocal promise and must compensate the other party for loss. Current-law framing: identify the prior promise; establish default; apply bar on claiming reciprocal performance and compensation.",
-        "sections": [{"heading": "Prior promise default", "body": "Promisor of the promise that should be first performed fails to perform it.", "order": 1}, {"heading": "Cannot claim reciprocal; must compensate", "body": "Cannot claim performance of the reciprocal promise; must make compensation for loss from non-performance.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-54", "section": "Section 54", "title": "Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises"}],
-        "examples": [{"title": "Work before payment", "body": "A is to complete work before B pays. A fails to complete. A cannot claim payment and must compensate B under s. 54.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Can the party in default on the first promise still demand the second?", "analysis": "No. Section 54: such promisor cannot claim the performance of the reciprocal promise and must compensate."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s54-trap-1", "trap": "Default on the first promise only delays the second without barring the claim.", "correction": "Section 54 bars the defaulting promisor from claiming the reciprocal promise and imposes compensation."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s54-brief", "draftingCategory": "brief", "question": "How should a Section 54 problem be analysed?", "answer": "I. Identify the prior promise and default. II. Apply bar on claiming reciprocal performance. III. Apply compensation. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 54", "Connected: Sections 52, 53, 55"],
-        "examTips": ["Link to order of performance under s. 52."],
-        "revisionPoints": ["Prior promise default", "Cannot claim reciprocal; must compensate"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-53", "contract-s-55"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-54",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 54 bars a party who defaults on the prior reciprocal promise from claiming the reciprocal promise and requires compensation.", "legalPrinciple": "Default on prior promise → no claim on reciprocal + compensation.", "statutoryFramework": "Indian Contract Act, 1872 — Section 54", "essentialIngredients": ["Prior promise default", "Cannot claim reciprocal; must compensate"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 54"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s54"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:13:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s54-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-54",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 54 (Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 54 provides that when a contract consists of reciprocal promises, such that one of them cannot be performed, or that its performance cannot be claimed till the other has been performed, and the promisor of the promise last mentioned fails to perform it, such promisor cannot claim the performance of the reciprocal promise, and must make compensation to the other party to the contract for any loss which such other party may sustain by the non-performance of the contract.",
+    "glance": "Default on the promise that should be performed first → cannot claim reciprocal performance; must compensate for loss.",
+    "study": "Where reciprocal promises are ordered so that one cannot be performed (or claimed) until the other has been performed, and the promisor of the prior promise fails to perform, that promisor cannot claim the reciprocal promise and must compensate the other party for loss. Current-law framing: identify the prior promise; establish default; apply bar on claiming reciprocal performance and compensation.",
+    "sections": [
+      {
+        "heading": "Prior promise default",
+        "body": "Promisor of the promise that should be first performed fails to perform it.",
+        "order": 1
+      },
+      {
+        "heading": "Cannot claim reciprocal; must compensate",
+        "body": "Cannot claim performance of the reciprocal promise; must make compensation for loss from non-performance.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-54",
+        "section": "Section 54",
+        "title": "Effect of default as to that promise which should be first performed, in contract consisting of reciprocal promises"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Work before payment",
+        "body": "A is to complete work before B pays. A fails to complete. A cannot claim payment and must compensate B under s. 54.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can the party in default on the first promise still demand the second?",
+        "analysis": "No. Section 54: such promisor cannot claim the performance of the reciprocal promise and must compensate."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-54",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s54-trap-1",
+        "trap": "Default on the first promise only delays the second without barring the claim.",
+        "correction": "Section 54 bars the defaulting promisor from claiming the reciprocal promise and imposes compensation."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s54-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 54 problem be analysed?",
+        "answer": "I. Identify the prior promise and default. II. Apply bar on claiming reciprocal performance. III. Apply compensation. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 54",
+      "Connected: Sections 52, 53, 55"
+    ],
+    "examTips": [
+      "Link to order of performance under s. 52."
+    ],
+    "revisionPoints": [
+      "Prior promise default",
+      "Cannot claim reciprocal; must compensate"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-53",
+      "contract-s-55"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-54",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 54 bars a party who defaults on the prior reciprocal promise from claiming the reciprocal promise and requires compensation.",
+      "legalPrinciple": "Default on prior promise → no claim on reciprocal + compensation.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 54",
+      "essentialIngredients": [
+        "Prior promise default",
+        "Cannot claim reciprocal; must compensate"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 54"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s54"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:13:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s54-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-54",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 54 provides that when a contract consists of reciprocal promises, such that one of them cannot be performed, or that its performance cannot be claimed till the other has been performed, and the promisor of the promise last mentioned fails to perform it, such promisor cannot claim the performance of the reciprocal promise, and must make compensation to the other party to the contract for any loss which such other party may sustain by the non-performance of the contract."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:13:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-54", "reciprocal", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:13:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-54",
+    "reciprocal",
+    "review-required"
+  ]
 }

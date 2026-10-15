@@ -1,38 +1,163 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-62",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 62 (Effect of novation, rescission, and alteration of contract)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 62 provides that if the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original contract need not be performed.",
-        "glance": "Novation, rescission or alteration by agreement → original contract need not be performed.",
-        "study": "If the parties agree to substitute a new contract (novation), rescind the contract, or alter it, the original contract need not be performed. Novation may change obligations or substitute a party with consent. Current-law framing: identify agreement to substitute, rescind or alter; conclude original need not be performed.",
-        "sections": [{"heading": "Novation", "body": "Agreement to substitute a new contract for the original — original need not be performed.", "order": 1}, {"heading": "Rescission", "body": "Agreement to rescind — original need not be performed.", "order": 2}, {"heading": "Alteration", "body": "Agreement to alter — original need not be performed to the extent altered.", "order": 3}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-62", "section": "Section 62", "title": "Effect of novation, rescission, and alteration of contract"}],
-        "examples": [{"title": "Novation of debtor", "body": "A owes B under a contract. A, B and C agree that B will accept C as debtor instead of A. The old debt ends; a new debt from C to B arises under s. 62.", "kind": "statutory-illustration", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does a unilateral change by one party amount to novation?", "analysis": "No. Section 62 requires agreement of the parties to substitute, rescind or alter."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s62-trap-1", "trap": "Any change in terms automatically discharges the original contract without agreement.", "correction": "Section 62 requires the parties to agree to substitute, rescind or alter."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s62-brief", "draftingCategory": "brief", "question": "How should a Section 62 problem be analysed?", "answer": "I. Identify agreement to substitute, rescind or alter. II. Conclude original need not be performed. III. Identify the new obligations if any. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 62", "Connected: Sections 63, 64"],
-        "examTips": ["Distinguish novation, rescission and alteration.", "Stress mutual agreement."],
-        "revisionPoints": ["Novation", "Rescission", "Alteration"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-61", "contract-s-63"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-62",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 62 discharges the original contract when the parties agree to novate, rescind or alter it.", "legalPrinciple": "Agreed novation, rescission or alteration → original need not be performed.", "statutoryFramework": "Indian Contract Act, 1872 — Section 62", "essentialIngredients": ["Novation", "Rescission", "Alteration"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 62"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s62"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:26:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s62-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-62",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 62 (Effect of novation, rescission, and alteration of contract)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 62 provides that if the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original contract need not be performed.",
+    "glance": "Novation, rescission or alteration by agreement → original contract need not be performed.",
+    "study": "If the parties agree to substitute a new contract (novation), rescind the contract, or alter it, the original contract need not be performed. Novation may change obligations or substitute a party with consent. Current-law framing: identify agreement to substitute, rescind or alter; conclude original need not be performed.",
+    "sections": [
+      {
+        "heading": "Novation",
+        "body": "Agreement to substitute a new contract for the original — original need not be performed.",
+        "order": 1
+      },
+      {
+        "heading": "Rescission",
+        "body": "Agreement to rescind — original need not be performed.",
+        "order": 2
+      },
+      {
+        "heading": "Alteration",
+        "body": "Agreement to alter — original need not be performed to the extent altered.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-62",
+        "section": "Section 62",
+        "title": "Effect of novation, rescission, and alteration of contract"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Novation of debtor",
+        "body": "A owes B under a contract. A, B and C agree that B will accept C as debtor instead of A. The old debt ends; a new debt from C to B arises under s. 62.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a unilateral change by one party amount to novation?",
+        "analysis": "No. Section 62 requires agreement of the parties to substitute, rescind or alter."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-62",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s62-trap-1",
+        "trap": "Any change in terms automatically discharges the original contract without agreement.",
+        "correction": "Section 62 requires the parties to agree to substitute, rescind or alter."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s62-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 62 problem be analysed?",
+        "answer": "I. Identify agreement to substitute, rescind or alter. II. Conclude original need not be performed. III. Identify the new obligations if any. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 62",
+      "Connected: Sections 63, 64"
+    ],
+    "examTips": [
+      "Distinguish novation, rescission and alteration.",
+      "Stress mutual agreement."
+    ],
+    "revisionPoints": [
+      "Novation",
+      "Rescission",
+      "Alteration"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-61",
+      "contract-s-63"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-62",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 62 discharges the original contract when the parties agree to novate, rescind or alter it.",
+      "legalPrinciple": "Agreed novation, rescission or alteration → original need not be performed.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 62",
+      "essentialIngredients": [
+        "Novation",
+        "Rescission",
+        "Alteration"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 62"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s62"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:26:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s62-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-62",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 62 provides that if the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original contract need not be performed."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:26:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-62", "novation", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:26:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-62",
+    "novation",
+    "review-required"
+  ]
 }

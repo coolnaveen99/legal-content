@@ -1,59 +1,149 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-26",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 26 (Agreement in restraint of marriage, void)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 26 provides that every agreement in restraint of the marriage of any person, other than a minor, is void.",
-        "glance": "Agreement in restraint of marriage of any person other than a minor is void.",
-        "study": "Every agreement in restraint of the marriage of any person, other than a minor, is void. The exception for a minor is built into the section. Current-law framing: identify the restraint of marriage; confirm the person is not a minor; conclude voidness under s. 26.",
-        "sections": [
-            {
-                "heading": "Restraint of marriage",
-                "body": "Every agreement in restraint of the marriage of any person, other than a minor, is void.",
-                "order": 1
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-26",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 26 (Agreement in restraint of marriage, void)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 26 provides that every agreement in restraint of the marriage of any person, other than a minor, is void.",
+    "glance": "Agreement in restraint of marriage of any person other than a minor is void.",
+    "study": "Every agreement in restraint of the marriage of any person, other than a minor, is void. The exception for a minor is built into the section. Current-law framing: identify the restraint of marriage; confirm the person is not a minor; conclude voidness under s. 26.",
+    "sections": [
+      {
+        "heading": "Restraint of marriage",
+        "body": "Every agreement in restraint of the marriage of any person, other than a minor, is void.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-26",
+        "section": "Section 26",
+        "title": "Agreement in restraint of marriage, void"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Adult restraint",
+        "body": "A agrees not to marry B (an adult) in return for payment. The agreement is void under s. 26.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does s. 26 apply to a minor?",
+        "analysis": "The section voids restraint of marriage of any person other than a minor — so the restraint-of-marriage voidness rule is stated for non-minors."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-26",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s26-trap-1",
+        "trap": "Only total lifelong bans on marriage are void.",
+        "correction": "Section 26 voids every agreement in restraint of the marriage of any person other than a minor."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s26-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 26 problem be analysed?",
+        "answer": "I. Identify restraint of marriage. II. Confirm person is not a minor. III. Conclude void under s. 26.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 26",
+      "Connected: Sections 23, 27"
+    ],
+    "examTips": [
+      "State the minor exception in the section itself.",
+      "Link to public policy under s. 23."
+    ],
+    "revisionPoints": [
+      "Restraint of marriage"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-23",
+      "contract-s-27"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-26",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 26 voids every agreement in restraint of the marriage of any person other than a minor.",
+      "legalPrinciple": "Restraint of marriage (non-minor) → void.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 26",
+      "essentialIngredients": [
+        "Restraint of marriage"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 26"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s26"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:32:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s26-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-26",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-26", "section": "Section 26", "title": "Agreement in restraint of marriage, void"}],
-        "examples": [{"title": "Adult restraint", "body": "A agrees not to marry B (an adult) in return for payment. The agreement is void under s. 26.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does s. 26 apply to a minor?", "analysis": "The section voids restraint of marriage of any person other than a minor — so the restraint-of-marriage voidness rule is stated for non-minors."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s26-trap-1", "trap": "Only total lifelong bans on marriage are void.", "correction": "Section 26 voids every agreement in restraint of the marriage of any person other than a minor."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s26-brief", "draftingCategory": "brief", "question": "How should a Section 26 problem be analysed?", "answer": "I. Identify restraint of marriage. II. Confirm person is not a minor. III. Conclude void under s. 26.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 26", "Connected: Sections 23, 27"],
-        "examTips": ["State the minor exception in the section itself.", "Link to public policy under s. 23."],
-        "revisionPoints": ["Restraint of marriage"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-23", "contract-s-27"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-26",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 26 voids every agreement in restraint of the marriage of any person other than a minor.",
-            "legalPrinciple": "Restraint of marriage (non-minor) → void.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 26",
-            "essentialIngredients": ["Restraint of marriage"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 26"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s26"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:32:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s26-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 26 provides that every agreement in restraint of the marriage of any person, other than a minor, is void."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:32:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-26", "void", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:32:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-26",
+    "void",
+    "review-required"
+  ]
 }

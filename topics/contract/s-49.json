@@ -1,38 +1,149 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-49",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 49 (Place for performance of promise, where no application to be made and no place fixed for performance)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 49 provides that when a promise is to be performed without application by the promisee, and no place is fixed for the performance of it, it is the duty of the promisor to apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it at such place.",
-        "glance": "No application needed, no place fixed → promisor must apply to promisee to appoint a reasonable place and perform there.",
-        "study": "Where the promisor is to perform without application by the promisee and no place is fixed, the promisor must apply to the promisee to appoint a reasonable place and perform at that place. Current-law framing: confirm no application and no fixed place; apply promisor’s duty to seek appointment of a reasonable place and perform there.",
-        "sections": [{"heading": "Duty to seek appointment of place", "body": "Promisor must apply to the promisee to appoint a reasonable place for performance and perform at such place.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-49", "section": "Section 49", "title": "Place for performance of promise, where no application to be made and no place fixed for performance"}],
-        "examples": [{"title": "No place fixed", "body": "A is to deliver goods to B without B applying and with no place fixed. A must apply to B to appoint a reasonable place and deliver there under s. 49.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Who chooses the place when none is fixed?", "analysis": "The promisor must apply to the promisee to appoint a reasonable place under s. 49."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s49-trap-1", "trap": "The promisor may choose any place when none is fixed.", "correction": "Section 49 requires the promisor to apply to the promisee to appoint a reasonable place."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s49-brief", "draftingCategory": "brief", "question": "How should a Section 49 problem be analysed?", "answer": "I. Confirm no application and no fixed place. II. Apply promisor’s duty to seek appointment of a reasonable place. III. Conclude performance at that place.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 49", "Connected: Sections 47, 48, 50"],
-        "examTips": ["State the promisor’s duty to apply for appointment of a reasonable place."],
-        "revisionPoints": ["Duty to seek appointment of place"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-48", "contract-s-50"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-49",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 49 requires the promisor to apply for appointment of a reasonable place when none is fixed and no application by the promisee is required.", "legalPrinciple": "No place fixed → promisor seeks appointment of reasonable place.", "statutoryFramework": "Indian Contract Act, 1872 — Section 49", "essentialIngredients": ["Duty to seek appointment of place"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 49"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s49"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:07:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s49-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-49",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 49 (Place for performance of promise, where no application to be made and no place fixed for performance)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 49 provides that when a promise is to be performed without application by the promisee, and no place is fixed for the performance of it, it is the duty of the promisor to apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it at such place.",
+    "glance": "No application needed, no place fixed → promisor must apply to promisee to appoint a reasonable place and perform there.",
+    "study": "Where the promisor is to perform without application by the promisee and no place is fixed, the promisor must apply to the promisee to appoint a reasonable place and perform at that place. Current-law framing: confirm no application and no fixed place; apply promisor’s duty to seek appointment of a reasonable place and perform there.",
+    "sections": [
+      {
+        "heading": "Duty to seek appointment of place",
+        "body": "Promisor must apply to the promisee to appoint a reasonable place for performance and perform at such place.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-49",
+        "section": "Section 49",
+        "title": "Place for performance of promise, where no application to be made and no place fixed for performance"
+      }
+    ],
+    "examples": [
+      {
+        "title": "No place fixed",
+        "body": "A is to deliver goods to B without B applying and with no place fixed. A must apply to B to appoint a reasonable place and deliver there under s. 49.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Who chooses the place when none is fixed?",
+        "analysis": "The promisor must apply to the promisee to appoint a reasonable place under s. 49."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-49",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s49-trap-1",
+        "trap": "The promisor may choose any place when none is fixed.",
+        "correction": "Section 49 requires the promisor to apply to the promisee to appoint a reasonable place."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s49-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 49 problem be analysed?",
+        "answer": "I. Confirm no application and no fixed place. II. Apply promisor’s duty to seek appointment of a reasonable place. III. Conclude performance at that place.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 49",
+      "Connected: Sections 47, 48, 50"
+    ],
+    "examTips": [
+      "State the promisor’s duty to apply for appointment of a reasonable place."
+    ],
+    "revisionPoints": [
+      "Duty to seek appointment of place"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-48",
+      "contract-s-50"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-49",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 49 requires the promisor to apply for appointment of a reasonable place when none is fixed and no application by the promisee is required.",
+      "legalPrinciple": "No place fixed → promisor seeks appointment of reasonable place.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 49",
+      "essentialIngredients": [
+        "Duty to seek appointment of place"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 49"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s49"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:07:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s49-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-49",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 49 provides that when a promise is to be performed without application by the promisee, and no place is fixed for the performance of it, it is the duty of the promisor to apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it at such place."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:07:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-49", "performance", "place", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:07:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-49",
+    "performance",
+    "place",
+    "review-required"
+  ]
 }

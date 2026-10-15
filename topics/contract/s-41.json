@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-41",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 41 (Effect of accepting performance from third person)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 41 provides that when a promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor.",
-        "glance": "Acceptance of performance from a third person discharges the original promisor as against the promisee.",
-        "study": "If the promisee accepts performance of the promise from a third person, the promisee cannot afterwards enforce that promise against the original promisor. Mere offer by a third person without acceptance does not discharge. Current-law framing: identify performance by a third person; test acceptance by the promisee; conclude that the promisor cannot be enforced against for the same promise.",
-        "sections": [{"heading": "Acceptance from third person", "body": "When the promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-41", "section": "Section 41", "title": "Effect of accepting performance from third person"}],
-        "examples": [{"title": "Third-party payment accepted", "body": "A owes B ₹10,000. C pays B and B accepts. B cannot afterwards enforce the same debt against A under s. 41.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does a third person’s offer without acceptance discharge the promisor?", "analysis": "No. Section 41 requires acceptance of performance by the promisee."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s41-trap-1", "trap": "Any third-party attempt to perform automatically discharges the promisor.", "correction": "Only acceptance of that performance by the promisee triggers s. 41."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s41-brief", "draftingCategory": "brief", "question": "How should a Section 41 problem be analysed?", "answer": "I. Identify performance by a third person. II. Test acceptance by the promisee. III. Conclude promisor cannot be enforced against. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 41", "Connected: Sections 40, 42"],
-        "examTips": ["Stress acceptance as the key trigger."],
-        "revisionPoints": ["Acceptance from third person"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-40", "contract-s-42"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-41",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 41 discharges the promisor when the promisee accepts performance from a third person.", "legalPrinciple": "Accepted third-party performance bars later enforcement against the promisor.", "statutoryFramework": "Indian Contract Act, 1872 — Section 41", "essentialIngredients": ["Acceptance from third person"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 41"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s41"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:55:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s41-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-41",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 41 (Effect of accepting performance from third person)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 41 provides that when a promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor.",
+    "glance": "Acceptance of performance from a third person discharges the original promisor as against the promisee.",
+    "study": "If the promisee accepts performance of the promise from a third person, the promisee cannot afterwards enforce that promise against the original promisor. Mere offer by a third person without acceptance does not discharge. Current-law framing: identify performance by a third person; test acceptance by the promisee; conclude that the promisor cannot be enforced against for the same promise.",
+    "sections": [
+      {
+        "heading": "Acceptance from third person",
+        "body": "When the promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-41",
+        "section": "Section 41",
+        "title": "Effect of accepting performance from third person"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Third-party payment accepted",
+        "body": "A owes B ₹10,000. C pays B and B accepts. B cannot afterwards enforce the same debt against A under s. 41.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a third person’s offer without acceptance discharge the promisor?",
+        "analysis": "No. Section 41 requires acceptance of performance by the promisee."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-41",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s41-trap-1",
+        "trap": "Any third-party attempt to perform automatically discharges the promisor.",
+        "correction": "Only acceptance of that performance by the promisee triggers s. 41."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s41-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 41 problem be analysed?",
+        "answer": "I. Identify performance by a third person. II. Test acceptance by the promisee. III. Conclude promisor cannot be enforced against. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 41",
+      "Connected: Sections 40, 42"
+    ],
+    "examTips": [
+      "Stress acceptance as the key trigger."
+    ],
+    "revisionPoints": [
+      "Acceptance from third person"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-40",
+      "contract-s-42"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-41",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 41 discharges the promisor when the promisee accepts performance from a third person.",
+      "legalPrinciple": "Accepted third-party performance bars later enforcement against the promisor.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 41",
+      "essentialIngredients": [
+        "Acceptance from third person"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 41"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s41"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:55:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s41-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-41",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 41 provides that when a promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:55:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-41", "performance", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:55:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-41",
+    "performance",
+    "review-required"
+  ]
 }

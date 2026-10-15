@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-58",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 58 (Alternative promise, one branch being illegal)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 58 provides that in the case of an alternative promise, one branch of which is legal and the other illegal, the legal branch alone can be enforced.",
-        "glance": "Alternative promise with one legal and one illegal branch → only the legal branch enforceable.",
-        "study": "Where an alternative promise has one legal branch and one illegal branch, only the legal branch can be enforced. Current-law framing: identify the alternative branches; enforce the legal branch only; treat the illegal branch as unenforceable.",
-        "sections": [{"heading": "Legal branch alone", "body": "In an alternative promise with one legal and one illegal branch, the legal branch alone can be enforced.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-58", "section": "Section 58", "title": "Alternative promise, one branch being illegal"}],
-        "examples": [{"title": "Alternative legal or illegal act", "body": "A promises to pay B ₹1,000 or to deliver stolen goods. Only the payment branch can be enforced under s. 58.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Can the illegal alternative still be chosen by the promisor?", "analysis": "Section 58: only the legal branch can be enforced; the illegal branch cannot."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s58-trap-1", "trap": "The whole alternative promise is void if one branch is illegal.", "correction": "Section 58 allows enforcement of the legal branch alone."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s58-brief", "draftingCategory": "brief", "question": "How should a Section 58 problem be analysed?", "answer": "I. Identify alternative branches. II. Enforce legal branch only. III. Conclude illegal branch unenforceable.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 58", "Connected: Sections 57, 23"],
-        "examTips": ["State that only the legal branch is enforceable."],
-        "revisionPoints": ["Legal branch alone"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-57", "contract-s-59"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-58",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 58 enforces only the legal branch of an alternative promise where one branch is illegal.", "legalPrinciple": "Alternative promise — legal branch alone enforceable.", "statutoryFramework": "Indian Contract Act, 1872 — Section 58", "essentialIngredients": ["Legal branch alone"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 58"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s58"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:17:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s58-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-58",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 58 (Alternative promise, one branch being illegal)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 58 provides that in the case of an alternative promise, one branch of which is legal and the other illegal, the legal branch alone can be enforced.",
+    "glance": "Alternative promise with one legal and one illegal branch → only the legal branch enforceable.",
+    "study": "Where an alternative promise has one legal branch and one illegal branch, only the legal branch can be enforced. Current-law framing: identify the alternative branches; enforce the legal branch only; treat the illegal branch as unenforceable.",
+    "sections": [
+      {
+        "heading": "Legal branch alone",
+        "body": "In an alternative promise with one legal and one illegal branch, the legal branch alone can be enforced.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-58",
+        "section": "Section 58",
+        "title": "Alternative promise, one branch being illegal"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Alternative legal or illegal act",
+        "body": "A promises to pay B ₹1,000 or to deliver stolen goods. Only the payment branch can be enforced under s. 58.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can the illegal alternative still be chosen by the promisor?",
+        "analysis": "Section 58: only the legal branch can be enforced; the illegal branch cannot."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-58",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s58-trap-1",
+        "trap": "The whole alternative promise is void if one branch is illegal.",
+        "correction": "Section 58 allows enforcement of the legal branch alone."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s58-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 58 problem be analysed?",
+        "answer": "I. Identify alternative branches. II. Enforce legal branch only. III. Conclude illegal branch unenforceable.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 58",
+      "Connected: Sections 57, 23"
+    ],
+    "examTips": [
+      "State that only the legal branch is enforceable."
+    ],
+    "revisionPoints": [
+      "Legal branch alone"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-57",
+      "contract-s-59"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-58",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 58 enforces only the legal branch of an alternative promise where one branch is illegal.",
+      "legalPrinciple": "Alternative promise — legal branch alone enforceable.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 58",
+      "essentialIngredients": [
+        "Legal branch alone"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 58"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s58"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:17:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s58-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-58",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 58 provides that in the case of an alternative promise, one branch of which is legal and the other illegal, the legal branch alone can be enforced."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:17:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-58", "alternative", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:17:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-58",
+    "alternative",
+    "review-required"
+  ]
 }

@@ -1,38 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-47",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 47 (Time and place for performance of promise, where time is specified and no application to be made)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 47 provides that when a promise is to be performed on a certain day, and the promisor has undertaken to perform it without application by the promisee, the promisor may perform it at any time during the usual hours of business on such day and at the place at which the promise ought to be performed.",
-        "glance": "Specified day, no application needed → perform during usual business hours on that day at the proper place.",
-        "study": "Where performance is due on a certain day without application by the promisee, the promisor may perform at any time during the usual hours of business on that day at the place where the promise ought to be performed. Current-law framing: confirm specified day and no-application; apply usual business hours and proper place.",
-        "sections": [{"heading": "Usual business hours on the day", "body": "Promisor may perform at any time during the usual hours of business on the specified day.", "order": 1}, {"heading": "Proper place", "body": "At the place at which the promise ought to be performed.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-47", "section": "Section 47", "title": "Time and place for performance of promise, where time is specified and no application to be made"}],
-        "examples": [{"title": "Delivery on fixed day", "body": "A undertakes to deliver goods to B on a fixed day without B applying. A may deliver during usual business hours on that day at the proper place under s. 47.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Must performance be at a precise hour on the specified day?", "analysis": "No. Section 47 allows performance at any time during the usual hours of business on that day."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s47-trap-1", "trap": "Performance on the specified day can be at any hour including outside business hours.", "correction": "Section 47 limits performance to the usual hours of business on that day."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s47-brief", "draftingCategory": "brief", "question": "How should a Section 47 problem be analysed?", "answer": "I. Confirm specified day and no application. II. Apply usual business hours. III. Apply proper place. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 47", "Connected: Sections 46, 48"],
-        "examTips": ["State usual business hours and proper place."],
-        "revisionPoints": ["Usual business hours on the day", "Proper place"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-46", "contract-s-48"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-47",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 47 fixes time and place when performance is due on a specified day without application.", "legalPrinciple": "Specified day, no application → usual business hours at proper place.", "statutoryFramework": "Indian Contract Act, 1872 — Section 47", "essentialIngredients": ["Usual business hours on the day", "Proper place"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 47"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s47"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:05:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s47-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-47",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 47 (Time and place for performance of promise, where time is specified and no application to be made)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 47 provides that when a promise is to be performed on a certain day, and the promisor has undertaken to perform it without application by the promisee, the promisor may perform it at any time during the usual hours of business on such day and at the place at which the promise ought to be performed.",
+    "glance": "Specified day, no application needed → perform during usual business hours on that day at the proper place.",
+    "study": "Where performance is due on a certain day without application by the promisee, the promisor may perform at any time during the usual hours of business on that day at the place where the promise ought to be performed. Current-law framing: confirm specified day and no-application; apply usual business hours and proper place.",
+    "sections": [
+      {
+        "heading": "Usual business hours on the day",
+        "body": "Promisor may perform at any time during the usual hours of business on the specified day.",
+        "order": 1
+      },
+      {
+        "heading": "Proper place",
+        "body": "At the place at which the promise ought to be performed.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-47",
+        "section": "Section 47",
+        "title": "Time and place for performance of promise, where time is specified and no application to be made"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Delivery on fixed day",
+        "body": "A undertakes to deliver goods to B on a fixed day without B applying. A may deliver during usual business hours on that day at the proper place under s. 47.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Must performance be at a precise hour on the specified day?",
+        "analysis": "No. Section 47 allows performance at any time during the usual hours of business on that day."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-47",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s47-trap-1",
+        "trap": "Performance on the specified day can be at any hour including outside business hours.",
+        "correction": "Section 47 limits performance to the usual hours of business on that day."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s47-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 47 problem be analysed?",
+        "answer": "I. Confirm specified day and no application. II. Apply usual business hours. III. Apply proper place. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 47",
+      "Connected: Sections 46, 48"
+    ],
+    "examTips": [
+      "State usual business hours and proper place."
+    ],
+    "revisionPoints": [
+      "Usual business hours on the day",
+      "Proper place"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-46",
+      "contract-s-48"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-47",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 47 fixes time and place when performance is due on a specified day without application.",
+      "legalPrinciple": "Specified day, no application → usual business hours at proper place.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 47",
+      "essentialIngredients": [
+        "Usual business hours on the day",
+        "Proper place"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 47"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s47"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:05:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s47-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-47",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 47 provides that when a promise is to be performed on a certain day, and the promisor has undertaken to perform it without application by the promisee, the promisor may perform it at any time during the usual hours of business on such day and at the place at which the promise ought to be performed."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:05:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-47", "performance", "time", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:05:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-47",
+    "performance",
+    "time",
+    "review-required"
+  ]
 }

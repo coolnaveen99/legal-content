@@ -1,38 +1,171 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-45",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 45 (Devolution of joint rights)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 45 provides that when a person has made a promise to two or more persons jointly, then, unless a contrary intention appears from the contract, the right to claim performance rests, as between him and them, with them during their joint lives, and, after the death of any of them, with the representative of such deceased person jointly with the survivor or survivors, and, after the death of the last survivor, with the representatives of all jointly.",
-        "glance": "Joint promisees: right to claim performance with them during joint lives; after death, representative with survivors; after last survivor, all representatives jointly.",
-        "study": "Unless a contrary intention appears, when a promise is made to two or more persons jointly, the right to claim performance rests with them during their joint lives. After the death of any, with the representative of the deceased jointly with the survivor(s). After the death of the last survivor, with the representatives of all jointly. Current-law framing: identify joint promisees; apply the devolution sequence for the right to claim performance unless contrary intention.",
-        "sections": [{"heading": "During joint lives", "body": "Right to claim performance rests with the joint promisees during their joint lives.", "order": 1}, {"heading": "After death of any", "body": "With the representative of the deceased jointly with the survivor or survivors.", "order": 2}, {"heading": "After last survivor", "body": "With the representatives of all jointly.", "order": 3}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-45", "section": "Section 45", "title": "Devolution of joint rights"}],
-        "examples": [{"title": "Death of one joint promisee", "body": "A promises B and C jointly to repay a loan. B dies. The right to claim performance rests with B’s representative jointly with C under s. 45.", "kind": "statutory-illustration", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does the death of one joint promisee extinguish the right?", "analysis": "No. Section 45 continues the right with the representative jointly with the survivors."}],
-        "distinctions": [{"id": "ica-s45-vs-s42", "title": "Joint rights (s. 45) vs joint liabilities (s. 42)", "left": "Devolution of right to claim performance", "right": "Devolution of duty to fulfil the promise", "rows": [{"point": "Focus", "left": "Promisees", "right": "Promisors"}]}],
-        "misconceptions": [{"id": "ica-s45-trap-1", "trap": "Only the surviving joint promisee can claim after one dies.", "correction": "Section 45 vests the right in the representative of the deceased jointly with the survivor(s)."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s45-brief", "draftingCategory": "brief", "question": "How should a Section 45 problem be analysed?", "answer": "I. Identify joint promisees. II. Apply devolution sequence for the right to claim. III. Check contrary intention. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 45", "Connected: Sections 42–44"],
-        "examTips": ["Mirror the s. 42 structure but for rights of promisees."],
-        "revisionPoints": ["During joint lives", "After death of any", "After last survivor"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-42", "contract-s-46"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-45",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 45 governs devolution of joint rights to claim performance on death of joint promisees.", "legalPrinciple": "Joint right to claim continues through representatives and survivors.", "statutoryFramework": "Indian Contract Act, 1872 — Section 45", "essentialIngredients": ["During joint lives", "After death of any", "After last survivor"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 45"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s45"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:59:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s45-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-45",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 45 (Devolution of joint rights)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 45 provides that when a person has made a promise to two or more persons jointly, then, unless a contrary intention appears from the contract, the right to claim performance rests, as between him and them, with them during their joint lives, and, after the death of any of them, with the representative of such deceased person jointly with the survivor or survivors, and, after the death of the last survivor, with the representatives of all jointly.",
+    "glance": "Joint promisees: right to claim performance with them during joint lives; after death, representative with survivors; after last survivor, all representatives jointly.",
+    "study": "Unless a contrary intention appears, when a promise is made to two or more persons jointly, the right to claim performance rests with them during their joint lives. After the death of any, with the representative of the deceased jointly with the survivor(s). After the death of the last survivor, with the representatives of all jointly. Current-law framing: identify joint promisees; apply the devolution sequence for the right to claim performance unless contrary intention.",
+    "sections": [
+      {
+        "heading": "During joint lives",
+        "body": "Right to claim performance rests with the joint promisees during their joint lives.",
+        "order": 1
+      },
+      {
+        "heading": "After death of any",
+        "body": "With the representative of the deceased jointly with the survivor or survivors.",
+        "order": 2
+      },
+      {
+        "heading": "After last survivor",
+        "body": "With the representatives of all jointly.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-45",
+        "section": "Section 45",
+        "title": "Devolution of joint rights"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Death of one joint promisee",
+        "body": "A promises B and C jointly to repay a loan. B dies. The right to claim performance rests with B’s representative jointly with C under s. 45.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the death of one joint promisee extinguish the right?",
+        "analysis": "No. Section 45 continues the right with the representative jointly with the survivors."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s45-vs-s42",
+        "title": "Joint rights (s. 45) vs joint liabilities (s. 42)",
+        "left": "Devolution of right to claim performance",
+        "right": "Devolution of duty to fulfil the promise",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Promisees",
+            "right": "Promisors"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s45-trap-1",
+        "trap": "Only the surviving joint promisee can claim after one dies.",
+        "correction": "Section 45 vests the right in the representative of the deceased jointly with the survivor(s)."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s45-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 45 problem be analysed?",
+        "answer": "I. Identify joint promisees. II. Apply devolution sequence for the right to claim. III. Check contrary intention. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 45",
+      "Connected: Sections 42–44"
+    ],
+    "examTips": [
+      "Mirror the s. 42 structure but for rights of promisees."
+    ],
+    "revisionPoints": [
+      "During joint lives",
+      "After death of any",
+      "After last survivor"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-42",
+      "contract-s-46"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-45",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 45 governs devolution of joint rights to claim performance on death of joint promisees.",
+      "legalPrinciple": "Joint right to claim continues through representatives and survivors.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 45",
+      "essentialIngredients": [
+        "During joint lives",
+        "After death of any",
+        "After last survivor"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 45"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s45"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:59:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s45-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-45",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 45 provides that when a person has made a promise to two or more persons jointly, then, unless a contrary intention appears from the contract, the right to claim performance rests, as between him and them, with them during their joint lives, and, after the death of any of them, with the representative of such deceased person jointly with the survivor or survivors, and, after the death of the last survivor, with the representatives of all jointly."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:59:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-45", "joint", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:59:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-45",
+    "joint",
+    "review-required"
+  ]
 }

@@ -1,59 +1,149 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-22",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 22 (Contract caused by mistake of one party as to matter of fact)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 22 provides that a contract is not voidable merely because it was caused by one of the parties to it being under a mistake as to a matter of fact.",
-        "glance": "Unilateral mistake of fact does not by itself make the contract voidable.",
-        "study": "A contract is not voidable merely because one party was under a mistake as to a matter of fact. Bilateral essential fact mistake is under s. 20 (void). Unilateral mistake may still interact with fraud or misrepresentation if the other party caused the mistake. Current-law framing: confirm the mistake is unilateral as to fact; apply s. 22’s non-voidability rule; check for fraud/misrepresentation or bilateral mistake.",
-        "sections": [
-            {
-                "heading": "Unilateral mistake of fact",
-                "body": "Contract not voidable merely because caused by one party’s mistake as to a matter of fact.",
-                "order": 1
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-22",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 22 (Contract caused by mistake of one party as to matter of fact)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 22 provides that a contract is not voidable merely because it was caused by one of the parties to it being under a mistake as to a matter of fact.",
+    "glance": "Unilateral mistake of fact does not by itself make the contract voidable.",
+    "study": "A contract is not voidable merely because one party was under a mistake as to a matter of fact. Bilateral essential fact mistake is under s. 20 (void). Unilateral mistake may still interact with fraud or misrepresentation if the other party caused the mistake. Current-law framing: confirm the mistake is unilateral as to fact; apply s. 22’s non-voidability rule; check for fraud/misrepresentation or bilateral mistake.",
+    "sections": [
+      {
+        "heading": "Unilateral mistake of fact",
+        "body": "Contract not voidable merely because caused by one party’s mistake as to a matter of fact.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-22",
+        "section": "Section 22",
+        "title": "Contract caused by mistake of one party as to matter of fact"
+      }
+    ],
+    "examples": [
+      {
+        "title": "One-sided factual error",
+        "body": "A alone is mistaken about a fact. Absent fraud or misrepresentation, the contract is not voidable merely on that ground under s. 22.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can unilateral mistake ever affect the contract?",
+        "analysis": "Not under s. 22 alone; but fraud, misrepresentation, or bilateral essential fact mistake may still apply under other sections."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-22",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s22-trap-1",
+        "trap": "Any factual mistake by one party voids the contract.",
+        "correction": "Section 22: unilateral mistake of fact does not by itself make the contract voidable."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s22-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 22 problem be analysed?",
+        "answer": "I. Confirm unilateral mistake of fact. II. Apply non-voidability. III. Check fraud/misrepresentation or s. 20. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 22",
+      "Connected: Sections 20, 21"
+    ],
+    "examTips": [
+      "Contrast with bilateral mistake under s. 20.",
+      "Note interaction with fraud/misrepresentation."
+    ],
+    "revisionPoints": [
+      "Unilateral mistake of fact"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-20",
+      "contract-s-21"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-22",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 22 provides that unilateral mistake of fact does not by itself make a contract voidable.",
+      "legalPrinciple": "Unilateral fact mistake ≠ voidable on that ground alone.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 22",
+      "essentialIngredients": [
+        "Unilateral mistake of fact"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 22"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s22"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:28:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s22-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-22",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-22", "section": "Section 22", "title": "Contract caused by mistake of one party as to matter of fact"}],
-        "examples": [{"title": "One-sided factual error", "body": "A alone is mistaken about a fact. Absent fraud or misrepresentation, the contract is not voidable merely on that ground under s. 22.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Can unilateral mistake ever affect the contract?", "analysis": "Not under s. 22 alone; but fraud, misrepresentation, or bilateral essential fact mistake may still apply under other sections."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s22-trap-1", "trap": "Any factual mistake by one party voids the contract.", "correction": "Section 22: unilateral mistake of fact does not by itself make the contract voidable."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s22-brief", "draftingCategory": "brief", "question": "How should a Section 22 problem be analysed?", "answer": "I. Confirm unilateral mistake of fact. II. Apply non-voidability. III. Check fraud/misrepresentation or s. 20. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 22", "Connected: Sections 20, 21"],
-        "examTips": ["Contrast with bilateral mistake under s. 20.", "Note interaction with fraud/misrepresentation."],
-        "revisionPoints": ["Unilateral mistake of fact"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-20", "contract-s-21"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-22",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 22 provides that unilateral mistake of fact does not by itself make a contract voidable.",
-            "legalPrinciple": "Unilateral fact mistake ≠ voidable on that ground alone.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 22",
-            "essentialIngredients": ["Unilateral mistake of fact"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 22"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s22"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:28:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s22-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 22 provides that a contract is not voidable merely because it was caused by one of the parties to it being under a mistake as to a matter of fact."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:28:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-22", "mistake", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:28:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-22",
+    "mistake",
+    "review-required"
+  ]
 }

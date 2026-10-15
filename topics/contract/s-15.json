@@ -1,69 +1,163 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-15",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 15 (“Coercion” defined)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 15 provides that “coercion” is the committing, or threatening to commit, any act forbidden by the Indian Penal Code (45 of 1860), or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement.",
-        "glance": "Coercion = IPC-forbidden act or threat, or unlawful detention/threat to detain property, to prejudice of any person, intending to cause entry into an agreement.",
-        "study": "Coercion is (1) committing or threatening to commit any act forbidden by the IPC, or (2) unlawful detaining or threatening to detain any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement. Consent caused by coercion is not free (s. 14) and the agreement is voidable (s. 19). Current-law framing: identify the act or threat; link to IPC or unlawful detention of property; prove intention to cause entry into the agreement; conclude on voidability.",
-        "sections": [
-            {
-                "heading": "IPC-forbidden act or threat",
-                "body": "Committing or threatening to commit any act forbidden by the Indian Penal Code.",
-                "order": 1
-            },
-            {
-                "heading": "Unlawful detention of property",
-                "body": "Unlawful detaining or threatening to detain any property.",
-                "order": 2
-            },
-            {
-                "heading": "Prejudice and intention",
-                "body": "To the prejudice of any person whatever, with the intention of causing any person to enter into an agreement.",
-                "order": 3
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-15",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 15 (“Coercion” defined)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 15 provides that “coercion” is the committing, or threatening to commit, any act forbidden by the Indian Penal Code (45 of 1860), or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement.",
+    "glance": "Coercion = IPC-forbidden act or threat, or unlawful detention/threat to detain property, to prejudice of any person, intending to cause entry into an agreement.",
+    "study": "Coercion is (1) committing or threatening to commit any act forbidden by the IPC, or (2) unlawful detaining or threatening to detain any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement. Consent caused by coercion is not free (s. 14) and the agreement is voidable (s. 19). Current-law framing: identify the act or threat; link to IPC or unlawful detention of property; prove intention to cause entry into the agreement; conclude on voidability.",
+    "sections": [
+      {
+        "heading": "IPC-forbidden act or threat",
+        "body": "Committing or threatening to commit any act forbidden by the Indian Penal Code.",
+        "order": 1
+      },
+      {
+        "heading": "Unlawful detention of property",
+        "body": "Unlawful detaining or threatening to detain any property.",
+        "order": 2
+      },
+      {
+        "heading": "Prejudice and intention",
+        "body": "To the prejudice of any person whatever, with the intention of causing any person to enter into an agreement.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-15",
+        "section": "Section 15",
+        "title": "“Coercion” defined"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Threat of IPC offence",
+        "body": "A threatens B with an act forbidden by the IPC unless B signs an agreement. B’s consent is caused by coercion under s. 15.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Must the threatened person be the one entering the agreement?",
+        "analysis": "No. Coercion may be to the prejudice of any person whatever, with intention of causing any person to enter into an agreement."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-15",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s15-trap-1",
+        "trap": "Only physical force against the contracting party counts as coercion.",
+        "correction": "Section 15 covers IPC-forbidden acts/threats and unlawful detention of property, to the prejudice of any person, with the requisite intention."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s15-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 15 problem be analysed?",
+        "answer": "I. Identify act/threat or detention. II. Link to IPC or unlawful property detention. III. Prove prejudice and intention to cause entry into agreement. IV. Conclude voidability under s. 19.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 15",
+      "Connected: Sections 14, 19"
+    ],
+    "examTips": [
+      "Quote the IPC limb and the property limb.",
+      "Note “any person whatever”."
+    ],
+    "revisionPoints": [
+      "IPC-forbidden act or threat",
+      "Unlawful detention of property",
+      "Prejudice and intention"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-14",
+      "contract-s-19"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-15",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 15 defines coercion as IPC-forbidden acts/threats or unlawful detention of property, to anyone’s prejudice, intending to cause entry into an agreement.",
+      "legalPrinciple": "Coercion vitiates free consent and makes the agreement voidable.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 15",
+      "essentialIngredients": [
+        "IPC-forbidden act or threat",
+        "Unlawful detention of property",
+        "Prejudice and intention"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 15"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s15"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:14:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s15-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-15",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-15", "section": "Section 15", "title": "“Coercion” defined"}],
-        "examples": [{"title": "Threat of IPC offence", "body": "A threatens B with an act forbidden by the IPC unless B signs an agreement. B’s consent is caused by coercion under s. 15.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Must the threatened person be the one entering the agreement?", "analysis": "No. Coercion may be to the prejudice of any person whatever, with intention of causing any person to enter into an agreement."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s15-trap-1", "trap": "Only physical force against the contracting party counts as coercion.", "correction": "Section 15 covers IPC-forbidden acts/threats and unlawful detention of property, to the prejudice of any person, with the requisite intention."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s15-brief", "draftingCategory": "brief", "question": "How should a Section 15 problem be analysed?", "answer": "I. Identify act/threat or detention. II. Link to IPC or unlawful property detention. III. Prove prejudice and intention to cause entry into agreement. IV. Conclude voidability under s. 19.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 15", "Connected: Sections 14, 19"],
-        "examTips": ["Quote the IPC limb and the property limb.", "Note “any person whatever”."],
-        "revisionPoints": ["IPC-forbidden act or threat", "Unlawful detention of property", "Prejudice and intention"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-14", "contract-s-19"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-15",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 15 defines coercion as IPC-forbidden acts/threats or unlawful detention of property, to anyone’s prejudice, intending to cause entry into an agreement.",
-            "legalPrinciple": "Coercion vitiates free consent and makes the agreement voidable.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 15",
-            "essentialIngredients": ["IPC-forbidden act or threat", "Unlawful detention of property", "Prejudice and intention"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 15"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s15"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:14:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s15-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 15 provides that “coercion” is the committing, or threatening to commit, any act forbidden by the Indian Penal Code (45 of 1860), or the unlawful detaining, or threatening to detain, any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:14:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-15", "coercion", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:14:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-15",
+    "coercion",
+    "review-required"
+  ]
 }

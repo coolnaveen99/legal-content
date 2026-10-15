@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-65",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 65 (Obligation of person who has received advantage under void agreement, or contract that becomes void)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 65 provides that when an agreement is discovered to be void, or when a contract becomes void, any person who has received any advantage under such agreement or contract is bound to restore it, or to make compensation for it, to the person from whom he received it.",
-        "glance": "Void agreement discovered / contract becomes void → restore advantage or compensate the person from whom it was received.",
-        "study": "When an agreement is discovered to be void, or a contract becomes void, any person who received an advantage under it must restore that advantage or make compensation to the person from whom it was received. This is the main restitution rule for void agreements and frustrated/void contracts. Current-law framing: identify voidness (discovered or supervening); identify advantage received; apply restoration or compensation.",
-        "sections": [{"heading": "Restore or compensate", "body": "Person who received any advantage under a void agreement or a contract that becomes void is bound to restore it, or to make compensation for it, to the person from whom he received it.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-65", "section": "Section 65", "title": "Obligation of person who has received advantage under void agreement, or contract that becomes void"}],
-        "examples": [{"title": "Contract becomes void", "body": "A pays B under a contract that later becomes void under s. 56. B must restore the advantage or compensate A under s. 65.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does s. 65 apply only to agreements void from the start?", "analysis": "No. It covers both agreements discovered to be void and contracts that become void."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s65-trap-1", "trap": "Benefits under a void contract may always be retained.", "correction": "Section 65 requires restoration or compensation for advantage received."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s65-brief", "draftingCategory": "brief", "question": "How should a Section 65 problem be analysed?", "answer": "I. Identify voidness (discovered or supervening). II. Identify advantage received. III. Apply restoration or compensation. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 65", "Connected: Sections 56, 64"],
-        "examTips": ["Link to frustration (s. 56) and rescission (s. 64)."],
-        "revisionPoints": ["Restore or compensate"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-64", "contract-s-66"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-65",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 65 requires restoration or compensation for advantage received under a void agreement or a contract that becomes void.", "legalPrinciple": "Advantage under void/voided contract → restore or compensate.", "statutoryFramework": "Indian Contract Act, 1872 — Section 65", "essentialIngredients": ["Restore or compensate"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 65"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s65"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:30:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s65-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-65",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 65 (Obligation of person who has received advantage under void agreement, or contract that becomes void)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 65 provides that when an agreement is discovered to be void, or when a contract becomes void, any person who has received any advantage under such agreement or contract is bound to restore it, or to make compensation for it, to the person from whom he received it.",
+    "glance": "Void agreement discovered / contract becomes void → restore advantage or compensate the person from whom it was received.",
+    "study": "When an agreement is discovered to be void, or a contract becomes void, any person who received an advantage under it must restore that advantage or make compensation to the person from whom it was received. This is the main restitution rule for void agreements and frustrated/void contracts. Current-law framing: identify voidness (discovered or supervening); identify advantage received; apply restoration or compensation.",
+    "sections": [
+      {
+        "heading": "Restore or compensate",
+        "body": "Person who received any advantage under a void agreement or a contract that becomes void is bound to restore it, or to make compensation for it, to the person from whom he received it.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-65",
+        "section": "Section 65",
+        "title": "Obligation of person who has received advantage under void agreement, or contract that becomes void"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Contract becomes void",
+        "body": "A pays B under a contract that later becomes void under s. 56. B must restore the advantage or compensate A under s. 65.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does s. 65 apply only to agreements void from the start?",
+        "analysis": "No. It covers both agreements discovered to be void and contracts that become void."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-65",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s65-trap-1",
+        "trap": "Benefits under a void contract may always be retained.",
+        "correction": "Section 65 requires restoration or compensation for advantage received."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s65-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 65 problem be analysed?",
+        "answer": "I. Identify voidness (discovered or supervening). II. Identify advantage received. III. Apply restoration or compensation. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 65",
+      "Connected: Sections 56, 64"
+    ],
+    "examTips": [
+      "Link to frustration (s. 56) and rescission (s. 64)."
+    ],
+    "revisionPoints": [
+      "Restore or compensate"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-64",
+      "contract-s-66"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-65",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 65 requires restoration or compensation for advantage received under a void agreement or a contract that becomes void.",
+      "legalPrinciple": "Advantage under void/voided contract → restore or compensate.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 65",
+      "essentialIngredients": [
+        "Restore or compensate"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 65"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s65"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s65-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-65",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 65 provides that when an agreement is discovered to be void, or when a contract becomes void, any person who has received any advantage under such agreement or contract is bound to restore it, or to make compensation for it, to the person from whom he received it."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:30:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-65", "restitution", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:30:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-65",
+    "restitution",
+    "review-required"
+  ]
 }

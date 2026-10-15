@@ -1,69 +1,163 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-11",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 11 (Who are competent to contract)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 11 provides that every person is competent to contract who is of the age of majority according to the law to which he is subject, and who is of sound mind, and is not disqualified from contracting by any law to which he is subject.",
-        "glance": "Competence = majority + sound mind + not disqualified by applicable law.",
-        "study": "Competence requires (1) age of majority under the law to which the person is subject, (2) sound mind (see s. 12), and (3) absence of disqualification under any law to which the person is subject. Minors are not competent; contracts with minors are generally void. Current-law framing: test majority, sound mind, and disqualification in that order.",
-        "sections": [
-            {
-                "heading": "Age of majority",
-                "body": "Of the age of majority according to the law to which he is subject.",
-                "order": 1
-            },
-            {
-                "heading": "Sound mind",
-                "body": "Who is of sound mind (defined in s. 12).",
-                "order": 2
-            },
-            {
-                "heading": "Not disqualified",
-                "body": "Not disqualified from contracting by any law to which he is subject.",
-                "order": 3
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-11",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 11 (Who are competent to contract)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 11 provides that every person is competent to contract who is of the age of majority according to the law to which he is subject, and who is of sound mind, and is not disqualified from contracting by any law to which he is subject.",
+    "glance": "Competence = majority + sound mind + not disqualified by applicable law.",
+    "study": "Competence requires (1) age of majority under the law to which the person is subject, (2) sound mind (see s. 12), and (3) absence of disqualification under any law to which the person is subject. Minors are not competent; contracts with minors are generally void. Current-law framing: test majority, sound mind, and disqualification in that order.",
+    "sections": [
+      {
+        "heading": "Age of majority",
+        "body": "Of the age of majority according to the law to which he is subject.",
+        "order": 1
+      },
+      {
+        "heading": "Sound mind",
+        "body": "Who is of sound mind (defined in s. 12).",
+        "order": 2
+      },
+      {
+        "heading": "Not disqualified",
+        "body": "Not disqualified from contracting by any law to which he is subject.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-11",
+        "section": "Section 11",
+        "title": "Who are competent to contract"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Minor",
+        "body": "A person below the age of majority under the applicable law is not competent to contract under s. 11.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is a minor competent to contract?",
+        "analysis": "No. Section 11 requires the age of majority according to the law to which the person is subject."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-11",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s11-trap-1",
+        "trap": "Any adult can always contract regardless of mental capacity or statutory disqualification.",
+        "correction": "Section 11 also requires sound mind and absence of disqualification by applicable law."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s11-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 11 problem be analysed?",
+        "answer": "I. Test age of majority. II. Test sound mind (s. 12). III. Test statutory disqualification. IV. Conclude on competence.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 11",
+      "Connected: Section 12"
+    ],
+    "examTips": [
+      "State all three conditions.",
+      "Link sound mind to s. 12."
+    ],
+    "revisionPoints": [
+      "Age of majority",
+      "Sound mind",
+      "Not disqualified"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-12",
+      "contract-s-10"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-11",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 11 sets competence to contract: majority, sound mind, and no disqualification.",
+      "legalPrinciple": "Only majority + sound mind + not disqualified persons are competent.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 11",
+      "essentialIngredients": [
+        "Age of majority",
+        "Sound mind",
+        "Not disqualified"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 11"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s11"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:10:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s11-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-11",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-11", "section": "Section 11", "title": "Who are competent to contract"}],
-        "examples": [{"title": "Minor", "body": "A person below the age of majority under the applicable law is not competent to contract under s. 11.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Is a minor competent to contract?", "analysis": "No. Section 11 requires the age of majority according to the law to which the person is subject."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s11-trap-1", "trap": "Any adult can always contract regardless of mental capacity or statutory disqualification.", "correction": "Section 11 also requires sound mind and absence of disqualification by applicable law."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s11-brief", "draftingCategory": "brief", "question": "How should a Section 11 problem be analysed?", "answer": "I. Test age of majority. II. Test sound mind (s. 12). III. Test statutory disqualification. IV. Conclude on competence.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 11", "Connected: Section 12"],
-        "examTips": ["State all three conditions.", "Link sound mind to s. 12."],
-        "revisionPoints": ["Age of majority", "Sound mind", "Not disqualified"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-12", "contract-s-10"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-11",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 11 sets competence to contract: majority, sound mind, and no disqualification.",
-            "legalPrinciple": "Only majority + sound mind + not disqualified persons are competent.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 11",
-            "essentialIngredients": ["Age of majority", "Sound mind", "Not disqualified"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 11"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s11"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:10:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s11-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 11 provides that every person is competent to contract who is of the age of majority according to the law to which he is subject, and who is of sound mind, and is not disqualified from contracting by any law to which he is subject."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:10:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-11", "capacity", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:10:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-11",
+    "capacity",
+    "review-required"
+  ]
 }

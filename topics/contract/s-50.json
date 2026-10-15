@@ -1,38 +1,148 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-50",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 50 (Performance in manner or at time prescribed or sanctioned by promisee)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 50 provides that the performance of any promise may be made in any manner, or at any time which the promisee prescribes or sanctions.",
-        "glance": "Promisee may prescribe or sanction the manner or time of performance.",
-        "study": "Performance of any promise may be made in any manner or at any time which the promisee prescribes or sanctions. This allows the promisee to accept a different mode or time. Current-law framing: identify any prescription or sanction by the promisee as to manner or time; treat performance accordingly as valid under s. 50.",
-        "sections": [{"heading": "Manner or time prescribed or sanctioned", "body": "Performance may be made in any manner or at any time which the promisee prescribes or sanctions.", "order": 1}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-50", "section": "Section 50", "title": "Performance in manner or at time prescribed or sanctioned by promisee"}],
-        "examples": [{"title": "Promisee sanctions different time", "body": "A is to pay B on 1 March. B asks A to pay on 15 March instead and accepts. Performance on 15 March is valid under s. 50.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Can the promisee validly accept a different mode of performance?", "analysis": "Yes. Section 50 allows performance in any manner or at any time which the promisee prescribes or sanctions."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s50-trap-1", "trap": "Performance must always follow the original contractual manner and time strictly.", "correction": "Section 50 allows the promisee to prescribe or sanction a different manner or time."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s50-brief", "draftingCategory": "brief", "question": "How should a Section 50 problem be analysed?", "answer": "I. Identify any prescription or sanction by the promisee. II. Apply validity of that manner or time. III. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 50", "Connected: Sections 46–49, 55"],
-        "examTips": ["State that the promisee’s prescription or sanction validates manner or time."],
-        "revisionPoints": ["Manner or time prescribed or sanctioned"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-49", "contract-s-51"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-50",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 50 allows performance in any manner or at any time prescribed or sanctioned by the promisee.", "legalPrinciple": "Promisee’s prescription or sanction controls manner and time of performance.", "statutoryFramework": "Indian Contract Act, 1872 — Section 50", "essentialIngredients": ["Manner or time prescribed or sanctioned"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 50"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s50"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:08:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s50-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-50",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 50 (Performance in manner or at time prescribed or sanctioned by promisee)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 50 provides that the performance of any promise may be made in any manner, or at any time which the promisee prescribes or sanctions.",
+    "glance": "Promisee may prescribe or sanction the manner or time of performance.",
+    "study": "Performance of any promise may be made in any manner or at any time which the promisee prescribes or sanctions. This allows the promisee to accept a different mode or time. Current-law framing: identify any prescription or sanction by the promisee as to manner or time; treat performance accordingly as valid under s. 50.",
+    "sections": [
+      {
+        "heading": "Manner or time prescribed or sanctioned",
+        "body": "Performance may be made in any manner or at any time which the promisee prescribes or sanctions.",
+        "order": 1
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-50",
+        "section": "Section 50",
+        "title": "Performance in manner or at time prescribed or sanctioned by promisee"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Promisee sanctions different time",
+        "body": "A is to pay B on 1 March. B asks A to pay on 15 March instead and accepts. Performance on 15 March is valid under s. 50.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can the promisee validly accept a different mode of performance?",
+        "analysis": "Yes. Section 50 allows performance in any manner or at any time which the promisee prescribes or sanctions."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-50",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s50-trap-1",
+        "trap": "Performance must always follow the original contractual manner and time strictly.",
+        "correction": "Section 50 allows the promisee to prescribe or sanction a different manner or time."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s50-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 50 problem be analysed?",
+        "answer": "I. Identify any prescription or sanction by the promisee. II. Apply validity of that manner or time. III. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 50",
+      "Connected: Sections 46–49, 55"
+    ],
+    "examTips": [
+      "State that the promisee’s prescription or sanction validates manner or time."
+    ],
+    "revisionPoints": [
+      "Manner or time prescribed or sanctioned"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-49",
+      "contract-s-51"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-50",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 50 allows performance in any manner or at any time prescribed or sanctioned by the promisee.",
+      "legalPrinciple": "Promisee’s prescription or sanction controls manner and time of performance.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 50",
+      "essentialIngredients": [
+        "Manner or time prescribed or sanctioned"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 50"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s50"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:08:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s50-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-50",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 50 provides that the performance of any promise may be made in any manner, or at any time which the promisee prescribes or sanctions."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:08:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-50", "performance", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:08:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-50",
+    "performance",
+    "review-required"
+  ]
 }

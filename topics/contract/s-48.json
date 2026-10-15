@@ -1,38 +1,157 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-48",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 48 (Application for performance on certain day to be at proper time and place)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 48 provides that when a promise is to be performed on a certain day, and the promisor has not undertaken to perform it without application by the promisee, it is the duty of the promisee to apply for performance at a proper place and within the usual hours of business. Explanation: The question “what is a proper time and place” is, in each particular case, a question of fact.",
-        "glance": "Specified day, application required → promisee must apply at proper place within usual business hours (fact question).",
-        "study": "Where performance is due on a certain day and the promisor has not undertaken to perform without application, the promisee must apply for performance at a proper place and within the usual hours of business. What is proper time and place is a question of fact. Current-law framing: confirm application is required; apply duty of promisee to apply at proper place within usual business hours.",
-        "sections": [{"heading": "Duty to apply", "body": "Promisee must apply for performance at a proper place and within the usual hours of business.", "order": 1}, {"heading": "Question of fact", "body": "What is a proper time and place is, in each particular case, a question of fact.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-48", "section": "Section 48", "title": "Application for performance on certain day to be at proper time and place"}],
-        "examples": [{"title": "Promisee must apply", "body": "A is to deliver goods to B on a fixed day only if B applies. B must apply at a proper place within usual business hours under s. 48.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Who must take the initiative when application is required?", "analysis": "The promisee, under s. 48, must apply at a proper place within usual business hours."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s48-trap-1", "trap": "The promisor must always perform without the promisee doing anything.", "correction": "Where the promisor has not undertaken to perform without application, s. 48 places the duty to apply on the promisee."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s48-brief", "draftingCategory": "brief", "question": "How should a Section 48 problem be analysed?", "answer": "I. Confirm application is required. II. Apply promisee’s duty to apply at proper place within usual hours. III. Treat proper time/place as fact. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 48", "Connected: Sections 47, 49"],
-        "examTips": ["Contrast with s. 47 (no application).", "State proper time/place as fact."],
-        "revisionPoints": ["Duty to apply", "Question of fact"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-47", "contract-s-49"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-48",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 48 places on the promisee the duty to apply for performance at a proper place within usual business hours when application is required.", "legalPrinciple": "Application required → promisee must apply at proper place within usual hours.", "statutoryFramework": "Indian Contract Act, 1872 — Section 48", "essentialIngredients": ["Duty to apply", "Question of fact"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 48"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s48"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:06:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s48-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-48",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 48 (Application for performance on certain day to be at proper time and place)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 48 provides that when a promise is to be performed on a certain day, and the promisor has not undertaken to perform it without application by the promisee, it is the duty of the promisee to apply for performance at a proper place and within the usual hours of business. Explanation: The question “what is a proper time and place” is, in each particular case, a question of fact.",
+    "glance": "Specified day, application required → promisee must apply at proper place within usual business hours (fact question).",
+    "study": "Where performance is due on a certain day and the promisor has not undertaken to perform without application, the promisee must apply for performance at a proper place and within the usual hours of business. What is proper time and place is a question of fact. Current-law framing: confirm application is required; apply duty of promisee to apply at proper place within usual business hours.",
+    "sections": [
+      {
+        "heading": "Duty to apply",
+        "body": "Promisee must apply for performance at a proper place and within the usual hours of business.",
+        "order": 1
+      },
+      {
+        "heading": "Question of fact",
+        "body": "What is a proper time and place is, in each particular case, a question of fact.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-48",
+        "section": "Section 48",
+        "title": "Application for performance on certain day to be at proper time and place"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Promisee must apply",
+        "body": "A is to deliver goods to B on a fixed day only if B applies. B must apply at a proper place within usual business hours under s. 48.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Who must take the initiative when application is required?",
+        "analysis": "The promisee, under s. 48, must apply at a proper place within usual business hours."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-48",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s48-trap-1",
+        "trap": "The promisor must always perform without the promisee doing anything.",
+        "correction": "Where the promisor has not undertaken to perform without application, s. 48 places the duty to apply on the promisee."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s48-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 48 problem be analysed?",
+        "answer": "I. Confirm application is required. II. Apply promisee’s duty to apply at proper place within usual hours. III. Treat proper time/place as fact. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 48",
+      "Connected: Sections 47, 49"
+    ],
+    "examTips": [
+      "Contrast with s. 47 (no application).",
+      "State proper time/place as fact."
+    ],
+    "revisionPoints": [
+      "Duty to apply",
+      "Question of fact"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-47",
+      "contract-s-49"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-48",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 48 places on the promisee the duty to apply for performance at a proper place within usual business hours when application is required.",
+      "legalPrinciple": "Application required → promisee must apply at proper place within usual hours.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 48",
+      "essentialIngredients": [
+        "Duty to apply",
+        "Question of fact"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 48"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s48"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:06:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s48-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-48",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 48 provides that when a promise is to be performed on a certain day, and the promisor has not undertaken to perform it without application by the promisee, it is the duty of the promisee to apply for performance at a proper place and within the usual hours of business. Explanation: The question “what is a proper time and place” is, in each particular case, a question of fact."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:06:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-48", "performance", "time", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:06:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-48",
+    "performance",
+    "time",
+    "review-required"
+  ]
 }

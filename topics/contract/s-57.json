@@ -1,38 +1,155 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-57",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 57 (Reciprocal promise to do things legal, and also other things illegal)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 57 provides that where persons reciprocally promise, firstly, to do certain things which are legal, and, secondly, under specified circumstances, to do certain other things which are illegal, the first set of promises is a contract, but the second is a void agreement.",
-        "glance": "Reciprocal promises partly legal, partly illegal → legal set is a contract; illegal set is a void agreement.",
-        "study": "Where reciprocal promises include a legal set and, under specified circumstances, an illegal set, the legal set is a contract and the illegal set is a void agreement. Current-law framing: separate the legal and illegal sets; enforce the legal set as a contract; treat the illegal set as void under s. 57.",
-        "sections": [{"heading": "Legal set", "body": "First set of promises (legal) is a contract.", "order": 1}, {"heading": "Illegal set", "body": "Second set (illegal under specified circumstances) is a void agreement.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-57", "section": "Section 57", "title": "Reciprocal promise to do things legal, and also other things illegal"}],
-        "examples": [{"title": "Mixed legal and illegal", "body": "A and B reciprocally promise to sell a house (legal) and, if certain conditions arise, to use it as a gambling house (illegal). The sale promise is a contract; the gambling promise is void under s. 57.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does the illegal part void the entire reciprocal arrangement?", "analysis": "No. Section 57: the legal set is a contract; only the illegal set is a void agreement."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s57-trap-1", "trap": "Any illegal element voids all reciprocal promises.", "correction": "Section 57 severs: legal set remains a contract; illegal set is void."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s57-brief", "draftingCategory": "brief", "question": "How should a Section 57 problem be analysed?", "answer": "I. Separate legal and illegal sets. II. Enforce legal set as contract. III. Treat illegal set as void. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 57", "Connected: Sections 23, 24, 58"],
-        "examTips": ["State the severance of legal and illegal sets."],
-        "revisionPoints": ["Legal set", "Illegal set"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-56", "contract-s-58"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-57",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 57 treats reciprocal promises that are partly legal and partly illegal by enforcing the legal set and voiding the illegal set.", "legalPrinciple": "Legal set = contract; illegal set = void agreement.", "statutoryFramework": "Indian Contract Act, 1872 — Section 57", "essentialIngredients": ["Legal set", "Illegal set"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 57"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s57"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:16:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s57-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-57",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 57 (Reciprocal promise to do things legal, and also other things illegal)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 57 provides that where persons reciprocally promise, firstly, to do certain things which are legal, and, secondly, under specified circumstances, to do certain other things which are illegal, the first set of promises is a contract, but the second is a void agreement.",
+    "glance": "Reciprocal promises partly legal, partly illegal → legal set is a contract; illegal set is a void agreement.",
+    "study": "Where reciprocal promises include a legal set and, under specified circumstances, an illegal set, the legal set is a contract and the illegal set is a void agreement. Current-law framing: separate the legal and illegal sets; enforce the legal set as a contract; treat the illegal set as void under s. 57.",
+    "sections": [
+      {
+        "heading": "Legal set",
+        "body": "First set of promises (legal) is a contract.",
+        "order": 1
+      },
+      {
+        "heading": "Illegal set",
+        "body": "Second set (illegal under specified circumstances) is a void agreement.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-57",
+        "section": "Section 57",
+        "title": "Reciprocal promise to do things legal, and also other things illegal"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Mixed legal and illegal",
+        "body": "A and B reciprocally promise to sell a house (legal) and, if certain conditions arise, to use it as a gambling house (illegal). The sale promise is a contract; the gambling promise is void under s. 57.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the illegal part void the entire reciprocal arrangement?",
+        "analysis": "No. Section 57: the legal set is a contract; only the illegal set is a void agreement."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-57",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s57-trap-1",
+        "trap": "Any illegal element voids all reciprocal promises.",
+        "correction": "Section 57 severs: legal set remains a contract; illegal set is void."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s57-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 57 problem be analysed?",
+        "answer": "I. Separate legal and illegal sets. II. Enforce legal set as contract. III. Treat illegal set as void. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 57",
+      "Connected: Sections 23, 24, 58"
+    ],
+    "examTips": [
+      "State the severance of legal and illegal sets."
+    ],
+    "revisionPoints": [
+      "Legal set",
+      "Illegal set"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-56",
+      "contract-s-58"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-57",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 57 treats reciprocal promises that are partly legal and partly illegal by enforcing the legal set and voiding the illegal set.",
+      "legalPrinciple": "Legal set = contract; illegal set = void agreement.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 57",
+      "essentialIngredients": [
+        "Legal set",
+        "Illegal set"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 57"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s57"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T13:16:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s57-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-57",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 57 provides that where persons reciprocally promise, firstly, to do certain things which are legal, and, secondly, under specified circumstances, to do certain other things which are illegal, the first set of promises is a contract, but the second is a void agreement."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T13:16:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-57", "reciprocal", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T13:16:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-57",
+    "reciprocal",
+    "review-required"
+  ]
 }

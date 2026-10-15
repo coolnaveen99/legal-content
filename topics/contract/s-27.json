@@ -1,64 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-27",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 27 (Agreement in restraint of trade, void)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 27 provides that every agreement by which any one is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void. Exception 1: One who sells the goodwill of a business may agree with the buyer to refrain from carrying on a similar business, within specified local limits, so long as the buyer, or any person deriving title to the goodwill from him, carries on a like business therein, provided that such limits appear to the Court reasonable, regard being had to the nature of the business.",
-        "glance": "Restraint of lawful profession/trade/business → void to that extent; exception for reasonable local restraint on sale of goodwill.",
-        "study": "Every agreement restraining anyone from exercising a lawful profession, trade or business is to that extent void. Exception 1 allows a seller of goodwill to agree not to carry on a similar business within specified local limits that appear reasonable to the Court, while the buyer (or successor) carries on a like business there. Current-law framing: identify the restraint; apply voidness to that extent; test Exception 1 (goodwill, local limits, reasonableness).",
-        "sections": [
-            {
-                "heading": "General rule",
-                "body": "Agreement restraining exercise of a lawful profession, trade or business is to that extent void.",
-                "order": 1
-            },
-            {
-                "heading": "Exception — sale of goodwill",
-                "body": "Seller of goodwill may agree to refrain from similar business within specified local limits that appear reasonable, while buyer carries on like business therein.",
-                "order": 2
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-27",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 27 (Agreement in restraint of trade, void)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 27 provides that every agreement by which any one is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void. Exception 1: One who sells the goodwill of a business may agree with the buyer to refrain from carrying on a similar business, within specified local limits, so long as the buyer, or any person deriving title to the goodwill from him, carries on a like business therein, provided that such limits appear to the Court reasonable, regard being had to the nature of the business.",
+    "glance": "Restraint of lawful profession/trade/business → void to that extent; exception for reasonable local restraint on sale of goodwill.",
+    "study": "Every agreement restraining anyone from exercising a lawful profession, trade or business is to that extent void. Exception 1 allows a seller of goodwill to agree not to carry on a similar business within specified local limits that appear reasonable to the Court, while the buyer (or successor) carries on a like business there. Current-law framing: identify the restraint; apply voidness to that extent; test Exception 1 (goodwill, local limits, reasonableness).",
+    "sections": [
+      {
+        "heading": "General rule",
+        "body": "Agreement restraining exercise of a lawful profession, trade or business is to that extent void.",
+        "order": 1
+      },
+      {
+        "heading": "Exception — sale of goodwill",
+        "body": "Seller of goodwill may agree to refrain from similar business within specified local limits that appear reasonable, while buyer carries on like business therein.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-27",
+        "section": "Section 27",
+        "title": "Agreement in restraint of trade, void"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Sale of goodwill",
+        "body": "A sells the goodwill of a business to B and agrees not to carry on a similar business within reasonable local limits while B carries on the business. Exception 1 may save the restraint.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Are all non-compete clauses void in India?",
+        "analysis": "Section 27 voids restraints on lawful profession, trade or business to that extent, subject to Exception 1 (and other recognised exceptions such as those under partnership law where applicable)."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-27",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s27-trap-1",
+        "trap": "Reasonable restraints of trade are generally valid as in English common law.",
+        "correction": "Section 27 is stricter: every such restraint is void to that extent, with a limited statutory exception for sale of goodwill."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s27-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 27 problem be analysed?",
+        "answer": "I. Identify the restraint on profession/trade/business. II. Apply voidness to that extent. III. Test Exception 1. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 27",
+      "Connected: Sections 23, 26"
+    ],
+    "examTips": [
+      "State the general rule and Exception 1.",
+      "Note ‘to that extent void’."
+    ],
+    "revisionPoints": [
+      "General rule",
+      "Exception — sale of goodwill"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-26",
+      "contract-s-28"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-27",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 27 voids agreements restraining lawful profession, trade or business, subject to the goodwill exception.",
+      "legalPrinciple": "Restraint of trade void to that extent; limited goodwill exception.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 27",
+      "essentialIngredients": [
+        "General rule",
+        "Exception — sale of goodwill"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 27"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s27"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:35:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s27-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-27",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-27", "section": "Section 27", "title": "Agreement in restraint of trade, void"}],
-        "examples": [{"title": "Sale of goodwill", "body": "A sells the goodwill of a business to B and agrees not to carry on a similar business within reasonable local limits while B carries on the business. Exception 1 may save the restraint.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Are all non-compete clauses void in India?", "analysis": "Section 27 voids restraints on lawful profession, trade or business to that extent, subject to Exception 1 (and other recognised exceptions such as those under partnership law where applicable)."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s27-trap-1", "trap": "Reasonable restraints of trade are generally valid as in English common law.", "correction": "Section 27 is stricter: every such restraint is void to that extent, with a limited statutory exception for sale of goodwill."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s27-brief", "draftingCategory": "brief", "question": "How should a Section 27 problem be analysed?", "answer": "I. Identify the restraint on profession/trade/business. II. Apply voidness to that extent. III. Test Exception 1. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 27", "Connected: Sections 23, 26"],
-        "examTips": ["State the general rule and Exception 1.", "Note ‘to that extent void’."],
-        "revisionPoints": ["General rule", "Exception — sale of goodwill"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-26", "contract-s-28"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-27",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 27 voids agreements restraining lawful profession, trade or business, subject to the goodwill exception.",
-            "legalPrinciple": "Restraint of trade void to that extent; limited goodwill exception.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 27",
-            "essentialIngredients": ["General rule", "Exception — sale of goodwill"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 27"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s27"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:35:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s27-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 27 provides that every agreement by which any one is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void. Exception 1: One who sells the goodwill of a business may agree with the buyer to refrain from carrying on a similar business, within specified local limits, so long as the buyer, or any person deriving title to the goodwill from him, carries on a like business therein, provided that such limits appear to the Court reasonable, regard being had to the nature of the business."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:35:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-27", "restraint-of-trade", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:35:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-27",
+    "restraint-of-trade",
+    "review-required"
+  ]
 }

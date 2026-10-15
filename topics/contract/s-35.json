@@ -1,38 +1,156 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-35",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 35 (When contracts become void which are contingent on happening of specified event within fixed time)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 35 provides that contingent contracts to do or not to do anything if a specified uncertain event happens within a fixed time become void if, at the expiration of the time fixed, such event has not happened, or if, before the time fixed, such event becomes impossible. Contingent contracts to do or not to do anything if a specified uncertain event does not happen within a fixed time may be enforced by law when the time fixed has expired and such event has not happened, or, before the time fixed has expired, if it becomes certain that such event will not happen.",
-        "glance": "Happening within fixed time → void if time expires without event or event becomes impossible earlier; non-happening within fixed time → enforceable when time expires without event or earlier certainty of non-happening.",
-        "study": "For contingencies of happening within a fixed time: the contract becomes void if the time expires without the event or the event becomes impossible before the time. For contingencies of non-happening within a fixed time: enforceable when the time expires without the event, or earlier if it becomes certain the event will not happen. Current-law framing: identify fixed-time contingency (happening or not); apply the corresponding voidness or enforceability rule.",
-        "sections": [{"heading": "Happening within fixed time", "body": "Void if time expires without event, or event becomes impossible before the time fixed.", "order": 1}, {"heading": "Non-happening within fixed time", "body": "Enforceable when time expires without event, or earlier if certain that event will not happen.", "order": 2}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-35", "section": "Section 35", "title": "When contracts become void which are contingent on happening of specified event within fixed time"}],
-        "examples": [{"title": "Time expires without event", "body": "A contracts to pay B if a ship returns within a year. The year ends without return. The contract becomes void under s. 35.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "What if the event becomes impossible before the fixed time?", "analysis": "For a contingency of happening within fixed time, the contract becomes void if the event becomes impossible before the time fixed."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s35-trap-1", "trap": "Fixed-time contingent contracts always remain open until the event happens.", "correction": "Section 35 voids them if time expires without the event or the event becomes impossible earlier."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s35-brief", "draftingCategory": "brief", "question": "How should a Section 35 problem be analysed?", "answer": "I. Identify fixed-time contingency (happening or not). II. Apply the corresponding voidness or enforceability rule. III. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 35", "Connected: Sections 32–34, 36"],
-        "examTips": ["State both limbs of s. 35.", "Link to ss. 32–33."],
-        "revisionPoints": ["Happening within fixed time", "Non-happening within fixed time"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-34", "contract-s-36"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-35",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 35 regulates contingent contracts with a fixed-time element for happening or non-happening of the event.", "legalPrinciple": "Fixed-time contingent contracts — void or enforceable by time/impossibility rules.", "statutoryFramework": "Indian Contract Act, 1872 — Section 35", "essentialIngredients": ["Happening within fixed time", "Non-happening within fixed time"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 35"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s35"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:44:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s35-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-35",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 35 (When contracts become void which are contingent on happening of specified event within fixed time)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 35 provides that contingent contracts to do or not to do anything if a specified uncertain event happens within a fixed time become void if, at the expiration of the time fixed, such event has not happened, or if, before the time fixed, such event becomes impossible. Contingent contracts to do or not to do anything if a specified uncertain event does not happen within a fixed time may be enforced by law when the time fixed has expired and such event has not happened, or, before the time fixed has expired, if it becomes certain that such event will not happen.",
+    "glance": "Happening within fixed time → void if time expires without event or event becomes impossible earlier; non-happening within fixed time → enforceable when time expires without event or earlier certainty of non-happening.",
+    "study": "For contingencies of happening within a fixed time: the contract becomes void if the time expires without the event or the event becomes impossible before the time. For contingencies of non-happening within a fixed time: enforceable when the time expires without the event, or earlier if it becomes certain the event will not happen. Current-law framing: identify fixed-time contingency (happening or not); apply the corresponding voidness or enforceability rule.",
+    "sections": [
+      {
+        "heading": "Happening within fixed time",
+        "body": "Void if time expires without event, or event becomes impossible before the time fixed.",
+        "order": 1
+      },
+      {
+        "heading": "Non-happening within fixed time",
+        "body": "Enforceable when time expires without event, or earlier if certain that event will not happen.",
+        "order": 2
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-35",
+        "section": "Section 35",
+        "title": "When contracts become void which are contingent on happening of specified event within fixed time"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Time expires without event",
+        "body": "A contracts to pay B if a ship returns within a year. The year ends without return. The contract becomes void under s. 35.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "What if the event becomes impossible before the fixed time?",
+        "analysis": "For a contingency of happening within fixed time, the contract becomes void if the event becomes impossible before the time fixed."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-35",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s35-trap-1",
+        "trap": "Fixed-time contingent contracts always remain open until the event happens.",
+        "correction": "Section 35 voids them if time expires without the event or the event becomes impossible earlier."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s35-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 35 problem be analysed?",
+        "answer": "I. Identify fixed-time contingency (happening or not). II. Apply the corresponding voidness or enforceability rule. III. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 35",
+      "Connected: Sections 32–34, 36"
+    ],
+    "examTips": [
+      "State both limbs of s. 35.",
+      "Link to ss. 32–33."
+    ],
+    "revisionPoints": [
+      "Happening within fixed time",
+      "Non-happening within fixed time"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-34",
+      "contract-s-36"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-35",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 35 regulates contingent contracts with a fixed-time element for happening or non-happening of the event.",
+      "legalPrinciple": "Fixed-time contingent contracts — void or enforceable by time/impossibility rules.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 35",
+      "essentialIngredients": [
+        "Happening within fixed time",
+        "Non-happening within fixed time"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 35"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s35"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:44:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s35-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-35",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 35 provides that contingent contracts to do or not to do anything if a specified uncertain event happens within a fixed time become void if, at the expiration of the time fixed, such event has not happened, or if, before the time fixed, such event becomes impossible. Contingent contracts to do or not to do anything if a specified uncertain event does not happen within a fixed time may be enforced by law when the time fixed has expired and such event has not happened, or, before the time fixed has expired, if it becomes certain that such event will not happen."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:44:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-35", "contingent", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:44:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-35",
+    "contingent",
+    "review-required"
+  ]
 }

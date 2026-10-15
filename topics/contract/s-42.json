@@ -1,38 +1,163 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-42",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 42 (Devolution of joint liabilities)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 42 provides that when two or more persons have made a joint promise, then, unless a contrary intention appears by the contract, all such persons, during their joint lives, and, after the death of any of them, his representative jointly with the survivor or survivors, and, after the death of the last survivor, the representatives of all jointly, must fulfil the promise.",
-        "glance": "Joint promisors must fulfil jointly during joint lives; after death, representative with survivors; after last survivor, all representatives jointly.",
-        "study": "Unless a contrary intention appears, joint promisors must fulfil the promise jointly during their joint lives. After the death of any, his representative jointly with the survivor(s) must fulfil. After the death of the last survivor, the representatives of all jointly must fulfil. Current-law framing: identify joint promise; apply the devolution sequence unless contrary intention.",
-        "sections": [{"heading": "During joint lives", "body": "All joint promisors must fulfil the promise jointly during their joint lives.", "order": 1}, {"heading": "After death of any", "body": "Representative of the deceased jointly with the survivor or survivors must fulfil.", "order": 2}, {"heading": "After last survivor", "body": "Representatives of all jointly must fulfil.", "order": 3}],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-42", "section": "Section 42", "title": "Devolution of joint liabilities"}],
-        "examples": [{"title": "Death of one joint promisor", "body": "A and B jointly promise to pay C. A dies. A’s representative and B must fulfil jointly under s. 42.", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Does the death of one joint promisor end the liability?", "analysis": "No. Section 42 continues the liability with the representative jointly with the survivors."}],
-        "distinctions": [],
-        "misconceptions": [{"id": "ica-s42-trap-1", "trap": "Death of one joint promisor discharges the others.", "correction": "Section 42 continues the obligation with the representative and survivors."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s42-brief", "draftingCategory": "brief", "question": "How should a Section 42 problem be analysed?", "answer": "I. Identify joint promise. II. Apply devolution sequence (joint lives → representative with survivors → all representatives). III. Check contrary intention. IV. Conclude.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 42", "Connected: Sections 43–45"],
-        "examTips": ["State the three-stage devolution.", "Note ‘unless contrary intention’."],
-        "revisionPoints": ["During joint lives", "After death of any", "After last survivor"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-43", "contract-s-45"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-42",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 42 governs devolution of joint liabilities on death of joint promisors.", "legalPrinciple": "Joint liability continues through representatives and survivors.", "statutoryFramework": "Indian Contract Act, 1872 — Section 42", "essentialIngredients": ["During joint lives", "After death of any", "After last survivor"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 42"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s42"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:56:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s42-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
-        "caseLawGate": "standard-citations-added-not-locked"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-42",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 42 (Devolution of joint liabilities)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 42 provides that when two or more persons have made a joint promise, then, unless a contrary intention appears by the contract, all such persons, during their joint lives, and, after the death of any of them, his representative jointly with the survivor or survivors, and, after the death of the last survivor, the representatives of all jointly, must fulfil the promise.",
+    "glance": "Joint promisors must fulfil jointly during joint lives; after death, representative with survivors; after last survivor, all representatives jointly.",
+    "study": "Unless a contrary intention appears, joint promisors must fulfil the promise jointly during their joint lives. After the death of any, his representative jointly with the survivor(s) must fulfil. After the death of the last survivor, the representatives of all jointly must fulfil. Current-law framing: identify joint promise; apply the devolution sequence unless contrary intention.",
+    "sections": [
+      {
+        "heading": "During joint lives",
+        "body": "All joint promisors must fulfil the promise jointly during their joint lives.",
+        "order": 1
+      },
+      {
+        "heading": "After death of any",
+        "body": "Representative of the deceased jointly with the survivor or survivors must fulfil.",
+        "order": 2
+      },
+      {
+        "heading": "After last survivor",
+        "body": "Representatives of all jointly must fulfil.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-42",
+        "section": "Section 42",
+        "title": "Devolution of joint liabilities"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Death of one joint promisor",
+        "body": "A and B jointly promise to pay C. A dies. A’s representative and B must fulfil jointly under s. 42.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does the death of one joint promisor end the liability?",
+        "analysis": "No. Section 42 continues the liability with the representative jointly with the survivors."
+      }
+    ],
+    "distinctions": [
+      {
+        "title": "Scope of s-42",
+        "body": "Applies only within the elements and consequences stated in the statutory text."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s42-trap-1",
+        "trap": "Death of one joint promisor discharges the others.",
+        "correction": "Section 42 continues the obligation with the representative and survivors."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s42-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 42 problem be analysed?",
+        "answer": "I. Identify joint promise. II. Apply devolution sequence (joint lives → representative with survivors → all representatives). III. Check contrary intention. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 42",
+      "Connected: Sections 43–45"
+    ],
+    "examTips": [
+      "State the three-stage devolution.",
+      "Note ‘unless contrary intention’."
+    ],
+    "revisionPoints": [
+      "During joint lives",
+      "After death of any",
+      "After last survivor"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-43",
+      "contract-s-45"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-42",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 42 governs devolution of joint liabilities on death of joint promisors.",
+      "legalPrinciple": "Joint liability continues through representatives and survivors.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 42",
+      "essentialIngredients": [
+        "During joint lives",
+        "After death of any",
+        "After last survivor"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 42"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s42"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:56:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s42-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-42",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 42 provides that when two or more persons have made a joint promise, then, unless a contrary intention appears by the contract, all such persons, during their joint lives, and, after the death of any of them, his representative jointly with the survivor or survivors, and, after the death of the last survivor, the representatives of all jointly, must fulfil the promise."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:56:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-42", "joint", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:56:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-42",
+    "joint",
+    "review-required"
+  ]
 }

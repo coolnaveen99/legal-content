@@ -1,69 +1,172 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-17",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 17 (“Fraud” defined)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 17 provides that “fraud” means and includes any of the following acts committed by a party to a contract, or with his connivance, or by his agent, with intent to deceive another party thereto or his agent, or to induce him to enter into the contract: (1) the suggestion, as a fact, of that which is not true, by one who does not believe it to be true; (2) the active concealment of a fact by one having knowledge or belief of the fact; (3) a promise made without any intention of performing it; (4) any other act fitted to deceive; (5) any such act or omission as the law specially declares to be fraudulent. Mere silence as to facts likely to affect the willingness of a person to enter into a contract is not fraud, unless the circumstances are such that regard being had to them it is the duty of the person keeping silence to speak, or unless his silence is, in itself, equivalent to speech.",
-        "glance": "Fraud = intentional deception by false suggestion, active concealment, hollow promise, act fitted to deceive, or legally declared fraud; mere silence not fraud unless duty to speak.",
-        "study": "Fraud requires an act by a party (or with connivance or by agent) with intent to deceive or induce entry into the contract. The five limbs cover false suggestion of fact, active concealment, promise without intention to perform, any act fitted to deceive, and acts the law declares fraudulent. Mere silence is not fraud unless there is a duty to speak or silence is equivalent to speech. Consent caused by fraud is not free (s. 14); the agreement is voidable under s. 19. Current-law framing: identify the act; prove intent to deceive or induce; exclude mere silence unless duty/speech; conclude voidability.",
-        "sections": [
-            {
-                "heading": "Five limbs of fraud",
-                "body": "False suggestion of fact; active concealment; promise without intention to perform; act fitted to deceive; act/omission law declares fraudulent.",
-                "order": 1
-            },
-            {
-                "heading": "Intent",
-                "body": "Committed by a party, or with connivance, or by agent, with intent to deceive or to induce entry into the contract.",
-                "order": 2
-            },
-            {
-                "heading": "Mere silence",
-                "body": "Mere silence is not fraud unless duty to speak or silence is equivalent to speech.",
-                "order": 3
-            }
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-17",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 17 (“Fraud” defined)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 17 provides that “fraud” means and includes any of the following acts committed by a party to a contract, or with his connivance, or by his agent, with intent to deceive another party thereto or his agent, or to induce him to enter into the contract: (1) the suggestion, as a fact, of that which is not true, by one who does not believe it to be true; (2) the active concealment of a fact by one having knowledge or belief of the fact; (3) a promise made without any intention of performing it; (4) any other act fitted to deceive; (5) any such act or omission as the law specially declares to be fraudulent. Mere silence as to facts likely to affect the willingness of a person to enter into a contract is not fraud, unless the circumstances are such that regard being had to them it is the duty of the person keeping silence to speak, or unless his silence is, in itself, equivalent to speech.",
+    "glance": "Fraud = intentional deception by false suggestion, active concealment, hollow promise, act fitted to deceive, or legally declared fraud; mere silence not fraud unless duty to speak.",
+    "study": "Fraud requires an act by a party (or with connivance or by agent) with intent to deceive or induce entry into the contract. The five limbs cover false suggestion of fact, active concealment, promise without intention to perform, any act fitted to deceive, and acts the law declares fraudulent. Mere silence is not fraud unless there is a duty to speak or silence is equivalent to speech. Consent caused by fraud is not free (s. 14); the agreement is voidable under s. 19. Current-law framing: identify the act; prove intent to deceive or induce; exclude mere silence unless duty/speech; conclude voidability.",
+    "sections": [
+      {
+        "heading": "Five limbs of fraud",
+        "body": "False suggestion of fact; active concealment; promise without intention to perform; act fitted to deceive; act/omission law declares fraudulent.",
+        "order": 1
+      },
+      {
+        "heading": "Intent",
+        "body": "Committed by a party, or with connivance, or by agent, with intent to deceive or to induce entry into the contract.",
+        "order": 2
+      },
+      {
+        "heading": "Mere silence",
+        "body": "Mere silence is not fraud unless duty to speak or silence is equivalent to speech.",
+        "order": 3
+      }
+    ],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-17",
+        "section": "Section 17",
+        "title": "“Fraud” defined"
+      }
+    ],
+    "examples": [
+      {
+        "title": "False suggestion of fact",
+        "body": "A asserts as fact something A does not believe to be true, intending to induce B to contract. That is fraud under s. 17(1).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is silence about a material fact always fraud?",
+        "analysis": "No. Section 17 Explanation: mere silence is not fraud unless there is a duty to speak or silence is equivalent to speech."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s17-vs-s18",
+        "title": "Fraud (s. 17) vs misrepresentation (s. 18)",
+        "left": "Intent to deceive",
+        "right": "May be without intent to deceive (unwarranted assertion believed true)",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Intentional",
+            "right": "Innocent or negligent positive assertion / breach of duty / causing mistake"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s17-trap-1",
+        "trap": "Any false statement is fraud.",
+        "correction": "Fraud requires intent to deceive or induce, and fits one of the five limbs; misrepresentation is separate under s. 18."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s17-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 17 problem be analysed?",
+        "answer": "I. Identify the act (five limbs). II. Prove intent to deceive or induce. III. Apply silence rule. IV. Conclude voidability under s. 19.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 17",
+      "Connected: Sections 14, 18, 19"
+    ],
+    "examTips": [
+      "List the five limbs.",
+      "State the mere-silence explanation."
+    ],
+    "revisionPoints": [
+      "Five limbs of fraud",
+      "Intent",
+      "Mere silence"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-18",
+      "contract-s-19"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-17",
+    "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 17 defines fraud as specified intentional deceptive acts by a party, with connivance, or by agent.",
+      "legalPrinciple": "Intentional deception vitiates free consent.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 17",
+      "essentialIngredients": [
+        "Five limbs of fraud",
+        "Intent",
+        "Mere silence"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 17"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s17"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T12:20:00.000Z",
+      "bot": "manual-quality-remediation",
+      "sourceFingerprint": "ica-s17-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State s-17",
+          "Identify elements",
+          "Conclude"
         ],
-        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-17", "section": "Section 17", "title": "“Fraud” defined"}],
-        "examples": [{"title": "False suggestion of fact", "body": "A asserts as fact something A does not believe to be true, intending to induce B to contract. That is fraud under s. 17(1).", "kind": "hypothetical", "inventedCase": false}],
-        "hypotheticals": [{"question": "Is silence about a material fact always fraud?", "analysis": "No. Section 17 Explanation: mere silence is not fraud unless there is a duty to speak or silence is equivalent to speech."}],
-        "distinctions": [{"id": "ica-s17-vs-s18", "title": "Fraud (s. 17) vs misrepresentation (s. 18)", "left": "Intent to deceive", "right": "May be without intent to deceive (unwarranted assertion believed true)", "rows": [{"point": "Focus", "left": "Intentional", "right": "Innocent or negligent positive assertion / breach of duty / causing mistake"}]}],
-        "misconceptions": [{"id": "ica-s17-trap-1", "trap": "Any false statement is fraud.", "correction": "Fraud requires intent to deceive or induce, and fits one of the five limbs; misrepresentation is separate under s. 18."}],
-        "cases": [],
-        "questionsAndAnswers": [{"id": "ica-s17-brief", "draftingCategory": "brief", "question": "How should a Section 17 problem be analysed?", "answer": "I. Identify the act (five limbs). II. Prove intent to deceive or induce. III. Apply silence rule. IV. Conclude voidability under s. 19.", "explanation": "IRAC."}],
-        "bareActPointers": ["Indian Contract Act, 1872 — Section 17", "Connected: Sections 14, 18, 19"],
-        "examTips": ["List the five limbs.", "State the mere-silence explanation."],
-        "revisionPoints": ["Five limbs of fraud", "Intent", "Mere silence"],
-        "relatedJudgments": [],
-        "relatedTopics": ["contract-s-18", "contract-s-19"],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-17",
-        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 17 defines fraud as specified intentional deceptive acts by a party, with connivance, or by agent.",
-            "legalPrinciple": "Intentional deception vitiates free consent.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 17",
-            "essentialIngredients": ["Five limbs of fraud", "Intent", "Mere silence"],
-            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 17"],
-            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s17"},
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T12:20:00.000Z",
-            "bot": "manual-quality-remediation",
-            "sourceFingerprint": "ica-s17-2026-10-15",
-            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
+        "tenMark": [
+          "Statutory rule",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Full framework",
+          "Elements",
+          "Application",
+          "Conclusion"
+        ]
+      },
+      "detailedExplanation": "Section 17 provides that “fraud” means and includes any of the following acts committed by a party to a contract, or with his connivance, or by his agent, with intent to deceive another party thereto or his agent, or to induce him to enter into the contract: (1) the suggestion, as a fact, of that which is not true, by one who does not believe it to be true; (2) the active concealment of a fact by one having knowledge or belief of the fact; (3) a promise made without any intention of performing it; (4) any other act fitted to deceive; (5) any such act or omission as the law specially declares to be fraudulent. Mere silence as to facts likely to affect the willingness of a person to enter into a contract is not fraud, unless the circumstances are such that regard being had to them it is the duty of the person keeping silence to speak, or unless his silence is, in itself, equivalent to speech."
     },
-    "sources": ["source:india:india-code-contract-1872"],
-    "updatedAt": "2026-10-15T12:20:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": ["contract", "indian-contract-act-1872", "section-17", "fraud", "review-required"]
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T12:20:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-17",
+    "fraud",
+    "review-required"
+  ]
 }
