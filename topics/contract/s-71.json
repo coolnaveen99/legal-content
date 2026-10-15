@@ -2,21 +2,58 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-71",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 71 (Responsibility of finder of goods)",
+  "title": "Indian Contract Act, 1872 — Section 71 (Responsibility of finder of goods)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 71 of the Indian Contract Act, 1872 is headed \"Responsibility of finder of goods\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 71 of the Indian Contract Act, 1872 provides that a person who finds goods belonging to another and takes them into custody is subject to the same responsibility as a bailee. The legal consequence follows from taking custody of another person's goods, not merely from encountering them. The precise duties depend on the applicable bailment rules and facts; sections 151 and 152 are important connected provisions on care and liability for loss.",
     "sections": [
       {
-        "heading": "Section 71",
-        "body": "Responsibility of finder of goods"
+        "heading": "Statutory rule and trigger",
+        "body": "A person who finds goods belonging to another and takes them into custody is subject to the same responsibility as a bailee. Both the goods belonging to another and the act of taking them into custody matter.",
+        "order": 1
+      },
+      {
+        "heading": "Responsibility by reference to bailment",
+        "body": "The applicable responsibility is determined through the relevant rules governing bailees. Sections 151 and 152 are connected where the issue concerns care of the goods or liability for loss, destruction or deterioration.",
+        "order": 2
+      },
+      {
+        "heading": "Separate rights of a finder",
+        "body": "Sections 168 and 169 address particular rights of a finder. They are distinct from section 71's responsibility rule and should be analysed separately.",
+        "order": 3
+      },
+      {
+        "heading": "Fact application",
+        "body": "Establish ownership, custody, the steps taken to safeguard the goods, the nature of any loss and the applicable bailment standard before drawing a conclusion.",
+        "order": 4
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Taking a lost bag into custody",
+        "body": "A finds a bag belonging to B and takes it home to safeguard it. Section 71 makes A subject to the responsibility of a bailee; the applicable standard and any liability depend on the relevant facts and bailment rules.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A sees a lost phone but does not take possession of it. Is section 71's full trigger established?",
+        "analysis": "Not on those facts alone. Section 71 describes a person who finds another's goods and takes them into custody. Any other legal consequence would require separate analysis."
+      },
+      {
+        "question": "A takes a found parcel into custody and it is later damaged. Is A automatically liable?",
+        "analysis": "Do not decide from the loss alone. Section 71 imports a bailee's responsibility, so examine the applicable care and liability rules, including sections 151 and 152, and the evidence about the damage."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-151",
+      "topic:india:contract-s-152",
+      "topic:india:contract-s-168",
+      "topic:india:contract-s-169"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
@@ -24,18 +61,110 @@
     "bareActPointers": [
       "Indian Contract Act, 1872, s. 71"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract.",
+    "glance": "Finder of another person's goods + taking them into custody → responsibility equivalent to a bailee.",
+    "study": "TEXT OF SECTION 71: “A person who finds goods belonging to another, and takes them into his custody, is subject to the same responsibility as a bailee.”\n\nCore rule: Section 71 addresses a finder who assumes custody of goods that belong to someone else. Once the finder takes them into custody, the Act places the finder under the responsibility of a bailee. The statutory trigger is both finding goods belonging to another and taking them into custody; merely seeing or encountering lost goods is not, by itself, the full statutory description.\n\nHow to apply the rule:\n1. Identify the goods and the basis for saying they belong to another person.\n2. Establish whether the finder took the goods into custody, rather than merely noticing them or leaving them untouched.\n3. Identify the responsibility applicable to a bailee in the circumstances. Sections 151 and 152 are connected provisions concerning the care a bailee must take and when a bailee may be exempt from liability for loss, destruction or deterioration.\n4. Apply the relevant standard to the actual conduct and evidence. Do not assume that every loss automatically establishes liability or that every finder is automatically liable without considering the applicable bailment rules.\n\nScope boundary: Section 71 states the responsibility rule. The finder's particular rights concerning retention, expenses and sale are addressed separately in sections 168 and 169; those provisions should not be collapsed into section 71. A finder should not be described as having an unrestricted right to sell, use, or keep the goods.\n\nIllustration: A person finds a stranger's bag and deliberately takes it home for safekeeping. The custody element is present. The person's responsibility is assessed by applying the relevant rules governing a bailee, including the care required in the circumstances.\n\nCounter-example: A person sees a lost bag on a station bench but does not take it into custody. The fact of seeing the bag alone does not establish the complete trigger stated in section 71; any other duties or consequences must be assessed under the applicable law and facts.\n\nExam structure: State the statutory rule; identify ownership and custody; explain that the finder bears a bailee's responsibility; connect sections 151–152 where care or loss is in issue; distinguish the separate rights under sections 168–169; apply the facts and give a qualified conclusion.\n\nVerification boundary: This entry is an educational content pass, not a claim that all amendments, current-law issues or case law have been independently verified. Confirm the current official text and relevant authorities before relying on it.",
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-71",
+        "section": "Section 71",
+        "title": "Responsibility of finder of goods"
+      },
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-151",
+        "section": "Section 151",
+        "title": "Care to be taken by bailee"
+      },
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-152",
+        "section": "Section 152",
+        "title": "Bailee when not liable for loss, etc., of thing bailed"
+      },
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-168",
+        "section": "Section 168",
+        "title": "Right of finder of goods"
+      },
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-169",
+        "section": "Section 169",
+        "title": "When finder of thing commonly on sale may sell it"
+      }
+    ],
+    "distinctions": [
+      {
+        "left": "Section 71 — responsibility",
+        "right": "Sections 168–169 — particular rights of a finder",
+        "explanation": "Section 71 imposes a bailee-like responsibility when goods are taken into custody. Sections 168 and 169 separately address specified rights; the two questions should not be conflated."
+      },
+      {
+        "left": "Finding goods",
+        "right": "Taking goods into custody",
+        "explanation": "The statutory wording requires both finding goods belonging to another and taking them into custody. Mere observation does not establish the full stated trigger."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s71-trap-1",
+        "trap": "Every person who merely sees lost property automatically becomes a bailee.",
+        "correction": "Section 71 refers to a finder who takes goods belonging to another into custody."
+      },
+      {
+        "id": "ica-s71-trap-2",
+        "trap": "Any loss of found goods automatically proves liability.",
+        "correction": "The responsibility is that of a bailee; apply the relevant bailment rules and facts before reaching a conclusion."
+      },
+      {
+        "id": "ica-s71-trap-3",
+        "trap": "Section 71 itself gives the finder an unrestricted right to sell or retain the goods.",
+        "correction": "Specific finder rights are addressed separately in sections 168 and 169 and must be applied on their own terms."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s71-brief",
+        "draftingCategory": "brief",
+        "question": "What is the rule under section 71?",
+        "answer": "A person who finds goods belonging to another and takes them into custody is subject to the same responsibility as a bailee."
+      },
+      {
+        "id": "ica-s71-10mark",
+        "draftingCategory": "10-mark",
+        "question": "Explain the responsibility of a finder of goods under section 71.",
+        "answer": "Set out the statutory text; explain the ownership and custody elements; discuss the bailee-responsibility rule and the relevance of sections 151–152; distinguish the finder's separate rights under sections 168–169; apply the rule to a fact situation; and state that liability depends on the applicable standard and evidence."
+      },
+      {
+        "id": "ica-s71-application",
+        "draftingCategory": "application",
+        "question": "How should a problem involving damage to found goods be analysed?",
+        "answer": "Determine whether the goods belonged to another and were taken into custody, identify the applicable bailee standard, examine the care taken and cause of damage, consider sections 151–152, and avoid assuming liability solely from the fact of loss."
+      }
+    ]
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T12:15:00+05:30",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-71",
-    "review"
+    "review",
+    "source-check-required",
+    "finder-of-goods",
+    "bailment"
   ]
 }
