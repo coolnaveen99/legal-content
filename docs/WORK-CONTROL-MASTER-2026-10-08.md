@@ -10,9 +10,10 @@
 |-------|--------|
 | s.63 | Done (review) |
 | s.62 | In progress / evidence pending |
-| **s.61 → s.36** | **Done (review)** — multiple direct main commits this session |
+| **s.61 → s.35** | **Done (review)** — multiple direct main commits this session |
 
 ### Latest commits this batch
+- s.35 Civil liability for mis-statements in prospectus: `c75b001884d5e787e0516e990dc6ec13249c0267`
 - s.36 Punishment for fraudulently inducing persons to invest money: `ab24b77e58d6d3defe58c74d886618c7d2c75fcf`
 - s.37 Action by affected persons: `758a29f130801e185820b6a5315b0c9ad6c7efd8`
 - s.38 Punishment for personation: `4a8ac2d8241dc06a9a66790034d6e6bd3a0c2799`
@@ -23,7 +24,7 @@
 - s.43–s.47: recent restore/alignment commits
 
 ### Next
-s.35 (Civil liability for mis-statements in prospectus), then earlier Chapter III sections.
+s.34 (Criminal liability for mis-statements in prospectus), then earlier Chapter III sections.
 
 s.62 evidence still pending.
 
@@ -45,18 +46,18 @@ s.62 evidence still pending.
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Active reverse-order Company Law verification continues from s. 35 downward. s. 62 evidence still pending.
+Active reverse-order Company Law verification continues from s. 34 downward. s. 62 evidence still pending.
 
 ## Work claim record
 Subject: Company Law (Companies Act, 2013)
-Topic/section range: s.36 (and prior reverse-order batch s.47–s.37)
-Current main commit: ab24b77e58d6d3defe58c74d886618c7d2c75fcf
+Topic/section range: s.35 (and prior reverse-order batch s.47–s.36)
+Current main commit: c75b001884d5e787e0516e990dc6ec13249c0267
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-company-s36-reverse
-Latest evidence: direct main commit aligning s.36 to official India Code text (knowing/reckless false statement, promise or forecast, or deliberate concealment, to induce agreements under clauses (a)–(c) → liability under s. 447)
+Current owner: current-assistant-company-s35-reverse
+Latest evidence: direct main commit aligning s.35 to official India Code text (compensation for reliance on misleading prospectus matter; defendant classes (a)–(e); statutory defences; unlimited liability if intent to defraud)
 Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
-Planned change: source-aligned substantive content for s.36
+Planned change: source-aligned substantive content for s.35
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: ab24b77e58d6d3defe58c74d886618c7d2c75fcf
+Evidence/commit: c75b001884d5e787e0516e990dc6ec13249c0267
 
 If any field cannot be established, STOP.
