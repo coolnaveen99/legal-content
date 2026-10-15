@@ -2,40 +2,181 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-132",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 132 (Liability of two persons primarily liable not affected by arrangement that one is surety)",
+  "title": "Indian Contract Act, 1872 — Section 132 (Liability of two primarily liable persons despite private surety arrangement)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 132 of the Indian Contract Act, 1872 is headed \"Liability of two persons primarily liable not affected by arrangement that one is surety\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 132 provides that where two persons contract with a third person to undertake a liability, and separately arrange between themselves that one will be liable only on the other's default, the private arrangement does not affect either person's liability to the third person under the first contract if the third person is not a party to the second arrangement. The rule applies even if the third person knew of the private arrangement. The statutory illustration uses a joint and several promissory note.",
     "sections": [
       {
-        "heading": "Section 132",
-        "body": "Liability of two persons primarily liable not affected by arrangement that one is surety"
+        "heading": "Two agreements",
+        "body": "Identify the original agreement by which both persons undertook liability to the third person, then identify the separate private arrangement between the two persons about one acting as surety for the other's default.",
+        "order": 1
+      },
+      {
+        "heading": "Third person not party to private arrangement",
+        "body": "Section 132 applies where the third person is not a party to the separate arrangement. That private allocation does not affect either person's liability under the original contract.",
+        "order": 2
+      },
+      {
+        "heading": "Knowledge does not change the result",
+        "body": "The statutory text expressly says the original liability is unaffected even if the third person knew of the private arrangement. Knowledge alone does not make the third person a party to the second arrangement.",
+        "order": 3
+      },
+      {
+        "heading": "Joint and several promissory note illustration",
+        "body": "A and B make a joint and several promissory note to C. A is in fact B's surety, and C knows this. The illustration states that this is no answer to C's suit against A on the note.",
+        "order": 4
+      },
+      {
+        "heading": "Separate rights between co-obligors",
+        "body": "Section 132 addresses liability to the third person under the original contract. Any rights or recourse between the two persons under their private arrangement must be analysed separately under the applicable law and contract.",
+        "order": 5
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Joint and several note",
+        "body": "A and B jointly and severally promise C to pay a debt. Between themselves, A has agreed to pay only if B defaults. If C is not a party to that private agreement, Section 132 says the arrangement does not by itself limit C's rights under the note, even if C knew of it."
+      },
+      {
+        "title": "Co-obligors with a private allocation",
+        "body": "Two parties both undertake liability to a supplier, while privately agreeing that one will bear the debt only if the other defaults. If the supplier is not party to that private allocation, analyse its claim under the original undertaking rather than importing the private arrangement into the supplier-facing contract."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A and B sign a joint and several note to C. A and B privately agree that A is only B's surety, and C knows this. Can A rely on that fact alone against C's suit on the note?",
+        "analysis": "Section 132's statutory illustration says no: where C is not party to the private arrangement, the fact that A is B's surety as between A and B is no answer to C's suit on the joint and several note."
+      },
+      {
+        "question": "The creditor signs the separate agreement stating that one co-obligor is only a surety. Does Section 132's stated condition remain satisfied?",
+        "analysis": "Section 132's rule depends on the third person not being a party to the second arrangement. If the creditor is a party, that statutory condition is not satisfied; analyse the actual agreements and other applicable law rather than applying Section 132 mechanically."
+      },
+      {
+        "question": "Does Section 132 determine the rights of contribution or reimbursement between the two co-obligors?",
+        "analysis": "Section 132 addresses their liability to the third person under the original contract. Rights between the two persons under their separate arrangement require separate analysis."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-128",
+      "topic:india:contract-s-133",
+      "topic:india:contract-s-134",
+      "topic:india:contract-s-140",
+      "topic:india:contract-s-146"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 132 illustration: A and B make a joint and several promissory note to C; A is in fact B's surety and C knows it. The private arrangement is no answer to C's suit against A on the note."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-132",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 132"
+      "Indian Contract Act, 1872 — Section 132 and its statutory illustration",
+      "Related provisions: Sections 133–140 and 146 where separate discharge/recourse issues arise"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Section 132 illustration. This topic remains in review pending remaining legal verification and release gates.",
+    "glance": "A private arrangement between co-obligors that one is only a surety does not affect their liability to the third-party creditor under their original contract, even if the creditor knows of the arrangement, where the creditor is not party to it.",
+    "study": "## Statutory rule\nSection 132 addresses two distinct agreements: (1) two persons contract with a third person to undertake a liability; and (2) they separately agree between themselves that one will be liable only if the other defaults. If the third person is not a party to the second arrangement, that arrangement does not affect either person's liability to the third person under the first contract, even if the third person knew of the private arrangement.\n\n## Elements to establish\n1. Two persons undertook a liability to a third person under an agreement.\n2. They also made a separate arrangement between themselves that one would act as surety for the other's default.\n3. The third person was not a party to that separate arrangement.\n4. The claimant is enforcing the original agreement with the third person, not merely the private arrangement.\n5. Knowledge by the third person of the private arrangement does not, by itself, alter the statutory result.\n\n## Statutory illustration\nA and B execute a joint and several promissory note in favour of C. As between themselves, A is in fact surety for B, and C knows that arrangement when the note is made. Section 132 states that this fact is no answer to a suit by C against A on the note.\n\n## Scope boundary\nSection 132 does not say that the private arrangement has no effect between A and B. It says that the arrangement does not affect their liability to the third person under the first contract where that third person is not a party to the second arrangement. Analyse the creditor-facing obligation separately from rights or recourse between the co-obligors. Other surety provisions may govern separate questions of discharge, payment or contribution.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 132's rule for a private surety arrangement between persons who are both liable to a third party.",
+        "Identify the original agreement, the separate private arrangement and whether the creditor is a party to it.",
+        "Apply the joint and several promissory-note illustration.",
+        "Distinguish creditor-facing liability from rights between the co-obligors."
+      ],
+      "definition": "Section 132 provides that a private arrangement between two persons about one being surety for the other's default does not affect their liability to a third person under their original contract where that third person is not a party to the private arrangement.",
+      "legalPrinciple": "Where two persons undertake liability to a third person and separately agree between themselves that one is only surety, the separate arrangement does not affect their original liability to the third person if the third person is not party to it, even if the third person knew of the arrangement.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 132 and its statutory illustration",
+        "Related provisions: Sections 133–140 and 146 where separate issues arise"
+      ],
+      "essentialIngredients": [
+        "Establish the original contract with the third person",
+        "Establish that both persons undertook liability under that contract",
+        "Identify the separate arrangement between them about suretyship",
+        "Determine whether the third person was a party to that separate arrangement",
+        "Apply the statutory rule even where the third person knew of the arrangement, if the party condition is met"
+      ],
+      "detailedExplanation": "Section 132 deals with a private allocation of risk between two persons who have both undertaken liability to a third person. If they separately agree that one will answer only on the other's default, that arrangement does not affect either person's liability under the original contract where the third person is not a party to the second arrangement. The text expressly states that the result is unchanged even if the third person knew of the private arrangement. The statutory illustration is a joint and several promissory note: A is in fact B's surety as between themselves, and C knows it, but that fact is no answer to C's suit against A on the note. Rights between A and B must be considered separately.",
+      "examples": [
+        "Joint and several note: a private surety arrangement does not by itself defeat the creditor's claim on the original note.",
+        "Separate private allocation: distinguish the creditor-facing undertaking from rights between the two obligors."
+      ],
+      "distinctions": [
+        "The original contract with the third person is distinct from the private arrangement between the two obligors.",
+        "The third person's knowledge of the private arrangement is not enough to make the third person a party to it.",
+        "Section 132 governs liability to the third person; it does not itself decide all rights of reimbursement or contribution between the co-obligors."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the original contract and the persons who undertook liability under it.",
+        "Identify the separate surety arrangement and its parties.",
+        "Check whether the third person was a party to the second arrangement.",
+        "Apply the Section 132 rule and statutory illustration.",
+        "Analyse any separate recourse between the co-obligors independently."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 132",
+          "Identify both agreements and parties",
+          "Apply the third-person-party condition",
+          "Conclude under the illustration"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Original and private agreements",
+          "Creditor not party to private arrangement",
+          "Knowledge point",
+          "Illustration and application",
+          "Conclusion"
+        ],
+        "sixteenMark": [
+          "Contract structure",
+          "Parties and liabilities",
+          "Separate allocation of surety risk",
+          "Third-party participation and knowledge",
+          "Apply joint-and-several illustration",
+          "Separate inter se recourse",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Section 132 separates the original creditor-facing contract from a private arrangement between co-obligors.",
+        "If the creditor is not party to the private arrangement, it does not affect the original liability, even if the creditor knew of it.",
+        "The statutory illustration uses a joint and several promissory note.",
+        "Rights between the co-obligors are a separate question.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF opened; Section 132 and its statutory illustration checked at extracted lines 1507–1516 (PDF page 35).",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-132",
-    "review"
+    "source-check-required"
   ]
 }
