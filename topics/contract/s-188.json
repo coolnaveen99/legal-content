@@ -2,40 +2,120 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-188",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 188 (Extent of agent's authority)",
+  "title": "Indian Contract Act, 1872 — Section 188 (Extent of agent’s authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 188 of the Indian Contract Act, 1872 is headed \"Extent of agent's authority\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 188 provides that an agent having an authority to do an act has authority to do every lawful thing which is necessary in order to do such act. An agent having an authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business.",
+    "glance": "An agent authorised to do an act has authority to do every lawful thing necessary to do that act. An agent authorised to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting that business.",
+    "study": "An agent having an authority to do an act has authority to do every lawful thing which is necessary in order to do such act. An agent having an authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business. Current-law framing: authority includes necessary incidental acts and acts usual in the course of the authorised business.",
     "sections": [
       {
-        "heading": "Section 188",
-        "body": "Extent of agent's authority"
+        "heading": "Authority to do an act",
+        "body": "An agent having an authority to do an act has authority to do every lawful thing which is necessary in order to do such act.",
+        "order": 1
+      },
+      {
+        "heading": "Authority to carry on a business",
+        "body": "An agent having an authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Necessary incidental acts",
+        "body": "An agent authorised to sell goods has authority to do every lawful thing necessary to effect the sale under Section 188."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "An agent is authorised to carry on a business. Does the authority include acts usually done in the course of that business?",
+        "analysis": "Yes. Section 188 provides that an agent having authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-187",
+      "topic:india:contract-s-189"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-188",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 188"
+      "Indian Contract Act, 1872 — Section 188"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 188's rules on the extent of an agent's authority."
+      ],
+      "definition": "An agent having an authority to do an act has authority to do every lawful thing which is necessary in order to do such act. An agent having an authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business.",
+      "legalPrinciple": "Authority to do an act includes every lawful thing necessary to do it; authority to carry on a business includes every lawful thing necessary or usually done in the course of that business.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 188"
+      ],
+      "essentialIngredients": [
+        "Authority to do an act includes necessary lawful things to do that act",
+        "Authority to carry on a business includes necessary or usual lawful things for that business"
+      ],
+      "detailedExplanation": "Section 188 provides that an agent having an authority to do an act has authority to do every lawful thing which is necessary in order to do such act. An agent having an authority to carry on a business has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business.",
+      "examples": [
+        "Authority to sell includes necessary steps to effect the sale; authority to carry on a business includes usual acts in that business."
+      ],
+      "distinctions": [
+        "Extends the express or implied authority under Sections 186–187 by necessary or usual incidents."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the authorised act or business.",
+        "Identify whether the act in question is necessary or usual.",
+        "Conclude extent of authority under Section 188."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 188",
+          "Identify necessary or usual act",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rules",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 186–187",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Authority includes every lawful thing necessary to do the authorised act.",
+        "Authority to carry on a business includes necessary or usual acts in that business.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 188 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-188",
-    "review"
+    "source-check-required"
   ]
 }

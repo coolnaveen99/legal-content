@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-189",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 189 (Agent's authority in an emergency)",
+  "title": "Indian Contract Act, 1872 — Section 189 (Agent’s authority in an emergency)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 189 of the Indian Contract Act, 1872 is headed \"Agent's authority in an emergency\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 189 provides that an agent has authority, in an emergency, to do all such acts for the purpose of protecting his principal from loss as would be done by a person of ordinary prudence, in his own case, under similar circumstances.",
+    "glance": "In an emergency, an agent has authority to do all such acts for the purpose of protecting the principal from loss as a person of ordinary prudence would do in his own case under similar circumstances.",
+    "study": "An agent has authority, in an emergency, to do all such acts for the purpose of protecting his principal from loss as would be done by a person of ordinary prudence, in his own case, under similar circumstances. Current-law framing: emergency authority measured by the standard of ordinary prudence for protecting the principal from loss.",
     "sections": [
       {
-        "heading": "Section 189",
-        "body": "Agent's authority in an emergency"
+        "heading": "Core rule",
+        "body": "An agent has authority, in an emergency, to do all such acts for the purpose of protecting his principal from loss as would be done by a person of ordinary prudence, in his own case, under similar circumstances.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Emergency protection",
+        "body": "In an emergency the agent may take steps a person of ordinary prudence would take to protect the principal from loss, under Section 189."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "An emergency arises. What is the extent of the agent’s authority?",
+        "analysis": "The agent has authority to do all such acts for the purpose of protecting the principal from loss as would be done by a person of ordinary prudence in his own case under similar circumstances, under Section 189."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-188"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-189",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 189"
+      "Indian Contract Act, 1872 — Section 189"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 189's rule on an agent's authority in an emergency."
+      ],
+      "definition": "An agent has authority, in an emergency, to do all such acts for the purpose of protecting his principal from loss as would be done by a person of ordinary prudence, in his own case, under similar circumstances.",
+      "legalPrinciple": "In an emergency, an agent may do what a person of ordinary prudence would do to protect the principal from loss.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 189"
+      ],
+      "essentialIngredients": [
+        "Emergency",
+        "Acts for the purpose of protecting the principal from loss",
+        "Standard of a person of ordinary prudence in his own case under similar circumstances"
+      ],
+      "detailedExplanation": "Section 189 provides that an agent has authority, in an emergency, to do all such acts for the purpose of protecting his principal from loss as would be done by a person of ordinary prudence, in his own case, under similar circumstances.",
+      "examples": [
+        "Emergency measures that a prudent person would take to avoid loss for the principal are within authority."
+      ],
+      "distinctions": [
+        "Special emergency authority beyond the ordinary extent under Section 188."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the emergency.",
+        "Identify acts aimed at protecting the principal from loss.",
+        "Apply the ordinary prudence standard."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 189",
+          "Identify emergency and prudence standard",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Standard",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 188",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "In an emergency, agent may do what a person of ordinary prudence would do to protect the principal from loss.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 189 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-189",
-    "review"
+    "source-check-required"
   ]
 }

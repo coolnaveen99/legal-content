@@ -2,40 +2,119 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-187",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 187 (Definitions of express and implied authority)",
+  "title": "Indian Contract Act, 1872 — Section 187 (Definitions of express and implied authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 187 of the Indian Contract Act, 1872 is headed \"Definitions of express and implied authority\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 187 provides that an authority is said to be express when it is given by words spoken or written. An authority is said to be implied when it is to be inferred from the circumstances of the case; and things spoken or written, or the ordinary course of dealing, may be accounted circumstances of the case.",
+    "glance": "Express authority is given by words spoken or written. Implied authority is inferred from the circumstances of the case (including things spoken or written, or the ordinary course of dealing).",
+    "study": "An authority is said to be express when it is given by words spoken or written. An authority is said to be implied when it is to be inferred from the circumstances of the case; and things spoken or written, or the ordinary course of dealing, may be accounted circumstances of the case. Current-law framing: statutory definitions of the two forms of authority recognised by Section 186.",
     "sections": [
       {
-        "heading": "Section 187",
-        "body": "Definitions of express and implied authority"
+        "heading": "Express authority",
+        "body": "An authority is said to be express when it is given by words spoken or written.",
+        "order": 1
+      },
+      {
+        "heading": "Implied authority",
+        "body": "An authority is said to be implied when it is to be inferred from the circumstances of the case; and things spoken or written, or the ordinary course of dealing, may be accounted circumstances of the case.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Express vs implied",
+        "body": "Authority given by a written power of attorney is express. Authority inferred from a course of dealing is implied under Section 187."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Authority is inferred from the ordinary course of dealing. Is it express or implied?",
+        "analysis": "Implied. Section 187 provides that an authority is implied when it is to be inferred from the circumstances of the case, and the ordinary course of dealing may be accounted such a circumstance."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-186",
+      "topic:india:contract-s-188"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-187",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 187"
+      "Indian Contract Act, 1872 — Section 187"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the definitions of express and implied authority under Section 187."
+      ],
+      "definition": "An authority is said to be express when it is given by words spoken or written. An authority is said to be implied when it is to be inferred from the circumstances of the case; and things spoken or written, or the ordinary course of dealing, may be accounted circumstances of the case.",
+      "legalPrinciple": "Express authority is by words spoken or written; implied authority is inferred from the circumstances of the case.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 187"
+      ],
+      "essentialIngredients": [
+        "Express: given by words spoken or written",
+        "Implied: inferred from circumstances (including things spoken/written or ordinary course of dealing)"
+      ],
+      "detailedExplanation": "Section 187 defines express authority as authority given by words spoken or written. Implied authority is authority to be inferred from the circumstances of the case; things spoken or written, or the ordinary course of dealing, may be accounted circumstances of the case.",
+      "examples": [
+        "Written or oral grant is express; inference from course of dealing is implied."
+      ],
+      "distinctions": [
+        "Section 187 defines the terms introduced by Section 186."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether authority was given by words or inferred from circumstances.",
+        "Classify as express or implied under Section 187."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 187",
+          "Identify form of authority",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory definitions",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 186 and 188",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Express authority is by words spoken or written.",
+        "Implied authority is inferred from circumstances of the case.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 187 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-187",
-    "review"
+    "source-check-required"
   ]
 }

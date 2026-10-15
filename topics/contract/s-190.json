@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-190",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 190 (When agent cannot delegate)",
+  "title": "Indian Contract Act, 1872 — Section 190 (When agent cannot delegate)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 190 of the Indian Contract Act, 1872 is headed \"When agent cannot delegate\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 190 provides that an agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency, a sub-agent must, be employed.",
+    "glance": "An agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency a sub-agent must, be employed.",
+    "study": "An agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency, a sub-agent must, be employed. Current-law framing: general rule against delegation of personal acts, with exceptions for custom of trade or the nature of the agency.",
     "sections": [
       {
-        "heading": "Section 190",
-        "body": "When agent cannot delegate"
+        "heading": "Core rule",
+        "body": "An agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency, a sub-agent must, be employed.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Personal undertaking",
+        "body": "An agent who has undertaken to perform an act personally cannot lawfully delegate it unless the custom of trade or the nature of the agency permits or requires a sub-agent, under Section 190."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "An agent has expressly undertaken to perform an act personally. May he employ a sub-agent?",
+        "analysis": "Not lawfully, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency a sub-agent must, be employed, under Section 190."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-191"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-190",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 190"
+      "Indian Contract Act, 1872 — Section 190"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 190's rule on when an agent cannot delegate."
+      ],
+      "definition": "An agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency, a sub-agent must, be employed.",
+      "legalPrinciple": "An agent cannot delegate acts he has undertaken to perform personally, except where custom of trade permits or the nature of the agency requires a sub-agent.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 190"
+      ],
+      "essentialIngredients": [
+        "Acts expressly or impliedly undertaken to be performed personally",
+        "Exception where ordinary custom of trade permits sub-agent or nature of agency requires sub-agent"
+      ],
+      "detailedExplanation": "Section 190 provides that an agent cannot lawfully employ another to perform acts which he has expressly or impliedly undertaken to perform personally, unless by the ordinary custom of trade a sub-agent may, or from the nature of the agency, a sub-agent must, be employed.",
+      "examples": [
+        "Personal acts cannot be delegated unless trade custom or the nature of the agency allows or requires it."
+      ],
+      "distinctions": [
+        "General prohibition on delegation of personal acts; exceptions for custom or nature of agency. Leads into sub-agent rules in Section 191 onwards."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether the act was undertaken to be performed personally.",
+        "Check for custom of trade or nature of the agency.",
+        "Conclude whether delegation is lawful under Section 190."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 190",
+          "Identify personal undertaking and any exception",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Exceptions",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 191–193",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Agent cannot delegate acts undertaken to be performed personally.",
+        "Exception where custom of trade permits or nature of agency requires a sub-agent.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 190 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-190",
-    "review"
+    "source-check-required"
   ]
 }

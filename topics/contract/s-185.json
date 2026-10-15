@@ -2,40 +2,109 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-185",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 185 (Consideration not necessary)",
+  "title": "Indian Contract Act, 1872 — Section 185 (Consideration not necessary)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 185 of the Indian Contract Act, 1872 is headed \"Consideration not necessary\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 185 provides that no consideration is necessary to create an agency.",
+    "glance": "No consideration is necessary to create an agency.",
+    "study": "No consideration is necessary to create an agency. Current-law framing: agency may be created gratuitously.",
     "sections": [
       {
-        "heading": "Section 185",
-        "body": "Consideration not necessary"
+        "heading": "Core rule",
+        "body": "No consideration is necessary to create an agency.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Gratuitous agency",
+        "body": "A person may act as agent without any consideration under Section 185."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is consideration required to create a valid agency?",
+        "analysis": "No. Section 185 expressly provides that no consideration is necessary to create an agency."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-182"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-185",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 185"
+      "Indian Contract Act, 1872 — Section 185"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 185's rule that consideration is not necessary for agency."
+      ],
+      "definition": "No consideration is necessary to create an agency.",
+      "legalPrinciple": "Agency may be created without consideration.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 185"
+      ],
+      "essentialIngredients": [
+        "Absence of any requirement of consideration for creation of agency"
+      ],
+      "detailedExplanation": "Section 185 provides that no consideration is necessary to create an agency. An agency relationship may therefore be created gratuitously.",
+      "examples": [
+        "A person may agree to act as agent without payment or other consideration."
+      ],
+      "distinctions": [
+        "Unlike many contracts, agency does not require consideration for its creation."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify that the question concerns consideration for agency.",
+        "Conclude that none is necessary under Section 185."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 185",
+          "Conclude no consideration necessary"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "No consideration is necessary to create an agency.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 185 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-185",
-    "review"
+    "source-check-required"
   ]
 }

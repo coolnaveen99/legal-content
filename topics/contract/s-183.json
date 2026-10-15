@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-183",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 183 (Who may employ agent)",
+  "title": "Indian Contract Act, 1872 — Section 183 (Who may employ agent)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 183 of the Indian Contract Act, 1872 is headed \"Who may employ agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 183 provides that any person who is of the age of majority according to the law to which he is subject, and who is of sound mind, may employ an agent.",
+    "glance": "Any person of the age of majority (under the law to which he is subject) and of sound mind may employ an agent.",
+    "study": "Any person who is of the age of majority according to the law to which he is subject, and who is of sound mind, may employ an agent. Current-law framing: capacity of the principal to appoint an agent.",
     "sections": [
       {
-        "heading": "Section 183",
-        "body": "Who may employ agent"
+        "heading": "Core rule",
+        "body": "Any person who is of the age of majority according to the law to which he is subject, and who is of sound mind, may employ an agent.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Major and sound mind",
+        "body": "A person of majority age under the applicable law and of sound mind may employ an agent under Section 183."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "May a minor employ an agent?",
+        "analysis": "No. Section 183 requires the person employing an agent to be of the age of majority according to the law to which he is subject, and of sound mind."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-182",
+      "topic:india:contract-s-184"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-183",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 183"
+      "Indian Contract Act, 1872 — Section 183"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 183's rule on who may employ an agent."
+      ],
+      "definition": "Any person who is of the age of majority according to the law to which he is subject, and who is of sound mind, may employ an agent.",
+      "legalPrinciple": "Only a person of majority age (under the applicable law) and of sound mind may employ an agent.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 183"
+      ],
+      "essentialIngredients": [
+        "Age of majority according to the law to which the person is subject",
+        "Sound mind"
+      ],
+      "detailedExplanation": "Section 183 provides that any person who is of the age of majority according to the law to which he is subject, and who is of sound mind, may employ an agent. This establishes the capacity required of a principal.",
+      "examples": [
+        "A major of sound mind may appoint an agent; a minor may not."
+      ],
+      "distinctions": [
+        "Capacity of the principal (s. 183) differs from capacity of the agent (s. 184)."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify age of majority under applicable law and sound mind.",
+        "Conclude capacity to employ an agent."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 183",
+          "Identify majority and sound mind",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Capacity requirements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 184",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Only a person of majority age and sound mind may employ an agent.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 183 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-183",
-    "review"
+    "source-check-required"
   ]
 }

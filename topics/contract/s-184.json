@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-184",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 184 (Who may be an agent)",
+  "title": "Indian Contract Act, 1872 — Section 184 (Who may be an agent)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 184 of the Indian Contract Act, 1872 is headed \"Who may be an agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 184 provides that as between the principal and third persons, any person may become an agent, but no person who is not of the age of majority and of sound mind can become an agent, so as to be responsible to his principal according to the provisions in that behalf herein contained.",
+    "glance": "As between principal and third persons, any person may be an agent; but only a person of majority age and sound mind can be responsible to the principal under the Act’s provisions.",
+    "study": "As between the principal and third persons, any person may become an agent, but no person who is not of the age of majority and of sound mind can become an agent, so as to be responsible to his principal according to the provisions in that behalf herein contained. Current-law framing: broad capacity to act as agent vis-à-vis third persons; limited capacity for responsibility to the principal.",
     "sections": [
       {
-        "heading": "Section 184",
-        "body": "Who may be an agent"
+        "heading": "Core rule",
+        "body": "As between the principal and third persons, any person may become an agent, but no person who is not of the age of majority and of sound mind can become an agent, so as to be responsible to his principal according to the provisions in that behalf herein contained.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Any person as agent vis-à-vis third parties",
+        "body": "As between principal and third persons, any person may act as agent. However, only a major of sound mind can be responsible to the principal under the Act’s provisions, under Section 184."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a minor act as an agent so as to bind the principal to third persons?",
+        "analysis": "Yes, as between the principal and third persons. However, the minor cannot be responsible to the principal under the Act’s provisions, under Section 184."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-183"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-184",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 184"
+      "Indian Contract Act, 1872 — Section 184"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 184's rule on who may be an agent."
+      ],
+      "definition": "As between the principal and third persons, any person may become an agent, but no person who is not of the age of majority and of sound mind can become an agent, so as to be responsible to his principal according to the provisions in that behalf herein contained.",
+      "legalPrinciple": "Any person may be an agent as against third persons; only a major of sound mind can be responsible to the principal under the Act.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 184"
+      ],
+      "essentialIngredients": [
+        "As between principal and third persons, any person may be agent",
+        "Only majority age and sound mind for responsibility to principal under the Act"
+      ],
+      "detailedExplanation": "Section 184 provides that as between the principal and third persons, any person may become an agent, but no person who is not of the age of majority and of sound mind can become an agent so as to be responsible to his principal according to the provisions in that behalf herein contained.",
+      "examples": [
+        "A minor may act as agent binding the principal to third parties, but cannot be held responsible to the principal under the Act."
+      ],
+      "distinctions": [
+        "Capacity vis-à-vis third persons is broad; capacity for responsibility to the principal is restricted."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether the question concerns third persons or responsibility to the principal.",
+        "Apply the appropriate capacity rule under Section 184."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 184",
+          "Identify the capacity distinction",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Distinction",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 183",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Any person may be agent as against third persons.",
+        "Only major of sound mind can be responsible to principal under the Act.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 184 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:00:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-184",
-    "review"
+    "source-check-required"
   ]
 }
