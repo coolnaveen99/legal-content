@@ -2,40 +2,174 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-130",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 130 (Revocation of continuing guarantee)",
+  "title": "Indian Contract Act, 1872 — Section 130 (Revocation of continuing guarantee)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 130 of the Indian Contract Act, 1872 is headed \"Revocation of continuing guarantee\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 130 provides that a continuing guarantee may be revoked by the surety, at any time, by notice to the creditor, but only as to future transactions. Revocation does not erase liability already attached to transactions covered before the notice took effect. The statutory illustrations distinguish later discounts made after revocation from a bill already drawn and accepted before notice.",
     "sections": [
       {
-        "heading": "Section 130",
-        "body": "Revocation of continuing guarantee"
+        "heading": "Notice to creditor",
+        "body": "A surety may revoke a continuing guarantee by giving notice to the creditor. Identify the actual notice and when it was communicated; the statutory rule is not simply an uncommunicated intention to revoke.",
+        "order": 1
+      },
+      {
+        "heading": "Prospective effect",
+        "body": "Section 130 states that revocation operates as to future transactions. Determine which transactions were already covered before the notice and which arose after it.",
+        "order": 2
+      },
+      {
+        "heading": "Existing transactions remain covered",
+        "body": "Illustration (a) leaves the surety liable for the bills already discounted before revocation, while discharging the surety from liability for subsequent discounts. Illustration (b) leaves the surety liable on a bill drawn and accepted before the notice, even though dishonour occurs later.",
+        "order": 3
+      },
+      {
+        "heading": "Relationship with death of surety",
+        "body": "Section 131 separately provides for revocation of a continuing guarantee by the surety's death, in the absence of a contract to the contrary, as regards future transactions.",
+        "order": 4
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Notice before future credit transactions",
+        "body": "A gives a continuing guarantee for a series of future credit supplies and then gives notice of revocation to the creditor. The Section 130 issue is which later transactions fall after the effective notice, while previously covered transactions remain to be assessed under the guarantee."
+      },
+      {
+        "title": "Existing bill accepted before notice",
+        "body": "A continuing guarantee covers bills drawn by B and accepted by C. C accepts a bill before A's revocation notice but dishonours it later. This matches Illustration (b): later dishonour does not turn the pre-notice bill into a future transaction."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A revokes a continuing guarantee after ₹2,000 in bills have already been discounted, but before further bills are discounted. What is the effect?",
+        "analysis": "Under Illustration (a), the surety is discharged from liability for subsequent discounts but remains liable for the ₹2,000 already discounted, subject to the guarantee's terms and the debtor's default."
+      },
+      {
+        "question": "A bill is drawn and accepted before the surety's revocation notice, but it matures and is dishonoured after the notice. Is the surety automatically discharged?",
+        "analysis": "No. Illustration (b) states that the surety remains liable because the bill was drawn and accepted before revocation; the later dishonour does not make that transaction a future one."
+      },
+      {
+        "question": "A surety privately decides to revoke a guarantee but does not notify the creditor. Does that satisfy Section 130's stated method?",
+        "analysis": "Section 130 specifies revocation by notice to the creditor. Establish the notice and its timing before concluding that revocation has taken effect."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-129",
+      "topic:india:contract-s-131",
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-128"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 130 illustration (a): revocation discharges the surety from future bill discounts but not from liability for bills already discounted before notice.",
+      "Section 130 illustration (b): a bill drawn and accepted before notice remains covered even where dishonour occurs after revocation."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-130",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 130"
+      "Indian Contract Act, 1872 — Section 130 and Illustrations (a)–(b)",
+      "Related provision: Section 131"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Section 130 illustrations. This topic remains in review pending remaining legal verification and release gates.",
+    "glance": "A surety may revoke a continuing guarantee by notice to the creditor for future transactions; existing transactions already covered remain within the guarantee.",
+    "study": "## Statutory rule\nSection 130 states that a continuing guarantee may at any time be revoked by the surety, as to future transactions, by notice to the creditor. The text makes the effect prospective: identify the notice and separate transactions occurring before and after it.\n\n## Apply revocation\n1. Confirm that the guarantee is continuing within Section 129.\n2. Identify the surety's notice and the creditor to whom it was given.\n3. Establish when the notice was given and what transaction commitments had already occurred by then.\n4. Separate future transactions from transactions already covered before revocation.\n5. Apply any contractual terms relevant to scope and timing without assuming that notice retroactively cancels existing liability.\n\n## Statutory illustrations\n- **Future bill discounts:** A guarantees bills discounted by B for C for twelve months up to ₹5,000. B has discounted ₹2,000 in bills; A later revokes the guarantee. A is discharged from liability for subsequent discounts but remains liable for the ₹2,000 already discounted if C defaults.\n- **Bill already accepted:** A guarantees that C will pay bills drawn by B up to ₹10,000. B draws a bill and C accepts it before A gives notice of revocation. C later dishonours the bill. The illustration states that A remains liable under the guarantee.\n\n## Boundary with Section 131\nSection 130 concerns revocation by notice from the surety. Section 131 separately addresses the effect of the surety's death on a continuing guarantee, absent a contract to the contrary. Both provisions concern future transactions; apply the precise statutory trigger and timing.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the method and prospective effect of revoking a continuing guarantee under Section 130.",
+        "Distinguish future transactions from transactions already covered before notice.",
+        "Apply both statutory illustrations to the timing of discount, drawing, acceptance and dishonour.",
+        "Distinguish revocation by notice under Section 130 from death under Section 131."
+      ],
+      "definition": "Section 130 allows a surety to revoke a continuing guarantee by notice to the creditor, as to future transactions.",
+      "legalPrinciple": "Revocation of a continuing guarantee under Section 130 is prospective as to future transactions; it does not automatically release the surety from transactions already covered before notice.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 130 and Illustrations (a)–(b)",
+        "Related provision: Section 131"
+      ],
+      "essentialIngredients": [
+        "Identify a continuing guarantee",
+        "Identify the surety's notice to the creditor",
+        "Establish the effective timing of notice",
+        "Classify the relevant transaction as pre-notice or post-notice",
+        "Apply the guarantee's terms to existing and future transactions"
+      ],
+      "detailedExplanation": "Section 130 permits a surety to revoke a continuing guarantee at any time by notice to the creditor, but only as to future transactions. Illustration (a) shows that liability for bills discounted before notice remains while subsequent discounts are outside the revoked guarantee. Illustration (b) shows that a bill drawn and accepted before notice remains covered even if it is dishonoured after notice. The chronology of notice and transaction formation is therefore central. Section 131 separately addresses death of the surety and its effect on future transactions, absent a contract to the contrary.",
+      "examples": [
+        "Future discount: revocation prevents liability for later discounts within the statutory illustration, while existing discounted bills remain covered.",
+        "Pre-notice accepted bill: later dishonour does not erase the guarantee where drawing and acceptance preceded revocation."
+      ],
+      "distinctions": [
+        "Section 130 concerns revocation by notice from the surety; Section 131 concerns death of the surety.",
+        "Revocation is prospective as to future transactions and is not a blanket cancellation of accrued liability.",
+        "A transaction accepted before notice is not converted into a future transaction merely because payment falls due later."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm the guarantee extends to a series of transactions.",
+        "Identify the notice, recipient and timing.",
+        "List the transactions and classify each as pre-notice or post-notice.",
+        "Apply the statutory illustrations to the transaction sequence and any contractual limits.",
+        "Conclude separately on existing liability and future transactions."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 130",
+          "Identify notice to creditor",
+          "Separate past and future transactions",
+          "Apply and conclude"
+        ],
+        "tenMark": [
+          "Continuing guarantee requirement",
+          "Notice and timing",
+          "Prospective effect",
+          "Illustrations (a) and (b)",
+          "Application and conclusion"
+        ],
+        "sixteenMark": [
+          "Scope of continuing guarantee",
+          "Notice facts and effective time",
+          "Transaction-by-transaction chronology",
+          "Pre-notice liability",
+          "Post-notice effect",
+          "Distinguish Section 131",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Section 130 requires notice to the creditor.",
+        "Revocation operates as to future transactions.",
+        "Transactions already covered before notice remain subject to the guarantee.",
+        "The timing of drawing, acceptance, discount and notice may determine liability.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF opened; Section 130 and Illustrations (a)–(b) checked at extracted lines 1495–1503 (PDF page 35).",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-130",
-    "review"
+    "source-check-required"
   ]
 }
