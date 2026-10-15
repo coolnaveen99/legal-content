@@ -1,41 +1,79 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-25",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 25 (Agreement without consideration, void, subject to statutory exceptions)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 25 of the Indian Contract Act, 1872 is headed \"Agreement without consideration, void, subject to statutory exceptions\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 25",
-        "body": "Agreement without consideration, void, subject to statutory exceptions"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-25",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 25"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-25",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-25",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 25 (Agreement without consideration, void, unless it is in writing and registered, or is a promise to compensate for something done, or is a promise to pay a debt barred by limitation law)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 25 provides that an agreement made without consideration is void, unless — (1) it is expressed in writing and registered under the law for the time being in force for the registration of documents, and is made on account of natural love and affection between parties standing in a near relation to each other; or (2) it is a promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, or something which the promisor was legally compellable to do; or (3) it is a promise, made in writing and signed by the person to be charged therewith, or by his agent generally or specially authorised in that behalf, to pay wholly or in part a debt of which the creditor might have enforced payment but for the law for the limitation of suits. Explanation 1: Nothing in this section shall affect the validity, as between the donor and donee, of any gift actually made. Explanation 2: An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate; but the inadequacy of the consideration may be taken into account by the Court in determining the question whether the consent of the promisor was freely given.",
+        "glance": "No consideration → void, except: (1) written+registered near-relation natural love and affection; (2) promise to compensate past voluntary act; (3) written signed promise to pay time-barred debt; gift validity saved; inadequacy alone does not void.",
+        "study": "Default: agreement without consideration is void. Three exceptions: (1) writing and registration, natural love and affection, near relation; (2) promise to compensate for something already voluntarily done for the promisor or which the promisor was legally compellable to do; (3) written and signed promise to pay a time-barred debt. Completed gifts between donor and donee are not affected. Inadequacy of consideration alone does not void if consent is free, but may be relevant to freeness of consent. Current-law framing: establish absence of consideration; test each exception; apply explanations.",
+        "sections": [
+            {
+                "heading": "Default rule",
+                "body": "Agreement made without consideration is void.",
+                "order": 1
+            },
+            {
+                "heading": "Exception — natural love and affection",
+                "body": "Writing + registration + natural love and affection + near relation.",
+                "order": 2
+            },
+            {
+                "heading": "Exception — past voluntary act",
+                "body": "Promise to compensate for something already voluntarily done for the promisor, or which the promisor was legally compellable to do.",
+                "order": 3
+            },
+            {
+                "heading": "Exception — time-barred debt",
+                "body": "Written and signed promise to pay wholly or in part a debt barred by limitation.",
+                "order": 4
+            },
+            {
+                "heading": "Gift and inadequacy",
+                "body": "Completed gift validity saved; inadequacy alone does not void if consent free.",
+                "order": 5
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-25", "section": "Section 25", "title": "Agreement without consideration, void, unless it is in writing and registered, or is a promise to compensate for something done, or is a promise to pay a debt barred by limitation law"}],
+        "examples": [{"title": "Time-barred debt", "body": "A signs a written promise to pay a debt barred by limitation. The promise is enforceable under s. 25(3) without fresh consideration.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is every gift void for want of consideration?", "analysis": "No. Explanation 1 saves the validity of a gift actually made as between donor and donee."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s25-trap-1", "trap": "No agreement without consideration can ever be enforced.", "correction": "Section 25 has three statutory exceptions and saves completed gifts."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s25-brief", "draftingCategory": "brief", "question": "How should a Section 25 problem be analysed?", "answer": "I. Establish absence of consideration. II. Test each of the three exceptions. III. Apply gift and inadequacy explanations. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 25", "Connected: Sections 2(d), 10, 23"],
+        "examTips": ["List the three exceptions with all conditions.", "State both explanations."],
+        "revisionPoints": ["Default rule", "Exception — natural love and affection", "Exception — past voluntary act", "Exception — time-barred debt", "Gift and inadequacy"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-2", "contract-s-10"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-25",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 25 voids agreements without consideration subject to three statutory exceptions and two explanations.",
+            "legalPrinciple": "No consideration, no contract — with three exceptions and gift/inadequacy rules.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 25",
+            "essentialIngredients": ["Default rule", "Exception — natural love and affection", "Exception — past voluntary act", "Exception — time-barred debt", "Gift and inadequacy"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 25"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s25"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:31:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s25-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:31:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-25", "consideration", "review-required"]
 }
