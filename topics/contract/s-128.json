@@ -2,40 +2,168 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-128",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 128 (Surety's liability)",
+  "title": "Indian Contract Act, 1872 — Section 128 (Surety's liability)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 128 of the Indian Contract Act, 1872 is headed \"Surety's liability\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 128 provides that the liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract. The statutory illustration shows that a surety guaranteeing payment of a bill of exchange is liable not only for the amount of the bill but also for any interest and charges that have become due on it when the bill is dishonoured.",
+    "glance": "Surety's liability is co-extensive with the principal debtor's unless the contract provides otherwise.",
+    "study": "The liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract. Co-extensive means the surety is ordinarily liable to the same extent as the principal debtor for the guaranteed obligation. The contract may limit or qualify that liability. Illustration: A guarantees to B the payment of a bill of exchange by C, the acceptor. The bill is dishonoured by C. A is liable not only for the amount of the bill but also for any interest and charges which may have become due on it. Current-law framing: identify the guaranteed obligation, check whether the contract provides otherwise, and apply the co-extensive rule (including incidental liabilities illustrated by the statute) only where the contract does not restrict it.",
     "sections": [
       {
-        "heading": "Section 128",
-        "body": "Surety's liability"
+        "heading": "Core rule",
+        "body": "The liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract.",
+        "order": 1
+      },
+      {
+        "heading": "Statutory illustration",
+        "body": "A guarantees to B the payment of a bill of exchange by C, the acceptor. The bill is dishonoured by C. A is liable not only for the amount of the bill but also for any interest and charges which may have become due on it.",
+        "order": 2
+      },
+      {
+        "heading": "Contractual qualification",
+        "body": "The co-extensive rule yields where the contract of guarantee provides otherwise. The actual terms of the guarantee control the extent of liability.",
+        "order": 3
+      },
+      {
+        "heading": "Relationship to neighbouring sections",
+        "body": "Section 126 defines the guarantee and parties. Section 127 concerns consideration. Section 128 states the default extent of liability. Continuing guarantees and revocation are addressed in Sections 129–131.",
+        "order": 4
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Bill of exchange illustration",
+        "body": "A guarantees to B payment of a bill of exchange accepted by C. On dishonour, A is liable for the bill amount plus interest and charges that have become due, matching the statutory illustration, unless the guarantee provides otherwise."
+      },
+      {
+        "title": "Limited guarantee",
+        "body": "If the contract expressly limits the surety's liability to a stated sum, that contractual limit applies and the co-extensive rule does not expand liability beyond the agreed cap."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A guarantees B's debt to C without any limitation. B defaults. To what extent is A liable?",
+        "analysis": "Under Section 128 the surety's liability is co-extensive with the principal debtor's unless the contract provides otherwise. On these facts the surety is liable to the same extent as the principal debtor."
+      },
+      {
+        "question": "The guarantee expressly caps the surety's liability at a fixed sum. Does Section 128 override the cap?",
+        "analysis": "No. Section 128 applies the co-extensive rule only unless it is otherwise provided by the contract. The contractual limit controls."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-127",
+      "topic:india:contract-s-129",
+      "topic:india:contract-s-130",
+      "topic:india:contract-s-131"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 128 Illustration: A guarantees to B the payment of a bill of exchange by C, the acceptor. The bill is dishonoured by C. A is liable not only for the amount of the bill but also for any interest and charges which may have become due on it."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-128",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 128"
+      "Indian Contract Act, 1872 — Section 128 and Illustration",
+      "Related provisions: Sections 126–127 and 129–131"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Section 128 illustration. This topic remains in review pending remaining legal verification and release gates.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 128's rule on co-extensive liability.",
+        "Explain the effect of a contractual provision that limits or qualifies the surety's liability.",
+        "Apply the statutory illustration concerning a bill of exchange.",
+        "Distinguish the extent of liability from definition and consideration issues under Sections 126 and 127."
+      ],
+      "definition": "The liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract.",
+      "legalPrinciple": "Unless the contract provides otherwise, the surety is liable to the same extent as the principal debtor for the guaranteed obligation, including incidental liabilities illustrated by the statute.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 128 and Illustration",
+        "Related provisions: Sections 126–127 and 129–131"
+      ],
+      "essentialIngredients": [
+        "Identify the guaranteed obligation of the principal debtor",
+        "Identify whether the contract provides otherwise",
+        "Apply co-extensive liability only where the contract does not restrict it",
+        "Include incidental liabilities (interest, charges) where consistent with the illustration and the contract"
+      ],
+      "detailedExplanation": "Section 128 states that the liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract. The statutory illustration confirms that, on dishonour of a bill of exchange guaranteed by the surety, the surety is liable not only for the amount of the bill but also for interest and charges that have become due. The co-extensive rule is the default; any contractual qualification or limitation controls. Section 128 addresses extent of liability; it does not define the guarantee (Section 126) or address consideration (Section 127).",
+      "examples": [
+        "Bill of exchange: surety liable for amount plus interest and charges on dishonour, per the statutory illustration, unless the contract provides otherwise.",
+        "Contractual cap: where the guarantee limits liability to a stated sum, the co-extensive rule does not override that limit."
+      ],
+      "distinctions": [
+        "Section 128 concerns the extent of the surety's liability; Section 126 defines the guarantee and parties.",
+        "Section 127 concerns consideration for the guarantee and is a separate question.",
+        "The co-extensive rule yields to any contrary provision in the contract of guarantee."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the principal debtor's obligation and the surety's guarantee.",
+        "Check whether the contract provides otherwise than co-extensive liability.",
+        "Apply the default rule or the contractual qualification.",
+        "Refer to the statutory illustration where interest or charges arise on a guaranteed bill.",
+        "Conclude without deciding unrelated revocation or continuing-guarantee questions unless raised."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 128",
+          "Identify co-extensive liability",
+          "Note the contractual exception",
+          "Apply the facts"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Meaning of co-extensive",
+          "Contractual qualification",
+          "Statutory illustration",
+          "Application and conclusion"
+        ],
+        "sixteenMark": [
+          "Statutory text and rationale",
+          "Co-extensive liability",
+          "Contractual exception",
+          "Illustration and incidental liabilities",
+          "Relationship with Sections 126–127",
+          "Conclusion with any unresolved facts"
+        ]
+      },
+      "keyTakeaways": [
+        "Surety's liability is co-extensive with the principal debtor's unless the contract provides otherwise.",
+        "The statutory illustration extends liability to interest and charges on a dishonoured bill.",
+        "Any contractual limit or qualification controls over the default rule.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF and multiple reliable bare-act sources checked for Section 128 text and illustration.",
+          "Statutory wording supports co-extensive liability unless the contract provides otherwise, and the bill-of-exchange illustration.",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:10:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-128",
-    "review"
+    "source-check-required"
   ]
 }
