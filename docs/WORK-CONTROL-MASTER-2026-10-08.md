@@ -2,12 +2,13 @@
 
 ## Progress 2026-10-15
 
-### Company Law (Companies Act, 2013) — CLOSED
+### Company Law (Companies Act, 2013)
 | Range | Status |
 |-------|--------|
-| **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** — continuous coverage including s.2 definitions |
+| **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** — continuous statutory source-check |
+| **Case-law batch 1** | **Started** — s.9 personality/veil: Salomon [1897] AC 22; LIC v Escorts (1986) 1 SCC 264 (`29c9ee2ef48f0f5311b9a0e290637a175d33c3f7`). caseLawGate: case-law-batch-1-added-not-locked. Not COMPLETE_LOCKED. |
 
-### Indian Contract Act, 1872 — ACTIVE (new subject)
+### Indian Contract Act, 1872 — ACTIVE
 | Range | Status |
 |-------|--------|
 | **s.238 → s.237** | **Done (review)** — Agency reverse-order start |
@@ -17,7 +18,8 @@
 - s.237 Liability of principal inducing belief that unauthorized acts were authorized: `a9df528de7d2626edeeb8754ef186a617d00a836`
 
 ### Next
-Continue Contract Act reverse-order: **s.236** (Person falsely contracting as agent not entitled to performance), then s.235 → downward through Agency (ss.182–238). Then Indemnity/Guarantee (ss.124–147), Bailment/Pledge (ss.148–181), general contract (ss.1–75). Skip repealed ss.76–123.
+- **Active:** Continue Contract Act reverse-order from **s.236** downward (Agency).
+- **Company Law case-law:** further batches (prospectus ss.34–35; further issue s.62; oppression etc.) remain open; do not COMPLETE_LOCK without primary-report verification.
 
 ---
 
@@ -37,18 +39,18 @@ Continue Contract Act reverse-order: **s.236** (Person falsely contracting as ag
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Active subject:** Indian Contract Act, 1872 — reverse-order from s.236 downward. Company Law primary source-check closed for s.1–s.63.
+**Active subject:** Indian Contract Act, 1872 — reverse-order from s.236 downward. Company Law statutory source-check closed for s.1–s.63; case-law batch 1 started on s.9 only.
 
 ## Work claim record
-Subject: Indian Contract Act, 1872
-Topic/section range: s.238–s.237 (Agency reverse-order start)
-Current main commit: a9df528de7d2626edeeb8754ef186a617d00a836
-Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-reverse
-Latest evidence: s.238 and s.237 expanded from catalog stubs to official India Code text including statutory illustrations
-Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
-Planned change: Contract Act reverse-order source alignment of catalog stubs
-Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 3975f1046bfaaf556d0f49f6a4c699411bb8c023; a9df528de7d2626edeeb8754ef186a617d00a836
+Subject: Companies Act, 2013 (case-law batch 1)
+Topic/section range: s.9 (separate legal personality / veil)
+Current main commit: 29c9ee2ef48f0f5311b9a0e290637a175d33c3f7
+Current status: review / SOURCE_CHECK_REQUIRED / case-law-batch-1-added-not-locked
+Current owner: current-assistant-company-caselaw-batch1
+Latest evidence: Salomon v A Salomon & Co Ltd [1897] AC 22 (HL); LIC v Escorts Ltd (1986) 1 SCC 264 added to s.9; not COMPLETE_LOCKED
+Missing gate: primary-report line-level verification; further section-specific case-law batches; final lock
+Planned change: case-law batch 1 for incorporation/personality cluster
+Validation: no invented citations; standard foundational authorities only
+Evidence/commit: 29c9ee2ef48f0f5311b9a0e290637a175d33c3f7
 
 If any field cannot be established, STOP.
