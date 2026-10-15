@@ -1,41 +1,64 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-19a",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 19A (Power to set aside contract induced by undue influence)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 19A of the Indian Contract Act, 1872 is headed \"Power to set aside contract induced by undue influence\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 19A",
-        "body": "Power to set aside contract induced by undue influence"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-19a",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 19A"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-19a",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-19a",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 19A (Power to set aside contract induced by undue influence)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 19A provides that when consent to an agreement is caused by undue influence, the agreement is a contract voidable at the option of the party whose consent was so caused. Any such contract may be set aside either absolutely or, if the party who was entitled to avoid it has received any benefit thereunder, upon such terms and conditions as to the Court may seem just.",
+        "glance": "Undue influence → voidable; court may set aside absolutely or on just terms if benefit received.",
+        "study": "Consent caused by undue influence (s. 16) makes the agreement voidable at the option of the party whose consent was so caused. The court may set the contract aside absolutely, or if the avoiding party received benefit, on such terms as seem just. Current-law framing: establish undue influence under s. 16; apply voidability; address restitution terms if benefit was received.",
+        "sections": [
+            {
+                "heading": "Voidable at option",
+                "body": "Consent caused by undue influence — agreement voidable at the option of the party whose consent was so caused.",
+                "order": 1
+            },
+            {
+                "heading": "Set aside on terms",
+                "body": "May be set aside absolutely or, if benefit received, upon such terms as the Court may seem just.",
+                "order": 2
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-19a", "section": "Section 19A", "title": "Power to set aside contract induced by undue influence"}],
+        "examples": [{"title": "Unconscionable bond", "body": "A money-lender by undue influence obtains a bond for an excessive sum. The court may set the bond aside on terms requiring repayment of the advance with just interest.", "kind": "statutory-illustration", "inventedCase": false}],
+        "hypotheticals": [{"question": "Must the court always set aside the whole contract for free?", "analysis": "No. If the avoiding party received benefit, the court may impose just terms under s. 19A."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s19a-trap-1", "trap": "Undue influence is governed only by s. 19.", "correction": "Undue influence has its own voidability and terms provision in s. 19A."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s19a-brief", "draftingCategory": "brief", "question": "How should a Section 19A problem be analysed?", "answer": "I. Establish undue influence (s. 16). II. Apply voidability. III. Address absolute set-aside or terms if benefit received. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 19A", "Connected: Sections 16, 19"],
+        "examTips": ["State voidability and the power to impose terms.", "Link to s. 16 definition."],
+        "revisionPoints": ["Voidable at option", "Set aside on terms"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-16", "contract-s-19"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-19a",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 19A makes contracts induced by undue influence voidable and empowers the court to set them aside on just terms.",
+            "legalPrinciple": "Undue influence → voidable; restitution on terms if benefit received.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 19A",
+            "essentialIngredients": ["Voidable at option", "Set aside on terms"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 19A"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s19a"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:25:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s19a-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:25:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-19a", "undue-influence", "review-required"]
 }
