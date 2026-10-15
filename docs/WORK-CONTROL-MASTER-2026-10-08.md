@@ -43,13 +43,13 @@ No invented legal authority. No destructive shortening. Verify before enhancemen
 ## Work claim record
 Subject: Indian Contract Act, 1872
 Topic/section range: s.73 (compensation for loss caused by breach)
-Current main commit: 02af46b8b99e499a79949665e2ab00daebe73df8
-Current status: source_check_required
+Current main commit: fadd93458b654ea4770a459723ad55385195db2e
+Current status: review / source verification incomplete
 Current owner: current-assistant-contract-forward
-Latest evidence: existing s.73 record contains contradictory verification statements; its top-level and enhancement status were downgraded from verified to source_check_required to prevent unsupported legal-verification claims
-Missing gate: independently open and check official India Code Act text and amendments; reconcile the content and verification notes; run topic/schema/manifest and relevant full-catalog validators; do not claim case-law verification without an opened authoritative judgment
-Planned change: complete the s.73 statutory source check before any further substantive enhancement; proceed to s.74 only after s.73 gates and ownership are reconciled
-Validation: topic JSON parsed before commit; repository-wide schema/manifest/full-catalog validation not yet observed; no case authority added
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/02af46b8b99e499a79949665e2ab00daebe73df8
+Latest evidence: official India Code Indian Contract Act PDF opened; Section 73, its Explanation and statutory illustrations checked and expanded in the canonical topic; source-site log updated. The topic's lifecycle fields were aligned with the repository schema.
+Missing gate: independently check current amendment/consolidated-law status; run repository schema, manifest, enhancement, and relevant full-catalog validators; do not claim case-law verification without an authoritative judgment being opened.
+Planned change: finish the remaining s.73 verification and validation gates before advancing to s.74.
+Validation: JSON parsing succeeded during each edit; the topic's status/version values were checked against the schema enum/pattern. Full repository validators and CI status have not been confirmed. No case authority added.
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/45acb101b7256d9658520819873f388076b41452; https://github.com/coolnaveen99/legal-content/commit/067af523177b132dae17d61af104d850e2f1af4f; https://github.com/coolnaveen99/legal-content/commit/fadd93458b654ea4770a459723ad55385195db2e
 
 If any field cannot be established, STOP.
