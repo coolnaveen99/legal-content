@@ -98,6 +98,19 @@ The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200
 
 **Status:** Content layer is consistent. Verification, case-law, validators, integration, SEO, production and human sign-off gates remain open. Not COMPLETE_LOCKED.
 
+
+## Company Law content-depth batches — 2026-10-15
+
+**Subject:** Companies Act, 2013 (next subject after Contract Agency).
+
+**Batches:** 20-topic loops across `topics/company/ca-s-*.json`.
+
+**Filled where missing:** examples, hypotheticals, distinctions, misconceptions, revisionPoints, examTips, examAnswerStructure, detailedExplanation — all derived from existing statutory text only. No new authorities or cases.
+
+**Evidence:** commit `53ac0422a` (after rebase).
+
+**Status:** Content depth improved. Topics remain review / verification_in_progress / SOURCE_CHECK_REQUIRED as previously set. Not COMPLETE_LOCKED.
+
 ## Release gate
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
