@@ -11,26 +11,15 @@
 ### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.26** | **Done (review)** — FORWARD order |
-| **s.238 → s.192** | **Done (review)** — Agency reverse continuous |
+| **s.1 → s.36** | **Done (review)** — FORWARD order |
+| **s.238 → s.192** | **Done (review)** — Agency reverse |
 
-### Agency reverse bulk s.201–s.192 (closed — this claim)
-| Section | Title | Commit |
-|---------|--------|--------|
-| s.201 | Termination of agency | `407aeecbe95e82546ecf0daec9aa7abb0ec5444d` |
-| s.200 | Ratification cannot injure third person | `3d8e156a17981a83b28e6ad99125e44b9331267c` |
-| s.199 | Ratifying part ratifies whole transaction | `8fd88b1f96049f32e50c44b730339bf397f9b4f2` |
-| s.198 | Knowledge requisite for valid ratification | `a763bc8498391e11a0f96dcdcfac555b80fa134c` |
-| s.197 | Ratification may be expressed or implied | `e9c86a981a05294af809199a1e4abb139553ff52` |
-| s.196 | Right to ratify or disown unauthorized acts | `62da9fba3399a79671a23245a406e61d67b60203` |
-| s.195 | Agent’s duty in naming such person | `80de585c79f2a55395772b12d35c390c0b5f27ac` |
-| s.194 | Relation with person duly appointed by agent | `4d4be805c6822702fd6245f6d7067694e4093b20` |
-| s.193 | Agent’s responsibility for unauthorized sub-agent | `078fc359140524d25cd7af21d9f84b211e14894c` |
-| s.192 | Representation by properly appointed sub-agent | `9365a461673b356a5269eba438067b36081f8eee` |
+### Forward bulk s.27–s.36 (this claim)
+s.27 Restraint of trade · s.28 Restraint of legal proceedings · s.29 Uncertainty · s.30 Wager · s.31 Contingent contract defined · s.32 Enforcement if event happens · s.33 Enforcement if event does not happen · s.34 Future conduct impossibility · s.35 Fixed-time contingencies · s.36 Impossible events
 
 ### Next
-**REVERSE Agency:** from **s.191** downward (min 10 sections).
-**FORWARD stream:** from **s.27** if separately claimed (non-overlapping).
+**FORWARD:** from **s.37** (Obligation of parties to contracts — Chapter IV Performance).
+**REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -50,19 +39,18 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Reverse Agency:** closed through **s.192**. Next reverse bulk from **s.191** downward (user: reverse order, min 10 sections).
-**Forward stream:** s.1–s.26 done; may continue from s.27 under separate claim.
+**This stream:** Indian Contract Act **FORWARD from s.37**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.201–s.192 (Agency reverse bulk, 10 sections)
-Current main commit: 9365a461673b356a5269eba438067b36081f8eee
+Topic/section range: s.27–s.36 (forward bulk, 10 sections)
+Current main commit: 7a1f221d86ddb9096d5ea6f8d1f97f6f0dbbe653
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-reverse-s201-s192
-Latest evidence: all ten sections expanded from catalog stubs to official India Code text
+Current owner: current-assistant-contract-forward
+Latest evidence: s.27–s.36 expanded from catalog stubs to official India Code text
 Missing gate: full case-law verification and final lock
-Planned change: reverse-order bulk expansion s.201–s.192
+Planned change: forward-order bulk expansion min 10 sections
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: see table above
+Evidence/commit: 142d4ec6… through 7a1f221d…
 
 If any field cannot be established, STOP.
