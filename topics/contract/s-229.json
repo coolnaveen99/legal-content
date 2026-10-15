@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-229",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 229 (Consequences of notice given to agent)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 229 of the Indian Contract Act, 1872 is headed \"Consequences of notice given to agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 229",
-        "body": "Consequences of notice given to agent"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-229",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 229 (Consequences of notice given to agent)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 229 provides that any notice given to or information obtained by the agent, provided it be given or obtained in the course of the business transacted by him for the principal, shall, as between the principal and third parties, have the same legal consequences as if it had been given to or obtained by the principal.",
+        "glance": "Notice to or information obtained by agent in course of principal’s business = notice to principal as between principal and third parties.",
+        "study": "Notice given to, or information obtained by, the agent in the course of the business transacted for the principal has, as between the principal and third parties, the same legal consequences as if given to or obtained by the principal. The course-of-business condition is essential. Current-law framing: identify the notice or information; test whether it was given or obtained in the course of the agent’s business for the principal; apply the same-consequences rule between principal and third parties.",
+        "sections": [
+            {
+                "heading": "Notice or information to agent",
+                "body": "Notice is given to, or information is obtained by, the agent.",
+                "order": 1
+            },
+            {
+                "heading": "Course of business for principal",
+                "body": "The notice or information must be given or obtained in the course of the business transacted by the agent for the principal.",
+                "order": 2
+            },
+            {
+                "heading": "Same consequences as to principal",
+                "body": "As between the principal and third parties, the legal consequences are the same as if the notice or information had been given to or obtained by the principal.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-229",
+                "section": "Section 229",
+                "title": "Consequences of notice given to agent"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Notice in course of agency business",
+                "body": "A third party gives the agent notice of a defect in title during a transaction the agent is conducting for the principal. As between principal and third party, the notice has the same effect as notice to the principal.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Does every communication to an agent bind the principal?",
+                "analysis": "No. Section 229 requires that the notice or information be given or obtained in the course of the business transacted by the agent for the principal."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s229-vs-s238",
+                "title": "Notice to agent (s. 229) vs fraud/misrepresentation by agent (s. 238)",
+                "left": "Attribution of notice/information obtained in course of business",
+                "right": "Attribution of agent’s misrepresentation or fraud in course of business",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Knowledge/notice",
+                        "right": "Representation/fraud"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s229-trap-1",
+                "trap": "Private knowledge of the agent always binds the principal even outside the agency business.",
+                "correction": "Section 229 is limited to notice or information given or obtained in the course of the business transacted for the principal."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s229-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 229 problem be analysed?",
+                "answer": "I. Identify the notice or information. II. Test course of business for the principal. III. Apply same-consequences rule between principal and third parties. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 229",
+            "Connected: Sections 182, 238"
+        ],
+        "examTips": [
+            "Stress the course-of-business condition.",
+            "State the same-consequences formula."
+        ],
+        "revisionPoints": [
+            "Notice or information to agent",
+            "Course of business for principal",
+            "Same consequences as to principal"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-230",
+            "contract-s-238"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-229",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 229 attributes to the principal, as against third parties, notice given to or information obtained by the agent in the course of the principal’s business.",
+            "legalPrinciple": "Notice to agent in course of business = notice to principal.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 229",
+            "essentialIngredients": [
+                "Notice or information to agent",
+                "Course of business for principal",
+                "Same consequences as to principal"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 229"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 229. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s229-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:46:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s229-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-229",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 229"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-229",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:46:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-229",
+        "agency",
+        "review-required"
+    ]
 }
