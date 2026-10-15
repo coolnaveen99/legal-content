@@ -13,7 +13,7 @@
 |-------|--------|
 | **s.1 → s.75** | **Content expanded through s.75 (review / source gates open)** — FORWARD order |
 | **s.124–s.147** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — indemnity and guarantee chapter complete |
-| **s.148–s.172** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — bailment through pledge definition |
+| **s.148–s.181** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — Chapter IX bailment and pledge complete |
 | **ss.76–123** | Repealed by Sale of Goods Act, 1930 |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
@@ -21,7 +21,7 @@
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Next
-**FORWARD:** from **s.173** (pawnee’s right of retainer). **REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** from **s.182** (agent and principal defined). **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -41,18 +41,18 @@ s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD from s.173**.
+**This stream:** Indian Contract Act **FORWARD from s.182**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.158–s.172 (repayment of necessary expenses; restoration of gratuitous loan; return on expiry; responsibility for non-return; termination by death; increase/profit; bailor’s responsibility; joint owners; re-delivery without title; third-party claim; finder’s rights; finder’s sale; particular lien; general lien; pledge defined)
-Current main commit: d2b83ee804acbce580d47429d210ba6a99690921
+Topic/section range: s.173–s.181 (pawnee’s retainer; other debts/subsequent advances; extraordinary expenses; remedies on default; defaulting pawnor’s redemption; pledge by mercantile agent; pledge under voidable contract; limited interest; suit against wrong-doer; apportionment of relief)
+Current main commit: 394a0681d0426b57b68d2147a4cc9c95c3170ca4
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-s158-172-forward
-Latest evidence: official India Code sections 158–172 aligned in bulk pushes; direct main commits
+Current owner: current-assistant-contract-s173-181-forward
+Latest evidence: official India Code sections 173–181 aligned in one-shot bulk push completing Chapter IX; direct main commit
 Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains); repository-wide validators not run this session
-Planned change: source-aligned substantive content for s.158–s.172 completing core bailment and starting pledge
+Planned change: source-aligned substantive content for s.173–s.181 completing the bailment and pledge chapter
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/d2b83ee804acbce580d47429d210ba6a99690921
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/394a0681d0426b57b68d2147a4cc9c95c3170ca4
 
 If any field cannot be established, STOP.
