@@ -13,7 +13,7 @@
 |-------|--------|
 | **s.1 → s.75** | **Content expanded through s.75 (review / source gates open)** — FORWARD order |
 | **s.124–s.147** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — indemnity and guarantee chapter complete |
-| **s.148** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — bailment defined |
+| **s.148–s.152** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — bailment definition through bailee care and non-liability |
 | **ss.76–123** | Repealed by Sale of Goods Act, 1930 |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
@@ -21,7 +21,7 @@
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Next
-**FORWARD:** from **s.149** (delivery to bailee how made). **REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** from **s.153** (termination of bailment by bailee’s inconsistent act). **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -41,18 +41,18 @@ s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD from s.149**.
+**This stream:** Indian Contract Act **FORWARD from s.153**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.148 (bailment, bailor and bailee defined)
-Content commit: 0d673fff11b8cb72dec6bbde3d50ba3bdb868c08
-Current status: content expanded; topic remains review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-s148-forward
-Latest evidence: official India Code Section 148 and Explanation aligned; direct main commit
-Missing gates: independently reconcile current consolidated amendment status; section-specific authoritative case-law review if applicable; run repository schema, manifest, relationship, enhancement and full-catalog validators on the latest main; complete applicable integration/E2E, SEO, production and human legal sign-off gates.
-Planned change: proceed to Section 149 after checking current ownership and evidence.
-Validation: JSON parse passed; topic lifecycle status and enhancement status/version match schema patterns; all required enhancement fields are present; examples/hypotheticals shapes passed; all related topic IDs resolved to existing canonical topics. Full repository validators and CI for the latest commit have not yet been confirmed.
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/0d673fff11b8cb72dec6bbde3d50ba3bdb868c08
+Topic/section range: s.149–s.152 (delivery to bailee; bailor’s duty to disclose faults; care by bailee; bailee not liable if care taken)
+Current main commit: cf8c2f06ddfba6a25f600e5d050440695d00b7cc
+Current status: review / SOURCE_CHECK_REQUIRED
+Current owner: current-assistant-contract-s149-152-forward
+Latest evidence: official India Code sections 149–152 and illustrations aligned in bulk push; direct main commit
+Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains); repository-wide validators not run this session
+Planned change: source-aligned substantive content for s.149–s.152
+Validation: content aligned to statutory text; no invented citations
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/cf8c2f06ddfba6a25f600e5d050440695d00b7cc
 
 If any field cannot be established, STOP.
