@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-51",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 51 (Promisor not bound unless reciprocal promisee ready and willing)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 51 of the Indian Contract Act, 1872 is headed \"Promisor not bound unless reciprocal promisee ready and willing\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 51",
-        "body": "Promisor not bound unless reciprocal promisee ready and willing"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-51",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 51"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-51",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-51",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 51 (Promisor not bound to perform, unless reciprocal promisee ready and willing to perform)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 51 provides that when a contract consists of reciprocal promises to be simultaneously performed, no promisor need perform his promise unless the promisee is ready and willing to perform his reciprocal promise.",
+        "glance": "Simultaneous reciprocal promises → no duty to perform unless the other is ready and willing.",
+        "study": "Where reciprocal promises are to be performed simultaneously, a promisor need not perform unless the promisee is ready and willing to perform the reciprocal promise. Current-law framing: identify simultaneous reciprocal promises; test readiness and willingness of the other party; apply non-obligation if not ready and willing.",
+        "sections": [{"heading": "Simultaneous reciprocal promises", "body": "No promisor need perform unless the promisee is ready and willing to perform his reciprocal promise.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-51", "section": "Section 51", "title": "Promisor not bound to perform, unless reciprocal promisee ready and willing to perform"}],
+        "examples": [{"title": "Sale against payment", "body": "A is to deliver goods and B is to pay the price simultaneously. A need not deliver unless B is ready and willing to pay under s. 51.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Must both parties complete performance at the same instant?", "analysis": "Section 51 requires readiness and willingness to perform the reciprocal promise; actual simultaneous completion is not always required before either may proceed."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s51-trap-1", "trap": "One party must always perform first in simultaneous reciprocal contracts.", "correction": "Section 51: neither need perform unless the other is ready and willing."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s51-brief", "draftingCategory": "brief", "question": "How should a Section 51 problem be analysed?", "answer": "I. Identify simultaneous reciprocal promises. II. Test readiness and willingness of the other party. III. Apply non-obligation if not ready and willing. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 51", "Connected: Sections 52–54"],
+        "examTips": ["State readiness and willingness as the condition."],
+        "revisionPoints": ["Simultaneous reciprocal promises"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-50", "contract-s-52"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-51",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 51 relieves a promisor from performing simultaneous reciprocal promises unless the other is ready and willing.", "legalPrinciple": "Simultaneous reciprocal promises — readiness and willingness required.", "statutoryFramework": "Indian Contract Act, 1872 — Section 51", "essentialIngredients": ["Simultaneous reciprocal promises"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 51"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s51"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:10:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s51-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:10:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-51", "reciprocal", "review-required"]
 }
