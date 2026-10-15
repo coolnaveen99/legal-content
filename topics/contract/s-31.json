@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-31",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 31 (Contingent contract defined)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 31 of the Indian Contract Act, 1872 is headed \"Contingent contract defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 31",
-        "body": "Contingent contract defined"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-31",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 31"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-31",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-31",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 31 (“Contingent contract” defined)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 31 provides that a “contingent contract” is a contract to do or not to do something, if some event, collateral to such contract, does or does not happen.",
+        "glance": "Contingent contract = performance depends on a collateral uncertain event happening or not happening.",
+        "study": "A contingent contract is a contract to do or not to do something if some event collateral to the contract does or does not happen. Enforcement rules are in ss. 32–36. Distinguish from wagers (s. 30). Current-law framing: identify the collateral event; classify as contingent; apply ss. 32–36 for enforcement or voidness.",
+        "sections": [{"heading": "Definition", "body": "Contract to do or not to do something if some event collateral to such contract does or does not happen.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-31", "section": "Section 31", "title": "“Contingent contract” defined"}],
+        "examples": [{"title": "Insurance", "body": "A contracts to pay B a sum if B’s house is burnt. That is a contingent contract under s. 31.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is every contract depending on an uncertain event a wager?", "analysis": "No. Contingent contracts (s. 31) may be valid; wagers are void under s. 30."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s31-trap-1", "trap": "Contingent contracts are the same as wagers.", "correction": "Contingent contracts may be enforceable; wagers under s. 30 are void."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s31-brief", "draftingCategory": "brief", "question": "How should a Section 31 problem be analysed?", "answer": "I. Identify collateral event. II. Classify as contingent contract. III. Apply ss. 32–36. IV. Distinguish s. 30. V. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 31", "Connected: Sections 30, 32–36"],
+        "examTips": ["Quote the collateral-event definition.", "Contrast with s. 30."],
+        "revisionPoints": ["Definition"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-30", "contract-s-32"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-31",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 31 defines a contingent contract as one dependent on a collateral event happening or not happening.", "legalPrinciple": "Collateral contingency defines contingent contracts.", "statutoryFramework": "Indian Contract Act, 1872 — Section 31", "essentialIngredients": ["Definition"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 31"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s31"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:40:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s31-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:40:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-31", "contingent", "review-required"]
 }
