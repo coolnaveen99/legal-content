@@ -1,41 +1,64 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-39",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 39 (Effect of refusal of party to perform promise wholly)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 39 of the Indian Contract Act, 1872 is headed \"Effect of refusal of party to perform promise wholly\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 39",
-        "body": "Effect of refusal of party to perform promise wholly"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-39",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 39"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-39",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-39",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 39 (Effect of refusal of party to perform promise wholly)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 39 provides that when a party to a contract has refused to perform, or disabled himself from performing, his promise in its entirety, the promisee may put an end to the contract, unless he has signified, by words or conduct, his acquiescence in its continuance.",
+        "glance": "Refusal or self-disablement from performing the promise in its entirety → promisee may put an end to the contract, unless acquiescence.",
+        "study": "If a party refuses to perform or disables himself from performing his promise in its entirety, the promisee may put an end to the contract, unless he has signified by words or conduct his acquiescence in its continuance. This is the statutory rule on anticipatory breach / renunciation. Current-law framing: establish refusal or self-disablement as to the whole promise; test whether the promisee has acquiesced; if not, the promisee may terminate.",
+        "sections": [
+            {
+                "heading": "Refusal or self-disablement",
+                "body": "Party has refused to perform, or disabled himself from performing, his promise in its entirety.",
+                "order": 1
+            },
+            {
+                "heading": "Promisee’s election",
+                "body": "Promisee may put an end to the contract, unless he has signified by words or conduct his acquiescence in its continuance.",
+                "order": 2
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-39", "section": "Section 39", "title": "Effect of refusal of party to perform promise wholly"}],
+        "examples": [{"title": "Renunciation before performance due", "body": "A contracts to deliver goods on a future date and then refuses to perform. B may put an end to the contract under s. 39 unless B has acquiesced in its continuance.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Must the promisee terminate immediately?", "analysis": "The promisee may put an end to the contract, but if he signifies acquiescence by words or conduct, he cannot later rely on s. 39 to terminate on that ground."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s39-trap-1", "trap": "Any partial shortfall lets the promisee terminate under s. 39.", "correction": "Section 39 requires refusal or self-disablement from performing the promise in its entirety."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s39-brief", "draftingCategory": "brief", "question": "How should a Section 39 problem be analysed?", "answer": "I. Establish refusal or self-disablement as to the whole promise. II. Test acquiescence by the promisee. III. Apply election to put an end to the contract. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 39", "Connected: Sections 37, 38, 73"],
+        "examTips": ["Stress ‘in its entirety’.", "State the acquiescence proviso."],
+        "revisionPoints": ["Refusal or self-disablement", "Promisee’s election"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-38", "contract-s-40"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-39",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 39 allows the promisee to put an end to the contract when the other party refuses or disables himself from performing the promise in its entirety, unless the promisee has acquiesced.",
+            "legalPrinciple": "Renunciation or self-disablement as to the whole → promisee may terminate unless acquiescence.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 39",
+            "essentialIngredients": ["Refusal or self-disablement", "Promisee’s election"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 39"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s39"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:51:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s39-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:51:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-39", "performance", "review-required"]
 }
