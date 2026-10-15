@@ -124,6 +124,19 @@ The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200
 
 **Status:** Content depth improved. Topics remain in prior review/verification states. Not COMPLETE_LOCKED.
 
+
+## Full content-depth completion — 2026-10-15
+
+**Scope:** All remaining gapped topics across subjects (BNS 309, Contract 147, Arbitration/Land/Taxation/CPC/Labour 167, and small subjects 63).
+
+**Method:** 20-file batches. Added examples, hypotheticals, distinctions, misconceptions, revisionPoints, examTips, examAnswerStructure and detailedExplanation where missing, derived strictly from existing text in each file. No new authorities or cases.
+
+**Evidence:** commits 82c3bcce9 (BNS), 1918bef41 (Contract), b98ee2e52 (Arbitration+), bc638066f (small subjects).
+
+**Result:** Content-depth scan now reports **0 remaining gaps** across all subjects. All topics remain in prior review / verification / SOURCE_CHECK_REQUIRED states. **Not COMPLETE_LOCKED.**
+
+**Remaining gates:** Authoritative source verification, case-law, full validators, integration/E2E, SEO/production, human legal sign-off.
+
 ## Release gate
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
