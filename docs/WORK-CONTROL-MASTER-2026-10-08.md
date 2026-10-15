@@ -14,17 +14,16 @@
 | **s.1 → s.75** | **Content expanded through s.75 (review / source gates open)** — FORWARD order |
 | **s.124–s.147** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — indemnity and guarantee |
 | **s.148–s.181** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — Chapter IX, bailment and pledge |
-| **s.182–s.200** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — Agency foundations, sub-agency and ratification |
-| **s.201 onward** | **Next forward range; not yet claimed by this control update** |
+| **s.182–s.238** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — Agency (forward s.182–s.200 + reverse passes covering s.201–s.238) |
 | **ss.76–123** | Repealed by the Sale of Goods Act, 1930; retain the statutory-status/source check in the relevant topic metadata |
-| **Agency reverse pass: s.238 downward** | Historical reverse-pass content exists; see overlap warning below |
+| **Agency reverse pass** | Reconciled: reverse passes expanded s.201–s.238; no remaining reverse assignment without ownership check |
 
 ### Forward bulk s.61–s.70 (historical claim)
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Current next step
-**FORWARD:** Section **201** (termination of agency), only after the mandatory ownership and latest-commit/PR check.
-**REVERSE Agency:** do not restart the old reverse assignment at s.191 without reconciling section-level ownership and existing content first.
+**Indian Contract Act Agency chapter (s.182–s.238):** content expansion complete (review / SOURCE_CHECK_REQUIRED). Next gates are section-level authoritative source/current-law/case-law verification, integrated validation, SEO, production and human legal sign-off. Do not restart reverse or claim already-expanded ranges.
+**Next subject/range:** select the next unowned pending subject or remaining Contract topic after full ownership/PR/commit check against current main. No active claim on further Contract sections from this update.
 
 ---
 
@@ -44,7 +43,7 @@ s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act, forward order, next candidate **s.201**, subject to the mandatory ownership check. This document update does not itself claim or begin s.201.
+**This stream:** Indian Contract Act Agency content expansion reconciled as complete through s.238 (review / SOURCE_CHECK_REQUIRED). This document update records the reconciliation and does not claim a new section. Next work requires a fresh ownership check on a different unowned range or verification gates.
 
 ## Work claim record — latest completed forward bulk
 Subject: Indian Contract Act, 1872
