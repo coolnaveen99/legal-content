@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-195",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 195 (Agent's duty in naming such person)",
+  "title": "Indian Contract Act, 1872 — Section 195 (Agent’s duty in naming such person)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 195 of the Indian Contract Act, 1872 is headed \"Agent's duty in naming such person\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "In selecting such agent for his principal, an agent is bound to exercise the same amount of discretion as a man of ordinary prudence would exercise in his own case; and, if he does this, he is not responsible to the principal for the acts or negligence of the agent so selected.",
+    "glance": "When naming another agent for the principal, the agent must use ordinary prudence; if he does, he is not responsible for the selected person’s acts or negligence.",
+    "study": "In selecting such agent for his principal, an agent is bound to exercise the same amount of discretion as a man of ordinary prudence would exercise in his own case; and, if he does this, he is not responsible to the principal for the acts or negligence of the agent so selected. Connected: s. 194 (substituted agent relation).",
     "sections": [
-      {
-        "heading": "Section 195",
-        "body": "Agent's duty in naming such person"
-      }
+      {"heading": "Ordinary prudence in selection", "body": "Exercise the same discretion as a man of ordinary prudence would in his own case.", "order": 1},
+      {"heading": "No responsibility if duty met", "body": "If that duty is met, agent is not responsible for acts or negligence of the person selected.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-195", "section": "Section 195", "title": "Agent’s duty in naming such person"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s195-brief", "draftingCategory": "brief", "question": "How should a Section 195 problem be analysed?", "answer": "Test whether the selecting agent used ordinary prudence; if yes, no responsibility for the selected person’s acts or negligence.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 195", "Connected: Section 194"],
+    "examTips": ["Ordinary prudence standard for naming another agent."],
+    "revisionPoints": ["Ordinary prudence", "No responsibility if duty met"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-194", "contract-s-192"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-195",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 195"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "An agent selecting another agent for the principal must use ordinary prudence; if he does, he is not responsible for that person’s acts or negligence.",
+      "legalPrinciple": "Ordinary prudence in naming substituted agent.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 195",
+      "essentialIngredients": ["Ordinary prudence in selection", "No responsibility if duty met"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 195"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s195-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-195",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-195", "agency", "review-required"]
 }
