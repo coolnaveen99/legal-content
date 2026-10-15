@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-203",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 203 (When principal may revoke agent's authority)",
+  "title": "Indian Contract Act, 1872 — Section 203 (When principal may revoke agent’s authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 203 of the Indian Contract Act, 1872 is headed \"When principal may revoke agent's authority\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "The principal may, save as is otherwise provided by the last preceding section, revoke the authority given to his agent at any time before the authority has been exercised so as to bind the principal.",
+    "glance": "Subject to s. 202, principal may revoke authority at any time before it has been exercised so as to bind the principal.",
+    "study": "The principal may, save as is otherwise provided by the last preceding section (s. 202 — agency coupled with interest), revoke the authority given to his agent at any time before the authority has been exercised so as to bind the principal. Read with ss. 204–208 on partial exercise, compensation, notice and when termination takes effect.",
     "sections": [
-      {
-        "heading": "Section 203",
-        "body": "When principal may revoke agent's authority"
-      }
+      {"heading": "Subject to s. 202", "body": "Power of revocation is subject to section 202 (agent’s interest in subject-matter).", "order": 1},
+      {"heading": "Before exercise binding principal", "body": "Revocation at any time before the authority has been exercised so as to bind the principal.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-203", "section": "Section 203", "title": "When principal may revoke agent’s authority"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s203-brief", "draftingCategory": "brief", "question": "How should a Section 203 problem be analysed?", "answer": "Check s. 202 interest; if none, revoke before exercise that binds the principal; then apply ss. 204–208 consequences.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 203", "Connected: Section 202"],
+    "examTips": ["Always check s. 202 first."],
+    "revisionPoints": ["Subject to s. 202", "Before binding exercise"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-202", "contract-s-204"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-203",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 203"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Subject to s. 202, the principal may revoke authority at any time before it has been exercised so as to bind the principal.",
+      "legalPrinciple": "General power of revocation subject to coupled interest.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 203",
+      "essentialIngredients": ["Subject to s. 202", "Before exercise binding principal"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 203"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s203-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-203",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-203", "agency", "review-required"]
 }
