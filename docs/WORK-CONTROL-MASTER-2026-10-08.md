@@ -42,14 +42,14 @@ No invented legal authority. No destructive shortening. Verify before enhancemen
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.71–s.72 (finder of goods; mistake/coercion restitution)
-Current main commit: 6ad4c7d888234da6a525314e12744da1a5c3701d
-Current status: review / SOURCE_CHECK_REQUIRED
+Topic/section range: s.73 (compensation for loss caused by breach)
+Current main commit: 02af46b8b99e499a79949665e2ab00daebe73df8
+Current status: source_check_required
 Current owner: current-assistant-contract-forward
-Latest evidence: s.71 and s.72 substantive content passes committed; statutory text/illustrations consulted; legal verification and case-law gates remain open
-Missing gate: full case-law verification and final lock
-Planned change: continue forward order with s.73 after checking current ownership and source evidence
-Validation: JSON parse succeeded before each content commit; automated schema/manifest/full-catalog CI outcome not yet observed; no case authority added
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/b2d5bdd37c95232138e9936065b0f596ae1cf6b3; https://github.com/coolnaveen99/legal-content/commit/6d5e808e480f07a8f6ccf99aa522615ce59a8431; https://github.com/coolnaveen99/legal-content/commit/6ad4c7d888234da6a525314e12744da1a5c3701d
+Latest evidence: existing s.73 record contains contradictory verification statements; its top-level and enhancement status were downgraded from verified to source_check_required to prevent unsupported legal-verification claims
+Missing gate: independently open and check official India Code Act text and amendments; reconcile the content and verification notes; run topic/schema/manifest and relevant full-catalog validators; do not claim case-law verification without an opened authoritative judgment
+Planned change: complete the s.73 statutory source check before any further substantive enhancement; proceed to s.74 only after s.73 gates and ownership are reconciled
+Validation: topic JSON parsed before commit; repository-wide schema/manifest/full-catalog validation not yet observed; no case authority added
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/02af46b8b99e499a79949665e2ab00daebe73df8
 
 If any field cannot be established, STOP.
