@@ -12,16 +12,25 @@
 | Range | Status |
 |-------|--------|
 | **s.1 → s.6** | **Done (review)** — FORWARD order |
-| **s.238 → s.222** | **Done (review)** — prior Agency reverse |
-| **s.221 → s.212** | **IN PROGRESS / claimed** — concurrent reverse bulk (other claim) |
+| **s.238 → s.212** | **Done (review)** — Agency reverse-order continuous |
 
-### Latest forward commits
-- s.4 Communication when complete: `22b345a6c2f7a005f363a0cb6b76187aa7e62385`
-- s.5 Revocation of proposals and acceptances: `b8ad8241c577dbc0d2bd344110ecfe3e6bda9b99`
-- s.6 Revocation how made: `3507048ac1ace45923355e4ab31d21e8f440d7d7`
+### Agency reverse bulk s.221–s.212 (this claim — closed)
+| Section | Title | Commit |
+|---------|--------|--------|
+| s.221 | Agent’s lien on principal’s property | `27c79a3c38addf23a4a53dfb5cdf893404b94915` |
+| s.220 | No remuneration for misconducted business | `d5205ec7909ae15a7b66a3ae5bd0aa26476197e7` |
+| s.219 | When agent’s remuneration becomes due | `2e9233afed0afcbfaf4d73a883b3b174f8b9abac` |
+| s.218 | Duty to pay sums received for principal | `482590513faacfb02ec15acb0962a436b26ca0f6` |
+| s.217 | Agent’s right of retainer | `1be055d961786cc6704ee9da70aac9bdcee42a21` |
+| s.216 | Principal’s right to benefit from own-account dealing | `c9ad314cad36664e5acf523ae4f348c0e19037ef` |
+| s.215 | Repudiation of own-account dealing without consent | `057411e9dbe89e93131e01c89e25e4e8312e97af` |
+| s.214 | Duty to communicate with principal | `333a7b029f927ae03ed2ccc76d388db1093dfbff` |
+| s.213 | Agent’s accounts | `300e98d2bfe58bac570469565b79df59c9c5ec38` |
+| s.212 | Skill and diligence required from agent | `fc8a4518bb50b03eecea44f37f777c300aae23a1` |
 
 ### Next
-**FORWARD:** continue from **s.7** (Acceptance must be absolute). Do not edit s.221–s.212 while claimed.
+**REVERSE Agency:** continue from **s.211** downward (min 10 sections when next bulk claimed).
+**FORWARD stream:** may continue from s.7 if separately claimed (non-overlapping).
 
 ---
 
@@ -41,18 +50,19 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act forward from s.7. Concurrent reverse claim on s.221–s.212 remains with its owner.
+**Reverse Agency:** closed through **s.212**. Next reverse bulk from **s.211** downward (user: reverse order, min 10 sections).
+**Forward stream:** s.1–s.6 done; may continue from s.7 under separate non-overlapping claim.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.4–s.6 (forward-order bulk)
-Current main commit: 3507048ac1ace45923355e4ab31d21e8f440d7d7
+Topic/section range: s.221–s.212 (Agency reverse bulk, 10 sections)
+Current main commit: fc8a4518bb50b03eecea44f37f777c300aae23a1
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-forward
-Latest evidence: s.4, s.5, s.6 expanded from catalog stubs to official India Code text
+Current owner: current-assistant-contract-reverse-s221-s212
+Latest evidence: all ten sections expanded from catalog stubs to official India Code text
 Missing gate: full case-law verification and final lock
-Planned change: Contract Act forward-order source alignment
+Planned change: reverse-order bulk expansion s.221–s.212
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 22b345a6c2f7a005f363a0cb6b76187aa7e62385; b8ad8241c577dbc0d2bd344110ecfe3e6bda9b99; 3507048ac1ace45923355e4ab31d21e8f440d7d7
+Evidence/commit: see table above
 
 If any field cannot be established, STOP.
