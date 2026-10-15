@@ -2,40 +2,56 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-193",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 193 (Agent's responsibility for sub-agent appointed without authority)",
+  "title": "Indian Contract Act, 1872 — Section 193 (Agent’s responsibility for sub-agent appointed without authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 193 of the Indian Contract Act, 1872 is headed \"Agent's responsibility for sub-agent appointed without authority\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Where an agent, without having authority to do so, has appointed a person to act as a sub-agent, the agent stands towards such person in the relation of a principal to an agent, and is responsible for his acts both to the principal and to third persons; the principal is not represented by or responsible for the acts of the person so employed, nor is that person responsible to the principal.",
+    "glance": "Unauthorized sub-agent: original agent is principal to that person and responsible to principal and third persons; principal not represented by or responsible for the unauthorized appointee.",
+    "study": "Where an agent, without having authority to do so, has appointed a person to act as a sub-agent, the agent stands towards such person in the relation of a principal to an agent, and is responsible for his acts both to the principal and to third persons; the principal is not represented by or responsible for the acts of the person so employed, nor is that person responsible to the principal. Contrast s. 192 (properly appointed sub-agent).",
     "sections": [
-      {
-        "heading": "Section 193",
-        "body": "Agent's responsibility for sub-agent appointed without authority"
-      }
+      {"heading": "Appointment without authority", "body": "Agent appoints a sub-agent without authority to do so.", "order": 1},
+      {"heading": "Agent’s responsibility", "body": "Agent stands as principal to that person and is responsible for his acts to the principal and third persons.", "order": 2},
+      {"heading": "Principal not bound", "body": "Principal is not represented by or responsible for the acts of the person so employed; that person is not responsible to the principal.", "order": 3}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-193", "section": "Section 193", "title": "Agent’s responsibility for sub-agent appointed without authority"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s193-brief", "draftingCategory": "brief", "question": "How should a Section 193 problem be analysed?", "answer": "Confirm lack of authority to appoint sub-agent; hold original agent responsible as principal to the appointee; exclude principal from representation and responsibility.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 193", "Connected: Section 192"],
+    "examTips": ["Unauthorized sub-agent falls on the appointing agent."],
+    "revisionPoints": ["Appointment without authority", "Agent’s responsibility", "Principal not bound"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-192", "contract-s-194"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-193",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 193"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Where a sub-agent is appointed without authority, the original agent is responsible as principal to that person and to the principal and third persons; the principal is not represented by the unauthorized appointee.",
+      "legalPrinciple": "Unauthorized sub-agent → appointing agent bears responsibility.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 193",
+      "essentialIngredients": ["Appointment without authority", "Agent’s responsibility", "Principal not bound"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 193"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s193-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-193",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-193", "agency", "review-required"]
 }
