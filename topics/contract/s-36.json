@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-36",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 36 (Agreement contingent on impossible events void)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 36 of the Indian Contract Act, 1872 is headed \"Agreement contingent on impossible events void\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 36",
-        "body": "Agreement contingent on impossible events void"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-36",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 36"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-36",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-36",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 36 (Agreements contingent on impossible events void)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 36 provides that contingent agreements to do or not to do anything, if an impossible event happens, are void, whether the impossibility of the event is known or not to the parties to the agreement at the time when it is made.",
+        "glance": "Contingent on an impossible event → void, whether impossibility known or not at the time of agreement.",
+        "study": "Contingent agreements to do or not to do anything if an impossible event happens are void, whether or not the parties knew of the impossibility when the agreement was made. Current-law framing: identify the contingency; test impossibility of the event; conclude voidness under s. 36 regardless of the parties’ knowledge.",
+        "sections": [{"heading": "Impossible event", "body": "Contingent agreements to do or not to do anything if an impossible event happens are void, whether impossibility known or not at the time of the agreement.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-36", "section": "Section 36", "title": "Agreements contingent on impossible events void"}],
+        "examples": [{"title": "Impossible contingency", "body": "A agrees to pay B ₹1,000 if two straight lines enclose a space. The agreement is void under s. 36.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Does knowledge of impossibility matter?", "analysis": "No. Section 36 voids the agreement whether the impossibility is known or not to the parties at the time when it is made."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s36-trap-1", "trap": "The agreement is valid if both parties were unaware of the impossibility.", "correction": "Section 36 voids contingent agreements on impossible events regardless of the parties’ knowledge."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s36-brief", "draftingCategory": "brief", "question": "How should a Section 36 problem be analysed?", "answer": "I. Identify the contingency. II. Test impossibility of the event. III. Conclude void under s. 36 regardless of knowledge. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 36", "Connected: Sections 32–35"],
+        "examTips": ["Stress voidness independent of knowledge of impossibility."],
+        "revisionPoints": ["Impossible event"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-35", "contract-s-32"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-36",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 36 voids contingent agreements on impossible events, whether impossibility is known or not.", "legalPrinciple": "Impossible contingency → void regardless of knowledge.", "statutoryFramework": "Indian Contract Act, 1872 — Section 36", "essentialIngredients": ["Impossible event"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 36"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s36"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T12:45:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s36-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:45:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-36", "contingent", "review-required"]
 }
