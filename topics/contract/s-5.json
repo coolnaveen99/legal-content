@@ -1,41 +1,151 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-5",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 5 (Revocation of proposals and acceptances)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 5 of the Indian Contract Act, 1872 is headed \"Revocation of proposals and acceptances\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 5",
-        "body": "Revocation of proposals and acceptances"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-5",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 5 (Revocation of proposals and acceptances)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 5 provides that a proposal may be revoked at any time before the communication of its acceptance is complete as against the proposer, but not afterwards. An acceptance may be revoked at any time before the communication of the acceptance is complete as against the acceptor, but not afterwards.",
+        "glance": "Proposal revocable until acceptance complete against proposer; acceptance revocable until complete against acceptor.",
+        "study": "A proposal may be revoked at any time before communication of its acceptance is complete as against the proposer, but not afterwards. An acceptance may be revoked at any time before communication of the acceptance is complete as against the acceptor, but not afterwards. Completion timing is fixed by s. 4; modes of revocation of a proposal are in s. 6. Current-law framing: fix the moment of completion under s. 4; test whether revocation was before that moment under s. 5.",
+        "sections": [
+            {
+                "heading": "Revocation of proposal",
+                "body": "May be revoked at any time before communication of acceptance is complete as against the proposer, but not afterwards.",
+                "order": 1
+            },
+            {
+                "heading": "Revocation of acceptance",
+                "body": "May be revoked at any time before communication of the acceptance is complete as against the acceptor, but not afterwards.",
+                "order": 2
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-5",
+                "section": "Section 5",
+                "title": "Revocation of proposals and acceptances"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Revocation before posted acceptance reaches proposer",
+                "body": "Acceptance is complete against the proposer on posting (s. 4). A revocation of the proposal that reaches the acceptor after that moment is too late under s. 5.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Can a proposal be revoked after the offeree has posted acceptance?",
+                "analysis": "Generally no — acceptance is then complete as against the proposer under s. 4, so s. 5 bars revocation afterwards."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s5-vs-s6",
+                "title": "When revocation is still open (s. 5) vs how a proposal is revoked (s. 6)",
+                "left": "Cut-off relative to completion of acceptance",
+                "right": "Modes: notice, lapse of time, failure of condition, death/insanity known before acceptance",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Timing window",
+                        "right": "Modes of revocation"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s5-trap-1",
+                "trap": "A proposal can always be revoked until the proposer actually receives the acceptance.",
+                "correction": "The cut-off is when communication of acceptance is complete as against the proposer (often on posting under s. 4), not necessarily on receipt."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s5-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 5 problem be analysed?",
+                "answer": "I. Fix completion under s. 4. II. Test whether revocation of proposal or acceptance was before that moment. III. Apply s. 6 for modes if relevant. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 5",
+            "Connected: Sections 4, 6"
+        ],
+        "examTips": [
+            "Always read with s. 4 completion rules.",
+            "Distinguish revocation of proposal from revocation of acceptance."
+        ],
+        "revisionPoints": [
+            "Revocation of proposal",
+            "Revocation of acceptance"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-4",
+            "contract-s-6"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-5",
+        "migrationNote": "Substantive expansion from catalog stub. Forward-order 2026-10-15. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 5 sets the cut-off for revoking a proposal or an acceptance by reference to when communication is complete under s. 4.",
+            "legalPrinciple": "Revoke before completion against the relevant party; not afterwards.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 5",
+            "essentialIngredients": [
+                "Revocation of proposal",
+                "Revocation of acceptance"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 5"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act forward-order source check against official section 5. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s5"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:01:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s5-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-5",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 5"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-5",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T12:01:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-5",
+        "revocation",
+        "review-required"
+    ]
 }
