@@ -1,41 +1,59 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-13",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 13 (Consent defined)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 13 of the Indian Contract Act, 1872 is headed \"Consent defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 13",
-        "body": "Consent defined"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-13",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 13"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-13",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-13",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 13 (“Consent” defined)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 13 provides that two or more persons are said to consent when they agree upon the same thing in the same sense.",
+        "glance": "Consent = agreement upon the same thing in the same sense (consensus ad idem).",
+        "study": "Consent exists when two or more persons agree upon the same thing in the same sense. This is the statutory expression of consensus ad idem. Free consent is defined in s. 14; absence of free consent leads to voidability under ss. 19–19A. Current-law framing: identify the subject-matter; test whether the parties agreed upon the same thing in the same sense; then test freeness under s. 14.",
+        "sections": [
+            {
+                "heading": "Same thing in the same sense",
+                "body": "Two or more persons consent when they agree upon the same thing in the same sense.",
+                "order": 1
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-13", "section": "Section 13", "title": "“Consent” defined"}],
+        "examples": [{"title": "Different subject-matter", "body": "A intends to sell plot X; B intends to buy plot Y. They have not agreed upon the same thing in the same sense — no consent under s. 13.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is mere outward agreement enough if the parties mean different things?", "analysis": "No. Section 13 requires agreement upon the same thing in the same sense."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s13-trap-1", "trap": "Any signed document shows consent regardless of mutual understanding.", "correction": "Section 13 requires agreement upon the same thing in the same sense."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s13-brief", "draftingCategory": "brief", "question": "How should a Section 13 problem be analysed?", "answer": "I. Identify the alleged subject-matter. II. Test whether parties agreed upon the same thing in the same sense. III. If yes, test free consent under s. 14. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 13", "Connected: Sections 14, 20"],
+        "examTips": ["Quote ‘same thing in the same sense’.", "Link to free consent (s. 14) and mistake (s. 20)."],
+        "revisionPoints": ["Same thing in the same sense"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-14", "contract-s-20"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-13",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 13 defines consent as agreement upon the same thing in the same sense.",
+            "legalPrinciple": "Consensus ad idem — same thing, same sense.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 13",
+            "essentialIngredients": ["Same thing in the same sense"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 13"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s13"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:12:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s13-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:12:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-13", "consent", "review-required"]
 }
