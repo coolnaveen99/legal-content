@@ -33,9 +33,7 @@
     "examples": [
       {
         "title": "Taking a lost bag into custody",
-        "body": "A finds a bag belonging to B and takes it home to safeguard it. Section 71 makes A subject to the responsibility of a bailee; the applicable standard and any liability depend on the relevant facts and bailment rules.",
-        "kind": "hypothetical",
-        "inventedCase": false
+        "body": "A finds a bag belonging to B and takes it home to safeguard it. Section 71 makes A subject to the responsibility of a bailee; the applicable standard and any liability depend on the relevant facts and bailment rules."
       }
     ],
     "hypotheticals": [
@@ -49,17 +47,18 @@
       }
     ],
     "relatedTopics": [
-      "topic:india:contract-s-151",
-      "topic:india:contract-s-152",
-      "topic:india:contract-s-168",
-      "topic:india:contract-s-169"
+      "contract-s-151",
+      "contract-s-152",
+      "contract-s-168",
+      "contract-s-169"
     ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-71",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 71"
+      "Indian Contract Act, 1872 — Section 71",
+      "Connected: Sections 151, 152, 168 and 169"
     ],
     "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract.",
     "glance": "Finder of another person's goods + taking them into custody → responsibility equivalent to a bailee.",
@@ -150,7 +149,69 @@
         "question": "How should a problem involving damage to found goods be analysed?",
         "answer": "Determine whether the goods belonged to another and were taken into custody, identify the applicable bailee standard, examine the care taken and cause of damage, consider sections 151–152, and avoid assuming liability solely from the fact of loss."
       }
-    ]
+    ],
+    "examTips": [
+      "State both elements: goods belonging to another and taking them into custody.",
+      "Distinguish the responsibility rule in s. 71 from the separate finder rights in ss. 168–169."
+    ],
+    "revisionPoints": [
+      "Finder takes custody → responsibility as bailee",
+      "Apply the relevant bailment rules, including ss. 151–152 where relevant",
+      "Analyse finder rights separately under ss. 168–169"
+    ],
+    "caseLawGate": "case-law-verification-open",
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "A finder who takes another person's goods into custody is subject to the same responsibility as a bailee.",
+      "legalPrinciple": "Finding goods belonging to another + taking them into custody → bailee-like responsibility.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 71",
+        "Connected: Sections 151–152 and 168–169"
+      ],
+      "essentialIngredients": [
+        "Goods belong to another person",
+        "Finder takes the goods into custody"
+      ],
+      "detailedExplanation": "Assess the custody trigger and apply the relevant bailment responsibility. Keep the separate statutory rights of a finder analytically distinct.",
+      "examples": [
+        "A person takes a stranger's bag into custody to safeguard it; analyse the applicable bailee standard."
+      ],
+      "distinctions": [
+        "Responsibility under s. 71 versus specified finder rights under ss. 168–169"
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Establish ownership and custody; identify the applicable care/liability rules; assess evidence of handling and loss."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the s. 71 rule and custody trigger."
+        ],
+        "tenMark": [
+          "Text and scope; trigger; bailment responsibility; connected ss. 151–152; distinguish ss. 168–169; apply facts."
+        ],
+        "sixteenMark": [
+          "Explain the rule and elements; analyse bailment standards and factual application; distinguish finder rights; identify unresolved authority/current-law questions."
+        ]
+      },
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 71"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Forward-order content pass based on accessible statutory text. Current-law and case-law verification remain open.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s71"
+      },
+      "caseLawGate": "case-law-verification-open",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Official Act landing page checked for section listing; the section's current legal application and case law remain to be verified."
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
