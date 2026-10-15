@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-4",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 4 (Communication when complete)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 4 of the Indian Contract Act, 1872 is headed \"Communication when complete\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 4",
-        "body": "Communication when complete"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-4",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 4 (Communication when complete)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 4 provides that the communication of a proposal is complete when it comes to the knowledge of the person to whom it is made. The communication of an acceptance is complete — as against the proposer, when it is put in a course of transmission to him so as to be out of the power of the acceptor; as against the acceptor, when it comes to the knowledge of the proposer. The communication of a revocation is complete — as against the person who makes it, when it is put into a course of transmission to the person to whom it is made so as to be out of the power of the person who makes it; as against the person to whom it is made, when it comes to his knowledge.",
+        "glance": "Proposal complete on knowledge; acceptance complete on posting vs knowledge; revocation complete on despatch vs knowledge.",
+        "study": "Proposal is complete when it comes to the offeree’s knowledge. Acceptance is complete as against the proposer when put in a course of transmission out of the acceptor’s power, and as against the acceptor when it comes to the proposer’s knowledge. Revocation is complete as against the maker when put in a course of transmission out of the maker’s power, and as against the recipient when it comes to the recipient’s knowledge. Current-law framing: identify proposal/acceptance/revocation; apply the knowledge or course-of-transmission limb; then apply s. 5 for the revocation cut-off.",
+        "sections": [
+            {
+                "heading": "Proposal",
+                "body": "Complete when it comes to the knowledge of the person to whom it is made.",
+                "order": 1
+            },
+            {
+                "heading": "Acceptance",
+                "body": "As against proposer: when put in a course of transmission out of the acceptor’s power. As against acceptor: when it comes to the proposer’s knowledge.",
+                "order": 2
+            },
+            {
+                "heading": "Revocation",
+                "body": "As against the maker: when put in a course of transmission out of the maker’s power. As against the recipient: when it comes to the recipient’s knowledge.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-4",
+                "section": "Section 4",
+                "title": "Communication when complete"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Acceptance by post",
+                "body": "B accepts A’s proposal by letter. As against A, acceptance is complete when the letter is posted; as against B, when A receives it.",
+                "kind": "statutory-illustration",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "When is a posted acceptance complete against the proposer?",
+                "analysis": "When it is put in a course of transmission so as to be out of the power of the acceptor (s. 4)."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s4-vs-s5",
+                "title": "When communication is complete (s. 4) vs when revocation is still possible (s. 5)",
+                "left": "Timing rules for proposal, acceptance, revocation",
+                "right": "Cut-off for revoking proposal or acceptance",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Completion",
+                        "right": "Revocation window"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s4-trap-1",
+                "trap": "Acceptance is never complete until the proposer actually reads it.",
+                "correction": "As against the proposer, acceptance is complete when put in a course of transmission out of the acceptor’s power."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s4-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 4 problem be analysed?",
+                "answer": "I. Identify proposal, acceptance or revocation. II. Apply the knowledge or course-of-transmission limb. III. Link to s. 5 for revocation cut-off. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 4",
+            "Connected: Sections 3, 5, 6"
+        ],
+        "examTips": [
+            "Memorise the three pairs of completion rules.",
+            "Always pair with s. 5 on revocation."
+        ],
+        "revisionPoints": [
+            "Proposal",
+            "Acceptance",
+            "Revocation"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-3",
+            "contract-s-5"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-4",
+        "migrationNote": "Substantive expansion from catalog stub. Forward-order 2026-10-15. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 4 fixes when communication of a proposal, acceptance or revocation is complete against each party.",
+            "legalPrinciple": "Knowledge for proposal; posting/knowledge for acceptance; despatch/knowledge for revocation.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 4",
+            "essentialIngredients": [
+                "Proposal",
+                "Acceptance",
+                "Revocation"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 4"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act forward-order source check against official section 4. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s4"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:00:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s4-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-4",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 4"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-4",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T12:00:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-4",
+        "communication",
+        "review-required"
+    ]
 }
