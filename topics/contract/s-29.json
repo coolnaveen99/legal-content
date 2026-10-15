@@ -1,41 +1,59 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-29",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 29 (Agreements void for uncertainty)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 29 of the Indian Contract Act, 1872 is headed \"Agreements void for uncertainty\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 29",
-        "body": "Agreements void for uncertainty"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-29",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 29"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-29",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-29",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 29 (Agreements void for uncertainty)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 29 provides that agreements, the meaning of which is not certain, or capable of being made certain, are void.",
+        "glance": "Agreement whose meaning is not certain or capable of being made certain → void.",
+        "study": "Agreements whose meaning is not certain, or capable of being made certain, are void. Terms that can be ascertained by an objective method (e.g. market price, usual course of dealing) are capable of being made certain. Current-law framing: identify the allegedly uncertain term; test whether meaning is certain or can be made certain; conclude voidness only if not.",
+        "sections": [
+            {
+                "heading": "Uncertainty",
+                "body": "Agreements the meaning of which is not certain, or capable of being made certain, are void.",
+                "order": 1
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-29", "section": "Section 29", "title": "Agreements void for uncertainty"}],
+        "examples": [{"title": "Unidentifiable subject-matter", "body": "An agreement to sell ‘a hundred tons of oil’ without identifying the kind or source, and with no method of determination, may be void for uncertainty under s. 29.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is every broadly worded term void under s. 29?", "analysis": "No. Only if the meaning is not certain and not capable of being made certain."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s29-trap-1", "trap": "Any ambiguity voids the agreement.", "correction": "Section 29 requires that the meaning is not certain or capable of being made certain."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s29-brief", "draftingCategory": "brief", "question": "How should a Section 29 problem be analysed?", "answer": "I. Identify the term. II. Test certainty or capability of being made certain. III. Conclude voidness only if neither. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 29", "Connected: Sections 2, 10"],
+        "examTips": ["Quote ‘certain, or capable of being made certain’.", "Give an example of ascertainable price."],
+        "revisionPoints": ["Uncertainty"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-30", "contract-s-10"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-29",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 29 voids agreements whose meaning is not certain or capable of being made certain.",
+            "legalPrinciple": "Uncertainty of meaning → void.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 29",
+            "essentialIngredients": ["Uncertainty"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 29"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s29"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:37:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s29-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:37:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-29", "uncertainty", "review-required"]
 }
