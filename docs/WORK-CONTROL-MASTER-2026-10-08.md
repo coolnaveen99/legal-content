@@ -11,7 +11,7 @@
 ### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.72** | **Done (review)** — FORWARD order |
+| **s.1 → s.75** | **Content expanded through s.75 (review / source gates open)** — FORWARD order |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
 ### Forward bulk s.61–s.70 (this claim)
@@ -42,14 +42,14 @@ No invented legal authority. No destructive shortening. Verify before enhancemen
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.73 (compensation for loss caused by breach)
-Current main commit: fadd93458b654ea4770a459723ad55385195db2e
-Current status: review / source verification incomplete
+Topic/section range: s.73–s.75 (compensation for breach; stipulated penalty; compensation after rightful rescission)
+Current main commits: Section 73 — 35d7238d4d85b549ede89db6cc8be04be07f21e1; Section 74 — 25c7cd74c3251d32619fd6d8b9145e07892d99a3; Section 75 — 3d1d789a5cdfad48a85033b81a32042284afa1e2
+Current status: content expanded; topics remain in review / source verification and release gates open
 Current owner: current-assistant-contract-forward
-Latest evidence: official India Code Indian Contract Act PDF opened; Section 73, its Explanation and statutory illustrations checked and expanded in the canonical topic; source-site log updated. The topic's lifecycle fields were aligned with the repository schema.
-Missing gate: independently check current amendment/consolidated-law status; run repository schema, manifest, enhancement, and relevant full-catalog validators; do not claim case-law verification without an authoritative judgment being opened.
-Planned change: finish the remaining s.73 verification and validation gates before advancing to s.74.
-Validation: JSON parsing succeeded during each edit; the topic's status/version values were checked against the schema enum/pattern. Full repository validators and CI status have not been confirmed. No case authority added.
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/45acb101b7256d9658520819873f388076b41452; https://github.com/coolnaveen99/legal-content/commit/067af523177b132dae17d61af104d850e2f1af4f; https://github.com/coolnaveen99/legal-content/commit/fadd93458b654ea4770a459723ad55385195db2e
+Latest evidence: official India Code Act PDF opened and Sections 73–75 text/illustrations checked; official Supreme Court PDF for Fateh Chand v. Balkishan Das opened and relevant Section 74 reasoning checked; source-site log updated
+Missing gates: reconcile current consolidated amendment status; run the repository's actual schema, manifest, relationship, enhancement and full-catalog validators on the latest main; check relevant authoritative case-law coverage for Sections 73 and 75; complete integrated consumer/E2E and publication gates. Do not treat these topic edits as repository-wide validation or publication approval.
+Planned change: continue the next forward-order section only after the current range's source and validation gates are reviewed; no case-law verification is claimed for Section 73 or Section 75.
+Validation: topic JSON parsed during edits; Section 74 enhancement has all required fields; Section 73/74/75 status values and Section 74 enhancement version were checked against schema enums/patterns. Repository-wide validators and CI status have not been confirmed.
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/35d7238d4d85b549ede89db6cc8be04be07f21e1; https://github.com/coolnaveen99/legal-content/commit/25c7cd74c3251d32619fd6d8b9145e07892d99a3; https://github.com/coolnaveen99/legal-content/commit/3d1d789a5cdfad48a85033b81a32042284afa1e2; https://github.com/coolnaveen99/legal-content/commit/3fb0f27b6742892d67d2e18081ca44b15562b137
 
 If any field cannot be established, STOP.
