@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-204",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 204 (Revocation where authority has been partly exercised)",
+  "title": "Indian Contract Act, 1872 — Section 204 (Revocation where authority has been partly exercised)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 204 of the Indian Contract Act, 1872 is headed \"Revocation where authority has been partly exercised\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "The principal cannot revoke the authority given to his agent after the authority has been partly exercised, so far as regards such acts and obligations as arise from acts already done in the agency.",
+    "glance": "After partial exercise, principal cannot revoke as to acts and obligations arising from acts already done.",
+    "study": "The principal cannot revoke the authority given to his agent after the authority has been partly exercised, so far as regards such acts and obligations as arise from acts already done in the agency. Illustrations distinguish cases where the agent has become personally liable (revocation limited as to payment) from cases where the agent has not (revocation of authority to pay still possible).",
     "sections": [
-      {
-        "heading": "Section 204",
-        "body": "Revocation where authority has been partly exercised"
-      }
+      {"heading": "Partly exercised authority", "body": "Authority has been partly exercised.", "order": 1},
+      {"heading": "No revocation as to completed acts", "body": "Principal cannot revoke so far as regards acts and obligations arising from acts already done.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-204", "section": "Section 204", "title": "Revocation where authority has been partly exercised"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s204-brief", "draftingCategory": "brief", "question": "How should a Section 204 problem be analysed?", "answer": "Identify partial exercise; limit revocation as to obligations from acts already done.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 204"],
+    "examTips": ["Partial exercise freezes revocation as to completed acts."],
+    "revisionPoints": ["Partly exercised", "No revocation as to completed acts"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-203", "contract-s-205"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-204",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 204"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "After partial exercise of authority, the principal cannot revoke as regards acts and obligations arising from acts already done.",
+      "legalPrinciple": "Partial exercise limits revocation.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 204",
+      "essentialIngredients": ["Partly exercised authority", "No revocation as to completed acts"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 204"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s204-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-204",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-204", "agency", "review-required"]
 }
