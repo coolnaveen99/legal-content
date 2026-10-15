@@ -15,7 +15,7 @@ Future enhancements must use a site listed here, or add the new site to this fil
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf | Section 17 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/5753/1/indian_registration_act_1908_searchable.pdf | Section 18 |
 | Registration Act, 1908 | https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf | Section 49 |
-| Indian Contract Act, 1872 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf | Contract subject section rules and statutory illustrations; Sections 73–75 and 126–130 statutory text/illustrations checked 2026-10-15 |
+| Indian Contract Act, 1872 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf | Contract subject section rules and statutory illustrations; Sections 73–75 and 126–131 statutory text/illustrations checked 2026-10-15 |
 | Indian Partnership Act, 1932 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/19863/1/indian_partnership_act_1932.pdf | Contract subject Partnership topics, sections 1–74 |
 | Sale of Goods Act, 1930 — statutory text PDF | https://www.indiacode.nic.in/bitstream/123456789/2390/1/193003.pdf | Contract subject Sale of Goods topics, sections 1–66 |
 | Specific Relief Act, 1963 — India Code handle | https://www.indiacode.nic.in/indiacode/handle/123456789/1583?view_type=browse | Contract subject specific-performance topic, sections 10, 11, 14, 16 and 20A |
