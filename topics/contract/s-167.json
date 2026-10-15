@@ -2,40 +2,112 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-167",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 167 (Right of third person claiming goods bailed)",
+  "title": "Indian Contract Act, 1872 — Section 167 (Right of third person claiming goods bailed)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 167 of the Indian Contract Act, 1872 is headed \"Right of third person claiming goods bailed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 167 provides that if a person, other than the bailor, claims goods bailed, he may apply to the Court to stop the delivery of the goods to the bailor, and to decide the title to the goods.",
+    "glance": "A third person claiming goods bailed may apply to the Court to stop delivery to the bailor and to decide title.",
+    "study": "If a person, other than the bailor, claims goods bailed, he may apply to the Court to stop the delivery of the goods to the bailor, and to decide the title to the goods. Current-law framing: provides a court mechanism for competing claims to goods in the bailee's possession.",
     "sections": [
       {
-        "heading": "Section 167",
-        "body": "Right of third person claiming goods bailed"
+        "heading": "Core rule",
+        "body": "If a person, other than the bailor, claims goods bailed, he may apply to the Court to stop the delivery of the goods to the bailor, and to decide the title to the goods.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Third-party claim",
+        "body": "A third person claims title to goods in the bailee's possession and applies to Court under Section 167 to stop delivery to the bailor."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A third person claims the goods bailed. What remedy does Section 167 provide?",
+        "analysis": "He may apply to the Court to stop delivery to the bailor and to decide the title."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-166"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-167",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 167"
+      "Indian Contract Act, 1872 — Section 167"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 167's procedure for a third person claiming goods bailed."
+      ],
+      "definition": "If a person, other than the bailor, claims goods bailed, he may apply to the Court to stop the delivery of the goods to the bailor, and to decide the title to the goods.",
+      "legalPrinciple": "Third-party claimant may apply to Court to stop delivery to the bailor and have title decided.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 167"
+      ],
+      "essentialIngredients": [
+        "Person other than the bailor claims the goods",
+        "Application to Court to stop delivery and decide title"
+      ],
+      "detailedExplanation": "Section 167 provides that if a person, other than the bailor, claims goods bailed, he may apply to the Court to stop the delivery of the goods to the bailor, and to decide the title to the goods.",
+      "examples": [
+        "Court application to restrain delivery and determine title."
+      ],
+      "distinctions": [
+        "Provides a judicial route for competing claims while goods are with the bailee."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify third-party claim.",
+        "Conclude right to apply to Court under Section 167."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 167",
+          "Identify third-party claim",
+          "Conclude right to apply to Court"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Court process",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Third person may apply to Court to stop delivery to bailor and decide title.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 167 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-167",
-    "review"
+    "source-check-required"
   ]
 }

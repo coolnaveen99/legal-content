@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-168",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 168 (Right of finder of goods)",
+  "title": "Indian Contract Act, 1872 — Section 168 (Right of finder of goods)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 168 of the Indian Contract Act, 1872 is headed \"Right of finder of goods\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 168 provides that the finder of goods has no right to sue the owner for compensation for trouble and expense voluntarily incurred by him to preserve the goods and to find out the owner; but he may retain the goods against the owner until he receives such compensation; and where the owner has offered a specific reward for the return of goods lost, the finder may sue for such reward, and may retain the goods until he receives it.",
+    "glance": "Finder has no right to sue for voluntary expenses but may retain the goods until compensated; if a specific reward was offered, he may sue for it and retain until paid.",
+    "study": "The finder of goods has no right to sue the owner for compensation for trouble and expense voluntarily incurred by him to preserve the goods and to find out the owner; but he may retain the goods against the owner until he receives such compensation; and where the owner has offered a specific reward for the return of goods lost, the finder may sue for such reward, and may retain the goods until he receives it. Current-law framing: limited rights of retainer and, where offered, claim for specific reward.",
     "sections": [
       {
-        "heading": "Section 168",
-        "body": "Right of finder of goods"
+        "heading": "Core rule",
+        "body": "The finder of goods has no right to sue the owner for compensation for trouble and expense voluntarily incurred by him to preserve the goods and to find out the owner; but he may retain the goods against the owner until he receives such compensation; and where the owner has offered a specific reward for the return of goods lost, the finder may sue for such reward, and may retain the goods until he receives it.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Finder's retainer",
+        "body": "Finder incurs voluntary expenses. He cannot sue for them but may retain the goods until compensated. If a specific reward was offered, he may sue for the reward and retain until paid."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Finder incurs expenses finding the owner. Can he sue for compensation?",
+        "analysis": "No. Section 168 provides no right to sue for voluntary trouble and expense, but he may retain the goods until compensated. If a specific reward was offered, he may sue for that reward."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-169"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-168",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 168"
+      "Indian Contract Act, 1872 — Section 168"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 168's rules on the finder's rights regarding compensation and reward."
+      ],
+      "definition": "The finder of goods has no right to sue the owner for compensation for trouble and expense voluntarily incurred by him to preserve the goods and to find out the owner; but he may retain the goods against the owner until he receives such compensation; and where the owner has offered a specific reward for the return of goods lost, the finder may sue for such reward, and may retain the goods until he receives it.",
+      "legalPrinciple": "Finder may retain for voluntary expenses but cannot sue for them; may sue for and retain until payment of a specific reward if offered.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 168"
+      ],
+      "essentialIngredients": [
+        "Finder of goods",
+        "Voluntary trouble and expense",
+        "Right of retainer",
+        "Specific reward if offered"
+      ],
+      "detailedExplanation": "Section 168 provides that the finder has no right to sue for compensation for voluntary trouble and expense to preserve the goods and find the owner, but may retain the goods until he receives such compensation. Where the owner has offered a specific reward for the return of lost goods, the finder may sue for such reward and may retain the goods until he receives it.",
+      "examples": [
+        "Retainer for voluntary expenses; claim for specific reward if offered."
+      ],
+      "distinctions": [
+        "No suit for voluntary expenses; suit allowed for specific reward."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify finder and voluntary expenses or specific reward.",
+        "Conclude rights of retainer and, where applicable, suit for reward."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 168",
+          "Identify voluntary expenses or specific reward",
+          "Conclude rights"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Retainer and reward",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "No right to sue for voluntary expenses; right of retainer until compensated.",
+        "May sue for specific reward if offered and retain until paid.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 168 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-168",
-    "review"
+    "source-check-required"
   ]
 }

@@ -2,40 +2,117 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-170",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 170 (Bailee's particular lien)",
+  "title": "Indian Contract Act, 1872 — Section 170 (Bailee's particular lien)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 170 of the Indian Contract Act, 1872 is headed \"Bailee's particular lien\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 170 provides that where the bailee has, in accordance with the purpose of the bailment, rendered any service involving the exercise of labour or skill in respect of the goods bailed, he has, in the absence of a contract to the contrary, a right to retain such goods until he receives due remuneration for the services he has rendered in respect of them.",
+    "glance": "Bailee who has rendered services involving labour or skill in accordance with the purpose of the bailment has a particular lien to retain the goods until due remuneration is paid, absent a contrary contract.",
+    "study": "Where the bailee has, in accordance with the purpose of the bailment, rendered any service involving the exercise of labour or skill in respect of the goods bailed, he has, in the absence of a contract to the contrary, a right to retain such goods until he receives due remuneration for the services he has rendered in respect of them. Current-law framing: particular (not general) lien for services involving labour or skill performed for the purpose of the bailment.",
     "sections": [
       {
-        "heading": "Section 170",
-        "body": "Bailee's particular lien"
+        "heading": "Core rule",
+        "body": "Where the bailee has, in accordance with the purpose of the bailment, rendered any service involving the exercise of labour or skill in respect of the goods bailed, he has, in the absence of a contract to the contrary, a right to retain such goods until he receives due remuneration for the services he has rendered in respect of them.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Repairer's lien",
+        "body": "Bailee repairs goods in accordance with the bailment. Absent contrary contract, he may retain them until due remuneration is paid under Section 170."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee has exercised skill on the goods for the purpose of the bailment. May he retain them until paid?",
+        "analysis": "Yes, in the absence of a contract to the contrary, under Section 170."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-171"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-170",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 170"
+      "Indian Contract Act, 1872 — Section 170"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 170's particular lien for bailees who render services involving labour or skill."
+      ],
+      "definition": "Where the bailee has, in accordance with the purpose of the bailment, rendered any service involving the exercise of labour or skill in respect of the goods bailed, he has, in the absence of a contract to the contrary, a right to retain such goods until he receives due remuneration for the services he has rendered in respect of them.",
+      "legalPrinciple": "Particular lien arises for services involving labour or skill performed in accordance with the purpose of the bailment, absent contrary contract.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 170"
+      ],
+      "essentialIngredients": [
+        "Service involving labour or skill",
+        "In accordance with the purpose of the bailment",
+        "Absence of contract to the contrary",
+        "Right to retain until due remuneration"
+      ],
+      "detailedExplanation": "Section 170 gives the bailee a right to retain the goods until he receives due remuneration where he has, in accordance with the purpose of the bailment, rendered any service involving the exercise of labour or skill in respect of the goods, in the absence of a contract to the contrary. This is a particular lien limited to the goods and the services rendered on them.",
+      "examples": [
+        "Repairer or skilled worker may retain the goods until paid."
+      ],
+      "distinctions": [
+        "Particular lien under Section 170; general lien under Section 171 for specified persons."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify service involving labour or skill for the purpose of the bailment.",
+        "Check for contrary contract.",
+        "Conclude particular lien until remuneration is paid."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 170",
+          "Identify service and no contrary contract",
+          "Conclude particular lien"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Particular nature",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 171",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Bailee has particular lien for services involving labour or skill performed for the purpose of the bailment.",
+        "Absent a contrary contract.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 170 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-170",
-    "review"
+    "source-check-required"
   ]
 }

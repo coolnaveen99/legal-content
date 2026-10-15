@@ -2,40 +2,114 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-169",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 169 (When finder of thing commonly on sale may sell it)",
+  "title": "Indian Contract Act, 1872 — Section 169 (When finder of thing commonly on sale may sell it)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 169 of the Indian Contract Act, 1872 is headed \"When finder of thing commonly on sale may sell it\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 169 provides that when a thing which is commonly the subject of sale is lost, if the owner cannot with reasonable diligence be found, or if he refuses, upon demand, to pay the lawful charges of the finder, the finder may sell it— (1) when the thing is in danger of perishing or of losing the greater part of its value; or (2) when the lawful charges of the finder, in respect of the thing found, amount to two-thirds of its value.",
+    "glance": "Finder may sell a commonly saleable lost thing if the owner cannot reasonably be found or refuses to pay lawful charges, when the thing is perishable or losing value, or when charges amount to two-thirds of its value.",
+    "study": "When a thing which is commonly the subject of sale is lost, if the owner cannot with reasonable diligence be found, or if he refuses, upon demand, to pay the lawful charges of the finder, the finder may sell it— (1) when the thing is in danger of perishing or of losing the greater part of its value; or (2) when the lawful charges of the finder, in respect of the thing found, amount to two-thirds of its value. Current-law framing: limited power of sale in specified circumstances.",
     "sections": [
       {
-        "heading": "Section 169",
-        "body": "When finder of thing commonly on sale may sell it"
+        "heading": "Core rule",
+        "body": "When a thing which is commonly the subject of sale is lost, if the owner cannot with reasonable diligence be found, or if he refuses, upon demand, to pay the lawful charges of the finder, the finder may sell it— (1) when the thing is in danger of perishing or of losing the greater part of its value; or (2) when the lawful charges of the finder, in respect of the thing found, amount to two-thirds of its value.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Perishable goods",
+        "body": "Finder of perishable goods commonly sold, owner not found with reasonable diligence. Finder may sell under Section 169."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Finder's lawful charges amount to two-thirds of the value of a commonly saleable lost thing, and the owner refuses to pay. May the finder sell?",
+        "analysis": "Yes, under Section 169."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-168"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-169",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 169"
+      "Indian Contract Act, 1872 — Section 169"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 169's conditions for a finder to sell the thing found."
+      ],
+      "definition": "When a thing which is commonly the subject of sale is lost, if the owner cannot with reasonable diligence be found, or if he refuses, upon demand, to pay the lawful charges of the finder, the finder may sell it— (1) when the thing is in danger of perishing or of losing the greater part of its value; or (2) when the lawful charges of the finder, in respect of the thing found, amount to two-thirds of its value.",
+      "legalPrinciple": "Finder may sell in specified cases where owner cannot be found or refuses to pay charges, and the thing is perishable/losing value or charges reach two-thirds of value.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 169"
+      ],
+      "essentialIngredients": [
+        "Thing commonly the subject of sale",
+        "Owner cannot with reasonable diligence be found or refuses to pay lawful charges",
+        "Thing in danger of perishing or losing greater part of value, or charges amount to two-thirds of value"
+      ],
+      "detailedExplanation": "Section 169 allows the finder to sell a lost thing commonly the subject of sale if the owner cannot with reasonable diligence be found or refuses on demand to pay the lawful charges, and either the thing is in danger of perishing or losing the greater part of its value, or the lawful charges amount to two-thirds of its value.",
+      "examples": [
+        "Perishable goods or high relative charges permit sale in the stated circumstances."
+      ],
+      "distinctions": [
+        "Limited statutory power of sale for finders; not a general right."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify commonly saleable thing and owner issues.",
+        "Identify perishability or two-thirds charges.",
+        "Conclude power to sell."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 169",
+          "Identify conditions",
+          "Conclude power to sell"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Conditions for sale",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Finder may sell in limited circumstances where owner cannot be found or refuses to pay and the thing is at risk or charges are high.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 169 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-169",
-    "review"
+    "source-check-required"
   ]
 }

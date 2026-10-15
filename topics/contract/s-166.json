@@ -2,40 +2,112 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-166",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 166 (Bailee not responsible on re-delivery to bailor without title)",
+  "title": "Indian Contract Act, 1872 — Section 166 (Bailee not responsible on re-delivery to bailor without title)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 166 of the Indian Contract Act, 1872 is headed \"Bailee not responsible on re-delivery to bailor without title\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 166 provides that if the bailor has no title to the goods, and the bailee, in good faith, delivers them back to, or according to the directions of, the bailor, the bailee is not responsible to the owner in respect of such delivery.",
+    "glance": "Bailee who in good faith re-delivers goods to a bailor without title is not responsible to the true owner for that delivery.",
+    "study": "If the bailor has no title to the goods, and the bailee, in good faith, delivers them back to, or according to the directions of, the bailor, the bailee is not responsible to the owner in respect of such delivery. Current-law framing: good-faith re-delivery to the person from whom the bailee received the goods protects the bailee.",
     "sections": [
       {
-        "heading": "Section 166",
-        "body": "Bailee not responsible on re-delivery to bailor without title"
+        "heading": "Core rule",
+        "body": "If the bailor has no title to the goods, and the bailee, in good faith, delivers them back to, or according to the directions of, the bailor, the bailee is not responsible to the owner in respect of such delivery.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Good-faith re-delivery",
+        "body": "Bailee returns goods in good faith to a bailor who lacked title. Bailee is not responsible to the true owner under Section 166."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee in good faith returns goods to a bailor who had no title. Is the bailee liable to the true owner?",
+        "analysis": "No. Section 166 protects the bailee for such good-faith re-delivery."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-164"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-166",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 166"
+      "Indian Contract Act, 1872 — Section 166"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 166's protection for good-faith re-delivery to a bailor without title."
+      ],
+      "definition": "If the bailor has no title to the goods, and the bailee, in good faith, delivers them back to, or according to the directions of, the bailor, the bailee is not responsible to the owner in respect of such delivery.",
+      "legalPrinciple": "Good-faith re-delivery to the bailor protects the bailee even if the bailor had no title.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 166"
+      ],
+      "essentialIngredients": [
+        "Bailor has no title",
+        "Bailee delivers back in good faith to or according to directions of the bailor"
+      ],
+      "detailedExplanation": "Section 166 provides that if the bailor has no title to the goods, and the bailee, in good faith, delivers them back to, or according to the directions of, the bailor, the bailee is not responsible to the owner in respect of such delivery.",
+      "examples": [
+        "Good-faith return to the person who bailed the goods protects the bailee."
+      ],
+      "distinctions": [
+        "Protects the bailee for re-delivery to the bailor; other liabilities may arise differently."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Confirm good faith and re-delivery to the bailor.",
+        "Conclude no responsibility to the true owner for that delivery."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 166",
+          "Identify good-faith re-delivery",
+          "Conclude no liability"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Good faith",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Good-faith re-delivery to bailor without title does not make bailee responsible to the owner.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 166 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-166",
-    "review"
+    "source-check-required"
   ]
 }

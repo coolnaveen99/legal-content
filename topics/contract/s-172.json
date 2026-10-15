@@ -2,40 +2,120 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-172",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 172 (Pledge, pawnor and pawnee defined)",
+  "title": "Indian Contract Act, 1872 — Section 172 (Pledge, pawnor and pawnee defined)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 172 of the Indian Contract Act, 1872 is headed \"Pledge, pawnor and pawnee defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 172 provides that the bailment of goods as security for payment of a debt or performance of a promise is called ‘pledge’. The bailor is in this case called the ‘pawnor’. The bailee is called ‘pawnee’.",
+    "glance": "Pledge is the bailment of goods as security for payment of a debt or performance of a promise. The bailor is the pawnor; the bailee is the pawnee.",
+    "study": "The bailment of goods as security for payment of a debt or performance of a promise is called ‘pledge’. The bailor is in this case called the ‘pawnor’. The bailee is called ‘pawnee’. Current-law framing: pledge is a special form of bailment whose purpose is security.",
     "sections": [
       {
-        "heading": "Section 172",
-        "body": "Pledge, pawnor and pawnee defined"
+        "heading": "Definition",
+        "body": "The bailment of goods as security for payment of a debt or performance of a promise is called ‘pledge’. The bailor is in this case called the ‘pawnor’. The bailee is called ‘pawnee’.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Goods as security",
+        "body": "A delivers goods to B as security for a debt. This is a pledge: A is pawnor, B is pawnee."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Goods are delivered as security for repayment of a loan. Is this a pledge?",
+        "analysis": "Yes. Section 172 defines pledge as the bailment of goods as security for payment of a debt or performance of a promise."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-148",
+      "topic:india:contract-s-173"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-172",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 172"
+      "Indian Contract Act, 1872 — Section 172"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the statutory definition of pledge under Section 172.",
+        "Identify pawnor and pawnee."
+      ],
+      "definition": "The bailment of goods as security for payment of a debt or performance of a promise is called ‘pledge’. The bailor is in this case called the ‘pawnor’. The bailee is called ‘pawnee’.",
+      "legalPrinciple": "Pledge is a special bailment of goods as security for a debt or promise.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 172"
+      ],
+      "essentialIngredients": [
+        "Bailment of goods",
+        "As security for payment of a debt or performance of a promise",
+        "Identification of pawnor and pawnee"
+      ],
+      "detailedExplanation": "Section 172 defines pledge as the bailment of goods as security for payment of a debt or performance of a promise. The bailor is called the pawnor and the bailee the pawnee. Pledge is thus a special form of bailment under Section 148.",
+      "examples": [
+        "Delivery of jewellery as security for a loan is a pledge."
+      ],
+      "distinctions": [
+        "Pledge is a special bailment for security; ordinary bailment may be for other purposes."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify delivery as security.",
+        "Identify the debt or promise.",
+        "Conclude existence of a pledge."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 172",
+          "Identify security purpose",
+          "Identify parties",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory definition",
+          "Parties",
+          "Relation to bailment",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from ordinary bailment",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pledge is bailment of goods as security for a debt or promise.",
+        "Pawnor is the bailor; pawnee is the bailee.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 172 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-172",
-    "review"
+    "source-check-required"
   ]
 }

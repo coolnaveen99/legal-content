@@ -2,40 +2,116 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-171",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 171 (General lien of bankers, factors, wharfingers, attorneys and policy-brokers)",
+  "title": "Indian Contract Act, 1872 — Section 171 (General lien of bankers, factors, wharfingers, attorneys and policy-brokers)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 171 of the Indian Contract Act, 1872 is headed \"General lien of bankers, factors, wharfingers, attorneys and policy-brokers\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 171 provides that bankers, factors, wharfingers, attorneys of a High Court and policy-brokers may, in the absence of a contract to the contrary, retain, as a security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect.",
+    "glance": "Specified persons (bankers, factors, wharfingers, High Court attorneys, policy-brokers) have a general lien for the general balance of account, absent a contrary contract; others do not unless by express contract.",
+    "study": "Bankers, factors, wharfingers, attorneys of a High Court and policy-brokers may, in the absence of a contract to the contrary, retain, as a security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect. Current-law framing: limited class of persons entitled to general lien.",
     "sections": [
       {
-        "heading": "Section 171",
-        "body": "General lien of bankers, factors, wharfingers, attorneys and policy-brokers"
+        "heading": "Core rule",
+        "body": "Bankers, factors, wharfingers, attorneys of a High Court and policy-brokers may, in the absence of a contract to the contrary, retain, as a security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Banker's general lien",
+        "body": "Banker may retain goods bailed as security for the general balance of account, absent a contrary contract, under Section 171."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does a factor have a general lien for the balance of account?",
+        "analysis": "Yes, in the absence of a contract to the contrary, under Section 171."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-170"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-171",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 171"
+      "Indian Contract Act, 1872 — Section 171"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 171's general lien for specified persons."
+      ],
+      "definition": "Bankers, factors, wharfingers, attorneys of a High Court and policy-brokers may, in the absence of a contract to the contrary, retain, as a security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect.",
+      "legalPrinciple": "Specified persons have a general lien for the general balance of account absent a contrary contract; others require an express contract.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 171"
+      ],
+      "essentialIngredients": [
+        "Person within the specified class (banker, factor, wharfinger, High Court attorney, policy-broker)",
+        "Absence of contract to the contrary",
+        "Retention for general balance of account"
+      ],
+      "detailedExplanation": "Section 171 confers a general lien on bankers, factors, wharfingers, attorneys of a High Court and policy-brokers to retain goods bailed to them as security for a general balance of account, in the absence of a contract to the contrary. No other persons have such a right unless there is an express contract to that effect.",
+      "examples": [
+        "Banker or factor may retain goods for general account balance."
+      ],
+      "distinctions": [
+        "General lien under Section 171 for specified persons; particular lien under Section 170 for services involving labour or skill."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify whether the person is within the specified class.",
+        "Check for contrary or express contract.",
+        "Conclude existence of general lien."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 171",
+          "Identify specified person and no contrary contract",
+          "Conclude general lien"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Specified class",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from s. 170",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Specified persons have general lien for general balance of account.",
+        "Others require express contract.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 171 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:35:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-171",
-    "review"
+    "source-check-required"
   ]
 }
