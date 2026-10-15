@@ -47,6 +47,8 @@ Indian Kanoon, blogs, commentaries, and model-answer sites are not an authority 
 
 | Supreme Court JUDIS PDF | https://api.sci.gov.in/jonew/judis/3634.pdf | Contract Act Section 74: Fateh Chand v. Balkishan Das, judgment 15/01/1963; reasonable-compensation and forfeiture discussion checked 2026-10-15 |
 
+| Supreme Court Reports (judgment hosted by High Court of Jammu & Kashmir and Ladakh) | https://jkhighcourt.nic.in/upload/judgments/2023/sci/1962_1_653_661.pdf | Section 73: M/s. Murlidhar Chiranjilal v. M/s. Harishchandra Dwarkadas, AIR 1962 SC 366; 1962 SCR (1) 653; market-rate measure, mitigation and special-loss knowledge checked 2026-10-15 |
+
 ## Rule for the next enhancement
 
 1. Pick the subject.
