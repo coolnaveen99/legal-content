@@ -2,40 +2,146 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-134",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 134 (Discharge of surety by release or discharge of principal debtor)",
+  "title": "Indian Contract Act, 1872 — Section 134 (Discharge of surety by release or discharge of principal debtor)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 134 of the Indian Contract Act, 1872 is headed \"Discharge of surety by release or discharge of principal debtor\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 134 provides that the surety is discharged by any contract between the creditor and the principal debtor by which the principal debtor is released, or by any act or omission of the creditor the legal consequence of which is the discharge of the principal debtor. The statutory illustrations cover release by composition with creditors and discharge by the creditor's act preventing performance.",
+    "glance": "Release or legal discharge of the principal debtor by the creditor discharges the surety.",
+    "study": "The surety is discharged by any contract between the creditor and the principal debtor by which the principal debtor is released, or by any act or omission of the creditor the legal consequence of which is the discharge of the principal debtor. Identify the release or the act/omission and its legal effect of discharging the principal debtor. Current-law framing: the discharge of the surety follows the legal discharge of the principal debtor.",
     "sections": [
       {
-        "heading": "Section 134",
-        "body": "Discharge of surety by release or discharge of principal debtor"
+        "heading": "Core rule",
+        "body": "The surety is discharged by any contract between the creditor and the principal debtor by which the principal debtor is released, or by any act or omission of the creditor the legal consequence of which is the discharge of the principal debtor.",
+        "order": 1
+      },
+      {
+        "heading": "Release by contract",
+        "body": "A contract that releases the principal debtor discharges the surety.",
+        "order": 2
+      },
+      {
+        "heading": "Act or omission",
+        "body": "An act or omission of the creditor whose legal consequence is discharge of the principal debtor also discharges the surety.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Release by composition",
+        "body": "A guarantees goods supplied by C to B. B later assigns property to creditors including C in consideration of release. A is discharged."
+      },
+      {
+        "title": "Act preventing performance",
+        "body": "C guarantees A's performance of growing indigo for B. B diverts water necessary for the crop, preventing performance. C is discharged."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor releases the principal debtor by agreement without the surety's assent. Is the surety discharged?",
+        "analysis": "Yes. Section 134 provides that release of the principal debtor by contract discharges the surety."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-133",
+      "topic:india:contract-s-135",
+      "topic:india:contract-s-137"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 134 Illustration (a): release by composition with creditors discharges the surety.",
+      "Section 134 Illustration (b): creditor's act preventing performance discharges the surety."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-134",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 134"
+      "Indian Contract Act, 1872 — Section 134 and Illustrations",
+      "Related provisions: Sections 133 and 135"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and illustrations. This topic remains in review pending remaining legal verification and release gates.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 134's rule on discharge by release or legal discharge of the principal debtor.",
+        "Distinguish contractual release from act/omission producing discharge.",
+        "Apply the statutory illustrations."
+      ],
+      "definition": "The surety is discharged by any contract between the creditor and the principal debtor by which the principal debtor is released, or by any act or omission of the creditor the legal consequence of which is the discharge of the principal debtor.",
+      "legalPrinciple": "Discharge of the principal debtor by the creditor (by contract or by act/omission with that legal consequence) discharges the surety.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 134 and Illustrations",
+        "Related provisions: Sections 133 and 135"
+      ],
+      "essentialIngredients": [
+        "Contract releasing the principal debtor, or",
+        "Act or omission of the creditor whose legal consequence is discharge of the principal debtor"
+      ],
+      "detailedExplanation": "Section 134 discharges the surety when the principal debtor is released by contract with the creditor, or when an act or omission of the creditor has the legal consequence of discharging the principal debtor. The illustrations confirm discharge on composition-release and on an act that prevents performance. Mere forbearance is addressed separately in Section 137.",
+      "examples": [
+        "Composition releasing the principal debtor discharges the surety.",
+        "Creditor's act preventing the principal debtor's performance discharges the surety."
+      ],
+      "distinctions": [
+        "Section 134 concerns release or legal discharge of the principal debtor; Section 137 provides that mere forbearance to sue does not discharge the surety."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify any release of the principal debtor or act/omission with that legal effect.",
+        "Confirm the legal consequence is discharge of the principal debtor.",
+        "Conclude that the surety is discharged."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 134",
+          "Identify release or discharging act/omission",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Contractual release",
+          "Act or omission",
+          "Illustrations",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Illustrations",
+          "Distinction from s. 137",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Release of the principal debtor discharges the surety.",
+        "An act or omission of the creditor that legally discharges the principal debtor also discharges the surety.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF checked for Section 134 and illustrations.",
+          "Statutory wording supports discharge on release or legal discharge of the principal debtor.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-134",
-    "review"
+    "source-check-required"
   ]
 }

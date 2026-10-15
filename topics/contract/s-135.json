@@ -2,40 +2,147 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-135",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 135 (Discharge of surety when creditor compounds, gives time, or agrees not to sue)",
+  "title": "Indian Contract Act, 1872 — Section 135 (Discharge of surety when creditor compounds with, gives time to, or agrees not to sue, principal debtor)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 135 of the Indian Contract Act, 1872 is headed \"Discharge of surety when creditor compounds, gives time, or agrees not to sue\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 135 provides that a contract between the creditor and the principal debtor, by which the creditor makes a composition with, or promises to give time to, or not to sue, the principal debtor, discharges the surety, unless the surety assents to such contract.",
+    "glance": "Composition, promise of time, or agreement not to sue the principal debtor discharges the surety unless the surety assents.",
+    "study": "A contract between the creditor and the principal debtor, by which the creditor makes a composition with, or promises to give time to, or not to sue, the principal debtor, discharges the surety, unless the surety assents to such contract. Identify the contract with the principal debtor, the composition/time/non-sue term, and absence of the surety's assent. Current-law framing: assent by the surety preserves liability; mere forbearance without a binding agreement is addressed in Section 137.",
     "sections": [
       {
-        "heading": "Section 135",
-        "body": "Discharge of surety when creditor compounds, gives time, or agrees not to sue"
+        "heading": "Core rule",
+        "body": "A contract between the creditor and the principal debtor, by which the creditor makes a composition with, or promises to give time to, or not to sue, the principal debtor, discharges the surety, unless the surety assents to such contract.",
+        "order": 1
+      },
+      {
+        "heading": "Assent exception",
+        "body": "Discharge does not occur if the surety assents to the contract.",
+        "order": 2
+      },
+      {
+        "heading": "Distinction from forbearance",
+        "body": "Section 137 provides that mere forbearance to sue does not discharge the surety. Section 135 requires a contract (composition, promise of time, or agreement not to sue).",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Promise of time without assent",
+        "body": "The creditor promises the principal debtor further time to pay without the surety's assent. The surety is discharged under Section 135."
+      },
+      {
+        "title": "Composition with assent",
+        "body": "The creditor compounds with the principal debtor and the surety assents. The surety remains liable."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor agrees with the principal debtor not to sue for six months, without the surety's assent. Is the surety discharged?",
+        "analysis": "Yes. Section 135 discharges the surety where the creditor contracts not to sue the principal debtor, unless the surety assents."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-133",
+      "topic:india:contract-s-134",
+      "topic:india:contract-s-136",
+      "topic:india:contract-s-137"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-135",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 135"
+      "Indian Contract Act, 1872 — Section 135",
+      "Related provisions: Sections 136 and 137"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text. This topic remains in review pending remaining legal verification and release gates.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 135's rule on discharge by composition, promise of time, or agreement not to sue.",
+        "Identify the assent exception.",
+        "Distinguish from mere forbearance under Section 137."
+      ],
+      "definition": "A contract between the creditor and the principal debtor, by which the creditor makes a composition with, or promises to give time to, or not to sue, the principal debtor, discharges the surety, unless the surety assents to such contract.",
+      "legalPrinciple": "A binding contract with the principal debtor for composition, time, or non-sue discharges the surety unless the surety assents.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 135",
+        "Related provisions: Sections 136 and 137"
+      ],
+      "essentialIngredients": [
+        "Contract between creditor and principal debtor",
+        "Composition, promise of time, or agreement not to sue",
+        "Absence of the surety's assent"
+      ],
+      "detailedExplanation": "Section 135 discharges the surety when the creditor contracts with the principal debtor to compound, give time, or not to sue, unless the surety assents. The provision requires a contract; mere forbearance without a binding agreement does not discharge under this section (see Section 137). Assent by the surety prevents discharge.",
+      "examples": [
+        "Promise of further time without assent discharges the surety.",
+        "Assent by the surety to a composition preserves the surety's liability."
+      ],
+      "distinctions": [
+        "Section 135 requires a contract with the principal debtor; Section 136 addresses an agreement with a third person to give time (which does not discharge).",
+        "Section 137 provides that mere forbearance does not discharge."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the contract with the principal debtor.",
+        "Confirm it is a composition, promise of time, or agreement not to sue.",
+        "Check for the surety's assent.",
+        "Conclude on discharge or survival."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 135",
+          "Identify the contract and absence of assent",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Composition/time/non-sue",
+          "Assent exception",
+          "Distinction from s. 137",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Assent",
+          "Distinctions from ss. 136–137",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Composition, promise of time, or agreement not to sue the principal debtor discharges the surety unless the surety assents.",
+        "Mere forbearance is different (Section 137).",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF checked for Section 135.",
+          "Statutory wording supports discharge on composition, promise of time, or agreement not to sue, unless the surety assents.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-135",
-    "review"
+    "source-check-required"
   ]
 }

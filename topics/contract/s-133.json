@@ -2,40 +2,151 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-133",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 133 (Discharge of surety by variance in terms of contract)",
+  "title": "Indian Contract Act, 1872 — Section 133 (Discharge of surety by variance in terms of contract)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 133 of the Indian Contract Act, 1872 is headed \"Discharge of surety by variance in terms of contract\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 133 provides that any variance, made without the surety's consent, in the terms of the contract between the principal debtor and the creditor, discharges the surety as to transactions subsequent to the variance. The statutory illustrations show discharge where salary and loss-sharing are varied, where the nature of an office is materially altered by legislation, where payment terms are changed from salary to commission, and related cases.",
+    "glance": "Any variance without the surety's consent in the principal contract discharges the surety as to subsequent transactions.",
+    "study": "Any variance, made without the surety's consent, in the terms of the contract between the principal debtor and the creditor, discharges the surety as to transactions subsequent to the variance. Identify the original guaranteed contract, the variance, absence of consent, and the timing of subsequent transactions. Current-law framing: the discharge is limited to transactions after the variance; prior transactions remain subject to the guarantee.",
     "sections": [
       {
-        "heading": "Section 133",
-        "body": "Discharge of surety by variance in terms of contract"
+        "heading": "Core rule",
+        "body": "Any variance, made without the surety's consent, in the terms of the contract between the principal debtor and the creditor, discharges the surety as to transactions subsequent to the variance.",
+        "order": 1
+      },
+      {
+        "heading": "Scope of discharge",
+        "body": "Discharge under Section 133 is as to transactions subsequent to the variance. It does not automatically erase liability for transactions completed before the variance.",
+        "order": 2
+      },
+      {
+        "heading": "Consent required",
+        "body": "The variance must be without the surety's consent. Consent (express or implied from the guarantee or subsequent conduct) prevents discharge.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Salary and loss-sharing variation",
+        "body": "A is surety for B's conduct as bank manager. B and C later vary the terms by raising salary and making B liable for a share of overdraft losses, without A's consent. A is discharged from subsequent losses."
+      },
+      {
+        "title": "Change from salary to commission",
+        "body": "A guarantees B's accounting as clerk paid by salary. Without A's consent the parties change to commission. A is not liable for subsequent misconduct."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "The creditor and principal debtor vary the repayment schedule without the surety's consent. Is the surety discharged for later advances?",
+        "analysis": "Yes, under Section 133, as to transactions subsequent to the variance, if the variance is material and without consent."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-128",
+      "topic:india:contract-s-134",
+      "topic:india:contract-s-135"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 133 Illustration (a): variance of manager's salary and loss-sharing discharges surety from subsequent loss.",
+      "Section 133 Illustration (c): change from fixed salary to commission discharges surety from subsequent misconduct."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-133",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 133"
+      "Indian Contract Act, 1872 — Section 133 and Illustrations",
+      "Related provisions: Sections 134 and 135"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and illustrations. This topic remains in review pending remaining legal verification and release gates.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 133's rule on discharge by variance without consent.",
+        "Identify the prospective effect as to subsequent transactions.",
+        "Apply the statutory illustrations."
+      ],
+      "definition": "Any variance, made without the surety's consent, in the terms of the contract between the principal debtor and the creditor, discharges the surety as to transactions subsequent to the variance.",
+      "legalPrinciple": "A material variation of the principal contract without the surety's consent discharges the surety prospectively for subsequent transactions.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 133 and Illustrations",
+        "Related provisions: Sections 134 and 135"
+      ],
+      "essentialIngredients": [
+        "Variance in the terms of the principal contract",
+        "Absence of the surety's consent",
+        "Discharge limited to subsequent transactions"
+      ],
+      "detailedExplanation": "Section 133 discharges the surety as to transactions subsequent to any variance made without consent in the contract between the principal debtor and the creditor. The illustrations confirm discharge where employment terms (salary, commission, loss-sharing) are altered without consent, or where the nature of the office is materially changed. The discharge is not retrospective.",
+      "examples": [
+        "Variation of manager's terms without consent discharges the surety from later losses.",
+        "Change from salary to commission without consent discharges the surety from later misconduct."
+      ],
+      "distinctions": [
+        "Section 133 concerns variance of the principal contract; Section 134 concerns release of the principal debtor; Section 135 concerns composition or giving time."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the original guaranteed terms.",
+        "Identify the variance and whether consent was given.",
+        "Classify transactions as before or after the variance.",
+        "Conclude on discharge for subsequent transactions."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 133",
+          "Identify variance without consent",
+          "Limit to subsequent transactions",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Consent requirement",
+          "Prospective effect",
+          "Illustrations",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Illustrations analysis",
+          "Distinction from ss. 134–135",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Variance without consent discharges the surety as to subsequent transactions.",
+        "Prior transactions remain covered.",
+        "Consent prevents discharge.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF checked for Section 133 and illustrations.",
+          "Statutory wording supports discharge for subsequent transactions on variance without consent.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:30:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-133",
-    "review"
+    "source-check-required"
   ]
 }
