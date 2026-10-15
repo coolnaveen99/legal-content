@@ -2,40 +2,201 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-72",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 72 (Liability of person to whom money is paid or thing delivered by mistake or coercion)",
+  "title": "Indian Contract Act, 1872 — Section 72 (Liability of person to whom money is paid or thing delivered by mistake or coercion)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 72 of the Indian Contract Act, 1872 is headed \"Liability of person to whom money is paid or thing delivered by mistake or coercion\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 72 of the Indian Contract Act, 1872 requires a person to whom money has been paid, or anything delivered, by mistake or under coercion to repay or return it. The statutory focus is receipt of money or a thing through mistake or coercion; the recipient's obligation is restitution in the form stated by the section. Application to a real dispute requires analysis of the facts and the legal meaning of mistake or coercion.",
     "sections": [
       {
-        "heading": "Section 72",
-        "body": "Liability of person to whom money is paid or thing delivered by mistake or coercion"
+        "heading": "Statutory rule",
+        "body": "A person to whom money has been paid, or anything delivered, by mistake or under coercion must repay or return it.",
+        "order": 1
+      },
+      {
+        "heading": "Mistaken duplicate payment",
+        "body": "The Act illustrates joint debtors where one pays and the other, unaware of the first payment, pays the same sum again. The recipient must repay the duplicate payment.",
+        "order": 2
+      },
+      {
+        "heading": "Payment under coercion",
+        "body": "The Act illustrates a consignee who pays an illegally excessive carriage charge to obtain goods. The consignee may recover the illegally excessive part of the charge.",
+        "order": 3
+      },
+      {
+        "heading": "Proof and remedy",
+        "body": "Identify the transfer, recipient, mistake or coercion, causal link and amount or thing to be restored. Preserve payment, delivery and demand records.",
+        "order": 4
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Duplicate payment of a joint debt",
+        "body": "A and B jointly owe ₹100 to C. A pays C; B, unaware of that payment, pays C another ₹100. The statutory illustration requires C to repay the duplicate payment to B."
+      },
+      {
+        "title": "Illegally excessive charge",
+        "body": "A consignee pays an illegally excessive carriage charge to obtain delivery of goods. The statutory illustration supports recovery of the illegally excessive portion, not automatically every charge paid."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A person pays a debt twice because they did not know the first payment had cleared. What issue arises under section 72?",
+        "analysis": "The duplicate payment is the kind of situation addressed by the Act's illustration. Establish the first payment, the second payment, the recipient and the amount to be repaid."
+      },
+      {
+        "question": "A recipient receives goods because of a mistaken delivery. Does section 72 use the same remedy as for money?",
+        "analysis": "The text says the recipient must repay money or return anything delivered. The appropriate response depends on the thing delivered and the facts."
+      },
+      {
+        "question": "A person pays an excessive charge only because delivery was withheld until payment. What must be shown?",
+        "analysis": "Identify the demand, the condition imposed, proof of payment, the legal basis for saying the charge was excessive, and the amount claimed back."
+      }
+    ],
+    "relatedTopics": [
+      "contract-s-70",
+      "contract-s-73"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-72",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 72"
+      "Indian Contract Act, 1872 — Section 72",
+      "Connected: Sections 70 and 73"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract.",
+    "glance": "Money paid or thing delivered by mistake or under coercion → recipient must repay or return it.",
+    "study": "TEXT OF SECTION 72: “A person to whom money has been paid, or anything delivered, by mistake or under coercion, must repay or return it.”\n\nCore rule: Section 72 imposes a duty to repay money or return a thing received through mistake or coercion. The section is not limited in its wording to a mistake of fact; the meaning and application of mistake, including legal questions raised by a particular dispute, must be assessed against authoritative law rather than assumed from a general summary.\n\nElements and method:\n1. Identify the money paid or thing delivered and the recipient.\n2. Determine whether the payment or delivery occurred by mistake or under coercion.\n3. Establish the causal connection between the mistake/coercion and the transfer or receipt.\n4. Identify the appropriate restitutionary response: repay the money or return the thing, subject to the governing law and facts.\n5. Where only part of a payment was excessive or wrongly demanded, quantify the amount for which recovery is claimed and support it with records.\n\nStatutory illustrations: (a) A and B jointly owe ₹100 to C. A pays C, but B, unaware of A's payment, pays C the same ₹100 again. C must repay the duplicate payment to B. (b) A railway company refuses to deliver goods to the consignee unless an illegal carriage charge is paid. The consignee pays to obtain the goods and is entitled to recover the part of the charge that was illegally excessive.\n\nDistinctions: Section 72 concerns restitution of money or things transferred by mistake or under coercion. It should not be treated as identical to section 70's non-gratuitous-benefit rule or section 73's compensation for loss caused by breach. The proper provision depends on the facts and legal basis of the claim.\n\nEvidence checklist: payment/delivery receipts; bank or ledger records; demand or coercion correspondence; delivery/consignment documents; calculation of the duplicate or excessive amount; and the facts showing the mistake or coercion.\n\nExam structure: quote the rule; identify the transfer and recipient; analyse mistake/coercion; apply the statutory remedy of repayment/return; quantify the claim; distinguish adjacent restitution and damages provisions; conclude on the evidence.\n\nVerification boundary: This is a substantive content pass. Current-law analysis, case-law propositions and final legal verification remain open.",
+    "distinctions": [
+      {
+        "left": "Section 72 — mistake or coercion",
+        "right": "Section 70 — non-gratuitous benefit",
+        "explanation": "Section 72 addresses repayment or return following a transfer by mistake or coercion; section 70 addresses compensation or restoration for a lawful non-gratuitous act whose benefit is enjoyed."
+      },
+      {
+        "left": "Section 72 — repayment or return",
+        "right": "Section 73 — compensation for breach",
+        "explanation": "Section 72's text concerns restitution of money or a thing transferred by mistake or coercion. Section 73 addresses compensation for loss or damage caused by breach of contract."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s72-trap-1",
+        "trap": "Section 72 applies only to duplicate payments.",
+        "correction": "The text covers money paid or anything delivered by mistake or under coercion; duplicate payment is one statutory illustration."
+      },
+      {
+        "id": "ica-s72-trap-2",
+        "trap": "The whole amount of any disputed charge is automatically recoverable.",
+        "correction": "The statutory illustration refers to the part of a charge that was illegally excessive. Identify and prove the amount claimed."
+      },
+      {
+        "id": "ica-s72-trap-3",
+        "trap": "Section 72 is interchangeable with section 70 or section 73.",
+        "correction": "Analyse the specific statutory basis: mistake/coercion and repayment/return under s. 72, non-gratuitous benefit under s. 70, or breach-related compensation under s. 73."
+      }
+    ],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s72-brief",
+        "draftingCategory": "brief",
+        "question": "What is the rule under section 72?",
+        "answer": "A person who receives money paid, or anything delivered, by mistake or under coercion must repay the money or return the thing.",
+        "explanation": "State the trigger and remedy."
+      },
+      {
+        "id": "ica-s72-10mark",
+        "draftingCategory": "10-mark",
+        "question": "Explain section 72 with its illustrations.",
+        "answer": "Set out the statutory text, explain mistake/coercion and the transfer to the recipient, discuss repayment/return, analyse the duplicate-payment and illegally excessive-charge illustrations, identify proof and quantify relief, and distinguish sections 70 and 73.",
+        "explanation": "Use the statutory illustrations and apply them to facts."
+      }
+    ],
+    "examTips": [
+      "Identify whether the claim concerns mistake, coercion, or a different legal basis.",
+      "Quantify the duplicate or excessive payment and preserve supporting evidence."
+    ],
+    "revisionPoints": [
+      "Transfer of money or thing",
+      "Mistake or coercion",
+      "Repayment or return",
+      "Evidence and amount",
+      "Distinguish sections 70 and 73"
+    ],
+    "enhancement": {
+      "version": "v1",
+      "status": "in-progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 72 requires repayment or return of money or a thing received by mistake or under coercion.",
+      "legalPrinciple": "Transfer by mistake or coercion → repayment or return.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 72"
+      ],
+      "essentialIngredients": [
+        "Money paid or thing delivered",
+        "Recipient received it",
+        "Transfer by mistake or under coercion"
+      ],
+      "detailedExplanation": "Analyse the transfer, recipient, mistake/coercion, causal facts and the appropriate repayment or return. Quantify any claimed duplicate or excessive payment and distinguish section 72 from adjacent statutory bases.",
+      "examples": [
+        "Duplicate payment of a joint debt",
+        "Recovery of the illegally excessive portion of a coercively demanded carriage charge"
+      ],
+      "distinctions": [
+        "Restitution under s. 72 versus benefit-based relief under s. 70",
+        "Restitution under s. 72 versus breach compensation under s. 73"
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Establish payment/delivery and recipient",
+        "Prove mistake or coercion",
+        "Calculate the sum or identify the thing to be returned",
+        "Apply the statutory remedy and relevant evidence"
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the mistake/coercion trigger and repayment/return remedy."
+        ],
+        "tenMark": [
+          "Text, elements, illustrations, evidence, remedy and distinction from ss. 70/73."
+        ],
+        "sixteenMark": [
+          "Detailed statutory interpretation, application of both illustrations, evidence/quantification, adjacent remedies and unresolved authority questions."
+        ]
+      },
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 72"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "Content pass aligned to accessible Act text and statutory illustrations; current-law and case-law verification remain open.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-forward-s72"
+      },
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Official Act landing page and section listing consulted; full claim-level verification remains open."
+      }
+    },
+    "caseLawGate": "case-law-verification-open"
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T12:20:00+05:30",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-72",
-    "review"
+    "review",
+    "source-check-required",
+    "mistake",
+    "coercion",
+    "restitution"
   ]
 }
