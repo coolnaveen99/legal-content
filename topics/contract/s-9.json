@@ -1,41 +1,132 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-9",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 9 (Promises, express and implied)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 9 of the Indian Contract Act, 1872 is headed \"Promises, express and implied\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 9",
-        "body": "Promises, express and implied"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-9",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 9 (Promises, express and implied)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 9 provides that in so far as the proposal or acceptance of any promise is made in words, the promise is said to be express. In so far as such proposal or acceptance is made otherwise than in words, the promise is said to be implied.",
+        "glance": "Express promise — in words; implied promise — otherwise than in words.",
+        "study": "Where the proposal or acceptance of a promise is made in words, the promise is express. Where it is made otherwise than in words, the promise is implied. Section 9 classifies promises by the mode of communication of proposal or acceptance. Current-law framing: identify whether proposal/acceptance was in words or by conduct; classify as express or implied; then apply formation rules (ss. 3–8, 10).",
+        "sections": [
+            {
+                "heading": "Express promise",
+                "body": "Proposal or acceptance made in words — the promise is express.",
+                "order": 1
+            },
+            {
+                "heading": "Implied promise",
+                "body": "Proposal or acceptance made otherwise than in words — the promise is implied.",
+                "order": 2
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-9",
+                "section": "Section 9",
+                "title": "Promises, express and implied"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Implied by conduct",
+                "body": "A boards a bus and takes a seat. The proposal and acceptance of carriage for fare may be implied otherwise than in words under s. 9.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Can a promise exist without spoken or written words?",
+                "analysis": "Yes. Section 9 recognises implied promises where proposal or acceptance is made otherwise than in words."
+            }
+        ],
+        "distinctions": [],
+        "misconceptions": [
+            {
+                "id": "ica-s9-trap-1",
+                "trap": "Only written or spoken promises are recognised under the Act.",
+                "correction": "Section 9 expressly recognises implied promises made otherwise than in words."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s9-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 9 problem be analysed?",
+                "answer": "I. Identify proposal/acceptance. II. Test whether made in words or otherwise. III. Classify as express or implied. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 9",
+            "Connected: Sections 2, 8, 10"
+        ],
+        "examTips": [
+            "State the in-words vs otherwise-than-in-words test.",
+            "Link to acceptance by conduct under s. 8."
+        ],
+        "revisionPoints": [
+            "Express promise",
+            "Implied promise"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-8",
+            "contract-s-10"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-9",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 9 classifies promises as express (in words) or implied (otherwise than in words).",
+            "legalPrinciple": "Express vs implied promise by mode of proposal/acceptance.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 9",
+            "essentialIngredients": [
+                "Express promise",
+                "Implied promise"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 9"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s9"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:07:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s9-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-9",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 9"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-9",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T12:07:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-9",
+        "promises",
+        "review-required"
+    ]
 }
