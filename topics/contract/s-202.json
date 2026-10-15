@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-202",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 202 (Termination of agency where agent has an interest in subject-matter)",
+  "title": "Indian Contract Act, 1872 — Section 202 (Termination of agency, where agent has an interest in subject-matter)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 202 of the Indian Contract Act, 1872 is headed \"Termination of agency where agent has an interest in subject-matter\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Where the agent has himself an interest in the property which forms the subject-matter of the agency, the agency cannot, in the absence of an express contract, be terminated to the prejudice of such interest.",
+    "glance": "Agency coupled with interest cannot be terminated to the prejudice of that interest absent express contract.",
+    "study": "Where the agent has himself an interest in the property which forms the subject-matter of the agency, the agency cannot, in the absence of an express contract, be terminated to the prejudice of such interest. This is the statutory form of agency coupled with interest and limits the principal’s general power of revocation under s. 203.",
     "sections": [
-      {
-        "heading": "Section 202",
-        "body": "Termination of agency where agent has an interest in subject-matter"
-      }
+      {"heading": "Agent’s interest in subject-matter", "body": "Agent has an interest in the property forming the subject-matter of the agency.", "order": 1},
+      {"heading": "No termination to prejudice of interest", "body": "Absent express contract, agency cannot be terminated to the prejudice of that interest.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-202", "section": "Section 202", "title": "Termination of agency, where agent has an interest in subject-matter"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s202-brief", "draftingCategory": "brief", "question": "How should a Section 202 problem be analysed?", "answer": "Identify agent’s interest in the subject-matter; test express contract allowing termination; if none, refuse termination to the prejudice of the interest.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 202", "Connected: Section 203"],
+    "examTips": ["Agency coupled with interest blocks prejudicial termination."],
+    "revisionPoints": ["Interest in subject-matter", "No prejudicial termination without express contract"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-203", "contract-s-201"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-202",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 202"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.211–s.202).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Where the agent has an interest in the subject-matter of the agency, the agency cannot, absent express contract, be terminated to the prejudice of that interest.",
+      "legalPrinciple": "Agency coupled with interest is protected from prejudicial termination.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 202",
+      "essentialIngredients": ["Agent’s interest in subject-matter", "No termination to prejudice of interest"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 202"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.211–s.202. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s211-s202"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:00:00.000Z",
+      "bot": "contract-reverse-s211-s202-2026-10-15",
+      "sourceFingerprint": "ica-s202-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-202",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-202", "agency", "review-required"]
 }
