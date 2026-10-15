@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-218",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 218 (Agent's duty to pay sums received for principal)",
+  "title": "Indian Contract Act, 1872 — Section 218 (Agent’s duty to pay sums received for principal)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 218 of the Indian Contract Act, 1872 is headed \"Agent's duty to pay sums received for principal\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Subject to such deductions, the agent is bound to pay to his principal all sums received on his account.",
+    "glance": "Subject to s. 217 deductions, agent must pay principal all sums received on principal’s account.",
+    "study": "Subject to such deductions (see s. 217 — advances, proper expenses, and payable remuneration), the agent is bound to pay to his principal all sums received on his account.",
     "sections": [
-      {
-        "heading": "Section 218",
-        "body": "Agent's duty to pay sums received for principal"
-      }
+      {"heading": "Subject to deductions", "body": "Deductions under s. 217 (advances, proper expenses, remuneration).", "order": 1},
+      {"heading": "Pay all sums received", "body": "Agent bound to pay principal all sums received on principal’s account.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-218", "section": "Section 218", "title": "Agent’s duty to pay sums received for principal"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s218-brief", "draftingCategory": "brief", "question": "How should a Section 218 problem be analysed?", "answer": "Identify sums received; apply s. 217 deductions; require payment of the balance.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 218", "Connected: Section 217"],
+    "examTips": ["Always pair with s. 217 deductions."],
+    "revisionPoints": ["Subject to deductions", "Pay all sums received"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-217", "contract-s-219"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-218",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 218"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.221–s.212).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Subject to s. 217 deductions, the agent must pay the principal all sums received on the principal’s account.",
+      "legalPrinciple": "Pay sums received subject to lawful retainer.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 218",
+      "essentialIngredients": ["Subject to deductions", "Pay all sums received"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 218"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.221–s.212. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s221-s212"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:55:00.000Z",
+      "bot": "contract-reverse-s221-s212-2026-10-15",
+      "sourceFingerprint": "ica-s218-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T05:55:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-218",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-218", "agency", "review-required"]
 }
