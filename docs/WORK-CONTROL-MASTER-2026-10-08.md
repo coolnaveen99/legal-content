@@ -1,6 +1,6 @@
 # Work Control Master — Legal Content
 
-## Company Law reverse-order verification — progress 2026-10-15
+## Company Law verification — progress 2026-10-15
 
 ### Completed this session (status: review / SOURCE_CHECK_REQUIRED)
 
@@ -8,29 +8,25 @@
 |-------|--------|
 | **s.63 → s.23** | **Done (review)** — Chapter III Part I + s.62 evidence closed |
 | **s.22 → s.12** | **Done (review)** — Chapter II reverse-order bulk |
+| **s.1 → s.7** | **In progress / claimed** — forward bulk from section 1 (Chapter I + incorporation core) |
 
-### Latest commits this batch
-- s.12–s.14: residual content confirmed against official text (this bulk)
-- s.15–s.17: residual content confirmed (prior bulk)
-- s.18–s.22: source-aligned / residual confirmed this session
+### Forward bulk s.1–s.7 (this claim)
+| Section | Title | Status |
+|---------|--------|--------|
+| s.1 | Short title, extent, commencement and application | Content present — source-check stamp |
+| s.2 | Definitions | Large definitional section — residual |
+| s.3 | Formation of company | Content present — source-check stamp |
+| s.4 | Memorandum | Content present — source-check stamp |
+| s.5 | Articles | Residual |
+| s.6 | Act to override memorandum, articles, etc. | Residual |
+| s.7 | Incorporation of company | Content present — source-check stamp |
 
 ### Chapter II closed so far (s.22 → s.12)
-| Section | Title |
-|---------|--------|
-| s.22 | Execution of bills of exchange, etc. |
-| s.21 | Authentication of documents, proceedings and contracts |
-| s.20 | Service of documents |
-| s.19 | Subsidiary company not to hold shares in its holding company |
-| s.18 | Conversion of companies already registered |
-| s.17 | Copies of memorandum, articles, etc., to be given to members |
-| s.16 | Rectification of name of company |
-| s.15 | Alteration of memorandum or articles to be noted in every copy |
-| s.14 | Alteration of articles |
-| s.13 | Alteration of memorandum |
-| s.12 | Registered office of company |
+Reverse-order Chapter II from s.22 down through s.12 is done on main.
 
-### Next
-Continue Chapter II reverse-order: **s.10** / **s.10A** (Effect of memorandum and articles; commencement of business), then s.9, s.8, s.7, s.5, s.4, s.3 (incorporation core). Note: s.11 omitted.
+### Next after this claim
+- Complete residual source-check for s.2, s.5, s.6 within the s.1–s.7 claim
+- Then s.8–s.10A to close the gap between s.7 and s.12
 
 ---
 
@@ -50,17 +46,17 @@ Continue Chapter II reverse-order: **s.10** / **s.10A** (Effect of memorandum an
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-Chapter II reverse-order active from s.10 downward. s.22→s.12 done (review / SOURCE_CHECK_REQUIRED).
+Forward bulk **s.1–s.7** claimed (current-assistant-company-s1-s7-forward). Chapter II reverse s.22→s.12 done. Chapter III Part I + s.62 done.
 
 ## Work claim record
 Subject: Company Law (Companies Act, 2013)
-Topic/section range: s.14–s.12 (Chapter II bulk)
+Topic/section range: s.1–s.7 (forward bulk from section 1)
 Current main commit: (this commit)
-Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-company-ch2-bulk-s14-s12
-Latest evidence: s.14 (special resolution; Act+memo limits; conversion private↔public; CG approval for public→private; filing); s.13 (name/objects/State; special resolution; CG/RD approval; filing); s.12 (registered office capacity; verification; name display; change routes) confirmed against official text
-Missing gate: full case-law verification and final lock (SOURCE_CHECK_REQUIRED remains)
-Planned change: Chapter II reverse-order bulk close for s.14–s.12
+Current status: review / SOURCE_CHECK_REQUIRED / IN_PROGRESS
+Current owner: current-assistant-company-s1-s7-forward
+Latest evidence: s.1, s.3, s.4, s.7 already hold substantive official-text-aligned content; formal SOURCE_CHECK stamp and residual close for s.2, s.5, s.6 in progress
+Missing gate: residual stamp for s.2/s.5/s.6; full case-law verification and final lock
+Planned change: forward source-check bulk for incorporation core from s.1
 Validation: content aligned to statutory text; no invented citations
 Evidence/commit: this commit
 
