@@ -1,41 +1,158 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-235",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 235 (Liability of pretended agent)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 235 of the Indian Contract Act, 1872 is headed \"Liability of pretended agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 235",
-        "body": "Liability of pretended agent"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-235",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 235 (Liability of pretended agent)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 235 provides that a person untruly representing himself to be the authorised agent of another, and thereby inducing a third person to deal with him as such agent, is liable, if his alleged employer does not ratify his acts, to make compensation to the other in respect of any loss or damage which he has incurred by so dealing.",
+        "glance": "Pretended agent who induces dealing is liable to compensate if the alleged principal does not ratify.",
+        "study": "A person who untruly represents himself to be the authorised agent of another and thereby induces a third person to deal with him as such agent is liable to compensate that third person for loss or damage incurred by so dealing, if the alleged employer does not ratify the acts. The section addresses false claims of authority, not genuine agency with excess of authority. Current-law framing: identify the untrue representation of authority; prove inducement of the third person to deal; note absence of ratification; conclude compensation liability.",
+        "sections": [
+            {
+                "heading": "Untrue representation of authority",
+                "body": "The person untruly represents himself to be the authorised agent of another.",
+                "order": 1
+            },
+            {
+                "heading": "Inducement to deal",
+                "body": "That representation induces a third person to deal with him as such agent.",
+                "order": 2
+            },
+            {
+                "heading": "No ratification — compensation",
+                "body": "If the alleged employer does not ratify the acts, the pretended agent must compensate the third person for loss or damage incurred by so dealing.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-235",
+                "section": "Section 235",
+                "title": "Liability of pretended agent"
+            }
+        ],
+        "examples": [
+            {
+                "title": "False claim of agency",
+                "body": "A represents to B that A is C’s authorised agent. B deals with A on that basis. C does not ratify. A is liable to compensate B for loss from the dealing.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Does ratification by the alleged principal defeat s. 235 liability?",
+                "analysis": "Yes. Liability arises only if the alleged employer does not ratify the acts."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s235-vs-s236",
+                "title": "Pretended agent compensation (s. 235) vs false agent barred from performance (s. 236)",
+                "left": "Compensation to the third person",
+                "right": "No right to require performance",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Liability of the pretender",
+                        "right": "Enforcement barred for the pretender"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s235-trap-1",
+                "trap": "Section 235 only applies where there is a real principal who exceeds instructions.",
+                "correction": "Section 235 targets an untrue representation of agency; it is not the ordinary excess-of-authority case."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s235-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 235 problem be analysed?",
+                "answer": "I. Identify the untrue representation of authority. II. Prove inducement of dealing. III. Note absence of ratification. IV. Conclude compensation liability.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 235",
+            "Connected: Sections 234, 236, 196–200 (ratification)"
+        ],
+        "examTips": [
+            "State the untrue-representation and no-ratification conditions.",
+            "Distinguish from s. 236 (bar on performance)."
+        ],
+        "revisionPoints": [
+            "Untrue representation of authority",
+            "Inducement to deal",
+            "No ratification — compensation"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-236",
+            "contract-s-234"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-235",
+        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 235 makes a pretended agent liable to compensate a third person induced to deal, if the alleged principal does not ratify.",
+            "legalPrinciple": "Pretended agent — compensation if no ratification.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 235",
+            "essentialIngredients": [
+                "Untrue representation of authority",
+                "Inducement to deal",
+                "No ratification — compensation"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 235"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act reverse-order source check against official section 235. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-s235-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:36:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s235-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-235",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 235"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-235",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:36:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-235",
+        "agency",
+        "review-required"
+    ]
 }
