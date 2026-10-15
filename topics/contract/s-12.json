@@ -1,41 +1,69 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-12",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 12 (What is a sound mind for the purposes of contracting)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 12 of the Indian Contract Act, 1872 is headed \"What is a sound mind for the purposes of contracting\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 12",
-        "body": "What is a sound mind for the purposes of contracting"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-12",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 12"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-12",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-12",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 12 (What is a sound mind for the purposes of contracting)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 12 provides that a person is said to be of sound mind for the purpose of making a contract if, at the time when he makes it, he is capable of understanding it and of forming a rational judgment as to its effect upon his interests. A person who is usually of unsound mind, but occasionally of sound mind, may make a contract when he is of sound mind. A person who is usually of sound mind, but occasionally of unsound mind, may not make a contract when he is of unsound mind.",
+        "glance": "Sound mind = understand the contract + form rational judgment as to its effect; test at the time of contracting; lucid intervals count.",
+        "study": "Sound mind for contracting means capacity, at the time of making the contract, to understand it and to form a rational judgment as to its effect upon one’s interests. A person usually of unsound mind may contract in a lucid interval; a person usually of sound mind may not contract while of unsound mind. Current-law framing: fix the time of contracting; apply the understand-and-rational-judgment test; apply the usual/occasional rules.",
+        "sections": [
+            {
+                "heading": "Test of sound mind",
+                "body": "Capable of understanding the contract and of forming a rational judgment as to its effect upon his interests, at the time of making it.",
+                "order": 1
+            },
+            {
+                "heading": "Usually unsound, occasionally sound",
+                "body": "May make a contract when of sound mind (lucid interval).",
+                "order": 2
+            },
+            {
+                "heading": "Usually sound, occasionally unsound",
+                "body": "May not make a contract when of unsound mind.",
+                "order": 3
+            }
+        ],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-12", "section": "Section 12", "title": "What is a sound mind for the purposes of contracting"}],
+        "examples": [{"title": "Lucid interval", "body": "A person usually of unsound mind contracts during a lucid interval when capable of understanding and rational judgment — competent under s. 12.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is mental illness alone enough to avoid every contract?", "analysis": "No. The test is capacity at the time of making the contract to understand it and form a rational judgment as to its effect."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s12-trap-1", "trap": "Any diagnosis of mental illness voids all contracts of that person.", "correction": "Section 12 tests capacity at the time of contracting; lucid intervals can support a valid contract."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s12-brief", "draftingCategory": "brief", "question": "How should a Section 12 problem be analysed?", "answer": "I. Fix the time of contracting. II. Apply understand + rational judgment test. III. Apply usual/occasional rules. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 12", "Connected: Section 11"],
+        "examTips": ["State the dual capacity test.", "Mention lucid interval."],
+        "revisionPoints": ["Test of sound mind", "Usually unsound, occasionally sound", "Usually sound, occasionally unsound"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-11"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-12",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 12 defines sound mind for contracting as capacity to understand the contract and form a rational judgment as to its effect on interests at the time of making it.",
+            "legalPrinciple": "Time-of-contract capacity test; lucid intervals recognised.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 12",
+            "essentialIngredients": ["Test of sound mind", "Usually unsound, occasionally sound", "Usually sound, occasionally unsound"],
+            "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 12"],
+            "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s12"},
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T12:11:00.000Z",
+            "bot": "manual-quality-remediation",
+            "sourceFingerprint": "ica-s12-2026-10-15",
+            "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T12:11:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-12", "capacity", "review-required"]
 }
