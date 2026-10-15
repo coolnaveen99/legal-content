@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-66",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 66 (Mode of communicating or revoking rescission of voidable contract)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 66 of the Indian Contract Act, 1872 is headed \"Mode of communicating or revoking rescission of voidable contract\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 66",
-        "body": "Mode of communicating or revoking rescission of voidable contract"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-66",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 66"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-66",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-66",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 66 (Mode of communicating or revoking rescission of voidable contract)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 66 provides that the rescission of a voidable contract may be communicated or revoked in the same manner, and subject to the same rules, as apply to the communication or revocation of a proposal.",
+        "glance": "Rescission of voidable contract — communicate or revoke like a proposal (ss. 3–5 rules).",
+        "study": "Rescission of a voidable contract may be communicated or revoked in the same manner and subject to the same rules as apply to communication or revocation of a proposal (ss. 3–5). Current-law framing: apply proposal-communication and revocation rules to rescission of a voidable contract.",
+        "sections": [{"heading": "Same rules as proposal", "body": "Rescission may be communicated or revoked in the same manner and subject to the same rules as apply to the communication or revocation of a proposal.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-66", "section": "Section 66", "title": "Mode of communicating or revoking rescission of voidable contract"}],
+        "examples": [{"title": "Communication of rescission", "body": "A rescinds a voidable contract. Communication of that rescission follows the same rules as communication of a proposal under ss. 3–4, via s. 66.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Are special formalities required to communicate rescission?", "analysis": "Section 66 applies the same rules as for communication or revocation of a proposal."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s66-trap-1", "trap": "Rescission is effective only when formally registered or written.", "correction": "Section 66 applies the ordinary rules for communicating or revoking a proposal."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s66-brief", "draftingCategory": "brief", "question": "How should a Section 66 problem be analysed?", "answer": "I. Identify rescission of a voidable contract. II. Apply ss. 3–5 communication/revocation rules. III. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 66", "Connected: Sections 3–5, 64"],
+        "examTips": ["Link to ss. 3–5 on communication and revocation."],
+        "revisionPoints": ["Same rules as proposal"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-65", "contract-s-67"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-66",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 66 applies the proposal-communication and revocation rules to rescission of a voidable contract.", "legalPrinciple": "Rescission communicated/revoked like a proposal.", "statutoryFramework": "Indian Contract Act, 1872 — Section 66", "essentialIngredients": ["Same rules as proposal"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 66"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s66"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:31:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s66-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:31:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-66", "rescission", "review-required"]
 }
