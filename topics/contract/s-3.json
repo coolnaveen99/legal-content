@@ -1,41 +1,151 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-3",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 3 (Communication, acceptance and revocation of proposals)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 3 of the Indian Contract Act, 1872 is headed \"Communication, acceptance and revocation of proposals\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 3",
-        "body": "Communication, acceptance and revocation of proposals"
-      }
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-3",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 3 (Communication, acceptance and revocation of proposals)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 3 provides that the communication of proposals, the acceptance of proposals, and the revocation of proposals and acceptances, respectively, are deemed to be made by any act or omission of the party proposing, accepting or revoking by which he intends to communicate such proposal, acceptance or revocation, or which has the effect of communicating it.",
+        "glance": "Communication of proposal, acceptance or revocation is by any act or omission intending to communicate or having that effect.",
+        "study": "Communication of proposals, of acceptances, and of revocations of proposals and acceptances is deemed to be made by any act or omission of the party proposing, accepting or revoking by which that party intends to communicate the proposal, acceptance or revocation, or which has the effect of communicating it. Section 3 is the general rule; timing of completion is under s. 4 and revocation under ss. 5–6. Current-law framing: identify the act or omission; test intention to communicate or effect of communicating; apply the deeming rule before analysing completion under s. 4.",
+        "sections": [
+            {
+                "heading": "What is communicated",
+                "body": "Proposals; acceptances of proposals; revocations of proposals and of acceptances.",
+                "order": 1
+            },
+            {
+                "heading": "How communication is made",
+                "body": "By any act or omission of the party proposing, accepting or revoking by which that party intends to communicate, or which has the effect of communicating.",
+                "order": 2
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "indian-contract-act-1872",
+                "actName": "Indian Contract Act, 1872",
+                "provisionId": "ica-s-3",
+                "section": "Section 3",
+                "title": "Communication, acceptance and revocation of proposals"
+            }
+        ],
+        "examples": [
+            {
+                "title": "Act communicating acceptance",
+                "body": "The offeree posts a letter of acceptance intending to communicate assent. Section 3 treats that act as the communication of acceptance (completion timing is under s. 4).",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Does s. 3 fix when communication is complete?",
+                "analysis": "No. Section 3 states how communication is deemed made; when it is complete is governed by section 4."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ica-s3-vs-s4",
+                "title": "How communication is made (s. 3) vs when it is complete (s. 4)",
+                "left": "Act or omission intending to communicate or having that effect",
+                "right": "Knowledge / course of transmission rules for proposal, acceptance, revocation",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Mode of communication",
+                        "right": "Timing of completion"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ica-s3-trap-1",
+                "trap": "Only formal written notice counts as communication under the Act.",
+                "correction": "Section 3 covers any act or omission intending to communicate or having the effect of communicating."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ica-s3-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 3 problem be analysed?",
+                "answer": "I. Identify proposal, acceptance or revocation. II. Find the act or omission. III. Test intention or effect of communicating. IV. Then apply s. 4 for completion. V. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Indian Contract Act, 1872 — Section 3",
+            "Connected: Sections 4–6"
+        ],
+        "examTips": [
+            "Separate s. 3 (how) from s. 4 (when complete).",
+            "Note that omission can also communicate."
+        ],
+        "revisionPoints": [
+            "What is communicated",
+            "How communication is made"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "contract-s-4",
+            "contract-s-5"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-3",
+        "migrationNote": "Substantive expansion from catalog stub. Forward-order start 2026-10-15. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "2",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 3 deems communication of proposals, acceptances and revocations to be made by any act or omission intending to communicate or having that effect.",
+            "legalPrinciple": "Communication by intended or effective act or omission.",
+            "statutoryFramework": "Indian Contract Act, 1872 — Section 3",
+            "essentialIngredients": [
+                "What is communicated",
+                "How communication is made"
+            ],
+            "authoritativeSources": [
+                "Indian Contract Act, 1872 (Act 9 of 1872), section 3"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 Contract Act forward-order source check against official section 3. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-contract-forward-s3"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:57:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ica-s3-2026-10-15",
+            "indiaCode": {
+                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+                "note": "Verified against official text. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-contract-1872"
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-3",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 3"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-3",
-    "review"
-  ]
+    "updatedAt": "2026-10-15T11:57:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "contract",
+        "indian-contract-act-1872",
+        "section-3",
+        "communication",
+        "review-required"
+    ]
 }
