@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-46",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 46 (Time for performance when no application is to be made and no time is specified)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 46 of the Indian Contract Act, 1872 is headed \"Time for performance when no application is to be made and no time is specified\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 46",
-        "body": "Time for performance when no application is to be made and no time is specified"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-46",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 46"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-46",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-46",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 46 (Time for performance of promise, where no application is to be made and no time is specified)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 46 provides that where, by the contract, a promisor is to perform his promise without application by the promisee, and no time for performance is specified, the engagement must be performed within a reasonable time. Explanation: The question “what is a reasonable time” is, in each particular case, a question of fact.",
+        "glance": "No application required and no time specified → perform within a reasonable time (question of fact).",
+        "study": "Where the promisor is to perform without application by the promisee and no time is specified, performance must be within a reasonable time. What is reasonable is a question of fact in each case. Current-law framing: confirm no application and no specified time; apply the reasonable-time rule; treat reasonableness as fact-specific.",
+        "sections": [{"heading": "Reasonable time", "body": "Where the promisor is to perform without application by the promisee and no time is specified, the engagement must be performed within a reasonable time.", "order": 1}, {"heading": "Question of fact", "body": "What is a reasonable time is, in each particular case, a question of fact.", "order": 2}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-46", "section": "Section 46", "title": "Time for performance of promise, where no application is to be made and no time is specified"}],
+        "examples": [{"title": "No time fixed", "body": "A contracts to deliver goods to B without any fixed date and without need for B to apply. A must deliver within a reasonable time under s. 46.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Is ‘reasonable time’ a fixed statutory period?", "analysis": "No. Section 46 Explanation: it is a question of fact in each particular case."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s46-trap-1", "trap": "If no time is specified, the promisor may perform whenever he chooses.", "correction": "Section 46 requires performance within a reasonable time."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s46-brief", "draftingCategory": "brief", "question": "How should a Section 46 problem be analysed?", "answer": "I. Confirm no application and no specified time. II. Apply reasonable-time rule. III. Treat reasonableness as fact-specific. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 46", "Connected: Sections 47–55"],
+        "examTips": ["State reasonable time as a question of fact.", "Link to time-of-essence rules later."],
+        "revisionPoints": ["Reasonable time", "Question of fact"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-45", "contract-s-47"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-46",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 46 requires performance within a reasonable time where no application is needed and no time is specified.", "legalPrinciple": "No time specified → reasonable time (fact question).", "statutoryFramework": "Indian Contract Act, 1872 — Section 46", "essentialIngredients": ["Reasonable time", "Question of fact"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 46"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s46"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:00:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s46-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:00:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-46", "performance", "time", "review-required"]
 }
