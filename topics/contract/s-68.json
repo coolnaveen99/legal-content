@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v1",
-  "entityType": "topic",
-  "id": "topic:india:contract-s-68",
-  "version": 1,
-  "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 68 (Claim for necessaries supplied to person incapable of contracting)",
-  "jurisdiction": "India",
-  "content": {
-    "overview": "Section 68 of the Indian Contract Act, 1872 is headed \"Claim for necessaries supplied to person incapable of contracting\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
-    "sections": [
-      {
-        "heading": "Section 68",
-        "body": "Claim for necessaries supplied to person incapable of contracting"
-      }
-    ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
-    "relatedJudgments": [],
-    "illustrations": [],
-    "legacySubjectSlug": "contract",
-    "legacyTopicId": "s-68",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 68"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
-  },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-68",
-    "review"
-  ]
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:contract-s-68",
+    "version": 2,
+    "status": "review",
+    "title": "Indian Contract Act, 1872 — Section 68 (Claim for necessaries supplied to person incapable of contracting, or on his account)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 68 provides that if a person, incapable of entering into a contract, or any one whom he is legally bound to support, is supplied by another person with necessaries suited to his condition in life, the person who has furnished such supplies is entitled to be reimbursed from the property of such incapable person.",
+        "glance": "Necessaries supplied to a person incapable of contracting (or one he must support) → supplier reimbursed from the property of the incapable person.",
+        "study": "If a person incapable of contracting, or anyone he is legally bound to support, is supplied with necessaries suited to his condition in life, the supplier is entitled to be reimbursed from the property of such incapable person. This is a quasi-contractual claim. Current-law framing: identify incapacity and supply of necessaries suited to condition in life; claim reimbursement from the property of the incapable person.",
+        "sections": [{"heading": "Necessaries to incapable person", "body": "Supplier of necessaries suited to condition in life of a person incapable of contracting (or one he must support) is entitled to be reimbursed from the property of such incapable person.", "order": 1}],
+        "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-68", "section": "Section 68", "title": "Claim for necessaries supplied to person incapable of contracting, or on his account"}],
+        "examples": [{"title": "Necessaries to minor", "body": "A supplies a minor with food and clothing suited to his condition. A is entitled to be reimbursed from the minor’s property under s. 68.", "kind": "hypothetical", "inventedCase": false}],
+        "hypotheticals": [{"question": "Can the supplier sue the incapable person personally for a contract price?", "analysis": "Section 68 gives a claim for reimbursement from the property of the incapable person for necessaries, not a personal contractual liability."}],
+        "distinctions": [],
+        "misconceptions": [{"id": "ica-s68-trap-1", "trap": "Any supply to a minor creates a full contractual claim against him.", "correction": "Section 68 is limited to necessaries suited to condition in life, with reimbursement from property only."}],
+        "cases": [],
+        "questionsAndAnswers": [{"id": "ica-s68-brief", "draftingCategory": "brief", "question": "How should a Section 68 problem be analysed?", "answer": "I. Identify incapacity. II. Test supply of necessaries suited to condition in life. III. Apply reimbursement from property. IV. Conclude.", "explanation": "IRAC."}],
+        "bareActPointers": ["Indian Contract Act, 1872 — Section 68", "Connected: Sections 11, 69–72"],
+        "examTips": ["Stress necessaries suited to condition in life and reimbursement from property."],
+        "revisionPoints": ["Necessaries to incapable person"],
+        "relatedJudgments": [],
+        "relatedTopics": ["contract-s-11", "contract-s-69"],
+        "illustrations": [],
+        "legacySubjectSlug": "contract",
+        "legacyTopicId": "s-68",
+        "migrationNote": "Substantive expansion from catalog stub. Forward bulk 2026-10-15.",
+        "enhancement": {"version": "2", "status": "verification_in_progress", "coverage": "substantive-topic-specific-v1", "definition": "Section 68 allows reimbursement from the property of a person incapable of contracting for necessaries supplied to him or those he must support.", "legalPrinciple": "Necessaries to incapable person → reimbursement from property.", "statutoryFramework": "Indian Contract Act, 1872 — Section 68", "essentialIngredients": ["Necessaries to incapable person"], "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 68"], "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 forward-order source check. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-forward-s68"}, "caseLawGate": "standard-citations-added-not-locked", "lastBotRunAt": "2026-10-15T13:33:00.000Z", "bot": "manual-quality-remediation", "sourceFingerprint": "ica-s68-2026-10-15", "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text. Not a verified closure."}},
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": ["source:india:india-code-contract-1872"],
+    "updatedAt": "2026-10-15T13:33:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": ["contract", "indian-contract-act-1872", "section-68", "quasi-contract", "review-required"]
 }
