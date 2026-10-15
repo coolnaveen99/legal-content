@@ -2,40 +2,116 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-191",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 191 (Sub-agent defined)",
+  "title": "Indian Contract Act, 1872 — Section 191 (Sub-agent defined)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 191 of the Indian Contract Act, 1872 is headed \"Sub-agent defined\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 191 provides that a ‘sub-agent’ is a person employed by, and acting under the control of, the original agent in the business of the agency.",
+    "glance": "A sub-agent is a person employed by, and acting under the control of, the original agent in the business of the agency.",
+    "study": "A ‘sub-agent’ is a person employed by, and acting under the control of, the original agent in the business of the agency. Current-law framing: definition of sub-agent for the purposes of Sections 190–195.",
     "sections": [
       {
-        "heading": "Section 191",
-        "body": "Sub-agent defined"
+        "heading": "Definition",
+        "body": "A ‘sub-agent’ is a person employed by, and acting under the control of, the original agent in the business of the agency.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Employed and controlled by original agent",
+        "body": "A person employed by the original agent and acting under that agent’s control in the business of the agency is a sub-agent under Section 191."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Who is a sub-agent?",
+        "analysis": "A person employed by, and acting under the control of, the original agent in the business of the agency, under Section 191."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-190",
+      "topic:india:contract-s-192"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-191",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 191"
+      "Indian Contract Act, 1872 — Section 191"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the definition of sub-agent under Section 191."
+      ],
+      "definition": "A ‘sub-agent’ is a person employed by, and acting under the control of, the original agent in the business of the agency.",
+      "legalPrinciple": "A sub-agent is employed by and acts under the control of the original agent in the business of the agency.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 191"
+      ],
+      "essentialIngredients": [
+        "Employed by the original agent",
+        "Acting under the control of the original agent",
+        "In the business of the agency"
+      ],
+      "detailedExplanation": "Section 191 defines a sub-agent as a person employed by, and acting under the control of, the original agent in the business of the agency. This definition governs the subsequent provisions on sub-agents.",
+      "examples": [
+        "A helper employed and controlled by the original agent in the agency business is a sub-agent."
+      ],
+      "distinctions": [
+        "Distinct from a person named by the agent who becomes an agent of the principal under Section 194."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify employment by the original agent.",
+        "Identify control by the original agent in the business of the agency.",
+        "Conclude status as sub-agent."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 191",
+          "Identify elements",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory definition",
+          "Elements",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 192–194",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Sub-agent is employed by and acts under the control of the original agent in the business of the agency.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 191 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T08:10:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-191",
-    "review"
+    "source-check-required"
   ]
 }
