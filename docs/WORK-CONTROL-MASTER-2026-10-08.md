@@ -16,7 +16,8 @@
 | **s.126–s.128** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — guarantee definition, consideration, surety’s liability
 | **s.129** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — continuing guarantee
 | **s.130** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — revocation of continuing guarantee
-| **s.131** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — revocation by surety's death |
+| **s.131** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — revocation by surety's death
+| **s.132** | **IN_PROGRESS** — liability of two primarily liable persons, source-aligned canonical topic |
 | **ss.76–123** | Repealed by Sale of Goods Act, 1930 |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
@@ -24,7 +25,7 @@
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Next
-**FORWARD:** next **s.132** (liability of two primarily liable persons), after the s.131 content/source evidence recorded below. **REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** current claim **s.132** (liability of two primarily liable persons); next **s.133** only after this claim's evidence is recorded. **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -44,18 +45,18 @@ s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD from s.132**.
+**This stream:** Indian Contract Act **FORWARD s.132, owned by current-assistant-contract-s132-forward**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.131 (revocation of continuing guarantee by surety's death)
-Content commit: a766fc94a1c223a9e73f8c13951faf0cb797a033
-Current status: content expanded; topic remains review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-s131-forward
-Latest evidence: official India Code Act PDF opened; Section 131 text checked at extracted lines 1504–1506. The standalone topic now explains the death trigger, contractual qualification, future-transaction limit, examples and relationship to Section 130. Source-site log updated in commit a8b0fd4dd3059b1ae07f70d07d36e9e116abe26d.
-Missing gates: independently reconcile current consolidated amendment status; section-specific authoritative case-law review if applicable; run repository schema, manifest, relationship, enhancement and full-catalog validators on the latest main; complete applicable integration/E2E, SEO, production and human legal sign-off gates.
-Planned change: proceed to Section 132 after checking current ownership and evidence.
-Validation: JSON parse passed; topic lifecycle status and enhancement status/version match schema patterns; all required enhancement fields are present; examples/hypotheticals shapes passed; all related topic IDs resolved to existing canonical topics. Full repository validators and CI for the latest commit have not yet been confirmed.
-Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/a766fc94a1c223a9e73f8c13951faf0cb797a033; https://github.com/coolnaveen99/legal-content/commit/a8b0fd4dd3059b1ae07f70d07d36e9e116abe26d
+Topic/section range: s.132 (liability of two persons primarily liable; private arrangement that one is surety)
+Current main commit at claim: bcfd5ed56d0777b7d6b142bae9d5d3317268819c
+Current topic status: review; existing standalone canonical topic is a short catalog stub
+Current owner: current-assistant-contract-s132-forward
+Latest evidence: official India Code Act PDF opened; Section 132 text and statutory illustration are visible at extracted lines 1507–1516. Recent commits for the exact standalone ICA s.132 topic were checked; the returned recent s.132 commits were Company Law topics or the separate combined Sections 132–138 topic.
+Missing gate: replace the standalone stub with source-aligned substantive explanation, record source evidence, run available topic/schema/manifest/full-catalog validation and keep legal sign-off open.
+Planned change: expand only topics/contract/s-132.json; preserve existing topic identity and the separate combined Sections 132–138 topic.
+Validation: pre-edit topic inspected; status/ownership checked; no case authority to be added without authoritative judgment verification.
+Evidence: https://github.com/coolnaveen99/legal-content/blob/main/topics/contract/s-132.json; official statutory source https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf
 
 If any field cannot be established, STOP.
