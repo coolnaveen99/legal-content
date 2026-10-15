@@ -13,7 +13,7 @@
 |-------|--------|
 | **s.1 → s.75** | **Content expanded through s.75 (review / source gates open)** — FORWARD order |
 | **s.124–s.125** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — forward (indemnity)
-| **s.126** | **IN_PROGRESS** — guarantee definition, source-aligned canonical topic |
+| **s.126** | **Content expanded (review / SOURCE_CHECK_REQUIRED)** — standalone guarantee definition |
 | **ss.76–123** | Repealed by Sale of Goods Act, 1930 |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
@@ -21,7 +21,7 @@
 s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Next
-**FORWARD:** current claim **s.126** (Contract of guarantee defined); next **s.127** only after this claim's evidence is recorded. **REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** next **s.127** (consideration for guarantee), after the s.126 content/source evidence recorded below.  **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -41,18 +41,18 @@ s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD s.126, owned by current-assistant-contract-s126-forward**.
+**This stream:** Indian Contract Act **FORWARD from s.127**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
 Topic/section range: s.126 (contract of guarantee; surety, principal debtor and creditor)
-Current main commit at claim: c0faa9194e11a1a154b18f9417b14f7d828a7491
-Current topic status: review; existing standalone canonical topic is a short catalog stub
+Content commit: 6bde807c8c6a081c367c5ee2ae54db4d66663d20
+Current status: content expanded; topic remains review / SOURCE_CHECK_REQUIRED
 Current owner: current-assistant-contract-s126-forward
-Latest evidence: official India Code Act PDF is accessible; section 126 statutory text is visible at extracted lines 1463–1467. Existing combined topic for ss.126–131 is separately registered; this claim is limited to the standalone canonical topic ID topic:india:contract-s-126 and must not rewrite the combined topic.
-Missing gate: replace the standalone stub with source-aligned substantive explanation, record source evidence, run available topic/schema/manifest/full-catalog validation and keep legal sign-off open.
-Planned change: expand only topics/contract/s-126.json; preserve the combined ss.126–131 topic and all existing identities.
-Validation: pre-edit topic inspected; standalone ID/status and next-section control checked; no edit to the combined ss.126–131 topic planned.
-Evidence: https://github.com/coolnaveen99/legal-content/blob/main/topics/contract/s-126.json; official statutory source https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf
+Latest evidence: official India Code Act PDF opened; Section 126 text checked at extracted lines 1463–1467. The standalone topic now explains the statutory definition, party roles, oral/written form, examples and boundaries with Sections 127–131. The separate combined topic for Sections 126–131 was not changed. Source-site log updated in commit 3241c0cfef20adc9f746ed5ad9ca28690a4c0745.
+Missing gates: independently reconcile current consolidated amendment status; section-specific authoritative case-law review if applicable; run repository schema, manifest, relationship, enhancement and full-catalog validators on the latest main; complete any applicable consumer integration/E2E, SEO, production and human legal sign-off gates.
+Planned change: proceed to Section 127 only after checking current ownership and evidence; preserve the combined Sections 126–131 topic.
+Validation: JSON parse passed; topic lifecycle status and enhancement status/version match schema patterns; all required enhancement fields are present; examples/hypotheticals shapes passed; every related topic ID resolved to an existing canonical topic. Full repository validators and CI for the latest commit have not yet been confirmed.
+Evidence/commit: https://github.com/coolnaveen99/legal-content/commit/6bde807c8c6a081c367c5ee2ae54db4d66663d20; https://github.com/coolnaveen99/legal-content/commit/3241c0cfef20adc9f746ed5ad9ca28690a4c0745
 
 If any field cannot be established, STOP.
