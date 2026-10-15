@@ -2,40 +2,119 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-178a",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 178A (Pledge by person in possession under voidable contract)",
+  "title": "Indian Contract Act, 1872 — Section 178A (Pledge by person in possession under voidable contract)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 178A of the Indian Contract Act, 1872 is headed \"Pledge by person in possession under voidable contract\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 178A provides that when the pawnor has obtained possession of the goods pledged by him under a contract voidable under section 19 or section 19A, but the contract has not been rescinded at the time of the pledge, the pawnee acquires a good title to the goods, provided he acts in good faith and without notice of the pawnor's defect of title.",
+    "glance": "Pawnee acquires good title if the pawnor obtained possession under a voidable contract (ss. 19 or 19A) that has not been rescinded at the time of the pledge, provided the pawnee acts in good faith without notice of the defect of title.",
+    "study": "When the pawnor has obtained possession of the goods pledged by him under a contract voidable under section 19 or section 19A, but the contract has not been rescinded at the time of the pledge, the pawnee acquires a good title to the goods, provided he acts in good faith and without notice of the pawnor's defect of title. Current-law framing: protects good-faith pawnees where the voidable contract has not yet been avoided.",
     "sections": [
       {
-        "heading": "Section 178A",
-        "body": "Pledge by person in possession under voidable contract"
+        "heading": "Core rule",
+        "body": "When the pawnor has obtained possession of the goods pledged by him under a contract voidable under section 19 or section 19A, but the contract has not been rescinded at the time of the pledge, the pawnee acquires a good title to the goods, provided he acts in good faith and without notice of the pawnor's defect of title.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Voidable contract not rescinded",
+        "body": "Pawnor obtained goods under a voidable contract not yet rescinded and pledges them to a good-faith pawnee without notice. Pawnee acquires good title under Section 178A."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Pawnor obtained possession under a voidable contract that has not been rescinded. Does a good-faith pawnee without notice get good title?",
+        "analysis": "Yes, under Section 178A."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-178",
+      "topic:india:contract-s-19"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-178a",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 178A"
+      "Indian Contract Act, 1872 — Section 178A"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 178A's rule on pledges by persons in possession under voidable contracts."
+      ],
+      "definition": "When the pawnor has obtained possession of the goods pledged by him under a contract voidable under section 19 or section 19A, but the contract has not been rescinded at the time of the pledge, the pawnee acquires a good title to the goods, provided he acts in good faith and without notice of the pawnor's defect of title.",
+      "legalPrinciple": "Good-faith pawnee without notice acquires good title where possession was obtained under a still-unrescinded voidable contract (ss. 19 or 19A).",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 178A",
+        "Related: Sections 19 and 19A"
+      ],
+      "essentialIngredients": [
+        "Possession obtained under contract voidable under s. 19 or 19A",
+        "Contract not rescinded at time of pledge",
+        "Pawnee acts in good faith without notice of defect of title"
+      ],
+      "detailedExplanation": "Section 178A provides that when the pawnor has obtained possession of the goods under a contract voidable under section 19 or section 19A, but the contract has not been rescinded at the time of the pledge, the pawnee acquires a good title to the goods, provided he acts in good faith and without notice of the pawnor's defect of title.",
+      "examples": [
+        "Unrescinded voidable contract + good-faith pawnee without notice = good title."
+      ],
+      "distinctions": [
+        "Complements Section 178; applies specifically to possession under voidable contracts."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify voidable contract under s. 19 or 19A and that it is unrescinded.",
+        "Identify good faith and lack of notice.",
+        "Conclude pawnee acquires good title."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 178A",
+          "Identify conditions",
+          "Conclude good title"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Link to ss. 19/19A",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to s. 178",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Pawnee gets good title if possession under unrescinded voidable contract and pawnee is in good faith without notice.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 178A aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T07:40:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
-    "section-178a",
-    "review"
+    "section-178A",
+    "source-check-required"
   ]
 }
