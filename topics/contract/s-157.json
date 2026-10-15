@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-157",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 157 (Effect of mixture without consent when goods cannot be separated)",
+  "title": "Indian Contract Act, 1872 — Section 157 (Effect of mixture, without bailor’s consent, when the goods cannot be separated)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 157 of the Indian Contract Act, 1872 is headed \"Effect of mixture without consent when goods cannot be separated\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 157 provides that if the bailee, without the consent of the bailor, mixes the goods of the bailor with his own goods in such a manner that it is impossible to separate the goods bailed from the other goods and deliver them back, the bailor is entitled to be compensated by the bailee for the loss of the goods.",
+    "glance": "Where non-consensual mixture makes separation impossible, the bailor is entitled to compensation from the bailee for the loss of the goods.",
+    "study": "If the bailee, without the consent of the bailor, mixes the goods of the bailor with his own goods, in such a manner that it is impossible to separate the goods bailed from the other goods and deliver them back, the bailor is entitled to be compensated by the bailee for the loss of the goods. Current-law framing: impossibility of separation converts the bailee’s act into a conversion-like liability for the full value of the bailor’s goods.",
     "sections": [
       {
-        "heading": "Section 157",
-        "body": "Effect of mixture without consent when goods cannot be separated"
+        "heading": "Core rule",
+        "body": "If the bailee, without the consent of the bailor, mixes the goods of the bailor with his own goods, in such a manner that it is impossible to separate the goods bailed from the other goods and deliver them back, the bailor is entitled to be compensated by the bailee for the loss of the goods.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Inseparable mixture",
+        "body": "Bailee mixes the bailor’s oil with his own without consent so that separation is impossible. Bailor is entitled to compensation for the loss of the goods under Section 157."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee mixes the goods without consent in a way that makes separation impossible. What is the bailor’s right?",
+        "analysis": "Under Section 157 the bailor is entitled to be compensated by the bailee for the loss of the goods."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-155",
+      "topic:india:contract-s-156"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-157",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 157"
+      "Indian Contract Act, 1872 — Section 157"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 157’s rule on inseparable non-consensual mixture."
+      ],
+      "definition": "If the bailee, without the consent of the bailor, mixes the goods of the bailor with his own goods, in such a manner that it is impossible to separate the goods bailed from the other goods and deliver them back, the bailor is entitled to be compensated by the bailee for the loss of the goods.",
+      "legalPrinciple": "Where non-consensual mixture makes separation impossible, the bailee must compensate the bailor for the loss of the goods.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 157"
+      ],
+      "essentialIngredients": [
+        "Mixture without the bailor’s consent",
+        "Impossibility of separating and delivering back the goods bailed"
+      ],
+      "detailedExplanation": "Section 157 provides that if the bailee mixes the bailor’s goods with his own without consent in such a manner that it is impossible to separate the goods bailed from the other goods and deliver them back, the bailor is entitled to be compensated by the bailee for the loss of the goods. This is the counterpart to Section 156 (separable case) and Section 155 (consensual mixture).",
+      "examples": [
+        "Inseparable mixing of liquids without consent — compensation for the loss of the goods."
+      ],
+      "distinctions": [
+        "Section 157 applies where separation is impossible; Section 156 applies where separation is possible."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify non-consensual mixture.",
+        "Determine that separation is impossible.",
+        "Conclude that the bailor is entitled to compensation for the loss of the goods."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 157",
+          "Identify inseparable non-consensual mixture",
+          "Conclude compensation for loss"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Distinction from s. 156",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Relation to ss. 155 and 156",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Inseparable non-consensual mixture entitles the bailor to compensation for the loss of the goods.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 157 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:25:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-157",
-    "review"
+    "source-check-required"
   ]
 }

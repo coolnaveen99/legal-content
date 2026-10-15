@@ -2,40 +2,123 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-153",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 153 (Termination of bailment by bailee's inconsistent act)",
+  "title": "Indian Contract Act, 1872 — Section 153 (Termination of bailment by bailee’s act inconsistent with conditions)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 153 of the Indian Contract Act, 1872 is headed \"Termination of bailment by bailee's inconsistent act\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 153 provides that a contract of bailment is voidable at the option of the bailor if the bailee does any act with regard to the goods bailed inconsistent with the conditions of the bailment. The statutory illustration confirms that using a hired horse for a different purpose terminates the bailment at the bailor’s option.",
+    "glance": "Bailment is voidable at the bailor’s option if the bailee acts inconsistently with the conditions of the bailment.",
+    "study": "A contract of bailment is voidable at the option of the bailor, if the bailee does any act with regard to the goods bailed, inconsistent with the conditions of the bailment. Illustration: A lets to B, for hire, a horse for his own riding. B drives the horse in his carriage. This is, at the option of A, a termination of the bailment. Current-law framing: the inconsistent act gives the bailor the election to treat the bailment as terminated; it is distinct from the compensation liability under Section 154.",
     "sections": [
       {
-        "heading": "Section 153",
-        "body": "Termination of bailment by bailee's inconsistent act"
+        "heading": "Core rule",
+        "body": "A contract of bailment is voidable at the option of the bailor, if the bailee does any act with regard to the goods bailed, inconsistent with the conditions of the bailment.",
+        "order": 1
+      },
+      {
+        "heading": "Statutory illustration",
+        "body": "A lets to B, for hire, a horse for his own riding. B drives the horse in his carriage. This is, at the option of A, a termination of the bailment.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Inconsistent use of hired horse",
+        "body": "Horse hired for riding is used to draw a carriage. Under Section 153 the bailor may treat the bailment as terminated."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee uses goods in a manner inconsistent with the agreed conditions. What is the bailor’s right under Section 153?",
+        "analysis": "The contract of bailment is voidable at the bailor’s option; the bailor may terminate it."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-154"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 153 Illustration: horse hired for riding used in a carriage — termination at bailor’s option."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-153",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 153"
+      "Indian Contract Act, 1872 — Section 153 and Illustration"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text and illustration. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 153’s rule that an inconsistent act makes the bailment voidable at the bailor’s option."
+      ],
+      "definition": "A contract of bailment is voidable at the option of the bailor, if the bailee does any act with regard to the goods bailed, inconsistent with the conditions of the bailment.",
+      "legalPrinciple": "An act by the bailee inconsistent with the conditions of the bailment renders the bailment voidable at the bailor’s option.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 153"
+      ],
+      "essentialIngredients": [
+        "Act by the bailee with regard to the goods",
+        "Inconsistent with the conditions of the bailment"
+      ],
+      "detailedExplanation": "Section 153 provides that a contract of bailment is voidable at the option of the bailor if the bailee does any act with regard to the goods bailed that is inconsistent with the conditions of the bailment. The illustration shows that using a horse hired for riding to draw a carriage is such an inconsistent act. This is distinct from the separate compensation liability under Section 154 for damage arising from unauthorised use.",
+      "examples": [
+        "Horse hired for riding used in a carriage — bailor may terminate."
+      ],
+      "distinctions": [
+        "Section 153 addresses the option to terminate; Section 154 addresses liability to compensate for damage from unauthorised use."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify the conditions of the bailment.",
+        "Identify the inconsistent act.",
+        "Conclude that the bailment is voidable at the bailor’s option."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 153",
+          "Identify inconsistent act",
+          "Conclude voidable at bailor’s option"
+        ],
+        "tenMark": [
+          "Statutory rule and illustration",
+          "Distinction from s. 154",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Illustration",
+          "Relation to s. 154",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Inconsistent act by bailee makes bailment voidable at bailor’s option.",
+        "Distinct from compensation liability under Section 154.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 153 and illustration aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:25:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-153",
-    "review"
+    "source-check-required"
   ]
 }

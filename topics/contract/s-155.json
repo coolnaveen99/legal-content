@@ -2,40 +2,115 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-155",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 155 (Effect of mixture with bailor's consent)",
+  "title": "Indian Contract Act, 1872 — Section 155 (Effect of mixture, with bailor’s consent, of his goods with bailee’s)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 155 of the Indian Contract Act, 1872 is headed \"Effect of mixture with bailor's consent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 155 provides that if the bailee, with the consent of the bailor, mixes the goods of the bailor with his own goods, the bailor and the bailee shall have an interest, in proportion to their respective shares, in the mixture thus produced.",
+    "glance": "Where the bailee mixes the bailor’s goods with his own with the bailor’s consent, both have a proportionate interest in the resulting mixture.",
+    "study": "If the bailee, with the consent of the bailor, mixes the goods of the bailor with his own goods, the bailor and the bailee shall have an interest, in proportion to their respective shares, in the mixture thus produced. Current-law framing: consent converts the mixture into a co-owned mass in proportion to the respective contributions.",
     "sections": [
       {
-        "heading": "Section 155",
-        "body": "Effect of mixture with bailor's consent"
+        "heading": "Core rule",
+        "body": "If the bailee, with the consent of the bailor, mixes the goods of the bailor with his own goods, the bailor and the bailee shall have an interest, in proportion to their respective shares, in the mixture thus produced.",
+        "order": 1
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Consented mixture",
+        "body": "Bailor consents to mixing his grain with the bailee’s grain. Both have a proportionate interest in the resulting mixture under Section 155."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Bailee mixes the goods with the bailor’s consent. What interests arise?",
+        "analysis": "Under Section 155 both have an interest in the mixture in proportion to their respective shares."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-156",
+      "topic:india:contract-s-157"
+    ],
     "relatedJudgments": [],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-155",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 155"
+      "Indian Contract Act, 1872 — Section 155"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub using official statutory text. Remains review / SOURCE_CHECK_REQUIRED.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 155’s rule on mixture with consent."
+      ],
+      "definition": "If the bailee, with the consent of the bailor, mixes the goods of the bailor with his own goods, the bailor and the bailee shall have an interest, in proportion to their respective shares, in the mixture thus produced.",
+      "legalPrinciple": "Consented mixture creates proportionate interests in the resulting mass.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 155"
+      ],
+      "essentialIngredients": [
+        "Mixture of bailor’s goods with bailee’s goods",
+        "With the bailor’s consent"
+      ],
+      "detailedExplanation": "Section 155 provides that where the bailee mixes the bailor’s goods with his own with the bailor’s consent, the bailor and the bailee shall have an interest, in proportion to their respective shares, in the mixture thus produced. This is the consensual counterpart to the non-consensual rules in Sections 156 and 157.",
+      "examples": [
+        "Consented mixing of grain creates proportionate co-ownership of the mixture."
+      ],
+      "distinctions": [
+        "Section 155 (with consent) creates proportionate interests; Sections 156–157 address non-consensual mixtures (separable or inseparable)."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Identify consent to the mixture.",
+        "Identify the respective shares.",
+        "Conclude proportionate interests under Section 155."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 155",
+          "Identify consent and shares",
+          "Conclude proportionate interests"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Proportionate interests",
+          "Application"
+        ],
+        "sixteenMark": [
+          "Statutory text",
+          "Elements",
+          "Distinction from ss. 156–157",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Consented mixture creates proportionate interests in the resulting mixture.",
+        "No case-law verification claimed."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official text of Section 155 aligned.",
+          "Remains review / SOURCE_CHECK_REQUIRED."
+        ]
+      }
+    }
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
-  "effectiveFrom": null,
-  "effectiveTo": null,
+  "updatedAt": "2026-10-15T07:25:00.000Z",
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-155",
-    "review"
+    "source-check-required"
   ]
 }
