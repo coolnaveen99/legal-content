@@ -8,19 +8,22 @@
 | **s.1 → s.63** | **Done (review / SOURCE_CHECK_REQUIRED)** |
 | **Case-law batch 1–2** | **Done (not locked)** — s.9; s.34–s.35 |
 
-### Indian Contract Act, 1872 — ACTIVE (FORWARD order from start)
+### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.3** | **Done (review)** — Preliminary + Chapter I start |
-| **s.238 → s.225** | **Done (review)** — prior Agency reverse bulk (paused) |
+| **s.1 → s.3** | **Done (review)** — forward-order start |
+| **s.238 → s.222** | **Done (review)** — Agency reverse-order (including s.224–s.222 indemnity cluster) |
 
-### Latest Contract commits (forward bulk)
-- s.1 Short title, extent and commencement: `2134f79d708f4fabe6630f846f6d342b51c60706`
-- s.2 Interpretation-clause: `0a6dcf7d9335431e36cddfb7608364164f56acde`
-- s.3 Communication, acceptance and revocation of proposals: `ebf812af3f72a534bbcb205206076d86851a6cb4`
+### Latest Contract commits
+**Agency reverse (indemnity cluster):**
+- s.224 Non-liability of employer of agent to do a criminal act: `fcc279bf196feb64594d2aa07d734770aacb1e1d`
+- s.223 Agent indemnified for acts done in good faith: `e259c088437e580a57298a12ae4121fa907a0376`
+- s.222 Agent indemnified for lawful acts: `29dcdc408a82a467239f34327440fe4713313e34`
+
+**Forward-order start:** s.1–s.3 on main (prior)
 
 ### Next
-**FORWARD order:** continue from **s.4** (Communication when complete), then s.5–s.9 (Chapter I), then Chapter II onward. Reverse Agency work paused per user direction.
+**Active control:** FORWARD order from **s.4** (Communication when complete), then s.5–s.9 (Chapter I), then Chapter II onward. Agency reverse may resume later from s.221 if reclaimed.
 
 ---
 
@@ -40,18 +43,18 @@
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**Active subject:** Indian Contract Act, 1872 — **FORWARD order from s.4** (user directed: work from starting, not reverse).
+**Active subject:** Indian Contract Act, 1872 — **FORWARD order from s.4**. Agency reverse closed through s.222 for this session.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.1–s.3 (forward-order start)
-Current main commit: ebf812af3f72a534bbcb205206076d86851a6cb4
+Topic/section range: s.224–s.222 (Agency indemnity reverse bulk)
+Current main commit: 29dcdc408a82a467239f34327440fe4713313e34
 Current status: review / SOURCE_CHECK_REQUIRED
-Current owner: current-assistant-contract-forward
-Latest evidence: s.1, s.2, s.3 expanded from catalog stubs to official India Code text
+Current owner: current-assistant-contract-s224-s222-bulk
+Latest evidence: s.224, s.223, s.222 expanded from catalog stubs to official India Code text including illustrations
 Missing gate: full case-law verification and final lock
-Planned change: Contract Act forward-order source alignment from the start of the Act
+Planned change: Contract Act Agency reverse-order source alignment of indemnity cluster
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: 2134f79d708f4fabe6630f846f6d342b51c60706; 0a6dcf7d9335431e36cddfb7608364164f56acde; ebf812af3f72a534bbcb205206076d86851a6cb4
+Evidence/commit: fcc279bf196feb64594d2aa07d734770aacb1e1d; e259c088437e580a57298a12ae4121fa907a0376; 29dcdc408a82a467239f34327440fe4713313e34
 
 If any field cannot be established, STOP.
