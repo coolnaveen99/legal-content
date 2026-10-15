@@ -1,158 +1,181 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-236",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 236 (Person falsely contracting as agent not entitled to performance)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 236 provides that a person with whom a contract has been entered into in the character of agent is not entitled to require the performance of it, if he was in reality acting, not as agent, but on his own account.",
-        "glance": "One who contracted as agent but was really acting on own account cannot require performance of that contract.",
-        "study": "Where a contract is entered into with a person in the character of agent, and that person was in reality acting not as agent but on his own account, he is not entitled to require performance of the contract. The section prevents a person from claiming contractual performance in a capacity different from the one in which the contract was made. Current-law framing: identify the character in which the contract was entered; test whether the person was in reality acting on own account; conclude no right to require performance.",
-        "sections": [
-            {
-                "heading": "Contract in character of agent",
-                "body": "The contract was entered into with a person in the character of agent.",
-                "order": 1
-            },
-            {
-                "heading": "Reality — acting on own account",
-                "body": "That person was in reality acting not as agent but on his own account.",
-                "order": 2
-            },
-            {
-                "heading": "Consequence",
-                "body": "He is not entitled to require performance of the contract.",
-                "order": 3
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-236",
-                "section": "Section 236",
-                "title": "Person falsely contracting as agent, not entitled to performance"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Own-account dealing under agent character",
-                "body": "A contracts with B representing himself as C’s agent, but A is dealing for his own benefit. A cannot require B to perform the contract for A’s benefit.",
-                "kind": "hypothetical",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Can a person who posed as agent later enforce the contract for himself?",
-                "analysis": "No. Section 236 bars requiring performance where the person contracted in the character of agent but was in reality acting on own account."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s236-vs-s235",
-                "title": "False agent not entitled to performance (s. 236) vs liability of pretended agent (s. 235)",
-                "left": "Bars the false agent from requiring performance",
-                "right": "Compels the pretended agent to compensate the third person",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Enforcement barred",
-                        "right": "Compensation liability"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s236-trap-1",
-                "trap": "Anyone who contracts can always enforce it regardless of the character assumed.",
-                "correction": "Section 236 denies performance to a person who contracted as agent but was really acting on own account."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s236-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 236 problem be analysed?",
-                "answer": "I. Identify the character in which the contract was made. II. Test whether the person was really acting on own account. III. Conclude no right to require performance.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 236",
-            "Connected: Sections 235, 230–238"
-        ],
-        "examTips": [
-            "State the character-of-agent test.",
-            "Contrast with s. 235 compensation liability."
-        ],
-        "revisionPoints": [
-            "Contract in character of agent",
-            "Reality — acting on own account",
-            "No right to require performance"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-235",
-            "contract-s-237"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-236",
-        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 236 bars a person who contracted in the character of agent but was really acting on own account from requiring performance of that contract.",
-            "legalPrinciple": "False agent character — no right to require performance.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 236",
-            "essentialIngredients": [
-                "Contract in character of agent",
-                "Reality — acting on own account",
-                "Consequence"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 236"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act reverse-order source check against official section 236. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-s236-reverse"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T11:35:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s236-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-236",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 236 (Person falsely contracting as agent not entitled to performance)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 236 provides that a person with whom a contract has been entered into in the character of agent is not entitled to require the performance of it, if he was in reality acting, not as agent, but on his own account.",
+    "glance": "One who contracted as agent but was really acting on own account cannot require performance of that contract.",
+    "study": "Where a contract is entered into with a person in the character of agent, and that person was in reality acting not as agent but on his own account, he is not entitled to require performance of the contract. The section prevents a person from claiming contractual performance in a capacity different from the one in which the contract was made. Current-law framing: identify the character in which the contract was entered; test whether the person was in reality acting on own account; conclude no right to require performance.",
+    "sections": [
+      {
+        "heading": "Contract in character of agent",
+        "body": "The contract was entered into with a person in the character of agent.",
+        "order": 1
+      },
+      {
+        "heading": "Reality — acting on own account",
+        "body": "That person was in reality acting not as agent but on his own account.",
+        "order": 2
+      },
+      {
+        "heading": "Consequence",
+        "body": "He is not entitled to require performance of the contract.",
+        "order": 3
+      }
     ],
-    "updatedAt": "2026-10-15T11:35:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-236",
-        "agency",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-236",
+        "section": "Section 236",
+        "title": "Person falsely contracting as agent, not entitled to performance"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Own-account dealing under agent character",
+        "body": "A contracts with B representing himself as C’s agent, but A is dealing for his own benefit. A cannot require B to perform the contract for A’s benefit.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a person who posed as agent later enforce the contract for himself?",
+        "analysis": "No. Section 236 bars requiring performance where the person contracted in the character of agent but was in reality acting on own account."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s236-vs-s235",
+        "title": "False agent not entitled to performance (s. 236) vs liability of pretended agent (s. 235)",
+        "left": "Bars the false agent from requiring performance",
+        "right": "Compels the pretended agent to compensate the third person",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Enforcement barred",
+            "right": "Compensation liability"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s236-trap-1",
+        "trap": "Anyone who contracts can always enforce it regardless of the character assumed.",
+        "correction": "Section 236 denies performance to a person who contracted as agent but was really acting on own account."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s236-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 236 problem be analysed?",
+        "answer": "I. Identify the character in which the contract was made. II. Test whether the person was really acting on own account. III. Conclude no right to require performance.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 236",
+      "Connected: Sections 235, 230–238"
+    ],
+    "examTips": [
+      "State the character-of-agent test.",
+      "Contrast with s. 235 compensation liability."
+    ],
+    "revisionPoints": [
+      "Contract in character of agent",
+      "Reality — acting on own account",
+      "No right to require performance"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-235",
+      "contract-s-237"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-236",
+    "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 236 bars a person who contracted in the character of agent but was really acting on own account from requiring performance of that contract.",
+      "legalPrinciple": "False agent character — no right to require performance.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 236",
+      "essentialIngredients": [
+        "Contract in character of agent",
+        "Reality — acting on own account",
+        "Consequence"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 236"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 236. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s236-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T11:35:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s236-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the statutory rule in Section 236",
+          "Identify the relevant elements or modes",
+          "Apply to the facts and conclude"
+        ],
+        "tenMark": [
+          "Statutory text / core rule",
+          "Essential ingredients",
+          "Application and limitations"
+        ],
+        "sixteenMark": [
+          "Full statutory framework",
+          "Elements and distinctions",
+          "Relation to neighbouring sections",
+          "Problem application and conclusion"
+        ]
+      },
+      "problemApplication": [
+        "Identify the facts that engage Section 236",
+        "Apply the statutory elements",
+        "State the legal consequence under the section"
+      ]
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T11:35:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-236",
+    "agency",
+    "review-required"
+  ]
 }

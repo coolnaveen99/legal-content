@@ -1,165 +1,188 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-230",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 230 (Agent cannot personally enforce, nor be bound by, contracts on behalf of principal)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 230 provides that, in the absence of any contract to that effect, an agent cannot personally enforce contracts entered into by him on behalf of his principal, nor is he personally bound by them. A contract to the contrary is presumed where (1) the contract is made by an agent for the sale or purchase of goods for a merchant resident abroad; (2) the agent does not disclose the name of his principal; or (3) the principal, though disclosed, cannot be sued.",
-        "glance": "Default: agent neither enforces nor is bound; presumption of personal liability in three statutory cases.",
-        "study": "Absent a contract to the contrary, an agent cannot personally enforce contracts entered into on behalf of the principal, nor is the agent personally bound by them. A contract to the contrary is presumed in three cases: (1) sale or purchase of goods for a merchant resident abroad; (2) agent does not disclose the principal’s name; (3) principal, though disclosed, cannot be sued. Current-law framing: state the default rule; test for express contract to the contrary or any of the three presumptions; conclude on personal enforceability and liability.",
-        "sections": [
-            {
-                "heading": "Default rule",
-                "body": "Absent a contract to the contrary, the agent cannot personally enforce, nor is personally bound by, contracts entered into on behalf of the principal.",
-                "order": 1
-            },
-            {
-                "heading": "Presumption — foreign merchant",
-                "body": "Contract for sale or purchase of goods for a merchant resident abroad — contract to the contrary presumed.",
-                "order": 2
-            },
-            {
-                "heading": "Presumption — undisclosed principal",
-                "body": "Agent does not disclose the name of the principal — contract to the contrary presumed.",
-                "order": 3
-            },
-            {
-                "heading": "Presumption — principal who cannot be sued",
-                "body": "Principal disclosed but cannot be sued — contract to the contrary presumed.",
-                "order": 4
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-230",
-                "section": "Section 230",
-                "title": "Agent cannot personally enforce, nor be bound by, contracts on behalf of principal"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Undisclosed principal",
-                "body": "Agent contracts without naming the principal. A contract that the agent is personally bound is presumed under clause (2).",
-                "kind": "hypothetical",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Is the agent always free of personal liability?",
-                "analysis": "No. Section 230 creates a default, displaced by contract to the contrary or by any of the three statutory presumptions."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s230-vs-s233",
-                "title": "Default non-liability of agent (s. 230) vs election where agent personally liable (s. 233)",
-                "left": "Default: agent neither enforces nor is bound",
-                "right": "Where agent is personally liable, third party may hold agent, principal, or both",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Default rule and presumptions",
-                        "right": "Election once personal liability exists"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s230-trap-1",
-                "trap": "An agent is never personally liable on a principal’s contract.",
-                "correction": "Section 230 is a default only; contract to the contrary and three presumptions can make the agent personally bound."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s230-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 230 problem be analysed?",
-                "answer": "I. State the default rule. II. Test contract to the contrary. III. Apply any of the three presumptions. IV. Conclude on personal enforceability and liability.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 230",
-            "Connected: Sections 231–233"
-        ],
-        "examTips": [
-            "List the three presumptions of contract to the contrary.",
-            "Link to s. 233 when personal liability is established."
-        ],
-        "revisionPoints": [
-            "Default rule",
-            "Presumption — foreign merchant",
-            "Presumption — undisclosed principal",
-            "Presumption — principal who cannot be sued"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-231",
-            "contract-s-233"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-230",
-        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 230 sets the default that an agent neither personally enforces nor is bound by the principal’s contracts, subject to contract to the contrary and three statutory presumptions.",
-            "legalPrinciple": "Default non-liability of agent; three presumptions of personal contract.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 230",
-            "essentialIngredients": [
-                "Default rule",
-                "Presumption — foreign merchant",
-                "Presumption — undisclosed principal",
-                "Presumption — principal who cannot be sued"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 230"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act reverse-order source check against official section 230 including presumptions. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-s230-reverse"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T11:45:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s230-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-230",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 230 (Agent cannot personally enforce, nor be bound by, contracts on behalf of principal)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 230 provides that, in the absence of any contract to that effect, an agent cannot personally enforce contracts entered into by him on behalf of his principal, nor is he personally bound by them. A contract to the contrary is presumed where (1) the contract is made by an agent for the sale or purchase of goods for a merchant resident abroad; (2) the agent does not disclose the name of his principal; or (3) the principal, though disclosed, cannot be sued.",
+    "glance": "Default: agent neither enforces nor is bound; presumption of personal liability in three statutory cases.",
+    "study": "Absent a contract to the contrary, an agent cannot personally enforce contracts entered into on behalf of the principal, nor is the agent personally bound by them. A contract to the contrary is presumed in three cases: (1) sale or purchase of goods for a merchant resident abroad; (2) agent does not disclose the principal’s name; (3) principal, though disclosed, cannot be sued. Current-law framing: state the default rule; test for express contract to the contrary or any of the three presumptions; conclude on personal enforceability and liability.",
+    "sections": [
+      {
+        "heading": "Default rule",
+        "body": "Absent a contract to the contrary, the agent cannot personally enforce, nor is personally bound by, contracts entered into on behalf of the principal.",
+        "order": 1
+      },
+      {
+        "heading": "Presumption — foreign merchant",
+        "body": "Contract for sale or purchase of goods for a merchant resident abroad — contract to the contrary presumed.",
+        "order": 2
+      },
+      {
+        "heading": "Presumption — undisclosed principal",
+        "body": "Agent does not disclose the name of the principal — contract to the contrary presumed.",
+        "order": 3
+      },
+      {
+        "heading": "Presumption — principal who cannot be sued",
+        "body": "Principal disclosed but cannot be sued — contract to the contrary presumed.",
+        "order": 4
+      }
     ],
-    "updatedAt": "2026-10-15T11:45:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-230",
-        "agency",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-230",
+        "section": "Section 230",
+        "title": "Agent cannot personally enforce, nor be bound by, contracts on behalf of principal"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Undisclosed principal",
+        "body": "Agent contracts without naming the principal. A contract that the agent is personally bound is presumed under clause (2).",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Is the agent always free of personal liability?",
+        "analysis": "No. Section 230 creates a default, displaced by contract to the contrary or by any of the three statutory presumptions."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s230-vs-s233",
+        "title": "Default non-liability of agent (s. 230) vs election where agent personally liable (s. 233)",
+        "left": "Default: agent neither enforces nor is bound",
+        "right": "Where agent is personally liable, third party may hold agent, principal, or both",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Default rule and presumptions",
+            "right": "Election once personal liability exists"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s230-trap-1",
+        "trap": "An agent is never personally liable on a principal’s contract.",
+        "correction": "Section 230 is a default only; contract to the contrary and three presumptions can make the agent personally bound."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s230-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 230 problem be analysed?",
+        "answer": "I. State the default rule. II. Test contract to the contrary. III. Apply any of the three presumptions. IV. Conclude on personal enforceability and liability.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 230",
+      "Connected: Sections 231–233"
+    ],
+    "examTips": [
+      "List the three presumptions of contract to the contrary.",
+      "Link to s. 233 when personal liability is established."
+    ],
+    "revisionPoints": [
+      "Default rule",
+      "Presumption — foreign merchant",
+      "Presumption — undisclosed principal",
+      "Presumption — principal who cannot be sued"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-231",
+      "contract-s-233"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-230",
+    "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 230 sets the default that an agent neither personally enforces nor is bound by the principal’s contracts, subject to contract to the contrary and three statutory presumptions.",
+      "legalPrinciple": "Default non-liability of agent; three presumptions of personal contract.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 230",
+      "essentialIngredients": [
+        "Default rule",
+        "Presumption — foreign merchant",
+        "Presumption — undisclosed principal",
+        "Presumption — principal who cannot be sued"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 230"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 230 including presumptions. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s230-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T11:45:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s230-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the statutory rule in Section 230",
+          "Identify the relevant elements or modes",
+          "Apply to the facts and conclude"
+        ],
+        "tenMark": [
+          "Statutory text / core rule",
+          "Essential ingredients",
+          "Application and limitations"
+        ],
+        "sixteenMark": [
+          "Full statutory framework",
+          "Elements and distinctions",
+          "Relation to neighbouring sections",
+          "Problem application and conclusion"
+        ]
+      },
+      "problemApplication": [
+        "Identify the facts that engage Section 230",
+        "Apply the statutory elements",
+        "State the legal consequence under the section"
+      ]
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T11:45:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-230",
+    "agency",
+    "review-required"
+  ]
 }

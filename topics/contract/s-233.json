@@ -1,158 +1,181 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-233",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 233 (Right of person dealing with agent personally liable)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 233 provides that in cases where the agent is personally liable, a person dealing with him may hold either him or his principal, or both of them, liable. Illustration: A contracts with B to sell 100 bales of cotton and afterwards discovers B was agent for C — A may sue B or C or both for the price.",
-        "glance": "Where agent is personally liable, third party may hold agent, principal, or both.",
-        "study": "Where the agent is personally liable, a person dealing with the agent may hold either the agent or the principal, or both of them, liable. Illustration: A enters into a contract with B to sell him 100 bales of cotton, and afterwards discovers that B was acting as agent for C. A may sue either B or C, or both, for the price of the cotton. Current-law framing: establish personal liability of the agent; then elect among agent, principal, or both.",
-        "sections": [
-            {
-                "heading": "Agent personally liable",
-                "body": "The section applies where the agent is personally liable under the contract or the Act.",
-                "order": 1
-            },
-            {
-                "heading": "Third party’s election",
-                "body": "The person dealing with the agent may hold the agent, or the principal, or both, liable.",
-                "order": 2
-            },
-            {
-                "heading": "Illustration",
-                "body": "A sells cotton to B; later learns B was agent for C. A may sue B or C or both for the price.",
-                "order": 3
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-233",
-                "section": "Section 233",
-                "title": "Right of person dealing with agent personally liable"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Election against agent and principal",
-                "body": "A contracts with B for sale of cotton and later discovers B was C’s agent. A may sue B, C, or both for the price under the statutory illustration.",
-                "kind": "statutory-illustration",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Does s. 233 apply when the agent is not personally liable?",
-                "analysis": "No. The section is limited to cases where the agent is personally liable."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s233-vs-s234",
-                "title": "Election where agent personally liable (s. 233) vs exclusive-liability inducement (s. 234)",
-                "left": "Third party may hold agent, principal, or both",
-                "right": "Inducing exclusive-liability belief bars holding the other",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Election",
-                        "right": "Estoppel from induced belief"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s233-trap-1",
-                "trap": "The third party must always elect only one of agent or principal.",
-                "correction": "Section 233 expressly allows holding either or both where the agent is personally liable."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s233-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 233 problem be analysed?",
-                "answer": "I. Establish personal liability of the agent. II. State the third party’s election (agent, principal, or both). III. Apply the illustration if analogous. IV. Conclude.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 233",
-            "Connected: Sections 230, 234"
-        ],
-        "examTips": [
-            "State the personal-liability precondition.",
-            "Note the right to hold both."
-        ],
-        "revisionPoints": [
-            "Agent personally liable",
-            "Third party’s election",
-            "Illustration"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-234",
-            "contract-s-230"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-233",
-        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 233 allows a person dealing with a personally liable agent to hold the agent, the principal, or both liable.",
-            "legalPrinciple": "Personally liable agent — third party may hold agent, principal, or both.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 233",
-            "essentialIngredients": [
-                "Agent personally liable",
-                "Third party’s election",
-                "Illustration"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 233"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act reverse-order source check against official section 233 including illustration. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-s233-reverse"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T11:40:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s233-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-233",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 233 (Right of person dealing with agent personally liable)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 233 provides that in cases where the agent is personally liable, a person dealing with him may hold either him or his principal, or both of them, liable. Illustration: A contracts with B to sell 100 bales of cotton and afterwards discovers B was agent for C — A may sue B or C or both for the price.",
+    "glance": "Where agent is personally liable, third party may hold agent, principal, or both.",
+    "study": "Where the agent is personally liable, a person dealing with the agent may hold either the agent or the principal, or both of them, liable. Illustration: A enters into a contract with B to sell him 100 bales of cotton, and afterwards discovers that B was acting as agent for C. A may sue either B or C, or both, for the price of the cotton. Current-law framing: establish personal liability of the agent; then elect among agent, principal, or both.",
+    "sections": [
+      {
+        "heading": "Agent personally liable",
+        "body": "The section applies where the agent is personally liable under the contract or the Act.",
+        "order": 1
+      },
+      {
+        "heading": "Third party’s election",
+        "body": "The person dealing with the agent may hold the agent, or the principal, or both, liable.",
+        "order": 2
+      },
+      {
+        "heading": "Illustration",
+        "body": "A sells cotton to B; later learns B was agent for C. A may sue B or C or both for the price.",
+        "order": 3
+      }
     ],
-    "updatedAt": "2026-10-15T11:40:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-233",
-        "agency",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-233",
+        "section": "Section 233",
+        "title": "Right of person dealing with agent personally liable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Election against agent and principal",
+        "body": "A contracts with B for sale of cotton and later discovers B was C’s agent. A may sue B, C, or both for the price under the statutory illustration.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does s. 233 apply when the agent is not personally liable?",
+        "analysis": "No. The section is limited to cases where the agent is personally liable."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s233-vs-s234",
+        "title": "Election where agent personally liable (s. 233) vs exclusive-liability inducement (s. 234)",
+        "left": "Third party may hold agent, principal, or both",
+        "right": "Inducing exclusive-liability belief bars holding the other",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Election",
+            "right": "Estoppel from induced belief"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s233-trap-1",
+        "trap": "The third party must always elect only one of agent or principal.",
+        "correction": "Section 233 expressly allows holding either or both where the agent is personally liable."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s233-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 233 problem be analysed?",
+        "answer": "I. Establish personal liability of the agent. II. State the third party’s election (agent, principal, or both). III. Apply the illustration if analogous. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 233",
+      "Connected: Sections 230, 234"
+    ],
+    "examTips": [
+      "State the personal-liability precondition.",
+      "Note the right to hold both."
+    ],
+    "revisionPoints": [
+      "Agent personally liable",
+      "Third party’s election",
+      "Illustration"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-234",
+      "contract-s-230"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-233",
+    "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 233 allows a person dealing with a personally liable agent to hold the agent, the principal, or both liable.",
+      "legalPrinciple": "Personally liable agent — third party may hold agent, principal, or both.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 233",
+      "essentialIngredients": [
+        "Agent personally liable",
+        "Third party’s election",
+        "Illustration"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 233"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 233 including illustration. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s233-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T11:40:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s233-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the statutory rule in Section 233",
+          "Identify the relevant elements or modes",
+          "Apply to the facts and conclude"
+        ],
+        "tenMark": [
+          "Statutory text / core rule",
+          "Essential ingredients",
+          "Application and limitations"
+        ],
+        "sixteenMark": [
+          "Full statutory framework",
+          "Elements and distinctions",
+          "Relation to neighbouring sections",
+          "Problem application and conclusion"
+        ]
+      },
+      "problemApplication": [
+        "Identify the facts that engage Section 233",
+        "Apply the statutory elements",
+        "State the legal consequence under the section"
+      ]
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T11:40:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-233",
+    "agency",
+    "review-required"
+  ]
 }

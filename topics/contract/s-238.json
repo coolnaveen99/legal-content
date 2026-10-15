@@ -1,165 +1,188 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-238",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 238 (Effect on agreement of misrepresentation or fraud by agent)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 238 provides that misrepresentations made, or frauds committed, by agents acting in the course of their business for their principals, have the same effect on agreements made by such agents as if such misrepresentations or frauds had been made or committed by the principals; but misrepresentations made, or frauds committed, by agents, in matters which do not fall within their authority, do not affect their principals.",
-        "glance": "Agent’s misrepresentation/fraud in course of business binds principal as if principal’s own; outside authority does not affect principal.",
-        "study": "Misrepresentations made or frauds committed by agents acting in the course of their business for their principals have the same effect on agreements made by such agents as if made or committed by the principals. Misrepresentations or frauds by agents in matters outside their authority do not affect their principals. Illustration (a): an agent for sale of goods induces a buyer by an unauthorised misrepresentation — the contract is voidable at the buyer’s option as against the principal. Illustration (b): a captain signs bills of lading without having received the goods — the bills are void as between the principal and the pretended consignor. Current-law framing: identify the agent’s act; test whether it was in the course of the agent’s business for the principal and within authority; apply the same-effect rule or the outside-authority carve-out.",
-        "sections": [
-            {
-                "heading": "Course of business — same effect as principal",
-                "body": "Misrepresentation or fraud by an agent acting in the course of business for the principal has the same effect on the agreement as if done by the principal.",
-                "order": 1
-            },
-            {
-                "heading": "Outside authority — principal not affected",
-                "body": "Misrepresentation or fraud by an agent in matters not within the agent’s authority does not affect the principal.",
-                "order": 2
-            },
-            {
-                "heading": "Illustrations",
-                "body": "(a) Unauthorised misrepresentation by selling agent — contract voidable by buyer against principal. (b) Captain signs bills of lading without goods on board — bills void as between principal and pretended consignor.",
-                "order": 3
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-238",
-                "section": "Section 238",
-                "title": "Effect, on agreement, of misrepresentation or fraud by agent"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Unauthorised misrepresentation by selling agent",
-                "body": "A, being B’s agent for the sale of goods, induces C to buy them by a misrepresentation which B did not authorise. The contract is voidable as between B and C at C’s option.",
-                "kind": "statutory-illustration",
-                "inventedCase": false
-            },
-            {
-                "title": "Bills of lading without goods",
-                "body": "A, the captain of B’s ship, signs bills of lading without having received on board the goods mentioned. The bills are void as between B and the pretended consignor.",
-                "kind": "statutory-illustration",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Does every misrepresentation by an agent bind the principal?",
-                "analysis": "No. Only misrepresentations made in the course of the agent’s business for the principal have the same effect as the principal’s own. Matters outside authority do not affect the principal."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s238-vs-s237",
-                "title": "Fraud/misrepresentation by agent (s. 238) vs principal inducing belief of authority (s. 237)",
-                "left": "Agent’s own misrepresentation/fraud in course of business",
-                "right": "Principal’s conduct inducing belief that unauthorised acts were authorised",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Agent’s representation",
-                        "right": "Principal’s inducement of belief"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s238-trap-1",
-                "trap": "The principal is never bound by an agent’s fraud.",
-                "correction": "Section 238 binds the principal where the agent acted in the course of business for the principal."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s238-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 238 problem be analysed?",
-                "answer": "I. Identify the agent’s misrepresentation or fraud. II. Test course of business and authority. III. Apply same-effect rule or outside-authority carve-out. IV. Conclude.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 238",
-            "Connected: Sections 237, 182–238 (Agency)"
-        ],
-        "examTips": [
-            "State the course-of-business test.",
-            "Contrast the outside-authority carve-out.",
-            "Use the statutory illustrations."
-        ],
-        "revisionPoints": [
-            "Course of business — same effect as principal",
-            "Outside authority — principal not affected",
-            "Illustrations (a) and (b)"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-237",
-            "contract-s-182"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-238",
-        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 238 attributes an agent’s misrepresentation or fraud in the course of business to the principal for the purpose of the agreement, but excludes acts outside the agent’s authority.",
-            "legalPrinciple": "Agent’s misrepresentation/fraud in course of business binds principal; outside authority does not.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 238",
-            "essentialIngredients": [
-                "Course of business — same effect as principal",
-                "Outside authority — principal not affected",
-                "Illustrations"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 238"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act reverse-order source check against official section 238 including illustrations. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-s238-reverse"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T11:30:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s238-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-238",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 238 (Effect on agreement of misrepresentation or fraud by agent)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 238 provides that misrepresentations made, or frauds committed, by agents acting in the course of their business for their principals, have the same effect on agreements made by such agents as if such misrepresentations or frauds had been made or committed by the principals; but misrepresentations made, or frauds committed, by agents, in matters which do not fall within their authority, do not affect their principals.",
+    "glance": "Agent’s misrepresentation/fraud in course of business binds principal as if principal’s own; outside authority does not affect principal.",
+    "study": "Misrepresentations made or frauds committed by agents acting in the course of their business for their principals have the same effect on agreements made by such agents as if made or committed by the principals. Misrepresentations or frauds by agents in matters outside their authority do not affect their principals. Illustration (a): an agent for sale of goods induces a buyer by an unauthorised misrepresentation — the contract is voidable at the buyer’s option as against the principal. Illustration (b): a captain signs bills of lading without having received the goods — the bills are void as between the principal and the pretended consignor. Current-law framing: identify the agent’s act; test whether it was in the course of the agent’s business for the principal and within authority; apply the same-effect rule or the outside-authority carve-out.",
+    "sections": [
+      {
+        "heading": "Course of business — same effect as principal",
+        "body": "Misrepresentation or fraud by an agent acting in the course of business for the principal has the same effect on the agreement as if done by the principal.",
+        "order": 1
+      },
+      {
+        "heading": "Outside authority — principal not affected",
+        "body": "Misrepresentation or fraud by an agent in matters not within the agent’s authority does not affect the principal.",
+        "order": 2
+      },
+      {
+        "heading": "Illustrations",
+        "body": "(a) Unauthorised misrepresentation by selling agent — contract voidable by buyer against principal. (b) Captain signs bills of lading without goods on board — bills void as between principal and pretended consignor.",
+        "order": 3
+      }
     ],
-    "updatedAt": "2026-10-15T11:30:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-238",
-        "agency",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-238",
+        "section": "Section 238",
+        "title": "Effect, on agreement, of misrepresentation or fraud by agent"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Unauthorised misrepresentation by selling agent",
+        "body": "A, being B’s agent for the sale of goods, induces C to buy them by a misrepresentation which B did not authorise. The contract is voidable as between B and C at C’s option.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      },
+      {
+        "title": "Bills of lading without goods",
+        "body": "A, the captain of B’s ship, signs bills of lading without having received on board the goods mentioned. The bills are void as between B and the pretended consignor.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does every misrepresentation by an agent bind the principal?",
+        "analysis": "No. Only misrepresentations made in the course of the agent’s business for the principal have the same effect as the principal’s own. Matters outside authority do not affect the principal."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s238-vs-s237",
+        "title": "Fraud/misrepresentation by agent (s. 238) vs principal inducing belief of authority (s. 237)",
+        "left": "Agent’s own misrepresentation/fraud in course of business",
+        "right": "Principal’s conduct inducing belief that unauthorised acts were authorised",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Agent’s representation",
+            "right": "Principal’s inducement of belief"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s238-trap-1",
+        "trap": "The principal is never bound by an agent’s fraud.",
+        "correction": "Section 238 binds the principal where the agent acted in the course of business for the principal."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s238-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 238 problem be analysed?",
+        "answer": "I. Identify the agent’s misrepresentation or fraud. II. Test course of business and authority. III. Apply same-effect rule or outside-authority carve-out. IV. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 238",
+      "Connected: Sections 237, 182–238 (Agency)"
+    ],
+    "examTips": [
+      "State the course-of-business test.",
+      "Contrast the outside-authority carve-out.",
+      "Use the statutory illustrations."
+    ],
+    "revisionPoints": [
+      "Course of business — same effect as principal",
+      "Outside authority — principal not affected",
+      "Illustrations (a) and (b)"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-237",
+      "contract-s-182"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-238",
+    "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 238 attributes an agent’s misrepresentation or fraud in the course of business to the principal for the purpose of the agreement, but excludes acts outside the agent’s authority.",
+      "legalPrinciple": "Agent’s misrepresentation/fraud in course of business binds principal; outside authority does not.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 238",
+      "essentialIngredients": [
+        "Course of business — same effect as principal",
+        "Outside authority — principal not affected",
+        "Illustrations"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 238"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 238 including illustrations. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s238-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T11:30:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s238-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the statutory rule in Section 238",
+          "Identify the relevant elements or modes",
+          "Apply to the facts and conclude"
+        ],
+        "tenMark": [
+          "Statutory text / core rule",
+          "Essential ingredients",
+          "Application and limitations"
+        ],
+        "sixteenMark": [
+          "Full statutory framework",
+          "Elements and distinctions",
+          "Relation to neighbouring sections",
+          "Problem application and conclusion"
+        ]
+      },
+      "problemApplication": [
+        "Identify the facts that engage Section 238",
+        "Apply the statutory elements",
+        "State the legal consequence under the section"
+      ]
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T11:30:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-238",
+    "agency",
+    "review-required"
+  ]
 }

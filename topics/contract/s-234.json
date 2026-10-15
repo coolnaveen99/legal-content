@@ -1,151 +1,174 @@
 {
-    "schemaVersion": "v1",
-    "entityType": "topic",
-    "id": "topic:india:contract-s-234",
-    "version": 2,
-    "status": "review",
-    "title": "Indian Contract Act, 1872 — Section 234 (Consequence of inducing agent or principal to act on belief as to exclusive liability)",
-    "jurisdiction": "India",
-    "content": {
-        "overview": "Section 234 provides that when a person who has made a contract with an agent induces the agent to act upon the belief that the principal only will be held liable, or induces the principal to act upon the belief that the agent only will be held liable, he cannot afterwards hold liable the agent or principal respectively.",
-        "glance": "Induce belief of exclusive liability of principal or agent — cannot afterwards hold the other liable.",
-        "study": "Where a person who has made a contract with an agent induces the agent to act on the belief that only the principal will be held liable, that person cannot afterwards hold the agent liable. Where that person induces the principal to act on the belief that only the agent will be held liable, that person cannot afterwards hold the principal liable. Current-law framing: identify the induced belief (principal-only or agent-only); apply the corresponding bar on holding the other party liable.",
-        "sections": [
-            {
-                "heading": "Induced belief — principal only liable",
-                "body": "If the person induces the agent to act on the belief that only the principal will be held liable, that person cannot afterwards hold the agent liable.",
-                "order": 1
-            },
-            {
-                "heading": "Induced belief — agent only liable",
-                "body": "If the person induces the principal to act on the belief that only the agent will be held liable, that person cannot afterwards hold the principal liable.",
-                "order": 2
-            }
-        ],
-        "provisions": [
-            {
-                "actId": "indian-contract-act-1872",
-                "actName": "Indian Contract Act, 1872",
-                "provisionId": "ica-s-234",
-                "section": "Section 234",
-                "title": "Consequence of inducing agent or principal to act on belief that principal or agent will be held exclusively liable"
-            }
-        ],
-        "examples": [
-            {
-                "title": "Belief that only principal is liable",
-                "body": "A contracts with agent B and induces B to proceed on the basis that only principal C will be liable. A cannot afterwards sue B personally.",
-                "kind": "hypothetical",
-                "inventedCase": false
-            }
-        ],
-        "hypotheticals": [
-            {
-                "question": "Can a third party always sue both agent and principal?",
-                "analysis": "Not where the third party induced a belief of exclusive liability of one of them under section 234."
-            }
-        ],
-        "distinctions": [
-            {
-                "id": "ica-s234-vs-s233",
-                "title": "Exclusive-liability inducement (s. 234) vs right against personally liable agent (s. 233)",
-                "left": "Bars holding the other after inducing exclusive-liability belief",
-                "right": "Right of person dealing with agent who is personally liable",
-                "rows": [
-                    {
-                        "point": "Focus",
-                        "left": "Estoppel from induced belief",
-                        "right": "Personal liability of agent"
-                    }
-                ]
-            }
-        ],
-        "misconceptions": [
-            {
-                "id": "ica-s234-trap-1",
-                "trap": "The third party can always elect freely between agent and principal regardless of representations.",
-                "correction": "Section 234 bars holding the agent or principal after inducing a belief of exclusive liability of the other."
-            }
-        ],
-        "cases": [],
-        "questionsAndAnswers": [
-            {
-                "id": "ica-s234-brief",
-                "draftingCategory": "brief",
-                "question": "How should a Section 234 problem be analysed?",
-                "answer": "I. Identify the induced belief (principal-only or agent-only). II. Apply the corresponding bar. III. Conclude who cannot be held liable.",
-                "explanation": "IRAC."
-            }
-        ],
-        "bareActPointers": [
-            "Indian Contract Act, 1872 — Section 234",
-            "Connected: Sections 233, 235"
-        ],
-        "examTips": [
-            "State both limbs of the section.",
-            "Link to the belief induced by the contracting party."
-        ],
-        "revisionPoints": [
-            "Induced belief — principal only liable",
-            "Induced belief — agent only liable"
-        ],
-        "relatedJudgments": [],
-        "relatedTopics": [
-            "contract-s-233",
-            "contract-s-235"
-        ],
-        "illustrations": [],
-        "legacySubjectSlug": "contract",
-        "legacyTopicId": "s-234",
-        "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
-        "enhancement": {
-            "version": "2",
-            "status": "verification_in_progress",
-            "coverage": "substantive-topic-specific-v1",
-            "definition": "Section 234 estops a contracting party who induced a belief of exclusive liability of principal or agent from afterwards holding the other liable.",
-            "legalPrinciple": "Induced exclusive-liability belief — cannot hold the other liable.",
-            "statutoryFramework": "Indian Contract Act, 1872 — Section 234",
-            "essentialIngredients": [
-                "Induced belief — principal only liable",
-                "Induced belief — agent only liable"
-            ],
-            "authoritativeSources": [
-                "Indian Contract Act, 1872 (Act 9 of 1872), section 234"
-            ],
-            "verification": {
-                "status": "SOURCE_CHECK_REQUIRED",
-                "note": "2026-10-15 Contract Act reverse-order source check against official section 234. Not published; not COMPLETE_LOCKED.",
-                "date": "2026-10-15",
-                "reviewer": "current-assistant-contract-s234-reverse"
-            },
-            "caseLawGate": "standard-citations-added-not-locked",
-            "lastBotRunAt": "2026-10-15T11:37:00.000Z",
-            "bot": "manual-quality-remediation",
-            "rules": [
-                "No invented citations",
-                "Preserve legacy IDs",
-                "Case-law verification separate"
-            ],
-            "sourceFingerprint": "ica-s234-2026-10-15",
-            "indiaCode": {
-                "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
-                "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
-                "note": "Verified against official text. Not a verified closure."
-            }
-        },
-        "caseLawGate": "standard-citations-added-not-locked"
-    },
-    "sources": [
-        "source:india:india-code-contract-1872"
+  "schemaVersion": "v1",
+  "entityType": "topic",
+  "id": "topic:india:contract-s-234",
+  "version": 2,
+  "status": "review",
+  "title": "Indian Contract Act, 1872 — Section 234 (Consequence of inducing agent or principal to act on belief as to exclusive liability)",
+  "jurisdiction": "India",
+  "content": {
+    "overview": "Section 234 provides that when a person who has made a contract with an agent induces the agent to act upon the belief that the principal only will be held liable, or induces the principal to act upon the belief that the agent only will be held liable, he cannot afterwards hold liable the agent or principal respectively.",
+    "glance": "Induce belief of exclusive liability of principal or agent — cannot afterwards hold the other liable.",
+    "study": "Where a person who has made a contract with an agent induces the agent to act on the belief that only the principal will be held liable, that person cannot afterwards hold the agent liable. Where that person induces the principal to act on the belief that only the agent will be held liable, that person cannot afterwards hold the principal liable. Current-law framing: identify the induced belief (principal-only or agent-only); apply the corresponding bar on holding the other party liable.",
+    "sections": [
+      {
+        "heading": "Induced belief — principal only liable",
+        "body": "If the person induces the agent to act on the belief that only the principal will be held liable, that person cannot afterwards hold the agent liable.",
+        "order": 1
+      },
+      {
+        "heading": "Induced belief — agent only liable",
+        "body": "If the person induces the principal to act on the belief that only the agent will be held liable, that person cannot afterwards hold the principal liable.",
+        "order": 2
+      }
     ],
-    "updatedAt": "2026-10-15T11:37:00.000Z",
-    "effectiveFrom": null,
-    "effectiveTo": null,
-    "tags": [
-        "contract",
-        "indian-contract-act-1872",
-        "section-234",
-        "agency",
-        "review-required"
-    ]
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-234",
+        "section": "Section 234",
+        "title": "Consequence of inducing agent or principal to act on belief that principal or agent will be held exclusively liable"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Belief that only principal is liable",
+        "body": "A contracts with agent B and induces B to proceed on the basis that only principal C will be liable. A cannot afterwards sue B personally.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can a third party always sue both agent and principal?",
+        "analysis": "Not where the third party induced a belief of exclusive liability of one of them under section 234."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s234-vs-s233",
+        "title": "Exclusive-liability inducement (s. 234) vs right against personally liable agent (s. 233)",
+        "left": "Bars holding the other after inducing exclusive-liability belief",
+        "right": "Right of person dealing with agent who is personally liable",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Estoppel from induced belief",
+            "right": "Personal liability of agent"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s234-trap-1",
+        "trap": "The third party can always elect freely between agent and principal regardless of representations.",
+        "correction": "Section 234 bars holding the agent or principal after inducing a belief of exclusive liability of the other."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s234-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 234 problem be analysed?",
+        "answer": "I. Identify the induced belief (principal-only or agent-only). II. Apply the corresponding bar. III. Conclude who cannot be held liable.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 234",
+      "Connected: Sections 233, 235"
+    ],
+    "examTips": [
+      "State both limbs of the section.",
+      "Link to the belief induced by the contracting party."
+    ],
+    "revisionPoints": [
+      "Induced belief — principal only liable",
+      "Induced belief — agent only liable"
+    ],
+    "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-233",
+      "contract-s-235"
+    ],
+    "illustrations": [],
+    "legacySubjectSlug": "contract",
+    "legacyTopicId": "s-234",
+    "migrationNote": "Substantive expansion from catalog stub. Case-law verification remains a separate gate.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Section 234 estops a contracting party who induced a belief of exclusive liability of principal or agent from afterwards holding the other liable.",
+      "legalPrinciple": "Induced exclusive-liability belief — cannot hold the other liable.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 234",
+      "essentialIngredients": [
+        "Induced belief — principal only liable",
+        "Induced belief — agent only liable"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 234"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 234. Not published; not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s234-reverse"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T11:37:00.000Z",
+      "bot": "manual-quality-remediation",
+      "rules": [
+        "No invented citations",
+        "Preserve legacy IDs",
+        "Case-law verification separate"
+      ],
+      "sourceFingerprint": "ica-s234-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      },
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State the statutory rule in Section 234",
+          "Identify the relevant elements or modes",
+          "Apply to the facts and conclude"
+        ],
+        "tenMark": [
+          "Statutory text / core rule",
+          "Essential ingredients",
+          "Application and limitations"
+        ],
+        "sixteenMark": [
+          "Full statutory framework",
+          "Elements and distinctions",
+          "Relation to neighbouring sections",
+          "Problem application and conclusion"
+        ]
+      },
+      "problemApplication": [
+        "Identify the facts that engage Section 234",
+        "Apply the statutory elements",
+        "State the legal consequence under the section"
+      ]
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
+  },
+  "sources": [
+    "source:india:india-code-contract-1872"
+  ],
+  "updatedAt": "2026-10-15T11:37:00.000Z",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "tags": [
+    "contract",
+    "indian-contract-act-1872",
+    "section-234",
+    "agency",
+    "review-required"
+  ]
 }

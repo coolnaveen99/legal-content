@@ -59,6 +59,18 @@ Validation evidence: commit history and current control file inspected. Full val
 ## Coordination warning — Agency overlap
 The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200` at `s.192–s.200`. Do not count those sections twice or assume the reverse pass is fully reconciled. Before assigning further reverse work, audit the actual canonical topic files, commit evidence and any active claims; then record a non-overlapping remaining range. The prior note “reverse from s.191” is withdrawn as an assignment because s.191–s.200 already appear in the forward bulk.
 
+
+
+## Agency depth alignment — 2026-10-15
+
+**Range:** Indian Contract Act ss. 201–238 (reverse-pass topics).
+
+**Change:** Added consistent `examAnswerStructure` (short / ten-mark / sixteen-mark) and `problemApplication` arrays derived strictly from existing statutory text already present in each topic. No new legal authorities, cases, or holdings were introduced. All topics remain `review` / `SOURCE_CHECK_REQUIRED`.
+
+**Evidence:** 38 topic files updated. JSON parse check passed. Schema/manifest validators not re-run in this environment (node_modules absent); prior main validation state preserved.
+
+**Status:** Content depth improved for exam-answer consistency. **Not** legally verified, **not** COMPLETE_LOCKED. Source, case-law, integration, SEO, production and human sign-off gates remain open.
+
 ## Release gate
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
