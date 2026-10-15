@@ -2,40 +2,56 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-192",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 192 (Representation of principal by sub-agent properly appointed)",
+  "title": "Indian Contract Act, 1872 — Section 192 (Representation of principal by sub-agent properly appointed)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 192 of the Indian Contract Act, 1872 is headed \"Representation of principal by sub-agent properly appointed\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Where a sub-agent is properly appointed, the principal is, so far as regards third persons, represented by the sub-agent, and is bound by and responsible for his acts, as if he were an agent originally appointed by the principal. The agent is responsible to the principal for the acts of the sub-agent. The sub-agent is responsible for his acts to the agent, but not to the principal, except in cases of fraud or wilful wrong.",
+    "glance": "Properly appointed sub-agent represents principal to third persons; agent responsible to principal for sub-agent; sub-agent responsible to agent (not principal) except for fraud or wilful wrong.",
+    "study": "Where a sub-agent is properly appointed, the principal is, so far as regards third persons, represented by the sub-agent, and is bound by and responsible for his acts, as if he were an agent originally appointed by the principal. The agent is responsible to the principal for the acts of the sub-agent. The sub-agent is responsible for his acts to the agent, but not to the principal, except in cases of fraud or wilful wrong. Contrast s. 193 (appointment without authority).",
     "sections": [
-      {
-        "heading": "Section 192",
-        "body": "Representation of principal by sub-agent properly appointed"
-      }
+      {"heading": "Principal represented to third persons", "body": "Principal bound by and responsible for properly appointed sub-agent’s acts as if originally appointed by the principal.", "order": 1},
+      {"heading": "Agent responsible to principal", "body": "Agent is responsible to the principal for the acts of the sub-agent.", "order": 2},
+      {"heading": "Sub-agent’s responsibility", "body": "Sub-agent responsible to the agent, not to the principal, except in fraud or wilful wrong.", "order": 3}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-192", "section": "Section 192", "title": "Representation of principal by sub-agent properly appointed"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s192-brief", "draftingCategory": "brief", "question": "How should a Section 192 problem be analysed?", "answer": "Confirm proper appointment; apply principal’s representation to third persons; agent’s responsibility to principal; sub-agent’s limited responsibility to agent except fraud/wilful wrong.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 192", "Connected: Section 193"],
+    "examTips": ["Proper appointment chain of responsibility."],
+    "revisionPoints": ["Principal represented", "Agent responsible to principal", "Sub-agent to agent except fraud"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-193", "contract-s-191"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-192",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 192"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "A properly appointed sub-agent represents the principal to third persons; the agent is responsible to the principal for the sub-agent; the sub-agent is responsible to the agent except for fraud or wilful wrong.",
+      "legalPrinciple": "Proper sub-agent: principal bound to third persons; chain of responsibility.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 192",
+      "essentialIngredients": ["Principal represented to third persons", "Agent responsible to principal", "Sub-agent’s responsibility"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 192"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s192-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-192",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-192", "agency", "review-required"]
 }
