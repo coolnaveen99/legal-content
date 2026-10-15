@@ -2,40 +2,186 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-127",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 127 (Consideration for guarantee)",
+  "title": "Indian Contract Act, 1872 — Section 127 (Consideration for guarantee)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 127 of the Indian Contract Act, 1872 is headed \"Consideration for guarantee\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 127 provides that anything done, or any promise made, for the benefit of the principal debtor may be sufficient consideration to the surety for giving the guarantee. Its statutory illustrations distinguish a guarantee given in exchange for a creditor's promise to extend credit, a guarantee given in exchange for an agreed forbearance to sue, and a later promise to pay an already-incurred debt where no consideration is provided. The provision must be applied to the actual sequence of promises and acts.",
     "sections": [
       {
-        "heading": "Section 127",
-        "body": "Consideration for guarantee"
+        "heading": "Core rule",
+        "body": "Anything done, or any promise made, for the benefit of the principal debtor may be sufficient consideration to the surety for giving the guarantee.",
+        "order": 1
+      },
+      {
+        "heading": "Promise to extend credit",
+        "body": "Illustration (a) describes a creditor who agrees to sell and deliver goods on credit because a third person promises to guarantee payment. The creditor's promise to extend credit is the consideration supporting the guarantee in that illustration.",
+        "order": 2
+      },
+      {
+        "heading": "Promise to forbear from suing",
+        "body": "Illustration (b) describes an existing debt and a third person's promise to pay if the debtor defaults, given in exchange for the creditor's agreement to forbear suing for a year. The agreed forbearance is treated as sufficient consideration in the illustration.",
+        "order": 3
+      },
+      {
+        "heading": "Later promise without consideration",
+        "body": "Illustration (c) describes goods already sold and delivered, followed by a later promise to pay in the debtor's default, made without consideration. The illustration states that the agreement is void. Apply this to the described facts rather than converting it into an unqualified rule for every later guarantee.",
+        "order": 4
+      },
+      {
+        "heading": "Relationship to other guarantee provisions",
+        "body": "Section 127 addresses consideration. Section 126 defines the guarantee and its parties; Section 128 addresses the extent of the surety's liability; Section 129 defines a continuing guarantee; Sections 130–131 address specified revocation rules.",
+        "order": 5
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Guarantee supports new credit",
+        "body": "B asks A to supply goods on credit. A agrees only if C guarantees payment, and C gives that guarantee. This matches Section 127 Illustration (a): A's promise to extend credit is for B's benefit and supports C's guarantee."
+      },
+      {
+        "title": "Guarantee supports agreed forbearance",
+        "body": "After A has supplied goods to B, C asks A to forbear suing B for one year and promises to pay if B defaults. A agrees. This matches the sequence in Illustration (b), where the promise to forbear is the consideration."
+      },
+      {
+        "title": "Unsupported later promise",
+        "body": "A has already supplied goods to B. C later promises to pay if B defaults but receives or gives no consideration for that promise. This matches Illustration (c), which states that the agreement is void."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A agrees to sell goods to B on credit only after C guarantees payment. What is the Section 127 consideration point?",
+        "analysis": "The creditor's promise to extend credit is an act/promise for the principal debtor's benefit and matches Illustration (a). Identify the promise sequence and the guarantee actually given."
+      },
+      {
+        "question": "A has an existing claim against B. C promises to guarantee it if A agrees not to sue B for a year, and A agrees. What does the statutory illustration indicate?",
+        "analysis": "Illustration (b) treats the creditor's agreed forbearance as sufficient consideration for the guarantee. Confirm that the facts match the stated sequence and terms."
+      },
+      {
+        "question": "C promises to pay B's already-incurred debt after the goods have been delivered, without any consideration. What does Illustration (c) state?",
+        "analysis": "The illustration states that the agreement is void where C later agrees to pay in B's default without consideration. Do not omit the 'without consideration' fact from the analysis."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-128",
+      "topic:india:contract-s-129",
+      "topic:india:contract-s-130",
+      "topic:india:contract-s-131"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 127 Illustration (a): a promise to extend credit to the principal debtor in return for a third person's guarantee is sufficient consideration.",
+      "Section 127 Illustration (b): a creditor's agreement to forbear suing the principal debtor for a year, in exchange for a third person's guarantee, is sufficient consideration.",
+      "Section 127 Illustration (c): a later promise to pay for goods already delivered, made without consideration, is void."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-127",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 127"
+      "Indian Contract Act, 1872 — Section 127 and Illustrations (a)–(c)",
+      "Related provisions: Sections 126 and 128–131"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Section 127 illustrations. This topic remains in review pending remaining legal verification and release gates.",
+    "glance": "An act or promise for the principal debtor's benefit may be sufficient consideration for the surety's guarantee; the statutory illustrations distinguish supported guarantees from a later unsupported promise to pay an existing debt.",
+    "study": "## Statutory rule\nSection 127 states that anything done, or any promise made, for the benefit of the principal debtor may be sufficient consideration to the surety for giving the guarantee. The text focuses on the benefit to the principal debtor and the act or promise supporting the surety's undertaking; it does not require the surety personally to receive that benefit.\n\n## Read the transaction in sequence\n1. Identify the principal debtor and the obligation or transaction for which the guarantee is given.\n2. Identify the act done or promise made for the principal debtor's benefit.\n3. Identify when the surety gave the guarantee and what the creditor or other party promised in return.\n4. Compare the facts with the statutory illustrations, especially where the underlying debt existed before the guarantee was offered.\n5. Do not infer that every later promise to pay another person's existing debt is supported by consideration; Illustration (c) specifically describes a later promise made without consideration and states that the agreement is void.\n\n## Statutory illustrations\n- **Credit extended in return for guarantee:** B requests credit goods from A; A agrees to sell and deliver on credit if C guarantees payment. C's guarantee is supported by A's promise to deliver the goods.\n- **Forbearance in return for guarantee:** A has already sold goods to B. C asks A to forbear suing B for a year and promises to pay if B defaults; A agrees to forbear. The illustration treats that promise to forbear as sufficient consideration for C's guarantee.\n- **Later unsupported promise:** A has already sold and delivered goods to B. C later, without consideration, agrees to pay if B defaults. The illustration says that agreement is void.\n\n## Scope boundary\nSection 127 concerns consideration for the guarantee. It does not itself determine the extent of the surety's liability (Section 128), whether a guarantee extends to a series of transactions (Section 129), or how a continuing guarantee is revoked (Sections 130–131). Those questions require their own statutory triggers and the actual terms of the arrangement.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State Section 127's rule about consideration for a guarantee.",
+        "Explain how a promise to extend credit or to forbear from suing may support a guarantee under the statutory illustrations.",
+        "Distinguish a supported guarantee from the later unsupported promise in Illustration (c).",
+        "Separate consideration issues from liability and continuing-guarantee questions under neighbouring provisions."
+      ],
+      "definition": "Section 127 provides that anything done, or any promise made, for the benefit of the principal debtor may be sufficient consideration to the surety for giving the guarantee.",
+      "legalPrinciple": "For Section 127, identify the act done or promise made for the principal debtor's benefit and its relationship to the surety's guarantee; the statutory illustrations distinguish credit and agreed forbearance from a later promise made without consideration.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 127 and Illustrations (a)–(c)",
+        "Related provisions: Sections 126 and 128–131"
+      ],
+      "essentialIngredients": [
+        "Identify the principal debtor and the transaction",
+        "Identify the act done or promise made for the principal debtor's benefit",
+        "Identify when the guarantee was given and the supporting promise or act",
+        "Compare the facts with the statutory illustrations",
+        "Where the debt already existed, examine whether consideration was provided for the later guarantee"
+      ],
+      "detailedExplanation": "Section 127 states that anything done, or any promise made, for the benefit of the principal debtor may be sufficient consideration to the surety for giving the guarantee. Illustration (a) concerns a creditor's promise to supply goods on credit in exchange for a third person's guarantee. Illustration (b) concerns a creditor's promise to forbear suing for a year in exchange for a guarantee. Illustration (c) concerns a later promise to pay for goods already sold and delivered, made without consideration, and states that the agreement is void. The sequence of events and actual promises are therefore central to applying the section. Section 127 does not itself determine the extent of the surety's liability or the rules for continuing guarantees.",
+      "examples": [
+        "New credit: the creditor's promise to supply goods on credit supports the guarantee in Illustration (a).",
+        "Forbearance: the creditor's agreed forbearance supports the guarantee in Illustration (b).",
+        "Later unsupported promise: Illustration (c) states that a promise made without consideration to pay for goods already delivered is void."
+      ],
+      "distinctions": [
+        "Section 127 concerns consideration for a guarantee; Section 126 defines the guarantee and parties.",
+        "Section 128 concerns the extent of the surety's liability and is a separate question from consideration.",
+        "Sections 129–131 address continuing guarantees and specified revocation rules; they should not be collapsed into Section 127.",
+        "Illustration (c) expressly involves a later promise made without consideration; do not omit that fact."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Write the timeline of the principal debtor's transaction and the guarantee.",
+        "Identify the act or promise benefiting the principal debtor.",
+        "Identify what the creditor did or promised in exchange for the guarantee.",
+        "Apply the closest statutory illustration, including its timing and consideration facts.",
+        "Conclude on Section 127 without deciding separate liability or revocation questions unless raised."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 127",
+          "Identify the benefit to the principal debtor",
+          "Apply the relevant illustration",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory rule",
+          "Credit-extension illustration",
+          "Forbearance illustration",
+          "Later unsupported promise illustration",
+          "Application and conclusion"
+        ],
+        "sixteenMark": [
+          "Statutory text and rationale",
+          "Timeline of transaction and guarantee",
+          "Consideration analysis",
+          "Apply each relevant illustration by analogy",
+          "Distinguish Sections 126 and 128–131",
+          "Conclusion with any unresolved facts"
+        ]
+      },
+      "keyTakeaways": [
+        "An act done or promise made for the principal debtor's benefit may be sufficient consideration for the guarantee.",
+        "The statutory illustrations treat a promise to extend credit and agreed forbearance to sue as sufficient consideration.",
+        "Illustration (c) states that a later promise to pay for goods already delivered, made without consideration, is void.",
+        "The transaction timeline and the actual supporting promise are essential to the analysis.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF opened; Section 127 and Illustrations (a)–(c) checked at extracted lines 1468–1478 (PDF page 34).",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-127",
-    "review"
+    "source-check-required"
   ]
 }
