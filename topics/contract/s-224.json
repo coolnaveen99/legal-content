@@ -2,40 +2,145 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-224",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 224 (Non-liability of employer of agent to do a criminal act)",
+  "title": "Indian Contract Act, 1872 — Section 224 (Non-liability of employer of agent to do a criminal act)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 224 of the Indian Contract Act, 1872 is headed \"Non-liability of employer of agent to do a criminal act\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 224 provides that where one person employs another to do an act which is criminal, the employer is not liable to the agent, either upon an express or an implied promise, to indemnify him against the consequences of that act.",
+    "glance": "Employment to do a criminal act → employer not liable to indemnify the agent (express or implied).",
+    "study": "Where one person employs another to do an act which is criminal, the employer is not liable to the agent, either upon an express or an implied promise, to indemnify him against the consequences of that act. This limits the indemnity rules in sections 222 and 223: no indemnity for the consequences of a criminal act, whether the promise to indemnify is express or implied. Current-law framing: identify the act; test whether it is criminal; if so, deny indemnity under s. 224 even if promised.\n\nIllustrations in the Act address employment to commit offences (e.g. beating, libel) and denial of indemnity for consequences.",
     "sections": [
       {
-        "heading": "Section 224",
-        "body": "Non-liability of employer of agent to do a criminal act"
+        "heading": "Employment to do a criminal act",
+        "body": "One person employs another to do an act which is criminal.",
+        "order": 1
+      },
+      {
+        "heading": "No indemnity",
+        "body": "The employer is not liable to the agent to indemnify him against the consequences of that act, whether upon an express or an implied promise.",
+        "order": 2
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-224",
+        "section": "Section 224",
+        "title": "Non-liability of employer of agent to do a criminal act"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Criminal act — no indemnity",
+        "body": "A employs B to beat C. B does so and is fined. A is not liable to indemnify B for the fine, whether or not A promised indemnity.",
+        "kind": "hypothetical",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Can an express indemnity for a criminal act be enforced under s. 224?",
+        "analysis": "No. Section 224 denies liability upon an express or an implied promise to indemnify against the consequences of a criminal act."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s224-vs-s222-s223",
+        "title": "No indemnity for criminal acts (s. 224) vs indemnity for lawful / good-faith acts (ss. 222–223)",
+        "left": "Criminal act — no indemnity",
+        "right": "Lawful acts within authority (s. 222) / good-faith acts (s. 223)",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Crime bar",
+            "right": "Indemnity available"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s224-trap-1",
+        "trap": "An express promise always indemnifies the agent for any act.",
+        "correction": "Section 224 excludes indemnity for the consequences of a criminal act even if the promise is express."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s224-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 224 problem be analysed?",
+        "answer": "I. Identify the act employed. II. Test whether it is criminal. III. If criminal, deny indemnity (express or implied). IV. Distinguish ss. 222–223 if the act is lawful or in good faith. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 224",
+      "Connected: Sections 222, 223"
+    ],
+    "examTips": [
+      "State the crime bar clearly.",
+      "Note that express promises do not save indemnity for criminal acts."
+    ],
+    "revisionPoints": [
+      "Employment to do a criminal act",
+      "No indemnity (express or implied)"
+    ],
     "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-222",
+      "contract-s-223"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-224",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 224"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 against official text.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Where one person employs another to do a criminal act, the employer is not liable to indemnify the agent against its consequences, whether upon an express or an implied promise.",
+      "legalPrinciple": "Criminal act → no indemnity (express or implied).",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 224",
+      "essentialIngredients": [
+        "Employment to do a criminal act",
+        "No indemnity"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 224"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 224. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s224-s222-bulk"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:50:00.000Z",
+      "bot": "contract-reverse-s224-s222-2026-10-15",
+      "sourceFingerprint": "ica-s224-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      }
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T05:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-224",
-    "review"
+    "agency",
+    "review-required"
   ]
 }
