@@ -1,1 +1,165 @@
-{"schemaVersion":"v1","entityType":"topic","id":"topic:india:company-ca-s-21","version":2,"status":"verification_in_progress","title":"Companies Act, 2013 — Section 21 (Authentication of documents, proceedings and contracts)","jurisdiction":"India","content":{"overview":"A document or proceeding requiring authentication by a company, or a contract made by or on behalf of a company, may be signed by any key managerial personnel or an officer of the company duly authorised by the Board.","glance":"Authentication by KMP or Board-authorised officer.","study":"Section 21 provides that a document or proceeding requiring authentication by a company, or any contract made by or on behalf of a company, may be signed by any key managerial personnel or an officer of the company duly authorised by the Board in this behalf.","sections":[{"heading":"Authentication","body":"Document, proceeding or contract may be signed by KMP or Board-authorised officer.","order":1}],"provisions":[{"actId":"companies-act-2013","actName":"Companies Act, 2013","provisionId":"ca-s-21","section":"Section 21","title":"Authentication of documents, proceedings and contracts"}],"examples":[],"hypotheticals":[],"distinctions":[],"misconceptions":[],"cases":[],"questionsAndAnswers":[{"id":"ca-s21-brief","draftingCategory":"brief","question":"How should Section 21 be analysed?","answer":"I. Identify the document or contract. II. Check signature by KMP or Board-authorised officer. III. Conclude.","explanation":"IRAC."}],"bareActPointers":["Companies Act, 2013 — Section 21"],"examTips":["Name the section."],"revisionPoints":["Authentication"],"relatedJudgments":[],"relatedTopics":["ca-s-2","ca-s-22"],"illustrations":[],"legacySubjectSlug":"company","legacyTopicId":"ca-s-21","migrationNote":"Residual cleanup 2026-10-14.","enhancement":{"version":"2","status":"verification_in_progress","coverage":"substantive-topic-specific-v1","definition":"Section 21 allows authentication of company documents, proceedings and contracts by KMP or Board-authorised officer.","legalPrinciple":"Authentication by KMP or Board-authorised officer.","statutoryFramework":"Companies Act, 2013, section 21.","essentialIngredients":["Authentication"],"authoritativeSources":["Companies Act, 2013"],"caseLaw":[],"caseLawGate":"section-specific-case-law-review-open","lastBotRunAt":"2026-10-14T15:00:00.000Z","bot":"company-chapter-iii-closeout-2026-10-14","rules":["No invented citations","Not marked verified"],"verification":{"status":"SOURCE_CHECKED_CASE_LAW_OPEN","note":"Residual close-out. No corporate-personality/BSA. Not COMPLETE_LOCKED.","date":"2026-10-14"}},"caseLawGate":"section-specific-case-law-review-open"},"sources":["source:india:india-code-companies-act-2013"],"updatedAt":"2026-10-14T15:00:00.000Z","effectiveFrom":null,"effectiveTo":null,"tags":["company","section-21","review-required"]}
+{
+    "schemaVersion": "v1",
+    "entityType": "topic",
+    "id": "topic:india:company-ca-s-21",
+    "version": 3,
+    "status": "review",
+    "title": "Companies Act, 2013 — Section 21 (Authentication of documents, proceedings and contracts)",
+    "jurisdiction": "India",
+    "content": {
+        "overview": "Section 21 provides that, save as otherwise provided in the Act, (a) a document or proceeding requiring authentication by a company, or (b) contracts made by or on behalf of a company, may be signed by any key managerial personnel or an officer or employee of the company duly authorised by the Board in this behalf.",
+        "glance": "Authentication of company documents, proceedings and contracts by KMP or Board-authorised officer or employee.",
+        "study": "Save as otherwise provided in the Act, a document or proceeding requiring authentication by a company, or any contract made by or on behalf of a company, may be signed by any key managerial personnel or an officer or employee of the company duly authorised by the Board in this behalf. The words “or employee” were added by the Companies (Amendment) Act, 2017. Current-law framing: identify the document, proceeding or contract; confirm the signatory is KMP or a Board-authorised officer or employee; apply any special authentication rule elsewhere in the Act if it overrides section 21.",
+        "sections": [
+            {
+                "heading": "Scope",
+                "body": "Documents or proceedings requiring authentication by a company, and contracts made by or on behalf of a company.",
+                "order": 1
+            },
+            {
+                "heading": "Who may sign",
+                "body": "Any key managerial personnel, or an officer or employee of the company duly authorised by the Board in this behalf.",
+                "order": 2
+            },
+            {
+                "heading": "Saving clause",
+                "body": "Section 21 applies save as otherwise provided in the Act — special authentication rules elsewhere prevail where they apply.",
+                "order": 3
+            }
+        ],
+        "provisions": [
+            {
+                "actId": "companies-act-2013",
+                "actName": "Companies Act, 2013",
+                "provisionId": "ca-s-21",
+                "section": "Section 21",
+                "title": "Authentication of documents, proceedings and contracts"
+            }
+        ],
+        "examples": [
+            {
+                "title": "KMP authentication",
+                "body": "The company secretary signs a return requiring authentication. Section 21 is satisfied if the CS is KMP.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            },
+            {
+                "title": "Board-authorised employee",
+                "body": "An employee signs a contract under a Board resolution authorising that employee for contracts of that class. Section 21 is satisfied.",
+                "kind": "hypothetical",
+                "inventedCase": false
+            }
+        ],
+        "hypotheticals": [
+            {
+                "question": "Can any employee sign company contracts without Board authority?",
+                "analysis": "No. An officer or employee may sign only if duly authorised by the Board. KMP may sign under the section without a separate authorisation for authentication purposes."
+            }
+        ],
+        "distinctions": [
+            {
+                "id": "ca-s21-vs-s22",
+                "title": "Authentication (s. 21) vs execution of bills/deeds (s. 22)",
+                "left": "Who may authenticate documents, proceedings and contracts",
+                "right": "How bills, notes and attorney deeds bind the company",
+                "rows": [
+                    {
+                        "point": "Focus",
+                        "left": "Signing authority for authentication and contracts",
+                        "right": "Negotiable instruments and attorney deeds"
+                    }
+                ]
+            }
+        ],
+        "misconceptions": [
+            {
+                "id": "ca-s21-trap-1",
+                "trap": "Only directors can authenticate company documents.",
+                "correction": "Section 21 permits any KMP or a Board-authorised officer or employee."
+            }
+        ],
+        "cases": [],
+        "questionsAndAnswers": [
+            {
+                "id": "ca-s21-brief",
+                "draftingCategory": "brief",
+                "question": "How should a Section 21 problem be analysed?",
+                "answer": "I. Identify the document, proceeding or contract. II. Check whether a special rule elsewhere in the Act applies. III. Confirm signature by KMP or Board-authorised officer/employee. IV. Conclude.",
+                "explanation": "IRAC."
+            }
+        ],
+        "bareActPointers": [
+            "Companies Act, 2013 — Section 21",
+            "Connected: Section 2(51) KMP; Section 22"
+        ],
+        "examTips": [
+            "State KMP or Board-authorised officer/employee.",
+            "Note the 2017 addition of “or employee”.",
+            "Remember the saving clause."
+        ],
+        "revisionPoints": [
+            "Scope: documents, proceedings, contracts",
+            "Signatories: KMP or Board-authorised officer/employee",
+            "Saving clause"
+        ],
+        "relatedJudgments": [],
+        "relatedTopics": [
+            "company-ca-s-22"
+        ],
+        "illustrations": [],
+        "legacySubjectSlug": "company",
+        "legacyTopicId": "ca-s-21",
+        "migrationNote": "Substantive enhancement. Case-law verification remains a separate gate.",
+        "enhancement": {
+            "version": "3",
+            "status": "verification_in_progress",
+            "coverage": "substantive-topic-specific-v1",
+            "definition": "Section 21 allows authentication of company documents, proceedings and contracts by any key managerial personnel or an officer or employee duly authorised by the Board, save as otherwise provided in the Act.",
+            "legalPrinciple": "Authentication by KMP or Board-authorised officer or employee.",
+            "statutoryFramework": "Companies Act, 2013 — Section 21",
+            "essentialIngredients": [
+                "Scope",
+                "Who may sign",
+                "Saving clause"
+            ],
+            "authoritativeSources": [
+                "Companies Act, 2013 (Act 18 of 2013), section 21"
+            ],
+            "verification": {
+                "status": "SOURCE_CHECK_REQUIRED",
+                "note": "2026-10-15 reverse-order source check against official section 21 including 2017 “or employee” amendment. Not published; not COMPLETE_LOCKED.",
+                "date": "2026-10-15",
+                "reviewer": "current-assistant-company-s21-reverse"
+            },
+            "caseLawGate": "standard-citations-added-not-locked",
+            "lastBotRunAt": "2026-10-15T11:20:00.000Z",
+            "bot": "manual-quality-remediation",
+            "rules": [
+                "No invented citations",
+                "Preserve legacy IDs",
+                "Case-law verification separate"
+            ],
+            "sourceFingerprint": "ca-s21-2026-10-15",
+            "indiaCode": {
+                "act": "Companies Act, 2013 (Act 18 of 2013)",
+                "handle": "https://www.indiacode.nic.in/handle/123456789/2114",
+                "pdf": "https://www.indiacode.nic.in/bitstream/123456789/2114/5/A2013-18.pdf",
+                "note": "Verified. Not a verified closure."
+            }
+        },
+        "caseLawGate": "standard-citations-added-not-locked"
+    },
+    "sources": [
+        "source:india:india-code-companies-act-2013"
+    ],
+    "updatedAt": "2026-10-15T11:20:00.000Z",
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "tags": [
+        "company",
+        "companies-act-2013",
+        "section-21",
+        "authentication",
+        "chapter-ii"
+    ]
+}
