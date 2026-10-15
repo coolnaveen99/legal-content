@@ -11,14 +11,14 @@
 ### Indian Contract Act, 1872
 | Range | Status |
 |-------|--------|
-| **s.1 → s.60** | **Done (review)** — FORWARD order |
+| **s.1 → s.70** | **Done (review)** — FORWARD order |
 | **s.238 → s.192** | **Done (review)** — Agency reverse |
 
-### Forward bulk s.47–s.60 (this claim — 14 sections)
-s.47 Time/place specified day · s.48 Application for performance · s.49 Place when none fixed · s.50 Manner/time sanctioned by promisee · s.51 Simultaneous reciprocal promises · s.52 Order of reciprocal promises · s.53 Prevention of performance · s.54 Default on prior promise · s.55 Time of essence · s.56 Frustration (prior verified) · s.57 Reciprocal legal and illegal · s.58 Alternative promise one illegal · s.59 Payment application indicated · s.60 Payment application not indicated
+### Forward bulk s.61–s.70 (this claim)
+s.61 Neither party appropriates · s.62 Novation, rescission, alteration · s.63 Remission by promisee · s.64 Consequences of rescission of voidable contract · s.65 Restore advantage under void/voided · s.66 Mode of communicating rescission · s.67 Neglect to afford facilities · s.68 Necessaries to incapable person · s.69 Interested payment of another’s debt · s.70 Non-gratuitous act — benefit enjoyed
 
 ### Next
-**FORWARD:** from **s.61** (Application of payment where neither party appropriates). **REVERSE Agency:** from **s.191** under separate claim.
+**FORWARD:** from **s.71** (Responsibility of finder of goods). **REVERSE Agency:** from **s.191** under separate claim.
 
 ---
 
@@ -38,18 +38,18 @@ s.47 Time/place specified day · s.48 Application for performance · s.49 Place 
 No invented legal authority. No destructive shortening. Verify before enhancement. AI review is not authoritative verification. Preserve provenance and baseline content.
 
 ## Current control
-**This stream:** Indian Contract Act **FORWARD from s.61**.
+**This stream:** Indian Contract Act **FORWARD from s.71**.
 
 ## Work claim record
 Subject: Indian Contract Act, 1872
-Topic/section range: s.47–s.60 (forward bulk, 14 sections)
-Current main commit: b307567590f5c45e970ec1a660e0e80594c59290
+Topic/section range: s.61–s.70 (forward bulk, 10 sections)
+Current main commit: 4912e600c13183112df8d86b229c6875b74d66bc
 Current status: review / SOURCE_CHECK_REQUIRED
 Current owner: current-assistant-contract-forward
-Latest evidence: s.47–s.55, s.57–s.60 expanded to official India Code text; s.56 already verified
+Latest evidence: s.61–s.70 expanded to official India Code text
 Missing gate: full case-law verification and final lock
-Planned change: forward-order bulk expansion more than 10 sections
+Planned change: forward-order bulk expansion min 10 sections
 Validation: content aligned to statutory text; no invented citations
-Evidence/commit: cc7d5761… through b3075675…
+Evidence/commit: df75e28c… through 4912e600…
 
 If any field cannot be established, STOP.
