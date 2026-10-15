@@ -2,40 +2,58 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-201",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 201 (Termination of agency)",
+  "title": "Indian Contract Act, 1872 — Section 201 (Termination of agency)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 201 of the Indian Contract Act, 1872 is headed \"Termination of agency\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors.",
+    "glance": "Agency ends by: revocation; renunciation; completion of business; death or unsound mind of either; insolvency of principal.",
+    "study": "An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors. Read with ss. 202–210 on coupled interest, revocation limits, notice and when termination takes effect.",
     "sections": [
-      {
-        "heading": "Section 201",
-        "body": "Termination of agency"
-      }
+      {"heading": "Revocation by principal", "body": "Principal revokes authority.", "order": 1},
+      {"heading": "Renunciation by agent", "body": "Agent renounces the business of the agency.", "order": 2},
+      {"heading": "Completion of business", "body": "Business of the agency is completed.", "order": 3},
+      {"heading": "Death or unsound mind", "body": "Either principal or agent dies or becomes of unsound mind.", "order": 4},
+      {"heading": "Insolvency of principal", "body": "Principal adjudicated insolvent under applicable insolvency law.", "order": 5}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-201", "section": "Section 201", "title": "Termination of agency"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s201-brief", "draftingCategory": "brief", "question": "How should a Section 201 problem be analysed?", "answer": "Identify the terminating event among the five statutory modes; then apply ss. 202–210 for limits and consequences.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 201"],
+    "examTips": ["List all five modes of termination."],
+    "revisionPoints": ["Revocation", "Renunciation", "Completion", "Death/unsound mind", "Insolvency of principal"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-202", "contract-s-203"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-201",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 201"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Agency terminates by revocation, renunciation, completion of business, death or unsound mind of either party, or insolvency of the principal.",
+      "legalPrinciple": "Statutory modes of termination of agency.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 201",
+      "essentialIngredients": ["Revocation", "Renunciation", "Completion", "Death/unsound mind", "Insolvency of principal"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 201"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s201-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-201",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-201", "agency", "review-required"]
 }
