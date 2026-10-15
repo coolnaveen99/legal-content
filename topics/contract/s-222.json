@@ -2,40 +2,153 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-222",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 222 (Agent to be indemnified against consequences of lawful acts)",
+  "title": "Indian Contract Act, 1872 — Section 222 (Agent to be indemnified against consequences of lawful acts)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 222 of the Indian Contract Act, 1872 is headed \"Agent to be indemnified against consequences of lawful acts\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 222 provides that the employer of an agent is bound to indemnify him against the consequences of all lawful acts done by such agent in exercise of the authority conferred upon him.",
+    "glance": "Lawful acts within conferred authority → employer must indemnify the agent against the consequences.",
+    "study": "The employer of an agent is bound to indemnify the agent against the consequences of all lawful acts done by the agent in exercise of the authority conferred upon him. Illustrations: (a) B at Singapore, under instructions from A of Calcutta, contracts to deliver goods to C; A fails to send the goods; C sues B; B defends with A’s authority and pays damages and costs — A is liable to B; (b) broker B, by A’s orders, contracts to buy oil for A; A refuses the oil; C sues B; B defends unsuccessfully after informing A — A is liable to B for damages, costs and expenses. Read with s. 223 (good-faith acts) and s. 224 (no indemnity for criminal acts).",
     "sections": [
       {
-        "heading": "Section 222",
-        "body": "Agent to be indemnified against consequences of lawful acts"
+        "heading": "Employer of an agent",
+        "body": "The principal (employer) of an agent is the party bound to indemnify.",
+        "order": 1
+      },
+      {
+        "heading": "Lawful acts within authority",
+        "body": "The acts must be lawful and done in exercise of the authority conferred upon the agent.",
+        "order": 2
+      },
+      {
+        "heading": "Duty to indemnify",
+        "body": "The employer is bound to indemnify the agent against the consequences of those acts.",
+        "order": 3
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "provisions": [
+      {
+        "actId": "indian-contract-act-1872",
+        "actName": "Indian Contract Act, 1872",
+        "provisionId": "ica-s-222",
+        "section": "Section 222",
+        "title": "Agent to be indemnified against consequences of lawful acts"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Statutory illustration — defence of suit",
+        "body": "Agent contracts under principal’s instructions; third party sues agent for breach after principal fails to perform; agent defends with authority and pays damages. Principal must indemnify.",
+        "kind": "statutory-illustration",
+        "inventedCase": false
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "Does section 222 cover unlawful acts done in good faith?",
+        "analysis": "Section 222 requires lawful acts within authority. Good-faith acts that injure third-party rights are addressed under s. 223. Criminal acts are excluded by s. 224."
+      }
+    ],
+    "distinctions": [
+      {
+        "id": "ica-s222-vs-s223",
+        "title": "Lawful acts within authority (s. 222) vs good-faith acts injuring third parties (s. 223)",
+        "left": "Lawful + within conferred authority",
+        "right": "Good faith; may injure third-party rights",
+        "rows": [
+          {
+            "point": "Focus",
+            "left": "Lawfulness and authority",
+            "right": "Good faith"
+          }
+        ]
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "ica-s222-trap-1",
+        "trap": "The agent always bears the cost of defending third-party claims arising from authorised contracts.",
+        "correction": "Section 222 requires the employer to indemnify the agent for consequences of lawful acts within authority."
+      }
+    ],
+    "cases": [],
+    "questionsAndAnswers": [
+      {
+        "id": "ica-s222-brief",
+        "draftingCategory": "brief",
+        "question": "How should a Section 222 problem be analysed?",
+        "answer": "I. Confirm agency and conferred authority. II. Test whether the acts were lawful. III. Apply indemnity for consequences. IV. Distinguish ss. 223–224 if good faith or criminality is raised. V. Conclude.",
+        "explanation": "IRAC."
+      }
+    ],
+    "bareActPointers": [
+      "Indian Contract Act, 1872 — Section 222",
+      "Connected: Sections 223, 224"
+    ],
+    "examTips": [
+      "State lawful acts within authority.",
+      "Use the Singapore / broker illustrations.",
+      "Pair with ss. 223–224."
+    ],
+    "revisionPoints": [
+      "Employer of an agent",
+      "Lawful acts within authority",
+      "Duty to indemnify"
+    ],
     "relatedJudgments": [],
+    "relatedTopics": [
+      "contract-s-223",
+      "contract-s-224"
+    ],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-222",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 222"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 against official text including illustrations.",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "The employer of an agent must indemnify the agent against the consequences of all lawful acts done in exercise of the authority conferred upon the agent.",
+      "legalPrinciple": "Lawful acts within authority → employer indemnifies agent.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 222",
+      "essentialIngredients": [
+        "Employer of an agent",
+        "Lawful acts within authority",
+        "Duty to indemnify"
+      ],
+      "authoritativeSources": [
+        "Indian Contract Act, 1872 (Act 9 of 1872), section 222"
+      ],
+      "verification": {
+        "status": "SOURCE_CHECK_REQUIRED",
+        "note": "2026-10-15 Contract Act reverse-order source check against official section 222 including illustrations. Not COMPLETE_LOCKED.",
+        "date": "2026-10-15",
+        "reviewer": "current-assistant-contract-s224-s222-bulk"
+      },
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T05:50:00.000Z",
+      "bot": "contract-reverse-s224-s222-2026-10-15",
+      "sourceFingerprint": "ica-s222-2026-10-15",
+      "indiaCode": {
+        "act": "Indian Contract Act, 1872 (Act 9 of 1872)",
+        "handle": "https://www.indiacode.nic.in/handle/123456789/2187",
+        "note": "Verified against official text. Not a verified closure."
+      }
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
   "sources": [
     "source:india:india-code-contract-1872"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T05:50:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-222",
-    "review"
+    "agency",
+    "review-required"
   ]
 }
