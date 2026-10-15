@@ -2,40 +2,191 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-129",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 129 (Continuing guarantee)",
+  "title": "Indian Contract Act, 1872 — Section 129 (Continuing guarantee)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 129 of the Indian Contract Act, 1872 is headed \"Continuing guarantee\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Section 129 defines a continuing guarantee as a guarantee that extends to a series of transactions. The statutory illustrations distinguish a guarantee covering recurring transactions from a guarantee limited to a single specified delivery. Whether a guarantee is continuing depends on the undertaking's scope and the transaction pattern; the label alone is not decisive.",
     "sections": [
       {
-        "heading": "Section 129",
-        "body": "Continuing guarantee"
+        "heading": "Definition",
+        "body": "A guarantee which extends to a series of transactions is called a continuing guarantee.",
+        "order": 1
+      },
+      {
+        "heading": "Series of transactions",
+        "body": "Identify whether the guarantee's wording extends to multiple transactions over time. A continuing commercial relationship alone is not enough; examine the undertaking and what transactions it covers.",
+        "order": 2
+      },
+      {
+        "heading": "Recurring transaction illustration",
+        "body": "The rent-collection illustration treats a promise to be responsible up to ₹5,000 for C's due collection and payment of rents for B as a continuing guarantee.",
+        "order": 3
+      },
+      {
+        "heading": "Recurring supply with a cap",
+        "body": "The tea-supply illustration shows a guarantee for tea supplied from time to time, limited to £100. The guarantee continues across qualifying transactions, but the stipulated amount limits exposure under the illustration.",
+        "order": 4
+      },
+      {
+        "heading": "Single transaction boundary",
+        "body": "The flour illustration concerns one specified delivery of five sacks. After that delivery is paid, a later delivery of four sacks is unpaid; the illustration states that the guarantee is not continuing and does not cover the later delivery.",
+        "order": 5
+      },
+      {
+        "heading": "Revocation is separate",
+        "body": "Section 129 classifies a guarantee as continuing. The rules for revocation as to future transactions are in Sections 130 and 131 and must be applied separately.",
+        "order": 6
       }
     ],
-    "examples": [],
-    "hypotheticals": [],
-    "relatedTopics": [],
+    "examples": [
+      {
+        "title": "Recurring credit supplies",
+        "body": "A guarantees payment for goods that a supplier may provide to a customer from time to time, within an agreed cap. If the guarantee's wording covers the series of supplies, it may fit Section 129's definition of a continuing guarantee."
+      },
+      {
+        "title": "One shipment only",
+        "body": "A guarantees payment for one specified shipment. The guarantee does not mention future shipments. The key question is whether the undertaking extends to a series of transactions or is confined to the named shipment."
+      },
+      {
+        "title": "Capped continuing guarantee",
+        "body": "A guarantee covers recurring transactions but caps the surety's exposure at a fixed sum. The continuing character and the monetary cap are separate features; analyse both."
+      }
+    ],
+    "hypotheticals": [
+      {
+        "question": "A guarantees payment for goods supplied to B from time to time, subject to a stated maximum. What is the Section 129 issue?",
+        "analysis": "Determine whether the undertaking extends to a series of transactions and identify the cap. The tea-supply illustration shows that a continuing guarantee can still be limited to a stated amount."
+      },
+      {
+        "question": "A guarantees payment for one identified delivery. The debtor later orders another delivery that remains unpaid. Is the later delivery automatically covered?",
+        "analysis": "No automatic conclusion follows. Section 129 requires a guarantee extending to a series of transactions to be continuing; compare the actual undertaking with the single-delivery flour illustration."
+      },
+      {
+        "question": "A continuing guarantee is revoked by notice. Does Section 129 itself state the effect of revocation?",
+        "analysis": "Section 129 defines continuing guarantee. Section 130 addresses revocation by notice as to future transactions, and Section 131 addresses death of the surety; analyse those provisions separately."
+      }
+    ],
+    "relatedTopics": [
+      "topic:india:contract-s-126",
+      "topic:india:contract-s-127",
+      "topic:india:contract-s-128",
+      "topic:india:contract-s-130",
+      "topic:india:contract-s-131"
+    ],
     "relatedJudgments": [],
-    "illustrations": [],
+    "illustrations": [
+      "Section 129 illustration (a): a guarantee up to ₹5,000 for due collection and payment of rents is continuing.",
+      "Section 129 illustration (b): a guarantee for tea supplied from time to time is continuing, subject to the stated £100 cap.",
+      "Section 129 illustration (c): a guarantee for one specified delivery of five sacks of flour is not continuing so as to cover a later delivery of four sacks."
+    ],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-129",
     "bareActPointers": [
-      "Indian Contract Act, 1872, s. 129"
+      "Indian Contract Act, 1872 — Section 129 and Illustrations (a)–(c)",
+      "Related provisions: Sections 130–131"
     ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from the standalone catalog stub using the official India Code statutory text and Section 129 illustrations. This topic remains in review pending remaining legal verification and release gates.",
+    "glance": "A guarantee extending to a series of transactions is a continuing guarantee; distinguish recurring transactions from a guarantee confined to one specified transaction.",
+    "study": "## Statutory definition\nSection 129 states: a guarantee which extends to a series of transactions is called a continuing guarantee. The focus is the scope of the guarantee across transactions, not merely the fact that the underlying relationship lasts for a period of time.\n\n## Apply the definition\n1. Read the undertaking and identify the transactions it covers.\n2. Determine whether the guarantee is framed to cover a series of future transactions or only one specified transaction/delivery.\n3. Check any monetary cap, transaction category, time limit or other scope condition in the guarantee.\n4. Compare the actual facts with the statutory illustrations; a recurring supply or collection arrangement may be continuing, while a guarantee for one defined delivery may not extend to later deliveries.\n5. Keep the existence of a continuing guarantee separate from its later revocation under Sections 130 and 131 and from discharge under other provisions.\n\n## Statutory illustrations\n- **Recurring collection:** A promises to be responsible up to ₹5,000 for C's due collection and payment of rents for B's estate. The illustration treats this as a continuing guarantee.\n- **Recurring supply with a cap:** A guarantees payment up to £100 for tea supplied by B to C from time to time. After earlier supplies are paid, a later supply is unpaid; the illustration treats the guarantee as continuing but caps A's liability at £100.\n- **One specified delivery:** A guarantees payment for five sacks of flour to be delivered and paid for within a month. After that delivery is paid, a later delivery of four sacks is unpaid. The illustration states that the guarantee is not continuing and A is not liable for the later delivery.\n\n## Scope and neighbouring provisions\nSection 129 defines the continuing character of a guarantee. Section 130 allows revocation of a continuing guarantee by notice for future transactions; Section 131 addresses the effect of the surety's death on future transactions, absent a contract to the contrary. The actual guarantee's wording remains central to identifying the series of transactions covered.",
+    "enhancement": {
+      "version": "v2",
+      "status": "in-progress",
+      "coverage": "subject-enhancement",
+      "learningObjectives": [
+        "State the definition of a continuing guarantee under Section 129.",
+        "Distinguish a guarantee for a series of transactions from one confined to a single transaction.",
+        "Apply the statutory illustrations involving rent collection, recurring tea supplies and a single flour delivery.",
+        "Separate continuing status from revocation under Sections 130 and 131."
+      ],
+      "definition": "A continuing guarantee is a guarantee which extends to a series of transactions.",
+      "legalPrinciple": "Section 129 classifies a guarantee by the scope of transactions it covers; the undertaking must extend to a series of transactions to be continuing.",
+      "statutoryFramework": [
+        "Indian Contract Act, 1872 — Section 129 and Illustrations (a)–(c)",
+        "Related provisions: Sections 130–131"
+      ],
+      "essentialIngredients": [
+        "Identify the scope of the guarantee",
+        "Identify the transactions covered",
+        "Determine whether the undertaking extends to a series of transactions or a single specified transaction",
+        "Apply any stated monetary cap or other scope condition",
+        "Keep revocation under Sections 130–131 separate"
+      ],
+      "detailedExplanation": "Section 129 defines a continuing guarantee as one that extends to a series of transactions. The statutory illustrations show a guarantee for recurring rent collection and a guarantee for tea supplied from time to time; the tea example remains subject to a £100 cap. By contrast, a guarantee for one specified delivery of five sacks of flour does not extend to a later delivery after the first delivery has been paid. The scope of the undertaking and the actual transaction sequence determine the classification. Revocation of a continuing guarantee is separately addressed by Sections 130 and 131.",
+      "examples": [
+        "Recurring supplies: the guarantee may be continuing if its wording covers the series of supplies.",
+        "Single shipment: a guarantee confined to one named delivery does not automatically cover later deliveries.",
+        "Continuing guarantee with cap: continuing scope and a maximum amount must both be applied."
+      ],
+      "distinctions": [
+        "A continuing guarantee extends to a series of transactions; a guarantee confined to one transaction is not continuing merely because the relationship lasts over time.",
+        "A monetary cap limits exposure but does not by itself decide whether the guarantee extends to a series of transactions.",
+        "Section 129 defines continuing guarantee; Sections 130 and 131 address specified revocation rules."
+      ],
+      "caseLaw": [],
+      "problemApplication": [
+        "Quote the guarantee's operative scope and identify each transaction claimed to be covered.",
+        "Determine whether the wording extends to a series or is confined to one transaction.",
+        "Apply the relevant statutory illustration by comparing the transaction sequence and any cap.",
+        "If revocation is raised, apply Section 130 or Section 131 separately.",
+        "Conclude on whether the transaction falls within the continuing guarantee."
+      ],
+      "examAnswerStructure": {
+        "shortAnswer": [
+          "State Section 129 definition",
+          "Identify series versus single transaction",
+          "Apply illustration and any cap",
+          "Conclude"
+        ],
+        "tenMark": [
+          "Statutory definition",
+          "Scope of guarantee",
+          "Recurring transaction illustration",
+          "Single-transaction boundary",
+          "Revocation distinction",
+          "Conclusion"
+        ],
+        "sixteenMark": [
+          "Exact guarantee wording",
+          "Transaction sequence",
+          "Application of Illustrations (a)–(c)",
+          "Monetary limits and scope",
+          "Separate revocation analysis",
+          "Conclusion"
+        ]
+      },
+      "keyTakeaways": [
+        "Section 129 requires the guarantee to extend to a series of transactions.",
+        "A guarantee can be continuing and still be subject to a monetary cap.",
+        "A guarantee for one specified delivery does not automatically cover later deliveries.",
+        "Revocation is governed separately by Sections 130 and 131.",
+        "No case-law verification is claimed in this update."
+      ],
+      "authoritativeSources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
+      ],
+      "verification": {
+        "notes": [
+          "Official India Code Indian Contract Act, 1872 PDF opened; Section 129 and Illustrations (a)–(c) checked at extracted lines 1484–1494 (PDF page 34).",
+          "Current consolidated amendment status was not independently reconciled in this pass; top-level status remains review.",
+          "No section-specific authoritative judgment was opened; no case-law verification is claimed.",
+          "This update is not final legal sign-off or publication authorization."
+        ]
+      }
+    }
   },
   "sources": [
-    "source:india:india-code-contract-1872"
+    "source:india:india-code-contract-1872",
+    "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf"
   ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
   "tags": [
     "contract",
     "indian-contract-act-1872",
     "section-129",
-    "review"
+    "source-check-required"
   ]
 }
