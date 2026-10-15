@@ -85,6 +85,19 @@ The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200
 
 **Status:** Content depth (exam structures, study, examples, hypotheticals, distinctions) now consistent across Agency ss. 182–238. **Not** legally verified and **not** COMPLETE_LOCKED. Source, case-law, validator, integration, SEO, production and human sign-off gates remain open.
 
+
+## Agency final content-consistency loop — 2026-10-15
+
+**Batch:** All ss. 182–238.
+
+**Filled:** misconceptions, revisionPoints, examTips, and enhancement.detailedExplanation (where missing), derived only from existing statutory text.
+
+**Evidence:** commit `681e18684`.
+
+**Result:** Zero remaining gaps in exam structures, study, examples, hypotheticals, distinctions, misconceptions, revision points, and exam tips. All topics remain `review` / `SOURCE_CHECK_REQUIRED`.
+
+**Status:** Content layer is consistent. Verification, case-law, validators, integration, SEO, production and human sign-off gates remain open. Not COMPLETE_LOCKED.
+
 ## Release gate
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
