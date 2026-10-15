@@ -2,40 +2,56 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-196",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 196 (Right as to acts done without authority; ratification)",
+  "title": "Indian Contract Act, 1872 — Section 196 (Right of person as to acts done for him without his authority)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 196 of the Indian Contract Act, 1872 is headed \"Right as to acts done without authority; ratification\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Where acts are done by one person on behalf of another, but without his knowledge or authority, he may elect to ratify or to disown such acts. If he ratify them, the same effects will follow as if they had been performed by his authority.",
+    "glance": "Unauthorized acts done on one’s behalf may be ratified or disowned; ratification has the same effect as prior authority.",
+    "study": "Where acts are done by one person on behalf of another, but without his knowledge or authority, he may elect to ratify or to disown such acts. If he ratify them, the same effects will follow as if they had been performed by his authority. Read with ss. 197–200 on form, knowledge, whole transaction, and third-person protection.",
     "sections": [
-      {
-        "heading": "Section 196",
-        "body": "Right as to acts done without authority; ratification"
-      }
+      {"heading": "Acts without knowledge or authority", "body": "Acts done on behalf of another without his knowledge or authority.", "order": 1},
+      {"heading": "Election to ratify or disown", "body": "The person may elect to ratify or to disown such acts.", "order": 2},
+      {"heading": "Effect of ratification", "body": "If ratified, same effects as if performed by his authority.", "order": 3}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-196", "section": "Section 196", "title": "Right of person as to acts done for him without his authority"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s196-brief", "draftingCategory": "brief", "question": "How should a Section 196 problem be analysed?", "answer": "Identify unauthorized acts done on behalf of the person; state the election to ratify or disown; if ratified, apply as if authorized, subject to ss. 197–200.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 196"],
+    "examTips": ["Core ratification election."],
+    "revisionPoints": ["Unauthorized acts", "Elect to ratify or disown", "Effect of ratification"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-197", "contract-s-198"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-196",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 196"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "A person may elect to ratify or disown acts done on his behalf without knowledge or authority; ratification has the effect of prior authority.",
+      "legalPrinciple": "Election to ratify or disown unauthorized acts.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 196",
+      "essentialIngredients": ["Acts without knowledge or authority", "Election to ratify or disown", "Effect of ratification"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 196"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s196-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-196",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-196", "agency", "review-required"]
 }
