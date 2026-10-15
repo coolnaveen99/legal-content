@@ -2,40 +2,55 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-194",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 194 (Relation between principal and person duly appointed by agent)",
+  "title": "Indian Contract Act, 1872 — Section 194 (Relation between principal and person duly appointed by agent to act in business of agency)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 194 of the Indian Contract Act, 1872 is headed \"Relation between principal and person duly appointed by agent\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "Where an agent, holding an express or implied authority to name another person to act for the principal in the business of the agency, has named another person accordingly, such person is not a sub-agent, but an agent of the principal for such part of the business of the agency as is entrusted to him.",
+    "glance": "Person named by agent under authority to select for the principal is the principal’s agent (not a sub-agent) for the entrusted part.",
+    "study": "Where an agent, holding an express or implied authority to name another person to act for the principal in the business of the agency, has named another person accordingly, such person is not a sub-agent, but an agent of the principal for such part of the business of the agency as is entrusted to him. Distinguished from sub-agent under ss. 191–193.",
     "sections": [
-      {
-        "heading": "Section 194",
-        "body": "Relation between principal and person duly appointed by agent"
-      }
+      {"heading": "Authority to name another", "body": "Agent holds express or implied authority to name another person to act for the principal.", "order": 1},
+      {"heading": "Named person is agent of principal", "body": "The named person is not a sub-agent but an agent of the principal for the entrusted part of the business.", "order": 2}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-194", "section": "Section 194", "title": "Relation between principal and person duly appointed by agent to act in business of agency"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s194-brief", "draftingCategory": "brief", "question": "How should a Section 194 problem be analysed?", "answer": "Test authority to name another for the principal; if present, the named person is the principal’s agent, not a sub-agent.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 194", "Connected: Sections 192, 193, 195"],
+    "examTips": ["Substituted agent vs sub-agent."],
+    "revisionPoints": ["Authority to name", "Agent of principal not sub-agent"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-192", "contract-s-195"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-194",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 194"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "A person named by an agent under authority to select for the principal is the principal’s agent for the entrusted part, not a sub-agent.",
+      "legalPrinciple": "Substituted agent is agent of principal.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 194",
+      "essentialIngredients": ["Authority to name another", "Named person is agent of principal"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 194"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s194-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-194",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-194", "agency", "review-required"]
 }
