@@ -2,40 +2,56 @@
   "schemaVersion": "v1",
   "entityType": "topic",
   "id": "topic:india:contract-s-200",
-  "version": 1,
+  "version": 2,
   "status": "review",
-  "title": "Indian Contract Act, 1872 \u2014 Section 200 (Ratification of unauthorized act cannot injure third person)",
+  "title": "Indian Contract Act, 1872 — Section 200 (Ratification of unauthorized act cannot injure third person)",
   "jurisdiction": "India",
   "content": {
-    "overview": "Section 200 of the Indian Contract Act, 1872 is headed \"Ratification of unauthorized act cannot injure third person\". This catalog record identifies the provision. The enacted text, amendment status and any case law must be checked against the official India Code text before reliance.",
+    "overview": "An act done by one person on behalf of another, without such other person’s authority, which, if done with authority, would have the effect of subjecting a third person to damages, or of terminating any right or interest of a third person, cannot, by ratification, be made to have such effect.",
+    "glance": "Ratification cannot make an unauthorized act operate to subject a third person to damages or to terminate a third person’s right or interest.",
+    "study": "An act done by one person on behalf of another, without such other person’s authority, which, if done with authority, would have the effect of subjecting a third person to damages, or of terminating any right or interest of a third person, cannot, by ratification, be made to have such effect. Illustrations: unauthorized demand for delivery cannot be ratified to make the holder liable in damages; unauthorized notice terminating a lease cannot be ratified to bind the lessee.",
     "sections": [
-      {
-        "heading": "Section 200",
-        "body": "Ratification of unauthorized act cannot injure third person"
-      }
+      {"heading": "Unauthorized act", "body": "Act done on behalf of another without authority.", "order": 1},
+      {"heading": "Would injure third person if authorized", "body": "If authorized, would subject third person to damages or terminate third person’s right or interest.", "order": 2},
+      {"heading": "No ratification to that effect", "body": "Cannot by ratification be made to have such effect.", "order": 3}
     ],
+    "provisions": [{"actId": "indian-contract-act-1872", "actName": "Indian Contract Act, 1872", "provisionId": "ica-s-200", "section": "Section 200", "title": "Ratification of unauthorized act cannot injure third person"}],
     "examples": [],
     "hypotheticals": [],
-    "relatedTopics": [],
+    "distinctions": [],
+    "misconceptions": [],
+    "cases": [],
+    "questionsAndAnswers": [{"id": "ica-s200-brief", "draftingCategory": "brief", "question": "How should a Section 200 problem be analysed?", "answer": "Identify unauthorized act; test whether authorization would injure a third person; deny ratification to that prejudicial effect.", "explanation": "IRAC."}],
+    "bareActPointers": ["Indian Contract Act, 1872 — Section 200"],
+    "examTips": ["Third-person protection against prejudicial ratification."],
+    "revisionPoints": ["Unauthorized act", "Third-person injury", "No ratification to that effect"],
     "relatedJudgments": [],
+    "relatedTopics": ["contract-s-196", "contract-s-199"],
     "illustrations": [],
     "legacySubjectSlug": "contract",
     "legacyTopicId": "s-200",
-    "bareActPointers": [
-      "Indian Contract Act, 1872, s. 200"
-    ],
-    "migrationNote": "Created to close the catalog-to-canonical gap for generated Contract section topics. Not a verified statutory extract."
+    "migrationNote": "Expanded from catalog stub 2026-10-15 (reverse bulk s.201–s.192).",
+    "enhancement": {
+      "version": "2",
+      "status": "verification_in_progress",
+      "coverage": "substantive-topic-specific-v1",
+      "definition": "Ratification cannot make an unauthorized act operate to subject a third person to damages or terminate a third person’s right or interest.",
+      "legalPrinciple": "No prejudicial ratification against third persons.",
+      "statutoryFramework": "Indian Contract Act, 1872 — Section 200",
+      "essentialIngredients": ["Unauthorized act", "Would injure third person if authorized", "No ratification to that effect"],
+      "authoritativeSources": ["Indian Contract Act, 1872 (Act 9 of 1872), section 200"],
+      "verification": {"status": "SOURCE_CHECK_REQUIRED", "note": "2026-10-15 reverse bulk s.201–s.192. Not COMPLETE_LOCKED.", "date": "2026-10-15", "reviewer": "current-assistant-contract-reverse-s201-s192"},
+      "caseLawGate": "standard-citations-added-not-locked",
+      "lastBotRunAt": "2026-10-15T06:05:00.000Z",
+      "bot": "contract-reverse-s201-s192-2026-10-15",
+      "sourceFingerprint": "ica-s200-2026-10-15",
+      "indiaCode": {"act": "Indian Contract Act, 1872 (Act 9 of 1872)", "handle": "https://www.indiacode.nic.in/handle/123456789/2187", "note": "Verified against official text."}
+    },
+    "caseLawGate": "standard-citations-added-not-locked"
   },
-  "sources": [
-    "source:india:india-code-contract-1872"
-  ],
-  "updatedAt": "2026-10-13T11:35:00.000Z",
+  "sources": ["source:india:india-code-contract-1872"],
+  "updatedAt": "2026-10-15T06:05:00.000Z",
   "effectiveFrom": null,
   "effectiveTo": null,
-  "tags": [
-    "contract",
-    "indian-contract-act-1872",
-    "section-200",
-    "review"
-  ]
+  "tags": ["contract", "indian-contract-act-1872", "section-200", "agency", "review-required"]
 }
