@@ -38,3 +38,15 @@ Therefore:
 ## Integrity
 
 No canonical topic JSON, manifest, relationship index, source registry, or publication status was changed in this batch. This record captures a bounded source comparison only and does not close the legal-verification or publication gates.
+
+
+## Amendment / applicability follow-up — unresolved
+
+A current-law follow-up search found a material applicability issue that the base Act wording alone does not settle: a secondary section-wise compilation reports notification-based exemptions affecting section 106 for certain private companies, subject to filing-default conditions, and for specified IFSC public companies. The Ministry of Corporate Affairs' own May 2015 newsletter confirms that exemptions for categories of companies were issued under section 462, but the newsletter excerpt reviewed here does not establish the precise section 106 wording or the current consolidated effect.
+
+- Secondary locator only: https://corporatelawreporter.com/companies_act/section-106-of-companies-act-2013-restriction-on-voting-rights/
+- Official contextual source: https://www.mca.gov.in/Ministry/pdf/Monthly_Newsletter_May_2015.pdf
+- **Classification:** LEAD FOUND — PRIMARY NOTIFICATION VERIFICATION REQUIRED.
+- **Not established:** exact operative notification clauses and conditions, all subsequent amendments/corrigenda, continuing applicability as at 2026-10-17, or application to a particular company.
+- **Required next action:** retrieve and compare the official Gazette/MCA text for G.S.R. 464(E) dated 5 June 2015 and G.S.R. 583(E) dated 13 June 2017 (including any corrigendum), then record the precise notification clause and any relevant filing-default condition. Do not add an exemption as settled law to the canonical topic until that primary text is inspected.
+- **Status remains:** SOURCE_CHECK_REQUIRED; no verification or publication promotion.

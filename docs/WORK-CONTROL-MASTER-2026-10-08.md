@@ -163,3 +163,8 @@ If any field cannot be established, STOP.
 - **Still missing:** amendment/current-status review, relevant authoritative case-law check, topic/schema/manifest validation if canonical topic metadata is later changed, integration/E2E, SEO/production/rollback checks and human legal sign-off.
 - **Validation performed:** evidence cross-check and documentation consistency only. Repository validators and CI have not yet been run on this documentation commit; do not claim they passed.
 - **Next step:** continue with s.106's amendment/current-law gate only after checking for an existing ownership claim; do not mark complete on the basis of this wording comparison.
+
+
+### Section 106 amendment/applicability follow-up — 2026-10-17
+
+A search surfaced a secondary-source lead that notification-based exemptions may affect s.106 for certain private companies and specified IFSC public companies. MCA's May 2015 newsletter confirms the broad section 462 exemption program, but the precise s.106 notification clause and continuing effect have not yet been verified from primary Gazette/MCA text. Treat this as a research lead only; do not add it as settled doctrine or promote s.106 status. Next task: inspect G.S.R. 464(E), 5 June 2015, G.S.R. 583(E), 13 June 2017, any corrigendum, and relevant subsequent official instruments. Evidence and limitations are recorded in docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md.
