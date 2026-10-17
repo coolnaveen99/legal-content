@@ -50,3 +50,26 @@ A current-law follow-up search found a material applicability issue that the bas
 - **Not established:** exact operative notification clauses and conditions, all subsequent amendments/corrigenda, continuing applicability as at 2026-10-17, or application to a particular company.
 - **Required next action:** retrieve and compare the official Gazette/MCA text for G.S.R. 464(E) dated 5 June 2015 and G.S.R. 583(E) dated 13 June 2017 (including any corrigendum), then record the precise notification clause and any relevant filing-default condition. Do not add an exemption as settled law to the canonical topic until that primary text is inspected.
 - **Status remains:** SOURCE_CHECK_REQUIRED; no verification or publication promotion.
+
+
+## Follow-up result — notification scope located, primary-source gate still open (2026-10-17)
+
+The notification text has now been located in an IndiaCode/eCourtsIndia reproduction of G.S.R. 464(E) (5 June 2015) and G.S.R. 583(E) (13 June 2017). This improves the claim-level research but is not the required final primary-source check: the reproduction itself expressly says the Department's own PDF/Gazette remains authoritative, and the official MCA PDF endpoint was not retrievable in this pass.
+
+### What the reproduced notification text says
+
+- G.S.R. 464(E), 5 June 2015, serial no. 7: Chapter VII, sections 101 to 107 and section 109 apply to private companies unless otherwise specified in the respective sections or the company's articles provide otherwise. Section 106 falls within this group.
+- G.S.R. 583(E), 13 June 2017, paragraph 7: inserts paragraph 2A, making the exceptions, modifications and adaptations in the table applicable to a private company only if it has not defaulted in filing financial statements under section 137 or its annual return under section 92 with the Registrar.
+- A separate secondary compilation identifies G.S.R. 08(E), 4 January 2017, as a specific IFSC-public-company notification concerning section 106. The official text and conditions for that instrument have not been inspected here.
+
+### Sources and limitations
+
+- Reproduced 2015 notification: https://indiacode.ecourtsindia.com/rules/exemptions-to-private-companies-under-section-462-of-ca-2013-43bb0c63/
+- Reproduced 2017 notification: https://indiacode.ecourtsindia.com/rules/exemption-to-government-companies-under-section-462-of-ca-2013-e7c97848/ (page heading appears mismatched; the text reproduced on the page identifies G.S.R. 583(E) and amends G.S.R. 464(E)).
+- Official MCA contextual source: https://www.mca.gov.in/Ministry/pdf/Monthly_Newsletter_May_2015.pdf — confirms the general section 462 notification program, not the complete operative clause.
+- Official MCA notification PDF endpoint was not successfully retrieved during this check. No checksum or byte-identity proof for the official PDF is available.
+- Secondary locator for IFSC note: https://corporatelawreporter.com/companies_act/section-106-of-companies-act-2013-restriction-on-voting-rights/
+
+### Disposition
+
+**PARTIAL — NOT CURRENT-LAW VERIFIED.** The private-company notification's apparent scope and section 137/section 92 filing condition are now identified from reproduced text, but final verification requires official Gazette/MCA copies, check for any later amendment/corrigendum, and inspection of G.S.R. 08(E) for the IFSC issue. Do not change canonical topic wording or status based only on these reproductions. Keep `review` / `SOURCE_CHECK_REQUIRED`; case-law, validators after any content change, integration/production and human sign-off gates remain open.
