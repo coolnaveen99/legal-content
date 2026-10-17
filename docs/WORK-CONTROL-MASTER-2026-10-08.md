@@ -168,3 +168,8 @@ If any field cannot be established, STOP.
 ### Section 106 amendment/applicability follow-up — 2026-10-17
 
 A search surfaced a secondary-source lead that notification-based exemptions may affect s.106 for certain private companies and specified IFSC public companies. MCA's May 2015 newsletter confirms the broad section 462 exemption program, but the precise s.106 notification clause and continuing effect have not yet been verified from primary Gazette/MCA text. Treat this as a research lead only; do not add it as settled doctrine or promote s.106 status. Next task: inspect G.S.R. 464(E), 5 June 2015, G.S.R. 583(E), 13 June 2017, any corrigendum, and relevant subsequent official instruments. Evidence and limitations are recorded in docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md.
+
+
+### Section 106 notification research update — 2026-10-17
+
+The reproduced texts of G.S.R. 464(E) (5 June 2015) and G.S.R. 583(E) (13 June 2017) indicate that the private-company table includes sections 101–107 and section 109, subject to the section 137 financial-statement / section 92 annual-return filing-default condition inserted by paragraph 2A. This is still a partial research result because the official Gazette/MCA notification PDF and the separate G.S.R. 08(E) IFSC instrument were not verified from primary bytes, and later amendment/corrigendum status remains unchecked. Keep Company Law s.106 `review` / `SOURCE_CHECK_REQUIRED`; do not promote. Detailed provenance and exact limitations are in `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`.
