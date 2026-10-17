@@ -95,3 +95,17 @@ A targeted search for Companies Act, 2013 section 106 decisions surfaced **S. Na
 A secondary provision index also lists older/other decisions citing section 106, including *Industrial Investment Bank of India Ltd. (In Voluntary Liquidation) v. Smt. Persis A. Khambatta* (Calcutta High Court, 12 March 2026) and *Paritej Molecules Pvt. Ltd. v. None* (Gujarat High Court, 9 July 2008), but their primary judgment texts and relevance to the 2013 Act's section 106 have not been verified in this pass. These are **research leads only**, not approved authorities. No case-law record is added and no topic status is promoted.
 
 **Case-law gate outcome:** SEARCHED — NO SUBSTANTIVE SECTION 106 RATIO VERIFIED. Further work must inspect primary judgment copies and distinguish decisions under the Companies Act, 1956 or different provisions from actual construction of 2013 Act s.106.
+
+
+## Corrigendum scope check — 2026-10-17
+
+A further check located the reproduced text of **S.O. 2218(E), dated 13 July 2017**, which corrects G.S.R. 583(E) dated 13 June 2017. The corrigendum says that, in paragraph 5 of G.S.R. 583(E), Table column (3), item (ii), the words “statement or” are to be read as “statement and”. The reproduced G.S.R. 583(E) text shows that paragraph 5 concerns the private-company exemption from the auditor-reporting requirement in section 143(3)(i), including its turnover/borrowing criteria. This is distinct from paragraph 2A, inserted by paragraph 7 of G.S.R. 583(E), which states the overarching eligibility condition concerning defaults in filing financial statements under section 137 or annual returns under section 92.
+
+The corrigendum therefore must not be described as changing the section 106 row (the 2015 table entry for sections 101–107 and 109), nor as correcting the paragraph 2A wording. The available reproduced text supports this distinction; the original MCA-hosted PDFs still could not be fetched directly here, and the reproduced source warns that the Department's own Gazette/PDF remains authoritative.
+
+Sources inspected:
+- G.S.R. 464(E), 5 June 2015, reproduced notification, table item 7: https://indiacode.ecourtsindia.com/rules/exemptions-to-private-companies-under-section-462-of-ca-2013-43bb0c63/
+- G.S.R. 583(E), 13 June 2017, reproduced notification, paragraph 5 and paragraph 7: https://indiacode.ecourtsindia.com/rules/exemption-to-government-companies-under-section-462-of-ca-2013-e7c97848/ (page title metadata is inconsistent with the reproduced G.S.R. 583(E) text; treat this as a locator, not authoritative metadata)
+- S.O. 2218(E), 13 July 2017, reproduced corrigendum: https://indiacode.ecourtsindia.com/rules/exemption-to-private-company-corrigendum-abaa50b7/
+
+Disposition remains **PARTIAL — NOT CURRENT-LAW VERIFIED**. No canonical topic content/status was changed. Later instruments and substantive section 106 case-law remain unclosed; the topic stays `review` / `SOURCE_CHECK_REQUIRED`.
