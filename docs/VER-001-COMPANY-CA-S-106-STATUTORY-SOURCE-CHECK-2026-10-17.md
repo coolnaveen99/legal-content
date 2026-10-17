@@ -86,3 +86,12 @@ Official MCA-hosted notification PDFs were found through indexed official-source
 ### Current-law limitation and disposition
 
 The notification-specific scope and filing-default condition are now corroborated by official MCA-hosted PDF indexed text, but direct PDF fetch was blocked and no checksum/page-by-page inspection is available. The check has not exhaustively established whether any later notification, amendment, corrigendum, judicial ruling, or changed commencement/operation affects these clauses as at the review date. Do not change the canonical topic's content or status on this record alone. **Disposition: PARTIAL OFFICIAL-SOURCE TEXT CONFIRMATION; CURRENT-LAW / CASE-LAW GATES REMAIN OPEN.** Keep `review` / `SOURCE_CHECK_REQUIRED`.
+
+
+## Case-law screening — no section 106 ratio established in this pass
+
+A targeted search for Companies Act, 2013 section 106 decisions surfaced **S. Natarajan v. S.V. Global Mills Ltd.**, Madras High Court, Review Application Nos. 94 and 95 of 2015, order dated 18 December 2015 (reproduced at https://indiankanoon.org/doc/185472014/). The order reproduces section 106 but the framed questions identified in the text concern the voting method under sections 107 and 109, Rule 20 e-voting, SEBI/MCA circulars, and whether the issue was a pure question of law or a mixed question of law and fact. The Court held the review petitions had no scope and dismissed them; it did not establish a substantive ratio on the unpaid-call/lien restriction in section 106. Therefore, **do not register this as a section 106 interpretation case** in the canonical judgment decoder based solely on its mention/quotation of the section.
+
+A secondary provision index also lists older/other decisions citing section 106, including *Industrial Investment Bank of India Ltd. (In Voluntary Liquidation) v. Smt. Persis A. Khambatta* (Calcutta High Court, 12 March 2026) and *Paritej Molecules Pvt. Ltd. v. None* (Gujarat High Court, 9 July 2008), but their primary judgment texts and relevance to the 2013 Act's section 106 have not been verified in this pass. These are **research leads only**, not approved authorities. No case-law record is added and no topic status is promoted.
+
+**Case-law gate outcome:** SEARCHED — NO SUBSTANTIVE SECTION 106 RATIO VERIFIED. Further work must inspect primary judgment copies and distinguish decisions under the Companies Act, 1956 or different provisions from actual construction of 2013 Act s.106.
