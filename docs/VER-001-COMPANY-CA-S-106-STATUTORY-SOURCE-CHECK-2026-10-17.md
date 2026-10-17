@@ -109,3 +109,13 @@ Sources inspected:
 - S.O. 2218(E), 13 July 2017, reproduced corrigendum: https://indiacode.ecourtsindia.com/rules/exemption-to-private-company-corrigendum-abaa50b7/
 
 Disposition remains **PARTIAL — NOT CURRENT-LAW VERIFIED**. No canonical topic content/status was changed. Later instruments and substantive section 106 case-law remain unclosed; the topic stays `review` / `SOURCE_CHECK_REQUIRED`.
+
+
+## Follow-up on remaining case-law leads — 2026-10-17
+
+The two previously noted secondary-index leads were screened against the accessible reproduced judgment texts. Neither is an authority interpreting **section 106 of the Companies Act, 2013**:
+
+1. **Industrial Investment Bank of India Ltd. (In Voluntary Liquidation) v. Smt. Persis A. Khambatta & Another**, Calcutta High Court, APO No. 339 of 2017, GA No. 3 of 2025, judgment dated 12 March 2026, reported at https://indiankanoon.org/doc/147015930/. The judgment itself repeatedly identifies the issue as section 106 of the **Companies Act, 1956**, which concerned variation of rights of special classes of shares; the 2013 Act's section 106 concerns restriction on voting rights for unpaid calls/amounts or lien. The decision is therefore a statutory-scope mismatch for this topic, notwithstanding the section-number search hit. It must not be added as an interpretation authority for the 2013 provision.
+2. **Paritej Molecules Private Limited**, Gujarat High Court, judgment dated 9 July 2008, reproduced at https://www.casemine.com/judgement/in/56091589e4b014971118f513. The reproduced case concerns capital reduction and preference-share rights under sections 78, 100–103 and 106 of the **Companies Act, 1956**. It predates the 2013 Act and concerns the earlier section 106, not the current provision. It is excluded from the s.106 (2013 Act) judgment decoder.
+
+This is a bounded scope check based on reproduced judgments, not a claim that all decisions on the 2013 Act section 106 have been exhaustively searched. The previously screened *S. Natarajan v. S.V. Global Mills Ltd.* likewise did not establish a substantive ratio on the current section 106. **Case-law gate outcome remains: no substantive ratio under Companies Act, 2013 s.106 verified in this pass.** No case records were added and no canonical topic status was promoted. Keep `review` / `SOURCE_CHECK_REQUIRED`.
