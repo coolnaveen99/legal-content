@@ -65,7 +65,7 @@ The notification text has now been located in an IndiaCode/eCourtsIndia reproduc
 ### Sources and limitations
 
 - Reproduced 2015 notification: https://indiacode.ecourtsindia.com/rules/exemptions-to-private-companies-under-section-462-of-ca-2013-43bb0c63/
-- Reproduced 2017 notification: https://indiacode.ecourtsindia.com/rules/exemption-to-government-companies-under-section-462-of-ca-2013-e7c97848/ (page heading appears mismatched; the text reproduced on the page identifies G.S.R. 583(E) and amends G.S.R. 464(E)).
+- Official MCA-hosted 2017 private-company amendment PDF: https://www.mca.gov.in/Ministry/pdf/ExemptionPrivateCompanies.pdf (the direct PDF request returned HTTP 403; indexed extracted text identifies G.S.R. 583(E) and amends G.S.R. 464(E)).
 - Official MCA contextual source: https://www.mca.gov.in/Ministry/pdf/Monthly_Newsletter_May_2015.pdf — confirms the general section 462 notification program, not the complete operative clause.
 - Official MCA notification PDF endpoint was not successfully retrieved during this check. No checksum or byte-identity proof for the official PDF is available.
 - Secondary locator for IFSC note: https://corporatelawreporter.com/companies_act/section-106-of-companies-act-2013-restriction-on-voting-rights/
@@ -73,3 +73,16 @@ The notification text has now been located in an IndiaCode/eCourtsIndia reproduc
 ### Disposition
 
 **PARTIAL — NOT CURRENT-LAW VERIFIED.** The private-company notification's apparent scope and section 137/section 92 filing condition are now identified from reproduced text, but final verification requires official Gazette/MCA copies, check for any later amendment/corrigendum, and inspection of G.S.R. 08(E) for the IFSC issue. Do not change canonical topic wording or status based only on these reproductions. Keep `review` / `SOURCE_CHECK_REQUIRED`; case-law, validators after any content change, integration/production and human sign-off gates remain open.
+
+
+## Official MCA notification-source follow-up — 2026-10-17
+
+Official MCA-hosted notification PDFs were found through indexed official-source results. The browser could not open the PDFs directly (HTTP 403), so the following is based on the official MCA-hosted PDF's indexed extracted text; it is stronger than the earlier third-party-only lead but does not establish a local byte-level copy, checksum, or page-by-page inspection.
+
+1. **Private-company notification, G.S.R. 464(E), 5 June 2015, as amended by G.S.R. 583(E), 13 June 2017.** The official MCA-hosted `ExemptionPrivateCompanies.pdf` indexed text reproduces paragraph 7 inserting paragraph 2A: the table's exceptions/modifications/adaptations apply to a private company that has not defaulted in filing financial statements under section 137 or annual return under section 92. The earlier table scope, as reproduced in the available notification text, includes Chapter VII sections 101–107 and section 109, therefore includes section 106. Official source: https://www.mca.gov.in/Ministry/pdf/ExemptionPrivateCompanies.pdf
+2. **Specified IFSC public company notification, G.S.R. 08(E), 4 January 2017.** The official MCA-hosted `IFSC_Public_04012017.pdf` indexed text explicitly lists serial no. 25: “Sections 101 to 107 and section 109” apply to a Specified IFSC public company unless otherwise specified in its articles. This expressly includes section 106. Official source: https://www.mca.gov.in/Ministry/pdf/IFSC_Public_04012017.pdf
+3. **Cross-check on the 2017 private-company amendment.** The official MCA-hosted `ExemptionPrivateCompanies.pdf` itself identifies G.S.R. 583(E), 13 June 2017 and says the principal notification was G.S.R. 464(E), 5 June 2015. Do not use the similarly named government-company notification as the private-company source.
+
+### Current-law limitation and disposition
+
+The notification-specific scope and filing-default condition are now corroborated by official MCA-hosted PDF indexed text, but direct PDF fetch was blocked and no checksum/page-by-page inspection is available. The check has not exhaustively established whether any later notification, amendment, corrigendum, judicial ruling, or changed commencement/operation affects these clauses as at the review date. Do not change the canonical topic's content or status on this record alone. **Disposition: PARTIAL OFFICIAL-SOURCE TEXT CONFIRMATION; CURRENT-LAW / CASE-LAW GATES REMAIN OPEN.** Keep `review` / `SOURCE_CHECK_REQUIRED`.
