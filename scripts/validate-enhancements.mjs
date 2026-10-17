@@ -32,7 +32,21 @@ if(fs.existsSync(topicRoot)){
     if(!e) continue;
     enhanced++;
     const rel=path.relative(ROOT,file);
-    const finalStatus = e.status === "verified" || e.status === "published";
+    // Older migrated topic records may contain an enhancement scaffold without its
+    // own lifecycle status. If the canonical topic itself is still in review, infer
+    // only the conservative source-check-required state for validation; never infer
+    // verified/published. Keep this visible as a warning so a later migration can
+    // persist the explicit status in the topic record.
+    const inferredStatus = !e.status && entity.status === "review"
+      ? "source_check_required"
+      : e.status;
+    if (!e.status && entity.status === "review") {
+      warnings++;
+      if (warningSamples.length < SAMPLE_LIMIT) {
+        warningSamples.push(rel + " missing enhancement.status; conservatively treated as source_check_required");
+      }
+    }
+    const finalStatus = inferredStatus === "verified" || inferredStatus === "published";
     for(const key of REQUIRED){
       if(!(key in e)) {
         const message = rel+" missing enhancement."+key;
@@ -45,10 +59,13 @@ if(fs.existsSync(topicRoot)){
         }
       }
     }
-    if(!["planned","in-progress","source_check_required","verification_in_progress","verified","published"].includes(e.status)){
+    if(inferredStatus && !["planned","in-progress","source_check_required","verification_in_progress","verified","published"].includes(inferredStatus)){
       console.error("ERROR: "+rel+" invalid enhancement status"); errors++;
     }
-    if(e.status==="verified" || e.status==="published"){
+    if(!inferredStatus && entity.status !== "review"){
+      console.error("ERROR: "+rel+" missing enhancement status outside review lifecycle"); errors++;
+    }
+    if(inferredStatus==="verified" || inferredStatus==="published"){
       if(!Array.isArray(e.authoritativeSources)||e.authoritativeSources.length===0){
         console.error("ERROR: "+rel+" verified/published enhancement has no authoritativeSources"); errors++;
       }
