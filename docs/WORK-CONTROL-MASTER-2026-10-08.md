@@ -173,3 +173,8 @@ A search surfaced a secondary-source lead that notification-based exemptions may
 ### Section 106 notification research update — 2026-10-17
 
 Official MCA-hosted PDF indexed text now corroborates (1) G.S.R. 464(E), 5 June 2015, as amended by G.S.R. 583(E), 13 June 2017: the private-company table includes sections 101–107 and section 109, subject to no default in section 137 financial-statement or section 92 annual-return filings; and (2) G.S.R. 08(E), 4 January 2017: sections 101–107 and section 109 apply to specified IFSC public companies unless otherwise specified in their articles. Direct official PDF fetch returned 403, so no checksum/page-by-page inspection is available; subsequent amendments/corrigenda and case-law are not exhaustively checked. Keep Company Law s.106 `review` / `SOURCE_CHECK_REQUIRED`. Detailed provenance and limitations are in `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`.
+
+
+### Section 106 case-law screen — 2026-10-17
+
+A bounded search surfaced S. Natarajan v. S.V. Global Mills Ltd. (Madras HC, Review Applications 94/95 of 2015, order dated 18 December 2015), but the reproduced order quotes s.106 while its framed issues concern voting procedure under ss.107/109, Rule 20 and whether questions were pure law or mixed fact/law; no substantive s.106 ratio was established. Do not register it as an s.106 interpretation authority. Other section-index search hits remain leads until primary judgment text and relevance to Companies Act 2013 s.106 are verified. Case-law gate remains open; see the detailed source-check report. Keep topic `review` / `SOURCE_CHECK_REQUIRED`.
