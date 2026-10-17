@@ -9,6 +9,7 @@ Official current texts used for statutory checks. A topic is not verified becaus
 | bsa | Bharatiya Sakshya Adhiniyam, 2023, Act 47 of 2023 | https://www.indiacode.nic.in/handle/123456789/20063 | Handle recorded. Text not re-read in this pass. |
 | constitution | Constitution of India | https://www.indiacode.nic.in/handle/123456789/15240 | Handle recorded. No article re-read in this pass. |
 | contract | Indian Contract Act, 1872 | https://www.indiacode.nic.in/handle/123456789/2187 | Handle recorded. No section re-read in this pass. |
+| company (s.106 only) | Companies Act, 2013 (Act 18 of 2013) | https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf | Section 106, printed page 76, subsections (1)–(3) compared with the topic on 17 October 2026. Text comparison only; amendment/current-law and case-law checks remain open. See `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`. |
 
 Spot check recorded in `docs/VER-001-SPOT-CHECK.md`.
 

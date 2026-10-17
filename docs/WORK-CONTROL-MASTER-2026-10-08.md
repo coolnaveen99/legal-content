@@ -150,3 +150,16 @@ The previous summary `s.238 → s.192` overlaps the forward range `s.182–s.200
 Content expansion is not equivalent to legal verification, technical validation, production publication, or final lock. Preserve `review` / `SOURCE_CHECK_REQUIRED` until the applicable evidence and sign-off exist. Record any unresolved PDF/manual-review queue separately; it must not be used to imply legal verification or waive unrelated gates.
 
 If any field cannot be established, STOP.
+
+
+## Statutory source-check batch — Company Law s.106 (2026-10-17)
+
+- **Subject / exact range:** Companies Act, 2013, section 106 only (`topics/company/ca-s-106.json`).
+- **Main before work:** `85e822402a2c985d31de195cf978c58015d3cf07`.
+- **Ownership check:** inspected the active Work Control Master, `AGENTS.md`, `.github/copilot-instructions.md`, the canonical s.106 topic, and its recent file history. No section-specific active claim was found in the inspected evidence; no open PR was found in the repository.
+- **Work performed:** compared the three statutory subsections against the Ministry of Corporate Affairs' official Companies Act PDF, printed page 76. This is a bounded statutory-wording source check only.
+- **Evidence:** `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`; source map updated at `docs/VER-001-STATUTORY-SOURCE-MAP.md`.
+- **Status:** PARTIAL source check. The topic remains `review` / `SOURCE_CHECK_REQUIRED`. No publication or verification status was promoted.
+- **Still missing:** amendment/current-status review, relevant authoritative case-law check, topic/schema/manifest validation if canonical topic metadata is later changed, integration/E2E, SEO/production/rollback checks and human legal sign-off.
+- **Validation performed:** evidence cross-check and documentation consistency only. Repository validators and CI have not yet been run on this documentation commit; do not claim they passed.
+- **Next step:** continue with s.106's amendment/current-law gate only after checking for an existing ownership claim; do not mark complete on the basis of this wording comparison.
