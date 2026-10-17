@@ -178,3 +178,11 @@ Official MCA-hosted PDF indexed text now corroborates (1) G.S.R. 464(E), 5 June 
 ### Section 106 case-law screen — 2026-10-17
 
 A bounded search surfaced S. Natarajan v. S.V. Global Mills Ltd. (Madras HC, Review Applications 94/95 of 2015, order dated 18 December 2015), but the reproduced order quotes s.106 while its framed issues concern voting procedure under ss.107/109, Rule 20 and whether questions were pure law or mixed fact/law; no substantive s.106 ratio was established. Do not register it as an s.106 interpretation authority. Other section-index search hits remain leads until primary judgment text and relevance to Companies Act 2013 s.106 are verified. Case-law gate remains open; see the detailed source-check report. Keep topic `review` / `SOURCE_CHECK_REQUIRED`.
+
+
+### Section 106 corrigendum scope recheck — 2026-10-17
+
+- Reproduced S.O. 2218(E), 13 July 2017, and compared its stated correction with reproduced G.S.R. 583(E), 13 June 2017.
+- The corrigendum replaces “statement or” with “statement and” in paragraph 5, Table column (3), item (ii), concerning the private-company section 143(3)(i) auditor-reporting exemption criteria. It does not amend the 2015 table entry listing sections 101–107 and 109, and it does not amend paragraph 2A's section 137/section 92 filing-default condition.
+- Evidence and source limitations recorded in `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`; source map updated.
+- **Status unchanged:** section 106 remains `review` / `SOURCE_CHECK_REQUIRED`. Original MCA PDFs remain inaccessible in this environment; subsequent-instrument/current-law review, primary case-law review, repository validators, integration/E2E, release checks and human legal sign-off remain open.
