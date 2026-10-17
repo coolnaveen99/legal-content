@@ -186,3 +186,11 @@ A bounded search surfaced S. Natarajan v. S.V. Global Mills Ltd. (Madras HC, Rev
 - The corrigendum replaces “statement or” with “statement and” in paragraph 5, Table column (3), item (ii), concerning the private-company section 143(3)(i) auditor-reporting exemption criteria. It does not amend the 2015 table entry listing sections 101–107 and 109, and it does not amend paragraph 2A's section 137/section 92 filing-default condition.
 - Evidence and source limitations recorded in `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`; source map updated.
 - **Status unchanged:** section 106 remains `review` / `SOURCE_CHECK_REQUIRED`. Original MCA PDFs remain inaccessible in this environment; subsequent-instrument/current-law review, primary case-law review, repository validators, integration/E2E, release checks and human legal sign-off remain open.
+
+
+### Section 106 legacy case-law lead disposition — 2026-10-17
+
+- Screened the remaining indexed leads against reproduced judgment text.
+- *Industrial Investment Bank of India Ltd. v. Persis A. Khambatta* (Calcutta HC, 12 March 2026) and *Paritej Molecules Pvt. Ltd.* (Gujarat HC, 9 July 2008) concern section 106 of the Companies Act, 1956 (variation of class-share rights), not section 106 of the Companies Act, 2013 (restriction on voting rights). They are excluded from the 2013 Act section 106 judgment decoder.
+- No substantive ratio under the 2013 Act section 106 was verified in this bounded pass. Details and links are in `docs/VER-001-COMPANY-CA-S-106-STATUTORY-SOURCE-CHECK-2026-10-17.md`.
+- **Status unchanged:** `review` / `SOURCE_CHECK_REQUIRED`; no canonical case record or topic content changed. The search is not exhaustive; current-law review, broader primary-case-law coverage, repository-wide validators, integrated/E2E, release checks and human legal sign-off remain open.
